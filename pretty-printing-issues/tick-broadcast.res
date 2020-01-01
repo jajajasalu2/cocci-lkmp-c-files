@@ -1,0 +1,1 @@
+	cpumask_var_t tick_broadcast_force_mask cocci_id;
