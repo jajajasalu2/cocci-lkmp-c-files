@@ -369,7 +369,7 @@ cocci_test_suite() {struct kernel_param_ops cocci_id/* mm/zswap.c 89 */;
 	struct task_struct *__maybe_unusedcocci_id/* mm/util.c 308 */;
 	ssize_t cocci_id/* mm/userfaultfd.c 397 */(struct mm_struct *dst_mm, struct vm_area_struct *dst_vma, unsigned long dst_start, unsigned long src_start, unsigned long len, bool zeropage);
 	void __noreturn cocci_id/* mm/usercopy.c 83 */;
-	const void *constcocci_id/* mm/usercopy.c 36 */;
+	const void *constcocci_id/* mm/usercopy.c 36 */; // err
 	void (*cocci_id/* mm/truncate.c 155 */)(struct page *, unsigned int, unsigned int);
 	swp_entry_t cocci_id/* mm/swapfile.c 992 */[];
 	struct swap_info_struct *cocci_id/* mm/swapfile.c 92 */[MAX_SWAPFILES];
@@ -541,7 +541,7 @@ cocci_test_suite() {struct kernel_param_ops cocci_id/* mm/zswap.c 89 */;
 	char cocci_id/* mm/slab_common.c 643 */[NAME_MAX + 1];
 	bool
 usercopy_fallback
- cocci_id/* mm/slab_common.c 37 */;
+ cocci_id/* mm/slab_common.c 37 */; // tick-broadcast-err
 	enum slab_state cocci_id/* mm/slab_common.c 31 */;
 	struct memcg_cache_array cocci_id/* mm/slab_common.c 194 */;
 	struct slabinfo cocci_id/* mm/slab_common.c 1460 */;
@@ -608,7 +608,7 @@ usercopy_fallback
 	enum mm_shuffle_ctl cocci_id/* mm/shuffle.c 22 */;
 	unsigned long
 shuffle_state
- cocci_id/* mm/shuffle.c 13 */;
+ cocci_id/* mm/shuffle.c 13 */; // tick-broadcast-err
 	const struct path *cocci_id/* mm/shmem.c 997 */;
 	struct kstat *cocci_id/* mm/shmem.c 997 */;
 	struct vfsmount *cocci_id/* mm/shmem.c 4092 */;
@@ -713,10 +713,10 @@ shuffle_state
 	void __percpu *cocci_id/* mm/percpu.c 1794 */;
 	struct list_head *
 pcpu_slot
-cocci_id/* mm/percpu.c 162 */;
+cocci_id/* mm/percpu.c 162 */; // tick-broadcast-err
 	struct pcpu_chunk *
 pcpu_reserved_chunk
-cocci_id/* mm/percpu.c 157 */;
+cocci_id/* mm/percpu.c 157 */; // tick-broadcast-err
 	int __init cocci_id/* mm/percpu.c 1532 */(const struct pcpu_alloc_info *ai);
 	struct page *cocci_id/* mm/percpu.c 1531 */(void *addr);
 	void cocci_id/* mm/percpu.c 1530 */(struct pcpu_chunk *chunk);
@@ -725,51 +725,51 @@ cocci_id/* mm/percpu.c 157 */;
 	int cocci_id/* mm/percpu.c 1525 */(struct pcpu_chunk *chunk, int page_start, int page_end, gfp_t gfp);
 	struct pcpu_chunk *
 pcpu_first_chunk
-cocci_id/* mm/percpu.c 150 */;
+cocci_id/* mm/percpu.c 150 */; // tick-broadcast-err
 	const size_t *
 pcpu_group_sizes
-cocci_id/* mm/percpu.c 143 */;
+cocci_id/* mm/percpu.c 143 */; // tick-broadcast-err
 	const unsigned long *
 pcpu_group_offsets
-cocci_id/* mm/percpu.c 142 */;
+cocci_id/* mm/percpu.c 142 */; // tick-broadcast-err
 	int
 pcpu_nr_groups
- cocci_id/* mm/percpu.c 141 */;
+ cocci_id/* mm/percpu.c 141 */; // tick-broadcast-err
 	const unsigned long *
 pcpu_unit_offsets
-cocci_id/* mm/percpu.c 138 */;
+cocci_id/* mm/percpu.c 138 */; // tick-broadcast-err
 	const int *
 pcpu_unit_map
-cocci_id/* mm/percpu.c 137 */;
+cocci_id/* mm/percpu.c 137 */; // tick-broadcast-err
 	void *
 pcpu_base_addr
-cocci_id/* mm/percpu.c 134 */;
+cocci_id/* mm/percpu.c 134 */; // tick-broadcast-err
 	struct pcpu_chunk cocci_id/* mm/percpu.c 1330 */;
 	unsigned int
 pcpu_high_unit_cpu
- cocci_id/* mm/percpu.c 131 */;
+ cocci_id/* mm/percpu.c 131 */; // tick-broadcast-err
 	struct pcpu_chunk *__initcocci_id/* mm/percpu.c 1308 */;
 	unsigned int
 pcpu_low_unit_cpu
- cocci_id/* mm/percpu.c 130 */;
+ cocci_id/* mm/percpu.c 130 */; // tick-broadcast-err
 	size_t
 pcpu_chunk_struct_size
- cocci_id/* mm/percpu.c 127 */;
+ cocci_id/* mm/percpu.c 127 */; // tick-broadcast-err
 	int
 pcpu_nr_slots
- cocci_id/* mm/percpu.c 126 */;
+ cocci_id/* mm/percpu.c 126 */; // tick-broadcast-err
 	int
 pcpu_atom_size
- cocci_id/* mm/percpu.c 125 */;
+ cocci_id/* mm/percpu.c 125 */; // tick-broadcast-err
 	int
 pcpu_nr_units
- cocci_id/* mm/percpu.c 124 */;
+ cocci_id/* mm/percpu.c 124 */; // tick-broadcast-err
 	int
 pcpu_unit_size
- cocci_id/* mm/percpu.c 123 */;
+ cocci_id/* mm/percpu.c 123 */; // tick-broadcast-err
 	int
 pcpu_unit_pages
- cocci_id/* mm/percpu.c 122 */;
+ cocci_id/* mm/percpu.c 122 */; // tick-broadcast-err
 	void __force *cocci_id/* mm/percpu.c 112 */;
 	struct vm_struct **cocci_id/* mm/percpu-vm.c 334 */;
 	struct pcpu_block_md *cocci_id/* mm/percpu-stats.c 55 */;
@@ -847,13 +847,13 @@ pcpu_unit_pages
 	} cocci_id/* mm/page_alloc.c 3323 */;
 	struct per_cpu_pages *cocci_id/* mm/page_alloc.c 3217 */;
 	enum numa_stat_item cocci_id/* mm/page_alloc.c 3195 */;
-	compound_page_dtor *constcocci_id/* mm/page_alloc.c 305 */[];
+	compound_page_dtor *constcocci_id/* mm/page_alloc.c 305 */[]; // err
 	struct pcpu_drain *cocci_id/* mm/page_alloc.c 2951 */;
 	struct per_cpu_pageset *cocci_id/* mm/page_alloc.c 2926 */;
-	const char *constcocci_id/* mm/page_alloc.c 292 */[MIGRATE_TYPES];
+	const char *constcocci_id/* mm/page_alloc.c 292 */[MIGRATE_TYPES]; // err
 	cpumask_t cocci_id/* mm/page_alloc.c 2899 */;
 	struct pcpu_drain cocci_id/* mm/page_alloc.c 2870 */;
-	char *constcocci_id/* mm/page_alloc.c 275 */[MAX_NR_ZONES];
+	char *constcocci_id/* mm/page_alloc.c 275 */[MAX_NR_ZONES]; // err
 	int cocci_id/* mm/page_alloc.c 261 */[MAX_NR_ZONES];
 	int cocci_id/* mm/page_alloc.c 2220 */[MIGRATE_TYPES][4];
 	bool __ref cocci_id/* mm/page_alloc.c 1926 */;
@@ -864,7 +864,7 @@ pcpu_unit_pages
 	nodemask_t cocci_id/* mm/page_alloc.c 117 */[NR_NODE_STATES]__read_mostly;
 	volatile unsigned long
 latent_entropy
- cocci_id/* mm/page_alloc.c 110 */; // err
+ cocci_id/* mm/page_alloc.c 110 */; // tick-broadcast-err
 	struct pcpu_drain {
 		struct zone *zone;
 		struct work_struct work;
@@ -1125,7 +1125,7 @@ latent_entropy
 	struct mem_cgroup_threshold_ary *cocci_id/* mm/memcontrol.c 3853 */;
 	struct zone_reclaim_stat *cocci_id/* mm/memcontrol.c 3804 */;
 	const unsigned int cocci_id/* mm/memcontrol.c 3737 */[];
-	const char *constcocci_id/* mm/memcontrol.c 3725 */[];
+	const char *constcocci_id/* mm/memcontrol.c 3725 */[]; // err
 	struct memcg_shrinker_map *cocci_id/* mm/memcontrol.c 372 */;
 	const struct numa_stat *cocci_id/* mm/memcontrol.c 3677 */;
 	const struct numa_stat cocci_id/* mm/memcontrol.c 3671 */[];
@@ -1215,46 +1215,46 @@ latent_entropy
 	struct pglist_data __refdata cocci_id/* mm/memblock.c 95 */;
 	int
 __init_memblock
- cocci_id/* mm/memblock.c 693 */;
+ cocci_id/* mm/memblock.c 693 */; // tick-broadcast-err
 	struct memblock_region cocci_id/* mm/memblock.c 380 */;
 	unsigned long __init cocci_id/* mm/memblock.c 1947 */;
 	void
 __init_memblock
- cocci_id/* mm/memblock.c 1904 */;
+ cocci_id/* mm/memblock.c 1904 */; // tick-broadcast-err
 	enum memblock_flags cocci_id/* mm/memblock.c 188 */;
 	phys_addr_t
 __init_memblock
- cocci_id/* mm/memblock.c 185 */;
+ cocci_id/* mm/memblock.c 185 */; // tick-broadcast-err
 	bool
 __init_memblock
- cocci_id/* mm/memblock.c 1779 */;
+ cocci_id/* mm/memblock.c 1779 */; // tick-broadcast-err
 	struct memblock_region *cocci_id/* mm/memblock.c 1669 */;
 	phys_addr_t
 __init_memblock
- cocci_id/* mm/memblock.c 1666 */;
+ cocci_id/* mm/memblock.c 1666 */; // tick-broadcast-err
 	unsigned long
 __init_memblock
- cocci_id/* mm/memblock.c 152 */;
+ cocci_id/* mm/memblock.c 152 */; // tick-broadcast-err
 	void *__initcocci_id/* mm/memblock.c 1504 */;
 	int
 memblock_reserved_in_slab
- cocci_id/* mm/memblock.c 136 */;
+ cocci_id/* mm/memblock.c 136 */; // tick-broadcast-err
 	int
 memblock_memory_in_slab
- cocci_id/* mm/memblock.c 135 */;
+ cocci_id/* mm/memblock.c 135 */; // tick-broadcast-err
 	phys_addr_t __init cocci_id/* mm/memblock.c 1340 */;
 	int
 memblock_can_resize
- cocci_id/* mm/memblock.c 134 */;
+ cocci_id/* mm/memblock.c 134 */; // tick-broadcast-err
 	bool
 system_has_some_mirror
- cocci_id/* mm/memblock.c 133 */;
+ cocci_id/* mm/memblock.c 133 */; // tick-broadcast-err
 	int
 memblock_debug
- cocci_id/* mm/memblock.c 132 */;
+ cocci_id/* mm/memblock.c 132 */; // tick-broadcast-err
 	void
 __init_memblock
- cocci_id/* mm/memblock.c 1266 */;
+ cocci_id/* mm/memblock.c 1266 */; // tick-broadcast-err
 	struct memblock_type *cocci_id/* mm/memblock.c 1196 */;
 	struct memblock cocci_id/* mm/memblock.c 110 */;
 	struct memblock_region cocci_id/* mm/memblock.c 107 */[INIT_PHYSMEM_REGIONS];
@@ -1287,15 +1287,15 @@ __init_memblock
 	struct madvise_walk_private *cocci_id/* mm/madvise.c 304 */;
 	struct blk_plug cocci_id/* mm/madvise.c 1055 */;
 	long __weak cocci_id/* mm/maccess.c 83 */(void *dst, const void __user *src, size_t size)
-    __attribute__((alias("__probe_user_read")));
+    __attribute__((alias("__probe_user_read"))); // err
 	mm_segment_t cocci_id/* mm/maccess.c 63 */;
 	long __weak cocci_id/* mm/maccess.c 54 */(void *dst, const void *src, size_t size)
-    __attribute__((alias("__probe_kernel_read")));
+    __attribute__((alias("__probe_kernel_read"))); // err
 	const char __user __force *cocci_id/* mm/maccess.c 197 */;
 	long __weak cocci_id/* mm/maccess.c 177 */(char *dst, const void *unsafe_addr, long count)
-    __attribute__((alias("__strncpy_from_unsafe")));
+    __attribute__((alias("__strncpy_from_unsafe"))); // err
 	long __weak cocci_id/* mm/maccess.c 136 */(void __user *dst, const void *src, size_t size)
-    __attribute__((alias("__probe_user_write")));
+    __attribute__((alias("__probe_user_write"))); // err
 	long __weak cocci_id/* mm/maccess.c 110 */(void *dst, const void *src, size_t size)
     __attribute__((alias("__probe_kernel_write")));
 	struct mem_cgroup **cocci_id/* mm/list_lru.c 72 */;
