@@ -1,0 +1,3 @@
+	bool
+usercopy_fallback
+ cocci_id/* mm/slab_common.c 37 */; // tick-broadcast-err

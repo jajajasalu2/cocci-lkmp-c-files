@@ -1,0 +1,3 @@
+	struct list_head *
+pcpu_slot
+cocci_id/* mm/percpu.c 162 */; // tick-broadcast-err

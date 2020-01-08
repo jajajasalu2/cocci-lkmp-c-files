@@ -1,0 +1,3 @@
+	size_t
+pcpu_chunk_struct_size
+ cocci_id/* mm/percpu.c 127 */; // tick-broadcast-err
