@@ -1,0 +1,3 @@
+	nokprobe_inline
+bool
+ cocci_id/* kernel/trace/trace_kprobe.c 102 */;
