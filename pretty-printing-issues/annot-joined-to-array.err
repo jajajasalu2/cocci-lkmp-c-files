@@ -1,0 +1,1 @@
+	char cocci_id/* kernel/trace/trace_events.c 2928 */[COMMAND_LINE_SIZE]__initdata; // err
