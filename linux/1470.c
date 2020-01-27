@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	struct usb_descriptor_header *cocci_id/* drivers/usb/gadget/function/f_loopback.c 73 */;
+	struct usb_descriptor_header *cocci_id/* drivers/usb/gadget/function/f_loopback.c 72 */[];
+	struct usb_endpoint_descriptor cocci_id/* drivers/usb/gadget/function/f_loopback.c 64 */;
+	void __exit cocci_id/* drivers/usb/gadget/function/f_loopback.c 593 */;
+	int __init cocci_id/* drivers/usb/gadget/function/f_loopback.c 588 */;
+	struct usb_function_instance *cocci_id/* drivers/usb/gadget/function/f_loopback.c 561 */;
+	const struct config_item_type cocci_id/* drivers/usb/gadget/function/f_loopback.c 555 */;
+	struct configfs_attribute *cocci_id/* drivers/usb/gadget/function/f_loopback.c 549 */[];
+	u32 cocci_id/* drivers/usb/gadget/function/f_loopback.c 528 */;
+	const char *cocci_id/* drivers/usb/gadget/function/f_loopback.c 524 */;
+	size_t cocci_id/* drivers/usb/gadget/function/f_loopback.c 524 */;
+	struct f_lb_opts *cocci_id/* drivers/usb/gadget/function/f_loopback.c 513 */;
+	struct config_item *cocci_id/* drivers/usb/gadget/function/f_loopback.c 511 */;
+	char *cocci_id/* drivers/usb/gadget/function/f_loopback.c 511 */;
+	ssize_t cocci_id/* drivers/usb/gadget/function/f_loopback.c 511 */;
+	struct configfs_item_operations cocci_id/* drivers/usb/gadget/function/f_loopback.c 469 */;
+	struct usb_interface_descriptor cocci_id/* drivers/usb/gadget/function/f_loopback.c 45 */;
+	unsigned cocci_id/* drivers/usb/gadget/function/f_loopback.c 408 */;
+	struct f_loopback cocci_id/* drivers/usb/gadget/function/f_loopback.c 40 */;
+	struct usb_function *cocci_id/* drivers/usb/gadget/function/f_loopback.c 38 */;
+	struct usb_ep *cocci_id/* drivers/usb/gadget/function/f_loopback.c 361 */;
+	struct usb_request *cocci_id/* drivers/usb/gadget/function/f_loopback.c 313 */;
+	struct f_loopback *cocci_id/* drivers/usb/gadget/function/f_loopback.c 311 */;
+	struct usb_composite_dev *cocci_id/* drivers/usb/gadget/function/f_loopback.c 310 */;
+	int cocci_id/* drivers/usb/gadget/function/f_loopback.c 310 */;
+	void cocci_id/* drivers/usb/gadget/function/f_loopback.c 296 */;
+	struct f_loopback {
+		struct usb_function function;
+		struct usb_ep *in_ep;
+		struct usb_ep *out_ep;
+		unsigned qlen;
+		unsigned buflen;
+	} cocci_id/* drivers/usb/gadget/function/f_loopback.c 28 */;
+	struct f_lb_opts cocci_id/* drivers/usb/gadget/function/f_loopback.c 225 */;
+	struct usb_configuration *cocci_id/* drivers/usb/gadget/function/f_loopback.c 166 */;
+	struct usb_gadget_strings *cocci_id/* drivers/usb/gadget/function/f_loopback.c 159 */[];
+	struct usb_gadget_strings cocci_id/* drivers/usb/gadget/function/f_loopback.c 154 */;
+	struct usb_string cocci_id/* drivers/usb/gadget/function/f_loopback.c 149 */[];
+	struct usb_ss_ep_comp_descriptor cocci_id/* drivers/usb/gadget/function/f_loopback.c 130 */;
+}

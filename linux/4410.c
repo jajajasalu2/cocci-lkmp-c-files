@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	long cocci_id/* drivers/char/tpm/xen-tpmfront.c 60 */;
+	wait_queue_head_t *cocci_id/* drivers/char/tpm/xen-tpmfront.c 56 */;
+	void __exit cocci_id/* drivers/char/tpm/xen-tpmfront.c 446 */;
+	int __init cocci_id/* drivers/char/tpm/xen-tpmfront.c 434 */;
+	struct xenbus_driver cocci_id/* drivers/char/tpm/xen-tpmfront.c 426 */;
+	const struct xenbus_device_id cocci_id/* drivers/char/tpm/xen-tpmfront.c 420 */[];
+	bool *cocci_id/* drivers/char/tpm/xen-tpmfront.c 41 */;
+	enum xenbus_state cocci_id/* drivers/char/tpm/xen-tpmfront.c 393 */;
+	struct xenbus_device *cocci_id/* drivers/char/tpm/xen-tpmfront.c 392 */;
+	void cocci_id/* drivers/char/tpm/xen-tpmfront.c 392 */;
+	const struct xenbus_device_id *cocci_id/* drivers/char/tpm/xen-tpmfront.c 347 */;
+	unsigned long cocci_id/* drivers/char/tpm/xen-tpmfront.c 336 */;
+	enum status_bits{VTPM_STATUS_RUNNING=0x1, VTPM_STATUS_IDLE=0x2, VTPM_STATUS_RESULT=0x4, VTPM_STATUS_CANCELED=0x8,} cocci_id/* drivers/char/tpm/xen-tpmfront.c 33 */;
+	struct tpm_private *cocci_id/* drivers/char/tpm/xen-tpmfront.c 329 */;
+	void *cocci_id/* drivers/char/tpm/xen-tpmfront.c 258 */;
+	grant_ref_t cocci_id/* drivers/char/tpm/xen-tpmfront.c 256 */;
+	const char *cocci_id/* drivers/char/tpm/xen-tpmfront.c 254 */;
+	struct xenbus_transaction cocci_id/* drivers/char/tpm/xen-tpmfront.c 253 */;
+	struct tpm_chip *cocci_id/* drivers/char/tpm/xen-tpmfront.c 236 */;
+	struct device *cocci_id/* drivers/char/tpm/xen-tpmfront.c 234 */;
+	int cocci_id/* drivers/char/tpm/xen-tpmfront.c 234 */;
+	irqreturn_t cocci_id/* drivers/char/tpm/xen-tpmfront.c 217 */;
+	const struct tpm_class_ops cocci_id/* drivers/char/tpm/xen-tpmfront.c 207 */;
+	struct tpm_private {
+		struct tpm_chip *chip;
+		struct xenbus_device *dev;
+		struct vtpm_shared_page *shr;
+		unsigned int evtchn;
+		int ring_ref;
+		domid_t backend_id;
+		int irq;
+		wait_queue_head_t read_queue;
+	} cocci_id/* drivers/char/tpm/xen-tpmfront.c 20 */;
+	u8 *cocci_id/* drivers/char/tpm/xen-tpmfront.c 176 */;
+	size_t cocci_id/* drivers/char/tpm/xen-tpmfront.c 176 */;
+	struct tpm_header *cocci_id/* drivers/char/tpm/xen-tpmfront.c 163 */;
+	u32 cocci_id/* drivers/char/tpm/xen-tpmfront.c 131 */;
+	struct vtpm_shared_page *cocci_id/* drivers/char/tpm/xen-tpmfront.c 129 */;
+	unsigned int cocci_id/* drivers/char/tpm/xen-tpmfront.c 129 */;
+	u8 cocci_id/* drivers/char/tpm/xen-tpmfront.c 116 */;
+	bool cocci_id/* drivers/char/tpm/xen-tpmfront.c 116 */;
+}

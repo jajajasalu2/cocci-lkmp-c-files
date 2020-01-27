@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	struct flow_rule *cocci_id/* net/core/flow_offload.c 8 */;
+	struct flow_match_vlan *cocci_id/* net/core/flow_offload.c 66 */;
+	struct flow_match_eth_addrs *cocci_id/* net/core/flow_offload.c 52 */;
+	int __init cocci_id/* net/core/flow_offload.c 517 */;
+	void cocci_id/* net/core/flow_offload.c 451 */;
+	struct flow_match_control *cocci_id/* net/core/flow_offload.c 45 */;
+	struct flow_indr_block_dev *cocci_id/* net/core/flow_offload.c 414 */;
+	struct flow_indr_block_cb *cocci_id/* net/core/flow_offload.c 413 */;
+	flow_indr_block_bind_cb_t *cocci_id/* net/core/flow_offload.c 410 */;
+	struct net_device *cocci_id/* net/core/flow_offload.c 409 */;
+	void *cocci_id/* net/core/flow_offload.c 409 */;
+	int cocci_id/* net/core/flow_offload.c 409 */;
+	struct flow_indr_block_entry *cocci_id/* net/core/flow_offload.c 400 */;
+	enum flow_block_command cocci_id/* net/core/flow_offload.c 398 */;
+	struct flow_match_basic *cocci_id/* net/core/flow_offload.c 38 */;
+	const struct flow_rule *cocci_id/* net/core/flow_offload.c 37 */;
+	struct flow_match_meta *cocci_id/* net/core/flow_offload.c 31 */;
+	struct flow_indr_block_dev cocci_id/* net/core/flow_offload.c 305 */;
+	const struct rhashtable_params cocci_id/* net/core/flow_offload.c 304 */;
+	struct flow_indr_block_dev {
+		struct rhash_head ht_node;
+		struct net_device *dev;
+		unsigned int refcnt;
+		struct list_head cb_list;
+	} cocci_id/* net/core/flow_offload.c 297 */;
+	struct flow_indr_block_cb {
+		struct list_head list;
+		void *cb_priv;
+		flow_indr_block_bind_cb_t *cb;
+		void *cb_ident;
+	} cocci_id/* net/core/flow_offload.c 290 */;
+	struct rhashtable cocci_id/* net/core/flow_offload.c 288 */;
+	struct flow_block_offload *cocci_id/* net/core/flow_offload.c 246 */;
+	struct list_head *cocci_id/* net/core/flow_offload.c 232 */;
+	bool cocci_id/* net/core/flow_offload.c 231 */;
+	unsigned int cocci_id/* net/core/flow_offload.c 225 */;
+	struct flow_block *cocci_id/* net/core/flow_offload.c 198 */;
+	void (*cocci_id/* net/core/flow_offload.c 172 */)(void *cb_priv);
+	flow_setup_cb_t *cocci_id/* net/core/flow_offload.c 170 */;
+	struct flow_block_cb *cocci_id/* net/core/flow_offload.c 170 */;
+	struct flow_match_enc_opts *cocci_id/* net/core/flow_offload.c 164 */;
+	struct flow_match_enc_keyid *cocci_id/* net/core/flow_offload.c 157 */;
+	struct flow_match_ports *cocci_id/* net/core/flow_offload.c 150 */;
+	struct flow_match_ip *cocci_id/* net/core/flow_offload.c 143 */;
+	struct flow_match_ipv6_addrs *cocci_id/* net/core/flow_offload.c 136 */;
+	struct flow_match_ipv4_addrs *cocci_id/* net/core/flow_offload.c 129 */;
+	struct flow_match_mpls *cocci_id/* net/core/flow_offload.c 115 */;
+	struct flow_match_icmp *cocci_id/* net/core/flow_offload.c 108 */;
+	struct flow_match_tcp *cocci_id/* net/core/flow_offload.c 101 */;
+}

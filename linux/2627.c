@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct ptp_pin_desc *cocci_id/* drivers/ptp/ptp_chardev.c 52 */;
+	struct ptp_extts_event cocci_id/* drivers/ptp/ptp_chardev.c 409 */;
+	struct ptp_extts_event *cocci_id/* drivers/ptp/ptp_chardev.c 404 */;
+	struct timestamp_event_queue *cocci_id/* drivers/ptp/ptp_chardev.c 403 */;
+	uint cocci_id/* drivers/ptp/ptp_chardev.c 400 */;
+	char __user *cocci_id/* drivers/ptp/ptp_chardev.c 400 */;
+	size_t cocci_id/* drivers/ptp/ptp_chardev.c 400 */;
+	ssize_t cocci_id/* drivers/ptp/ptp_chardev.c 399 */;
+	__poll_t cocci_id/* drivers/ptp/ptp_chardev.c 388 */;
+	poll_table *cocci_id/* drivers/ptp/ptp_chardev.c 388 */;
+	struct file *cocci_id/* drivers/ptp/ptp_chardev.c 388 */;
+	struct ptp_clock_request cocci_id/* drivers/ptp/ptp_chardev.c 21 */;
+	enum ptp_pin_function cocci_id/* drivers/ptp/ptp_chardev.c 19 */;
+	unsigned int cocci_id/* drivers/ptp/ptp_chardev.c 19 */;
+	struct ptp_clock_info *cocci_id/* drivers/ptp/ptp_chardev.c 18 */;
+	int cocci_id/* drivers/ptp/ptp_chardev.c 18 */;
+	void __user *cocci_id/* drivers/ptp/ptp_chardev.c 139 */;
+	struct timespec64 cocci_id/* drivers/ptp/ptp_chardev.c 123 */;
+	struct ptp_pin_desc cocci_id/* drivers/ptp/ptp_chardev.c 122 */;
+	struct ptp_clock_time *cocci_id/* drivers/ptp/ptp_chardev.c 120 */;
+	struct ptp_clock_caps cocci_id/* drivers/ptp/ptp_chardev.c 119 */;
+	struct ptp_system_timestamp cocci_id/* drivers/ptp/ptp_chardev.c 117 */;
+	struct ptp_sys_offset *cocci_id/* drivers/ptp/ptp_chardev.c 116 */;
+	struct system_device_crosststamp cocci_id/* drivers/ptp/ptp_chardev.c 114 */;
+	struct ptp_sys_offset_precise cocci_id/* drivers/ptp/ptp_chardev.c 113 */;
+	struct ptp_sys_offset_extended *cocci_id/* drivers/ptp/ptp_chardev.c 112 */;
+	struct ptp_clock cocci_id/* drivers/ptp/ptp_chardev.c 111 */;
+	struct ptp_clock *cocci_id/* drivers/ptp/ptp_chardev.c 111 */;
+	struct posix_clock *cocci_id/* drivers/ptp/ptp_chardev.c 109 */;
+	unsigned long cocci_id/* drivers/ptp/ptp_chardev.c 109 */;
+	long cocci_id/* drivers/ptp/ptp_chardev.c 109 */;
+	fmode_t cocci_id/* drivers/ptp/ptp_chardev.c 104 */;
+}

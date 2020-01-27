@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	enum hnae3_reset_type cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 89 */;
+	struct hclge_desc *cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 666 */;
+	struct hclge_cmq_ring *cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 663 */;
+	struct hnae3_ae_dev *cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 654 */;
+	u32 cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 647 */;
+	bool cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 645 */;
+	struct hclge_hw *cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 645 */;
+	u8 cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 601 */[HCLGE_RSS_MBX_RESP_LEN];
+	u8 cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 587 */[2];
+	u8 cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 524 */[10];
+	unsigned long cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 521 */;
+	u8 cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 488 */;
+	u8 cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 487 */[8];
+	u8 cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 457 */[HCLGE_TQPS_DEPTH_INFO_LEN];
+	u8 cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 433 */[HCLGE_TQPS_RSS_INFO_LEN];
+	unsigned int cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 416 */;
+	struct hnae3_knic_private_info *cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 414 */;
+	u16 *cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 378 */;
+	struct hclge_vlan_info *cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 377 */;
+	struct hnae3_handle *cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 359 */;
+	struct hclge_vf_vlan_cfg *cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 354 */;
+	u8 cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 340 */[MSG_DATA_SIZE];
+	const u8 *cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 304 */;
+	struct hclge_desc cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 23 */;
+	enum hclge_cmd_status cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 22 */;
+	struct hclge_dev *cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 21 */;
+	struct hclge_mbx_pf_to_vf_cmd *cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 20 */;
+	struct hnae3_ring_chain_node cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 189 */;
+	u16 cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 18 */;
+	u8 *cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 18 */;
+	struct hclge_mbx_vf_to_pf_cmd *cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 16 */;
+	struct hclge_vport *cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 15 */;
+	int cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 15 */;
+	struct hnae3_ring_chain_node *cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 109 */;
+	void cocci_id/* drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_mbx.c 109 */;
+}

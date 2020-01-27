@@ -1,0 +1,56 @@
+cocci_test_suite() {
+	struct lp8788_chg_irq {
+		enum lp8788_int_id which;
+		int virq;
+	} cocci_id/* drivers/power/supply/lp8788-charger.c 85 */;
+	enum lp8788_charger_input_state{LP8788_SYSTEM_SUPPLY=1, LP8788_FULL_FUNCTION,} cocci_id/* drivers/power/supply/lp8788-charger.c 75 */;
+	struct platform_driver cocci_id/* drivers/power/supply/lp8788-charger.c 743 */;
+	struct device *cocci_id/* drivers/power/supply/lp8788-charger.c 703 */;
+	struct lp8788 *cocci_id/* drivers/power/supply/lp8788-charger.c 701 */;
+	struct platform_device *cocci_id/* drivers/power/supply/lp8788-charger.c 699 */;
+	enum lp8788_charger_adc_sel{LP8788_VBATT, LP8788_BATT_TEMP, LP8788_NUM_CHG_ADC,} cocci_id/* drivers/power/supply/lp8788-charger.c 69 */;
+	struct power_supply_config cocci_id/* drivers/power/supply/lp8788-charger.c 677 */;
+	struct attribute *cocci_id/* drivers/power/supply/lp8788-charger.c 665 */[];
+	const char *const cocci_id/* drivers/power/supply/lp8788-charger.c 642 */[];
+	const char *const cocci_id/* drivers/power/supply/lp8788-charger.c 601 */[LP8788_MAX_CHG_STATE];
+	struct device_attribute *cocci_id/* drivers/power/supply/lp8788-charger.c 597 */;
+	char *cocci_id/* drivers/power/supply/lp8788-charger.c 597 */;
+	ssize_t cocci_id/* drivers/power/supply/lp8788-charger.c 596 */;
+	enum lp8788_charging_state{LP8788_OFF, LP8788_WARM_UP, LP8788_LOW_INPUT=0x3, LP8788_PRECHARGE, LP8788_CC, LP8788_CV, LP8788_MAINTENANCE, LP8788_BATTERY_FAULT, LP8788_SYSTEM_SUPPORT=0xC, LP8788_HIGH_CURRENT=0xF, LP8788_MAX_CHG_STATE,} cocci_id/* drivers/power/supply/lp8788-charger.c 55 */;
+	const char *cocci_id/* drivers/power/supply/lp8788-charger.c 523 */[];
+	struct irq_domain *cocci_id/* drivers/power/supply/lp8788-charger.c 478 */;
+	struct resource *cocci_id/* drivers/power/supply/lp8788-charger.c 477 */;
+	const char *cocci_id/* drivers/power/supply/lp8788-charger.c 475 */;
+	irqreturn_t cocci_id/* drivers/power/supply/lp8788-charger.c 441 */;
+	void *cocci_id/* drivers/power/supply/lp8788-charger.c 441 */;
+	bool cocci_id/* drivers/power/supply/lp8788-charger.c 425 */;
+	int *cocci_id/* drivers/power/supply/lp8788-charger.c 425 */;
+	enum lp8788_charger_event cocci_id/* drivers/power/supply/lp8788-charger.c 420 */;
+	struct lp8788_charger_platform_data *cocci_id/* drivers/power/supply/lp8788-charger.c 419 */;
+	struct lp8788_charger cocci_id/* drivers/power/supply/lp8788-charger.c 418 */;
+	struct work_struct *cocci_id/* drivers/power/supply/lp8788-charger.c 415 */;
+	void cocci_id/* drivers/power/supply/lp8788-charger.c 415 */;
+	const struct power_supply_desc cocci_id/* drivers/power/supply/lp8788-charger.c 401 */;
+	struct lp8788_chg_param *cocci_id/* drivers/power/supply/lp8788-charger.c 370 */;
+	struct lp8788_charger *cocci_id/* drivers/power/supply/lp8788-charger.c 336 */;
+	union power_supply_propval *cocci_id/* drivers/power/supply/lp8788-charger.c 334 */;
+	enum power_supply_property cocci_id/* drivers/power/supply/lp8788-charger.c 333 */;
+	struct power_supply *cocci_id/* drivers/power/supply/lp8788-charger.c 332 */;
+	int cocci_id/* drivers/power/supply/lp8788-charger.c 332 */;
+	struct iio_channel *cocci_id/* drivers/power/supply/lp8788-charger.c 290 */;
+	enum lp8788_charging_state cocci_id/* drivers/power/supply/lp8788-charger.c 256 */;
+	unsigned int cocci_id/* drivers/power/supply/lp8788-charger.c 254 */;
+	u8 cocci_id/* drivers/power/supply/lp8788-charger.c 148 */;
+	enum power_supply_property cocci_id/* drivers/power/supply/lp8788-charger.c 122 */[];
+	char *cocci_id/* drivers/power/supply/lp8788-charger.c 113 */[];
+	struct lp8788_charger {
+		struct lp8788 *lp;
+		struct power_supply *charger;
+		struct power_supply *battery;
+		struct work_struct charger_work;
+		struct iio_channel *chan[LP8788_NUM_CHG_ADC];
+		struct lp8788_chg_irq irqs[LP8788_MAX_CHG_IRQS];
+		int num_irqs;
+		struct lp8788_charger_platform_data *pdata;
+	} cocci_id/* drivers/power/supply/lp8788-charger.c 102 */;
+}

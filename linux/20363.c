@@ -1,0 +1,93 @@
+cocci_test_suite() {
+	u64 cocci_id/* arch/x86/kernel/apm_32.c 905 */;
+	unsigned int cocci_id/* arch/x86/kernel/apm_32.c 904 */;
+	struct cpuidle_driver *cocci_id/* arch/x86/kernel/apm_32.c 901 */;
+	struct cpuidle_device *cocci_id/* arch/x86/kernel/apm_32.c 900 */;
+	apm_eventinfo_t *cocci_id/* arch/x86/kernel/apm_32.c 772 */;
+	apm_event_t *cocci_id/* arch/x86/kernel/apm_32.c 772 */;
+	u_short *cocci_id/* arch/x86/kernel/apm_32.c 745 */;
+	struct apm_bios_call cocci_id/* arch/x86/kernel/apm_32.c 716 */;
+	int *cocci_id/* arch/x86/kernel/apm_32.c 714 */;
+	u32 cocci_id/* arch/x86/kernel/apm_32.c 713 */;
+	u32 *cocci_id/* arch/x86/kernel/apm_32.c 713 */;
+	u8 cocci_id/* arch/x86/kernel/apm_32.c 672 */;
+	long (*cocci_id/* arch/x86/kernel/apm_32.c 624 */)(void *);
+	struct apm_bios_call *cocci_id/* arch/x86/kernel/apm_32.c 600 */;
+	struct desc_struct *cocci_id/* arch/x86/kernel/apm_32.c 599 */;
+	struct desc_struct cocci_id/* arch/x86/kernel/apm_32.c 598 */;
+	int cocci_id/* arch/x86/kernel/apm_32.c 597 */;
+	unsigned long cocci_id/* arch/x86/kernel/apm_32.c 596 */;
+	void *cocci_id/* arch/x86/kernel/apm_32.c 593 */;
+	long cocci_id/* arch/x86/kernel/apm_32.c 593 */;
+	struct apm_bios_call {
+		u32 func;
+		u32 ebx;
+		u32 ecx;
+		u32 eax;
+		u32 edx;
+		u32 esi;
+		int err;
+	} cocci_id/* arch/x86/kernel/apm_32.c 565 */;
+	void cocci_id/* arch/x86/kernel/apm_32.c 528 */;
+	const lookup_t cocci_id/* arch/x86/kernel/apm_32.c 465 */[];
+	struct lookup_t {
+		int key;
+		char *msg;
+	} cocci_id/* arch/x86/kernel/apm_32.c 455 */;
+	const char *const cocci_id/* arch/x86/kernel/apm_32.c 439 */[];
+	struct task_struct *cocci_id/* arch/x86/kernel/apm_32.c 433 */;
+	const char cocci_id/* arch/x86/kernel/apm_32.c 431 */[];
+	bool cocci_id/* arch/x86/kernel/apm_32.c 410 */;
+	struct {
+		unsigned long offset;
+		unsigned short segment;
+	} cocci_id/* arch/x86/kernel/apm_32.c 387 */;
+	struct cpuidle_device cocci_id/* arch/x86/kernel/apm_32.c 382 */;
+	struct cpuidle_driver cocci_id/* arch/x86/kernel/apm_32.c 366 */;
+	int cocci_id/* arch/x86/kernel/apm_32.c 363 */(struct cpuidle_device *dev,
+						       struct cpuidle_driver *drv,
+						       int index);
+	struct apm_user {
+		int magic;
+		struct apm_user *next;
+		unsigned int suser:1;
+		unsigned int writer:1;
+		unsigned int reader:1;
+		unsigned int suspend_wait:1;
+		int suspend_result;
+		int suspends_pending;
+		int standbys_pending;
+		int suspends_read;
+		int standbys_read;
+		int event_head;
+		int event_tail;
+		apm_event_t events[APM_MAX_EVENTS];
+	} cocci_id/* arch/x86/kernel/apm_32.c 331 */;
+	void __exit cocci_id/* arch/x86/kernel/apm_32.c 2386 */;
+	int (*cocci_id/* arch/x86/kernel/apm_32.c 237 */)(int);
+	int __init cocci_id/* arch/x86/kernel/apm_32.c 2252 */;
+	const struct dmi_system_id cocci_id/* arch/x86/kernel/apm_32.c 2031 */[]__initconst;
+	const struct dmi_system_id *cocci_id/* arch/x86/kernel/apm_32.c 1963 */;
+	struct miscdevice cocci_id/* arch/x86/kernel/apm_32.c 1915 */;
+	const struct file_operations cocci_id/* arch/x86/kernel/apm_32.c 1905 */;
+	char *cocci_id/* arch/x86/kernel/apm_32.c 1722 */;
+	unsigned short cocci_id/* arch/x86/kernel/apm_32.c 1718 */;
+	struct seq_file *cocci_id/* arch/x86/kernel/apm_32.c 1635 */;
+	struct inode *cocci_id/* arch/x86/kernel/apm_32.c 1604 */;
+	u_long cocci_id/* arch/x86/kernel/apm_32.c 1518 */;
+	u_int cocci_id/* arch/x86/kernel/apm_32.c 1518 */;
+	struct file *cocci_id/* arch/x86/kernel/apm_32.c 1518 */;
+	__poll_t cocci_id/* arch/x86/kernel/apm_32.c 1505 */;
+	poll_table *cocci_id/* arch/x86/kernel/apm_32.c 1505 */;
+	loff_t *cocci_id/* arch/x86/kernel/apm_32.c 1462 */;
+	char __user *cocci_id/* arch/x86/kernel/apm_32.c 1462 */;
+	ssize_t cocci_id/* arch/x86/kernel/apm_32.c 1462 */;
+	size_t cocci_id/* arch/x86/kernel/apm_32.c 1462 */;
+	const char *cocci_id/* arch/x86/kernel/apm_32.c 1453 */;
+	struct apm_user *cocci_id/* arch/x86/kernel/apm_32.c 1453 */;
+	apm_event_t cocci_id/* arch/x86/kernel/apm_32.c 1322 */;
+	apm_eventinfo_t cocci_id/* arch/x86/kernel/apm_32.c 1305 */;
+	const u_short cocci_id/* arch/x86/kernel/apm_32.c 1132 */[3];
+	u_short cocci_id/* arch/x86/kernel/apm_32.c 1131 */;
+	u16 cocci_id/* arch/x86/kernel/apm_32.c 1050 */;
+}

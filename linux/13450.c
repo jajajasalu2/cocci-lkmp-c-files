@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	enum em28xx_i2c_algo_type cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 975 */;
+	unsigned char cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 949 */;
+	u8 cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 948 */[128];
+	unsigned int cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 946 */;
+	void cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 946 */;
+	char *cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 922 */[128];
+	const struct i2c_client cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 912 */;
+	const struct i2c_adapter cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 906 */;
+	const struct i2c_algorithm cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 901 */;
+	u32 cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 885 */;
+	u8 cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 87 */[6];
+	void *cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 819 */;
+	struct em28xx_eeprom *cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 686 */;
+	const u16 cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 679 */;
+	u16 *cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 677 */;
+	u8 **cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 677 */;
+	u8 cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 642 */[2];
+	bool cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 639 */;
+	char cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 620 */;
+	char *cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 611 */;
+	struct em28xx_i2c_bus *cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 533 */;
+	struct i2c_msg cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 531 */[];
+	struct i2c_adapter *cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 530 */;
+	struct i2c_msg cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 495 */;
+	u8 cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 466 */;
+	u16 cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 464 */;
+	struct em28xx *cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 464 */;
+	int cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 464 */;
+	u8 *cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 409 */;
+	u8 cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 138 */[4];
+	unsigned long cocci_id/* drivers/media/usb/em28xx/em28xx-i2c.c 137 */;
+}

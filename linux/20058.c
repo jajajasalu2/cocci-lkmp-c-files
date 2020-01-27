@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct mm_struct *cocci_id/* arch/mips/kvm/emulate.c 998 */;
+	struct mips_coproc *cocci_id/* arch/mips/kvm/emulate.c 997 */;
+	unsigned long cocci_id/* arch/mips/kvm/emulate.c 995 */;
+	void cocci_id/* arch/mips/kvm/emulate.c 994 */;
+	enum hrtimer_restart cocci_id/* arch/mips/kvm/emulate.c 938 */;
+	ktime_t cocci_id/* arch/mips/kvm/emulate.c 781 */;
+	u64 cocci_id/* arch/mips/kvm/emulate.c 631 */;
+	s64 cocci_id/* arch/mips/kvm/emulate.c 329 */;
+	bool cocci_id/* arch/mips/kvm/emulate.c 2761 */;
+	u32 *cocci_id/* arch/mips/kvm/emulate.c 273 */;
+	struct kvm_vcpu *cocci_id/* arch/mips/kvm/emulate.c 273 */;
+	int cocci_id/* arch/mips/kvm/emulate.c 273 */;
+	struct kvm_run *cocci_id/* arch/mips/kvm/emulate.c 2663 */;
+	enum emulation_result cocci_id/* arch/mips/kvm/emulate.c 2661 */;
+	u8 *cocci_id/* arch/mips/kvm/emulate.c 2615 */;
+	s8 *cocci_id/* arch/mips/kvm/emulate.c 2613 */;
+	u16 *cocci_id/* arch/mips/kvm/emulate.c 2608 */;
+	s16 *cocci_id/* arch/mips/kvm/emulate.c 2606 */;
+	s32 *cocci_id/* arch/mips/kvm/emulate.c 2599 */;
+	s64 *cocci_id/* arch/mips/kvm/emulate.c 2594 */;
+	unsigned long *cocci_id/* arch/mips/kvm/emulate.c 2580 */;
+	struct kvm_vcpu_arch *cocci_id/* arch/mips/kvm/emulate.c 2315 */;
+	s16 cocci_id/* arch/mips/kvm/emulate.c 1804 */;
+	int (*cocci_id/* arch/mips/kvm/emulate.c 1752 */)(unsigned long);
+	u64 *cocci_id/* arch/mips/kvm/emulate.c 1628 */;
+	void *cocci_id/* arch/mips/kvm/emulate.c 1605 */;
+	s32 cocci_id/* arch/mips/kvm/emulate.c 1322 */;
+	union mips_instruction cocci_id/* arch/mips/kvm/emulate.c 1263 */;
+	unsigned int cocci_id/* arch/mips/kvm/emulate.c 1187 */;
+	long cocci_id/* arch/mips/kvm/emulate.c 1166 */;
+	struct kvm_mips_tlb *cocci_id/* arch/mips/kvm/emulate.c 1032 */;
+	u32 cocci_id/* arch/mips/kvm/emulate.c 1000 */;
+}

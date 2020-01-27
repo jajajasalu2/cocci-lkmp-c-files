@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	u16 *cocci_id/* drivers/usb/chipidea/udc.c 884 */;
+	struct usb_ctrlrequest *cocci_id/* drivers/usb/chipidea/udc.c 857 */;
+	struct ci_hdrc *cocci_id/* drivers/usb/chipidea/udc.c 806 */;
+	struct ci_hw_ep cocci_id/* drivers/usb/chipidea/udc.c 804 */;
+	gfp_t __maybe_unused cocci_id/* drivers/usb/chipidea/udc.c 802 */;
+	struct usb_request *cocci_id/* drivers/usb/chipidea/udc.c 801 */;
+	struct usb_ep *cocci_id/* drivers/usb/chipidea/udc.c 801 */;
+	struct ci_hdrc cocci_id/* drivers/usb/chipidea/udc.c 709 */;
+	struct usb_gadget *cocci_id/* drivers/usb/chipidea/udc.c 706 */;
+	unsigned long cocci_id/* drivers/usb/chipidea/udc.c 666 */;
+	bool cocci_id/* drivers/usb/chipidea/udc.c 662 */;
+	struct ci_hw_req cocci_id/* drivers/usb/chipidea/udc.c 637 */;
+	struct ci_hw_req *cocci_id/* drivers/usb/chipidea/udc.c 636 */;
+	struct td_node *cocci_id/* drivers/usb/chipidea/udc.c 627 */;
+	struct ci_hw_ep *cocci_id/* drivers/usb/chipidea/udc.c 623 */;
+	int cocci_id/* drivers/usb/chipidea/udc.c 623 */;
+	unsigned cocci_id/* drivers/usb/chipidea/udc.c 550 */;
+	u32 cocci_id/* drivers/usb/chipidea/udc.c 548 */;
+	struct td_node cocci_id/* drivers/usb/chipidea/udc.c 459 */;
+	const struct usb_endpoint_descriptor cocci_id/* drivers/usb/chipidea/udc.c 41 */;
+	u8 cocci_id/* drivers/usb/chipidea/udc.c 398 */;
+	enum ci_hw_regs cocci_id/* drivers/usb/chipidea/udc.c 220 */;
+	struct ci_role_driver *cocci_id/* drivers/usb/chipidea/udc.c 2043 */;
+	struct ci_hw_td cocci_id/* drivers/usb/chipidea/udc.c 1956 */;
+	struct ci_hw_qh cocci_id/* drivers/usb/chipidea/udc.c 1950 */;
+	struct usb_otg_caps *cocci_id/* drivers/usb/chipidea/udc.c 1930 */;
+	struct device *cocci_id/* drivers/usb/chipidea/udc.c 1929 */;
+	irqreturn_t cocci_id/* drivers/usb/chipidea/udc.c 1860 */;
+	struct usb_gadget_driver *cocci_id/* drivers/usb/chipidea/udc.c 1773 */;
+	unsigned short cocci_id/* drivers/usb/chipidea/udc.c 1724 */;
+	const struct usb_gadget_ops cocci_id/* drivers/usb/chipidea/udc.c 1676 */;
+	struct usb_ss_ep_comp_descriptor *cocci_id/* drivers/usb/chipidea/udc.c 1656 */;
+	struct usb_endpoint_descriptor *cocci_id/* drivers/usb/chipidea/udc.c 1655 */;
+	int cocci_id/* drivers/usb/chipidea/udc.c 1651 */(struct usb_gadget *gadget);
+	int cocci_id/* drivers/usb/chipidea/udc.c 1649 */(struct usb_gadget *gadget,
+							  struct usb_gadget_driver *driver);
+	void cocci_id/* drivers/usb/chipidea/udc.c 1530 */;
+	const struct usb_ep_ops cocci_id/* drivers/usb/chipidea/udc.c 1512 */;
+	gfp_t cocci_id/* drivers/usb/chipidea/udc.c 1334 */;
+	const struct usb_endpoint_descriptor *cocci_id/* drivers/usb/chipidea/udc.c 1227 */;
+	struct usb_ctrlrequest cocci_id/* drivers/usb/chipidea/udc.c 1018 */;
+}

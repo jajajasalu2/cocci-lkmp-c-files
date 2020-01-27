@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	struct expansion_card *cocci_id/* drivers/scsi/arm/eesox.c 98 */;
+	struct eesoxscsi_info {
+		FAS216_Info info;
+		struct expansion_card *ec;
+		void __iomem *base;
+		void __iomem *ctl_port;
+		unsigned int control;
+		struct scatterlist sg[NR_SG];
+	} cocci_id/* drivers/scsi/arm/eesox.c 68 */;
+	int cocci_id/* drivers/scsi/arm/eesox.c 64 */[MAX_ECARDS];
+	void __exit cocci_id/* drivers/scsi/arm/eesox.c 628 */;
+	void cocci_id/* drivers/scsi/arm/eesox.c 628 */;
+	int __init cocci_id/* drivers/scsi/arm/eesox.c 623 */;
+	struct ecard_driver cocci_id/* drivers/scsi/arm/eesox.c 614 */;
+	const struct ecard_id cocci_id/* drivers/scsi/arm/eesox.c 609 */[];
+	struct eesoxscsi_info cocci_id/* drivers/scsi/arm/eesox.c 507 */;
+	const struct ecard_id *cocci_id/* drivers/scsi/arm/eesox.c 489 */;
+	struct scsi_host_template cocci_id/* drivers/scsi/arm/eesox.c 471 */;
+	size_t cocci_id/* drivers/scsi/arm/eesox.c 447 */;
+	struct device_attribute *cocci_id/* drivers/scsi/arm/eesox.c 438 */;
+	ssize_t cocci_id/* drivers/scsi/arm/eesox.c 438 */;
+	struct seq_file *cocci_id/* drivers/scsi/arm/eesox.c 422 */;
+	char *cocci_id/* drivers/scsi/arm/eesox.c 399 */;
+	char cocci_id/* drivers/scsi/arm/eesox.c 382 */[150];
+	const char *cocci_id/* drivers/scsi/arm/eesox.c 379 */;
+	struct eesoxscsi_info *cocci_id/* drivers/scsi/arm/eesox.c 353 */;
+	fasdmadir_t cocci_id/* drivers/scsi/arm/eesox.c 351 */;
+	struct scsi_pointer *cocci_id/* drivers/scsi/arm/eesox.c 350 */;
+	struct Scsi_Host *cocci_id/* drivers/scsi/arm/eesox.c 350 */;
+	u32 *cocci_id/* drivers/scsi/arm/eesox.c 241 */;
+	unsigned long cocci_id/* drivers/scsi/arm/eesox.c 235 */;
+	u16 *cocci_id/* drivers/scsi/arm/eesox.c 228 */;
+	u32 cocci_id/* drivers/scsi/arm/eesox.c 227 */;
+	unsigned int cocci_id/* drivers/scsi/arm/eesox.c 199 */;
+	const unsigned long cocci_id/* drivers/scsi/arm/eesox.c 196 */;
+	const void __iomem *cocci_id/* drivers/scsi/arm/eesox.c 193 */;
+	void __iomem *cocci_id/* drivers/scsi/arm/eesox.c 191 */;
+	void *cocci_id/* drivers/scsi/arm/eesox.c 191 */;
+	int cocci_id/* drivers/scsi/arm/eesox.c 191 */;
+	struct device *cocci_id/* drivers/scsi/arm/eesox.c 159 */;
+	fasdmatype_t cocci_id/* drivers/scsi/arm/eesox.c 154 */;
+	irqreturn_t cocci_id/* drivers/scsi/arm/eesox.c 138 */;
+	const expansioncard_ops_t cocci_id/* drivers/scsi/arm/eesox.c 107 */;
+}

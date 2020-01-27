@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	struct adc128_data {
+		struct i2c_client *client;
+		struct regulator *regulator;
+		int vref;
+		struct mutex update_lock;
+		u8 mode;
+		bool valid;
+		unsigned long last_updated;
+		u16 in[3][8];
+		s16 temp[3];
+		u8 alarms;
+	} cocci_id/* drivers/hwmon/adc128d818.c 59 */;
+	const u8 cocci_id/* drivers/hwmon/adc128d818.c 57 */[];
+	struct i2c_driver cocci_id/* drivers/hwmon/adc128d818.c 521 */;
+	const struct of_device_id __maybe_unused cocci_id/* drivers/hwmon/adc128d818.c 515 */[];
+	const struct i2c_device_id cocci_id/* drivers/hwmon/adc128d818.c 509 */[];
+	struct adc128_data cocci_id/* drivers/hwmon/adc128d818.c 439 */;
+	struct regulator *cocci_id/* drivers/hwmon/adc128d818.c 434 */;
+	const struct i2c_device_id *cocci_id/* drivers/hwmon/adc128d818.c 431 */;
+	struct i2c_client *cocci_id/* drivers/hwmon/adc128d818.c 359 */;
+	struct i2c_board_info *cocci_id/* drivers/hwmon/adc128d818.c 359 */;
+	const struct attribute_group cocci_id/* drivers/hwmon/adc128d818.c 353 */;
+	struct attribute *cocci_id/* drivers/hwmon/adc128d818.c 313 */[];
+	const unsigned short cocci_id/* drivers/hwmon/adc128d818.c 29 */[];
+	struct device cocci_id/* drivers/hwmon/adc128d818.c 251 */;
+	struct attribute *cocci_id/* drivers/hwmon/adc128d818.c 249 */;
+	umode_t cocci_id/* drivers/hwmon/adc128d818.c 248 */;
+	struct kobject *cocci_id/* drivers/hwmon/adc128d818.c 248 */;
+	u8 cocci_id/* drivers/hwmon/adc128d818.c 233 */;
+	int cocci_id/* drivers/hwmon/adc128d818.c 232 */;
+	struct adc128_data *cocci_id/* drivers/hwmon/adc128d818.c 231 */;
+	struct device_attribute *cocci_id/* drivers/hwmon/adc128d818.c 229 */;
+	char *cocci_id/* drivers/hwmon/adc128d818.c 229 */;
+	struct device *cocci_id/* drivers/hwmon/adc128d818.c 228 */;
+	ssize_t cocci_id/* drivers/hwmon/adc128d818.c 228 */;
+	s8 cocci_id/* drivers/hwmon/adc128d818.c 210 */;
+	long cocci_id/* drivers/hwmon/adc128d818.c 170 */;
+	size_t cocci_id/* drivers/hwmon/adc128d818.c 164 */;
+	const char *cocci_id/* drivers/hwmon/adc128d818.c 163 */;
+}

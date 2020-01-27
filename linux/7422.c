@@ -1,0 +1,62 @@
+cocci_test_suite() {
+	char cocci_id/* drivers/video/fbdev/vga16fb.c 958 */;
+	const struct fb_fillrect *cocci_id/* drivers/video/fbdev/vga16fb.c 881 */;
+	const struct fb_fix_screeninfo cocci_id/* drivers/video/fbdev/vga16fb.c 88 */;
+	struct vga16fb_par *cocci_id/* drivers/video/fbdev/vga16fb.c 803 */;
+	struct fb_info *cocci_id/* drivers/video/fbdev/vga16fb.c 801 */;
+	unsigned char cocci_id/* drivers/video/fbdev/vga16fb.c 702 */;
+	struct fb_var_screeninfo cocci_id/* drivers/video/fbdev/vga16fb.c 68 */;
+	const unsigned char cocci_id/* drivers/video/fbdev/vga16fb.c 638 */[];
+	unsigned cocci_id/* drivers/video/fbdev/vga16fb.c 636 */;
+	int cocci_id/* drivers/video/fbdev/vga16fb.c 636 */;
+	void cocci_id/* drivers/video/fbdev/vga16fb.c 636 */;
+	u8 cocci_id/* drivers/video/fbdev/vga16fb.c 523 */[VGA_ATT_C];
+	u8 cocci_id/* drivers/video/fbdev/vga16fb.c 522 */[VGA_SEQ_C];
+	u8 cocci_id/* drivers/video/fbdev/vga16fb.c 521 */[VGA_GFX_C];
+	struct vga16fb_par {
+		struct {
+			unsigned char SeqCtrlIndex;
+			unsigned char CrtCtrlIndex;
+			unsigned char CrtMiscIO;
+			unsigned char HorizontalTotal;
+			unsigned char HorizDisplayEnd;
+			unsigned char StartHorizRetrace;
+			unsigned char EndHorizRetrace;
+			unsigned char Overflow;
+			unsigned char StartVertRetrace;
+			unsigned char EndVertRetrace;
+			unsigned char ModeControl;
+			unsigned char ClockingMode;
+		} vga_state;
+		struct vgastate state;
+		unsigned int ref_count;
+		int palette_blanked,vesa_blanked,mode,isVGA;
+		u8 misc,pel_msk,vss,clkdiv;
+		u8 crtc[VGA_CRT_C];
+	} cocci_id/* drivers/video/fbdev/vga16fb.c 42 */;
+	u8 cocci_id/* drivers/video/fbdev/vga16fb.c 320 */;
+	u32 cocci_id/* drivers/video/fbdev/vga16fb.c 316 */;
+	struct fb_var_screeninfo *cocci_id/* drivers/video/fbdev/vga16fb.c 312 */;
+	struct vgastate cocci_id/* drivers/video/fbdev/vga16fb.c 288 */;
+	const struct {
+		u32 pixclock;
+		u8 misc;
+		u8 seq_clock_mode;
+	} *cocci_id/* drivers/video/fbdev/vga16fb.c 250 */;
+	const struct fb_info *cocci_id/* drivers/video/fbdev/vga16fb.c 247 */;
+	unsigned int cocci_id/* drivers/video/fbdev/vga16fb.c 246 */;
+	void __exit cocci_id/* drivers/video/fbdev/vga16fb.c 1444 */;
+	char *cocci_id/* drivers/video/fbdev/vga16fb.c 1418 */;
+	int __init cocci_id/* drivers/video/fbdev/vga16fb.c 1414 */;
+	struct platform_device *cocci_id/* drivers/video/fbdev/vga16fb.c 1412 */;
+	struct platform_driver cocci_id/* drivers/video/fbdev/vga16fb.c 1404 */;
+	void __iomem *cocci_id/* drivers/video/fbdev/vga16fb.c 1324 */;
+	struct vga16fb_par cocci_id/* drivers/video/fbdev/vga16fb.c 1311 */;
+	struct fb_ops cocci_id/* drivers/video/fbdev/vga16fb.c 1273 */;
+	const struct fb_image *cocci_id/* drivers/video/fbdev/vga16fb.c 1257 */;
+	const char *cocci_id/* drivers/video/fbdev/vga16fb.c 1124 */;
+	volatile char __iomem *cocci_id/* drivers/video/fbdev/vga16fb.c 112 */;
+	const u16 cocci_id/* drivers/video/fbdev/vga16fb.c 1109 */[];
+	char __iomem *cocci_id/* drivers/video/fbdev/vga16fb.c 1016 */;
+	const struct fb_copyarea *cocci_id/* drivers/video/fbdev/vga16fb.c 1011 */;
+}

@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	struct ishtp_msg_hdr cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 92 */;
+	void __exit cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 919 */;
+	int __init cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 909 */;
+	struct ishtp_device *cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 896 */;
+	int cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 896 */;
+	unsigned char cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 88 */[IPC_FULL_MSG_SIZE];
+	void (*cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 85 */)(void *);
+	struct ishtp_cl *cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 740 */;
+	bool cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 737 */;
+	void *cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 635 */;
+	void (*cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 578 */)(struct ishtp_cl_device *);
+	struct work_struct *cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 542 */;
+	void cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 542 */;
+	struct module *cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 503 */;
+	struct ishtp_cl_device cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 445 */;
+	unsigned long cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 431 */;
+	guid_t cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 427 */;
+	char *cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 427 */;
+	struct ishtp_cl_device *cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 426 */;
+	const struct device_type cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 411 */;
+	struct bus_type cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 396 */;
+	struct ishtp_msg_hdr *cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 39 */;
+	const struct dev_pm_ops cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 386 */;
+	uint32_t cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 38 */;
+	struct kobj_uevent_env *cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 379 */;
+	struct attribute *cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 373 */[];
+	struct device_attribute *cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 363 */;
+	ssize_t cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 363 */;
+	struct ishtp_cl_driver *cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 241 */;
+	struct device_driver *cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 238 */;
+	struct device *cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 238 */;
+	struct ishtp_cl_driver cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 23 */;
+	uint8_t cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 187 */;
+	struct ishtp_fw_client *cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 149 */;
+	unsigned int cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 130 */;
+	const guid_t *cocci_id/* drivers/hid/intel-ish-hid/ishtp/bus.c 128 */;
+}

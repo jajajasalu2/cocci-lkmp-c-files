@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	struct tsu_incr *cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 97 */;
+	u8 cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 423 */;
+	struct macb *cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 411 */;
+	struct hwtstamp_config *cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 410 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 408 */;
+	struct ifreq *cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 408 */;
+	int cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 408 */;
+	enum macb_bd_control cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 399 */;
+	struct macb_dma_desc_64 cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 37 */;
+	unsigned int cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 353 */;
+	struct macb_queue *cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 352 */;
+	struct macb_dma_desc cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 33 */;
+	u8 *cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 33 */;
+	struct macb_queue cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 329 */;
+	struct work_struct *cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 326 */;
+	struct gem_tx_ts *cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 302 */;
+	unsigned long cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 299 */;
+	struct skb_shared_hwtstamps cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 279 */;
+	struct macb_dma_desc_ptp *cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 273 */;
+	struct skb_shared_hwtstamps *cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 272 */;
+	struct macb_dma_desc *cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 270 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 269 */;
+	struct timespec64 cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 244 */;
+	struct timespec64 *cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 242 */;
+	u32 cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 241 */;
+	void cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 231 */;
+	const struct ptp_clock_info cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 184 */;
+	struct ptp_clock_request *cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 179 */;
+	const struct timespec64 *cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 168 */;
+	s64 cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 152 */;
+	u64 cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 123 */;
+	bool cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 121 */;
+	struct tsu_incr cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 120 */;
+	struct macb cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 119 */;
+	struct ptp_clock_info *cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 117 */;
+	long cocci_id/* drivers/net/ethernet/cadence/macb_ptp.c 117 */;
+}

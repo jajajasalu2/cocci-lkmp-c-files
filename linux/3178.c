@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	struct smsc47m192_data {
+		struct i2c_client *client;
+		const struct attribute_group *groups[3];
+		struct mutex update_lock;
+		char valid;
+		unsigned long last_updated;
+		u8 in[8];
+		u8 in_max[8];
+		u8 in_min[8];
+		s8 temp[3];
+		s8 temp_max[3];
+		s8 temp_min[3];
+		s8 temp_offset[3];
+		u16 alarms;
+		u8 vid;
+		u8 vrm;
+	} cocci_id/* drivers/hwmon/smsc47m192.c 85 */;
+	s8 cocci_id/* drivers/hwmon/smsc47m192.c 80 */;
+	unsigned long cocci_id/* drivers/hwmon/smsc47m192.c 65 */;
+	struct i2c_driver cocci_id/* drivers/hwmon/smsc47m192.c 627 */;
+	const struct i2c_device_id cocci_id/* drivers/hwmon/smsc47m192.c 621 */[];
+	u8 cocci_id/* drivers/hwmon/smsc47m192.c 60 */;
+	unsigned int cocci_id/* drivers/hwmon/smsc47m192.c 60 */;
+	int cocci_id/* drivers/hwmon/smsc47m192.c 60 */;
+	struct smsc47m192_data cocci_id/* drivers/hwmon/smsc47m192.c 598 */;
+	const struct i2c_device_id *cocci_id/* drivers/hwmon/smsc47m192.c 591 */;
+	const u16 cocci_id/* drivers/hwmon/smsc47m192.c 58 */[];
+	struct i2c_adapter *cocci_id/* drivers/hwmon/smsc47m192.c 560 */;
+	struct i2c_board_info *cocci_id/* drivers/hwmon/smsc47m192.c 558 */;
+	void cocci_id/* drivers/hwmon/smsc47m192.c 526 */;
+	const struct attribute_group cocci_id/* drivers/hwmon/smsc47m192.c 510 */;
+	long cocci_id/* drivers/hwmon/smsc47m192.c 47 */;
+	struct attribute *cocci_id/* drivers/hwmon/smsc47m192.c 457 */[];
+	struct smsc47m192_data *cocci_id/* drivers/hwmon/smsc47m192.c 439 */;
+	struct sensor_device_attribute *cocci_id/* drivers/hwmon/smsc47m192.c 437 */;
+	char *cocci_id/* drivers/hwmon/smsc47m192.c 435 */;
+	struct device_attribute *cocci_id/* drivers/hwmon/smsc47m192.c 434 */;
+	struct device *cocci_id/* drivers/hwmon/smsc47m192.c 434 */;
+	ssize_t cocci_id/* drivers/hwmon/smsc47m192.c 434 */;
+	u8 cocci_id/* drivers/hwmon/smsc47m192.c 33 */[3];
+	const unsigned short cocci_id/* drivers/hwmon/smsc47m192.c 24 */[];
+	struct i2c_client *cocci_id/* drivers/hwmon/smsc47m192.c 224 */;
+	const char *cocci_id/* drivers/hwmon/smsc47m192.c 219 */;
+	size_t cocci_id/* drivers/hwmon/smsc47m192.c 219 */;
+}

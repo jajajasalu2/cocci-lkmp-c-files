@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 91 */;
+	struct v4l2_device *cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 771 */;
+	struct media_entity *cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 730 */;
+	struct media_pad *cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 729 */;
+	const struct media_entity_operations cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 715 */;
+	const struct media_pad *cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 655 */;
+	const struct v4l2_subdev_internal_ops cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 637 */;
+	const struct v4l2_subdev_ops cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 631 */;
+	const struct v4l2_subdev_pad_ops cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 622 */;
+	const struct v4l2_subdev_video_ops cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 617 */;
+	struct v4l2_subdev_format cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 603 */;
+	struct v4l2_subdev_fh *cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 601 */;
+	struct media_link *cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 576 */;
+	struct v4l2_subdev_format *cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 519 */;
+	struct v4l2_mbus_framefmt cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 483 */;
+	struct v4l2_subdev_frame_size_enum *cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 480 */;
+	struct v4l2_subdev *cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 478 */;
+	int cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 478 */;
+	struct v4l2_subdev_mbus_code_enum *cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 446 */;
+	enum v4l2_subdev_format_whence cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 361 */;
+	struct v4l2_subdev_pad_config *cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 360 */;
+	unsigned int cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 360 */;
+	struct iss_ipipeif_device *cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 359 */;
+	struct v4l2_mbus_framefmt *cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 358 */;
+	struct iss_video *cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 306 */;
+	const struct iss_video_operations cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 287 */;
+	struct iss_ipipeif_device cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 264 */;
+	struct iss_buffer *cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 220 */;
+	const unsigned int cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 22 */[];
+	u32 cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 126 */;
+	const struct iss_format_info *cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 124 */;
+	struct iss_device *cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 123 */;
+	void cocci_id/* drivers/staging/media/omap4iss/iss_ipipeif.c 121 */;
+}

@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	const int cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 62 */[]__initconst;
+	struct map_desc cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 382 */[]__initdata;
+	unsigned long cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 374 */;
+	void __force __iomem *cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 36 */;
+	void __init cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 337 */;
+	void cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 337 */;
+	const struct imxuart_platform_data cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 333 */;
+	struct platform_device *cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 329 */[]__initdata;
+	const struct imxmmc_platform_data cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 319 */;
+	struct device *cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 309 */;
+	void *cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 309 */;
+	irq_handler_t cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 295 */;
+	int cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 295 */;
+	const struct imx_fb_platform_data cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 277 */;
+	struct imx_fb_videomode cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 257 */[];
+	struct gpio_chip *cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 238 */;
+	struct gpiod_lookup_table cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 228 */;
+	struct fixed_voltage_config cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 222 */;
+	struct regulator_init_data cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 214 */;
+	struct regulator_consumer_supply cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 211 */;
+	unsigned cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 204 */;
+	struct i2c_board_info cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 193 */[];
+	const struct imxi2c_platform_data cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 189 */;
+	struct platform_device cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 179 */;
+	struct resource cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 172 */;
+	struct physmap_flash_data cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 168 */;
+	const struct mxc_nand_platform_data cocci_id/* arch/arm/mach-imx/mach-mx27ads.c 161 */;
+	const struct machine_desc cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 397 */;
+}

@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct resource *cocci_id/* drivers/phy/tegra/xusb.c 929 */;
+	const struct of_device_id *cocci_id/* drivers/phy/tegra/xusb.c 928 */;
+	const struct tegra_xusb_padctl_soc *cocci_id/* drivers/phy/tegra/xusb.c 926 */;
+	struct tegra_xusb_port *cocci_id/* drivers/phy/tegra/xusb.c 795 */;
+	struct tegra_xusb_usb3_port *cocci_id/* drivers/phy/tegra/xusb.c 749 */;
+	struct device_node *cocci_id/* drivers/phy/tegra/xusb.c 687 */;
+	struct tegra_xusb_hsic_port *cocci_id/* drivers/phy/tegra/xusb.c 686 */;
+	unsigned int cocci_id/* drivers/phy/tegra/xusb.c 684 */;
+	struct tegra_xusb_ulpi_port *cocci_id/* drivers/phy/tegra/xusb.c 638 */;
+	struct tegra_xusb_usb2_port *cocci_id/* drivers/phy/tegra/xusb.c 582 */;
+	const char *const cocci_id/* drivers/phy/tegra/xusb.c 547 */[];
+	const struct of_device_id cocci_id/* drivers/phy/tegra/xusb.c 50 */[];
+	const struct tegra_xusb_lane_map *cocci_id/* drivers/phy/tegra/xusb.c 405 */;
+	char *cocci_id/* drivers/phy/tegra/xusb.c 386 */;
+	const char *cocci_id/* drivers/phy/tegra/xusb.c 382 */;
+	bool cocci_id/* drivers/phy/tegra/xusb.c 373 */;
+	u32 cocci_id/* drivers/phy/tegra/xusb.c 312 */;
+	const struct tegra_xusb_lane_soc *cocci_id/* drivers/phy/tegra/xusb.c 311 */;
+	struct tegra_xusb_pad *cocci_id/* drivers/phy/tegra/xusb.c 293 */;
+	struct tegra_xusb_padctl *cocci_id/* drivers/phy/tegra/xusb.c 291 */;
+	void cocci_id/* drivers/phy/tegra/xusb.c 291 */;
+	const struct tegra_xusb_pad_soc *cocci_id/* drivers/phy/tegra/xusb.c 254 */;
+	struct of_phandle_args *cocci_id/* drivers/phy/tegra/xusb.c 25 */;
+	const struct phy_ops *cocci_id/* drivers/phy/tegra/xusb.c 176 */;
+	struct device_type cocci_id/* drivers/phy/tegra/xusb.c 143 */;
+	struct tegra_xusb_lane *cocci_id/* drivers/phy/tegra/xusb.c 1136 */;
+	struct phy *cocci_id/* drivers/phy/tegra/xusb.c 1134 */;
+	int cocci_id/* drivers/phy/tegra/xusb.c 1134 */;
+	struct device *cocci_id/* drivers/phy/tegra/xusb.c 106 */;
+	struct platform_device *cocci_id/* drivers/phy/tegra/xusb.c 1056 */;
+	struct platform_driver cocci_id/* drivers/phy/tegra/xusb.c 1043 */;
+}

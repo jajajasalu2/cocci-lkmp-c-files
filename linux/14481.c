@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	int cocci_id/* drivers/clk/clk-ast2600.c 711 */;
+	struct device_node *cocci_id/* drivers/clk/clk-ast2600.c 708 */;
+	u32 cocci_id/* drivers/clk/clk-ast2600.c 652 */;
+	struct clk_hw *cocci_id/* drivers/clk/clk-ast2600.c 651 */;
+	struct regmap *cocci_id/* drivers/clk/clk-ast2600.c 649 */;
+	void __init cocci_id/* drivers/clk/clk-ast2600.c 649 */;
+	const u32 cocci_id/* drivers/clk/clk-ast2600.c 641 */[];
+	struct platform_driver cocci_id/* drivers/clk/clk-ast2600.c 631 */;
+	const struct of_device_id cocci_id/* drivers/clk/clk-ast2600.c 626 */[];
+	const struct aspeed_gate_data *cocci_id/* drivers/clk/clk-ast2600.c 601 */;
+	const struct aspeed_gate_data cocci_id/* drivers/clk/clk-ast2600.c 60 */[];
+	void __iomem *cocci_id/* drivers/clk/clk-ast2600.c 52 */;
+	struct clk_hw_onecell_data *cocci_id/* drivers/clk/clk-ast2600.c 50 */;
+	struct aspeed_reset *cocci_id/* drivers/clk/clk-ast2600.c 411 */;
+	struct platform_device *cocci_id/* drivers/clk/clk-ast2600.c 408 */;
+	const char *const cocci_id/* drivers/clk/clk-ast2600.c 400 */[];
+	struct clk_init_data cocci_id/* drivers/clk/clk-ast2600.c 362 */;
+	spinlock_t *cocci_id/* drivers/clk/clk-ast2600.c 359 */;
+	u8 cocci_id/* drivers/clk/clk-ast2600.c 358 */;
+	const char *cocci_id/* drivers/clk/clk-ast2600.c 357 */;
+	struct device *cocci_id/* drivers/clk/clk-ast2600.c 356 */;
+	const struct reset_control_ops cocci_id/* drivers/clk/clk-ast2600.c 350 */;
+	struct reset_controller_dev *cocci_id/* drivers/clk/clk-ast2600.c 324 */;
+	const struct clk_ops cocci_id/* drivers/clk/clk-ast2600.c 307 */;
+	unsigned long cocci_id/* drivers/clk/clk-ast2600.c 292 */;
+	struct aspeed_clk_gate *cocci_id/* drivers/clk/clk-ast2600.c 291 */;
+	void cocci_id/* drivers/clk/clk-ast2600.c 289 */;
+	unsigned int cocci_id/* drivers/clk/clk-ast2600.c 180 */;
+	const struct clk_div_table cocci_id/* drivers/clk/clk-ast2600.c 146 */[];
+}

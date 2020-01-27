@@ -1,0 +1,76 @@
+cocci_test_suite() {
+	const struct of_device_id cocci_id/* drivers/iommu/ipmmu-vmsa.c 979 */[];
+	const struct ipmmu_features cocci_id/* drivers/iommu/ipmmu-vmsa.c 951 */;
+	const struct iommu_ops cocci_id/* drivers/iommu/ipmmu-vmsa.c 921 */;
+	struct iommu_group *cocci_id/* drivers/iommu/ipmmu-vmsa.c 872 */;
+	struct ipmmu_vmsa_domain cocci_id/* drivers/iommu/ipmmu-vmsa.c 87 */;
+	struct dma_iommu_mapping *cocci_id/* drivers/iommu/ipmmu-vmsa.c 839 */;
+	const char *constcocci_id/* drivers/iommu/ipmmu-vmsa.c 765 */[];
+	const struct soc_device_attribute cocci_id/* drivers/iommu/ipmmu-vmsa.c 742 */[];
+	struct ipmmu_vmsa_domain {
+		struct ipmmu_vmsa_device *mmu;
+		struct iommu_domain io_domain;
+		struct io_pgtable_cfg cfg;
+		struct io_pgtable_ops *iop;
+		unsigned int context_id;
+		struct mutex mutex;
+	} cocci_id/* drivers/iommu/ipmmu-vmsa.c 74 */;
+	struct platform_device *cocci_id/* drivers/iommu/ipmmu-vmsa.c 731 */;
+	struct of_phandle_args *cocci_id/* drivers/iommu/ipmmu-vmsa.c 728 */;
+	dma_addr_t cocci_id/* drivers/iommu/ipmmu-vmsa.c 718 */;
+	phys_addr_t cocci_id/* drivers/iommu/ipmmu-vmsa.c 717 */;
+	struct iommu_iotlb_gather *cocci_id/* drivers/iommu/ipmmu-vmsa.c 712 */;
+	gfp_t cocci_id/* drivers/iommu/ipmmu-vmsa.c 685 */;
+	size_t cocci_id/* drivers/iommu/ipmmu-vmsa.c 685 */;
+	unsigned int cocci_id/* drivers/iommu/ipmmu-vmsa.c 626 */;
+	struct iommu_fwspec *cocci_id/* drivers/iommu/ipmmu-vmsa.c 623 */;
+	struct ipmmu_vmsa_device {
+		struct device *dev;
+		void __iomem *base;
+		struct iommu_device iommu;
+		struct ipmmu_vmsa_device *root;
+		const struct ipmmu_features *features;
+		unsigned int num_ctx;
+		spinlock_t lock;
+	DECLARE_BITMAP(ctx,IPMMU_CTX_MAX)
+		;
+		struct ipmmu_vmsa_domain *domains[IPMMU_CTX_MAX];
+		s8 utlb_ctx[IPMMU_UTLB_MAX];
+		struct iommu_group *group;
+		struct dma_iommu_mapping *mapping;
+	} cocci_id/* drivers/iommu/ipmmu-vmsa.c 58 */;
+	struct ipmmu_vmsa_domain *cocci_id/* drivers/iommu/ipmmu-vmsa.c 574 */;
+	struct iommu_domain *cocci_id/* drivers/iommu/ipmmu-vmsa.c 572 */;
+	unsigned cocci_id/* drivers/iommu/ipmmu-vmsa.c 572 */;
+	u64 cocci_id/* drivers/iommu/ipmmu-vmsa.c 507 */;
+	const u32 cocci_id/* drivers/iommu/ipmmu-vmsa.c 496 */;
+	irqreturn_t cocci_id/* drivers/iommu/ipmmu-vmsa.c 494 */;
+	struct ipmmu_features {
+		bool use_ns_alias_offset;
+		bool has_cache_leaf_nodes;
+		unsigned int number_of_contexts;
+		unsigned int num_utlbs;
+		bool setup_imbuscr;
+		bool twobit_imttbcr_sl0;
+		bool reserved_context;
+		bool cache_snoop;
+		unsigned int ctx_offset_base;
+		unsigned int ctx_offset_stride;
+		unsigned int utlb_offset_base;
+	} cocci_id/* drivers/iommu/ipmmu-vmsa.c 44 */;
+	unsigned long cocci_id/* drivers/iommu/ipmmu-vmsa.c 341 */;
+	const struct iommu_flush_ops cocci_id/* drivers/iommu/ipmmu-vmsa.c 328 */;
+	void cocci_id/* drivers/iommu/ipmmu-vmsa.c 207 */;
+	u32 cocci_id/* drivers/iommu/ipmmu-vmsa.c 201 */;
+	struct ipmmu_vmsa_device **cocci_id/* drivers/iommu/ipmmu-vmsa.c 163 */;
+	struct ipmmu_vmsa_device *cocci_id/* drivers/iommu/ipmmu-vmsa.c 162 */;
+	struct device *cocci_id/* drivers/iommu/ipmmu-vmsa.c 160 */;
+	void *cocci_id/* drivers/iommu/ipmmu-vmsa.c 160 */;
+	int cocci_id/* drivers/iommu/ipmmu-vmsa.c 160 */;
+	struct platform_driver cocci_id/* drivers/iommu/ipmmu-vmsa.c 153 */;
+	bool cocci_id/* drivers/iommu/ipmmu-vmsa.c 1195 */;
+	struct device_node *cocci_id/* drivers/iommu/ipmmu-vmsa.c 1194 */;
+	int __init cocci_id/* drivers/iommu/ipmmu-vmsa.c 1192 */;
+	const struct dev_pm_ops cocci_id/* drivers/iommu/ipmmu-vmsa.c 1174 */;
+	struct resource *cocci_id/* drivers/iommu/ipmmu-vmsa.c 1018 */;
+}

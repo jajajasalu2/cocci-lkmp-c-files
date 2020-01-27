@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	compat_sigset_word cocci_id/* kernel/compat.c 99 */;
+	sigset_t *cocci_id/* kernel/compat.c 99 */;
+	void cocci_id/* kernel/compat.c 99 */;
+	const void __user *cocci_id/* kernel/compat.c 75 */;
+	const struct timespec *cocci_id/* kernel/compat.c 50 */;
+	struct old_timespec32 __user *cocci_id/* kernel/compat.c 50 */;
+	const struct old_timespec32 __user *cocci_id/* kernel/compat.c 43 */;
+	struct timespec *cocci_id/* kernel/compat.c 43 */;
+	int cocci_id/* kernel/compat.c 43 */;
+	const struct timeval *cocci_id/* kernel/compat.c 36 */;
+	struct old_timeval32 __user *cocci_id/* kernel/compat.c 36 */;
+	compat_uptr_t cocci_id/* kernel/compat.c 346 */;
+	void __user *cocci_id/* kernel/compat.c 341 */;
+	unsigned long cocci_id/* kernel/compat.c 341 */;
+	compat_sigset_t cocci_id/* kernel/compat.c 317 */;
+	const compat_sigset_t __user *cocci_id/* kernel/compat.c 314 */;
+	const struct old_timeval32 __user *cocci_id/* kernel/compat.c 29 */;
+	struct timeval *cocci_id/* kernel/compat.c 29 */;
+	compat_ulong_t cocci_id/* kernel/compat.c 270 */;
+	const compat_ulong_t __user *cocci_id/* kernel/compat.c 257 */;
+	unsigned long *cocci_id/* kernel/compat.c 257 */;
+	long cocci_id/* kernel/compat.c 257 */;
+	const struct compat_sigevent __user *cocci_id/* kernel/compat.c 244 */;
+	struct sigevent *cocci_id/* kernel/compat.c 243 */;
+	struct cpumask *cocci_id/* kernel/compat.c 175 */;
+	unsigned cocci_id/* kernel/compat.c 175 */;
+	compat_ulong_t __user *cocci_id/* kernel/compat.c 174 */;
+	struct compat_rusage cocci_id/* kernel/compat.c 149 */;
+	const struct rusage *cocci_id/* kernel/compat.c 147 */;
+	struct compat_rusage __user *cocci_id/* kernel/compat.c 147 */;
+}

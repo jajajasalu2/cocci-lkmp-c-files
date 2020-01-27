@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct rt2x00_dev cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 811 */;
+	enum hrtimer_restart cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 808 */;
+	struct hrtimer *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 808 */;
+	struct work_struct *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 786 */;
+	int cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 774 */;
+	const unsigned int cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 74 */;
+	struct txentry_desc *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 68 */;
+	u32 cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 629 */;
+	struct skb_frame_desc *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 627 */;
+	struct queue_entry_priv_mmio *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 626 */;
+	struct queue_entry *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 624 */;
+	struct queue_entry_priv_mmio cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 573 */;
+	unsigned short cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 563 */;
+	unsigned int cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 483 */;
+	bool cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 479 */;
+	struct data_queue *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 479 */;
+	enum dev_state cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 378 */;
+	irqreturn_t cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 322 */;
+	void *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 322 */;
+	struct rt2x00_dev *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 269 */;
+	unsigned long cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 267 */;
+	void cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 267 */;
+	struct rt2800_drv_data *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 225 */;
+	struct rt2x00_field32 cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 198 */;
+	struct rt2x00lib_conf cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 192 */;
+	struct ieee80211_conf cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 191 */;
+	__le32 *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 128 */;
+	struct rxdone_entry_desc *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800mmio.c 125 */;
+}

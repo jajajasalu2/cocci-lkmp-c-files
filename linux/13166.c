@@ -1,0 +1,88 @@
+cocci_test_suite() {
+	struct dmx_demux *cocci_id/* drivers/media/pci/dm1105/dm1105.c 974 */;
+	struct dvb_demux *cocci_id/* drivers/media/pci/dm1105/dm1105.c 973 */;
+	struct dvb_adapter *cocci_id/* drivers/media/pci/dm1105/dm1105.c 972 */;
+	const struct pci_device_id *cocci_id/* drivers/media/pci/dm1105/dm1105.c 969 */;
+	struct i2c_msg cocci_id/* drivers/media/pci/dm1105/dm1105.c 950 */[];
+	u8 cocci_id/* drivers/media/pci/dm1105/dm1105.c 948 */[1];
+	u8 *cocci_id/* drivers/media/pci/dm1105/dm1105.c 946 */;
+	struct ts2020_config cocci_id/* drivers/media/pci/dm1105/dm1105.c 838 */;
+	struct ds3000_config cocci_id/* drivers/media/pci/dm1105/dm1105.c 834 */;
+	struct cx24116_config cocci_id/* drivers/media/pci/dm1105/dm1105.c 830 */;
+	struct si21xx_config cocci_id/* drivers/media/pci/dm1105/dm1105.c 824 */;
+	struct stv0288_config cocci_id/* drivers/media/pci/dm1105/dm1105.c 819 */;
+	const struct stv0299_config cocci_id/* drivers/media/pci/dm1105/dm1105.c 807 */;
+	struct rc_dev *cocci_id/* drivers/media/pci/dm1105/dm1105.c 728 */;
+	irqreturn_t cocci_id/* drivers/media/pci/dm1105/dm1105.c 703 */;
+	u32 cocci_id/* drivers/media/pci/dm1105/dm1105.c 675 */;
+	struct dm1105_dev cocci_id/* drivers/media/pci/dm1105/dm1105.c 673 */;
+	struct work_struct *cocci_id/* drivers/media/pci/dm1105/dm1105.c 671 */;
+	u8 cocci_id/* drivers/media/pci/dm1105/dm1105.c 659 */;
+	struct infrared cocci_id/* drivers/media/pci/dm1105/dm1105.c 657 */;
+	struct infrared *cocci_id/* drivers/media/pci/dm1105/dm1105.c 657 */;
+	struct dvb_demux_feed *cocci_id/* drivers/media/pci/dm1105/dm1105.c 634 */;
+	struct dm1105_dev *cocci_id/* drivers/media/pci/dm1105/dm1105.c 628 */;
+	enum fe_sec_voltage cocci_id/* drivers/media/pci/dm1105/dm1105.c 579 */;
+	struct dvb_frontend *cocci_id/* drivers/media/pci/dm1105/dm1105.c 578 */;
+	const struct i2c_algorithm cocci_id/* drivers/media/pci/dm1105/dm1105.c 563 */;
+	struct i2c_msg *cocci_id/* drivers/media/pci/dm1105/dm1105.c 474 */;
+	struct i2c_adapter *cocci_id/* drivers/media/pci/dm1105/dm1105.c 473 */;
+	void *cocci_id/* drivers/media/pci/dm1105/dm1105.c 465 */;
+	unsigned long cocci_id/* drivers/media/pci/dm1105/dm1105.c 358 */;
+	struct dm1105_dev {
+		struct pci_dev *pdev;
+		u8 __iomem *io_mem;
+		struct infrared ir;
+		struct dmx_frontend hw_frontend;
+		struct dmx_frontend mem_frontend;
+		struct dmxdev dmxdev;
+		struct dvb_adapter dvb_adapter;
+		struct dvb_demux demux;
+		struct dvb_frontend *fe;
+		struct dvb_net dvbnet;
+		unsigned int full_ts_users;
+		unsigned int boardnr;
+		int nr;
+		struct i2c_adapter i2c_adap;
+		struct i2c_adapter i2c_bb_adap;
+		struct i2c_algo_bit_data i2c_bit;
+		struct work_struct work;
+		struct workqueue_struct *wq;
+		char wqn[16];
+		dma_addr_t dma_addr;
+		unsigned char *ts_buf;
+		u32 wrp;
+		u32 nextwrp;
+		u32 buffer_size;
+		unsigned int PacketErrorCount;
+		unsigned int dmarst;
+		spinlock_t lock;
+	} cocci_id/* drivers/media/pci/dm1105/dm1105.c 317 */;
+	struct infrared {
+		struct rc_dev *dev;
+		char input_phys[32];
+		struct work_struct work;
+		u32 ir_command;
+	} cocci_id/* drivers/media/pci/dm1105/dm1105.c 310 */;
+	int cocci_id/* drivers/media/pci/dm1105/dm1105.c 284 */;
+	struct pci_dev *cocci_id/* drivers/media/pci/dm1105/dm1105.c 282 */;
+	void cocci_id/* drivers/media/pci/dm1105/dm1105.c 282 */;
+	const struct dm1105_subid cocci_id/* drivers/media/pci/dm1105/dm1105.c 258 */[];
+	const struct dm1105_board cocci_id/* drivers/media/pci/dm1105/dm1105.c 208 */[];
+	struct dm1105_subid {
+		u16 subvendor;
+		u16 subdevice;
+		u32 card;
+	} cocci_id/* drivers/media/pci/dm1105/dm1105.c 202 */;
+	struct dm1105_board {
+		char *name;
+		struct {
+			u32 mask,off,v13,v18;
+		} lnb;
+		u32 gpio_scl,gpio_sda;
+	} cocci_id/* drivers/media/pci/dm1105/dm1105.c 194 */;
+	unsigned int cocci_id/* drivers/media/pci/dm1105/dm1105.c 190 */;
+	unsigned int cocci_id/* drivers/media/pci/dm1105/dm1105.c 182 */[];
+	struct pci_driver cocci_id/* drivers/media/pci/dm1105/dm1105.c 1222 */;
+	const struct pci_device_id cocci_id/* drivers/media/pci/dm1105/dm1105.c 1204 */[];
+}

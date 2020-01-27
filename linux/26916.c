@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	u32 __force cocci_id/* fs/afs/server.c 73 */;
+	const struct sockaddr_in *cocci_id/* fs/afs/server.c 65 */;
+	struct in6_addr cocci_id/* fs/afs/server.c 59 */;
+	int cocci_id/* fs/afs/server.c 575 */;
+	long cocci_id/* fs/afs/server.c 573 */;
+	time64_t cocci_id/* fs/afs/server.c 572 */;
+	bool cocci_id/* fs/afs/server.c 570 */;
+	struct afs_fs_cursor *cocci_id/* fs/afs/server.c 570 */;
+	u16 __force cocci_id/* fs/afs/server.c 54 */;
+	const struct sockaddr_in6 *cocci_id/* fs/afs/server.c 49 */;
+	struct afs_net cocci_id/* fs/afs/server.c 439 */;
+	struct work_struct *cocci_id/* fs/afs/server.c 437 */;
+	struct afs_addr_cursor cocci_id/* fs/afs/server.c 375 */;
+	unsigned int cocci_id/* fs/afs/server.c 37 */;
+	struct rcu_head *cocci_id/* fs/afs/server.c 359 */;
+	const struct afs_addr_list *cocci_id/* fs/afs/server.c 35 */;
+	const struct sockaddr_rxrpc *cocci_id/* fs/afs/server.c 33 */;
+	enum afs_server_trace cocci_id/* fs/afs/server.c 328 */;
+	struct timer_list *cocci_id/* fs/afs/server.c 315 */;
+	struct key *cocci_id/* fs/afs/server.c 266 */;
+	struct afs_cell *cocci_id/* fs/afs/server.c 266 */;
+	struct afs_vl_cursor cocci_id/* fs/afs/server.c 244 */;
+	void cocci_id/* fs/afs/server.c 23 */;
+	struct afs_server cocci_id/* fs/afs/server.c 212 */;
+	struct afs_addr_list *cocci_id/* fs/afs/server.c 206 */;
+	const uuid_t *cocci_id/* fs/afs/server.c 205 */;
+	struct afs_server *cocci_id/* fs/afs/server.c 204 */;
+	struct afs_net *cocci_id/* fs/afs/server.c 204 */;
+	uuid_t cocci_id/* fs/afs/server.c 162 */;
+	atomic_t cocci_id/* fs/afs/server.c 16 */;
+	struct rb_node **cocci_id/* fs/afs/server.c 148 */;
+	unsigned cocci_id/* fs/afs/server.c 14 */;
+	struct rb_node *cocci_id/* fs/afs/server.c 100 */;
+	unsigned long cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 593 */;
+}

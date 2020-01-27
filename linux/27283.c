@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct block_device *cocci_id/* fs/nfsd/blocklayout.c 408 */;
+	struct nfs4_layout_stateid *cocci_id/* fs/nfsd/blocklayout.c 405 */;
+	void cocci_id/* fs/nfsd/blocklayout.c 404 */;
+	struct pnfs_block_volume cocci_id/* fs/nfsd/blocklayout.c 339 */;
+	struct pnfs_block_deviceaddr cocci_id/* fs/nfsd/blocklayout.c 338 */;
+	const struct pr_ops *cocci_id/* fs/nfsd/blocklayout.c 335 */;
+	struct pnfs_block_volume *cocci_id/* fs/nfsd/blocklayout.c 334 */;
+	struct pnfs_block_deviceaddr *cocci_id/* fs/nfsd/blocklayout.c 333 */;
+	struct nfsd4_getdeviceinfo *cocci_id/* fs/nfsd/blocklayout.c 331 */;
+	struct nfs4_client *cocci_id/* fs/nfsd/blocklayout.c 330 */;
+	struct super_block *cocci_id/* fs/nfsd/blocklayout.c 329 */;
+	u64 cocci_id/* fs/nfsd/blocklayout.c 323 */;
+	struct iomap cocci_id/* fs/nfsd/blocklayout.c 31 */;
+	struct pnfs_block_extent *cocci_id/* fs/nfsd/blocklayout.c 30 */;
+	u32 cocci_id/* fs/nfsd/blocklayout.c 29 */;
+	struct nfsd4_layout_seg *cocci_id/* fs/nfsd/blocklayout.c 27 */;
+	struct nfsd4_layoutget *cocci_id/* fs/nfsd/blocklayout.c 25 */;
+	const struct svc_fh *cocci_id/* fs/nfsd/blocklayout.c 24 */;
+	u8 *cocci_id/* fs/nfsd/blocklayout.c 228 */;
+	size_t cocci_id/* fs/nfsd/blocklayout.c 227 */;
+	struct scsi_request *cocci_id/* fs/nfsd/blocklayout.c 219 */;
+	struct request *cocci_id/* fs/nfsd/blocklayout.c 218 */;
+	struct request_queue *cocci_id/* fs/nfsd/blocklayout.c 217 */;
+	const struct nfsd4_layout_ops cocci_id/* fs/nfsd/blocklayout.c 193 */;
+	struct svc_rqst *cocci_id/* fs/nfsd/blocklayout.c 169 */;
+	struct iattr cocci_id/* fs/nfsd/blocklayout.c 124 */;
+	loff_t cocci_id/* fs/nfsd/blocklayout.c 123 */;
+	struct iomap *cocci_id/* fs/nfsd/blocklayout.c 121 */;
+	int cocci_id/* fs/nfsd/blocklayout.c 121 */;
+	struct nfsd4_layoutcommit *cocci_id/* fs/nfsd/blocklayout.c 120 */;
+	struct inode *cocci_id/* fs/nfsd/blocklayout.c 120 */;
+	__be32 cocci_id/* fs/nfsd/blocklayout.c 119 */;
+}

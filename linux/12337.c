@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	struct drm_gem_cma_object *cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 996 */;
+	struct drm_framebuffer *cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 993 */;
+	typeof(*vc4_state) cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 985 */;
+	const struct vc4_plane_state *cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 984 */;
+	const struct drm_plane_state *cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 982 */;
+	u32 __iomem *cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 968 */;
+	long long cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 775 */;
+	u64 cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 591 */;
+	unsigned long cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 547 */;
+	struct vc4_dev *cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 545 */;
+	struct drm_crtc_state *cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 493 */;
+	unsigned int cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 490 */;
+	const struct hvs_format {
+		u32 drm;
+		u32 hvs;
+		u32 pixel_order;
+	} cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 31 */[];
+	int cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 231 */;
+	u32 *cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 212 */;
+	u32 cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 208 */;
+	struct vc4_plane_state *cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 208 */;
+	bool cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 140 */;
+	struct drm_plane_state *cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 140 */;
+	enum vc4_scaling_mode cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 130 */;
+	const uint64_t cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 1236 */[];
+	u32 cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 1233 */[ARRAY_SIZE(hvs_formats)];
+	struct vc4_plane *cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 1232 */;
+	enum drm_plane_type cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 1229 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 1228 */;
+	const struct drm_plane_funcs cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 1217 */;
+	unsigned cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 120 */;
+	const struct hvs_format *cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 118 */;
+	uint64_t cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 1176 */;
+	uint32_t cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 1175 */;
+	const struct drm_plane_helper_funcs cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 1160 */;
+	struct vc4_bo *cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 1151 */;
+	struct drm_plane *cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 1148 */;
+	void cocci_id/* drivers/gpu/drm/vc4/vc4_plane.c 1148 */;
+}

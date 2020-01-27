@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	xfs_agino_t cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 91 */;
+	xfs_agnumber_t cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 79 */;
+	xfs_inode_t *cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 615 */;
+	xfs_trans_t *cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 614 */;
+	char *cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 594 */;
+	uint32_t cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 588 */;
+	struct xfs_dinode *cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 586 */;
+	struct xfs_mount *cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 585 */;
+	void cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 583 */;
+	__u8 cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 50 */;
+	bool cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 47 */;
+	uint64_t cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 449 */;
+	uint16_t cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 447 */;
+	xfs_ino_t cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 443 */;
+	xfs_failaddr_t cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 440 */;
+	long long cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 41 */;
+	int cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 378 */;
+	xfs_dinode_t *cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 34 */;
+	struct xfs_log_dinode *cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 324 */;
+	xfs_buf_t *cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 31 */;
+	xfs_mount_t *cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 30 */;
+	xfs_lsn_t cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 269 */;
+	prid_t cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 220 */;
+	struct inode *cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 206 */;
+	struct xfs_icdinode *cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 205 */;
+	struct xfs_inode *cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 202 */;
+	struct xfs_buf *cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 178 */;
+	uint cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 175 */;
+	struct xfs_buf **cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 174 */;
+	struct xfs_dinode **cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 173 */;
+	struct xfs_imap *cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 172 */;
+	struct xfs_trans *cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 171 */;
+	const struct xfs_buf_ops cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 142 */;
+	unsigned long long cocci_id/* fs/xfs/libxfs/xfs_inode_buf.c 109 */;
+}

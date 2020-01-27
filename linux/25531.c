@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct evlist *cocci_id/* tools/perf/ui/hist.c 801 */;
+	struct perf_hpp_list_node *cocci_id/* tools/perf/ui/hist.c 762 */;
+	struct perf_hpp_fmt *cocci_id/* tools/perf/ui/hist.c 760 */;
+	struct perf_hpp cocci_id/* tools/perf/ui/hist.c 677 */;
+	unsigned int cocci_id/* tools/perf/ui/hist.c 672 */;
+	void cocci_id/* tools/perf/ui/hist.c 612 */;
+	struct perf_hpp_list *cocci_id/* tools/perf/ui/hist.c 592 */;
+	struct perf_hpp_list cocci_id/* tools/perf/ui/hist.c 450 */;
+	struct perf_hpp_fmt cocci_id/* tools/perf/ui/hist.c 439 */[];
+	int64_t cocci_id/* tools/perf/ui/hist.c 378 */;
+	u64 cocci_id/* tools/perf/ui/hist.c 37 */;
+	double cocci_id/* tools/perf/ui/hist.c 36 */;
+	size_t cocci_id/* tools/perf/ui/hist.c 33 */;
+	char *cocci_id/* tools/perf/ui/hist.c 32 */;
+	struct evsel *cocci_id/* tools/perf/ui/hist.c 31 */;
+	struct hists *cocci_id/* tools/perf/ui/hist.c 30 */;
+	hpp_snprint_fn cocci_id/* tools/perf/ui/hist.c 27 */;
+	bool cocci_id/* tools/perf/ui/hist.c 27 */;
+	hpp_field_fn cocci_id/* tools/perf/ui/hist.c 26 */;
+	const char *cocci_id/* tools/perf/ui/hist.c 26 */;
+	ssize_t cocci_id/* tools/perf/ui/hist.c 251 */;
+	va_list cocci_id/* tools/perf/ui/hist.c 250 */;
+	struct perf_hpp *cocci_id/* tools/perf/ui/hist.c 25 */;
+	struct hist_entry *cocci_id/* tools/perf/ui/hist.c 25 */;
+	int cocci_id/* tools/perf/ui/hist.c 25 */;
+	int *cocci_id/* tools/perf/ui/hist.c 242 */;
+	u64 *cocci_id/* tools/perf/ui/hist.c 161 */;
+	s64 cocci_id/* tools/perf/ui/hist.c 157 */;
+}

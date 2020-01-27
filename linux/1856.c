@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	struct device_attribute *cocci_id/* drivers/iio/adc/nau7802.c 82 */;
+	char *cocci_id/* drivers/iio/adc/nau7802.c 82 */;
+	struct device *cocci_id/* drivers/iio/adc/nau7802.c 81 */;
+	ssize_t cocci_id/* drivers/iio/adc/nau7802.c 81 */;
+	const u16 cocci_id/* drivers/iio/adc/nau7802.c 78 */[];
+	const struct iio_chan_spec cocci_id/* drivers/iio/adc/nau7802.c 73 */[];
+	struct i2c_driver cocci_id/* drivers/iio/adc/nau7802.c 585 */;
+	const struct of_device_id cocci_id/* drivers/iio/adc/nau7802.c 579 */[];
+	const struct i2c_device_id cocci_id/* drivers/iio/adc/nau7802.c 573 */[];
+	struct nau7802_state {
+		struct i2c_client *client;
+		s32 last_value;
+		struct mutex lock;
+		struct mutex data_lock;
+		u32 vref_mv;
+		u32 conversion_count;
+		u32 min_conversions;
+		u8 sample_rate;
+		u32 scale_avail[8];
+		struct completion value_ok;
+	} cocci_id/* drivers/iio/adc/nau7802.c 50 */;
+	u64 cocci_id/* drivers/iio/adc/nau7802.c 489 */;
+	u32 cocci_id/* drivers/iio/adc/nau7802.c 418 */;
+	u8 cocci_id/* drivers/iio/adc/nau7802.c 417 */;
+	struct device_node *cocci_id/* drivers/iio/adc/nau7802.c 415 */;
+	const struct i2c_device_id *cocci_id/* drivers/iio/adc/nau7802.c 411 */;
+	struct i2c_client *cocci_id/* drivers/iio/adc/nau7802.c 410 */;
+	const struct iio_info cocci_id/* drivers/iio/adc/nau7802.c 403 */;
+	long cocci_id/* drivers/iio/adc/nau7802.c 291 */;
+	int *cocci_id/* drivers/iio/adc/nau7802.c 206 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/adc/nau7802.c 205 */;
+	struct nau7802_state *cocci_id/* drivers/iio/adc/nau7802.c 178 */;
+	struct iio_dev *cocci_id/* drivers/iio/adc/nau7802.c 177 */;
+	irqreturn_t cocci_id/* drivers/iio/adc/nau7802.c 175 */;
+	void *cocci_id/* drivers/iio/adc/nau7802.c 175 */;
+	int cocci_id/* drivers/iio/adc/nau7802.c 175 */;
+	const struct attribute_group cocci_id/* drivers/iio/adc/nau7802.c 107 */;
+	struct attribute *cocci_id/* drivers/iio/adc/nau7802.c 101 */[];
+}

@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct bus_type cocci_id/* drivers/media/cec/cec-core.c 84 */;
+	struct device *cocci_id/* drivers/media/cec/cec-core.c 72 */;
+	void __exit cocci_id/* drivers/media/cec/cec-core.c 472 */;
+	int __init cocci_id/* drivers/media/cec/cec-core.c 445 */;
+	struct cec_devnode cocci_id/* drivers/media/cec/cec-core.c 40 */;
+	struct dentry *cocci_id/* drivers/media/cec/cec-core.c 37 */;
+	dev_t cocci_id/* drivers/media/cec/cec-core.c 31 */;
+	bool cocci_id/* drivers/media/cec/cec-core.c 27 */;
+	int cocci_id/* drivers/media/cec/cec-core.c 258 */;
+	u8 cocci_id/* drivers/media/cec/cec-core.c 255 */;
+	u32 cocci_id/* drivers/media/cec/cec-core.c 254 */;
+	const char *cocci_id/* drivers/media/cec/cec-core.c 254 */;
+	void *cocci_id/* drivers/media/cec/cec-core.c 254 */;
+	const struct cec_adap_ops *cocci_id/* drivers/media/cec/cec-core.c 253 */;
+	struct cec_adapter *cocci_id/* drivers/media/cec/cec-core.c 253 */;
+	const struct file_operations cocci_id/* drivers/media/cec/cec-core.c 244 */;
+	struct inode *cocci_id/* drivers/media/cec/cec-core.c 239 */;
+	struct file *cocci_id/* drivers/media/cec/cec-core.c 239 */;
+	struct seq_file *cocci_id/* drivers/media/cec/cec-core.c 232 */;
+	char *cocci_id/* drivers/media/cec/cec-core.c 210 */;
+	const char __user *cocci_id/* drivers/media/cec/cec-core.c 206 */;
+	loff_t *cocci_id/* drivers/media/cec/cec-core.c 206 */;
+	size_t cocci_id/* drivers/media/cec/cec-core.c 206 */;
+	ssize_t cocci_id/* drivers/media/cec/cec-core.c 205 */;
+	struct cec_notifier *cocci_id/* drivers/media/cec/cec-core.c 193 */;
+	u16 cocci_id/* drivers/media/cec/cec-core.c 187 */;
+	void cocci_id/* drivers/media/cec/cec-core.c 187 */;
+	struct cec_fh *cocci_id/* drivers/media/cec/cec-core.c 160 */;
+	struct module *cocci_id/* drivers/media/cec/cec-core.c 102 */;
+	struct cec_devnode *cocci_id/* drivers/media/cec/cec-core.c 101 */;
+	int __must_check cocci_id/* drivers/media/cec/cec-core.c 101 */;
+}

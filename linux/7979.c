@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	struct xenvif_queue cocci_id/* drivers/net/xen-netback/xenbus.c 917 */;
+	struct xenvif_queue *cocci_id/* drivers/net/xen-netback/xenbus.c 883 */;
+	unsigned long cocci_id/* drivers/net/xen-netback/xenbus.c 880 */;
+	grant_ref_t cocci_id/* drivers/net/xen-netback/xenbus.c 839 */;
+	struct backend_info cocci_id/* drivers/net/xen-netback/xenbus.c 816 */;
+	const char *cocci_id/* drivers/net/xen-netback/xenbus.c 812 */;
+	struct xenbus_watch *cocci_id/* drivers/net/xen-netback/xenbus.c 811 */;
+	struct xenvif cocci_id/* drivers/net/xen-netback/xenbus.c 739 */;
+	unsigned cocci_id/* drivers/net/xen-netback/xenbus.c 706 */;
+	u8 cocci_id/* drivers/net/xen-netback/xenbus.c 657 */[];
+	unsigned long *cocci_id/* drivers/net/xen-netback/xenbus.c 622 */;
+	struct xen_netif_rx_sring *cocci_id/* drivers/net/xen-netback/xenbus.c 62 */;
+	enum xenbus_state cocci_id/* drivers/net/xen-netback/xenbus.c 466 */;
+	struct backend_info *cocci_id/* drivers/net/xen-netback/xenbus.c 459 */;
+	void cocci_id/* drivers/net/xen-netback/xenbus.c 459 */;
+	unsigned int cocci_id/* drivers/net/xen-netback/xenbus.c 434 */;
+	struct xenvif *cocci_id/* drivers/net/xen-netback/xenbus.c 405 */;
+	struct xenbus_device *cocci_id/* drivers/net/xen-netback/xenbus.c 404 */;
+	long cocci_id/* drivers/net/xen-netback/xenbus.c 403 */;
+	int cocci_id/* drivers/net/xen-netback/xenbus.c 400 */;
+	struct kobj_uevent_env *cocci_id/* drivers/net/xen-netback/xenbus.c 383 */;
+	struct xen_netif_tx_sring *cocci_id/* drivers/net/xen-netback/xenbus.c 34 */;
+	struct netdev_queue *cocci_id/* drivers/net/xen-netback/xenbus.c 31 */;
+	struct xen_netif_rx_back_ring *cocci_id/* drivers/net/xen-netback/xenbus.c 30 */;
+	struct xen_netif_tx_back_ring *cocci_id/* drivers/net/xen-netback/xenbus.c 29 */;
+	struct dentry *cocci_id/* drivers/net/xen-netback/xenbus.c 24 */;
+	struct xenbus_transaction cocci_id/* drivers/net/xen-netback/xenbus.c 227 */;
+	const struct xenbus_device_id *cocci_id/* drivers/net/xen-netback/xenbus.c 224 */;
+	void cocci_id/* drivers/net/xen-netback/xenbus.c 20 */(struct backend_info *be,
+							       enum xenbus_state state);
+	void cocci_id/* drivers/net/xen-netback/xenbus.c 19 */(struct xenvif *vif);
+	char cocci_id/* drivers/net/xen-netback/xenbus.c 178 */[sizeof("io_ring_q") + 4];
+	int cocci_id/* drivers/net/xen-netback/xenbus.c 17 */(struct backend_info *be);
+	struct seq_file *cocci_id/* drivers/net/xen-netback/xenbus.c 161 */;
+	void *cocci_id/* drivers/net/xen-netback/xenbus.c 161 */;
+	const struct file_operations cocci_id/* drivers/net/xen-netback/xenbus.c 152 */;
+	void cocci_id/* drivers/net/xen-netback/xenbus.c 15 */(struct backend_info *be);
+	struct inode *cocci_id/* drivers/net/xen-netback/xenbus.c 140 */;
+	struct file *cocci_id/* drivers/net/xen-netback/xenbus.c 140 */;
+	int cocci_id/* drivers/net/xen-netback/xenbus.c 13 */(struct backend_info *be,
+							      struct xenvif_queue *queue);
+	struct xenbus_driver cocci_id/* drivers/net/xen-netback/xenbus.c 1136 */;
+	const struct xenbus_device_id cocci_id/* drivers/net/xen-netback/xenbus.c 1131 */[];
+	char cocci_id/* drivers/net/xen-netback/xenbus.c 112 */[BUFFER_SIZE];
+	loff_t *cocci_id/* drivers/net/xen-netback/xenbus.c 107 */;
+	const char __user *cocci_id/* drivers/net/xen-netback/xenbus.c 106 */;
+	ssize_t cocci_id/* drivers/net/xen-netback/xenbus.c 105 */;
+	const size_t cocci_id/* drivers/net/xen-netback/xenbus.c 1011 */;
+	size_t cocci_id/* drivers/net/xen-netback/xenbus.c 1010 */;
+	char *cocci_id/* drivers/net/xen-netback/xenbus.c 1009 */;
+}

@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	u16 cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 78 */;
+	struct spi_transfer cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 77 */;
+	struct spi_message cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 76 */;
+	u8 cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 74 */;
+	struct td043mtea1_panel cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 68 */;
+	struct td043mtea1_panel {
+		struct drm_panel panel;
+		struct spi_device *spi;
+		struct regulator *vcc_reg;
+		struct gpio_desc *reset_gpio;
+		unsigned int mode;
+		u16 gamma[12];
+		bool vmirror;
+		bool powered_on;
+		bool spi_suspended;
+		bool power_on_resume;
+	} cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 53 */;
+	struct spi_driver cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 500 */;
+	const struct spi_device_id cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 493 */[];
+	const u16 cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 49 */[12];
+	const struct of_device_id cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 486 */[];
+	struct spi_device *cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 420 */;
+	int __maybe_unused cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 400 */;
+	const struct drm_panel_funcs cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 376 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 352 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 351 */;
+	struct drm_panel *cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 349 */;
+	const struct drm_display_mode cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 332 */;
+	const struct attribute_group cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 292 */;
+	struct attribute *cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 285 */[];
+	unsigned int cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 263 */[12];
+	const char *cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 260 */;
+	size_t cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 260 */;
+	int cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 245 */;
+	unsigned int cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 244 */;
+	struct td043mtea1_panel *cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 242 */;
+	char *cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 240 */;
+	struct device_attribute *cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 239 */;
+	struct device *cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 239 */;
+	ssize_t cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 239 */;
+	long cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 224 */;
+	void cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 161 */;
+	const u16 *cocci_id/* drivers/gpu/drm/panel/panel-tpo-td043mtea1.c 101 */;
+}

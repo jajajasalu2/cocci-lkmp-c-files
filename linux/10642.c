@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	dma_addr_t cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 90 */;
+	gen8_pte_t __iomem *cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 65 */;
+	struct scatterlist *cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 63 */;
+	struct sg_table *cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 62 */;
+	struct dma_buf *cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 529 */;
+	struct drm_i915_gem_object *cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 528 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 526 */;
+	unsigned int cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 524 */;
+	int cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 524 */;
+	struct intel_vgpu_fb_info *cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 480 */;
+	struct intel_vgpu_fb_info cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 423 */;
+	struct vfio_device_gfx_plane_info *cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 421 */;
+	void *cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 418 */;
+	unsigned long cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 40 */;
+	u32 cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 382 */;
+	struct intel_vgpu_cursor_plane_format cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 269 */;
+	struct intel_vgpu_primary_plane_format cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 268 */;
+	bool cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 255 */;
+	struct intel_vgpu_cursor_plane_format *cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 255 */;
+	struct drm_i915_private *cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 211 */;
+	struct lock_class_key cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 210 */;
+	const struct drm_i915_gem_object_ops cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 200 */;
+	struct list_head *cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 146 */;
+	struct intel_vgpu *cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 145 */;
+	struct intel_vgpu_dmabuf_obj cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 144 */;
+	struct intel_vgpu_dmabuf_obj *cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 143 */;
+	struct kref *cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 141 */;
+	void cocci_id/* drivers/gpu/drm/i915/gvt/dmabuf.c 141 */;
+}

@@ -1,0 +1,84 @@
+cocci_test_suite() {
+	const struct wled_u32_opts cocci_id/* drivers/video/backlight/qcom-wled.c 963 */[];
+	const struct wled_u32_opts *cocci_id/* drivers/video/backlight/qcom-wled.c 962 */;
+	const __be32 *cocci_id/* drivers/video/backlight/qcom-wled.c 958 */;
+	struct device *cocci_id/* drivers/video/backlight/qcom-wled.c 957 */;
+	struct wled_config *cocci_id/* drivers/video/backlight/qcom-wled.c 956 */;
+	const struct wled_var_cfg *cocci_id/* drivers/video/backlight/qcom-wled.c 943 */;
+	u32 cocci_id/* drivers/video/backlight/qcom-wled.c 896 */;
+	const struct wled_var_cfg cocci_id/* drivers/video/backlight/qcom-wled.c 864 */;
+	const u32 cocci_id/* drivers/video/backlight/qcom-wled.c 860 */[];
+	const struct wled_config cocci_id/* drivers/video/backlight/qcom-wled.c 713 */;
+	u8 cocci_id/* drivers/video/backlight/qcom-wled.c 645 */;
+	irqreturn_t cocci_id/* drivers/video/backlight/qcom-wled.c 604 */;
+	s64 cocci_id/* drivers/video/backlight/qcom-wled.c 539 */;
+	bool cocci_id/* drivers/video/backlight/qcom-wled.c 537 */;
+	void cocci_id/* drivers/video/backlight/qcom-wled.c 346 */;
+	unsigned int cocci_id/* drivers/video/backlight/qcom-wled.c 243 */;
+	struct wled cocci_id/* drivers/video/backlight/qcom-wled.c 204 */;
+	struct work_struct *cocci_id/* drivers/video/backlight/qcom-wled.c 201 */;
+	u8 cocci_id/* drivers/video/backlight/qcom-wled.c 163 */[2];
+	u16 cocci_id/* drivers/video/backlight/qcom-wled.c 160 */;
+	struct wled *cocci_id/* drivers/video/backlight/qcom-wled.c 160 */;
+	int cocci_id/* drivers/video/backlight/qcom-wled.c 160 */;
+	struct wled {
+		const char *name;
+		struct device *dev;
+		struct regmap *regmap;
+		struct mutex lock;
+		ktime_t last_short_event;
+		ktime_t start_ovp_fault_time;
+		u16 ctrl_addr;
+		u16 sink_addr;
+		u16 max_string_count;
+		u16 auto_detection_ovp_count;
+		u32 brightness;
+		u32 max_brightness;
+		u32 short_count;
+		u32 auto_detect_count;
+		bool disabled_by_short;
+		bool has_short_detect;
+		int short_irq;
+		int ovp_irq;
+		struct wled_config cfg;
+		struct delayed_work ovp_work;
+		int (*wled_set_brightness)(struct wled *wled, u16 brightness);
+	} cocci_id/* drivers/video/backlight/qcom-wled.c 135 */;
+	struct platform_driver cocci_id/* drivers/video/backlight/qcom-wled.c 1284 */;
+	void *cocci_id/* drivers/video/backlight/qcom-wled.c 1277 */;
+	const struct of_device_id cocci_id/* drivers/video/backlight/qcom-wled.c 1276 */[];
+	struct wled_config {
+		u32 boost_i_limit;
+		u32 ovp;
+		u32 switch_freq;
+		u32 num_strings;
+		u32 string_i_limit;
+		u32 enabled_strings[WLED_MAX_STRINGS];
+		bool cs_out_en;
+		bool ext_gen;
+		bool cabc;
+		bool external_pfet;
+		bool auto_detection_enabled;
+	} cocci_id/* drivers/video/backlight/qcom-wled.c 121 */;
+	uintptr_t cocci_id/* drivers/video/backlight/qcom-wled.c 1206 */;
+	struct regmap *cocci_id/* drivers/video/backlight/qcom-wled.c 1188 */;
+	struct backlight_device *cocci_id/* drivers/video/backlight/qcom-wled.c 1186 */;
+	struct backlight_properties cocci_id/* drivers/video/backlight/qcom-wled.c 1185 */;
+	const struct backlight_ops cocci_id/* drivers/video/backlight/qcom-wled.c 1179 */;
+	struct wled_bool_opts {
+		const char *name;
+		bool *val_ptr;
+	} cocci_id/* drivers/video/backlight/qcom-wled.c 116 */;
+	struct platform_device *cocci_id/* drivers/video/backlight/qcom-wled.c 1146 */;
+	struct wled_u32_opts {
+		const char *name;
+		u32 *val_ptr;
+		const struct wled_var_cfg *cfg;
+	} cocci_id/* drivers/video/backlight/qcom-wled.c 110 */;
+	struct wled_var_cfg {
+		const u32 *values;
+		u32 (*fn)(u32);
+		int size;
+	} cocci_id/* drivers/video/backlight/qcom-wled.c 104 */;
+	const struct wled_bool_opts cocci_id/* drivers/video/backlight/qcom-wled.c 1019 */[];
+}

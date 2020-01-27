@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct vnic_wq_buf *cocci_id/* drivers/scsi/snic/snic_io.c 97 */;
+	struct vnic_wq *cocci_id/* drivers/scsi/snic/snic_io.c 97 */;
+	unsigned int cocci_id/* drivers/scsi/snic/snic_io.c 82 */;
+	u64 cocci_id/* drivers/scsi/snic/snic_io.c 563 */;
+	void cocci_id/* drivers/scsi/snic/snic_io.c 560 */;
+	struct vnic_dev *cocci_id/* drivers/scsi/snic/snic_io.c 56 */;
+	char cocci_id/* drivers/scsi/snic/snic_io.c 462 */[LINE_BUFSZ];
+	struct snic_fw_req *cocci_id/* drivers/scsi/snic/snic_io.c 460 */;
+	const char *cocci_id/* drivers/scsi/snic/snic_io.c 457 */;
+	char *cocci_id/* drivers/scsi/snic/snic_io.c 457 */;
+	int cocci_id/* drivers/scsi/snic/snic_io.c 457 */;
+	void *cocci_id/* drivers/scsi/snic/snic_io.c 410 */;
+	struct snic_req_info cocci_id/* drivers/scsi/snic/snic_io.c 406 */;
+	unsigned long cocci_id/* drivers/scsi/snic/snic_io.c 402 */;
+	struct list_head *cocci_id/* drivers/scsi/snic/snic_io.c 401 */;
+	struct snic_sg_desc *cocci_id/* drivers/scsi/snic/snic_io.c 384 */;
+	struct cq_desc *cocci_id/* drivers/scsi/snic/snic_io.c 35 */;
+	ulong cocci_id/* drivers/scsi/snic/snic_io.c 308 */;
+	struct snic_host_req cocci_id/* drivers/scsi/snic/snic_io.c 306 */;
+	struct snic_req_info *cocci_id/* drivers/scsi/snic/snic_io.c 286 */;
+	struct snic *cocci_id/* drivers/scsi/snic/snic_io.c 286 */;
+	struct snic_host_req *cocci_id/* drivers/scsi/snic/snic_io.c 285 */;
+	struct snic_sg_desc cocci_id/* drivers/scsi/snic/snic_io.c 263 */;
+	u8 cocci_id/* drivers/scsi/snic/snic_io.c 236 */;
+	long cocci_id/* drivers/scsi/snic/snic_io.c 169 */;
+	struct snic_fw_stats *cocci_id/* drivers/scsi/snic/snic_io.c 167 */;
+	dma_addr_t cocci_id/* drivers/scsi/snic/snic_io.c 165 */;
+	u16 cocci_id/* drivers/scsi/snic/snic_io.c 163 */;
+}

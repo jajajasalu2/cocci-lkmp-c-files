@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/spi/spi-rockchip.c 858 */;
+	const struct of_device_id cocci_id/* drivers/spi/spi-rockchip.c 845 */[];
+	struct device *cocci_id/* drivers/spi/spi-rockchip.c 787 */;
+	struct rockchip_spi cocci_id/* drivers/spi/spi-rockchip.c 593 */;
+	struct resource *cocci_id/* drivers/spi/spi-rockchip.c 590 */;
+	struct platform_device *cocci_id/* drivers/spi/spi-rockchip.c 585 */;
+	unsigned int cocci_id/* drivers/spi/spi-rockchip.c 576 */;
+	struct spi_transfer *cocci_id/* drivers/spi/spi-rockchip.c 573 */;
+	struct spi_device *cocci_id/* drivers/spi/spi-rockchip.c 572 */;
+	bool cocci_id/* drivers/spi/spi-rockchip.c 571 */;
+	struct spi_master *cocci_id/* drivers/spi/spi-rockchip.c 571 */;
+	size_t cocci_id/* drivers/spi/spi-rockchip.c 533 */;
+	void cocci_id/* drivers/spi/spi-rockchip.c 458 */;
+	struct dma_slave_config cocci_id/* drivers/spi/spi-rockchip.c 394 */;
+	struct dma_async_tx_descriptor *cocci_id/* drivers/spi/spi-rockchip.c 388 */;
+	int cocci_id/* drivers/spi/spi-rockchip.c 360 */;
+	void *cocci_id/* drivers/spi/spi-rockchip.c 356 */;
+	irqreturn_t cocci_id/* drivers/spi/spi-rockchip.c 320 */;
+	u16 cocci_id/* drivers/spi/spi-rockchip.c 315 */;
+	u16 *cocci_id/* drivers/spi/spi-rockchip.c 315 */;
+	u8 cocci_id/* drivers/spi/spi-rockchip.c 313 */;
+	u8 *cocci_id/* drivers/spi/spi-rockchip.c 313 */;
+	struct spi_message *cocci_id/* drivers/spi/spi-rockchip.c 248 */;
+	u32 cocci_id/* drivers/spi/spi-rockchip.c 205 */;
+	struct rockchip_spi *cocci_id/* drivers/spi/spi-rockchip.c 205 */;
+	unsigned long cocci_id/* drivers/spi/spi-rockchip.c 195 */;
+	struct rockchip_spi {
+		struct device *dev;
+		struct clk *spiclk;
+		struct clk *apb_pclk;
+		void __iomem *regs;
+		dma_addr_t dma_addr_rx;
+		dma_addr_t dma_addr_tx;
+		const void *tx;
+		void *rx;
+		unsigned int tx_left;
+		unsigned int rx_left;
+		atomic_t state;
+		u32 fifo_len;
+		u32 freq;
+		u8 n_bytes;
+		u8 rsd;
+		bool cs_asserted[ROCKCHIP_SPI_MAX_CS_NUM];
+	} cocci_id/* drivers/spi/spi-rockchip.c 160 */;
+}

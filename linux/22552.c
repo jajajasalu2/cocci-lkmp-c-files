@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	char *cocci_id/* sound/pci/emu10k1/emuproc.c 70 */[32];
+	struct snd_info_entry_ops cocci_id/* sound/pci/emu10k1/emuproc.c 548 */;
+	char cocci_id/* sound/pci/emu10k1/emuproc.c 418 */[64];
+	unsigned long cocci_id/* sound/pci/emu10k1/emuproc.c 401 */;
+	struct snd_emu10k1_voice *cocci_id/* sound/pci/emu10k1/emuproc.c 366 */;
+	char *cocci_id/* sound/pci/emu10k1/emuproc.c 354 */;
+	long cocci_id/* sound/pci/emu10k1/emuproc.c 328 */;
+	unsigned int *cocci_id/* sound/pci/emu10k1/emuproc.c 327 */;
+	int cocci_id/* sound/pci/emu10k1/emuproc.c 326 */;
+	unsigned int cocci_id/* sound/pci/emu10k1/emuproc.c 325 */;
+	struct snd_emu10k1 *cocci_id/* sound/pci/emu10k1/emuproc.c 324 */;
+	loff_t cocci_id/* sound/pci/emu10k1/emuproc.c 322 */;
+	size_t cocci_id/* sound/pci/emu10k1/emuproc.c 322 */;
+	struct file *cocci_id/* sound/pci/emu10k1/emuproc.c 321 */;
+	char __user *cocci_id/* sound/pci/emu10k1/emuproc.c 321 */;
+	void *cocci_id/* sound/pci/emu10k1/emuproc.c 320 */;
+	char *cocci_id/* sound/pci/emu10k1/emuproc.c 32 */[8];
+	struct snd_info_entry *cocci_id/* sound/pci/emu10k1/emuproc.c 319 */;
+	ssize_t cocci_id/* sound/pci/emu10k1/emuproc.c 319 */;
+	char *cocci_id/* sound/pci/emu10k1/emuproc.c 31 */[16];
+	int cocci_id/* sound/pci/emu10k1/emuproc.c 30 */[16];
+	char *cocci_id/* sound/pci/emu10k1/emuproc.c 29 */[4];
+	u32 cocci_id/* sound/pci/emu10k1/emuproc.c 279 */;
+	struct snd_info_buffer *cocci_id/* sound/pci/emu10k1/emuproc.c 277 */;
+	void cocci_id/* sound/pci/emu10k1/emuproc.c 276 */;
+	int cocci_id/* sound/pci/emu10k1/emuproc.c 265 */[8];
+	char **cocci_id/* sound/pci/emu10k1/emuproc.c 175 */;
+	char *cocci_id/* sound/pci/emu10k1/emuproc.c 105 */[64];
+}

@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	struct device_driver *cocci_id/* drivers/xen/xenbus/xenbus_probe.c 92 */;
+	const struct xenbus_device_id *cocci_id/* drivers/xen/xenbus/xenbus_probe.c 82 */;
+	unsigned long cocci_id/* drivers/xen/xenbus/xenbus_probe.c 77 */;
+	uint64_t cocci_id/* drivers/xen/xenbus/xenbus_probe.c 767 */;
+	int __init cocci_id/* drivers/xen/xenbus/xenbus_probe.c 764 */;
+	struct notifier_block cocci_id/* drivers/xen/xenbus/xenbus_probe.c 760 */;
+	enum xenstore_init cocci_id/* drivers/xen/xenbus/xenbus_probe.c 74 */;
+	struct evtchn_alloc_unbound cocci_id/* drivers/xen/xenbus/xenbus_probe.c 711 */;
+	struct xenstore_domain_interface *cocci_id/* drivers/xen/xenbus/xenbus_probe.c 71 */;
+	struct work_struct *cocci_id/* drivers/xen/xenbus/xenbus_probe.c 681 */;
+	struct notifier_block *cocci_id/* drivers/xen/xenbus/xenbus_probe.c 662 */;
+	struct xenbus_device cocci_id/* drivers/xen/xenbus/xenbus_probe.c 615 */;
+	char cocci_id/* drivers/xen/xenbus/xenbus_probe.c 556 */[XEN_BUS_ID_SIZE];
+	const char *cocci_id/* drivers/xen/xenbus/xenbus_probe.c 529 */;
+	unsigned int cocci_id/* drivers/xen/xenbus/xenbus_probe.c 529 */;
+	char cocci_id/* drivers/xen/xenbus/xenbus_probe.c 529 */;
+	char **cocci_id/* drivers/xen/xenbus/xenbus_probe.c 490 */;
+	size_t cocci_id/* drivers/xen/xenbus/xenbus_probe.c 434 */;
+	const struct attribute_group *cocci_id/* drivers/xen/xenbus/xenbus_probe.c 421 */[];
+	const struct attribute_group cocci_id/* drivers/xen/xenbus/xenbus_probe.c 417 */;
+	struct attribute *cocci_id/* drivers/xen/xenbus/xenbus_probe.c 409 */[];
+	struct device_attribute *cocci_id/* drivers/xen/xenbus/xenbus_probe.c 387 */;
+	char *cocci_id/* drivers/xen/xenbus/xenbus_probe.c 387 */;
+	ssize_t cocci_id/* drivers/xen/xenbus/xenbus_probe.c 386 */;
+	struct xb_find_info cocci_id/* drivers/xen/xenbus/xenbus_probe.c 361 */;
+	struct bus_type *cocci_id/* drivers/xen/xenbus/xenbus_probe.c 359 */;
+	struct xb_find_info *cocci_id/* drivers/xen/xenbus/xenbus_probe.c 341 */;
+	struct xenbus_device *cocci_id/* drivers/xen/xenbus/xenbus_probe.c 340 */;
+	struct device *cocci_id/* drivers/xen/xenbus/xenbus_probe.c 338 */;
+	void *cocci_id/* drivers/xen/xenbus/xenbus_probe.c 338 */;
+	int cocci_id/* drivers/xen/xenbus/xenbus_probe.c 338 */;
+	struct xb_find_info {
+		struct xenbus_device *dev;
+		const char *nodename;
+	} cocci_id/* drivers/xen/xenbus/xenbus_probe.c 311 */;
+	struct module *cocci_id/* drivers/xen/xenbus/xenbus_probe.c 294 */;
+	enum xenbus_state cocci_id/* drivers/xen/xenbus/xenbus_probe.c 178 */;
+	struct xenbus_watch *cocci_id/* drivers/xen/xenbus/xenbus_probe.c 171 */;
+	struct xen_bus_type cocci_id/* drivers/xen/xenbus/xenbus_probe.c 136 */;
+	struct xen_bus_type *cocci_id/* drivers/xen/xenbus/xenbus_probe.c 135 */;
+	struct xenbus_driver *cocci_id/* drivers/xen/xenbus/xenbus_probe.c 123 */;
+	void cocci_id/* drivers/xen/xenbus/xenbus_probe.c 104 */;
+}

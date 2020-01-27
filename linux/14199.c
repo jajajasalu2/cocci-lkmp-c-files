@@ -1,0 +1,47 @@
+cocci_test_suite() {
+	struct device *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 95 */[];
+	unsigned int cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 94 */[];
+	unsigned int *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 92 */;
+	u32 *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 76 */;
+	bool cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 64 */;
+	unsigned int cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 64 */;
+	struct v4l2_format cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 600 */;
+	struct vb2_queue *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 599 */;
+	struct video_device *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 598 */;
+	const char *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 596 */;
+	struct sun6i_csi *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 595 */;
+	const struct media_entity_operations cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 591 */;
+	struct v4l2_subdev_format cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 552 */;
+	struct video_device cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 550 */;
+	struct media_link *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 547 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 536 */;
+	struct v4l2_subdev_format *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 533 */;
+	struct media_pad *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 532 */;
+	const struct v4l2_file_operations cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 520 */;
+	struct file *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 499 */;
+	const struct v4l2_ioctl_ops cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 436 */;
+	struct v4l2_input *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 410 */;
+	struct v4l2_format *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 377 */;
+	struct v4l2_pix_format *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 353 */;
+	const u32 cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 34 */[];
+	u32 cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 330 */;
+	struct v4l2_fmtdesc *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 328 */;
+	void *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 327 */;
+	struct v4l2_capability *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 315 */;
+	const struct vb2_ops cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 304 */;
+	struct sun6i_csi_buffer {
+		struct vb2_v4l2_buffer vb;
+		struct list_head list;
+		dma_addr_t dma_addr;
+		bool queued_to_csi;
+	} cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 26 */;
+	void cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 242 */;
+	struct sun6i_csi_config cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 137 */;
+	unsigned long cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 115 */;
+	struct sun6i_video *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 114 */;
+	struct sun6i_csi_buffer cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 113 */;
+	struct sun6i_csi_buffer *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 112 */;
+	struct vb2_v4l2_buffer *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 111 */;
+	struct vb2_buffer *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 109 */;
+	int cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c 109 */;
+}

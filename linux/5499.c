@@ -1,0 +1,57 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/spi/spi-lantiq-ssc.c 958 */;
+	struct lantiq_ssc_spi cocci_id/* drivers/spi/spi-lantiq-ssc.c 826 */;
+	const struct of_device_id *cocci_id/* drivers/spi/spi-lantiq-ssc.c 802 */;
+	struct device *cocci_id/* drivers/spi/spi-lantiq-ssc.c 798 */;
+	struct platform_device *cocci_id/* drivers/spi/spi-lantiq-ssc.c 796 */;
+	const struct of_device_id cocci_id/* drivers/spi/spi-lantiq-ssc.c 788 */[];
+	const struct lantiq_ssc_hwcfg cocci_id/* drivers/spi/spi-lantiq-ssc.c 783 */;
+	bool cocci_id/* drivers/spi/spi-lantiq-ssc.c 753 */;
+	struct spi_message *cocci_id/* drivers/spi/spi-lantiq-ssc.c 744 */;
+	struct spi_master *cocci_id/* drivers/spi/spi-lantiq-ssc.c 743 */;
+	typeof(*spi) cocci_id/* drivers/spi/spi-lantiq-ssc.c 721 */;
+	unsigned long cocci_id/* drivers/spi/spi-lantiq-ssc.c 719 */;
+	unsigned long long cocci_id/* drivers/spi/spi-lantiq-ssc.c 718 */;
+	struct work_struct *cocci_id/* drivers/spi/spi-lantiq-ssc.c 715 */;
+	irqreturn_t cocci_id/* drivers/spi/spi-lantiq-ssc.c 646 */;
+	void *cocci_id/* drivers/spi/spi-lantiq-ssc.c 646 */;
+	int cocci_id/* drivers/spi/spi-lantiq-ssc.c 646 */;
+	u32 *cocci_id/* drivers/spi/spi-lantiq-ssc.c 519 */;
+	u16 *cocci_id/* drivers/spi/spi-lantiq-ssc.c 518 */;
+	u8 *cocci_id/* drivers/spi/spi-lantiq-ssc.c 517 */;
+	const u32 *cocci_id/* drivers/spi/spi-lantiq-ssc.c 480 */;
+	const u16 *cocci_id/* drivers/spi/spi-lantiq-ssc.c 479 */;
+	const u8 *cocci_id/* drivers/spi/spi-lantiq-ssc.c 478 */;
+	struct spi_transfer *cocci_id/* drivers/spi/spi-lantiq-ssc.c 430 */;
+	struct spi_device *cocci_id/* drivers/spi/spi-lantiq-ssc.c 430 */;
+	struct lantiq_ssc_spi *cocci_id/* drivers/spi/spi-lantiq-ssc.c 429 */;
+	const struct lantiq_ssc_hwcfg *cocci_id/* drivers/spi/spi-lantiq-ssc.c 345 */;
+	u32 cocci_id/* drivers/spi/spi-lantiq-ssc.c 297 */;
+	unsigned int cocci_id/* drivers/spi/spi-lantiq-ssc.c 295 */;
+	const struct lantiq_ssc_spi *cocci_id/* drivers/spi/spi-lantiq-ssc.c 260 */;
+	void cocci_id/* drivers/spi/spi-lantiq-ssc.c 260 */;
+	struct lantiq_ssc_spi {
+		struct spi_master *master;
+		struct device *dev;
+		void __iomem *regbase;
+		struct clk *spi_clk;
+		struct clk *fpi_clk;
+		const struct lantiq_ssc_hwcfg *hwcfg;
+		spinlock_t lock;
+		struct workqueue_struct *wq;
+		struct work_struct work;
+		const u8 *tx;
+		u8 *rx;
+		unsigned int tx_todo;
+		unsigned int rx_todo;
+		unsigned int bits_per_word;
+		unsigned int speed_hz;
+		unsigned int tx_fifo_size;
+		unsigned int rx_fifo_size;
+		unsigned int base_cs;
+	} cocci_id/* drivers/spi/spi-lantiq-ssc.c 166 */;
+	struct lantiq_ssc_hwcfg {
+		unsigned int irnen_r;
+		unsigned int irnen_t;
+	} cocci_id/* drivers/spi/spi-lantiq-ssc.c 161 */;
+}

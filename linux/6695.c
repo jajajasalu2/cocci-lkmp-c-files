@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct qla_tgt *cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 65 */;
+	uint16_t cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 64 */;
+	fc_port_t cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 62 */;
+	dma_addr_t cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 61 */;
+	struct gid_list_info *cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 60 */;
+	char *cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 385 */;
+	loff_t *cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 380 */;
+	size_t cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 380 */;
+	const char __user *cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 379 */;
+	ssize_t cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 378 */;
+	const struct file_operations cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 353 */;
+	struct qla_hw_data *cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 304 */;
+	scsi_qla_host_t *cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 303 */;
+	struct inode *cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 301 */;
+	struct file *cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 301 */;
+	int cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 300 */;
+	unsigned long long cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 275 */;
+	uint64_t cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 269 */;
+	uint32_t *cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 268 */;
+	uint32_t cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 267 */;
+	struct seq_file *cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 264 */;
+	void *cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 264 */;
+	struct fc_port *cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 21 */;
+	unsigned long cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 20 */;
+	u16 cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 181 */;
+	struct qla_qpair *cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 177 */;
+	struct scsi_qla_host *cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 161 */;
+	atomic_t cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 13 */;
+	uint16_t cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 128 */[MAX_IOCB_MB_REG];
+	struct dentry *cocci_id/* drivers/scsi/qla2xxx/qla_dfs.c 12 */;
+}

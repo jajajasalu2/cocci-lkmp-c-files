@@ -1,0 +1,63 @@
+cocci_test_suite() {
+	struct device *cocci_id/* drivers/hwmon/asc7621.c 992 */;
+	struct asc7621_param cocci_id/* drivers/hwmon/asc7621.c 97 */;
+	u8 cocci_id/* drivers/hwmon/asc7621.c 941 */;
+	struct asc7621_param cocci_id/* drivers/hwmon/asc7621.c 817 */[];
+	struct asc7621_data {
+		struct i2c_client client;
+		struct device *class_dev;
+		struct mutex update_lock;
+		int valid;
+		unsigned long last_high_reading;
+		unsigned long last_low_reading;
+		u8 reg[LAST_REGISTER + 1];
+	} cocci_id/* drivers/hwmon/asc7621.c 76 */;
+	u32 cocci_id/* drivers/hwmon/asc7621.c 713 */;
+	const u32 cocci_id/* drivers/hwmon/asc7621.c 689 */[];
+	const u16 cocci_id/* drivers/hwmon/asc7621.c 523 */[];
+	unsigned long cocci_id/* drivers/hwmon/asc7621.c 521 */;
+	const u8 cocci_id/* drivers/hwmon/asc7621.c 502 */[];
+	const char *cocci_id/* drivers/hwmon/asc7621.c 467 */;
+	size_t cocci_id/* drivers/hwmon/asc7621.c 467 */;
+	s8 cocci_id/* drivers/hwmon/asc7621.c 455 */;
+	long cocci_id/* drivers/hwmon/asc7621.c 450 */;
+	struct asc7621_chip cocci_id/* drivers/hwmon/asc7621.c 45 */[];
+	struct device_attribute *cocci_id/* drivers/hwmon/asc7621.c 447 */;
+	char *cocci_id/* drivers/hwmon/asc7621.c 447 */;
+	ssize_t cocci_id/* drivers/hwmon/asc7621.c 446 */;
+	struct asc7621_chip {
+		char *name;
+		enum asc7621_type chip_type;
+		u8 company_reg;
+		u8 company_id;
+		u8 verstep_reg;
+		u8 verstep_id;
+		const unsigned short *addresses;
+	} cocci_id/* drivers/hwmon/asc7621.c 35 */;
+	const int cocci_id/* drivers/hwmon/asc7621.c 290 */[];
+	u16 cocci_id/* drivers/hwmon/asc7621.c 237 */;
+	enum asc7621_type{asc7621, asc7621a,} cocci_id/* drivers/hwmon/asc7621.c 22 */;
+	const unsigned short cocci_id/* drivers/hwmon/asc7621.c 18 */[];
+	void __exit cocci_id/* drivers/hwmon/asc7621.c 1223 */;
+	int __init cocci_id/* drivers/hwmon/asc7621.c 1203 */;
+	struct i2c_driver cocci_id/* drivers/hwmon/asc7621.c 1191 */;
+	struct asc7621_data *cocci_id/* drivers/hwmon/asc7621.c 119 */(struct device *dev);
+	const struct i2c_device_id cocci_id/* drivers/hwmon/asc7621.c 1183 */[];
+	u8 cocci_id/* drivers/hwmon/asc7621.c 117 */[255];
+	struct i2c_adapter *cocci_id/* drivers/hwmon/asc7621.c 1138 */;
+	struct i2c_board_info *cocci_id/* drivers/hwmon/asc7621.c 1136 */;
+	struct i2c_client *cocci_id/* drivers/hwmon/asc7621.c 1135 */;
+	int cocci_id/* drivers/hwmon/asc7621.c 1135 */;
+	struct asc7621_data cocci_id/* drivers/hwmon/asc7621.c 1098 */;
+	struct asc7621_data *cocci_id/* drivers/hwmon/asc7621.c 1092 */;
+	const struct i2c_device_id *cocci_id/* drivers/hwmon/asc7621.c 1090 */;
+	void cocci_id/* drivers/hwmon/asc7621.c 1061 */;
+	struct asc7621_param {
+		struct sensor_device_attribute sda;
+		u8 priority;
+		u8 msb[3];
+		u8 lsb[3];
+		u8 mask[3];
+		u8 shift[3];
+	} cocci_id/* drivers/hwmon/asc7621.c 104 */;
+}

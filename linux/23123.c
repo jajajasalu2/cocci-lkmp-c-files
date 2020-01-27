@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	bool cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 79 */;
+	struct platform_driver cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 773 */;
+	const struct dev_pm_ops cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 767 */;
+	unsigned int *cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 621 */;
+	unsigned int cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 615 */;
+	struct i2s_dev_data *cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 614 */;
+	struct resource *cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 613 */;
+	struct platform_device *cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 610 */;
+	int cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 610 */;
+	const struct snd_soc_component_driver cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 598 */;
+	const struct snd_pcm_hardware cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 59 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 571 */;
+	struct snd_soc_dai_ops cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 564 */;
+	struct i2s_stream_instance *cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 484 */;
+	u32 cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 483 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 481 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 480 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 479 */;
+	u16 cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 445 */;
+	struct snd_soc_component *cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 402 */;
+	struct vm_area_struct *cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 397 */;
+	struct device *cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 383 */;
+	struct snd_soc_pcm_runtime *cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 381 */;
+	snd_pcm_uframes_t cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 362 */;
+	struct snd_pcm_runtime *cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 339 */;
+	u64 cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 338 */;
+	struct i2s_stream_instance {
+		u16 num_pages;
+		u16 channels;
+		u32 xfer_resolution;
+		u64 bytescount;
+		dma_addr_t dma_addr;
+		void __iomem *acp3x_base;
+	} cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 30 */;
+	struct i2s_stream_instance cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 284 */;
+	dma_addr_t cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 215 */;
+	void cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 211 */;
+	struct i2s_dev_data {
+		bool tdm_mode;
+		unsigned int i2s_irq;
+		u32 tdm_fmt;
+		void __iomem *acp3x_base;
+		struct snd_pcm_substream *play_stream;
+		struct snd_pcm_substream *capture_stream;
+	} cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 21 */;
+	irqreturn_t cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 179 */;
+	void *cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 179 */;
+	void __iomem *cocci_id/* sound/soc/amd/raven/acp3x-pcm-dma.c 160 */;
+}

@@ -1,0 +1,58 @@
+cocci_test_suite() {
+	struct usb_driver cocci_id/* drivers/net/usb/rtl8150.c 954 */;
+	struct usb_interface *cocci_id/* drivers/net/usb/rtl8150.c 936 */;
+	rtl8150_t cocci_id/* drivers/net/usb/rtl8150.c 881 */;
+	struct usb_device *cocci_id/* drivers/net/usb/rtl8150.c 877 */;
+	const struct usb_device_id *cocci_id/* drivers/net/usb/rtl8150.c 875 */;
+	const struct net_device_ops cocci_id/* drivers/net/usb/rtl8150.c 862 */;
+	struct ifreq *cocci_id/* drivers/net/usb/rtl8150.c 837 */;
+	const struct ethtool_ops cocci_id/* drivers/net/usb/rtl8150.c 831 */;
+	u32 cocci_id/* drivers/net/usb/rtl8150.c 794 */;
+	short cocci_id/* drivers/net/usb/rtl8150.c 793 */;
+	struct ethtool_link_ksettings *cocci_id/* drivers/net/usb/rtl8150.c 790 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/usb/rtl8150.c 780 */;
+	netdev_tx_t cocci_id/* drivers/net/usb/rtl8150.c 688 */;
+	u8 cocci_id/* drivers/net/usb/rtl8150.c 651 */;
+	struct rtl8150 *cocci_id/* drivers/net/usb/rtl8150.c 594 */;
+	struct sk_buff *cocci_id/* drivers/net/usb/rtl8150.c 569 */;
+	pm_message_t cocci_id/* drivers/net/usb/rtl8150.c 531 */;
+	__u8 *cocci_id/* drivers/net/usb/rtl8150.c 477 */;
+	unsigned long cocci_id/* drivers/net/usb/rtl8150.c 390 */;
+	struct net_device *cocci_id/* drivers/net/usb/rtl8150.c 387 */;
+	unsigned cocci_id/* drivers/net/usb/rtl8150.c 385 */;
+	rtl8150_t *cocci_id/* drivers/net/usb/rtl8150.c 333 */;
+	int cocci_id/* drivers/net/usb/rtl8150.c 333 */;
+	struct sockaddr *cocci_id/* drivers/net/usb/rtl8150.c 287 */;
+	u8 cocci_id/* drivers/net/usb/rtl8150.c 279 */[6];
+	u8 cocci_id/* drivers/net/usb/rtl8150.c 233 */[3];
+	__u8 cocci_id/* drivers/net/usb/rtl8150.c 230 */;
+	u16 *cocci_id/* drivers/net/usb/rtl8150.c 230 */;
+	void *cocci_id/* drivers/net/usb/rtl8150.c 219 */;
+	struct async_req cocci_id/* drivers/net/usb/rtl8150.c 204 */;
+	u16 cocci_id/* drivers/net/usb/rtl8150.c 198 */;
+	struct async_req *cocci_id/* drivers/net/usb/rtl8150.c 189 */;
+	struct urb *cocci_id/* drivers/net/usb/rtl8150.c 187 */;
+	void cocci_id/* drivers/net/usb/rtl8150.c 187 */;
+	const void *cocci_id/* drivers/net/usb/rtl8150.c 171 */;
+	const char cocci_id/* drivers/net/usb/rtl8150.c 146 */[];
+	struct async_req {
+		struct usb_ctrlrequest dr;
+		u16 rx_creg;
+	} cocci_id/* drivers/net/usb/rtl8150.c 141 */;
+	struct rtl8150 cocci_id/* drivers/net/usb/rtl8150.c 139 */;
+	struct rtl8150 {
+		unsigned long flags;
+		struct usb_device *udev;
+		struct tasklet_struct tl;
+		struct net_device *netdev;
+		struct urb *rx_urb,*tx_urb,*intr_urb;
+		struct sk_buff *tx_skb,*rx_skb;
+		struct sk_buff *rx_skb_pool[RX_SKB_POOL_SIZE];
+		spinlock_t rx_pool_lock;
+		struct usb_ctrlrequest dr;
+		int intr_interval;
+		u8 *intr_buff;
+		u8 phy;
+	} cocci_id/* drivers/net/usb/rtl8150.c 124 */;
+	const struct usb_device_id cocci_id/* drivers/net/usb/rtl8150.c 112 */[];
+}

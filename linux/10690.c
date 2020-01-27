@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	const struct intel_dvo_device cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 53 */[];
+	enum port cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 448 */;
+	u32 cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 447 */[I915_MAX_PIPES];
+	enum pipe cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 446 */;
+	struct i2c_adapter *cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 443 */;
+	const struct intel_dvo_device *cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 442 */;
+	const struct drm_encoder_funcs cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 374 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 364 */;
+	const struct drm_connector_helper_funcs cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 359 */;
+	const struct drm_connector_funcs cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 349 */;
+	enum drm_connector_status cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 311 */;
+	struct intel_crtc *cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 280 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 256 */;
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 254 */;
+	struct drm_connector_state *cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 251 */;
+	struct intel_crtc_state *cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 250 */;
+	int cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 249 */;
+	enum drm_mode_status cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 219 */;
+	u32 cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 193 */;
+	i915_reg_t cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 192 */;
+	struct drm_i915_private *cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 190 */;
+	const struct drm_connector_state *cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 188 */;
+	const struct intel_crtc_state *cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 187 */;
+	void cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 186 */;
+	enum pipe *cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 149 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 135 */;
+	bool cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 133 */;
+	struct intel_connector *cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 133 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 128 */;
+	struct intel_dvo cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 125 */;
+	struct intel_encoder *cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 123 */;
+	struct intel_dvo *cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 123 */;
+	struct intel_dvo {
+		struct intel_encoder base;
+		struct intel_dvo_device dev;
+		struct intel_connector *attached_connector;
+		bool panel_wants_dither;
+	} cocci_id/* drivers/gpu/drm/i915/display/intel_dvo.c 113 */;
+}

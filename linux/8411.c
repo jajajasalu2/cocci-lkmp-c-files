@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	const char cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 99 */[][ETH_GSTRING_LEN];
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 740 */;
+	bool cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 649 */;
+	const struct aq_hw_caps_s *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 648 */;
+	struct ethtool_ringparam *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 630 */;
+	struct ethtool_pauseparam *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 588 */;
+	const struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 58 */;
+	struct ethtool_eee *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 503 */;
+	enum hw_atl_fw2x_rate cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 487 */;
+	struct ethtool_ts_info *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 459 */;
+	struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 45 */;
+	struct ethtool_wolinfo *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 427 */;
+	struct aq_nic_cfg_s *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 362 */;
+	struct aq_nic_s *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 361 */;
+	struct ethtool_coalesce *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 359 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 358 */;
+	int cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 358 */;
+	struct ethtool_rxnfc *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 307 */;
+	const u8 cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 272 */;
+	const u8 *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 272 */;
+	const u32 *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 271 */;
+	unsigned int cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 254 */;
+	u8 *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 249 */;
+	u32 *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 249 */;
+	struct aq_hw_s *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 186 */;
+	enum ethtool_phys_id_state cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 183 */;
+	struct ethtool_regs *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 18 */;
+	void *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 18 */;
+	u32 cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 127 */;
+	struct pci_dev *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 124 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 122 */;
+	void cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 121 */;
+	u64 cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 117 */;
+	u64 *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 108 */;
+	struct ethtool_stats *cocci_id/* drivers/net/ethernet/aquantia/atlantic/aq_ethtool.c 108 */;
+}

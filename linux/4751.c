@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	struct rxe_recv_wqe *cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 843 */;
+	struct ib_uverbs_wc *cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 842 */;
+	struct ib_wc *cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 841 */;
+	struct rxe_cqe cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 840 */;
+	union rdma_network_hdr cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 792 */;
+	struct sk_buff *cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 772 */;
+	union rdma_network_hdr *cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 769 */;
+	void cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 769 */;
+	u8 *cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 737 */;
+	char *cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 73 */[];
+	struct rxe_pkt_info cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 660 */;
+	u32 *cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 592 */;
+	uintptr_t cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 561 */;
+	u64 *cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 549 */;
+	u32 cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 422 */;
+	u64 cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 421 */;
+	struct rxe_mem *cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 420 */;
+	enum resp_states{RESPST_NONE, RESPST_GET_REQ, RESPST_CHK_PSN, RESPST_CHK_OP_SEQ, RESPST_CHK_OP_VALID, RESPST_CHK_RESOURCE, RESPST_CHK_LENGTH, RESPST_CHK_RKEY, RESPST_EXECUTE, RESPST_READ_REPLY, RESPST_COMPLETE, RESPST_ACKNOWLEDGE, RESPST_CLEANUP, RESPST_DUPLICATE_REQUEST, RESPST_ERR_MALFORMED_WQE, RESPST_ERR_UNSUPPORTED_OPCODE, RESPST_ERR_MISALIGNED_ATOMIC, RESPST_ERR_PSN_OUT_OF_SEQ, RESPST_ERR_MISSING_OPCODE_FIRST, RESPST_ERR_MISSING_OPCODE_LAST_C, RESPST_ERR_MISSING_OPCODE_LAST_D1E, RESPST_ERR_TOO_MANY_RDMA_ATM_REQ, RESPST_ERR_RNR, RESPST_ERR_RKEY_VIOLATION, RESPST_ERR_LENGTH, RESPST_ERR_CQ_OVERFLOW, RESPST_ERROR, RESPST_RESET, RESPST_DONE, RESPST_EXIT,} cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 40 */;
+	struct rxe_srq *cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 361 */;
+	struct ib_event cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 321 */;
+	struct rxe_queue *cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 319 */;
+	struct rxe_dev *cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 148 */;
+	int cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 147 */;
+	void *cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 1220 */;
+	struct rxe_pkt_info **cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 121 */;
+	bool cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 1204 */;
+	enum ib_wc_status cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 1161 */;
+	u8 cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 1160 */;
+	struct resp_res *cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 1090 */;
+	struct rxe_pkt_info *cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 1023 */;
+	enum resp_states cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 1022 */;
+	struct rxe_qp *cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 1022 */;
+	unsigned char *cocci_id/* drivers/infiniband/sw/rxe/rxe_resp.c 1003 */;
+}

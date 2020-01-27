@@ -1,0 +1,70 @@
+cocci_test_suite() {
+	void cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 885 */;
+	struct amdgpu_dm_backlight_caps *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 867 */;
+	struct amdgpu_encoder_atom_dig *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 821 */;
+	struct amdgpu_encoder *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 817 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 812 */;
+	struct amdgpu_atcs *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 775 */;
+	struct amdgpu_atif *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 774 */;
+	acpi_handle cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 773 */;
+	struct acpi_bus_event *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 746 */;
+	struct amdgpu_device cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 745 */;
+	struct amdgpu_device *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 745 */;
+	void *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 743 */;
+	unsigned long cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 742 */;
+	struct notifier_block *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 741 */;
+	int cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 741 */;
+	u16 *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 703 */;
+	u32 cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 670 */;
+	size_t cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 669 */;
+	struct acpi_buffer cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 668 */;
+	struct atcs_pref_req_output cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 667 */;
+	struct atcs_pref_req_input cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 666 */;
+	u8 cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 661 */;
+	union acpi_object *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 629 */;
+	struct amdgpu_atif {
+		acpi_handle handle;
+		struct amdgpu_atif_notifications notifications;
+		struct amdgpu_atif_functions functions;
+		struct amdgpu_atif_notification_cfg notification_cfg;
+		struct amdgpu_encoder *encoder_for_bl;
+		struct amdgpu_dm_backlight_caps backlight_caps;
+	} cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 61 */;
+	bool cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 607 */;
+	struct atcs_verify_interface cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 568 */;
+	struct amdgpu_atcs_functions *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 545 */;
+	struct amdgpu_atif_functions {
+		bool system_params;
+		bool sbios_requests;
+		bool temperature_change;
+		bool query_backlight_transfer_characteristics;
+		bool ready_to_undock;
+		bool external_gpu_information;
+	} cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 52 */;
+	struct acpi_object_list cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 503 */;
+	union acpi_object cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 502 */[2];
+	acpi_status cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 501 */;
+	struct acpi_buffer *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 499 */;
+	struct atif_sbios_requests cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 437 */;
+	struct amdgpu_atif_notifications {
+		bool thermal_state;
+		bool forced_power_state;
+		bool system_power_state;
+		bool brightness_change;
+		bool dgpu_display_event;
+		bool gpu_package_power_limit;
+	} cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 43 */;
+	struct amdgpu_atif_notification_cfg {
+		bool enabled;
+		int command_code;
+	} cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 38 */;
+	struct atif_sbios_requests *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 372 */;
+	struct atif_qbtc_arguments cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 321 */;
+	struct atif_qbtc_output cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 320 */;
+	struct atif_system_params cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 253 */;
+	struct amdgpu_atif_notification_cfg *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 252 */;
+	char cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 211 */[255];
+	struct atif_verify_interface cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 177 */;
+	struct amdgpu_atif_functions *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 152 */;
+	struct amdgpu_atif_notifications *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c 132 */;
+}

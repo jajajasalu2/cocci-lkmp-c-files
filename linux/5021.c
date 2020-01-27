@@ -1,0 +1,86 @@
+cocci_test_suite() {
+	struct css_header {
+		u32 module_type;
+		u32 header_len;
+		u32 header_version;
+		u32 module_id;
+		u32 module_vendor;
+		u32 date;
+		u32 size;
+		u32 key_size;
+		u32 modulus_size;
+		u32 exponent_size;
+		u32 reserved[22];
+	} cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 96 */;
+	struct css_header cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 943 */;
+	char *cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 83 */;
+	const u8 *cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 819 */;
+	uint cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 77 */;
+	struct firmware_details *cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 569 */;
+	struct augmented_firmware_file cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 539 */;
+	struct augmented_firmware_file *cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 534 */;
+	struct firmware_file *cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 509 */;
+	struct firmware_file cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 492 */;
+	struct css_header *cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 453 */;
+	long cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 432 */;
+	u64 *cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 272 */;
+	void cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 257 */(struct hfi1_devdata *dd);
+	int cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 255 */(struct hfi1_devdata *dd,
+								    struct firmware_details *fdet);
+	void cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 254 */(struct firmware_details *fdet);
+	const u32 cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 243 */[PLATFORM_CONFIG_TABLE_MAX];
+	const u8 cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 237 */;
+	const u8 cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 236 */[2];
+	const u8 cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 228 */[2][NUM_PCIE_SERDES];
+	u32 cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 2229 */[NUM_FABRIC_SERDES];
+	u32 cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 2228 */[NUM_PCIE_SERDES];
+	unsigned long long cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 2222 */;
+	const u8 cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 214 */[2][NUM_FABRIC_SERDES];
+	struct hfi1_pportdata *cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 1945 */;
+	enum platform_config_table_type_encoding cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 1942 */;
+	struct platform_config_cache cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 1936 */;
+	const unsigned char *cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 1917 */;
+	struct firmware_details cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 178 */;
+	enum fw_state cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 176 */;
+	u8 *cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 1759 */;
+	struct platform_config_cache *cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 1741 */;
+	u32 *cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 1738 */;
+	enum fw_state{FW_EMPTY, FW_TRY, FW_FINAL, FW_ERR,} cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 169 */;
+	const char *cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 1586 */;
+	bool cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 1585 */;
+	unsigned long cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 1526 */;
+	void cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 1507 */;
+	struct firmware_details {
+		const struct firmware *fw;
+		struct css_header *css_header;
+		u8 *firmware_ptr;
+		u32 firmware_len;
+		u8 *modulus;
+		u8 *exponent;
+		u8 *signature;
+		u8 *r2;
+		u8 *mu;
+		struct augmented_firmware_file dummy_header;
+	} cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 149 */;
+	u64 cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 1470 */;
+	u32 cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 1468 */;
+	struct hfi1_devdata *cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 1468 */;
+	int cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 1468 */;
+	u8 cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 1399 */;
+	struct augmented_firmware_file {
+		struct css_header css_header;
+		u8 modulus[KEY_SIZE];
+		u8 exponent[EXPONENT_SIZE];
+		u8 signature[KEY_SIZE];
+		u8 r2[KEY_SIZE];
+		u8 mu[MU_SIZE];
+		u8 firmware[];
+	} cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 135 */;
+	struct firmware_file {
+		struct css_header css_header;
+		u8 modulus[KEY_SIZE];
+		u8 exponent[EXPONENT_SIZE];
+		u8 signature[KEY_SIZE];
+		u8 firmware[];
+	} cocci_id/* drivers/infiniband/hw/hfi1/firmware.c 127 */;
+}

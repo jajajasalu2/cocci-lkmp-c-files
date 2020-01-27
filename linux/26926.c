@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct nfs_pgio_mirror *cocci_id/* fs/nfs/read.c 79 */;
+	const struct nfs_pageio_ops *cocci_id/* fs/nfs/read.c 66 */;
+	struct nfs_server *cocci_id/* fs/nfs/read.c 65 */;
+	const struct nfs_pgio_completion_ops *cocci_id/* fs/nfs/read.c 63 */;
+	bool cocci_id/* fs/nfs/read.c 62 */;
+	struct nfs_pageio_descriptor *cocci_id/* fs/nfs/read.c 61 */;
+	struct nfs_pgio_header cocci_id/* fs/nfs/read.c 463 */;
+	int __init cocci_id/* fs/nfs/read.c 460 */;
+	struct nfs_readdesc cocci_id/* fs/nfs/read.c 409 */;
+	unsigned cocci_id/* fs/nfs/read.c 405 */;
+	struct nfs_readdesc *cocci_id/* fs/nfs/read.c 375 */;
+	void *cocci_id/* fs/nfs/read.c 373 */;
+	struct nfs_readdesc {
+		struct nfs_pageio_descriptor *pgio;
+		struct nfs_open_context *ctx;
+	} cocci_id/* fs/nfs/read.c 367 */;
+	struct kmem_cache *cocci_id/* fs/nfs/read.c 36 */;
+	const struct nfs_rw_ops cocci_id/* fs/nfs/read.c 34 */;
+	const struct nfs_pgio_completion_ops cocci_id/* fs/nfs/read.c 33 */;
+	struct nfs_open_context *cocci_id/* fs/nfs/read.c 312 */;
+	struct file *cocci_id/* fs/nfs/read.c 310 */;
+	loff_t cocci_id/* fs/nfs/read.c 292 */;
+	struct nfs_pgio_res *cocci_id/* fs/nfs/read.c 264 */;
+	struct nfs_pgio_args *cocci_id/* fs/nfs/read.c 263 */;
+	struct rpc_task *cocci_id/* fs/nfs/read.c 241 */;
+	struct nfs_page *cocci_id/* fs/nfs/read.c 223 */;
+	struct list_head *cocci_id/* fs/nfs/read.c 221 */;
+	int cocci_id/* fs/nfs/read.c 221 */;
+	void cocci_id/* fs/nfs/read.c 220 */;
+	struct inode *cocci_id/* fs/nfs/read.c 212 */;
+	struct rpc_task_setup *cocci_id/* fs/nfs/read.c 210 */;
+	const struct nfs_rpc_ops *cocci_id/* fs/nfs/read.c 209 */;
+	struct rpc_message *cocci_id/* fs/nfs/read.c 208 */;
+	struct nfs_pgio_header *cocci_id/* fs/nfs/read.c 207 */;
+	struct page *cocci_id/* fs/nfs/read.c 168 */;
+	unsigned long cocci_id/* fs/nfs/read.c 161 */;
+	struct nfs_pageio_descriptor cocci_id/* fs/nfs/read.c 122 */;
+	unsigned int cocci_id/* fs/nfs/read.c 121 */;
+	struct address_space *cocci_id/* fs/nfs/read.c 106 */;
+	long long cocci_id/* fs/nfs/read.c 101 */;
+	unsigned long long cocci_id/* fs/nfs/read.c 100 */;
+}

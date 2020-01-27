@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	long cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 752 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 739 */;
+	gfp_t cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 737 */;
+	void *cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 737 */;
+	int cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 737 */;
+	struct mwifiex_histogram_data *cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 698 */;
+	s8 cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 696 */;
+	void cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 678 */;
+	const struct ieee80211_ht_cap *cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 639 */;
+	struct ieee_types_header *cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 638 */;
+	const u8 *cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 607 */;
+	struct mwifiex_private *cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 607 */;
+	struct mwifiex_sta_node *cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 606 */;
+	u8 cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 543 */;
+	struct cmd_ctrl_node *cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 509 */;
+	struct mwifiex_adapter *cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 508 */;
+	struct ethhdr *cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 447 */;
+	struct ieee80211_hdr_3addr cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 421 */;
+	struct ieee80211_hdr cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 350 */;
+	struct ieee80211_hdr *cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 344 */;
+	struct rxpd *cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 340 */;
+	long long *cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 285 */;
+	u32 *cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 282 */;
+	struct mwifiex_debug_data cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 28 */[];
+	u16 *cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 279 */;
+	u8 *cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 276 */;
+	size_t cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 256 */;
+	struct mwifiex_debug_data *cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 255 */;
+	struct mwifiex_debug_info *cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 252 */;
+	char *cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 251 */;
+	u32 cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 187 */;
+	u16 cocci_id/* drivers/net/wireless/marvell/mwifiex/util.c 155 */;
+}

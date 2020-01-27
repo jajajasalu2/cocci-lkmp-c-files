@@ -1,0 +1,77 @@
+cocci_test_suite() {
+	struct attribute_group cocci_id/* arch/x86/events/intel/pt.c 98 */;
+	long cocci_id/* arch/x86/events/intel/pt.c 93 */;
+	struct dev_ext_attribute cocci_id/* arch/x86/events/intel/pt.c 92 */;
+	struct dev_ext_attribute *cocci_id/* arch/x86/events/intel/pt.c 91 */;
+	char *cocci_id/* arch/x86/events/intel/pt.c 89 */;
+	struct device_attribute *cocci_id/* arch/x86/events/intel/pt.c 88 */;
+	size_t cocci_id/* arch/x86/events/intel/pt.c 871 */;
+	struct device *cocci_id/* arch/x86/events/intel/pt.c 87 */;
+	ssize_t cocci_id/* arch/x86/events/intel/pt.c 87 */;
+	struct topa cocci_id/* arch/x86/events/intel/pt.c 817 */;
+	u64 *cocci_id/* arch/x86/events/intel/pt.c 791 */;
+	unsigned int cocci_id/* arch/x86/events/intel/pt.c 75 */;
+	struct pt_cap_desc *cocci_id/* arch/x86/events/intel/pt.c 73 */;
+	u32 cocci_id/* arch/x86/events/intel/pt.c 71 */;
+	enum pt_capabilities cocci_id/* arch/x86/events/intel/pt.c 71 */;
+	u32 *cocci_id/* arch/x86/events/intel/pt.c 71 */;
+	phys_addr_t cocci_id/* arch/x86/events/intel/pt.c 594 */;
+	struct topa_page cocci_id/* arch/x86/events/intel/pt.c 586 */;
+	struct topa_page {
+		struct topa_entry table[TENTS_PER_PAGE];
+		struct topa topa;
+	} cocci_id/* arch/x86/events/intel/pt.c 579 */;
+	struct topa_entry cocci_id/* arch/x86/events/intel/pt.c 572 */;
+	struct topa {
+		struct list_head list;
+		u64 offset;
+		size_t size;
+		int last;
+		unsigned int z_count;
+	} cocci_id/* arch/x86/events/intel/pt.c 558 */;
+	u64 cocci_id/* arch/x86/events/intel/pt.c 487 */;
+	struct pt_cap_desc {
+		const char *name;
+		u32 leaf;
+		u8 reg;
+		u32 mask;
+	} cocci_id/* arch/x86/events/intel/pt.c 47 */[];
+	struct pt_filter *cocci_id/* arch/x86/events/intel/pt.c 455 */;
+	const struct pt_address_range {
+		unsigned long msr_a;
+		unsigned long msr_b;
+		unsigned int reg_off;
+	} cocci_id/* arch/x86/events/intel/pt.c 415 */[];
+	struct pt_pmu cocci_id/* arch/x86/events/intel/pt.c 30 */;
+	struct attribute *cocci_id/* arch/x86/events/intel/pt.c 240 */;
+	struct attribute **cocci_id/* arch/x86/events/intel/pt.c 182 */;
+	int __init cocci_id/* arch/x86/events/intel/pt.c 179 */;
+	const struct attribute_group *cocci_id/* arch/x86/events/intel/pt.c 172 */[];
+	struct pt *cocci_id/* arch/x86/events/intel/pt.c 1693 */;
+	void cocci_id/* arch/x86/events/intel/pt.c 1691 */;
+	struct hw_perf_event *cocci_id/* arch/x86/events/intel/pt.c 1639 */;
+	unsigned long cocci_id/* arch/x86/events/intel/pt.c 1479 */;
+	struct perf_event *cocci_id/* arch/x86/events/intel/pt.c 1478 */;
+	int cocci_id/* arch/x86/events/intel/pt.c 1475 */;
+	struct pt_buffer *cocci_id/* arch/x86/events/intel/pt.c 1425 */;
+	struct perf_pmu_events_attr cocci_id/* arch/x86/events/intel/pt.c 141 */;
+	struct perf_pmu_events_attr *cocci_id/* arch/x86/events/intel/pt.c 140 */;
+	struct perf_addr_filter *cocci_id/* arch/x86/events/intel/pt.c 1392 */;
+	struct perf_addr_filter_range *cocci_id/* arch/x86/events/intel/pt.c 1390 */;
+	struct perf_addr_filters_head *cocci_id/* arch/x86/events/intel/pt.c 1388 */;
+	struct list_head *cocci_id/* arch/x86/events/intel/pt.c 1357 */;
+	struct pt_filters cocci_id/* arch/x86/events/intel/pt.c 1333 */;
+	struct pt_filters *cocci_id/* arch/x86/events/intel/pt.c 1327 */;
+	void *cocci_id/* arch/x86/events/intel/pt.c 1317 */;
+	struct pt_buffer cocci_id/* arch/x86/events/intel/pt.c 1289 */;
+	bool cocci_id/* arch/x86/events/intel/pt.c 1270 */;
+	void **cocci_id/* arch/x86/events/intel/pt.c 1269 */;
+	struct page *cocci_id/* arch/x86/events/intel/pt.c 1228 */;
+	gfp_t cocci_id/* arch/x86/events/intel/pt.c 1197 */;
+	struct topa *cocci_id/* arch/x86/events/intel/pt.c 1176 */;
+	struct attribute *cocci_id/* arch/x86/events/intel/pt.c 115 */[];
+	struct topa_entry *cocci_id/* arch/x86/events/intel/pt.c 1148 */;
+	struct topa_page *cocci_id/* arch/x86/events/intel/pt.c 1147 */;
+	struct perf_output_handle *cocci_id/* arch/x86/events/intel/pt.c 1064 */;
+	__typeof__(struct pt) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

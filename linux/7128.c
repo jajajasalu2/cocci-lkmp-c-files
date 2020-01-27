@@ -1,0 +1,57 @@
+cocci_test_suite() {
+	struct pci_driver cocci_id/* drivers/xen/xen-pciback/pci_stub.c 998 */;
+	const struct pci_error_handlers cocci_id/* drivers/xen/xen-pciback/pci_stub.c 986 */;
+	struct pcistub_device cocci_id/* drivers/xen/xen-pciback/pci_stub.c 97 */;
+	struct kref *cocci_id/* drivers/xen/xen-pciback/pci_stub.c 91 */;
+	unsigned long *cocci_id/* drivers/xen/xen-pciback/pci_stub.c 725 */;
+	struct xen_pci_sharedinfo *cocci_id/* drivers/xen/xen-pciback/pci_stub.c 700 */;
+	struct xen_pcibk_device *cocci_id/* drivers/xen/xen-pciback/pci_stub.c 699 */;
+	struct xen_pcie_aer_op *cocci_id/* drivers/xen/xen-pciback/pci_stub.c 698 */;
+	pci_channel_state_t cocci_id/* drivers/xen/xen-pciback/pci_stub.c 694 */;
+	int cocci_id/* drivers/xen/xen-pciback/pci_stub.c 694 */;
+	pci_ers_result_t cocci_id/* drivers/xen/xen-pciback/pci_stub.c 693 */;
+	struct pcistub_device *cocci_id/* drivers/xen/xen-pciback/pci_stub.c 693 */;
+	struct pci_dev *cocci_id/* drivers/xen/xen-pciback/pci_stub.c 68 */;
+	char cocci_id/* drivers/xen/xen-pciback/pci_stub.c 664 */[PCI_NODENAME_MAX];
+	struct xenbus_transaction cocci_id/* drivers/xen/xen-pciback/pci_stub.c 662 */;
+	void cocci_id/* drivers/xen/xen-pciback/pci_stub.c 660 */;
+	const struct pci_device_id cocci_id/* drivers/xen/xen-pciback/pci_stub.c 649 */[];
+	const struct pci_device_id *cocci_id/* drivers/xen/xen-pciback/pci_stub.c 558 */;
+	unsigned int cocci_id/* drivers/xen/xen-pciback/pci_stub.c 485 */;
+	struct pcistub_device {
+		struct kref kref;
+		struct list_head dev_list;
+		spinlock_t lock;
+		struct pci_dev *dev;
+		struct xen_pcibk_device *pdev;
+	} cocci_id/* drivers/xen/xen-pciback/pci_stub.c 47 */;
+	struct pcistub_device_id {
+		struct list_head slot_list;
+		int domain;
+		unsigned char bus;
+		unsigned int devfn;
+	} cocci_id/* drivers/xen/xen-pciback/pci_stub.c 38 */;
+	wait_queue_head_t cocci_id/* drivers/xen/xen-pciback/pci_stub.c 31 */;
+	void __exit cocci_id/* drivers/xen/xen-pciback/pci_stub.c 1639 */;
+	struct notifier_block cocci_id/* drivers/xen/xen-pciback/pci_stub.c 1605 */;
+	struct device *cocci_id/* drivers/xen/xen-pciback/pci_stub.c 1587 */;
+	void *cocci_id/* drivers/xen/xen-pciback/pci_stub.c 1585 */;
+	struct notifier_block *cocci_id/* drivers/xen/xen-pciback/pci_stub.c 1584 */;
+	bool cocci_id/* drivers/xen/xen-pciback/pci_stub.c 1568 */;
+	unsigned long cocci_id/* drivers/xen/xen-pciback/pci_stub.c 1567 */;
+	const struct pci_dev *cocci_id/* drivers/xen/xen-pciback/pci_stub.c 1564 */;
+	int __init cocci_id/* drivers/xen/xen-pciback/pci_stub.c 1450 */;
+	const struct config_field_entry *cocci_id/* drivers/xen/xen-pciback/pci_stub.c 1332 */;
+	const struct config_field *cocci_id/* drivers/xen/xen-pciback/pci_stub.c 1331 */;
+	struct xen_pcibk_config_quirk *cocci_id/* drivers/xen/xen-pciback/pci_stub.c 1329 */;
+	struct xen_pcibk_dev_data *cocci_id/* drivers/xen/xen-pciback/pci_stub.c 1270 */;
+	const char *cocci_id/* drivers/xen/xen-pciback/pci_stub.c 1267 */;
+	size_t cocci_id/* drivers/xen/xen-pciback/pci_stub.c 1267 */;
+	struct device_driver *cocci_id/* drivers/xen/xen-pciback/pci_stub.c 1266 */;
+	ssize_t cocci_id/* drivers/xen/xen-pciback/pci_stub.c 1266 */;
+	char *cocci_id/* drivers/xen/xen-pciback/pci_stub.c 1237 */;
+	struct physdev_pci_device cocci_id/* drivers/xen/xen-pciback/pci_stub.c 116 */;
+	struct config_field *cocci_id/* drivers/xen/xen-pciback/pci_stub.c 1141 */;
+	struct pcistub_device_id *cocci_id/* drivers/xen/xen-pciback/pci_stub.c 1067 */;
+	int *cocci_id/* drivers/xen/xen-pciback/pci_stub.c 1045 */;
+}

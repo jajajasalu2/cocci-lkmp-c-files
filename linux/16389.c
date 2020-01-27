@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	dev_t cocci_id/* drivers/hid/hidraw.c 611 */;
+	int __init cocci_id/* drivers/hid/hidraw.c 573 */;
+	struct hidraw cocci_id/* drivers/hid/hidraw.c 511 */;
+	struct hid_device *cocci_id/* drivers/hid/hidraw.c 504 */;
+	u8 *cocci_id/* drivers/hid/hidraw.c 475 */;
+	const struct file_operations cocci_id/* drivers/hid/hidraw.c 462 */;
+	struct hidraw_devinfo cocci_id/* drivers/hid/hidraw.c 402 */;
+	struct hidraw_report_descriptor cocci_id/* drivers/hid/hidraw.c 393 */;
+	loff_t *cocci_id/* drivers/hid/hidraw.c 39 */;
+	__u32 cocci_id/* drivers/hid/hidraw.c 386 */;
+	int __user *cocci_id/* drivers/hid/hidraw.c 380 */;
+	void __user *cocci_id/* drivers/hid/hidraw.c 369 */;
+	struct inode *cocci_id/* drivers/hid/hidraw.c 365 */;
+	unsigned long cocci_id/* drivers/hid/hidraw.c 363 */;
+	long cocci_id/* drivers/hid/hidraw.c 362 */;
+	struct hidraw *cocci_id/* drivers/hid/hidraw.c 36 */[HIDRAW_MAX_DEVICES];
+	struct class *cocci_id/* drivers/hid/hidraw.c 35 */;
+	struct cdev cocci_id/* drivers/hid/hidraw.c 34 */;
+	struct hidraw *cocci_id/* drivers/hid/hidraw.c 318 */;
+	int cocci_id/* drivers/hid/hidraw.c 318 */;
+	void cocci_id/* drivers/hid/hidraw.c 318 */;
+	struct hidraw_list *cocci_id/* drivers/hid/hidraw.c 313 */;
+	struct file *cocci_id/* drivers/hid/hidraw.c 311 */;
+	struct hidraw_list cocci_id/* drivers/hid/hidraw.c 269 */;
+	__poll_t cocci_id/* drivers/hid/hidraw.c 249 */;
+	poll_table *cocci_id/* drivers/hid/hidraw.c 249 */;
+	__u8 *cocci_id/* drivers/hid/hidraw.c 181 */;
+	unsigned int cocci_id/* drivers/hid/hidraw.c 179 */;
+	char __user *cocci_id/* drivers/hid/hidraw.c 177 */;
+	unsigned char cocci_id/* drivers/hid/hidraw.c 177 */;
+	ssize_t cocci_id/* drivers/hid/hidraw.c 177 */;
+	size_t cocci_id/* drivers/hid/hidraw.c 177 */;
+	const char __user *cocci_id/* drivers/hid/hidraw.c 103 */;
+}

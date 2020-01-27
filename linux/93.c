@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct workqueue_struct *cocci_id/* kernel/power/main.c 891 */;
+	const struct attribute_group *cocci_id/* kernel/power/main.c 883 */[];
+	const struct attribute_group cocci_id/* kernel/power/main.c 879 */;
+	struct attribute *cocci_id/* kernel/power/main.c 847 */[];
+	int *cocci_id/* kernel/power/main.c 83 */;
+	unsigned long cocci_id/* kernel/power/main.c 83 */;
+	int cocci_id/* kernel/power/main.c 83 */;
+	size_t cocci_id/* kernel/power/main.c 727 */;
+	struct notifier_block *cocci_id/* kernel/power/main.c 71 */;
+	suspend_state_t cocci_id/* kernel/power/main.c 708 */;
+	char *cocci_id/* kernel/power/main.c 706 */;
+	struct kobj_attribute *cocci_id/* kernel/power/main.c 705 */;
+	struct kobject *cocci_id/* kernel/power/main.c 704 */;
+	ssize_t cocci_id/* kernel/power/main.c 704 */;
+	unsigned int cocci_id/* kernel/power/main.c 666 */;
+	long cocci_id/* kernel/power/main.c 57 */;
+	ktime_t cocci_id/* kernel/power/main.c 56 */;
+	va_list cocci_id/* kernel/power/main.c 517 */;
+	struct va_format cocci_id/* kernel/power/main.c 516 */;
+	bool cocci_id/* kernel/power/main.c 514 */;
+	const char *cocci_id/* kernel/power/main.c 514 */;
+	void cocci_id/* kernel/power/main.c 514 */;
+	int __init cocci_id/* kernel/power/main.c 421 */;
+	struct seq_file *cocci_id/* kernel/power/main.c 364 */;
+	void *cocci_id/* kernel/power/main.c 364 */;
+	struct attribute_group cocci_id/* kernel/power/main.c 358 */;
+	enum suspend_stat_step cocci_id/* kernel/power/main.c 329 */;
+	struct kobj_attribute cocci_id/* kernel/power/main.c 309 */;
+	const char *const *cocci_id/* kernel/power/main.c 231 */;
+	const char *const cocci_id/* kernel/power/main.c 198 */[__TEST_AFTER_LAST];
+}

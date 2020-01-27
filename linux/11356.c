@@ -1,0 +1,73 @@
+cocci_test_suite() {
+	struct device_node *cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 931 */;
+	struct drm_panel *cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 930 */;
+	struct mipi_dsi_device *cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 924 */;
+	struct mipi_dsi_host *cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 923 */;
+	const struct drm_bridge_funcs cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 916 */;
+	u64 cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 834 */;
+	struct cdns_dsi_cfg cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 786 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 783 */;
+	u32 cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 700 */;
+	void cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 696 */;
+	enum drm_mode_status cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 663 */;
+	unsigned int cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 566 */;
+	unsigned long cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 562 */;
+	unsigned long long cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 561 */;
+	struct cdns_dsi_output *cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 560 */;
+	bool cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 558 */;
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 557 */;
+	struct phy_configure_opts_mipi_dphy *cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 556 */;
+	struct cdns_dsi_cfg *cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 555 */;
+	struct cdns_dsi *cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 554 */;
+	int cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 554 */;
+	struct cdns_dsi_input cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 481 */;
+	struct drm_bridge *cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 479 */;
+	struct cdns_dsi_input *cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 478 */;
+	struct cdns_dsi cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 470 */;
+	struct cdns_dsi {
+		struct mipi_dsi_host base;
+		void __iomem *regs;
+		struct cdns_dsi_input input;
+		struct cdns_dsi_output output;
+		unsigned int direct_cmd_fifo_depth;
+		unsigned int rx_fifo_depth;
+		struct completion direct_cmd_comp;
+		struct clk *dsi_p_clk;
+		struct reset_control *dsi_p_rst;
+		struct clk *dsi_sys_clk;
+		bool link_initialized;
+		struct phy *dphy;
+	} cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 453 */;
+	struct cdns_dsi_input {
+		enum cdns_dsi_input_id id;
+		struct drm_bridge bridge;
+	} cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 448 */;
+	struct cdns_dsi_cfg {
+		unsigned int hfp;
+		unsigned int hsa;
+		unsigned int hbp;
+		unsigned int hact;
+		unsigned int htotal;
+	} cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 440 */;
+	enum cdns_dsi_input_id{CDNS_SDI_INPUT, CDNS_DPI_INPUT, CDNS_DSC_INPUT,} cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 434 */;
+	struct cdns_dsi_output {
+		struct mipi_dsi_device *dev;
+		struct drm_panel *panel;
+		struct drm_bridge *bridge;
+		union phy_configure_opts phy_opts;
+	} cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 427 */;
+	struct platform_driver cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 1289 */;
+	const struct of_device_id cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 1284 */[];
+	struct resource *cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 1173 */;
+	struct platform_device *cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 1169 */;
+	struct device *cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 1144 */;
+	int __maybe_unused cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 1144 */;
+	const struct mipi_dsi_host_ops cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 1138 */;
+	u8 *cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 1125 */;
+	const u8 *cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 1086 */;
+	struct mipi_dsi_packet cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 1027 */;
+	const struct mipi_dsi_msg *cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 1023 */;
+	ssize_t cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 1022 */;
+	irqreturn_t cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 1004 */;
+	void *cocci_id/* drivers/gpu/drm/bridge/cdns-dsi.c 1004 */;
+}

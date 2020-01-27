@@ -1,0 +1,72 @@
+cocci_test_suite() {
+	struct thresh_restart cocci_id/* arch/x86/kernel/cpu/mce/amd.c 989 */;
+	u32 cocci_id/* arch/x86/kernel/cpu/mce/amd.c 922 */;
+	bool cocci_id/* arch/x86/kernel/cpu/mce/amd.c 921 */;
+	struct pt_regs *cocci_id/* arch/x86/kernel/cpu/mce/amd.c 908 */;
+	void __irq_entry cocci_id/* arch/x86/kernel/cpu/mce/amd.c 908 */;
+	u8 cocci_id/* arch/x86/kernel/cpu/mce/amd.c 892 */;
+	struct mce cocci_id/* arch/x86/kernel/cpu/mce/amd.c 875 */;
+	u64 cocci_id/* arch/x86/kernel/cpu/mce/amd.c 873 */;
+	unsigned int cocci_id/* arch/x86/kernel/cpu/mce/amd.c 873 */;
+	void cocci_id/* arch/x86/kernel/cpu/mce/amd.c 873 */;
+	struct smca_bank_name cocci_id/* arch/x86/kernel/cpu/mce/amd.c 79 */[];
+	struct smca_bank_name {
+		const char *name;
+		const char *long_name;
+	} cocci_id/* arch/x86/kernel/cpu/mce/amd.c 74 */;
+	const char *const cocci_id/* arch/x86/kernel/cpu/mce/amd.c 69 */[];
+	u16 cocci_id/* arch/x86/kernel/cpu/mce/amd.c 662 */;
+	u64 *cocci_id/* arch/x86/kernel/cpu/mce/amd.c 662 */;
+	u32 cocci_id/* arch/x86/kernel/cpu/mce/amd.c 591 */[NR_BLOCKS];
+	struct cpuinfo_x86 *cocci_id/* arch/x86/kernel/cpu/mce/amd.c 568 */;
+	enum smca_bank_types cocci_id/* arch/x86/kernel/cpu/mce/amd.c 567 */;
+	struct mce *cocci_id/* arch/x86/kernel/cpu/mce/amd.c 565 */;
+	struct thresh_restart *cocci_id/* arch/x86/kernel/cpu/mce/amd.c 379 */;
+	void *cocci_id/* arch/x86/kernel/cpu/mce/amd.c 377 */;
+	const struct threshold_block *cocci_id/* arch/x86/kernel/cpu/mce/amd.c 312 */;
+	const char *cocci_id/* arch/x86/kernel/cpu/mce/amd.c 312 */;
+	struct thresh_restart {
+		struct threshold_block *b;
+		int reset;
+		int set_lvt_off;
+		int lvt_off;
+		u16 old_limit;
+	} cocci_id/* arch/x86/kernel/cpu/mce/amd.c 291 */;
+	struct smca_hwid *cocci_id/* arch/x86/kernel/cpu/mce/amd.c 232 */;
+	void (*cocci_id/* arch/x86/kernel/cpu/mce/amd.c 205 */)(void);
+	void cocci_id/* arch/x86/kernel/cpu/mce/amd.c 199 */(void);
+	char cocci_id/* arch/x86/kernel/cpu/mce/amd.c 190 */[MAX_MCATYPE_NAME_LEN];
+	struct smca_bank cocci_id/* arch/x86/kernel/cpu/mce/amd.c 178 */[MAX_NR_BANKS];
+	unsigned cocci_id/* arch/x86/kernel/cpu/mce/amd.c 1483 */;
+	struct threshold_bank **cocci_id/* arch/x86/kernel/cpu/mce/amd.c 1454 */;
+	struct threshold_bank cocci_id/* arch/x86/kernel/cpu/mce/amd.c 1334 */;
+	struct smca_hwid cocci_id/* arch/x86/kernel/cpu/mce/amd.c 133 */[];
+	struct amd_northbridge *cocci_id/* arch/x86/kernel/cpu/mce/amd.c 1306 */;
+	struct device *cocci_id/* arch/x86/kernel/cpu/mce/amd.c 1305 */;
+	struct threshold_block *cocci_id/* arch/x86/kernel/cpu/mce/amd.c 1282 */;
+	struct list_head *cocci_id/* arch/x86/kernel/cpu/mce/amd.c 1281 */;
+	struct threshold_bank *cocci_id/* arch/x86/kernel/cpu/mce/amd.c 1279 */;
+	int cocci_id/* arch/x86/kernel/cpu/mce/amd.c 1279 */;
+	struct threshold_block cocci_id/* arch/x86/kernel/cpu/mce/amd.c 1223 */;
+	struct smca_bank *cocci_id/* arch/x86/kernel/cpu/mce/amd.c 121 */;
+	struct kobj_type cocci_id/* arch/x86/kernel/cpu/mce/amd.c 1164 */;
+	const struct sysfs_ops cocci_id/* arch/x86/kernel/cpu/mce/amd.c 1159 */;
+	size_t cocci_id/* arch/x86/kernel/cpu/mce/amd.c 1148 */;
+	struct threshold_attr *cocci_id/* arch/x86/kernel/cpu/mce/amd.c 1139 */;
+	struct kobject *cocci_id/* arch/x86/kernel/cpu/mce/amd.c 1136 */;
+	struct attribute *cocci_id/* arch/x86/kernel/cpu/mce/amd.c 1136 */;
+	char *cocci_id/* arch/x86/kernel/cpu/mce/amd.c 1136 */;
+	ssize_t cocci_id/* arch/x86/kernel/cpu/mce/amd.c 1136 */;
+	struct attribute *cocci_id/* arch/x86/kernel/cpu/mce/amd.c 1126 */[];
+	struct threshold_attr cocci_id/* arch/x86/kernel/cpu/mce/amd.c 1111 */;
+	unsigned long cocci_id/* arch/x86/kernel/cpu/mce/amd.c 1050 */;
+	struct threshold_attr {
+		struct attribute attr;
+		ssize_t (*show)(struct threshold_block *, char *);
+		ssize_t (*store)(struct threshold_block *, const char *,
+				 size_t count);
+	} cocci_id/* arch/x86/kernel/cpu/mce/amd.c 1041 */;
+	__typeof__(struct threshold_bank **) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+	__typeof__(unsigned int) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+	__typeof__(u32) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

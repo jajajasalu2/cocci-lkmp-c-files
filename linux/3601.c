@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	int *cocci_id/* drivers/firmware/dmi_scan.c 984 */;
+	struct dmi_header cocci_id/* drivers/firmware/dmi_scan.c 97 */;
+	struct dmi_device cocci_id/* drivers/firmware/dmi_scan.c 955 */;
+	struct list_head *cocci_id/* drivers/firmware/dmi_scan.c 951 */;
+	const struct list_head *cocci_id/* drivers/firmware/dmi_scan.c 950 */;
+	const struct dmi_device *cocci_id/* drivers/firmware/dmi_scan.c 947 */;
+	const char *cocci_id/* drivers/firmware/dmi_scan.c 947 */;
+	int cocci_id/* drivers/firmware/dmi_scan.c 924 */[];
+	const struct dmi_system_id *cocci_id/* drivers/firmware/dmi_scan.c 851 */;
+	void (*cocci_id/* drivers/firmware/dmi_scan.c 84 */)(const struct dmi_header *,
+							     void *);
+	u8 *cocci_id/* drivers/firmware/dmi_scan.c 83 */;
+	void cocci_id/* drivers/firmware/dmi_scan.c 83 */;
+	struct kobject *cocci_id/* drivers/firmware/dmi_scan.c 721 */;
+	loff_t cocci_id/* drivers/firmware/dmi_scan.c 710 */;
+	struct bin_attribute *cocci_id/* drivers/firmware/dmi_scan.c 709 */;
+	struct file *cocci_id/* drivers/firmware/dmi_scan.c 708 */;
+	ssize_t cocci_id/* drivers/firmware/dmi_scan.c 708 */;
+	char cocci_id/* drivers/firmware/dmi_scan.c 620 */[32];
+	const char *__init cocci_id/* drivers/firmware/dmi_scan.c 62 */;
+	char __iomem *cocci_id/* drivers/firmware/dmi_scan.c 619 */;
+	char *cocci_id/* drivers/firmware/dmi_scan.c 500 */;
+	size_t cocci_id/* drivers/firmware/dmi_scan.c 500 */;
+	u32 *cocci_id/* drivers/firmware/dmi_scan.c 416 */;
+	const struct dmi_header *cocci_id/* drivers/firmware/dmi_scan.c 381 */;
+	void *cocci_id/* drivers/firmware/dmi_scan.c 381 */;
+	void __init cocci_id/* drivers/firmware/dmi_scan.c 381 */;
+	u16 *cocci_id/* drivers/firmware/dmi_scan.c 364 */;
+	struct dmi_memdev_info {
+		const char *device;
+		const char *bank;
+		u64 size;
+		u16 handle;
+		u8 type;
+	} *cocci_id/* drivers/firmware/dmi_scan.c 33 */;
+	struct dmi_dev_onboard *cocci_id/* drivers/firmware/dmi_scan.c 327 */;
+	char cocci_id/* drivers/firmware/dmi_scan.c 31 */[128]__initdata;
+	struct dmi_device *cocci_id/* drivers/firmware/dmi_scan.c 304 */;
+	u8 cocci_id/* drivers/firmware/dmi_scan.c 27 */[32];
+	u32 cocci_id/* drivers/firmware/dmi_scan.c 25 */;
+	const char cocci_id/* drivers/firmware/dmi_scan.c 22 */[];
+	int cocci_id/* drivers/firmware/dmi_scan.c 164 */;
+	const char *cocci_id/* drivers/firmware/dmi_scan.c 162 */[DMI_STRING_MAX];
+	u8 cocci_id/* drivers/firmware/dmi_scan.c 151 */;
+	const u8 *cocci_id/* drivers/firmware/dmi_scan.c 151 */;
+	int __init cocci_id/* drivers/firmware/dmi_scan.c 151 */;
+	phys_addr_t cocci_id/* drivers/firmware/dmi_scan.c 131 */;
+	u16 cocci_id/* drivers/firmware/dmi_scan.c 1162 */;
+	u64 cocci_id/* drivers/firmware/dmi_scan.c 1120 */;
+	const char **cocci_id/* drivers/firmware/dmi_scan.c 1103 */;
+	enum dmi_field cocci_id/* drivers/firmware/dmi_scan.c 1092 */;
+	bool cocci_id/* drivers/firmware/dmi_scan.c 1047 */;
+}

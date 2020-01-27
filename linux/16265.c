@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	const u32 cocci_id/* drivers/staging/media/omap4iss/iss.c 99 */;
+	struct iss_v4l2_subdevs_group *cocci_id/* drivers/staging/media/omap4iss/iss.c 980 */;
+	struct i2c_adapter *cocci_id/* drivers/staging/media/omap4iss/iss.c 951 */;
+	struct iss_subdev_i2c_board_info *cocci_id/* drivers/staging/media/omap4iss/iss.c 941 */;
+	enum iss_mem_resources cocci_id/* drivers/staging/media/omap4iss/iss.c 909 */;
+	struct platform_device *cocci_id/* drivers/staging/media/omap4iss/iss.c 907 */;
+	enum iss_isp_subclk_resource cocci_id/* drivers/staging/media/omap4iss/iss.c 784 */;
+	u32 cocci_id/* drivers/staging/media/omap4iss/iss.c 751 */;
+	struct iss_device *cocci_id/* drivers/staging/media/omap4iss/iss.c 749 */;
+	void cocci_id/* drivers/staging/media/omap4iss/iss.c 749 */;
+	enum iss_subclk_resource cocci_id/* drivers/staging/media/omap4iss/iss.c 735 */;
+	int cocci_id/* drivers/staging/media/omap4iss/iss.c 695 */;
+	struct iss_video *cocci_id/* drivers/staging/media/omap4iss/iss.c 622 */;
+	atomic_t *cocci_id/* drivers/staging/media/omap4iss/iss.c 619 */;
+	wait_queue_head_t *cocci_id/* drivers/staging/media/omap4iss/iss.c 618 */;
+	unsigned long cocci_id/* drivers/staging/media/omap4iss/iss.c 441 */;
+	enum iss_pipeline_stream_state cocci_id/* drivers/staging/media/omap4iss/iss.c 435 */;
+	struct v4l2_subdev *cocci_id/* drivers/staging/media/omap4iss/iss.c 388 */;
+	struct media_pad *cocci_id/* drivers/staging/media/omap4iss/iss.c 387 */;
+	struct media_entity *cocci_id/* drivers/staging/media/omap4iss/iss.c 383 */;
+	struct iss_pipeline *cocci_id/* drivers/staging/media/omap4iss/iss.c 382 */;
+	const struct media_device_ops cocci_id/* drivers/staging/media/omap4iss/iss.c 361 */;
+	irqreturn_t cocci_id/* drivers/staging/media/omap4iss/iss.c 310 */;
+	void *cocci_id/* drivers/staging/media/omap4iss/iss.c 310 */;
+	unsigned int cocci_id/* drivers/staging/media/omap4iss/iss.c 288 */;
+	const char *const cocci_id/* drivers/staging/media/omap4iss/iss.c 254 */[];
+	enum ipipeif_input_entity cocci_id/* drivers/staging/media/omap4iss/iss.c 171 */;
+	struct platform_driver cocci_id/* drivers/staging/media/omap4iss/iss.c 1338 */;
+	const struct platform_device_id cocci_id/* drivers/staging/media/omap4iss/iss.c 1332 */[];
+	struct v4l2_ctrl *cocci_id/* drivers/staging/media/omap4iss/iss.c 128 */;
+	struct v4l2_subdev_format cocci_id/* drivers/staging/media/omap4iss/iss.c 127 */;
+	struct iss_video cocci_id/* drivers/staging/media/omap4iss/iss.c 126 */;
+	struct media_link *cocci_id/* drivers/staging/media/omap4iss/iss.c 123 */;
+	struct iss_platform_data *cocci_id/* drivers/staging/media/omap4iss/iss.c 1197 */;
+}

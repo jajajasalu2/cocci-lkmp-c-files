@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	const struct watchdog_info cocci_id/* drivers/watchdog/machzwd.c 98 */;
+	bool cocci_id/* drivers/watchdog/machzwd.c 90 */;
+	unsigned char cocci_id/* drivers/watchdog/machzwd.c 79 */;
+	void __exit cocci_id/* drivers/watchdog/machzwd.c 442 */;
+	void cocci_id/* drivers/watchdog/machzwd.c 442 */;
+	int __init cocci_id/* drivers/watchdog/machzwd.c 391 */;
+	const char *const cocci_id/* drivers/watchdog/machzwd.c 386 */[];
+	void __init cocci_id/* drivers/watchdog/machzwd.c 384 */;
+	struct notifier_block cocci_id/* drivers/watchdog/machzwd.c 380 */;
+	struct miscdevice cocci_id/* drivers/watchdog/machzwd.c 369 */;
+	const struct file_operations cocci_id/* drivers/watchdog/machzwd.c 359 */;
+	void *cocci_id/* drivers/watchdog/machzwd.c 352 */;
+	struct notifier_block *cocci_id/* drivers/watchdog/machzwd.c 351 */;
+	struct inode *cocci_id/* drivers/watchdog/machzwd.c 334 */;
+	struct file *cocci_id/* drivers/watchdog/machzwd.c 334 */;
+	int __user *cocci_id/* drivers/watchdog/machzwd.c 306 */;
+	void __user *cocci_id/* drivers/watchdog/machzwd.c 305 */;
+	unsigned int cocci_id/* drivers/watchdog/machzwd.c 303 */;
+	long cocci_id/* drivers/watchdog/machzwd.c 303 */;
+	loff_t *cocci_id/* drivers/watchdog/machzwd.c 265 */;
+	const char __user *cocci_id/* drivers/watchdog/machzwd.c 264 */;
+	ssize_t cocci_id/* drivers/watchdog/machzwd.c 264 */;
+	size_t cocci_id/* drivers/watchdog/machzwd.c 264 */;
+	struct timer_list *cocci_id/* drivers/watchdog/machzwd.c 235 */;
+	unsigned short cocci_id/* drivers/watchdog/machzwd.c 153 */;
+	unsigned long cocci_id/* drivers/watchdog/machzwd.c 125 */;
+	char cocci_id/* drivers/watchdog/machzwd.c 122 */;
+	void cocci_id/* drivers/watchdog/machzwd.c 118 */(struct timer_list *unused);
+	int cocci_id/* drivers/watchdog/machzwd.c 113 */;
+}

@@ -1,0 +1,56 @@
+cocci_test_suite() {
+	const char *cocci_id/* drivers/clk/davinci/psc.c 99 */;
+	struct davinci_lpsc_clk cocci_id/* drivers/clk/davinci/psc.c 88 */;
+	struct davinci_psc_data cocci_id/* drivers/clk/davinci/psc.c 87 */;
+	struct davinci_lpsc_clk {
+		struct device *dev;
+		struct clk_hw hw;
+		struct generic_pm_domain pm_domain;
+		struct clk *genpd_clk;
+		struct regmap *regmap;
+		u32 md;
+		u32 pd;
+		u32 flags;
+	} cocci_id/* drivers/clk/davinci/psc.c 76 */;
+	struct davinci_psc_data {
+		struct clk_onecell_data clk_data;
+		struct genpd_onecell_data pm_data;
+		struct reset_controller_dev rcdev;
+	} cocci_id/* drivers/clk/davinci/psc.c 59 */;
+	int __init cocci_id/* drivers/clk/davinci/psc.c 569 */;
+	struct platform_driver cocci_id/* drivers/clk/davinci/psc.c 560 */;
+	void *cocci_id/* drivers/clk/davinci/psc.c 541 */;
+	const struct davinci_psc_init_data *cocci_id/* drivers/clk/davinci/psc.c 533 */;
+	const struct of_device_id *cocci_id/* drivers/clk/davinci/psc.c 532 */;
+	struct platform_device *cocci_id/* drivers/clk/davinci/psc.c 529 */;
+	const struct platform_device_id cocci_id/* drivers/clk/davinci/psc.c 505 */[];
+	const struct of_device_id cocci_id/* drivers/clk/davinci/psc.c 497 */[];
+	struct device_node *cocci_id/* drivers/clk/davinci/psc.c 483 */;
+	const struct davinci_lpsc_clkdev_info *cocci_id/* drivers/clk/davinci/psc.c 465 */;
+	u8 cocci_id/* drivers/clk/davinci/psc.c 455 */;
+	enum davinci_lpsc_state{LPSC_STATE_SWRSTDISABLE=0, LPSC_STATE_SYNCRST=1, LPSC_STATE_DISABLE=2, LPSC_STATE_ENABLE=3,} cocci_id/* drivers/clk/davinci/psc.c 44 */;
+	struct davinci_lpsc_clk *cocci_id/* drivers/clk/davinci/psc.c 407 */;
+	struct regmap *cocci_id/* drivers/clk/davinci/psc.c 368 */;
+	struct generic_pm_domain **cocci_id/* drivers/clk/davinci/psc.c 367 */;
+	struct clk **cocci_id/* drivers/clk/davinci/psc.c 366 */;
+	void __iomem *cocci_id/* drivers/clk/davinci/psc.c 363 */;
+	int cocci_id/* drivers/clk/davinci/psc.c 362 */;
+	const struct davinci_lpsc_clk_info *cocci_id/* drivers/clk/davinci/psc.c 361 */;
+	struct device *cocci_id/* drivers/clk/davinci/psc.c 360 */;
+	struct davinci_psc_data *cocci_id/* drivers/clk/davinci/psc.c 359 */;
+	const struct regmap_config cocci_id/* drivers/clk/davinci/psc.c 353 */;
+	struct of_phandle_args cocci_id/* drivers/clk/davinci/psc.c 332 */;
+	const struct of_phandle_args *cocci_id/* drivers/clk/davinci/psc.c 330 */;
+	const struct reset_control_ops cocci_id/* drivers/clk/davinci/psc.c 324 */;
+	unsigned long cocci_id/* drivers/clk/davinci/psc.c 307 */;
+	struct reset_controller_dev *cocci_id/* drivers/clk/davinci/psc.c 306 */;
+	struct clk *cocci_id/* drivers/clk/davinci/psc.c 291 */;
+	bool cocci_id/* drivers/clk/davinci/psc.c 241 */;
+	struct clk_init_data cocci_id/* drivers/clk/davinci/psc.c 238 */;
+	struct generic_pm_domain *cocci_id/* drivers/clk/davinci/psc.c 177 */;
+	const struct clk_ops cocci_id/* drivers/clk/davinci/psc.c 171 */;
+	u32 cocci_id/* drivers/clk/davinci/psc.c 164 */;
+	struct clk_hw *cocci_id/* drivers/clk/davinci/psc.c 154 */;
+	void cocci_id/* drivers/clk/davinci/psc.c 154 */;
+	enum davinci_lpsc_state cocci_id/* drivers/clk/davinci/psc.c 110 */;
+}

@@ -1,0 +1,83 @@
+cocci_test_suite() {
+	loff_t *cocci_id/* drivers/usb/class/usblp.c 815 */;
+	char __user *cocci_id/* drivers/usb/class/usblp.c 815 */;
+	size_t cocci_id/* drivers/usb/class/usblp.c 815 */;
+	const char __user *cocci_id/* drivers/usb/class/usblp.c 716 */;
+	void __user *cocci_id/* drivers/usb/class/usblp.c 530 */;
+	int cocci_id/* drivers/usb/class/usblp.c 499 */[2];
+	struct file *cocci_id/* drivers/usb/class/usblp.c 493 */;
+	unsigned int cocci_id/* drivers/usb/class/usblp.c 493 */;
+	long cocci_id/* drivers/usb/class/usblp.c 493 */;
+	__poll_t cocci_id/* drivers/usb/class/usblp.c 477 */;
+	struct poll_table_struct *cocci_id/* drivers/usb/class/usblp.c 477 */;
+	struct inode *cocci_id/* drivers/usb/class/usblp.c 390 */;
+	struct usblp *cocci_id/* drivers/usb/class/usblp.c 377 */;
+	int cocci_id/* drivers/usb/class/usblp.c 377 */;
+	unsigned char cocci_id/* drivers/usb/class/usblp.c 348 */;
+	const char *cocci_id/* drivers/usb/class/usblp.c 344 */[];
+	unsigned long cocci_id/* drivers/usb/class/usblp.c 295 */;
+	struct urb *cocci_id/* drivers/usb/class/usblp.c 291 */;
+	void cocci_id/* drivers/usb/class/usblp.c 291 */;
+	void *cocci_id/* drivers/usb/class/usblp.c 250 */;
+	struct usb_driver cocci_id/* drivers/usb/class/usblp.c 243 */;
+	int cocci_id/* drivers/usb/class/usblp.c 240 */(struct usblp *usblp);
+	int cocci_id/* drivers/usb/class/usblp.c 239 */(struct usblp *usblp,
+							int protocol);
+	int cocci_id/* drivers/usb/class/usblp.c 236 */(struct usblp *usblp,
+							int nonblock);
+	const struct quirk_printer_struct cocci_id/* drivers/usb/class/usblp.c 213 */[];
+	struct quirk_printer_struct {
+		__u16 vendorId;
+		__u16 productId;
+		unsigned int quirks;
+	} cocci_id/* drivers/usb/class/usblp.c 203 */;
+	unsigned char *cocci_id/* drivers/usb/class/usblp.c 197 */;
+	const struct usb_device_id cocci_id/* drivers/usb/class/usblp.c 1408 */[];
+	pm_message_t cocci_id/* drivers/usb/class/usblp.c 1384 */;
+	__be16 *cocci_id/* drivers/usb/class/usblp.c 1345 */;
+	struct usblp {
+		struct usb_device *dev;
+		struct mutex wmut;
+		struct mutex mut;
+		spinlock_t lock;
+		char *readbuf;
+		char *statusbuf;
+		struct usb_anchor urbs;
+		wait_queue_head_t rwait,wwait;
+		int readcount;
+		int ifnum;
+		struct usb_interface *intf;
+		struct {
+			int alt_setting;
+			struct usb_endpoint_descriptor *epwrite;
+			struct usb_endpoint_descriptor *epread;
+		} protocol[USBLP_MAX_PROTOCOLS];
+		int current_protocol;
+		int minor;
+		int wcomplete,rcomplete;
+		int wstatus;
+		int rstatus;
+		unsigned int quirks;
+		unsigned int flags;
+		unsigned char used;
+		unsigned char present;
+		unsigned char bidir;
+		unsigned char no_paper;
+		unsigned char *device_id_string;
+	} cocci_id/* drivers/usb/class/usblp.c 131 */;
+	struct usb_endpoint_descriptor *cocci_id/* drivers/usb/class/usblp.c 1235 */;
+	struct usb_host_interface *cocci_id/* drivers/usb/class/usblp.c 1234 */;
+	struct usblp cocci_id/* drivers/usb/class/usblp.c 1104 */;
+	struct usb_device *cocci_id/* drivers/usb/class/usblp.c 1097 */;
+	const struct usb_device_id *cocci_id/* drivers/usb/class/usblp.c 1095 */;
+	struct attribute *cocci_id/* drivers/usb/class/usblp.c 1088 */[];
+	struct usb_interface *cocci_id/* drivers/usb/class/usblp.c 1076 */;
+	struct device_attribute *cocci_id/* drivers/usb/class/usblp.c 1074 */;
+	struct device *cocci_id/* drivers/usb/class/usblp.c 1074 */;
+	char *cocci_id/* drivers/usb/class/usblp.c 1074 */;
+	ssize_t cocci_id/* drivers/usb/class/usblp.c 1074 */;
+	struct usb_class_driver cocci_id/* drivers/usb/class/usblp.c 1067 */;
+	umode_t *cocci_id/* drivers/usb/class/usblp.c 1062 */;
+	const struct file_operations cocci_id/* drivers/usb/class/usblp.c 1050 */;
+	__u16 cocci_id/* drivers/usb/class/usblp.c 1038 */;
+}

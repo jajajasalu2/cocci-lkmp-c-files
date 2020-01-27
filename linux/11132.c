@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	const struct dce_mem_input_mask *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 792 */;
+	const struct dce_mem_input_shift *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 791 */;
+	const struct dce_mem_input_registers *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 790 */;
+	int cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 789 */;
+	struct dc_context *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 788 */;
+	struct dce_mem_input *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 787 */;
+	void cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 786 */;
+	const struct mem_input_funcs cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 744 */;
+	const struct dc_plane_address *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 692 */;
+	bool cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 677 */;
+	PHYSICAL_ADDRESS_LOC cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 664 */;
+	const struct pte_setting cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 66 */[mi_tiling_count][mi_bpp_count];
+	enum mi_tiling_format{mi_tiling_linear=0, mi_tiling_1D, mi_tiling_2D, mi_tiling_count,} cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 59 */;
+	const uint32_t cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 578 */;
+	struct dc_plane_dcc_param *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 510 */;
+	enum mi_bits_per_pixel{mi_bpp_8=0, mi_bpp_16, mi_bpp_32, mi_bpp_64, mi_bpp_count,} cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 51 */;
+	struct plane_size *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 508 */;
+	const uint32_t cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 398 */[ROTATION_ANGLE_COUNT];
+	struct rect cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 397 */;
+	const struct rect *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 396 */;
+	const struct plane_size *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 394 */;
+	struct pte_setting {
+		unsigned int bpp;
+		unsigned int page_width;
+		unsigned int page_height;
+		unsigned char min_pte_before_flip_horiz_scan;
+		unsigned char min_pte_before_flip_vert_scan;
+		unsigned char pte_req_per_chunk;
+		unsigned char param_6;
+		unsigned char param_7;
+		unsigned char param_8;
+	} cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 39 */;
+	const union dc_tiling_info *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 356 */;
+	uint32_t cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 294 */;
+	struct dce_watermarks cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 290 */;
+	struct mem_input *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 289 */;
+	unsigned int cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 144 */;
+	const struct pte_setting *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 142 */;
+	enum mi_tiling_format cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 141 */;
+	enum mi_bits_per_pixel cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 140 */;
+	enum dc_rotation_angle cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 137 */;
+	union dc_tiling_info *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 136 */;
+	enum surface_pixel_format cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c 135 */;
+}

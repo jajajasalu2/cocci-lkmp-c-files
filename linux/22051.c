@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	struct page *cocci_id/* lib/iov_iter.c 926 */;
+	bool cocci_id/* lib/iov_iter.c 777 */;
+	char *cocci_id/* lib/iov_iter.c 759 */;
+	void *cocci_id/* lib/iov_iter.c 757 */;
+	unsigned long cocci_id/* lib/iov_iter.c 724 */;
+	struct bvec_iter cocci_id/* lib/iov_iter.c 66 */;
+	const char *cocci_id/* lib/iov_iter.c 622 */;
+	const void *cocci_id/* lib/iov_iter.c 620 */;
+	__wsum cocci_id/* lib/iov_iter.c 594 */;
+	__wsum *cocci_id/* lib/iov_iter.c 587 */;
+	int *cocci_id/* lib/iov_iter.c 504 */;
+	unsigned int *cocci_id/* lib/iov_iter.c 488 */;
+	const struct iov_iter *cocci_id/* lib/iov_iter.c 487 */;
+	void cocci_id/* lib/iov_iter.c 487 */;
+	struct pipe_buffer *cocci_id/* lib/iov_iter.c 482 */;
+	struct kvec *cocci_id/* lib/iov_iter.c 450 */;
+	char __user *cocci_id/* lib/iov_iter.c 245 */;
+	const struct iovec *cocci_id/* lib/iov_iter.c 244 */;
+	struct kvec cocci_id/* lib/iov_iter.c 1737 */;
+	int (*cocci_id/* lib/iov_iter.c 1734 */)(struct kvec *vec,
+						 void *context);
+	struct iovec *cocci_id/* lib/iov_iter.c 1702 */;
+	struct iovec **cocci_id/* lib/iov_iter.c 1699 */;
+	unsigned cocci_id/* lib/iov_iter.c 1698 */;
+	const struct compat_iovec __user *cocci_id/* lib/iov_iter.c 1697 */;
+	const struct iovec __user *cocci_id/* lib/iov_iter.c 1673 */;
+	struct iovec cocci_id/* lib/iov_iter.c 1646 */;
+	struct bio_vec cocci_id/* lib/iov_iter.c 1641 */;
+	gfp_t cocci_id/* lib/iov_iter.c 1630 */;
+	struct scatterlist cocci_id/* lib/iov_iter.c 1571 */;
+	struct ahash_request *cocci_id/* lib/iov_iter.c 1570 */;
+	const void __user *cocci_id/* lib/iov_iter.c 147 */;
+	struct page ***cocci_id/* lib/iov_iter.c 1390 */;
+	void __user *cocci_id/* lib/iov_iter.c 138 */;
+	unsigned int cocci_id/* lib/iov_iter.c 1273 */;
+	struct pipe_inode_info *cocci_id/* lib/iov_iter.c 1272 */;
+	size_t *cocci_id/* lib/iov_iter.c 1270 */;
+	int cocci_id/* lib/iov_iter.c 1269 */;
+	struct page **cocci_id/* lib/iov_iter.c 1268 */;
+	size_t cocci_id/* lib/iov_iter.c 1267 */;
+	struct iov_iter *cocci_id/* lib/iov_iter.c 1266 */;
+	ssize_t cocci_id/* lib/iov_iter.c 1266 */;
+	const struct bio_vec *cocci_id/* lib/iov_iter.c 1178 */;
+	const struct kvec *cocci_id/* lib/iov_iter.c 1165 */;
+}

@@ -1,0 +1,115 @@
+cocci_test_suite() {
+	struct os_area_params {
+		u32 boot_flag;
+		u32 _reserved_1[3];
+		u32 num_params;
+		u32 _reserved_2[3];
+		s64 rtc_diff;
+		u8 av_multi_out;
+		u8 ctrl_button;
+		u8 _reserved_3[6];
+		u8 static_ip_addr[4];
+		u8 network_mask[4];
+		u8 default_gateway[4];
+		u8 _reserved_4[4];
+		u8 dns_primary[4];
+		u8 dns_secondary[4];
+		u8 _reserved_5[8];
+	} cocci_id/* arch/powerpc/platforms/ps3/os-area.c 91 */;
+	enum ps3_param_av_multi_out cocci_id/* arch/powerpc/platforms/ps3/os-area.c 830 */;
+	struct os_area_params *cocci_id/* arch/powerpc/platforms/ps3/os-area.c 723 */;
+	struct os_area_header *cocci_id/* arch/powerpc/platforms/ps3/os-area.c 722 */;
+	struct work_struct *cocci_id/* arch/powerpc/platforms/ps3/os-area.c 673 */;
+	enum os_area_ctrl_button{PARAM_CTRL_BUTTON_O_IS_YES=0, PARAM_CTRL_BUTTON_X_IS_YES=1,} cocci_id/* arch/powerpc/platforms/ps3/os-area.c 66 */;
+	enum os_area_boot_flag{PARAM_BOOT_FLAG_GAME_OS=0, PARAM_BOOT_FLAG_OTHER_OS=1,} cocci_id/* arch/powerpc/platforms/ps3/os-area.c 61 */;
+	const unsigned int cocci_id/* arch/powerpc/platforms/ps3/os-area.c 606 */;
+	u16 cocci_id/* arch/powerpc/platforms/ps3/os-area.c 595 */;
+	u32 cocci_id/* arch/powerpc/platforms/ps3/os-area.c 576 */;
+	u64 cocci_id/* arch/powerpc/platforms/ps3/os-area.c 570 */;
+	struct db_index cocci_id/* arch/powerpc/platforms/ps3/os-area.c 569 */;
+	struct os_area_db cocci_id/* arch/powerpc/platforms/ps3/os-area.c 562 */;
+	enum{HEADER_SIZE=offsetof(struct os_area_db, _db_data), INDEX_64_COUNT=64, VALUES_64_COUNT=57, INDEX_32_COUNT=64, VALUES_32_COUNT=57, INDEX_16_COUNT=64, VALUES_16_COUNT=57,} cocci_id/* arch/powerpc/platforms/ps3/os-area.c 552 */;
+	char cocci_id/* arch/powerpc/platforms/ps3/os-area.c 529 */[sizeof(db->magic_num) + 1];
+	int cocci_id/* arch/powerpc/platforms/ps3/os-area.c 527 */;
+	const struct os_area_db *cocci_id/* arch/powerpc/platforms/ps3/os-area.c 526 */;
+	const char *cocci_id/* arch/powerpc/platforms/ps3/os-area.c 526 */;
+	void cocci_id/* arch/powerpc/platforms/ps3/os-area.c 526 */;
+	int64_t *cocci_id/* arch/powerpc/platforms/ps3/os-area.c 520 */;
+	long long int cocci_id/* arch/powerpc/platforms/ps3/os-area.c 513 */;
+	uint64_t *cocci_id/* arch/powerpc/platforms/ps3/os-area.c 505 */;
+	struct os_area_header {
+		u8 magic_num[16];
+		u32 hdr_version;
+		u32 db_area_offset;
+		u32 ldr_area_offset;
+		u32 _reserved_1;
+		u32 ldr_format;
+		u32 ldr_size;
+		u32 _reserved_2[6];
+	} cocci_id/* arch/powerpc/platforms/ps3/os-area.c 50 */;
+	uint64_t cocci_id/* arch/powerpc/platforms/ps3/os-area.c 467 */;
+	unsigned long long cocci_id/* arch/powerpc/platforms/ps3/os-area.c 457 */;
+	struct db_iterator cocci_id/* arch/powerpc/platforms/ps3/os-area.c 451 */;
+	const struct os_area_db_id *cocci_id/* arch/powerpc/platforms/ps3/os-area.c 449 */;
+	struct os_area_db *cocci_id/* arch/powerpc/platforms/ps3/os-area.c 449 */;
+	void *cocci_id/* arch/powerpc/platforms/ps3/os-area.c 425 */;
+	struct db_iterator *cocci_id/* arch/powerpc/platforms/ps3/os-area.c 419 */;
+	unsigned int cocci_id/* arch/powerpc/platforms/ps3/os-area.c 406 */;
+	struct db_iterator {
+		const struct os_area_db *db;
+		struct os_area_db_id match_id;
+		struct db_index *idx;
+		struct db_index *last_idx;
+		union {
+			uint64_t *value_64;
+			uint32_t *value_32;
+			uint16_t *value_16;
+		};
+	} cocci_id/* arch/powerpc/platforms/ps3/os-area.c 394 */;
+	struct db_index {
+		uint8_t owner:5;
+		uint8_t key:3;
+	} cocci_id/* arch/powerpc/platforms/ps3/os-area.c 389 */;
+	const struct os_area_params *cocci_id/* arch/powerpc/platforms/ps3/os-area.c 327 */;
+	char cocci_id/* arch/powerpc/platforms/ps3/os-area.c 309 */[sizeof(h->magic_num) + 1];
+	const struct os_area_header *cocci_id/* arch/powerpc/platforms/ps3/os-area.c 306 */;
+	const u8 *cocci_id/* arch/powerpc/platforms/ps3/os-area.c 294 */;
+	char *cocci_id/* arch/powerpc/platforms/ps3/os-area.c 294 */;
+	const struct property *cocci_id/* arch/powerpc/platforms/ps3/os-area.c 284 */;
+	struct property *cocci_id/* arch/powerpc/platforms/ps3/os-area.c 282 */;
+	struct device_node *cocci_id/* arch/powerpc/platforms/ps3/os-area.c 281 */;
+	void __init cocci_id/* arch/powerpc/platforms/ps3/os-area.c 281 */;
+	enum os_area_ldr_format{HEADER_LDR_FORMAT_RAW=0, HEADER_LDR_FORMAT_GZIP=1,} cocci_id/* arch/powerpc/platforms/ps3/os-area.c 28 */;
+	enum{OS_AREA_SEGMENT_SIZE=0X200,} cocci_id/* arch/powerpc/platforms/ps3/os-area.c 24 */;
+	const void *cocci_id/* arch/powerpc/platforms/ps3/os-area.c 239 */;
+	loff_t cocci_id/* arch/powerpc/platforms/ps3/os-area.c 227 */;
+	ssize_t cocci_id/* arch/powerpc/platforms/ps3/os-area.c 227 */;
+	size_t cocci_id/* arch/powerpc/platforms/ps3/os-area.c 227 */;
+	const struct ps3_os_area_flash_ops *cocci_id/* arch/powerpc/platforms/ps3/os-area.c 217 */;
+	struct property cocci_id/* arch/powerpc/platforms/ps3/os-area.c 208 */;
+	struct saved_params {
+		unsigned int valid;
+		s64 rtc_diff;
+		unsigned int av_multi_out;
+	} cocci_id/* arch/powerpc/platforms/ps3/os-area.c 196 */;
+	const struct os_area_db_id cocci_id/* arch/powerpc/platforms/ps3/os-area.c 175 */;
+	struct os_area_db_id {
+		int owner;
+		int key;
+	} cocci_id/* arch/powerpc/platforms/ps3/os-area.c 165 */;
+	enum os_area_db_key{OS_AREA_DB_KEY_ANY=-1, OS_AREA_DB_KEY_NONE=0, OS_AREA_DB_KEY_RTC_DIFF=1, OS_AREA_DB_KEY_VIDEO_MODE=2, OS_AREA_DB_KEY_MAX=8,} cocci_id/* arch/powerpc/platforms/ps3/os-area.c 157 */;
+	enum os_area_db_owner{OS_AREA_DB_OWNER_ANY=-1, OS_AREA_DB_OWNER_NONE=0, OS_AREA_DB_OWNER_PROTOTYPE=1, OS_AREA_DB_OWNER_LINUX=2, OS_AREA_DB_OWNER_PETITBOOT=3, OS_AREA_DB_OWNER_MAX=32,} cocci_id/* arch/powerpc/platforms/ps3/os-area.c 148 */;
+	struct os_area_db {
+		u8 magic_num[4];
+		u16 version;
+		u16 _reserved_1;
+		u16 index_64;
+		u16 count_64;
+		u16 index_32;
+		u16 count_32;
+		u16 index_16;
+		u16 count_16;
+		u32 _reserved_2;
+		u8 _db_data[1000];
+	} cocci_id/* arch/powerpc/platforms/ps3/os-area.c 130 */;
+}

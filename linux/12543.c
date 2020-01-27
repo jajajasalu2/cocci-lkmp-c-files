@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct drm_msm_gem_submit_bo cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 79 */;
+	struct msm_gem_submit *cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 62 */;
+	void cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 62 */;
+	uint64_t cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 509 */;
+	struct msm_gem_object *cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 508 */;
+	void __user *cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 506 */;
+	struct drm_msm_gem_submit_cmd cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 505 */;
+	struct dma_fence *cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 443 */;
+	unsigned cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 411 */;
+	struct pid *cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 410 */;
+	struct msm_ringbuffer *cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 408 */;
+	struct msm_gpu_submitqueue *cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 407 */;
+	struct sync_file *cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 406 */;
+	struct msm_gpu *cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 405 */;
+	struct msm_file_private *cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 403 */;
+	struct drm_msm_gem_submit *cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 402 */;
+	struct msm_drm_private *cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 401 */;
+	atomic_t cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 400 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 398 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 397 */;
+	void *cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 397 */;
+	int cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 397 */;
+	u64 cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 34 */;
+	struct drm_msm_gem_submit_reloc cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 329 */;
+	uint32_t *cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 306 */;
+	uint64_t *cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 283 */;
+	bool *cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 283 */;
+	struct msm_gem_object **cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 283 */;
+	uint32_t cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 282 */;
+	struct msm_gem_address_space *cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 28 */;
+	bool cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 218 */;
+	struct drm_gem_object *cocci_id/* drivers/gpu/drm/msm/msm_gem_submit.c 114 */;
+}

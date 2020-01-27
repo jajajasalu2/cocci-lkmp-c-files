@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct platform_device *cocci_id/* drivers/video/fbdev/skeletonfb.c 958 */;
+	struct platform_device_driver cocci_id/* drivers/video/fbdev/skeletonfb.c 948 */;
+	struct platform_dev *cocci_id/* drivers/video/fbdev/skeletonfb.c 935 */;
+	void __exit cocci_id/* drivers/video/fbdev/skeletonfb.c 904 */;
+	int __init cocci_id/* drivers/video/fbdev/skeletonfb.c 888 */;
+	struct pci_driver cocci_id/* drivers/video/fbdev/skeletonfb.c 877 */;
+	const struct fb_fix_screeninfo cocci_id/* drivers/video/fbdev/skeletonfb.c 87 */;
+	const struct pci_device_id cocci_id/* drivers/video/fbdev/skeletonfb.c 869 */[];
+	struct xxxfb_par *cocci_id/* drivers/video/fbdev/skeletonfb.c 859 */;
+	pm_message_t cocci_id/* drivers/video/fbdev/skeletonfb.c 841 */;
+	struct xxx_par cocci_id/* drivers/video/fbdev/skeletonfb.c 80 */;
+	struct device *cocci_id/* drivers/video/fbdev/skeletonfb.c 668 */;
+	struct xxx_par *cocci_id/* drivers/video/fbdev/skeletonfb.c 667 */;
+	const struct pci_device_id *cocci_id/* drivers/video/fbdev/skeletonfb.c 664 */;
+	struct pci_dev *cocci_id/* drivers/video/fbdev/skeletonfb.c 664 */;
+	char *cocci_id/* drivers/video/fbdev/skeletonfb.c 66 */;
+	struct fb_ops cocci_id/* drivers/video/fbdev/skeletonfb.c 637 */;
+	struct fb_cursor *cocci_id/* drivers/video/fbdev/skeletonfb.c 580 */;
+	const struct fb_image *cocci_id/* drivers/video/fbdev/skeletonfb.c 544 */;
+	const struct fb_copyarea *cocci_id/* drivers/video/fbdev/skeletonfb.c 519 */;
+	void cocci_id/* drivers/video/fbdev/skeletonfb.c 519 */;
+	const struct fb_fillrect *cocci_id/* drivers/video/fbdev/skeletonfb.c 493 */;
+	struct fb_info *cocci_id/* drivers/video/fbdev/skeletonfb.c 464 */;
+	int cocci_id/* drivers/video/fbdev/skeletonfb.c 464 */;
+	struct fb_var_screeninfo *cocci_id/* drivers/video/fbdev/skeletonfb.c 210 */;
+	int cocci_id/* drivers/video/fbdev/skeletonfb.c 134 */(void);
+	struct xxx_par __initdata cocci_id/* drivers/video/fbdev/skeletonfb.c 132 */;
+	struct fb_info cocci_id/* drivers/video/fbdev/skeletonfb.c 126 */;
+}

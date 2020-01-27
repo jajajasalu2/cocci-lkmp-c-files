@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	pthread_t cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 97 */[MAX_THREADS];
+	unsigned int cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 96 */[MAX_THREADS];
+	volatile unsigned int cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 82 */;
+	void *cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 660 */;
+	struct sigaction cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 622 */;
+	key_t cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 620 */;
+	pthread_attr_t cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 619 */;
+	char *cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 613 */[];
+	int cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 608 */;
+	void cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 608 */;
+	pid_t cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 60 */;
+	size_t cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 571 */;
+	pthread_t cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 566 */;
+	time_t cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 49 */;
+	siginfo_t *cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 431 */;
+	unsigned char *cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 43 */;
+	volatile int cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 429 */;
+	struct sched_param cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 417 */;
+	cpu_set_t cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 416 */;
+	volatile unsigned int *cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 41 */;
+	char cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 313 */[];
+	char cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 312 */[LOGDIR_NAME_SIZE + 30];
+	char cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 311 */[30];
+	FILE *cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 310 */;
+	unsigned cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 308 */;
+	char cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 265 */[2];
+	const char cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 255 */[];
+	FILE *cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 254 */[MAX_THREADS];
+	char cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 252 */[LOGDIR_NAME_SIZE];
+	unsigned int *cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 203 */;
+	unsigned long cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 119 */;
+	char *cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 115 */;
+	unsigned int cocci_id/* tools/testing/selftests/powerpc/mm/tlbie_test.c 115 */;
+}

@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/input/touchscreen/mms114.c 88 */;
+	struct i2c_msg cocci_id/* drivers/input/touchscreen/mms114.c 87 */[2];
+	struct i2c_client *cocci_id/* drivers/input/touchscreen/mms114.c 86 */;
+	u8 *cocci_id/* drivers/input/touchscreen/mms114.c 84 */;
+	struct mms114_data *cocci_id/* drivers/input/touchscreen/mms114.c 83 */;
+	unsigned int cocci_id/* drivers/input/touchscreen/mms114.c 83 */;
+	int cocci_id/* drivers/input/touchscreen/mms114.c 83 */;
+	struct mms114_touch {
+		u8 id:4,reserved_bit4:1,type:2,pressed:1;
+		u8 x_hi:4,y_hi:4;
+		u8 x_lo;
+		u8 y_lo;
+		u8 width;
+		u8 strength;
+		u8 reserved[2];
+	}__packed cocci_id/* drivers/input/touchscreen/mms114.c 73 */;
+	struct i2c_driver cocci_id/* drivers/input/touchscreen/mms114.c 608 */;
+	void *cocci_id/* drivers/input/touchscreen/mms114.c 598 */;
+	const struct of_device_id cocci_id/* drivers/input/touchscreen/mms114.c 595 */[];
+	struct mms114_data {
+		struct i2c_client *client;
+		struct input_dev *input_dev;
+		struct regulator *core_reg;
+		struct regulator *io_reg;
+		struct touchscreen_properties props;
+		enum mms_type type;
+		unsigned int contact_threshold;
+		unsigned int moving_threshold;
+		u8 cache_mode_control;
+	} cocci_id/* drivers/input/touchscreen/mms114.c 59 */;
+	const struct i2c_device_id cocci_id/* drivers/input/touchscreen/mms114.c 588 */[];
+	int __maybe_unused cocci_id/* drivers/input/touchscreen/mms114.c 566 */;
+	enum mms_type{TYPE_MMS114=114, TYPE_MMS152=152,} cocci_id/* drivers/input/touchscreen/mms114.c 54 */;
+	enum mms_type cocci_id/* drivers/input/touchscreen/mms114.c 453 */;
+	struct mms114_data cocci_id/* drivers/input/touchscreen/mms114.c 438 */;
+	const void *cocci_id/* drivers/input/touchscreen/mms114.c 428 */;
+	const struct i2c_device_id *cocci_id/* drivers/input/touchscreen/mms114.c 424 */;
+	struct touchscreen_properties *cocci_id/* drivers/input/touchscreen/mms114.c 396 */;
+	struct input_dev *cocci_id/* drivers/input/touchscreen/mms114.c 386 */;
+	void cocci_id/* drivers/input/touchscreen/mms114.c 386 */;
+	const struct touchscreen_properties *cocci_id/* drivers/input/touchscreen/mms114.c 282 */;
+	u8 cocci_id/* drivers/input/touchscreen/mms114.c 248 */[6];
+	struct device *cocci_id/* drivers/input/touchscreen/mms114.c 247 */;
+	bool cocci_id/* drivers/input/touchscreen/mms114.c 228 */;
+	struct mms114_touch cocci_id/* drivers/input/touchscreen/mms114.c 194 */[MMS114_MAX_TOUCH];
+	irqreturn_t cocci_id/* drivers/input/touchscreen/mms114.c 190 */;
+	struct mms114_touch *cocci_id/* drivers/input/touchscreen/mms114.c 153 */;
+	u8 cocci_id/* drivers/input/touchscreen/mms114.c 133 */[2];
+}

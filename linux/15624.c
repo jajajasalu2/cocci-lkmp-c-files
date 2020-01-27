@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct device *cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 58 */;
+	ssize_t cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 57 */;
+	u16 cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 55 */;
+	struct usb_rpipe_descriptor *cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 55 */;
+	struct wahc *cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 54 */;
+	int cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 54 */;
+	void cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 522 */;
+	const struct urb *cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 384 */;
+	const struct usb_host_endpoint *cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 383 */;
+	const struct wahc *cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 382 */;
+	const struct wa_rpipe *cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 382 */;
+	unsigned int cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 328 */;
+	u8 cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 307 */;
+	u32 cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 306 */;
+	struct usb_wireless_ep_comp_descriptor *cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 305 */;
+	struct usb_device *cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 304 */;
+	gfp_t cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 300 */;
+	struct usb_host_endpoint *cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 300 */;
+	struct urb *cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 300 */;
+	struct wa_rpipe *cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 299 */;
+	struct usb_descriptor_header *cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 254 */;
+	size_t cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 253 */;
+	void *cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 252 */;
+	struct usb_wireless_ep_comp_descriptor cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 237 */;
+	unsigned cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 216 */;
+	struct wa_rpipe **cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 179 */;
+	struct wa_rpipe cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 158 */;
+	struct kref *cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 156 */;
+	unsigned long cocci_id/* drivers/staging/wusbcore/wa-rpipe.c 136 */;
+}

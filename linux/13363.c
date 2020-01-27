@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct scatterlist *cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 92 */;
+	struct page **cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 92 */;
+	struct mutex *cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 678 */;
+	enum v4l2_field cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 675 */;
+	enum v4l2_buf_type cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 674 */;
+	spinlock_t *cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 673 */;
+	const struct videobuf_queue_ops *cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 671 */;
+	struct videobuf_queue cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 659 */;
+	struct videobuf_qtype_ops cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 647 */;
+	struct videobuf_mapping cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 620 */;
+	unsigned char *cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 62 */;
+	unsigned int cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 593 */;
+	struct videobuf_mapping *cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 592 */;
+	struct vm_area_struct *cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 589 */;
+	unsigned long cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 555 */;
+	dma_addr_t cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 504 */;
+	struct v4l2_framebuffer *cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 501 */;
+	struct videobuf_queue *cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 499 */;
+	int cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 499 */;
+	void *cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 489 */;
+	long cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 483 */;
+	char *cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 477 */;
+	struct videobuf_dma_sg_memory *cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 470 */;
+	struct videobuf_buffer *cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 468 */;
+	size_t cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 468 */;
+	const struct vm_operations_struct cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 452 */;
+	vm_fault_t cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 435 */;
+	struct vm_fault *cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 435 */;
+	struct videobuf_dmabuf *cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 345 */;
+	struct device *cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 285 */;
+	struct page *cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 175 */;
+	void cocci_id/* drivers/media/v4l2-core/videobuf-dma-sg.c 145 */;
+}

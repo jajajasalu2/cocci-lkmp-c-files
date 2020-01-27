@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	enum apex_bar2_regs{APEX_BAR2_REG_SCU_BASE=0x1A300, APEX_BAR2_REG_KERNEL_HIB_PAGE_TABLE_SIZE=0x46000, APEX_BAR2_REG_KERNEL_HIB_EXTENDED_TABLE=0x46008, APEX_BAR2_REG_KERNEL_HIB_TRANSLATION_ENABLE=0x46010, APEX_BAR2_REG_KERNEL_HIB_INSTR_QUEUE_INTVECCTL=0x46018, APEX_BAR2_REG_KERNEL_HIB_INPUT_ACTV_QUEUE_INTVECCTL=0x46020, APEX_BAR2_REG_KERNEL_HIB_PARAM_QUEUE_INTVECCTL=0x46028, APEX_BAR2_REG_KERNEL_HIB_OUTPUT_ACTV_QUEUE_INTVECCTL=0x46030, APEX_BAR2_REG_KERNEL_HIB_SC_HOST_INTVECCTL=0x46038, APEX_BAR2_REG_KERNEL_HIB_TOP_LEVEL_INTVECCTL=0x46040, APEX_BAR2_REG_KERNEL_HIB_FATAL_ERR_INTVECCTL=0x46048, APEX_BAR2_REG_KERNEL_HIB_DMA_PAUSE=0x46050, APEX_BAR2_REG_KERNEL_HIB_DMA_PAUSE_MASK=0x46058, APEX_BAR2_REG_KERNEL_HIB_STATUS_BLOCK_DELAY=0x46060, APEX_BAR2_REG_KERNEL_HIB_MSIX_PENDING_BIT_ARRAY0=0x46068, APEX_BAR2_REG_KERNEL_HIB_MSIX_PENDING_BIT_ARRAY1=0x46070, APEX_BAR2_REG_KERNEL_HIB_PAGE_TABLE_INIT=0x46078, APEX_BAR2_REG_KERNEL_HIB_MSIX_TABLE_INIT=0x46080, APEX_BAR2_REG_KERNEL_WIRE_INT_PENDING_BIT_ARRAY=0x48778, APEX_BAR2_REG_KERNEL_WIRE_INT_MASK_ARRAY=0x48780, APEX_BAR2_REG_USER_HIB_DMA_PAUSE=0x486D8, APEX_BAR2_REG_USER_HIB_DMA_PAUSED=0x486E0, APEX_BAR2_REG_IDLEGENERATOR_IDLEGEN_IDLEREGISTER=0x4A000, APEX_BAR2_REG_KERNEL_HIB_PAGE_TABLE=0x50000, APEX_BAR2_REG_USER_HIB_ERROR_STATUS=0x86f0, APEX_BAR2_REG_SCALAR_CORE_ERROR_STATUS=0x41a0,} cocci_id/* drivers/staging/gasket/apex_driver.c 76 */;
+	void cocci_id/* drivers/staging/gasket/apex_driver.c 722 */;
+	int __init cocci_id/* drivers/staging/gasket/apex_driver.c 709 */;
+	struct pci_driver cocci_id/* drivers/staging/gasket/apex_driver.c 702 */;
+	const struct gasket_driver_desc cocci_id/* drivers/staging/gasket/apex_driver.c 660 */;
+	enum sysfs_attribute_type{ATTR_KERNEL_HIB_PAGE_TABLE_SIZE, ATTR_KERNEL_HIB_SIMPLE_PAGE_TABLE_SIZE, ATTR_KERNEL_HIB_NUM_ACTIVE_PAGES,} cocci_id/* drivers/staging/gasket/apex_driver.c 66 */;
+	ulong cocci_id/* drivers/staging/gasket/apex_driver.c 584 */;
+	const struct pci_device_id *cocci_id/* drivers/staging/gasket/apex_driver.c 581 */;
+	struct pci_dev *cocci_id/* drivers/staging/gasket/apex_driver.c 573 */;
+	const struct pci_device_id cocci_id/* drivers/staging/gasket/apex_driver.c 569 */[];
+	struct gasket_sysfs_attribute cocci_id/* drivers/staging/gasket/apex_driver.c 553 */[];
+	struct gasket_page_table *cocci_id/* drivers/staging/gasket/apex_driver.c 512 */;
+	enum sysfs_attribute_type cocci_id/* drivers/staging/gasket/apex_driver.c 511 */;
+	struct gasket_sysfs_attribute *cocci_id/* drivers/staging/gasket/apex_driver.c 510 */;
+	char *cocci_id/* drivers/staging/gasket/apex_driver.c 506 */;
+	struct device_attribute *cocci_id/* drivers/staging/gasket/apex_driver.c 505 */;
+	struct device *cocci_id/* drivers/staging/gasket/apex_driver.c 505 */;
+	ssize_t cocci_id/* drivers/staging/gasket/apex_driver.c 505 */;
+	uint cocci_id/* drivers/staging/gasket/apex_driver.c 489 */;
+	struct file *cocci_id/* drivers/staging/gasket/apex_driver.c 489 */;
+	void __user *cocci_id/* drivers/staging/gasket/apex_driver.c 489 */;
+	struct apex_gate_clock_ioctl cocci_id/* drivers/staging/gasket/apex_driver.c 458 */;
+	struct apex_gate_clock_ioctl __user *cocci_id/* drivers/staging/gasket/apex_driver.c 456 */;
+	struct gasket_dev *cocci_id/* drivers/staging/gasket/apex_driver.c 455 */;
+	long cocci_id/* drivers/staging/gasket/apex_driver.c 455 */;
+	bool cocci_id/* drivers/staging/gasket/apex_driver.c 449 */;
+	u64 cocci_id/* drivers/staging/gasket/apex_driver.c 395 */;
+	u32 cocci_id/* drivers/staging/gasket/apex_driver.c 311 */;
+	int cocci_id/* drivers/staging/gasket/apex_driver.c 236 */;
+	struct gasket_interrupt_desc cocci_id/* drivers/staging/gasket/apex_driver.c 160 */[];
+	enum apex_interrupt{APEX_INTERRUPT_INSTR_QUEUE=0, APEX_INTERRUPT_INPUT_ACTV_QUEUE=1, APEX_INTERRUPT_PARAM_QUEUE=2, APEX_INTERRUPT_OUTPUT_ACTV_QUEUE=3, APEX_INTERRUPT_SC_HOST_0=4, APEX_INTERRUPT_SC_HOST_1=5, APEX_INTERRUPT_SC_HOST_2=6, APEX_INTERRUPT_SC_HOST_3=7, APEX_INTERRUPT_TOP_LEVEL_0=8, APEX_INTERRUPT_TOP_LEVEL_1=9, APEX_INTERRUPT_TOP_LEVEL_2=10, APEX_INTERRUPT_TOP_LEVEL_3=11, APEX_INTERRUPT_FATAL_ERR=12, APEX_INTERRUPT_COUNT=13,} cocci_id/* drivers/staging/gasket/apex_driver.c 142 */;
+	const struct gasket_mappable_region cocci_id/* drivers/staging/gasket/apex_driver.c 135 */[NUM_REGIONS];
+	struct gasket_page_table_config cocci_id/* drivers/staging/gasket/apex_driver.c 123 */[NUM_NODES];
+}

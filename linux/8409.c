@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct mii_bus *cocci_id/* drivers/net/ethernet/dnet.c 99 */;
+	struct platform_driver cocci_id/* drivers/net/ethernet/dnet.c 884 */;
+	struct resource *cocci_id/* drivers/net/ethernet/dnet.c 769 */;
+	struct platform_device *cocci_id/* drivers/net/ethernet/dnet.c 767 */;
+	const struct net_device_ops cocci_id/* drivers/net/ethernet/dnet.c 757 */;
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/dnet.c 749 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/ethernet/dnet.c 742 */;
+	u8 cocci_id/* drivers/net/ethernet/dnet.c 74 */[6];
+	struct ifreq *cocci_id/* drivers/net/ethernet/dnet.c 728 */;
+	struct dnet_stats *cocci_id/* drivers/net/ethernet/dnet.c 696 */;
+	struct net_device_stats *cocci_id/* drivers/net/ethernet/dnet.c 691 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/dnet.c 642 */;
+	int cocci_id/* drivers/net/ethernet/dnet.c 642 */;
+	__be16 *cocci_id/* drivers/net/ethernet/dnet.c 63 */;
+	u16 cocci_id/* drivers/net/ethernet/dnet.c 61 */;
+	struct dnet *cocci_id/* drivers/net/ethernet/dnet.c 59 */;
+	void cocci_id/* drivers/net/ethernet/dnet.c 59 */;
+	netdev_tx_t cocci_id/* drivers/net/ethernet/dnet.c 506 */;
+	unsigned int cocci_id/* drivers/net/ethernet/dnet.c 428 */;
+	irqreturn_t cocci_id/* drivers/net/ethernet/dnet.c 422 */;
+	void *cocci_id/* drivers/net/ethernet/dnet.c 422 */;
+	unsigned int *cocci_id/* drivers/net/ethernet/dnet.c 369 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/dnet.c 368 */;
+	struct dnet cocci_id/* drivers/net/ethernet/dnet.c 364 */;
+	struct napi_struct *cocci_id/* drivers/net/ethernet/dnet.c 362 */;
+	u32 *cocci_id/* drivers/net/ethernet/dnet.c 342 */;
+	u32 __iomem *cocci_id/* drivers/net/ethernet/dnet.c 341 */;
+	u32 cocci_id/* drivers/net/ethernet/dnet.c 175 */;
+	unsigned long cocci_id/* drivers/net/ethernet/dnet.c 174 */;
+	struct phy_device *cocci_id/* drivers/net/ethernet/dnet.c 173 */;
+}

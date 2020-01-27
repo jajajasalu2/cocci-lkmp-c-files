@@ -1,0 +1,136 @@
+cocci_test_suite() {
+	size_t *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 93 */;
+	uint cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 875 */;
+	struct {
+		struct wmi_start_scan_cmd cmd;
+		u16 chnl[4];
+	}__packed cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 871 */;
+	struct cfg80211_scan_request *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 866 */;
+	struct vif_params *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 652 */;
+	enum nl80211_iftype cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 651 */;
+	unsigned char cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 650 */;
+	const char *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 649 */;
+	struct iface_combination_params cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 606 */;
+	enum wil_rx_cb_mode{WIL_RX_CB_MODE_DMG, WIL_RX_CB_MODE_EDMG, WIL_RX_CB_MODE_WIDE,} cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 60 */;
+	struct station_info *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 555 */;
+	struct ieee80211_channel cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 52 */[];
+	struct wil_net_stats *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 442 */;
+	struct {
+		struct wmi_cmd_hdr wmi;
+		struct wmi_notify_req_done_event evt;
+	}__packed cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 438 */;
+	struct wmi_notify_req_cmd cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 434 */;
+	struct wiphy_wowlan_support cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 38 */;
+	const struct {
+		enum nl80211_iftype nl;
+		enum wmi_network_type wmi;
+	} cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 329 */[];
+	const char *constcocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 319 */[];
+	const u32 cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 315 */[];
+	struct {
+		struct wmi_cmd_hdr wmi;
+		struct wmi_set_selected_rf_sector_index_done_event evt;
+	}__packed cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 3136 */;
+	struct wmi_set_selected_rf_sector_index_cmd cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 3135 */;
+	struct {
+		struct wmi_cmd_hdr wmi;
+		struct wmi_get_selected_rf_sector_index_done_event evt;
+	}__packed cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 3054 */;
+	struct wmi_get_selected_rf_sector_index_cmd cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 3053 */;
+	struct {
+		struct wmi_cmd_hdr wmi;
+		struct wmi_set_rf_sector_params_done_event evt;
+	}__packed cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2944 */;
+	struct wmi_set_rf_sector_params_cmd cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2943 */;
+	struct nlattr *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2939 */[QCA_ATTR_DMG_RF_SECTOR_CFG_MAX + 1];
+	struct wmi_rf_sector_info *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2831 */;
+	struct nlattr *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2829 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2828 */;
+	struct {
+		struct wmi_cmd_hdr wmi;
+		struct wmi_get_rf_sector_params_done_event evt;
+	}__packed cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2822 */;
+	struct wmi_get_rf_sector_params_cmd cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2821 */;
+	struct nlattr *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2817 */[QCA_ATTR_DMG_RF_SECTOR_MAX + 1];
+	const void *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2812 */;
+	struct wil6210_priv cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2746 */;
+	struct ieee80211_channel *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2738 */;
+	struct device *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2734 */;
+	const struct ieee80211_txrx_stypes cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 272 */[NUM_NL80211_IFTYPES];
+	struct ieee80211_iface_limit cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2689 */;
+	struct ieee80211_iface_combination cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2688 */;
+	struct wil_fw_concurrency_combo *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2684 */;
+	struct ieee80211_iface_limit *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2671 */;
+	struct ieee80211_iface_combination *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2670 */;
+	const struct wil_fw_concurrency_limit *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2669 */;
+	const struct wil_fw_concurrency_combo *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2668 */;
+	const struct wil_fw_record_concurrency *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2663 */;
+	const struct cfg80211_ops cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2582 */;
+	struct ieee80211_supported_band cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 256 */;
+	struct wmi_ft_reassoc_cmd cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2541 */;
+	struct cfg80211_update_ft_ies_params *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2536 */;
+	struct cfg80211_sched_scan_plan *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2501 */;
+	struct cfg80211_match_set *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2491 */;
+	struct cfg80211_sched_scan_request *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2465 */;
+	struct cfg80211_wowlan *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2424 */;
+	enum wmi_ps_profile_type cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2410 */;
+	struct bss_parameters *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2391 */;
+	struct wil_probe_client_req *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2364 */;
+	struct wil_probe_client_req cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2334 */;
+	struct wil6210_vif cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2327 */;
+	struct work_struct *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2325 */;
+	struct list_head *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2309 */;
+	struct wil_ring_tx_data *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2254 */;
+	struct station_del_parameters *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2230 */;
+	struct station_parameters *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2206 */;
+	const struct wiphy_vendor_command cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 219 */[];
+	struct cfg80211_crypto_settings *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2108 */;
+	struct cfg80211_ap_settings *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2102 */;
+	int cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 205 */(struct wiphy *wiphy,
+									  struct wireless_dev *wdev,
+									  const void *data,
+									  int data_len);
+	struct key_params cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2016 */;
+	struct cfg80211_beacon_data cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 2015 */;
+	enum qca_nl80211_vendor_subcmds{QCA_NL80211_VENDOR_SUBCMD_DMG_RF_GET_SECTOR_CFG=139, QCA_NL80211_VENDOR_SUBCMD_DMG_RF_SET_SECTOR_CFG=140, QCA_NL80211_VENDOR_SUBCMD_DMG_RF_GET_SELECTED_SECTOR=141, QCA_NL80211_VENDOR_SUBCMD_DMG_RF_SET_SELECTED_SECTOR=142,} cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 198 */;
+	bool cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1923 */;
+	struct wireless_dev *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1918 */;
+	struct wil6210_priv *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1915 */;
+	u8 cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1911 */;
+	struct net_device *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1909 */;
+	struct wiphy *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1908 */;
+	const struct nla_policy cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 187 */[QCA_ATTR_DMG_RF_SECTOR_CFG_MAX + 1];
+	struct cfg80211_beacon_data *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1861 */;
+	struct wil6210_vif *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1860 */;
+	struct ieee80211_mgmt cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1849 */;
+	size_t cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1849 */;
+	struct ieee80211_mgmt *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1847 */;
+	u16 *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1842 */;
+	u8 *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1840 */;
+	const struct nla_policy cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 178 */[QCA_ATTR_DMG_RF_SECTOR_MAX + 1];
+	u8 **cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1779 */;
+	int cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1777 */;
+	u32 cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1751 */;
+	struct ieee80211_vendor_ie *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1750 */;
+	u16 cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1747 */;
+	const u8 *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1747 */;
+	u64 cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1732 */;
+	unsigned int cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1716 */;
+	enum qca_wlan_vendor_attr_dmg_rf_sector_cfg{QCA_ATTR_DMG_RF_SECTOR_CFG_INVALID=0, QCA_ATTR_DMG_RF_SECTOR_CFG_MODULE_INDEX, QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE0, QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE1, QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE2, QCA_ATTR_DMG_RF_SECTOR_CFG_PSH_HI, QCA_ATTR_DMG_RF_SECTOR_CFG_PSH_LO, QCA_ATTR_DMG_RF_SECTOR_CFG_DTYPE_X16, QCA_ATTR_DMG_RF_SECTOR_CFG_AFTER_LAST, QCA_ATTR_DMG_RF_SECTOR_CFG_MAX=QCA_ATTR_DMG_RF_SECTOR_CFG_AFTER_LAST - 1,} cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 162 */;
+	struct wil_sta_info *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1609 */;
+	enum wmi_key_usage cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1608 */;
+	struct key_params *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1602 */;
+	struct wil_tid_crypto_rx_single *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1576 */;
+	enum qca_wlan_vendor_attr_dmg_rf_sector_type{QCA_ATTR_DMG_RF_SECTOR_TYPE_RX, QCA_ATTR_DMG_RF_SECTOR_TYPE_TX, QCA_ATTR_DMG_RF_SECTOR_TYPE_MAX,} cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 156 */;
+	struct cfg80211_chan_def *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1475 */;
+	enum qca_wlan_vendor_attr_rf_sector{QCA_ATTR_MAC_ADDR=6, QCA_ATTR_PAD=13, QCA_ATTR_TSF=29, QCA_ATTR_DMG_RF_SECTOR_INDEX=30, QCA_ATTR_DMG_RF_SECTOR_TYPE=31, QCA_ATTR_DMG_RF_MODULE_MASK=32, QCA_ATTR_DMG_RF_SECTOR_CFG=33, QCA_ATTR_DMG_RF_SECTOR_MAX,} cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 145 */;
+	u64 *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1412 */;
+	struct cfg80211_mgmt_tx_params *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1411 */;
+	enum ieee80211_bss_type cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1203 */;
+	struct wmi_connect_cmd cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1196 */;
+	struct cfg80211_bss *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1195 */;
+	struct cfg80211_connect_params *cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1191 */;
+	void cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 115 */;
+	struct wmi_ft_auth_cmd cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1110 */;
+	enum nl80211_auth_type cocci_id/* drivers/net/wireless/ath/wil6210/cfg80211.c 1063 */;
+}

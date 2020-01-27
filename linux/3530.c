@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct tifm_sd cocci_id/* drivers/mmc/host/tifm_sd.c 955 */;
+	const struct mmc_host_ops cocci_id/* drivers/mmc/host/tifm_sd.c 875 */;
+	struct tifm_sd {
+		struct tifm_dev *dev;
+		unsigned short eject:1,open_drain:1,no_dma:1;
+		unsigned short cmd_flags;
+		unsigned int clk_freq;
+		unsigned int clk_div;
+		unsigned long timeout_jiffies;
+		struct tasklet_struct finish_tasklet;
+		struct timer_list timer;
+		struct mmc_request *req;
+		int sg_len;
+		int sg_pos;
+		unsigned int block_pos;
+		struct scatterlist bounce_buf;
+		unsigned char bounce_buf_data[TIFM_MMCSD_MAX_BLOCK_SIZE];
+	} cocci_id/* drivers/mmc/host/tifm_sd.c 86 */;
+	struct mmc_ios *cocci_id/* drivers/mmc/host/tifm_sd.c 794 */;
+	struct tifm_sd *cocci_id/* drivers/mmc/host/tifm_sd.c 785 */;
+	struct timer_list *cocci_id/* drivers/mmc/host/tifm_sd.c 783 */;
+	void cocci_id/* drivers/mmc/host/tifm_sd.c 783 */;
+	enum{CMD_READY=0x0001, FIFO_READY=0x0002, BRS_READY=0x0004, SCMD_ACTIVE=0x0008, SCMD_READY=0x0010, CARD_BUSY=0x0020, DATA_CARRY=0x0040,} cocci_id/* drivers/mmc/host/tifm_sd.c 76 */;
+	struct mmc_request *cocci_id/* drivers/mmc/host/tifm_sd.c 737 */;
+	struct mmc_host *cocci_id/* drivers/mmc/host/tifm_sd.c 510 */;
+	unsigned long cocci_id/* drivers/mmc/host/tifm_sd.c 507 */;
+	struct mmc_command *cocci_id/* drivers/mmc/host/tifm_sd.c 506 */;
+	int cocci_id/* drivers/mmc/host/tifm_sd.c 505 */;
+	struct tifm_dev *cocci_id/* drivers/mmc/host/tifm_sd.c 501 */;
+	struct page *cocci_id/* drivers/mmc/host/tifm_sd.c 226 */;
+	unsigned int cocci_id/* drivers/mmc/host/tifm_sd.c 223 */;
+	struct scatterlist *cocci_id/* drivers/mmc/host/tifm_sd.c 222 */;
+	struct mmc_data *cocci_id/* drivers/mmc/host/tifm_sd.c 220 */;
+	bool cocci_id/* drivers/mmc/host/tifm_sd.c 22 */;
+	unsigned char *cocci_id/* drivers/mmc/host/tifm_sd.c 211 */;
+	void __exit cocci_id/* drivers/mmc/host/tifm_sd.c 1073 */;
+	int __init cocci_id/* drivers/mmc/host/tifm_sd.c 1068 */;
+	struct tifm_driver cocci_id/* drivers/mmc/host/tifm_sd.c 1056 */;
+	struct tifm_device_id cocci_id/* drivers/mmc/host/tifm_sd.c 1052 */[];
+	pm_message_t cocci_id/* drivers/mmc/host/tifm_sd.c 1025 */;
+}

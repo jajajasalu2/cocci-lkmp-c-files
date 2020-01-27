@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct drm_gem_object *cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 66 */;
+	const struct drm_mode_fb_cmd2 *cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 65 */;
+	struct virtio_gpu_framebuffer *cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 64 */;
+	const struct drm_framebuffer_funcs cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 56 */;
+	const struct drm_crtc_funcs cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 46 */;
+	const struct drm_mode_config_funcs cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 342 */;
+	const struct drm_mode_config_helper_funcs cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 338 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 326 */;
+	struct drm_atomic_state *cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 324 */;
+	void cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 324 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 294 */;
+	struct drm_framebuffer *cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 292 */;
+	struct drm_plane *cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 257 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 256 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 255 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 254 */;
+	struct virtio_gpu_output *cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 253 */;
+	struct virtio_gpu_device *cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 250 */;
+	int cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 250 */;
+	const struct drm_encoder_funcs cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 246 */;
+	const struct drm_connector_funcs cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 237 */;
+	bool cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 220 */;
+	enum drm_connector_status cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 218 */;
+	const struct drm_connector_helper_funcs cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 213 */;
+	const struct drm_encoder_helper_funcs cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 207 */;
+	enum drm_mode_status cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 185 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 156 */;
+	const struct drm_crtc_helper_funcs cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 130 */;
+	unsigned long cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 121 */;
+	struct drm_crtc_state *cocci_id/* drivers/gpu/drm/virtio/virtgpu_display.c 113 */;
+}

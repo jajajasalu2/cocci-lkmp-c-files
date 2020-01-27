@@ -1,0 +1,55 @@
+cocci_test_suite() {
+	struct da9063_compatible_rtc {
+		struct rtc_device *rtc_dev;
+		struct rtc_time alarm_time;
+		struct regmap *regmap;
+		const struct da9063_compatible_rtc_regmap *config;
+		bool rtc_sync;
+	} cocci_id/* drivers/rtc/rtc-da9063.c 65 */;
+	struct platform_driver cocci_id/* drivers/rtc/rtc-da9063.c 500 */;
+	struct da9063 *cocci_id/* drivers/rtc/rtc-da9063.c 396 */;
+	u8 cocci_id/* drivers/rtc/rtc-da9063.c 381 */[RTC_DATA_LEN];
+	const struct of_device_id *cocci_id/* drivers/rtc/rtc-da9063.c 379 */;
+	struct platform_device *cocci_id/* drivers/rtc/rtc-da9063.c 375 */;
+	struct da9063_compatible_rtc_regmap {
+		int rtc_enable_reg;
+		int rtc_enable_32k_crystal_reg;
+		int rtc_alarm_secs_reg;
+		int rtc_alarm_year_reg;
+		int rtc_count_secs_reg;
+		int rtc_count_year_reg;
+		int rtc_event_reg;
+		int rtc_enable_mask;
+		int rtc_crystal_mask;
+		int rtc_event_alarm_mask;
+		int rtc_alarm_on_mask;
+		int rtc_alarm_status_mask;
+		int rtc_tick_on_mask;
+		int rtc_ready_to_read_mask;
+		int rtc_count_sec_mask;
+		int rtc_count_min_mask;
+		int rtc_count_hour_mask;
+		int rtc_count_day_mask;
+		int rtc_count_month_mask;
+		int rtc_count_year_mask;
+		int rtc_data_start;
+		int rtc_alarm_len;
+	} cocci_id/* drivers/rtc/rtc-da9063.c 37 */;
+	const struct rtc_class_ops cocci_id/* drivers/rtc/rtc-da9063.c 367 */;
+	const struct da9063_compatible_rtc_regmap *cocci_id/* drivers/rtc/rtc-da9063.c 354 */;
+	struct da9063_compatible_rtc *cocci_id/* drivers/rtc/rtc-da9063.c 353 */;
+	irqreturn_t cocci_id/* drivers/rtc/rtc-da9063.c 351 */;
+	void *cocci_id/* drivers/rtc/rtc-da9063.c 351 */;
+	int cocci_id/* drivers/rtc/rtc-da9063.c 351 */;
+	unsigned int cocci_id/* drivers/rtc/rtc-da9063.c 343 */;
+	struct device *cocci_id/* drivers/rtc/rtc-da9063.c 342 */;
+	struct rtc_wkalrm *cocci_id/* drivers/rtc/rtc-da9063.c 271 */;
+	enum{RTC_SEC=0, RTC_MIN=1, RTC_HOUR=2, RTC_DAY=3, RTC_MONTH=4, RTC_YEAR=5, RTC_DATA_LEN,} cocci_id/* drivers/rtc/rtc-da9063.c 27 */;
+	struct rtc_time cocci_id/* drivers/rtc/rtc-da9063.c 247 */;
+	unsigned long cocci_id/* drivers/rtc/rtc-da9063.c 222 */;
+	u8 *cocci_id/* drivers/rtc/rtc-da9063.c 166 */;
+	struct rtc_time *cocci_id/* drivers/rtc/rtc-da9063.c 166 */;
+	void cocci_id/* drivers/rtc/rtc-da9063.c 166 */;
+	const struct of_device_id cocci_id/* drivers/rtc/rtc-da9063.c 159 */[];
+	const struct da9063_compatible_rtc_regmap cocci_id/* drivers/rtc/rtc-da9063.c 131 */;
+}

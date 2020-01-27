@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct hal_data_8188e *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 536 */;
+	s32 cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 48 */;
+	struct rsvdpage_loc cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 440 */;
+	u16 cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 438 */;
+	struct xmit_priv *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 431 */;
+	struct pkt_attrib *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 430 */;
+	struct xmit_frame *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 429 */;
+	bool cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 380 */;
+	struct ieee80211_qos_hdr cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 370 */;
+	struct ieee80211_qos_hdr *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 362 */;
+	struct wlan_network *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 326 */;
+	struct mlme_priv *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 325 */;
+	u8 cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 317 */;
+	int cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 25 */;
+	struct ndis_802_11_fixed_ie cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 243 */;
+	unsigned char *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 231 */;
+	struct ieee80211_hdr_3addr cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 223 */;
+	u8 cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 209 */[];
+	struct wlan_bssid_ex *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 208 */;
+	struct mlme_ext_info *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 207 */;
+	struct mlme_ext_priv *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 206 */;
+	u32 cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 205 */;
+	__le16 *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 204 */;
+	struct ieee80211_hdr *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 203 */;
+	u8 *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 201 */;
+	u32 *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 201 */;
+	struct adapter *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 201 */;
+	void cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 201 */;
+	__le16 cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 189 */;
+	struct pwrctrl_priv *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 146 */;
+	struct setpwrmode_parm cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 145 */;
+	struct odm_dm_struct *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c 113 */;
+}

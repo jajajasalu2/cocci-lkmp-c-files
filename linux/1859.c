@@ -1,0 +1,61 @@
+cocci_test_suite() {
+	int cocci_id/* drivers/iio/adc/ti_am335x_adc.c 85 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/adc/ti_am335x_adc.c 83 */;
+	u32 cocci_id/* drivers/iio/adc/ti_am335x_adc.c 82 */;
+	struct tiadc_device *cocci_id/* drivers/iio/adc/ti_am335x_adc.c 82 */;
+	struct platform_driver cocci_id/* drivers/iio/adc/ti_am335x_adc.c 734 */;
+	const struct of_device_id cocci_id/* drivers/iio/adc/ti_am335x_adc.c 728 */[];
+	struct device *cocci_id/* drivers/iio/adc/ti_am335x_adc.c 709 */;
+	int __maybe_unused cocci_id/* drivers/iio/adc/ti_am335x_adc.c 709 */;
+	const __be32 *cocci_id/* drivers/iio/adc/ti_am335x_adc.c 581 */;
+	struct property *cocci_id/* drivers/iio/adc/ti_am335x_adc.c 580 */;
+	struct device_node *cocci_id/* drivers/iio/adc/ti_am335x_adc.c 579 */;
+	struct platform_device *cocci_id/* drivers/iio/adc/ti_am335x_adc.c 576 */;
+	dma_cap_mask_t cocci_id/* drivers/iio/adc/ti_am335x_adc.c 545 */;
+	const struct iio_info cocci_id/* drivers/iio/adc/ti_am335x_adc.c 537 */;
+	u16 cocci_id/* drivers/iio/adc/ti_am335x_adc.c 524 */;
+	struct tiadc_device {
+		struct ti_tscadc_dev *mfd_tscadc;
+		struct tiadc_dma dma;
+		struct mutex fifo1_lock;
+		int channels;
+		int total_ch_enabled;
+		u8 channel_line[8];
+		u8 channel_step[8];
+		int buffer_en_ch_steps;
+		u16 data[8];
+		u32 open_delay[8],sample_delay[8],step_avg[8];
+	} cocci_id/* drivers/iio/adc/ti_am335x_adc.c 49 */;
+	bool cocci_id/* drivers/iio/adc/ti_am335x_adc.c 475 */;
+	int *cocci_id/* drivers/iio/adc/ti_am335x_adc.c 469 */;
+	long cocci_id/* drivers/iio/adc/ti_am335x_adc.c 469 */;
+	void cocci_id/* drivers/iio/adc/ti_am335x_adc.c 462 */;
+	struct iio_chan_spec *cocci_id/* drivers/iio/adc/ti_am335x_adc.c 434 */;
+	const char *const cocci_id/* drivers/iio/adc/ti_am335x_adc.c 420 */[];
+	struct iio_buffer *cocci_id/* drivers/iio/adc/ti_am335x_adc.c 387 */;
+	const struct iio_buffer_setup_ops *cocci_id/* drivers/iio/adc/ti_am335x_adc.c 385 */;
+	unsigned long cocci_id/* drivers/iio/adc/ti_am335x_adc.c 384 */;
+	irqreturn_t (*cocci_id/* drivers/iio/adc/ti_am335x_adc.c 381 */)(int irq,
+									 void *p);
+	struct tiadc_dma {
+		struct dma_slave_config conf;
+		struct dma_chan *chan;
+		dma_addr_t addr;
+		dma_cookie_t cookie;
+		u8 *buf;
+		int current_period;
+		int period_size;
+		u8 fifo_thresh;
+	} cocci_id/* drivers/iio/adc/ti_am335x_adc.c 38 */;
+	const struct iio_buffer_setup_ops cocci_id/* drivers/iio/adc/ti_am335x_adc.c 373 */;
+	struct iio_dev *cocci_id/* drivers/iio/adc/ti_am335x_adc.c 366 */;
+	u8 cocci_id/* drivers/iio/adc/ti_am335x_adc.c 317 */;
+	unsigned int cocci_id/* drivers/iio/adc/ti_am335x_adc.c 315 */;
+	struct tiadc_dma *cocci_id/* drivers/iio/adc/ti_am335x_adc.c 314 */;
+	struct dma_async_tx_descriptor *cocci_id/* drivers/iio/adc/ti_am335x_adc.c 254 */;
+	u8 *cocci_id/* drivers/iio/adc/ti_am335x_adc.c 238 */;
+	void *cocci_id/* drivers/iio/adc/ti_am335x_adc.c 233 */;
+	u16 *cocci_id/* drivers/iio/adc/ti_am335x_adc.c 216 */;
+	unsigned short cocci_id/* drivers/iio/adc/ti_am335x_adc.c 176 */;
+	irqreturn_t cocci_id/* drivers/iio/adc/ti_am335x_adc.c 171 */;
+}

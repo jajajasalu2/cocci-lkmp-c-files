@@ -1,0 +1,71 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* drivers/mmc/host/sunxi-mmc.c 968 */;
+	struct mmc_ios *cocci_id/* drivers/mmc/host/sunxi-mmc.c 898 */;
+	void cocci_id/* drivers/mmc/host/sunxi-mmc.c 897 */;
+	unsigned char cocci_id/* drivers/mmc/host/sunxi-mmc.c 865 */;
+	long cocci_id/* drivers/mmc/host/sunxi-mmc.c 759 */;
+	u32 cocci_id/* drivers/mmc/host/sunxi-mmc.c 718 */;
+	struct sunxi_mmc_host *cocci_id/* drivers/mmc/host/sunxi-mmc.c 698 */;
+	int cocci_id/* drivers/mmc/host/sunxi-mmc.c 698 */;
+	void *cocci_id/* drivers/mmc/host/sunxi-mmc.c 620 */;
+	bool cocci_id/* drivers/mmc/host/sunxi-mmc.c 568 */;
+	struct mmc_request *cocci_id/* drivers/mmc/host/sunxi-mmc.c 508 */;
+	irqreturn_t cocci_id/* drivers/mmc/host/sunxi-mmc.c 506 */;
+	struct mmc_data *cocci_id/* drivers/mmc/host/sunxi-mmc.c 481 */;
+	struct mmc_command *cocci_id/* drivers/mmc/host/sunxi-mmc.c 480 */;
+	struct scatterlist *cocci_id/* drivers/mmc/host/sunxi-mmc.c 397 */;
+	struct sunxi_idma_des cocci_id/* drivers/mmc/host/sunxi-mmc.c 374 */;
+	dma_addr_t cocci_id/* drivers/mmc/host/sunxi-mmc.c 361 */;
+	struct sunxi_idma_des *cocci_id/* drivers/mmc/host/sunxi-mmc.c 360 */;
+	struct sunxi_mmc_host {
+		struct device *dev;
+		struct mmc_host *mmc;
+		struct reset_control *reset;
+		const struct sunxi_mmc_cfg *cfg;
+		void __iomem *reg_base;
+		struct clk *clk_ahb;
+		struct clk *clk_mmc;
+		struct clk *clk_sample;
+		struct clk *clk_output;
+		spinlock_t lock;
+		int irq;
+		u32 int_sum;
+		u32 sdio_imask;
+		dma_addr_t sg_dma;
+		void *sg_cpu;
+		bool wait_dma;
+		struct mmc_request *mrq;
+		struct mmc_request *manual_stop_mrq;
+		int ferror;
+		bool vqmmc_enabled;
+		bool use_new_timings;
+	} cocci_id/* drivers/mmc/host/sunxi-mmc.c 267 */;
+	struct sunxi_mmc_cfg {
+		u32 idma_des_size_bits;
+		const struct sunxi_mmc_clk_delay *clk_delays;
+		bool can_calibrate;
+		bool mask_data0;
+		bool needs_new_timings;
+		bool ccu_has_timings_switch;
+	} cocci_id/* drivers/mmc/host/sunxi-mmc.c 245 */;
+	struct sunxi_idma_des {
+		__le32 config;
+		__le32 buf_size;
+		__le32 buf_addr_ptr1;
+		__le32 buf_addr_ptr2;
+	} cocci_id/* drivers/mmc/host/sunxi-mmc.c 238 */;
+	struct sunxi_mmc_clk_delay {
+		u32 output;
+		u32 sample;
+	} cocci_id/* drivers/mmc/host/sunxi-mmc.c 233 */;
+	struct platform_driver cocci_id/* drivers/mmc/host/sunxi-mmc.c 1511 */;
+	const struct dev_pm_ops cocci_id/* drivers/mmc/host/sunxi-mmc.c 1505 */;
+	struct device *cocci_id/* drivers/mmc/host/sunxi-mmc.c 1469 */;
+	struct sunxi_mmc_host cocci_id/* drivers/mmc/host/sunxi-mmc.c 1336 */;
+	struct platform_device *cocci_id/* drivers/mmc/host/sunxi-mmc.c 1330 */;
+	const struct of_device_id cocci_id/* drivers/mmc/host/sunxi-mmc.c 1177 */[];
+	const struct sunxi_mmc_cfg cocci_id/* drivers/mmc/host/sunxi-mmc.c 1131 */;
+	const struct sunxi_mmc_clk_delay cocci_id/* drivers/mmc/host/sunxi-mmc.c 1123 */[];
+	const struct mmc_host_ops cocci_id/* drivers/mmc/host/sunxi-mmc.c 1103 */;
+	struct mmc_host *cocci_id/* drivers/mmc/host/sunxi-mmc.c 1096 */;
+}

@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	const struct qedf_debugfs_ops cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 85 */[];
+	void cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 74 */;
+	char *cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 63 */;
+	void cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 488 */(void);
+	void cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 487 */(char *);
+	void cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 486 */(struct qedf_dbg_ctx *);
+	const struct file_operations cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 472 */[];
+	struct qed_fcoe_stats cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 420 */;
+	struct qed_fcoe_stats *cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 418 */;
+	struct qedf_ctx cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 399 */;
+	struct qedf_ctx *cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 399 */;
+	struct qedf_dbg_ctx *cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 397 */;
+	const char __user *cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 394 */;
+	int cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 384 */;
+	loff_t *cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 382 */;
+	size_t cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 382 */;
+	struct file *cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 381 */;
+	char __user *cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 381 */;
+	ssize_t cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 380 */;
+	struct inode *cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 371 */;
+	struct fc_rport_priv *cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 325 */;
+	struct qedf_rport *cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 324 */;
+	struct seq_file *cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 321 */;
+	char *cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 308 */[];
+	char cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 26 */[32];
+	unsigned long cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 243 */;
+	struct qedf_io_log *cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 242 */;
+	const struct file_operations *cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 24 */;
+	const struct qedf_debugfs_ops *cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 23 */;
+	void *cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 159 */;
+	uint32_t cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 158 */;
+	struct dentry *cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 15 */;
+	struct qedf_fastpath *cocci_id/* drivers/scsi/qedf/qedf_debugfs.c 105 */;
+	__typeof__(struct qedf_percpu_iothread_s) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 438 */;
+}

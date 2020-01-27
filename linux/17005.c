@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	int cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 861 */[max(CY_TMA1036_MAX_TCH,
+									   CY_TMA4XX_MAX_TCH)];
+	struct cyttsp4_touch cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 858 */;
+	struct input_dev *cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 840 */;
+	int *cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 840 */;
+	void cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 840 */;
+	bool cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 796 */;
+	enum cyttsp4_tch_abs cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 795 */;
+	u8 *cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 791 */;
+	struct cyttsp4_touch *cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 791 */;
+	struct cyttsp4_btn cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 537 */;
+	u16 *cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 531 */;
+	const char cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 51 */[];
+	const char *cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 48 */;
+	struct cyttsp4_tch_rec_params *cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 376 */;
+	struct cyttsp4_tch_abs_params *cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 375 */;
+	const u8 cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 37 */[];
+	struct cyttsp4_cydata cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 217 */;
+	unsigned long cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 2012 */;
+	struct cyttsp4_platform_data *cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 2011 */;
+	u16 cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 2008 */;
+	size_t cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 2008 */;
+	const struct cyttsp4_bus_ops *cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 2007 */;
+	struct cyttsp4_mt_platform_data *cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 1966 */;
+	struct cyttsp4_mt_data *cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 1854 */;
+	struct cyttsp4 *cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 1853 */;
+	struct device *cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 1851 */;
+	u8 cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 1761 */;
+	struct cyttsp4_sysinfo *cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 1717 */;
+	struct cyttsp4 cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 1706 */;
+	struct work_struct *cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 1704 */;
+	u8 cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 1605 */[sizeof(ldr_err_app)];
+	u8 cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 1493 */[2];
+	enum cyttsp4_int_state cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 1491 */;
+	enum cyttsp4_sleep_state cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 1490 */;
+	size_t *cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 144 */;
+	unsigned int cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 144 */;
+	int cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 144 */;
+	long cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 1391 */;
+	struct timer_list *cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 1258 */;
+	u8 cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 1070 */[3];
+	enum cyttsp4_mode cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 1068 */;
+	irqreturn_t cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 1064 */;
+	void *cocci_id/* drivers/input/touchscreen/cyttsp4_core.c 1064 */;
+}

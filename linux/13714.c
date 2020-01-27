@@ -1,0 +1,92 @@
+cocci_test_suite() {
+	struct v4l2_ctrl_handler *cocci_id/* drivers/media/i2c/ov2680.c 922 */;
+	const struct v4l2_ctrl_ops *cocci_id/* drivers/media/i2c/ov2680.c 920 */;
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/i2c/ov2680.c 889 */;
+	const struct v4l2_subdev_pad_ops cocci_id/* drivers/media/i2c/ov2680.c 880 */;
+	const struct v4l2_subdev_video_ops cocci_id/* drivers/media/i2c/ov2680.c 874 */;
+	const struct v4l2_subdev_core_ops cocci_id/* drivers/media/i2c/ov2680.c 870 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/i2c/ov2680.c 865 */;
+	struct ov2680_ctrls {
+		struct v4l2_ctrl_handler handler;
+		struct {
+			struct v4l2_ctrl *auto_exp;
+			struct v4l2_ctrl *exposure;
+		};
+		struct {
+			struct v4l2_ctrl *auto_gain;
+			struct v4l2_ctrl *gain;
+		};
+		struct v4l2_ctrl *hflip;
+		struct v4l2_ctrl *vflip;
+		struct v4l2_ctrl *test_pattern;
+	} cocci_id/* drivers/media/i2c/ov2680.c 86 */;
+	struct v4l2_fract cocci_id/* drivers/media/i2c/ov2680.c 781 */;
+	struct v4l2_subdev_frame_interval_enum *cocci_id/* drivers/media/i2c/ov2680.c 779 */;
+	struct v4l2_subdev_pad_config *cocci_id/* drivers/media/i2c/ov2680.c 778 */;
+	struct ov2680_mode_info {
+		const char *name;
+		enum ov2680_mode_id id;
+		u32 width;
+		u32 height;
+		const struct reg_value *reg_data;
+		u32 reg_data_size;
+	} cocci_id/* drivers/media/i2c/ov2680.c 77 */;
+	struct v4l2_subdev_frame_size_enum *cocci_id/* drivers/media/i2c/ov2680.c 762 */;
+	struct v4l2_subdev_format cocci_id/* drivers/media/i2c/ov2680.c 748 */;
+	const char *const cocci_id/* drivers/media/i2c/ov2680.c 69 */[];
+	struct v4l2_mbus_framefmt *cocci_id/* drivers/media/i2c/ov2680.c 666 */;
+	struct v4l2_subdev_format *cocci_id/* drivers/media/i2c/ov2680.c 663 */;
+	struct v4l2_subdev_mbus_code_enum *cocci_id/* drivers/media/i2c/ov2680.c 649 */;
+	struct reg_value {
+		u16 reg_addr;
+		u8 val;
+	} cocci_id/* drivers/media/i2c/ov2680.c 64 */;
+	struct v4l2_subdev_frame_interval *cocci_id/* drivers/media/i2c/ov2680.c 607 */;
+	enum ov2680_mode_id{OV2680_MODE_QUXGA_800_600, OV2680_MODE_720P_1280_720, OV2680_MODE_UXGA_1600_1200, OV2680_MODE_MAX,} cocci_id/* drivers/media/i2c/ov2680.c 57 */;
+	struct ov2680_ctrls *cocci_id/* drivers/media/i2c/ov2680.c 443 */;
+	bool cocci_id/* drivers/media/i2c/ov2680.c 441 */;
+	void cocci_id/* drivers/media/i2c/ov2680.c 315 */;
+	u8 cocci_id/* drivers/media/i2c/ov2680.c 292 */;
+	const struct reg_value *cocci_id/* drivers/media/i2c/ov2680.c 288 */;
+	const struct ov2680_mode_info *cocci_id/* drivers/media/i2c/ov2680.c 286 */;
+	u8 cocci_id/* drivers/media/i2c/ov2680.c 233 */[4];
+	u8 cocci_id/* drivers/media/i2c/ov2680.c 232 */[2];
+	struct i2c_msg cocci_id/* drivers/media/i2c/ov2680.c 231 */[2];
+	struct i2c_client *cocci_id/* drivers/media/i2c/ov2680.c 230 */;
+	u32 *cocci_id/* drivers/media/i2c/ov2680.c 228 */;
+	unsigned int cocci_id/* drivers/media/i2c/ov2680.c 228 */;
+	u16 cocci_id/* drivers/media/i2c/ov2680.c 227 */;
+	struct ov2680_dev *cocci_id/* drivers/media/i2c/ov2680.c 227 */;
+	int cocci_id/* drivers/media/i2c/ov2680.c 227 */;
+	u8 cocci_id/* drivers/media/i2c/ov2680.c 201 */[6];
+	u32 cocci_id/* drivers/media/i2c/ov2680.c 198 */;
+	struct ov2680_dev cocci_id/* drivers/media/i2c/ov2680.c 193 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/i2c/ov2680.c 191 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/i2c/ov2680.c 191 */;
+	const struct ov2680_mode_info cocci_id/* drivers/media/i2c/ov2680.c 169 */[OV2680_MODE_MAX];
+	const struct ov2680_mode_info cocci_id/* drivers/media/i2c/ov2680.c 163 */;
+	const struct reg_value cocci_id/* drivers/media/i2c/ov2680.c 148 */[];
+	const int cocci_id/* drivers/media/i2c/ov2680.c 133 */[];
+	struct i2c_driver cocci_id/* drivers/media/i2c/ov2680.c 1156 */;
+	const struct of_device_id cocci_id/* drivers/media/i2c/ov2680.c 1150 */[];
+	const struct dev_pm_ops cocci_id/* drivers/media/i2c/ov2680.c 1146 */;
+	int __maybe_unused cocci_id/* drivers/media/i2c/ov2680.c 1124 */;
+	struct ov2680_dev {
+		struct i2c_client *i2c_client;
+		struct v4l2_subdev sd;
+		struct media_pad pad;
+		struct clk *xvclk;
+		u32 xvclk_freq;
+		struct regulator_bulk_data supplies[OV2680_NUM_SUPPLIES];
+		struct gpio_desc *reset_gpio;
+		struct mutex lock;
+		bool mode_pending_changes;
+		bool is_enabled;
+		bool is_streaming;
+		struct ov2680_ctrls ctrls;
+		struct v4l2_mbus_framefmt fmt;
+		struct v4l2_fract frame_interval;
+		const struct ov2680_mode_info *current_mode;
+	} cocci_id/* drivers/media/i2c/ov2680.c 102 */;
+	struct device *cocci_id/* drivers/media/i2c/ov2680.c 1002 */;
+}

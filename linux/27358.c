@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct hfsplus_cat_file cocci_id/* fs/hfsplus/dir.c 71 */;
+	struct hfsplus_cat_folder cocci_id/* fs/hfsplus/dir.c 64 */;
+	const struct file_operations cocci_id/* fs/hfsplus/dir.c 572 */;
+	const struct inode_operations cocci_id/* fs/hfsplus/dir.c 558 */;
+	bool cocci_id/* fs/hfsplus/dir.c 521 */;
+	umode_t cocci_id/* fs/hfsplus/dir.c 520 */;
+	struct inode *cocci_id/* fs/hfsplus/dir.c 520 */;
+	struct dentry *cocci_id/* fs/hfsplus/dir.c 520 */;
+	int cocci_id/* fs/hfsplus/dir.c 520 */;
+	dev_t cocci_id/* fs/hfsplus/dir.c 480 */;
+	const char *cocci_id/* fs/hfsplus/dir.c 438 */;
+	u16 cocci_id/* fs/hfsplus/dir.c 39 */;
+	hfsplus_cat_entry cocci_id/* fs/hfsplus/dir.c 36 */;
+	struct super_block *cocci_id/* fs/hfsplus/dir.c 35 */;
+	struct hfs_find_data cocci_id/* fs/hfsplus/dir.c 34 */;
+	unsigned int cocci_id/* fs/hfsplus/dir.c 31 */;
+	char cocci_id/* fs/hfsplus/dir.c 307 */[32];
+	struct qstr cocci_id/* fs/hfsplus/dir.c 306 */;
+	struct hfsplus_sb_info *cocci_id/* fs/hfsplus/dir.c 303 */;
+	struct hfsplus_readdir_data *cocci_id/* fs/hfsplus/dir.c 290 */;
+	struct file *cocci_id/* fs/hfsplus/dir.c 288 */;
+	struct hfsplus_cat_key cocci_id/* fs/hfsplus/dir.c 281 */;
+	struct hfsplus_readdir_data cocci_id/* fs/hfsplus/dir.c 266 */;
+	void *cocci_id/* fs/hfsplus/dir.c 25 */;
+	unsigned long cocci_id/* fs/hfsplus/dir.c 25 */;
+	u32 cocci_id/* fs/hfsplus/dir.c 23 */;
+	unsigned cocci_id/* fs/hfsplus/dir.c 226 */;
+	void cocci_id/* fs/hfsplus/dir.c 22 */;
+	char *cocci_id/* fs/hfsplus/dir.c 135 */;
+	struct dir_context *cocci_id/* fs/hfsplus/dir.c 130 */;
+}

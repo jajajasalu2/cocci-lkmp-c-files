@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct list_head *cocci_id/* net/8021q/vlan.c 82 */;
+	void cocci_id/* net/8021q/vlan.c 82 */;
+	const struct net_device *cocci_id/* net/8021q/vlan.c 74 */;
+	void __exit cocci_id/* net/8021q/vlan.c 723 */;
+	int __init cocci_id/* net/8021q/vlan.c 682 */;
+	struct vlan_net cocci_id/* net/8021q/vlan.c 679 */;
+	struct pernet_operations cocci_id/* net/8021q/vlan.c 675 */;
+	void __net_exit cocci_id/* net/8021q/vlan.c 670 */;
+	int __net_init cocci_id/* net/8021q/vlan.c 658 */;
+	struct vlan_ioctl_args cocci_id/* net/8021q/vlan.c 544 */;
+	void __user *cocci_id/* net/8021q/vlan.c 541 */;
+	unsigned int cocci_id/* net/8021q/vlan.c 54 */;
+	struct notifier_block cocci_id/* net/8021q/vlan.c 532 */;
+	struct net_device **cocci_id/* net/8021q/vlan.c 53 */;
+	const char cocci_id/* net/8021q/vlan.c 45 */[];
+	bool cocci_id/* net/8021q/vlan.c 371 */;
+	void *cocci_id/* net/8021q/vlan.c 362 */;
+	struct notifier_block *cocci_id/* net/8021q/vlan.c 361 */;
+	struct net_device *cocci_id/* net/8021q/vlan.c 341 */;
+	unsigned long cocci_id/* net/8021q/vlan.c 341 */;
+	int cocci_id/* net/8021q/vlan.c 341 */;
+	struct vlan_dev_priv cocci_id/* net/8021q/vlan.c 256 */;
+	char cocci_id/* net/8021q/vlan.c 219 */[IFNAMSIZ];
+	struct vlan_net *cocci_id/* net/8021q/vlan.c 218 */;
+	struct net *cocci_id/* net/8021q/vlan.c 217 */;
+	struct vlan_group *cocci_id/* net/8021q/vlan.c 150 */;
+	struct vlan_info *cocci_id/* net/8021q/vlan.c 149 */;
+	u16 cocci_id/* net/8021q/vlan.c 148 */;
+	struct vlan_dev_priv *cocci_id/* net/8021q/vlan.c 146 */;
+	struct netlink_ext_ack *cocci_id/* net/8021q/vlan.c 144 */;
+	const char *cocci_id/* net/8021q/vlan.c 128 */;
+	__be16 cocci_id/* net/8021q/vlan.c 125 */;
+}

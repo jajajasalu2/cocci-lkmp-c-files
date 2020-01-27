@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	struct net_device *cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 967 */;
+	struct rtllib_hdr_3addr cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 865 */;
+	struct ethhdr cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 653 */;
+	struct eapol *cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 652 */;
+	struct udphdr *cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 621 */;
+	const struct iphdr *cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 618 */;
+	bool cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 572 */;
+	u8 cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 566 */[ETH_ALEN];
+	struct rtllib_hdr_3addrqos cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 560 */;
+	struct net_device_stats *cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 556 */;
+	unsigned long cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 555 */;
+	struct rtllib_hdr_3addrqos *cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 553 */;
+	struct rtllib_device *cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 537 */;
+	struct ts_common_info **cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 507 */;
+	struct tx_ts_record *cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 505 */;
+	struct rt_hi_throughput *cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 377 */;
+	struct cb_desc *cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 375 */;
+	void cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 374 */;
+	struct rtllib_hdr_1addr *cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 274 */;
+	struct iphdr *cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 237 */;
+	struct ethhdr *cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 236 */;
+	u8 cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 234 */;
+	struct sk_buff *cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 234 */;
+	struct rtllib_txb cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 208 */;
+	u8 *cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 208 */;
+	gfp_t cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 203 */;
+	struct rtllib_txb *cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 202 */;
+	int cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 202 */;
+	struct lib80211_crypt_data *cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 160 */;
+	__be16 *cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 152 */;
+	struct rtllib_snap_hdr *cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 136 */;
+	u16 cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 134 */;
+	u8 cocci_id/* drivers/staging/rtl8192e/rtllib_tx.c 131 */[P80211_OUI_LEN];
+}

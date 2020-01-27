@@ -1,0 +1,122 @@
+cocci_test_suite() {
+	struct snd_pcm_channel_info *cocci_id/* sound/core/pcm_native.c 986 */;
+	u32 __user *cocci_id/* sound/core/pcm_native.c 975 */;
+	struct snd_pcm_status cocci_id/* sound/core/pcm_native.c 965 */;
+	struct snd_pcm_status __user *cocci_id/* sound/core/pcm_native.c 962 */;
+	struct snd_pcm_status *cocci_id/* sound/core/pcm_native.c 899 */;
+	struct snd_pcm_sw_params cocci_id/* sound/core/pcm_native.c 876 */;
+	struct snd_pcm_sw_params __user *cocci_id/* sound/core/pcm_native.c 874 */;
+	struct snd_pcm_sw_params *cocci_id/* sound/core/pcm_native.c 819 */;
+	struct snd_pcm_hw_params __user *cocci_id/* sound/core/pcm_native.c 768 */;
+	int cocci_id/* sound/core/pcm_native.c 68 */(struct file *file,
+						     struct snd_pcm *pcm,
+						     int stream);
+	int cocci_id/* sound/core/pcm_native.c 65 */(struct snd_pcm_substream *substream,
+						     struct snd_pcm_hw_params_old __user *_oparams);
+	const int *cocci_id/* sound/core/pcm_native.c 608 */;
+	struct snd_pcm_hw_params_old cocci_id/* sound/core/pcm_native.c 60 */;
+	const int cocci_id/* sound/core/pcm_native.c 597 */[];
+	const struct snd_mask *cocci_id/* sound/core/pcm_native.c 440 */;
+	const struct snd_interval *cocci_id/* sound/core/pcm_native.c 439 */;
+	struct snd_pcm_hw_params_old {
+		unsigned int flags;
+		unsigned int masks[SNDRV_PCM_HW_PARAM_SUBFORMAT - SNDRV_PCM_HW_PARAM_ACCESS + 1];
+		struct snd_interval intervals[SNDRV_PCM_HW_PARAM_TICK_TIME - SNDRV_PCM_HW_PARAM_SAMPLE_BITS + 1];
+		unsigned int rmask;
+		unsigned int cmask;
+		unsigned int info;
+		unsigned int msbits;
+		unsigned int rate_num;
+		unsigned int rate_den;
+		snd_pcm_uframes_t fifo_size;
+		unsigned char reserved[64];
+	} cocci_id/* sound/core/pcm_native.c 43 */;
+	const struct file_operations cocci_id/* sound/core/pcm_native.c 3741 */[2];
+	struct snd_pcm_hw_params_old __user *cocci_id/* sound/core/pcm_native.c 3680 */;
+	struct snd_pcm_hw_params_old *cocci_id/* sound/core/pcm_native.c 3607 */;
+	size_t cocci_id/* sound/core/pcm_native.c 3510 */;
+	struct vm_area_struct *cocci_id/* sound/core/pcm_native.c 3450 */;
+	void *cocci_id/* sound/core/pcm_native.c 3382 */;
+	struct page *cocci_id/* sound/core/pcm_native.c 3379 */;
+	struct snd_pcm_file *cocci_id/* sound/core/pcm_native.c 3347 */;
+	struct snd_pcm_mmap_control cocci_id/* sound/core/pcm_native.c 3325 */;
+	const struct vm_operations_struct cocci_id/* sound/core/pcm_native.c 3313 */;
+	vm_fault_t cocci_id/* sound/core/pcm_native.c 3300 */;
+	struct vm_fault *cocci_id/* sound/core/pcm_native.c 3300 */;
+	struct snd_pcm_mmap_status cocci_id/* sound/core/pcm_native.c 3289 */;
+	bool cocci_id/* sound/core/pcm_native.c 328 */;
+	struct snd_pcm_hw_rule *cocci_id/* sound/core/pcm_native.c 324 */;
+	unsigned int cocci_id/* sound/core/pcm_native.c 322 */[SNDRV_PCM_HW_PARAM_LAST_INTERVAL + 1];
+	unsigned int *cocci_id/* sound/core/pcm_native.c 321 */;
+	__poll_t cocci_id/* sound/core/pcm_native.c 3206 */;
+	poll_table *cocci_id/* sound/core/pcm_native.c 3206 */;
+	void __user **cocci_id/* sound/core/pcm_native.c 3142 */;
+	struct kiocb *cocci_id/* sound/core/pcm_native.c 3135 */;
+	struct iov_iter *cocci_id/* sound/core/pcm_native.c 3135 */;
+	const char __user *cocci_id/* sound/core/pcm_native.c 3111 */;
+	loff_t *cocci_id/* sound/core/pcm_native.c 3088 */;
+	char __user *cocci_id/* sound/core/pcm_native.c 3087 */;
+	ssize_t cocci_id/* sound/core/pcm_native.c 3087 */;
+	snd_pcm_uframes_t *cocci_id/* sound/core/pcm_native.c 3055 */;
+	snd_pcm_sframes_t __user *cocci_id/* sound/core/pcm_native.c 2987 */;
+	unsigned int __user *cocci_id/* sound/core/pcm_native.c 2951 */;
+	int __user *cocci_id/* sound/core/pcm_native.c 2942 */;
+	void __user *cocci_id/* sound/core/pcm_native.c 2928 */;
+	snd_pcm_uframes_t __user *cocci_id/* sound/core/pcm_native.c 2912 */;
+	struct snd_xfern cocci_id/* sound/core/pcm_native.c 2870 */;
+	struct snd_xfern __user *cocci_id/* sound/core/pcm_native.c 2868 */;
+	struct snd_interval cocci_id/* sound/core/pcm_native.c 286 */;
+	unsigned int cocci_id/* sound/core/pcm_native.c 285 */;
+	struct snd_xferi cocci_id/* sound/core/pcm_native.c 2849 */;
+	struct snd_xferi __user *cocci_id/* sound/core/pcm_native.c 2847 */;
+	struct snd_interval *cocci_id/* sound/core/pcm_native.c 284 */;
+	struct snd_pcm_hw_constraints *cocci_id/* sound/core/pcm_native.c 282 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/core/pcm_native.c 280 */;
+	unsigned __user *cocci_id/* sound/core/pcm_native.c 2796 */;
+	volatile struct snd_pcm_mmap_control *cocci_id/* sound/core/pcm_native.c 2792 */;
+	volatile struct snd_pcm_mmap_status *cocci_id/* sound/core/pcm_native.c 2791 */;
+	struct snd_pcm_sync_ptr cocci_id/* sound/core/pcm_native.c 2790 */;
+	int cocci_id/* sound/core/pcm_native.c 279 */;
+	struct snd_pcm_sync_ptr __user *cocci_id/* sound/core/pcm_native.c 2787 */;
+	snd_pcm_sframes_t *cocci_id/* sound/core/pcm_native.c 2771 */;
+	struct snd_pcm_runtime *cocci_id/* sound/core/pcm_native.c 2686 */;
+	snd_pcm_uframes_t cocci_id/* sound/core/pcm_native.c 2683 */;
+	snd_pcm_sframes_t cocci_id/* sound/core/pcm_native.c 2682 */;
+	struct snd_mask cocci_id/* sound/core/pcm_native.c 250 */;
+	struct snd_pcm_substream **cocci_id/* sound/core/pcm_native.c 2487 */;
+	struct snd_mask *cocci_id/* sound/core/pcm_native.c 248 */;
+	void cocci_id/* sound/core/pcm_native.c 2455 */;
+	struct snd_pcm_hardware *cocci_id/* sound/core/pcm_native.c 2375 */;
+	const struct snd_pcm_hw_constraint_list cocci_id/* sound/core/pcm_native.c 2221 */;
+	const unsigned int cocci_id/* sound/core/pcm_native.c 2216 */[];
+	unsigned cocci_id/* sound/core/pcm_native.c 2181 */;
+	struct snd_pcm_info __user *cocci_id/* sound/core/pcm_native.c 213 */;
+	struct snd_pcm_substream cocci_id/* sound/core/pcm_native.c 2110 */;
+	struct fd cocci_id/* sound/core/pcm_native.c 2028 */;
+	struct snd_pcm *cocci_id/* sound/core/pcm_native.c 2003 */;
+	struct inode *cocci_id/* sound/core/pcm_native.c 2002 */;
+	struct file *cocci_id/* sound/core/pcm_native.c 2000 */;
+	struct snd_pcm_str *cocci_id/* sound/core/pcm_native.c 194 */;
+	struct snd_pcm_info *cocci_id/* sound/core/pcm_native.c 191 */;
+	long cocci_id/* sound/core/pcm_native.c 1899 */;
+	wait_queue_entry_t cocci_id/* sound/core/pcm_native.c 1867 */;
+	struct snd_card *cocci_id/* sound/core/pcm_native.c 1863 */;
+	const struct action_ops cocci_id/* sound/core/pcm_native.c 1847 */;
+	struct snd_pcm_substream *cocci_id/* sound/core/pcm_native.c 153 */;
+	unsigned long cocci_id/* sound/core/pcm_native.c 153 */;
+	snd_pcm_state_t cocci_id/* sound/core/pcm_native.c 1354 */;
+	struct snd_pcm_group *cocci_id/* sound/core/pcm_native.c 1191 */;
+	const struct action_ops *cocci_id/* sound/core/pcm_native.c 1187 */;
+	struct action_ops {
+		int (*pre_action)(struct snd_pcm_substream *substream,
+				  int state);
+		int (*do_action)(struct snd_pcm_substream *substream,
+				 int state);
+		void (*undo_action)(struct snd_pcm_substream *substream,
+				    int state);
+		void (*post_action)(struct snd_pcm_substream *substream,
+				    int state);
+	} cocci_id/* sound/core/pcm_native.c 1037 */;
+	struct snd_pcm_channel_info cocci_id/* sound/core/pcm_native.c 1009 */;
+	struct snd_pcm_channel_info __user *cocci_id/* sound/core/pcm_native.c 1007 */;
+}

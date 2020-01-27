@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	const u8 *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 92 */;
+	enum{READ_NVM_CHUNK_SUCCEED=0, READ_NVM_CHUNK_NOT_VALID_ADDRESS=1,} cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 82 */;
+	enum iwl_mcc_source cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 620 */;
+	struct iwl_mcc_chub_notif *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 619 */;
+	void *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 619 */;
+	struct iwl_rx_packet *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 618 */;
+	struct iwl_rx_cmd_buffer *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 616 */;
+	void cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 615 */;
+	char cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 565 */[3];
+	struct ieee80211_regdomain *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 564 */;
+	bool cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 561 */;
+	struct iwl_mvm *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 559 */;
+	int cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 559 */;
+	struct iwl_mcc_update_resp_v3 *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 518 */;
+	struct iwl_mcc_update_resp cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 510 */;
+	u16 cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 488 */;
+	u32 cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 486 */;
+	struct iwl_host_cmd cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 479 */;
+	u8 cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 475 */;
+	struct iwl_mcc_update_cmd cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 473 */;
+	const char *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 470 */;
+	struct iwl_mcc_update_resp *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 469 */;
+	u8 *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 365 */;
+	struct iwl_nvm_section *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 344 */;
+	const __le16 *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 279 */;
+	const __be16 *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 278 */;
+	struct iwl_nvm_data *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 274 */;
+	struct iwl_nvm_access_resp *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 139 */;
+	struct iwl_nvm_access_cmd cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/nvm.c 133 */;
+}

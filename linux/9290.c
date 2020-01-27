@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	int cocci_id/* drivers/net/wireless/marvell/libertas/main.c 911 */;
+	struct wireless_dev *cocci_id/* drivers/net/wireless/marvell/libertas/main.c 909 */;
+	struct net_device *cocci_id/* drivers/net/wireless/marvell/libertas/main.c 908 */;
+	struct device *cocci_id/* drivers/net/wireless/marvell/libertas/main.c 906 */;
+	void *cocci_id/* drivers/net/wireless/marvell/libertas/main.c 906 */;
+	u8 cocci_id/* drivers/net/wireless/marvell/libertas/main.c 89 */;
+	u32 cocci_id/* drivers/net/wireless/marvell/libertas/main.c 89 */;
+	const struct net_device_ops cocci_id/* drivers/net/wireless/marvell/libertas/main.c 889 */;
+	struct cmd_header cocci_id/* drivers/net/wireless/marvell/libertas/main.c 793 */;
+	struct lbs_private *cocci_id/* drivers/net/wireless/marvell/libertas/main.c 785 */;
+	struct timer_list *cocci_id/* drivers/net/wireless/marvell/libertas/main.c 783 */;
+	void cocci_id/* drivers/net/wireless/marvell/libertas/main.c 783 */;
+	unsigned long cocci_id/* drivers/net/wireless/marvell/libertas/main.c 729 */;
+	u8 cocci_id/* drivers/net/wireless/marvell/libertas/main.c 65 */[MAX_RATES];
+	s16 cocci_id/* drivers/net/wireless/marvell/libertas/main.c 645 */;
+	u16 cocci_id/* drivers/net/wireless/marvell/libertas/main.c 57 */[MRVDRV_MAX_REGION_CODE];
+	struct cmd_ctrl_node *cocci_id/* drivers/net/wireless/marvell/libertas/main.c 550 */;
+	struct cmd_confirm_sleep cocci_id/* drivers/net/wireless/marvell/libertas/main.c 51 */;
+	wait_queue_entry_t cocci_id/* drivers/net/wireless/marvell/libertas/main.c 439 */;
+	struct lbs_private cocci_id/* drivers/net/wireless/marvell/libertas/main.c 416 */;
+	struct work_struct *cocci_id/* drivers/net/wireless/marvell/libertas/main.c 414 */;
+	unsigned int cocci_id/* drivers/net/wireless/marvell/libertas/main.c 38 */;
+	struct cmd_ds_mac_multicast_adr cocci_id/* drivers/net/wireless/marvell/libertas/main.c 363 */;
+	struct netdev_hw_addr *cocci_id/* drivers/net/wireless/marvell/libertas/main.c 330 */;
+	struct cmd_ds_mac_multicast_adr *cocci_id/* drivers/net/wireless/marvell/libertas/main.c 326 */;
+	const char cocci_id/* drivers/net/wireless/marvell/libertas/main.c 30 */[];
+	struct sockaddr *cocci_id/* drivers/net/wireless/marvell/libertas/main.c 292 */;
+	bool cocci_id/* drivers/net/wireless/marvell/libertas/main.c 203 */;
+	struct cmd_ds_802_11_mac_address cocci_id/* drivers/net/wireless/marvell/libertas/main.c 131 */;
+	void __exit cocci_id/* drivers/net/wireless/marvell/libertas/main.c 1146 */;
+	int __init cocci_id/* drivers/net/wireless/marvell/libertas/main.c 1135 */;
+	unsigned char *cocci_id/* drivers/net/wireless/marvell/libertas/main.c 1114 */;
+	enum nl80211_iftype cocci_id/* drivers/net/wireless/marvell/libertas/main.c 103 */;
+}

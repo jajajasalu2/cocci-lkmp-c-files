@@ -1,0 +1,110 @@
+cocci_test_suite() {
+	const fsm_node cocci_id/* drivers/s390/net/netiucv.c 983 */[];
+	struct sk_buff_head *cocci_id/* drivers/s390/net/netiucv.c 942 */;
+	struct iucv_path *cocci_id/* drivers/s390/net/netiucv.c 799 */;
+	struct iucv_connection *cocci_id/* drivers/s390/net/netiucv.c 798 */;
+	struct iucv_event *cocci_id/* drivers/s390/net/netiucv.c 797 */;
+	fsm_instance *cocci_id/* drivers/s390/net/netiucv.c 795 */;
+	void *cocci_id/* drivers/s390/net/netiucv.c 795 */;
+	void cocci_id/* drivers/s390/net/netiucv.c 795 */;
+	struct ll_header cocci_id/* drivers/s390/net/netiucv.c 718 */;
+	unsigned long cocci_id/* drivers/s390/net/netiucv.c 717 */;
+	struct sk_buff *cocci_id/* drivers/s390/net/netiucv.c 716 */;
+	u32 cocci_id/* drivers/s390/net/netiucv.c 712 */;
+	struct iucv_message cocci_id/* drivers/s390/net/netiucv.c 710 */;
+	struct iucv_message *cocci_id/* drivers/s390/net/netiucv.c 673 */;
+	struct ll_header *cocci_id/* drivers/s390/net/netiucv.c 628 */;
+	u16 cocci_id/* drivers/s390/net/netiucv.c 619 */;
+	u8 *cocci_id/* drivers/s390/net/netiucv.c 574 */;
+	debug_info_t *cocci_id/* drivers/s390/net/netiucv.c 467 */;
+	enum conn_states{CONN_STATE_INVALID, CONN_STATE_STOPPED, CONN_STATE_STARTWAIT, CONN_STATE_SETUPWAIT, CONN_STATE_IDLE, CONN_STATE_TX, CONN_STATE_REGERR, CONN_STATE_CONNERR, NR_CONN_STATES,} cocci_id/* drivers/s390/net/netiucv.c 399 */;
+	const char *cocci_id/* drivers/s390/net/netiucv.c 381 */[];
+	enum conn_events{CONN_EVENT_CONN_REQ, CONN_EVENT_CONN_ACK, CONN_EVENT_CONN_REJ, CONN_EVENT_CONN_SUS, CONN_EVENT_CONN_RES, CONN_EVENT_RX, CONN_EVENT_TXDONE, CONN_EVENT_TIMER, CONN_EVENT_START, CONN_EVENT_STOP, NR_CONN_EVENTS,} cocci_id/* drivers/s390/net/netiucv.c 346 */;
+	enum dev_events{DEV_EVENT_START, DEV_EVENT_STOP, DEV_EVENT_CONUP, DEV_EVENT_CONDOWN, NR_DEV_EVENTS,} cocci_id/* drivers/s390/net/netiucv.c 325 */;
+	enum dev_states{DEV_STATE_STOPPED, DEV_STATE_STARTWAIT, DEV_STATE_STOPWAIT, DEV_STATE_RUNNING, NR_DEV_STATES,} cocci_id/* drivers/s390/net/netiucv.c 304 */;
+	char cocci_id/* drivers/s390/net/netiucv.c 286 */[100];
+	u8 cocci_id/* drivers/s390/net/netiucv.c 252 */[16];
+	struct ll_header {
+		u16 next;
+	} cocci_id/* drivers/s390/net/netiucv.c 222 */;
+	void (*cocci_id/* drivers/s390/net/netiucv.c 2194 */)(struct device *);
+	struct device cocci_id/* drivers/s390/net/netiucv.c 2186 */;
+	int __init cocci_id/* drivers/s390/net/netiucv.c 2168 */;
+	struct iucv_connection cocci_id/* drivers/s390/net/netiucv.c 2150 */;
+	void __exit cocci_id/* drivers/s390/net/netiucv.c 2140 */;
+	struct netiucv_priv {
+		struct net_device_stats stats;
+		unsigned long tbusy;
+		fsm_instance *fsm;
+		struct iucv_connection *conn;
+		struct device *dev;
+		int pm_state;
+	} cocci_id/* drivers/s390/net/netiucv.c 210 */;
+	char cocci_id/* drivers/s390/net/netiucv.c 2078 */[IFNAMSIZ];
+	struct iucv_event {
+		struct iucv_connection *conn;
+		void *data;
+	} cocci_id/* drivers/s390/net/netiucv.c 202 */;
+	char cocci_id/* drivers/s390/net/netiucv.c 2011 */[17];
+	char cocci_id/* drivers/s390/net/netiucv.c 2010 */[9];
+	struct device_driver *cocci_id/* drivers/s390/net/netiucv.c 2007 */;
+	struct netiucv_priv cocci_id/* drivers/s390/net/netiucv.c 1976 */;
+	const struct net_device_ops cocci_id/* drivers/s390/net/netiucv.c 1946 */;
+	const struct attribute_group *cocci_id/* drivers/s390/net/netiucv.c 1793 */[];
+	struct attribute_group cocci_id/* drivers/s390/net/netiucv.c 1770 */;
+	struct attribute *cocci_id/* drivers/s390/net/netiucv.c 1764 */[];
+	struct iucv_connection {
+		struct list_head list;
+		struct iucv_path *path;
+		struct sk_buff *rx_buff;
+		struct sk_buff *tx_buff;
+		struct sk_buff_head collect_queue;
+		struct sk_buff_head commit_queue;
+		spinlock_t collect_lock;
+		int collect_len;
+		int max_buffsize;
+		fsm_timer timer;
+		fsm_instance *fsm;
+		struct net_device *netdev;
+		struct connection_profile prof;
+		char userid[9];
+		char userdata[17];
+	} cocci_id/* drivers/s390/net/netiucv.c 174 */;
+	struct connection_profile {
+		unsigned long maxmulti;
+		unsigned long maxcqueue;
+		unsigned long doios_single;
+		unsigned long doios_multi;
+		unsigned long txlen;
+		unsigned long tx_time;
+		unsigned long send_stamp;
+		unsigned long tx_pending;
+		unsigned long tx_max_pending;
+	} cocci_id/* drivers/s390/net/netiucv.c 159 */;
+	int cocci_id/* drivers/s390/net/netiucv.c 1530 */;
+	unsigned int cocci_id/* drivers/s390/net/netiucv.c 1529 */;
+	struct net_device *cocci_id/* drivers/s390/net/netiucv.c 1528 */;
+	const char *cocci_id/* drivers/s390/net/netiucv.c 1525 */;
+	size_t cocci_id/* drivers/s390/net/netiucv.c 1525 */;
+	struct netiucv_priv *cocci_id/* drivers/s390/net/netiucv.c 1518 */;
+	char *cocci_id/* drivers/s390/net/netiucv.c 1516 */;
+	struct device_attribute *cocci_id/* drivers/s390/net/netiucv.c 1515 */;
+	struct device *cocci_id/* drivers/s390/net/netiucv.c 1515 */;
+	ssize_t cocci_id/* drivers/s390/net/netiucv.c 1515 */;
+	struct iucv_handler cocci_id/* drivers/s390/net/netiucv.c 146 */;
+	void cocci_id/* drivers/s390/net/netiucv.c 143 */(struct iucv_path *,
+							  struct iucv_message *);
+	struct net_device_stats *cocci_id/* drivers/s390/net/netiucv.c 1407 */;
+	void cocci_id/* drivers/s390/net/netiucv.c 139 */(struct iucv_path *,
+							  u8 *);
+	int cocci_id/* drivers/s390/net/netiucv.c 138 */(struct iucv_path *,
+							 u8 *, u8 *);
+	struct device_driver cocci_id/* drivers/s390/net/netiucv.c 131 */;
+	const struct dev_pm_ops cocci_id/* drivers/s390/net/netiucv.c 123 */;
+	int cocci_id/* drivers/s390/net/netiucv.c 120 */(struct device *);
+	void cocci_id/* drivers/s390/net/netiucv.c 119 */(struct device *);
+	struct iucv_event cocci_id/* drivers/s390/net/netiucv.c 1053 */;
+	const int cocci_id/* drivers/s390/net/netiucv.c 1015 */;
+	fsm_node cocci_id/* drivers/s390/net/netiucv.c 1015 */;
+	__typeof__(char[256]) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

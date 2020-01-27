@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	const struct amba_id *cocci_id/* sound/arm/aaci.c 985 */;
+	struct snd_pcm *cocci_id/* sound/arm/aaci.c 927 */;
+	unsigned long long cocci_id/* sound/arm/aaci.c 910 */;
+	struct aaci cocci_id/* sound/arm/aaci.c 899 */;
+	struct amba_device *cocci_id/* sound/arm/aaci.c 892 */;
+	struct snd_ac97_bus *cocci_id/* sound/arm/aaci.c 834 */;
+	struct snd_ac97_template cocci_id/* sound/arm/aaci.c 833 */;
+	struct snd_ac97_bus_ops cocci_id/* sound/arm/aaci.c 826 */;
+	const struct ac97_pcm cocci_id/* sound/arm/aaci.c 785 */[];
+	struct device *cocci_id/* sound/arm/aaci.c 772 */;
+	struct snd_card *cocci_id/* sound/arm/aaci.c 760 */;
+	const struct snd_pcm_ops cocci_id/* sound/arm/aaci.c 738 */;
+	struct snd_pcm_runtime *cocci_id/* sound/arm/aaci.c 722 */;
+	struct snd_pcm_substream *cocci_id/* sound/arm/aaci.c 720 */;
+	ssize_t cocci_id/* sound/arm/aaci.c 561 */;
+	snd_pcm_uframes_t cocci_id/* sound/arm/aaci.c 557 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/arm/aaci.c 502 */;
+	const u32 cocci_id/* sound/arm/aaci.c 495 */[];
+	unsigned int cocci_id/* sound/arm/aaci.c 383 */[];
+	struct snd_pcm_hw_rule *cocci_id/* sound/arm/aaci.c 381 */;
+	void cocci_id/* sound/arm/aaci.c 37 */;
+	const struct snd_pcm_hardware cocci_id/* sound/arm/aaci.c 348 */;
+	irqreturn_t cocci_id/* sound/arm/aaci.c 324 */;
+	unsigned int cocci_id/* sound/arm/aaci.c 223 */;
+	void *cocci_id/* sound/arm/aaci.c 211 */;
+	bool cocci_id/* sound/arm/aaci.c 210 */;
+	struct aaci_runtime *cocci_id/* sound/arm/aaci.c 180 */;
+	unsigned long cocci_id/* sound/arm/aaci.c 180 */;
+	u32 cocci_id/* sound/arm/aaci.c 111 */;
+	int cocci_id/* sound/arm/aaci.c 110 */;
+	struct amba_driver cocci_id/* sound/arm/aaci.c 1095 */;
+	struct aaci *cocci_id/* sound/arm/aaci.c 109 */;
+	struct amba_id cocci_id/* sound/arm/aaci.c 1085 */[];
+	struct snd_ac97 *cocci_id/* sound/arm/aaci.c 107 */;
+	unsigned short cocci_id/* sound/arm/aaci.c 107 */;
+	void __iomem *cocci_id/* sound/arm/aaci.c 1021 */;
+}

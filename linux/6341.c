@@ -1,0 +1,63 @@
+cocci_test_suite() {
+	char cocci_id/* drivers/sbus/char/envctrl.c 989 */[10];
+	void *__unused cocci_id/* drivers/sbus/char/envctrl.c 985 */;
+	struct task_struct *cocci_id/* drivers/sbus/char/envctrl.c 983 */;
+	int cocci_id/* drivers/sbus/char/envctrl.c 973 */;
+	void cocci_id/* drivers/sbus/char/envctrl.c 971 */;
+	struct i2c_child_t *cocci_id/* drivers/sbus/char/envctrl.c 957 */;
+	unsigned char cocci_id/* drivers/sbus/char/envctrl.c 957 */;
+	struct pcf8584_channel cocci_id/* drivers/sbus/char/envctrl.c 921 */;
+	struct pcf8584_tblprop cocci_id/* drivers/sbus/char/envctrl.c 876 */;
+	const void *cocci_id/* drivers/sbus/char/envctrl.c 866 */;
+	const unsigned int *cocci_id/* drivers/sbus/char/envctrl.c 772 */;
+	const char *cocci_id/* drivers/sbus/char/envctrl.c 771 */;
+	struct device_node *cocci_id/* drivers/sbus/char/envctrl.c 768 */;
+	struct miscdevice cocci_id/* drivers/sbus/char/envctrl.c 724 */;
+	const struct file_operations cocci_id/* drivers/sbus/char/envctrl.c 714 */;
+	struct inode *cocci_id/* drivers/sbus/char/envctrl.c 699 */;
+	void *cocci_id/* drivers/sbus/char/envctrl.c 669 */;
+	char __user *cocci_id/* drivers/sbus/char/envctrl.c 658 */;
+	struct file *cocci_id/* drivers/sbus/char/envctrl.c 656 */;
+	unsigned long cocci_id/* drivers/sbus/char/envctrl.c 656 */;
+	unsigned int cocci_id/* drivers/sbus/char/envctrl.c 656 */;
+	long cocci_id/* drivers/sbus/char/envctrl.c 655 */;
+	unsigned char cocci_id/* drivers/sbus/char/envctrl.c 542 */[10];
+	loff_t *cocci_id/* drivers/sbus/char/envctrl.c 539 */;
+	size_t cocci_id/* drivers/sbus/char/envctrl.c 539 */;
+	ssize_t cocci_id/* drivers/sbus/char/envctrl.c 538 */;
+	unsigned char *cocci_id/* drivers/sbus/char/envctrl.c 365 */;
+	char cocci_id/* drivers/sbus/char/envctrl.c 365 */;
+	char *cocci_id/* drivers/sbus/char/envctrl.c 329 */;
+	struct i2c_child_t *cocci_id/* drivers/sbus/char/envctrl.c 182 */(unsigned char);
+	unsigned char cocci_id/* drivers/sbus/char/envctrl.c 176 */[];
+	struct i2c_child_t cocci_id/* drivers/sbus/char/envctrl.c 175 */[ENVCTRL_MAX_CPU * 2];
+	void __iomem *cocci_id/* drivers/sbus/char/envctrl.c 174 */;
+	struct i2c_child_t {
+		unsigned char i2ctype;
+		unsigned long addr;
+		struct pcf8584_channel chnl_array[PCF8584_MAX_CHANNELS];
+		unsigned int total_chnls;
+		unsigned char fan_mask;
+		unsigned char voltage_mask;
+		struct pcf8584_tblprop tblprop_array[PCF8584_MAX_CHANNELS];
+		unsigned int total_tbls;
+		char *tables;
+		char chnls_desc[CHANNEL_DESC_SZ];
+		char mon_type[PCF8584_MAX_CHANNELS];
+	} cocci_id/* drivers/sbus/char/envctrl.c 155 */;
+	struct pcf8584_tblprop {
+		unsigned int type;
+		unsigned int scale;
+		unsigned int offset;
+		unsigned int size;
+	} cocci_id/* drivers/sbus/char/envctrl.c 147 */;
+	struct pcf8584_channel {
+		unsigned char chnl_no;
+		unsigned char io_direction;
+		unsigned char type;
+		unsigned char last;
+	} cocci_id/* drivers/sbus/char/envctrl.c 137 */;
+	struct platform_driver cocci_id/* drivers/sbus/char/envctrl.c 1126 */;
+	const struct of_device_id cocci_id/* drivers/sbus/char/envctrl.c 1117 */[];
+	struct platform_device *cocci_id/* drivers/sbus/char/envctrl.c 1026 */;
+}

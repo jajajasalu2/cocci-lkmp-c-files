@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	struct resource cocci_id/* drivers/mfd/tps6586x.c 95 */[];
+	const struct tps6586x_irq_data cocci_id/* drivers/mfd/tps6586x.c 65 */[];
+	void __exit cocci_id/* drivers/mfd/tps6586x.c 638 */;
+	void cocci_id/* drivers/mfd/tps6586x.c 638 */;
+	int __init cocci_id/* drivers/mfd/tps6586x.c 632 */;
+	struct i2c_driver cocci_id/* drivers/mfd/tps6586x.c 621 */;
+	const struct i2c_device_id cocci_id/* drivers/mfd/tps6586x.c 615 */[];
+	int __maybe_unused cocci_id/* drivers/mfd/tps6586x.c 602 */;
+	struct tps6586x_irq_data {
+		u8 mask_reg;
+		u8 mask_mask;
+	} cocci_id/* drivers/mfd/tps6586x.c 54 */;
+	const struct i2c_device_id *cocci_id/* drivers/mfd/tps6586x.c 502 */;
+	struct i2c_client *cocci_id/* drivers/mfd/tps6586x.c 501 */;
+	const char *cocci_id/* drivers/mfd/tps6586x.c 474 */;
+	const struct regmap_config cocci_id/* drivers/mfd/tps6586x.c 455 */;
+	bool cocci_id/* drivers/mfd/tps6586x.c 446 */;
+	unsigned int cocci_id/* drivers/mfd/tps6586x.c 446 */;
+	const struct of_device_id cocci_id/* drivers/mfd/tps6586x.c 435 */[];
+	struct device_node *cocci_id/* drivers/mfd/tps6586x.c 419 */;
+	struct platform_device *cocci_id/* drivers/mfd/tps6586x.c 387 */;
+	struct tps6586x_subdev_info *cocci_id/* drivers/mfd/tps6586x.c 386 */;
+	struct tps6586x_platform_data *cocci_id/* drivers/mfd/tps6586x.c 384 */;
+	u8 cocci_id/* drivers/mfd/tps6586x.c 342 */[4];
+	uint8_t *cocci_id/* drivers/mfd/tps6586x.c 316 */;
+	u32 cocci_id/* drivers/mfd/tps6586x.c 312 */;
+	irqreturn_t cocci_id/* drivers/mfd/tps6586x.c 309 */;
+	const struct irq_domain_ops cocci_id/* drivers/mfd/tps6586x.c 304 */;
+	irq_hw_number_t cocci_id/* drivers/mfd/tps6586x.c 292 */;
+	struct irq_domain *cocci_id/* drivers/mfd/tps6586x.c 291 */;
+	struct irq_chip cocci_id/* drivers/mfd/tps6586x.c 282 */;
+	const struct tps6586x_irq_data *cocci_id/* drivers/mfd/tps6586x.c 250 */;
+	struct irq_data *cocci_id/* drivers/mfd/tps6586x.c 245 */;
+	struct device *cocci_id/* drivers/mfd/tps6586x.c 217 */;
+	void *cocci_id/* drivers/mfd/tps6586x.c 217 */;
+	int cocci_id/* drivers/mfd/tps6586x.c 217 */;
+	uint8_t cocci_id/* drivers/mfd/tps6586x.c 185 */;
+	struct tps6586x *cocci_id/* drivers/mfd/tps6586x.c 135 */;
+	struct tps6586x {
+		struct device *dev;
+		struct i2c_client *client;
+		struct regmap *regmap;
+		int version;
+		int irq;
+		struct irq_chip irq_chip;
+		struct mutex irq_lock;
+		int irq_base;
+		u32 irq_en;
+		u8 mask_reg[5];
+		struct irq_domain *irq_domain;
+	} cocci_id/* drivers/mfd/tps6586x.c 120 */;
+	const struct mfd_cell cocci_id/* drivers/mfd/tps6586x.c 103 */[];
+}

@@ -1,0 +1,55 @@
+cocci_test_suite() {
+	struct vm_area_struct *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 964 */;
+	enum v4l2_buf_type cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 942 */;
+	struct framebuf *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 891 */;
+	struct v4l2_buffer *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 875 */;
+	void *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 875 */;
+	struct v4l2_requestbuffers *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 751 */;
+	const struct v4l2_jpegcompression *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 702 */;
+	struct v4l2_jpegcompression *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 660 */;
+	const int cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 606 */[];
+	struct v4l2_ctrl *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 602 */;
+	struct v4l2_frmivalenum *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 567 */;
+	struct v4l2_frmsizeenum *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 551 */;
+	const struct {
+		u32 width;
+		u32 height;
+	} cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 536 */[];
+	struct v4l2_fract cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 508 */;
+	struct v4l2_captureparm *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 488 */;
+	struct v4l2_streamparm *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 485 */;
+	const struct framerate_info cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 476 */[];
+	struct framerate_info {
+		int value;
+		struct v4l2_fract period;
+	} cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 471 */;
+	int cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 46 */;
+	struct v4l2_selection *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 450 */;
+	struct v4l2_format *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 425 */;
+	struct v4l2_fmtdesc *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 293 */;
+	unsigned int cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 279 */;
+	unsigned int *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 273 */;
+	struct v4l2_input *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 264 */;
+	struct v4l2_capability *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 209 */;
+	__poll_t cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 163 */;
+	struct poll_table_struct *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 163 */;
+	loff_t *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 141 */;
+	char __user *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 140 */;
+	ssize_t cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 140 */;
+	size_t cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 140 */;
+	void __exit cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 1221 */;
+	int __init cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 1207 */;
+	void __init cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 1161 */;
+	void cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 1161 */;
+	struct video_device *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 113 */;
+	struct file *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 111 */;
+	struct v4l2_ctrl_config cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 1071 */;
+	struct v4l2_ctrl_handler *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 1070 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 1059 */;
+	struct camera_data cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 1052 */;
+	struct camera_data *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 1051 */;
+	struct v4l2_device *cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 1049 */;
+	const struct video_device cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 1041 */;
+	const struct v4l2_file_operations cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 1031 */;
+	const struct v4l2_ioctl_ops cocci_id/* drivers/media/usb/cpia2/cpia2_v4l.c 1002 */;
+}

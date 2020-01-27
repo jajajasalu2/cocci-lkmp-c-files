@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	enum led_brightness cocci_id/* drivers/hid/hid-lg-g15.c 93 */;
+	struct hid_driver cocci_id/* drivers/hid/hid-lg-g15.c 891 */;
+	const struct hid_device_id cocci_id/* drivers/hid/hid-lg-g15.c 872 */[];
+	void *cocci_id/* drivers/hid/hid-lg-g15.c 747 */;
+	struct hid_report *cocci_id/* drivers/hid/hid-lg-g15.c 714 */;
+	bool cocci_id/* drivers/hid/hid-lg-g15.c 711 */;
+	unsigned int cocci_id/* drivers/hid/hid-lg-g15.c 710 */;
+	struct hid_report_enum *cocci_id/* drivers/hid/hid-lg-g15.c 709 */;
+	const struct hid_device_id *cocci_id/* drivers/hid/hid-lg-g15.c 705 */;
+	const char *constcocci_id/* drivers/hid/hid-lg-g15.c 650 */[];
+	struct hid_device *cocci_id/* drivers/hid/hid-lg-g15.c 643 */;
+	struct input_dev *cocci_id/* drivers/hid/hid-lg-g15.c 641 */;
+	void cocci_id/* drivers/hid/hid-lg-g15.c 641 */;
+	struct lg_g15_data {
+		u8 transfer_buf[LG_G15_TRANSFER_BUF_SIZE];
+		struct mutex mutex;
+		struct work_struct work;
+		struct input_dev *input;
+		struct hid_device *hdev;
+		enum lg_g15_model model;
+		struct lg_g15_led leds[LG_G15_LED_MAX];
+		bool game_mode_enabled;
+	} cocci_id/* drivers/hid/hid-lg-g15.c 51 */;
+	u8 *cocci_id/* drivers/hid/hid-lg-g15.c 467 */;
+	struct lg_g15_led {
+		struct led_classdev cdev;
+		enum led_brightness brightness;
+		enum lg_g15_led_type led;
+		u8 red,green,blue;
+	} cocci_id/* drivers/hid/hid-lg-g15.c 44 */;
+	const struct attribute_group *cocci_id/* drivers/hid/hid-lg-g15.c 341 */[];
+	const struct attribute_group cocci_id/* drivers/hid/hid-lg-g15.c 337 */;
+	struct attribute *cocci_id/* drivers/hid/hid-lg-g15.c 332 */[];
+	enum lg_g15_led_type{LG_G15_KBD_BRIGHTNESS, LG_G15_LCD_BRIGHTNESS, LG_G15_BRIGHTNESS_MAX, LG_G15_MACRO_PRESET1=2, LG_G15_MACRO_PRESET2, LG_G15_MACRO_PRESET3, LG_G15_MACRO_RECORD, LG_G15_LED_MAX,} cocci_id/* drivers/hid/hid-lg-g15.c 33 */;
+	struct lg_g15_data *cocci_id/* drivers/hid/hid-lg-g15.c 319 */;
+	struct lg_g15_led cocci_id/* drivers/hid/hid-lg-g15.c 318 */;
+	struct lg_g15_led *cocci_id/* drivers/hid/hid-lg-g15.c 317 */;
+	struct led_classdev *cocci_id/* drivers/hid/hid-lg-g15.c 316 */;
+	char *cocci_id/* drivers/hid/hid-lg-g15.c 314 */;
+	struct device_attribute *cocci_id/* drivers/hid/hid-lg-g15.c 313 */;
+	struct device *cocci_id/* drivers/hid/hid-lg-g15.c 313 */;
+	ssize_t cocci_id/* drivers/hid/hid-lg-g15.c 313 */;
+	int cocci_id/* drivers/hid/hid-lg-g15.c 291 */;
+	unsigned long cocci_id/* drivers/hid/hid-lg-g15.c 290 */;
+	const char *cocci_id/* drivers/hid/hid-lg-g15.c 284 */;
+	size_t cocci_id/* drivers/hid/hid-lg-g15.c 284 */;
+	enum lg_g15_model{LG_G15, LG_G15_V2, LG_G510, LG_G510_USB_AUDIO,} cocci_id/* drivers/hid/hid-lg-g15.c 26 */;
+	enum led_brightness cocci_id/* drivers/hid/hid-lg-g15.c 164 */[LG_G15_BRIGHTNESS_MAX];
+	struct lg_g15_data cocci_id/* drivers/hid/hid-lg-g15.c 163 */;
+	struct work_struct *cocci_id/* drivers/hid/hid-lg-g15.c 161 */;
+	u8 cocci_id/* drivers/hid/hid-lg-g15.c 114 */;
+}

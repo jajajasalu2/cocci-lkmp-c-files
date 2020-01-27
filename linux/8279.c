@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	const struct efx_nic_type cocci_id/* drivers/net/ethernet/sfc/siena.c 956 */;
+	uint16_t cocci_id/* drivers/net/ethernet/sfc/siena.c 887 */[MC_CMD_GET_BOARD_CFG_OUT_FW_SUBTYPE_LIST_MAXNUM];
+	struct efx_mcdi_mtd_partition *cocci_id/* drivers/net/ethernet/sfc/siena.c 884 */;
+	const struct siena_nvram_type_info *cocci_id/* drivers/net/ethernet/sfc/siena.c 851 */;
+	const struct siena_nvram_type_info cocci_id/* drivers/net/ethernet/sfc/siena.c 831 */[];
+	struct siena_nvram_type_info {
+		int port;
+		const char *name;
+	} cocci_id/* drivers/net/ethernet/sfc/siena.c 826 */;
+	u32 cocci_id/* drivers/net/ethernet/sfc/siena.c 794 */;
+	efx_dword_t cocci_id/* drivers/net/ethernet/sfc/siena.c 793 */;
+	unsigned int cocci_id/* drivers/net/ethernet/sfc/siena.c 792 */;
+	efx_dword_t *cocci_id/* drivers/net/ethernet/sfc/siena.c 778 */;
+	bool cocci_id/* drivers/net/ethernet/sfc/siena.c 763 */;
+	__le32 cocci_id/* drivers/net/ethernet/sfc/siena.c 760 */;
+	unsigned cocci_id/* drivers/net/ethernet/sfc/siena.c 744 */;
+	const efx_dword_t *cocci_id/* drivers/net/ethernet/sfc/siena.c 741 */;
+	const struct efx_farch_register_test cocci_id/* drivers/net/ethernet/sfc/siena.c 67 */[];
+	struct siena_nic_data *cocci_id/* drivers/net/ethernet/sfc/siena.c 664 */;
+	struct ethtool_wolinfo *cocci_id/* drivers/net/ethernet/sfc/siena.c 662 */;
+	void cocci_id/* drivers/net/ethernet/sfc/siena.c 61 */;
+	u64 cocci_id/* drivers/net/ethernet/sfc/siena.c 600 */;
+	struct rtnl_link_stats64 *cocci_id/* drivers/net/ethernet/sfc/siena.c 585 */;
+	__le64 cocci_id/* drivers/net/ethernet/sfc/siena.c 551 */;
+	__le64 *cocci_id/* drivers/net/ethernet/sfc/siena.c 550 */;
+	u64 *cocci_id/* drivers/net/ethernet/sfc/siena.c 549 */;
+	u8 *cocci_id/* drivers/net/ethernet/sfc/siena.c 540 */;
+	struct efx_nic *cocci_id/* drivers/net/ethernet/sfc/siena.c 540 */;
+	size_t cocci_id/* drivers/net/ethernet/sfc/siena.c 540 */;
+	const unsigned long cocci_id/* drivers/net/ethernet/sfc/siena.c 536 */[];
+	const struct efx_hw_stat_desc cocci_id/* drivers/net/ethernet/sfc/siena.c 475 */[SIENA_STAT_COUNT];
+	efx_oword_t cocci_id/* drivers/net/ethernet/sfc/siena.c 398 */;
+	const u8 *cocci_id/* drivers/net/ethernet/sfc/siena.c 361 */;
+	const u32 *cocci_id/* drivers/net/ethernet/sfc/siena.c 361 */;
+	struct efx_channel *cocci_id/* drivers/net/ethernet/sfc/siena.c 31 */;
+	unsigned long long cocci_id/* drivers/net/ethernet/sfc/siena.c 304 */;
+	void cocci_id/* drivers/net/ethernet/sfc/siena.c 28 */(struct efx_nic *efx);
+	struct siena_nic_data cocci_id/* drivers/net/ethernet/sfc/siena.c 263 */;
+	int cocci_id/* drivers/net/ethernet/sfc/siena.c 232 */;
+	struct eeh_dev *cocci_id/* drivers/net/ethernet/sfc/siena.c 210 */;
+	enum{SIENA_RESET_PORT=(ETH_RESET_DMA | ETH_RESET_FILTER | ETH_RESET_OFFLOAD | ETH_RESET_MAC | ETH_RESET_PHY), SIENA_RESET_MC=(SIENA_RESET_PORT | ETH_RESET_MGMT << ETH_RESET_SHARED_SHIFT),} cocci_id/* drivers/net/ethernet/sfc/siena.c 178 */;
+	u32 *cocci_id/* drivers/net/ethernet/sfc/siena.c 176 */;
+	struct hwtstamp_config *cocci_id/* drivers/net/ethernet/sfc/siena.c 135 */;
+}

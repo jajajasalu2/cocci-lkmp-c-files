@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct mwifiex_ie_types_rxba_sync *cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 922 */;
+	struct mwifiex_adapter *cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 890 */;
+	struct mwifiex_rx_reorder_tbl *cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 799 */;
+	u16 cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 786 */;
+	struct host_cmd_ds_11n_delba cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 780 */;
+	struct host_cmd_ds_11n_batimeout *cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 778 */;
+	struct mwifiex_private *cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 777 */;
+	void cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 777 */;
+	struct mwifiex_ra_list_tbl *cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 677 */;
+	struct mwifiex_tx_ba_stream_tbl *cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 676 */;
+	bool cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 566 */;
+	u8 cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 561 */;
+	struct host_cmd_ds_11n_delba *cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 537 */;
+	struct rx_packet_hdr *cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 51 */;
+	uint16_t cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 474 */;
+	struct host_cmd_ds_11n_addba_rsp *cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 469 */;
+	struct host_cmd_ds_11n_addba_req *cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 447 */;
+	struct host_cmd_ds_command *cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 445 */;
+	u32 cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 424 */;
+	void *cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 398 */;
+	struct sk_buff_head cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 39 */;
+	struct mwifiex_rx_reorder_tbl cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 359 */;
+	struct rxpd *cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 35 */;
+	struct mwifiex_sta_node *cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 347 */;
+	int cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 342 */;
+	u8 *cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 341 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 33 */;
+	struct timer_list *cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 312 */;
+	struct reorder_tmr_cnxt *cocci_id/* drivers/net/wireless/marvell/mwifiex/11n_rxreorder.c 286 */;
+}

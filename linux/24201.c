@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	bool cocci_id/* net/ipv6/ip6_flowlabel.c 97 */;
+	struct pernet_operations cocci_id/* net/ipv6/ip6_flowlabel.c 866 */;
+	struct ip6fl_iter_state cocci_id/* net/ipv6/ip6_flowlabel.c 841 */;
+	int __net_init cocci_id/* net/ipv6/ip6_flowlabel.c 838 */;
+	const struct seq_operations cocci_id/* net/ipv6/ip6_flowlabel.c 831 */;
+	long cocci_id/* net/ipv6/ip6_flowlabel.c 824 */;
+	unsigned int cocci_id/* net/ipv6/ip6_flowlabel.c 815 */;
+	loff_t *cocci_id/* net/ipv6/ip6_flowlabel.c 788 */;
+	loff_t cocci_id/* net/ipv6/ip6_flowlabel.c 768 */;
+	struct net *cocci_id/* net/ipv6/ip6_flowlabel.c 74 */;
+	struct ip6fl_iter_state *cocci_id/* net/ipv6/ip6_flowlabel.c 730 */;
+	struct seq_file *cocci_id/* net/ipv6/ip6_flowlabel.c 727 */;
+	struct ip6fl_iter_state {
+		struct seq_net_private p;
+		struct pid_namespace *pid_ns;
+		int bucket;
+	} cocci_id/* net/ipv6/ip6_flowlabel.c 719 */;
+	struct in6_flowlabel_req __user *cocci_id/* net/ipv6/ip6_flowlabel.c 698 */;
+	struct ipv6_fl_socklist __rcu **cocci_id/* net/ipv6/ip6_flowlabel.c 544 */;
+	struct in6_flowlabel_req cocci_id/* net/ipv6/ip6_flowlabel.c 541 */;
+	void cocci_id/* net/ipv6/ip6_flowlabel.c 46 */(struct timer_list *unused);
+	struct ip6_flowlabel __rcu *cocci_id/* net/ipv6/ip6_flowlabel.c 44 */[FL_HASH_MASK + 1];
+	atomic_t cocci_id/* net/ipv6/ip6_flowlabel.c 43 */;
+	void *cocci_id/* net/ipv6/ip6_flowlabel.c 408 */;
+	struct ipcm6_cookie cocci_id/* net/ipv6/ip6_flowlabel.c 394 */;
+	struct flowi6 cocci_id/* net/ipv6/ip6_flowlabel.c 393 */;
+	struct msghdr cocci_id/* net/ipv6/ip6_flowlabel.c 392 */;
+	int *cocci_id/* net/ipv6/ip6_flowlabel.c 374 */;
+	char __user *cocci_id/* net/ipv6/ip6_flowlabel.c 374 */;
+	struct in6_flowlabel_req *cocci_id/* net/ipv6/ip6_flowlabel.c 373 */;
+	int cocci_id/* net/ipv6/ip6_flowlabel.c 350 */;
+	unsigned long cocci_id/* net/ipv6/ip6_flowlabel.c 341 */;
+	struct ipv6_txoptions *cocci_id/* net/ipv6/ip6_flowlabel.c 312 */;
+	void cocci_id/* net/ipv6/ip6_flowlabel.c 281 */;
+	struct ipv6_pinfo *cocci_id/* net/ipv6/ip6_flowlabel.c 262 */;
+	struct ipv6_fl_socklist *cocci_id/* net/ipv6/ip6_flowlabel.c 261 */;
+	__be32 cocci_id/* net/ipv6/ip6_flowlabel.c 259 */;
+	struct sock *cocci_id/* net/ipv6/ip6_flowlabel.c 259 */;
+	struct ip6_flowlabel *cocci_id/* net/ipv6/ip6_flowlabel.c 259 */;
+	void __net_exit cocci_id/* net/ipv6/ip6_flowlabel.c 188 */;
+	struct ip6_flowlabel __rcu **cocci_id/* net/ipv6/ip6_flowlabel.c 158 */;
+	struct timer_list *cocci_id/* net/ipv6/ip6_flowlabel.c 148 */;
+	struct ip6_flowlabel cocci_id/* net/ipv6/ip6_flowlabel.c 106 */;
+	struct rcu_head *cocci_id/* net/ipv6/ip6_flowlabel.c 104 */;
+}

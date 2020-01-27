@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	struct iwl_power_vifs cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 983 */;
+	struct iwl_mvm_vif *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 885 */;
+	struct iwl_beacon_filter_cmd cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 884 */;
+	u32 cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 882 */;
+	struct ieee80211_vif *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 881 */;
+	struct iwl_mvm *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 880 */;
+	int cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 880 */;
+	struct iwl_beacon_filter_cmd *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 848 */;
+	u16 cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 84 */;
+	struct iwl_dbgfs_bf *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 816 */;
+	void cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 811 */;
+	struct iwl_mac_power_cmd cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 742 */;
+	char *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 738 */;
+	struct iwl_power_vifs *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 624 */;
+	struct iwl_power_vifs {
+		struct iwl_mvm *mvm;
+		struct ieee80211_vif *bss_vif;
+		struct ieee80211_vif *p2p_vif;
+		struct ieee80211_vif *ap_vif;
+		struct ieee80211_vif *monitor_vif;
+		bool p2p_active;
+		bool bss_active;
+		bool ap_active;
+		bool monitor_active;
+	} cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 590 */;
+	struct iwl_uapsd_misbehaving_ap_notif *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 582 */;
+	struct iwl_rx_packet *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 581 */;
+	struct iwl_rx_cmd_buffer *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 579 */;
+	struct iwl_device_power_cmd cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 528 */;
+	struct iwl_mac_power_cmd *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 393 */;
+	u8 cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 383 */;
+	struct ieee80211_channel *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 340 */;
+	struct ieee80211_chanctx_conf *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 339 */;
+	bool cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 293 */;
+	bool *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 276 */;
+	u8 *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 273 */;
+	void *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 273 */;
+	enum ieee80211_ac_numbers cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/power.c 186 */;
+}

@@ -1,0 +1,62 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/md/dm-zoned-target.c 988 */;
+	int __init cocci_id/* drivers/md/dm-zoned-target.c 983 */;
+	struct target_type cocci_id/* drivers/md/dm-zoned-target.c 968 */;
+	iterate_devices_callout_fn cocci_id/* drivers/md/dm-zoned-target.c 959 */;
+	void *cocci_id/* drivers/md/dm-zoned-target.c 959 */;
+	struct block_device **cocci_id/* drivers/md/dm-zoned-target.c 923 */;
+	struct queue_limits *cocci_id/* drivers/md/dm-zoned-target.c 895 */;
+	struct dm_zone *cocci_id/* drivers/md/dm-zoned-target.c 87 */;
+	unsigned long long cocci_id/* drivers/md/dm-zoned-target.c 843 */;
+	sector_t cocci_id/* drivers/md/dm-zoned-target.c 802 */;
+	struct dmz_bioctx cocci_id/* drivers/md/dm-zoned-target.c 79 */;
+	struct dmz_bioctx *cocci_id/* drivers/md/dm-zoned-target.c 79 */;
+	struct dmz_target cocci_id/* drivers/md/dm-zoned-target.c 770 */;
+	blk_status_t cocci_id/* drivers/md/dm-zoned-target.c 77 */;
+	struct bio *cocci_id/* drivers/md/dm-zoned-target.c 77 */;
+	void cocci_id/* drivers/md/dm-zoned-target.c 77 */;
+	struct dm_target *cocci_id/* drivers/md/dm-zoned-target.c 757 */;
+	char **cocci_id/* drivers/md/dm-zoned-target.c 757 */;
+	unsigned int cocci_id/* drivers/md/dm-zoned-target.c 757 */;
+	int cocci_id/* drivers/md/dm-zoned-target.c 757 */;
+	struct dmz_dev cocci_id/* drivers/md/dm-zoned-target.c 698 */;
+	struct request_queue *cocci_id/* drivers/md/dm-zoned-target.c 685 */;
+	char *cocci_id/* drivers/md/dm-zoned-target.c 682 */;
+	u64 cocci_id/* drivers/md/dm-zoned-target.c 671 */;
+	struct gendisk *cocci_id/* drivers/md/dm-zoned-target.c 598 */;
+	bool cocci_id/* drivers/md/dm-zoned-target.c 574 */;
+	struct dmz_dev *cocci_id/* drivers/md/dm-zoned-target.c 574 */;
+	struct dmz_target *cocci_id/* drivers/md/dm-zoned-target.c 474 */;
+	struct dm_chunk_work cocci_id/* drivers/md/dm-zoned-target.c 473 */;
+	struct dm_chunk_work *cocci_id/* drivers/md/dm-zoned-target.c 473 */;
+	struct work_struct *cocci_id/* drivers/md/dm-zoned-target.c 471 */;
+	struct dmz_target {
+		struct dm_dev *ddev;
+		unsigned long flags;
+		struct dmz_dev *dev;
+		struct dmz_metadata *metadata;
+		struct dmz_reclaim *reclaim;
+		struct radix_tree_root chunk_rxtree;
+		struct workqueue_struct *chunk_wq;
+		struct mutex chunk_lock;
+		struct bio_set bio_set;
+		spinlock_t flush_lock;
+		struct bio_list flush_list;
+		struct delayed_work flush_work;
+		struct workqueue_struct *flush_wq;
+	} cocci_id/* drivers/md/dm-zoned-target.c 40 */;
+	struct dmz_metadata *cocci_id/* drivers/md/dm-zoned-target.c 382 */;
+	struct dm_chunk_work {
+		struct work_struct work;
+		refcount_t refcount;
+		struct dmz_target *target;
+		unsigned int chunk;
+		struct bio_list bio_list;
+	} cocci_id/* drivers/md/dm-zoned-target.c 29 */;
+	struct dmz_bioctx {
+		struct dmz_target *target;
+		struct dm_zone *zone;
+		struct bio *bio;
+		refcount_t ref;
+	} cocci_id/* drivers/md/dm-zoned-target.c 19 */;
+}

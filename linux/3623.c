@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 93 */;
+	efi_memory_desc_t *cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 90 */;
+	efi_exit_boot_map_processing cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 884 */;
+	struct efi_boot_memmap *cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 882 */;
+	void *cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 881 */;
+	u16 cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 839 */;
+	efi_status_t cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 838 */;
+	int cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 834 */;
+	u8 *cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 832 */;
+	const u16 *cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 831 */;
+	int *cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 829 */;
+	efi_loaded_image_t *cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 828 */;
+	efi_system_table_t *cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 827 */;
+	char *cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 827 */;
+	unsigned int cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 783 */;
+	bool cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 78 */;
+	efi_physical_addr_t cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 722 */;
+	efi_char16_t cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 66 */[2];
+	efi_char16_t cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 583 */[256];
+	struct file_info {
+		efi_file_handle_t *handle;
+		u64 size;
+	} cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 56 */;
+	struct file_info *cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 530 */;
+	bool __pure cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 49 */;
+	void cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 49 */;
+	const char *cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 462 */;
+	efi_file_io_interface_t *cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 430 */;
+	efi_file_handle_t **cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 428 */;
+	unsigned long *cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 416 */;
+	int __pure cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 41 */;
+	u64 cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 374 */;
+	efi_guid_t cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 370 */;
+	efi_file_info_t *cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 368 */;
+	efi_file_handle_t *cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 367 */;
+	u64 *cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 365 */;
+	efi_char16_t *cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 364 */;
+	void **cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 364 */;
+	unsigned long cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 30 */;
+	struct efi_boot_memmap cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 185 */;
+	efi_memory_desc_t **cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 147 */;
+	struct efi_memory_map cocci_id/* drivers/firmware/efi/libstub/efi-stub-helper.c 143 */;
+}

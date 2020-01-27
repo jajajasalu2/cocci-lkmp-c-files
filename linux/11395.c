@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 951 */;
+	struct ttm_operation_ctx cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 94 */;
+	unsigned long cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 910 */;
+	struct ttm_base_object *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 905 */;
+	struct drm_vmw_unref_dmabuf_arg *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 877 */;
+	uint32_t cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 836 */;
+	struct vmw_buffer_object *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 835 */;
+	struct drm_vmw_dmabuf_rep *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 834 */;
+	struct drm_vmw_alloc_dmabuf_req *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 833 */;
+	union drm_vmw_alloc_dmabuf_arg *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 831 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 828 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 827 */;
+	int cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 827 */;
+	unsigned int cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 793 */;
+	struct drm_vmw_synccpu_arg *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 762 */;
+	long cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 695 */;
+	struct vmw_user_buffer_object *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 602 */;
+	struct ttm_base_object **cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 600 */;
+	struct vmw_buffer_object **cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 599 */;
+	uint32_t *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 598 */;
+	enum ttm_ref_type cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 565 */;
+	void (*cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 506 */)(struct ttm_buffer_object *bo);
+	struct ttm_placement *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 504 */;
+	struct ttm_buffer_object *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 461 */;
+	void cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 461 */;
+	struct vmw_user_buffer_object cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 443 */;
+	struct vmw_buffer_object cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 441 */;
+	void *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 435 */;
+	bool cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 431 */;
+	struct vmw_private *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 430 */;
+	size_t cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 430 */;
+	struct vmw_user_buffer_object {
+		struct ttm_prime_object prime;
+		struct vmw_buffer_object vbo;
+	} cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 41 */;
+	SVGAGuestPtr *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 316 */;
+	const struct ttm_buffer_object *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 315 */;
+	struct ttm_place cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 221 */;
+	struct ttm_placement cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 220 */;
+	struct ttm_mem_reg *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 1145 */;
+	struct ttm_object_file *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 1084 */;
+	uint64_t *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 1082 */;
+	struct drm_mode_create_dumb *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 1043 */;
+	struct vmw_private cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 1018 */;
+	struct ttm_bo_device *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 1015 */;
+	struct vmw_fence_obj *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_bo.c 1013 */;
+}

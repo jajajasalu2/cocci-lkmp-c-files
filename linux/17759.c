@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	struct iommu_table *cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 99 */;
+	bool cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 98 */;
+	struct iommu_group *cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 95 */;
+	struct kvm *cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 94 */;
+	long cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 94 */;
+	int cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 94 */;
+	u64 cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 608 */;
+	u64 __user *cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 607 */;
+	struct kref *cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 59 */;
+	struct kvm_vcpu *cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 540 */;
+	struct kvmppc_spapr_tce_iommu_table cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 52 */;
+	struct rcu_head *cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 49 */;
+	void cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 49 */;
+	struct mm_iommu_table_group_mem_t *cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 488 */;
+	__be64 *cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 487 */;
+	struct kvmppc_spapr_tce_table cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 43 */;
+	const unsigned long cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 426 */;
+	enum dma_data_direction cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 417 */;
+	struct mm_struct *cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 413 */;
+	u64 *cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 392 */;
+	struct kvm_memory_slot *cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 337 */;
+	unsigned long *cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 334 */;
+	struct kvm_create_spapr_tce_64 *cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 271 */;
+	const struct file_operations cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 265 */;
+	struct inode *cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 238 */;
+	struct vm_area_struct *cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 232 */;
+	struct file *cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 232 */;
+	const struct vm_operations_struct cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 228 */;
+	vm_fault_t cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 211 */;
+	struct vm_fault *cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 211 */;
+	unsigned long cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 191 */;
+	struct page *cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 190 */;
+	struct kvmppc_spapr_tce_table *cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 190 */;
+	struct fd cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 103 */;
+	struct kvmppc_spapr_tce_iommu_table *cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 102 */;
+	struct iommu_table_group *cocci_id/* arch/powerpc/kvm/book3s_64_vio.c 100 */;
+}

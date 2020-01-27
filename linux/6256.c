@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	long cocci_id/* drivers/mfd/stm32-timers.c 64 */;
+	dma_addr_t cocci_id/* drivers/mfd/stm32-timers.c 62 */;
+	dma_cookie_t cocci_id/* drivers/mfd/stm32-timers.c 61 */;
+	struct dma_slave_config cocci_id/* drivers/mfd/stm32-timers.c 60 */;
+	struct dma_async_tx_descriptor *cocci_id/* drivers/mfd/stm32-timers.c 59 */;
+	size_t cocci_id/* drivers/mfd/stm32-timers.c 58 */;
+	struct stm32_timers_dma *cocci_id/* drivers/mfd/stm32-timers.c 57 */;
+	struct regmap *cocci_id/* drivers/mfd/stm32-timers.c 56 */;
+	struct stm32_timers *cocci_id/* drivers/mfd/stm32-timers.c 54 */;
+	unsigned long cocci_id/* drivers/mfd/stm32-timers.c 52 */;
+	unsigned int cocci_id/* drivers/mfd/stm32-timers.c 51 */;
+	u32 cocci_id/* drivers/mfd/stm32-timers.c 50 */;
+	enum stm32_timers_dmas cocci_id/* drivers/mfd/stm32-timers.c 50 */;
+	u32 *cocci_id/* drivers/mfd/stm32-timers.c 49 */;
+	struct device *cocci_id/* drivers/mfd/stm32-timers.c 49 */;
+	int cocci_id/* drivers/mfd/stm32-timers.c 49 */;
+	enum dma_status cocci_id/* drivers/mfd/stm32-timers.c 30 */;
+	struct dma_tx_state cocci_id/* drivers/mfd/stm32-timers.c 29 */;
+	struct platform_driver cocci_id/* drivers/mfd/stm32-timers.c 264 */;
+	void *cocci_id/* drivers/mfd/stm32-timers.c 26 */;
+	void cocci_id/* drivers/mfd/stm32-timers.c 26 */;
+	const struct of_device_id cocci_id/* drivers/mfd/stm32-timers.c 258 */[];
+	void __iomem *cocci_id/* drivers/mfd/stm32-timers.c 207 */;
+	struct resource *cocci_id/* drivers/mfd/stm32-timers.c 206 */;
+	struct platform_device *cocci_id/* drivers/mfd/stm32-timers.c 202 */;
+	char cocci_id/* drivers/mfd/stm32-timers.c 174 */[4];
+	const u32 cocci_id/* drivers/mfd/stm32-timers.c 16 */[STM32_TIMERS_MAX_DMAS];
+	const struct regmap_config cocci_id/* drivers/mfd/stm32-timers.c 152 */;
+}

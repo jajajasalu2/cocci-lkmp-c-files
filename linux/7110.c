@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	unsigned int *cocci_id/* drivers/parisc/iosapic.c 957 */;
+	unsigned char cocci_id/* drivers/parisc/iosapic.c 943 */;
+	struct vector_info cocci_id/* drivers/parisc/iosapic.c 936 */;
+	struct iosapic_info cocci_id/* drivers/parisc/iosapic.c 924 */;
+	struct parisc_device *cocci_id/* drivers/parisc/iosapic.c 803 */;
+	u32 cocci_id/* drivers/parisc/iosapic.c 754 */;
+	struct iosapic_info *cocci_id/* drivers/parisc/iosapic.c 708 */;
+	struct pci_dev *cocci_id/* drivers/parisc/iosapic.c 706 */;
+	void *cocci_id/* drivers/parisc/iosapic.c 706 */;
+	struct irq_chip cocci_id/* drivers/parisc/iosapic.c 695 */;
+	bool cocci_id/* drivers/parisc/iosapic.c 669 */;
+	const struct cpumask *cocci_id/* drivers/parisc/iosapic.c 669 */;
+	struct vector_info *cocci_id/* drivers/parisc/iosapic.c 661 */;
+	struct irq_data *cocci_id/* drivers/parisc/iosapic.c 659 */;
+	ulong cocci_id/* drivers/parisc/iosapic.c 629 */;
+	u8 cocci_id/* drivers/parisc/iosapic.c 529 */;
+	struct pci_bus *cocci_id/* drivers/parisc/iosapic.c 493 */;
+	struct pdc_pat_cell_num cocci_id/* drivers/parisc/iosapic.c 370 */;
+	void __init cocci_id/* drivers/parisc/iosapic.c 361 */;
+	u32 *cocci_id/* drivers/parisc/iosapic.c 349 */;
+	long cocci_id/* drivers/parisc/iosapic.c 266 */;
+	struct irt_entry **cocci_id/* drivers/parisc/iosapic.c 264 */;
+	int __init cocci_id/* drivers/parisc/iosapic.c 263 */;
+	struct irt_entry cocci_id/* drivers/parisc/iosapic.c 231 */;
+	unsigned long cocci_id/* drivers/parisc/iosapic.c 224 */;
+	struct irt_entry *cocci_id/* drivers/parisc/iosapic.c 222 */;
+	int cocci_id/* drivers/parisc/iosapic.c 222 */;
+	size_t cocci_id/* drivers/parisc/iosapic.c 220 */;
+	void __iomem *cocci_id/* drivers/parisc/iosapic.c 205 */;
+	unsigned int cocci_id/* drivers/parisc/iosapic.c 205 */;
+	void cocci_id/* drivers/parisc/iosapic.c 205 */;
+}

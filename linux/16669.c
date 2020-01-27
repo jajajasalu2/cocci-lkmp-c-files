@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct miscdevice cocci_id/* drivers/s390/cio/chsc_sch.c 964 */;
+	const struct file_operations cocci_id/* drivers/s390/cio/chsc_sch.c 955 */;
+	struct inode *cocci_id/* drivers/s390/cio/chsc_sch.c 916 */;
+	struct file *cocci_id/* drivers/s390/cio/chsc_sch.c 916 */;
+	atomic_t cocci_id/* drivers/s390/cio/chsc_sch.c 914 */;
+	unsigned long cocci_id/* drivers/s390/cio/chsc_sch.c 813 */;
+	struct chsc_cpd_info *cocci_id/* drivers/s390/cio/chsc_sch.c 790 */;
+	struct chsc_scpd *cocci_id/* drivers/s390/cio/chsc_sch.c 789 */;
+	void __user *cocci_id/* drivers/s390/cio/chsc_sch.c 787 */;
+	struct irb *cocci_id/* drivers/s390/cio/chsc_sch.c 57 */;
+	struct chsc_private *cocci_id/* drivers/s390/cio/chsc_sch.c 55 */;
+	void *cocci_id/* drivers/s390/cio/chsc_sch.c 44 */;
+	int cocci_id/* drivers/s390/cio/chsc_sch.c 44 */;
+	void cocci_id/* drivers/s390/cio/chsc_sch.c 44 */;
+	struct chsc_sync_area *cocci_id/* drivers/s390/cio/chsc_sch.c 427 */;
+	char cocci_id/* drivers/s390/cio/chsc_sch.c 405 */[13];
+	char cocci_id/* drivers/s390/cio/chsc_sch.c 325 */[10];
+	struct chsc_async_area *cocci_id/* drivers/s390/cio/chsc_sch.c 323 */;
+	debug_info_t *cocci_id/* drivers/s390/cio/chsc_sch.c 30 */;
+	struct chsc_request *cocci_id/* drivers/s390/cio/chsc_sch.c 297 */;
+	uint16_t *cocci_id/* drivers/s390/cio/chsc_sch.c 292 */;
+	struct device *cocci_id/* drivers/s390/cio/chsc_sch.c 215 */;
+	struct subchannel *cocci_id/* drivers/s390/cio/chsc_sch.c 213 */;
+	const void *cocci_id/* drivers/s390/cio/chsc_sch.c 206 */;
+	long cocci_id/* drivers/s390/cio/chsc_sch.c 172 */;
+	int __init cocci_id/* drivers/s390/cio/chsc_sch.c 170 */;
+	struct css_driver cocci_id/* drivers/s390/cio/chsc_sch.c 154 */;
+	struct css_device_id cocci_id/* drivers/s390/cio/chsc_sch.c 148 */[];
+	struct schib cocci_id/* drivers/s390/cio/chsc_sch.c 126 */;
+	void __exit cocci_id/* drivers/s390/cio/chsc_sch.c 1003 */;
+}

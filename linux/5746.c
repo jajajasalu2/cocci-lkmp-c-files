@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	u16 cocci_id/* drivers/clocksource/samsung_pwm_timer.c 82 */;
+	struct samsung_pwm_clocksource cocci_id/* drivers/clocksource/samsung_pwm_timer.c 80 */;
+	struct samsung_pwm_clocksource {
+		void __iomem *base;
+		void __iomem *source_reg;
+		unsigned int irq[SAMSUNG_PWM_NUM];
+		struct samsung_pwm_variant variant;
+		struct clk *timerclk;
+		unsigned int event_id;
+		unsigned int source_id;
+		unsigned int tcnt_max;
+		unsigned int tscaler_div;
+		unsigned int tdiv;
+		unsigned long clock_count_per_tick;
+	} cocci_id/* drivers/clocksource/samsung_pwm_timer.c 63 */;
+	struct device_node *cocci_id/* drivers/clocksource/samsung_pwm_timer.c 461 */;
+	const struct samsung_pwm_variant cocci_id/* drivers/clocksource/samsung_pwm_timer.c 454 */;
+	const __be32 *cocci_id/* drivers/clocksource/samsung_pwm_timer.c 423 */;
+	struct property *cocci_id/* drivers/clocksource/samsung_pwm_timer.c 422 */;
+	const struct samsung_pwm_variant *cocci_id/* drivers/clocksource/samsung_pwm_timer.c 420 */;
+	struct samsung_pwm_variant *cocci_id/* drivers/clocksource/samsung_pwm_timer.c 405 */;
+	unsigned int *cocci_id/* drivers/clocksource/samsung_pwm_timer.c 405 */;
+	void __iomem *cocci_id/* drivers/clocksource/samsung_pwm_timer.c 404 */;
+	int cocci_id/* drivers/clocksource/samsung_pwm_timer.c 380 */;
+	u8 cocci_id/* drivers/clocksource/samsung_pwm_timer.c 379 */;
+	int __init cocci_id/* drivers/clocksource/samsung_pwm_timer.c 377 */;
+	void cocci_id/* drivers/clocksource/samsung_pwm_timer.c 377 */;
+	struct clocksource cocci_id/* drivers/clocksource/samsung_pwm_timer.c 312 */;
+	u64 notrace cocci_id/* drivers/clocksource/samsung_pwm_timer.c 307 */;
+	struct clocksource *cocci_id/* drivers/clocksource/samsung_pwm_timer.c 307 */;
+	unsigned int cocci_id/* drivers/clocksource/samsung_pwm_timer.c 270 */;
+	unsigned long cocci_id/* drivers/clocksource/samsung_pwm_timer.c 268 */;
+	void __init cocci_id/* drivers/clocksource/samsung_pwm_timer.c 266 */;
+	struct irqaction cocci_id/* drivers/clocksource/samsung_pwm_timer.c 259 */;
+	u32 cocci_id/* drivers/clocksource/samsung_pwm_timer.c 250 */;
+	struct clock_event_device *cocci_id/* drivers/clocksource/samsung_pwm_timer.c 247 */;
+	irqreturn_t cocci_id/* drivers/clocksource/samsung_pwm_timer.c 245 */;
+	void *cocci_id/* drivers/clocksource/samsung_pwm_timer.c 245 */;
+	struct clock_event_device cocci_id/* drivers/clocksource/samsung_pwm_timer.c 232 */;
+	bool cocci_id/* drivers/clocksource/samsung_pwm_timer.c 160 */;
+}

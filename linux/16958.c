@@ -1,0 +1,98 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 923 */;
+	struct edt_reg_addr *cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 922 */;
+	u8 cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 805 */[EDT_NAME_LEN];
+	const struct file_operations cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 759 */;
+	struct edt_reg_addr {
+		int reg_threshold;
+		int reg_report_rate;
+		int reg_gain;
+		int reg_offset;
+		int reg_offset_x;
+		int reg_offset_y;
+		int reg_num_x;
+		int reg_num_y;
+	} cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 75 */;
+	u16 cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 732 */;
+	u8 *cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 691 */;
+	char cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 690 */[3];
+	struct i2c_client *cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 685 */;
+	loff_t *cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 682 */;
+	char __user *cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 682 */;
+	size_t cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 682 */;
+	struct file *cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 681 */;
+	ssize_t cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 681 */;
+	enum edt_ver{EDT_M06, EDT_M09, EDT_M12, EV_FT, GENERIC_FT,} cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 67 */;
+	u64 cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 658 */;
+	struct edt_ft5x06_ts_data *cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 651 */;
+	u64 *cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 649 */;
+	void *cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 649 */;
+	int cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 649 */;
+	const struct attribute_group cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 525 */;
+	struct attribute *cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 515 */[];
+	unsigned int cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 440 */;
+	const char *cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 433 */;
+	struct edt_ft5x06_attribute cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 371 */;
+	struct edt_ft5x06_attribute *cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 370 */;
+	char *cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 366 */;
+	struct device_attribute *cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 365 */;
+	struct device *cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 364 */;
+	struct edt_ft5x06_attribute {
+		struct device_attribute dattr;
+		size_t field_offset;
+		u8 limit_low;
+		u8 limit_high;
+		u8 addr_m06;
+		u8 addr_m09;
+		u8 addr_ev;
+	} cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 340 */;
+	u8 cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 298 */[2];
+	u8 cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 296 */;
+	u8 cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 269 */[4];
+	u8 cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 179 */[63];
+	irqreturn_t cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 174 */;
+	bool cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 155 */;
+	struct i2c_driver cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 1280 */;
+	struct i2c_msg cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 127 */[2];
+	const struct of_device_id cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 1268 */[];
+	long cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 1259 */;
+	const struct i2c_device_id cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 1258 */[];
+	const struct edt_i2c_chip_data cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 1250 */;
+	int __maybe_unused cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 1233 */;
+	struct edt_i2c_chip_data {
+		int max_support_points;
+	} cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 119 */;
+	char cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 1056 */[EDT_NAME_LEN];
+	unsigned long cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 1054 */;
+	struct input_dev *cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 1053 */;
+	const struct edt_i2c_chip_data *cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 1051 */;
+	const struct i2c_device_id *cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 1049 */;
+	void cocci_id/* drivers/input/touchscreen/edt-ft5x06.c 1041 */;
+	struct edt_ft5x06_ts_data {
+		struct i2c_client *client;
+		struct input_dev *input;
+		struct touchscreen_properties prop;
+		u16 num_x;
+		u16 num_y;
+		struct regulator *vcc;
+		struct gpio_desc *reset_gpio;
+		struct gpio_desc *wake_gpio;
+#if defined(CONFIG_DEBUG_FS)
+		struct dentry *debug_dir;
+		u8 *raw_buffer;
+		size_t raw_bufsize;
+#endif
+		struct mutex mutex;
+		bool factory_mode;
+		int threshold;
+		int gain;
+		int offset;
+		int offset_x;
+		int offset_y;
+		int report_rate;
+		int max_support_points;
+		char name[EDT_NAME_LEN];
+		struct edt_reg_addr reg_addr;
+		enum edt_ver version;
+	} cocci_id/*  1 */;
+}

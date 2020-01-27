@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct address_space *cocci_id/* fs/nilfs2/dir.c 96 */;
+	void cocci_id/* fs/nilfs2/dir.c 95 */;
+	const struct file_operations cocci_id/* fs/nilfs2/dir.c 669 */;
+	void *cocci_id/* fs/nilfs2/dir.c 586 */;
+	char *cocci_id/* fs/nilfs2/dir.c 450 */;
+	unsigned long cocci_id/* fs/nilfs2/dir.c 448 */;
+	struct nilfs_dir_entry *cocci_id/* fs/nilfs2/dir.c 447 */;
+	struct page *cocci_id/* fs/nilfs2/dir.c 446 */;
+	unsigned short cocci_id/* fs/nilfs2/dir.c 445 */;
+	unsigned int cocci_id/* fs/nilfs2/dir.c 443 */;
+	const unsigned char *cocci_id/* fs/nilfs2/dir.c 441 */;
+	struct inode *cocci_id/* fs/nilfs2/dir.c 438 */;
+	struct dentry *cocci_id/* fs/nilfs2/dir.c 438 */;
+	int cocci_id/* fs/nilfs2/dir.c 438 */;
+	ino_t cocci_id/* fs/nilfs2/dir.c 401 */;
+	struct page **cocci_id/* fs/nilfs2/dir.c 388 */;
+	unsigned long long cocci_id/* fs/nilfs2/dir.c 375 */;
+	__le16 cocci_id/* fs/nilfs2/dir.c 36 */;
+	struct nilfs_inode_info *cocci_id/* fs/nilfs2/dir.c 334 */;
+	const struct qstr *cocci_id/* fs/nilfs2/dir.c 325 */;
+	unsigned char cocci_id/* fs/nilfs2/dir.c 296 */;
+	struct file *cocci_id/* fs/nilfs2/dir.c 263 */;
+	struct dir_context *cocci_id/* fs/nilfs2/dir.c 263 */;
+	umode_t cocci_id/* fs/nilfs2/dir.c 258 */;
+	unsigned char cocci_id/* fs/nilfs2/dir.c 245 */[S_IFMT >> S_SHIFT];
+	unsigned char cocci_id/* fs/nilfs2/dir.c 232 */[NILFS_FT_MAX];
+	struct super_block *cocci_id/* fs/nilfs2/dir.c 119 */;
+	bool cocci_id/* fs/nilfs2/dir.c 116 */;
+	loff_t cocci_id/* fs/nilfs2/dir.c 100 */;
+}

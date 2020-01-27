@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct resource *cocci_id/* drivers/dax/device.c 66 */;
+	void __exit cocci_id/* drivers/dax/device.c 477 */;
+	void cocci_id/* drivers/dax/device.c 477 */;
+	int __init cocci_id/* drivers/dax/device.c 472 */;
+	struct dax_device_driver cocci_id/* drivers/dax/device.c 464 */;
+	struct cdev *cocci_id/* drivers/dax/device.c 420 */;
+	void *cocci_id/* drivers/dax/device.c 404 */;
+	const struct file_operations cocci_id/* drivers/dax/device.c 394 */;
+	struct dax_device *cocci_id/* drivers/dax/device.c 370 */;
+	struct inode *cocci_id/* drivers/dax/device.c 368 */;
+	const struct address_space_operations cocci_id/* drivers/dax/device.c 363 */;
+	struct file *cocci_id/* drivers/dax/device.c 329 */;
+	const struct vm_operations_struct cocci_id/* drivers/dax/device.c 299 */;
+	struct page *cocci_id/* drivers/dax/device.c 260 */;
+	pfn_t cocci_id/* drivers/dax/device.c 222 */;
+	enum page_entry_size cocci_id/* drivers/dax/device.c 216 */;
+	const char *cocci_id/* drivers/dax/device.c 18 */;
+	struct vm_area_struct *cocci_id/* drivers/dax/device.c 17 */;
+	int cocci_id/* drivers/dax/device.c 17 */;
+	unsigned int cocci_id/* drivers/dax/device.c 118 */;
+	pgoff_t cocci_id/* drivers/dax/device.c 117 */;
+	phys_addr_t cocci_id/* drivers/dax/device.c 116 */;
+	struct dax_region *cocci_id/* drivers/dax/device.c 115 */;
+	struct device *cocci_id/* drivers/dax/device.c 114 */;
+	unsigned long cocci_id/* drivers/dax/device.c 113 */;
+	pfn_t *cocci_id/* drivers/dax/device.c 111 */;
+	struct vm_fault *cocci_id/* drivers/dax/device.c 111 */;
+	vm_fault_t cocci_id/* drivers/dax/device.c 110 */;
+	struct dev_dax *cocci_id/* drivers/dax/device.c 110 */;
+}

@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	u8 *cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 925 */;
+	u8 cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 912 */;
+	u_long cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 717 */;
+	struct isac_hw *cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 715 */;
+	struct timer_list *cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 713 */;
+	void cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 712 */;
+	void __exit cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1629 */;
+	int __init cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1622 */;
+	struct channel_req *cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1531 */;
+	struct ipac_hw cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1530 */;
+	struct isac_hw cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1529 */;
+	struct dchannel cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1528 */;
+	struct dchannel *cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1528 */;
+	struct mISDNdevice cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1527 */;
+	struct mISDNdevice *cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1527 */;
+	struct ipac_hw *cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1497 */;
+	const char *cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1423 */[];
+	struct hscx_hw cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1389 */;
+	struct hscx_hw *cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1389 */;
+	struct bchannel cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1388 */;
+	u32 cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1386 */;
+	struct mISDNchannel *cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1386 */;
+	void *cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1386 */;
+	struct mISDN_ctrl_req *cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1380 */;
+	struct bchannel *cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1380 */;
+	int cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1379 */;
+	unsigned long cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1337 */;
+	struct mISDNhead *cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1336 */;
+	struct sk_buff *cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1331 */;
+	char cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 128 */[MISDN_MAX_IDLEN + 16];
+	irqreturn_t cocci_id/* drivers/isdn/hardware/mISDN/mISDNipac.c 1147 */;
+}

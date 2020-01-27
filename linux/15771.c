@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct xlr_net_data *cocci_id/* drivers/staging/netlogic/xlr_net.c 978 */;
+	struct xlr_net_priv cocci_id/* drivers/staging/netlogic/xlr_net.c 967 */;
+	struct resource *cocci_id/* drivers/staging/netlogic/xlr_net.c 949 */;
+	struct platform_device *cocci_id/* drivers/staging/netlogic/xlr_net.c 911 */;
+	struct sk_buff *cocci_id/* drivers/staging/netlogic/xlr_net.c 81 */;
+	unsigned char *cocci_id/* drivers/staging/netlogic/xlr_net.c 79 */;
+	void cocci_id/* drivers/staging/netlogic/xlr_net.c 79 */;
+	struct mii_bus *cocci_id/* drivers/staging/netlogic/xlr_net.c 675 */;
+	u16 cocci_id/* drivers/staging/netlogic/xlr_net.c 664 */;
+	u64 cocci_id/* drivers/staging/netlogic/xlr_net.c 62 */;
+	unsigned long cocci_id/* drivers/staging/netlogic/xlr_net.c 59 */;
+	struct nlm_fmn_msg cocci_id/* drivers/staging/netlogic/xlr_net.c 57 */;
+	u32 cocci_id/* drivers/staging/netlogic/xlr_net.c 569 */;
+	struct xlr_net_priv *cocci_id/* drivers/staging/netlogic/xlr_net.c 55 */;
+	void *cocci_id/* drivers/staging/netlogic/xlr_net.c 55 */;
+	int cocci_id/* drivers/staging/netlogic/xlr_net.c 55 */;
+	int cocci_id/* drivers/staging/netlogic/xlr_net.c 522 */[32];
+	int *cocci_id/* drivers/staging/netlogic/xlr_net.c 482 */;
+	struct xlr_fmn_info *cocci_id/* drivers/staging/netlogic/xlr_net.c 479 */;
+	u32 __iomem *cocci_id/* drivers/staging/netlogic/xlr_net.c 40 */;
+	unsigned int cocci_id/* drivers/staging/netlogic/xlr_net.c 40 */;
+	u32 *cocci_id/* drivers/staging/netlogic/xlr_net.c 382 */;
+	const struct net_device_ops cocci_id/* drivers/staging/netlogic/xlr_net.c 365 */;
+	struct rtnl_link_stats64 *cocci_id/* drivers/staging/netlogic/xlr_net.c 320 */;
+	netdev_tx_t cocci_id/* drivers/staging/netlogic/xlr_net.c 246 */;
+	struct nlm_fmn_msg *cocci_id/* drivers/staging/netlogic/xlr_net.c 227 */;
+	const struct ethtool_ops cocci_id/* drivers/staging/netlogic/xlr_net.c 171 */;
+	const struct ethtool_link_ksettings *cocci_id/* drivers/staging/netlogic/xlr_net.c 161 */;
+	struct phy_device *cocci_id/* drivers/staging/netlogic/xlr_net.c 150 */;
+	struct ethtool_link_ksettings *cocci_id/* drivers/staging/netlogic/xlr_net.c 147 */;
+	struct net_device *cocci_id/* drivers/staging/netlogic/xlr_net.c 146 */;
+	unsigned long *cocci_id/* drivers/staging/netlogic/xlr_net.c 111 */;
+	struct platform_driver cocci_id/* drivers/staging/netlogic/xlr_net.c 1067 */;
+	struct xlr_adapter *cocci_id/* drivers/staging/netlogic/xlr_net.c 105 */;
+}

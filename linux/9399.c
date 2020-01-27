@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct ieee80211_hdr *cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 89 */;
+	struct mt76_txq *cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 87 */;
+	const u8 cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 617 */[];
+	unsigned long cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 549 */;
+	struct mt76_sw_queue *cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 519 */;
+	enum mt76_txq_id cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 517 */;
+	struct ieee80211_vif *cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 498 */;
+	struct ieee80211_tx_rate cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 390 */;
+	struct mt76_txwi_cache cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 36 */;
+	struct ieee80211_txq *cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 345 */;
+	struct mt76_queue *cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 340 */;
+	enum ieee80211_frame_release_type cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 335 */;
+	u16 cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 334 */;
+	struct ieee80211_hw *cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 333 */;
+	struct mt76_wcid *cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 320 */;
+	bool cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 318 */;
+	struct ieee80211_sta *cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 317 */;
+	struct mt76_dev *cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 30 */;
+	struct mt76_txwi_cache *cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 29 */;
+	struct sk_buff_head cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 234 */;
+	int cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 14 */;
+	u8 *cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 13 */;
+	struct mt76_tx_cb *cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 127 */;
+	struct ieee80211_tx_info *cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 126 */;
+	struct sk_buff_head *cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 124 */;
+	u8 cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 123 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 123 */;
+	void cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 122 */;
+	dma_addr_t cocci_id/* drivers/net/wireless/mediatek/mt76/tx.c 12 */;
+}

@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	__le16 *cocci_id/* net/nfc/nci/ntf.c 97 */;
+	struct nci_core_intf_error_ntf *cocci_id/* net/nfc/nci/ntf.c 82 */;
+	__u16 cocci_id/* net/nfc/nci/ntf.c 738 */;
+	struct nci_nfcee_discover_ntf *cocci_id/* net/nfc/nci/ntf.c 714 */;
+	u8 cocci_id/* net/nfc/nci/ntf.c 713 */;
+	struct nci_rf_deactivate_ntf *cocci_id/* net/nfc/nci/ntf.c 670 */;
+	struct nci_rf_intf_activated_ntf cocci_id/* net/nfc/nci/ntf.c 508 */;
+	struct activation_params_listen_nfc_dep *cocci_id/* net/nfc/nci/ntf.c 407 */;
+	struct activation_params_poll_nfc_dep *cocci_id/* net/nfc/nci/ntf.c 406 */;
+	struct activation_params_nfcb_poll_iso_dep *cocci_id/* net/nfc/nci/ntf.c 371 */;
+	struct activation_params_nfca_poll_iso_dep *cocci_id/* net/nfc/nci/ntf.c 370 */;
+	__u8 *cocci_id/* net/nfc/nci/ntf.c 368 */;
+	struct nci_rf_intf_activated_ntf *cocci_id/* net/nfc/nci/ntf.c 368 */;
+	struct nci_conn_info *cocci_id/* net/nfc/nci/ntf.c 34 */;
+	struct nci_core_conn_credit_ntf *cocci_id/* net/nfc/nci/ntf.c 33 */;
+	struct sk_buff *cocci_id/* net/nfc/nci/ntf.c 31 */;
+	bool cocci_id/* net/nfc/nci/ntf.c 309 */;
+	struct nci_rf_discover_ntf cocci_id/* net/nfc/nci/ntf.c 307 */;
+	struct nfc_target cocci_id/* net/nfc/nci/ntf.c 299 */;
+	struct nci_rf_discover_ntf *cocci_id/* net/nfc/nci/ntf.c 260 */;
+	void cocci_id/* net/nfc/nci/ntf.c 259 */;
+	__u32 cocci_id/* net/nfc/nci/ntf.c 190 */;
+	struct rf_tech_specific_params_nfcv_poll *cocci_id/* net/nfc/nci/ntf.c 189 */;
+	struct rf_tech_specific_params_nfcf_poll *cocci_id/* net/nfc/nci/ntf.c 188 */;
+	struct rf_tech_specific_params_nfcb_poll *cocci_id/* net/nfc/nci/ntf.c 187 */;
+	struct rf_tech_specific_params_nfca_poll *cocci_id/* net/nfc/nci/ntf.c 186 */;
+	void *cocci_id/* net/nfc/nci/ntf.c 184 */;
+	__u8 cocci_id/* net/nfc/nci/ntf.c 182 */;
+	struct nfc_target *cocci_id/* net/nfc/nci/ntf.c 181 */;
+	struct nci_dev *cocci_id/* net/nfc/nci/ntf.c 180 */;
+	int cocci_id/* net/nfc/nci/ntf.c 180 */;
+	struct rf_tech_specific_params_nfcf_listen *cocci_id/* net/nfc/nci/ntf.c 162 */;
+}

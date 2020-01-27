@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct ecryptfs_daemon *cocci_id/* fs/ecryptfs/miscdev.c 66 */;
+	struct inode *cocci_id/* fs/ecryptfs/miscdev.c 64 */;
+	struct file *cocci_id/* fs/ecryptfs/miscdev.c 64 */;
+	void cocci_id/* fs/ecryptfs/miscdev.c 490 */;
+	int cocci_id/* fs/ecryptfs/miscdev.c 473 */;
+	int __init cocci_id/* fs/ecryptfs/miscdev.c 471 */;
+	struct miscdevice cocci_id/* fs/ecryptfs/miscdev.c 455 */;
+	const struct file_operations cocci_id/* fs/ecryptfs/miscdev.c 445 */;
+	struct ecryptfs_message cocci_id/* fs/ecryptfs/miscdev.c 406 */;
+	unsigned char cocci_id/* fs/ecryptfs/miscdev.c 359 */[ECRYPTFS_MAX_PKT_LEN_SIZE];
+	__be32 cocci_id/* fs/ecryptfs/miscdev.c 355 */;
+	const char __user *cocci_id/* fs/ecryptfs/miscdev.c 352 */;
+	struct ecryptfs_message *cocci_id/* fs/ecryptfs/miscdev.c 324 */;
+	u32 cocci_id/* fs/ecryptfs/miscdev.c 322 */;
+	char *cocci_id/* fs/ecryptfs/miscdev.c 321 */;
+	poll_table *cocci_id/* fs/ecryptfs/miscdev.c 29 */;
+	__be32 __user *cocci_id/* fs/ecryptfs/miscdev.c 286 */;
+	__poll_t cocci_id/* fs/ecryptfs/miscdev.c 28 */;
+	struct ecryptfs_msg_ctx cocci_id/* fs/ecryptfs/miscdev.c 256 */;
+	char cocci_id/* fs/ecryptfs/miscdev.c 216 */[ECRYPTFS_MAX_PKT_LEN_SIZE];
+	struct ecryptfs_msg_ctx *cocci_id/* fs/ecryptfs/miscdev.c 214 */;
+	loff_t *cocci_id/* fs/ecryptfs/miscdev.c 211 */;
+	char __user *cocci_id/* fs/ecryptfs/miscdev.c 210 */;
+	size_t cocci_id/* fs/ecryptfs/miscdev.c 210 */;
+	ssize_t cocci_id/* fs/ecryptfs/miscdev.c 209 */;
+	atomic_t cocci_id/* fs/ecryptfs/miscdev.c 19 */;
+	u16 cocci_id/* fs/ecryptfs/miscdev.c 148 */;
+	u8 cocci_id/* fs/ecryptfs/miscdev.c 147 */;
+}

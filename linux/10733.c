@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	const unsigned int cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 86 */[];
+	const struct intel_memory_region_ops cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 605 */;
+	void *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 557 */;
+	struct page *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 556 */;
+	typeof(size) cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 555 */;
+	const void *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 539 */;
+	gfp_t cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 473 */;
+	struct address_space *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 471 */;
+	struct lock_class_key cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 468 */;
+	unsigned int cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 466 */;
+	struct intel_memory_region *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 464 */;
+	struct file *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 447 */;
+	unsigned long cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 446 */;
+	resource_size_t cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 444 */;
+	struct drm_gem_object *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 443 */;
+	struct drm_i915_private *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 442 */;
+	int cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 442 */;
+	const struct drm_i915_gem_object_ops cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 428 */;
+	struct pagevec cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 42 */;
+	char cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 375 */;
+	struct sgt_iter cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 37 */;
+	struct scatterlist *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 36 */;
+	u64 cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 337 */;
+	char __user *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 336 */;
+	const struct drm_i915_gem_pwrite *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 333 */;
+	const unsigned long cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 32 */;
+	bool cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 281 */;
+	struct sg_table *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 280 */;
+	struct drm_i915_gem_object *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 279 */;
+	void cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 278 */;
+	struct writeback_control cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 237 */;
+	struct pagevec *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_shmem.c 21 */;
+}

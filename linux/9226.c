@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	struct fman_mac_params *cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 98 */;
+	struct platform_driver cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 877 */;
+	enum fman_mac_exceptions cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 78 */;
+	void *cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 78 */;
+	struct mac_address {
+		u8 addr[ETH_ALEN];
+		struct list_head list;
+	} cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 73 */;
+	phy_interface_t cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 611 */;
+	const u8 *cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 608 */;
+	struct resource cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 606 */;
+	struct device_node *cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 603 */;
+	struct device *cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 602 */;
+	const struct of_device_id cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 591 */[];
+	struct mac_priv_s {
+		struct device *dev;
+		void __iomem *vaddr;
+		u8 cell_index;
+		struct fman *fman;
+		struct device_node *internal_phy_node;
+		struct list_head mc_addr_list;
+		struct platform_device *eth_dev;
+		struct fixed_phy_status *fixed_link;
+		u16 speed;
+		u16 max_speed;
+		int (*enable)(struct fman_mac *mac_dev, enum comm_mode mode);
+		int (*disable)(struct fman_mac *mac_dev, enum comm_mode mode);
+	} cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 56 */;
+	struct mac_priv_s *cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 551 */;
+	struct dpaa_eth_data cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 550 */;
+	struct platform_device *cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 546 */;
+	const u16 cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 531 */[];
+	int cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 425 */;
+	bool cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 424 */;
+	struct fman_mac *cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 423 */;
+	struct phy_device *cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 422 */;
+	struct mac_device *cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 420 */;
+	void cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 420 */;
+	u8 cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 375 */;
+	u16 cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 374 */;
+	bool *cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 370 */;
+	enet_addr_t *cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 288 */;
+	struct netdev_hw_addr *cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 286 */;
+	struct mac_address *cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 285 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 282 */;
+	u32 cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 168 */;
+	struct fman_mac_params cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 167 */;
+	typeof(params->base_addr) cocci_id/* drivers/net/ethernet/freescale/fman/mac.c 102 */;
+}

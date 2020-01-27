@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	struct ina2xx_config {
+		u16 config_default;
+		int calibration_value;
+		int registers;
+		int shunt_div;
+		int bus_voltage_shift;
+		int bus_voltage_lsb;
+		int power_lsb_factor;
+	} cocci_id/* drivers/hwmon/ina2xx.c 93 */;
+	enum ina2xx_ids{ina219, ina226,} cocci_id/* drivers/hwmon/ina2xx.c 91 */;
+	struct regmap_config cocci_id/* drivers/hwmon/ina2xx.c 86 */;
+	struct i2c_driver cocci_id/* drivers/hwmon/ina2xx.c 532 */;
+	void *cocci_id/* drivers/hwmon/ina2xx.c 510 */;
+	const struct of_device_id __maybe_unused cocci_id/* drivers/hwmon/ina2xx.c 507 */[];
+	const struct i2c_device_id cocci_id/* drivers/hwmon/ina2xx.c 497 */[];
+	struct ina2xx_platform_data *cocci_id/* drivers/hwmon/ina2xx.c 458 */;
+	enum ina2xx_ids cocci_id/* drivers/hwmon/ina2xx.c 442 */;
+	u32 cocci_id/* drivers/hwmon/ina2xx.c 440 */;
+	const struct i2c_device_id *cocci_id/* drivers/hwmon/ina2xx.c 435 */;
+	struct i2c_client *cocci_id/* drivers/hwmon/ina2xx.c 434 */;
+	const struct attribute_group cocci_id/* drivers/hwmon/ina2xx.c 430 */;
+	struct attribute *cocci_id/* drivers/hwmon/ina2xx.c 425 */[];
+	unsigned int cocci_id/* drivers/hwmon/ina2xx.c 384 */;
+	int cocci_id/* drivers/hwmon/ina2xx.c 383 */;
+	struct ina2xx_data *cocci_id/* drivers/hwmon/ina2xx.c 382 */;
+	struct device_attribute *cocci_id/* drivers/hwmon/ina2xx.c 380 */;
+	char *cocci_id/* drivers/hwmon/ina2xx.c 380 */;
+	struct device *cocci_id/* drivers/hwmon/ina2xx.c 379 */;
+	ssize_t cocci_id/* drivers/hwmon/ina2xx.c 379 */;
+	unsigned long cocci_id/* drivers/hwmon/ina2xx.c 360 */;
+	const char *cocci_id/* drivers/hwmon/ina2xx.c 357 */;
+	size_t cocci_id/* drivers/hwmon/ina2xx.c 357 */;
+	long cocci_id/* drivers/hwmon/ina2xx.c 312 */;
+	struct sensor_device_attribute *cocci_id/* drivers/hwmon/ina2xx.c 293 */;
+	s16 cocci_id/* drivers/hwmon/ina2xx.c 262 */;
+	u8 cocci_id/* drivers/hwmon/ina2xx.c 254 */;
+	unsigned int *cocci_id/* drivers/hwmon/ina2xx.c 196 */;
+	u16 cocci_id/* drivers/hwmon/ina2xx.c 159 */;
+	const int cocci_id/* drivers/hwmon/ina2xx.c 142 */[];
+	const struct ina2xx_config cocci_id/* drivers/hwmon/ina2xx.c 115 */[];
+	struct ina2xx_data {
+		const struct ina2xx_config *config;
+		long rshunt;
+		long current_lsb_uA;
+		long power_lsb_uW;
+		struct mutex config_lock;
+		struct regmap *regmap;
+		const struct attribute_group *groups[INA2XX_MAX_ATTRIBUTE_GROUPS];
+	} cocci_id/* drivers/hwmon/ina2xx.c 103 */;
+}

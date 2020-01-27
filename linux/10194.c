@@ -1,0 +1,68 @@
+cocci_test_suite() {
+	struct channel_req *cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 987 */;
+	struct mISDN_ctrl_req *cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 981 */;
+	struct bchannel *cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 981 */;
+	unsigned long cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 938 */;
+	struct mISDNhead *cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 937 */;
+	struct sk_buff *cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 931 */;
+	const struct kernel_param *cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 88 */;
+	const char *cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 88 */;
+	u_long cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 807 */;
+	struct timer_list *cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 802 */;
+	irqreturn_t cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 766 */;
+	u32 cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 76 */;
+	int cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 648 */;
+	void cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 647 */;
+	struct w6692_hw {
+		struct list_head list;
+		struct pci_dev *pdev;
+		char name[MISDN_MAX_IDLEN];
+		u32 irq;
+		u32 irqcnt;
+		u32 addr;
+		u32 fmask;
+		int subtype;
+		spinlock_t lock;
+		u8 imask;
+		u8 pctl;
+		u8 xaddr;
+		u8 xdata;
+		u8 state;
+		struct w6692_ch bc[2];
+		struct dchannel dch;
+		char log[64];
+	} cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 51 */;
+	u8 *cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 448 */;
+	struct w6692_ch {
+		struct bchannel bch;
+		u32 addr;
+		struct timer_list timer;
+		u8 b_mode;
+	} cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 44 */;
+	const struct w6692map cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 35 */[];
+	struct w6692map {
+		u_int subtype;
+		char *name;
+	} cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 30 */;
+	struct dchannel *cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 244 */;
+	enum{W6692_ASUS, W6692_WINBOND, W6692_USR,} cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 23 */;
+	const char *cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 149 */[];
+	void __exit cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 1410 */;
+	int __init cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 1400 */;
+	struct pci_driver cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 1393 */;
+	const struct pci_device_id cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 1381 */[];
+	struct w6692map *cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 1342 */;
+	const struct pci_device_id *cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 1338 */;
+	struct pci_dev *cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 1338 */;
+	struct w6692_ch *cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 126 */;
+	struct w6692_hw cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 1180 */;
+	struct dchannel cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 1179 */;
+	struct mISDNdevice cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 1178 */;
+	struct mISDNdevice *cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 1178 */;
+	void *cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 1158 */;
+	struct w6692_hw *cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 114 */;
+	u8 cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 113 */;
+	struct w6692_ch cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 1027 */;
+	struct bchannel cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 1026 */;
+	struct mISDNchannel *cocci_id/* drivers/isdn/hardware/mISDN/w6692.c 1024 */;
+}

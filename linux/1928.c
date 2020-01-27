@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	u16 cocci_id/* drivers/iio/chemical/sps30.c 90 */;
+	u8 *cocci_id/* drivers/iio/chemical/sps30.c 90 */;
+	struct sps30_state {
+		struct i2c_client *client;
+		struct mutex lock;
+		int state;
+	} cocci_id/* drivers/iio/chemical/sps30.c 55 */;
+	struct i2c_driver cocci_id/* drivers/iio/chemical/sps30.c 536 */;
+	const struct of_device_id cocci_id/* drivers/iio/chemical/sps30.c 530 */[];
+	const struct i2c_device_id cocci_id/* drivers/iio/chemical/sps30.c 524 */[];
+	enum{RESET, MEASURING,} cocci_id/* drivers/iio/chemical/sps30.c 50 */;
+	u8 cocci_id/* drivers/iio/chemical/sps30.c 473 */[32];
+	struct i2c_client *cocci_id/* drivers/iio/chemical/sps30.c 469 */;
+	const unsigned long cocci_id/* drivers/iio/chemical/sps30.c 467 */[];
+	void *cocci_id/* drivers/iio/chemical/sps30.c 460 */;
+	void cocci_id/* drivers/iio/chemical/sps30.c 460 */;
+	const struct iio_chan_spec cocci_id/* drivers/iio/chemical/sps30.c 452 */[];
+	const struct iio_info cocci_id/* drivers/iio/chemical/sps30.c 431 */;
+	enum{PM1, PM2P5, PM4, PM10,} cocci_id/* drivers/iio/chemical/sps30.c 43 */;
+	const struct attribute_group cocci_id/* drivers/iio/chemical/sps30.c 427 */;
+	struct attribute *cocci_id/* drivers/iio/chemical/sps30.c 420 */[];
+	char *cocci_id/* drivers/iio/chemical/sps30.c 409 */;
+	struct device_attribute *cocci_id/* drivers/iio/chemical/sps30.c 408 */;
+	struct device *cocci_id/* drivers/iio/chemical/sps30.c 407 */;
+	ssize_t cocci_id/* drivers/iio/chemical/sps30.c 407 */;
+	const char *cocci_id/* drivers/iio/chemical/sps30.c 368 */;
+	size_t cocci_id/* drivers/iio/chemical/sps30.c 368 */;
+	int cocci_id/* drivers/iio/chemical/sps30.c 355 */;
+	u8 cocci_id/* drivers/iio/chemical/sps30.c 354 */[4];
+	struct sps30_state *cocci_id/* drivers/iio/chemical/sps30.c 353 */;
+	struct iio_dev *cocci_id/* drivers/iio/chemical/sps30.c 352 */;
+	int cocci_id/* drivers/iio/chemical/sps30.c 254 */[4];
+	int *cocci_id/* drivers/iio/chemical/sps30.c 251 */;
+	long cocci_id/* drivers/iio/chemical/sps30.c 251 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/chemical/sps30.c 250 */;
+	s32 cocci_id/* drivers/iio/chemical/sps30.c 233 */[4 + 2];
+	struct iio_poll_func *cocci_id/* drivers/iio/chemical/sps30.c 229 */;
+	irqreturn_t cocci_id/* drivers/iio/chemical/sps30.c 227 */;
+	u8 cocci_id/* drivers/iio/chemical/sps30.c 192 */[16];
+	s32 *cocci_id/* drivers/iio/chemical/sps30.c 189 */;
+	s32 cocci_id/* drivers/iio/chemical/sps30.c 160 */;
+	const u8 *cocci_id/* drivers/iio/chemical/sps30.c 160 */;
+	u8 cocci_id/* drivers/iio/chemical/sps30.c 120 */;
+	u8 cocci_id/* drivers/iio/chemical/sps30.c 103 */[SPS30_MAX_READ_SIZE];
+}

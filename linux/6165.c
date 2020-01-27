@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	u8 *cocci_id/* drivers/mfd/max14577.c 62 */;
+	const struct maxim_charger_current *cocci_id/* drivers/mfd/max14577.c 61 */;
+	void __exit cocci_id/* drivers/mfd/max14577.c 556 */;
+	void cocci_id/* drivers/mfd/max14577.c 556 */;
+	int __init cocci_id/* drivers/mfd/max14577.c 533 */;
+	struct i2c_driver cocci_id/* drivers/mfd/max14577.c 522 */;
+	const struct i2c_device_id cocci_id/* drivers/mfd/max14577.c 478 */[];
+	enum maxim_device_type cocci_id/* drivers/mfd/max14577.c 409 */;
+	const struct of_device_id *cocci_id/* drivers/mfd/max14577.c 404 */;
+	unsigned int cocci_id/* drivers/mfd/max14577.c 370 */;
+	const struct mfd_cell *cocci_id/* drivers/mfd/max14577.c 369 */;
+	const struct regmap_irq_chip *cocci_id/* drivers/mfd/max14577.c 368 */;
+	struct device_node *cocci_id/* drivers/mfd/max14577.c 366 */;
+	struct max14577_platform_data *cocci_id/* drivers/mfd/max14577.c 365 */;
+	struct max14577 *cocci_id/* drivers/mfd/max14577.c 364 */;
+	const struct i2c_device_id *cocci_id/* drivers/mfd/max14577.c 362 */;
+	struct i2c_client *cocci_id/* drivers/mfd/max14577.c 361 */;
+	int cocci_id/* drivers/mfd/max14577.c 361 */;
+	u8 cocci_id/* drivers/mfd/max14577.c 266 */;
+	const struct maxim_charger_current cocci_id/* drivers/mfd/max14577.c 23 */[];
+	const struct regmap_irq_chip cocci_id/* drivers/mfd/max14577.c 209 */;
+	const struct regmap_irq cocci_id/* drivers/mfd/max14577.c 191 */[];
+	const struct regmap_config cocci_id/* drivers/mfd/max14577.c 177 */;
+	bool cocci_id/* drivers/mfd/max14577.c 146 */;
+	struct device *cocci_id/* drivers/mfd/max14577.c 146 */;
+	void *cocci_id/* drivers/mfd/max14577.c 137 */;
+	const struct of_device_id cocci_id/* drivers/mfd/max14577.c 134 */[];
+	const struct mfd_cell cocci_id/* drivers/mfd/max14577.c 100 */[];
+}

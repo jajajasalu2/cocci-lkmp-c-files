@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/staging/nvec/nvec.c 942 */;
+	const struct of_device_id cocci_id/* drivers/staging/nvec/nvec.c 936 */[];
+	struct device *cocci_id/* drivers/staging/nvec/nvec.c 921 */;
+	const struct mfd_cell cocci_id/* drivers/staging/nvec/nvec.c 78 */[];
+	void __iomem *cocci_id/* drivers/staging/nvec/nvec.c 770 */;
+	struct clk *cocci_id/* drivers/staging/nvec/nvec.c 766 */;
+	struct platform_device *cocci_id/* drivers/staging/nvec/nvec.c 763 */;
+	char cocci_id/* drivers/staging/nvec/nvec.c 757 */[];
+	struct nvec_chip *cocci_id/* drivers/staging/nvec/nvec.c 747 */;
+	void cocci_id/* drivers/staging/nvec/nvec.c 747 */;
+	uint cocci_id/* drivers/staging/nvec/nvec.c 660 */;
+	enum nvec_sleep_subcmds{GLOBAL_EVENTS, AP_PWR_DOWN, AP_SUSPEND,} cocci_id/* drivers/staging/nvec/nvec.c 65 */;
+	enum nvec_msg_category{NVEC_MSG_RX, NVEC_MSG_TX,} cocci_id/* drivers/staging/nvec/nvec.c 60 */;
+	const unsigned long cocci_id/* drivers/staging/nvec/nvec.c 581 */;
+	unsigned char cocci_id/* drivers/staging/nvec/nvec.c 580 */;
+	unsigned int cocci_id/* drivers/staging/nvec/nvec.c 579 */;
+	irqreturn_t cocci_id/* drivers/staging/nvec/nvec.c 576 */;
+	void *cocci_id/* drivers/staging/nvec/nvec.c 576 */;
+	bool cocci_id/* drivers/staging/nvec/nvec.c 530 */;
+	struct nvec_msg cocci_id/* drivers/staging/nvec/nvec.c 445 */;
+	struct nvec_msg *cocci_id/* drivers/staging/nvec/nvec.c 441 */;
+	unsigned long cocci_id/* drivers/staging/nvec/nvec.c 440 */;
+	struct nvec_chip cocci_id/* drivers/staging/nvec/nvec.c 439 */;
+	struct work_struct *cocci_id/* drivers/staging/nvec/nvec.c 437 */;
+	long cocci_id/* drivers/staging/nvec/nvec.c 377 */;
+	u32 cocci_id/* drivers/staging/nvec/nvec.c 357 */;
+	char *cocci_id/* drivers/staging/nvec/nvec.c 357 */;
+	unsigned char cocci_id/* drivers/staging/nvec/nvec.c 339 */[];
+	struct nvec_msg **cocci_id/* drivers/staging/nvec/nvec.c 298 */;
+	short cocci_id/* drivers/staging/nvec/nvec.c 255 */;
+	const unsigned char *cocci_id/* drivers/staging/nvec/nvec.c 254 */;
+	int cocci_id/* drivers/staging/nvec/nvec.c 235 */;
+	size_t cocci_id/* drivers/staging/nvec/nvec.c 213 */;
+	enum nvec_msg_category cocci_id/* drivers/staging/nvec/nvec.c 166 */;
+	unsigned char *cocci_id/* drivers/staging/nvec/nvec.c 139 */;
+	struct notifier_block *cocci_id/* drivers/staging/nvec/nvec.c 107 */;
+}

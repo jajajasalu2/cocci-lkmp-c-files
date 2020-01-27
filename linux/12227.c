@@ -1,0 +1,60 @@
+cocci_test_suite() {
+	const struct zx_tvenc_mode cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 96 */;
+	struct platform_driver cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 397 */;
+	const struct of_device_id cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 391 */[];
+	struct zx_tvenc_mode {
+		struct drm_display_mode mode;
+		u32 video_info;
+		u32 video_res;
+		u32 field1_param;
+		u32 field2_param;
+		u32 burst_line_odd1;
+		u32 burst_line_even1;
+		u32 burst_line_odd2;
+		u32 burst_line_even2;
+		u32 line_timing_param;
+		u32 weight_value;
+		u32 blank_black_level;
+		u32 burst_level;
+		u32 control_param;
+		u32 sub_carrier_phase1;
+		u32 phase_line_incr_cvbs;
+	} cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 39 */;
+	const struct component_ops cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 375 */;
+	struct zx_tvenc cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 37 */;
+	struct zx_tvenc *cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 336 */;
+	struct resource *cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 335 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 334 */;
+	struct platform_device *cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 333 */;
+	struct device *cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 331 */;
+	void *cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 331 */;
+	int cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 331 */;
+	struct regmap *cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 308 */;
+	struct of_phandle_args cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 307 */;
+	struct zx_tvenc {
+		struct drm_connector connector;
+		struct drm_encoder encoder;
+		struct device *dev;
+		void __iomem *mmio;
+		const struct vou_inf *inf;
+		struct zx_tvenc_pwrctrl pwrctrl;
+	} cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 28 */;
+	const struct drm_connector_funcs cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 269 */;
+	struct drm_connector_helper_funcs cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 264 */;
+	enum drm_mode_status cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 248 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 233 */;
+	const struct zx_tvenc_mode *cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 232 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 225 */;
+	const struct drm_encoder_funcs cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 221 */;
+	struct zx_tvenc_pwrctrl {
+		struct regmap *regmap;
+		u32 reg;
+		u32 mask;
+	} cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 22 */;
+	const struct drm_encoder_helper_funcs cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 215 */;
+	struct zx_tvenc_pwrctrl *cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 205 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 202 */;
+	void cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 202 */;
+	struct vou_div_config cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 153 */[];
+	const struct zx_tvenc_mode *cocci_id/* drivers/gpu/drm/zte/zx_tvenc.c 127 */[];
+}

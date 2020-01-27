@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	void *cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 994 */;
+	struct kvm_vcpu *cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 967 */;
+	struct kvm_memory_slot **cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 893 */;
+	unsigned long *cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 82 */;
+	long cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 82 */;
+	struct revmap_entry *cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 81 */;
+	void cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 81 */;
+	long int cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 573 */;
+	unsigned long cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 572 */[4];
+	struct kvm *cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 43 */;
+	int cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 43 */;
+	unsigned long cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 429 */;
+	u32 *cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 424 */;
+	pte_t cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 263 */;
+	unsigned int cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 211 */;
+	pte_t *cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 210 */;
+	unsigned cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 207 */;
+	struct kvm_memory_slot *cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 206 */;
+	bool cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 199 */;
+	pgd_t *cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 199 */;
+	struct mmio_hpte_cache_entry *cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 1218 */;
+	gva_t cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 1115 */;
+	const struct kvm_memory_slot *cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 109 */;
+	int cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 1073 */[4];
+	char *cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 1068 */;
+	u64 cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 1057 */;
+	unsigned char cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 1056 */;
+	__be64 *cocci_id/* arch/powerpc/kvm/book3s_hv_rm_mmu.c 1052 */;
+}

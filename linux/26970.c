@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	const struct file_operations cocci_id/* fs/nfs/file.c 835 */;
+	struct nfs_lock_context *cocci_id/* fs/nfs/file.c 689 */;
+	unsigned int cocci_id/* fs/nfs/file.c 661 */;
+	struct inode *cocci_id/* fs/nfs/file.c 659 */;
+	struct file_lock *cocci_id/* fs/nfs/file.c 657 */;
+	struct file *cocci_id/* fs/nfs/file.c 657 */;
+	int cocci_id/* fs/nfs/file.c 656 */;
+	long long cocci_id/* fs/nfs/file.c 608 */;
+	unsigned cocci_id/* fs/nfs/file.c 537 */;
+	vm_fault_t cocci_id/* fs/nfs/file.c 532 */;
+	struct vm_fault *cocci_id/* fs/nfs/file.c 532 */;
+	const struct address_space_operations cocci_id/* fs/nfs/file.c 506 */;
+	struct rpc_clnt *cocci_id/* fs/nfs/file.c 492 */;
+	sector_t *cocci_id/* fs/nfs/file.c 490 */;
+	struct swap_info_struct *cocci_id/* fs/nfs/file.c 489 */;
+	const struct vm_operations_struct cocci_id/* fs/nfs/file.c 45 */;
+	struct address_space *cocci_id/* fs/nfs/file.c 444 */;
+	struct nfs_inode *cocci_id/* fs/nfs/file.c 443 */;
+	bool *cocci_id/* fs/nfs/file.c 441 */;
+	struct page *cocci_id/* fs/nfs/file.c 440 */;
+	void cocci_id/* fs/nfs/file.c 440 */;
+	gfp_t cocci_id/* fs/nfs/file.c 430 */;
+	void *cocci_id/* fs/nfs/file.c 356 */;
+	pgoff_t cocci_id/* fs/nfs/file.c 326 */;
+	struct page **cocci_id/* fs/nfs/file.c 323 */;
+	void **cocci_id/* fs/nfs/file.c 323 */;
+	bool cocci_id/* fs/nfs/file.c 285 */;
+	loff_t cocci_id/* fs/nfs/file.c 231 */;
+	struct nfs_open_context *cocci_id/* fs/nfs/file.c 207 */;
+	struct vm_area_struct *cocci_id/* fs/nfs/file.c 180 */;
+	unsigned long cocci_id/* fs/nfs/file.c 165 */;
+	struct kiocb *cocci_id/* fs/nfs/file.c 155 */;
+	struct iov_iter *cocci_id/* fs/nfs/file.c 155 */;
+	ssize_t cocci_id/* fs/nfs/file.c 154 */;
+	fl_owner_t cocci_id/* fs/nfs/file.c 140 */;
+	struct nfs_server *cocci_id/* fs/nfs/file.c 104 */;
+}

@@ -1,0 +1,70 @@
+cocci_test_suite() {
+	struct list_head *cocci_id/* drivers/tty/vt/vt_ioctl.c 92 */;
+	struct vt_consize cocci_id/* drivers/tty/vt/vt_ioctl.c 850 */;
+	ushort cocci_id/* drivers/tty/vt/vt_ioctl.c 826 */;
+	struct vt_sizes __user *cocci_id/* drivers/tty/vt/vt_ioctl.c 823 */;
+	struct vt_event_wait {
+		struct list_head list;
+		struct vt_event event;
+		int done;
+	} cocci_id/* drivers/tty/vt/vt_ioctl.c 71 */;
+	struct vt_setactivate __user *cocci_id/* drivers/tty/vt/vt_ioctl.c 697 */;
+	struct vt_setactivate cocci_id/* drivers/tty/vt/vt_ioctl.c 692 */;
+	void cocci_id/* drivers/tty/vt/vt_ioctl.c 65 */(struct vc_data *vc);
+	unsigned short cocci_id/* drivers/tty/vt/vt_ioctl.c 642 */;
+	struct vt_stat __user *cocci_id/* drivers/tty/vt/vt_ioctl.c 641 */;
+	struct vt_mode cocci_id/* drivers/tty/vt/vt_ioctl.c 595 */;
+	int __user *cocci_id/* drivers/tty/vt/vt_ioctl.c 519 */;
+	struct kbd_repeat cocci_id/* drivers/tty/vt/vt_ioctl.c 439 */;
+	struct tty_driver *cocci_id/* drivers/tty/vt/vt_ioctl.c 43 */;
+	char cocci_id/* drivers/tty/vt/vt_ioctl.c 42 */;
+	char __user *cocci_id/* drivers/tty/vt/vt_ioctl.c 403 */;
+	struct vc_data *cocci_id/* drivers/tty/vt/vt_ioctl.c 309 */[MAX_NR_CONSOLES];
+	struct unimapdesc cocci_id/* drivers/tty/vt/vt_ioctl.c 268 */;
+	struct unimapdesc __user *cocci_id/* drivers/tty/vt/vt_ioctl.c 266 */;
+	struct consolefontdesc cocci_id/* drivers/tty/vt/vt_ioctl.c 228 */;
+	struct consolefontdesc __user *cocci_id/* drivers/tty/vt/vt_ioctl.c 226 */;
+	struct vt_event cocci_id/* drivers/tty/vt/vt_ioctl.c 172 */;
+	struct vt_event __user *cocci_id/* drivers/tty/vt/vt_ioctl.c 168 */;
+	unsigned long cocci_id/* drivers/tty/vt/vt_ioctl.c 137 */;
+	struct vt_event_wait *cocci_id/* drivers/tty/vt/vt_ioctl.c 135 */;
+	void cocci_id/* drivers/tty/vt/vt_ioctl.c 135 */;
+	struct vc_data *cocci_id/* drivers/tty/vt/vt_ioctl.c 1325 */;
+	unsigned char cocci_id/* drivers/tty/vt/vt_ioctl.c 1253 */;
+	void __user *cocci_id/* drivers/tty/vt/vt_ioctl.c 1179 */;
+	struct console_font_op cocci_id/* drivers/tty/vt/vt_ioctl.c 1177 */;
+	long cocci_id/* drivers/tty/vt/vt_ioctl.c 1173 */;
+	struct unipair __user *cocci_id/* drivers/tty/vt/vt_ioctl.c 1155 */;
+	struct compat_unimapdesc cocci_id/* drivers/tty/vt/vt_ioctl.c 1154 */;
+	struct compat_unimapdesc __user *cocci_id/* drivers/tty/vt/vt_ioctl.c 1151 */;
+	unsigned int cocci_id/* drivers/tty/vt/vt_ioctl.c 1151 */;
+	struct compat_unimapdesc {
+		unsigned short entry_ct;
+		compat_caddr_t entries;
+	} cocci_id/* drivers/tty/vt/vt_ioctl.c 1145 */;
+	struct compat_console_font_op *cocci_id/* drivers/tty/vt/vt_ioctl.c 1135 */;
+	struct compat_console_font_op cocci_id/* drivers/tty/vt/vt_ioctl.c 1131 */;
+	struct compat_console_font_op __user *cocci_id/* drivers/tty/vt/vt_ioctl.c 1126 */;
+	struct compat_console_font_op {
+		compat_uint_t op;
+		compat_uint_t flags;
+		compat_uint_t width,height;
+		compat_uint_t charcount;
+		compat_caddr_t data;
+	} cocci_id/* drivers/tty/vt/vt_ioctl.c 1117 */;
+	struct compat_consolefontdesc cocci_id/* drivers/tty/vt/vt_ioctl.c 1081 */;
+	struct console_font_op *cocci_id/* drivers/tty/vt/vt_ioctl.c 1079 */;
+	struct compat_consolefontdesc __user *cocci_id/* drivers/tty/vt/vt_ioctl.c 1078 */;
+	int cocci_id/* drivers/tty/vt/vt_ioctl.c 1077 */;
+	struct compat_consolefontdesc {
+		unsigned short charcount;
+		unsigned short charheight;
+		compat_caddr_t chardata;
+	} cocci_id/* drivers/tty/vt/vt_ioctl.c 1071 */;
+	struct tty_struct *cocci_id/* drivers/tty/vt/vt_ioctl.c 1051 */;
+	struct vc cocci_id/* drivers/tty/vt/vt_ioctl.c 1049 */;
+	struct vc *cocci_id/* drivers/tty/vt/vt_ioctl.c 1048 */;
+	struct work_struct *cocci_id/* drivers/tty/vt/vt_ioctl.c 1046 */;
+	unsigned short __user *cocci_id/* drivers/tty/vt/vt_ioctl.c 1018 */;
+	struct vt_event_wait cocci_id/* drivers/tty/vt/vt_ioctl.c 101 */;
+}

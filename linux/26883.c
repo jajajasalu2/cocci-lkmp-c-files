@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct erofs_sb_info *cocci_id/* fs/erofs/data.c 78 */;
+	bool cocci_id/* fs/erofs/data.c 56 */;
+	struct erofs_inode *cocci_id/* fs/erofs/data.c 55 */;
+	u64 cocci_id/* fs/erofs/data.c 54 */;
+	struct address_space *const cocci_id/* fs/erofs/data.c 37 */;
+	const struct address_space_operations cocci_id/* fs/erofs/data.c 359 */;
+	struct super_block *cocci_id/* fs/erofs/data.c 35 */;
+	struct page *cocci_id/* fs/erofs/data.c 35 */;
+	erofs_blk_t cocci_id/* fs/erofs/data.c 349 */;
+	struct inode *cocci_id/* fs/erofs/data.c 346 */;
+	sector_t cocci_id/* fs/erofs/data.c 344 */;
+	struct address_space *cocci_id/* fs/erofs/data.c 344 */;
+	struct erofs_map_blocks cocci_id/* fs/erofs/data.c 329 */;
+	struct buffer_head *cocci_id/* fs/erofs/data.c 327 */;
+	int cocci_id/* fs/erofs/data.c 326 */;
+	struct page cocci_id/* fs/erofs/data.c 291 */;
+	gfp_t cocci_id/* fs/erofs/data.c 290 */;
+	unsigned int cocci_id/* fs/erofs/data.c 286 */;
+	struct list_head *cocci_id/* fs/erofs/data.c 285 */;
+	struct bio *cocci_id/* fs/erofs/data.c 269 */;
+	erofs_off_t cocci_id/* fs/erofs/data.c 268 */;
+	struct file *cocci_id/* fs/erofs/data.c 266 */;
+	void *cocci_id/* fs/erofs/data.c 183 */;
+	struct bvec_iter_all cocci_id/* fs/erofs/data.c 16 */;
+	blk_status_t cocci_id/* fs/erofs/data.c 15 */;
+	struct bio_vec *cocci_id/* fs/erofs/data.c 14 */;
+	struct super_block *const cocci_id/* fs/erofs/data.c 135 */;
+	struct inode *const cocci_id/* fs/erofs/data.c 134 */;
+	erofs_off_t *cocci_id/* fs/erofs/data.c 130 */;
+	void cocci_id/* fs/erofs/data.c 12 */;
+	struct erofs_map_blocks *cocci_id/* fs/erofs/data.c 113 */;
+}

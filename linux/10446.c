@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	uint64_t cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 978 */;
+	unsigned *cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 965 */;
+	unsigned cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 960 */;
+	struct radeon_device *cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 959 */;
+	int cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 959 */;
+	struct radeon_device cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 873 */;
+	struct work_struct *cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 870 */;
+	void cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 851 */;
+	struct radeon_fence **cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 778 */;
+	struct radeon_ib cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 744 */;
+	bool cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 690 */;
+	const char *cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 69 */;
+	struct radeon_cs_packet cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 686 */;
+	unsigned long cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 68 */;
+	bool *cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 652 */;
+	int *cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 650 */;
+	struct radeon_cs_packet *cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 649 */;
+	void cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 64 */(struct work_struct *work);
+	struct radeon_bo_list *cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 577 */;
+	struct radeon_cs_chunk *cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 576 */;
+	struct radeon_fence *cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 482 */;
+	void *cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 471 */;
+	struct dma_fence *cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 470 */;
+	int32_t *cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 468 */;
+	unsigned cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 466 */[];
+	struct radeon_cs_parser *cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 465 */;
+	struct radeon_bo *cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 465 */;
+	uint32_t *cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 354 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 328 */;
+	uint32_t cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 303 */;
+	struct common_firmware_header *cocci_id/* drivers/gpu/drm/radeon/radeon_uvd.c 146 */;
+}

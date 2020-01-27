@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	long cocci_id/* fs/ext4/resize.c 984 */;
+	__le32 *cocci_id/* fs/ext4/resize.c 773 */;
+	struct ext4_iloc cocci_id/* fs/ext4/resize.c 772 */;
+	struct buffer_head *cocci_id/* fs/ext4/resize.c 769 */;
+	struct buffer_head **cocci_id/* fs/ext4/resize.c 768 */;
+	ext4_fsblk_t cocci_id/* fs/ext4/resize.c 767 */;
+	unsigned long cocci_id/* fs/ext4/resize.c 766 */;
+	struct ext4_super_block *cocci_id/* fs/ext4/resize.c 765 */;
+	struct super_block *cocci_id/* fs/ext4/resize.c 764 */;
+	ext4_group_t cocci_id/* fs/ext4/resize.c 762 */;
+	handle_t *cocci_id/* fs/ext4/resize.c 761 */;
+	struct inode *cocci_id/* fs/ext4/resize.c 761 */;
+	int cocci_id/* fs/ext4/resize.c 761 */;
+	const ext4_fsblk_t cocci_id/* fs/ext4/resize.c 722 */;
+	unsigned *cocci_id/* fs/ext4/resize.c 685 */;
+	void cocci_id/* fs/ext4/resize.c 57 */;
+	int cocci_id/* fs/ext4/resize.c 480 */[];
+	unsigned long long cocci_id/* fs/ext4/resize.c 36 */;
+	unsigned int cocci_id/* fs/ext4/resize.c 320 */;
+	unsigned cocci_id/* fs/ext4/resize.c 264 */;
+	struct ext4_new_group_data *cocci_id/* fs/ext4/resize.c 255 */;
+	__u16 cocci_id/* fs/ext4/resize.c 216 */;
+	struct ext4_new_group_data cocci_id/* fs/ext4/resize.c 206 */;
+	struct ext4_new_flex_group_data *cocci_id/* fs/ext4/resize.c 198 */;
+	struct ext4_new_flex_group_data {
+		struct ext4_new_group_data *groups;
+		__u16 *bg_flags;
+		ext4_group_t count;
+	} cocci_id/* fs/ext4/resize.c 183 */;
+	struct ext4_inode_info *cocci_id/* fs/ext4/resize.c 1802 */;
+	struct ext4_new_flex_group_data cocci_id/* fs/ext4/resize.c 1592 */;
+	struct ext4_super_block cocci_id/* fs/ext4/resize.c 1498 */;
+	char *cocci_id/* fs/ext4/resize.c 1497 */;
+	sector_t cocci_id/* fs/ext4/resize.c 1495 */;
+	ext4_grpblk_t cocci_id/* fs/ext4/resize.c 1432 */;
+	__u16 *cocci_id/* fs/ext4/resize.c 1262 */;
+	struct ext4_group_desc *cocci_id/* fs/ext4/resize.c 1227 */;
+	__u64 cocci_id/* fs/ext4/resize.c 1210 */;
+	struct ext4_sb_info *cocci_id/* fs/ext4/resize.c 1172 */;
+	const int cocci_id/* fs/ext4/resize.c 1065 */;
+}

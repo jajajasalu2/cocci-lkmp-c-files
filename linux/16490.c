@@ -1,0 +1,102 @@
+cocci_test_suite() {
+	const struct i2c_device_id *cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 985 */;
+	u32 cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 977 */;
+	const struct of_device_id cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 961 */[];
+	union command {
+		u8 data[0];
+		struct cmd {
+			__le16 reg;
+			__u8 reportTypeID;
+			__u8 opcode;
+		}__packed c;
+	} cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 96 */;
+	struct acpi_device *cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 915 */;
+	struct device *cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 913 */;
+	void cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 913 */;
+	struct i2c_hid_cmd {
+		unsigned int registerIndex;
+		__u8 opcode;
+		unsigned int length;
+		bool wait;
+	} cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 89 */;
+	acpi_handle cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 889 */;
+	union acpi_object *cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 887 */;
+	guid_t cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 884 */;
+	struct i2c_hid_platform_data *cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 882 */;
+	const struct acpi_device_id cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 872 */[];
+	struct i2c_hid_desc *cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 829 */;
+	unsigned long cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 804 */;
+	struct hid_ll_driver cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 790 */;
+	struct hid_device *cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 782 */;
+	struct i2c_hid_desc {
+		__le16 wHIDDescLength;
+		__le16 bcdVersion;
+		__le16 wReportDescLength;
+		__le16 wReportDescRegister;
+		__le16 wInputRegister;
+		__le16 wMaxInputLength;
+		__le16 wOutputRegister;
+		__le16 wMaxOutputLength;
+		__le16 wCommandRegister;
+		__le16 wDataRegister;
+		__le16 wVendorID;
+		__le16 wProductID;
+		__le16 wVersionID;
+		__le32 reserved;
+	}__packed cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 72 */;
+	char *cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 682 */;
+	__u8 *cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 588 */;
+	unsigned char cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 588 */;
+	union command cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 575 */;
+	__u16 cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 568 */;
+	__u8 cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 566 */;
+	size_t cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 562 */;
+	struct hid_report *cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 537 */;
+	unsigned int *cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 535 */;
+	irqreturn_t cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 513 */;
+	void *cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 513 */;
+	u16 cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 291 */;
+	u8 cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 288 */[3];
+	unsigned int cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 215 */;
+	bool cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 214 */;
+	struct i2c_msg cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 210 */[2];
+	union command *cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 208 */;
+	struct i2c_hid *cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 207 */;
+	unsigned char *cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 205 */;
+	u8 *cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 204 */;
+	u8 cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 203 */;
+	const struct i2c_hid_cmd *cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 203 */;
+	struct i2c_client *cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 202 */;
+	int cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 202 */;
+	const u16 cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 188 */;
+	const struct i2c_hid_quirks {
+		__u16 idVendor;
+		__u16 idProduct;
+		__u32 quirks;
+	} cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 163 */[];
+	struct i2c_hid {
+		struct i2c_client *client;
+		struct hid_device *hid;
+		union {
+			__u8 hdesc_buffer[sizeof(struct i2c_hid_desc)];
+			struct i2c_hid_desc hdesc;
+		};
+		__le16 wHIDDescRegister;
+		unsigned int bufsize;
+		u8 *inbuf;
+		u8 *rawbuf;
+		u8 *cmdbuf;
+		u8 *argsbuf;
+		unsigned long flags;
+		unsigned long quirks;
+		wait_queue_head_t wait;
+		struct i2c_hid_platform_data pdata;
+		bool irq_wake_enabled;
+		struct mutex reset_lock;
+	} cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 136 */;
+	struct i2c_driver cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 1251 */;
+	const struct i2c_device_id cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 1243 */[];
+	const struct dev_pm_ops cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 1239 */;
+	struct i2c_hid_desc cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 113 */;
+	const struct i2c_hid_cmd cocci_id/* drivers/hid/i2c-hid/i2c-hid-core.c 110 */;
+}

@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	void cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 53 */(struct net_device *dev);
+	u16 cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 503 */;
+	int cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 499 */;
+	struct tx_config_cmd cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 497 */;
+	u8 cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 478 */[CCK_Table_length][8];
+	u32 cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 441 */[OFDM_Table_Length];
+	struct dynamic_rx_path_sel cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 44 */;
+	u8 cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 42 */[16][256];
+	struct dig cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 40 */;
+	long cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 354 */;
+	struct ieee80211_device *cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 3005 */;
+	unsigned int cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 2944 */;
+	prate_adaptive cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 286 */;
+	u32 cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 26 */[HT_IOT_PEER_MAX];
+	struct timer_list *cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 2598 */;
+	struct r8192_priv cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 2321 */;
+	struct delayed_work *cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 2320 */;
+	struct work_struct *cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 2318 */;
+	struct aci_aifsn *cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 2201 */;
+	struct ieee80211_qos_parameters *cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 2172 */;
+	unsigned long cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 143 */;
+	PRT_HIGH_THROUGHPUT cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 142 */;
+	struct r8192_priv *cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 1360 */;
+	u32 cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 1359 */;
+	bool cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 1357 */;
+	struct net_device *cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 133 */;
+	void cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 133 */;
+	u8 cocci_id/* drivers/staging/rtl8192u/r8192U_dm.c 1315 */;
+}

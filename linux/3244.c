@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	s32 cocci_id/* drivers/hwmon/fam15h_power.c 78 */;
+	bool cocci_id/* drivers/hwmon/fam15h_power.c 69 */;
+	struct fam15h_power_data {
+		struct pci_dev *pdev;
+		unsigned int tdp_to_watts;
+		unsigned int base_tdp;
+		unsigned int processor_pwr_watts;
+		unsigned int cpu_pwr_sample_ratio;
+		const struct attribute_group *groups[FAM15H_NUM_GROUPS];
+		struct attribute_group group;
+		u64 max_cu_acc_power;
+		u64 cu_acc_power[MAX_CUS];
+		u64 cpu_sw_pwr_ptsc[MAX_CUS];
+		int cu_on[MAX_CUS];
+		unsigned long power_period;
+	} cocci_id/* drivers/hwmon/fam15h_power.c 50 */;
+	struct pci_driver cocci_id/* drivers/hwmon/fam15h_power.c 497 */;
+	struct fam15h_power_data cocci_id/* drivers/hwmon/fam15h_power.c 468 */;
+	struct device *cocci_id/* drivers/hwmon/fam15h_power.c 454 */;
+	const struct pci_device_id *cocci_id/* drivers/hwmon/fam15h_power.c 451 */;
+	unsigned int cocci_id/* drivers/hwmon/fam15h_power.c 411 */;
+	u64 cocci_id/* drivers/hwmon/fam15h_power.c 394 */;
+	u32 cocci_id/* drivers/hwmon/fam15h_power.c 393 */;
+	const struct pci_device_id cocci_id/* drivers/hwmon/fam15h_power.c 351 */[];
+	struct cpuinfo_x86 *cocci_id/* drivers/hwmon/fam15h_power.c 298 */;
+	struct attribute **cocci_id/* drivers/hwmon/fam15h_power.c 297 */;
+	struct pci_dev *cocci_id/* drivers/hwmon/fam15h_power.c 293 */;
+	unsigned long cocci_id/* drivers/hwmon/fam15h_power.c 273 */;
+	const char *cocci_id/* drivers/hwmon/fam15h_power.c 270 */;
+	size_t cocci_id/* drivers/hwmon/fam15h_power.c 270 */;
+	char *cocci_id/* drivers/hwmon/fam15h_power.c 261 */;
+	struct device_attribute *cocci_id/* drivers/hwmon/fam15h_power.c 260 */;
+	ssize_t cocci_id/* drivers/hwmon/fam15h_power.c 259 */;
+	unsigned long long cocci_id/* drivers/hwmon/fam15h_power.c 255 */;
+	signed long cocci_id/* drivers/hwmon/fam15h_power.c 211 */;
+	u64 cocci_id/* drivers/hwmon/fam15h_power.c 207 */[MAX_CUS];
+	cpumask_var_t cocci_id/* drivers/hwmon/fam15h_power.c 164 */;
+	int cocci_id/* drivers/hwmon/fam15h_power.c 141 */;
+	struct fam15h_power_data *cocci_id/* drivers/hwmon/fam15h_power.c 140 */;
+	void *cocci_id/* drivers/hwmon/fam15h_power.c 138 */;
+	void cocci_id/* drivers/hwmon/fam15h_power.c 138 */;
+}

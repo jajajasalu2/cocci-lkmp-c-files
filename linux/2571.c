@@ -1,0 +1,63 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/md/dm-log.c 879 */;
+	int __init cocci_id/* drivers/md/dm-log.c 862 */;
+	struct dm_dirty_log_type cocci_id/* drivers/md/dm-log.c 825 */;
+	char *cocci_id/* drivers/md/dm-log.c 782 */;
+	status_type_t cocci_id/* drivers/md/dm-log.c 781 */;
+	region_t *cocci_id/* drivers/md/dm-log.c 733 */;
+	struct log_c *cocci_id/* drivers/md/dm-log.c 728 */;
+	region_t cocci_id/* drivers/md/dm-log.c 726 */;
+	struct dm_dirty_log *cocci_id/* drivers/md/dm-log.c 726 */;
+	void cocci_id/* drivers/md/dm-log.c 726 */;
+	unsigned cocci_id/* drivers/md/dm-log.c 588 */;
+	char **cocci_id/* drivers/md/dm-log.c 517 */;
+	unsigned int cocci_id/* drivers/md/dm-log.c 517 */;
+	void *cocci_id/* drivers/md/dm-log.c 478 */;
+	unsigned long long cocci_id/* drivers/md/dm-log.c 452 */;
+	char cocci_id/* drivers/md/dm-log.c 374 */;
+	size_t cocci_id/* drivers/md/dm-log.c 372 */;
+	enum sync cocci_id/* drivers/md/dm-log.c 367 */;
+	struct dm_dev *cocci_id/* drivers/md/dm-log.c 365 */;
+	uint32_t cocci_id/* drivers/md/dm-log.c 346 */;
+	struct dm_target *cocci_id/* drivers/md/dm-log.c 346 */;
+	int cocci_id/* drivers/md/dm-log.c 346 */;
+	struct dm_io_region cocci_id/* drivers/md/dm-log.c 304 */;
+	struct log_header_disk *cocci_id/* drivers/md/dm-log.c 287 */;
+	struct log_header_core *cocci_id/* drivers/md/dm-log.c 287 */;
+	uint32_t *cocci_id/* drivers/md/dm-log.c 271 */;
+	const char *cocci_id/* drivers/md/dm-log.c 22 */;
+	struct dm_dirty_log_type *cocci_id/* drivers/md/dm-log.c 22 */;
+	struct log_c {
+		struct dm_target *ti;
+		int touched_dirtied;
+		int touched_cleaned;
+		int flush_failed;
+		uint32_t region_size;
+		unsigned int region_count;
+		region_t sync_count;
+		unsigned bitset_uint32_count;
+		uint32_t *clean_bits;
+		uint32_t *sync_bits;
+		uint32_t *recovering_bits;
+		int sync_search;
+		enum sync{DEFAULTSYNC, NOSYNC, FORCESYNC,} sync;
+		struct dm_io_request io_req;
+		int log_dev_failed;
+		int log_dev_flush_failed;
+		struct dm_dev *log_dev;
+		struct log_header_core header;
+		struct dm_io_region header_location;
+		struct log_header_disk *disk_header;
+	} cocci_id/* drivers/md/dm-log.c 217 */;
+	struct log_header_core {
+		uint32_t magic;
+		uint32_t version;
+		uint64_t nr_regions;
+	} cocci_id/* drivers/md/dm-log.c 211 */;
+	struct log_header_disk {
+		__le32 magic;
+		__le32 version;
+		__le64 nr_regions;
+	}__packed cocci_id/* drivers/md/dm-log.c 200 */;
+	int (*cocci_id/* drivers/md/dm-log.c 149 */)(struct dm_target *ti);
+}

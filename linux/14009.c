@@ -1,0 +1,95 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/media/rc/mceusb.c 929 */[MCE_IRBUF_SIZE];
+	u8 cocci_id/* drivers/media/rc/mceusb.c 928 */[3];
+	unsigned *cocci_id/* drivers/media/rc/mceusb.c 925 */;
+	unsigned cocci_id/* drivers/media/rc/mceusb.c 925 */;
+	u8 *cocci_id/* drivers/media/rc/mceusb.c 894 */;
+	struct mceusb_dev *cocci_id/* drivers/media/rc/mceusb.c 894 */;
+	int cocci_id/* drivers/media/rc/mceusb.c 894 */;
+	void cocci_id/* drivers/media/rc/mceusb.c 894 */;
+	unsigned long cocci_id/* drivers/media/rc/mceusb.c 811 */;
+	struct completion cocci_id/* drivers/media/rc/mceusb.c 810 */;
+	unsigned char *cocci_id/* drivers/media/rc/mceusb.c 809 */;
+	struct device *cocci_id/* drivers/media/rc/mceusb.c 808 */;
+	struct urb *cocci_id/* drivers/media/rc/mceusb.c 807 */;
+	u32 cocci_id/* drivers/media/rc/mceusb.c 603 */;
+	char *cocci_id/* drivers/media/rc/mceusb.c 600 */;
+	bool cocci_id/* drivers/media/rc/mceusb.c 597 */;
+	u8 cocci_id/* drivers/media/rc/mceusb.c 549 */;
+	char cocci_id/* drivers/media/rc/mceusb.c 526 */[];
+	struct mceusb_dev {
+		struct rc_dev *rc;
+		bool carrier_report_enabled;
+		bool wideband_rx_enabled;
+		struct device *dev;
+		struct usb_device *usbdev;
+		struct usb_interface *usbintf;
+		struct urb *urb_in;
+		unsigned int pipe_in;
+		struct usb_endpoint_descriptor *usb_ep_out;
+		unsigned int pipe_out;
+		unsigned char *buf_in;
+		unsigned int len_in;
+		dma_addr_t dma_in;
+		enum{CMD_HEADER=0, SUBCMD, CMD_DATA, PARSE_IRDATA,} parser_state;
+		u8 cmd,rem;
+		struct {
+			u32 connected:1;
+			u32 tx_mask_normal:1;
+			u32 microsoft_gen1:1;
+			u32 no_tx:1;
+			u32 rx2;
+		} flags;
+		u32 carrier;
+		unsigned char tx_mask;
+		char name[128];
+		char phys[64];
+		enum mceusb_model_type model;
+		bool need_reset;
+		u8 emver;
+		u8 num_txports;
+		u8 num_rxports;
+		u8 txports_cabled;
+		u8 rxports_active;
+		bool learning_active;
+		u32 pulse_tunit;
+		u32 pulse_count;
+		struct work_struct kevent;
+		unsigned long kevent_flags;
+#		define EVENT_TX_HALT 0
+#		define EVENT_RX_HALT 1
+#		define EVENT_RST_PEND 31
+	} cocci_id/* drivers/media/rc/mceusb.c 452 */;
+	const struct usb_device_id cocci_id/* drivers/media/rc/mceusb.c 282 */[];
+	const struct mceusb_model cocci_id/* drivers/media/rc/mceusb.c 208 */[];
+	struct usb_driver cocci_id/* drivers/media/rc/mceusb.c 1880 */;
+	struct mceusb_model {
+		u32 mce_gen1:1;
+		u32 mce_gen2:1;
+		u32 mce_gen3:1;
+		u32 tx_mask_normal:1;
+		u32 no_tx:1;
+		u32 broken_irtimeout:1;
+		u32 rx2;
+		int ir_intfnum;
+		const char *rc_map;
+		const char *name;
+	} cocci_id/* drivers/media/rc/mceusb.c 187 */;
+	pm_message_t cocci_id/* drivers/media/rc/mceusb.c 1863 */;
+	struct usb_device *cocci_id/* drivers/media/rc/mceusb.c 1842 */;
+	struct usb_interface *cocci_id/* drivers/media/rc/mceusb.c 1840 */;
+	enum mceusb_model_type{MCE_GEN2=0, MCE_GEN1, MCE_GEN3, MCE_GEN3_BROKEN_IRTIMEOUT, MCE_GEN2_TX_INV, MCE_GEN2_TX_INV_RX_GOOD, POLARIS_EVK, CX_HYBRID_TV, MULTIFUNCTION, TIVO_KIT, MCE_GEN2_NO_TX, HAUPPAUGE_CX_HYBRID_TV, EVROMEDIA_FULL_HYBRID_FULLHD, ASTROMETA_T2HYBRID,} cocci_id/* drivers/media/rc/mceusb.c 170 */;
+	enum mceusb_model_type cocci_id/* drivers/media/rc/mceusb.c 1668 */;
+	char cocci_id/* drivers/media/rc/mceusb.c 1667 */[63];
+	struct usb_endpoint_descriptor *cocci_id/* drivers/media/rc/mceusb.c 1662 */;
+	struct usb_host_interface *cocci_id/* drivers/media/rc/mceusb.c 1661 */;
+	const struct usb_device_id *cocci_id/* drivers/media/rc/mceusb.c 1658 */;
+	struct rc_dev *cocci_id/* drivers/media/rc/mceusb.c 1580 */;
+	struct mceusb_dev cocci_id/* drivers/media/rc/mceusb.c 1520 */;
+	struct work_struct *cocci_id/* drivers/media/rc/mceusb.c 1517 */;
+	unsigned char cocci_id/* drivers/media/rc/mceusb.c 1473 */[3];
+	struct ir_raw_event cocci_id/* drivers/media/rc/mceusb.c 1164 */;
+	u8 cocci_id/* drivers/media/rc/mceusb.c 1069 */[4];
+	unsigned int cocci_id/* drivers/media/rc/mceusb.c 1067 */;
+	unsigned char cocci_id/* drivers/media/rc/mceusb.c 1030 */[4];
+}

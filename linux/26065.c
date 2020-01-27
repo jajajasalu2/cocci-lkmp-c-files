@@ -1,0 +1,57 @@
+cocci_test_suite() {
+	const struct option cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 88 */[];
+	enum{PING_PONG, SENDMSG, BASE, BASE_SENDPAGE, SENDPAGE,} cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 790 */;
+	fd_set cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 733 */;
+	char cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 718 */[1024];
+	struct timeval cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 717 */;
+	int cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 68 */[11];
+	struct bpf_map *cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 67 */[8];
+	int cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 66 */[8];
+	struct msg_stats cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 602 */;
+	float cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 595 */;
+	struct msghdr cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 455 */;
+	struct msg_stats *cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 452 */;
+	void cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 44 */(int a);
+	unsigned char *cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 397 */;
+	struct iovec cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 392 */;
+	struct iovec *cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 389 */;
+	unsigned char cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 388 */;
+	bool cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 386 */;
+	struct msghdr *cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 384 */;
+	void cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 373 */;
+	FILE *cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 331 */;
+	struct sockmap_options {
+		int verbose;
+		bool base;
+		bool sendpage;
+		bool data_test;
+		bool drop_expected;
+		int iov_count;
+		int iov_length;
+		int rate;
+	} cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 314 */;
+	struct msg_stats {
+		size_t bytes_sent;
+		size_t bytes_recvd;
+		struct timespec start;
+		struct timespec end;
+	} cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 307 */;
+	struct sockaddr *cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 241 */;
+	int *cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 203 */[4];
+	struct sockaddr_in cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 202 */;
+	struct sockmap_options cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 1742 */;
+	void *cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 174 */;
+	char **cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 1739 */;
+	char cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 1635 */[256];
+	long cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 1630 */;
+	struct bpf_object *cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 1628 */;
+	struct bpf_program *cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 1627 */;
+	int cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 1599 */[];
+	char *cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 1588 */[];
+	struct tls12_crypto_info_aes_gcm_128 cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 154 */;
+	char *cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 1161 */;
+	char cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 1161 */;
+	struct sockmap_options *cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 1159 */;
+	int cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 1159 */;
+	char cocci_id/* tools/testing/selftests/bpf/test_sockmap.c 1114 */[OPTSTRING];
+}

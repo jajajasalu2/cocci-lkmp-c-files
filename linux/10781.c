@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	long cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 894 */;
+	struct igt_live_test cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 820 */;
+	struct i915_address_space *cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 746 */;
+	const int cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 745 */;
+	ktime_t cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 689 */[2];
+	u32 *cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 599 */;
+	struct drm_i915_gem_object *cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 597 */;
+	struct i915_vma *cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 595 */;
+	struct drm_i915_private *cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 595 */;
+	struct smoketest cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 420 */;
+	struct intel_context *cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 331 */;
+	struct i915_request *cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 330 */;
+	struct i915_gem_context *cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 328 */;
+	struct i915_sw_fence *cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 307 */;
+	unsigned int *cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 284 */;
+	struct i915_request **cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 282 */;
+	unsigned int cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 281 */;
+	const unsigned int cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 279 */;
+	struct smoketest *cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 278 */;
+	void *cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 276 */;
+	int cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 276 */;
+	struct smoketest {
+		struct intel_engine_cs *engine;
+		struct i915_gem_context **contexts;
+		atomic_long_t num_waits,num_fences;
+		int ncontexts,max_batch;
+		struct i915_request *(*request_alloc)(struct intel_context *ce);
+	} cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 256 */;
+	struct i915_gem_context *cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 192 */[2];
+	const long cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 139 */;
+	const struct i915_subtest cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 1366 */[];
+	struct task_struct *cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 1304 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 1233 */;
+	intel_wakeref_t cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 1232 */;
+	struct task_struct **cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 1230 */;
+	int *const*cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 1129 */(void *arg);
+	int (*cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 1122 */[])(void *arg);
+	unsigned long cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 1069 */;
+	struct intel_engine_cs *cocci_id/* drivers/gpu/drm/i915/selftests/i915_request.c 1067 */;
+}

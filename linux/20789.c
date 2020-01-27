@@ -1,0 +1,55 @@
+cocci_test_suite() {
+	s64 cocci_id/* arch/x86/net/bpf_jit_comp.c 661 */;
+	const s32 cocci_id/* arch/x86/net/bpf_jit_comp.c 657 */;
+	u8 cocci_id/* arch/x86/net/bpf_jit_comp.c 647 */[BPF_MAX_INSN_SIZE + BPF_INSN_SAFETY];
+	struct bpf_insn *cocci_id/* arch/x86/net/bpf_jit_comp.c 644 */;
+	struct jit_context *cocci_id/* arch/x86/net/bpf_jit_comp.c 642 */;
+	unsigned long *cocci_id/* arch/x86/net/bpf_jit_comp.c 636 */;
+	unsigned long cocci_id/* arch/x86/net/bpf_jit_comp.c 631 */;
+	struct pt_regs *cocci_id/* arch/x86/net/bpf_jit_comp.c 630 */;
+	const struct exception_table_entry *cocci_id/* arch/x86/net/bpf_jit_comp.c 629 */;
+	u64 cocci_id/* arch/x86/net/bpf_jit_comp.c 515 */;
+	s32 cocci_id/* arch/x86/net/bpf_jit_comp.c 479 */;
+	const u32 cocci_id/* arch/x86/net/bpf_jit_comp.c 469 */;
+	struct bpf_array cocci_id/* arch/x86/net/bpf_jit_comp.c 446 */;
+	struct bpf_array *cocci_id/* arch/x86/net/bpf_jit_comp.c 435 */;
+	struct bpf_jit_poke_descriptor *cocci_id/* arch/x86/net/bpf_jit_comp.c 434 */;
+	void cocci_id/* arch/x86/net/bpf_jit_comp.c 432 */;
+	u8 **cocci_id/* arch/x86/net/bpf_jit_comp.c 407 */;
+	struct bpf_prog cocci_id/* arch/x86/net/bpf_jit_comp.c 389 */;
+	long cocci_id/* arch/x86/net/bpf_jit_comp.c 317 */;
+	u8 *cocci_id/* arch/x86/net/bpf_jit_comp.c 275 */;
+	u8 cocci_id/* arch/x86/net/bpf_jit_comp.c 273 */[X86_PATCH_SIZE];
+	const u8 *cocci_id/* arch/x86/net/bpf_jit_comp.c 272 */;
+	const bool cocci_id/* arch/x86/net/bpf_jit_comp.c 270 */;
+	enum bpf_text_poke_type cocci_id/* arch/x86/net/bpf_jit_comp.c 268 */;
+	void *cocci_id/* arch/x86/net/bpf_jit_comp.c 268 */;
+	int cocci_id/* arch/x86/net/bpf_jit_comp.c 268 */;
+	u32 *cocci_id/* arch/x86/net/bpf_jit_comp.c 25 */;
+	u16 *cocci_id/* arch/x86/net/bpf_jit_comp.c 23 */;
+	struct jit_context {
+		int cleanup_addr;
+	} cocci_id/* arch/x86/net/bpf_jit_comp.c 199 */;
+	unsigned int cocci_id/* arch/x86/net/bpf_jit_comp.c 18 */;
+	u8 cocci_id/* arch/x86/net/bpf_jit_comp.c 165 */;
+	u32 cocci_id/* arch/x86/net/bpf_jit_comp.c 165 */;
+	struct exception_table_entry cocci_id/* arch/x86/net/bpf_jit_comp.c 1636 */;
+	int *cocci_id/* arch/x86/net/bpf_jit_comp.c 1551 */;
+	bool cocci_id/* arch/x86/net/bpf_jit_comp.c 1548 */;
+	struct jit_context cocci_id/* arch/x86/net/bpf_jit_comp.c 1547 */;
+	struct x64_jit_data *cocci_id/* arch/x86/net/bpf_jit_comp.c 1545 */;
+	struct bpf_binary_header *cocci_id/* arch/x86/net/bpf_jit_comp.c 1543 */;
+	struct bpf_prog *cocci_id/* arch/x86/net/bpf_jit_comp.c 1541 */;
+	struct x64_jit_data {
+		struct bpf_binary_header *header;
+		int *addrs;
+		u8 *image;
+		int proglen;
+		struct jit_context ctx;
+	} cocci_id/* arch/x86/net/bpf_jit_comp.c 1533 */;
+	struct bpf_prog **cocci_id/* arch/x86/net/bpf_jit_comp.c 1458 */;
+	struct btf_func_model *cocci_id/* arch/x86/net/bpf_jit_comp.c 1457 */;
+	struct pt_regs cocci_id/* arch/x86/net/bpf_jit_comp.c 131 */;
+	const int cocci_id/* arch/x86/net/bpf_jit_comp.c 113 */[];
+	struct exception_table_entry *cocci_id/* arch/x86/net/bpf_jit_comp.c 1028 */;
+}

@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	enum{POD_MONITOR_LEVEL=0x04, POD_SYSTEM_INVALID=0x10000,} cocci_id/* sound/usb/line6/pod.c 94 */;
+	enum{POD_SYSEX_SAVE=0x24, POD_SYSEX_SYSTEM=0x56, POD_SYSEX_SYSTEMREQ=0x57, POD_SYSEX_STORE=0x71, POD_SYSEX_FINISH=0x72, POD_SYSEX_DUMPMEM=0x73, POD_SYSEX_DUMP=0x74, POD_SYSEX_DUMPREQ=0x75,} cocci_id/* sound/usb/line6/pod.c 79 */;
+	struct usb_driver cocci_id/* sound/usb/line6/pod.c 531 */;
+	struct usb_line6_pod {
+		struct usb_line6 line6;
+		int monitor_level;
+		int startup_progress;
+		u32 serial_number;
+		int firmware_version;
+		int device_id;
+	} cocci_id/* sound/usb/line6/pod.c 53 */;
+	struct usb_line6_pod cocci_id/* sound/usb/line6/pod.c 528 */;
+	struct usb_interface *cocci_id/* sound/usb/line6/pod.c 523 */;
+	enum{LINE6_BASSPODXT, LINE6_BASSPODXTLIVE, LINE6_BASSPODXTPRO, LINE6_POCKETPOD, LINE6_PODXT, LINE6_PODXTLIVE_POD, LINE6_PODXTPRO,} cocci_id/* sound/usb/line6/pod.c 43 */;
+	const struct line6_properties cocci_id/* sound/usb/line6/pod.c 429 */[];
+	const struct usb_device_id cocci_id/* sound/usb/line6/pod.c 416 */[];
+	enum{POD_STARTUP_VERSIONREQ, POD_STARTUP_SETUP, POD_STARTUP_DONE,} cocci_id/* sound/usb/line6/pod.c 37 */;
+	const struct usb_device_id *cocci_id/* sound/usb/line6/pod.c 366 */;
+	const struct snd_kcontrol_new cocci_id/* sound/usb/line6/pod.c 352 */;
+	struct snd_line6_pcm *cocci_id/* sound/usb/line6/pod.c 328 */;
+	struct snd_ctl_elem_value *cocci_id/* sound/usb/line6/pod.c 326 */;
+	struct snd_kcontrol *cocci_id/* sound/usb/line6/pod.c 325 */;
+	struct snd_ctl_elem_info *cocci_id/* sound/usb/line6/pod.c 315 */;
+	const struct attribute_group cocci_id/* sound/usb/line6/pod.c 308 */;
+	struct attribute *cocci_id/* sound/usb/line6/pod.c 301 */[];
+	struct usb_line6_pod *cocci_id/* sound/usb/line6/pod.c 261 */;
+	struct snd_card *cocci_id/* sound/usb/line6/pod.c 260 */;
+	struct device_attribute *cocci_id/* sound/usb/line6/pod.c 258 */;
+	char *cocci_id/* sound/usb/line6/pod.c 258 */;
+	struct device *cocci_id/* sound/usb/line6/pod.c 257 */;
+	ssize_t cocci_id/* sound/usb/line6/pod.c 257 */;
+	const int cocci_id/* sound/usb/line6/pod.c 214 */;
+	short cocci_id/* sound/usb/line6/pod.c 201 */;
+	int cocci_id/* sound/usb/line6/pod.c 183 */;
+	const unsigned char *cocci_id/* sound/usb/line6/pod.c 179 */;
+	struct usb_line6 *cocci_id/* sound/usb/line6/pod.c 176 */;
+	void cocci_id/* sound/usb/line6/pod.c 176 */;
+	const char cocci_id/* sound/usb/line6/pod.c 162 */[];
+	struct line6_pcm_properties cocci_id/* sound/usb/line6/pod.c 120 */;
+	struct snd_ratden cocci_id/* sound/usb/line6/pod.c 113 */;
+	enum{POD_BUSY_READ, POD_BUSY_WRITE, POD_CHANNEL_DIRTY, POD_SAVE_PRESSED, POD_BUSY_MIDISEND,} cocci_id/* sound/usb/line6/pod.c 105 */;
+	enum{POD_DUMP_MEMORY=2,} cocci_id/* sound/usb/line6/pod.c 101 */;
+}

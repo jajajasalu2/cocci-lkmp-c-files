@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct se_lun *cocci_id/* drivers/target/target_core_stat.c 883 */;
+	struct se_portal_group *cocci_id/* drivers/target/target_core_stat.c 860 */;
+	struct se_lun_acl cocci_id/* drivers/target/target_core_stat.c 851 */;
+	struct se_ml_stat_grps cocci_id/* drivers/target/target_core_stat.c 850 */;
+	struct se_ml_stat_grps *cocci_id/* drivers/target/target_core_stat.c 849 */;
+	struct se_lun_acl *cocci_id/* drivers/target/target_core_stat.c 847 */;
+	struct config_item *cocci_id/* drivers/target/target_core_stat.c 847 */;
+	struct t10_wwn *cocci_id/* drivers/target/target_core_stat.c 768 */;
+	struct se_hba *cocci_id/* drivers/target/target_core_stat.c 53 */;
+	struct se_device cocci_id/* drivers/target/target_core_stat.c 48 */;
+	struct se_dev_stat_grps cocci_id/* drivers/target/target_core_stat.c 47 */;
+	struct se_dev_stat_grps *cocci_id/* drivers/target/target_core_stat.c 46 */;
+	struct se_lun cocci_id/* drivers/target/target_core_stat.c 421 */;
+	struct se_port_stat_grps cocci_id/* drivers/target/target_core_stat.c 420 */;
+	struct se_port_stat_grps *cocci_id/* drivers/target/target_core_stat.c 419 */;
+	void cocci_id/* drivers/target/target_core_stat.c 395 */;
+	struct se_device *cocci_id/* drivers/target/target_core_stat.c 338 */;
+	unsigned long cocci_id/* drivers/target/target_core_stat.c 31 */;
+	unsigned int cocci_id/* drivers/target/target_core_stat.c 31 */;
+	unsigned long long cocci_id/* drivers/target/target_core_stat.c 220 */;
+	const struct config_item_type cocci_id/* drivers/target/target_core_stat.c 1350 */;
+	struct configfs_attribute *cocci_id/* drivers/target/target_core_stat.c 1340 */[];
+	unsigned char cocci_id/* drivers/target/target_core_stat.c 1313 */[64];
+	int cocci_id/* drivers/target/target_core_stat.c 131 */;
+	struct se_session *cocci_id/* drivers/target/target_core_stat.c 1266 */;
+	u32 cocci_id/* drivers/target/target_core_stat.c 1119 */;
+	struct se_dev_entry *cocci_id/* drivers/target/target_core_stat.c 1006 */;
+	struct se_node_acl *cocci_id/* drivers/target/target_core_stat.c 1005 */;
+	char *cocci_id/* drivers/target/target_core_stat.c 1002 */;
+	ssize_t cocci_id/* drivers/target/target_core_stat.c 1001 */;
+}

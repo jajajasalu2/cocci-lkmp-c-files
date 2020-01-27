@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	const struct spi_board_info *cocci_id/* arch/arm/mach-davinci/dm355.c 84 */;
+	unsigned cocci_id/* arch/arm/mach-davinci/dm355.c 83 */;
+	int cocci_id/* arch/arm/mach-davinci/dm355.c 818 */;
+	struct platform_device *cocci_id/* arch/arm/mach-davinci/dm355.c 817 */;
+	const struct davinci_aintc_config cocci_id/* arch/arm/mach-davinci/dm355.c 800 */;
+	struct vpbe_config *cocci_id/* arch/arm/mach-davinci/dm355.c 778 */;
+	struct vpfe_config *cocci_id/* arch/arm/mach-davinci/dm355.c 777 */;
+	struct clk *cocci_id/* arch/arm/mach-davinci/dm355.c 735 */;
+	void __iomem *cocci_id/* arch/arm/mach-davinci/dm355.c 734 */;
+	void __init cocci_id/* arch/arm/mach-davinci/dm355.c 726 */;
+	u32 cocci_id/* arch/arm/mach-davinci/dm355.c 714 */;
+	const struct davinci_soc_info cocci_id/* arch/arm/mach-davinci/dm355.c 701 */;
+	struct platform_device cocci_id/* arch/arm/mach-davinci/dm355.c 675 */[];
+	struct davinci_spi_platform_data cocci_id/* arch/arm/mach-davinci/dm355.c 64 */;
+	struct plat_serial8250_port cocci_id/* arch/arm/mach-davinci/dm355.c 635 */[];
+	const struct davinci_timer_cfg cocci_id/* arch/arm/mach-davinci/dm355.c 627 */;
+	struct davinci_id cocci_id/* arch/arm/mach-davinci/dm355.c 613 */[];
+	struct map_desc cocci_id/* arch/arm/mach-davinci/dm355.c 603 */[];
+	int __init cocci_id/* arch/arm/mach-davinci/dm355.c 595 */;
+	struct davinci_gpio_platform_data cocci_id/* arch/arm/mach-davinci/dm355.c 589 */;
+	void *cocci_id/* arch/arm/mach-davinci/dm355.c 533 */;
+	struct venc_platform_data cocci_id/* arch/arm/mach-davinci/dm355.c 520 */;
+	u64 cocci_id/* arch/arm/mach-davinci/dm355.c 50 */;
+	unsigned int cocci_id/* arch/arm/mach-davinci/dm355.c 483 */;
+	enum vpbe_enc_timings_type cocci_id/* arch/arm/mach-davinci/dm355.c 482 */;
+	void cocci_id/* arch/arm/mach-davinci/dm355.c 326 */;
+	struct platform_device cocci_id/* arch/arm/mach-davinci/dm355.c 319 */;
+	struct resource cocci_id/* arch/arm/mach-davinci/dm355.c 300 */[];
+	const struct platform_device_info cocci_id/* arch/arm/mach-davinci/dm355.c 290 */;
+	struct edma_soc_info cocci_id/* arch/arm/mach-davinci/dm355.c 251 */;
+	const struct dma_slave_map cocci_id/* arch/arm/mach-davinci/dm355.c 234 */[];
+	s8 cocci_id/* arch/arm/mach-davinci/dm355.c 227 */[][2];
+	u8 cocci_id/* arch/arm/mach-davinci/dm355.c 160 */[DAVINCI_N_AINTC_IRQ];
+}

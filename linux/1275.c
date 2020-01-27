@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* drivers/usb/host/xhci-dbgcap.c 93 */;
+	struct xhci_ep_ctx *cocci_id/* drivers/usb/host/xhci-dbgcap.c 90 */;
+	struct dbc_info_context *cocci_id/* drivers/usb/host/xhci-dbgcap.c 89 */;
+	const char *cocci_id/* drivers/usb/host/xhci-dbgcap.c 877 */;
+	char *cocci_id/* drivers/usb/host/xhci-dbgcap.c 875 */;
+	struct device_attribute *cocci_id/* drivers/usb/host/xhci-dbgcap.c 874 */;
+	ssize_t cocci_id/* drivers/usb/host/xhci-dbgcap.c 873 */;
+	void __iomem *cocci_id/* drivers/usb/host/xhci-dbgcap.c 836 */;
+	struct xhci_dbc cocci_id/* drivers/usb/host/xhci-dbgcap.c 791 */;
+	struct work_struct *cocci_id/* drivers/usb/host/xhci-dbgcap.c 783 */;
+	enum evtreturn cocci_id/* drivers/usb/host/xhci-dbgcap.c 647 */;
+	struct xhci_ring *cocci_id/* drivers/usb/host/xhci-dbgcap.c 593 */;
+	u32 cocci_id/* drivers/usb/host/xhci-dbgcap.c 570 */;
+	union xhci_trb *cocci_id/* drivers/usb/host/xhci-dbgcap.c 568 */;
+	struct dbc_port *cocci_id/* drivers/usb/host/xhci-dbgcap.c 548 */;
+	wchar_t *cocci_id/* drivers/usb/host/xhci-dbgcap.c 45 */;
+	struct dbc_str_descs cocci_id/* drivers/usb/host/xhci-dbgcap.c 404 */;
+	struct usb_string_descriptor *cocci_id/* drivers/usb/host/xhci-dbgcap.c 39 */;
+	struct dbc_ep cocci_id/* drivers/usb/host/xhci-dbgcap.c 370 */;
+	struct dbc_str_descs *cocci_id/* drivers/usb/host/xhci-dbgcap.c 37 */;
+	bool cocci_id/* drivers/usb/host/xhci-dbgcap.c 347 */;
+	unsigned long cocci_id/* drivers/usb/host/xhci-dbgcap.c 331 */;
+	dma_addr_t cocci_id/* drivers/usb/host/xhci-dbgcap.c 30 */;
+	struct xhci_dbc *cocci_id/* drivers/usb/host/xhci-dbgcap.c 293 */;
+	struct device *cocci_id/* drivers/usb/host/xhci-dbgcap.c 292 */;
+	int cocci_id/* drivers/usb/host/xhci-dbgcap.c 288 */;
+	void cocci_id/* drivers/usb/host/xhci-dbgcap.c 28 */;
+	u64 cocci_id/* drivers/usb/host/xhci-dbgcap.c 242 */;
+	gfp_t cocci_id/* drivers/usb/host/xhci-dbgcap.c 190 */;
+	struct dbc_ep *cocci_id/* drivers/usb/host/xhci-dbgcap.c 190 */;
+	dma_addr_t *cocci_id/* drivers/usb/host/xhci-dbgcap.c 19 */;
+	struct dbc_request *cocci_id/* drivers/usb/host/xhci-dbgcap.c 189 */;
+	struct xhci_hcd *cocci_id/* drivers/usb/host/xhci-dbgcap.c 18 */;
+	size_t cocci_id/* drivers/usb/host/xhci-dbgcap.c 18 */;
+	void *cocci_id/* drivers/usb/host/xhci-dbgcap.c 17 */;
+}

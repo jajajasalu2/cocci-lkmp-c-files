@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	char *cocci_id/* fs/omfs/file.c 82 */;
+	const struct address_space_operations cocci_id/* fs/omfs/file.c 374 */;
+	const struct inode_operations cocci_id/* fs/omfs/file.c 370 */;
+	struct iattr *cocci_id/* fs/omfs/file.c 347 */;
+	struct dentry *cocci_id/* fs/omfs/file.c 347 */;
+	const struct file_operations cocci_id/* fs/omfs/file.c 338 */;
+	struct address_space *cocci_id/* fs/omfs/file.c 333 */;
+	struct page **cocci_id/* fs/omfs/file.c 321 */;
+	void **cocci_id/* fs/omfs/file.c 321 */;
+	loff_t cocci_id/* fs/omfs/file.c 320 */;
+	struct writeback_control *cocci_id/* fs/omfs/file.c 298 */;
+	struct list_head *cocci_id/* fs/omfs/file.c 293 */;
+	unsigned cocci_id/* fs/omfs/file.c 293 */;
+	struct page *cocci_id/* fs/omfs/file.c 287 */;
+	struct file *cocci_id/* fs/omfs/file.c 287 */;
+	struct omfs_header *cocci_id/* fs/omfs/file.c 243 */;
+	struct omfs_sb_info *cocci_id/* fs/omfs/file.c 228 */;
+	struct omfs_extent *cocci_id/* fs/omfs/file.c 226 */;
+	u32 cocci_id/* fs/omfs/file.c 224 */;
+	u64 cocci_id/* fs/omfs/file.c 223 */;
+	struct buffer_head *cocci_id/* fs/omfs/file.c 218 */;
+	void cocci_id/* fs/omfs/file.c 20 */;
+	int *cocci_id/* fs/omfs/file.c 192 */;
+	int cocci_id/* fs/omfs/file.c 192 */;
+	sector_t cocci_id/* fs/omfs/file.c 191 */;
+	struct omfs_extent_entry *cocci_id/* fs/omfs/file.c 191 */;
+	struct inode *cocci_id/* fs/omfs/file.c 191 */;
+	struct omfs_extent_entry cocci_id/* fs/omfs/file.c 170 */;
+	struct omfs_extent cocci_id/* fs/omfs/file.c 16 */;
+	u64 *cocci_id/* fs/omfs/file.c 117 */;
+}

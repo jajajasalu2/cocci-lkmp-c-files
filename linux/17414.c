@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	bool cocci_id/* arch/powerpc/platforms/powermac/pci.c 950 */;
+	struct property *cocci_id/* arch/powerpc/platforms/powermac/pci.c 90 */;
+	int *cocci_id/* arch/powerpc/platforms/powermac/pci.c 89 */;
+	struct pci_host_bridge *cocci_id/* arch/powerpc/platforms/powermac/pci.c 876 */;
+	void __init cocci_id/* arch/powerpc/platforms/powermac/pci.c 87 */;
+	unsigned long long cocci_id/* arch/powerpc/platforms/powermac/pci.c 839 */;
+	char *cocci_id/* arch/powerpc/platforms/powermac/pci.c 776 */;
+	struct resource cocci_id/* arch/powerpc/platforms/powermac/pci.c 775 */;
+	unsigned long cocci_id/* arch/powerpc/platforms/powermac/pci.c 666 */;
+	const unsigned int *cocci_id/* arch/powerpc/platforms/powermac/pci.c 63 */;
+	const int *cocci_id/* arch/powerpc/platforms/powermac/pci.c 62 */;
+	int __init cocci_id/* arch/powerpc/platforms/powermac/pci.c 59 */;
+	u8 cocci_id/* arch/powerpc/platforms/powermac/pci.c 569 */;
+	u32 cocci_id/* arch/powerpc/platforms/powermac/pci.c 567 */;
+	struct pci_controller *cocci_id/* arch/powerpc/platforms/powermac/pci.c 566 */;
+	unsigned short cocci_id/* arch/powerpc/platforms/powermac/pci.c 530 */;
+	unsigned char cocci_id/* arch/powerpc/platforms/powermac/pci.c 529 */;
+	struct device_node *cocci_id/* arch/powerpc/platforms/powermac/pci.c 47 */[2];
+	u32 *cocci_id/* arch/powerpc/platforms/powermac/pci.c 283 */;
+	struct pci_ops cocci_id/* arch/powerpc/platforms/powermac/pci.c 196 */;
+	const u32 *cocci_id/* arch/powerpc/platforms/powermac/pci.c 176 */;
+	struct device_node *cocci_id/* arch/powerpc/platforms/powermac/pci.c 175 */;
+	int cocci_id/* arch/powerpc/platforms/powermac/pci.c 173 */;
+	struct pci_bus *cocci_id/* arch/powerpc/platforms/powermac/pci.c 172 */;
+	void __iomem *cocci_id/* arch/powerpc/platforms/powermac/pci.c 172 */;
+	unsigned int cocci_id/* arch/powerpc/platforms/powermac/pci.c 172 */;
+	struct pci_controller_ops cocci_id/* arch/powerpc/platforms/powermac/pci.c 1249 */;
+	struct resource *cocci_id/* arch/powerpc/platforms/powermac/pci.c 1192 */;
+	u16 cocci_id/* arch/powerpc/platforms/powermac/pci.c 1145 */;
+	struct pci_dev *cocci_id/* arch/powerpc/platforms/powermac/pci.c 1142 */;
+	void cocci_id/* arch/powerpc/platforms/powermac/pci.c 1142 */;
+}

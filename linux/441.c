@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	char *cocci_id/* block/elevator.c 836 */;
+	int __init cocci_id/* block/elevator.c 836 */;
+	struct bio *cocci_id/* block/elevator.c 74 */;
+	struct elevator_type *cocci_id/* block/elevator.c 733 */;
+	char cocci_id/* block/elevator.c 732 */[ELV_NAME_MAX];
+	const char *cocci_id/* block/elevator.c 730 */;
+	struct request_queue *cocci_id/* block/elevator.c 730 */;
+	int cocci_id/* block/elevator.c 730 */;
+	struct io_cq cocci_id/* block/elevator.c 534 */;
+	const struct sysfs_ops cocci_id/* block/elevator.c 473 */;
+	size_t cocci_id/* block/elevator.c 457 */;
+	struct elv_fs_entry *cocci_id/* block/elevator.c 441 */;
+	struct attribute *cocci_id/* block/elevator.c 439 */;
+	ssize_t cocci_id/* block/elevator.c 438 */;
+	struct elv_fs_entry cocci_id/* block/elevator.c 436 */;
+	enum elv_merge cocci_id/* block/elevator.c 304 */;
+	struct request **cocci_id/* block/elevator.c 304 */;
+	sector_t cocci_id/* block/elevator.c 284 */;
+	struct request cocci_id/* block/elevator.c 263 */;
+	struct rb_node *cocci_id/* block/elevator.c 258 */;
+	struct rb_node **cocci_id/* block/elevator.c 257 */;
+	struct rb_root *cocci_id/* block/elevator.c 255 */;
+	struct hlist_node *cocci_id/* block/elevator.c 233 */;
+	struct request *cocci_id/* block/elevator.c 201 */;
+	struct elevator_queue *cocci_id/* block/elevator.c 191 */;
+	void cocci_id/* block/elevator.c 191 */;
+	struct elevator_queue cocci_id/* block/elevator.c 186 */;
+	struct kobject *cocci_id/* block/elevator.c 182 */;
+	struct kobj_type cocci_id/* block/elevator.c 162 */;
+	bool cocci_id/* block/elevator.c 141 */;
+	unsigned int cocci_id/* block/elevator.c 123 */;
+	const struct elevator_type *cocci_id/* block/elevator.c 101 */;
+}

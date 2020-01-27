@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct drm_driver cocci_id/* drivers/gpu/drm/meson/meson_drv.c 90 */;
+	struct drm_mode_create_dumb *cocci_id/* drivers/gpu/drm/meson/meson_drv.c 77 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/meson/meson_drv.c 76 */;
+	irqreturn_t cocci_id/* drivers/gpu/drm/meson/meson_drv.c 64 */;
+	const struct drm_mode_config_helper_funcs cocci_id/* drivers/gpu/drm/meson/meson_drv.c 60 */;
+	const struct drm_mode_config_funcs cocci_id/* drivers/gpu/drm/meson/meson_drv.c 54 */;
+	struct platform_driver cocci_id/* drivers/gpu/drm/meson/meson_drv.c 501 */;
+	const struct dev_pm_ops cocci_id/* drivers/gpu/drm/meson/meson_drv.c 497 */;
+	struct device_node *cocci_id/* drivers/gpu/drm/meson/meson_drv.c 453 */;
+	struct component_match *cocci_id/* drivers/gpu/drm/meson/meson_drv.c 452 */;
+	struct component_match **cocci_id/* drivers/gpu/drm/meson/meson_drv.c 420 */;
+	const struct of_device_id cocci_id/* drivers/gpu/drm/meson/meson_drv.c 411 */[];
+	struct device *cocci_id/* drivers/gpu/drm/meson/meson_drv.c 402 */;
+	void *cocci_id/* drivers/gpu/drm/meson/meson_drv.c 402 */;
+	int cocci_id/* drivers/gpu/drm/meson/meson_drv.c 402 */;
+	int __maybe_unused cocci_id/* drivers/gpu/drm/meson/meson_drv.c 385 */;
+	const struct component_master_ops cocci_id/* drivers/gpu/drm/meson/meson_drv.c 370 */;
+	void cocci_id/* drivers/gpu/drm/meson/meson_drv.c 350 */;
+	enum vpu_compatible cocci_id/* drivers/gpu/drm/meson/meson_drv.c 212 */;
+	void __iomem *cocci_id/* drivers/gpu/drm/meson/meson_drv.c 190 */;
+	struct resource *cocci_id/* drivers/gpu/drm/meson/meson_drv.c 189 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/meson/meson_drv.c 188 */;
+	struct meson_drm *cocci_id/* drivers/gpu/drm/meson/meson_drv.c 187 */;
+	struct platform_device *cocci_id/* drivers/gpu/drm/meson/meson_drv.c 186 */;
+	bool cocci_id/* drivers/gpu/drm/meson/meson_drv.c 184 */;
+	struct apertures_struct *cocci_id/* drivers/gpu/drm/meson/meson_drv.c 169 */;
+	u32 cocci_id/* drivers/gpu/drm/meson/meson_drv.c 143 */;
+	struct regmap_config cocci_id/* drivers/gpu/drm/meson/meson_drv.c 134 */;
+}

@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct cc2520_platform_data cocci_id/* drivers/net/ieee802154/cc2520.c 952 */;
+	struct device_node *cocci_id/* drivers/net/ieee802154/cc2520.c 917 */;
+	struct cc2520_platform_data *cocci_id/* drivers/net/ieee802154/cc2520.c 915 */;
+	struct spi_device *cocci_id/* drivers/net/ieee802154/cc2520.c 914 */;
+	irqreturn_t cocci_id/* drivers/net/ieee802154/cc2520.c 886 */;
+	void *cocci_id/* drivers/net/ieee802154/cc2520.c 886 */;
+	struct cc2520_private cocci_id/* drivers/net/ieee802154/cc2520.c 873 */;
+	struct work_struct *cocci_id/* drivers/net/ieee802154/cc2520.c 870 */;
+	void cocci_id/* drivers/net/ieee802154/cc2520.c 870 */;
+	const struct ieee802154_ops cocci_id/* drivers/net/ieee802154/cc2520.c 813 */;
+	const s32 cocci_id/* drivers/net/ieee802154/cc2520.c 774 */[CC2520_CC2591_MAX_TX_POWERS + 1];
+	const s32 cocci_id/* drivers/net/ieee802154/cc2520.c 769 */[CC2520_MAX_TX_POWERS + 1];
+	u8 cocci_id/* drivers/net/ieee802154/cc2520.c 740 */;
+	s32 cocci_id/* drivers/net/ieee802154/cc2520.c 738 */;
+	struct cc2520_private *cocci_id/* drivers/net/ieee802154/cc2520.c 737 */;
+	int cocci_id/* drivers/net/ieee802154/cc2520.c 737 */;
+	u16 cocci_id/* drivers/net/ieee802154/cc2520.c 656 */;
+	struct ieee802154_hw_addr_filt *cocci_id/* drivers/net/ieee802154/cc2520.c 650 */;
+	unsigned long cocci_id/* drivers/net/ieee802154/cc2520.c 650 */;
+	u8 *cocci_id/* drivers/net/ieee802154/cc2520.c 606 */;
+	struct ieee802154_hw *cocci_id/* drivers/net/ieee802154/cc2520.c 606 */;
+	bool cocci_id/* drivers/net/ieee802154/cc2520.c 568 */;
+	struct sk_buff *cocci_id/* drivers/net/ieee802154/cc2520.c 539 */;
+	struct spi_transfer cocci_id/* drivers/net/ieee802154/cc2520.c 222 */;
+	struct spi_message cocci_id/* drivers/net/ieee802154/cc2520.c 221 */;
+	struct cc2520_private {
+		struct spi_device *spi;
+		struct ieee802154_hw *hw;
+		u8 *buf;
+		struct mutex buffer_mutex;
+		bool is_tx;
+		bool amplified;
+		int fifo_pin;
+		struct work_struct fifop_irqwork;
+		spinlock_t lock;
+		struct completion tx_complete;
+		bool promiscuous;
+	} cocci_id/* drivers/net/ieee802154/cc2520.c 202 */;
+	struct spi_driver cocci_id/* drivers/net/ieee802154/cc2520.c 1242 */;
+	const struct of_device_id cocci_id/* drivers/net/ieee802154/cc2520.c 1235 */[];
+	const struct spi_device_id cocci_id/* drivers/net/ieee802154/cc2520.c 1229 */[];
+}

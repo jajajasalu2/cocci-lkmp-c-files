@@ -1,0 +1,132 @@
+cocci_test_suite() {
+	char cocci_id/* drivers/pinctrl/pinctrl-st.c 998 */[16];
+	struct seq_file *cocci_id/* drivers/pinctrl/pinctrl-st.c 992 */;
+	unsigned long *cocci_id/* drivers/pinctrl/pinctrl-st.c 978 */;
+	const struct pinmux_ops cocci_id/* drivers/pinctrl/pinctrl-st.c 929 */;
+	bool cocci_id/* drivers/pinctrl/pinctrl-st.c 914 */;
+	const char *const**cocci_id/* drivers/pinctrl/pinctrl-st.c 887 */;
+	unsigned *constcocci_id/* drivers/pinctrl/pinctrl-st.c 887 */;
+	const struct pinctrl_ops cocci_id/* drivers/pinctrl/pinctrl-st.c 862 */;
+	struct pinctrl_map *cocci_id/* drivers/pinctrl/pinctrl-st.c 858 */;
+	const struct st_pctl_group *cocci_id/* drivers/pinctrl/pinctrl-st.c 811 */;
+	struct pinctrl_map **cocci_id/* drivers/pinctrl/pinctrl-st.c 808 */;
+	unsigned *cocci_id/* drivers/pinctrl/pinctrl-st.c 808 */;
+	const struct st_pinctrl *cocci_id/* drivers/pinctrl/pinctrl-st.c 795 */;
+	const char *cocci_id/* drivers/pinctrl/pinctrl-st.c 795 */;
+	const unsigned **cocci_id/* drivers/pinctrl/pinctrl-st.c 781 */;
+	struct st_pio_control cocci_id/* drivers/pinctrl/pinctrl-st.c 738 */;
+	struct gpio_chip *cocci_id/* drivers/pinctrl/pinctrl-st.c 717 */;
+	unsigned int cocci_id/* drivers/pinctrl/pinctrl-st.c 675 */;
+	unsigned cocci_id/* drivers/pinctrl/pinctrl-st.c 666 */;
+	const unsigned int *cocci_id/* drivers/pinctrl/pinctrl-st.c 484 */;
+	struct pinctrl_gpio_range *cocci_id/* drivers/pinctrl/pinctrl-st.c 365 */;
+	struct pinctrl_dev *cocci_id/* drivers/pinctrl/pinctrl-st.c 363 */;
+	struct st_pio_control *cocci_id/* drivers/pinctrl/pinctrl-st.c 362 */;
+	const struct st_pctl_data cocci_id/* drivers/pinctrl/pinctrl-st.c 340 */;
+	const unsigned int cocci_id/* drivers/pinctrl/pinctrl-st.c 337 */[];
+	struct st_pinctrl {
+		struct device *dev;
+		struct pinctrl_dev *pctl;
+		struct st_gpio_bank *banks;
+		int nbanks;
+		struct st_pmx_func *functions;
+		int nfunctions;
+		struct st_pctl_group *groups;
+		int ngroups;
+		struct regmap *regmap;
+		const struct st_pctl_data *data;
+		void __iomem *irqmux_base;
+	} cocci_id/* drivers/pinctrl/pinctrl-st.c 321 */;
+	struct st_gpio_bank {
+		struct gpio_chip gpio_chip;
+		struct pinctrl_gpio_range range;
+		void __iomem *base;
+		struct st_pio_control pc;
+		unsigned long irq_edge_conf;
+		spinlock_t lock;
+	} cocci_id/* drivers/pinctrl/pinctrl-st.c 312 */;
+	struct st_pctl_group {
+		const char *name;
+		unsigned int *pins;
+		unsigned npins;
+		struct st_pinconf *pin_conf;
+	} cocci_id/* drivers/pinctrl/pinctrl-st.c 260 */;
+	struct st_pmx_func {
+		const char *name;
+		const char **groups;
+		unsigned ngroups;
+	} cocci_id/* drivers/pinctrl/pinctrl-st.c 254 */;
+	struct st_pinconf {
+		int pin;
+		const char *name;
+		unsigned long config;
+		int altfunc;
+	} cocci_id/* drivers/pinctrl/pinctrl-st.c 247 */;
+	struct st_pctl_data {
+		const enum st_retime_style rt_style;
+		const unsigned int *input_delays;
+		const int ninput_delays;
+		const unsigned int *output_delays;
+		const int noutput_delays;
+		const int alt,oe,pu,od,rt;
+	} cocci_id/* drivers/pinctrl/pinctrl-st.c 237 */;
+	struct st_pio_control {
+		u32 rt_pin_mask;
+		struct regmap_field *alt,*oe,*pu,*od;
+		union {
+			struct st_retime_packed rt_p;
+			struct st_retime_dedicated rt_d;
+		} rt;
+	} cocci_id/* drivers/pinctrl/pinctrl-st.c 227 */;
+	struct st_retime_packed {
+		struct regmap_field *clk1notclk0;
+		struct regmap_field *delay_0;
+		struct regmap_field *delay_1;
+		struct regmap_field *invertclk;
+		struct regmap_field *retime;
+		struct regmap_field *clknotdata;
+		struct regmap_field *double_edge;
+	} cocci_id/* drivers/pinctrl/pinctrl-st.c 217 */;
+	struct st_retime_dedicated {
+		struct regmap_field *rt[ST_GPIO_PINS_PER_BANK];
+	} cocci_id/* drivers/pinctrl/pinctrl-st.c 213 */;
+	enum st_retime_style{st_retime_style_none, st_retime_style_packed, st_retime_style_dedicated,} cocci_id/* drivers/pinctrl/pinctrl-st.c 207 */;
+	struct st_gpio_bank cocci_id/* drivers/pinctrl/pinctrl-st.c 202 */;
+	int __init cocci_id/* drivers/pinctrl/pinctrl-st.c 1720 */;
+	struct platform_driver cocci_id/* drivers/pinctrl/pinctrl-st.c 1712 */;
+	struct pinctrl_desc *cocci_id/* drivers/pinctrl/pinctrl-st.c 1672 */;
+	struct platform_device *cocci_id/* drivers/pinctrl/pinctrl-st.c 1669 */;
+	struct resource *cocci_id/* drivers/pinctrl/pinctrl-st.c 1580 */;
+	struct pinctrl_pin_desc *cocci_id/* drivers/pinctrl/pinctrl-st.c 1575 */;
+	const struct of_device_id cocci_id/* drivers/pinctrl/pinctrl-st.c 1562 */[];
+	struct gpio_irq_chip *cocci_id/* drivers/pinctrl/pinctrl-st.c 1524 */;
+	struct resource cocci_id/* drivers/pinctrl/pinctrl-st.c 1479 */;
+	struct device *cocci_id/* drivers/pinctrl/pinctrl-st.c 1477 */;
+	struct device_node *cocci_id/* drivers/pinctrl/pinctrl-st.c 1473 */;
+	struct irq_chip cocci_id/* drivers/pinctrl/pinctrl-st.c 1461 */;
+	const struct gpio_chip cocci_id/* drivers/pinctrl/pinctrl-st.c 1450 */;
+	struct st_pinctrl *cocci_id/* drivers/pinctrl/pinctrl-st.c 1436 */;
+	struct irq_chip *cocci_id/* drivers/pinctrl/pinctrl-st.c 1424 */;
+	struct irq_desc *cocci_id/* drivers/pinctrl/pinctrl-st.c 1421 */;
+	int cocci_id/* drivers/pinctrl/pinctrl-st.c 1383 */;
+	unsigned long cocci_id/* drivers/pinctrl/pinctrl-st.c 1381 */;
+	struct st_gpio_bank *cocci_id/* drivers/pinctrl/pinctrl-st.c 1379 */;
+	void cocci_id/* drivers/pinctrl/pinctrl-st.c 1379 */;
+	u32 cocci_id/* drivers/pinctrl/pinctrl-st.c 1315 */;
+	struct irq_data *cocci_id/* drivers/pinctrl/pinctrl-st.c 1277 */;
+	char *cocci_id/* drivers/pinctrl/pinctrl-st.c 1256 */;
+	struct st_pmx_func *cocci_id/* drivers/pinctrl/pinctrl-st.c 1244 */;
+	int *cocci_id/* drivers/pinctrl/pinctrl-st.c 1241 */;
+	__be32 cocci_id/* drivers/pinctrl/pinctrl-st.c 1182 */;
+	struct st_pinconf *cocci_id/* drivers/pinctrl/pinctrl-st.c 1169 */;
+	struct property *cocci_id/* drivers/pinctrl/pinctrl-st.c 1168 */;
+	const __be32 *cocci_id/* drivers/pinctrl/pinctrl-st.c 1167 */;
+	struct st_pctl_group *cocci_id/* drivers/pinctrl/pinctrl-st.c 1164 */;
+	struct regmap *cocci_id/* drivers/pinctrl/pinctrl-st.c 1144 */;
+	const struct st_pctl_data *cocci_id/* drivers/pinctrl/pinctrl-st.c 1134 */;
+	struct reg_field cocci_id/* drivers/pinctrl/pinctrl-st.c 1123 */;
+	struct regmap_field *cocci_id/* drivers/pinctrl/pinctrl-st.c 1119 */;
+	struct st_retime_dedicated *cocci_id/* drivers/pinctrl/pinctrl-st.c 1090 */;
+	struct st_retime_packed *cocci_id/* drivers/pinctrl/pinctrl-st.c 1054 */;
+	const struct pinconf_ops cocci_id/* drivers/pinctrl/pinctrl-st.c 1026 */;
+}

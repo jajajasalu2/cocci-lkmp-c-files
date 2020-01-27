@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	struct rockchip_pll_rate_table cocci_id/* drivers/clk/rockchip/clk-pll.c 915 */;
+	unsigned int cocci_id/* drivers/clk/rockchip/clk-pll.c 88 */;
+	struct regmap *cocci_id/* drivers/clk/rockchip/clk-pll.c 87 */;
+	char cocci_id/* drivers/clk/rockchip/clk-pll.c 844 */[20];
+	struct clk_mux *cocci_id/* drivers/clk/rockchip/clk-pll.c 842 */;
+	struct rockchip_clk_pll *cocci_id/* drivers/clk/rockchip/clk-pll.c 841 */;
+	struct clk_init_data cocci_id/* drivers/clk/rockchip/clk-pll.c 840 */;
+	const char *cocci_id/* drivers/clk/rockchip/clk-pll.c 839 */[3];
+	unsigned long cocci_id/* drivers/clk/rockchip/clk-pll.c 837 */;
+	struct rockchip_pll_rate_table *cocci_id/* drivers/clk/rockchip/clk-pll.c 836 */;
+	u8 cocci_id/* drivers/clk/rockchip/clk-pll.c 834 */;
+	int cocci_id/* drivers/clk/rockchip/clk-pll.c 834 */;
+	const char *const*cocci_id/* drivers/clk/rockchip/clk-pll.c 833 */;
+	const char *cocci_id/* drivers/clk/rockchip/clk-pll.c 833 */;
+	enum rockchip_pll_type cocci_id/* drivers/clk/rockchip/clk-pll.c 832 */;
+	struct rockchip_clk_provider *cocci_id/* drivers/clk/rockchip/clk-pll.c 831 */;
+	struct clk *cocci_id/* drivers/clk/rockchip/clk-pll.c 831 */;
+	unsigned long *cocci_id/* drivers/clk/rockchip/clk-pll.c 64 */;
+	struct clk_hw *cocci_id/* drivers/clk/rockchip/clk-pll.c 63 */;
+	long cocci_id/* drivers/clk/rockchip/clk-pll.c 63 */;
+	const struct rockchip_pll_rate_table *cocci_id/* drivers/clk/rockchip/clk-pll.c 49 */;
+	struct rockchip_clk_pll cocci_id/* drivers/clk/rockchip/clk-pll.c 45 */;
+	const struct clk_ops cocci_id/* drivers/clk/rockchip/clk-pll.c 331 */;
+	void cocci_id/* drivers/clk/rockchip/clk-pll.c 268 */;
+	struct rockchip_clk_pll {
+		struct clk_hw hw;
+		struct clk_mux pll_mux;
+		const struct clk_ops *pll_mux_ops;
+		struct notifier_block clk_nb;
+		void __iomem *reg_base;
+		int lock_offset;
+		unsigned int lock_shift;
+		enum rockchip_pll_type type;
+		u8 flags;
+		const struct rockchip_pll_rate_table *rate_table;
+		unsigned int rate_count;
+		spinlock_t *lock;
+		struct rockchip_clk_provider *ctx;
+	} cocci_id/* drivers/clk/rockchip/clk-pll.c 25 */;
+	const struct clk_ops *cocci_id/* drivers/clk/rockchip/clk-pll.c 181 */;
+	u64 cocci_id/* drivers/clk/rockchip/clk-pll.c 157 */;
+	u32 cocci_id/* drivers/clk/rockchip/clk-pll.c 131 */;
+}

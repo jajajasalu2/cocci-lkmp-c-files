@@ -1,0 +1,68 @@
+cocci_test_suite() {
+	struct f71805f_data *cocci_id/* drivers/hwmon/f71805f.c 953 */;
+	char *cocci_id/* drivers/hwmon/f71805f.c 951 */;
+	struct device_attribute *cocci_id/* drivers/hwmon/f71805f.c 950 */;
+	struct device *cocci_id/* drivers/hwmon/f71805f.c 950 */;
+	ssize_t cocci_id/* drivers/hwmon/f71805f.c 950 */;
+	struct sensor_device_attribute_2 *cocci_id/* drivers/hwmon/f71805f.c 840 */;
+	struct attribute *cocci_id/* drivers/hwmon/f71805f.c 712 */[];
+	struct sensor_device_attribute *cocci_id/* drivers/hwmon/f71805f.c 597 */;
+	const char *cocci_id/* drivers/hwmon/f71805f.c 594 */;
+	size_t cocci_id/* drivers/hwmon/f71805f.c 594 */;
+	enum kinds{f71805f, f71872f,} cocci_id/* drivers/hwmon/f71805f.c 41 */;
+	long cocci_id/* drivers/hwmon/f71805f.c 227 */;
+	struct f71805f_sio_data {
+		enum kinds kind;
+		u8 fnsel1;
+	} cocci_id/* drivers/hwmon/f71805f.c 191 */;
+	void __exit cocci_id/* drivers/hwmon/f71805f.c 1638 */;
+	void cocci_id/* drivers/hwmon/f71805f.c 1638 */;
+	struct f71805f_data {
+		unsigned short addr;
+		const char *name;
+		struct device *hwmon_dev;
+		struct mutex update_lock;
+		char valid;
+		unsigned long last_updated;
+		unsigned long last_limits;
+		u8 in[11];
+		u8 in_high[11];
+		u8 in_low[11];
+		u16 has_in;
+		u16 fan[3];
+		u16 fan_low[3];
+		u16 fan_target[3];
+		u8 fan_ctrl[3];
+		u8 pwm[3];
+		u8 pwm_freq[3];
+		u8 temp[3];
+		u8 temp_high[3];
+		u8 temp_hyst[3];
+		u8 temp_mode;
+		unsigned long alarms;
+		struct f71805f_auto_point auto_points[3];
+	} cocci_id/* drivers/hwmon/f71805f.c 162 */;
+	struct f71805f_auto_point {
+		u8 temp[3];
+		u16 fan[3];
+	} cocci_id/* drivers/hwmon/f71805f.c 157 */;
+	const char *const cocci_id/* drivers/hwmon/f71805f.c 1560 */[];
+	u16 cocci_id/* drivers/hwmon/f71805f.c 1558 */;
+	struct f71805f_sio_data *cocci_id/* drivers/hwmon/f71805f.c 1555 */;
+	unsigned short *cocci_id/* drivers/hwmon/f71805f.c 1554 */;
+	struct f71805f_sio_data cocci_id/* drivers/hwmon/f71805f.c 1534 */;
+	int cocci_id/* drivers/hwmon/f71805f.c 1513 */;
+	struct resource cocci_id/* drivers/hwmon/f71805f.c 1508 */;
+	const struct f71805f_sio_data *cocci_id/* drivers/hwmon/f71805f.c 1506 */;
+	unsigned short cocci_id/* drivers/hwmon/f71805f.c 1505 */;
+	int __init cocci_id/* drivers/hwmon/f71805f.c 1505 */;
+	struct platform_driver cocci_id/* drivers/hwmon/f71805f.c 1497 */;
+	unsigned long cocci_id/* drivers/hwmon/f71805f.c 1390 */;
+	struct f71805f_data cocci_id/* drivers/hwmon/f71805f.c 1381 */;
+	struct resource *cocci_id/* drivers/hwmon/f71805f.c 1373 */;
+	struct platform_device *cocci_id/* drivers/hwmon/f71805f.c 1369 */;
+	u8 cocci_id/* drivers/hwmon/f71805f.c 1341 */;
+	const struct attribute_group cocci_id/* drivers/hwmon/f71805f.c 1306 */[4];
+	struct attribute *cocci_id/* drivers/hwmon/f71805f.c 1278 */[4][5];
+	const struct attribute_group cocci_id/* drivers/hwmon/f71805f.c 1274 */;
+}

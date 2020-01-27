@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	struct ql_mpi_coredump cocci_id/* drivers/staging/qlge/qlge_dbg.c 747 */;
+	struct mpi_coredump_global_header cocci_id/* drivers/staging/qlge/qlge_dbg.c 742 */;
+	struct ql_mpi_coredump *cocci_id/* drivers/staging/qlge/qlge_dbg.c 717 */;
+	struct ql_adapter *cocci_id/* drivers/staging/qlge/qlge_dbg.c 717 */;
+	int cocci_id/* drivers/staging/qlge/qlge_dbg.c 717 */;
+	struct mpi_coredump_segment_header cocci_id/* drivers/staging/qlge/qlge_dbg.c 703 */;
+	u32 cocci_id/* drivers/staging/qlge/qlge_dbg.c 701 */;
+	u8 *cocci_id/* drivers/staging/qlge/qlge_dbg.c 701 */;
+	struct mpi_coredump_segment_header *cocci_id/* drivers/staging/qlge/qlge_dbg.c 700 */;
+	void cocci_id/* drivers/staging/qlge/qlge_dbg.c 699 */;
+	unsigned int *cocci_id/* drivers/staging/qlge/qlge_dbg.c 511 */;
+	struct cqicb *cocci_id/* drivers/staging/qlge/qlge_dbg.c 2020 */;
+	struct wqicb *cocci_id/* drivers/staging/qlge/qlge_dbg.c 2016 */;
+	struct ib_mac_iocb_rsp *cocci_id/* drivers/staging/qlge/qlge_dbg.c 1926 */;
+	struct ob_mac_iocb_rsp *cocci_id/* drivers/staging/qlge/qlge_dbg.c 1909 */;
+	struct tx_buf_desc *cocci_id/* drivers/staging/qlge/qlge_dbg.c 1867 */;
+	struct ob_mac_tso_iocb_req *cocci_id/* drivers/staging/qlge/qlge_dbg.c 1865 */;
+	struct ob_mac_iocb_req *cocci_id/* drivers/staging/qlge/qlge_dbg.c 1863 */;
+	u64 cocci_id/* drivers/staging/qlge/qlge_dbg.c 1838 */;
+	struct ricb *cocci_id/* drivers/staging/qlge/qlge_dbg.c 1823 */;
+	void *cocci_id/* drivers/staging/qlge/qlge_dbg.c 1803 */;
+	u16 cocci_id/* drivers/staging/qlge/qlge_dbg.c 1801 */;
+	struct rx_ring *cocci_id/* drivers/staging/qlge/qlge_dbg.c 1742 */;
+	const char *cocci_id/* drivers/staging/qlge/qlge_dbg.c 1732 */;
+	unsigned long long cocci_id/* drivers/staging/qlge/qlge_dbg.c 1711 */;
+	struct tx_ring *cocci_id/* drivers/staging/qlge/qlge_dbg.c 1650 */;
+	unsigned long cocci_id/* drivers/staging/qlge/qlge_dbg.c 1530 */;
+	u32 cocci_id/* drivers/staging/qlge/qlge_dbg.c 1406 */[3];
+	struct ql_adapter cocci_id/* drivers/staging/qlge/qlge_dbg.c 1328 */;
+	struct work_struct *cocci_id/* drivers/staging/qlge/qlge_dbg.c 1325 */;
+	struct ql_reg_dump cocci_id/* drivers/staging/qlge/qlge_dbg.c 1237 */;
+	struct ql_reg_dump *cocci_id/* drivers/staging/qlge/qlge_dbg.c 1226 */;
+	unsigned int cocci_id/* drivers/staging/qlge/qlge_dbg.c 117 */;
+	bool cocci_id/* drivers/staging/qlge/qlge_dbg.c 115 */;
+	u32 *cocci_id/* drivers/staging/qlge/qlge_dbg.c 114 */;
+}

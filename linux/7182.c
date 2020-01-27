@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	enum max8997_muic_charger_type{MAX8997_CHARGER_TYPE_NONE=0, MAX8997_CHARGER_TYPE_USB, MAX8997_CHARGER_TYPE_DOWNSTREAM_PORT, MAX8997_CHARGER_TYPE_DEDICATED_CHG, MAX8997_CHARGER_TYPE_500MA, MAX8997_CHARGER_TYPE_1A, MAX8997_CHARGER_TYPE_DEAD_BATTERY=7,} cocci_id/* drivers/extcon/extcon-max8997.c 97 */;
+	enum max8997_muic_usb_type{MAX8997_USB_HOST, MAX8997_USB_DEVICE,} cocci_id/* drivers/extcon/extcon-max8997.c 92 */;
+	enum max8997_muic_cable_group{MAX8997_CABLE_GROUP_ADC=0, MAX8997_CABLE_GROUP_ADC_GND, MAX8997_CABLE_GROUP_CHG, MAX8997_CABLE_GROUP_VBVOLT,} cocci_id/* drivers/extcon/extcon-max8997.c 85 */;
+	struct platform_driver cocci_id/* drivers/extcon/extcon-max8997.c 774 */;
+	struct max8997_muic_platform_data *cocci_id/* drivers/extcon/extcon-max8997.c 688 */;
+	unsigned int cocci_id/* drivers/extcon/extcon-max8997.c 652 */;
+	struct max8997_muic_irq *cocci_id/* drivers/extcon/extcon-max8997.c 651 */;
+	struct max8997_platform_data *cocci_id/* drivers/extcon/extcon-max8997.c 630 */;
+	struct max8997_dev *cocci_id/* drivers/extcon/extcon-max8997.c 629 */;
+	struct platform_device *cocci_id/* drivers/extcon/extcon-max8997.c 627 */;
+	struct max8997_muic_info cocci_id/* drivers/extcon/extcon-max8997.c 619 */;
+	struct work_struct *cocci_id/* drivers/extcon/extcon-max8997.c 616 */;
+	void cocci_id/* drivers/extcon/extcon-max8997.c 616 */;
+	irqreturn_t cocci_id/* drivers/extcon/extcon-max8997.c 559 */;
+	void *cocci_id/* drivers/extcon/extcon-max8997.c 559 */;
+	enum max8997_muic_acc_type{MAX8997_MUIC_ADC_GROUND=0x0, MAX8997_MUIC_ADC_MHL, MAX8997_MUIC_ADC_REMOTE_S1_BUTTON, MAX8997_MUIC_ADC_REMOTE_S2_BUTTON, MAX8997_MUIC_ADC_REMOTE_S3_BUTTON, MAX8997_MUIC_ADC_REMOTE_S4_BUTTON, MAX8997_MUIC_ADC_REMOTE_S5_BUTTON, MAX8997_MUIC_ADC_REMOTE_S6_BUTTON, MAX8997_MUIC_ADC_REMOTE_S7_BUTTON, MAX8997_MUIC_ADC_REMOTE_S8_BUTTON, MAX8997_MUIC_ADC_REMOTE_S9_BUTTON, MAX8997_MUIC_ADC_REMOTE_S10_BUTTON, MAX8997_MUIC_ADC_REMOTE_S11_BUTTON, MAX8997_MUIC_ADC_REMOTE_S12_BUTTON, MAX8997_MUIC_ADC_RESERVED_ACC_1, MAX8997_MUIC_ADC_RESERVED_ACC_2, MAX8997_MUIC_ADC_RESERVED_ACC_3, MAX8997_MUIC_ADC_RESERVED_ACC_4, MAX8997_MUIC_ADC_RESERVED_ACC_5, MAX8997_MUIC_ADC_CEA936_AUDIO, MAX8997_MUIC_ADC_PHONE_POWERED_DEV, MAX8997_MUIC_ADC_TTY_CONVERTER, MAX8997_MUIC_ADC_UART_CABLE, MAX8997_MUIC_ADC_CEA936A_TYPE1_CHG, MAX8997_MUIC_ADC_FACTORY_MODE_USB_OFF, MAX8997_MUIC_ADC_FACTORY_MODE_USB_ON, MAX8997_MUIC_ADC_AV_CABLE_NOLOAD, MAX8997_MUIC_ADC_CEA936A_TYPE2_CHG, MAX8997_MUIC_ADC_FACTORY_MODE_UART_OFF, MAX8997_MUIC_ADC_FACTORY_MODE_UART_ON, MAX8997_MUIC_ADC_AUDIO_MODE_REMOTE, MAX8997_MUIC_ADC_OPEN,} cocci_id/* drivers/extcon/extcon-max8997.c 50 */;
+	bool cocci_id/* drivers/extcon/extcon-max8997.c 383 */;
+	struct max8997_muic_info *cocci_id/* drivers/extcon/extcon-max8997.c 380 */;
+	int cocci_id/* drivers/extcon/extcon-max8997.c 380 */;
+	struct max8997_muic_irq cocci_id/* drivers/extcon/extcon-max8997.c 37 */[];
+	enum max8997_muic_usb_type cocci_id/* drivers/extcon/extcon-max8997.c 310 */;
+	struct max8997_muic_irq {
+		unsigned int irq;
+		const char *name;
+		unsigned int virq;
+	} cocci_id/* drivers/extcon/extcon-max8997.c 31 */;
+	enum max8997_muic_cable_group cocci_id/* drivers/extcon/extcon-max8997.c 244 */;
+	bool *cocci_id/* drivers/extcon/extcon-max8997.c 244 */;
+	enum max8997_muic_adc_debounce_time{ADC_DEBOUNCE_TIME_0_5MS=0, ADC_DEBOUNCE_TIME_10MS, ADC_DEBOUNCE_TIME_25MS, ADC_DEBOUNCE_TIME_38_62MS,} cocci_id/* drivers/extcon/extcon-max8997.c 24 */;
+	u8 cocci_id/* drivers/extcon/extcon-max8997.c 195 */;
+	enum max8997_muic_adc_debounce_time cocci_id/* drivers/extcon/extcon-max8997.c 158 */;
+	const unsigned int cocci_id/* drivers/extcon/extcon-max8997.c 138 */[];
+	struct max8997_muic_info {
+		struct device *dev;
+		struct i2c_client *muic;
+		struct extcon_dev *edev;
+		int prev_cable_type;
+		int prev_chg_type;
+		u8 status[2];
+		int irq;
+		struct work_struct irq_work;
+		struct mutex mutex;
+		struct max8997_muic_platform_data *muic_pdata;
+		enum max8997_muic_charger_type pre_charger_type;
+		struct delayed_work wq_detcable;
+		int path_usb;
+		int path_uart;
+	} cocci_id/* drivers/extcon/extcon-max8997.c 107 */;
+}

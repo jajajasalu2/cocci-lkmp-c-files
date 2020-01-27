@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/rtc/rtc-sun6i.c 743 */;
+	const struct of_device_id cocci_id/* drivers/rtc/rtc-sun6i.c 731 */[];
+	struct platform_device *cocci_id/* drivers/rtc/rtc-sun6i.c 662 */;
+	const struct rtc_class_ops cocci_id/* drivers/rtc/rtc-sun6i.c 627 */;
+	struct device *cocci_id/* drivers/rtc/rtc-sun6i.c 617 */;
+	unsigned int cocci_id/* drivers/rtc/rtc-sun6i.c 617 */;
+	int cocci_id/* drivers/rtc/rtc-sun6i.c 617 */;
+	const unsigned long cocci_id/* drivers/rtc/rtc-sun6i.c 536 */;
+	struct rtc_time cocci_id/* drivers/rtc/rtc-sun6i.c 495 */;
+	unsigned long cocci_id/* drivers/rtc/rtc-sun6i.c 475 */;
+	struct rtc_wkalrm *cocci_id/* drivers/rtc/rtc-sun6i.c 472 */;
+	struct rtc_time *cocci_id/* drivers/rtc/rtc-sun6i.c 439 */;
+	void cocci_id/* drivers/rtc/rtc-sun6i.c 416 */;
+	u32 cocci_id/* drivers/rtc/rtc-sun6i.c 398 */;
+	irqreturn_t cocci_id/* drivers/rtc/rtc-sun6i.c 394 */;
+	void *cocci_id/* drivers/rtc/rtc-sun6i.c 394 */;
+	struct device_node *cocci_id/* drivers/rtc/rtc-sun6i.c 375 */;
+	void __init cocci_id/* drivers/rtc/rtc-sun6i.c 375 */;
+	const struct sun6i_rtc_clk_data cocci_id/* drivers/rtc/rtc-sun6i.c 365 */;
+	const char *cocci_id/* drivers/rtc/rtc-sun6i.c 224 */[2];
+	const char *cocci_id/* drivers/rtc/rtc-sun6i.c 222 */;
+	struct clk_init_data cocci_id/* drivers/rtc/rtc-sun6i.c 218 */;
+	struct clk_hw_onecell_data *cocci_id/* drivers/rtc/rtc-sun6i.c 216 */;
+	const struct sun6i_rtc_clk_data *cocci_id/* drivers/rtc/rtc-sun6i.c 214 */;
+	const struct clk_ops cocci_id/* drivers/rtc/rtc-sun6i.c 206 */;
+	struct sun6i_rtc_dev cocci_id/* drivers/rtc/rtc-sun6i.c 177 */;
+	u8 cocci_id/* drivers/rtc/rtc-sun6i.c 175 */;
+	struct clk_hw *cocci_id/* drivers/rtc/rtc-sun6i.c 175 */;
+	struct sun6i_rtc_dev *cocci_id/* drivers/rtc/rtc-sun6i.c 152 */;
+	struct sun6i_rtc_dev {
+		struct rtc_device *rtc;
+		const struct sun6i_rtc_clk_data *data;
+		void __iomem *base;
+		int irq;
+		unsigned long alarm;
+		struct clk_hw hw;
+		struct clk_hw *int_osc;
+		struct clk *losc;
+		struct clk *ext_losc;
+		spinlock_t lock;
+	} cocci_id/* drivers/rtc/rtc-sun6i.c 137 */;
+	struct sun6i_rtc_clk_data {
+		unsigned long rc_osc_rate;
+		unsigned int fixed_prescaler:16;
+		unsigned int has_prescaler:1;
+		unsigned int has_out_clk:1;
+		unsigned int export_iosc:1;
+		unsigned int has_losc_en:1;
+		unsigned int has_auto_swt:1;
+	} cocci_id/* drivers/rtc/rtc-sun6i.c 127 */;
+}

@@ -1,0 +1,58 @@
+cocci_test_suite() {
+	bool cocci_id/* sound/pci/als300.c 99 */;
+	bool cocci_id/* sound/pci/als300.c 93 */[SNDRV_CARDS];
+	char *cocci_id/* sound/pci/als300.c 92 */[SNDRV_CARDS];
+	int cocci_id/* sound/pci/als300.c 91 */[SNDRV_CARDS];
+	enum{DEVICE_ALS300, DEVICE_ALS300_PLUS,} cocci_id/* sound/pci/als300.c 84 */;
+	struct pci_driver cocci_id/* sound/pci/als300.c 793 */;
+	const struct pci_device_id *cocci_id/* sound/pci/als300.c 745 */;
+	struct device *cocci_id/* sound/pci/als300.c 726 */;
+	struct snd_device_ops cocci_id/* sound/pci/als300.c 641 */;
+	void *cocci_id/* sound/pci/als300.c 638 */;
+	struct snd_als300 **cocci_id/* sound/pci/als300.c 635 */;
+	struct pci_dev *cocci_id/* sound/pci/als300.c 634 */;
+	struct snd_card *cocci_id/* sound/pci/als300.c 633 */;
+	struct snd_pcm *cocci_id/* sound/pci/als300.c 577 */;
+	const struct snd_pcm_ops cocci_id/* sound/pci/als300.c 564 */;
+	u16 cocci_id/* sound/pci/als300.c 530 */;
+	snd_pcm_uframes_t cocci_id/* sound/pci/als300.c 528 */;
+	u32 cocci_id/* sound/pci/als300.c 457 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/pci/als300.c 415 */;
+	struct snd_als300_substream_data *cocci_id/* sound/pci/als300.c 405 */;
+	struct snd_pcm_substream *cocci_id/* sound/pci/als300.c 402 */;
+	struct snd_pcm_runtime *cocci_id/* sound/pci/als300.c 388 */;
+	const struct snd_pcm_hardware cocci_id/* sound/pci/als300.c 337 */;
+	struct snd_ac97_bus_ops cocci_id/* sound/pci/als300.c 297 */;
+	struct snd_ac97_template cocci_id/* sound/pci/als300.c 295 */;
+	struct snd_ac97_bus *cocci_id/* sound/pci/als300.c 294 */;
+	struct snd_als300 *cocci_id/* sound/pci/als300.c 292 */;
+	int cocci_id/* sound/pci/als300.c 292 */;
+	void cocci_id/* sound/pci/als300.c 278 */;
+	struct snd_ac97 *cocci_id/* sound/pci/als300.c 257 */;
+	unsigned short cocci_id/* sound/pci/als300.c 257 */;
+	u8 cocci_id/* sound/pci/als300.c 186 */;
+	irqreturn_t cocci_id/* sound/pci/als300.c 184 */;
+	struct snd_device *cocci_id/* sound/pci/als300.c 178 */;
+	unsigned long cocci_id/* sound/pci/als300.c 138 */;
+	const struct pci_device_id cocci_id/* sound/pci/als300.c 130 */[];
+	struct snd_als300_substream_data {
+		int period_flipflop;
+		int control_register;
+		int block_counter_register;
+	} cocci_id/* sound/pci/als300.c 124 */;
+	struct snd_als300 {
+		unsigned long port;
+		spinlock_t reg_lock;
+		struct snd_card *card;
+		struct pci_dev *pci;
+		struct snd_pcm *pcm;
+		struct snd_pcm_substream *playback_substream;
+		struct snd_pcm_substream *capture_substream;
+		struct snd_ac97 *ac97;
+		struct snd_opl3 *opl3;
+		struct resource *res_port;
+		int irq;
+		int chip_type;
+		char revision;
+	} cocci_id/* sound/pci/als300.c 102 */;
+}

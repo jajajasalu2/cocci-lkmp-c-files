@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct ib_uqp_object *cocci_id/* drivers/infiniband/core/uverbs_std_types.c 83 */;
+	struct ib_mw *cocci_id/* drivers/infiniband/core/uverbs_std_types.c 75 */;
+	struct ib_qp *cocci_id/* drivers/infiniband/core/uverbs_std_types.c 58 */;
+	struct ib_uflow_object *cocci_id/* drivers/infiniband/core/uverbs_std_types.c 56 */;
+	struct ib_flow *cocci_id/* drivers/infiniband/core/uverbs_std_types.c 55 */;
+	struct ib_ah *cocci_id/* drivers/infiniband/core/uverbs_std_types.c 46 */;
+	enum rdma_remove_reason cocci_id/* drivers/infiniband/core/uverbs_std_types.c 43 */;
+	struct ib_uobject *cocci_id/* drivers/infiniband/core/uverbs_std_types.c 42 */;
+	const struct uapi_definition cocci_id/* drivers/infiniband/core/uverbs_std_types.c 321 */[];
+	struct ib_uxrcd_object cocci_id/* drivers/infiniband/core/uverbs_std_types.c 306 */;
+	struct ib_uwq_object cocci_id/* drivers/infiniband/core/uverbs_std_types.c 284 */;
+	struct ib_uflow_object cocci_id/* drivers/infiniband/core/uverbs_std_types.c 278 */;
+	struct ib_usrq_object cocci_id/* drivers/infiniband/core/uverbs_std_types.c 255 */;
+	struct ib_uqp_object cocci_id/* drivers/infiniband/core/uverbs_std_types.c 240 */;
+	struct ib_uverbs_completion_event_file cocci_id/* drivers/infiniband/core/uverbs_std_types.c 232 */;
+	struct uverbs_attr_bundle *cocci_id/* drivers/infiniband/core/uverbs_std_types.c 224 */;
+	int cocci_id/* drivers/infiniband/core/uverbs_std_types.c 224 */;
+	struct ib_uverbs_event_queue *cocci_id/* drivers/infiniband/core/uverbs_std_types.c 211 */;
+	struct ib_uverbs_completion_event_file *cocci_id/* drivers/infiniband/core/uverbs_std_types.c 208 */;
+	struct ib_pd *cocci_id/* drivers/infiniband/core/uverbs_std_types.c 194 */;
+	struct ib_uxrcd_object *cocci_id/* drivers/infiniband/core/uverbs_std_types.c 175 */;
+	struct ib_xrcd *cocci_id/* drivers/infiniband/core/uverbs_std_types.c 174 */;
+	struct ib_usrq_object *cocci_id/* drivers/infiniband/core/uverbs_std_types.c 160 */;
+	enum ib_srq_type cocci_id/* drivers/infiniband/core/uverbs_std_types.c 152 */;
+	struct ib_uevent_object cocci_id/* drivers/infiniband/core/uverbs_std_types.c 151 */;
+	struct ib_uevent_object *cocci_id/* drivers/infiniband/core/uverbs_std_types.c 150 */;
+	struct ib_srq *cocci_id/* drivers/infiniband/core/uverbs_std_types.c 149 */;
+	struct ib_uwq_object *cocci_id/* drivers/infiniband/core/uverbs_std_types.c 133 */;
+	struct ib_wq *cocci_id/* drivers/infiniband/core/uverbs_std_types.c 132 */;
+	struct ib_wq **cocci_id/* drivers/infiniband/core/uverbs_std_types.c 117 */;
+	struct ib_rwq_ind_table *cocci_id/* drivers/infiniband/core/uverbs_std_types.c 116 */;
+}

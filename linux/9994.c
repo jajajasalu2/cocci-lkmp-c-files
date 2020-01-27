@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	u8 *cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 93 */;
+	struct spi_transfer cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 73 */[3];
+	const void *cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 71 */;
+	struct spi_driver cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 692 */;
+	unsigned long cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 520 */;
+	struct ieee80211_hw *cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 517 */;
+	__le16 cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 50 */;
+	struct spi_message cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 49 */;
+	struct p54s_priv cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 480 */;
+	struct spi_transfer cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 48 */[2];
+	struct work_struct *cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 478 */;
+	struct p54s_tx_info *cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 466 */;
+	struct p54_tx_info *cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 465 */;
+	struct ieee80211_tx_info *cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 464 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 461 */;
+	size_t cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 46 */;
+	struct sk_buff cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 446 */;
+	struct ieee80211_tx_info cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 444 */;
+	struct p54_tx_info cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 442 */;
+	struct p54s_tx_info cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 434 */;
+	int cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 41 */;
+	struct p54_hdr *cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 394 */;
+	struct spi_device *cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 384 */;
+	irqreturn_t cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 382 */;
+	void *cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 382 */;
+	u16 cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 330 */[2];
+	u16 cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 329 */;
+	u32 cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 279 */;
+	struct p54s_priv *cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 279 */;
+	void cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 279 */;
+	long cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 228 */;
+	unsigned int cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 205 */;
+	const struct firmware *cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 177 */;
+	__le32 cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 105 */;
+	u8 cocci_id/* drivers/net/wireless/intersil/p54/p54spi.c 103 */;
+}

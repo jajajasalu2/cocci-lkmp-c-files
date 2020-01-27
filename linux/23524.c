@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 816 */;
+	const struct platform_device_id cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 811 */[];
+	struct snd_kcontrol *cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 80 */;
+	struct snd_soc_dapm_widget *cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 79 */;
+	struct snd_soc_acpi_mach *cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 763 */;
+	struct kbl_codec_private *cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 762 */;
+	struct platform_device *cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 760 */;
+	int cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 760 */;
+	char cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 714 */[NAME_SIZE];
+	struct snd_soc_component *cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 712 */;
+	struct kbl_hdmi_pcm *cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 711 */;
+	const struct snd_kcontrol_new cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 71 */[];
+	struct snd_soc_card *cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 708 */;
+	enum snd_soc_bias_level cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 660 */;
+	enum{KBL_DPCM_AUDIO_PB=0, KBL_DPCM_AUDIO_CP, KBL_DPCM_AUDIO_HS_PB, KBL_DPCM_AUDIO_ECHO_REF_CP, KBL_DPCM_AUDIO_DMIC_CP, KBL_DPCM_AUDIO_RT5514_DSP, KBL_DPCM_AUDIO_HDMI1_PB, KBL_DPCM_AUDIO_HDMI2_PB,} cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 60 */;
+	struct snd_soc_dai_link cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 532 */[];
+	struct kbl_codec_private {
+		struct snd_soc_jack kabylake_headset;
+		struct list_head hdmi_pcm_list;
+		struct snd_soc_jack kabylake_hdmi[2];
+		struct clk *mclk;
+		struct clk *sclk;
+	} cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 52 */;
+	struct snd_soc_ops cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 475 */;
+	struct snd_pcm_runtime *cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 462 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 460 */;
+	struct kbl_hdmi_pcm {
+		struct list_head head;
+		struct snd_soc_dai *codec_dai;
+		int device;
+	} cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 46 */;
+	const struct snd_pcm_hw_constraint_list *cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 44 */;
+	struct snd_soc_card cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 43 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 372 */;
+	struct snd_soc_dai_link *cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 341 */;
+	struct snd_soc_dpcm cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 340 */;
+	struct snd_soc_dpcm *cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 339 */;
+	struct snd_mask *cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 338 */;
+	struct snd_interval *cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 334 */;
+	const struct snd_soc_ops cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 327 */;
+	const struct snd_pcm_hw_constraint_list cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 297 */;
+	const unsigned int cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 293 */[];
+	struct snd_soc_pcm_runtime *cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 273 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 258 */;
+	struct snd_soc_jack *cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 225 */;
+	struct snd_soc_dapm_context *cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 208 */;
+	struct snd_soc_codec_conf cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 194 */[];
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 148 */[];
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/intel/boards/kbl_rt5663_rt5514_max98927.c 134 */[];
+}

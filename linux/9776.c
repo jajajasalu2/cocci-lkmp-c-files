@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct il3945_tpt_entry *cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 89 */;
+	struct il3945_sta_priv *cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 886 */;
+	struct ieee80211_sta *cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 885 */;
+	struct ieee80211_hw *cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 879 */;
+	const struct rate_control_ops cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 863 */;
+	struct cfg80211_chan_def *cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 858 */;
+	struct il3945_rs_sta *cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 844 */;
+	struct dentry *cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 842 */;
+	void *cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 842 */;
+	void cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 841 */;
+	const struct file_operations cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 835 */;
+	char *cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 807 */;
+	loff_t *cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 805 */;
+	size_t cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 805 */;
+	struct file *cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 804 */;
+	char __user *cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 804 */;
+	ssize_t cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 803 */;
+	struct ieee80211_tx_info *cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 624 */;
+	s8 cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 619 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 608 */;
+	struct ieee80211_supported_band *cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 607 */;
+	struct ieee80211_tx_rate_control *cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 605 */;
+	enum nl80211_band cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 525 */;
+	u8 cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 524 */;
+	u16 cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 523 */;
+	struct il3945_tpt_entry cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 49 */[];
+	struct il3945_tpt_entry {
+		s8 min_rssi;
+		u8 idx;
+	} cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 44 */;
+	gfp_t cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 389 */;
+	s32 cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 36 */[RATE_COUNT_3945];
+	struct ieee80211_conf *cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 322 */;
+	s32 cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 245 */;
+	u32 cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 175 */;
+	unsigned long cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 174 */;
+	int cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 173 */;
+	struct il_priv *cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 172 */;
+	struct timer_list *cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 169 */;
+	struct il3945_rate_scale_data *cocci_id/* drivers/net/wireless/intel/iwlegacy/3945-rs.c 117 */;
+}

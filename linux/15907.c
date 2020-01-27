@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/staging/isdn/avm/b1.c 814 */;
+	char cocci_id/* drivers/staging/isdn/avm/b1.c 798 */[32];
+	int __init cocci_id/* drivers/staging/isdn/avm/b1.c 795 */;
+	void cocci_id/* drivers/staging/isdn/avm/b1.c 762 */;
+	avmcard_dmainfo cocci_id/* drivers/staging/isdn/avm/b1.c 727 */;
+	void *cocci_id/* drivers/staging/isdn/avm/b1.c 725 */;
+	struct pci_dev *cocci_id/* drivers/staging/isdn/avm/b1.c 722 */;
+	char *cocci_id/* drivers/staging/isdn/avm/b1.c 722 */;
+	long cocci_id/* drivers/staging/isdn/avm/b1.c 722 */;
+	avmcard_dmainfo *cocci_id/* drivers/staging/isdn/avm/b1.c 721 */;
+	avmctrl_info *cocci_id/* drivers/staging/isdn/avm/b1.c 68 */;
+	avmcard *cocci_id/* drivers/staging/isdn/avm/b1.c 65 */;
+	int cocci_id/* drivers/staging/isdn/avm/b1.c 65 */;
+	struct seq_file *cocci_id/* drivers/staging/isdn/avm/b1.c 647 */;
+	unsigned long cocci_id/* drivers/staging/isdn/avm/b1.c 506 */;
+	unsigned cocci_id/* drivers/staging/isdn/avm/b1.c 501 */;
+	struct sk_buff *cocci_id/* drivers/staging/isdn/avm/b1.c 499 */;
+	unsigned char cocci_id/* drivers/staging/isdn/avm/b1.c 498 */;
+	struct capi_ctr *cocci_id/* drivers/staging/isdn/avm/b1.c 497 */;
+	irqreturn_t cocci_id/* drivers/staging/isdn/avm/b1.c 493 */;
+	int cocci_id/* drivers/staging/isdn/avm/b1.c 44 */[16];
+	capi_profile cocci_id/* drivers/staging/isdn/avm/b1.c 436 */;
+	u8 cocci_id/* drivers/staging/isdn/avm/b1.c 425 */;
+	u8 *cocci_id/* drivers/staging/isdn/avm/b1.c 424 */;
+	capi_profile *cocci_id/* drivers/staging/isdn/avm/b1.c 423 */;
+	capi_register_params *cocci_id/* drivers/staging/isdn/avm/b1.c 344 */;
+	u16 cocci_id/* drivers/staging/isdn/avm/b1.c 343 */;
+	capiloaddata *cocci_id/* drivers/staging/isdn/avm/b1.c 279 */;
+	unsigned char *cocci_id/* drivers/staging/isdn/avm/b1.c 197 */;
+	unsigned char cocci_id/* drivers/staging/isdn/avm/b1.c 196 */[FWBUF_SIZE];
+	capiloaddatapart *cocci_id/* drivers/staging/isdn/avm/b1.c 194 */;
+	enum avmcardtype cocci_id/* drivers/staging/isdn/avm/b1.c 102 */;
+	unsigned int cocci_id/* drivers/staging/isdn/avm/b1.c 102 */;
+}

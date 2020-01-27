@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	union acpi_object *cocci_id/* drivers/acpi/processor_idle.c 977 */;
+	struct acpi_buffer cocci_id/* drivers/acpi/processor_idle.c 976 */;
+	struct acpi_lpi_states_array *cocci_id/* drivers/acpi/processor_idle.c 971 */;
+	acpi_handle cocci_id/* drivers/acpi/processor_idle.c 970 */;
+	u32 *cocci_id/* drivers/acpi/processor_idle.c 961 */;
+	struct acpi_lpi_states_array {
+		unsigned int size;
+		unsigned int composite_states_size;
+		struct acpi_lpi_state *entries;
+		struct acpi_lpi_state *composite_states[ACPI_PROCESSOR_MAX_POWER];
+	} cocci_id/* drivers/acpi/processor_idle.c 954 */;
+	acpi_status cocci_id/* drivers/acpi/processor_idle.c 912 */;
+	const struct dmi_system_id cocci_id/* drivers/acpi/processor_idle.c 87 */[];
+	struct cpuidle_state *cocci_id/* drivers/acpi/processor_idle.c 856 */;
+	long cocci_id/* drivers/acpi/processor_idle.c 80 */;
+	struct cpuidle_driver *cocci_id/* drivers/acpi/processor_idle.c 764 */;
+	struct cpuidle_device *cocci_id/* drivers/acpi/processor_idle.c 763 */;
+	const struct dmi_system_id *cocci_id/* drivers/acpi/processor_idle.c 73 */;
+	bool cocci_id/* drivers/acpi/processor_idle.c 720 */;
+	struct acpi_processor_cx *cocci_id/* drivers/acpi/processor_idle.c 664 */;
+	void __cpuidle cocci_id/* drivers/acpi/processor_idle.c 664 */;
+	u32 cocci_id/* drivers/acpi/processor_idle.c 624 */;
+	int cocci_id/* drivers/acpi/processor_idle.c 622 */;
+	struct cpuidle_driver cocci_id/* drivers/acpi/processor_idle.c 52 */;
+	struct acpi_processor_cx cocci_id/* drivers/acpi/processor_idle.c 345 */;
+	u64 cocci_id/* drivers/acpi/processor_idle.c 303 */;
+	struct acpi_processor *cocci_id/* drivers/acpi/processor_idle.c 149 */;
+	void *cocci_id/* drivers/acpi/processor_idle.c 147 */;
+	void cocci_id/* drivers/acpi/processor_idle.c 147 */;
+	u8 cocci_id/* drivers/acpi/processor_idle.c 128 */;
+	struct acpi_processor_power *cocci_id/* drivers/acpi/processor_idle.c 127 */;
+	struct acpi_lpi_state *cocci_id/* drivers/acpi/processor_idle.c 1254 */;
+	int __weak cocci_id/* drivers/acpi/processor_idle.c 1237 */;
+	unsigned int cocci_id/* drivers/acpi/processor_idle.c 1232 */;
+	struct acpi_lpi_states_array cocci_id/* drivers/acpi/processor_idle.c 1179 */[2];
+	struct acpi_device *cocci_id/* drivers/acpi/processor_idle.c 1178 */;
+	struct acpi_power_register *cocci_id/* drivers/acpi/processor_idle.c 1026 */;
+	__typeof__(struct cpuidle_device *) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+	__typeof__(struct acpi_processor_cx *[CPUIDLE_STATE_MAX]) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

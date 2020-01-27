@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct pci_driver cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 789 */;
+	struct i2c_client *cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 766 */;
+	struct v4l2_device *cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 756 */;
+	struct cobalt cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 665 */;
+	const struct pci_device_id *cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 656 */;
+	struct v4l2_subdev_edid cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 591 */;
+	struct adv7511_platform_data cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 580 */;
+	struct v4l2_subdev_format cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 575 */;
+	struct i2c_board_info cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 570 */;
+	struct adv7842_platform_data cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 546 */;
+	u8 cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 50 */[256];
+	struct adv76xx_platform_data cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 469 */;
+	int cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 37 */;
+	atomic_t cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 35 */;
+	void *cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 292 */;
+	struct pci_dev *cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 290 */;
+	struct cobalt *cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 290 */;
+	void cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 290 */;
+	const struct pci_device_id cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 27 */[];
+	u16 cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 190 */;
+	u32 cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 189 */;
+	const char *cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 175 */;
+	bool cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 141 */;
+	int *cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 141 */;
+	struct cobalt_stream *cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 140 */;
+	unsigned int cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 136 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 123 */;
+	unsigned cocci_id/* drivers/media/pci/cobalt/cobalt-driver.c 123 */;
+}

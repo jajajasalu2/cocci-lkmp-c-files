@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	int cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 89 */(struct usb_usbvision *usbvision);
+	unsigned char cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 864 */[2];
+	const int cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 862 */[];
+	const int cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 84 */;
+	unsigned char cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 683 */[USBVISION_STRIP_HEADER_LEN];
+	unsigned char cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 682 */[USBVISION_STRIP_LEN_MAX];
+	long *cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 674 */;
+	unsigned int cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 48 */;
+	unsigned char cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 477 */[4];
+	volatile struct usbvision_frame *cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 473 */;
+	struct usbvision_frame *cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 408 */;
+	enum parse_state cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 406 */;
+	int cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 38 */;
+	struct usbvision_frame_header *cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 300 */;
+	unsigned char *cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 273 */;
+	void cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 264 */;
+	int cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 2393 */[];
+	int cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 2392 */[4];
+	int *cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 229 */;
+	struct usb_device *cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 2253 */;
+	const char cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 1847 */[];
+	u32 cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 1812 */;
+	struct usb_usbvision *cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 176 */;
+	__u16 cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 1591 */;
+	char cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 1565 */[38][3];
+	unsigned char cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 1523 */[1];
+	unsigned char cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 1492 */;
+	unsigned char cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 1482 */[6];
+	char cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 145 */[80];
+	const unsigned char *cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 143 */;
+	struct usbvision_frame cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 1300 */;
+	struct usbvision_frame **cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 1265 */;
+	void *cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 122 */;
+	struct urb *cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 1181 */;
+	unsigned long cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 1124 */;
+	long cocci_id/* drivers/media/usb/usbvision/usbvision-core.c 1123 */;
+}

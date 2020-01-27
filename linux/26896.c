@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* fs/afs/write.c 854 */;
+	struct afs_wb_key cocci_id/* fs/afs/write.c 841 */;
+	struct afs_wb_key *cocci_id/* fs/afs/write.c 825 */;
+	struct page **cocci_id/* fs/afs/write.c 79 */;
+	void **cocci_id/* fs/afs/write.c 79 */;
+	vm_fault_t cocci_id/* fs/afs/write.c 776 */;
+	struct vm_fault *cocci_id/* fs/afs/write.c 776 */;
+	struct inode *cocci_id/* fs/afs/write.c 762 */;
+	struct file *cocci_id/* fs/afs/write.c 760 */;
+	size_t cocci_id/* fs/afs/write.c 735 */;
+	struct afs_vnode *cocci_id/* fs/afs/write.c 733 */;
+	struct kiocb *cocci_id/* fs/afs/write.c 731 */;
+	struct iov_iter *cocci_id/* fs/afs/write.c 731 */;
+	ssize_t cocci_id/* fs/afs/write.c 731 */;
+	pgoff_t *cocci_id/* fs/afs/write.c 633 */;
+	struct page *cocci_id/* fs/afs/write.c 457 */[8];
+	afs_dataversion_t cocci_id/* fs/afs/write.c 406 */;
+	struct afs_status_cb cocci_id/* fs/afs/write.c 372 */;
+	struct list_head *cocci_id/* fs/afs/write.c 362 */;
+	struct afs_status_cb *cocci_id/* fs/afs/write.c 360 */;
+	unsigned long long cocci_id/* fs/afs/write.c 36 */;
+	struct afs_fs_cursor cocci_id/* fs/afs/write.c 359 */;
+	void *cocci_id/* fs/afs/write.c 33 */;
+	struct afs_read *cocci_id/* fs/afs/write.c 31 */;
+	loff_t cocci_id/* fs/afs/write.c 29 */;
+	struct page *cocci_id/* fs/afs/write.c 29 */;
+	unsigned int cocci_id/* fs/afs/write.c 29 */;
+	struct key *cocci_id/* fs/afs/write.c 28 */;
+	int cocci_id/* fs/afs/write.c 28 */;
+	struct writeback_control *cocci_id/* fs/afs/write.c 274 */;
+	unsigned cocci_id/* fs/afs/write.c 237 */;
+	struct pagevec cocci_id/* fs/afs/write.c 236 */;
+	pgoff_t cocci_id/* fs/afs/write.c 233 */;
+	struct address_space *cocci_id/* fs/afs/write.c 232 */;
+	void cocci_id/* fs/afs/write.c 232 */;
+}

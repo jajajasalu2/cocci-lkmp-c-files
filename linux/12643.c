@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 661 */;
+	void __init cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 655 */;
+	struct platform_driver cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 646 */;
+	const struct of_device_id cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 636 */[];
+	struct platform_device *cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 625 */;
+	const struct component_ops cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 620 */;
+	char cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 569 */[32];
+	struct gpio_desc *cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 556 */;
+	const char *cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 555 */;
+	struct device_node *cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 541 */;
+	struct hdmi_platform_config *cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 539 */;
+	struct msm_drm_private *cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 538 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 537 */;
+	struct hdmi_codec_pdata cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 519 */;
+	const struct hdmi_codec_ops cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 514 */;
+	void cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 507 */;
+	bool cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 442 */;
+	unsigned int cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 438 */;
+	struct hdmi *cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 437 */;
+	struct hdmi_codec_params *cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 435 */;
+	struct hdmi_codec_daifmt *cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 434 */;
+	struct device *cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 433 */;
+	void *cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 433 */;
+	int cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 433 */;
+	const struct {
+		const char *name;
+		const bool output;
+		const int value;
+		const char *label;
+	} cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 416 */[];
+	struct hdmi_platform_config cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 392 */;
+	irqreturn_t cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 39 */;
+	unsigned long cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 380 */[];
+	const char *cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 369 */[];
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 281 */;
+	struct clk *cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 204 */;
+	unsigned long cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 17 */;
+	uint32_t cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 16 */;
+	struct regulator *cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 158 */;
+	struct resource *cocci_id/* drivers/gpu/drm/msm/hdmi/hdmi.c 118 */;
+}

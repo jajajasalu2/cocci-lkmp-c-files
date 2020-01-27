@@ -1,0 +1,76 @@
+cocci_test_suite() {
+	struct platform_device *cocci_id/* drivers/perf/thunderx2_pmu.c 969 */;
+	const struct acpi_device_id cocci_id/* drivers/perf/thunderx2_pmu.c 963 */[];
+	struct cpumask cocci_id/* drivers/perf/thunderx2_pmu.c 938 */;
+	struct hlist_node *cocci_id/* drivers/perf/thunderx2_pmu.c 934 */;
+	unsigned int cocci_id/* drivers/perf/thunderx2_pmu.c 933 */;
+	struct tx2_uncore_pmu {
+		struct hlist_node hpnode;
+		struct list_head entry;
+		struct pmu pmu;
+		char *name;
+		int node;
+		int cpu;
+		u32 max_counters;
+		u32 counters_mask;
+		u32 prorate_factor;
+		u32 max_events;
+		u32 events_mask;
+		u64 hrtimer_interval;
+		void __iomem *base;
+	DECLARE_BITMAP(active_counters,TX2_PMU_MAX_COUNTERS)
+		;
+		struct perf_event *events[TX2_PMU_MAX_COUNTERS];
+		struct device *dev;
+		struct hrtimer hrtimer;
+		const struct attribute_group **attr_groups;
+		enum tx2_uncore_type type;
+		enum hrtimer_restart (*hrtimer_callback)(struct hrtimer *cb);
+		void (*init_cntr_base)(struct perf_event *event,
+				       struct tx2_uncore_pmu *tx2_pmu);
+		void (*stop_event)(struct perf_event *event);
+		void (*start_event)(struct perf_event *event, int flags);
+	} cocci_id/* drivers/perf/thunderx2_pmu.c 90 */;
+	void **cocci_id/* drivers/perf/thunderx2_pmu.c 887 */;
+	void *cocci_id/* drivers/perf/thunderx2_pmu.c 887 */;
+	acpi_status cocci_id/* drivers/perf/thunderx2_pmu.c 886 */;
+	acpi_handle cocci_id/* drivers/perf/thunderx2_pmu.c 886 */;
+	struct list_head cocci_id/* drivers/perf/thunderx2_pmu.c 795 */;
+	struct resource_entry *cocci_id/* drivers/perf/thunderx2_pmu.c 794 */;
+	struct resource cocci_id/* drivers/perf/thunderx2_pmu.c 793 */;
+	enum tx2_uncore_type{PMU_TYPE_L3C, PMU_TYPE_DMC, PMU_TYPE_CCPI2, PMU_TYPE_INVALID,} cocci_id/* drivers/perf/thunderx2_pmu.c 79 */;
+	struct pmu cocci_id/* drivers/perf/thunderx2_pmu.c 730 */;
+	enum hrtimer_restart cocci_id/* drivers/perf/thunderx2_pmu.c 703 */;
+	struct hrtimer *cocci_id/* drivers/perf/thunderx2_pmu.c 703 */;
+	int *cocci_id/* drivers/perf/thunderx2_pmu.c 528 */;
+	bool cocci_id/* drivers/perf/thunderx2_pmu.c 527 */;
+	struct acpi_tx2_pmu_device {
+		__u8 id[ACPI_ID_LEN];
+		enum tx2_uncore_type type;
+	} cocci_id/* drivers/perf/thunderx2_pmu.c 508 */[];
+	enum tx2_uncore_type cocci_id/* drivers/perf/thunderx2_pmu.c 505 */;
+	struct acpi_device *cocci_id/* drivers/perf/thunderx2_pmu.c 505 */;
+	u64 cocci_id/* drivers/perf/thunderx2_pmu.c 465 */;
+	unsigned long cocci_id/* drivers/perf/thunderx2_pmu.c 362 */;
+	u32 cocci_id/* drivers/perf/thunderx2_pmu.c 358 */;
+	struct hw_perf_event *cocci_id/* drivers/perf/thunderx2_pmu.c 357 */;
+	struct perf_event *cocci_id/* drivers/perf/thunderx2_pmu.c 354 */;
+	void cocci_id/* drivers/perf/thunderx2_pmu.c 317 */;
+	struct tx2_uncore_pmu *cocci_id/* drivers/perf/thunderx2_pmu.c 304 */;
+	int cocci_id/* drivers/perf/thunderx2_pmu.c 304 */;
+	void __iomem *cocci_id/* drivers/perf/thunderx2_pmu.c 296 */;
+	const struct attribute_group *cocci_id/* drivers/perf/thunderx2_pmu.c 287 */[];
+	char *cocci_id/* drivers/perf/thunderx2_pmu.c 252 */;
+	struct device_attribute *cocci_id/* drivers/perf/thunderx2_pmu.c 251 */;
+	struct device *cocci_id/* drivers/perf/thunderx2_pmu.c 251 */;
+	ssize_t cocci_id/* drivers/perf/thunderx2_pmu.c 251 */;
+	const struct attribute_group cocci_id/* drivers/perf/thunderx2_pmu.c 243 */;
+	struct attribute *cocci_id/* drivers/perf/thunderx2_pmu.c 225 */[];
+	struct dev_ext_attribute cocci_id/* drivers/perf/thunderx2_pmu.c 178 */;
+	struct dev_ext_attribute *cocci_id/* drivers/perf/thunderx2_pmu.c 176 */;
+	struct tx2_uncore_pmu cocci_id/* drivers/perf/thunderx2_pmu.c 121 */;
+	struct pmu *cocci_id/* drivers/perf/thunderx2_pmu.c 119 */;
+	void __exit cocci_id/* drivers/perf/thunderx2_pmu.c 1045 */;
+	int __init cocci_id/* drivers/perf/thunderx2_pmu.c 1025 */;
+	struct platform_driver cocci_id/* drivers/perf/thunderx2_pmu.c 1016 */;
+}

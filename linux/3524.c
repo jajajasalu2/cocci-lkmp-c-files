@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	unsigned char cocci_id/* drivers/mmc/host/tmio_mmc_core.c 915 */;
+	unsigned short cocci_id/* drivers/mmc/host/tmio_mmc_core.c 866 */;
+	struct tmio_mmc_host cocci_id/* drivers/mmc/host/tmio_mmc_core.c 861 */;
+	struct work_struct *cocci_id/* drivers/mmc/host/tmio_mmc_core.c 859 */;
+	void cocci_id/* drivers/mmc/host/tmio_mmc_core.c 84 */;
+	struct mmc_request *cocci_id/* drivers/mmc/host/tmio_mmc_core.c 821 */;
+	irqreturn_t cocci_id/* drivers/mmc/host/tmio_mmc_core.c 659 */;
+	unsigned int cocci_id/* drivers/mmc/host/tmio_mmc_core.c 638 */;
+	struct tmio_mmc_data *cocci_id/* drivers/mmc/host/tmio_mmc_core.c 637 */;
+	struct mmc_host *cocci_id/* drivers/mmc/host/tmio_mmc_core.c 590 */;
+	int cocci_id/* drivers/mmc/host/tmio_mmc_core.c 588 */;
+	bool cocci_id/* drivers/mmc/host/tmio_mmc_core.c 587 */;
+	struct tmio_mmc_host *cocci_id/* drivers/mmc/host/tmio_mmc_core.c 587 */;
+	struct mmc_command *cocci_id/* drivers/mmc/host/tmio_mmc_core.c 523 */;
+	struct mmc_data *cocci_id/* drivers/mmc/host/tmio_mmc_core.c 475 */;
+	void *cocci_id/* drivers/mmc/host/tmio_mmc_core.c 410 */;
+	unsigned long cocci_id/* drivers/mmc/host/tmio_mmc_core.c 409 */;
+	unsigned short *cocci_id/* drivers/mmc/host/tmio_mmc_core.c 373 */;
+	u32 *cocci_id/* drivers/mmc/host/tmio_mmc_core.c 313 */;
+	u8 *cocci_id/* drivers/mmc/host/tmio_mmc_core.c 306 */;
+	u16 cocci_id/* drivers/mmc/host/tmio_mmc_core.c 137 */;
+	struct device *cocci_id/* drivers/mmc/host/tmio_mmc_core.c 1335 */;
+	size_t cocci_id/* drivers/mmc/host/tmio_mmc_core.c 1194 */;
+	void __iomem *cocci_id/* drivers/mmc/host/tmio_mmc_core.c 1113 */;
+	struct resource *cocci_id/* drivers/mmc/host/tmio_mmc_core.c 1112 */;
+	struct platform_device *cocci_id/* drivers/mmc/host/tmio_mmc_core.c 1107 */;
+	u32 cocci_id/* drivers/mmc/host/tmio_mmc_core.c 110 */;
+	const struct device_node *cocci_id/* drivers/mmc/host/tmio_mmc_core.c 1093 */;
+	const struct mmc_host_ops cocci_id/* drivers/mmc/host/tmio_mmc_core.c 1052 */;
+	struct mmc_ios *cocci_id/* drivers/mmc/host/tmio_mmc_core.c 1026 */;
+	struct mmc_card *cocci_id/* drivers/mmc/host/tmio_mmc_core.c 1014 */;
+}

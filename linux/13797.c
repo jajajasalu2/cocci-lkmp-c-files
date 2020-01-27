@@ -1,0 +1,57 @@
+cocci_test_suite() {
+	u32 *cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 779 */;
+	void cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 74 */(struct i2c_client *client);
+	u8 cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 623 */[3];
+	struct i2c_driver cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 6046 */;
+	const struct i2c_device_id cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 6040 */[];
+	struct cx25840_platform_data *cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 6020 */;
+	struct cx25840_state cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 602 */;
+	struct work_struct *cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 600 */;
+	const struct i2c_device_id *cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 5829 */;
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 5772 */;
+	const struct v4l2_subdev_pad_ops cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 5768 */;
+	const struct v4l2_subdev_vbi_ops cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 5761 */;
+	const struct v4l2_subdev_video_ops cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 5752 */;
+	const struct v4l2_subdev_audio_ops cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 5746 */;
+	const struct v4l2_subdev_tuner_ops cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 5739 */;
+	const struct v4l2_subdev_core_ops cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 5725 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 5721 */;
+	v4l2_std_id cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 5654 */;
+	struct cx25840_state *cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 527 */;
+	struct v4l2_subdev_io_pin_config *cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 525 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 524 */;
+	int cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 524 */;
+	size_t cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 524 */;
+	u8 cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 390 */[6];
+	u8 *cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 325 */;
+	u64 cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 2743 */;
+	u32 cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 2741 */;
+	bool cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 2642 */;
+	u8 cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 2640 */;
+	bool *cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 2636 */;
+	const struct v4l2_tuner *cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 2573 */;
+	struct v4l2_tuner *cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 2536 */;
+	const struct v4l2_frequency *cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 2528 */;
+	v4l2_std_id *cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 2470 */;
+	const v4l2_std_id cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 2423 */[];
+	const struct v4l2_dbg_register *cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 2350 */;
+	struct v4l2_dbg_register *cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 2340 */;
+	const char *const cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 1860 */[];
+	struct v4l2_mbus_framefmt *cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 1752 */;
+	struct v4l2_subdev_format *cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 1750 */;
+	struct v4l2_subdev_pad_config *cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 1749 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 1707 */;
+	int cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 168 */(struct i2c_client *client,
+								       enum cx25840_video_input vid_input,
+								       enum cx25840_audio_input aud_input);
+	u16 cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 150 */;
+	unsigned int cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 150 */;
+	enum cx25840_audio_input cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 1365 */;
+	enum cx25840_video_input cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 1364 */;
+	char *cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 110 */;
+	struct workqueue_struct *cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 1034 */;
+	struct i2c_client *cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 1030 */;
+	void cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 1030 */;
+	u8 cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 102 */[2];
+	struct i2c_msg cocci_id/* drivers/media/i2c/cx25840/cx25840-core.c 101 */[2];
+}

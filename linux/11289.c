@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	struct gma_clock_t cocci_id/* drivers/gpu/drm/gma500/gma_display.c 706 */;
+	const struct gma_clock_funcs *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 704 */;
+	struct gma_clock_t *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 701 */;
+	bool cocci_id/* drivers/gpu/drm/gma500/gma_display.c 699 */;
+	const struct gma_limit_t *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 699 */;
+	struct gma_connector *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 658 */;
+	void cocci_id/* drivers/gpu/drm/gma500/gma_display.c 658 */;
+	struct gma_encoder *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 653 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 651 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 651 */;
+	const struct drm_encoder_helper_funcs *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 636 */;
+	unsigned long cocci_id/* drivers/gpu/drm/gma500/gma_display.c 60 */;
+	struct psb_intel_crtc_state *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 572 */;
+	struct drm_framebuffer *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 51 */;
+	struct drm_mode_set *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 504 */;
+	const struct drm_crtc_helper_funcs *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 478 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 476 */;
+	uint32_t cocci_id/* drivers/gpu/drm/gma500/gma_display.c 445 */;
+	struct gma_crtc *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 443 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 442 */;
+	int cocci_id/* drivers/gpu/drm/gma500/gma_display.c 440 */;
+	struct gtt_range cocci_id/* drivers/gpu/drm/gma500/gma_display.c 350 */;
+	void *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 335 */;
+	struct drm_gem_object *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 334 */;
+	struct gtt_range *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 332 */;
+	size_t cocci_id/* drivers/gpu/drm/gma500/gma_display.c 331 */;
+	struct drm_psb_private *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 325 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 320 */;
+	struct drm_mode_config *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 29 */;
+	u32 cocci_id/* drivers/gpu/drm/gma500/gma_display.c 196 */;
+	const struct psb_offset *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 195 */;
+	struct drm_modeset_acquire_ctx *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 176 */;
+	u16 *cocci_id/* drivers/gpu/drm/gma500/gma_display.c 174 */;
+}

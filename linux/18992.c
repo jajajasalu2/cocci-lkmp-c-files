@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	u32 *cocci_id/* arch/arm/kvm/guest.c 61 */;
+	struct kvm_regs *cocci_id/* arch/arm/kvm/guest.c 50 */;
+	u32 __user *cocci_id/* arch/arm/kvm/guest.c 49 */;
+	long cocci_id/* arch/arm/kvm/guest.c 49 */;
+	const struct kvm_one_reg *cocci_id/* arch/arm/kvm/guest.c 47 */;
+	u64 cocci_id/* arch/arm/kvm/guest.c 42 */;
+	struct kvm_device_attr *cocci_id/* arch/arm/kvm/guest.c 361 */;
+	struct kvm_guest_debug *cocci_id/* arch/arm/kvm/guest.c 338 */;
+	struct kvm_translation *cocci_id/* arch/arm/kvm/guest.c 332 */;
+	struct kvm_fpu *cocci_id/* arch/arm/kvm/guest.c 321 */;
+	__u32 cocci_id/* arch/arm/kvm/guest.c 316 */;
+	struct kvm_vcpu_init *cocci_id/* arch/arm/kvm/guest.c 301 */;
+	int __attribute_const__ cocci_id/* arch/arm/kvm/guest.c 289 */;
+	void cocci_id/* arch/arm/kvm/guest.c 289 */;
+	bool cocci_id/* arch/arm/kvm/guest.c 274 */;
+	struct kvm_vcpu_events *cocci_id/* arch/arm/kvm/guest.c 258 */;
+	struct kvm_vcpu *cocci_id/* arch/arm/kvm/guest.c 257 */;
+	int cocci_id/* arch/arm/kvm/guest.c 257 */;
+	struct kvm_sregs *cocci_id/* arch/arm/kvm/guest.c 245 */;
+	struct kvm_stats_debugfs_item cocci_id/* arch/arm/kvm/guest.c 23 */[];
+	struct kvm_vcpu cocci_id/* arch/arm/kvm/guest.c 21 */;
+	struct kvm cocci_id/* arch/arm/kvm/guest.c 20 */;
+	u32 cocci_id/* arch/arm/kvm/guest.c 187 */;
+	struct kvm_regs cocci_id/* arch/arm/kvm/guest.c 187 */;
+	const u64 cocci_id/* arch/arm/kvm/guest.c 184 */;
+	unsigned int cocci_id/* arch/arm/kvm/guest.c 183 */;
+	unsigned long cocci_id/* arch/arm/kvm/guest.c 169 */;
+	void __user *cocci_id/* arch/arm/kvm/guest.c 152 */;
+	u64 __user *cocci_id/* arch/arm/kvm/guest.c 123 */;
+}

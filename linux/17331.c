@@ -1,0 +1,86 @@
+cocci_test_suite() {
+	char *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 89 */;
+	int __init cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 89 */;
+	uint8_t cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 866 */;
+	struct pci_dev *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 865 */;
+	struct pci_dn *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 832 */;
+	struct pci_controller *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 665 */;
+	__be16 cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 605 */;
+	u8 cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 604 */;
+	char cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 60 */[32];
+	va_list cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 59 */;
+	struct va_format cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 58 */;
+	const struct pnv_ioda_pe *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 55 */;
+	const char *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 55 */;
+	void cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 55 */;
+	void cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 53 */(struct pnv_ioda_pe *pe,
+									bool enable);
+	const char *const cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 50 */[];
+	u64 cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 438 */;
+	const __be32 *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 437 */;
+	u32 cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 436 */[2];
+	struct device_node *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 434 */;
+	void __init cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 431 */;
+	const __be64 *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 3930 */;
+	unsigned cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 3754 */;
+	struct resource cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 3636 */;
+	const struct pci_controller_ops cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 3611 */;
+	struct eeh_pe *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 3583 */;
+	struct eeh_dev *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 3582 */;
+	struct pci_bus *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 351 */;
+	unsigned int *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 3466 */;
+	unsigned short cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 3465 */;
+	char cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 3099 */[16];
+	void *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 3063 */;
+	struct pci_bus_region cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2975 */;
+	int64_t cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 290 */;
+	unsigned long cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 289 */;
+	const resource_size_t cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2885 */;
+	__be64 cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2818 */;
+	struct resource *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 280 */;
+	__be32 cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2794 */;
+	struct msi_msg *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2790 */;
+	bool cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2782 */;
+	struct irq_chip *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2782 */;
+	struct pnv_phb *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 278 */;
+	int cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 278 */;
+	unsigned int cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2745 */;
+	struct irq_data *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2742 */;
+	struct pnv_phb cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2736 */;
+	u32 cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2678 */;
+	unsigned long cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2597 */(struct pnv_phb *phb);
+	resource_size_t cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 257 */;
+	struct iommu_table_group_ops cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2561 */;
+	struct pnv_ioda_pe cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2553 */;
+	struct pnv_ioda_pe *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2553 */;
+	struct iommu_table_group *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2551 */;
+	unsigned long *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 252 */;
+	const unsigned cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2493 */;
+	const u64 cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2392 */;
+	struct iommu_table **cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2353 */;
+	__u64 cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2352 */;
+	__u32 cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2352 */;
+	phys_addr_t cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2330 */;
+	uint16_t cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2325 */;
+	const __u64 cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2293 */;
+	const unsigned long cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2291 */;
+	struct page *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2164 */;
+	struct iommu_table_group_link *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 2037 */;
+	s64 cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 202 */;
+	struct iommu_table_ops cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 1959 */;
+	enum dma_data_direction *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 1944 */;
+	enum dma_data_direction cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 1929 */;
+	struct iommu_table *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 1927 */;
+	long cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 1927 */;
+	struct iommu_table_group_link cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 1894 */;
+	__be64 __iomem *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 1883 */;
+	__be64 *cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 1782 */;
+	u16 cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 1541 */;
+	void cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 1537 */(struct pnv_ioda_pe *pe,
+									  struct iommu_table_group *table_group,
+									  struct pci_bus *bus);
+	void cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 1534 */(struct pnv_phb *phb,
+									  struct pnv_ioda_pe *pe);
+	long cocci_id/* arch/powerpc/platforms/powernv/pci-ioda.c 1439 */(struct iommu_table_group *table_group,
+									  int num);
+}

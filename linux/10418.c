@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	struct page *cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 95 */;
+	pgoff_t cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 79 */;
+	loff_t cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 78 */;
+	struct vm_area_struct *cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 73 */;
+	vm_fault_t cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 71 */;
+	struct vm_fault *cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 71 */;
+	struct vgem_device {
+		struct drm_device drm;
+		struct platform_device *platform;
+	} *cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 52 */;
+	void __exit cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 506 */;
+	int __init cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 468 */;
+	struct drm_driver cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 436 */;
+	void *cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 382 */;
+	struct dma_buf_attachment *cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 358 */;
+	typeof(*vgem) cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 352 */;
+	struct vgem_device *cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 352 */;
+	struct dma_buf *cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 350 */;
+	struct sg_table *cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 342 */;
+	long cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 320 */;
+	struct page **cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 287 */;
+	const struct file_operations cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 276 */;
+	struct file *cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 260 */;
+	struct drm_ioctl_desc cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 255 */[];
+	uint32_t cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 230 */;
+	uint64_t *cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 230 */;
+	u64 cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 210 */;
+	struct drm_mode_create_dumb *cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 207 */;
+	unsigned int *cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 188 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 187 */;
+	struct drm_gem_object *cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 186 */;
+	void cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 180 */;
+	int cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 163 */;
+	unsigned long cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 160 */;
+	struct drm_vgem_gem_object *cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 159 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 159 */;
+	struct vgem_file *cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 133 */;
+	const struct vm_operations_struct cocci_id/* drivers/gpu/drm/vgem/vgem_drv.c 125 */;
+}

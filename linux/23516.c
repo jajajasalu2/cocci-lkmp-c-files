@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	char cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 975 */[NAME_SIZE];
+	struct snd_soc_component *cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 973 */;
+	struct snd_soc_dapm_context *cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 972 */;
+	struct kbl_hdmi_pcm *cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 971 */;
+	struct snd_soc_dai_link cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 674 */[];
+	struct snd_kcontrol *cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 65 */;
+	struct snd_soc_dapm_widget *cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 64 */;
+	struct snd_soc_dai_link_component cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 597 */[];
+	struct snd_soc_codec_conf cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 584 */[];
+	const unsigned int cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 546 */[];
+	const struct snd_pcm_hw_constraint_list cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 541 */;
+	struct snd_soc_ops cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 533 */;
+	enum{KBL_DPCM_AUDIO_PB=0, KBL_DPCM_AUDIO_ECHO_REF_CP, KBL_DPCM_AUDIO_REF_CP, KBL_DPCM_AUDIO_DMIC_CP, KBL_DPCM_AUDIO_HDMI1_PB, KBL_DPCM_AUDIO_HDMI2_PB, KBL_DPCM_AUDIO_HDMI3_PB, KBL_DPCM_AUDIO_HS_PB, KBL_DPCM_AUDIO_CP,} cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 52 */;
+	struct snd_pcm_runtime *cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 511 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 509 */;
+	struct snd_interval *cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 494 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 492 */;
+	const struct snd_soc_ops cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 487 */;
+	struct kbl_codec_private {
+		struct snd_soc_jack kabylake_headset;
+		struct list_head hdmi_pcm_list;
+	} cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 47 */;
+	struct snd_pcm_hw_constraint_list cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 446 */;
+	unsigned int cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 442 */[];
+	struct kbl_hdmi_pcm {
+		struct list_head head;
+		struct snd_soc_dai *codec_dai;
+		int device;
+	} cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 41 */;
+	struct snd_soc_jack cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 39 */[3];
+	struct snd_soc_dai *cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 381 */;
+	struct snd_soc_card *cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 38 */;
+	struct snd_soc_jack *cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 335 */;
+	struct snd_soc_pcm_runtime *cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 331 */;
+	struct snd_soc_dpcm cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 286 */;
+	struct snd_soc_dpcm *cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 285 */;
+	struct snd_mask *cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 284 */;
+	char cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 232 */[20];
+	const char *cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 228 */;
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 121 */[];
+	struct platform_driver cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 1152 */;
+	const struct platform_device_id cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 1128 */[];
+	struct snd_soc_dai_link_component **cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 1094 */;
+	struct snd_soc_dai_link *cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 1093 */;
+	struct kbl_codec_private *cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 1092 */;
+	struct platform_device *cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 1090 */;
+	int cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 1090 */;
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 108 */[];
+	struct snd_soc_card cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 1056 */;
+	const struct snd_kcontrol_new cocci_id/* sound/soc/intel/boards/kbl_da7219_max98927.c 101 */[];
+}

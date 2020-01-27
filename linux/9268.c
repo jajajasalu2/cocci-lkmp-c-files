@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	struct timer_list *cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 931 */;
+	struct host_cmd_ds_command cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 630 */;
+	struct mwifiex_rxinfo *cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 492 */;
+	bool cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 42 */;
+	void *cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 42 */;
+	struct cmd_ctrl_node cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 408 */;
+	u32 cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 404 */;
+	struct cmd_ctrl_node *cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 403 */;
+	struct mwifiex_adapter *cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 401 */;
+	int cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 401 */;
+	struct mwifiex_opt_sleep_confirm cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 340 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 319 */;
+	struct mwifiex_opt_sleep_confirm *cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 316 */;
+	void cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 29 */(struct mwifiex_adapter *adapter);
+	struct host_cmd_ds_wakeup_reason *cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 1652 */;
+	struct mwifiex_ds_misc_cmd *cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 157 */;
+	struct hw_spec_api_rev *cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 1497 */;
+	struct mwifiex_ie_types_header *cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 1496 */;
+	struct host_cmd_ds_get_hw_spec cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 1465 */;
+	struct host_cmd_ds_get_hw_spec *cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 1461 */;
+	struct mwifiex_ds_pm_cfg *cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 1389 */;
+	struct mwifiex_ie_types_auto_ds_param *cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 1358 */;
+	struct mwifiex_ie_types_header cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 1337 */;
+	struct mwifiex_ps_param *cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 1334 */;
+	struct mwifiex_ie_types_ps_param *cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 1332 */;
+	u8 *cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 1310 */;
+	struct host_cmd_ds_802_11_ps_mode_enh *cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 1308 */;
+	struct mwifiex_ds_auto_ds *cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 1306 */;
+	uint16_t cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 1305 */;
+	u16 cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 1305 */;
+	struct host_cmd_ds_command *cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 1304 */;
+	struct mwifiex_private *cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 1303 */;
+	uint32_t cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 1179 */;
+	struct host_cmd_ds_802_11_hs_cfg_enh *cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 1177 */;
+	u8 cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 1139 */;
+	void cocci_id/* drivers/net/wireless/marvell/mwifiex/cmdevt.c 1044 */;
+}

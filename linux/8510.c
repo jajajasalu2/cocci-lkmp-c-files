@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	__sum16 cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 75 */;
+	__be16 cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 49 */;
+	char *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 404 */;
+	struct rmnet_map_ul_csum_header cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 397 */;
+	void *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 394 */;
+	struct rmnet_map_ul_csum_header *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 393 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 390 */;
+	void cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 389 */;
+	struct rmnet_map_dl_csum_trailer *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 355 */;
+	struct rmnet_priv *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 354 */;
+	u16 cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 352 */;
+	struct rmnet_map_dl_csum_trailer cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 325 */;
+	struct rmnet_port *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 312 */;
+	struct udphdr *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 29 */;
+	struct rmnet_map_header cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 279 */;
+	u8 *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 275 */;
+	u32 cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 274 */;
+	int cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 271 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 270 */;
+	struct rmnet_map_header *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 270 */;
+	struct tcphdr *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 25 */;
+	struct ipv6hdr cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 229 */;
+	struct ipv6hdr *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 225 */;
+	unsigned char *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 204 */;
+	__be16 *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 201 */;
+	const void *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 19 */;
+	u16 *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 185 */;
+	struct iphdr *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 183 */;
+	__sum16 *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 18 */;
+	unsigned char cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_map_data.c 18 */;
+}

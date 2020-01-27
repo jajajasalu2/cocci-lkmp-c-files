@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	const struct usb_device_id cocci_id/* sound/usb/caiaq/device.c 71 */[];
+	enum{DEPTH_NONE=0, DEPTH_16=1, DEPTH_24=2, DEPTH_32=3,} cocci_id/* sound/usb/caiaq/device.c 64 */;
+	struct usb_driver cocci_id/* sound/usb/caiaq/device.c 564 */;
+	enum{SAMPLERATE_44100=0, SAMPLERATE_48000=1, SAMPLERATE_96000=2, SAMPLERATE_192000=3, SAMPLERATE_88200=4, SAMPLERATE_INVALID=0xff,} cocci_id/* sound/usb/caiaq/device.c 55 */;
+	bool cocci_id/* sound/usb/caiaq/device.c 52 */;
+	const struct usb_device_id *cocci_id/* sound/usb/caiaq/device.c 514 */;
+	char cocci_id/* sound/usb/caiaq/device.c 489 */[sizeof(card->id)];
+	bool cocci_id/* sound/usb/caiaq/device.c 46 */[SNDRV_CARDS];
+	char *cocci_id/* sound/usb/caiaq/device.c 45 */[SNDRV_CARDS];
+	int cocci_id/* sound/usb/caiaq/device.c 44 */[SNDRV_CARDS];
+	struct device *cocci_id/* sound/usb/caiaq/device.c 431 */;
+	char *cocci_id/* sound/usb/caiaq/device.c 428 */;
+	struct snd_usb_caiaqdev cocci_id/* sound/usb/caiaq/device.c 411 */;
+	struct snd_usb_caiaqdev *cocci_id/* sound/usb/caiaq/device.c 400 */;
+	struct snd_card *cocci_id/* sound/usb/caiaq/device.c 399 */;
+	struct snd_card **cocci_id/* sound/usb/caiaq/device.c 395 */;
+	struct usb_interface *cocci_id/* sound/usb/caiaq/device.c 394 */;
+	struct usb_device *cocci_id/* sound/usb/caiaq/device.c 393 */;
+	int cocci_id/* sound/usb/caiaq/device.c 393 */;
+	char cocci_id/* sound/usb/caiaq/device.c 310 */[4];
+	void cocci_id/* sound/usb/caiaq/device.c 307 */;
+	char cocci_id/* sound/usb/caiaq/device.c 302 */[3];
+	char cocci_id/* sound/usb/caiaq/device.c 255 */[5];
+	const unsigned char *cocci_id/* sound/usb/caiaq/device.c 206 */;
+	unsigned char cocci_id/* sound/usb/caiaq/device.c 205 */;
+	struct caiaq_device_spec cocci_id/* sound/usb/caiaq/device.c 159 */;
+	unsigned char *cocci_id/* sound/usb/caiaq/device.c 150 */;
+	struct urb *cocci_id/* sound/usb/caiaq/device.c 145 */;
+}

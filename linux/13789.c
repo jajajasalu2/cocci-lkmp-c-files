@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	struct v4l2_subdev_mbus_code_enum *cocci_id/* drivers/media/i2c/mt9t112.c 992 */;
+	struct v4l2_subdev_pad_config *cocci_id/* drivers/media/i2c/mt9t112.c 991 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/i2c/mt9t112.c 990 */;
+	struct v4l2_rect cocci_id/* drivers/media/i2c/mt9t112.c 939 */;
+	struct v4l2_mbus_framefmt *cocci_id/* drivers/media/i2c/mt9t112.c 918 */;
+	struct v4l2_subdev_format *cocci_id/* drivers/media/i2c/mt9t112.c 916 */;
+	struct mt9t112_priv {
+		struct v4l2_subdev subdev;
+		struct mt9t112_platform_data *info;
+		struct i2c_client *client;
+		struct v4l2_rect frame;
+		struct clk *clk;
+		struct gpio_desc *standby_gpio;
+		const struct mt9t112_format *format;
+		int num_formats;
+		bool init_done;
+	} cocci_id/* drivers/media/i2c/mt9t112.c 90 */;
+	struct v4l2_subdev_selection *cocci_id/* drivers/media/i2c/mt9t112.c 876 */;
+	const struct v4l2_rect *cocci_id/* drivers/media/i2c/mt9t112.c 846 */;
+	struct mt9t112_format {
+		u32 code;
+		enum v4l2_colorspace colorspace;
+		u16 fmt;
+		u16 order;
+	} cocci_id/* drivers/media/i2c/mt9t112.c 83 */;
+	const struct v4l2_subdev_core_ops cocci_id/* drivers/media/i2c/mt9t112.c 783 */;
+	const struct v4l2_dbg_register *cocci_id/* drivers/media/i2c/mt9t112.c 736 */;
+	__u64 cocci_id/* drivers/media/i2c/mt9t112.c 730 */;
+	struct v4l2_dbg_register *cocci_id/* drivers/media/i2c/mt9t112.c 722 */;
+	u8 cocci_id/* drivers/media/i2c/mt9t112.c 371 */;
+	char *cocci_id/* drivers/media/i2c/mt9t112.c 279 */;
+	u32 cocci_id/* drivers/media/i2c/mt9t112.c 275 */;
+	u16 cocci_id/* drivers/media/i2c/mt9t112.c 247 */;
+	const struct i2c_client *cocci_id/* drivers/media/i2c/mt9t112.c 246 */;
+	int cocci_id/* drivers/media/i2c/mt9t112.c 246 */;
+	u8 cocci_id/* drivers/media/i2c/mt9t112.c 185 */[4];
+	struct i2c_msg cocci_id/* drivers/media/i2c/mt9t112.c 184 */;
+	u8 *cocci_id/* drivers/media/i2c/mt9t112.c 161 */;
+	u8 cocci_id/* drivers/media/i2c/mt9t112.c 153 */[2];
+	struct i2c_msg cocci_id/* drivers/media/i2c/mt9t112.c 152 */[2];
+	struct mt9t112_priv cocci_id/* drivers/media/i2c/mt9t112.c 146 */;
+	struct i2c_driver cocci_id/* drivers/media/i2c/mt9t112.c 1121 */;
+	const struct i2c_device_id cocci_id/* drivers/media/i2c/mt9t112.c 1115 */[];
+	const struct i2c_device_id *cocci_id/* drivers/media/i2c/mt9t112.c 1064 */;
+	const struct mt9t112_format cocci_id/* drivers/media/i2c/mt9t112.c 106 */[];
+	const char *cocci_id/* drivers/media/i2c/mt9t112.c 1029 */;
+	struct mt9t112_priv *cocci_id/* drivers/media/i2c/mt9t112.c 1028 */;
+	struct i2c_client *cocci_id/* drivers/media/i2c/mt9t112.c 1026 */;
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/i2c/mt9t112.c 1020 */;
+	const struct v4l2_subdev_pad_ops cocci_id/* drivers/media/i2c/mt9t112.c 1009 */;
+	const struct v4l2_subdev_video_ops cocci_id/* drivers/media/i2c/mt9t112.c 1005 */;
+}

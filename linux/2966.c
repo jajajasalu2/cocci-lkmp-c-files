@@ -1,0 +1,73 @@
+cocci_test_suite() {
+	acpi_physical_address cocci_id/* drivers/acpi/cppc_acpi.c 986 */;
+	u64 *cocci_id/* drivers/acpi/cppc_acpi.c 966 */;
+	struct cpc_register_resource *cocci_id/* drivers/acpi/cppc_acpi.c 966 */;
+	int __weak cocci_id/* drivers/acpi/cppc_acpi.c 940 */;
+	int cocci_id/* drivers/acpi/cppc_acpi.c 901 */;
+	void __iomem *cocci_id/* drivers/acpi/cppc_acpi.c 900 */;
+	unsigned int cocci_id/* drivers/acpi/cppc_acpi.c 899 */;
+	struct cpc_desc *cocci_id/* drivers/acpi/cppc_acpi.c 898 */;
+	struct acpi_processor *cocci_id/* drivers/acpi/cppc_acpi.c 896 */;
+	void cocci_id/* drivers/acpi/cppc_acpi.c 896 */;
+	struct cppc_pcc_data *cocci_id/* drivers/acpi/cppc_acpi.c 81 */[MAX_PCC_SUBSPACES];
+	struct cpc_desc cocci_id/* drivers/acpi/cppc_acpi.c 739 */;
+	acpi_status cocci_id/* drivers/acpi/cppc_acpi.c 726 */;
+	acpi_handle cocci_id/* drivers/acpi/cppc_acpi.c 723 */;
+	struct device *cocci_id/* drivers/acpi/cppc_acpi.c 722 */;
+	struct cpc_reg *cocci_id/* drivers/acpi/cppc_acpi.c 721 */;
+	union acpi_object *cocci_id/* drivers/acpi/cppc_acpi.c 719 */;
+	struct acpi_buffer cocci_id/* drivers/acpi/cppc_acpi.c 718 */;
+	struct cppc_pcc_data cocci_id/* drivers/acpi/cppc_acpi.c 627 */;
+	bool __weak cocci_id/* drivers/acpi/cppc_acpi.c 604 */;
+	struct acpi_pcct_hw_reduced *cocci_id/* drivers/acpi/cppc_acpi.c 543 */;
+	struct cppc_pcc_data {
+		struct mbox_chan *pcc_channel;
+		void __iomem *pcc_comm_addr;
+		bool pcc_channel_acquired;
+		unsigned int deadline_us;
+		unsigned int pcc_mpar,pcc_mrtt,pcc_nominal;
+		bool pending_pcc_write_cmd;
+		bool platform_owns_pcc;
+		unsigned int pcc_write_cnt;
+		struct rw_semaphore pcc_lock;
+		wait_queue_head_t pcc_write_wait_q;
+		ktime_t last_cmd_cmpl_time;
+		ktime_t last_mpar_reset;
+		int mpar_count;
+		int refcount;
+	} cocci_id/* drivers/acpi/cppc_acpi.c 45 */;
+	struct cppc_cpudata *cocci_id/* drivers/acpi/cppc_acpi.c 428 */;
+	cpumask_var_t cocci_id/* drivers/acpi/cppc_acpi.c 427 */;
+	struct cppc_cpudata **cocci_id/* drivers/acpi/cppc_acpi.c 422 */;
+	struct acpi_psd_package cocci_id/* drivers/acpi/cppc_acpi.c 383 */;
+	struct acpi_psd_package *cocci_id/* drivers/acpi/cppc_acpi.c 366 */;
+	struct mbox_client cocci_id/* drivers/acpi/cppc_acpi.c 353 */;
+	u16 *cocci_id/* drivers/acpi/cppc_acpi.c 347 */;
+	struct mbox_client *cocci_id/* drivers/acpi/cppc_acpi.c 343 */;
+	void *cocci_id/* drivers/acpi/cppc_acpi.c 343 */;
+	struct acpi_pcct_shared_memory *cocci_id/* drivers/acpi/cppc_acpi.c 235 */;
+	u16 cocci_id/* drivers/acpi/cppc_acpi.c 231 */;
+	struct acpi_pcct_shared_memory __iomem *cocci_id/* drivers/acpi/cppc_acpi.c 200 */;
+	struct cppc_pcc_data *cocci_id/* drivers/acpi/cppc_acpi.c 199 */;
+	bool cocci_id/* drivers/acpi/cppc_acpi.c 196 */;
+	struct kobj_type cocci_id/* drivers/acpi/cppc_acpi.c 191 */;
+	struct attribute *cocci_id/* drivers/acpi/cppc_acpi.c 178 */[];
+	struct cppc_perf_fb_ctrs cocci_id/* drivers/acpi/cppc_acpi.c 166 */;
+	struct attribute *cocci_id/* drivers/acpi/cppc_acpi.c 163 */;
+	char *cocci_id/* drivers/acpi/cppc_acpi.c 163 */;
+	struct kobject *cocci_id/* drivers/acpi/cppc_acpi.c 162 */;
+	ssize_t cocci_id/* drivers/acpi/cppc_acpi.c 162 */;
+	struct cppc_perf_ctrls *cocci_id/* drivers/acpi/cppc_acpi.c 1270 */;
+	struct cppc_attr {
+		struct attribute attr;
+		ssize_t (*show)(struct kobject *kobj, struct attribute *attr,
+				char *buf);
+		ssize_t (*store)(struct kobject *kobj, struct attribute *attr,
+				 const char *c, ssize_t count);
+	} cocci_id/* drivers/acpi/cppc_acpi.c 121 */;
+	struct cppc_perf_fb_ctrs *cocci_id/* drivers/acpi/cppc_acpi.c 1190 */;
+	struct cppc_perf_caps *cocci_id/* drivers/acpi/cppc_acpi.c 1100 */;
+	u64 cocci_id/* drivers/acpi/cppc_acpi.c 1011 */;
+	__typeof__(struct cpc_desc *) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+	__typeof__(int) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

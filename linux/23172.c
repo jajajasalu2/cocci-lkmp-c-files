@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* sound/soc/pxa/magician.c 88 */;
+	void __exit cocci_id/* sound/soc/pxa/magician.c 413 */;
+	void cocci_id/* sound/soc/pxa/magician.c 413 */;
+	struct snd_soc_dapm_context *cocci_id/* sound/soc/pxa/magician.c 39 */;
+	struct i2c_client *cocci_id/* sound/soc/pxa/magician.c 353 */;
+	struct i2c_adapter *cocci_id/* sound/soc/pxa/magician.c 352 */;
+	int __init cocci_id/* sound/soc/pxa/magician.c 349 */;
+	struct i2c_board_info cocci_id/* sound/soc/pxa/magician.c 342 */[];
+	struct uda1380_platform_data cocci_id/* sound/soc/pxa/magician.c 336 */;
+	struct platform_device *cocci_id/* sound/soc/pxa/magician.c 331 */;
+	struct snd_soc_card cocci_id/* sound/soc/pxa/magician.c 316 */;
+	struct snd_soc_dai_link cocci_id/* sound/soc/pxa/magician.c 300 */[];
+	unsigned long cocci_id/* sound/soc/pxa/magician.c 278 */;
+	const struct snd_kcontrol_new cocci_id/* sound/soc/pxa/magician.c 276 */[];
+	const struct soc_enum cocci_id/* sound/soc/pxa/magician.c 273 */;
+	const char *const cocci_id/* sound/soc/pxa/magician.c 272 */[];
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/pxa/magician.c 257 */[];
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/pxa/magician.c 249 */[];
+	struct snd_soc_dapm_widget *cocci_id/* sound/soc/pxa/magician.c 234 */;
+	struct snd_soc_card *cocci_id/* sound/soc/pxa/magician.c 171 */;
+	struct snd_ctl_elem_value *cocci_id/* sound/soc/pxa/magician.c 162 */;
+	struct snd_kcontrol *cocci_id/* sound/soc/pxa/magician.c 161 */;
+	const struct snd_soc_ops cocci_id/* sound/soc/pxa/magician.c 151 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/pxa/magician.c 124 */;
+	struct snd_soc_pcm_runtime *cocci_id/* sound/soc/pxa/magician.c 123 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/pxa/magician.c 121 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/pxa/magician.c 120 */;
+	int cocci_id/* sound/soc/pxa/magician.c 120 */;
+}

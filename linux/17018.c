@@ -1,0 +1,56 @@
+cocci_test_suite() {
+	const struct usb_device_id cocci_id/* drivers/input/tablet/gtco.c 93 */[];
+	struct gtco cocci_id/* drivers/input/tablet/gtco.c 846 */;
+	struct usb_endpoint_descriptor *cocci_id/* drivers/input/tablet/gtco.c 842 */;
+	char *cocci_id/* drivers/input/tablet/gtco.c 839 */;
+	struct hid_descriptor *cocci_id/* drivers/input/tablet/gtco.c 838 */;
+	const struct usb_device_id *cocci_id/* drivers/input/tablet/gtco.c 833 */;
+	u16 cocci_id/* drivers/input/tablet/gtco.c 759 */;
+	char cocci_id/* drivers/input/tablet/gtco.c 754 */;
+	u8 cocci_id/* drivers/input/tablet/gtco.c 678 */;
+	char cocci_id/* drivers/input/tablet/gtco.c 633 */[2];
+	u32 cocci_id/* drivers/input/tablet/gtco.c 632 */;
+	struct urb *cocci_id/* drivers/input/tablet/gtco.c 627 */;
+	struct input_dev *cocci_id/* drivers/input/tablet/gtco.c 569 */;
+	int cocci_id/* drivers/input/tablet/gtco.c 555 */;
+	char cocci_id/* drivers/input/tablet/gtco.c 227 */[MAX_COLLECTION_LEVELS + 1];
+	char cocci_id/* drivers/input/tablet/gtco.c 225 */[12];
+	__u32 cocci_id/* drivers/input/tablet/gtco.c 220 */[TAG_GLOB_MAX];
+	__u32 cocci_id/* drivers/input/tablet/gtco.c 213 */;
+	__u16 cocci_id/* drivers/input/tablet/gtco.c 212 */;
+	__u8 cocci_id/* drivers/input/tablet/gtco.c 207 */;
+	struct device *cocci_id/* drivers/input/tablet/gtco.c 203 */;
+	struct hid_descriptor {
+		struct usb_descriptor_header header;
+		__le16 bcdHID;
+		u8 bCountryCode;
+		u8 bNumDescriptors;
+		u8 bDescriptorType;
+		__le16 wDescriptorLength;
+	}__attribute__((packed)) cocci_id/* drivers/input/tablet/gtco.c 135 */;
+	struct gtco {
+		struct input_dev *inputdevice;
+		struct usb_interface *intf;
+		struct urb *urbinfo;
+		dma_addr_t buf_dma;
+		unsigned char *buffer;
+		char usbpath[PATHLENGTH];
+		int openCount;
+		u32 usage;
+		u32 min_X;
+		u32 max_X;
+		u32 min_Y;
+		u32 max_Y;
+		s8 mintilt_X;
+		s8 maxtilt_X;
+		s8 mintilt_Y;
+		s8 maxtilt_Y;
+		u32 maxpressure;
+		u32 minpressure;
+	} cocci_id/* drivers/input/tablet/gtco.c 105 */;
+	struct usb_driver cocci_id/* drivers/input/tablet/gtco.c 1038 */;
+	struct usb_device *cocci_id/* drivers/input/tablet/gtco.c 1021 */;
+	struct gtco *cocci_id/* drivers/input/tablet/gtco.c 1020 */;
+	struct usb_interface *cocci_id/* drivers/input/tablet/gtco.c 1017 */;
+	void cocci_id/* drivers/input/tablet/gtco.c 1017 */;
+}

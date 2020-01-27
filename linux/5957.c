@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	const struct cfg_param {
+		const char *property;
+		enum tegra_pinconf_param param;
+	} cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 77 */[];
+	struct tegra_function *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 737 */;
+	const char **cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 714 */;
+	const struct tegra_pinctrl_soc_data *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 709 */;
+	struct device_node *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 694 */;
+	bool cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 692 */;
+	const char *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 692 */;
+	const struct dev_pm_ops cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 687 */;
+	u32 *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 668 */;
+	struct resource *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 640 */;
+	struct platform_device *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 639 */;
+	size_t cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 636 */;
+	unsigned int cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 619 */;
+	struct pinctrl_desc cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 603 */;
+	struct pinctrl_gpio_range cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 597 */;
+	const struct pinconf_ops cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 585 */;
+	int cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 572 */;
+	u16 cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 570 */;
+	const unsigned **cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 57 */;
+	enum tegra_pinconf_param cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 569 */;
+	unsigned long cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 567 */;
+	struct seq_file *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 566 */;
+	struct pinctrl_dev *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 565 */;
+	s32 cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 545 */;
+	s8 cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 544 */;
+	const struct tegra_pingroup *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 542 */;
+	unsigned cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 525 */;
+	unsigned long *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 425 */;
+	void cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 33 */;
+	s8 *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 289 */;
+	s32 *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 289 */;
+	u32 cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 28 */;
+	struct tegra_pmx *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 28 */;
+	const struct pinmux_ops cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 278 */;
+	unsigned *constcocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 239 */;
+	const char *const**cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 238 */;
+	const struct pinctrl_ops cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 210 */;
+	unsigned *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 186 */;
+	struct pinctrl_map **cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 185 */;
+	struct property *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 113 */;
+	struct device *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra.c 105 */;
+}

@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	struct ohci_regs __iomem *cocci_id/* drivers/usb/host/ohci-hcd.c 877 */;
+	irqreturn_t cocci_id/* drivers/usb/host/ohci-hcd.c 874 */;
+	void cocci_id/* drivers/usb/host/ohci-hcd.c 85 */(struct timer_list *t);
+	int cocci_id/* drivers/usb/host/ohci-hcd.c 841 */;
+	void cocci_id/* drivers/usb/host/ohci-hcd.c 84 */(struct usb_hcd *hcd);
+	void cocci_id/* drivers/usb/host/ohci-hcd.c 83 */(struct ohci_hcd *ohci);
+	unsigned long cocci_id/* drivers/usb/host/ohci-hcd.c 754 */;
+	unsigned cocci_id/* drivers/usb/host/ohci-hcd.c 753 */;
+	struct td *cocci_id/* drivers/usb/host/ohci-hcd.c 752 */;
+	struct ed *cocci_id/* drivers/usb/host/ohci-hcd.c 751 */;
+	struct timer_list *cocci_id/* drivers/usb/host/ohci-hcd.c 745 */;
+	const char cocci_id/* drivers/usb/host/ohci-hcd.c 74 */[];
+	struct ohci_hcca cocci_id/* drivers/usb/host/ohci-hcd.c 596 */;
+	u32 cocci_id/* drivers/usb/host/ohci-hcd.c 427 */;
+	struct ohci_hcd *cocci_id/* drivers/usb/host/ohci-hcd.c 424 */;
+	struct usb_hcd *cocci_id/* drivers/usb/host/ohci-hcd.c 422 */;
+	void cocci_id/* drivers/usb/host/ohci-hcd.c 422 */;
+	struct usb_host_endpoint *cocci_id/* drivers/usb/host/ohci-hcd.c 350 */;
+	urb_priv_t *cocci_id/* drivers/usb/host/ohci-hcd.c 320 */;
+	u16 cocci_id/* drivers/usb/host/ohci-hcd.c 246 */;
+	urb_priv_t cocci_id/* drivers/usb/host/ohci-hcd.c 194 */;
+	unsigned int cocci_id/* drivers/usb/host/ohci-hcd.c 155 */;
+	gfp_t cocci_id/* drivers/usb/host/ohci-hcd.c 150 */;
+	void __exit cocci_id/* drivers/usb/host/ohci-hcd.c 1345 */;
+	struct td cocci_id/* drivers/usb/host/ohci-hcd.c 1279 */;
+	struct ed cocci_id/* drivers/usb/host/ohci-hcd.c 1279 */;
+	int __init cocci_id/* drivers/usb/host/ohci-hcd.c 1270 */;
+	const struct ohci_driver_overrides *cocci_id/* drivers/usb/host/ohci-hcd.c 1225 */;
+	struct hc_driver *cocci_id/* drivers/usb/host/ohci-hcd.c 1224 */;
+	struct scatterlist *cocci_id/* drivers/usb/host/ohci-hcd.c 120 */;
+	struct ohci_hcd cocci_id/* drivers/usb/host/ohci-hcd.c 1184 */;
+	const struct hc_driver cocci_id/* drivers/usb/host/ohci-hcd.c 1181 */;
+	struct urb *cocci_id/* drivers/usb/host/ohci-hcd.c 117 */;
+	bool cocci_id/* drivers/usb/host/ohci-hcd.c 105 */;
+	struct urb_priv *cocci_id/* drivers/usb/host/ohci-hcd.c 1032 */;
+}

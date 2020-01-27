@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct ib_send_wr cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 94 */;
+	struct ib_atomic_wr cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 77 */;
+	struct ib_rdma_wr cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 66 */;
+	const struct rvt_operation_params cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 64 */[RVT_OPERATION_MAX];
+	u16 cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 52 */;
+	struct rvt_qpn_map *cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 51 */;
+	struct rvt_qpn_table *cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 50 */;
+	unsigned cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 50 */;
+	struct seq_file *cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 424 */;
+	struct rvt_qp_iter *cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 424 */;
+	const char *const cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 415 */[];
+	struct rvt_ah *cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 388 */;
+	bool *cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 386 */;
+	struct rvt_swqe *cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 386 */;
+	struct rvt_qp *cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 385 */;
+	struct qib_qp_priv *cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 368 */;
+	struct ib_qp_attr *cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 292 */;
+	u32 cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 265 */;
+	int cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 265 */;
+	struct qib_ibport *cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 221 */;
+	struct qib_devdata cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 134 */;
+	struct qib_devdata *cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 134 */;
+	struct qib_ibdev cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 133 */;
+	struct qib_ibdev *cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 133 */;
+	u8 cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 128 */;
+	enum ib_qp_type cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 128 */;
+	struct rvt_dev_info *cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 127 */;
+	void *cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 119 */;
+	unsigned long cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 109 */;
+	void cocci_id/* drivers/infiniband/hw/qib/qib_qp.c 107 */;
+}

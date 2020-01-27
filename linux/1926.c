@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	const struct regmap_config cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 84 */;
+	struct atlas_data {
+		struct i2c_client *client;
+		struct iio_trigger *trig;
+		struct atlas_device *chip;
+		struct regmap *regmap;
+		struct irq_work work;
+		__be32 buffer[6];
+	} cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 74 */;
+	enum{ATLAS_PH_SM, ATLAS_EC_SM, ATLAS_ORP_SM,} cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 68 */;
+	struct i2c_driver cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 671 */;
+	const struct dev_pm_ops cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 666 */;
+	unsigned long cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 530 */;
+	struct iio_trigger *cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 518 */;
+	const struct of_device_id *cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 517 */;
+	struct atlas_device *cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 516 */;
+	const struct i2c_device_id *cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 513 */;
+	struct i2c_client *cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 512 */;
+	void *cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 505 */;
+	const struct of_device_id cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 504 */[];
+	const struct i2c_device_id cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 496 */[];
+	const struct iio_info cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 491 */;
+	__be32 cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 415 */;
+	int *cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 408 */;
+	long cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 408 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 407 */;
+	u8 *cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 398 */;
+	__be32 *cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 383 */;
+	irqreturn_t cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 373 */;
+	struct iio_poll_func *cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 355 */;
+	struct atlas_data cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 348 */;
+	struct irq_work *cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 346 */;
+	void cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 346 */;
+	const struct iio_buffer_setup_ops cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 341 */;
+	const struct iio_trigger_ops cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 338 */;
+	struct atlas_data *cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 305 */;
+	struct iio_dev *cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 303 */;
+	int cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 303 */;
+	bool cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 296 */;
+	struct atlas_device cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 267 */[];
+	struct atlas_device {
+		const struct iio_chan_spec *channels;
+		int num_channels;
+		int data_reg;
+		int (*calibration)(struct atlas_data *data);
+		int delay;
+	} cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 258 */;
+	__be16 cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 208 */;
+	unsigned int cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 207 */;
+	struct device *cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 205 */;
+	const struct iio_chan_spec cocci_id/* drivers/iio/chemical/atlas-ph-sensor.c 132 */[];
+}

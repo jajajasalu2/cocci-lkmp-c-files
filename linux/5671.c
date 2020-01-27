@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/rtc/rtc-rv3029c2.c 986 */;
+	int __init cocci_id/* drivers/rtc/rtc-rv3029c2.c 966 */;
+	struct spi_driver cocci_id/* drivers/rtc/rtc-rv3029c2.c 936 */;
+	struct spi_device *cocci_id/* drivers/rtc/rtc-rv3029c2.c 918 */;
+	struct i2c_driver cocci_id/* drivers/rtc/rtc-rv3029c2.c 884 */;
+	const struct of_device_id cocci_id/* drivers/rtc/rtc-rv3029c2.c 874 */[];
+	const struct i2c_device_id cocci_id/* drivers/rtc/rtc-rv3029c2.c 867 */[];
+	const struct regmap_config cocci_id/* drivers/rtc/rtc-rv3029c2.c 846 */;
+	struct regmap *cocci_id/* drivers/rtc/rtc-rv3029c2.c 845 */;
+	const struct i2c_device_id *cocci_id/* drivers/rtc/rtc-rv3029c2.c 843 */;
+	struct i2c_client *cocci_id/* drivers/rtc/rtc-rv3029c2.c 842 */;
+	u8 cocci_id/* drivers/rtc/rtc-rv3029c2.c 795 */[1];
+	struct rtc_class_ops cocci_id/* drivers/rtc/rtc-rv3029c2.c 785 */;
+	const char *cocci_id/* drivers/rtc/rtc-rv3029c2.c 764 */;
+	void cocci_id/* drivers/rtc/rtc-rv3029c2.c 764 */;
+	struct attribute *cocci_id/* drivers/rtc/rtc-rv3029c2.c 757 */[];
+	struct device_attribute *cocci_id/* drivers/rtc/rtc-rv3029c2.c 701 */;
+	ssize_t cocci_id/* drivers/rtc/rtc-rv3029c2.c 700 */;
+	char *cocci_id/* drivers/rtc/rtc-rv3029c2.c 689 */;
+	int *cocci_id/* drivers/rtc/rtc-rv3029c2.c 673 */;
+	u32 cocci_id/* drivers/rtc/rtc-rv3029c2.c 641 */;
+	const struct rv3029_trickle_tab_elem *cocci_id/* drivers/rtc/rtc-rv3029c2.c 639 */;
+	struct device_node *cocci_id/* drivers/rtc/rtc-rv3029c2.c 638 */;
+	const struct rv3029_trickle_tab_elem {
+		u32 r;
+		u8 conf;
+	} cocci_id/* drivers/rtc/rtc-rv3029c2.c 579 */[];
+	u8 cocci_id/* drivers/rtc/rtc-rv3029c2.c 460 */;
+	struct device *cocci_id/* drivers/rtc/rtc-rv3029c2.c 457 */;
+	unsigned int cocci_id/* drivers/rtc/rtc-rv3029c2.c 457 */;
+	int cocci_id/* drivers/rtc/rtc-rv3029c2.c 457 */;
+	u8 cocci_id/* drivers/rtc/rtc-rv3029c2.c 416 */[8];
+	struct rtc_time *const cocci_id/* drivers/rtc/rtc-rv3029c2.c 414 */;
+	struct rtc_wkalrm *cocci_id/* drivers/rtc/rtc-rv3029c2.c 412 */;
+	const u8 cocci_id/* drivers/rtc/rtc-rv3029c2.c 393 */;
+	u8 cocci_id/* drivers/rtc/rtc-rv3029c2.c 373 */[RV3029_WATCH_SECTION_LEN];
+	struct rtc_time *cocci_id/* drivers/rtc/rtc-rv3029c2.c 369 */;
+	unsigned long cocci_id/* drivers/rtc/rtc-rv3029c2.c 333 */;
+	struct mutex *cocci_id/* drivers/rtc/rtc-rv3029c2.c 332 */;
+	struct rv3029_data *cocci_id/* drivers/rtc/rtc-rv3029c2.c 331 */;
+	irqreturn_t cocci_id/* drivers/rtc/rtc-rv3029c2.c 328 */;
+	void *cocci_id/* drivers/rtc/rtc-rv3029c2.c 328 */;
+	const u8 cocci_id/* drivers/rtc/rtc-rv3029c2.c 279 */[];
+	u8 cocci_id/* drivers/rtc/rtc-rv3029c2.c 261 */[];
+	size_t cocci_id/* drivers/rtc/rtc-rv3029c2.c 261 */;
+	u8 *cocci_id/* drivers/rtc/rtc-rv3029c2.c 165 */;
+	struct rv3029_data {
+		struct device *dev;
+		struct rtc_device *rtc;
+		struct regmap *regmap;
+		int irq;
+	} cocci_id/* drivers/rtc/rtc-rv3029c2.c 117 */;
+}

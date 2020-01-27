@@ -1,0 +1,47 @@
+cocci_test_suite() {
+	irqreturn_t cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 982 */;
+	void *cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 982 */;
+	ktime_t cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 92 */;
+	unsigned long cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 896 */;
+	dma_addr_t cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 894 */;
+	struct cdmac_bd *cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 893 */;
+	unsigned int cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 892 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 891 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 888 */;
+	bool cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 87 */;
+	skb_frag_t *cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 825 */;
+	netdev_tx_t cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 817 */;
+	u64 cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 741 */;
+	void cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 72 */;
+	struct phy_device *cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 703 */;
+	u32 cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 67 */;
+	struct temac_local *cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 67 */;
+	int cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 67 */;
+	struct temac_option *cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 594 */;
+	struct temac_option {
+		int flg;
+		u32 opt;
+		u32 reg;
+		u32 m_or;
+		u32 m_and;
+	} cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 508 */[];
+	struct netdev_hw_addr *cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 469 */;
+	struct sockaddr *cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 442 */;
+	const void *cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 431 */;
+	struct device_node *cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 260 */;
+	struct platform_device *cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 259 */;
+	struct platform_driver cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 1415 */;
+	const struct of_device_id cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 1406 */[];
+	__be32 *cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 1153 */;
+	struct resource *cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 1151 */;
+	struct ll_temac_platform_data *cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 1147 */;
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 1137 */;
+	const struct attribute_group cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 1132 */;
+	struct attribute *cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 1127 */[];
+	struct device_attribute *cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 1111 */;
+	char *cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 1111 */;
+	struct device *cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 1110 */;
+	ssize_t cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 1110 */;
+	const struct net_device_ops cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 1094 */;
+	struct ifreq *cocci_id/* drivers/net/ethernet/xilinx/ll_temac_main.c 1083 */;
+}

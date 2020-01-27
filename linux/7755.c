@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/tty/serial/ar933x_uart.c 763 */;
+	int __init cocci_id/* drivers/tty/serial/ar933x_uart.c 739 */;
+	struct platform_driver cocci_id/* drivers/tty/serial/ar933x_uart.c 730 */;
+	const struct of_device_id cocci_id/* drivers/tty/serial/ar933x_uart.c 723 */[];
+	struct device_node *cocci_id/* drivers/tty/serial/ar933x_uart.c 619 */;
+	struct resource *cocci_id/* drivers/tty/serial/ar933x_uart.c 617 */;
+	struct platform_device *cocci_id/* drivers/tty/serial/ar933x_uart.c 613 */;
+	struct console cocci_id/* drivers/tty/serial/ar933x_uart.c 594 */;
+	struct console *cocci_id/* drivers/tty/serial/ar933x_uart.c 573 */;
+	char *cocci_id/* drivers/tty/serial/ar933x_uart.c 573 */;
+	unsigned int cocci_id/* drivers/tty/serial/ar933x_uart.c 534 */;
+	const char *cocci_id/* drivers/tty/serial/ar933x_uart.c 533 */;
+	struct ar933x_uart_port *cocci_id/* drivers/tty/serial/ar933x_uart.c 507 */[CONFIG_SERIAL_AR933X_NR_UARTS];
+	const struct uart_ops cocci_id/* drivers/tty/serial/ar933x_uart.c 488 */;
+	struct serial_struct *cocci_id/* drivers/tty/serial/ar933x_uart.c 469 */;
+	struct ar933x_uart_port {
+		struct uart_port port;
+		unsigned int ier;
+		unsigned int min_baud;
+		unsigned int max_baud;
+		struct clk *clk;
+	} cocci_id/* drivers/tty/serial/ar933x_uart.c 44 */;
+	struct uart_driver cocci_id/* drivers/tty/serial/ar933x_uart.c 42 */;
+	irqreturn_t cocci_id/* drivers/tty/serial/ar933x_uart.c 371 */;
+	void *cocci_id/* drivers/tty/serial/ar933x_uart.c 371 */;
+	struct circ_buf *cocci_id/* drivers/tty/serial/ar933x_uart.c 334 */;
+	unsigned char cocci_id/* drivers/tty/serial/ar933x_uart.c 307 */;
+	struct tty_port *cocci_id/* drivers/tty/serial/ar933x_uart.c 302 */;
+	struct ktermios *cocci_id/* drivers/tty/serial/ar933x_uart.c 228 */;
+	long cocci_id/* drivers/tty/serial/ar933x_uart.c 201 */;
+	unsigned int *cocci_id/* drivers/tty/serial/ar933x_uart.c 197 */;
+	u32 cocci_id/* drivers/tty/serial/ar933x_uart.c 184 */;
+	u64 cocci_id/* drivers/tty/serial/ar933x_uart.c 183 */;
+	unsigned long cocci_id/* drivers/tty/serial/ar933x_uart.c 164 */;
+	struct ar933x_uart_port cocci_id/* drivers/tty/serial/ar933x_uart.c 163 */;
+	struct ar933x_uart_port *cocci_id/* drivers/tty/serial/ar933x_uart.c 162 */;
+	struct uart_port *cocci_id/* drivers/tty/serial/ar933x_uart.c 160 */;
+	int cocci_id/* drivers/tty/serial/ar933x_uart.c 160 */;
+	void cocci_id/* drivers/tty/serial/ar933x_uart.c 160 */;
+}

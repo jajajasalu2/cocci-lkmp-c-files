@@ -1,0 +1,71 @@
+cocci_test_suite() {
+	uint32_t cocci_id/* tools/perf/util/jitdump.c 82 */;
+	void *cocci_id/* tools/perf/util/jitdump.c 79 */;
+	const void *cocci_id/* tools/perf/util/jitdump.c 77 */;
+	struct jit_buf_desc cocci_id/* tools/perf/util/jitdump.c 761 */;
+	struct evsel *cocci_id/* tools/perf/util/jitdump.c 760 */;
+	u64 *cocci_id/* tools/perf/util/jitdump.c 758 */;
+	struct machine *cocci_id/* tools/perf/util/jitdump.c 755 */;
+	struct perf_data *cocci_id/* tools/perf/util/jitdump.c 754 */;
+	struct perf_session *cocci_id/* tools/perf/util/jitdump.c 753 */;
+	const char *cocci_id/* tools/perf/util/jitdump.c 75 */;
+	struct jit_tool cocci_id/* tools/perf/util/jitdump.c 71 */;
+	pid_t cocci_id/* tools/perf/util/jitdump.c 698 */;
+	char *cocci_id/* tools/perf/util/jitdump.c 698 */;
+	int cocci_id/* tools/perf/util/jitdump.c 697 */;
+	struct jit_tool {
+		struct perf_tool tool;
+		struct perf_data output;
+		struct perf_data input;
+		u64 bytes_written;
+	} cocci_id/* tools/perf/util/jitdump.c 63 */;
+	struct debug_line_info {
+		unsigned long vma;
+		unsigned int lineno;
+		const char filename[0];
+	} cocci_id/* tools/perf/util/jitdump.c 56 */;
+	u64 cocci_id/* tools/perf/util/jitdump.c 428 */;
+	unsigned long cocci_id/* tools/perf/util/jitdump.c 411 */;
+	struct {
+		u32 pid,tid;
+		u64 time;
+	} *cocci_id/* tools/perf/util/jitdump.c 401 */;
+	u16 cocci_id/* tools/perf/util/jitdump.c 396 */;
+	struct stat cocci_id/* tools/perf/util/jitdump.c 394 */;
+	uintptr_t cocci_id/* tools/perf/util/jitdump.c 392 */;
+	struct perf_tool *cocci_id/* tools/perf/util/jitdump.c 390 */;
+	struct perf_sample cocci_id/* tools/perf/util/jitdump.c 388 */;
+	struct perf_tsc_conversion cocci_id/* tools/perf/util/jitdump.c 371 */;
+	uint64_t cocci_id/* tools/perf/util/jitdump.c 369 */;
+	struct jit_buf_desc *cocci_id/* tools/perf/util/jitdump.c 369 */;
+	ssize_t cocci_id/* tools/perf/util/jitdump.c 359 */;
+	union perf_event *cocci_id/* tools/perf/util/jitdump.c 357 */;
+	struct jit_buf_desc {
+		struct perf_data *output;
+		struct perf_session *session;
+		struct machine *machine;
+		union jr_entry *entry;
+		void *buf;
+		uint64_t sample_type;
+		size_t bufsize;
+		FILE *in;
+		bool needs_bswap;
+		bool use_arch_timestamp;
+		void *debug_data;
+		void *unwinding_data;
+		uint64_t unwinding_size;
+		uint64_t unwinding_mapped_size;
+		uint64_t eh_frame_hdr_size;
+		size_t nr_debug_entries;
+		uint32_t code_load_count;
+		u64 bytes_written;
+		struct rb_root code_root;
+		char dir[PATH_MAX];
+	} cocci_id/* tools/perf/util/jitdump.c 33 */;
+	size_t cocci_id/* tools/perf/util/jitdump.c 245 */;
+	struct jr_prefix *cocci_id/* tools/perf/util/jitdump.c 242 */;
+	union jr_entry *cocci_id/* tools/perf/util/jitdump.c 239 */;
+	unsigned long long cocci_id/* tools/perf/util/jitdump.c 183 */;
+	struct jitheader cocci_id/* tools/perf/util/jitdump.c 135 */;
+	void cocci_id/* tools/perf/util/jitdump.c 107 */;
+}

@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	const struct file_operations *cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 89 */;
+	void *cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 89 */;
+	struct dentry **cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 88 */;
+	umode_t cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 87 */;
+	const char *cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 87 */;
+	int __exit cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 604 */;
+	void cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 604 */;
+	int __init cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 599 */;
+	struct file_system_type cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 591 */;
+	const struct fs_context_operations cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 546 */;
+	const struct tree_descr cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 516 */[];
+	unsigned long cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 513 */;
+	struct fs_context *cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 510 */;
+	struct inode *cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 51 */;
+	char cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 398 */[24];
+	char cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 363 */[10];
+	struct dentry *cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 362 */;
+	struct super_block *cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 360 */;
+	struct qib_devdata *cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 360 */;
+	int cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 360 */;
+	const struct file_operations cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 354 */;
+	const char __user *cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 322 */;
+	struct qib_flash cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 286 */;
+	loff_t cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 276 */;
+	const struct file_operations cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 169 */[];
+	char *cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 161 */;
+	u64 *cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 149 */;
+	loff_t *cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 147 */;
+	size_t cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 147 */;
+	struct file *cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 146 */;
+	char __user *cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 146 */;
+	ssize_t cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 146 */;
+	const char cocci_id/* drivers/infiniband/hw/qib/qib_fs.c 120 */[];
+}

@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	enum radeon_tv_std cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 917 */;
+	struct radeon_encoder_primary_dac cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 872 */;
+	struct radeon_encoder_primary_dac *cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 861 */;
+	const uint32_t cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 833 */[CHIP_LAST];
+	int8_t cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 740 */;
+	struct radeon_pll *cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 736 */;
+	u8 cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 650 */;
+	u16 cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 649 */;
+	enum radeon_combios_table_offset{COMBIOS_ASIC_INIT_1_TABLE, COMBIOS_BIOS_SUPPORT_TABLE, COMBIOS_DAC_PROGRAMMING_TABLE, COMBIOS_MAX_COLOR_DEPTH_TABLE, COMBIOS_CRTC_INFO_TABLE, COMBIOS_PLL_INFO_TABLE, COMBIOS_TV_INFO_TABLE, COMBIOS_DFP_INFO_TABLE, COMBIOS_HW_CONFIG_INFO_TABLE, COMBIOS_MULTIMEDIA_INFO_TABLE, COMBIOS_TV_STD_PATCH_TABLE, COMBIOS_LCD_INFO_TABLE, COMBIOS_MOBILE_INFO_TABLE, COMBIOS_PLL_INIT_TABLE, COMBIOS_MEM_CONFIG_TABLE, COMBIOS_SAVE_MASK_TABLE, COMBIOS_HARDCODED_EDID_TABLE, COMBIOS_ASIC_INIT_2_TABLE, COMBIOS_CONNECTOR_INFO_TABLE, COMBIOS_DYN_CLK_1_TABLE, COMBIOS_RESERVED_MEM_TABLE, COMBIOS_EXT_TMDS_INFO_TABLE, COMBIOS_MEM_CLK_INFO_TABLE, COMBIOS_EXT_DAC_INFO_TABLE, COMBIOS_MISC_INFO_TABLE, COMBIOS_CRT_INFO_TABLE, COMBIOS_INTEGRATED_SYSTEM_INFO_TABLE, COMBIOS_COMPONENT_VIDEO_INFO_TABLE, COMBIOS_FAN_SPEED_INFO_TABLE, COMBIOS_OVERDRIVE_INFO_TABLE, COMBIOS_OEM_INFO_TABLE, COMBIOS_DYN_CLK_2_TABLE, COMBIOS_POWER_CONNECTOR_INFO_TABLE, COMBIOS_I2C_INFO_TABLE, COMBIOS_ASIC_INIT_3_TABLE, COMBIOS_ASIC_INIT_4_TABLE, COMBIOS_DETECTED_MEM_TABLE, COMBIOS_ASIC_INIT_5_TABLE, COMBIOS_RAM_RESET_TABLE, COMBIOS_POWERPLAY_INFO_TABLE, COMBIOS_GPIO_INFO_TABLE, COMBIOS_LCD_DDC_INFO_TABLE, COMBIOS_TMDS_POWER_TABLE, COMBIOS_TMDS_POWER_ON_TABLE, COMBIOS_TMDS_POWER_OFF_TABLE,} cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 50 */;
+	void cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 43 */(struct drm_device *dev,
+								      uint32_t encoder_enum,
+								      uint32_t supported_device);
+	u32 cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 419 */;
+	enum radeon_combios_ddc cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 418 */;
+	struct radeon_i2c_bus_rec cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 417 */;
+	unsigned char *cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 408 */;
+	struct edid *cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 400 */;
+	struct radeon_encoder *cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 3466 */;
+	struct radeon_connector *cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 3464 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 3459 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 3458 */;
+	void cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 3015 */;
+	struct radeon_encoder_ext_tmds *cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 2893 */;
+	const char *cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 2703 */;
+	struct i2c_board_info cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 2702 */;
+	struct radeon_pm_clock_info cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 2653 */;
+	struct radeon_power_state cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 2648 */;
+	const char *cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 2631 */[];
+	struct radeon_hpd cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 2315 */;
+	enum radeon_combios_connector cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 2312 */;
+	uint8_t cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 2284 */;
+	uint32_t cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 2274 */;
+	struct radeon_device *cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 2273 */;
+	uint16_t cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 2271 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 2271 */;
+	int cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 2271 */;
+	struct radeon_hpd *cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 2225 */;
+	struct radeon_i2c_bus_rec *cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 2224 */;
+	enum radeon_combios_connector *cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 2222 */;
+	bool cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 2220 */;
+	struct radeon_encoder_int_tmds *cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 1334 */;
+	enum radeon_combios_table_offset cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 133 */;
+	const struct radeon_tmds_pll cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 1296 */[CHIP_LAST][4];
+	const int cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 121 */[];
+	struct radeon_encoder_lvds cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 1186 */;
+	char cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 1179 */[30];
+	struct radeon_encoder_lvds *cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 1172 */;
+	enum radeon_combios_connector{CONNECTOR_NONE_LEGACY, CONNECTOR_PROPRIETARY_LEGACY, CONNECTOR_CRT_LEGACY, CONNECTOR_DVI_I_LEGACY, CONNECTOR_DVI_D_LEGACY, CONNECTOR_CTV_LEGACY, CONNECTOR_STV_LEGACY, CONNECTOR_UNSUPPORTED_LEGACY,} cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 110 */;
+	struct radeon_encoder_tv_dac cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 1023 */;
+	struct radeon_encoder_tv_dac *cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 1012 */;
+	enum radeon_combios_ddc{DDC_NONE_DETECTED, DDC_MONID, DDC_DVI, DDC_VGA, DDC_CRT2, DDC_LCD, DDC_GPIO,} cocci_id/* drivers/gpu/drm/radeon/radeon_combios.c 100 */;
+}

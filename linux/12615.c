@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct mdp4_platform_config cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 567 */;
+	struct platform_device *cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 565 */;
+	struct mdp4_platform_config *cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 565 */;
+	const int cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 350 */[];
+	const char *const cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 347 */[];
+	const enum mdp4_dma cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 344 */[];
+	const enum mdp4_pipe cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 338 */[];
+	struct drm_plane *cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 335 */;
+	struct device_node *cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 241 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 240 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 239 */;
+	struct msm_drm_private *cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 238 */;
+	unsigned long cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 23 */;
+	uint32_t cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 22 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 21 */;
+	int cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 203 */;
+	const struct mdp_kms_funcs cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 181 */;
+	struct msm_gem_address_space *cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 164 */;
+	struct device *cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 163 */;
+	struct mdp4_platform_config *cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 16 */(struct platform_device *dev);
+	long cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 146 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 139 */;
+	struct mdp4_kms *cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 138 */;
+	struct msm_kms *cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 136 */;
+	unsigned cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 136 */;
+	void cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 136 */;
+	struct drm_crtc_state *cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 115 */;
+	struct drm_atomic_state *cocci_id/* drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c 111 */;
+}

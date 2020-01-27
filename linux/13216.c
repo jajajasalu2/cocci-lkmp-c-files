@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct tda18271_config cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 89 */;
+	struct tda18271_std_map cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 82 */;
+	struct s5h1411_config cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 72 */;
+	struct s5h1409_config cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 58 */;
+	struct xc2028_ctrl cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 493 */;
+	struct xc2028_config cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 488 */;
+	struct dvb_frontend *cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 487 */;
+	void cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 423 */;
+	struct mxl5005s_config cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 40 */;
+	void *cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 356 */;
+	struct dmx_demux *cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 337 */;
+	struct dvb_demux *cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 336 */;
+	struct dvb_adapter *cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 335 */;
+	struct cx18_dvb *cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 334 */;
+	struct cx18 *cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 333 */;
+	struct cx18_stream *cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 331 */;
+	int cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 331 */;
+	u32 cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 240 */;
+	struct dvb_demux_feed *cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 234 */;
+	int cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 228 */(struct cx18_stream *stream);
+	struct zl10353_config cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 220 */;
+	struct mt352_config cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 204 */;
+	u8 cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 197 */;
+	u8 cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 158 */[3];
+	const struct firmware *cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 155 */;
+	struct cx18_dvb cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 153 */;
+	unsigned long cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 136 */;
+	size_t cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 133 */;
+	const char *cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 126 */;
+	const struct firmware **cocci_id/* drivers/media/pci/cx18/cx18-dvb.c 123 */;
+}

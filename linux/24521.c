@@ -1,0 +1,75 @@
+cocci_test_suite() {
+	struct socket *cocci_id/* net/sctp/ipv6.c 991 */;
+	struct sockaddr *cocci_id/* net/sctp/ipv6.c 991 */;
+	__be16 *cocci_id/* net/sctp/ipv6.c 980 */;
+	const struct sctp_sock *cocci_id/* net/sctp/ipv6.c 979 */;
+	struct net *cocci_id/* net/sctp/ipv6.c 922 */;
+	struct net_device *cocci_id/* net/sctp/ipv6.c 919 */;
+	struct sctp_af *cocci_id/* net/sctp/ipv6.c 912 */;
+	struct sock *cocci_id/* net/sctp/ipv6.c 884 */;
+	sa_family_t cocci_id/* net/sctp/ipv6.c 861 */;
+	struct sctp_sock *cocci_id/* net/sctp/ipv6.c 861 */;
+	struct sctphdr *cocci_id/* net/sctp/ipv6.c 834 */;
+	struct sctp_association *cocci_id/* net/sctp/ipv6.c 801 */;
+	int *cocci_id/* net/sctp/ipv6.c 798 */;
+	char *cocci_id/* net/sctp/ipv6.c 798 */;
+	struct sctp_ulpevent *cocci_id/* net/sctp/ipv6.c 797 */;
+	void cocci_id/* net/sctp/ipv6.c 797 */;
+	struct seq_file *cocci_id/* net/sctp/ipv6.c 786 */;
+	__u32 cocci_id/* net/sctp/ipv6.c 782 */;
+	__u32 *cocci_id/* net/sctp/ipv6.c 782 */;
+	struct sctp_sockaddr_entry *cocci_id/* net/sctp/ipv6.c 78 */;
+	struct inet6_ifaddr *cocci_id/* net/sctp/ipv6.c 77 */;
+	struct sockaddr_in cocci_id/* net/sctp/ipv6.c 768 */;
+	void *cocci_id/* net/sctp/ipv6.c 75 */;
+	struct notifier_block *cocci_id/* net/sctp/ipv6.c 74 */;
+	unsigned long cocci_id/* net/sctp/ipv6.c 74 */;
+	struct ipv6_pinfo cocci_id/* net/sctp/ipv6.c 727 */;
+	struct sctp6_sock *cocci_id/* net/sctp/ipv6.c 709 */;
+	bool cocci_id/* net/sctp/ipv6.c 705 */;
+	const struct sk_buff *cocci_id/* net/sctp/ipv6.c 651 */;
+	int cocci_id/* net/sctp/ipv6.c 65 */(const union sctp_addr *addr1,
+					     const union sctp_addr *addr2);
+	void cocci_id/* net/sctp/ipv6.c 63 */(union sctp_addr *addr,
+					      struct in6_addr *saddr,
+					      __be16 port);
+	const struct in6_addr *cocci_id/* net/sctp/ipv6.c 624 */;
+	int cocci_id/* net/sctp/ipv6.c 61 */(union sctp_addr *s1,
+					     union sctp_addr *s2);
+	const union sctp_addr *cocci_id/* net/sctp/ipv6.c 562 */;
+	int cocci_id/* net/sctp/ipv6.c 562 */;
+	struct sctp_ipv6addr_param cocci_id/* net/sctp/ipv6.c 542 */;
+	__be16 cocci_id/* net/sctp/ipv6.c 527 */;
+	union sctp_addr_param *cocci_id/* net/sctp/ipv6.c 526 */;
+	struct sockaddr_in6 *cocci_id/* net/sctp/ipv6.c 474 */;
+	struct ipv6_txoptions *cocci_id/* net/sctp/ipv6.c 437 */;
+	struct ipv6_pinfo *cocci_id/* net/sctp/ipv6.c 436 */;
+	struct inet6_dev *cocci_id/* net/sctp/ipv6.c 405 */;
+	struct list_head *cocci_id/* net/sctp/ipv6.c 402 */;
+	struct rt6_info *cocci_id/* net/sctp/ipv6.c 359 */;
+	struct ip6_flowlabel *cocci_id/* net/sctp/ipv6.c 253 */;
+	struct flowi6 cocci_id/* net/sctp/ipv6.c 241 */;
+	__u8 cocci_id/* net/sctp/ipv6.c 239 */;
+	enum sctp_scope cocci_id/* net/sctp/ipv6.c 238 */;
+	struct in6_addr *cocci_id/* net/sctp/ipv6.c 237 */;
+	union sctp_addr cocci_id/* net/sctp/ipv6.c 236 */;
+	struct sctp_bind_addr *cocci_id/* net/sctp/ipv6.c 232 */;
+	struct flowi6 *cocci_id/* net/sctp/ipv6.c 231 */;
+	struct dst_entry *cocci_id/* net/sctp/ipv6.c 230 */;
+	struct flowi *cocci_id/* net/sctp/ipv6.c 227 */;
+	__u16 cocci_id/* net/sctp/ipv6.c 133 */;
+	struct sctp_transport *cocci_id/* net/sctp/ipv6.c 131 */;
+	u8 cocci_id/* net/sctp/ipv6.c 126 */;
+	__be32 cocci_id/* net/sctp/ipv6.c 126 */;
+	struct inet6_skb_parm *cocci_id/* net/sctp/ipv6.c 125 */;
+	struct notifier_block cocci_id/* net/sctp/ipv6.c 120 */;
+	struct sctp_pf cocci_id/* net/sctp/ipv6.c 1089 */;
+	struct sockaddr_in6 cocci_id/* net/sctp/ipv6.c 1081 */;
+	struct ipv6hdr cocci_id/* net/sctp/ipv6.c 1080 */;
+	struct sctp_af cocci_id/* net/sctp/ipv6.c 1058 */;
+	const struct inet6_protocol cocci_id/* net/sctp/ipv6.c 1052 */;
+	struct sk_buff *cocci_id/* net/sctp/ipv6.c 1047 */;
+	struct inet_protosw cocci_id/* net/sctp/ipv6.c 1032 */;
+	const struct proto_ops cocci_id/* net/sctp/ipv6.c 1007 */;
+	union sctp_addr *cocci_id/* net/sctp/ipv6.c 1002 */;
+}

@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct pnp_driver cocci_id/* drivers/platform/x86/apple-gmux.c 824 */;
+	const struct dev_pm_ops cocci_id/* drivers/platform/x86/apple-gmux.c 819 */;
+	const struct pnp_device_id cocci_id/* drivers/platform/x86/apple-gmux.c 814 */[];
+	struct apple_gmux_data *cocci_id/* drivers/platform/x86/apple-gmux.c 66 */;
+	unsigned long long cocci_id/* drivers/platform/x86/apple-gmux.c 611 */;
+	acpi_status cocci_id/* drivers/platform/x86/apple-gmux.c 610 */;
+	struct backlight_properties cocci_id/* drivers/platform/x86/apple-gmux.c 606 */;
+	struct resource *cocci_id/* drivers/platform/x86/apple-gmux.c 605 */;
+	const struct pnp_device_id *cocci_id/* drivers/platform/x86/apple-gmux.c 602 */;
+	struct device *cocci_id/* drivers/platform/x86/apple-gmux.c 585 */;
+	struct pnp_dev *cocci_id/* drivers/platform/x86/apple-gmux.c 562 */;
+	acpi_handle cocci_id/* drivers/platform/x86/apple-gmux.c 559 */;
+	void *cocci_id/* drivers/platform/x86/apple-gmux.c 559 */;
+	u8 cocci_id/* drivers/platform/x86/apple-gmux.c 552 */;
+	void cocci_id/* drivers/platform/x86/apple-gmux.c 550 */;
+	const struct vga_switcheroo_handler cocci_id/* drivers/platform/x86/apple-gmux.c 516 */;
+	enum vga_switcheroo_client_id cocci_id/* drivers/platform/x86/apple-gmux.c 495 */;
+	struct pci_dev *cocci_id/* drivers/platform/x86/apple-gmux.c 495 */;
+	struct apple_gmux_data {
+		unsigned long iostart;
+		unsigned long iolen;
+		bool indexed;
+		struct mutex index_lock;
+		struct backlight_device *bdev;
+		acpi_handle dhandle;
+		int gpe;
+		bool external_switchable;
+		enum vga_switcheroo_client_id switch_state_display;
+		enum vga_switcheroo_client_id switch_state_ddc;
+		enum vga_switcheroo_client_id switch_state_external;
+		enum vga_switcheroo_state power_state;
+		struct completion powerchange_done;
+	} cocci_id/* drivers/platform/x86/apple-gmux.c 47 */;
+	enum vga_switcheroo_state cocci_id/* drivers/platform/x86/apple-gmux.c 462 */;
+	const struct backlight_ops cocci_id/* drivers/platform/x86/apple-gmux.c 304 */;
+	struct backlight_device *cocci_id/* drivers/platform/x86/apple-gmux.c 284 */;
+	int cocci_id/* drivers/platform/x86/apple-gmux.c 284 */;
+	u16 cocci_id/* drivers/platform/x86/apple-gmux.c 255 */;
+	bool cocci_id/* drivers/platform/x86/apple-gmux.c 253 */;
+	u32 cocci_id/* drivers/platform/x86/apple-gmux.c 187 */;
+}

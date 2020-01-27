@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	bool cocci_id/* fs/btrfs/delayed-ref.c 922 */;
+	struct btrfs_delayed_tree_ref *cocci_id/* fs/btrfs/delayed-ref.c 917 */;
+	struct btrfs_delayed_ref_root *cocci_id/* fs/btrfs/delayed-ref.c 806 */;
+	int *cocci_id/* fs/btrfs/delayed-ref.c 802 */;
+	int cocci_id/* fs/btrfs/delayed-ref.c 802 */;
+	struct btrfs_qgroup_extent_record *cocci_id/* fs/btrfs/delayed-ref.c 801 */;
+	struct btrfs_trans_handle *cocci_id/* fs/btrfs/delayed-ref.c 799 */;
+	struct btrfs_delayed_ref_head *cocci_id/* fs/btrfs/delayed-ref.c 798 */;
+	u32 cocci_id/* fs/btrfs/delayed-ref.c 528 */;
+	struct seq_list cocci_id/* fs/btrfs/delayed-ref.c 524 */;
+	struct seq_list *cocci_id/* fs/btrfs/delayed-ref.c 518 */;
+	struct btrfs_delayed_ref_node cocci_id/* fs/btrfs/delayed-ref.c 508 */;
+	struct rb_node *cocci_id/* fs/btrfs/delayed-ref.c 483 */;
+	struct btrfs_delayed_ref_node *cocci_id/* fs/btrfs/delayed-ref.c 482 */;
+	struct rb_root *cocci_id/* fs/btrfs/delayed-ref.c 365 */;
+	struct btrfs_block_rsv *cocci_id/* fs/btrfs/delayed-ref.c 30 */;
+	struct rb_node **cocci_id/* fs/btrfs/delayed-ref.c 281 */;
+	struct rb_root_cached *cocci_id/* fs/btrfs/delayed-ref.c 278 */;
+	enum btrfs_reserve_flush_enum cocci_id/* fs/btrfs/delayed-ref.c 174 */;
+	struct kmem_cache *cocci_id/* fs/btrfs/delayed-ref.c 17 */;
+	struct btrfs_delayed_extent_op cocci_id/* fs/btrfs/delayed-ref.c 1178 */;
+	struct btrfs_delayed_data_ref cocci_id/* fs/btrfs/delayed-ref.c 1171 */;
+	struct btrfs_delayed_tree_ref cocci_id/* fs/btrfs/delayed-ref.c 1164 */;
+	struct btrfs_delayed_ref_head cocci_id/* fs/btrfs/delayed-ref.c 1157 */;
+	int __init cocci_id/* fs/btrfs/delayed-ref.c 1153 */;
+	void __cold cocci_id/* fs/btrfs/delayed-ref.c 1145 */;
+	void cocci_id/* fs/btrfs/delayed-ref.c 1145 */;
+	struct btrfs_delayed_extent_op *cocci_id/* fs/btrfs/delayed-ref.c 1103 */;
+	u8 cocci_id/* fs/btrfs/delayed-ref.c 1027 */;
+	struct btrfs_delayed_data_ref *cocci_id/* fs/btrfs/delayed-ref.c 1014 */;
+	struct btrfs_fs_info *cocci_id/* fs/btrfs/delayed-ref.c 1013 */;
+	u64 cocci_id/* fs/btrfs/delayed-ref.c 1010 */;
+	struct btrfs_ref *cocci_id/* fs/btrfs/delayed-ref.c 1009 */;
+}

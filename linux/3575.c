@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/mmc/core/core.c 940 */;
+	struct mmc_ios *cocci_id/* drivers/mmc/core/core.c 902 */;
+	const int cocci_id/* drivers/mmc/core/core.c 86 */[];
+	bool cocci_id/* drivers/mmc/core/core.c 803 */;
+	unsigned long cocci_id/* drivers/mmc/core/core.c 801 */;
+	struct task_struct *cocci_id/* drivers/mmc/core/core.c 799 */;
+	atomic_t *cocci_id/* drivers/mmc/core/core.c 797 */;
+	struct mmc_host *cocci_id/* drivers/mmc/core/core.c 796 */;
+	struct mmc_ctx *cocci_id/* drivers/mmc/core/core.c 796 */;
+	int cocci_id/* drivers/mmc/core/core.c 796 */;
+	const struct mmc_card *cocci_id/* drivers/mmc/core/core.c 665 */;
+	struct mmc_data *cocci_id/* drivers/mmc/core/core.c 665 */;
+	struct mmc_request cocci_id/* drivers/mmc/core/core.c 640 */;
+	struct delayed_work *cocci_id/* drivers/mmc/core/core.c 63 */;
+	struct mmc_command cocci_id/* drivers/mmc/core/core.c 553 */;
+	const unsigned cocci_id/* drivers/mmc/core/core.c 53 */[];
+	struct mmc_request *cocci_id/* drivers/mmc/core/core.c 378 */;
+	struct scatterlist *cocci_id/* drivers/mmc/core/core.c 301 */;
+	void __exit cocci_id/* drivers/mmc/core/core.c 2491 */;
+	int __init cocci_id/* drivers/mmc/core/core.c 2466 */;
+	struct mmc_host cocci_id/* drivers/mmc/core/core.c 2401 */;
+	void *cocci_id/* drivers/mmc/core/core.c 2398 */;
+	struct notifier_block *cocci_id/* drivers/mmc/core/core.c 2397 */;
+	struct work_struct *cocci_id/* drivers/mmc/core/core.c 2276 */;
+	unsigned int *cocci_id/* drivers/mmc/core/core.c 1802 */;
+	struct mmc_card *cocci_id/* drivers/mmc/core/core.c 1801 */;
+	unsigned int cocci_id/* drivers/mmc/core/core.c 1801 */;
+	const struct mmc_bus_ops *cocci_id/* drivers/mmc/core/core.c 1435 */;
+	struct mmc_command *cocci_id/* drivers/mmc/core/core.c 140 */;
+	void cocci_id/* drivers/mmc/core/core.c 1397 */;
+	int *cocci_id/* drivers/mmc/core/core.c 1287 */;
+	unsigned cocci_id/* drivers/mmc/core/core.c 1100 */;
+	struct device_node *cocci_id/* drivers/mmc/core/core.c 1099 */;
+	const int cocci_id/* drivers/mmc/core/core.c 1031 */;
+}

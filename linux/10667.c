@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	const struct intel_forcewake_range cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 988 */[];
+	const i915_reg_t *cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 947 */;
+	const i915_reg_t cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 919 */[];
+	const struct intel_forcewake_range *cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 850 */;
+	typeof(base) cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 831 */;
+	const enum forcewake_domain_id cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 76 */;
+	const char *cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 75 */;
+	const char *const cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 63 */[];
+	bool cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 500 */;
+	struct intel_uncore_mmio_debug *cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 38 */;
+	struct intel_uncore_forcewake_domain cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 374 */;
+	struct hrtimer *cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 371 */;
+	enum hrtimer_restart cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 370 */;
+	u32 cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 349 */;
+	unsigned cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 2020 */;
+	u32 *cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 2018 */;
+	const struct reg_whitelist {
+		i915_reg_t offset_ldw;
+		i915_reg_t offset_udw;
+		u16 gen_mask;
+		u8 size;
+	} cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 1870 */[];
+	struct pci_dev *cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 1696 */;
+	struct intel_uncore cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 1635 */;
+	void *cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 1632 */;
+	struct notifier_block *cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 1631 */;
+	struct intel_forcewake_range *cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 1627 */;
+	const enum ack_type cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 156 */;
+	struct drm_i915_private *cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 1500 */;
+	enum ack_type{ACK_CLEAR=0, ACK_SET,} cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 149 */;
+	i915_reg_t cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 1423 */;
+	enum forcewake_domain_id cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 1422 */;
+	int cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 1421 */;
+	 cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 1383 */()__gen_reg_write_funcs(gen8);
+	unsigned long cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 1340 */;
+	unsigned int cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 1247 */;
+	struct intel_uncore_forcewake_domain *cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 1246 */;
+	enum forcewake_domains cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 1244 */;
+	struct intel_uncore *cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 1243 */;
+	void cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 1243 */;
+	const u32 cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 118 */;
+	const struct intel_uncore_forcewake_domain *cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 117 */;
+	const bool cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 1157 */;
+	const i915_reg_t cocci_id/* drivers/gpu/drm/i915/intel_uncore.c 1156 */;
+}

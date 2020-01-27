@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	int cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 797 */;
+	struct iscsi_dif_flags *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 76 */;
+	struct iscsi_text_request_hdr *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 757 */;
+	struct iscsi_tmf_request_hdr *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 744 */;
+	struct iscsi_logout_req_hdr *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 702 */;
+	struct iscsi_nop_out_hdr *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 656 */;
+	struct iscsi_common_hdr *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 649 */;
+	struct iscsi_login_req_hdr *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 614 */;
+	struct iscsi_cmd_hdr *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 589 */;
+	struct iscsi_conn_params *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 587 */;
+	struct scsi_dif_task_params *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 55 */;
+	struct scsi_sgl_task_params *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 54 */;
+	enum iscsi_task_type cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 53 */;
+	u32 cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 52 */;
+	struct iscsi_task_params *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 52 */;
+	struct iscsi_r2t_hdr *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 508 */;
+	bool cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 491 */;
+	struct tdif_task_context *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 326 */;
+	struct rdif_task_context *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 325 */;
+	struct e4_ustorm_iscsi_task_ag_ctx *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 257 */;
+	struct ustorm_iscsi_task_st_ctx *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 256 */;
+	union iscsi_task_hdr *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 238 */;
+	struct scsi_initiator_cmd_params *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 236 */;
+	struct ystorm_iscsi_task_st_ctx *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 235 */;
+	struct scsi_cached_sges *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 23 */;
+	struct scsi_sgl_params *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 22 */;
+	u8 cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 208 */;
+	u16 cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 207 */;
+	struct e4_iscsi_task_context *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 205 */;
+	struct data_hdr *cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 202 */;
+	void cocci_id/* drivers/scsi/qedi/qedi_fw_api.c 201 */;
+}

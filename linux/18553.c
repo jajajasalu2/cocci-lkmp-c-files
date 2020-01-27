@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	probes_insn_fn_t *cocci_id/* arch/arm/probes/kprobes/core.c 97 */;
+	u16 cocci_id/* arch/arm/probes/kprobes/core.c 62 */;
+	u16 *cocci_id/* arch/arm/probes/kprobes/core.c 60 */;
+	const struct decode_checker **cocci_id/* arch/arm/probes/kprobes/core.c 55 */;
+	int __init cocci_id/* arch/arm/probes/kprobes/core.c 537 */;
+	const union decode_action *cocci_id/* arch/arm/probes/kprobes/core.c 53 */;
+	struct undef_hook cocci_id/* arch/arm/probes/kprobes/core.c 527 */;
+	kprobe_decode_insn_t *cocci_id/* arch/arm/probes/kprobes/core.c 52 */;
+	bool cocci_id/* arch/arm/probes/kprobes/core.c 51 */;
+	unsigned long cocci_id/* arch/arm/probes/kprobes/core.c 50 */;
+	kprobe_opcode_t *cocci_id/* arch/arm/probes/kprobes/core.c 496 */;
+	struct pt_regs *cocci_id/* arch/arm/probes/kprobes/core.c 494 */;
+	struct kretprobe_instance *cocci_id/* arch/arm/probes/kprobes/core.c 493 */;
+	kprobe_opcode_t cocci_id/* arch/arm/probes/kprobes/core.c 49 */[MAX_INSN_SIZE];
+	int __kprobes cocci_id/* arch/arm/probes/kprobes/core.c 46 */;
+	struct hlist_node *cocci_id/* arch/arm/probes/kprobes/core.c 418 */;
+	struct hlist_head *cocci_id/* arch/arm/probes/kprobes/core.c 417 */;
+	void __naked __kprobes cocci_id/* arch/arm/probes/kprobes/core.c 397 */;
+	void cocci_id/* arch/arm/probes/kprobes/core.c 397 */;
+	struct notifier_block *cocci_id/* arch/arm/probes/kprobes/core.c 379 */;
+	long cocci_id/* arch/arm/probes/kprobes/core.c 344 */;
+	struct kprobe_ctlblk *cocci_id/* arch/arm/probes/kprobes/core.c 332 */;
+	void __kprobes cocci_id/* arch/arm/probes/kprobes/core.c 221 */;
+	struct patch cocci_id/* arch/arm/probes/kprobes/core.c 168 */;
+	struct patch *cocci_id/* arch/arm/probes/kprobes/core.c 161 */;
+	void *cocci_id/* arch/arm/probes/kprobes/core.c 159 */;
+	int cocci_id/* arch/arm/probes/kprobes/core.c 159 */;
+	struct patch {
+		void *addr;
+		unsigned int insn;
+	} cocci_id/* arch/arm/probes/kprobes/core.c 154 */;
+	kprobe_opcode_t cocci_id/* arch/arm/probes/kprobes/core.c 132 */;
+	uintptr_t cocci_id/* arch/arm/probes/kprobes/core.c 125 */;
+	unsigned int cocci_id/* arch/arm/probes/kprobes/core.c 120 */;
+	struct kprobe *cocci_id/* arch/arm/probes/kprobes/core.c 118 */;
+	void __kprobes cocci_id/* arch/arm/probes/kprobes/core.c 118 */;
+	__typeof__(struct kprobe_ctlblk) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+	__typeof__(struct kprobe *) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

@@ -1,0 +1,55 @@
+cocci_test_suite() {
+	struct hpi_response *cocci_id/* sound/pci/asihpi/hpifunc.c 94 */;
+	struct hpi_message *cocci_id/* sound/pci/asihpi/hpifunc.c 94 */;
+	struct hpi_response_header *cocci_id/* sound/pci/asihpi/hpifunc.c 92 */;
+	struct hpi_message_header *cocci_id/* sound/pci/asihpi/hpifunc.c 91 */;
+	struct hpi_stream_res *cocci_id/* sound/pci/asihpi/hpifunc.c 84 */;
+	struct hpi_handle {
+		unsigned int obj_index:12;
+		unsigned int obj_type:4;
+		unsigned int adapter_index:14;
+		unsigned int spare:1;
+		unsigned int read_only:1;
+	} cocci_id/* sound/pci/asihpi/hpifunc.c 8 */;
+	struct hpi_anc_frame *cocci_id/* sound/pci/asihpi/hpifunc.c 690 */;
+	const struct hpi_format *cocci_id/* sound/pci/asihpi/hpifunc.c 63 */;
+	struct hpi_msg_format *cocci_id/* sound/pci/asihpi/hpifunc.c 62 */;
+	void cocci_id/* sound/pci/asihpi/hpifunc.c 62 */;
+	const u8 *cocci_id/* sound/pci/asihpi/hpifunc.c 498 */;
+	union handle_word cocci_id/* sound/pci/asihpi/hpifunc.c 36 */;
+	struct hpi_msg_format cocci_id/* sound/pci/asihpi/hpifunc.c 288 */;
+	struct hpi_format *cocci_id/* sound/pci/asihpi/hpifunc.c 284 */;
+	u32 *cocci_id/* sound/pci/asihpi/hpifunc.c 279 */;
+	int *cocci_id/* sound/pci/asihpi/hpifunc.c 2479 */;
+	int cocci_id/* sound/pci/asihpi/hpifunc.c 2473 */;
+	short cocci_id/* sound/pci/asihpi/hpifunc.c 2240 */[5];
+	const char cocci_id/* sound/pci/asihpi/hpifunc.c 21 */;
+	unsigned short cocci_id/* sound/pci/asihpi/hpifunc.c 2079 */;
+	short cocci_id/* sound/pci/asihpi/hpifunc.c 1998 */[HPI_MAX_CHANNELS];
+	u16 *cocci_id/* sound/pci/asihpi/hpifunc.c 196 */;
+	unsigned int cocci_id/* sound/pci/asihpi/hpifunc.c 1892 */;
+	short *cocci_id/* sound/pci/asihpi/hpifunc.c 1879 */;
+	short cocci_id/* sound/pci/asihpi/hpifunc.c 1873 */;
+	u8 *cocci_id/* sound/pci/asihpi/hpifunc.c 1762 */;
+	struct hpi_res_cobranet_hmiread cocci_id/* sound/pci/asihpi/hpifunc.c 1694 */;
+	struct hpi_msg_cobranet_hmiread cocci_id/* sound/pci/asihpi/hpifunc.c 1693 */;
+	struct hpi_response_header cocci_id/* sound/pci/asihpi/hpifunc.c 1668 */;
+	struct hpi_msg_cobranet_hmiwrite cocci_id/* sound/pci/asihpi/hpifunc.c 1667 */;
+	u32 cocci_id/* sound/pci/asihpi/hpifunc.c 162 */;
+	union handle_word {
+		struct hpi_handle h;
+		u32 w;
+	} cocci_id/* sound/pci/asihpi/hpifunc.c 16 */;
+	struct hpi_response cocci_id/* sound/pci/asihpi/hpifunc.c 152 */;
+	struct hpi_message cocci_id/* sound/pci/asihpi/hpifunc.c 151 */;
+	u16 cocci_id/* sound/pci/asihpi/hpifunc.c 149 */;
+	const u32 cocci_id/* sound/pci/asihpi/hpifunc.c 1469 */;
+	char cocci_id/* sound/pci/asihpi/hpifunc.c 1414 */;
+	char *cocci_id/* sound/pci/asihpi/hpifunc.c 1411 */;
+	const u16 cocci_id/* sound/pci/asihpi/hpifunc.c 1410 */;
+	enum HPI_MIXER_STORE_COMMAND cocci_id/* sound/pci/asihpi/hpifunc.c 1293 */;
+	struct hpi_hostbuffer_status **cocci_id/* sound/pci/asihpi/hpifunc.c 1098 */;
+	u8 **cocci_id/* sound/pci/asihpi/hpifunc.c 1097 */;
+	const struct hpi_anc_frame *cocci_id/* sound/pci/asihpi/hpifunc.c 1060 */;
+	struct hpi_anc_frame cocci_id/* sound/pci/asihpi/hpifunc.c 1055 */;
+}

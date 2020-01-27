@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	char cocci_id/* sound/ac97/bus.c 75 */[];
+	u32 cocci_id/* sound/ac97/bus.c 74 */;
+	struct device_node *cocci_id/* sound/ac97/bus.c 69 */;
+	struct ac97_controller cocci_id/* sound/ac97/bus.c 56 */;
+	void __exit cocci_id/* sound/ac97/bus.c 552 */;
+	int __init cocci_id/* sound/ac97/bus.c 546 */;
+	const struct ac97_controller_ops cocci_id/* sound/ac97/bus.c 51 */;
+	const struct ac97_id *cocci_id/* sound/ac97/bus.c 477 */;
+	struct ac97_codec_driver *cocci_id/* sound/ac97/bus.c 476 */;
+	struct ac97_codec_device *cocci_id/* sound/ac97/bus.c 475 */;
+	struct device_driver *cocci_id/* sound/ac97/bus.c 473 */;
+	unsigned short cocci_id/* sound/ac97/bus.c 46 */;
+	char *cocci_id/* sound/ac97/bus.c 459 */;
+	const struct dev_pm_ops cocci_id/* sound/ac97/bus.c 424 */;
+	void **cocci_id/* sound/ac97/bus.c 350 */;
+	const struct ac97_controller_ops *cocci_id/* sound/ac97/bus.c 349 */;
+	int cocci_id/* sound/ac97/bus.c 311 */;
+	struct bus_type cocci_id/* sound/ac97/bus.c 31 */;
+	const struct device_type cocci_id/* sound/ac97/bus.c 306 */;
+	struct ac97_controller *cocci_id/* sound/ac97/bus.c 298 */;
+	struct device *cocci_id/* sound/ac97/bus.c 296 */;
+	void cocci_id/* sound/ac97/bus.c 296 */;
+	const struct attribute_group *cocci_id/* sound/ac97/bus.c 281 */[];
+	struct attribute_group cocci_id/* sound/ac97/bus.c 276 */;
+	struct attribute *cocci_id/* sound/ac97/bus.c 270 */[];
+	size_t cocci_id/* sound/ac97/bus.c 241 */;
+	const char *cocci_id/* sound/ac97/bus.c 240 */;
+	struct device_attribute *cocci_id/* sound/ac97/bus.c 240 */;
+	ssize_t cocci_id/* sound/ac97/bus.c 239 */;
+	const struct ac97_codec_device *cocci_id/* sound/ac97/bus.c 220 */;
+	void *cocci_id/* sound/ac97/bus.c 220 */;
+	unsigned int cocci_id/* sound/ac97/bus.c 157 */;
+}

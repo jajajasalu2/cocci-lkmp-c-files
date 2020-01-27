@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	size_t cocci_id/* drivers/pci/pci-driver.c 99 */;
+	struct device_driver *cocci_id/* drivers/pci/pci-driver.c 98 */;
+	ssize_t cocci_id/* drivers/pci/pci-driver.c 98 */;
+	const struct dev_pm_ops *cocci_id/* drivers/pci/pci-driver.c 979 */;
+	struct dev_pm_ops __weak cocci_id/* drivers/pci/pci-driver.c 974 */;
+	pci_power_t cocci_id/* drivers/pci/pci-driver.c 579 */;
+	pm_message_t cocci_id/* drivers/pci/pci-driver.c 573 */;
+	struct pci_dynid *cocci_id/* drivers/pci/pci-driver.c 56 */;
+	unsigned int cocci_id/* drivers/pci/pci-driver.c 51 */;
+	bool cocci_id/* drivers/pci/pci-driver.c 401 */;
+	void __weak cocci_id/* drivers/pci/pci-driver.c 396 */;
+	int __weak cocci_id/* drivers/pci/pci-driver.c 391 */;
+	const struct pci_device_id *cocci_id/* drivers/pci/pci-driver.c 378 */;
+	struct pci_driver *cocci_id/* drivers/pci/pci-driver.c 376 */;
+	struct pci_dev *cocci_id/* drivers/pci/pci-driver.c 376 */;
+	int cocci_id/* drivers/pci/pci-driver.c 376 */;
+	struct drv_dev_and_id cocci_id/* drivers/pci/pci-driver.c 336 */;
+	struct device *cocci_id/* drivers/pci/pci-driver.c 292 */;
+	struct drv_dev_and_id *cocci_id/* drivers/pci/pci-driver.c 289 */;
+	void *cocci_id/* drivers/pci/pci-driver.c 287 */;
+	long cocci_id/* drivers/pci/pci-driver.c 287 */;
+	struct drv_dev_and_id {
+		struct pci_driver *drv;
+		struct pci_dev *dev;
+		const struct pci_device_id *id;
+	} cocci_id/* drivers/pci/pci-driver.c 281 */;
+	struct pci_dynid {
+		struct list_head node;
+		struct pci_device_id id;
+	} cocci_id/* drivers/pci/pci-driver.c 24 */;
+	const struct pci_device_id cocci_id/* drivers/pci/pci-driver.c 235 */;
+	struct attribute *cocci_id/* drivers/pci/pci-driver.c 202 */[];
+	struct pci_device_id *cocci_id/* drivers/pci/pci-driver.c 184 */;
+	int __init cocci_id/* drivers/pci/pci-driver.c 1665 */;
+	struct pcie_port_service_driver *cocci_id/* drivers/pci/pci-driver.c 1640 */;
+	struct pcie_device *cocci_id/* drivers/pci/pci-driver.c 1639 */;
+	struct bus_type cocci_id/* drivers/pci/pci-driver.c 1620 */;
+	struct acpi_device *cocci_id/* drivers/pci/pci-driver.c 1611 */;
+	char *cocci_id/* drivers/pci/pci-driver.c 1561 */[3];
+	enum pci_ers_result cocci_id/* drivers/pci/pci-driver.c 1558 */;
+	struct kobj_uevent_env *cocci_id/* drivers/pci/pci-driver.c 1520 */;
+	void cocci_id/* drivers/pci/pci-driver.c 1513 */;
+	const struct pci_dev *cocci_id/* drivers/pci/pci-driver.c 1446 */;
+	struct pci_driver cocci_id/* drivers/pci/pci-driver.c 1435 */;
+	const char *cocci_id/* drivers/pci/pci-driver.c 1401 */;
+	struct module *cocci_id/* drivers/pci/pci-driver.c 1400 */;
+	const struct dev_pm_ops cocci_id/* drivers/pci/pci-driver.c 1355 */;
+	unsigned long cocci_id/* drivers/pci/pci-driver.c 105 */;
+	u32 cocci_id/* drivers/pci/pci-driver.c 103 */;
+}

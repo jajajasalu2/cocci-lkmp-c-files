@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	enum mxs_i2c_devtype{MXS_I2C_UNKNOWN=0, MXS_I2C_V1, MXS_I2C_V2,} cocci_id/* drivers/i2c/busses/i2c-mxs.c 96 */;
+	void __exit cocci_id/* drivers/i2c/busses/i2c-mxs.c 900 */;
+	int __init cocci_id/* drivers/i2c/busses/i2c-mxs.c 894 */;
+	struct platform_driver cocci_id/* drivers/i2c/busses/i2c-mxs.c 885 */;
+	const struct platform_device_id *cocci_id/* drivers/i2c/busses/i2c-mxs.c 812 */;
+	const struct of_device_id *cocci_id/* drivers/i2c/busses/i2c-mxs.c 800 */;
+	struct platform_device *cocci_id/* drivers/i2c/busses/i2c-mxs.c 798 */;
+	const struct of_device_id cocci_id/* drivers/i2c/busses/i2c-mxs.c 791 */[];
+	const struct platform_device_id cocci_id/* drivers/i2c/busses/i2c-mxs.c 780 */[];
+	struct device_node *cocci_id/* drivers/i2c/busses/i2c-mxs.c 766 */;
+	struct device *cocci_id/* drivers/i2c/busses/i2c-mxs.c 694 */;
+	uint16_t cocci_id/* drivers/i2c/busses/i2c-mxs.c 692 */;
+	const uint32_t cocci_id/* drivers/i2c/busses/i2c-mxs.c 690 */;
+	uint32_t cocci_id/* drivers/i2c/busses/i2c-mxs.c 687 */;
+	struct mxs_i2c_dev *cocci_id/* drivers/i2c/busses/i2c-mxs.c 687 */;
+	void cocci_id/* drivers/i2c/busses/i2c-mxs.c 687 */;
+	const struct i2c_adapter_quirks cocci_id/* drivers/i2c/busses/i2c-mxs.c 683 */;
+	const struct i2c_algorithm cocci_id/* drivers/i2c/busses/i2c-mxs.c 678 */;
+	irqreturn_t cocci_id/* drivers/i2c/busses/i2c-mxs.c 657 */;
+	u32 cocci_id/* drivers/i2c/busses/i2c-mxs.c 652 */;
+	struct i2c_msg cocci_id/* drivers/i2c/busses/i2c-mxs.c 637 */[];
+	unsigned long cocci_id/* drivers/i2c/busses/i2c-mxs.c 302 */;
+	struct scatterlist *cocci_id/* drivers/i2c/busses/i2c-mxs.c 190 */;
+	struct dma_async_tx_descriptor *cocci_id/* drivers/i2c/busses/i2c-mxs.c 175 */;
+	struct i2c_msg *cocci_id/* drivers/i2c/busses/i2c-mxs.c 173 */;
+	struct i2c_adapter *cocci_id/* drivers/i2c/busses/i2c-mxs.c 172 */;
+	int cocci_id/* drivers/i2c/busses/i2c-mxs.c 172 */;
+	void *cocci_id/* drivers/i2c/busses/i2c-mxs.c 164 */;
+	struct mxs_i2c_dev {
+		struct device *dev;
+		enum mxs_i2c_devtype dev_type;
+		void __iomem *regs;
+		struct completion cmd_complete;
+		int cmd_err;
+		struct i2c_adapter adapter;
+		uint32_t timing0;
+		uint32_t timing1;
+		uint32_t timing2;
+		struct dma_chan *dmach;
+		uint32_t pio_data[2];
+		uint32_t addr_data;
+		struct scatterlist sg_io[2];
+		bool dma_read;
+	} cocci_id/* drivers/i2c/busses/i2c-mxs.c 112 */;
+}

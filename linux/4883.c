@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	struct ib_wc *cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 96 */;
+	u32 cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 77 */;
+	struct mlx5_ib_gsi_wr *cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 76 */;
+	struct ib_cq *cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 75 */;
+	void cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 73 */;
+	bool cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 67 */;
+	struct mlx5_ib_gsi_qp cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 64 */;
+	const struct ib_recv_wr **cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 526 */;
+	const struct ib_recv_wr *cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 525 */;
+	struct ib_ud_wr cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 489 */;
+	const struct ib_send_wr **cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 481 */;
+	const struct ib_send_wr *cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 480 */;
+	int cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 469 */;
+	struct mlx5_ib_dev *cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 468 */;
+	struct ib_ud_wr *cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 466 */;
+	struct ib_wc cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 448 */;
+	struct mlx5_ib_gsi_qp {
+		struct ib_qp ibqp;
+		struct ib_qp *rx_qp;
+		u8 port_num;
+		struct ib_qp_cap cap;
+		enum ib_sig_type sq_sig_type;
+		struct mutex mutex;
+		struct ib_cq *cq;
+		struct mlx5_ib_gsi_wr *outstanding_wrs;
+		u32 outstanding_pi,outstanding_ci;
+		int num_qps;
+		spinlock_t lock;
+		struct ib_qp **tx_qps;
+	} cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 42 */;
+	struct ib_qp_attr *cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 373 */;
+	struct mlx5_ib_gsi_wr {
+		struct ib_cqe cqe;
+		struct ib_wc wc;
+		int send_flags;
+		bool completed:1;
+	} cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 35 */;
+	struct ib_device *cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 314 */;
+	struct ib_qp_attr cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 276 */;
+	u16 cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 273 */;
+	struct ib_qp_init_attr cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 254 */;
+	struct ib_pd *cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 253 */;
+	struct mlx5_ib_gsi_qp *cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 251 */;
+	struct ib_qp *cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 251 */;
+	const int cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 122 */;
+	const u8 cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 121 */;
+	struct ib_qp_init_attr *cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 116 */;
+	unsigned long cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 102 */;
+	u64 cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 101 */;
+	struct mlx5_ib_gsi_wr cocci_id/* drivers/infiniband/hw/mlx5/gsi.c 100 */;
+}

@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	u32 *cocci_id/* drivers/base/arch_topology.c 98 */;
+	u32 cocci_id/* drivers/base/arch_topology.c 97 */;
+	void __init cocci_id/* drivers/base/arch_topology.c 528 */;
+	unsigned int cocci_id/* drivers/base/arch_topology.c 508 */;
+	struct cpu cocci_id/* drivers/base/arch_topology.c 49 */;
+	struct cpu *cocci_id/* drivers/base/arch_topology.c 49 */;
+	struct cpu_topology *cocci_id/* drivers/base/arch_topology.c 481 */;
+	char *cocci_id/* drivers/base/arch_topology.c 47 */;
+	struct device_attribute *cocci_id/* drivers/base/arch_topology.c 46 */;
+	struct device *cocci_id/* drivers/base/arch_topology.c 45 */;
+	ssize_t cocci_id/* drivers/base/arch_topology.c 45 */;
+	const cpumask_t *cocci_id/* drivers/base/arch_topology.c 436 */;
+	const struct cpumask *cocci_id/* drivers/base/arch_topology.c 434 */;
+	struct cpu_topology cocci_id/* drivers/base/arch_topology.c 431 */[NR_CPUS];
+	bool cocci_id/* drivers/base/arch_topology.c 321 */;
+	char cocci_id/* drivers/base/arch_topology.c 320 */[10];
+	int cocci_id/* drivers/base/arch_topology.c 30 */;
+	struct cpumask *cocci_id/* drivers/base/arch_topology.c 26 */;
+	unsigned long cocci_id/* drivers/base/arch_topology.c 26 */;
+	void cocci_id/* drivers/base/arch_topology.c 26 */;
+	struct device_node *cocci_id/* drivers/base/arch_topology.c 251 */;
+	int __init cocci_id/* drivers/base/arch_topology.c 251 */;
+	struct work_struct *cocci_id/* drivers/base/arch_topology.c 239 */;
+	struct notifier_block cocci_id/* drivers/base/arch_topology.c 208 */;
+	struct cpufreq_policy *cocci_id/* drivers/base/arch_topology.c 176 */;
+	void *cocci_id/* drivers/base/arch_topology.c 174 */;
+	struct notifier_block *cocci_id/* drivers/base/arch_topology.c 172 */;
+	void cocci_id/* drivers/base/arch_topology.c 168 */(struct work_struct *work);
+	cpumask_var_t cocci_id/* drivers/base/arch_topology.c 167 */;
+	bool __init cocci_id/* drivers/base/arch_topology.c 128 */;
+	u64 cocci_id/* drivers/base/arch_topology.c 110 */;
+	__typeof__(unsigned long) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

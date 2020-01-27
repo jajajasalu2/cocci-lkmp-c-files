@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	struct v4l2_mbus_framefmt *cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 91 */;
+	struct adv748x_hdmi *cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 756 */;
+	const struct v4l2_dv_timings cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 723 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 675 */;
+	u8 cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 634 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 629 */;
+	const char *const cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 619 */[];
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 610 */;
+	const struct v4l2_subdev_pad_ops cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 596 */;
+	struct v4l2_dv_timings_cap *cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 590 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 589 */;
+	int cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 589 */;
+	struct v4l2_enum_dv_timings *cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 583 */;
+	unsigned int cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 573 */;
+	const struct adv748x_hdmi_video_standards *cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 571 */;
+	void *cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 569 */;
+	bool cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 568 */;
+	const struct v4l2_dv_timings *cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 568 */;
+	const struct adv748x_hdmi_video_standards cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 53 */[];
+	struct adv748x_state *cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 491 */;
+	const u8 *cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 489 */;
+	struct adv748x_hdmi_video_standards {
+		struct v4l2_dv_timings timings;
+		u8 vid_std;
+		u8 v_freq;
+	} cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 47 */;
+	struct v4l2_edid *cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 462 */;
+	struct v4l2_subdev_format *cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 425 */;
+	struct v4l2_subdev_mbus_code_enum *cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 413 */;
+	struct v4l2_subdev_pad_config *cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 412 */;
+	struct v4l2_dv_timings cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 400 */;
+	const struct v4l2_subdev_video_ops cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 384 */;
+	struct v4l2_fract *cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 376 */;
+	const struct v4l2_dv_timings_cap cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 34 */;
+	u32 *cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 339 */;
+	struct v4l2_bt_timings *cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 277 */;
+	struct v4l2_dv_timings *cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 109 */;
+	void cocci_id/* drivers/media/i2c/adv748x/adv748x-hdmi.c 109 */;
+}

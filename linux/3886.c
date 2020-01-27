@@ -1,0 +1,93 @@
+cocci_test_suite() {
+	struct skcipher_request *cocci_id/* drivers/crypto/stm32/stm32-cryp.c 837 */;
+	const u8 *cocci_id/* drivers/crypto/stm32/stm32-cryp.c 782 */;
+	struct crypto_skcipher *cocci_id/* drivers/crypto/stm32/stm32-cryp.c 758 */;
+	struct stm32_cryp_reqctx *cocci_id/* drivers/crypto/stm32/stm32-cryp.c 736 */;
+	struct stm32_cryp_ctx *cocci_id/* drivers/crypto/stm32/stm32-cryp.c 735 */;
+	struct aead_request *cocci_id/* drivers/crypto/stm32/stm32-cryp.c 733 */;
+	unsigned long cocci_id/* drivers/crypto/stm32/stm32-cryp.c 733 */;
+	struct stm32_cryp_reqctx cocci_id/* drivers/crypto/stm32/stm32-cryp.c 709 */;
+	struct crypto_aead *cocci_id/* drivers/crypto/stm32/stm32-cryp.c 705 */;
+	int cocci_id/* drivers/crypto/stm32/stm32-cryp.c 701 */(struct crypto_engine *engine,
+								void *areq);
+	u32 *cocci_id/* drivers/crypto/stm32/stm32-cryp.c 494 */;
+	u8 cocci_id/* drivers/crypto/stm32/stm32-cryp.c 493 */[AES_BLOCK_SIZE];
+	u32 cocci_id/* drivers/crypto/stm32/stm32-cryp.c 472 */[4];
+	struct scatter_walk cocci_id/* drivers/crypto/stm32/stm32-cryp.c 332 */;
+	unsigned int cocci_id/* drivers/crypto/stm32/stm32-cryp.c 330 */;
+	int cocci_id/* drivers/crypto/stm32/stm32-cryp.c 330 */;
+	struct scatterlist *cocci_id/* drivers/crypto/stm32/stm32-cryp.c 329 */;
+	void *cocci_id/* drivers/crypto/stm32/stm32-cryp.c 329 */;
+	void cocci_id/* drivers/crypto/stm32/stm32-cryp.c 329 */;
+	size_t cocci_id/* drivers/crypto/stm32/stm32-cryp.c 286 */;
+	int cocci_id/* drivers/crypto/stm32/stm32-cryp.c 264 */(struct stm32_cryp *cryp);
+	struct platform_driver cocci_id/* drivers/crypto/stm32/stm32-cryp.c 2090 */;
+	struct reset_control *cocci_id/* drivers/crypto/stm32/stm32-cryp.c 1918 */;
+	struct device *cocci_id/* drivers/crypto/stm32/stm32-cryp.c 1916 */;
+	struct platform_device *cocci_id/* drivers/crypto/stm32/stm32-cryp.c 1914 */;
+	const struct of_device_id cocci_id/* drivers/crypto/stm32/stm32-cryp.c 1907 */[];
+	const struct stm32_cryp_caps cocci_id/* drivers/crypto/stm32/stm32-cryp.c 1897 */;
+	struct stm32_cryp_ctx cocci_id/* drivers/crypto/stm32/stm32-cryp.c 1870 */;
+	struct aead_alg cocci_id/* drivers/crypto/stm32/stm32-cryp.c 1854 */[];
+	bool cocci_id/* drivers/crypto/stm32/stm32-cryp.c 180 */;
+	struct stm32_cryp *cocci_id/* drivers/crypto/stm32/stm32-cryp.c 180 */;
+	struct stm32_cryp_list cocci_id/* drivers/crypto/stm32/stm32-cryp.c 175 */;
+	struct skcipher_alg cocci_id/* drivers/crypto/stm32/stm32-cryp.c 1728 */[];
+	irqreturn_t cocci_id/* drivers/crypto/stm32/stm32-cryp.c 1719 */;
+	struct stm32_cryp_list {
+		struct list_head dev_list;
+		spinlock_t lock;
+	} cocci_id/* drivers/crypto/stm32/stm32-cryp.c 170 */;
+	u32 cocci_id/* drivers/crypto/stm32/stm32-cryp.c 1411 */[AES_BLOCK_32];
+	struct stm32_cryp {
+		struct list_head list;
+		struct device *dev;
+		void __iomem *regs;
+		struct clk *clk;
+		unsigned long flags;
+		u32 irq_status;
+		const struct stm32_cryp_caps *caps;
+		struct stm32_cryp_ctx *ctx;
+		struct crypto_engine *engine;
+		struct skcipher_request *req;
+		struct aead_request *areq;
+		size_t authsize;
+		size_t hw_blocksize;
+		size_t total_in;
+		size_t total_in_save;
+		size_t total_out;
+		size_t total_out_save;
+		struct scatterlist *in_sg;
+		struct scatterlist *out_sg;
+		struct scatterlist *out_sg_save;
+		struct scatterlist in_sgl;
+		struct scatterlist out_sgl;
+		bool sgs_copied;
+		int in_sg_len;
+		int out_sg_len;
+		struct scatter_walk in_walk;
+		struct scatter_walk out_walk;
+		u32 last_ctr[4];
+		u32 gcm_ctr;
+	} cocci_id/* drivers/crypto/stm32/stm32-cryp.c 129 */;
+	u8 cocci_id/* drivers/crypto/stm32/stm32-cryp.c 1279 */[4];
+	struct stm32_cryp_reqctx {
+		unsigned long mode;
+	} cocci_id/* drivers/crypto/stm32/stm32-cryp.c 125 */;
+	u8 *cocci_id/* drivers/crypto/stm32/stm32-cryp.c 1238 */;
+	struct stm32_cryp_ctx {
+		struct crypto_engine_ctx enginectx;
+		struct stm32_cryp *cryp;
+		int keylen;
+		u32 key[AES_KEYSIZE_256 / sizeof(u32)];
+		unsigned long flags;
+	} cocci_id/* drivers/crypto/stm32/stm32-cryp.c 117 */;
+	struct stm32_cryp_caps {
+		bool swap_final;
+		bool padding_wa;
+	} cocci_id/* drivers/crypto/stm32/stm32-cryp.c 112 */;
+	u32 cocci_id/* drivers/crypto/stm32/stm32-cryp.c 106 */;
+	struct aead_request cocci_id/* drivers/crypto/stm32/stm32-cryp.c 1052 */;
+	struct crypto_engine *cocci_id/* drivers/crypto/stm32/stm32-cryp.c 1050 */;
+	struct skcipher_request cocci_id/* drivers/crypto/stm32/stm32-cryp.c 1030 */;
+}

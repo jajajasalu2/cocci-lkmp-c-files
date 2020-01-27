@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct i2c_driver cocci_id/* drivers/media/tuners/fc2580.c 610 */;
+	const struct i2c_device_id cocci_id/* drivers/media/tuners/fc2580.c 604 */[];
+	const struct regmap_config cocci_id/* drivers/media/tuners/fc2580.c 517 */;
+	unsigned int cocci_id/* drivers/media/tuners/fc2580.c 516 */;
+	struct fc2580_platform_data *cocci_id/* drivers/media/tuners/fc2580.c 513 */;
+	const struct i2c_device_id *cocci_id/* drivers/media/tuners/fc2580.c 510 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/tuners/fc2580.c 494 */;
+	struct fc2580_dev cocci_id/* drivers/media/tuners/fc2580.c 469 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/tuners/fc2580.c 467 */;
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/tuners/fc2580.c 463 */;
+	const struct v4l2_subdev_tuner_ops cocci_id/* drivers/media/tuners/fc2580.c 454 */;
+	struct i2c_client *cocci_id/* drivers/media/tuners/fc2580.c 440 */;
+	struct v4l2_frequency_band *cocci_id/* drivers/media/tuners/fc2580.c 437 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/tuners/fc2580.c 436 */;
+	const struct v4l2_frequency *cocci_id/* drivers/media/tuners/fc2580.c 423 */;
+	struct v4l2_frequency *cocci_id/* drivers/media/tuners/fc2580.c 412 */;
+	const struct v4l2_tuner *cocci_id/* drivers/media/tuners/fc2580.c 403 */;
+	struct v4l2_tuner *cocci_id/* drivers/media/tuners/fc2580.c 388 */;
+	const struct v4l2_frequency_band cocci_id/* drivers/media/tuners/fc2580.c 361 */[];
+	unsigned long cocci_id/* drivers/media/tuners/fc2580.c 35 */;
+	const struct dvb_tuner_ops cocci_id/* drivers/media/tuners/fc2580.c 343 */;
+	u8 cocci_id/* drivers/media/tuners/fc2580.c 34 */;
+	u32 *cocci_id/* drivers/media/tuners/fc2580.c 337 */;
+	struct dvb_frontend *cocci_id/* drivers/media/tuners/fc2580.c 337 */;
+	int cocci_id/* drivers/media/tuners/fc2580.c 337 */;
+	u64 cocci_id/* drivers/media/tuners/fc2580.c 33 */;
+	struct dtv_frontend_properties *cocci_id/* drivers/media/tuners/fc2580.c 320 */;
+	struct fc2580_dev *cocci_id/* drivers/media/tuners/fc2580.c 319 */;
+}

@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/usb/typec/tcpm/wcove.c 690 */;
+	struct intel_soc_pmic *cocci_id/* drivers/usb/typec/tcpm/wcove.c 606 */;
+	struct platform_device *cocci_id/* drivers/usb/typec/tcpm/wcove.c 604 */;
+	const struct property_entry cocci_id/* drivers/usb/typec/tcpm/wcove.c 594 */[];
+	const u32 cocci_id/* drivers/usb/typec/tcpm/wcove.c 588 */[];
+	struct pd_message cocci_id/* drivers/usb/typec/tcpm/wcove.c 528 */;
+	irqreturn_t cocci_id/* drivers/usb/typec/tcpm/wcove.c 468 */;
+	enum typec_port_type cocci_id/* drivers/usb/typec/tcpm/wcove.c 420 */;
+	const u8 *cocci_id/* drivers/usb/typec/tcpm/wcove.c 377 */;
+	void *cocci_id/* drivers/usb/typec/tcpm/wcove.c 377 */;
+	const struct pd_message *cocci_id/* drivers/usb/typec/tcpm/wcove.c 359 */;
+	enum tcpm_transmit_type cocci_id/* drivers/usb/typec/tcpm/wcove.c 358 */;
+	bool cocci_id/* drivers/usb/typec/tcpm/wcove.c 349 */;
+	enum typec_role cocci_id/* drivers/usb/typec/tcpm/wcove.c 331 */;
+	enum typec_data_role cocci_id/* drivers/usb/typec/tcpm/wcove.c 331 */;
+	u32 cocci_id/* drivers/usb/typec/tcpm/wcove.c 325 */;
+	enum typec_cc_polarity cocci_id/* drivers/usb/typec/tcpm/wcove.c 318 */;
+	enum typec_cc_status cocci_id/* drivers/usb/typec/tcpm/wcove.c 290 */;
+	unsigned int cocci_id/* drivers/usb/typec/tcpm/wcove.c 272 */;
+	struct wcove_typec *cocci_id/* drivers/usb/typec/tcpm/wcove.c 271 */;
+	struct tcpc_dev *cocci_id/* drivers/usb/typec/tcpm/wcove.c 268 */;
+	enum typec_cc_status *cocci_id/* drivers/usb/typec/tcpm/wcove.c 268 */;
+	int cocci_id/* drivers/usb/typec/tcpm/wcove.c 268 */;
+	union acpi_object cocci_id/* drivers/usb/typec/tcpm/wcove.c 183 */;
+	union acpi_object *cocci_id/* drivers/usb/typec/tcpm/wcove.c 182 */;
+	enum wcove_typec_func cocci_id/* drivers/usb/typec/tcpm/wcove.c 180 */;
+	enum wcove_typec_role{WCOVE_ROLE_HOST, WCOVE_ROLE_DEVICE,} cocci_id/* drivers/usb/typec/tcpm/wcove.c 172 */;
+	enum wcove_typec_orientation{WCOVE_ORIENTATION_NORMAL, WCOVE_ORIENTATION_REVERSE,} cocci_id/* drivers/usb/typec/tcpm/wcove.c 167 */;
+	enum wcove_typec_func{WCOVE_FUNC_DRIVE_VBUS=1, WCOVE_FUNC_ORIENTATION, WCOVE_FUNC_ROLE, WCOVE_FUNC_DRIVE_VCONN,} cocci_id/* drivers/usb/typec/tcpm/wcove.c 160 */;
+	struct wcove_typec cocci_id/* drivers/usb/typec/tcpm/wcove.c 158 */;
+	struct wcove_typec {
+		struct mutex lock;
+		struct device *dev;
+		struct regmap *regmap;
+		guid_t guid;
+		bool vbus;
+		struct tcpc_dev tcpc;
+		struct tcpm_port *tcpm;
+	} cocci_id/* drivers/usb/typec/tcpm/wcove.c 146 */;
+}

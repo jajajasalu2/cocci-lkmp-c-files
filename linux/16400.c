@@ -1,0 +1,57 @@
+cocci_test_suite() {
+	struct rmi_data {
+		struct mutex page_mutex;
+		int page;
+		struct rmi_transport_dev xport;
+		wait_queue_head_t wait;
+		u8 *writeReport;
+		u8 *readReport;
+		u32 input_report_size;
+		u32 output_report_size;
+		unsigned long flags;
+		struct work_struct reset_work;
+		struct hid_device *hdev;
+		unsigned long device_flags;
+		struct irq_domain *domain;
+		int rmi_irq;
+	} cocci_id/* drivers/hid/hid-rmi.c 79 */;
+	struct hid_driver cocci_id/* drivers/hid/hid-rmi.c 769 */;
+	const struct hid_device_id cocci_id/* drivers/hid/hid-rmi.c 757 */[];
+	struct hid_report *cocci_id/* drivers/hid/hid-rmi.c 651 */;
+	const struct hid_device_id *cocci_id/* drivers/hid/hid-rmi.c 646 */;
+	const struct irq_domain_ops cocci_id/* drivers/hid/hid-rmi.c 619 */;
+	irq_hw_number_t cocci_id/* drivers/hid/hid-rmi.c 612 */;
+	struct irq_domain *cocci_id/* drivers/hid/hid-rmi.c 611 */;
+	unsigned int cocci_id/* drivers/hid/hid-rmi.c 611 */;
+	void cocci_id/* drivers/hid/hid-rmi.c 596 */;
+	const struct rmi_transport_ops cocci_id/* drivers/hid/hid-rmi.c 590 */;
+	struct rmi_device_platform_data cocci_id/* drivers/hid/hid-rmi.c 581 */;
+	struct hid_report **cocci_id/* drivers/hid/hid-rmi.c 565 */;
+	unsigned cocci_id/* drivers/hid/hid-rmi.c 564 */;
+	unsigned long **cocci_id/* drivers/hid/hid-rmi.c 545 */;
+	int *cocci_id/* drivers/hid/hid-rmi.c 545 */;
+	struct input_dev *cocci_id/* drivers/hid/hid-rmi.c 501 */;
+	struct hid_input *cocci_id/* drivers/hid/hid-rmi.c 498 */;
+	enum rmi_mode_type{RMI_MODE_OFF=0, RMI_MODE_ATTN_REPORTS=1, RMI_MODE_NO_PACKED_ATTN_REPORTS=2,} cocci_id/* drivers/hid/hid-rmi.c 48 */;
+	pm_message_t cocci_id/* drivers/hid/hid-rmi.c 442 */;
+	struct rmi_data *cocci_id/* drivers/hid/hid-rmi.c 402 */;
+	__s32 cocci_id/* drivers/hid/hid-rmi.c 400 */;
+	struct hid_usage *cocci_id/* drivers/hid/hid-rmi.c 400 */;
+	struct hid_field *cocci_id/* drivers/hid/hid-rmi.c 399 */;
+	u8 *cocci_id/* drivers/hid/hid-rmi.c 359 */;
+	struct hid_device *cocci_id/* drivers/hid/hid-rmi.c 359 */;
+	int cocci_id/* drivers/hid/hid-rmi.c 359 */;
+	unsigned long cocci_id/* drivers/hid/hid-rmi.c 326 */;
+	struct rmi_device *cocci_id/* drivers/hid/hid-rmi.c 325 */;
+	struct work_struct *cocci_id/* drivers/hid/hid-rmi.c 313 */;
+	const void *cocci_id/* drivers/hid/hid-rmi.c 262 */;
+	struct rmi_data cocci_id/* drivers/hid/hid-rmi.c 191 */;
+	void *cocci_id/* drivers/hid/hid-rmi.c 189 */;
+	size_t cocci_id/* drivers/hid/hid-rmi.c 189 */;
+	u16 cocci_id/* drivers/hid/hid-rmi.c 188 */;
+	struct rmi_transport_dev *cocci_id/* drivers/hid/hid-rmi.c 188 */;
+	const u8 cocci_id/* drivers/hid/hid-rmi.c 146 */[2];
+	u8 cocci_id/* drivers/hid/hid-rmi.c 143 */;
+	int cocci_id/* drivers/hid/hid-rmi.c 105 */(struct hid_device *hdev,
+						    u8 *report, int len);
+}

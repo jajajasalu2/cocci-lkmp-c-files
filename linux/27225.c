@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct fiemap_extent __user *cocci_id/* fs/ioctl.c 94 */;
+	struct fiemap_extent cocci_id/* fs/ioctl.c 93 */;
+	unsigned long cocci_id/* fs/ioctl.c 783 */;
+	unsigned int cocci_id/* fs/ioctl.c 783 */;
+	long cocci_id/* fs/ioctl.c 783 */;
+	int __user *cocci_id/* fs/ioctl.c 719 */;
+	void __user *cocci_id/* fs/ioctl.c 674 */;
+	struct file_dedupe_range __user cocci_id/* fs/ioctl.c 636 */;
+	u16 cocci_id/* fs/ioctl.c 629 */;
+	struct file_dedupe_range *cocci_id/* fs/ioctl.c 626 */;
+	struct file_dedupe_range __user *cocci_id/* fs/ioctl.c 624 */;
+	struct address_space *cocci_id/* fs/ioctl.c 57 */;
+	struct space_resv_32 cocci_id/* fs/ioctl.c 502 */;
+	struct space_resv_32 __user *cocci_id/* fs/ioctl.c 499 */;
+	struct file *cocci_id/* fs/ioctl.c 498 */;
+	struct space_resv cocci_id/* fs/ioctl.c 473 */;
+	bool cocci_id/* fs/ioctl.c 299 */;
+	u32 cocci_id/* fs/ioctl.c 298 */;
+	u64 cocci_id/* fs/ioctl.c 297 */;
+	sector_t cocci_id/* fs/ioctl.c 295 */;
+	struct buffer_head cocci_id/* fs/ioctl.c 294 */;
+	get_block_t *cocci_id/* fs/ioctl.c 292 */;
+	loff_t cocci_id/* fs/ioctl.c 291 */;
+	struct fiemap_extent_info *cocci_id/* fs/ioctl.c 291 */;
+	struct inode *cocci_id/* fs/ioctl.c 290 */;
+	int cocci_id/* fs/ioctl.c 290 */;
+	struct file_clone_range cocci_id/* fs/ioctl.c 250 */;
+	struct file_clone_range __user *cocci_id/* fs/ioctl.c 248 */;
+	struct fd cocci_id/* fs/ioctl.c 225 */;
+	struct fiemap_extent_info cocci_id/* fs/ioctl.c 181 */;
+	struct fiemap cocci_id/* fs/ioctl.c 180 */;
+	struct fiemap __user *cocci_id/* fs/ioctl.c 178 */;
+	u64 *cocci_id/* fs/ioctl.c 157 */;
+	struct super_block *cocci_id/* fs/ioctl.c 156 */;
+}

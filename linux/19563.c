@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct task_struct *cocci_id/* arch/mips/kernel/process.c 94 */;
+	int cocci_id/* arch/mips/kernel/process.c 94 */;
+	u64 *cocci_id/* arch/mips/kernel/process.c 856 */;
+	const struct pt_regs *cocci_id/* arch/mips/kernel/process.c 834 */;
+	u32 *cocci_id/* arch/mips/kernel/process.c 834 */;
+	long cocci_id/* arch/mips/kernel/process.c 734 */;
+	bool cocci_id/* arch/mips/kernel/process.c 717 */;
+	const cpumask_t *cocci_id/* arch/mips/kernel/process.c 717 */;
+	call_single_data_t *cocci_id/* arch/mips/kernel/process.c 695 */;
+	cpumask_t *cocci_id/* arch/mips/kernel/process.c 693 */;
+	struct cpumask cocci_id/* arch/mips/kernel/process.c 685 */;
+	void cocci_id/* arch/mips/kernel/process.c 64 */(void);
+	void cocci_id/* arch/mips/kernel/process.c 58 */;
+	unsigned long notrace cocci_id/* arch/mips/kernel/process.c 508 */;
+	unsigned long *cocci_id/* arch/mips/kernel/process.c 502 */;
+	struct thread_struct *cocci_id/* arch/mips/kernel/process.c 495 */;
+	void *cocci_id/* arch/mips/kernel/process.c 473 */;
+	int __init cocci_id/* arch/mips/kernel/process.c 458 */;
+	union mips_instruction *cocci_id/* arch/mips/kernel/process.c 446 */;
+	struct mips_frame_info cocci_id/* arch/mips/kernel/process.c 436 */;
+	ulong cocci_id/* arch/mips/kernel/process.c 383 */;
+	unsigned int cocci_id/* arch/mips/kernel/process.c 376 */;
+	const unsigned int cocci_id/* arch/mips/kernel/process.c 375 */;
+	union mips_instruction cocci_id/* arch/mips/kernel/process.c 374 */;
+	struct mips_frame_info *cocci_id/* arch/mips/kernel/process.c 371 */;
+	signed short cocci_id/* arch/mips/kernel/process.c 340 */;
+	unsigned short cocci_id/* arch/mips/kernel/process.c 323 */;
+	u32 cocci_id/* arch/mips/kernel/process.c 261 */;
+	int *cocci_id/* arch/mips/kernel/process.c 203 */;
+	struct mips_frame_info {
+		void *func;
+		unsigned long func_size;
+		int frame_size;
+		int pc_offset;
+	} cocci_id/* arch/mips/kernel/process.c 193 */;
+	unsigned long cocci_id/* arch/mips/kernel/process.c 189 */;
+	struct pt_regs cocci_id/* arch/mips/kernel/process.c 138 */;
+	struct pt_regs *cocci_id/* arch/mips/kernel/process.c 125 */;
+	struct thread_info *cocci_id/* arch/mips/kernel/process.c 124 */;
+	__typeof__(call_single_data_t) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

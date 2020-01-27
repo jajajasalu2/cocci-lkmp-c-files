@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	void __init cocci_id/* drivers/block/drbd/drbd_debugfs.c 876 */;
+	struct drbd_peer_device *cocci_id/* drivers/block/drbd/drbd_debugfs.c 827 */;
+	char cocci_id/* drivers/block/drbd/drbd_debugfs.c 774 */[8];
+	unsigned long long cocci_id/* drivers/block/drbd/drbd_debugfs.c 740 */;
+	enum drbd_uuid_index cocci_id/* drivers/block/drbd/drbd_debugfs.c 722 */;
+	struct drbd_md *cocci_id/* drivers/block/drbd/drbd_debugfs.c 721 */;
+	struct drbd_request cocci_id/* drivers/block/drbd/drbd_debugfs.c 706 */;
+	struct drbd_resource *cocci_id/* drivers/block/drbd/drbd_debugfs.c 693 */;
+	struct drbd_device *cocci_id/* drivers/block/drbd/drbd_debugfs.c 677 */;
+	struct bm_extent cocci_id/* drivers/block/drbd/drbd_debugfs.c 651 */;
+	struct bm_extent *cocci_id/* drivers/block/drbd/drbd_debugfs.c 651 */;
+	struct lc_element *cocci_id/* drivers/block/drbd/drbd_debugfs.c 649 */;
+	struct dentry *cocci_id/* drivers/block/drbd/drbd_debugfs.c 622 */;
+	struct drbd_request *cocci_id/* drivers/block/drbd/drbd_debugfs.c 577 */;
+	const struct file_operations cocci_id/* drivers/block/drbd/drbd_debugfs.c 565 */;
+	struct drbd_connection *cocci_id/* drivers/block/drbd/drbd_debugfs.c 553 */;
+	struct inode *cocci_id/* drivers/block/drbd/drbd_debugfs.c 551 */;
+	struct file *cocci_id/* drivers/block/drbd/drbd_debugfs.c 551 */;
+	int cocci_id/* drivers/block/drbd/drbd_debugfs.c 551 */;
+	unsigned long cocci_id/* drivers/block/drbd/drbd_debugfs.c 540 */;
+	void *cocci_id/* drivers/block/drbd/drbd_debugfs.c 537 */;
+	struct drbd_thread_timing_details *cocci_id/* drivers/block/drbd/drbd_debugfs.c 520 */;
+	struct drbd_thread_timing_details cocci_id/* drivers/block/drbd/drbd_debugfs.c 503 */;
+	const struct drbd_thread_timing_details *cocci_id/* drivers/block/drbd/drbd_debugfs.c 500 */;
+	struct dentry **cocci_id/* drivers/block/drbd/drbd_debugfs.c 484 */;
+	void (*cocci_id/* drivers/block/drbd/drbd_debugfs.c 420 */)(struct kref *);
+	struct kref *cocci_id/* drivers/block/drbd/drbd_debugfs.c 419 */;
+	int (*cocci_id/* drivers/block/drbd/drbd_debugfs.c 418 */)(struct seq_file *,
+								   void *);
+	struct tcp_sock *cocci_id/* drivers/block/drbd/drbd_debugfs.c 388 */;
+	bool cocci_id/* drivers/block/drbd/drbd_debugfs.c 34 */;
+	const char *cocci_id/* drivers/block/drbd/drbd_debugfs.c 34 */;
+	char *cocci_id/* drivers/block/drbd/drbd_debugfs.c 34 */;
+	struct seq_file *cocci_id/* drivers/block/drbd/drbd_debugfs.c 33 */;
+	void cocci_id/* drivers/block/drbd/drbd_debugfs.c 33 */;
+	struct drbd_peer_request *cocci_id/* drivers/block/drbd/drbd_debugfs.c 251 */;
+	struct list_head *cocci_id/* drivers/block/drbd/drbd_debugfs.c 247 */;
+	char cocci_id/* drivers/block/drbd/drbd_debugfs.c 233 */;
+	struct drbd_bm_aio_ctx cocci_id/* drivers/block/drbd/drbd_debugfs.c 198 */;
+	unsigned int cocci_id/* drivers/block/drbd/drbd_debugfs.c 195 */;
+	struct drbd_bm_aio_ctx *cocci_id/* drivers/block/drbd/drbd_debugfs.c 193 */;
+	struct drbd_md_io cocci_id/* drivers/block/drbd/drbd_debugfs.c 136 */;
+}

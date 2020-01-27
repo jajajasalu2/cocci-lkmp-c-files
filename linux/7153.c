@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	pid_t cocci_id/* drivers/xen/xenbus/xenbus_xs.c 94 */;
+	struct task_struct *cocci_id/* drivers/xen/xenbus/xenbus_xs.c 926 */;
+	struct notifier_block cocci_id/* drivers/xen/xenbus/xenbus_xs.c 919 */;
+	unsigned long cocci_id/* drivers/xen/xenbus/xenbus_xs.c 906 */;
+	struct notifier_block *cocci_id/* drivers/xen/xenbus/xenbus_xs.c 905 */;
+	struct xs_watch_event cocci_id/* drivers/xen/xenbus/xenbus_xs.c 886 */;
+	struct list_head *cocci_id/* drivers/xen/xenbus/xenbus_xs.c 865 */;
+	struct xs_watch_event *cocci_id/* drivers/xen/xenbus/xenbus_xs.c 788 */;
+	void cocci_id/* drivers/xen/xenbus/xenbus_xs.c 786 */;
+	long cocci_id/* drivers/xen/xenbus/xenbus_xs.c 763 */;
+	char cocci_id/* drivers/xen/xenbus/xenbus_xs.c 760 */[sizeof(watch) * 2 + 1];
+	uint32_t cocci_id/* drivers/xen/xenbus/xenbus_xs.c 726 */;
+	void *cocci_id/* drivers/xen/xenbus/xenbus_xs.c 685 */;
+	struct xenbus_watch *cocci_id/* drivers/xen/xenbus/xenbus_xs.c 681 */;
+	va_list cocci_id/* drivers/xen/xenbus/xenbus_xs.c 628 */;
+	char cocci_id/* drivers/xen/xenbus/xenbus_xs.c 553 */[2];
+	struct xenbus_transaction *cocci_id/* drivers/xen/xenbus/xenbus_xs.c 534 */;
+	struct kvec cocci_id/* drivers/xen/xenbus/xenbus_xs.c 480 */[2];
+	struct xenbus_transaction cocci_id/* drivers/xen/xenbus/xenbus_xs.c 419 */;
+	char **cocci_id/* drivers/xen/xenbus/xenbus_xs.c 396 */;
+	unsigned int *cocci_id/* drivers/xen/xenbus/xenbus_xs.c 396 */;
+	char *cocci_id/* drivers/xen/xenbus/xenbus_xs.c 385 */;
+	const char *cocci_id/* drivers/xen/xenbus/xenbus_xs.c 373 */;
+	unsigned int cocci_id/* drivers/xen/xenbus/xenbus_xs.c 373 */;
+	struct kvec cocci_id/* drivers/xen/xenbus/xenbus_xs.c 357 */;
+	enum xsd_sockmsg_type cocci_id/* drivers/xen/xenbus/xenbus_xs.c 353 */;
+	struct xsd_sockmsg cocci_id/* drivers/xen/xenbus/xenbus_xs.c 306 */;
+	const struct kvec *cocci_id/* drivers/xen/xenbus/xenbus_xs.c 301 */;
+	struct kvec *cocci_id/* drivers/xen/xenbus/xenbus_xs.c 276 */;
+	struct xsd_sockmsg *cocci_id/* drivers/xen/xenbus/xenbus_xs.c 273 */;
+	struct xb_req_data *cocci_id/* drivers/xen/xenbus/xenbus_xs.c 203 */;
+	bool cocci_id/* drivers/xen/xenbus/xenbus_xs.c 192 */;
+	int cocci_id/* drivers/xen/xenbus/xenbus_xs.c 154 */;
+}

@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	struct timer_list *cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 74 */;
+	void __exit cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 450 */;
+	int __init cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 445 */;
+	struct led_trigger cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 438 */;
+	int cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 366 */;
+	u32 *cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 365 */;
+	unsigned int cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 364 */;
+	void cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 362 */;
+	const struct attribute_group *cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 357 */[];
+	const struct attribute_group cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 352 */;
+	struct attribute *cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 345 */[];
+	struct device cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 334 */;
+	struct attribute *cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 332 */;
+	umode_t cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 331 */;
+	struct kobject *cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 331 */;
+	const char *cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 322 */;
+	size_t cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 322 */;
+	struct pattern_trig_data *cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 315 */;
+	struct led_classdev *cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 314 */;
+	struct device_attribute *cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 312 */;
+	char *cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 312 */;
+	struct device *cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 311 */;
+	ssize_t cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 311 */;
+	const u32 *cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 260 */;
+	struct pattern_trig_data {
+		struct led_classdev *led_cdev;
+		struct led_pattern patterns[MAX_PATTERNS];
+		struct led_pattern *curr;
+		struct led_pattern *next;
+		struct mutex lock;
+		u32 npatterns;
+		int repeat;
+		int last_repeat;
+		int delta_t;
+		bool is_indefinite;
+		bool is_hw_pattern;
+		struct timer_list timer;
+	} cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 24 */;
+	bool cocci_id/* drivers/leds/trigger/ledtrig-pattern.c 199 */;
+}

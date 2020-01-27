@@ -1,0 +1,81 @@
+cocci_test_suite() {
+	struct i2c_client *cocci_id/* drivers/media/i2c/ov5675.c 986 */;
+	const struct v4l2_subdev_internal_ops cocci_id/* drivers/media/i2c/ov5675.c 980 */;
+	const struct media_entity_operations cocci_id/* drivers/media/i2c/ov5675.c 976 */;
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/i2c/ov5675.c 971 */;
+	const struct v4l2_subdev_pad_ops cocci_id/* drivers/media/i2c/ov5675.c 964 */;
+	const struct v4l2_subdev_video_ops cocci_id/* drivers/media/i2c/ov5675.c 960 */;
+	struct v4l2_subdev_fh *cocci_id/* drivers/media/i2c/ov5675.c 948 */;
+	struct v4l2_subdev_frame_size_enum *cocci_id/* drivers/media/i2c/ov5675.c 932 */;
+	struct v4l2_subdev_pad_config *cocci_id/* drivers/media/i2c/ov5675.c 931 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/i2c/ov5675.c 930 */;
+	struct v4l2_subdev_mbus_code_enum *cocci_id/* drivers/media/i2c/ov5675.c 920 */;
+	struct ov5675 *cocci_id/* drivers/media/i2c/ov5675.c 904 */;
+	struct v4l2_subdev_format *cocci_id/* drivers/media/i2c/ov5675.c 902 */;
+	s32 cocci_id/* drivers/media/i2c/ov5675.c 865 */;
+	const struct ov5675_mode *cocci_id/* drivers/media/i2c/ov5675.c 864 */;
+	struct ov5675_mode {
+		u32 width;
+		u32 height;
+		u32 hts;
+		u32 vts_def;
+		u32 vts_min;
+		u32 link_freq_index;
+		const struct ov5675_reg_list reg_list;
+	} cocci_id/* drivers/media/i2c/ov5675.c 86 */;
+	int __maybe_unused cocci_id/* drivers/media/i2c/ov5675.c 836 */;
+	struct ov5675_link_freq_config {
+		const struct ov5675_reg_list reg_list;
+	} cocci_id/* drivers/media/i2c/ov5675.c 82 */;
+	void cocci_id/* drivers/media/i2c/ov5675.c 777 */;
+	struct ov5675_reg_list {
+		u32 num_of_regs;
+		const struct ov5675_reg *regs;
+	} cocci_id/* drivers/media/i2c/ov5675.c 77 */;
+	const struct ov5675_reg_list *cocci_id/* drivers/media/i2c/ov5675.c 745 */;
+	struct v4l2_mbus_framefmt *cocci_id/* drivers/media/i2c/ov5675.c 734 */;
+	struct ov5675_reg {
+		u16 address;
+		u8 val;
+	} cocci_id/* drivers/media/i2c/ov5675.c 72 */;
+	enum{OV5675_LINK_FREQ_900MBPS,} cocci_id/* drivers/media/i2c/ov5675.c 68 */;
+	s64 cocci_id/* drivers/media/i2c/ov5675.c 674 */;
+	struct v4l2_ctrl_handler *cocci_id/* drivers/media/i2c/ov5675.c 673 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/i2c/ov5675.c 667 */;
+	struct ov5675 cocci_id/* drivers/media/i2c/ov5675.c 610 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/i2c/ov5675.c 607 */;
+	u8 cocci_id/* drivers/media/i2c/ov5675.c 545 */[6];
+	u8 cocci_id/* drivers/media/i2c/ov5675.c 517 */[4];
+	u8 cocci_id/* drivers/media/i2c/ov5675.c 516 */[2];
+	struct i2c_msg cocci_id/* drivers/media/i2c/ov5675.c 515 */[2];
+	u16 cocci_id/* drivers/media/i2c/ov5675.c 512 */;
+	u32 *cocci_id/* drivers/media/i2c/ov5675.c 512 */;
+	u64 cocci_id/* drivers/media/i2c/ov5675.c 494 */;
+	struct ov5675 {
+		struct v4l2_subdev sd;
+		struct media_pad pad;
+		struct v4l2_ctrl_handler ctrl_handler;
+		struct v4l2_ctrl *link_freq;
+		struct v4l2_ctrl *pixel_rate;
+		struct v4l2_ctrl *vblank;
+		struct v4l2_ctrl *hblank;
+		struct v4l2_ctrl *exposure;
+		const struct ov5675_mode *cur_mode;
+		struct mutex mutex;
+		bool streaming;
+	} cocci_id/* drivers/media/i2c/ov5675.c 472 */;
+	const struct ov5675_mode cocci_id/* drivers/media/i2c/ov5675.c 445 */[];
+	const struct ov5675_link_freq_config cocci_id/* drivers/media/i2c/ov5675.c 436 */[];
+	const s64 cocci_id/* drivers/media/i2c/ov5675.c 432 */[];
+	const char *const cocci_id/* drivers/media/i2c/ov5675.c 424 */[];
+	struct i2c_driver cocci_id/* drivers/media/i2c/ov5675.c 1169 */;
+	const struct acpi_device_id cocci_id/* drivers/media/i2c/ov5675.c 1161 */[];
+	const struct dev_pm_ops cocci_id/* drivers/media/i2c/ov5675.c 1156 */;
+	const struct ov5675_reg cocci_id/* drivers/media/i2c/ov5675.c 109 */[];
+	unsigned int cocci_id/* drivers/media/i2c/ov5675.c 1013 */;
+	u32 cocci_id/* drivers/media/i2c/ov5675.c 1011 */;
+	struct v4l2_fwnode_endpoint cocci_id/* drivers/media/i2c/ov5675.c 1008 */;
+	struct fwnode_handle *cocci_id/* drivers/media/i2c/ov5675.c 1006 */;
+	struct device *cocci_id/* drivers/media/i2c/ov5675.c 1004 */;
+	int cocci_id/* drivers/media/i2c/ov5675.c 1004 */;
+}

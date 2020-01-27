@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	const u8 cocci_id/* drivers/usb/chipidea/core.c 99 */[];
+	enum usb_dr_mode cocci_id/* drivers/usb/chipidea/core.c 983 */;
+	void __iomem *cocci_id/* drivers/usb/chipidea/core.c 981 */;
+	struct attribute *cocci_id/* drivers/usb/chipidea/core.c 970 */[];
+	enum ci_role cocci_id/* drivers/usb/chipidea/core.c 941 */;
+	const char *cocci_id/* drivers/usb/chipidea/core.c 938 */;
+	size_t cocci_id/* drivers/usb/chipidea/core.c 938 */;
+	char *cocci_id/* drivers/usb/chipidea/core.c 927 */;
+	struct device_attribute *cocci_id/* drivers/usb/chipidea/core.c 926 */;
+	ssize_t cocci_id/* drivers/usb/chipidea/core.c 926 */;
+	struct resource *cocci_id/* drivers/usb/chipidea/core.c 850 */;
+	struct platform_device *cocci_id/* drivers/usb/chipidea/core.c 849 */;
+	struct pinctrl_state *cocci_id/* drivers/usb/chipidea/core.c 799 */;
+	struct extcon_dev *cocci_id/* drivers/usb/chipidea/core.c 671 */;
+	struct ci_hdrc_platform_data *cocci_id/* drivers/usb/chipidea/core.c 669 */;
+	struct usb_role_switch_desc cocci_id/* drivers/usb/chipidea/core.c 663 */;
+	enum usb_role cocci_id/* drivers/usb/chipidea/core.c 603 */;
+	struct ci_hdrc_cable cocci_id/* drivers/usb/chipidea/core.c 593 */;
+	struct ci_hdrc_cable *cocci_id/* drivers/usb/chipidea/core.c 593 */;
+	void *cocci_id/* drivers/usb/chipidea/core.c 591 */;
+	struct notifier_block *cocci_id/* drivers/usb/chipidea/core.c 590 */;
+	unsigned long cocci_id/* drivers/usb/chipidea/core.c 590 */;
+	u32 cocci_id/* drivers/usb/chipidea/core.c 541 */;
+	irqreturn_t cocci_id/* drivers/usb/chipidea/core.c 537 */;
+	struct ci_hdrc *cocci_id/* drivers/usb/chipidea/core.c 336 */;
+	int cocci_id/* drivers/usb/chipidea/core.c 336 */;
+	enum ci_hw_regs cocci_id/* drivers/usb/chipidea/core.c 225 */;
+	bool cocci_id/* drivers/usb/chipidea/core.c 223 */;
+	u8 cocci_id/* drivers/usb/chipidea/core.c 206 */;
+	const u8 cocci_id/* drivers/usb/chipidea/core.c 190 */;
+	enum ci_revision cocci_id/* drivers/usb/chipidea/core.c 142 */;
+	void __exit cocci_id/* drivers/usb/chipidea/core.c 1405 */;
+	int __init cocci_id/* drivers/usb/chipidea/core.c 1398 */;
+	struct platform_driver cocci_id/* drivers/usb/chipidea/core.c 1388 */;
+	struct device *cocci_id/* drivers/usb/chipidea/core.c 1264 */;
+	void cocci_id/* drivers/usb/chipidea/core.c 1252 */;
+}

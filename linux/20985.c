@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	const struct pt_regs_offset *cocci_id/* arch/parisc/kernel/ptrace.c 795 */;
+	const char *cocci_id/* arch/parisc/kernel/ptrace.c 793 */;
+	const struct pt_regs_offset cocci_id/* arch/parisc/kernel/ptrace.c 714 */[];
+	struct pt_regs_offset {
+		const char *name;
+		int offset;
+	} cocci_id/* arch/parisc/kernel/ptrace.c 705 */;
+	const struct user_regset_view *cocci_id/* arch/parisc/kernel/ptrace.c 691 */;
+	const struct user_regset_view cocci_id/* arch/parisc/kernel/ptrace.c 685 */;
+	__u64 cocci_id/* arch/parisc/kernel/ptrace.c 680 */;
+	const struct user_regset cocci_id/* arch/parisc/kernel/ptrace.c 672 */[];
+	const compat_ulong_t __user *cocci_id/* arch/parisc/kernel/ptrace.c 645 */;
+	const compat_ulong_t *cocci_id/* arch/parisc/kernel/ptrace.c 644 */;
+	compat_ulong_t __user *cocci_id/* arch/parisc/kernel/ptrace.c 616 */;
+	compat_ulong_t *cocci_id/* arch/parisc/kernel/ptrace.c 615 */;
+	const unsigned long __user *cocci_id/* arch/parisc/kernel/ptrace.c 564 */;
+	const unsigned long *cocci_id/* arch/parisc/kernel/ptrace.c 563 */;
+	const __u64 __user *cocci_id/* arch/parisc/kernel/ptrace.c 429 */;
+	const __u64 *cocci_id/* arch/parisc/kernel/ptrace.c 428 */;
+	const void __user *cocci_id/* arch/parisc/kernel/ptrace.c 425 */;
+	const void *cocci_id/* arch/parisc/kernel/ptrace.c 425 */;
+	enum parisc_regset{REGSET_GENERAL, REGSET_FP,} cocci_id/* arch/parisc/kernel/ptrace.c 42 */;
+	__u64 __user *cocci_id/* arch/parisc/kernel/ptrace.c 400 */;
+	__u64 *cocci_id/* arch/parisc/kernel/ptrace.c 399 */;
+	void __user *cocci_id/* arch/parisc/kernel/ptrace.c 396 */;
+	void *cocci_id/* arch/parisc/kernel/ptrace.c 396 */;
+	unsigned int cocci_id/* arch/parisc/kernel/ptrace.c 395 */;
+	const struct user_regset *cocci_id/* arch/parisc/kernel/ptrace.c 394 */;
+	void cocci_id/* arch/parisc/kernel/ptrace.c 372 */;
+	u32 cocci_id/* arch/parisc/kernel/ptrace.c 369 */;
+	int cocci_id/* arch/parisc/kernel/ptrace.c 320 */;
+	struct pt_regs *cocci_id/* arch/parisc/kernel/ptrace.c 317 */;
+	__u32 *cocci_id/* arch/parisc/kernel/ptrace.c 294 */;
+	compat_uint_t *cocci_id/* arch/parisc/kernel/ptrace.c 263 */;
+	compat_uint_t cocci_id/* arch/parisc/kernel/ptrace.c 251 */;
+	compat_ulong_t cocci_id/* arch/parisc/kernel/ptrace.c 249 */;
+	compat_long_t cocci_id/* arch/parisc/kernel/ptrace.c 248 */;
+	struct user_fp_struct cocci_id/* arch/parisc/kernel/ptrace.c 200 */;
+	struct user_regs_struct cocci_id/* arch/parisc/kernel/ptrace.c 186 */;
+	unsigned long *cocci_id/* arch/parisc/kernel/ptrace.c 139 */;
+	char *cocci_id/* arch/parisc/kernel/ptrace.c 139 */;
+	struct pt_regs cocci_id/* arch/parisc/kernel/ptrace.c 137 */;
+	unsigned long __user *cocci_id/* arch/parisc/kernel/ptrace.c 127 */;
+	unsigned long cocci_id/* arch/parisc/kernel/ptrace.c 125 */;
+	struct task_struct *cocci_id/* arch/parisc/kernel/ptrace.c 124 */;
+	long cocci_id/* arch/parisc/kernel/ptrace.c 124 */;
+}

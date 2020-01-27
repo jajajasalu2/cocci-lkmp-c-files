@@ -1,0 +1,73 @@
+cocci_test_suite() {
+	void __exit cocci_id/* net/atm/br2684.c 837 */;
+	struct br2684_dev {
+		struct net_device *net_dev;
+		struct list_head br2684_devs;
+		int number;
+		struct list_head brvccs;
+		int mac_was_set;
+		enum br2684_payload payload;
+	} cocci_id/* net/atm/br2684.c 83 */;
+	int __init cocci_id/* net/atm/br2684.c 824 */;
+	struct proc_dir_entry *cocci_id/* net/atm/br2684.c 821 */;
+	const struct seq_operations cocci_id/* net/atm/br2684.c 814 */;
+	const struct br2684_vcc *cocci_id/* net/atm/br2684.c 788 */;
+	const struct br2684_dev *cocci_id/* net/atm/br2684.c 785 */;
+	loff_t *cocci_id/* net/atm/br2684.c 772 */;
+	struct seq_file *cocci_id/* net/atm/br2684.c 772 */;
+	struct atm_ioctl cocci_id/* net/atm/br2684.c 759 */;
+	atm_backend_t __user *cocci_id/* net/atm/br2684.c 731 */;
+	atm_backend_t cocci_id/* net/atm/br2684.c 725 */;
+	struct socket *cocci_id/* net/atm/br2684.c 720 */;
+	unsigned int cocci_id/* net/atm/br2684.c 720 */;
+	struct br2684_dev cocci_id/* net/atm/br2684.c 683 */;
+	enum br2684_payload cocci_id/* net/atm/br2684.c 667 */;
+	struct atm_newif_br2684 cocci_id/* net/atm/br2684.c 666 */;
+	void __user *cocci_id/* net/atm/br2684.c 661 */;
+	struct br2684_vcc {
+		struct atm_vcc *atmvcc;
+		struct net_device *device;
+		void (*old_push)(struct atm_vcc *vcc, struct sk_buff *skb);
+		void (*old_pop)(struct atm_vcc *vcc, struct sk_buff *skb);
+		void (*old_release_cb)(struct atm_vcc *vcc);
+		struct module *old_owner;
+		enum br2684_encaps encaps;
+		struct list_head brvccs;
+#ifdef CONFIG_ATM_BR2684_IPFILTER
+		struct br2684_filter filter;
+#endif
+		unsigned int copies_needed,copies_failed;
+		atomic_t qspace;
+	} cocci_id/* net/atm/br2684.c 66 */;
+	const struct net_device_ops cocci_id/* net/atm/br2684.c 620 */;
+	enum br2684_encaps{e_vc=BR2684_ENCAPS_VC, e_llc=BR2684_ENCAPS_LLC,} cocci_id/* net/atm/br2684.c 61 */;
+	enum br2684_encaps cocci_id/* net/atm/br2684.c 590 */;
+	unsigned char *cocci_id/* net/atm/br2684.c 579 */;
+	struct br2684_vcc cocci_id/* net/atm/br2684.c 541 */;
+	struct atm_backend_br2684 cocci_id/* net/atm/br2684.c 536 */;
+	const unsigned char cocci_id/* net/atm/br2684.c 53 */[];
+	struct atm_skb_data cocci_id/* net/atm/br2684.c 514 */;
+	struct iphdr *cocci_id/* net/atm/br2684.c 481 */;
+	void cocci_id/* net/atm/br2684.c 409 */;
+	__be16 cocci_id/* net/atm/br2684.c 391 */;
+	struct br2684_filter_set cocci_id/* net/atm/br2684.c 363 */;
+	netdev_tx_t cocci_id/* net/atm/br2684.c 291 */;
+	const struct sk_buff *cocci_id/* net/atm/br2684.c 285 */;
+	unsigned short cocci_id/* net/atm/br2684.c 229 */;
+	struct sk_buff *cocci_id/* net/atm/br2684.c 185 */;
+	struct notifier_block cocci_id/* net/atm/br2684.c 180 */;
+	struct atm_vcc *cocci_id/* net/atm/br2684.c 154 */;
+	struct net_device *cocci_id/* net/atm/br2684.c 152 */;
+	struct list_head *cocci_id/* net/atm/br2684.c 151 */;
+	struct atm_dev *cocci_id/* net/atm/br2684.c 150 */;
+	void *cocci_id/* net/atm/br2684.c 148 */;
+	struct notifier_block *cocci_id/* net/atm/br2684.c 147 */;
+	unsigned long cocci_id/* net/atm/br2684.c 147 */;
+	int cocci_id/* net/atm/br2684.c 147 */;
+	const struct br2684_if_spec *cocci_id/* net/atm/br2684.c 124 */;
+	const struct atm_vcc *cocci_id/* net/atm/br2684.c 113 */;
+	struct br2684_vcc *cocci_id/* net/atm/br2684.c 113 */;
+	const struct list_head *cocci_id/* net/atm/br2684.c 108 */;
+	const struct net_device *cocci_id/* net/atm/br2684.c 103 */;
+	struct br2684_dev *cocci_id/* net/atm/br2684.c 103 */;
+}

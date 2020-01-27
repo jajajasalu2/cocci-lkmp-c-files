@@ -1,0 +1,62 @@
+cocci_test_suite() {
+	char __iomem *cocci_id/* drivers/net/wan/pci200syn.c 97 */;
+	char *cocci_id/* drivers/net/wan/pci200syn.c 97 */;
+	int cocci_id/* drivers/net/wan/pci200syn.c 97 */;
+	void cocci_id/* drivers/net/wan/pci200syn.c 97 */;
+	struct card_s {
+		u8 __iomem *rambase;
+		u8 __iomem *scabase;
+		plx9052 __iomem *plxbase;
+		u16 rx_ring_buffers;
+		u16 tx_ring_buffers;
+		u16 buff_offset;
+		u8 irq;
+		port_t ports[2];
+	} cocci_id/* drivers/net/wan/pci200syn.c 81 */;
+	struct port_s {
+		struct napi_struct napi;
+		struct net_device *netdev;
+		struct card_s *card;
+		spinlock_t lock;
+		sync_serial_settings settings;
+		int rxpart;
+		unsigned short encoding;
+		unsigned short parity;
+		u16 rxin;
+		u16 txin;
+		u16 txlast;
+		u8 rxs,txs,tmc;
+		u8 chan;
+	} cocci_id/* drivers/net/wan/pci200syn.c 63 */;
+	struct {
+		u32 loc_addr_range[4];
+		u32 loc_rom_range;
+		u32 loc_addr_base[4];
+		u32 loc_rom_base;
+		u32 loc_bus_descr[4];
+		u32 rom_bus_descr;
+		u32 cs_base[4];
+		u32 intr_ctrl_stat;
+		u32 init_ctrl;
+	} cocci_id/* drivers/net/wan/pci200syn.c 49 */;
+	void __exit cocci_id/* drivers/net/wan/pci200syn.c 438 */;
+	int __init cocci_id/* drivers/net/wan/pci200syn.c 427 */;
+	struct pci_driver cocci_id/* drivers/net/wan/pci200syn.c 419 */;
+	const struct pci_device_id cocci_id/* drivers/net/wan/pci200syn.c 412 */[];
+	hdlc_device *cocci_id/* drivers/net/wan/pci200syn.c 382 */;
+	card_t cocci_id/* drivers/net/wan/pci200syn.c 294 */;
+	u32 cocci_id/* drivers/net/wan/pci200syn.c 279 */;
+	u32 __iomem *cocci_id/* drivers/net/wan/pci200syn.c 277 */;
+	card_t *cocci_id/* drivers/net/wan/pci200syn.c 276 */;
+	const struct pci_device_id *cocci_id/* drivers/net/wan/pci200syn.c 274 */;
+	struct pci_dev *cocci_id/* drivers/net/wan/pci200syn.c 273 */;
+	const struct net_device_ops cocci_id/* drivers/net/wan/pci200syn.c 266 */;
+	port_t *cocci_id/* drivers/net/wan/pci200syn.c 187 */;
+	sync_serial_settings __user *cocci_id/* drivers/net/wan/pci200syn.c 186 */;
+	const size_t cocci_id/* drivers/net/wan/pci200syn.c 184 */;
+	sync_serial_settings cocci_id/* drivers/net/wan/pci200syn.c 184 */;
+	struct ifreq *cocci_id/* drivers/net/wan/pci200syn.c 182 */;
+	struct net_device *cocci_id/* drivers/net/wan/pci200syn.c 172 */;
+	u8 cocci_id/* drivers/net/wan/pci200syn.c 120 */;
+	u16 cocci_id/* drivers/net/wan/pci200syn.c 119 */;
+}

@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	bool cocci_id/* net/ipv6/ip6_offload.c 82 */;
+	u8 *cocci_id/* net/ipv6/ip6_offload.c 80 */;
+	struct frag_hdr *cocci_id/* net/ipv6/ip6_offload.c 78 */;
+	int __init cocci_id/* net/ipv6/ip6_offload.c 432 */;
+	void cocci_id/* net/ipv6/ip6_offload.c 432 */;
+	const struct net_offload cocci_id/* net/ipv6/ip6_offload.c 417 */;
+	netdev_features_t cocci_id/* net/ipv6/ip6_offload.c 392 */;
+	struct packet_offload cocci_id/* net/ipv6/ip6_offload.c 373 */;
+	struct sk_buff *cocci_id/* net/ipv6/ip6_offload.c 366 */;
+	int cocci_id/* net/ipv6/ip6_offload.c 366 */;
+	const struct net_offload *cocci_id/* net/ipv6/ip6_offload.c 326 */;
+	int cocci_id/* net/ipv6/ip6_offload.c 322 */(struct sk_buff *, int);
+	struct list_head *cocci_id/* net/ipv6/ip6_offload.c 307 */;
+	struct ipv6hdr cocci_id/* net/ipv6/ip6_offload.c 259 */;
+	u16 *cocci_id/* net/ipv6/ip6_offload.c 254 */;
+	__be32 *cocci_id/* net/ipv6/ip6_offload.c 243 */;
+	__be32 cocci_id/* net/ipv6/ip6_offload.c 237 */;
+	const struct ipv6hdr *cocci_id/* net/ipv6/ip6_offload.c 236 */;
+	u16 cocci_id/* net/ipv6/ip6_offload.c 194 */;
+	unsigned int cocci_id/* net/ipv6/ip6_offload.c 191 */;
+	 cocci_id/* net/ipv6/ip6_offload.c 182 */(struct sk_buff *udp6_gro_receive(struct list_head *, struct sk_buff *));
+	 cocci_id/* net/ipv6/ip6_offload.c 180 */(struct sk_buff *tcp6_gro_receive(struct list_head *, struct sk_buff *));
+	struct ipv6_opt_hdr *cocci_id/* net/ipv6/ip6_offload.c 160 */;
+	void *cocci_id/* net/ipv6/ip6_offload.c 160 */;
+	const struct net_offload **cocci_id/* net/ipv6/ip6_offload.c 158 */;
+	struct ipv6hdr *cocci_id/* net/ipv6/ip6_offload.c 157 */;
+	struct frag_hdr cocci_id/* net/ipv6/ip6_offload.c 144 */;
+	unsigned char *cocci_id/* net/ipv6/ip6_offload.c 126 */;
+}

@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	struct iov_iter cocci_id/* net/9p/protocol.c 66 */;
+	struct p9_fcall cocci_id/* net/9p/protocol.c 597 */;
+	struct p9_dirent *cocci_id/* net/9p/protocol.c 595 */;
+	struct p9_client *cocci_id/* net/9p/protocol.c 594 */;
+	char *cocci_id/* net/9p/protocol.c 594 */;
+	int cocci_id/* net/9p/protocol.c 594 */;
+	void cocci_id/* net/9p/protocol.c 588 */;
+	struct p9_fcall *cocci_id/* net/9p/protocol.c 572 */;
+	int8_t cocci_id/* net/9p/protocol.c 566 */;
+	int16_t cocci_id/* net/9p/protocol.c 566 */;
+	const void *cocci_id/* net/9p/protocol.c 54 */;
+	va_list cocci_id/* net/9p/protocol.c 522 */;
+	const char *cocci_id/* net/9p/protocol.c 520 */;
+	struct p9_iattr_dotl *cocci_id/* net/9p/protocol.c 487 */;
+	void *cocci_id/* net/9p/protocol.c 46 */;
+	const char **cocci_id/* net/9p/protocol.c 445 */;
+	struct iov_iter *cocci_id/* net/9p/protocol.c 435 */;
+	const struct p9_wstat *cocci_id/* net/9p/protocol.c 419 */;
+	const struct p9_qid *cocci_id/* net/9p/protocol.c 411 */;
+	kgid_t cocci_id/* net/9p/protocol.c 404 */;
+	kuid_t cocci_id/* net/9p/protocol.c 397 */;
+	size_t cocci_id/* net/9p/protocol.c 387 */;
+	int64_t cocci_id/* net/9p/protocol.c 378 */;
+	int32_t cocci_id/* net/9p/protocol.c 372 */;
+	struct p9_stat_dotl cocci_id/* net/9p/protocol.c 310 */;
+	struct p9_stat_dotl *cocci_id/* net/9p/protocol.c 307 */;
+	struct p9_qid cocci_id/* net/9p/protocol.c 280 */;
+	int cocci_id/* net/9p/protocol.c 28 */(struct p9_fcall *pdu,
+					       int proto_version,
+					       const char *fmt,...);
+	struct p9_qid **cocci_id/* net/9p/protocol.c 270 */;
+	char ***cocci_id/* net/9p/protocol.c 229 */;
+	uint16_t *cocci_id/* net/9p/protocol.c 228 */;
+	uint32_t cocci_id/* net/9p/protocol.c 221 */;
+	void **cocci_id/* net/9p/protocol.c 215 */;
+	uint32_t *cocci_id/* net/9p/protocol.c 214 */;
+	struct p9_wstat cocci_id/* net/9p/protocol.c 193 */;
+	struct p9_wstat *cocci_id/* net/9p/protocol.c 190 */;
+	struct p9_qid *cocci_id/* net/9p/protocol.c 181 */;
+	kgid_t *cocci_id/* net/9p/protocol.c 171 */;
+	kuid_t *cocci_id/* net/9p/protocol.c 161 */;
+	uint16_t cocci_id/* net/9p/protocol.c 140 */;
+	char **cocci_id/* net/9p/protocol.c 139 */;
+	__le64 cocci_id/* net/9p/protocol.c 130 */;
+	int64_t *cocci_id/* net/9p/protocol.c 129 */;
+	__le32 cocci_id/* net/9p/protocol.c 120 */;
+	int32_t *cocci_id/* net/9p/protocol.c 119 */;
+	__le16 cocci_id/* net/9p/protocol.c 110 */;
+	int16_t *cocci_id/* net/9p/protocol.c 109 */;
+	int8_t *cocci_id/* net/9p/protocol.c 101 */;
+}

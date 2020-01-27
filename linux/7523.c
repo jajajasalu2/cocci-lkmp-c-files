@@ -1,0 +1,108 @@
+cocci_test_suite() {
+	irqreturn_t cocci_id/* drivers/video/fbdev/s3c-fb.c 957 */;
+	void *cocci_id/* drivers/video/fbdev/s3c-fb.c 957 */;
+	struct s3c_fb_variant {
+		unsigned int is_2443:1;
+		unsigned short nr_windows;
+		unsigned int vidtcon;
+		unsigned short wincon;
+		unsigned short winmap;
+		unsigned short keycon;
+		unsigned short buf_start;
+		unsigned short buf_end;
+		unsigned short buf_size;
+		unsigned short osd;
+		unsigned short osd_stride;
+		unsigned short palette[S3C_FB_MAX_WIN];
+		unsigned int has_prtcon:1;
+		unsigned int has_shadowcon:1;
+		unsigned int has_blendcon:1;
+		unsigned int has_clksel:1;
+		unsigned int has_fixvclk:1;
+	} cocci_id/* drivers/video/fbdev/s3c-fb.c 85 */;
+	u32 cocci_id/* drivers/video/fbdev/s3c-fb.c 799 */;
+	unsigned cocci_id/* drivers/video/fbdev/s3c-fb.c 739 */;
+	struct fb_bitfield *cocci_id/* drivers/video/fbdev/s3c-fb.c 723 */;
+	unsigned int cocci_id/* drivers/video/fbdev/s3c-fb.c 722 */;
+	struct s3c_fb cocci_id/* drivers/video/fbdev/s3c-fb.c 56 */;
+	int cocci_id/* drivers/video/fbdev/s3c-fb.c 375 */;
+	unsigned long long cocci_id/* drivers/video/fbdev/s3c-fb.c 347 */;
+	unsigned long cocci_id/* drivers/video/fbdev/s3c-fb.c 346 */;
+	struct fb_var_screeninfo *cocci_id/* drivers/video/fbdev/s3c-fb.c 239 */;
+	bool cocci_id/* drivers/video/fbdev/s3c-fb.c 226 */;
+	struct s3c_fb {
+		spinlock_t slock;
+		struct device *dev;
+		struct clk *bus_clk;
+		struct clk *lcd_clk;
+		void __iomem *regs;
+		struct s3c_fb_variant variant;
+		unsigned char enabled;
+		bool output_on;
+		struct s3c_fb_platdata *pdata;
+		struct s3c_fb_win *windows[S3C_FB_MAX_WIN];
+		int irq_no;
+		unsigned long irq_flags;
+		struct s3c_fb_vsync vsync_info;
+	} cocci_id/* drivers/video/fbdev/s3c-fb.c 202 */;
+	struct s3c_fb_vsync {
+		wait_queue_head_t wait;
+		unsigned int count;
+	} cocci_id/* drivers/video/fbdev/s3c-fb.c 181 */;
+	struct platform_driver cocci_id/* drivers/video/fbdev/s3c-fb.c 1798 */;
+	const struct platform_device_id cocci_id/* drivers/video/fbdev/s3c-fb.c 1780 */[];
+	struct s3c_fb_win_variant cocci_id/* drivers/video/fbdev/s3c-fb.c 1765 */;
+	struct s3c_fb_driverdata cocci_id/* drivers/video/fbdev/s3c-fb.c 1712 */;
+	struct s3c_fb_win_variant cocci_id/* drivers/video/fbdev/s3c-fb.c 1659 */[];
+	struct s3c_fb_win {
+		struct s3c_fb_pd_win *windata;
+		struct s3c_fb *parent;
+		struct fb_info *fbinfo;
+		struct s3c_fb_palette palette;
+		struct s3c_fb_win_variant variant;
+		u32 *palette_buffer;
+		u32 pseudo_palette[16];
+		unsigned int index;
+	} cocci_id/* drivers/video/fbdev/s3c-fb.c 164 */;
+	struct s3c_fb_palette {
+		struct fb_bitfield r;
+		struct fb_bitfield g;
+		struct fb_bitfield b;
+		struct fb_bitfield a;
+	} cocci_id/* drivers/video/fbdev/s3c-fb.c 146 */;
+	struct resource *cocci_id/* drivers/video/fbdev/s3c-fb.c 1362 */;
+	struct s3c_fb_platdata *cocci_id/* drivers/video/fbdev/s3c-fb.c 1360 */;
+	struct device *cocci_id/* drivers/video/fbdev/s3c-fb.c 1359 */;
+	struct s3c_fb_driverdata *cocci_id/* drivers/video/fbdev/s3c-fb.c 1358 */;
+	const struct platform_device_id *cocci_id/* drivers/video/fbdev/s3c-fb.c 1357 */;
+	struct platform_device *cocci_id/* drivers/video/fbdev/s3c-fb.c 1355 */;
+	struct s3c_fb_driverdata {
+		struct s3c_fb_variant variant;
+		struct s3c_fb_win_variant *win[S3C_FB_MAX_WIN];
+	} cocci_id/* drivers/video/fbdev/s3c-fb.c 134 */;
+	void __iomem *cocci_id/* drivers/video/fbdev/s3c-fb.c 1338 */;
+	void cocci_id/* drivers/video/fbdev/s3c-fb.c 1336 */;
+	u32 *cocci_id/* drivers/video/fbdev/s3c-fb.c 1207 */;
+	struct s3c_fb_win_variant {
+		unsigned int has_osd_c:1;
+		unsigned int has_osd_d:1;
+		unsigned int has_osd_alpha:1;
+		unsigned int palette_16bpp:1;
+		unsigned short osd_size_off;
+		unsigned short palette_sz;
+		u32 valid_bpp;
+	} cocci_id/* drivers/video/fbdev/s3c-fb.c 119 */;
+	struct s3c_fb_win cocci_id/* drivers/video/fbdev/s3c-fb.c 1187 */;
+	struct fb_videomode cocci_id/* drivers/video/fbdev/s3c-fb.c 1174 */;
+	struct s3c_fb_win **cocci_id/* drivers/video/fbdev/s3c-fb.c 1171 */;
+	struct s3c_fb_win_variant *cocci_id/* drivers/video/fbdev/s3c-fb.c 1170 */;
+	dma_addr_t cocci_id/* drivers/video/fbdev/s3c-fb.c 1085 */;
+	struct fb_info *cocci_id/* drivers/video/fbdev/s3c-fb.c 1084 */;
+	struct s3c_fb_pd_win *cocci_id/* drivers/video/fbdev/s3c-fb.c 1082 */;
+	struct s3c_fb_win *cocci_id/* drivers/video/fbdev/s3c-fb.c 1080 */;
+	struct s3c_fb *cocci_id/* drivers/video/fbdev/s3c-fb.c 1080 */;
+	u64 cocci_id/* drivers/video/fbdev/s3c-fb.c 1059 */;
+	struct fb_videomode *cocci_id/* drivers/video/fbdev/s3c-fb.c 1057 */;
+	struct fb_ops cocci_id/* drivers/video/fbdev/s3c-fb.c 1038 */;
+	u32 __user *cocci_id/* drivers/video/fbdev/s3c-fb.c 1024 */;
+}

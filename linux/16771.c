@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct rmi_function_handler cocci_id/* drivers/input/rmi4/rmi_f34.c 601 */;
+	void cocci_id/* drivers/input/rmi4/rmi_f34.c 596 */;
+	struct f34_data cocci_id/* drivers/input/rmi4/rmi_f34.c 528 */;
+	unsigned char cocci_id/* drivers/input/rmi4/rmi_f34.c 523 */[9];
+	const struct attribute_group cocci_id/* drivers/input/rmi4/rmi_f34.c 516 */;
+	struct attribute *cocci_id/* drivers/input/rmi4/rmi_f34.c 508 */[];
+	int cocci_id/* drivers/input/rmi4/rmi_f34.c 497 */;
+	struct rmi_device *cocci_id/* drivers/input/rmi4/rmi_f34.c 49 */;
+	const struct firmware *cocci_id/* drivers/input/rmi4/rmi_f34.c 464 */;
+	char cocci_id/* drivers/input/rmi4/rmi_f34.c 463 */[NAME_MAX];
+	const char *cocci_id/* drivers/input/rmi4/rmi_f34.c 460 */;
+	size_t cocci_id/* drivers/input/rmi4/rmi_f34.c 460 */;
+	bool cocci_id/* drivers/input/rmi4/rmi_f34.c 46 */;
+	unsigned int cocci_id/* drivers/input/rmi4/rmi_f34.c 46 */;
+	struct f34_data *cocci_id/* drivers/input/rmi4/rmi_f34.c 318 */;
+	struct rmi_function *cocci_id/* drivers/input/rmi4/rmi_f34.c 317 */;
+	struct rmi_driver_data *cocci_id/* drivers/input/rmi4/rmi_f34.c 316 */;
+	char *cocci_id/* drivers/input/rmi4/rmi_f34.c 314 */;
+	struct device_attribute *cocci_id/* drivers/input/rmi4/rmi_f34.c 313 */;
+	struct device *cocci_id/* drivers/input/rmi4/rmi_f34.c 312 */;
+	ssize_t cocci_id/* drivers/input/rmi4/rmi_f34.c 312 */;
+	struct rmi_f34_firmware cocci_id/* drivers/input/rmi4/rmi_f34.c 251 */;
+	u8 cocci_id/* drivers/input/rmi4/rmi_f34.c 20 */[F34_BOOTLOADER_ID_LEN];
+	u32 cocci_id/* drivers/input/rmi4/rmi_f34.c 198 */;
+	const struct rmi_f34_firmware *cocci_id/* drivers/input/rmi4/rmi_f34.c 195 */;
+	u8 cocci_id/* drivers/input/rmi4/rmi_f34.c 136 */[];
+	u16 cocci_id/* drivers/input/rmi4/rmi_f34.c 135 */;
+	const void *cocci_id/* drivers/input/rmi4/rmi_f34.c 130 */;
+	u8 cocci_id/* drivers/input/rmi4/rmi_f34.c 105 */;
+	irqreturn_t cocci_id/* drivers/input/rmi4/rmi_f34.c 100 */;
+	void *cocci_id/* drivers/input/rmi4/rmi_f34.c 100 */;
+}

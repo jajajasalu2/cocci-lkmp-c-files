@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	struct ethtool_eeprom *cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 995 */;
+	struct bfa_flash_attr cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 952 */;
+	struct bfa_flash_attr *cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 947 */;
+	u32 *cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 945 */;
+	struct bfi_enet_stats_rxf cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 917 */;
+	struct bfi_enet_stats_txf cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 904 */;
+	struct bfi_enet_stats cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 893 */;
+	u64 cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 887 */;
+	struct bnad_drv_stats cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 887 */;
+	struct rtnl_link_stats64 cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 847 */;
+	u64 *cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 842 */;
+	struct ethtool_stats *cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 841 */;
+	struct bna_tcb *cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 757 */;
+	struct bna_rcb *cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 756 */;
+	struct bna_pause_config cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 509 */;
+	struct ethtool_pauseparam *cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 495 */;
+	struct ethtool_ringparam *cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 405 */;
+	unsigned long cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 315 */;
+	struct ethtool_coalesce *cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 312 */;
+	struct ethtool_wolinfo *cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 305 */;
+	const char *cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 29 */[];
+	struct bfa_ioc_attr *cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 283 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 280 */;
+	void cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 279 */;
+	const struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 266 */;
+	struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 236 */;
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 1118 */;
+	u8 *cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 1096 */;
+	const struct firmware *cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 1081 */;
+	struct bnad_iocmd_comp cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 1080 */;
+	struct bnad *cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 1079 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 1077 */;
+	struct ethtool_flash *cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 1077 */;
+	int cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 1076 */;
+	u32 cocci_id/* drivers/net/ethernet/brocade/bna/bnad_ethtool.c 1000 */;
+}

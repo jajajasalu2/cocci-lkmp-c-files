@@ -1,0 +1,68 @@
+cocci_test_suite() {
+	const struct attribute_group *cocci_id/* drivers/hwmon/hwmon.c 93 */[];
+	void __exit cocci_id/* drivers/hwmon/hwmon.c 915 */;
+	int __init cocci_id/* drivers/hwmon/hwmon.c 901 */;
+	const struct attribute_group cocci_id/* drivers/hwmon/hwmon.c 88 */;
+	u8 cocci_id/* drivers/hwmon/hwmon.c 878 */;
+	u16 cocci_id/* drivers/hwmon/hwmon.c 877 */;
+	struct pci_dev *cocci_id/* drivers/hwmon/hwmon.c 876 */;
+	void __init cocci_id/* drivers/hwmon/hwmon.c 873 */;
+	void cocci_id/* drivers/hwmon/hwmon.c 867 */;
+	struct device cocci_id/* drivers/hwmon/hwmon.c 80 */;
+	struct device **cocci_id/* drivers/hwmon/hwmon.c 790 */;
+	struct attribute *cocci_id/* drivers/hwmon/hwmon.c 78 */;
+	umode_t cocci_id/* drivers/hwmon/hwmon.c 77 */;
+	struct kobject *cocci_id/* drivers/hwmon/hwmon.c 77 */;
+	struct attribute *cocci_id/* drivers/hwmon/hwmon.c 72 */[];
+	const struct hwmon_channel_info **cocci_id/* drivers/hwmon/hwmon.c 639 */;
+	struct hwmon_thermal_data {
+		struct hwmon_device *hwdev;
+		int index;
+	} cocci_id/* drivers/hwmon/hwmon.c 60 */;
+	struct hwmon_device *cocci_id/* drivers/hwmon/hwmon.c 568 */;
+	const struct attribute_group **cocci_id/* drivers/hwmon/hwmon.c 566 */;
+	const char *cocci_id/* drivers/hwmon/hwmon.c 564 */;
+	void *cocci_id/* drivers/hwmon/hwmon.c 564 */;
+	int cocci_id/* drivers/hwmon/hwmon.c 539 */;
+	const struct hwmon_chip_info *cocci_id/* drivers/hwmon/hwmon.c 537 */;
+	const void *cocci_id/* drivers/hwmon/hwmon.c 536 */;
+	struct device *cocci_id/* drivers/hwmon/hwmon.c 536 */;
+	struct attribute **cocci_id/* drivers/hwmon/hwmon.c 535 */;
+	struct hwmon_device_attribute cocci_id/* drivers/hwmon/hwmon.c 53 */;
+	const char *const *cocci_id/* drivers/hwmon/hwmon.c 501 */;
+	const struct hwmon_channel_info *cocci_id/* drivers/hwmon/hwmon.c 499 */;
+	const int cocci_id/* drivers/hwmon/hwmon.c 473 */[];
+	const char *const *cocci_id/* drivers/hwmon/hwmon.c 461 */[];
+	struct hwmon_device_attribute {
+		struct device_attribute dev_attr;
+		const struct hwmon_ops *ops;
+		enum hwmon_sensor_types type;
+		u32 attr;
+		int index;
+		char name[MAX_SYSFS_ATTR_NAME_LENGTH];
+	} cocci_id/* drivers/hwmon/hwmon.c 43 */;
+	struct hwmon_device cocci_id/* drivers/hwmon/hwmon.c 39 */;
+	const char *const cocci_id/* drivers/hwmon/hwmon.c 315 */[];
+	struct hwmon_device {
+		const char *name;
+		struct device dev;
+		const struct hwmon_chip_info *chip;
+		struct attribute_group group;
+		const struct attribute_group **groups;
+	} cocci_id/* drivers/hwmon/hwmon.c 30 */;
+	bool cocci_id/* drivers/hwmon/hwmon.c 266 */;
+	const struct hwmon_ops *cocci_id/* drivers/hwmon/hwmon.c 259 */;
+	u32 cocci_id/* drivers/hwmon/hwmon.c 256 */;
+	size_t cocci_id/* drivers/hwmon/hwmon.c 221 */;
+	long cocci_id/* drivers/hwmon/hwmon.c 185 */;
+	struct hwmon_device_attribute *cocci_id/* drivers/hwmon/hwmon.c 184 */;
+	struct device_attribute *cocci_id/* drivers/hwmon/hwmon.c 182 */;
+	char *cocci_id/* drivers/hwmon/hwmon.c 182 */;
+	ssize_t cocci_id/* drivers/hwmon/hwmon.c 181 */;
+	enum hwmon_sensor_types cocci_id/* drivers/hwmon/hwmon.c 172 */;
+	struct thermal_zone_device *cocci_id/* drivers/hwmon/hwmon.c 144 */;
+	struct hwmon_thermal_data *cocci_id/* drivers/hwmon/hwmon.c 143 */;
+	const struct thermal_zone_of_device_ops cocci_id/* drivers/hwmon/hwmon.c 136 */;
+	int *cocci_id/* drivers/hwmon/hwmon.c 119 */;
+	struct class cocci_id/* drivers/hwmon/hwmon.c 103 */;
+}

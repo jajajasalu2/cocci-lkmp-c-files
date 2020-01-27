@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	struct fsl_espi {
+		struct device *dev;
+		void __iomem *reg_base;
+		struct list_head *m_transfers;
+		struct spi_transfer *tx_t;
+		unsigned int tx_pos;
+		bool tx_done;
+		struct spi_transfer *rx_t;
+		unsigned int rx_pos;
+		bool rx_done;
+		bool swab;
+		unsigned int rxskip;
+		spinlock_t lock;
+		u32 spibrg;
+		struct completion done;
+	} cocci_id/* drivers/spi/spi-fsl-espi.c 90 */;
+	struct platform_driver cocci_id/* drivers/spi/spi-fsl-espi.c 839 */;
+	const struct of_device_id cocci_id/* drivers/spi/spi-fsl-espi.c 833 */[];
+	struct resource cocci_id/* drivers/spi/spi-fsl-espi.c 768 */;
+	struct platform_device *cocci_id/* drivers/spi/spi-fsl-espi.c 764 */;
+	struct fsl_espi cocci_id/* drivers/spi/spi-fsl-espi.c 677 */;
+	struct resource *cocci_id/* drivers/spi/spi-fsl-espi.c 670 */;
+	struct device_node *cocci_id/* drivers/spi/spi-fsl-espi.c 627 */;
+	bool cocci_id/* drivers/spi/spi-fsl-espi.c 623 */;
+	struct device *cocci_id/* drivers/spi/spi-fsl-espi.c 623 */;
+	size_t cocci_id/* drivers/spi/spi-fsl-espi.c 618 */;
+	s32 cocci_id/* drivers/spi/spi-fsl-espi.c 564 */;
+	irqreturn_t cocci_id/* drivers/spi/spi-fsl-espi.c 564 */;
+	void *cocci_id/* drivers/spi/spi-fsl-espi.c 564 */;
+	struct fsl_espi_cs *cocci_id/* drivers/spi/spi-fsl-espi.c 531 */;
+	void cocci_id/* drivers/spi/spi-fsl-espi.c 529 */;
+	struct spi_master *cocci_id/* drivers/spi/spi-fsl-espi.c 435 */;
+	u32 cocci_id/* drivers/spi/spi-fsl-espi.c 356 */;
+	unsigned int cocci_id/* drivers/spi/spi-fsl-espi.c 355 */;
+	struct fsl_espi *cocci_id/* drivers/spi/spi-fsl-espi.c 354 */;
+	struct spi_transfer *cocci_id/* drivers/spi/spi-fsl-espi.c 352 */;
+	struct spi_device *cocci_id/* drivers/spi/spi-fsl-espi.c 352 */;
+	int cocci_id/* drivers/spi/spi-fsl-espi.c 352 */;
+	u16 *cocci_id/* drivers/spi/spi-fsl-espi.c 294 */;
+	u8 *cocci_id/* drivers/spi/spi-fsl-espi.c 249 */;
+	u32 *cocci_id/* drivers/spi/spi-fsl-espi.c 234 */;
+	const void *cocci_id/* drivers/spi/spi-fsl-espi.c 218 */;
+	struct spi_transfer cocci_id/* drivers/spi/spi-fsl-espi.c 160 */;
+	struct spi_message *cocci_id/* drivers/spi/spi-fsl-espi.c 149 */;
+	u8 cocci_id/* drivers/spi/spi-fsl-espi.c 126 */;
+	u16 cocci_id/* drivers/spi/spi-fsl-espi.c 121 */;
+	struct fsl_espi_cs {
+		u32 hw_mode;
+	} cocci_id/* drivers/spi/spi-fsl-espi.c 112 */;
+}

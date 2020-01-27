@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct page *cocci_id/* drivers/gpu/drm/armada/armada_gem.c 96 */;
+	unsigned int cocci_id/* drivers/gpu/drm/armada/armada_gem.c 52 */;
+	struct dma_buf_attachment *cocci_id/* drivers/gpu/drm/armada/armada_gem.c 505 */;
+	const struct dma_buf_ops cocci_id/* drivers/gpu/drm/armada/armada_gem.c 480 */;
+	struct vm_area_struct *cocci_id/* drivers/gpu/drm/armada/armada_gem.c 475 */;
+	struct dma_buf *cocci_id/* drivers/gpu/drm/armada/armada_gem.c 475 */;
+	void cocci_id/* drivers/gpu/drm/armada/armada_gem.c 469 */;
+	unsigned long cocci_id/* drivers/gpu/drm/armada/armada_gem.c 464 */;
+	struct armada_private *cocci_id/* drivers/gpu/drm/armada/armada_gem.c 42 */;
+	struct drm_gem_object *cocci_id/* drivers/gpu/drm/armada/armada_gem.c 39 */;
+	struct scatterlist *cocci_id/* drivers/gpu/drm/armada/armada_gem.c 380 */;
+	enum dma_data_direction cocci_id/* drivers/gpu/drm/armada/armada_gem.c 376 */;
+	struct sg_table *cocci_id/* drivers/gpu/drm/armada/armada_gem.c 374 */;
+	uintptr_t cocci_id/* drivers/gpu/drm/armada/armada_gem.c 337 */;
+	char __user *cocci_id/* drivers/gpu/drm/armada/armada_gem.c 328 */;
+	struct drm_armada_gem_pwrite *cocci_id/* drivers/gpu/drm/armada/armada_gem.c 326 */;
+	struct drm_armada_gem_mmap *cocci_id/* drivers/gpu/drm/armada/armada_gem.c 299 */;
+	const struct vm_operations_struct cocci_id/* drivers/gpu/drm/armada/armada_gem.c 28 */;
+	u32 cocci_id/* drivers/gpu/drm/armada/armada_gem.c 270 */;
+	struct drm_armada_gem_create *cocci_id/* drivers/gpu/drm/armada/armada_gem.c 267 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/armada/armada_gem.c 265 */;
+	void *cocci_id/* drivers/gpu/drm/armada/armada_gem.c 264 */;
+	int cocci_id/* drivers/gpu/drm/armada/armada_gem.c 264 */;
+	struct drm_mode_create_dumb *cocci_id/* drivers/gpu/drm/armada/armada_gem.c 232 */;
+	struct address_space *cocci_id/* drivers/gpu/drm/armada/armada_gem.c 209 */;
+	size_t cocci_id/* drivers/gpu/drm/armada/armada_gem.c 206 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/armada/armada_gem.c 205 */;
+	struct armada_gem_object *cocci_id/* drivers/gpu/drm/armada/armada_gem.c 205 */;
+	vm_fault_t cocci_id/* drivers/gpu/drm/armada/armada_gem.c 18 */;
+	struct vm_fault *cocci_id/* drivers/gpu/drm/armada/armada_gem.c 18 */;
+	unsigned long long cocci_id/* drivers/gpu/drm/armada/armada_gem.c 172 */;
+	void __iomem *cocci_id/* drivers/gpu/drm/armada/armada_gem.c 134 */;
+	unsigned cocci_id/* drivers/gpu/drm/armada/armada_gem.c 133 */;
+	struct drm_mm_node *cocci_id/* drivers/gpu/drm/armada/armada_gem.c 132 */;
+}

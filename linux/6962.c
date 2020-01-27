@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* drivers/ipack/carriers/tpci200.c 74 */;
+	u16 cocci_id/* drivers/ipack/carriers/tpci200.c 72 */;
+	__le16 __iomem *cocci_id/* drivers/ipack/carriers/tpci200.c 72 */;
+	struct pci_driver cocci_id/* drivers/ipack/carriers/tpci200.c 634 */;
+	const struct pci_device_id cocci_id/* drivers/ipack/carriers/tpci200.c 626 */[];
+	struct tpci200_board *cocci_id/* drivers/ipack/carriers/tpci200.c 610 */;
+	void cocci_id/* drivers/ipack/carriers/tpci200.c 610 */;
+	struct pci_device_id *cocci_id/* drivers/ipack/carriers/tpci200.c 566 */;
+	struct tpci200_infos cocci_id/* drivers/ipack/carriers/tpci200.c 528 */;
+	struct tpci200_board cocci_id/* drivers/ipack/carriers/tpci200.c 524 */;
+	u32 cocci_id/* drivers/ipack/carriers/tpci200.c 522 */;
+	const struct pci_device_id *cocci_id/* drivers/ipack/carriers/tpci200.c 518 */;
+	struct pci_dev *cocci_id/* drivers/ipack/carriers/tpci200.c 517 */;
+	struct ipack_device cocci_id/* drivers/ipack/carriers/tpci200.c 490 */;
+	enum ipack_space cocci_id/* drivers/ipack/carriers/tpci200.c 488 */;
+	int cocci_id/* drivers/ipack/carriers/tpci200.c 485 */;
+	struct tpci200_slot cocci_id/* drivers/ipack/carriers/tpci200.c 464 */;
+	struct ipack_device *cocci_id/* drivers/ipack/carriers/tpci200.c 46 */;
+	const struct ipack_bus_ops cocci_id/* drivers/ipack/carriers/tpci200.c 450 */;
+	const size_t cocci_id/* drivers/ipack/carriers/tpci200.c 38 */[IPACK_SPACE_COUNT];
+	unsigned short cocci_id/* drivers/ipack/carriers/tpci200.c 249 */;
+	phys_addr_t cocci_id/* drivers/ipack/carriers/tpci200.c 248 */;
+	const u16 cocci_id/* drivers/ipack/carriers/tpci200.c 23 */[];
+	struct slot_irq cocci_id/* drivers/ipack/carriers/tpci200.c 217 */;
+	irqreturn_t (*cocci_id/* drivers/ipack/carriers/tpci200.c 195 */)(void *);
+	struct slot_irq *cocci_id/* drivers/ipack/carriers/tpci200.c 169 */;
+	irqreturn_t cocci_id/* drivers/ipack/carriers/tpci200.c 133 */;
+	void *cocci_id/* drivers/ipack/carriers/tpci200.c 133 */;
+}

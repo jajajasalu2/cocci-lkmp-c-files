@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/video/fbdev/omap/sossi.c 80 */;
+	u16 cocci_id/* drivers/video/fbdev/omap/sossi.c 75 */;
+	struct lcd_ctrl_extif cocci_id/* drivers/video/fbdev/omap/sossi.c 664 */;
+	struct clk *cocci_id/* drivers/video/fbdev/omap/sossi.c 561 */;
+	struct omapfb_device *cocci_id/* drivers/video/fbdev/omap/sossi.c 558 */;
+	irqreturn_t cocci_id/* drivers/video/fbdev/omap/sossi.c 545 */;
+	u8 *cocci_id/* drivers/video/fbdev/omap/sossi.c 537 */;
+	u16 *cocci_id/* drivers/video/fbdev/omap/sossi.c 532 */;
+	void *cocci_id/* drivers/video/fbdev/omap/sossi.c 509 */;
+	void cocci_id/* drivers/video/fbdev/omap/sossi.c 476 */(void *data);
+	struct {
+		void __iomem *base;
+		struct clk *fck;
+		unsigned long fck_hz;
+		spinlock_t lock;
+		int bus_pick_count;
+		int bus_pick_width;
+		int tearsync_mode;
+		int tearsync_line;
+		void (*lcdc_callback)(void *data);
+		void *lcdc_callback_data;
+		int vsync_dma_pending;
+		int clk_div;
+		u8 clk_tw0[2];
+		u8 clk_tw1[2];
+		int last_access;
+		struct omapfb_device *fbdev;
+	} cocci_id/* drivers/video/fbdev/omap/sossi.c 45 */;
+	u32 *cocci_id/* drivers/video/fbdev/omap/sossi.c 349 */;
+	const struct extif_timings *cocci_id/* drivers/video/fbdev/omap/sossi.c 336 */;
+	unsigned long cocci_id/* drivers/video/fbdev/omap/sossi.c 304 */;
+	const u8 *cocci_id/* drivers/video/fbdev/omap/sossi.c 296 */;
+	const u16 *cocci_id/* drivers/video/fbdev/omap/sossi.c 291 */;
+	const u32 *cocci_id/* drivers/video/fbdev/omap/sossi.c 286 */;
+	const void *cocci_id/* drivers/video/fbdev/omap/sossi.c 283 */;
+	unsigned int cocci_id/* drivers/video/fbdev/omap/sossi.c 283 */;
+	unsigned cocci_id/* drivers/video/fbdev/omap/sossi.c 236 */;
+	u32 cocci_id/* drivers/video/fbdev/omap/sossi.c 228 */;
+	int cocci_id/* drivers/video/fbdev/omap/sossi.c 226 */;
+	void cocci_id/* drivers/video/fbdev/omap/sossi.c 226 */;
+	struct extif_timings *cocci_id/* drivers/video/fbdev/omap/sossi.c 118 */;
+}

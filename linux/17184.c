@@ -1,0 +1,111 @@
+cocci_test_suite() {
+	struct fsl_rmu *cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 952 */;
+	struct rio_mport *cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 949 */;
+	void *cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 949 */;
+	int cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 949 */;
+	struct rio_priv *cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 926 */;
+	void cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 924 */;
+	struct rio_tx_desc *cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 665 */;
+	u32 cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 664 */;
+	size_t cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 661 */;
+	struct rio_dev *cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 660 */;
+	unsigned long cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 627 */;
+	u16 cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 625 */;
+	u32 *cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 589 */;
+	unsigned char *cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 488 */;
+	union rio_pw_msg cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 482 */;
+	struct fsl_rio_pw cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 481 */;
+	struct fsl_rio_pw *cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 481 */;
+	struct work_struct *cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 479 */;
+	struct rio_dbell *cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 317 */;
+	struct rio_dbell_msg *cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 314 */;
+	struct fsl_rio_dbell *cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 296 */;
+	irqreturn_t cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 292 */;
+	struct rio_dbell_msg {
+		u16 pad1;
+		u16 tid;
+		u16 sid;
+		u16 info;
+	} cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 189 */;
+	struct fsl_rmu {
+		struct rio_msg_regs __iomem *msg_regs;
+		struct rio_msg_tx_ring msg_tx_ring;
+		struct rio_msg_rx_ring msg_rx_ring;
+		int txirq;
+		int rxirq;
+	} cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 181 */;
+	struct rio_msg_rx_ring {
+		void *virt;
+		dma_addr_t phys;
+		void *virt_buffer[RIO_MAX_RX_RING_SIZE];
+		int rx_slot;
+		int size;
+		void *dev_id;
+	} cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 172 */;
+	struct rio_msg_tx_ring {
+		void *virt;
+		dma_addr_t phys;
+		void *virt_buffer[RIO_MAX_TX_RING_SIZE];
+		dma_addr_t phys_buffer[RIO_MAX_TX_RING_SIZE];
+		int tx_slot;
+		int size;
+		void *dev_id;
+	} cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 162 */;
+	struct rio_tx_desc {
+		u32 pad1;
+		u32 saddr;
+		u32 dport;
+		u32 dattr;
+		u32 pad2;
+		u32 pad3;
+		u32 dwcnt;
+		u32 pad4;
+	} cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 151 */;
+	struct rio_pw_regs {
+		u32 pwmr;
+		u32 pwsr;
+		u32 epwqbar;
+		u32 pwqbar;
+	} cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 143 */;
+	struct rio_dbell_regs {
+		u32 odmr;
+		u32 odsr;
+		u32 pad1[4];
+		u32 oddpr;
+		u32 oddatr;
+		u32 pad2[3];
+		u32 odretcr;
+		u32 pad3[12];
+		u32 dmr;
+		u32 dsr;
+		u32 pad4;
+		u32 dqdpar;
+		u32 pad5;
+		u32 dqepar;
+	} cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 126 */;
+	struct rio_msg_regs *cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 1099 */;
+	struct fsl_rmu cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 1085 */;
+	const u32 *cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 1070 */;
+	u64 cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 1069 */;
+	struct device_node *cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 1065 */;
+	struct rio_msg_regs {
+		u32 omr;
+		u32 osr;
+		u32 pad1;
+		u32 odqdpar;
+		u32 pad2;
+		u32 osar;
+		u32 odpr;
+		u32 odatr;
+		u32 odcr;
+		u32 pad3;
+		u32 odqepar;
+		u32 pad4[13];
+		u32 imr;
+		u32 isr;
+		u32 pad5;
+		u32 ifqdpar;
+		u32 pad6;
+		u32 ifqepar;
+	} cocci_id/* arch/powerpc/sysdev/fsl_rmu.c 105 */;
+}

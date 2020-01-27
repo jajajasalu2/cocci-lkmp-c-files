@@ -1,0 +1,80 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 99 */;
+	struct tegra_xusb_padctl *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 99 */;
+	void cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 93 */;
+	const struct of_device_id *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 875 */;
+	struct platform_device *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 872 */;
+	int cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 869 */(struct platform_device *pdev);
+	const struct of_device_id cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 862 */[];
+	const struct tegra_xusb_padctl_soc cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 853 */;
+	const struct tegra_xusb_padctl_lane cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 838 */[];
+	const unsigned int cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 808 */[];
+	enum tegra124_function{TEGRA124_FUNC_SNPS, TEGRA124_FUNC_XUSB, TEGRA124_FUNC_UART, TEGRA124_FUNC_PCIE, TEGRA124_FUNC_USB3, TEGRA124_FUNC_SATA, TEGRA124_FUNC_RSVD,} cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 798 */;
+	struct tegra_xusb_padctl_function cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 788 */[];
+	struct tegra_xusb_padctl {
+		struct device *dev;
+		void __iomem *regs;
+		struct mutex lock;
+		struct reset_control *rst;
+		const struct tegra_xusb_padctl_soc *soc;
+		struct pinctrl_dev *pinctrl;
+		struct pinctrl_desc desc;
+		struct phy_provider *provider;
+		struct phy *phys[2];
+		unsigned int enable;
+	} cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 77 */;
+	const char *constcocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 751 */[];
+	const struct pinctrl_pin_desc cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 712 */[];
+	struct of_phandle_args *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 685 */;
+	struct device *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 684 */;
+	struct tegra_xusb_padctl_lane {
+		const char *name;
+		unsigned int offset;
+		unsigned int shift;
+		unsigned int mask;
+		unsigned int iddq;
+		const unsigned int *funcs;
+		unsigned int num_funcs;
+	} cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 65 */;
+	const struct phy_ops cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 602 */;
+	struct phy *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 590 */;
+	int cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 590 */;
+	struct tegra_xusb_padctl_soc {
+		const struct pinctrl_pin_desc *pins;
+		unsigned int num_pins;
+		const struct tegra_xusb_padctl_function *functions;
+		unsigned int num_functions;
+		const struct tegra_xusb_padctl_lane *lanes;
+		unsigned int num_lanes;
+	} cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 54 */;
+	struct tegra_xusb_padctl_function {
+		const char *name;
+		const char *const*groups;
+		unsigned int num_groups;
+	} cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 48 */;
+	const struct pinconf_ops cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 468 */;
+	enum tegra_xusb_padctl_param cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 449 */;
+	struct seq_file *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 446 */;
+	const char *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 410 */;
+	const struct tegra_xusb_padctl_lane *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 332 */;
+	unsigned long *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 329 */;
+	const struct pinmux_ops cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 320 */;
+	unsigned *constcocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 284 */;
+	const char *const**cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 283 */;
+	const struct pinctrl_ops cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 257 */;
+	unsigned int cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 237 */;
+	unsigned int *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 234 */;
+	struct pinctrl_map **cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 233 */;
+	struct device_node *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 232 */;
+	struct pinctrl_dev *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 231 */;
+	struct property *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 159 */;
+	const struct tegra_xusb_padctl_property {
+		const char *name;
+		enum tegra_xusb_padctl_param param;
+	} cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 139 */[];
+	enum tegra_xusb_padctl_param{TEGRA_XUSB_PADCTL_IDDQ,} cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 135 */;
+	unsigned *cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 123 */;
+	const unsigned **cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 122 */;
+	unsigned cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 121 */;
+	unsigned long cocci_id/* drivers/pinctrl/tegra/pinctrl-tegra-xusb.c 100 */;
+}

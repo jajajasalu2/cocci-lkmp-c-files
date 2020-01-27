@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	const char *cocci_id/* drivers/media/mc/mc-entity.c 94 */;
+	struct media_gobj *cocci_id/* drivers/media/mc/mc-entity.c 94 */;
+	const struct media_pad *cocci_id/* drivers/media/mc/mc-entity.c 900 */;
+	struct media_device *cocci_id/* drivers/media/mc/mc-entity.c 828 */;
+	const u32 cocci_id/* drivers/media/mc/mc-entity.c 827 */;
+	u32 cocci_id/* drivers/media/mc/mc-entity.c 825 */;
+	const bool cocci_id/* drivers/media/mc/mc-entity.c 718 */;
+	const u16 cocci_id/* drivers/media/mc/mc-entity.c 713 */;
+	const struct media_device *cocci_id/* drivers/media/mc/mc-entity.c 710 */;
+	long cocci_id/* drivers/media/mc/mc-entity.c 67 */;
+	u16 cocci_id/* drivers/media/mc/mc-entity.c 659 */;
+	enum media_pad_signal_type cocci_id/* drivers/media/mc/mc-entity.c 633 */;
+	bool cocci_id/* drivers/media/mc/mc-entity.c 632 */;
+	struct media_entity_enum *cocci_id/* drivers/media/mc/mc-entity.c 63 */;
+	int cocci_id/* drivers/media/mc/mc-entity.c 63 */;
+	struct media_link *cocci_id/* drivers/media/mc/mc-entity.c 602 */;
+	struct media_entity *cocci_id/* drivers/media/mc/mc-entity.c 601 */;
+	void cocci_id/* drivers/media/mc/mc-entity.c 601 */;
+	struct list_head *cocci_id/* drivers/media/mc/mc-entity.c 588 */;
+	unsigned cocci_id/* drivers/media/mc/mc-entity.c 493 */;
+	struct media_pad *cocci_id/* drivers/media/mc/mc-entity.c 451 */;
+	struct media_graph *cocci_id/* drivers/media/mc/mc-entity.c 411 */;
+	struct media_pipeline *cocci_id/* drivers/media/mc/mc-entity.c 408 */;
+	unsigned int cocci_id/* drivers/media/mc/mc-entity.c 373 */;
+	struct fwnode_endpoint cocci_id/* drivers/media/mc/mc-entity.c 372 */;
+	unsigned long cocci_id/* drivers/media/mc/mc-entity.c 370 */;
+	struct fwnode_handle *cocci_id/* drivers/media/mc/mc-entity.c 369 */;
+	typeof(*link) cocci_id/* drivers/media/mc/mc-entity.c 314 */;
+	enum media_gobj_type cocci_id/* drivers/media/mc/mc-entity.c 17 */;
+	struct media_intf_devnode *cocci_id/* drivers/media/mc/mc-entity.c 132 */;
+	struct media_interface *cocci_id/* drivers/media/mc/mc-entity.c 1006 */;
+}

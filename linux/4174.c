@@ -1,0 +1,55 @@
+cocci_test_suite() {
+	struct rcar_gen3_phy {
+		struct phy *phy;
+		struct rcar_gen3_chan *ch;
+		u32 int_enable_bits;
+		bool initialized;
+		bool otg_initialized;
+		bool powered;
+	} cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 96 */;
+	const u32 cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 89 */[NUM_OF_PHYS];
+	enum rcar_gen3_phy_index{PHY_INDEX_BOTH_HC, PHY_INDEX_OHCI, PHY_INDEX_EHCI, PHY_INDEX_HSUSB,} cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 82 */;
+	struct platform_driver cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 714 */;
+	const struct phy_ops *cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 600 */;
+	struct resource *cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 599 */;
+	struct phy_provider *cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 598 */;
+	struct device *cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 596 */;
+	struct platform_device *cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 594 */;
+	enum usb_dr_mode cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 570 */;
+	struct device_node *cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 570 */;
+	struct of_phandle_args *cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 555 */;
+	const unsigned int cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 548 */[];
+	const struct of_device_id cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 523 */[];
+	irqreturn_t cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 506 */;
+	void *cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 506 */;
+	const struct phy_ops cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 492 */;
+	struct rcar_gen3_phy *cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 420 */;
+	struct phy *cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 418 */;
+	char *cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 355 */;
+	struct device_attribute *cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 354 */;
+	ssize_t cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 354 */;
+	const char *cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 315 */;
+	size_t cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 315 */;
+	int cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 304 */;
+	bool cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 302 */;
+	struct rcar_gen3_chan *cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 302 */;
+	enum phy_mode cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 270 */;
+	u32 cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 187 */;
+	void __iomem *cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 186 */;
+	void cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 184 */;
+	struct rcar_gen3_chan cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 132 */;
+	struct work_struct *cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 130 */;
+	struct rcar_gen3_chan {
+		void __iomem *base;
+		struct device *dev;
+		struct extcon_dev *extcon;
+		struct rcar_gen3_phy rphys[NUM_OF_PHYS];
+		struct regulator *vbus;
+		struct work_struct work;
+		struct mutex lock;
+		enum usb_dr_mode dr_mode;
+		bool extcon_host;
+		bool is_otg_channel;
+		bool uses_otg_pins;
+	} cocci_id/* drivers/phy/renesas/phy-rcar-gen3-usb2.c 105 */;
+}

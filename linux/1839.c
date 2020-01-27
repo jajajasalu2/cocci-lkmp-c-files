@@ -1,0 +1,90 @@
+cocci_test_suite() {
+	struct max1363_mode {
+		int8_t conf;
+	DECLARE_BITMAP(modemask,MAX1363_MAX_CHANNELS)
+		;
+	} cocci_id/* drivers/iio/adc/max1363.c 99 */;
+	u16 cocci_id/* drivers/iio/adc/max1363.c 962 */;
+	int cocci_id/* drivers/iio/adc/max1363.c 936 */;
+	const long *cocci_id/* drivers/iio/adc/max1363.c 829 */;
+	u8 *cocci_id/* drivers/iio/adc/max1363.c 825 */;
+	enum iio_event_direction cocci_id/* drivers/iio/adc/max1363.c 807 */;
+	enum iio_event_type cocci_id/* drivers/iio/adc/max1363.c 806 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/adc/max1363.c 806 */;
+	u8 cocci_id/* drivers/iio/adc/max1363.c 793 */[2];
+	u8 cocci_id/* drivers/iio/adc/max1363.c 792 */;
+	unsigned long cocci_id/* drivers/iio/adc/max1363.c 791 */;
+	s64 cocci_id/* drivers/iio/adc/max1363.c 790 */;
+	irqreturn_t cocci_id/* drivers/iio/adc/max1363.c 786 */;
+	void *cocci_id/* drivers/iio/adc/max1363.c 786 */;
+	const u64 cocci_id/* drivers/iio/adc/max1363.c 767 */[];
+	enum iio_event_info cocci_id/* drivers/iio/adc/max1363.c 724 */;
+	bool cocci_id/* drivers/iio/adc/max1363.c 695 */;
+	size_t cocci_id/* drivers/iio/adc/max1363.c 689 */;
+	const char *cocci_id/* drivers/iio/adc/max1363.c 688 */;
+	char *cocci_id/* drivers/iio/adc/max1363.c 680 */;
+	struct device_attribute *cocci_id/* drivers/iio/adc/max1363.c 679 */;
+	struct device *cocci_id/* drivers/iio/adc/max1363.c 678 */;
+	ssize_t cocci_id/* drivers/iio/adc/max1363.c 678 */;
+	const int cocci_id/* drivers/iio/adc/max1363.c 675 */[];
+	enum{max1361, max1362, max1363, max1364, max1036, max1037, max1038, max1039, max1136, max1137, max1138, max1139, max1236, max1237, max1238, max1239, max11600, max11601, max11602, max11603, max11604, max11605, max11606, max11607, max11608, max11609, max11610, max11611, max11612, max11613, max11614, max11615, max11616, max11617, max11644, max11645, max11646, max11647,} cocci_id/* drivers/iio/adc/max1363.c 635 */;
+	const enum max1363_modes cocci_id/* drivers/iio/adc/max1363.c 579 */[];
+	const struct iio_chan_spec cocci_id/* drivers/iio/adc/max1363.c 515 */[];
+	const struct iio_event_spec cocci_id/* drivers/iio/adc/max1363.c 446 */[];
+	int *cocci_id/* drivers/iio/adc/max1363.c 415 */;
+	s32 cocci_id/* drivers/iio/adc/max1363.c 362 */;
+	const struct i2c_client *cocci_id/* drivers/iio/adc/max1363.c 324 */;
+	const struct max1363_chip_info *cocci_id/* drivers/iio/adc/max1363.c 300 */;
+	const unsigned long *cocci_id/* drivers/iio/adc/max1363.c 299 */;
+	const struct max1363_mode *cocci_id/* drivers/iio/adc/max1363.c 298 */;
+	const struct max1363_mode cocci_id/* drivers/iio/adc/max1363.c 235 */[];
+	struct i2c_driver cocci_id/* drivers/iio/adc/max1363.c 1746 */;
+	const struct i2c_device_id cocci_id/* drivers/iio/adc/max1363.c 1702 */[];
+	struct max1363_state {
+		struct i2c_client *client;
+		u8 setupbyte;
+		u8 configbyte;
+		const struct max1363_chip_info *chip_info;
+		const struct max1363_mode *current_mode;
+		u32 requestedmask;
+		struct regulator *reg;
+		bool monitor_on;
+		unsigned int monitor_speed:3;
+		u8 mask_high;
+		u8 mask_low;
+		s16 thresh_high[8];
+		s16 thresh_low[8];
+		struct regulator *vref;
+		u32 vref_uv;
+		int (*send)(const struct i2c_client *client, const char *buf,
+			    int count);
+		int (*recv)(const struct i2c_client *client, char *buf,
+			    int count);
+	} cocci_id/* drivers/iio/adc/max1363.c 164 */;
+	struct max1363_state cocci_id/* drivers/iio/adc/max1363.c 1579 */;
+	struct regulator *cocci_id/* drivers/iio/adc/max1363.c 1576 */;
+	const struct i2c_device_id *cocci_id/* drivers/iio/adc/max1363.c 1571 */;
+	struct i2c_client *cocci_id/* drivers/iio/adc/max1363.c 1570 */;
+	const struct of_device_id cocci_id/* drivers/iio/adc/max1363.c 1526 */[];
+	__u8 *cocci_id/* drivers/iio/adc/max1363.c 1475 */;
+	struct iio_poll_func *cocci_id/* drivers/iio/adc/max1363.c 1472 */;
+	long cocci_id/* drivers/iio/adc/max1363.c 1454 */;
+	unsigned long *cocci_id/* drivers/iio/adc/max1363.c 1449 */;
+	struct max1363_state *cocci_id/* drivers/iio/adc/max1363.c 1448 */;
+	struct iio_dev *cocci_id/* drivers/iio/adc/max1363.c 1446 */;
+	struct max1363_chip_info {
+		const struct iio_info *info;
+		const struct iio_chan_spec *channels;
+		int num_channels;
+		const enum max1363_modes *mode_list;
+		enum max1363_modes default_mode;
+		u16 int_vref_mv;
+		u8 num_modes;
+		u8 bits;
+	} cocci_id/* drivers/iio/adc/max1363.c 133 */;
+	enum max1363_modes{_s0, _s1, _s2, _s3, _s4, _s5, _s6, _s7, _s8, _s9, _s10, _s11, d0m1, d2m3, d4m5, d6m7, d8m9, d10m11, d1m0, d3m2, d5m4, d7m6, d9m8, d11m10, s0to1, s0to2, s2to3, s0to3, s0to4, s0to5, s0to6, s6to7, s0to7, s6to8, s0to8, s6to9, s0to9, s6to10, s0to10, s6to11, s0to11, d0m1to2m3, d0m1to4m5, d0m1to6m7, d6m7to8m9, d0m1to8m9, d6m7to10m11, d0m1to10m11, d1m0to3m2, d1m0to5m4, d1m0to7m6, d7m6to9m8, d1m0to9m8, d7m6to11m10, d1m0to11m10,} cocci_id/* drivers/iio/adc/max1363.c 105 */;
+	const struct max1363_chip_info cocci_id/* drivers/iio/adc/max1363.c 1043 */[];
+	const struct iio_info cocci_id/* drivers/iio/adc/max1363.c 1027 */;
+	const struct attribute_group cocci_id/* drivers/iio/adc/max1363.c 1007 */;
+	struct attribute *cocci_id/* drivers/iio/adc/max1363.c 1001 */[];
+}

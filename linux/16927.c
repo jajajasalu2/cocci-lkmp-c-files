@@ -1,0 +1,70 @@
+cocci_test_suite() {
+	struct iqs5xx_private {
+		struct i2c_client *client;
+		struct input_dev *input;
+		struct gpio_desc *reset_gpio;
+		struct mutex lock;
+		u8 bl_status;
+	} cocci_id/* drivers/input/touchscreen/iqs5xx.c 98 */;
+	int cocci_id/* drivers/input/touchscreen/iqs5xx.c 963 */;
+	char cocci_id/* drivers/input/touchscreen/iqs5xx.c 962 */[IQS5XX_FW_FILE_LEN + 1];
+	bool cocci_id/* drivers/input/touchscreen/iqs5xx.c 961 */;
+	struct i2c_client *cocci_id/* drivers/input/touchscreen/iqs5xx.c 959 */;
+	struct iqs5xx_private *cocci_id/* drivers/input/touchscreen/iqs5xx.c 958 */;
+	const char *cocci_id/* drivers/input/touchscreen/iqs5xx.c 956 */;
+	size_t cocci_id/* drivers/input/touchscreen/iqs5xx.c 956 */;
+	struct device_attribute *cocci_id/* drivers/input/touchscreen/iqs5xx.c 955 */;
+	struct device *cocci_id/* drivers/input/touchscreen/iqs5xx.c 955 */;
+	ssize_t cocci_id/* drivers/input/touchscreen/iqs5xx.c 955 */;
+	u8 cocci_id/* drivers/input/touchscreen/iqs5xx.c 765 */[IQS5XX_REC_LEN_MAX];
+	u8 cocci_id/* drivers/input/touchscreen/iqs5xx.c 764 */[IQS5XX_REC_HDR_LEN];
+	struct iqs5xx_ihex_rec *cocci_id/* drivers/input/touchscreen/iqs5xx.c 758 */;
+	const struct firmware *cocci_id/* drivers/input/touchscreen/iqs5xx.c 757 */;
+	struct iqs5xx_touch_data cocci_id/* drivers/input/touchscreen/iqs5xx.c 705 */[IQS5XX_NUM_CONTACTS];
+	irqreturn_t cocci_id/* drivers/input/touchscreen/iqs5xx.c 702 */;
+	void *cocci_id/* drivers/input/touchscreen/iqs5xx.c 702 */;
+	u8 cocci_id/* drivers/input/touchscreen/iqs5xx.c 607 */[sizeof(*dev_id_info) + 1];
+	struct iqs5xx_dev_id_info *cocci_id/* drivers/input/touchscreen/iqs5xx.c 604 */;
+	u8 cocci_id/* drivers/input/touchscreen/iqs5xx.c 489 */;
+	u16 cocci_id/* drivers/input/touchscreen/iqs5xx.c 487 */;
+	struct input_dev *cocci_id/* drivers/input/touchscreen/iqs5xx.c 485 */;
+	struct touchscreen_properties cocci_id/* drivers/input/touchscreen/iqs5xx.c 484 */;
+	void cocci_id/* drivers/input/touchscreen/iqs5xx.c 474 */;
+	u8 cocci_id/* drivers/input/touchscreen/iqs5xx.c 397 */[IQS5XX_BL_BLK_LEN_MAX];
+	u8 *cocci_id/* drivers/input/touchscreen/iqs5xx.c 393 */;
+	u8 cocci_id/* drivers/input/touchscreen/iqs5xx.c 358 */[sizeof(bl_addr) + IQS5XX_BL_BLK_LEN_MAX];
+	u8 cocci_id/* drivers/input/touchscreen/iqs5xx.c 251 */[sizeof(bl_cmd) + sizeof(bl_addr)];
+	struct i2c_msg cocci_id/* drivers/input/touchscreen/iqs5xx.c 249 */;
+	u8 cocci_id/* drivers/input/touchscreen/iqs5xx.c 195 */[sizeof(reg) + IQS5XX_WR_BYTES_MAX];
+	const void *cocci_id/* drivers/input/touchscreen/iqs5xx.c 191 */;
+	u16 *cocci_id/* drivers/input/touchscreen/iqs5xx.c 171 */;
+	struct i2c_msg cocci_id/* drivers/input/touchscreen/iqs5xx.c 134 */[];
+	__be16 cocci_id/* drivers/input/touchscreen/iqs5xx.c 132 */;
+	struct iqs5xx_touch_data {
+		__be16 abs_x;
+		__be16 abs_y;
+		__be16 strength;
+		u8 area;
+	}__packed cocci_id/* drivers/input/touchscreen/iqs5xx.c 122 */;
+	struct iqs5xx_ihex_rec {
+		char start;
+		char len[2];
+		char addr[4];
+		char type[2];
+		char data[2];
+	}__packed cocci_id/* drivers/input/touchscreen/iqs5xx.c 114 */;
+	struct i2c_driver cocci_id/* drivers/input/touchscreen/iqs5xx.c 1120 */;
+	const struct of_device_id cocci_id/* drivers/input/touchscreen/iqs5xx.c 1112 */[];
+	const struct i2c_device_id cocci_id/* drivers/input/touchscreen/iqs5xx.c 1104 */[];
+	struct iqs5xx_dev_id_info {
+		__be16 prod_num;
+		__be16 proj_num;
+		u8 major_ver;
+		u8 minor_ver;
+		u8 bl_status;
+	}__packed cocci_id/* drivers/input/touchscreen/iqs5xx.c 106 */;
+	const struct i2c_device_id *cocci_id/* drivers/input/touchscreen/iqs5xx.c 1050 */;
+	int __maybe_unused cocci_id/* drivers/input/touchscreen/iqs5xx.c 1028 */;
+	const struct attribute_group cocci_id/* drivers/input/touchscreen/iqs5xx.c 1005 */;
+	struct attribute *cocci_id/* drivers/input/touchscreen/iqs5xx.c 1000 */[];
+}

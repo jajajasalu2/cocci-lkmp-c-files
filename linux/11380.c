@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	struct dw_hdmi_channel_conf {
+		u8 conf1;
+		u8 ca;
+	} cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 78 */;
+	struct platform_driver cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 622 */;
+	struct snd_dw_hdmi cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 537 */;
+	struct snd_pcm *cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 523 */;
+	struct snd_card *cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 522 */;
+	struct device *cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 520 */;
+	const struct dw_hdmi_audio_data *cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 519 */;
+	struct platform_device *cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 517 */;
+	const struct snd_pcm_ops cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 505 */;
+	snd_pcm_uframes_t cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 493 */;
+	unsigned long cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 463 */;
+	u8 cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 402 */;
+	struct snd_pcm_hw_params *cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 391 */;
+	struct snd_dw_hdmi *cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 374 */;
+	struct snd_pcm_substream *cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 372 */;
+	int cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 372 */;
+	void __iomem *cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 322 */;
+	struct snd_pcm_hardware cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 294 */;
+	irqreturn_t cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 269 */;
+	void *cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 269 */;
+	enum{HDMI_AHB_DMA_CONF0_SW_FIFO_RST=BIT(7), HDMI_AHB_DMA_CONF0_EN_HLOCK=BIT(3), HDMI_AHB_DMA_START_START=BIT(0), HDMI_AHB_DMA_STOP_STOP=BIT(0), HDMI_IH_MUTE_AHBDMAAUD_STAT0_ERROR=BIT(5), HDMI_IH_MUTE_AHBDMAAUD_STAT0_LOST=BIT(4), HDMI_IH_MUTE_AHBDMAAUD_STAT0_RETRY=BIT(3), HDMI_IH_MUTE_AHBDMAAUD_STAT0_DONE=BIT(2), HDMI_IH_MUTE_AHBDMAAUD_STAT0_BUFFFULL=BIT(1), HDMI_IH_MUTE_AHBDMAAUD_STAT0_BUFFEMPTY=BIT(0), HDMI_IH_MUTE_AHBDMAAUD_STAT0_ALL=HDMI_IH_MUTE_AHBDMAAUD_STAT0_ERROR | HDMI_IH_MUTE_AHBDMAAUD_STAT0_LOST | HDMI_IH_MUTE_AHBDMAAUD_STAT0_RETRY | HDMI_IH_MUTE_AHBDMAAUD_STAT0_DONE | HDMI_IH_MUTE_AHBDMAAUD_STAT0_BUFFFULL | HDMI_IH_MUTE_AHBDMAAUD_STAT0_BUFFEMPTY, HDMI_IH_AHBDMAAUD_STAT0_ERROR=BIT(5), HDMI_IH_AHBDMAAUD_STAT0_LOST=BIT(4), HDMI_IH_AHBDMAAUD_STAT0_RETRY=BIT(3), HDMI_IH_AHBDMAAUD_STAT0_DONE=BIT(2), HDMI_IH_AHBDMAAUD_STAT0_BUFFFULL=BIT(1), HDMI_IH_AHBDMAAUD_STAT0_BUFFEMPTY=BIT(0), HDMI_IH_AHBDMAAUD_STAT0_ALL=HDMI_IH_AHBDMAAUD_STAT0_ERROR | HDMI_IH_AHBDMAAUD_STAT0_LOST | HDMI_IH_AHBDMAAUD_STAT0_RETRY | HDMI_IH_AHBDMAAUD_STAT0_DONE | HDMI_IH_AHBDMAAUD_STAT0_BUFFFULL | HDMI_IH_AHBDMAAUD_STAT0_BUFFEMPTY, HDMI_AHB_DMA_CONF0_INCR16=2 << 1, HDMI_AHB_DMA_CONF0_INCR8=1 << 1, HDMI_AHB_DMA_CONF0_INCR4=0, HDMI_AHB_DMA_CONF0_BURST_MODE=BIT(0), HDMI_AHB_DMA_MASK_DONE=BIT(7), HDMI_REVISION_ID=0x0001, HDMI_IH_AHBDMAAUD_STAT0=0x0109, HDMI_IH_MUTE_AHBDMAAUD_STAT0=0x0189, HDMI_AHB_DMA_CONF0=0x3600, HDMI_AHB_DMA_START=0x3601, HDMI_AHB_DMA_STOP=0x3602, HDMI_AHB_DMA_THRSLD=0x3603, HDMI_AHB_DMA_STRADDR0=0x3604, HDMI_AHB_DMA_STPADDR0=0x3608, HDMI_AHB_DMA_MASK=0x3614, HDMI_AHB_DMA_POL=0x3615, HDMI_AHB_DMA_CONF1=0x3616, HDMI_AHB_DMA_BUFFPOL=0x361a,} cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 26 */;
+	unsigned cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 213 */;
+	u8 cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 212 */[4];
+	struct snd_pcm_runtime *cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 210 */;
+	void cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 209 */;
+	u8 *cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 190 */;
+	u32 cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 161 */;
+	u32 *cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 156 */;
+	size_t cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 154 */;
+	struct snd_dw_hdmi {
+		struct snd_card *card;
+		struct snd_pcm *pcm;
+		spinlock_t lock;
+		struct dw_hdmi_audio_data data;
+		struct snd_pcm_substream *substream;
+		void (*reformat)(struct snd_dw_hdmi *, size_t, size_t);
+		void *buf_src;
+		void *buf_dst;
+		dma_addr_t buf_addr;
+		unsigned buf_offset;
+		unsigned buf_period;
+		unsigned buf_size;
+		unsigned channels;
+		u8 revision;
+		u8 iec_offset;
+		u8 cs[192][8];
+	} cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 116 */;
+	struct dw_hdmi_channel_conf cocci_id/* drivers/gpu/drm/bridge/synopsys/dw-hdmi-ahb-audio.c 106 */[7];
+}

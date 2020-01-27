@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct numa_meminfo *cocci_id/* arch/x86/mm/numa.c 887 */;
+	unsigned cocci_id/* arch/x86/mm/numa.c 864 */;
+	const struct cpumask *cocci_id/* arch/x86/mm/numa.c 862 */;
+	int *cocci_id/* arch/x86/mm/numa.c 82 */;
+	struct cpumask *cocci_id/* arch/x86/mm/numa.c 818 */;
+	bool cocci_id/* arch/x86/mm/numa.c 816 */;
+	void cocci_id/* arch/x86/mm/numa.c 816 */;
+	int cocci_id/* arch/x86/mm/numa.c 786 */;
+	u16 *cocci_id/* arch/x86/mm/numa.c 753 */;
+	unsigned long cocci_id/* arch/x86/mm/numa.c 723 */[MAX_NR_ZONES];
+	cpumask_var_t cocci_id/* arch/x86/mm/numa.c 71 */[MAX_NUMNODES];
+	int __init cocci_id/* arch/x86/mm/numa.c 685 */;
+	int (*cocci_id/* arch/x86/mm/numa.c 619 */)(void);
+	s16 cocci_id/* arch/x86/mm/numa.c 58 */[MAX_LOCAL_APIC];
+	unsigned long cocci_id/* arch/x86/mm/numa.c 529 */;
+	struct memblock_region *cocci_id/* arch/x86/mm/numa.c 470 */;
+	s64 cocci_id/* arch/x86/mm/numa.c 447 */;
+	bool __init cocci_id/* arch/x86/mm/numa.c 436 */;
+	const struct numa_meminfo *cocci_id/* arch/x86/mm/numa.c 436 */;
+	u8 cocci_id/* arch/x86/mm/numa.c 414 */;
+	char *cocci_id/* arch/x86/mm/numa.c 37 */;
+	u8 *cocci_id/* arch/x86/mm/numa.c 35 */;
+	size_t cocci_id/* arch/x86/mm/numa.c 347 */;
+	nodemask_t cocci_id/* arch/x86/mm/numa.c 346 */;
+	nodemask_t *cocci_id/* arch/x86/mm/numa.c 316 */;
+	struct numa_meminfo cocci_id/* arch/x86/mm/numa.c 28 */;
+	struct pglist_data *cocci_id/* arch/x86/mm/numa.c 25 */[MAX_NUMNODES]__read_mostly;
+	struct numa_memblk *cocci_id/* arch/x86/mm/numa.c 238 */;
+	const u64 cocci_id/* arch/x86/mm/numa.c 232 */;
+	void *cocci_id/* arch/x86/mm/numa.c 192 */;
+	u64 cocci_id/* arch/x86/mm/numa.c 191 */;
+	const size_t cocci_id/* arch/x86/mm/numa.c 190 */;
+	void __init cocci_id/* arch/x86/mm/numa.c 188 */;
+	unsigned int cocci_id/* arch/x86/mm/numa.c 116 */;
+}

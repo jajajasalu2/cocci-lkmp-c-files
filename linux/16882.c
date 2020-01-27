@@ -1,0 +1,58 @@
+cocci_test_suite() {
+	struct usb_driver cocci_id/* drivers/input/mouse/appletouch.c 997 */;
+	pm_message_t cocci_id/* drivers/input/mouse/appletouch.c 972 */;
+	struct usb_interface *cocci_id/* drivers/input/mouse/appletouch.c 942 */;
+	struct atp cocci_id/* drivers/input/mouse/appletouch.c 858 */;
+	const struct atp_info *cocci_id/* drivers/input/mouse/appletouch.c 839 */;
+	struct usb_endpoint_descriptor *cocci_id/* drivers/input/mouse/appletouch.c 836 */;
+	struct usb_host_interface *cocci_id/* drivers/input/mouse/appletouch.c 835 */;
+	const struct usb_device_id *cocci_id/* drivers/input/mouse/appletouch.c 830 */;
+	struct input_dev *cocci_id/* drivers/input/mouse/appletouch.c 807 */;
+	void cocci_id/* drivers/input/mouse/appletouch.c 807 */;
+	signed char cocci_id/* drivers/input/mouse/appletouch.c 584 */;
+	struct urb *cocci_id/* drivers/input/mouse/appletouch.c 515 */;
+	const struct atp_info cocci_id/* drivers/input/mouse/appletouch.c 43 */;
+	void cocci_id/* drivers/input/mouse/appletouch.c 40 */(struct urb *urb);
+	int *cocci_id/* drivers/input/mouse/appletouch.c 334 */;
+	struct atp *cocci_id/* drivers/input/mouse/appletouch.c 333 */;
+	int cocci_id/* drivers/input/mouse/appletouch.c 333 */;
+	struct work_struct *cocci_id/* drivers/input/mouse/appletouch.c 318 */;
+	struct atp_info {
+		int xsensors;
+		int xsensors_17;
+		int ysensors;
+		int xfact;
+		int yfact;
+		int datalen;
+		void (*callback)(struct urb *);
+		int fuzz;
+	} cocci_id/* drivers/input/mouse/appletouch.c 29 */;
+	char *cocci_id/* drivers/input/mouse/appletouch.c 263 */;
+	struct usb_device *cocci_id/* drivers/input/mouse/appletouch.c 262 */;
+	struct atp {
+		char phys[64];
+		struct usb_device *udev;
+		struct usb_interface *intf;
+		struct urb *urb;
+		u8 *data;
+		struct input_dev *input;
+		const struct atp_info *info;
+		bool open;
+		bool valid;
+		bool size_detect_done;
+		bool overflow_warned;
+		int fingers_old;
+		int x_old;
+		int y_old;
+		signed char xy_cur[ATP_XSENSORS + ATP_YSENSORS];
+		signed char xy_old[ATP_XSENSORS + ATP_YSENSORS];
+		int xy_acc[ATP_XSENSORS + ATP_YSENSORS];
+		int smooth[ATP_SMOOTHSIZE];
+		int smooth_tmp[ATP_SMOOTHSIZE];
+		int idlecount;
+		struct work_struct work;
+	} cocci_id/* drivers/input/mouse/appletouch.c 195 */;
+	enum atp_status_bits{ATP_STATUS_BUTTON=BIT(0), ATP_STATUS_BASE_UPDATE=BIT(2), ATP_STATUS_FROM_RESET=BIT(4),} cocci_id/* drivers/input/mouse/appletouch.c 188 */;
+	const struct usb_device_id cocci_id/* drivers/input/mouse/appletouch.c 114 */[];
+	unsigned long cocci_id/* drivers/input/mouse/appletouch.c 105 */;
+}

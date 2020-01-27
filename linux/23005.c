@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 546 */;
+	const struct of_device_id cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 540 */[];
+	struct device_node *cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 524 */;
+	struct platform_device *cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 522 */;
+	const struct snd_soc_component_driver cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 507 */;
+	struct snd_pcm *cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 492 */;
+	struct snd_card *cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 454 */;
+	struct vm_area_struct *cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 440 */;
+	enum dma_status cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 392 */;
+	struct dma_tx_state cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 391 */;
+	int cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 388 */[SPRD_PCM_CHANNEL_MAX];
+	snd_pcm_uframes_t cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 383 */;
+	const struct snd_pcm_hardware cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 37 */;
+	struct sprd_pcm_dma_private {
+		struct snd_pcm_substream *substream;
+		struct sprd_pcm_dma_params *params;
+		struct sprd_pcm_dma_data data[SPRD_PCM_CHANNEL_MAX];
+		int hw_chan;
+		int dma_addr_offset;
+	} cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 29 */;
+	u32 cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 257 */;
+	enum dma_transfer_direction cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 237 */;
+	struct sprd_dma_linklist cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 236 */;
+	struct dma_slave_config cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 235 */;
+	struct dma_chan *cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 234 */;
+	unsigned long cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 200 */;
+	struct sprd_pcm_dma_data {
+		struct dma_chan *chan;
+		struct dma_async_tx_descriptor *desc;
+		dma_cookie_t cookie;
+		dma_addr_t phys;
+		void *virt;
+		int pre_pointer;
+	} cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 20 */;
+	struct scatterlist *cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 199 */;
+	size_t cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 195 */;
+	struct sprd_pcm_dma_params *cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 194 */;
+	struct snd_soc_pcm_runtime *cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 193 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 189 */;
+	void *cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 132 */;
+	void cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 132 */;
+	struct sprd_pcm_dma_data *cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 122 */;
+	struct device *cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 117 */;
+	struct sprd_pcm_dma_private *cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 116 */;
+	struct snd_pcm_runtime *cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 115 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 113 */;
+	struct snd_soc_component *cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 112 */;
+	int cocci_id/* sound/soc/sprd/sprd-pcm-dma.c 112 */;
+}

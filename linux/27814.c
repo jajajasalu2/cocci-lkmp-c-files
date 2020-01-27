@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	void (*cocci_id/* fs/ocfs2/quota_local.c 95 */)(struct buffer_head *,
+							void *);
+	void *cocci_id/* fs/ocfs2/quota_local.c 95 */;
+	loff_t cocci_id/* fs/ocfs2/quota_local.c 77 */;
+	struct ocfs2_mem_dqinfo cocci_id/* fs/ocfs2/quota_local.c 696 */;
+	struct ocfs2_local_disk_dqblk cocci_id/* fs/ocfs2/quota_local.c 67 */;
+	unsigned cocci_id/* fs/ocfs2/quota_local.c 506 */;
+	unsigned long cocci_id/* fs/ocfs2/quota_local.c 474 */;
+	qsize_t cocci_id/* fs/ocfs2/quota_local.c 472 */;
+	struct ocfs2_local_disk_dqblk *cocci_id/* fs/ocfs2/quota_local.c 465 */;
+	struct buffer_head *cocci_id/* fs/ocfs2/quota_local.c 396 */;
+	struct inode *cocci_id/* fs/ocfs2/quota_local.c 395 */;
+	struct ocfs2_local_disk_dqinfo *cocci_id/* fs/ocfs2/quota_local.c 394 */;
+	unsigned int cocci_id/* fs/ocfs2/quota_local.c 388 */[OCFS2_MAXQUOTAS];
+	struct ocfs2_super *cocci_id/* fs/ocfs2/quota_local.c 385 */;
+	struct ocfs2_quota_recovery cocci_id/* fs/ocfs2/quota_local.c 375 */;
+	struct ocfs2_quota_recovery *cocci_id/* fs/ocfs2/quota_local.c 370 */;
+	struct ocfs2_recovery_chunk *cocci_id/* fs/ocfs2/quota_local.c 318 */;
+	struct list_head *cocci_id/* fs/ocfs2/quota_local.c 316 */;
+	void cocci_id/* fs/ocfs2/quota_local.c 316 */;
+	struct ocfs2_recovery_chunk cocci_id/* fs/ocfs2/quota_local.c 301 */;
+	struct ocfs2_local_disk_chunk *cocci_id/* fs/ocfs2/quota_local.c 295 */;
+	struct super_block *cocci_id/* fs/ocfs2/quota_local.c 294 */;
+	int cocci_id/* fs/ocfs2/quota_local.c 294 */;
+	struct ocfs2_disk_dqheader *cocci_id/* fs/ocfs2/quota_local.c 171 */;
+	unsigned long long cocci_id/* fs/ocfs2/quota_local.c 143 */;
+	struct buffer_head **cocci_id/* fs/ocfs2/quota_local.c 135 */;
+	struct quota_format_type cocci_id/* fs/ocfs2/quota_local.c 1308 */;
+	const struct quota_format_ops cocci_id/* fs/ocfs2/quota_local.c 1301 */;
+	u64 cocci_id/* fs/ocfs2/quota_local.c 1225 */;
+	struct ocfs2_dquot *cocci_id/* fs/ocfs2/quota_local.c 1222 */;
+	struct ocfs2_quota_chunk *cocci_id/* fs/ocfs2/quota_local.c 1221 */;
+	struct dquot *cocci_id/* fs/ocfs2/quota_local.c 1216 */;
+	struct ocfs2_quota_chunk cocci_id/* fs/ocfs2/quota_local.c 1112 */;
+	handle_t *cocci_id/* fs/ocfs2/quota_local.c 1106 */;
+	unsigned int cocci_id/* fs/ocfs2/quota_local.c 1102 */;
+	struct ocfs2_mem_dqinfo *cocci_id/* fs/ocfs2/quota_local.c 1097 */;
+	struct mem_dqinfo *cocci_id/* fs/ocfs2/quota_local.c 1096 */;
+	int *cocci_id/* fs/ocfs2/quota_local.c 1094 */;
+	struct ocfs2_local_disk_chunk cocci_id/* fs/ocfs2/quota_local.c 1030 */;
+}

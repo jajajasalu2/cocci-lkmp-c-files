@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	const struct nla_policy cocci_id/* drivers/net/bonding/bond_netlink.c 82 */[IFLA_BOND_MAX + 1];
+	void cocci_id/* drivers/net/bonding/bond_netlink.c 781 */;
+	int __init cocci_id/* drivers/net/bonding/bond_netlink.c 776 */;
+	struct bonding cocci_id/* drivers/net/bonding/bond_netlink.c 755 */;
+	struct rtnl_link_ops cocci_id/* drivers/net/bonding/bond_netlink.c 753 */;
+	struct bond_3ad_stats *cocci_id/* drivers/net/bonding/bond_netlink.c 728 */;
+	int *cocci_id/* drivers/net/bonding/bond_netlink.c 703 */;
+	size_t cocci_id/* drivers/net/bonding/bond_netlink.c 688 */;
+	struct ad_info cocci_id/* drivers/net/bonding/bond_netlink.c 639 */;
+	const struct port *cocci_id/* drivers/net/bonding/bond_netlink.c 57 */;
+	const struct aggregator *cocci_id/* drivers/net/bonding/bond_netlink.c 56 */;
+	struct slave *cocci_id/* drivers/net/bonding/bond_netlink.c 529 */;
+	unsigned int cocci_id/* drivers/net/bonding/bond_netlink.c 526 */;
+	const struct net_device *cocci_id/* drivers/net/bonding/bond_netlink.c 523 */;
+	struct sk_buff *cocci_id/* drivers/net/bonding/bond_netlink.c 522 */;
+	u16 cocci_id/* drivers/net/bonding/bond_netlink.c 497 */;
+	struct nlattr cocci_id/* drivers/net/bonding/bond_netlink.c 480 */;
+	struct net *cocci_id/* drivers/net/bonding/bond_netlink.c 448 */;
+	u64 cocci_id/* drivers/net/bonding/bond_netlink.c 261 */;
+	__be32 cocci_id/* drivers/net/bonding/bond_netlink.c 254 */;
+	struct nlattr *cocci_id/* drivers/net/bonding/bond_netlink.c 249 */;
+	char *cocci_id/* drivers/net/bonding/bond_netlink.c 181 */;
+	struct bond_opt_value cocci_id/* drivers/net/bonding/bond_netlink.c 163 */;
+	struct bonding *cocci_id/* drivers/net/bonding/bond_netlink.c 162 */;
+	struct netlink_ext_ack *cocci_id/* drivers/net/bonding/bond_netlink.c 160 */;
+	struct nlattr *cocci_id/* drivers/net/bonding/bond_netlink.c 158 */[];
+	struct net_device *cocci_id/* drivers/net/bonding/bond_netlink.c 158 */;
+	int cocci_id/* drivers/net/bonding/bond_netlink.c 158 */;
+	char cocci_id/* drivers/net/bonding/bond_netlink.c 144 */[IFNAMSIZ + 7];
+	const struct nla_policy cocci_id/* drivers/net/bonding/bond_netlink.c 114 */[IFLA_BOND_SLAVE_MAX + 1];
+}

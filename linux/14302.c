@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	struct i2c_msg cocci_id/* drivers/media/dvb-frontends/stv0288.c 86 */[];
+	const u8 cocci_id/* drivers/media/dvb-frontends/stv0288.c 71 */[];
+	struct dvb_frontend_ops cocci_id/* drivers/media/dvb-frontends/stv0288.c 585 */;
+	struct stv0288_state cocci_id/* drivers/media/dvb-frontends/stv0288.c 561 */;
+	struct stv0288_state *cocci_id/* drivers/media/dvb-frontends/stv0288.c 557 */;
+	struct i2c_adapter *cocci_id/* drivers/media/dvb-frontends/stv0288.c 555 */;
+	const struct stv0288_config *cocci_id/* drivers/media/dvb-frontends/stv0288.c 554 */;
+	struct dvb_frontend *cocci_id/* drivers/media/dvb-frontends/stv0288.c 554 */;
+	struct i2c_msg cocci_id/* drivers/media/dvb-frontends/stv0288.c 55 */;
+	const struct dvb_frontend_ops cocci_id/* drivers/media/dvb-frontends/stv0288.c 520 */;
+	void cocci_id/* drivers/media/dvb-frontends/stv0288.c 514 */;
+	unsigned char cocci_id/* drivers/media/dvb-frontends/stv0288.c 488 */;
+	unsigned char cocci_id/* drivers/media/dvb-frontends/stv0288.c 444 */[3];
+	char cocci_id/* drivers/media/dvb-frontends/stv0288.c 443 */;
+	struct dtv_frontend_properties *cocci_id/* drivers/media/dvb-frontends/stv0288.c 441 */;
+	int cocci_id/* drivers/media/dvb-frontends/stv0288.c 42 */;
+	s32 cocci_id/* drivers/media/dvb-frontends/stv0288.c 394 */;
+	u16 *cocci_id/* drivers/media/dvb-frontends/stv0288.c 390 */;
+	u32 *cocci_id/* drivers/media/dvb-frontends/stv0288.c 376 */;
+	enum fe_status *cocci_id/* drivers/media/dvb-frontends/stv0288.c 353 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/stv0288.c 328 */;
+	enum fe_sec_voltage cocci_id/* drivers/media/dvb-frontends/stv0288.c 315 */;
+	struct stv0288_state {
+		struct i2c_adapter *i2c;
+		const struct stv0288_config *config;
+		struct dvb_frontend frontend;
+		u8 initialised:1;
+		u32 tuner_frequency;
+		u32 symbol_rate;
+		enum fe_code_rate fec_inner;
+		int errmode;
+	} cocci_id/* drivers/media/dvb-frontends/stv0288.c 27 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/stv0288.c 205 */[];
+	enum fe_sec_tone_mode cocci_id/* drivers/media/dvb-frontends/stv0288.c 184 */;
+	enum fe_sec_mini_cmd cocci_id/* drivers/media/dvb-frontends/stv0288.c 165 */;
+	struct dvb_diseqc_master_cmd *cocci_id/* drivers/media/dvb-frontends/stv0288.c 144 */;
+	unsigned int cocci_id/* drivers/media/dvb-frontends/stv0288.c 112 */;
+	u32 cocci_id/* drivers/media/dvb-frontends/stv0288.c 109 */;
+}

@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	int __init cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 842 */;
+	struct modem_private_data *cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 764 */;
+	struct uart_port *cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 762 */;
+	unsigned int cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 762 */;
+	unsigned cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 762 */;
+	struct platform_device *cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 686 */;
+	void __init cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 684 */;
+	void cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 684 */;
+	u16 cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 679 */;
+	struct gpio_desc *cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 609 */;
+	struct plat_serial8250_port cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 600 */[];
+	struct gpiod_hog cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 594 */[];
+	char *cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 589 */;
+	struct gpio_chip *cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 587 */;
+	void *cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 587 */;
+	struct gpiod_lookup_table *cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 570 */[]__initdata;
+	struct platform_device *cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 558 */[]__initdata;
+	struct fixed_voltage_config cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 536 */;
+	struct regulator_init_data cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 528 */;
+	struct regulator_consumer_supply cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 520 */[];
+	const unsigned int cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 49 */[];
+	struct gpiod_lookup_table cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 473 */;
+	struct platform_device cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 468 */;
+	struct omap1_cam_platform_data cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 463 */;
+	struct soc_camera_link cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 447 */;
+	struct device *cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 432 */;
+	int cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 432 */;
+	struct i2c_board_info cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 423 */[];
+	const struct gpio_led_platform_data cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 400 */;
+	struct gpio_led cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 370 */[]__initdata;
+	struct omap_kp_platform_data cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 340 */;
+	const struct matrix_keymap_data cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 335 */;
+	struct resource cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 327 */[];
+	struct modem_private_data cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 295 */;
+	struct modem_private_data {
+		struct regulator *regulator;
+	} cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 291 */;
+	struct bgpio_pdata cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 181 */;
+	struct omap_usb_config cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 162 */;
+	const struct omap_lcd_config cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 158 */;
+	struct map_desc cocci_id/* arch/arm/mach-omap1/board-ams-delta.c 134 */[]__initdata;
+	const struct machine_desc cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 397 */;
+}

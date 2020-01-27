@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct cpumask *cocci_id/* kernel/irq/irqdesc.c 930 */;
+	unsigned long cocci_id/* kernel/irq/irqdesc.c 893 */;
+	void cocci_id/* kernel/irq/irqdesc.c 893 */;
+	unsigned long *cocci_id/* kernel/irq/irqdesc.c 870 */;
+	struct irq_desc *cocci_id/* kernel/irq/irqdesc.c 869 */;
+	const struct irq_affinity_desc *cocci_id/* kernel/irq/irqdesc.c 767 */;
+	struct module *cocci_id/* kernel/irq/irqdesc.c 767 */;
+	int __ref cocci_id/* kernel/irq/irqdesc.c 765 */;
+	bool cocci_id/* kernel/irq/irqdesc.c 660 */;
+	struct pt_regs *cocci_id/* kernel/irq/irqdesc.c 660 */;
+	struct irq_domain *cocci_id/* kernel/irq/irqdesc.c 659 */;
+	unsigned int cocci_id/* kernel/irq/irqdesc.c 659 */;
+	int cocci_id/* kernel/irq/irqdesc.c 659 */;
+	u32 cocci_id/* kernel/irq/irqdesc.c 601 */;
+	struct irq_desc cocci_id/* kernel/irq/irqdesc.c 550 */[NR_IRQS]__cacheline_aligned_in_smp;
+	int __init cocci_id/* kernel/irq/irqdesc.c 519 */;
+	struct rcu_head *cocci_id/* kernel/irq/irqdesc.c 431 */;
+	void __init cocci_id/* kernel/irq/irqdesc.c 41 */;
+	const struct cpumask *cocci_id/* kernel/irq/irqdesc.c 388 */;
+	struct kobj_type cocci_id/* kernel/irq/irqdesc.c 280 */;
+	struct attribute *cocci_id/* kernel/irq/irqdesc.c 268 */[];
+	struct lock_class_key cocci_id/* kernel/irq/irqdesc.c 25 */;
+	struct irqaction *cocci_id/* kernel/irq/irqdesc.c 249 */;
+	struct irq_desc cocci_id/* kernel/irq/irqdesc.c 248 */;
+	struct kobj_attribute *cocci_id/* kernel/irq/irqdesc.c 246 */;
+	char *cocci_id/* kernel/irq/irqdesc.c 246 */;
+	struct kobject *cocci_id/* kernel/irq/irqdesc.c 245 */;
+	ssize_t cocci_id/* kernel/irq/irqdesc.c 245 */;
+	void cocci_id/* kernel/irq/irqdesc.c 138 */(struct kobject *kobj);
+}

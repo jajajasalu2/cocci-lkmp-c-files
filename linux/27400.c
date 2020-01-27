@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	int cocci_id/* fs/adfs/super.c 94 */;
+	unsigned int cocci_id/* fs/adfs/super.c 93 */;
+	unsigned char *cocci_id/* fs/adfs/super.c 91 */;
+	unsigned char cocci_id/* fs/adfs/super.c 91 */;
+	void __exit cocci_id/* fs/adfs/super.c 567 */;
+	int __init cocci_id/* fs/adfs/super.c 552 */;
+	struct file_system_type cocci_id/* fs/adfs/super.c 543 */;
+	struct file_system_type *cocci_id/* fs/adfs/super.c 537 */;
+	struct dentry *cocci_id/* fs/adfs/super.c 537 */;
+	struct adfs_discrecord *cocci_id/* fs/adfs/super.c 52 */;
+	struct adfs_sb_info *cocci_id/* fs/adfs/super.c 385 */;
+	struct object_info cocci_id/* fs/adfs/super.c 382 */;
+	struct buffer_head *cocci_id/* fs/adfs/super.c 381 */;
+	void *cocci_id/* fs/adfs/super.c 378 */;
+	const struct super_operations cocci_id/* fs/adfs/super.c 314 */;
+	struct adfs_inode_info cocci_id/* fs/adfs/super.c 295 */;
+	struct adfs_inode_info *cocci_id/* fs/adfs/super.c 273 */;
+	struct inode *cocci_id/* fs/adfs/super.c 271 */;
+	va_list cocci_id/* fs/adfs/super.c 27 */;
+	struct kmem_cache *cocci_id/* fs/adfs/super.c 269 */;
+	u32 cocci_id/* fs/adfs/super.c 263 */;
+	long cocci_id/* fs/adfs/super.c 262 */;
+	struct va_format cocci_id/* fs/adfs/super.c 26 */;
+	u64 cocci_id/* fs/adfs/super.c 253 */;
+	struct kstatfs *cocci_id/* fs/adfs/super.c 248 */;
+	const char *cocci_id/* fs/adfs/super.c 24 */;
+	struct super_block *cocci_id/* fs/adfs/super.c 24 */;
+	void cocci_id/* fs/adfs/super.c 24 */;
+	struct adfs_sb_info cocci_id/* fs/adfs/super.c 234 */;
+	int *cocci_id/* fs/adfs/super.c 232 */;
+	char *cocci_id/* fs/adfs/super.c 232 */;
+	substring_t cocci_id/* fs/adfs/super.c 186 */[MAX_OPT_ARGS];
+	const match_table_t cocci_id/* fs/adfs/super.c 167 */;
+	enum{Opt_uid, Opt_gid, Opt_ownmask, Opt_othmask, Opt_ftsuffix, Opt_err,} cocci_id/* fs/adfs/super.c 165 */;
+	struct seq_file *cocci_id/* fs/adfs/super.c 147 */;
+	struct adfs_discmap *cocci_id/* fs/adfs/super.c 115 */;
+}

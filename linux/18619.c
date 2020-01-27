@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct irqaction cocci_id/* arch/arm/mach-omap2/timer.c 94 */;
+	struct clock_event_device *cocci_id/* arch/arm/mach-omap2/timer.c 86 */;
+	irqreturn_t cocci_id/* arch/arm/mach-omap2/timer.c 84 */;
+	void *cocci_id/* arch/arm/mach-omap2/timer.c 84 */;
+	unsigned long cocci_id/* arch/arm/mach-omap2/timer.c 76 */;
+	char *cocci_id/* arch/arm/mach-omap2/timer.c 732 */;
+	int __init cocci_id/* arch/arm/mach-omap2/timer.c 732 */;
+	struct omap_hwmod *cocci_id/* arch/arm/mach-omap2/timer.c 70 */;
+	struct clock_event_device cocci_id/* arch/arm/mach-omap2/timer.c 67 */;
+	struct omap_dm_timer cocci_id/* arch/arm/mach-omap2/timer.c 66 */;
+	unsigned long long cocci_id/* arch/arm/mach-omap2/timer.c 617 */;
+	void __iomem *cocci_id/* arch/arm/mach-omap2/timer.c 613 */;
+	bool cocci_id/* arch/arm/mach-omap2/timer.c 541 */;
+	const char *cocci_id/* arch/arm/mach-omap2/timer.c 539 */;
+	int cocci_id/* arch/arm/mach-omap2/timer.c 539 */;
+	void __init cocci_id/* arch/arm/mach-omap2/timer.c 539 */;
+	unsigned int cocci_id/* arch/arm/mach-omap2/timer.c 483 */;
+	struct device_node *cocci_id/* arch/arm/mach-omap2/timer.c 446 */;
+	int __init __maybe_unused cocci_id/* arch/arm/mach-omap2/timer.c 443 */;
+	const struct of_device_id cocci_id/* arch/arm/mach-omap2/timer.c 437 */[]__initconst;
+	u64 notrace cocci_id/* arch/arm/mach-omap2/timer.c 428 */;
+	void cocci_id/* arch/arm/mach-omap2/timer.c 428 */;
+	struct clocksource cocci_id/* arch/arm/mach-omap2/timer.c 421 */;
+	u64 cocci_id/* arch/arm/mach-omap2/timer.c 415 */;
+	struct clocksource *cocci_id/* arch/arm/mach-omap2/timer.c 415 */;
+	const struct cpumask *cocci_id/* arch/arm/mach-omap2/timer.c 360 */;
+	struct clk *cocci_id/* arch/arm/mach-omap2/timer.c 292 */;
+	const char **cocci_id/* arch/arm/mach-omap2/timer.c 286 */;
+	struct omap_dm_timer *cocci_id/* arch/arm/mach-omap2/timer.c 283 */;
+	u32 __init cocci_id/* arch/arm/mach-omap2/timer.c 275 */;
+	const struct of_device_id *cocci_id/* arch/arm/mach-omap2/timer.c 220 */;
+	struct device_node *__initcocci_id/* arch/arm/mach-omap2/timer.c 220 */;
+	struct property *cocci_id/* arch/arm/mach-omap2/timer.c 174 */;
+	u32 cocci_id/* arch/arm/mach-omap2/timer.c 117 */;
+}

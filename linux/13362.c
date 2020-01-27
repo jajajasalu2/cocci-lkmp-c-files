@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	void cocci_id/* drivers/media/v4l2-core/videobuf-core.c 995 */;
+	unsigned long cocci_id/* drivers/media/v4l2-core/videobuf-core.c 963 */;
+	enum v4l2_field cocci_id/* drivers/media/v4l2-core/videobuf-core.c 962 */;
+	unsigned cocci_id/* drivers/media/v4l2-core/videobuf-core.c 879 */;
+	loff_t *cocci_id/* drivers/media/v4l2-core/videobuf-core.c 874 */;
+	ssize_t cocci_id/* drivers/media/v4l2-core/videobuf-core.c 873 */;
+	unsigned int *cocci_id/* drivers/media/v4l2-core/videobuf-core.c 852 */;
+	char __user *cocci_id/* drivers/media/v4l2-core/videobuf-core.c 849 */;
+	size_t cocci_id/* drivers/media/v4l2-core/videobuf-core.c 849 */;
+	struct videobuf_buffer *cocci_id/* drivers/media/v4l2-core/videobuf-core.c 848 */;
+	struct videobuf_queue *cocci_id/* drivers/media/v4l2-core/videobuf-core.c 847 */;
+	int cocci_id/* drivers/media/v4l2-core/videobuf-core.c 847 */;
+	void *cocci_id/* drivers/media/v4l2-core/videobuf-core.c 835 */;
+	bool cocci_id/* drivers/media/v4l2-core/videobuf-core.c 79 */;
+	struct v4l2_buffer *cocci_id/* drivers/media/v4l2-core/videobuf-core.c 695 */;
+	struct videobuf_buffer cocci_id/* drivers/media/v4l2-core/videobuf-core.c 684 */;
+	struct videobuf_buffer **cocci_id/* drivers/media/v4l2-core/videobuf-core.c 675 */;
+	struct v4l2_requestbuffers *cocci_id/* drivers/media/v4l2-core/videobuf-core.c 440 */;
+	enum v4l2_memory cocci_id/* drivers/media/v4l2-core/videobuf-core.c 385 */;
+	unsigned int cocci_id/* drivers/media/v4l2-core/videobuf-core.c 384 */;
+	struct mutex *cocci_id/* drivers/media/v4l2-core/videobuf-core.c 151 */;
+	struct videobuf_qtype_ops *cocci_id/* drivers/media/v4l2-core/videobuf-core.c 150 */;
+	enum v4l2_buf_type cocci_id/* drivers/media/v4l2-core/videobuf-core.c 146 */;
+	spinlock_t *cocci_id/* drivers/media/v4l2-core/videobuf-core.c 145 */;
+	struct device *cocci_id/* drivers/media/v4l2-core/videobuf-core.c 144 */;
+	const struct videobuf_queue_ops *cocci_id/* drivers/media/v4l2-core/videobuf-core.c 143 */;
+	struct v4l2_framebuffer *cocci_id/* drivers/media/v4l2-core/videobuf-core.c 121 */;
+	struct vm_area_struct *cocci_id/* drivers/media/v4l2-core/videobuf-core.c 1171 */;
+	poll_table *cocci_id/* drivers/media/v4l2-core/videobuf-core.c 1120 */;
+	__poll_t cocci_id/* drivers/media/v4l2-core/videobuf-core.c 1118 */;
+	struct file *cocci_id/* drivers/media/v4l2-core/videobuf-core.c 1118 */;
+}

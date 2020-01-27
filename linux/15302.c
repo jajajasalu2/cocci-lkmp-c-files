@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/fsi/fsi-master-gpio.c 885 */;
+	const struct of_device_id cocci_id/* drivers/fsi/fsi-master-gpio.c 880 */[];
+	struct gpio_desc *cocci_id/* drivers/fsi/fsi-master-gpio.c 773 */;
+	struct platform_device *cocci_id/* drivers/fsi/fsi-master-gpio.c 770 */;
+	unsigned long cocci_id/* drivers/fsi/fsi-master-gpio.c 728 */;
+	const char *cocci_id/* drivers/fsi/fsi-master-gpio.c 725 */;
+	struct device_attribute *cocci_id/* drivers/fsi/fsi-master-gpio.c 716 */;
+	char *cocci_id/* drivers/fsi/fsi-master-gpio.c 716 */;
+	struct device *cocci_id/* drivers/fsi/fsi-master-gpio.c 715 */;
+	ssize_t cocci_id/* drivers/fsi/fsi-master-gpio.c 715 */;
+	u8 cocci_id/* drivers/fsi/fsi-master-gpio.c 700 */;
+	struct fsi_master *cocci_id/* drivers/fsi/fsi-master-gpio.c 618 */;
+	struct fsi_gpio_msg cocci_id/* drivers/fsi/fsi-master-gpio.c 565 */;
+	void *cocci_id/* drivers/fsi/fsi-master-gpio.c 562 */;
+	struct fsi_gpio_msg {
+		uint64_t msg;
+		uint8_t bits;
+	} cocci_id/* drivers/fsi/fsi-master-gpio.c 44 */;
+	struct fsi_master_gpio cocci_id/* drivers/fsi/fsi-master-gpio.c 42 */;
+	uint8_t *cocci_id/* drivers/fsi/fsi-master-gpio.c 293 */;
+	bool cocci_id/* drivers/fsi/fsi-master-gpio.c 239 */;
+	int cocci_id/* drivers/fsi/fsi-master-gpio.c 238 */;
+	uint32_t cocci_id/* drivers/fsi/fsi-master-gpio.c 236 */;
+	const void *cocci_id/* drivers/fsi/fsi-master-gpio.c 236 */;
+	size_t cocci_id/* drivers/fsi/fsi-master-gpio.c 236 */;
+	uint8_t cocci_id/* drivers/fsi/fsi-master-gpio.c 235 */;
+	struct fsi_gpio_msg *cocci_id/* drivers/fsi/fsi-master-gpio.c 235 */;
+	struct fsi_master_gpio *cocci_id/* drivers/fsi/fsi-master-gpio.c 234 */;
+	void cocci_id/* drivers/fsi/fsi-master-gpio.c 234 */;
+	struct fsi_master_gpio {
+		struct fsi_master master;
+		struct device *dev;
+		struct mutex cmd_lock;
+		struct gpio_desc *gpio_clk;
+		struct gpio_desc *gpio_data;
+		struct gpio_desc *gpio_trans;
+		struct gpio_desc *gpio_enable;
+		struct gpio_desc *gpio_mux;
+		bool external_mode;
+		bool no_delays;
+		uint32_t last_addr;
+		uint8_t t_send_delay;
+		uint8_t t_echo_delay;
+	} cocci_id/* drivers/fsi/fsi-master-gpio.c 23 */;
+	int32_t cocci_id/* drivers/fsi/fsi-master-gpio.c 196 */;
+	uint32_t *cocci_id/* drivers/fsi/fsi-master-gpio.c 193 */;
+	uint64_t cocci_id/* drivers/fsi/fsi-master-gpio.c 162 */;
+	const struct fsi_gpio_msg *cocci_id/* drivers/fsi/fsi-master-gpio.c 130 */;
+}

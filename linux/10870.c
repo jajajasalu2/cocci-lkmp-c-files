@@ -1,0 +1,58 @@
+cocci_test_suite() {
+	struct amdgpu_atombios_dp_link_train_info cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 719 */;
+	struct amdgpu_encoder_atom_dig *cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 716 */;
+	struct amdgpu_encoder *cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 715 */;
+	bool cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 660 */;
+	unsigned char *cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 66 */;
+	struct amdgpu_atombios_dp_link_train_info *cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 658 */;
+	union aux_channel_transaction cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 64 */;
+	u8 *cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 58 */;
+	union aux_channel_transaction {
+		PROCESS_AUX_CHANNEL_TRANSACTION_PS_ALLOCATION v1;
+		PROCESS_AUX_CHANNEL_TRANSACTION_PARAMETERS_V2 v2;
+	} cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 52 */;
+	struct amdgpu_atombios_dp_link_train_info {
+		struct amdgpu_device *adev;
+		struct drm_encoder *encoder;
+		struct drm_connector *connector;
+		int dp_clock;
+		int dp_lane_count;
+		bool tp3_supported;
+		u8 dpcd[DP_RECEIVER_CAP_SIZE];
+		u8 train_set[4];
+		u8 link_status[DP_LINK_STATUS_SIZE];
+		u8 tries;
+		struct drm_dp_aux *aux;
+	} cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 478 */;
+	char *cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 46 */[];
+	u8 cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 448 */[DP_LINK_STATUS_SIZE];
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 423 */;
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 399 */;
+	u16 cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 366 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 360 */;
+	u8 cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 340 */[DP_DPCD_SIZE];
+	struct amdgpu_connector_atom_dig *cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 339 */;
+	u8 cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 323 */[3];
+	struct drm_device *cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 313 */;
+	uint32_t *cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 307 */;
+	DP_ENCODER_SERVICE_PARAMETERS cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 297 */;
+	struct amdgpu_device *cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 293 */;
+	const unsigned cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 262 */[3];
+	unsigned *cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 258 */;
+	const u8 cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 256 */[DP_DPCD_SIZE];
+	struct drm_connector *cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 255 */;
+	unsigned cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 245 */;
+	u8 cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 208 */[4];
+	const u8 cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 206 */[DP_LINK_STATUS_SIZE];
+	int cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 189 */;
+	struct amdgpu_connector *cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 187 */;
+	void cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 187 */;
+	u8 cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 134 */;
+	size_t cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 133 */;
+	u8 cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 132 */[20];
+	struct amdgpu_i2c_chan cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 130 */;
+	struct amdgpu_i2c_chan *cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 129 */;
+	struct drm_dp_aux_msg *cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 127 */;
+	struct drm_dp_aux *cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 127 */;
+	ssize_t cocci_id/* drivers/gpu/drm/amd/amdgpu/atombios_dp.c 126 */;
+}

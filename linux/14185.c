@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	bool cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 985 */;
+	struct v4l2_rect cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 896 */;
+	enum vpdma_channel cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 889 */;
+	dma_addr_t cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 888 */;
+	const struct vpdma_data_format *cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 888 */;
+	const struct v4l2_rect *cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 887 */;
+	struct vpdma_dtd *cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 748 */;
+	void *cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 734 */;
+	struct vpdma_desc_list *cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 728 */;
+	struct vpdma_ctd *cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 690 */;
+	unsigned int cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 665 */;
+	struct vpdma_buf *cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 662 */;
+	int cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 605 */;
+	struct vpdma_cfd *cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 603 */;
+	void cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 603 */;
+	void cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 553 */(struct vpdma_dtd *dtd);
+	struct vpdma_dtd cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 444 */;
+	struct vpdma_desc_list cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 433 */;
+	int *cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 431 */;
+	unsigned long cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 371 */;
+	size_t cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 363 */;
+	struct device *cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 309 */;
+	u32 cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 291 */;
+	struct vpdma_data *cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 290 */;
+	const struct vpdma_channel_info cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 233 */[];
+	struct vpdma_channel_info {
+		int num;
+		int cstat_offset;
+	} cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 228 */;
+	const struct vpdma_data_format cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 219 */[];
+	struct resource *cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 1144 */;
+	void (*cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 1142 */)(struct platform_device *pdev);
+	struct platform_device *cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 1141 */;
+	const char *cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 1129 */;
+	struct vpdma_buf cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 1070 */;
+	const struct firmware *cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 1067 */;
+	enum vpdma_frame_start_event cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 1057 */;
+	struct vpdma_data_format *cocci_id/* drivers/media/platform/ti-vpe/vpdma.c 1028 */;
+}

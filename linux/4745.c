@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct siw_mr *cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 89 */;
+	bool cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 64 */;
+	struct siw_page_chunk *cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 63 */;
+	struct page **cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 427 */;
+	struct page *cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 420 */;
+	struct siw_page_chunk cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 411 */;
+	unsigned int cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 374 */;
+	unsigned long cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 373 */;
+	struct mm_struct *cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 371 */;
+	struct siw_umem *cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 368 */;
+	struct siw_pble cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 357 */;
+	struct siw_pbl *cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 349 */;
+	struct siw_pble *cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 330 */;
+	dma_addr_t cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 325 */;
+	int *cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 325 */;
+	enum siw_opcode cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 262 */;
+	struct siw_wqe *cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 262 */;
+	struct xa_limit cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 23 */;
+	struct siw_device *cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 225 */;
+	u32 cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 223 */;
+	struct siw_mem *cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 222 */[];
+	struct siw_sge *cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 222 */;
+	uintptr_t cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 193 */;
+	void *cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 193 */;
+	enum ib_access_flags cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 169 */;
+	u64 cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 168 */;
+	struct siw_mem *cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 168 */;
+	struct ib_pd *cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 168 */;
+	int cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 168 */;
+	struct siw_mem cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 142 */;
+	struct kref *cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 140 */;
+	void cocci_id/* drivers/infiniband/sw/siw/siw_mem.c 140 */;
+}

@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	struct i40iw_dev_hw_stats *cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 732 */;
+	struct i40iw_virtchnl_req cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 662 */;
+	enum i40iw_hmc_rsrc_type cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 658 */;
+	u16 *cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 624 */;
+	u32 *cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 592 */;
+	uintptr_t cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 569 */;
+	struct i40iw_virtchnl_req *cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 567 */;
+	struct i40iw_virtchnl_resp_buf *cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 566 */;
+	struct i40iw_hmc_obj_info *cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 484 */;
+	struct i40iw_hmc_obj_info cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 475 */;
+	struct i40iw_vfdev cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 474 */;
+	struct i40iw_vsi_pestat *cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 437 */;
+	struct i40iw_virtchnl_work_info cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 436 */;
+	struct i40iw_virt_mem cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 435 */;
+	struct i40iw_hmc_fcn_info cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 432 */;
+	struct i40iw_vfdev *cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 431 */;
+	struct i40iw_virtchnl_op_buf *cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 430 */;
+	u16 cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 428 */;
+	u8 *cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 427 */;
+	u32 cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 426 */;
+	enum i40iw_status_code cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 425 */;
+	struct i40iw_sc_dev *cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 425 */;
+	u8 cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 414 */;
+	void cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 411 */;
+	struct i40iw_hmc_del_obj_info cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 381 */;
+	struct i40iw_virtchnl_hmc_obj_range *cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 342 */;
+	struct i40iw_hmc_create_obj_info cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 341 */;
+	struct i40iw_hmc_info *cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 339 */;
+	void *cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 336 */;
+	struct i40iw_ccq_cqe_info *cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 304 */;
+	u8 cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 285 */[sizeof(struct i40iw_virtchnl_resp_buf)];
+	u8 cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 260 */[sizeof(struct i40iw_virtchnl_resp_buf) + sizeof(struct i40iw_dev_hw_stats) - 1];
+	u8 cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 232 */[sizeof(struct i40iw_virtchnl_resp_buf) + sizeof(u16) - 1];
+	u8 cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 206 */[sizeof(struct i40iw_virtchnl_resp_buf) + sizeof(u32) - 1];
+	struct i40iw_virtchnl_hmc_obj_range cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 144 */;
+	struct i40iw_dev_hw_stats cocci_id/* drivers/infiniband/hw/i40iw/i40iw_virtchnl.c 112 */;
+}

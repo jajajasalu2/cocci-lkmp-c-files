@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct wsm_template_frame cocci_id/* drivers/net/wireless/st/cw1200/scan.c 57 */;
+	struct cfg80211_scan_request *cocci_id/* drivers/net/wireless/st/cw1200/scan.c 56 */;
+	struct ieee80211_scan_request *cocci_id/* drivers/net/wireless/st/cw1200/scan.c 53 */;
+	struct ieee80211_vif *cocci_id/* drivers/net/wireless/st/cw1200/scan.c 52 */;
+	struct ieee80211_hw *cocci_id/* drivers/net/wireless/st/cw1200/scan.c 51 */;
+	int cocci_id/* drivers/net/wireless/st/cw1200/scan.c 51 */;
+	struct ieee80211_hdr_3addr cocci_id/* drivers/net/wireless/st/cw1200/scan.c 418 */;
+	size_t cocci_id/* drivers/net/wireless/st/cw1200/scan.c 382 */;
+	u8 *cocci_id/* drivers/net/wireless/st/cw1200/scan.c 381 */;
+	struct wsm_scan cocci_id/* drivers/net/wireless/st/cw1200/scan.c 373 */;
+	struct wsm_scan_ch cocci_id/* drivers/net/wireless/st/cw1200/scan.c 369 */[1];
+	struct wsm_ssid cocci_id/* drivers/net/wireless/st/cw1200/scan.c 366 */[1];
+	struct wsm_tx *cocci_id/* drivers/net/wireless/st/cw1200/scan.c 362 */;
+	const struct cw1200_txpriv *cocci_id/* drivers/net/wireless/st/cw1200/scan.c 361 */;
+	struct cw1200_queue *cocci_id/* drivers/net/wireless/st/cw1200/scan.c 360 */;
+	u8 cocci_id/* drivers/net/wireless/st/cw1200/scan.c 359 */;
+	struct cw1200_common cocci_id/* drivers/net/wireless/st/cw1200/scan.c 332 */;
+	struct cw1200_common *cocci_id/* drivers/net/wireless/st/cw1200/scan.c 331 */;
+	struct work_struct *cocci_id/* drivers/net/wireless/st/cw1200/scan.c 329 */;
+	void cocci_id/* drivers/net/wireless/st/cw1200/scan.c 329 */;
+	struct wsm_scan_complete *cocci_id/* drivers/net/wireless/st/cw1200/scan.c 317 */;
+	struct wsm_scan_ch cocci_id/* drivers/net/wireless/st/cw1200/scan.c 232 */;
+	struct ieee80211_channel *cocci_id/* drivers/net/wireless/st/cw1200/scan.c 197 */;
+	struct wsm_scan *cocci_id/* drivers/net/wireless/st/cw1200/scan.c 17 */;
+	struct cfg80211_scan_info cocci_id/* drivers/net/wireless/st/cw1200/scan.c 168 */;
+	struct wsm_set_pm cocci_id/* drivers/net/wireless/st/cw1200/scan.c 156 */;
+	void cocci_id/* drivers/net/wireless/st/cw1200/scan.c 15 */(struct cw1200_common *priv);
+	bool cocci_id/* drivers/net/wireless/st/cw1200/scan.c 138 */;
+	struct ieee80211_channel **cocci_id/* drivers/net/wireless/st/cw1200/scan.c 133 */;
+	struct wsm_ssid *cocci_id/* drivers/net/wireless/st/cw1200/scan.c 117 */;
+}

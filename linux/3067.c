@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	const struct pci_device_id *cocci_id/* drivers/block/rsxx/core.c 745 */;
+	unsigned char cocci_id/* drivers/block/rsxx/core.c 735 */;
+	enum pci_channel_state cocci_id/* drivers/block/rsxx/core.c 628 */;
+	pci_ers_result_t cocci_id/* drivers/block/rsxx/core.c 627 */;
+	struct pci_dev *cocci_id/* drivers/block/rsxx/core.c 577 */;
+	const int cocci_id/* drivers/block/rsxx/core.c 500 */;
+	struct seq_file *cocci_id/* drivers/block/rsxx/core.c 50 */;
+	void *cocci_id/* drivers/block/rsxx/core.c 50 */;
+	signed long cocci_id/* drivers/block/rsxx/core.c 499 */;
+	struct rsxx_cardinfo cocci_id/* drivers/block/rsxx/core.c 467 */;
+	int cocci_id/* drivers/block/rsxx/core.c 465 */;
+	unsigned long cocci_id/* drivers/block/rsxx/core.c 464 */;
+	struct rsxx_cardinfo *cocci_id/* drivers/block/rsxx/core.c 462 */;
+	struct work_struct *cocci_id/* drivers/block/rsxx/core.c 460 */;
+	const char *const cocci_id/* drivers/block/rsxx/core.c 395 */[];
+	const char *const cocci_id/* drivers/block/rsxx/core.c 393 */;
+	irqreturn_t cocci_id/* drivers/block/rsxx/core.c 330 */;
+	unsigned int *cocci_id/* drivers/block/rsxx/core.c 277 */;
+	unsigned int cocci_id/* drivers/block/rsxx/core.c 277 */;
+	void cocci_id/* drivers/block/rsxx/core.c 277 */;
+	struct dentry *cocci_id/* drivers/block/rsxx/core.c 227 */;
+	const struct file_operations cocci_id/* drivers/block/rsxx/core.c 203 */;
+	const char __user *cocci_id/* drivers/block/rsxx/core.c 184 */;
+	char *cocci_id/* drivers/block/rsxx/core.c 167 */;
+	loff_t *cocci_id/* drivers/block/rsxx/core.c 164 */;
+	size_t cocci_id/* drivers/block/rsxx/core.c 164 */;
+	char __user *cocci_id/* drivers/block/rsxx/core.c 163 */;
+	ssize_t cocci_id/* drivers/block/rsxx/core.c 163 */;
+	struct inode *cocci_id/* drivers/block/rsxx/core.c 158 */;
+	struct file *cocci_id/* drivers/block/rsxx/core.c 158 */;
+	void __exit cocci_id/* drivers/block/rsxx/core.c 1110 */;
+	int __init cocci_id/* drivers/block/rsxx/core.c 1084 */;
+	struct pci_driver cocci_id/* drivers/block/rsxx/core.c 1074 */;
+	const struct pci_device_id cocci_id/* drivers/block/rsxx/core.c 1066 */[];
+	const struct pci_error_handlers cocci_id/* drivers/block/rsxx/core.c 1061 */;
+	pm_message_t cocci_id/* drivers/block/rsxx/core.c 1033 */;
+}

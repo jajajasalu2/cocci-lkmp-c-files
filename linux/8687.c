@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 832 */[4];
+	struct fm10k_vf_info *cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 829 */;
+	u32 cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 503 */;
+	u16 cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 501 */;
+	struct fm10k_dglort_cfg *cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 499 */;
+	s32 cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 498 */;
+	struct fm10k_hw *cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 498 */;
+	u32 cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 463 */[3];
+	const u8 *cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 373 */;
+	u32 cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 309 */[5];
+	struct fm10k_mac_update cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 308 */;
+	bool cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 285 */;
+	const struct fm10k_info cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1820 */;
+	const struct fm10k_iov_ops cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1802 */;
+	const struct fm10k_mac_ops cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1780 */;
+	const struct fm10k_msg_data cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1770 */[];
+	struct fm10k_mbx_info __always_unused *cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1748 */;
+	struct fm10k_swapi_error cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1734 */;
+	const struct fm10k_tlv_attr cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1732 */[];
+	struct fm10k_swapi_table_info *cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1725 */;
+	struct fm10k_global_table_data *cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1724 */;
+	bool *cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1613 */;
+	struct fm10k_fault *cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1546 */;
+	int cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1545 */;
+	u64 cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1526 */;
+	struct fm10k_hw_stats *cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1499 */;
+	u32 *cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1364 */;
+	u8 cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1357 */;
+	u32 cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1356 */[2];
+	struct fm10k_mbx_info *cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1352 */;
+	u32 **cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1351 */;
+	u8 cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1196 */[ETH_ALEN];
+	u32 __always_unused **cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1155 */;
+	struct fm10k_hw_stats_q *cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1134 */;
+	u32 cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1108 */[1];
+	void cocci_id/* drivers/net/ethernet/intel/fm10k/fm10k_pf.c 1105 */;
+}

@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/scsi/atari_scsi.c 886 */;
+	int __exit cocci_id/* drivers/scsi/atari_scsi.c 872 */;
+	struct NCR5380_hostdata cocci_id/* drivers/scsi/atari_scsi.c 792 */;
+	ssize_t cocci_id/* drivers/scsi/atari_scsi.c 765 */;
+	loff_t cocci_id/* drivers/scsi/atari_scsi.c 764 */;
+	struct resource *cocci_id/* drivers/scsi/atari_scsi.c 725 */;
+	struct Scsi_Host *cocci_id/* drivers/scsi/atari_scsi.c 723 */;
+	struct platform_device *cocci_id/* drivers/scsi/atari_scsi.c 721 */;
+	int __init cocci_id/* drivers/scsi/atari_scsi.c 721 */;
+	struct scsi_host_template cocci_id/* drivers/scsi/atari_scsi.c 707 */;
+	u_short cocci_id/* drivers/scsi/atari_scsi.c 654 */;
+	u8 cocci_id/* drivers/scsi/atari_scsi.c 647 */;
+	unsigned int cocci_id/* drivers/scsi/atari_scsi.c 647 */;
+	void (*cocci_id/* drivers/scsi/atari_scsi.c 61 */)(unsigned int, u8);
+	u8 (*cocci_id/* drivers/scsi/atari_scsi.c 60 */)(unsigned int);
+	struct scsi_cmnd *cocci_id/* drivers/scsi/atari_scsi.c 543 */;
+	unsigned char *cocci_id/* drivers/scsi/atari_scsi.c 490 */;
+	struct NCR5380_hostdata *cocci_id/* drivers/scsi/atari_scsi.c 489 */;
+	int cocci_id/* drivers/scsi/atari_scsi.c 489 */;
+	void *cocci_id/* drivers/scsi/atari_scsi.c 426 */;
+	int cocci_id/* drivers/scsi/atari_scsi.c 398 */[8];
+	irqreturn_t cocci_id/* drivers/scsi/atari_scsi.c 270 */;
+	signed int cocci_id/* drivers/scsi/atari_scsi.c 219 */;
+	char *cocci_id/* drivers/scsi/atari_scsi.c 131 */;
+	short cocci_id/* drivers/scsi/atari_scsi.c 129 */;
+	void cocci_id/* drivers/scsi/atari_scsi.c 126 */(void);
+	unsigned long cocci_id/* drivers/scsi/atari_scsi.c 114 */;
+	void cocci_id/* drivers/scsi/atari_scsi.c 114 */;
+	unsigned char cocci_id/* drivers/scsi/atari_scsi.c 104 */;
+}

@@ -1,0 +1,72 @@
+cocci_test_suite() {
+	struct i2c_driver cocci_id/* drivers/leds/leds-blinkm.c 731 */;
+	const struct i2c_device_id cocci_id/* drivers/leds/leds-blinkm.c 723 */[];
+	struct blinkm_data cocci_id/* drivers/leds/leds-blinkm.c 578 */;
+	char cocci_id/* drivers/leds/leds-blinkm.c 575 */[28];
+	struct blinkm_led *cocci_id/* drivers/leds/leds-blinkm.c 573 */[3];
+	const struct i2c_device_id *cocci_id/* drivers/leds/leds-blinkm.c 570 */;
+	u8 cocci_id/* drivers/leds/leds-blinkm.c 526 */[7];
+	struct i2c_adapter *cocci_id/* drivers/leds/leds-blinkm.c 523 */;
+	struct i2c_client *cocci_id/* drivers/leds/leds-blinkm.c 521 */;
+	struct i2c_board_info *cocci_id/* drivers/leds/leds-blinkm.c 521 */;
+	int cocci_id/* drivers/leds/leds-blinkm.c 521 */;
+	void cocci_id/* drivers/leds/leds-blinkm.c 481 */;
+	enum led_brightness cocci_id/* drivers/leds/leds-blinkm.c 476 */;
+	struct led_classdev *cocci_id/* drivers/leds/leds-blinkm.c 475 */;
+	u8 cocci_id/* drivers/leds/leds-blinkm.c 432 */;
+	struct blinkm_data *cocci_id/* drivers/leds/leds-blinkm.c 427 */;
+	struct blinkm_led *cocci_id/* drivers/leds/leds-blinkm.c 426 */;
+	struct blinkm_data {
+		struct i2c_client *i2c_client;
+		struct mutex update_lock;
+		struct blinkm_led blinkm_leds[3];
+		u8 red;
+		u8 green;
+		u8 blue;
+		u8 next_red;
+		u8 next_green;
+		u8 next_blue;
+		u8 args[7];
+		u8 i2c_addr;
+		u8 fw_ver;
+		u8 hue;
+		u8 saturation;
+		u8 brightness;
+		u8 next_hue;
+		u8 next_saturation;
+		u8 next_brightness;
+		u8 fade_speed;
+		s8 time_adjust;
+		u8 fade:1;
+		u8 rand:1;
+		u8 script_id;
+		u8 script_repeats;
+		u8 script_startline;
+	} cocci_id/* drivers/leds/leds-blinkm.c 33 */;
+	u8 *cocci_id/* drivers/leds/leds-blinkm.c 315 */;
+	struct blinkm_led cocci_id/* drivers/leds/leds-blinkm.c 31 */;
+	const struct attribute_group cocci_id/* drivers/leds/leds-blinkm.c 288 */;
+	struct attribute *cocci_id/* drivers/leds/leds-blinkm.c 280 */[];
+	struct blinkm_led {
+		struct i2c_client *i2c_client;
+		struct led_classdev led_cdev;
+		int id;
+	} cocci_id/* drivers/leds/leds-blinkm.c 25 */;
+	const char *cocci_id/* drivers/leds/leds-blinkm.c 241 */;
+	size_t cocci_id/* drivers/leds/leds-blinkm.c 241 */;
+	char *cocci_id/* drivers/leds/leds-blinkm.c 235 */;
+	struct device_attribute *cocci_id/* drivers/leds/leds-blinkm.c 234 */;
+	struct device *cocci_id/* drivers/leds/leds-blinkm.c 234 */;
+	ssize_t cocci_id/* drivers/leds/leds-blinkm.c 234 */;
+	int cocci_id/* drivers/leds/leds-blinkm.c 23 */(struct i2c_client *client);
+	int cocci_id/* drivers/leds/leds-blinkm.c 22 */(struct i2c_client *client,
+							int cmd);
+	const unsigned short cocci_id/* drivers/leds/leds-blinkm.c 20 */[];
+	const struct {
+		char cmdchar;
+		u8 cmdbyte;
+		u8 nr_args;
+		u8 nr_ret;
+		u8 dir:2;
+	} cocci_id/* drivers/leds/leds-blinkm.c 101 */[17];
+}

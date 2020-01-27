@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	struct pci_dev *cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 563 */;
+	struct cpt_vf *cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 562 */;
+	struct cpt_request_info *cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 560 */;
+	void *cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 560 */;
+	int cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 560 */;
+	u64 cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 521 */;
+	struct sglist_component *cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 48 */;
+	struct buf_ptr *cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 43 */;
+	union cpt_inst_s cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 422 */;
+	struct cpt_vq_command cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 421 */;
+	u8 cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 420 */;
+	union ctrl_info *cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 415 */;
+	struct cptvf_request *cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 414 */;
+	unsigned char cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 337 */;
+	union cpt_res_s *cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 336 */;
+	struct pending_qinfo *cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 33 */;
+	struct cpt_info_buffer *cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 316 */;
+	void cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 316 */;
+	union cpt_res_s cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 287 */;
+	struct command_chunk cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 250 */;
+	struct hlist_node *cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 247 */;
+	u8 *cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 230 */;
+	struct command_chunk *cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 229 */;
+	struct command_queue *cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 228 */;
+	struct command_qinfo *cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 227 */;
+	u32 cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 224 */;
+	union cpt_inst_s *cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 223 */;
+	u64 *cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 180 */;
+	u16 *cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 176 */;
+	struct pending_queue *cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 14 */;
+	struct pending_entry *cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 14 */;
+	struct sglist_component cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 135 */;
+	u16 cocci_id/* drivers/crypto/cavium/cpt/cptvf_reqmanager.c 124 */;
+}

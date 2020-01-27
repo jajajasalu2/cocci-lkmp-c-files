@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	struct led_info cocci_id/* arch/arm/mach-pxa/stargate2.c 818 */[];
+	const struct property_entry cocci_id/* arch/arm/mach-pxa/stargate2.c 792 */[];
+	struct pcf857x_platform_data cocci_id/* arch/arm/mach-pxa/stargate2.c 784 */;
+	struct platdata_mtd_ram cocci_id/* arch/arm/mach-pxa/stargate2.c 769 */;
+	void *cocci_id/* arch/arm/mach-pxa/stargate2.c 740 */;
+	unsigned int cocci_id/* arch/arm/mach-pxa/stargate2.c 734 */;
+	irq_handler_t cocci_id/* arch/arm/mach-pxa/stargate2.c 691 */;
+	struct smc91x_platdata cocci_id/* arch/arm/mach-pxa/stargate2.c 669 */;
+	struct resource cocci_id/* arch/arm/mach-pxa/stargate2.c 655 */[];
+	void __init cocci_id/* arch/arm/mach-pxa/stargate2.c 600 */;
+	void cocci_id/* arch/arm/mach-pxa/stargate2.c 600 */;
+	struct platform_device *cocci_id/* arch/arm/mach-pxa/stargate2.c 593 */[];
+	struct platform_device cocci_id/* arch/arm/mach-pxa/stargate2.c 588 */;
+	struct pxa2xx_udc_mach_info cocci_id/* arch/arm/mach-pxa/stargate2.c 584 */;
+	unsigned long cocci_id/* arch/arm/mach-pxa/stargate2.c 573 */[]__initdata;
+	struct i2c_board_info __initdata cocci_id/* arch/arm/mach-pxa/stargate2.c 545 */[];
+	struct da903x_platform_data cocci_id/* arch/arm/mach-pxa/stargate2.c 531 */;
+	struct da903x_subdev_info cocci_id/* arch/arm/mach-pxa/stargate2.c 467 */[];
+	struct gpio_led_platform_data cocci_id/* arch/arm/mach-pxa/stargate2.c 454 */;
+	struct gpio_led cocci_id/* arch/arm/mach-pxa/stargate2.c 438 */[];
+	struct pxamci_platform_data cocci_id/* arch/arm/mach-pxa/stargate2.c 433 */;
+	struct device *cocci_id/* arch/arm/mach-pxa/stargate2.c 427 */;
+	int cocci_id/* arch/arm/mach-pxa/stargate2.c 427 */;
+	struct i2c_pxa_platform_data cocci_id/* arch/arm/mach-pxa/stargate2.c 400 */;
+	struct spi_board_info cocci_id/* arch/arm/mach-pxa/stargate2.c 367 */[]__initdata;
+	struct pxa2xx_spi_chip cocci_id/* arch/arm/mach-pxa/stargate2.c 359 */;
+	struct pxa2xx_spi_controller cocci_id/* arch/arm/mach-pxa/stargate2.c 337 */;
+	struct flash_platform_data cocci_id/* arch/arm/mach-pxa/stargate2.c 319 */;
+	struct resource cocci_id/* arch/arm/mach-pxa/stargate2.c 313 */;
+	struct mtd_partition cocci_id/* arch/arm/mach-pxa/stargate2.c 294 */[];
+	struct regulator_init_data cocci_id/* arch/arm/mach-pxa/stargate2.c 182 */[];
+	enum stargate2_ldos{vcc_vref, vcc_cc2420, vcc_mica, vcc_bt, vcc_sensor_1_8, vcc_sensor_3, vcc_sram_ext, vcc_pxa_pll, vcc_pxa_usim, vcc_pxa_mem, vcc_pxa_flash, vcc_pxa_core, vcc_lcd, vcc_bb, vcc_bbio, vcc_io,} cocci_id/* arch/arm/mach-pxa/stargate2.c 155 */;
+	struct regulator_consumer_supply cocci_id/* arch/arm/mach-pxa/stargate2.c 151 */[];
+	struct gpiod_lookup_table cocci_id/* arch/arm/mach-pxa/stargate2.c 137 */;
+	const struct machine_desc cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 397 */;
+}

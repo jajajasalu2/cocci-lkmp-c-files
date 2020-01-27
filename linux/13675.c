@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	struct {
+		struct sms_msg_hdr msg;
+		u32 Data[4];
+	} cocci_id/* drivers/media/common/siano/smsdvb-main.c 922 */;
+	enum sms_device_type_st cocci_id/* drivers/media/common/siano/smsdvb-main.c 919 */;
+	struct sms_board *cocci_id/* drivers/media/common/siano/smsdvb-main.c 918 */;
+	enum fe_status cocci_id/* drivers/media/common/siano/smsdvb-main.c 893 */;
+	struct {
+		struct sms_msg_hdr msg;
+		u32 Data[3];
+	} cocci_id/* drivers/media/common/siano/smsdvb-main.c 852 */;
+	struct smsdvb_client_t cocci_id/* drivers/media/common/siano/smsdvb-main.c 850 */;
+	struct dtv_frontend_properties *cocci_id/* drivers/media/common/siano/smsdvb-main.c 848 */;
+	struct dvb_frontend *cocci_id/* drivers/media/common/siano/smsdvb-main.c 846 */;
+	struct dvb_frontend_tune_settings *cocci_id/* drivers/media/common/siano/smsdvb-main.c 836 */;
+	s32 cocci_id/* drivers/media/common/siano/smsdvb-main.c 781 */;
+	u16 *cocci_id/* drivers/media/common/siano/smsdvb-main.c 777 */;
+	u32 *cocci_id/* drivers/media/common/siano/smsdvb-main.c 761 */;
+	enum fe_status *cocci_id/* drivers/media/common/siano/smsdvb-main.c 746 */;
+	struct smsdvb_client_t *cocci_id/* drivers/media/common/siano/smsdvb-main.c 736 */;
+	int cocci_id/* drivers/media/common/siano/smsdvb-main.c 736 */;
+	struct completion *cocci_id/* drivers/media/common/siano/smsdvb-main.c 686 */;
+	size_t cocci_id/* drivers/media/common/siano/smsdvb-main.c 685 */;
+	struct smscore_device_t *cocci_id/* drivers/media/common/siano/smsdvb-main.c 67 */;
+	enum SMS_DVB3_EVENTS cocci_id/* drivers/media/common/siano/smsdvb-main.c 65 */;
+	struct sms_msg_data cocci_id/* drivers/media/common/siano/smsdvb-main.c 644 */;
+	struct dvb_demux_feed *cocci_id/* drivers/media/common/siano/smsdvb-main.c 640 */;
+	void cocci_id/* drivers/media/common/siano/smsdvb-main.c 64 */;
+	void *cocci_id/* drivers/media/common/siano/smsdvb-main.c 631 */;
+	struct sms_msg_hdr cocci_id/* drivers/media/common/siano/smsdvb-main.c 523 */;
+	bool cocci_id/* drivers/media/common/siano/smsdvb-main.c 513 */;
+	u8 *cocci_id/* drivers/media/common/siano/smsdvb-main.c 508 */;
+	struct sms_msg_hdr *cocci_id/* drivers/media/common/siano/smsdvb-main.c 508 */;
+	struct smscore_buffer_t *cocci_id/* drivers/media/common/siano/smsdvb-main.c 505 */;
+	struct sms_isdbt_stats_ex *cocci_id/* drivers/media/common/siano/smsdvb-main.c 418 */;
+	u32 cocci_id/* drivers/media/common/siano/smsdvb-main.c 39 */[];
+	struct sms_isdbt_layer_stats *cocci_id/* drivers/media/common/siano/smsdvb-main.c 326 */;
+	struct sms_isdbt_stats *cocci_id/* drivers/media/common/siano/smsdvb-main.c 322 */;
+	struct mutex cocci_id/* drivers/media/common/siano/smsdvb-main.c 30 */;
+	struct list_head cocci_id/* drivers/media/common/siano/smsdvb-main.c 29 */;
+	struct sms_stats *cocci_id/* drivers/media/common/siano/smsdvb-main.c 270 */;
+	u64 cocci_id/* drivers/media/common/siano/smsdvb-main.c 234 */;
+	struct RECEPTION_STATISTICS_PER_SLICES_S *cocci_id/* drivers/media/common/siano/smsdvb-main.c 230 */;
+	struct sms_tx_stats *cocci_id/* drivers/media/common/siano/smsdvb-main.c 213 */;
+	u32 cocci_id/* drivers/media/common/siano/smsdvb-main.c 182 */;
+	void __exit cocci_id/* drivers/media/common/siano/smsdvb-main.c 1212 */;
+	int __init cocci_id/* drivers/media/common/siano/smsdvb-main.c 1196 */;
+	struct dvb_frontend_ops cocci_id/* drivers/media/common/siano/smsdvb-main.c 1118 */;
+	struct smsclient_params_t cocci_id/* drivers/media/common/siano/smsdvb-main.c 1070 */;
+	struct device *cocci_id/* drivers/media/common/siano/smsdvb-main.c 1068 */;
+	const struct dvb_frontend_ops cocci_id/* drivers/media/common/siano/smsdvb-main.c 1036 */;
+}

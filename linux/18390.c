@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	struct mmdc_pmu {
+		struct pmu pmu;
+		void __iomem *mmdc_base;
+		cpumask_t cpu;
+		struct hrtimer hrtimer;
+		unsigned int active_events;
+		struct device *dev;
+		struct perf_event *mmdc_events[MMDC_NUM_COUNTERS];
+		struct hlist_node node;
+		struct fsl_mmdc_devtype_data *devtype_data;
+	} cocci_id/* arch/arm/mach-imx/mmdc.c 96 */;
+	enum cpuhp_state cocci_id/* arch/arm/mach-imx/mmdc.c 82 */;
+	void *cocci_id/* arch/arm/mach-imx/mmdc.c 75 */;
+	const struct of_device_id cocci_id/* arch/arm/mach-imx/mmdc.c 74 */[];
+	const struct fsl_mmdc_devtype_data cocci_id/* arch/arm/mach-imx/mmdc.c 67 */;
+	struct fsl_mmdc_devtype_data {
+		unsigned int flags;
+	} cocci_id/* arch/arm/mach-imx/mmdc.c 63 */;
+	int cocci_id/* arch/arm/mach-imx/mmdc.c 61 */;
+	int __init cocci_id/* arch/arm/mach-imx/mmdc.c 587 */;
+	struct platform_driver cocci_id/* arch/arm/mach-imx/mmdc.c 578 */;
+	void cocci_id/* arch/arm/mach-imx/mmdc.c 573 */;
+	u32 cocci_id/* arch/arm/mach-imx/mmdc.c 540 */;
+	struct clk *cocci_id/* arch/arm/mach-imx/mmdc.c 539 */;
+	struct device_node *cocci_id/* arch/arm/mach-imx/mmdc.c 537 */;
+	struct fsl_mmdc_devtype_data *cocci_id/* arch/arm/mach-imx/mmdc.c 503 */;
+	const struct of_device_id *cocci_id/* arch/arm/mach-imx/mmdc.c 475 */;
+	char *cocci_id/* arch/arm/mach-imx/mmdc.c 472 */;
+	struct mmdc_pmu *cocci_id/* arch/arm/mach-imx/mmdc.c 471 */;
+	struct platform_device *cocci_id/* arch/arm/mach-imx/mmdc.c 469 */;
+	void __iomem *cocci_id/* arch/arm/mach-imx/mmdc.c 469 */;
+	struct pmu cocci_id/* arch/arm/mach-imx/mmdc.c 438 */;
+	struct mmdc_pmu cocci_id/* arch/arm/mach-imx/mmdc.c 437 */;
+	enum hrtimer_restart cocci_id/* arch/arm/mach-imx/mmdc.c 421 */;
+	struct hrtimer *cocci_id/* arch/arm/mach-imx/mmdc.c 421 */;
+	struct hw_perf_event *cocci_id/* arch/arm/mach-imx/mmdc.c 361 */;
+	struct perf_event *cocci_id/* arch/arm/mach-imx/mmdc.c 358 */;
+	u64 cocci_id/* arch/arm/mach-imx/mmdc.c 308 */;
+	unsigned long cocci_id/* arch/arm/mach-imx/mmdc.c 258 */;
+	unsigned long *cocci_id/* arch/arm/mach-imx/mmdc.c 234 */;
+	struct pmu *cocci_id/* arch/arm/mach-imx/mmdc.c 233 */;
+	bool cocci_id/* arch/arm/mach-imx/mmdc.c 232 */;
+	struct hlist_node *cocci_id/* arch/arm/mach-imx/mmdc.c 214 */;
+	unsigned int cocci_id/* arch/arm/mach-imx/mmdc.c 214 */;
+	const struct attribute_group *cocci_id/* arch/arm/mach-imx/mmdc.c 175 */[];
+	struct attribute_group cocci_id/* arch/arm/mach-imx/mmdc.c 138 */;
+	struct attribute *cocci_id/* arch/arm/mach-imx/mmdc.c 133 */[];
+	struct device_attribute cocci_id/* arch/arm/mach-imx/mmdc.c 130 */;
+	struct device_attribute *cocci_id/* arch/arm/mach-imx/mmdc.c 123 */;
+	struct device *cocci_id/* arch/arm/mach-imx/mmdc.c 122 */;
+	ssize_t cocci_id/* arch/arm/mach-imx/mmdc.c 122 */;
+	ktime_t cocci_id/* arch/arm/mach-imx/mmdc.c 117 */;
+}

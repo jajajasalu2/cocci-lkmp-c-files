@@ -1,0 +1,58 @@
+cocci_test_suite() {
+	int __init cocci_id/* arch/powerpc/platforms/cell/iommu.c 911 */;
+	u32 cocci_id/* arch/powerpc/platforms/cell/iommu.c 823 */;
+	const u32 *cocci_id/* arch/powerpc/platforms/cell/iommu.c 796 */;
+	void __iomem *cocci_id/* arch/powerpc/platforms/cell/iommu.c 685 */;
+	unsigned long cocci_id/* arch/powerpc/platforms/cell/iommu.c 684 */;
+	void __init cocci_id/* arch/powerpc/platforms/cell/iommu.c 681 */;
+	void cocci_id/* arch/powerpc/platforms/cell/iommu.c 681 */;
+	struct device_node *cocci_id/* arch/powerpc/platforms/cell/iommu.c 617 */;
+	struct cbe_iommu *__initcocci_id/* arch/powerpc/platforms/cell/iommu.c 617 */;
+	const __be32 *cocci_id/* arch/powerpc/platforms/cell/iommu.c 602 */;
+	struct notifier_block cocci_id/* arch/powerpc/platforms/cell/iommu.c 594 */;
+	void *cocci_id/* arch/powerpc/platforms/cell/iommu.c 580 */;
+	struct notifier_block *cocci_id/* arch/powerpc/platforms/cell/iommu.c 579 */;
+	struct pci_dev *cocci_id/* arch/powerpc/platforms/cell/iommu.c 574 */;
+	u64 cocci_id/* arch/powerpc/platforms/cell/iommu.c 564 */;
+	struct device *cocci_id/* arch/powerpc/platforms/cell/iommu.c 561 */;
+	u64 cocci_id/* arch/powerpc/platforms/cell/iommu.c 559 */(struct device *dev);
+	struct iommu_window cocci_id/* arch/powerpc/platforms/cell/iommu.c 554 */;
+	struct cbe_iommu *cocci_id/* arch/powerpc/platforms/cell/iommu.c 542 */;
+	struct iommu_window *cocci_id/* arch/powerpc/platforms/cell/iommu.c 541 */;
+	struct iommu_table *cocci_id/* arch/powerpc/platforms/cell/iommu.c 539 */;
+	bool cocci_id/* arch/powerpc/platforms/cell/iommu.c 534 */;
+	struct iommu_window *__initcocci_id/* arch/powerpc/platforms/cell/iommu.c 461 */;
+	struct iommu_table_ops cocci_id/* arch/powerpc/platforms/cell/iommu.c 456 */;
+	unsigned int cocci_id/* arch/powerpc/platforms/cell/iommu.c 380 */;
+	struct page *cocci_id/* arch/powerpc/platforms/cell/iommu.c 320 */;
+	unsigned long *cocci_id/* arch/powerpc/platforms/cell/iommu.c 316 */;
+	const unsigned long *cocci_id/* arch/powerpc/platforms/cell/iommu.c 280 */;
+	const unsigned int *cocci_id/* arch/powerpc/platforms/cell/iommu.c 279 */;
+	struct resource cocci_id/* arch/powerpc/platforms/cell/iommu.c 259 */;
+	irqreturn_t cocci_id/* arch/powerpc/platforms/cell/iommu.c 230 */;
+	const unsigned long cocci_id/* arch/powerpc/platforms/cell/iommu.c 173 */;
+	enum dma_data_direction cocci_id/* arch/powerpc/platforms/cell/iommu.c 155 */;
+	u64 __iomem *cocci_id/* arch/powerpc/platforms/cell/iommu.c 132 */;
+	long cocci_id/* arch/powerpc/platforms/cell/iommu.c 130 */;
+	int cocci_id/* arch/powerpc/platforms/cell/iommu.c 127 */;
+	struct cbe_iommu cocci_id/* arch/powerpc/platforms/cell/iommu.c 126 */[NR_IOMMUS];
+	struct cbe_iommu {
+		int nid;
+		char name[NAMESIZE];
+		void __iomem *xlate_regs;
+		void __iomem *cmd_regs;
+		unsigned long *stab;
+		unsigned long *ptab;
+		void *pad_page;
+		struct list_head windows;
+	} cocci_id/* arch/powerpc/platforms/cell/iommu.c 110 */;
+	char *cocci_id/* arch/powerpc/platforms/cell/iommu.c 1018 */;
+	struct iommu_window {
+		struct list_head list;
+		struct cbe_iommu *iommu;
+		unsigned long offset;
+		unsigned long size;
+		unsigned int ioid;
+		struct iommu_table table;
+	} cocci_id/* arch/powerpc/platforms/cell/iommu.c 100 */;
+}

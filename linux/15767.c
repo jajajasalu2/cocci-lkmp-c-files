@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	u8 *cocci_id/* drivers/staging/wilc1000/netdev.c 97 */;
+	bool cocci_id/* drivers/staging/wilc1000/netdev.c 906 */;
+	enum nl80211_iftype cocci_id/* drivers/staging/wilc1000/netdev.c 905 */;
+	const char *cocci_id/* drivers/staging/wilc1000/netdev.c 904 */;
+	u8 cocci_id/* drivers/staging/wilc1000/netdev.c 887 */;
+	s8 cocci_id/* drivers/staging/wilc1000/netdev.c 86 */;
+	const struct net_device_ops cocci_id/* drivers/staging/wilc1000/netdev.c 831 */;
+	__le16 *cocci_id/* drivers/staging/wilc1000/netdev.c 818 */;
+	struct sk_buff *cocci_id/* drivers/staging/wilc1000/netdev.c 776 */;
+	unsigned char *cocci_id/* drivers/staging/wilc1000/netdev.c 775 */;
+	unsigned int cocci_id/* drivers/staging/wilc1000/netdev.c 773 */;
+	u32 cocci_id/* drivers/staging/wilc1000/netdev.c 770 */;
+	struct wilc *cocci_id/* drivers/staging/wilc1000/netdev.c 77 */;
+	struct wilc_vif *cocci_id/* drivers/staging/wilc1000/netdev.c 76 */;
+	struct net_device *cocci_id/* drivers/staging/wilc1000/netdev.c 74 */;
+	void cocci_id/* drivers/staging/wilc1000/netdev.c 74 */;
+	struct tx_complete_data *cocci_id/* drivers/staging/wilc1000/netdev.c 701 */;
+	netdev_tx_t cocci_id/* drivers/staging/wilc1000/netdev.c 697 */;
+	struct netdev_hw_addr *cocci_id/* drivers/staging/wilc1000/netdev.c 652 */;
+	struct net_device_stats *cocci_id/* drivers/staging/wilc1000/netdev.c 643 */;
+	unsigned char cocci_id/* drivers/staging/wilc1000/netdev.c 595 */[ETH_ALEN];
+	char cocci_id/* drivers/staging/wilc1000/netdev.c 543 */[20];
+	int cocci_id/* drivers/staging/wilc1000/netdev.c 47 */;
+	irqreturn_t cocci_id/* drivers/staging/wilc1000/netdev.c 31 */;
+	void *cocci_id/* drivers/staging/wilc1000/netdev.c 31 */;
+	u16 cocci_id/* drivers/staging/wilc1000/netdev.c 260 */;
+	struct host_if_drv *cocci_id/* drivers/staging/wilc1000/netdev.c 258 */;
+	struct wilc_priv *cocci_id/* drivers/staging/wilc1000/netdev.c 257 */;
+	char *cocci_id/* drivers/staging/wilc1000/netdev.c 191 */;
+	const struct firmware *cocci_id/* drivers/staging/wilc1000/netdev.c 190 */;
+}

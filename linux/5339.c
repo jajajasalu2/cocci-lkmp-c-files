@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	struct platform_driver *const *cocci_id/* drivers/base/platform.c 934 */;
+	int cocci_id/* drivers/base/platform.c 886 */;
+	struct platform_device *cocci_id/* drivers/base/platform.c 885 */;
+	const void *cocci_id/* drivers/base/platform.c 883 */;
+	struct module *cocci_id/* drivers/base/platform.c 883 */;
+	size_t cocci_id/* drivers/base/platform.c 883 */;
+	struct resource *cocci_id/* drivers/base/platform.c 882 */;
+	unsigned int cocci_id/* drivers/base/platform.c 882 */;
+	int (*cocci_id/* drivers/base/platform.c 881 */)(struct platform_device *);
+	struct platform_driver *cocci_id/* drivers/base/platform.c 880 */;
+	struct platform_device *__init_or_module cocci_id/* drivers/base/platform.c 879 */;
+	int __init_or_module cocci_id/* drivers/base/platform.c 814 */;
+	void __iomem *cocci_id/* drivers/base/platform.c 72 */;
+	const struct platform_device_info *cocci_id/* drivers/base/platform.c 648 */;
+	const struct property_entry *cocci_id/* drivers/base/platform.c 489 */;
+	void *cocci_id/* drivers/base/platform.c 465 */;
+	struct resource cocci_id/* drivers/base/platform.c 440 */;
+	const struct resource *cocci_id/* drivers/base/platform.c 435 */;
+	struct platform_object *cocci_id/* drivers/base/platform.c 408 */;
+	struct platform_object cocci_id/* drivers/base/platform.c 387 */;
+	struct device cocci_id/* drivers/base/platform.c 37 */;
+	struct platform_object {
+		struct platform_device pdev;
+		char name[];
+	} cocci_id/* drivers/base/platform.c 352 */;
+	struct platform_device **cocci_id/* drivers/base/platform.c 335 */;
+	const char *cocci_id/* drivers/base/platform.c 274 */;
+	struct irq_data *cocci_id/* drivers/base/platform.c 170 */;
+	int __init cocci_id/* drivers/base/platform.c 1330 */;
+	void __weak __init cocci_id/* drivers/base/platform.c 1328 */;
+	void cocci_id/* drivers/base/platform.c 1328 */;
+	const struct device_driver *cocci_id/* drivers/base/platform.c 1321 */;
+	struct device_driver *cocci_id/* drivers/base/platform.c 1311 */;
+	struct device *cocci_id/* drivers/base/platform.c 1309 */;
+	struct bus_type cocci_id/* drivers/base/platform.c 1299 */;
+	const struct dev_pm_ops cocci_id/* drivers/base/platform.c 1293 */;
+	enum dev_dma_attr cocci_id/* drivers/base/platform.c 1280 */;
+	pm_message_t cocci_id/* drivers/base/platform.c 1136 */;
+	const struct platform_device_id *cocci_id/* drivers/base/platform.c 1082 */;
+	struct kobj_uevent_env *cocci_id/* drivers/base/platform.c 1063 */;
+	struct attribute *cocci_id/* drivers/base/platform.c 1056 */[];
+	struct device_attribute *cocci_id/* drivers/base/platform.c 1043 */;
+	char *cocci_id/* drivers/base/platform.c 1043 */;
+	ssize_t cocci_id/* drivers/base/platform.c 1042 */;
+}

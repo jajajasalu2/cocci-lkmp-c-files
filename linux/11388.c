@@ -1,0 +1,130 @@
+cocci_test_suite() {
+	const struct drm_connector_helper_funcs cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 980 */;
+	struct vmw_stdu_update_gb_image {
+		SVGA3dCmdHeader header;
+		SVGA3dCmdUpdateGBImage body;
+	} cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 98 */;
+	const struct drm_connector_funcs cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 969 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 962 */;
+	const struct drm_encoder_funcs cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 942 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 937 */;
+	struct vmw_stdu_surface_copy {
+		SVGA3dCmdHeader header;
+		SVGA3dCmdSurfaceCopy body;
+	} cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 93 */;
+	const struct drm_crtc_funcs cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 911 */;
+	struct vmw_stdu_surface_copy cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 885 */;
+	struct vmw_stdu_dma {
+		SVGA3dCmdHeader header;
+		SVGA3dCmdSurfaceDMA body;
+	} cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 88 */;
+	typeof(*vfbs) cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 860 */;
+	struct vmw_framebuffer_surface *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 859 */;
+	struct vmw_fence_obj **cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 856 */;
+	unsigned cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 855 */;
+	struct vmw_resource *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 852 */;
+	struct vmw_stdu_update {
+		SVGA3dCmdHeader header;
+		SVGA3dCmdUpdateGBScreenTarget body;
+	} cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 83 */;
+	size_t cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 794 */;
+	struct vmw_stdu_update *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 793 */;
+	s32 cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 771 */;
+	struct SVGA3dCopyBox *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 756 */;
+	typeof(*stdu) cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 753 */;
+	struct vmw_screen_target_display_unit *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 752 */;
+	struct vmw_stdu_surface_copy *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 751 */;
+	struct vmw_stdu_dirty *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 749 */;
+	struct vmw_kms_dirty *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 747 */;
+	void cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 747 */;
+	struct vmw_stdu_update cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 716 */;
+	SVGA3dCmdSurfaceDMASuffix cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 714 */;
+	struct vmw_stdu_dma cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 712 */;
+	struct vmw_stdu_dirty cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 685 */;
+	struct vmw_framebuffer_bo cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 684 */;
+	struct vmw_buffer_object *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 683 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 681 */;
+	bool cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 679 */;
+	uint32_t cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 677 */;
+	struct drm_vmw_rect *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 676 */;
+	struct drm_clip_rect *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 675 */;
+	struct drm_vmw_fence_rep __user *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 674 */;
+	struct vmw_framebuffer *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 673 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 672 */;
+	struct vmw_private *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 671 */;
+	int cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 671 */;
+	struct vmw_stdu_dirty {
+		struct vmw_kms_dirty base;
+		SVGA3dTransferType transfer;
+		s32 left,right,top,bottom;
+		s32 fb_left,fb_top;
+		u32 pitch;
+		union {
+			struct vmw_buffer_object *buf;
+			u32 sid;
+		};
+	} cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 67 */;
+	struct drm_clip_rect cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 616 */;
+	struct vmw_diff_cpy cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 581 */;
+	u32 cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 580 */;
+	struct ttm_buffer_object *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 579 */;
+	SVGA3dCmdSurfaceDMASuffix *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 497 */;
+	enum stdu_content_type{SAME_AS_DISPLAY=0, SEPARATE_SURFACE, SEPARATE_BO,} cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 47 */;
+	struct vmw_stdu_dma *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 458 */;
+	struct drm_crtc_state *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 416 */;
+	struct vmw_screen_target_display_unit cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 39 */;
+	struct vmw_connector_state *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 369 */;
+	struct drm_connector_state *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 368 */;
+	struct {
+		SVGA3dCmdHeader header;
+		SVGA3dCmdDestroyGBScreenTarget body;
+	} *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 322 */;
+	struct {
+		SVGA3dCmdHeader header;
+		SVGA3dCmdBindGBScreenTarget body;
+	} *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 217 */;
+	SVGA3dSurfaceImageId cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 215 */;
+	const struct vmw_resource *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 213 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1883 */;
+	struct drm_plane *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1731 */;
+	const struct drm_crtc_helper_funcs cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1704 */;
+	const struct drm_plane_helper_funcs cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1688 */;
+	struct {
+		SVGA3dCmdHeader header;
+		SVGA3dCmdDefineGBScreenTarget body;
+	} *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 168 */;
+	const struct drm_plane_funcs cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1675 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 165 */;
+	struct vmw_fence_obj *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1596 */;
+	struct drm_pending_vblank_event *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1595 */;
+	struct vmw_plane_state *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1592 */;
+	struct vmw_du_update_plane cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1543 */;
+	struct drm_rect cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1442 */;
+	struct drm_atomic_helper_damage_iter cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1441 */;
+	struct vmw_du_update_plane_buffer cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1368 */;
+	struct drm_plane_state *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1364 */;
+	SVGA3dBox *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1324 */;
+	struct vmw_stdu_update_gb_image *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1294 */;
+	void cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 129 */(struct vmw_screen_target_display_unit *stdu);
+	typeof(*bo_update) cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1278 */;
+	struct vmw_du_update_plane_buffer *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1277 */;
+	struct drm_rect *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1274 */;
+	void *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1274 */;
+	struct vmw_du_update_plane *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1273 */;
+	struct SVGA3dCopyBox cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1211 */;
+	typeof(*vfbbo) cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1207 */;
+	struct vmw_framebuffer_bo *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1203 */;
+	struct vmw_stdu_update_gb_image cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1195 */;
+	struct vmw_screen_target_display_unit {
+		struct vmw_display_unit base;
+		struct vmw_surface *display_srf;
+		enum stdu_content_type content_fb_type;
+		s32 display_width,display_height;
+		bool defined;
+		unsigned int cpp;
+	} cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 115 */;
+	struct drm_vmw_size cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1068 */;
+	struct vmw_surface cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1067 */;
+	enum stdu_content_type cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1039 */;
+	struct drm_framebuffer *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1036 */;
+}

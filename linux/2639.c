@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/i2c/busses/i2c-ocores.c 803 */;
+	unsigned long cocci_id/* drivers/i2c/busses/i2c-ocores.c 782 */;
+	struct device *cocci_id/* drivers/i2c/busses/i2c-ocores.c 777 */;
+	struct resource *cocci_id/* drivers/i2c/busses/i2c-ocores.c 610 */;
+	struct ocores_i2c_platform_data *cocci_id/* drivers/i2c/busses/i2c-ocores.c 608 */;
+	long cocci_id/* drivers/i2c/busses/i2c-ocores.c 593 */;
+	bool cocci_id/* drivers/i2c/busses/i2c-ocores.c 535 */;
+	const struct of_device_id *cocci_id/* drivers/i2c/busses/i2c-ocores.c 532 */;
+	struct device_node *cocci_id/* drivers/i2c/busses/i2c-ocores.c 531 */;
+	struct platform_device *cocci_id/* drivers/i2c/busses/i2c-ocores.c 528 */;
+	u32 cocci_id/* drivers/i2c/busses/i2c-ocores.c 497 */;
+	void *cocci_id/* drivers/i2c/busses/i2c-ocores.c 471 */;
+	const struct of_device_id cocci_id/* drivers/i2c/busses/i2c-ocores.c 468 */[];
+	const struct i2c_adapter cocci_id/* drivers/i2c/busses/i2c-ocores.c 461 */;
+	struct i2c_algorithm cocci_id/* drivers/i2c/busses/i2c-ocores.c 455 */;
+	struct i2c_adapter *cocci_id/* drivers/i2c/busses/i2c-ocores.c 450 */;
+	struct ocores_i2c {
+		void __iomem *base;
+		int iobase;
+		u32 reg_shift;
+		u32 reg_io_width;
+		unsigned long flags;
+		wait_queue_head_t wait;
+		struct i2c_adapter adap;
+		struct i2c_msg *msg;
+		int pos;
+		int nmsgs;
+		int state;
+		spinlock_t process_lock;
+		struct clk *clk;
+		int ip_clock_khz;
+		int bus_clock_khz;
+		void (*setreg)(struct ocores_i2c *i2c, int reg, u8 value);
+		u8 (*getreg)(struct ocores_i2c *i2c, int reg);
+	} cocci_id/* drivers/i2c/busses/i2c-ocores.c 33 */;
+	const unsigned long cocci_id/* drivers/i2c/busses/i2c-ocores.c 282 */;
+	irqreturn_t cocci_id/* drivers/i2c/busses/i2c-ocores.c 237 */;
+	struct i2c_msg *cocci_id/* drivers/i2c/busses/i2c-ocores.c 162 */;
+	u8 cocci_id/* drivers/i2c/busses/i2c-ocores.c 155 */;
+	struct ocores_i2c *cocci_id/* drivers/i2c/busses/i2c-ocores.c 155 */;
+	int cocci_id/* drivers/i2c/busses/i2c-ocores.c 155 */;
+	void cocci_id/* drivers/i2c/busses/i2c-ocores.c 150 */;
+}

@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 981 */;
+	void cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 981 */;
+	int __init cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 975 */;
+	struct platform_driver cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 966 */;
+	const struct platform_device_id cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 960 */[];
+	struct usb_otg *cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 848 */;
+	struct ab8500 *cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 847 */;
+	enum ab8505_usb_link_status{USB_LINK_NOT_CONFIGURED_8505=0, USB_LINK_STD_HOST_NC_8505, USB_LINK_STD_HOST_C_NS_8505, USB_LINK_STD_HOST_C_S_8505, USB_LINK_CDP_8505, USB_LINK_RESERVED0_8505, USB_LINK_RESERVED1_8505, USB_LINK_DEDICATED_CHG_8505, USB_LINK_ACA_RID_A_8505, USB_LINK_ACA_RID_B_8505, USB_LINK_ACA_RID_C_NM_8505, USB_LINK_RESERVED2_8505, USB_LINK_RESERVED3_8505, USB_LINK_HM_IDGND_8505, USB_LINK_CHARGERPORT_NOT_OK_8505, USB_LINK_CHARGER_DM_HIGH_8505, USB_LINK_PHYEN_NO_VBUS_NO_IDGND_8505, USB_LINK_STD_UPSTREAM_NO_IDGNG_NO_VBUS_8505, USB_LINK_STD_UPSTREAM_8505, USB_LINK_CHARGER_SE1_8505, USB_LINK_CARKIT_CHGR_1_8505, USB_LINK_CARKIT_CHGR_2_8505, USB_LINK_ACA_DOCK_CHGR_8505, USB_LINK_SAMSUNG_BOOT_CBL_PHY_EN_8505, USB_LINK_SAMSUNG_BOOT_CBL_PHY_DISB_8505, USB_LINK_SAMSUNG_UART_CBL_PHY_EN_8505, USB_LINK_SAMSUNG_UART_CBL_PHY_DISB_8505, USB_LINK_MOTOROLA_FACTORY_CBL_PHY_EN_8505,} cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 76 */;
+	struct platform_device *cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 713 */;
+	struct usb_bus *cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 634 */;
+	struct usb_gadget *cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 610 */;
+	struct usb_phy *cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 603 */;
+	struct ab8500_usb cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 593 */;
+	struct work_struct *cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 591 */;
+	enum ab8500_usb_link_status{USB_LINK_NOT_CONFIGURED_8500=0, USB_LINK_STD_HOST_NC_8500, USB_LINK_STD_HOST_C_NS_8500, USB_LINK_STD_HOST_C_S_8500, USB_LINK_HOST_CHG_NM_8500, USB_LINK_HOST_CHG_HS_8500, USB_LINK_HOST_CHG_HS_CHIRP_8500, USB_LINK_DEDICATED_CHG_8500, USB_LINK_ACA_RID_A_8500, USB_LINK_ACA_RID_B_8500, USB_LINK_ACA_RID_C_NM_8500, USB_LINK_ACA_RID_C_HS_8500, USB_LINK_ACA_RID_C_HS_CHIRP_8500, USB_LINK_HM_IDGND_8500, USB_LINK_RESERVED_8500, USB_LINK_NOT_VALID_LINK_8500,} cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 57 */;
+	enum usb_phy_events cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 546 */;
+	struct ab8500_usb *cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 545 */;
+	irqreturn_t cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 543 */;
+	void *cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 543 */;
+	int cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 543 */;
+	enum ux500_musb_vbus_id_status cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 406 */;
+	enum ab8500_usb_link_status cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 404 */;
+	enum ab8505_usb_link_status cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 314 */;
+	u8 cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 273 */;
+	bool cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 271 */;
+	struct ab8500_usb {
+		struct usb_phy phy;
+		struct device *dev;
+		struct ab8500 *ab8500;
+		unsigned vbus_draw;
+		struct work_struct phy_dis_work;
+		enum ab8500_usb_mode mode;
+		struct clk *sysclk;
+		struct regulator *v_ape;
+		struct regulator *v_musb;
+		struct regulator *v_ulpi;
+		int saved_v_ulpi;
+		int previous_link_status_state;
+		struct pinctrl *pinctrl;
+		struct pinctrl_state *pins_sleep;
+		bool enabled_charging_detection;
+		unsigned int flags;
+	} cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 125 */;
+	enum ab8500_usb_mode{USB_IDLE=0, USB_PERIPHERAL, USB_HOST, USB_DEDICATED_CHG,} cocci_id/* drivers/usb/phy/phy-ab8500-usb.c 107 */;
+}

@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* sound/soc/img/img-i2s-out.c 611 */;
+	const struct of_device_id cocci_id/* sound/soc/img/img-i2s-out.c 599 */[];
+	struct platform_device *cocci_id/* sound/soc/img/img-i2s-out.c 541 */;
+	struct img_i2s_out {
+		void __iomem *base;
+		struct clk *clk_sys;
+		struct clk *clk_ref;
+		struct snd_dmaengine_dai_dma_data dma_data;
+		struct device *dev;
+		unsigned int max_i2s_chan;
+		void __iomem *channel_base;
+		bool force_clk_active;
+		unsigned int active_channels;
+		struct reset_control *rst;
+		struct snd_soc_dai_driver dai_driver;
+		u32 suspend_ctl;
+		u32 *suspend_ch_ctl;
+	} cocci_id/* sound/soc/img/img-i2s-out.c 51 */;
+	struct device *cocci_id/* sound/soc/img/img-i2s-out.c 431 */;
+	void __iomem *cocci_id/* sound/soc/img/img-i2s-out.c 427 */;
+	struct resource *cocci_id/* sound/soc/img/img-i2s-out.c 426 */;
+	const struct snd_dmaengine_pcm_config cocci_id/* sound/soc/img/img-i2s-out.c 419 */;
+	struct snd_dmaengine_dai_dma_data *cocci_id/* sound/soc/img/img-i2s-out.c 403 */;
+	struct snd_soc_pcm_runtime *cocci_id/* sound/soc/img/img-i2s-out.c 402 */;
+	unsigned int cocci_id/* sound/soc/img/img-i2s-out.c 401 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/img/img-i2s-out.c 399 */;
+	struct dma_slave_config *cocci_id/* sound/soc/img/img-i2s-out.c 399 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/img/img-i2s-out.c 398 */;
+	const struct snd_soc_component_driver cocci_id/* sound/soc/img/img-i2s-out.c 394 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/img/img-i2s-out.c 385 */;
+	int cocci_id/* sound/soc/img/img-i2s-out.c 385 */;
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/img/img-i2s-out.c 379 */;
+	bool cocci_id/* sound/soc/img/img-i2s-out.c 295 */;
+	snd_pcm_format_t cocci_id/* sound/soc/img/img-i2s-out.c 221 */;
+	long cocci_id/* sound/soc/img/img-i2s-out.c 218 */;
+	u32 cocci_id/* sound/soc/img/img-i2s-out.c 121 */;
+	struct img_i2s_out *cocci_id/* sound/soc/img/img-i2s-out.c 121 */;
+	void cocci_id/* sound/soc/img/img-i2s-out.c 121 */;
+}

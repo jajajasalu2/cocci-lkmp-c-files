@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/video/fbdev/sunxvr500.c 98 */;
+	struct e3d_info *cocci_id/* drivers/video/fbdev/sunxvr500.c 98 */;
+	int cocci_id/* drivers/video/fbdev/sunxvr500.c 98 */;
+	void cocci_id/* drivers/video/fbdev/sunxvr500.c 98 */;
+	int __init cocci_id/* drivers/video/fbdev/sunxvr500.c 426 */;
+	struct pci_driver cocci_id/* drivers/video/fbdev/sunxvr500.c 417 */;
+	const struct pci_device_id cocci_id/* drivers/video/fbdev/sunxvr500.c 395 */[];
+	struct e3d_info cocci_id/* drivers/video/fbdev/sunxvr500.c 273 */;
+	struct e3d_info {
+		struct fb_info *info;
+		struct pci_dev *pdev;
+		spinlock_t lock;
+		char __iomem *fb_base;
+		unsigned long fb_base_phys;
+		unsigned long fb8_buf_diff;
+		unsigned long regs_base_phys;
+		void __iomem *ramdac;
+		struct device_node *of_node;
+		unsigned int width;
+		unsigned int height;
+		unsigned int depth;
+		unsigned int fb_size;
+		u32 fb_base_reg;
+		u32 fb8_0_off;
+		u32 fb8_1_off;
+		u32 pseudo_palette[16];
+	} cocci_id/* drivers/video/fbdev/sunxvr500.c 27 */;
+	unsigned int cocci_id/* drivers/video/fbdev/sunxvr500.c 249 */;
+	const char *cocci_id/* drivers/video/fbdev/sunxvr500.c 246 */;
+	struct device_node *cocci_id/* drivers/video/fbdev/sunxvr500.c 245 */;
+	const struct pci_device_id *cocci_id/* drivers/video/fbdev/sunxvr500.c 243 */;
+	struct pci_dev *cocci_id/* drivers/video/fbdev/sunxvr500.c 242 */;
+	struct fb_var_screeninfo *cocci_id/* drivers/video/fbdev/sunxvr500.c 200 */;
+	struct fb_ops cocci_id/* drivers/video/fbdev/sunxvr500.c 189 */;
+	const struct fb_copyarea *cocci_id/* drivers/video/fbdev/sunxvr500.c 176 */;
+	struct fb_info *cocci_id/* drivers/video/fbdev/sunxvr500.c 176 */;
+	const struct fb_fillrect *cocci_id/* drivers/video/fbdev/sunxvr500.c 163 */;
+	const struct fb_image *cocci_id/* drivers/video/fbdev/sunxvr500.c 150 */;
+	u32 *cocci_id/* drivers/video/fbdev/sunxvr500.c 130 */;
+	unsigned cocci_id/* drivers/video/fbdev/sunxvr500.c 111 */;
+	unsigned long cocci_id/* drivers/video/fbdev/sunxvr500.c 101 */;
+	void __iomem *cocci_id/* drivers/video/fbdev/sunxvr500.c 100 */;
+}

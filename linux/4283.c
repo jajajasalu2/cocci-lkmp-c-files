@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	struct mlxreg_core_hotplug_platform_data cocci_id/* drivers/platform/x86/mlx-platform.c 394 */;
+	struct mlxreg_core_item cocci_id/* drivers/platform/x86/mlx-platform.c 354 */[];
+	struct mlxreg_core_data cocci_id/* drivers/platform/x86/mlx-platform.c 345 */[];
+	struct i2c_board_info cocci_id/* drivers/platform/x86/mlx-platform.c 264 */[];
+	struct mlxplat_priv *cocci_id/* drivers/platform/x86/mlx-platform.c 2256 */;
+	void __exit cocci_id/* drivers/platform/x86/mlx-platform.c 2254 */;
+	void cocci_id/* drivers/platform/x86/mlx-platform.c 2254 */;
+	void __iomem *cocci_id/* drivers/platform/x86/mlx-platform.c 221 */;
+	struct i2c_mux_reg_platform_data cocci_id/* drivers/platform/x86/mlx-platform.c 216 */[];
+	const int cocci_id/* drivers/platform/x86/mlx-platform.c 213 */[];
+	struct mlxplat_priv cocci_id/* drivers/platform/x86/mlx-platform.c 2091 */;
+	struct i2c_adapter *cocci_id/* drivers/platform/x86/mlx-platform.c 2040 */;
+	int *cocci_id/* drivers/platform/x86/mlx-platform.c 2038 */;
+	const int cocci_id/* drivers/platform/x86/mlx-platform.c 199 */[][MLXPLAT_CPLD_GRP_CHNL_NUM];
+	const struct dmi_system_id cocci_id/* drivers/platform/x86/mlx-platform.c 1919 */[]__initconst;
+	int cocci_id/* drivers/platform/x86/mlx-platform.c 1822 */;
+	const struct dmi_system_id *cocci_id/* drivers/platform/x86/mlx-platform.c 1820 */;
+	int __init cocci_id/* drivers/platform/x86/mlx-platform.c 1820 */;
+	const struct regmap_config *cocci_id/* drivers/platform/x86/mlx-platform.c 1818 */;
+	struct mlxreg_core_platform_data *cocci_id/* drivers/platform/x86/mlx-platform.c 1816 */[MLXPLAT_CPLD_WD_MAX_DEVS];
+	struct mlxreg_core_platform_data *cocci_id/* drivers/platform/x86/mlx-platform.c 1815 */;
+	struct mlxreg_core_hotplug_platform_data *cocci_id/* drivers/platform/x86/mlx-platform.c 1812 */;
+	struct platform_device *cocci_id/* drivers/platform/x86/mlx-platform.c 1810 */;
+	struct resource cocci_id/* drivers/platform/x86/mlx-platform.c 1806 */[];
+	const struct resource cocci_id/* drivers/platform/x86/mlx-platform.c 180 */[];
+	const struct regmap_config cocci_id/* drivers/platform/x86/mlx-platform.c 1778 */;
+	struct mlxplat_mlxcpld_regmap_context *cocci_id/* drivers/platform/x86/mlx-platform.c 1763 */;
+	unsigned int *cocci_id/* drivers/platform/x86/mlx-platform.c 1761 */;
+	void *cocci_id/* drivers/platform/x86/mlx-platform.c 1761 */;
+	struct mlxplat_mlxcpld_regmap_context cocci_id/* drivers/platform/x86/mlx-platform.c 1758 */;
+	struct mlxplat_mlxcpld_regmap_context {
+		void __iomem *base;
+	} cocci_id/* drivers/platform/x86/mlx-platform.c 1754 */;
+	const struct reg_default cocci_id/* drivers/platform/x86/mlx-platform.c 1742 */[];
+	struct mlxplat_priv {
+		struct platform_device *pdev_i2c;
+		struct platform_device *pdev_mux[MLXPLAT_CPLD_LPC_MUX_DEVS];
+		struct platform_device *pdev_hotplug;
+		struct platform_device *pdev_led;
+		struct platform_device *pdev_io_regs;
+		struct platform_device *pdev_fan;
+		struct platform_device *pdev_wd[MLXPLAT_CPLD_WD_MAX_DEVS];
+		void *regmap;
+	} cocci_id/* drivers/platform/x86/mlx-platform.c 168 */;
+	bool cocci_id/* drivers/platform/x86/mlx-platform.c 1608 */;
+	struct device *cocci_id/* drivers/platform/x86/mlx-platform.c 1608 */;
+	unsigned int cocci_id/* drivers/platform/x86/mlx-platform.c 1608 */;
+	struct mlxreg_core_platform_data cocci_id/* drivers/platform/x86/mlx-platform.c 1479 */[];
+	struct mlxreg_core_platform_data cocci_id/* drivers/platform/x86/mlx-platform.c 1423 */;
+}

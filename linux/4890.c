@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 98 */[MLX5_ST_SZ_DW(create_srq_out)];
+	struct mlx5_srq_table *cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 706 */;
+	void cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 68 */;
+	struct mlx5_srq_table cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 670 */;
+	struct mlx5_eqe *cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 663 */;
+	unsigned long cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 659 */;
+	struct notifier_block *cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 658 */;
+	u32 cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 509 */[MLX5_ST_SZ_DW(query_xrq_in)];
+	u32 cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 481 */[MLX5_ST_SZ_DW(destroy_xrq_out)];
+	u32 cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 480 */[MLX5_ST_SZ_DW(destroy_xrq_in)];
+	u32 cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 435 */[MLX5_ST_SZ_DW(create_xrq_out)];
+	u32 *cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 398 */;
+	void *cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 356 */;
+	u16 cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 354 */;
+	struct mlx5_ib_dev *cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 353 */;
+	struct mlx5_core_srq *cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 353 */;
+	int cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 353 */;
+	u32 cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 345 */[MLX5_ST_SZ_DW(destroy_rmp_out)];
+	u32 cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 344 */[MLX5_ST_SZ_DW(destroy_rmp_in)];
+	struct mlx5_srq_attr *cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 300 */;
+	u32 cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 269 */[MLX5_ST_SZ_DW(query_xrc_srq_in)];
+	u32 cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 253 */[MLX5_ST_SZ_DW(arm_xrc_srq_out)];
+	u32 cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 252 */[MLX5_ST_SZ_DW(arm_xrc_srq_in)];
+	u32 cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 238 */[MLX5_ST_SZ_DW(destroy_xrc_srq_out)];
+	u32 cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 237 */[MLX5_ST_SZ_DW(destroy_xrc_srq_in)];
+	u32 cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 196 */[MLX5_ST_SZ_DW(create_xrc_srq_out)];
+	u32 cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 166 */[MLX5_ST_SZ_DW(query_srq_in)];
+	u32 cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 151 */[MLX5_ST_SZ_DW(arm_rq_out)];
+	u32 cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 150 */[MLX5_ST_SZ_DW(arm_rq_in)];
+	u32 cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 14 */;
+	u32 cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 136 */[MLX5_ST_SZ_DW(destroy_srq_out)];
+	u32 cocci_id/* drivers/infiniband/hw/mlx5/srq_cmd.c 135 */[MLX5_ST_SZ_DW(destroy_srq_in)];
+}

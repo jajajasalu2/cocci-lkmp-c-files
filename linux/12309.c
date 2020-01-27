@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 65 */;
+	const struct drm_connector_funcs cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 648 */;
+	const struct shmob_drm_interface_data *cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 64 */;
+	const struct drm_connector_helper_funcs cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 634 */;
+	struct shmob_drm_connector *cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 629 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 627 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 626 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 599 */;
+	struct shmob_drm_connector cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 594 */;
+	const struct drm_encoder_funcs cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 566 */;
+	const struct drm_encoder_helper_funcs cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 553 */;
+	struct drm_display_mode cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 530 */;
+	struct shmob_drm_encoder *cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 502 */;
+	struct shmob_drm_device *cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 50 */;
+	void cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 50 */;
+	struct shmob_drm_encoder cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 498 */;
+	const struct drm_crtc_funcs cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 469 */;
+	u32 cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 440 */;
+	unsigned long cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 439 */;
+	bool cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 437 */;
+	struct drm_modeset_acquire_ctx *cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 409 */;
+	uint32_t cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 408 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 392 */;
+	struct drm_pending_vblank_event *cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 391 */;
+	const struct drm_crtc_helper_funcs cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 381 */;
+	int cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 37 */;
+	const struct shmob_drm_format_info *cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 351 */;
+	struct shmob_drm_crtc cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 321 */;
+	unsigned int cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 291 */;
+	struct drm_gem_cma_object *cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 290 */;
+	struct drm_framebuffer *cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 289 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 288 */;
+	struct shmob_drm_crtc *cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 285 */;
+	struct drm_plane *cocci_id/* drivers/gpu/drm/shmobile/shmob_drm_crtc.c 158 */;
+}

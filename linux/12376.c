@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct drm_framebuffer *cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 90 */;
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 89 */;
+	struct drm_crtc_state *cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 87 */;
+	struct drm_plane_state *cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 86 */;
+	struct drm_simple_display_pipe *cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 85 */;
+	u64 cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 57 */;
+	struct clk_init_data cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 543 */;
+	const char *cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 542 */;
+	struct clk *cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 540 */;
+	const struct clk_ops cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 530 */;
+	enum drm_mode_status cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 50 */;
+	u32 cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 490 */;
+	struct pl111_drm_dev_private cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 489 */;
+	struct pl111_drm_dev_private *cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 488 */;
+	long cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 477 */;
+	bool cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 448 */;
+	unsigned long *cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 448 */;
+	struct clk_hw *cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 447 */;
+	unsigned long cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 447 */;
+	int cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 447 */;
+	struct drm_simple_display_pipe_funcs cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 438 */;
+	struct drm_pending_vblank_event *cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 395 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 360 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 359 */;
+	void cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 357 */;
+	irqreturn_t cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 27 */;
+	void *cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 27 */;
+	const struct drm_bridge_timings *cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 208 */;
+	struct drm_bridge *cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 130 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 129 */;
+	struct drm_plane *cocci_id/* drivers/gpu/drm/pl111/pl111_display.c 124 */;
+}

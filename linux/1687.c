@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct device_attribute *cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 659 */;
+	ssize_t cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 658 */;
+	const int cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 610 */;
+	const struct st_sensor_settings *cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 609 */;
+	const char *cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 608 */;
+	struct st_sensor_odr_avl *cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 57 */;
+	s32 cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 559 */;
+	s16 cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 557 */;
+	u8 *cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 539 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 536 */;
+	bool cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 463 */;
+	u8 cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 438 */;
+	struct st_sensor_data *cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 42 */;
+	unsigned *cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 40 */;
+	unsigned cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 39 */;
+	struct st_sensors_platform_data *cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 381 */;
+	struct iio_dev *cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 38 */;
+	int cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 38 */;
+	char *cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 360 */;
+	const struct of_device_id *cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 359 */;
+	struct device *cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 358 */;
+	void cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 358 */;
+	struct device_node *cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 327 */;
+	u32 cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 24 */;
+	const u8 *cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 24 */;
+	struct st_sensor_odr_avl cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 168 */;
+	struct st_sensor_fullscale_avl *cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 154 */;
+	int *cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 117 */;
+	unsigned int cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 117 */;
+	struct st_sensor_settings *cocci_id/* drivers/iio/common/st_sensors/st_sensors_core.c 116 */;
+}

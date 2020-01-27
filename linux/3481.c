@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct timer_list *cocci_id/* drivers/mmc/host/wbsd.c 946 */;
+	const struct mmc_host_ops cocci_id/* drivers/mmc/host/wbsd.c 930 */;
+	struct mmc_ios *cocci_id/* drivers/mmc/host/wbsd.c 835 */;
+	int cocci_id/* drivers/mmc/host/wbsd.c 76 */;
+	struct mmc_request *cocci_id/* drivers/mmc/host/wbsd.c 741 */;
+	unsigned int cocci_id/* drivers/mmc/host/wbsd.c 74 */;
+	const unsigned int cocci_id/* drivers/mmc/host/wbsd.c 72 */;
+	u8 cocci_id/* drivers/mmc/host/wbsd.c 667 */;
+	unsigned long cocci_id/* drivers/mmc/host/wbsd.c 665 */;
+	const int cocci_id/* drivers/mmc/host/wbsd.c 62 */[];
+	u16 cocci_id/* drivers/mmc/host/wbsd.c 530 */;
+	const struct pnp_device_id cocci_id/* drivers/mmc/host/wbsd.c 52 */[];
+	char *cocci_id/* drivers/mmc/host/wbsd.c 401 */;
+	struct mmc_command *cocci_id/* drivers/mmc/host/wbsd.c 314 */;
+	size_t cocci_id/* drivers/mmc/host/wbsd.c 283 */;
+	struct mmc_data *cocci_id/* drivers/mmc/host/wbsd.c 281 */;
+	void __exit cocci_id/* drivers/mmc/host/wbsd.c 1966 */;
+	int __init cocci_id/* drivers/mmc/host/wbsd.c 1927 */;
+	struct pnp_driver cocci_id/* drivers/mmc/host/wbsd.c 1911 */;
+	struct platform_driver cocci_id/* drivers/mmc/host/wbsd.c 1898 */;
+	struct platform_device *cocci_id/* drivers/mmc/host/wbsd.c 1896 */;
+	pm_message_t cocci_id/* drivers/mmc/host/wbsd.c 1801 */;
+	const struct pnp_device_id *cocci_id/* drivers/mmc/host/wbsd.c 1768 */;
+	struct pnp_dev *cocci_id/* drivers/mmc/host/wbsd.c 1768 */;
+	void cocci_id/* drivers/mmc/host/wbsd.c 1535 */;
+	struct wbsd_host cocci_id/* drivers/mmc/host/wbsd.c 1191 */;
+	struct wbsd_host *cocci_id/* drivers/mmc/host/wbsd.c 1186 */;
+	struct mmc_host *cocci_id/* drivers/mmc/host/wbsd.c 1185 */;
+	struct device *cocci_id/* drivers/mmc/host/wbsd.c 1183 */;
+	irqreturn_t cocci_id/* drivers/mmc/host/wbsd.c 1141 */;
+	void *cocci_id/* drivers/mmc/host/wbsd.c 1141 */;
+}

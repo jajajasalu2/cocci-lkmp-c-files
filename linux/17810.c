@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	int __init cocci_id/* arch/ia64/kernel/kprobes.c 991 */;
+	void cocci_id/* arch/ia64/kernel/kprobes.c 991 */;
+	struct kprobe cocci_id/* arch/ia64/kernel/kprobes.c 987 */;
+	struct fnptr *cocci_id/* arch/ia64/kernel/kprobes.c 984 */;
+	void *cocci_id/* arch/ia64/kernel/kprobes.c 982 */;
+	struct die_args *cocci_id/* arch/ia64/kernel/kprobes.c 956 */;
+	struct notifier_block *cocci_id/* arch/ia64/kernel/kprobes.c 953 */;
+	struct kprobe_ctlblk *cocci_id/* arch/ia64/kernel/kprobes.c 896 */;
+	bundle_t cocci_id/* arch/ia64/kernel/kprobes.c 761 */;
+	u64 cocci_id/* arch/ia64/kernel/kprobes.c 71 */;
+	s64 cocci_id/* arch/ia64/kernel/kprobes.c 69 */;
+	kprobe_opcode_t cocci_id/* arch/ia64/kernel/kprobes.c 614 */;
+	kprobe_opcode_t *cocci_id/* arch/ia64/kernel/kprobes.c 609 */;
+	struct kprobe *cocci_id/* arch/ia64/kernel/kprobes.c 603 */;
+	void __kprobes cocci_id/* arch/ia64/kernel/kprobes.c 603 */;
+	int cocci_id/* arch/ia64/kernel/kprobes.c 571 */;
+	unsigned long *cocci_id/* arch/ia64/kernel/kprobes.c 567 */;
+	unsigned long cocci_id/* arch/ia64/kernel/kprobes.c 498 */;
+	unsigned int cocci_id/* arch/ia64/kernel/kprobes.c 496 */;
+	uint cocci_id/* arch/ia64/kernel/kprobes.c 494 */;
+	bundle_t *cocci_id/* arch/ia64/kernel/kprobes.c 494 */;
+	int __kprobes cocci_id/* arch/ia64/kernel/kprobes.c 494 */;
+	struct pt_regs *cocci_id/* arch/ia64/kernel/kprobes.c 485 */;
+	struct kretprobe_instance *cocci_id/* arch/ia64/kernel/kprobes.c 484 */;
+	struct hlist_node *cocci_id/* arch/ia64/kernel/kprobes.c 411 */;
+	struct hlist_head *cocci_id/* arch/ia64/kernel/kprobes.c 410 */;
+	uint *cocci_id/* arch/ia64/kernel/kprobes.c 322 */;
+	enum instruction_type cocci_id/* arch/ia64/kernel/kprobes.c 31 */[32][3];
+	enum instruction_type{A, I, M, F, B, L, X, u,} cocci_id/* arch/ia64/kernel/kprobes.c 30 */;
+	struct kretprobe_blackpoint cocci_id/* arch/ia64/kernel/kprobes.c 28 */[];
+	cmp_inst_t cocci_id/* arch/ia64/kernel/kprobes.c 142 */;
+	uint __kprobes cocci_id/* arch/ia64/kernel/kprobes.c 138 */;
+	__typeof__(struct kprobe_ctlblk) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+	__typeof__(struct kprobe *) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

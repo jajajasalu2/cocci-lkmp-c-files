@@ -1,0 +1,88 @@
+cocci_test_suite() {
+	struct dma_pool {
+		struct list_head pools;
+		enum pool_type type;
+		spinlock_t lock;
+		struct list_head free_list;
+		struct device *dev;
+		unsigned size;
+		unsigned npages_free;
+		unsigned npages_in_use;
+		unsigned long nfrees;
+		unsigned long nrefills;
+		gfp_t gfp_flags;
+		char name[13];
+		char dev_name[64];
+	} cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 96 */;
+	struct ttm_operation_ctx *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 886 */;
+	gfp_t cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 856 */;
+	struct ttm_tt *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 838 */;
+	struct ttm_dma_tt *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 834 */;
+	struct list_head cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 793 */;
+	unsigned long *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 787 */;
+	unsigned cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 668 */;
+	struct page **cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 667 */;
+	struct list_head *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 666 */;
+	enum pool_type cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 636 */;
+	struct device *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 635 */;
+	enum pool_type{IS_UNDEFINED=0, IS_WC=1 << 1, IS_UC=1 << 2, IS_CACHED=1 << 3, IS_DMA32=1 << 4, IS_HUGE=1 << 5,} cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 60 */;
+	struct device_pools cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 578 */;
+	struct dma_pool cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 573 */;
+	char *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 562 */;
+	enum pool_type cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 557 */[];
+	const char *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 556 */[];
+	struct dma_pool **cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 550 */;
+	struct page *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 54 */;
+	struct device_pools *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 499 */;
+	struct page *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 406 */[NUM_PAGES_TO_ALLOC];
+	bool cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 404 */;
+	struct page *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 370 */[];
+	enum ttm_caching_state cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 327 */;
+	struct dma_page cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 304 */;
+	void *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 302 */;
+	unsigned long cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 301 */;
+	struct dma_pool *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 298 */;
+	struct dma_page *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 298 */;
+	dma_addr_t cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 288 */;
+	void cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 285 */;
+	struct kobj_type cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 259 */;
+	const struct sysfs_ops cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 254 */;
+	struct attribute *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 235 */;
+	ssize_t cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 235 */;
+	const char *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 201 */;
+	size_t cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 201 */;
+	struct ttm_pool_manager cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 196 */;
+	struct kobject *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 193 */;
+	struct attribute *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 186 */[];
+	struct attribute cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 181 */;
+	struct ttm_pool_manager *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 171 */;
+	struct ttm_pool_manager {
+		struct mutex lock;
+		struct list_head pools;
+		struct ttm_pool_opts options;
+		unsigned npools;
+		struct shrinker mm_shrink;
+		struct kobject kobj;
+	} cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 162 */;
+	struct device_pools {
+		struct list_head pools;
+		struct device *dev;
+		struct dma_pool *pool;
+	} cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 147 */;
+	struct ttm_pool_opts {
+		unsigned alloc_size;
+		unsigned max_size;
+		unsigned small;
+	} cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 134 */;
+	struct seq_file *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 1214 */;
+	int cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 1214 */;
+	struct dma_page {
+		struct list_head page_list;
+		unsigned long vaddr;
+		struct page *p;
+		dma_addr_t dma;
+	} cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 121 */;
+	struct ttm_mem_global *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 1160 */;
+	struct shrinker *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 1134 */;
+	struct shrink_control *cocci_id/* drivers/gpu/drm/ttm/ttm_page_alloc_dma.c 1134 */;
+}

@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct usb_driver cocci_id/* drivers/net/usb/sr9700.c 541 */;
+	unsigned long cocci_id/* drivers/net/usb/sr9700.c 534 */;
+	const struct usb_device_id cocci_id/* drivers/net/usb/sr9700.c 531 */[];
+	const struct driver_info cocci_id/* drivers/net/usb/sr9700.c 520 */;
+	struct ethtool_cmd cocci_id/* drivers/net/usb/sr9700.c 509 */;
+	struct urb *cocci_id/* drivers/net/usb/sr9700.c 479 */;
+	gfp_t cocci_id/* drivers/net/usb/sr9700.c 443 */;
+	struct sk_buff cocci_id/* drivers/net/usb/sr9700.c 421 */;
+	struct sk_buff *cocci_id/* drivers/net/usb/sr9700.c 378 */;
+	struct mii_if_info *cocci_id/* drivers/net/usb/sr9700.c 321 */;
+	struct net_device *cocci_id/* drivers/net/usb/sr9700.c 320 */;
+	struct usbnet *cocci_id/* drivers/net/usb/sr9700.c 318 */;
+	struct usb_interface *cocci_id/* drivers/net/usb/sr9700.c 318 */;
+	int cocci_id/* drivers/net/usb/sr9700.c 318 */;
+	const struct net_device_ops cocci_id/* drivers/net/usb/sr9700.c 305 */;
+	struct sockaddr *cocci_id/* drivers/net/usb/sr9700.c 291 */;
+	void *cocci_id/* drivers/net/usb/sr9700.c 288 */;
+	struct netdev_hw_addr *cocci_id/* drivers/net/usb/sr9700.c 276 */;
+	u16 cocci_id/* drivers/net/usb/sr9700.c 26 */;
+	void cocci_id/* drivers/net/usb/sr9700.c 257 */;
+	const struct ethtool_ops cocci_id/* drivers/net/usb/sr9700.c 245 */;
+	struct ifreq *cocci_id/* drivers/net/usb/sr9700.c 238 */;
+	u8 cocci_id/* drivers/net/usb/sr9700.c 227 */;
+	u32 cocci_id/* drivers/net/usb/sr9700.c 224 */;
+	__le16 cocci_id/* drivers/net/usb/sr9700.c 179 */;
+	__le16 *cocci_id/* drivers/net/usb/sr9700.c 159 */;
+	u8 *cocci_id/* drivers/net/usb/sr9700.c 156 */;
+	struct ethtool_eeprom *cocci_id/* drivers/net/usb/sr9700.c 156 */;
+}

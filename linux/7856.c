@@ -1,0 +1,67 @@
+cocci_test_suite() {
+	struct card_s {
+		int type;
+		int n_ports;
+		u8 __iomem *rambase;
+		u8 __iomem *scabase;
+		plx9050 __iomem *plxbase;
+		u32 init_ctrl_value;
+		u16 rx_ring_buffers;
+		u16 tx_ring_buffers;
+		u16 buff_offset;
+		u8 irq;
+		port_t ports[2];
+	} cocci_id/* drivers/net/wan/pc300too.c 95 */;
+	struct port_s {
+		struct napi_struct napi;
+		struct net_device *netdev;
+		struct card_s *card;
+		spinlock_t lock;
+		sync_serial_settings settings;
+		int rxpart;
+		unsigned short encoding;
+		unsigned short parity;
+		unsigned int iface;
+		u16 rxin;
+		u16 txin;
+		u16 txlast;
+		u8 rxs,txs,tmc;
+		u8 chan;
+	} cocci_id/* drivers/net/wan/pc300too.c 76 */;
+	struct {
+		u32 loc_addr_range[4];
+		u32 loc_rom_range;
+		u32 loc_addr_base[4];
+		u32 loc_rom_base;
+		u32 loc_bus_descr[4];
+		u32 rom_bus_descr;
+		u32 cs_base[4];
+		u32 intr_ctrl_stat;
+		u32 init_ctrl;
+	} cocci_id/* drivers/net/wan/pc300too.c 62 */;
+	enum{PC300_RSV=1, PC300_X21, PC300_TE,} cocci_id/* drivers/net/wan/pc300too.c 56 */;
+	void __exit cocci_id/* drivers/net/wan/pc300too.c 516 */;
+	void cocci_id/* drivers/net/wan/pc300too.c 516 */;
+	int __init cocci_id/* drivers/net/wan/pc300too.c 498 */;
+	struct pci_driver cocci_id/* drivers/net/wan/pc300too.c 490 */;
+	unsigned int cocci_id/* drivers/net/wan/pc300too.c 48 */;
+	const struct pci_device_id cocci_id/* drivers/net/wan/pc300too.c 477 */[];
+	hdlc_device *cocci_id/* drivers/net/wan/pc300too.c 444 */;
+	plx9050 __iomem *cocci_id/* drivers/net/wan/pc300too.c 351 */;
+	card_t cocci_id/* drivers/net/wan/pc300too.c 316 */;
+	u32 cocci_id/* drivers/net/wan/pc300too.c 301 */;
+	u32 __iomem *cocci_id/* drivers/net/wan/pc300too.c 299 */;
+	card_t *cocci_id/* drivers/net/wan/pc300too.c 298 */;
+	const struct pci_device_id *cocci_id/* drivers/net/wan/pc300too.c 296 */;
+	struct pci_dev *cocci_id/* drivers/net/wan/pc300too.c 295 */;
+	const struct net_device_ops cocci_id/* drivers/net/wan/pc300too.c 288 */;
+	port_t *cocci_id/* drivers/net/wan/pc300too.c 197 */;
+	sync_serial_settings __user *cocci_id/* drivers/net/wan/pc300too.c 195 */;
+	const size_t cocci_id/* drivers/net/wan/pc300too.c 193 */;
+	sync_serial_settings cocci_id/* drivers/net/wan/pc300too.c 193 */;
+	struct ifreq *cocci_id/* drivers/net/wan/pc300too.c 191 */;
+	struct net_device *cocci_id/* drivers/net/wan/pc300too.c 182 */;
+	int cocci_id/* drivers/net/wan/pc300too.c 182 */;
+	u8 cocci_id/* drivers/net/wan/pc300too.c 122 */;
+	u16 cocci_id/* drivers/net/wan/pc300too.c 121 */;
+}

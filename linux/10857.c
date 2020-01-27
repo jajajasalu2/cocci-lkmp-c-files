@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct amdgpu_vmhub *cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 992 */;
+	uint64_t cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 990 */;
+	unsigned int cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 990 */;
+	uint32_t cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 980 */;
+	struct amdgpu_ring *cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 980 */;
+	void cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 980 */;
+	u64 cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 963 */;
+	struct amdgpu_ib *cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 952 */;
+	struct amdgpu_job *cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 951 */;
+	enum amd_powergating_state cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 934 */;
+	enum amd_clockgating_state cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 660 */;
+	unsigned cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 589 */;
+	void cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 50 */(struct amdgpu_device *adev);
+	const struct common_firmware_header *cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 445 */;
+	struct amdgpu_device *cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 411 */;
+	void *cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 409 */;
+	int cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 409 */;
+	struct mmsch_v1_0_init_header cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 223 */;
+	uint32_t *cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 213 */;
+	struct mmsch_v1_0_cmd_end cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 212 */;
+	struct mmsch_v1_0_cmd_direct_polling cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 211 */;
+	struct mmsch_v1_0_cmd_direct_read_modify_write cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 210 */;
+	struct mmsch_v1_0_cmd_direct_write cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 209 */;
+	struct mmsch_v1_0_init_header *cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 157 */;
+	struct amdgpu_mm_table *cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 153 */;
+	const struct amdgpu_ip_block_version cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 1122 */;
+	const struct amdgpu_irq_src_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 1111 */;
+	const struct amdgpu_ring_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 1067 */;
+	const struct amd_ip_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 1047 */;
+	struct amdgpu_iv_entry *cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 1028 */;
+	struct amdgpu_irq_src *cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 1027 */;
+	enum amdgpu_interrupt_state cocci_id/* drivers/gpu/drm/amd/amdgpu/vce_v4_0.c 1012 */;
+}

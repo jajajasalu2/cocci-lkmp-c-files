@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	int cocci_id/* drivers/platform/x86/msi-laptop.c 98 */;
+	struct platform_device *cocci_id/* drivers/platform/x86/msi-laptop.c 975 */;
+	int __init cocci_id/* drivers/platform/x86/msi-laptop.c 975 */;
+	bool cocci_id/* drivers/platform/x86/msi-laptop.c 94 */;
+	struct device *cocci_id/* drivers/platform/x86/msi-laptop.c 925 */;
+	int cocci_id/* drivers/platform/x86/msi-laptop.c 88 */(struct device *device);
+	struct work_struct *cocci_id/* drivers/platform/x86/msi-laptop.c 843 */;
+	struct serio *cocci_id/* drivers/platform/x86/msi-laptop.c 807 */;
+	unsigned char cocci_id/* drivers/platform/x86/msi-laptop.c 806 */;
+	struct rfkill *cocci_id/* drivers/platform/x86/msi-laptop.c 768 */;
+	const struct rfkill_ops cocci_id/* drivers/platform/x86/msi-laptop.c 738 */;
+	void *cocci_id/* drivers/platform/x86/msi-laptop.c 709 */;
+	const struct dmi_system_id cocci_id/* drivers/platform/x86/msi-laptop.c 595 */[]__initconst;
+	const struct dmi_system_id *cocci_id/* drivers/platform/x86/msi-laptop.c 586 */;
+	struct quirk_entry cocci_id/* drivers/platform/x86/msi-laptop.c 576 */;
+	struct platform_driver cocci_id/* drivers/platform/x86/msi-laptop.c 561 */;
+	const struct attribute_group cocci_id/* drivers/platform/x86/msi-laptop.c 553 */;
+	struct attribute *cocci_id/* drivers/platform/x86/msi-laptop.c 536 */[];
+	struct device_attribute *cocci_id/* drivers/platform/x86/msi-laptop.c 409 */;
+	char *cocci_id/* drivers/platform/x86/msi-laptop.c 409 */;
+	const struct backlight_ops cocci_id/* drivers/platform/x86/msi-laptop.c 298 */;
+	struct backlight_device *cocci_id/* drivers/platform/x86/msi-laptop.c 287 */;
+	int *cocci_id/* drivers/platform/x86/msi-laptop.c 235 */;
+	const char *cocci_id/* drivers/platform/x86/msi-laptop.c 203 */;
+	ssize_t cocci_id/* drivers/platform/x86/msi-laptop.c 203 */;
+	size_t cocci_id/* drivers/platform/x86/msi-laptop.c 203 */;
+	u8 cocci_id/* drivers/platform/x86/msi-laptop.c 186 */[2];
+	u8 cocci_id/* drivers/platform/x86/msi-laptop.c 173 */;
+	void cocci_id/* drivers/platform/x86/msi-laptop.c 171 */;
+	struct quirk_entry *cocci_id/* drivers/platform/x86/msi-laptop.c 140 */;
+	struct quirk_entry {
+		bool old_ec_model;
+		bool load_scm_model;
+		bool ec_delay;
+		bool ec_read_only;
+	} cocci_id/* drivers/platform/x86/msi-laptop.c 115 */;
+	void __exit cocci_id/* drivers/platform/x86/msi-laptop.c 1136 */;
+	struct input_dev *cocci_id/* drivers/platform/x86/msi-laptop.c 108 */;
+	struct backlight_properties cocci_id/* drivers/platform/x86/msi-laptop.c 1054 */;
+	const struct key_entry cocci_id/* drivers/platform/x86/msi-laptop.c 102 */[];
+}

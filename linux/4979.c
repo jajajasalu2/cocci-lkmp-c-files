@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	union {
+		struct sockaddr_in _sockaddr_in;
+		struct sockaddr_in6 _sockaddr_in6;
+	} cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 85 */;
+	const struct ib_global_route *cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 84 */;
+	struct iphdr cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 83 */;
+	struct ocrdma_grh cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 79 */;
+	bool *cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 75 */;
+	const union ib_gid *cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 74 */;
+	u8 cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 58 */;
+	u16 *cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 254 */;
+	struct ib_mad *cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 253 */;
+	size_t *cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 253 */;
+	const struct ib_mad *cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 252 */;
+	const struct ib_grh *cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 252 */;
+	const struct ib_wc *cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 251 */;
+	struct ib_device *cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 250 */;
+	struct ocrdma_eth_basic cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 238 */;
+	struct ocrdma_eth_vlan cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 234 */;
+	u8 *cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 233 */;
+	struct ocrdma_grh *cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 229 */;
+	struct ocrdma_av *cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 228 */;
+	void cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 217 */;
+	struct ocrdma_dev *cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 168 */;
+	struct ocrdma_pd *cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 167 */;
+	const struct ib_gid_attr *cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 166 */;
+	u16 cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 165 */;
+	bool cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 164 */;
+	struct ocrdma_ah *cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 163 */;
+	u32 *cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 161 */;
+	struct ib_udata *cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 159 */;
+	u32 cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 158 */;
+	struct rdma_ah_attr *cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 158 */;
+	struct ib_ah *cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 158 */;
+	int cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 158 */;
+	union ib_gid cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 141 */;
+	struct sockaddr *cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 135 */;
+	__be16 *cocci_id/* drivers/infiniband/hw/ocrdma/ocrdma_ah.c 128 */;
+}

@@ -1,0 +1,88 @@
+cocci_test_suite() {
+	struct tcp_sock cocci_id/* net/ipv4/tcp_output.c 970 */;
+	enum hrtimer_restart cocci_id/* net/ipv4/tcp_output.c 968 */;
+	struct hrtimer *cocci_id/* net/ipv4/tcp_output.c 968 */;
+	__u32 cocci_id/* net/ipv4/tcp_output.c 90 */;
+	void __init cocci_id/* net/ipv4/tcp_output.c 899 */;
+	unsigned long cocci_id/* net/ipv4/tcp_output.c 859 */;
+	struct list_head *cocci_id/* net/ipv4/tcp_output.c 825 */;
+	struct tsq_tasklet *cocci_id/* net/ipv4/tcp_output.c 822 */;
+	struct tsq_tasklet {
+		struct tasklet_struct tasklet;
+		struct list_head head;
+	} cocci_id/* net/ipv4/tcp_output.c 781 */;
+	const unsigned int cocci_id/* net/ipv4/tcp_output.c 753 */;
+	struct tcp_md5sig_key **cocci_id/* net/ipv4/tcp_output.c 724 */;
+	const struct tcp_md5sig_key *cocci_id/* net/ipv4/tcp_output.c 661 */;
+	bool cocci_id/* net/ipv4/tcp_output.c 60 */(struct sock *sk,
+						    unsigned int mss_now,
+						    int nonagle, int push_one,
+						    gfp_t gfp);
+	const struct inet_request_sock *cocci_id/* net/ipv4/tcp_output.c 568 */;
+	unsigned int *cocci_id/* net/ipv4/tcp_output.c 553 */;
+	struct tcp_out_options *cocci_id/* net/ipv4/tcp_output.c 552 */;
+	u8 *cocci_id/* net/ipv4/tcp_output.c 526 */;
+	struct tcp_sack_block *cocci_id/* net/ipv4/tcp_output.c 505 */;
+	__u8 *cocci_id/* net/ipv4/tcp_output.c 463 */;
+	u16 cocci_id/* net/ipv4/tcp_output.c 457 */;
+	struct tcp_out_options {
+		u16 options;
+		u16 mss;
+		u8 ws;
+		u8 num_sack_blocks;
+		u8 hash_size;
+		__u8 *hash_location;
+		__u32 tsval,tsecr;
+		struct tcp_fastopen_cookie *fastopen_cookie;
+	} cocci_id/* net/ipv4/tcp_output.c 430 */;
+	u16 *cocci_id/* net/ipv4/tcp_output.c 415 */;
+	__be32 *cocci_id/* net/ipv4/tcp_output.c 415 */;
+	struct flowi cocci_id/* net/ipv4/tcp_output.c 3839 */;
+	const struct tcp_request_sock_ops *cocci_id/* net/ipv4/tcp_output.c 3838 */;
+	gfp_t cocci_id/* net/ipv4/tcp_output.c 3706 */;
+	const struct request_sock *cocci_id/* net/ipv4/tcp_output.c 352 */;
+	struct tcphdr *cocci_id/* net/ipv4/tcp_output.c 352 */;
+	size_t cocci_id/* net/ipv4/tcp_output.c 3493 */;
+	struct tcp_fastopen_request *cocci_id/* net/ipv4/tcp_output.c 3476 */;
+	struct tcp_skb_cb *cocci_id/* net/ipv4/tcp_output.c 3456 */;
+	__u8 cocci_id/* net/ipv4/tcp_output.c 3381 */;
+	const struct tcp_congestion_ops *cocci_id/* net/ipv4/tcp_output.c 3360 */;
+	u64 cocci_id/* net/ipv4/tcp_output.c 3268 */;
+	struct inet_request_sock *cocci_id/* net/ipv4/tcp_output.c 3260 */;
+	enum tcp_synack_type cocci_id/* net/ipv4/tcp_output.c 3258 */;
+	struct tcp_fastopen_cookie *cocci_id/* net/ipv4/tcp_output.c 3257 */;
+	struct request_sock *cocci_id/* net/ipv4/tcp_output.c 3256 */;
+	struct dst_entry *cocci_id/* net/ipv4/tcp_output.c 3255 */;
+	const struct skb_shared_info *cocci_id/* net/ipv4/tcp_output.c 2776 */;
+	struct tcp_sock *cocci_id/* net/ipv4/tcp_output.c 2697 */;
+	struct inet_connection_sock *cocci_id/* net/ipv4/tcp_output.c 2696 */;
+	u32 cocci_id/* net/ipv4/tcp_output.c 2694 */;
+	unsigned int cocci_id/* net/ipv4/tcp_output.c 2615 */;
+	void cocci_id/* net/ipv4/tcp_output.c 2615 */;
+	const struct sk_buff *cocci_id/* net/ipv4/tcp_output.c 2538 */;
+	bool cocci_id/* net/ipv4/tcp_output.c 2537 */;
+	const struct sock *cocci_id/* net/ipv4/tcp_output.c 2537 */;
+	enum tcp_chrono cocci_id/* net/ipv4/tcp_output.c 2305 */;
+	const u32 cocci_id/* net/ipv4/tcp_output.c 2304 */;
+	const enum tcp_chrono cocci_id/* net/ipv4/tcp_output.c 2302 */;
+	__u32 *cocci_id/* net/ipv4/tcp_output.c 205 */;
+	struct net *cocci_id/* net/ipv4/tcp_output.c 2038 */;
+	s64 cocci_id/* net/ipv4/tcp_output.c 1942 */;
+	bool *cocci_id/* net/ipv4/tcp_output.c 1933 */;
+	struct tcp_md5sig_key *cocci_id/* net/ipv4/tcp_output.c 1593 */;
+	struct tcp_out_options cocci_id/* net/ipv4/tcp_output.c 1592 */;
+	const struct dst_entry *cocci_id/* net/ipv4/tcp_output.c 1473 */;
+	struct tcphdr cocci_id/* net/ipv4/tcp_output.c 1469 */;
+	const struct inet_connection_sock *cocci_id/* net/ipv4/tcp_output.c 1463 */;
+	const struct tcp_sock *cocci_id/* net/ipv4/tcp_output.c 1462 */;
+	struct sock *cocci_id/* net/ipv4/tcp_output.c 1460 */;
+	struct skb_shared_info *cocci_id/* net/ipv4/tcp_output.c 1396 */;
+	struct sk_buff *cocci_id/* net/ipv4/tcp_output.c 1394 */;
+	int cocci_id/* net/ipv4/tcp_output.c 1394 */;
+	s32 cocci_id/* net/ipv4/tcp_output.c 137 */;
+	u8 cocci_id/* net/ipv4/tcp_output.c 1305 */;
+	long cocci_id/* net/ipv4/tcp_output.c 1303 */;
+	enum tcp_queue cocci_id/* net/ipv4/tcp_output.c 1296 */;
+	__u16 cocci_id/* net/ipv4/tcp_output.c 116 */;
+	__typeof__(struct tsq_tasklet) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

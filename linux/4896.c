@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/infiniband/hw/mlx5/srq.c 57 */;
+	size_t cocci_id/* drivers/infiniband/hw/mlx5/srq.c 52 */;
+	struct mlx5_ib_ucontext cocci_id/* drivers/infiniband/hw/mlx5/srq.c 51 */;
+	struct mlx5_ib_ucontext *cocci_id/* drivers/infiniband/hw/mlx5/srq.c 50 */;
+	struct mlx5_ib_create_srq cocci_id/* drivers/infiniband/hw/mlx5/srq.c 49 */;
+	struct ib_udata *cocci_id/* drivers/infiniband/hw/mlx5/srq.c 46 */;
+	struct ib_pd *cocci_id/* drivers/infiniband/hw/mlx5/srq.c 44 */;
+	unsigned long cocci_id/* drivers/infiniband/hw/mlx5/srq.c 428 */;
+	struct mlx5_core_dev *cocci_id/* drivers/infiniband/hw/mlx5/srq.c 427 */;
+	struct mlx5_wqe_data_seg *cocci_id/* drivers/infiniband/hw/mlx5/srq.c 425 */;
+	const struct ib_recv_wr **cocci_id/* drivers/infiniband/hw/mlx5/srq.c 421 */;
+	const struct ib_recv_wr *cocci_id/* drivers/infiniband/hw/mlx5/srq.c 420 */;
+	enum ib_srq_attr_mask cocci_id/* drivers/infiniband/hw/mlx5/srq.c 337 */;
+	struct ib_srq_attr *cocci_id/* drivers/infiniband/hw/mlx5/srq.c 336 */;
+	struct mlx5_wqe_data_seg cocci_id/* drivers/infiniband/hw/mlx5/srq.c 243 */;
+	struct mlx5_wqe_srq_next_seg cocci_id/* drivers/infiniband/hw/mlx5/srq.c 242 */;
+	__u32 cocci_id/* drivers/infiniband/hw/mlx5/srq.c 227 */;
+	struct mlx5_srq_attr cocci_id/* drivers/infiniband/hw/mlx5/srq.c 226 */;
+	struct ib_srq_init_attr *cocci_id/* drivers/infiniband/hw/mlx5/srq.c 218 */;
+	struct ib_srq *cocci_id/* drivers/infiniband/hw/mlx5/srq.c 217 */;
+	void cocci_id/* drivers/infiniband/hw/mlx5/srq.c 210 */;
+	struct ib_event cocci_id/* drivers/infiniband/hw/mlx5/srq.c 21 */;
+	enum mlx5_event cocci_id/* drivers/infiniband/hw/mlx5/srq.c 19 */;
+	struct mlx5_core_srq *cocci_id/* drivers/infiniband/hw/mlx5/srq.c 19 */;
+	void *cocci_id/* drivers/infiniband/hw/mlx5/srq.c 14 */;
+	struct mlx5_wqe_srq_next_seg *cocci_id/* drivers/infiniband/hw/mlx5/srq.c 136 */;
+	struct mlx5_srq_attr *cocci_id/* drivers/infiniband/hw/mlx5/srq.c 132 */;
+	struct mlx5_ib_srq *cocci_id/* drivers/infiniband/hw/mlx5/srq.c 131 */;
+	struct mlx5_ib_dev *cocci_id/* drivers/infiniband/hw/mlx5/srq.c 131 */;
+	int cocci_id/* drivers/infiniband/hw/mlx5/srq.c 131 */;
+}

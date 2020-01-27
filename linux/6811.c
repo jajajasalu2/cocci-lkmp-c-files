@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	struct NCR_700_Host_Parameters *cocci_id/* drivers/scsi/53c700.c 738 */;
+	struct Scsi_Host *cocci_id/* drivers/scsi/53c700.c 736 */;
+	void cocci_id/* drivers/scsi/53c700.c 735 */;
+	__u8 cocci_id/* drivers/scsi/53c700.c 630 */;
+	char *cocci_id/* drivers/scsi/53c700.c 584 */;
+	char cocci_id/* drivers/scsi/53c700.c 470 */[256];
+	unsigned int cocci_id/* drivers/scsi/53c700.c 426 */;
+	struct NCR_700_SG_List *cocci_id/* drivers/scsi/53c700.c 327 */;
+	unsigned long cocci_id/* drivers/scsi/53c700.c 325 */;
+	struct NCR_700_command_slot cocci_id/* drivers/scsi/53c700.c 322 */;
+	struct NCR_700_command_slot *cocci_id/* drivers/scsi/53c700.c 297 */;
+	__u32 *cocci_id/* drivers/scsi/53c700.c 278 */;
+	__u8 *cocci_id/* drivers/scsi/53c700.c 277 */;
+	dma_addr_t cocci_id/* drivers/scsi/53c700.c 276 */;
+	struct device *cocci_id/* drivers/scsi/53c700.c 274 */;
+	struct scsi_host_template *cocci_id/* drivers/scsi/53c700.c 273 */;
+	void __exit cocci_id/* drivers/scsi/53c700.c 2098 */;
+	int __init cocci_id/* drivers/scsi/53c700.c 2090 */;
+	struct spi_function_template cocci_id/* drivers/scsi/53c700.c 2083 */;
+	struct device_attribute cocci_id/* drivers/scsi/53c700.c 2066 */;
+	struct device_attribute *cocci_id/* drivers/scsi/53c700.c 2059 */;
+	ssize_t cocci_id/* drivers/scsi/53c700.c 2058 */;
+	struct scsi_device *cocci_id/* drivers/scsi/53c700.c 2051 */;
+	int cocci_id/* drivers/scsi/53c700.c 2050 */;
+	char *cocci_id/* drivers/scsi/53c700.c 204 */[];
+	struct NCR_700_Device_Parameters cocci_id/* drivers/scsi/53c700.c 2011 */;
+	struct scsi_target *cocci_id/* drivers/scsi/53c700.c 1983 */;
+	struct scsi_cmnd *cocci_id/* drivers/scsi/53c700.c 1926 */;
+	struct scatterlist *cocci_id/* drivers/scsi/53c700.c 1864 */;
+	struct NCR_700_Device_Parameters *cocci_id/* drivers/scsi/53c700.c 1813 */;
+	unsigned char *cocci_id/* drivers/scsi/53c700.c 1779 */;
+	enum dma_data_direction cocci_id/* drivers/scsi/53c700.c 1742 */;
+	void (*cocci_id/* drivers/scsi/53c700.c 1737 */)(struct scsi_cmnd *);
+	struct scsi_transport_template *cocci_id/* drivers/scsi/53c700.c 169 */;
+	struct device_attribute *cocci_id/* drivers/scsi/53c700.c 167 */[];
+	int cocci_id/* drivers/scsi/53c700.c 165 */(struct scsi_device *SDpnt,
+						    int depth);
+	void cocci_id/* drivers/scsi/53c700.c 164 */(struct scsi_device *SDpnt);
+	int cocci_id/* drivers/scsi/53c700.c 162 */(struct scsi_device *SDpnt);
+	void cocci_id/* drivers/scsi/53c700.c 161 */(struct Scsi_Host *host);
+	struct NCR_700_SG_List cocci_id/* drivers/scsi/53c700.c 1587 */;
+	int cocci_id/* drivers/scsi/53c700.c 158 */(struct scsi_cmnd *SCpnt);
+	int cocci_id/* drivers/scsi/53c700.c 157 */(struct Scsi_Host *h,
+						    struct scsi_cmnd *);
+	enum NCR_700_Host_State cocci_id/* drivers/scsi/53c700.c 1488 */;
+	__u32 cocci_id/* drivers/scsi/53c700.c 1471 */;
+	void *cocci_id/* drivers/scsi/53c700.c 1465 */;
+	irqreturn_t cocci_id/* drivers/scsi/53c700.c 1464 */;
+	u8 cocci_id/* drivers/scsi/53c700.c 1383 */;
+	__u16 cocci_id/* drivers/scsi/53c700.c 1382 */;
+	const struct NCR_700_Host_Parameters *cocci_id/* drivers/scsi/53c700.c 1348 */;
+}

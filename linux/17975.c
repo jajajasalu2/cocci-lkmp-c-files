@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	struct pt_regs *cocci_id/* arch/sparc/kernel/signal_64.c 548 */;
+	unsigned long cocci_id/* arch/sparc/kernel/signal_64.c 548 */;
+	void cocci_id/* arch/sparc/kernel/signal_64.c 548 */;
+	bool cocci_id/* arch/sparc/kernel/signal_64.c 481 */;
+	struct ksignal cocci_id/* arch/sparc/kernel/signal_64.c 479 */;
+	struct sigaction *cocci_id/* arch/sparc/kernel/signal_64.c 453 */;
+	struct reg_window *cocci_id/* arch/sparc/kernel/signal_64.c 415 */;
+	struct reg_window cocci_id/* arch/sparc/kernel/signal_64.c 413 */;
+	u64 __user *cocci_id/* arch/sparc/kernel/signal_64.c 410 */;
+	u64 cocci_id/* arch/sparc/kernel/signal_64.c 390 */;
+	__siginfo_rwin_t cocci_id/* arch/sparc/kernel/signal_64.c 368 */;
+	__siginfo_fpu_t cocci_id/* arch/sparc/kernel/signal_64.c 366 */;
+	struct rt_signal_frame cocci_id/* arch/sparc/kernel/signal_64.c 364 */;
+	struct ksignal *cocci_id/* arch/sparc/kernel/signal_64.c 326 */;
+	void __user *cocci_id/* arch/sparc/kernel/signal_64.c 326 */;
+	int cocci_id/* arch/sparc/kernel/signal_64.c 263 */;
+	sigset_t cocci_id/* arch/sparc/kernel/signal_64.c 262 */;
+	__siginfo_rwin_t __user *cocci_id/* arch/sparc/kernel/signal_64.c 261 */;
+	__siginfo_fpu_t __user *cocci_id/* arch/sparc/kernel/signal_64.c 260 */;
+	struct rt_signal_frame __user *cocci_id/* arch/sparc/kernel/signal_64.c 259 */;
+	struct rt_signal_frame {
+		struct sparc_stackf ss;
+		siginfo_t info;
+		struct pt_regs regs;
+		__siginfo_fpu_t __user *fpu_save;
+		stack_t stack;
+		sigset_t mask;
+		__siginfo_rwin_t *rwin_save;
+	} cocci_id/* arch/sparc/kernel/signal_64.c 246 */;
+	unsigned int cocci_id/* arch/sparc/kernel/signal_64.c 216 */;
+	unsigned long *cocci_id/* arch/sparc/kernel/signal_64.c 210 */;
+	struct reg_window __user *cocci_id/* arch/sparc/kernel/signal_64.c 202 */;
+	unsigned long __user *cocci_id/* arch/sparc/kernel/signal_64.c 176 */;
+	unsigned char cocci_id/* arch/sparc/kernel/signal_64.c 149 */;
+	mcontext_t __user *cocci_id/* arch/sparc/kernel/signal_64.c 147 */;
+	mc_gregset_t __user *cocci_id/* arch/sparc/kernel/signal_64.c 146 */;
+	enum ctx_state cocci_id/* arch/sparc/kernel/signal_64.c 145 */;
+	struct ucontext __user *cocci_id/* arch/sparc/kernel/signal_64.c 143 */;
+}

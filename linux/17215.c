@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	u32 cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 68 */;
+	irqreturn_t cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 63 */;
+	struct platform_driver cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 525 */;
+	const struct of_device_id cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 519 */[];
+	struct mpc512x_lpbfifo __iomem *cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 502 */;
+	struct lpbfifo_data cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 434 */;
+	struct resource cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 431 */;
+	struct platform_device *cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 429 */;
+	u32 *cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 413 */;
+	struct cs_range cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 408 */;
+	size_t cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 379 */;
+	const u32 *cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 376 */;
+	struct device_node *cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 375 */;
+	struct device *cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 372 */;
+	int cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 372 */;
+	struct lpbfifo_data {
+		spinlock_t lock;
+		phys_addr_t regs_phys;
+		resource_size_t regs_size;
+		struct mpc512x_lpbfifo __iomem *regs;
+		int irq;
+		struct cs_range *cs_ranges;
+		size_t cs_n;
+		struct dma_chan *chan;
+		struct mpc512x_lpbfifo_request *req;
+		dma_addr_t ram_bus_addr;
+		bool wait_lpbfifo_irq;
+		bool wait_lpbfifo_callback;
+	} cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 33 */;
+	struct cs_range {
+		u32 csnum;
+		u32 base;
+		u32 addr;
+		u32 size;
+	} cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 26 */;
+	struct mpc512x_lpbfifo cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 232 */;
+	phys_addr_t cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 212 */;
+	dma_cookie_t cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 170 */;
+	struct dma_async_tx_descriptor *cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 169 */;
+	struct dma_slave_config cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 168 */;
+	struct scatterlist cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 166 */;
+	struct dma_device *cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 165 */;
+	bool cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 161 */;
+	enum dma_data_direction cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 119 */;
+	struct mpc512x_lpbfifo_request *cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 118 */;
+	unsigned long cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 117 */;
+	void *cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 115 */;
+	void cocci_id/* arch/powerpc/platforms/512x/mpc512x_lpbfifo.c 115 */;
+}

@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* mm/util.c 856 */;
+	char *cocci_id/* mm/util.c 853 */;
+	s64 cocci_id/* mm/util.c 802 */;
+	long cocci_id/* mm/util.c 797 */;
+	struct percpu_counter cocci_id/* mm/util.c 765 */;
+	loff_t *cocci_id/* mm/util.c 734 */;
+	size_t *cocci_id/* mm/util.c 733 */;
+	void __user *cocci_id/* mm/util.c 733 */;
+	struct ctl_table *cocci_id/* mm/util.c 732 */;
+	struct page *cocci_id/* mm/util.c 694 */;
+	swp_entry_t cocci_id/* mm/util.c 669 */;
+	struct address_space *cocci_id/* mm/util.c 658 */;
+	struct anon_vma *cocci_id/* mm/util.c 647 */;
+	struct file *cocci_id/* mm/util.c 516 */;
+	void *cocci_id/* mm/util.c 457 */;
+	struct task_struct *cocci_id/* mm/util.c 435 */;
+	bool cocci_id/* mm/util.c 434 */;
+	struct mm_struct *cocci_id/* mm/util.c 434 */;
+	unsigned long cocci_id/* mm/util.c 434 */;
+	int cocci_id/* mm/util.c 434 */;
+	struct rlimit *cocci_id/* mm/util.c 396 */;
+	const void *cocci_id/* mm/util.c 37 */;
+	struct task_struct *__maybe_unused cocci_id/* mm/util.c 308 */;
+	struct vm_area_struct *cocci_id/* mm/util.c 273 */;
+	void cocci_id/* mm/util.c 273 */;
+	const char __user *cocci_id/* mm/util.c 218 */;
+	const void __user *cocci_id/* mm/util.c 168 */;
+	const char *cocci_id/* mm/util.c 143 */;
+	gfp_t cocci_id/* mm/util.c 123 */;
+	size_t cocci_id/* mm/util.c 123 */;
+}

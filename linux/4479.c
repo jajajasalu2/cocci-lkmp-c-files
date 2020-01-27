@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct device_attribute *cocci_id/* drivers/char/bsr.c 97 */;
+	struct device *cocci_id/* drivers/char/bsr.c 97 */;
+	char *cocci_id/* drivers/char/bsr.c 97 */;
+	ssize_t cocci_id/* drivers/char/bsr.c 96 */;
+	unsigned cocci_id/* drivers/char/bsr.c 78 */[BSR_MAX];
+	enum{BSR_8=0, BSR_16=1, BSR_64=2, BSR_128=3, BSR_4096=4, BSR_UNKNOWN=5, BSR_MAX=6,} cocci_id/* drivers/char/bsr.c 68 */;
+	struct class *cocci_id/* drivers/char/bsr.c 65 */;
+	struct list_head cocci_id/* drivers/char/bsr.c 64 */;
+	struct bsr_dev {
+		u64 bsr_addr;
+		u64 bsr_len;
+		unsigned bsr_bytes;
+		unsigned bsr_stride;
+		unsigned bsr_type;
+		unsigned bsr_num;
+		int bsr_minor;
+		struct list_head bsr_list;
+		dev_t bsr_dev;
+		struct cdev bsr_cdev;
+		struct device *bsr_device;
+		char bsr_name[32];
+	} cocci_id/* drivers/char/bsr.c 45 */;
+	void __exit cocci_id/* drivers/char/bsr.c 334 */;
+	dev_t cocci_id/* drivers/char/bsr.c 290 */;
+	int __init cocci_id/* drivers/char/bsr.c 287 */;
+	struct resource cocci_id/* drivers/char/bsr.c 189 */;
+	struct bsr_dev cocci_id/* drivers/char/bsr.c 187 */;
+	struct bsr_dev *cocci_id/* drivers/char/bsr.c 187 */;
+	u32 cocci_id/* drivers/char/bsr.c 184 */;
+	unsigned cocci_id/* drivers/char/bsr.c 172 */;
+	const u32 *cocci_id/* drivers/char/bsr.c 170 */;
+	struct device_node *cocci_id/* drivers/char/bsr.c 167 */;
+	int cocci_id/* drivers/char/bsr.c 167 */;
+	void cocci_id/* drivers/char/bsr.c 153 */;
+	const struct file_operations cocci_id/* drivers/char/bsr.c 146 */;
+	struct cdev *cocci_id/* drivers/char/bsr.c 139 */;
+	struct inode *cocci_id/* drivers/char/bsr.c 137 */;
+	unsigned long cocci_id/* drivers/char/bsr.c 114 */;
+	struct vm_area_struct *cocci_id/* drivers/char/bsr.c 112 */;
+	struct file *cocci_id/* drivers/char/bsr.c 112 */;
+	struct attribute *cocci_id/* drivers/char/bsr.c 104 */[];
+}

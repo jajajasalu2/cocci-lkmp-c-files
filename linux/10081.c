@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	dma_addr_t cocci_id/* drivers/net/caif/caif_spi.c 88 */;
+	dma_addr_t *cocci_id/* drivers/net/caif/caif_spi.c 82 */;
+	void *cocci_id/* drivers/net/caif/caif_spi.c 82 */;
+	int __init cocci_id/* drivers/net/caif/caif_spi.c 798 */;
+	struct cfspi cocci_id/* drivers/net/caif/caif_spi.c 778 */;
+	struct list_head *cocci_id/* drivers/net/caif/caif_spi.c 773 */;
+	void __exit cocci_id/* drivers/net/caif/caif_spi.c 771 */;
+	struct cfspi_dev *cocci_id/* drivers/net/caif/caif_spi.c 729 */;
+	struct platform_device *cocci_id/* drivers/net/caif/caif_spi.c 725 */;
+	const struct net_device_ops cocci_id/* drivers/net/caif/caif_spi.c 698 */;
+	struct net_device *cocci_id/* drivers/net/caif/caif_spi.c 589 */;
+	int cocci_id/* drivers/net/caif/caif_spi.c 589 */;
+	struct sk_buff *cocci_id/* drivers/net/caif/caif_spi.c 528 */;
+	u8 *cocci_id/* drivers/net/caif/caif_spi.c 520 */;
+	size_t cocci_id/* drivers/net/caif/caif_spi.c 520 */;
+	unsigned long cocci_id/* drivers/net/caif/caif_spi.c 494 */;
+	bool cocci_id/* drivers/net/caif/caif_spi.c 454 */;
+	struct cfspi_ifc *cocci_id/* drivers/net/caif/caif_spi.c 454 */;
+	u8 cocci_id/* drivers/net/caif/caif_spi.c 363 */;
+	struct caif_payload_info *cocci_id/* drivers/net/caif/caif_spi.c 343 */;
+	struct device_driver *cocci_id/* drivers/net/caif/caif_spi.c 310 */;
+	spinlock_t cocci_id/* drivers/net/caif/caif_spi.c 291 */;
+	struct cfspi *cocci_id/* drivers/net/caif/caif_spi.c 263 */;
+	void cocci_id/* drivers/net/caif/caif_spi.c 263 */;
+	const struct file_operations cocci_id/* drivers/net/caif/caif_spi.c 246 */;
+	char *cocci_id/* drivers/net/caif/caif_spi.c 206 */;
+	loff_t *cocci_id/* drivers/net/caif/caif_spi.c 204 */;
+	struct file *cocci_id/* drivers/net/caif/caif_spi.c 203 */;
+	char __user *cocci_id/* drivers/net/caif/caif_spi.c 203 */;
+	ssize_t cocci_id/* drivers/net/caif/caif_spi.c 203 */;
+	struct dentry *cocci_id/* drivers/net/caif/caif_spi.c 112 */;
+}

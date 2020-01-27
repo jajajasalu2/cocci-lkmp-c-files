@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct mlx4_qp cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 950 */;
+	struct mlx4_qp_context cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 949 */;
+	u16 cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 947 */;
+	const u16 cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 93 */[MLX4_QP_NUM_STATE][MLX4_QP_NUM_STATE];
+	enum mlx4_qp_state cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 920 */[];
+	enum mlx4_qp_state *cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 916 */;
+	struct mlx4_qp *cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 91 */;
+	enum mlx4_qp_optpar cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 90 */;
+	struct mlx4_qp_context *cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 89 */;
+	enum mlx4_qp_state cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 88 */;
+	struct mlx4_mtt *cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 87 */;
+	int cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 797 */[MLX4_NUM_QP_REGION];
+	struct mlx4_bitmap *cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 744 */;
+	struct mlx4_bitmap *cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 552 */[MLX4_QP_TABLE_ZONE_NUM];
+	unsigned long cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 516 */;
+	struct mlx4_update_qp_context *cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 443 */;
+	struct mlx4_update_qp_params *cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 440 */;
+	enum mlx4_update_qp_attr cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 439 */;
+	void cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 365 */;
+	struct mlx4_qp_table *cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 311 */;
+	struct mlx4_priv *cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 310 */;
+	struct mlx4_dev *cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 308 */;
+	int cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 308 */;
+	u32 cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 280 */;
+	int *cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 220 */;
+	__be32 *cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 176 */;
+	u64 cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 164 */;
+	u8 cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 138 */;
+	struct mlx4_cmd_mailbox *cocci_id/* drivers/net/ethernet/mellanox/mlx4/qp.c 134 */;
+}

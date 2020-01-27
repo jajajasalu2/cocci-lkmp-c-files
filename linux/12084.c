@@ -1,0 +1,61 @@
+cocci_test_suite() {
+	const struct nvkm_oclass *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 99 */;
+	u32 *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 911 */;
+	struct nvkm_vmm *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 908 */;
+	u64 cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 875 */;
+	u64 *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 875 */;
+	char cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 698 */[128];
+	const struct nvkm_bitfield cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 649 */[];
+	struct gk104_fifo_engine_status cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 593 */;
+	struct nvkm_subdev *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 56 */;
+	struct nvkm_engine *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 55 */;
+	const struct nvkm_enum cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 548 */[];
+	struct gk104_fifo_engine_status *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 53 */;
+	void cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 51 */;
+	char *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 508 */;
+	const char *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 507 */;
+	enum nvkm_devidx cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 505 */;
+	char cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 474 */[8];
+	unsigned long cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 473 */;
+	struct nvkm_fifo_chan *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 472 */;
+	const struct nvkm_enum *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 470 */;
+	struct nvkm_fault_data *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 465 */;
+	struct gk104_fifo_engine_status {
+		bool busy;
+		bool faulted;
+		bool chsw;
+		bool save;
+		bool load;
+		struct {
+			bool tsg;
+			u32 id;
+		} prev,next,*chan;
+	} cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 39 */;
+	struct gk104_fifo_chan *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 365 */;
+	const bool cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 363 */;
+	const u32 cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 361 */;
+	typeof(*chan) cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 344 */;
+	struct nvkm_fifo_cgrp *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 333 */;
+	void cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 307 */(struct gk104_fifo *fifo,
+										int engn);
+	typeof(*fifo) cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 277 */;
+	struct work_struct *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 275 */;
+	const struct gk104_fifo_pbdma_func cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 268 */;
+	const struct gk104_fifo_runlist_func cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 245 */;
+	struct nvkm_memory *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 239 */;
+	const struct gk104_fifo_runlist_func *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 181 */;
+	struct nvkm_fifo **cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 1194 */;
+	struct gk104_fifo *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 119 */;
+	const struct gk104_fifo_func cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 1180 */;
+	struct nvkm_oclass *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 117 */;
+	struct nvkm_fifo *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 116 */;
+	int cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 115 */;
+	const struct gk104_fifo_user_user *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 108 */;
+	const struct gk104_fifo_func *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 1044 */;
+	const struct gk104_fifo_chan_user *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 104 */;
+	const struct nvkm_fifo_func cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 1027 */;
+	struct nvkm_device *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 1013 */;
+	u32 cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 100 */;
+	struct nvkm_object **cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 100 */;
+	void *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c 100 */;
+}

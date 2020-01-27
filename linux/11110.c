@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	uint16_t cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 724 */[6];
+	enum test_pattern_mode cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 713 */;
+	enum test_pattern_dyn_range cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 712 */;
+	enum test_pattern_color_format cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 711 */;
+	enum dc_color_depth cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 705 */;
+	enum controller_dp_test_pattern cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 704 */;
+	struct dc_crtc_timing *cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 67 */;
+	struct crtc_position cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 573 */;
+	struct crtc_position *cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 530 */;
+	const struct drr_params *cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 368 */;
+	struct dc_crtc_timing cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 287 */;
+	struct bp_hw_crtc_timing_parameters cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 286 */;
+	enum bp_result cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 234 */;
+	const struct dce110_timing_generator_offsets *cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 2248 */;
+	const struct timing_generator_funcs cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 2204 */;
+	uint32_t *cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 2177 */;
+	const struct crc_params *cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 2100 */;
+	uint32_t cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 2052 */;
+	struct dce110_timing_generator *cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 2051 */;
+	uint8_t cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 2049 */;
+	bool cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 2049 */;
+	struct timing_generator *cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 2049 */;
+	enum crtc_state cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 2020 */;
+	const enum signal_type cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 1959 */;
+	int cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 1955 */;
+	const struct dc_crtc_timing *cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 1954 */;
+	struct dc_context *cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 1926 */;
+	const struct tg_color *cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 1895 */;
+	void cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 1894 */;
+	struct crtc_trigger_info *cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 1581 */;
+	enum trigger_source_select cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 1496 */;
+	const struct dcp_gsl_params *cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 1216 */;
+	enum signal_type cocci_id/* drivers/gpu/drm/amd/display/dc/dce110/dce110_timing_generator.c 1112 */;
+}

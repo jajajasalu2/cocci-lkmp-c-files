@@ -1,0 +1,56 @@
+cocci_test_suite() {
+	const u32 cocci_id/* drivers/media/dvb-frontends/si2165.c 971 */;
+	unsigned int cocci_id/* drivers/media/dvb-frontends/si2165.c 95 */;
+	u16 cocci_id/* drivers/media/dvb-frontends/si2165.c 904 */;
+	s32 cocci_id/* drivers/media/dvb-frontends/si2165.c 847 */;
+	u32 *cocci_id/* drivers/media/dvb-frontends/si2165.c 810 */;
+	u16 *cocci_id/* drivers/media/dvb-frontends/si2165.c 799 */;
+	const u16 cocci_id/* drivers/media/dvb-frontends/si2165.c 76 */;
+	const int cocci_id/* drivers/media/dvb-frontends/si2165.c 76 */;
+	u8 *cocci_id/* drivers/media/dvb-frontends/si2165.c 76 */;
+	u64 cocci_id/* drivers/media/dvb-frontends/si2165.c 735 */;
+	enum fe_status *cocci_id/* drivers/media/dvb-frontends/si2165.c 668 */;
+	struct dtv_frontend_properties *cocci_id/* drivers/media/dvb-frontends/si2165.c 528 */;
+	const u8 *cocci_id/* drivers/media/dvb-frontends/si2165.c 370 */;
+	const struct firmware *cocci_id/* drivers/media/dvb-frontends/si2165.c 368 */;
+	struct si2165_state {
+		struct i2c_client *client;
+		struct regmap *regmap;
+		struct dvb_frontend fe;
+		struct si2165_config config;
+		u8 chip_revcode;
+		u8 chip_type;
+		u32 fvco_hz;
+		u32 sys_clk;
+		u32 adc_clk;
+		u64 ber_prev;
+		bool has_dvbc;
+		bool has_dvbt;
+		bool firmware_loaded;
+	} cocci_id/* drivers/media/dvb-frontends/si2165.c 34 */;
+	u32 cocci_id/* drivers/media/dvb-frontends/si2165.c 261 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/si2165.c 255 */;
+	struct si2165_state *cocci_id/* drivers/media/dvb-frontends/si2165.c 255 */;
+	int cocci_id/* drivers/media/dvb-frontends/si2165.c 255 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/si2165.c 209 */[4];
+	struct dvb_frontend_tune_settings *cocci_id/* drivers/media/dvb-frontends/si2165.c 195 */;
+	struct dvb_frontend *cocci_id/* drivers/media/dvb-frontends/si2165.c 194 */;
+	const struct si2165_reg_value_pair *cocci_id/* drivers/media/dvb-frontends/si2165.c 180 */;
+	struct si2165_reg_value_pair {
+		u16 reg;
+		u8 val;
+	} cocci_id/* drivers/media/dvb-frontends/si2165.c 174 */;
+	struct i2c_driver cocci_id/* drivers/media/dvb-frontends/si2165.c 1293 */;
+	const struct i2c_device_id cocci_id/* drivers/media/dvb-frontends/si2165.c 1287 */[];
+	struct dvb_frontend_ops cocci_id/* drivers/media/dvb-frontends/si2165.c 1194 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/si2165.c 116 */[3];
+	const struct regmap_config cocci_id/* drivers/media/dvb-frontends/si2165.c 1157 */;
+	const char *cocci_id/* drivers/media/dvb-frontends/si2165.c 1156 */;
+	char cocci_id/* drivers/media/dvb-frontends/si2165.c 1155 */;
+	struct si2165_platform_data *cocci_id/* drivers/media/dvb-frontends/si2165.c 1151 */;
+	const struct i2c_device_id *cocci_id/* drivers/media/dvb-frontends/si2165.c 1148 */;
+	struct i2c_client *cocci_id/* drivers/media/dvb-frontends/si2165.c 1147 */;
+	const struct dvb_frontend_ops cocci_id/* drivers/media/dvb-frontends/si2165.c 1109 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/si2165.c 105 */[2];
+	const struct si2165_reg_value_pair cocci_id/* drivers/media/dvb-frontends/si2165.c 1025 */[];
+}

@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	int cocci_id/* drivers/scsi/g_NCR5380.c 90 */;
+	void __exit cocci_id/* drivers/scsi/g_NCR5380.c 808 */;
+	int __init cocci_id/* drivers/scsi/g_NCR5380.c 777 */;
+	struct pnp_driver cocci_id/* drivers/scsi/g_NCR5380.c 767 */;
+	const struct pnp_device_id *cocci_id/* drivers/scsi/g_NCR5380.c 747 */;
+	struct pnp_dev *cocci_id/* drivers/scsi/g_NCR5380.c 746 */;
+	const struct pnp_device_id cocci_id/* drivers/scsi/g_NCR5380.c 740 */[];
+	struct isa_driver cocci_id/* drivers/scsi/g_NCR5380.c 731 */;
+	unsigned int cocci_id/* drivers/scsi/g_NCR5380.c 709 */;
+	struct scsi_host_template cocci_id/* drivers/scsi/g_NCR5380.c 692 */;
+	struct scsi_cmnd *cocci_id/* drivers/scsi/g_NCR5380.c 664 */;
+	unsigned char *cocci_id/* drivers/scsi/g_NCR5380.c 520 */;
+	void __iomem *cocci_id/* drivers/scsi/g_NCR5380.c 469 */;
+	int *cocci_id/* drivers/scsi/g_NCR5380.c 397 */;
+	struct NCR5380_hostdata cocci_id/* drivers/scsi/g_NCR5380.c 314 */;
+	u8 __iomem *cocci_id/* drivers/scsi/g_NCR5380.c 235 */;
+	unsigned long cocci_id/* drivers/scsi/g_NCR5380.c 232 */;
+	u8 *cocci_id/* drivers/scsi/g_NCR5380.c 229 */;
+	unsigned int *cocci_id/* drivers/scsi/g_NCR5380.c 228 */;
+	bool cocci_id/* drivers/scsi/g_NCR5380.c 225 */;
+	struct device *cocci_id/* drivers/scsi/g_NCR5380.c 223 */;
+	struct scsi_host_template *cocci_id/* drivers/scsi/g_NCR5380.c 222 */;
+	u8 cocci_id/* drivers/scsi/g_NCR5380.c 215 */[];
+	unsigned int cocci_id/* drivers/scsi/g_NCR5380.c 209 */[];
+	irqreturn_t cocci_id/* drivers/scsi/g_NCR5380.c 187 */;
+	void *cocci_id/* drivers/scsi/g_NCR5380.c 187 */;
+	u8 cocci_id/* drivers/scsi/g_NCR5380.c 169 */;
+	struct NCR5380_hostdata *cocci_id/* drivers/scsi/g_NCR5380.c 151 */;
+	struct Scsi_Host *cocci_id/* drivers/scsi/g_NCR5380.c 149 */;
+	void cocci_id/* drivers/scsi/g_NCR5380.c 115 */;
+	int cocci_id/* drivers/scsi/g_NCR5380.c 104 */[];
+}

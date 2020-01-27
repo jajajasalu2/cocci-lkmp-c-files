@@ -1,0 +1,127 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* net/ipv4/route.c 943 */;
+	struct inet_peer *cocci_id/* net/ipv4/route.c 942 */;
+	struct fib_nh_common *cocci_id/* net/ipv4/route.c 789 */;
+	struct net *cocci_id/* net/ipv4/route.c 745 */;
+	struct neighbour *cocci_id/* net/ipv4/route.c 744 */;
+	struct fib_result cocci_id/* net/ipv4/route.c 743 */;
+	struct in_device *cocci_id/* net/ipv4/route.c 742 */;
+	struct net_device *cocci_id/* net/ipv4/route.c 741 */;
+	__be32 cocci_id/* net/ipv4/route.c 739 */;
+	bool cocci_id/* net/ipv4/route.c 737 */;
+	struct sk_buff *cocci_id/* net/ipv4/route.c 736 */;
+	struct rtable *cocci_id/* net/ipv4/route.c 736 */;
+	const struct ip_options_rcu *cocci_id/* net/ipv4/route.c 562 */;
+	const struct sk_buff *cocci_id/* net/ipv4/route.c 546 */;
+	const struct inet_sock *cocci_id/* net/ipv4/route.c 532 */;
+	u32 cocci_id/* net/ipv4/route.c 529 */;
+	u8 cocci_id/* net/ipv4/route.c 528 */;
+	int cocci_id/* net/ipv4/route.c 528 */;
+	const struct iphdr *cocci_id/* net/ipv4/route.c 527 */;
+	const struct sock *cocci_id/* net/ipv4/route.c 526 */;
+	const struct net *cocci_id/* net/ipv4/route.c 525 */;
+	struct flowi4 *cocci_id/* net/ipv4/route.c 525 */;
+	void cocci_id/* net/ipv4/route.c 525 */;
+	struct iphdr *cocci_id/* net/ipv4/route.c 507 */;
+	u32 *cocci_id/* net/ipv4/route.c 488 */;
+	atomic_t *cocci_id/* net/ipv4/route.c 479 */;
+	const __be32 *cocci_id/* net/ipv4/route.c 463 */;
+	const struct rtable *cocci_id/* net/ipv4/route.c 461 */;
+	const void *cocci_id/* net/ipv4/route.c 459 */;
+	__be32 *cocci_id/* net/ipv4/route.c 447 */;
+	struct pernet_operations cocci_id/* net/ipv4/route.c 403 */;
+	void __net_exit cocci_id/* net/ipv4/route.c 394 */;
+	struct proc_dir_entry *cocci_id/* net/ipv4/route.c 364 */;
+	int __net_init cocci_id/* net/ipv4/route.c 362 */;
+	void __init cocci_id/* net/ipv4/route.c 3557 */;
+	struct rtable cocci_id/* net/ipv4/route.c 3518 */;
+	struct ip_rt_acct cocci_id/* net/ipv4/route.c 3512 */;
+	struct uncached_list *cocci_id/* net/ipv4/route.c 3506 */;
+	int __init cocci_id/* net/ipv4/route.c 3490 */;
+	struct ip_rt_acct __percpu *cocci_id/* net/ipv4/route.c 3487 */;
+	struct inet_peer_base *cocci_id/* net/ipv4/route.c 3474 */;
+	struct ctl_table cocci_id/* net/ipv4/route.c 3393 */[];
+	const char cocci_id/* net/ipv4/route.c 3391 */[];
+	struct ip_rt_acct *cocci_id/* net/ipv4/route.c 339 */;
+	struct seq_file *cocci_id/* net/ipv4/route.c 337 */;
+	void *cocci_id/* net/ipv4/route.c 337 */;
+	loff_t *cocci_id/* net/ipv4/route.c 3266 */;
+	size_t *cocci_id/* net/ipv4/route.c 3266 */;
+	void __user *cocci_id/* net/ipv4/route.c 3265 */;
+	struct ctl_table *cocci_id/* net/ipv4/route.c 3264 */;
+	kuid_t cocci_id/* net/ipv4/route.c 3128 */;
+	struct rtmsg *cocci_id/* net/ipv4/route.c 3124 */;
+	__be16 cocci_id/* net/ipv4/route.c 3119 */;
+	struct nlattr *cocci_id/* net/ipv4/route.c 3117 */[RTA_MAX + 1];
+	struct netlink_ext_ack *cocci_id/* net/ipv4/route.c 3114 */;
+	struct nlmsghdr *cocci_id/* net/ipv4/route.c 3113 */;
+	struct nlattr **cocci_id/* net/ipv4/route.c 3046 */;
+	const struct nlmsghdr *cocci_id/* net/ipv4/route.c 3045 */;
+	struct icmphdr cocci_id/* net/ipv4/route.c 3035 */;
+	struct icmphdr *cocci_id/* net/ipv4/route.c 3033 */;
+	struct tcphdr cocci_id/* net/ipv4/route.c 3023 */;
+	struct tcphdr *cocci_id/* net/ipv4/route.c 3021 */;
+	struct udphdr cocci_id/* net/ipv4/route.c 3013 */;
+	struct udphdr *cocci_id/* net/ipv4/route.c 3011 */;
+	struct iphdr cocci_id/* net/ipv4/route.c 3000 */;
+	struct fnhe_hash_bucket *cocci_id/* net/ipv4/route.c 2962 */;
+	int *cocci_id/* net/ipv4/route.c 2955 */;
+	struct netlink_callback *cocci_id/* net/ipv4/route.c 2953 */;
+	struct rt_cache_stat *cocci_id/* net/ipv4/route.c 284 */;
+	struct rtvia *cocci_id/* net/ipv4/route.c 2833 */;
+	struct nlattr *cocci_id/* net/ipv4/route.c 2832 */;
+	struct in6_addr cocci_id/* net/ipv4/route.c 2831 */;
+	u32 cocci_id/* net/ipv4/route.c 2783 */[RTAX_MAX];
+	struct dst_ops cocci_id/* net/ipv4/route.c 2705 */;
+	const struct dst_entry *cocci_id/* net/ipv4/route.c 2682 */;
+	__u8 cocci_id/* net/ipv4/route.c 2482 */;
+	struct rtable __rcu **cocci_id/* net/ipv4/route.c 2418 */;
+	const struct file_operations cocci_id/* net/ipv4/route.c 239 */;
+	u16 cocci_id/* net/ipv4/route.c 2359 */;
+	struct fib_info *cocci_id/* net/ipv4/route.c 2356 */;
+	unsigned int cocci_id/* net/ipv4/route.c 2354 */;
+	const struct flowi4 *cocci_id/* net/ipv4/route.c 2352 */;
+	struct inode *cocci_id/* net/ipv4/route.c 234 */;
+	struct file *cocci_id/* net/ipv4/route.c 234 */;
+	const struct seq_operations cocci_id/* net/ipv4/route.c 227 */;
+	struct ip_tunnel_info *cocci_id/* net/ipv4/route.c 2082 */;
+	struct fib_result *cocci_id/* net/ipv4/route.c 2005 */;
+	struct flow_keys cocci_id/* net/ipv4/route.c 1917 */;
+	struct flow_keys *cocci_id/* net/ipv4/route.c 1914 */;
+	const struct icmphdr *cocci_id/* net/ipv4/route.c 1882 */;
+	struct fib_nh_exception *cocci_id/* net/ipv4/route.c 1788 */;
+	const struct fib_result *cocci_id/* net/ipv4/route.c 1782 */;
+	const __u8 cocci_id/* net/ipv4/route.c 176 */[16];
+	struct fib_nh cocci_id/* net/ipv4/route.c 1587 */;
+	struct fib_nh *cocci_id/* net/ipv4/route.c 1585 */;
+	void cocci_id/* net/ipv4/route.c 156 */(const struct dst_entry *dst,
+						const void *daddr);
+	struct neighbour *cocci_id/* net/ipv4/route.c 153 */(const struct dst_entry *dst,
+							     struct sk_buff *skb,
+							     const void *daddr);
+	struct uncached_list cocci_id/* net/ipv4/route.c 1501 */;
+	struct uncached_list {
+		spinlock_t lock;
+		struct list_head head;
+	} cocci_id/* net/ipv4/route.c 1496 */;
+	struct rtable **cocci_id/* net/ipv4/route.c 1472 */;
+	void cocci_id/* net/ipv4/route.c 145 */(struct dst_entry *dst);
+	void cocci_id/* net/ipv4/route.c 143 */(struct dst_entry *dst,
+						struct sock *sk,
+						struct sk_buff *skb);
+	const bool cocci_id/* net/ipv4/route.c 1417 */;
+	void cocci_id/* net/ipv4/route.c 141 */(struct dst_entry *dst,
+						struct sock *sk,
+						struct sk_buff *skb, u32 mtu);
+	void cocci_id/* net/ipv4/route.c 140 */(struct sk_buff *skb);
+	struct dst_entry *cocci_id/* net/ipv4/route.c 139 */(struct dst_entry *dst);
+	unsigned int cocci_id/* net/ipv4/route.c 137 */(const struct dst_entry *dst);
+	struct dst_entry *cocci_id/* net/ipv4/route.c 136 */(struct dst_entry *dst,
+							     u32 cookie);
+	u8 *cocci_id/* net/ipv4/route.c 1253 */;
+	struct ip_options cocci_id/* net/ipv4/route.c 1197 */;
+	struct flowi4 cocci_id/* net/ipv4/route.c 1076 */;
+	struct sock *cocci_id/* net/ipv4/route.c 1073 */;
+	struct dst_entry *cocci_id/* net/ipv4/route.c 1015 */;
+	__typeof__(struct rt_cache_stat) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct power_supply_config cocci_id/* drivers/power/supply/pm2301_charger.c 979 */;
+	struct pm2xxx_platform_data *cocci_id/* drivers/power/supply/pm2301_charger.c 978 */;
+	const struct i2c_device_id *cocci_id/* drivers/power/supply/pm2301_charger.c 976 */;
+	struct i2c_client *cocci_id/* drivers/power/supply/pm2301_charger.c 958 */;
+	struct device *cocci_id/* drivers/power/supply/pm2301_charger.c 956 */;
+	int __maybe_unused cocci_id/* drivers/power/supply/pm2301_charger.c 956 */;
+	struct pm2xxx_irq cocci_id/* drivers/power/supply/pm2301_charger.c 907 */[];
+	struct pm2xxx_interrupts cocci_id/* drivers/power/supply/pm2301_charger.c 898 */;
+	int cocci_id/* drivers/power/supply/pm2301_charger.c 88 */[];
+	struct pm2xxx_charger cocci_id/* drivers/power/supply/pm2301_charger.c 842 */;
+	struct work_struct *cocci_id/* drivers/power/supply/pm2301_charger.c 839 */;
+	u8 cocci_id/* drivers/power/supply/pm2301_charger.c 710 */;
+	struct ux500_charger *cocci_id/* drivers/power/supply/pm2301_charger.c 704 */;
+	union power_supply_propval *cocci_id/* drivers/power/supply/pm2301_charger.c 603 */;
+	enum power_supply_property cocci_id/* drivers/power/supply/pm2301_charger.c 602 */;
+	struct power_supply *cocci_id/* drivers/power/supply/pm2301_charger.c 601 */;
+	struct pm2xxx_interrupts *cocci_id/* drivers/power/supply/pm2301_charger.c 482 */;
+	irqreturn_t cocci_id/* drivers/power/supply/pm2301_charger.c 479 */;
+	enum power_supply_property cocci_id/* drivers/power/supply/pm2301_charger.c 45 */[];
+	void *cocci_id/* drivers/power/supply/pm2301_charger.c 324 */;
+	int cocci_id/* drivers/power/supply/pm2301_charger.c 324 */;
+	u8 *cocci_id/* drivers/power/supply/pm2301_charger.c 275 */;
+	void __exit cocci_id/* drivers/power/supply/pm2301_charger.c 1245 */;
+	int __init cocci_id/* drivers/power/supply/pm2301_charger.c 1240 */;
+	struct i2c_driver cocci_id/* drivers/power/supply/pm2301_charger.c 1230 */;
+	const struct i2c_device_id cocci_id/* drivers/power/supply/pm2301_charger.c 1223 */[];
+	struct pm2xxx_charger *cocci_id/* drivers/power/supply/pm2301_charger.c 120 */;
+	void cocci_id/* drivers/power/supply/pm2301_charger.c 120 */;
+	struct i2c_device_id *cocci_id/* drivers/power/supply/pm2301_charger.c 1028 */;
+}

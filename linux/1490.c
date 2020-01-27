@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	unsigned cocci_id/* drivers/usb/gadget/legacy/zero.c 92 */;
+	struct usb_zero_options cocci_id/* drivers/usb/gadget/legacy/zero.c 62 */;
+	bool cocci_id/* drivers/usb/gadget/legacy/zero.c 59 */;
+	const char cocci_id/* drivers/usb/gadget/legacy/zero.c 51 */[];
+	 cocci_id/* drivers/usb/gadget/legacy/zero.c 47 */();
+	struct usb_composite_driver cocci_id/* drivers/usb/gadget/legacy/zero.c 414 */;
+	struct usb_descriptor_header *cocci_id/* drivers/usb/gadget/legacy/zero.c 338 */;
+	struct f_lb_opts cocci_id/* drivers/usb/gadget/legacy/zero.c 311 */;
+	struct f_ss_opts cocci_id/* drivers/usb/gadget/legacy/zero.c 289 */;
+	struct f_lb_opts *cocci_id/* drivers/usb/gadget/legacy/zero.c 268 */;
+	struct f_ss_opts *cocci_id/* drivers/usb/gadget/legacy/zero.c 267 */;
+	struct usb_function_instance *cocci_id/* drivers/usb/gadget/legacy/zero.c 252 */;
+	struct usb_function *cocci_id/* drivers/usb/gadget/legacy/zero.c 251 */;
+	const struct usb_ctrlrequest *cocci_id/* drivers/usb/gadget/legacy/zero.c 213 */;
+	struct usb_configuration *cocci_id/* drivers/usb/gadget/legacy/zero.c 212 */;
+	int cocci_id/* drivers/usb/gadget/legacy/zero.c 212 */;
+	struct usb_configuration cocci_id/* drivers/usb/gadget/legacy/zero.c 202 */;
+	struct usb_gadget *cocci_id/* drivers/usb/gadget/legacy/zero.c 158 */;
+	struct timer_list *cocci_id/* drivers/usb/gadget/legacy/zero.c 155 */;
+	void cocci_id/* drivers/usb/gadget/legacy/zero.c 155 */;
+	struct usb_composite_dev *cocci_id/* drivers/usb/gadget/legacy/zero.c 153 */;
+	struct timer_list cocci_id/* drivers/usb/gadget/legacy/zero.c 152 */;
+	struct usb_gadget_strings *cocci_id/* drivers/usb/gadget/legacy/zero.c 145 */[];
+	struct usb_gadget_strings cocci_id/* drivers/usb/gadget/legacy/zero.c 140 */;
+	struct usb_string cocci_id/* drivers/usb/gadget/legacy/zero.c 131 */[];
+	char cocci_id/* drivers/usb/gadget/legacy/zero.c 126 */[];
+	const struct usb_descriptor_header *cocci_id/* drivers/usb/gadget/legacy/zero.c 122 */[2];
+	struct usb_device_descriptor cocci_id/* drivers/usb/gadget/legacy/zero.c 110 */;
+}

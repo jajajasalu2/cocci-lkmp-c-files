@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 84 */;
+	u32 cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 70 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 64 */;
+	struct vio_version cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 56 */[];
+	char cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 48 */[];
+	void __exit cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 475 */;
+	int __init cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 469 */;
+	struct vio_driver cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 462 */;
+	const struct vio_device_id cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 454 */[];
+	struct vnet cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 444 */;
+	struct vnet *cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 439 */;
+	void cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 437 */;
+	u8 cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 42 */[ETH_ALEN];
+	unsigned long cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 283 */;
+	const struct vio_device_id *cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 279 */;
+	struct vio_driver_ops cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 270 */;
+	struct ldc_channel_config cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 264 */;
+	u64 cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 228 */;
+	struct vio_dev *cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 227 */;
+	u8 cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 226 */[];
+	const u64 *cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 173 */;
+	u64 *cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 169 */;
+	struct mdesc_handle *cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 167 */;
+	const char *cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 165 */;
+	const struct net_device_ops cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 150 */;
+	struct vio_driver_state *cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 130 */;
+	struct vnet_port *cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 129 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 127 */;
+	int cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 127 */;
+	netdev_tx_t cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 115 */;
+	u16 cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 103 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/sun/ldmvsw.c 103 */;
+}

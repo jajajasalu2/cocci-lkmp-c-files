@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	unsigned char *cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 953 */;
+	u8 cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 862 */[GSS_KRB5_MAX_CKSUM_LEN];
+	struct xdr_netobj cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 861 */;
+	u8 *cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 859 */;
+	struct xdr_buf cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 857 */;
+	u32 *cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 855 */;
+	struct krb5_ctx *cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 854 */;
+	u32 cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 853 */;
+	struct scatterlist cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 681 */[1];
+	struct decryptor_desc cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 617 */;
+	struct crypto_sync_skcipher *cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 571 */;
+	struct decryptor_desc *cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 569 */;
+	struct decryptor_desc {
+		u8 iv[GSS_KRB5_MAX_BLOCKSIZE];
+		struct skcipher_request *req;
+		struct scatterlist frags[4];
+		int fragno;
+		int fraglen;
+	} cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 558 */;
+	struct encryptor_desc cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 534 */;
+	struct page **cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 531 */;
+	struct page *cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 471 */;
+	struct xdr_buf *cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 468 */;
+	struct encryptor_desc *cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 467 */;
+	struct encryptor_desc {
+		u8 iv[GSS_KRB5_MAX_BLOCKSIZE];
+		struct skcipher_request *req;
+		int pos;
+		struct xdr_buf *outbuf;
+		struct page **pages;
+		struct scatterlist infrags[4];
+		struct scatterlist outfrags[4];
+		int fragno;
+		int fraglen;
+	} cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 452 */;
+	struct crypto_ahash *cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 280 */;
+	struct xdr_netobj *cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 278 */;
+	char *cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 276 */;
+	u8 cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 142 */[4];
+	unsigned int cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 142 */;
+	int cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 141 */;
+	struct ahash_request *cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 134 */;
+	struct scatterlist *cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 132 */;
+	void *cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 132 */;
+	unsigned char cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 1065 */;
+	u8 cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 103 */[GSS_KRB5_MAX_BLOCKSIZE];
+	u8 cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 1023 */[GSS_KRB5_MAX_KEYLEN];
+	struct shash_desc *cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 1022 */;
+	struct crypto_shash *cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 1021 */;
+	s32 cocci_id/* net/sunrpc/auth_gss/gss_krb5_crypto.c 1019 */;
+}

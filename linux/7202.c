@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct cros_ec_command *cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 68 */;
+	void *cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 63 */;
+	unsigned int cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 61 */;
+	struct cros_ec_extcon_info *cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 60 */;
+	int cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 60 */;
+	struct platform_driver cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 528 */;
+	const struct of_device_id cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 521 */[];
+	const struct dev_pm_ops cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 511 */;
+	enum usb_data_roles{DR_NONE, DR_HOST, DR_DEVICE,} cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 42 */;
+	struct device_node *cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 388 */;
+	struct platform_device *cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 383 */;
+	struct cros_ec_extcon_info cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 370 */;
+	u32 cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 368 */;
+	struct cros_ec_device *cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 367 */;
+	unsigned long cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 363 */;
+	struct notifier_block *cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 362 */;
+	const unsigned int cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 35 */[];
+	union extcon_property_value cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 322 */;
+	struct device *cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 250 */;
+	bool cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 222 */;
+	const char *cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 194 */;
+	struct cros_ec_extcon_info {
+		struct device *dev;
+		struct extcon_dev *edev;
+		int port_id;
+		struct cros_ec_device *ec;
+		struct notifier_block notifier;
+		unsigned int dr;
+		bool pr;
+		bool dp;
+		bool mux;
+		unsigned int power_type;
+	} cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 18 */;
+	struct ec_response_usb_pd_ports cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 177 */;
+	struct ec_response_usb_pd_control_v1 cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 148 */;
+	struct ec_params_usb_pd_control cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 147 */;
+	bool *cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 145 */;
+	struct ec_response_usb_pd_mux_info cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 122 */;
+	struct ec_params_usb_pd_mux_info cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 121 */;
+	struct ec_response_usb_pd_power_info cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 101 */;
+	struct ec_params_usb_pd_power_info cocci_id/* drivers/extcon/extcon-usbc-cros-ec.c 100 */;
+}

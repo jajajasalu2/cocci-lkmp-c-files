@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct rcar_du_plane_state cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 58 */;
+	struct vsp1_du_lif_config cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 51 */;
+	struct rcar_du_device *cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 50 */;
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 49 */;
+	struct rcar_du_vsp_plane *cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 379 */;
+	enum drm_plane_type cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 376 */;
+	struct platform_device *cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 348 */;
+	struct rcar_du_vsp *cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 344 */;
+	struct device_node *cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 344 */;
+	int cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 344 */;
+	const struct drm_plane_funcs cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 335 */;
+	u32 cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 32 */;
+	void *cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 32 */;
+	unsigned int cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 32 */;
+	const struct drm_plane_helper_funcs cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 287 */;
+	struct rcar_du_vsp_plane_state *cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 269 */;
+	struct drm_plane_state *cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 267 */;
+	struct drm_plane *cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 266 */;
+	struct sg_table *cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 192 */;
+	struct drm_gem_cma_object *cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 191 */;
+	struct sg_table cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 184 */[3];
+	struct drm_framebuffer *cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 183 */;
+	struct vsp1_du_atomic_config cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 154 */;
+	const struct rcar_du_format_info *cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 153 */;
+	const u32 cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 119 */[];
+	struct rcar_du_crtc_state *cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 109 */;
+	struct vsp1_du_atomic_pipe_config cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 108 */;
+	struct rcar_du_crtc *cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 101 */;
+	void cocci_id/* drivers/gpu/drm/rcar-du/rcar_du_vsp.c 101 */;
+}

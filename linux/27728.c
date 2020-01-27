@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	uint32_t cocci_id/* fs/gfs2/lock_dlm.c 953 */;
+	struct lm_lockstruct *cocci_id/* fs/gfs2/lock_dlm.c 952 */;
+	struct gfs2_sbd *cocci_id/* fs/gfs2/lock_dlm.c 950 */;
+	struct dlm_lksb cocci_id/* fs/gfs2/lock_dlm.c 760 */;
+	s64 cocci_id/* fs/gfs2/lock_dlm.c 76 */;
+	const unsigned cocci_id/* fs/gfs2/lock_dlm.c 73 */;
+	struct gfs2_pcpu_lkstats *cocci_id/* fs/gfs2/lock_dlm.c 72 */;
+	struct gfs2_sbd cocci_id/* fs/gfs2/lock_dlm.c 576 */;
+	struct work_struct *cocci_id/* fs/gfs2/lock_dlm.c 574 */;
+	struct dlm_lksb *cocci_id/* fs/gfs2/lock_dlm.c 518 */;
+	char *cocci_id/* fs/gfs2/lock_dlm.c 483 */;
+	int cocci_id/* fs/gfs2/lock_dlm.c 483 */;
+	__le32 cocci_id/* fs/gfs2/lock_dlm.c 468 */;
+	uint32_t *cocci_id/* fs/gfs2/lock_dlm.c 465 */;
+	void cocci_id/* fs/gfs2/lock_dlm.c 465 */;
+	struct gfs2_lkstats *cocci_id/* fs/gfs2/lock_dlm.c 44 */;
+	unsigned long long cocci_id/* fs/gfs2/lock_dlm.c 312 */;
+	char cocci_id/* fs/gfs2/lock_dlm.c 256 */[GDLM_STRNAME_BYTES];
+	u32 cocci_id/* fs/gfs2/lock_dlm.c 255 */;
+	unsigned int cocci_id/* fs/gfs2/lock_dlm.c 250 */;
+	u64 cocci_id/* fs/gfs2/lock_dlm.c 241 */;
+	const int cocci_id/* fs/gfs2/lock_dlm.c 203 */;
+	const unsigned int cocci_id/* fs/gfs2/lock_dlm.c 202 */;
+	const struct lm_lockops cocci_id/* fs/gfs2/lock_dlm.c 1337 */;
+	const match_table_t cocci_id/* fs/gfs2/lock_dlm.c 1329 */;
+	char cocci_id/* fs/gfs2/lock_dlm.c 1198 */[GFS2_LOCKNAME_LEN];
+	const char *cocci_id/* fs/gfs2/lock_dlm.c 1195 */;
+	const struct dlm_lockspace_ops cocci_id/* fs/gfs2/lock_dlm.c 1189 */;
+	unsigned cocci_id/* fs/gfs2/lock_dlm.c 117 */;
+	struct gfs2_glock *cocci_id/* fs/gfs2/lock_dlm.c 116 */;
+	void *cocci_id/* fs/gfs2/lock_dlm.c 114 */;
+	struct dlm_slot *cocci_id/* fs/gfs2/lock_dlm.c 1122 */;
+	ktime_t cocci_id/* fs/gfs2/lock_dlm.c 101 */;
+}

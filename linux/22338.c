@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct xattr_list *cocci_id/* security/integrity/evm/evm_main.c 95 */;
+	struct inode *cocci_id/* security/integrity/evm/evm_main.c 94 */;
+	struct dentry *cocci_id/* security/integrity/evm/evm_main.c 92 */;
+	int cocci_id/* security/integrity/evm/evm_main.c 92 */;
+	bool cocci_id/* security/integrity/evm/evm_main.c 87 */;
+	void __init cocci_id/* security/integrity/evm/evm_main.c 68 */;
+	void cocci_id/* security/integrity/evm/evm_main.c 68 */;
+	char *cocci_id/* security/integrity/evm/evm_main.c 60 */;
+	int __init cocci_id/* security/integrity/evm/evm_main.c 60 */;
+	struct list_head *cocci_id/* security/integrity/evm/evm_main.c 562 */;
+	struct evm_xattr *cocci_id/* security/integrity/evm/evm_main.c 523 */;
+	struct xattr *cocci_id/* security/integrity/evm/evm_main.c 521 */;
+	const struct xattr *cocci_id/* security/integrity/evm/evm_main.c 520 */;
+	enum integrity_status cocci_id/* security/integrity/evm/evm_main.c 476 */;
+	unsigned int cocci_id/* security/integrity/evm/evm_main.c 475 */;
+	struct iattr *cocci_id/* security/integrity/evm/evm_main.c 473 */;
+	const char *cocci_id/* security/integrity/evm/evm_main.c 456 */;
+	const void *cocci_id/* security/integrity/evm/evm_main.c 435 */;
+	size_t cocci_id/* security/integrity/evm/evm_main.c 435 */;
+	const struct evm_ima_xattr_data *cocci_id/* security/integrity/evm/evm_main.c 374 */;
+	struct xattr_list cocci_id/* security/integrity/evm/evm_main.c 36 */[];
+	struct integrity_iint_cache *cocci_id/* security/integrity/evm/evm_main.c 332 */;
+	const char *const cocci_id/* security/integrity/evm/evm_main.c 31 */[];
+	void *cocci_id/* security/integrity/evm/evm_main.c 268 */;
+	struct evm_xattr cocci_id/* security/integrity/evm/evm_main.c 169 */;
+	char **cocci_id/* security/integrity/evm/evm_main.c 148 */;
+	struct evm_digest cocci_id/* security/integrity/evm/evm_main.c 137 */;
+	struct signature_v2_hdr *cocci_id/* security/integrity/evm/evm_main.c 135 */;
+	struct evm_ima_xattr_data *cocci_id/* security/integrity/evm/evm_main.c 134 */;
+}

@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct bl_msg_hdr *cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 61 */;
+	struct bl_dev_msg *cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 58 */;
+	struct net *cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 56 */;
+	gfp_t cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 54 */;
+	struct pnfs_block_volume *cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 53 */;
+	struct nfs_server *cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 53 */;
+	dev_t cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 52 */;
+	__be32 *cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 38 */;
+	void cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 284 */;
+	int cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 268 */;
+	int __init cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 266 */;
+	struct pernet_operations cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 261 */;
+	struct dentry *cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 236 */;
+	struct super_block *cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 210 */;
+	struct rpc_pipe *cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 208 */;
+	struct notifier_block cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 203 */;
+	void *cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 166 */;
+	struct notifier_block *cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 165 */;
+	unsigned long cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 165 */;
+	const struct rpc_pipe_ops cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 139 */;
+	struct bl_pipe_msg cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 132 */;
+	struct bl_pipe_msg *cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 131 */;
+	struct rpc_pipe_msg *cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 129 */;
+	struct bl_dev_msg cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 118 */;
+	struct nfs_net *cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 115 */;
+	size_t cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 113 */;
+	const char __user *cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 112 */;
+	struct file *cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 112 */;
+	ssize_t cocci_id/* fs/nfs/blocklayout/rpc_pipefs.c 112 */;
+}

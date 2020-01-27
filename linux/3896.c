@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	int (*cocci_id/* drivers/ssb/main.c 94 */)(struct ssb_bus *bus,
+						   unsigned long data);
+	u32 cocci_id/* drivers/ssb/main.c 821 */;
+	void *cocci_id/* drivers/ssb/main.c 803 */;
+	struct ssb_driver *cocci_id/* drivers/ssb/main.c 787 */;
+	struct module *cocci_id/* drivers/ssb/main.c 787 */;
+	int cocci_id/* drivers/ssb/main.c 787 */;
+	unsigned long cocci_id/* drivers/ssb/main.c 770 */;
+	struct sdio_func *cocci_id/* drivers/ssb/main.c 747 */;
+	struct pcmcia_device *cocci_id/* drivers/ssb/main.c 726 */;
+	struct pci_dev *cocci_id/* drivers/ssb/main.c 701 */;
+	ssb_invariants_func_t cocci_id/* drivers/ssb/main.c 618 */;
+	int __maybe_unused cocci_id/* drivers/ssb/main.c 616 */;
+	struct ssb_init_invariants cocci_id/* drivers/ssb/main.c 602 */;
+	struct ssb_bus *cocci_id/* drivers/ssb/main.c 558 */;
+	void cocci_id/* drivers/ssb/main.c 556 */;
+	void cocci_id/* drivers/ssb/main.c 51 */(void);
+	struct __ssb_dev_wrapper *cocci_id/* drivers/ssb/main.c 462 */;
+	struct __ssb_dev_wrapper cocci_id/* drivers/ssb/main.c 454 */;
+	struct bus_type cocci_id/* drivers/ssb/main.c 386 */;
+	unsigned int cocci_id/* drivers/ssb/main.c 38 */;
+	struct attribute *cocci_id/* drivers/ssb/main.c 375 */[];
+	struct device_attribute *cocci_id/* drivers/ssb/main.c 368 */;
+	struct device *cocci_id/* drivers/ssb/main.c 368 */;
+	char *cocci_id/* drivers/ssb/main.c 368 */;
+	ssize_t cocci_id/* drivers/ssb/main.c 367 */;
+	struct kobj_uevent_env *cocci_id/* drivers/ssb/main.c 341 */;
+	const struct ssb_device_id *cocci_id/* drivers/ssb/main.c 329 */;
+	struct device_driver *cocci_id/* drivers/ssb/main.c 325 */;
+	struct ssb_freeze_context *cocci_id/* drivers/ssb/main.c 204 */;
+	pm_message_t cocci_id/* drivers/ssb/main.c 142 */;
+	void __exit cocci_id/* drivers/ssb/main.c 1328 */;
+	int __init cocci_id/* drivers/ssb/main.c 1281 */;
+	struct ssb_device *cocci_id/* drivers/ssb/main.c 1201 */;
+	enum ssb_clkmode cocci_id/* drivers/ssb/main.c 1183 */;
+	bool cocci_id/* drivers/ssb/main.c 1180 */;
+	struct ssb_chipcommon *cocci_id/* drivers/ssb/main.c 1151 */;
+	u16 cocci_id/* drivers/ssb/main.c 1117 */;
+}

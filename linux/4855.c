@@ -1,0 +1,127 @@
+cocci_test_suite() {
+	size_t *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 987 */;
+	struct counter_index *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 943 */;
+	struct mlx4_counter cocci_id/* drivers/infiniband/hw/mlx4/mad.c 941 */;
+	struct ib_class_port_info cocci_id/* drivers/infiniband/hw/mlx4/mad.c 930 */;
+	void cocci_id/* drivers/infiniband/hw/mlx4/mad.c 93 */(struct mlx4_ib_dev *dev,
+							       int port_num,
+							       int block,
+							       u32 change_bitmap);
+	struct ib_pma_portcounters_ext *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 914 */;
+	void cocci_id/* drivers/infiniband/hw/mlx4/mad.c 91 */(struct mlx4_ib_dev *dev,
+							       u8 port_num);
+	struct ib_pma_portcounters *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 899 */;
+	__be16 cocci_id/* drivers/infiniband/hw/mlx4/mad.c 894 */;
+	struct mlx4_counter *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 893 */;
+	void *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 893 */;
+	struct mlx4_rcv_tunnel_mad {
+		struct mlx4_rcv_tunnel_hdr hdr;
+		struct ib_grh grh;
+		struct ib_mad mad;
+	}__packed cocci_id/* drivers/infiniband/hw/mlx4/mad.c 85 */;
+	struct ib_port_attr cocci_id/* drivers/infiniband/hw/mlx4/mad.c 808 */;
+	struct ib_mad *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 804 */;
+	const struct ib_wc *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 803 */;
+	const struct ib_grh *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 803 */;
+	struct mlx4_tunnel_mad {
+		struct ib_grh grh;
+		struct mlx4_ib_tunnel_header hdr;
+		struct ib_mad mad;
+	}__packed cocci_id/* drivers/infiniband/hw/mlx4/mad.c 79 */;
+	struct ib_sa_mad *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 769 */;
+	struct mlx4_mad_snd_buf {
+		u8 payload[256];
+	}__packed cocci_id/* drivers/infiniband/hw/mlx4/mad.c 75 */;
+	struct mlx4_mad_rcv_buf {
+		struct ib_grh grh;
+		u8 payload[256];
+	}__packed cocci_id/* drivers/infiniband/hw/mlx4/mad.c 70 */;
+	struct ib_wc *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 665 */;
+	char *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 624 */;
+	unsigned cocci_id/* drivers/infiniband/hw/mlx4/mad.c 516 */;
+	struct ib_qp *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 515 */;
+	struct ib_ah *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 514 */;
+	struct mlx4_rcv_tunnel_mad *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 512 */;
+	const struct ib_send_wr *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 509 */;
+	struct ib_ud_wr cocci_id/* drivers/infiniband/hw/mlx4/mad.c 508 */;
+	union rdma_network_hdr *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 499 */;
+	enum rdma_network_type cocci_id/* drivers/infiniband/hw/mlx4/mad.c 490 */;
+	const union rdma_network_hdr *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 489 */;
+	union ib_gid *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 486 */;
+	struct ib_grh *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 486 */;
+	enum{MLX4_IB_VENDOR_CLASS1=0x9, MLX4_IB_VENDOR_CLASS2=0xa,} cocci_id/* drivers/infiniband/hw/mlx4/mad.c 48 */;
+	u8 cocci_id/* drivers/infiniband/hw/mlx4/mad.c 446 */;
+	u16 cocci_id/* drivers/infiniband/hw/mlx4/mad.c 446 */;
+	u16 *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 446 */;
+	__be64 cocci_id/* drivers/infiniband/hw/mlx4/mad.c 432 */;
+	unsigned long cocci_id/* drivers/infiniband/hw/mlx4/mad.c 389 */;
+	struct ib_mad_agent *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 387 */;
+	struct ib_mad_send_buf *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 386 */;
+	const struct ib_mad *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 383 */;
+	u32 cocci_id/* drivers/infiniband/hw/mlx4/mad.c 334 */;
+	struct mlx4_ib_dev *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 333 */;
+	int cocci_id/* drivers/infiniband/hw/mlx4/mad.c 333 */;
+	void cocci_id/* drivers/infiniband/hw/mlx4/mad.c 333 */;
+	__be16 *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 225 */;
+	struct ib_port_info *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 223 */;
+	struct mlx4_active_ports cocci_id/* drivers/infiniband/hw/mlx4/mad.c 2165 */;
+	char cocci_id/* drivers/infiniband/hw/mlx4/mad.c 2148 */[12];
+	struct mlx4_ib_demux_ctx *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 2145 */;
+	struct mlx4_ib_demux_work cocci_id/* drivers/infiniband/hw/mlx4/mad.c 2137 */;
+	struct mlx4_ib_demux_work *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 2135 */;
+	struct ib_cq_init_attr cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1974 */;
+	struct ib_device *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1970 */;
+	struct mlx4_ib_demux_pv_ctx cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1951 */;
+	struct mlx4_ib_demux_pv_ctx *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1948 */;
+	struct mlx4_ib_demux_pv_ctx **cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1946 */;
+	struct mlx4_mad_rcv_buf *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1913 */;
+	struct ib_wc cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1892 */;
+	struct ib_qp_attr cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1794 */;
+	struct mlx4_ib_qp_tunnel_init_attr cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1793 */;
+	struct mlx4_ib_demux_pv_qp *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1792 */;
+	enum ib_qp_type cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1789 */;
+	struct ib_event *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1779 */;
+	struct mlx4_mad_snd_buf cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1624 */;
+	struct mlx4_mad_rcv_buf cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1623 */;
+	struct mlx4_rcv_tunnel_mad cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1621 */;
+	struct mlx4_tunnel_mad cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1620 */;
+	struct mlx4_ib_tun_tx_buf cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1611 */;
+	struct mlx4_ib_buf cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1605 */;
+	struct mlx4_av cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1561 */;
+	struct rdma_ah_attr cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1480 */;
+	struct mlx4_ib_ah cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1479 */;
+	struct mlx4_tunnel_mad *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1478 */;
+	struct ib_global_route *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1466 */;
+	struct rdma_ah_attr *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1464 */;
+	struct {
+		__be32 my_qpn;
+		u32 reserved1;
+		__be32 rqpn;
+		u8 sl;
+		u8 g_path;
+		u16 reserved2[2];
+		__be16 pkey;
+		u32 reserved3[11];
+		u8 grh[40];
+	} *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 145 */;
+	struct mlx4_mad_snd_buf *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1362 */;
+	const struct ib_recv_wr *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1308 */;
+	struct ib_recv_wr cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1307 */;
+	struct ib_sge cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1306 */;
+	struct ib_cq *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1291 */;
+	struct ib_event cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1282 */;
+	enum ib_event_type cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1280 */;
+	union sl2vl_tbl_to_u64 cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1259 */;
+	u64 cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1220 */;
+	union ib_gid cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1206 */;
+	struct mlx4_eqe *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1181 */;
+	struct ib_event_work cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1179 */;
+	struct ib_event_work *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1179 */;
+	struct work_struct *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1177 */;
+	u8 *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1165 */;
+	struct mlx4_cmd_mailbox *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 113 */;
+	struct ib_smp *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1129 */;
+	const void *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 111 */;
+	enum rdma_link_layer cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1028 */;
+	struct ib_mad_send_wc *cocci_id/* drivers/infiniband/hw/mlx4/mad.c 1016 */;
+}

@@ -1,0 +1,122 @@
+cocci_test_suite() {
+	struct xdp_buff cocci_id/* drivers/net/ethernet/socionext/netsec.c 949 */;
+	dma_addr_t cocci_id/* drivers/net/ethernet/socionext/netsec.c 948 */;
+	struct bpf_prog *cocci_id/* drivers/net/ethernet/socionext/netsec.c 931 */;
+	struct netsec_rx_pkt_info cocci_id/* drivers/net/ethernet/socionext/netsec.c 929 */;
+	struct xdp_buff *cocci_id/* drivers/net/ethernet/socionext/netsec.c 884 */;
+	struct xdp_frame *cocci_id/* drivers/net/ethernet/socionext/netsec.c 814 */;
+	const struct netsec_tx_pkt_ctrl *cocci_id/* drivers/net/ethernet/socionext/netsec.c 776 */;
+	u16 cocci_id/* drivers/net/ethernet/socionext/netsec.c 765 */;
+	struct page *cocci_id/* drivers/net/ethernet/socionext/netsec.c 723 */;
+	enum dma_data_direction cocci_id/* drivers/net/ethernet/socionext/netsec.c 722 */;
+	u16 *cocci_id/* drivers/net/ethernet/socionext/netsec.c 717 */;
+	dma_addr_t *cocci_id/* drivers/net/ethernet/socionext/netsec.c 717 */;
+	void *cocci_id/* drivers/net/ethernet/socionext/netsec.c 716 */;
+	struct netsec_desc cocci_id/* drivers/net/ethernet/socionext/netsec.c 670 */;
+	struct netsec_desc *cocci_id/* drivers/net/ethernet/socionext/netsec.c 642 */;
+	unsigned int cocci_id/* drivers/net/ethernet/socionext/netsec.c 632 */;
+	struct netsec_de *cocci_id/* drivers/net/ethernet/socionext/netsec.c 630 */;
+	bool cocci_id/* drivers/net/ethernet/socionext/netsec.c 627 */;
+	const struct netsec_desc *cocci_id/* drivers/net/ethernet/socionext/netsec.c 606 */;
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/socionext/netsec.c 590 */;
+	struct ethtool_coalesce *cocci_id/* drivers/net/ethernet/socionext/netsec.c 533 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/socionext/netsec.c 532 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/ethernet/socionext/netsec.c 525 */;
+	void cocci_id/* drivers/net/ethernet/socionext/netsec.c 524 */;
+	struct mii_bus *cocci_id/* drivers/net/ethernet/socionext/netsec.c 497 */;
+	int cocci_id/* drivers/net/ethernet/socionext/netsec.c 464 */(struct mii_bus *bus,
+								      int phy_addr,
+								      int reg_addr);
+	struct phy_device *cocci_id/* drivers/net/ethernet/socionext/netsec.c 440 */;
+	u32 cocci_id/* drivers/net/ethernet/socionext/netsec.c 344 */;
+	struct netsec_rx_pkt_info {
+		int rx_cksum_result;
+		int err_code;
+		bool err_flag;
+	} cocci_id/* drivers/net/ethernet/socionext/netsec.c 323 */;
+	struct netsec_tx_pkt_ctrl {
+		u16 tcp_seg_len;
+		bool tcp_seg_offload_flag;
+		bool cksum_offload_flag;
+	} cocci_id/* drivers/net/ethernet/socionext/netsec.c 317 */;
+	struct netsec_de {
+		u32 attr;
+		u32 data_buf_addr_up;
+		u32 data_buf_addr_lw;
+		u32 buf_len_info;
+	} cocci_id/* drivers/net/ethernet/socionext/netsec.c 310 */;
+	struct netsec_priv {
+		struct netsec_desc_ring desc_ring[NETSEC_RING_MAX];
+		struct ethtool_coalesce et_coalesce;
+		struct bpf_prog *xdp_prog;
+		spinlock_t reglock;
+		struct napi_struct napi;
+		phy_interface_t phy_interface;
+		struct net_device *ndev;
+		struct device_node *phy_np;
+		struct phy_device *phydev;
+		struct mii_bus *mii_bus;
+		void __iomem *ioaddr;
+		void __iomem *eeprom_base;
+		struct device *dev;
+		struct clk *clk;
+		u32 msg_enable;
+		u32 freq;
+		u32 phy_addr;
+		bool rx_cksum_offload_flag;
+	} cocci_id/* drivers/net/ethernet/socionext/netsec.c 289 */;
+	struct netsec_desc_ring {
+		dma_addr_t desc_dma;
+		struct netsec_desc *desc;
+		void *vaddr;
+		u16 head,tail;
+		u16 xdp_xmit;
+		struct page_pool *page_pool;
+		struct xdp_rxq_info xdp_rxq;
+		spinlock_t lock;
+	} cocci_id/* drivers/net/ethernet/socionext/netsec.c 278 */;
+	struct netsec_desc {
+		union {
+			struct sk_buff *skb;
+			struct xdp_frame *xdpf;
+		};
+		dma_addr_t dma_addr;
+		void *addr;
+		u16 len;
+		u8 buf_type;
+	} cocci_id/* drivers/net/ethernet/socionext/netsec.c 267 */;
+	enum buf_type{TYPE_NETSEC_SKB=0, TYPE_NETSEC_XDP_TX, TYPE_NETSEC_XDP_NDO,} cocci_id/* drivers/net/ethernet/socionext/netsec.c 261 */;
+	enum ring_id{NETSEC_RING_TX=0, NETSEC_RING_RX,} cocci_id/* drivers/net/ethernet/socionext/netsec.c 256 */;
+	struct netsec_de cocci_id/* drivers/net/ethernet/socionext/netsec.c 247 */;
+	struct skb_shared_info cocci_id/* drivers/net/ethernet/socionext/netsec.c 245 */;
+	struct platform_driver cocci_id/* drivers/net/ethernet/socionext/netsec.c 2180 */;
+	const struct acpi_device_id cocci_id/* drivers/net/ethernet/socionext/netsec.c 2173 */[];
+	const struct of_device_id cocci_id/* drivers/net/ethernet/socionext/netsec.c 2166 */[];
+	const struct dev_pm_ops cocci_id/* drivers/net/ethernet/socionext/netsec.c 2162 */;
+	struct device *cocci_id/* drivers/net/ethernet/socionext/netsec.c 2149 */;
+	u8 *cocci_id/* drivers/net/ethernet/socionext/netsec.c 1954 */;
+	struct resource *cocci_id/* drivers/net/ethernet/socionext/netsec.c 1953 */;
+	struct device_node *cocci_id/* drivers/net/ethernet/socionext/netsec.c 1904 */;
+	u32 *cocci_id/* drivers/net/ethernet/socionext/netsec.c 1851 */;
+	struct netsec_priv *cocci_id/* drivers/net/ethernet/socionext/netsec.c 1851 */;
+	struct platform_device *cocci_id/* drivers/net/ethernet/socionext/netsec.c 1850 */;
+	int cocci_id/* drivers/net/ethernet/socionext/netsec.c 1850 */;
+	const struct net_device_ops cocci_id/* drivers/net/ethernet/socionext/netsec.c 1815 */;
+	struct netdev_bpf *cocci_id/* drivers/net/ethernet/socionext/netsec.c 1800 */;
+	struct netlink_ext_ack *cocci_id/* drivers/net/ethernet/socionext/netsec.c 1775 */;
+	struct xdp_frame **cocci_id/* drivers/net/ethernet/socionext/netsec.c 1741 */;
+	struct ifreq *cocci_id/* drivers/net/ethernet/socionext/netsec.c 1734 */;
+	netdev_features_t cocci_id/* drivers/net/ethernet/socionext/netsec.c 1725 */;
+	unsigned long cocci_id/* drivers/net/ethernet/socionext/netsec.c 1571 */;
+	irqreturn_t cocci_id/* drivers/net/ethernet/socionext/netsec.c 1567 */;
+	void __iomem *cocci_id/* drivers/net/ethernet/socionext/netsec.c 1332 */;
+	u64 cocci_id/* drivers/net/ethernet/socionext/netsec.c 1331 */;
+	struct page_pool_params cocci_id/* drivers/net/ethernet/socionext/netsec.c 1275 */;
+	struct netsec_desc_ring *cocci_id/* drivers/net/ethernet/socionext/netsec.c 1236 */;
+	enum ring_id cocci_id/* drivers/net/ethernet/socionext/netsec.c 1234 */;
+	struct netsec_tx_pkt_ctrl cocci_id/* drivers/net/ethernet/socionext/netsec.c 1117 */;
+	netdev_tx_t cocci_id/* drivers/net/ethernet/socionext/netsec.c 1112 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/socionext/netsec.c 1112 */;
+	struct netsec_priv cocci_id/* drivers/net/ethernet/socionext/netsec.c 1059 */;
+	struct napi_struct *cocci_id/* drivers/net/ethernet/socionext/netsec.c 1054 */;
+}

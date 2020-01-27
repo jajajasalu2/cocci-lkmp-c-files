@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	const struct snd_soc_component_driver cocci_id/* sound/soc/codecs/wm8978.c 993 */;
+	struct wm8978_priv {
+		struct regmap *regmap;
+		unsigned int f_pllout;
+		unsigned int f_mclk;
+		unsigned int f_256fs;
+		unsigned int f_opclk;
+		int mclk_idx;
+		enum wm8978_sysclk_src sysclk;
+	} cocci_id/* sound/soc/codecs/wm8978.c 96 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/codecs/wm8978.c 903 */;
+	bool cocci_id/* sound/soc/codecs/wm8978.c 90 */;
+	struct device *cocci_id/* sound/soc/codecs/wm8978.c 90 */;
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/codecs/wm8978.c 894 */;
+	enum snd_soc_bias_level cocci_id/* sound/soc/codecs/wm8978.c 854 */;
+	enum wm8978_sysclk_src cocci_id/* sound/soc/codecs/wm8978.c 727 */;
+	u16 cocci_id/* sound/soc/codecs/wm8978.c 723 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/codecs/wm8978.c 718 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/codecs/wm8978.c 717 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/codecs/wm8978.c 716 */;
+	struct wm8978_pll_div cocci_id/* sound/soc/codecs/wm8978.c 474 */;
+	struct wm8978_priv *cocci_id/* sound/soc/codecs/wm8978.c 473 */;
+	int cocci_id/* sound/soc/codecs/wm8978.c 471 */;
+	unsigned int *cocci_id/* sound/soc/codecs/wm8978.c 451 */;
+	const int cocci_id/* sound/soc/codecs/wm8978.c 441 */[];
+	long long cocci_id/* sound/soc/codecs/wm8978.c 430 */;
+	u64 cocci_id/* sound/soc/codecs/wm8978.c 411 */;
+	struct wm8978_pll_div *cocci_id/* sound/soc/codecs/wm8978.c 409 */;
+	unsigned int cocci_id/* sound/soc/codecs/wm8978.c 409 */;
+	struct snd_soc_component *cocci_id/* sound/soc/codecs/wm8978.c 408 */;
+	void cocci_id/* sound/soc/codecs/wm8978.c 408 */;
+	struct wm8978_pll_div {
+		u32 k;
+		u8 n;
+		u8 div2;
+	} cocci_id/* sound/soc/codecs/wm8978.c 400 */;
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/codecs/wm8978.c 350 */[];
+	const struct reg_default cocci_id/* sound/soc/codecs/wm8978.c 30 */[];
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/codecs/wm8978.c 290 */[];
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/wm8978.c 279 */[];
+	const char *cocci_id/* sound/soc/codecs/wm8978.c 115 */[];
+	struct i2c_driver cocci_id/* sound/soc/codecs/wm8978.c 1071 */;
+	const struct of_device_id cocci_id/* sound/soc/codecs/wm8978.c 1065 */[];
+	const struct i2c_device_id cocci_id/* sound/soc/codecs/wm8978.c 1059 */[];
+	struct wm8978_priv cocci_id/* sound/soc/codecs/wm8978.c 1028 */;
+	const struct i2c_device_id *cocci_id/* sound/soc/codecs/wm8978.c 1023 */;
+	struct i2c_client *cocci_id/* sound/soc/codecs/wm8978.c 1022 */;
+	const struct regmap_config cocci_id/* sound/soc/codecs/wm8978.c 1010 */;
+}

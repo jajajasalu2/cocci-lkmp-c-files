@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	struct xfs_perag *cocci_id/* fs/xfs/xfs_reflink.c 974 */;
+	xfs_agnumber_t cocci_id/* fs/xfs/xfs_reflink.c 972 */;
+	struct xfs_mount *cocci_id/* fs/xfs/xfs_reflink.c 971 */;
+	unsigned int cocci_id/* fs/xfs/xfs_reflink.c 610 */;
+	xfs_fileoff_t *cocci_id/* fs/xfs/xfs_reflink.c 602 */;
+	xfs_off_t cocci_id/* fs/xfs/xfs_reflink.c 542 */;
+	struct xfs_bmbt_irec cocci_id/* fs/xfs/xfs_reflink.c 467 */;
+	struct xfs_ifork *cocci_id/* fs/xfs/xfs_reflink.c 466 */;
+	struct xfs_trans **cocci_id/* fs/xfs/xfs_reflink.c 461 */;
+	long cocci_id/* fs/xfs/xfs_reflink.c 442 */;
+	xfs_extlen_t cocci_id/* fs/xfs/xfs_reflink.c 362 */;
+	struct xfs_trans *cocci_id/* fs/xfs/xfs_reflink.c 358 */;
+	uint *cocci_id/* fs/xfs/xfs_reflink.c 352 */;
+	struct xfs_iext_cursor cocci_id/* fs/xfs/xfs_reflink.c 317 */;
+	xfs_filblks_t cocci_id/* fs/xfs/xfs_reflink.c 316 */;
+	xfs_fileoff_t cocci_id/* fs/xfs/xfs_reflink.c 315 */;
+	bool *cocci_id/* fs/xfs/xfs_reflink.c 312 */;
+	struct xfs_bmbt_irec *cocci_id/* fs/xfs/xfs_reflink.c 310 */;
+	struct xfs_inode *cocci_id/* fs/xfs/xfs_reflink.c 309 */;
+	int cocci_id/* fs/xfs/xfs_reflink.c 307 */;
+	struct xfs_btree_cur *cocci_id/* fs/xfs/xfs_reflink.c 251 */;
+	bool cocci_id/* fs/xfs/xfs_reflink.c 226 */;
+	struct xfs_buf *cocci_id/* fs/xfs/xfs_reflink.c 139 */;
+	xfs_extlen_t *cocci_id/* fs/xfs/xfs_reflink.c 136 */;
+	xfs_agblock_t *cocci_id/* fs/xfs/xfs_reflink.c 135 */;
+	xfs_agblock_t cocci_id/* fs/xfs/xfs_reflink.c 133 */;
+	ssize_t cocci_id/* fs/xfs/xfs_reflink.c 1319 */;
+	struct file *cocci_id/* fs/xfs/xfs_reflink.c 1307 */;
+	void cocci_id/* fs/xfs/xfs_reflink.c 1237 */;
+	struct inode *cocci_id/* fs/xfs/xfs_reflink.c 1190 */;
+	uint cocci_id/* fs/xfs/xfs_reflink.c 1135 */;
+	loff_t *cocci_id/* fs/xfs/xfs_reflink.c 1117 */;
+	loff_t cocci_id/* fs/xfs/xfs_reflink.c 1113 */;
+}

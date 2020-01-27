@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct gb_control_bundle_version_response cocci_id/* drivers/greybus/control.c 60 */;
+	struct gb_control_bundle_version_request cocci_id/* drivers/greybus/control.c 59 */;
+	struct gb_bundle *cocci_id/* drivers/greybus/control.c 56 */;
+	void cocci_id/* drivers/greybus/control.c 558 */;
+	struct gb_control *cocci_id/* drivers/greybus/control.c 543 */;
+	int cocci_id/* drivers/greybus/control.c 543 */;
+	struct gb_connection *cocci_id/* drivers/greybus/control.c 446 */;
+	struct gb_interface *cocci_id/* drivers/greybus/control.c 444 */;
+	struct device_type cocci_id/* drivers/greybus/control.c 439 */;
+	struct device *cocci_id/* drivers/greybus/control.c 427 */;
+	struct attribute *cocci_id/* drivers/greybus/control.c 420 */[];
+	struct device_attribute *cocci_id/* drivers/greybus/control.c 412 */;
+	char *cocci_id/* drivers/greybus/control.c 412 */;
+	ssize_t cocci_id/* drivers/greybus/control.c 411 */;
+	struct gb_control_intf_pm_response cocci_id/* drivers/greybus/control.c 357 */;
+	struct gb_control_bundle_pm_response cocci_id/* drivers/greybus/control.c 294 */;
+	struct gb_control_bundle_pm_request cocci_id/* drivers/greybus/control.c 293 */;
+	u8 cocci_id/* drivers/greybus/control.c 291 */;
+	struct gb_control_version_response cocci_id/* drivers/greybus/control.c 22 */;
+	struct gb_control_version_request cocci_id/* drivers/greybus/control.c 21 */;
+	struct gb_operation *cocci_id/* drivers/greybus/control.c 154 */;
+	struct gb_control_disconnecting_request *cocci_id/* drivers/greybus/control.c 153 */;
+	struct gb_control_disconnected_request cocci_id/* drivers/greybus/control.c 142 */;
+	struct gb_control_connected_request cocci_id/* drivers/greybus/control.c 133 */;
+	u16 cocci_id/* drivers/greybus/control.c 131 */;
+	size_t cocci_id/* drivers/greybus/control.c 123 */;
+	void *cocci_id/* drivers/greybus/control.c 122 */;
+	struct gb_control_get_manifest_size_response cocci_id/* drivers/greybus/control.c 106 */;
+}

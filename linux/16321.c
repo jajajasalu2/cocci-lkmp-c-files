@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	struct pci_driver cocci_id/* drivers/staging/media/ipu3/ipu3.c 839 */;
+	const struct pci_device_id cocci_id/* drivers/staging/media/ipu3/ipu3.c 832 */[];
+	struct device *cocci_id/* drivers/staging/media/ipu3/ipu3.c 779 */;
+	int __maybe_unused cocci_id/* drivers/staging/media/ipu3/ipu3.c 779 */;
+	void __iomem *const*cocci_id/* drivers/staging/media/ipu3/ipu3.c 614 */;
+	unsigned long cocci_id/* drivers/staging/media/ipu3/ipu3.c 613 */;
+	phys_addr_t cocci_id/* drivers/staging/media/ipu3/ipu3.c 612 */;
+	const struct pci_device_id *cocci_id/* drivers/staging/media/ipu3/ipu3.c 609 */;
+	u16 cocci_id/* drivers/staging/media/ipu3/ipu3.c 592 */;
+	struct pci_dev *cocci_id/* drivers/staging/media/ipu3/ipu3.c 590 */;
+	irqreturn_t cocci_id/* drivers/staging/media/ipu3/ipu3.c 579 */;
+	void *cocci_id/* drivers/staging/media/ipu3/ipu3.c 579 */;
+	u32 cocci_id/* drivers/staging/media/ipu3/ipu3.c 539 */;
+	struct imgu_buffer cocci_id/* drivers/staging/media/ipu3/ipu3.c 533 */;
+	struct imgu_buffer *cocci_id/* drivers/staging/media/ipu3/ipu3.c 511 */;
+	u64 cocci_id/* drivers/staging/media/ipu3/ipu3.c 509 */;
+	struct v4l2_rect *cocci_id/* drivers/staging/media/ipu3/ipu3.c 435 */[IPU3_CSS_RECTS];
+	struct v4l2_pix_format_mplane *cocci_id/* drivers/staging/media/ipu3/ipu3.c 434 */[IPU3_CSS_QUEUES];
+	const struct imgu_node_mapping cocci_id/* drivers/staging/media/ipu3/ipu3.c 43 */[IMGU_NODE_NUM];
+	const size_t cocci_id/* drivers/staging/media/ipu3/ipu3.c 35 */[IPU3_CSS_QUEUES];
+	struct ipu3_uapi_stats_3a cocci_id/* drivers/staging/media/ipu3/ipu3.c 33 */;
+	struct imgu_vb2_buffer cocci_id/* drivers/staging/media/ipu3/ipu3.c 263 */;
+	struct imgu_vb2_buffer *cocci_id/* drivers/staging/media/ipu3/ipu3.c 256 */;
+	enum vb2_buffer_state cocci_id/* drivers/staging/media/ipu3/ipu3.c 196 */;
+	struct vb2_buffer *cocci_id/* drivers/staging/media/ipu3/ipu3.c 195 */;
+	struct imgu_device *cocci_id/* drivers/staging/media/ipu3/ipu3.c 195 */;
+	void cocci_id/* drivers/staging/media/ipu3/ipu3.c 195 */;
+	struct imgu_media_pipe *cocci_id/* drivers/staging/media/ipu3/ipu3.c 186 */;
+	unsigned int cocci_id/* drivers/staging/media/ipu3/ipu3.c 183 */;
+	struct imgu_css_buffer *cocci_id/* drivers/staging/media/ipu3/ipu3.c 182 */;
+	bool cocci_id/* drivers/staging/media/ipu3/ipu3.c 181 */;
+	int cocci_id/* drivers/staging/media/ipu3/ipu3.c 153 */;
+	size_t cocci_id/* drivers/staging/media/ipu3/ipu3.c 111 */;
+	const struct v4l2_meta_format *cocci_id/* drivers/staging/media/ipu3/ipu3.c 109 */;
+	const struct v4l2_pix_format_mplane *cocci_id/* drivers/staging/media/ipu3/ipu3.c 108 */;
+}

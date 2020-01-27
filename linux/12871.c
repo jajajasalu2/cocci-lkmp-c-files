@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	char *cocci_id/* drivers/edac/fsl_ddr_edac.c 81 */;
+	struct device_attribute *cocci_id/* drivers/edac/fsl_ddr_edac.c 80 */;
+	struct device *cocci_id/* drivers/edac/fsl_ddr_edac.c 79 */;
+	ssize_t cocci_id/* drivers/edac/fsl_ddr_edac.c 79 */;
+	struct mem_ctl_info cocci_id/* drivers/edac/fsl_ddr_edac.c 57 */;
+	struct resource cocci_id/* drivers/edac/fsl_ddr_edac.c 481 */;
+	struct edac_mc_layer cocci_id/* drivers/edac/fsl_ddr_edac.c 479 */[2];
+	struct platform_device *cocci_id/* drivers/edac/fsl_ddr_edac.c 476 */;
+	void cocci_id/* drivers/edac/fsl_ddr_edac.c 46 */;
+	void __iomem *cocci_id/* drivers/edac/fsl_ddr_edac.c 41 */;
+	enum mem_type cocci_id/* drivers/edac/fsl_ddr_edac.c 398 */;
+	struct dimm_info *cocci_id/* drivers/edac/fsl_ddr_edac.c 395 */;
+	struct csrow_info *cocci_id/* drivers/edac/fsl_ddr_edac.c 394 */;
+	struct fsl_mc_pdata *cocci_id/* drivers/edac/fsl_ddr_edac.c 393 */;
+	struct mem_ctl_info *cocci_id/* drivers/edac/fsl_ddr_edac.c 391 */;
+	bool cocci_id/* drivers/edac/fsl_ddr_edac.c 39 */;
+	irqreturn_t cocci_id/* drivers/edac/fsl_ddr_edac.c 376 */;
+	void *cocci_id/* drivers/edac/fsl_ddr_edac.c 376 */;
+	u64 cocci_id/* drivers/edac/fsl_ddr_edac.c 284 */;
+	int *cocci_id/* drivers/edac/fsl_ddr_edac.c 244 */;
+	unsigned int cocci_id/* drivers/edac/fsl_ddr_edac.c 224 */;
+	int cocci_id/* drivers/edac/fsl_ddr_edac.c 196 */;
+	u8 cocci_id/* drivers/edac/fsl_ddr_edac.c 192 */;
+	u32 cocci_id/* drivers/edac/fsl_ddr_edac.c 192 */;
+	unsigned int cocci_id/* drivers/edac/fsl_ddr_edac.c 176 */[16];
+	struct attribute *cocci_id/* drivers/edac/fsl_ddr_edac.c 157 */[];
+	unsigned long cocci_id/* drivers/edac/fsl_ddr_edac.c 135 */;
+	const char *cocci_id/* drivers/edac/fsl_ddr_edac.c 131 */;
+	size_t cocci_id/* drivers/edac/fsl_ddr_edac.c 131 */;
+}

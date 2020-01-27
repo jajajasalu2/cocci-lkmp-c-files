@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	const struct fb_image *cocci_id/* drivers/video/fbdev/tdfxfb.c 946 */;
+	const struct fb_var_screeninfo cocci_id/* drivers/video/fbdev/tdfxfb.c 94 */;
+	const struct fb_copyarea *cocci_id/* drivers/video/fbdev/tdfxfb.c 889 */;
+	const struct fb_fix_screeninfo cocci_id/* drivers/video/fbdev/tdfxfb.c 86 */;
+	const struct fb_fillrect *cocci_id/* drivers/video/fbdev/tdfxfb.c 846 */;
+	struct banshee_reg cocci_id/* drivers/video/fbdev/tdfxfb.c 553 */;
+	struct fb_var_screeninfo *cocci_id/* drivers/video/fbdev/tdfxfb.c 436 */;
+	unsigned long cocci_id/* drivers/video/fbdev/tdfxfb.c 403 */;
+	unsigned short cocci_id/* drivers/video/fbdev/tdfxfb.c 403 */;
+	struct banshee_reg *cocci_id/* drivers/video/fbdev/tdfxfb.c 338 */;
+	int *cocci_id/* drivers/video/fbdev/tdfxfb.c 289 */;
+	unsigned cocci_id/* drivers/video/fbdev/tdfxfb.c 280 */;
+	struct fb_info *cocci_id/* drivers/video/fbdev/tdfxfb.c 261 */;
+	int cocci_id/* drivers/video/fbdev/tdfxfb.c 253 */;
+	unsigned int cocci_id/* drivers/video/fbdev/tdfxfb.c 243 */;
+	unsigned char cocci_id/* drivers/video/fbdev/tdfxfb.c 209 */;
+	u8 cocci_id/* drivers/video/fbdev/tdfxfb.c 207 */;
+	u32 cocci_id/* drivers/video/fbdev/tdfxfb.c 207 */;
+	struct tdfx_par *cocci_id/* drivers/video/fbdev/tdfxfb.c 207 */;
+	void cocci_id/* drivers/video/fbdev/tdfxfb.c 207 */;
+	void __exit cocci_id/* drivers/video/fbdev/tdfxfb.c 1641 */;
+	int __init cocci_id/* drivers/video/fbdev/tdfxfb.c 1628 */;
+	void __init cocci_id/* drivers/video/fbdev/tdfxfb.c 1570 */;
+	bool cocci_id/* drivers/video/fbdev/tdfxfb.c 153 */;
+	char *cocci_id/* drivers/video/fbdev/tdfxfb.c 152 */;
+	const struct fb_videomode *cocci_id/* drivers/video/fbdev/tdfxfb.c 1491 */;
+	struct tdfx_par cocci_id/* drivers/video/fbdev/tdfxfb.c 1387 */;
+	struct fb_monspecs *cocci_id/* drivers/video/fbdev/tdfxfb.c 1378 */;
+	const struct pci_device_id *cocci_id/* drivers/video/fbdev/tdfxfb.c 1373 */;
+	struct pci_dev *cocci_id/* drivers/video/fbdev/tdfxfb.c 1373 */;
+	struct pci_driver cocci_id/* drivers/video/fbdev/tdfxfb.c 137 */;
+	struct device *cocci_id/* drivers/video/fbdev/tdfxfb.c 1265 */;
+	const char *cocci_id/* drivers/video/fbdev/tdfxfb.c 1264 */;
+	struct tdfxfb_i2c_chan *cocci_id/* drivers/video/fbdev/tdfxfb.c 1250 */;
+	void *cocci_id/* drivers/video/fbdev/tdfxfb.c 1248 */;
+	const struct pci_device_id cocci_id/* drivers/video/fbdev/tdfxfb.c 124 */[];
+	void cocci_id/* drivers/video/fbdev/tdfxfb.c 122 */(struct pci_dev *pdev);
+	int cocci_id/* drivers/video/fbdev/tdfxfb.c 121 */(struct pci_dev *pdev,
+							   const struct pci_device_id *id);
+	struct fb_ops cocci_id/* drivers/video/fbdev/tdfxfb.c 1144 */;
+	u8 *cocci_id/* drivers/video/fbdev/tdfxfb.c 1116 */;
+	u8 __iomem *cocci_id/* drivers/video/fbdev/tdfxfb.c 1115 */;
+	struct fb_cmap cocci_id/* drivers/video/fbdev/tdfxfb.c 1071 */;
+	struct fb_cursor *cocci_id/* drivers/video/fbdev/tdfxfb.c 1041 */;
+	u16 *cocci_id/* drivers/video/fbdev/tdfxfb.c 1031 */;
+	u32 *cocci_id/* drivers/video/fbdev/tdfxfb.c 1018 */;
+}

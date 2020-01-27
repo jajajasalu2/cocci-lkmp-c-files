@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct xmit_priv *cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 798 */;
+	unsigned long cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 776 */;
+	struct xmit_frame *cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 665 */;
+	struct xmit_buf *cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 656 */;
+	struct recv_buf *cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 493 */;
+	struct __queue *cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 46 */;
+	struct recv_priv *cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 45 */;
+	struct rx_pkt_attrib *cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 43 */;
+	struct urb *cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 426 */;
+	struct recv_frame *cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 42 */;
+	struct phy_stat *cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 40 */;
+	struct recv_stat *cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 39 */;
+	s32 cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 38 */;
+	u8 cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 35 */;
+	struct pt_regs *cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 348 */;
+	struct sk_buff *cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 32 */;
+	int cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 32 */;
+	__le32 cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 315 */;
+	u32 *cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 258 */;
+	void *cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 201 */;
+	struct usb_device *cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 187 */;
+	u32 cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 184 */;
+	struct dvobj_priv *cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 184 */;
+	unsigned int cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 184 */;
+	struct hal_data_8188e *cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 15 */;
+	u16 cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 13 */;
+	u8 *cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 13 */;
+	struct adapter *cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 13 */;
+	void cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 13 */;
+	size_t cocci_id/* drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c 123 */;
+}

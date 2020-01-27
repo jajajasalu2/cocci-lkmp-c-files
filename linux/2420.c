@@ -1,0 +1,91 @@
+cocci_test_suite() {
+	struct resource *cocci_id/* drivers/dma/sa11x0-dma.c 904 */;
+	struct dma_device *cocci_id/* drivers/dma/sa11x0-dma.c 890 */;
+	struct platform_device *cocci_id/* drivers/dma/sa11x0-dma.c 882 */;
+	struct sa11x0_dma_chan {
+		struct virt_dma_chan vc;
+		struct sa11x0_dma_phy *phy;
+		enum dma_status status;
+		struct list_head node;
+		u32 ddar;
+		const char *name;
+	} cocci_id/* drivers/dma/sa11x0-dma.c 86 */;
+	struct sa11x0_dma_phy cocci_id/* drivers/dma/sa11x0-dma.c 84 */;
+	unsigned cocci_id/* drivers/dma/sa11x0-dma.c 838 */;
+	struct device *cocci_id/* drivers/dma/sa11x0-dma.c 836 */;
+	const char *cocci_id/* drivers/dma/sa11x0-dma.c 830 */;
+	bool cocci_id/* drivers/dma/sa11x0-dma.c 827 */;
+	void *cocci_id/* drivers/dma/sa11x0-dma.c 827 */;
+	const struct dma_slave_map cocci_id/* drivers/dma/sa11x0-dma.c 820 */[];
+	const struct sa11x0_dma_channel_desc cocci_id/* drivers/dma/sa11x0-dma.c 801 */[];
+	struct sa11x0_dma_channel_desc {
+		u32 ddar;
+		const char *name;
+	} cocci_id/* drivers/dma/sa11x0-dma.c 795 */;
+	struct sa11x0_dma_desc {
+		struct virt_dma_desc vd;
+		u32 ddar;
+		size_t size;
+		unsigned period;
+		bool cyclic;
+		unsigned sglen;
+		struct sa11x0_dma_sg sg[0];
+	} cocci_id/* drivers/dma/sa11x0-dma.c 72 */;
+	unsigned long cocci_id/* drivers/dma/sa11x0-dma.c 705 */;
+	struct sa11x0_dma_dev *cocci_id/* drivers/dma/sa11x0-dma.c 703 */;
+	struct sa11x0_dma_sg {
+		u32 addr;
+		u32 len;
+	} cocci_id/* drivers/dma/sa11x0-dma.c 67 */;
+	enum dma_slave_buswidth cocci_id/* drivers/dma/sa11x0-dma.c 669 */;
+	dma_addr_t cocci_id/* drivers/dma/sa11x0-dma.c 668 */;
+	u32 cocci_id/* drivers/dma/sa11x0-dma.c 667 */;
+	struct dma_slave_config *cocci_id/* drivers/dma/sa11x0-dma.c 664 */;
+	struct dma_chan *cocci_id/* drivers/dma/sa11x0-dma.c 663 */;
+	int cocci_id/* drivers/dma/sa11x0-dma.c 663 */;
+	enum dma_transfer_direction cocci_id/* drivers/dma/sa11x0-dma.c 606 */;
+	size_t cocci_id/* drivers/dma/sa11x0-dma.c 605 */;
+	struct dma_async_tx_descriptor *cocci_id/* drivers/dma/sa11x0-dma.c 604 */;
+	struct scatterlist *cocci_id/* drivers/dma/sa11x0-dma.c 523 */;
+	unsigned int cocci_id/* drivers/dma/sa11x0-dma.c 523 */;
+	dma_cookie_t cocci_id/* drivers/dma/sa11x0-dma.c 418 */;
+	struct dma_tx_state *cocci_id/* drivers/dma/sa11x0-dma.c 418 */;
+	enum dma_status cocci_id/* drivers/dma/sa11x0-dma.c 417 */;
+	struct sa11x0_dma_chan cocci_id/* drivers/dma/sa11x0-dma.c 358 */;
+	irqreturn_t cocci_id/* drivers/dma/sa11x0-dma.c 248 */;
+	struct sa11x0_dma_desc *cocci_id/* drivers/dma/sa11x0-dma.c 225 */;
+	struct sa11x0_dma_chan *cocci_id/* drivers/dma/sa11x0-dma.c 223 */;
+	struct sa11x0_dma_phy *cocci_id/* drivers/dma/sa11x0-dma.c 222 */;
+	void noinline cocci_id/* drivers/dma/sa11x0-dma.c 222 */;
+	void __iomem *cocci_id/* drivers/dma/sa11x0-dma.c 163 */;
+	struct sa11x0_dma_sg *cocci_id/* drivers/dma/sa11x0-dma.c 162 */;
+	struct sa11x0_dma_desc cocci_id/* drivers/dma/sa11x0-dma.c 145 */;
+	struct virt_dma_desc *cocci_id/* drivers/dma/sa11x0-dma.c 143 */;
+	struct sa11x0_dma_dev cocci_id/* drivers/dma/sa11x0-dma.c 133 */;
+	struct sa11x0_dma_dev {
+		struct dma_device slave;
+		void __iomem *base;
+		spinlock_t lock;
+		struct tasklet_struct task;
+		struct list_head chan_pending;
+		struct sa11x0_dma_phy phy[NR_PHY_CHAN];
+	} cocci_id/* drivers/dma/sa11x0-dma.c 117 */;
+	void __exit cocci_id/* drivers/dma/sa11x0-dma.c 1098 */;
+	void cocci_id/* drivers/dma/sa11x0-dma.c 1098 */;
+	int __init cocci_id/* drivers/dma/sa11x0-dma.c 1092 */;
+	struct platform_driver cocci_id/* drivers/dma/sa11x0-dma.c 1083 */;
+	const struct dev_pm_ops cocci_id/* drivers/dma/sa11x0-dma.c 1074 */;
+	struct sa11x0_dma_phy {
+		void __iomem *base;
+		struct sa11x0_dma_dev *dev;
+		unsigned num;
+		struct sa11x0_dma_chan *vchan;
+		unsigned sg_load;
+		struct sa11x0_dma_desc *txd_load;
+		unsigned sg_done;
+		struct sa11x0_dma_desc *txd_done;
+		u32 dbs[2];
+		u32 dbt[2];
+		u32 dcsr;
+	} cocci_id/* drivers/dma/sa11x0-dma.c 100 */;
+}

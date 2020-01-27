@@ -1,0 +1,102 @@
+cocci_test_suite() {
+	enum drm_mode_status cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 950 */;
+	struct drm_i915_private *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 938 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 937 */;
+	const struct drm_connector_state *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 935 */;
+	const struct intel_crtc_state *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 934 */;
+	void cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 932 */;
+	enum pipe *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 907 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 901 */;
+	struct intel_tv cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 898 */;
+	struct intel_tv *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 896 */;
+	struct intel_encoder *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 896 */;
+	struct intel_tv_connector_state cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 881 */;
+	struct intel_tv_connector_state {
+		struct drm_connector_state base;
+		struct {
+			u16 top,bottom;
+		} margins;
+		bool bypass_vfilter;
+	} cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 867 */;
+	const u32 cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 66 */[];
+	struct color_conversion {
+		u16 ry,gy,by,ay;
+		u16 ru,gu,bu,au;
+		u16 rv,gv,bv,av;
+	} cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 60 */;
+	struct video_levels {
+		u16 blank,black;
+		u8 burst;
+	} cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 55 */;
+	struct intel_tv {
+		struct intel_encoder base;
+		int type;
+	} cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 49 */;
+	enum tv_margin{TV_MARGIN_LEFT, TV_MARGIN_TOP, TV_MARGIN_RIGHT, TV_MARGIN_BOTTOM,} cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 44 */;
+	const struct tv_mode cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 379 */[];
+	struct tv_mode {
+		const char *name;
+		u32 clock;
+		u16 refresh;
+		u8 oversample;
+		u8 hsync_end;
+		u16 hblank_start,hblank_end,htotal;
+		bool progressive:1,trilevel_sync:1,component_only:1;
+		u8 vsync_start_f1,vsync_start_f2,vsync_len;
+		bool veq_ena:1;
+		u8 veq_start_f1,veq_start_f2,veq_len;
+		u8 vi_end_f1,vi_end_f2;
+		u16 nbr_end;
+		bool burst_ena:1;
+		u8 hburst_start,hburst_len;
+		u8 vburst_start_f1;
+		u16 vburst_end_f1;
+		u8 vburst_start_f2;
+		u16 vburst_end_f2;
+		u8 vburst_start_f3;
+		u16 vburst_end_f3;
+		u8 vburst_start_f4;
+		u16 vburst_end_f4;
+		u16 dda2_size,dda3_size;
+		u8 dda1_inc;
+		u16 dda2_inc,dda3_inc;
+		u32 sc_reset;
+		bool pal_burst:1;
+		const struct video_levels *composite_levels,*svideo_levels;
+		const struct color_conversion *composite_color,*svideo_color;
+		const u32 *filter_table;
+	} cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 308 */;
+	const struct video_levels cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 303 */;
+	const struct color_conversion cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 297 */;
+	const char *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1869 */[ARRAY_SIZE(tv_modes)];
+	struct intel_connector *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1867 */;
+	const struct drm_encoder_funcs cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1856 */;
+	const struct drm_connector_helper_funcs cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1849 */;
+	struct drm_crtc_state *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1826 */;
+	struct drm_connector_state *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1825 */;
+	struct drm_atomic_state *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1823 */;
+	int cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1822 */;
+	const struct drm_connector_funcs cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1813 */;
+	const struct input_res *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1771 */;
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1741 */;
+	const struct input_res {
+		u16 w,h;
+	} cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1727 */[];
+	struct intel_load_detect_pipe cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1701 */;
+	enum drm_connector_status cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1693 */;
+	bool cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1690 */;
+	struct drm_modeset_acquire_ctx *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1689 */;
+	u32 cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1571 */;
+	struct intel_crtc *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1568 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1567 */;
+	unsigned int cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1432 */;
+	const struct color_conversion *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1429 */;
+	const struct video_levels *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1428 */;
+	const struct intel_tv_connector_state *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1422 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1190 */;
+	const struct tv_mode *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1189 */;
+	struct intel_tv_connector_state *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1187 */;
+	struct intel_crtc_state *cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1183 */;
+	struct tv_mode cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1091 */;
+	struct drm_display_mode cocci_id/* drivers/gpu/drm/i915/display/intel_tv.c 1089 */;
+}

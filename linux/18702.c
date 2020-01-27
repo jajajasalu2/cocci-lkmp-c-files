@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct resource cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 84 */[];
+	struct mv_sata_platform_data cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 74 */;
+	struct mv643xx_eth_platform_data cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 67 */;
+	void __init cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 538 */;
+	unsigned long cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 51 */;
+	unsigned int cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 506 */[]__initdata;
+	struct kobj_attribute cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 500 */;
+	struct map_desc cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 49 */[]__initdata;
+	const char *cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 471 */;
+	size_t cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 471 */;
+	struct kobj_attribute *cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 462 */;
+	char *cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 462 */;
+	struct kobject *cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 461 */;
+	ssize_t cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 461 */;
+	unsigned int cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 433 */;
+	int cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 413 */;
+	struct ts78xx_fpga_data cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 40 */;
+	void cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 331 */;
+	struct timeriomem_rng_data cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 293 */;
+	struct platform_device cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 254 */;
+	struct resource cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 251 */;
+	struct platform_nand_data cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 228 */;
+	struct mtd_partition cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 207 */[];
+	u32 *cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 197 */;
+	void __iomem *cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 184 */;
+	uint8_t *cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 182 */;
+	const uint8_t *cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 156 */;
+	unsigned char cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 137 */;
+	struct nand_chip *cocci_id/* arch/arm/mach-orion5x/ts78xx-setup.c 133 */;
+	const struct machine_desc cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 397 */;
+}

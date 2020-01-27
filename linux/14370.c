@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/media/dvb-frontends/s5h1420.c 98 */[];
+	struct dvb_frontend_ops cocci_id/* drivers/media/dvb-frontends/s5h1420.c 901 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/s5h1420.c 876 */;
+	struct s5h1420_state cocci_id/* drivers/media/dvb-frontends/s5h1420.c 875 */;
+	struct s5h1420_state *cocci_id/* drivers/media/dvb-frontends/s5h1420.c 875 */;
+	struct i2c_adapter *cocci_id/* drivers/media/dvb-frontends/s5h1420.c 872 */;
+	const struct s5h1420_config *cocci_id/* drivers/media/dvb-frontends/s5h1420.c 871 */;
+	struct dvb_frontend *cocci_id/* drivers/media/dvb-frontends/s5h1420.c 871 */;
+	const struct dvb_frontend_ops cocci_id/* drivers/media/dvb-frontends/s5h1420.c 869 */;
+	const struct i2c_algorithm cocci_id/* drivers/media/dvb-frontends/s5h1420.c 857 */;
+	struct i2c_msg cocci_id/* drivers/media/dvb-frontends/s5h1420.c 846 */;
+	struct i2c_msg cocci_id/* drivers/media/dvb-frontends/s5h1420.c 836 */[3];
+	void cocci_id/* drivers/media/dvb-frontends/s5h1420.c 821 */;
+	struct dvb_frontend_tune_settings *cocci_id/* drivers/media/dvb-frontends/s5h1420.c 759 */;
+	struct dtv_frontend_properties *cocci_id/* drivers/media/dvb-frontends/s5h1420.c 746 */;
+	struct i2c_msg cocci_id/* drivers/media/dvb-frontends/s5h1420.c 69 */[];
+	u8 cocci_id/* drivers/media/dvb-frontends/s5h1420.c 68 */[2];
+	struct dvb_frontend_tune_settings cocci_id/* drivers/media/dvb-frontends/s5h1420.c 633 */;
+	enum fe_spectral_inversion cocci_id/* drivers/media/dvb-frontends/s5h1420.c 619 */;
+	enum fe_code_rate cocci_id/* drivers/media/dvb-frontends/s5h1420.c 594 */;
+	int cocci_id/* drivers/media/dvb-frontends/s5h1420.c 56 */;
+	int cocci_id/* drivers/media/dvb-frontends/s5h1420.c 52 */(struct dvb_frontend *fe,
+								   struct dvb_frontend_tune_settings *fesettings);
+	u32 cocci_id/* drivers/media/dvb-frontends/s5h1420.c 51 */(struct s5h1420_state *state);
+	u32 cocci_id/* drivers/media/dvb-frontends/s5h1420.c 488 */;
+	unsigned long long cocci_id/* drivers/media/dvb-frontends/s5h1420.c 477 */;
+	u64 cocci_id/* drivers/media/dvb-frontends/s5h1420.c 468 */;
+	u16 cocci_id/* drivers/media/dvb-frontends/s5h1420.c 439 */;
+	u16 *cocci_id/* drivers/media/dvb-frontends/s5h1420.c 433 */;
+	u32 *cocci_id/* drivers/media/dvb-frontends/s5h1420.c 421 */;
+	enum fe_status *cocci_id/* drivers/media/dvb-frontends/s5h1420.c 321 */;
+	enum fe_status cocci_id/* drivers/media/dvb-frontends/s5h1420.c 299 */;
+	struct s5h1420_state {
+		struct i2c_adapter *i2c;
+		const struct s5h1420_config *config;
+		struct dvb_frontend frontend;
+		struct i2c_adapter tuner_i2c_adapter;
+		u8 CON_1_val;
+		u8 postlocked:1;
+		u32 fclk;
+		u32 tunedfreq;
+		enum fe_code_rate fec_inner;
+		u32 symbol_rate;
+		u8 shadow[256];
+	} cocci_id/* drivers/media/dvb-frontends/s5h1420.c 29 */;
+	enum fe_sec_mini_cmd cocci_id/* drivers/media/dvb-frontends/s5h1420.c 262 */;
+	unsigned long cocci_id/* drivers/media/dvb-frontends/s5h1420.c 213 */;
+	struct dvb_diseqc_slave_reply *cocci_id/* drivers/media/dvb-frontends/s5h1420.c 207 */;
+	struct dvb_diseqc_master_cmd *cocci_id/* drivers/media/dvb-frontends/s5h1420.c 162 */;
+	enum fe_sec_tone_mode cocci_id/* drivers/media/dvb-frontends/s5h1420.c 140 */;
+	enum fe_sec_voltage cocci_id/* drivers/media/dvb-frontends/s5h1420.c 114 */;
+}

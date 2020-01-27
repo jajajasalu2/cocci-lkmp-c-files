@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct plat_lcd_data *cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 91 */;
+	unsigned int cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 91 */;
+	struct gpio_chip *cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 85 */;
+	void *cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 85 */;
+	struct i2c_board_info __initdata cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 77 */[];
+	struct mx3fb_platform_data cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 71 */;
+	const struct fb_videomode cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 51 */[];
+	struct platform_device *cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 488 */;
+	const struct imxi2c_platform_data cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 447 */;
+	char *cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 434 */;
+	int __init cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 434 */;
+	bool cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 432 */;
+	const struct mxc_usbh_platform_data cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 427 */;
+	struct mxc_usbh_platform_data cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 415 */;
+	const struct fsl_usb2_platform_data cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 405 */;
+	int cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 388 */;
+	void __init cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 386 */;
+	void cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 386 */;
+	struct i2c_board_info cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 379 */;
+	struct mc13xxx_platform_data cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 369 */;
+	struct mc13xxx_regulator_init_data cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 352 */[];
+	struct regulator_init_data cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 239 */;
+	struct regulator_consumer_supply cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 228 */[];
+	const iomux_v3_cfg_t cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 157 */[]__initconst;
+	struct platform_device *cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 153 */[]__initdata;
+	const struct mxc_nand_platform_data cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 147 */;
+	struct resource cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 131 */;
+	struct physmap_flash_data cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 127 */;
+	const struct imxuart_platform_data cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 123 */;
+	struct platform_device cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 118 */;
+	struct plat_lcd_data cocci_id/* arch/arm/mach-imx/mach-mx35_3ds.c 114 */;
+	const struct machine_desc cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 397 */;
+}

@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	const struct malidp_hw cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 936 */[MALIDP_MAX_DEVICES];
+	u32 cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 564 */;
+	struct malidp_hw_device *cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 562 */;
+	void cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 562 */;
+	const s16 *cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 515 */;
+	u16 cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 514 */;
+	s32 *cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 513 */;
+	dma_addr_t *cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 513 */;
+	int cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 512 */;
+	unsigned long cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 483 */;
+	struct malidp_se_config *cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 480 */;
+	long cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 479 */;
+	const struct drm_format_info *cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 395 */;
+	const struct malidp_format_id cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 35 */[];
+	struct videomode *cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 338 */;
+	bool cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 319 */;
+	u8 cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 274 */;
+	enum{MW_NOT_ENABLED=0, MW_ONESHOT, MW_START, MW_RESTART, MW_STOP,} cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 27 */;
+	const u16 cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 195 */[][SE_N_SCALING_COEFFS];
+	const u64 cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 168 */[];
+	const struct malidp_irq_map *cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 1174 */;
+	struct malidp_hw *cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 1173 */;
+	struct malidp_drm *cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 1171 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 1170 */;
+	irqreturn_t cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 1168 */;
+	void *cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 1168 */;
+	const struct malidp_layer cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 115 */[];
+	unsigned int cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 1094 */;
+	const struct malidp_hw_regmap *cocci_id/* drivers/gpu/drm/arm/malidp_hw.c 1091 */;
+}

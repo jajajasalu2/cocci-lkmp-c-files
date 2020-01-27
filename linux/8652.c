@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct i40e_hmc_pd_entry *cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 983 */;
+	struct i40e_hmc_info *cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 980 */;
+	u8 **cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 976 */;
+	int cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 938 */;
+	struct i40e_context_ele *cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 935 */;
+	enum i40e_hmc_lan_rsrc_type cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 920 */;
+	u8 *cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 919 */;
+	i40e_status cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 918 */;
+	struct i40e_hw *cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 918 */;
+	struct i40e_hmc_obj_info cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 91 */;
+	u64 *cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 893 */;
+	__le64 cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 873 */;
+	u32 *cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 841 */;
+	__le32 cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 821 */;
+	u16 *cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 789 */;
+	__le16 cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 777 */;
+	void cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 730 */;
+	struct i40e_context_ele cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 698 */[];
+	struct i40e_context_ele {
+		u16 offset;
+		u16 size_of;
+		u16 width;
+		u16 lsb;
+	} cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 664 */;
+	struct _struct cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 661 */;
+	struct i40e_hmc_lan_delete_obj_info cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 637 */;
+	struct i40e_hmc_pd_table *cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 527 */;
+	struct i40e_hmc_lan_delete_obj_info *cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 524 */;
+	struct i40e_hmc_obj_info *cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 444 */;
+	u8 cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 443 */;
+	struct i40e_hmc_lan_create_obj_info cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 441 */;
+	enum i40e_hmc_model cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 439 */;
+	u32 cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 41 */;
+	bool cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 286 */;
+	struct i40e_hmc_sd_entry *cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 283 */;
+	struct i40e_hmc_lan_create_obj_info *cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 280 */;
+	struct i40e_hmc_sd_entry cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 204 */;
+	u64 cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 20 */;
+	struct i40e_hmc_obj_rxq *cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 1108 */;
+	u16 cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 1087 */;
+	struct i40e_hmc_obj_txq *cocci_id/* drivers/net/ethernet/intel/i40e/i40e_lan_hmc.c 1067 */;
+}

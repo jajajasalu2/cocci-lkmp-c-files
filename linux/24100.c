@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct rpcrdma_mr cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 653 */;
+	struct rpcrdma_frwr cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 652 */;
+	struct ib_device_attr *cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 61 */;
+	const struct ib_send_wr *cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 602 */;
+	bool cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 59 */;
+	struct ib_device *cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 59 */;
+	struct rpcrdma_mr *cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 437 */;
+	struct ib_wc *cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 437 */;
+	void cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 437 */;
+	struct rpcrdma_rep *cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 424 */;
+	struct list_head *cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 424 */;
+	struct rpcrdma_frwr *cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 401 */;
+	struct ib_send_wr *cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 396 */;
+	struct ib_cqe *cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 374 */;
+	struct ib_cq *cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 372 */;
+	u64 cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 338 */;
+	u8 cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 303 */;
+	struct ib_reg_wr *cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 300 */;
+	__be32 cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 296 */;
+	struct rpcrdma_xprt *cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 294 */;
+	struct rpcrdma_mr_seg *cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 294 */;
+	size_t cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 271 */;
+	struct rpcrdma_ep *cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 189 */;
+	struct ib_mr *cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 142 */;
+	struct scatterlist *cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 141 */;
+	unsigned int cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 140 */;
+	struct rpcrdma_ia *cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 138 */;
+	int cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 138 */;
+	struct rpcrdma_req *cocci_id/* net/sunrpc/xprtrdma/frwr_ops.c 122 */;
+}

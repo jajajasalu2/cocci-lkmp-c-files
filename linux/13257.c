@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	u64 cocci_id/* drivers/media/pci/cx88/cx88-core.c 874 */;
+	v4l2_std_id cocci_id/* drivers/media/pci/cx88/cx88-core.c 868 */;
+	const u32 cocci_id/* drivers/media/pci/cx88/cx88-core.c 742 */[];
+	const u32 cocci_id/* drivers/media/pci/cx88/cx88-core.c 738 */;
+	bool cocci_id/* drivers/media/pci/cx88/cx88-core.c 73 */;
+	enum v4l2_field cocci_id/* drivers/media/pci/cx88/cx88-core.c 669 */;
+	struct cx88_buffer cocci_id/* drivers/media/pci/cx88/cx88-core.c 524 */;
+	struct cx88_buffer *cocci_id/* drivers/media/pci/cx88/cx88-core.c 521 */;
+	struct cx88_dmaqueue *cocci_id/* drivers/media/pci/cx88/cx88-core.c 519 */;
+	u32 cocci_id/* drivers/media/pci/cx88/cx88-core.c 502 */;
+	int cocci_id/* drivers/media/pci/cx88/cx88-core.c 502 */;
+	const char *cocci_id/* drivers/media/pci/cx88/cx88-core.c 479 */[];
+	const char *cocci_id/* drivers/media/pci/cx88/cx88-core.c 479 */;
+	const char *cocci_id/* drivers/media/pci/cx88/cx88-core.c 472 */[32];
+	const struct sram_channel *cocci_id/* drivers/media/pci/cx88/cx88-core.c 420 */;
+	const char *const cocci_id/* drivers/media/pci/cx88/cx88-core.c 402 */[];
+	const int cocci_id/* drivers/media/pci/cx88/cx88-core.c 395 */[16];
+	const char *const cocci_id/* drivers/media/pci/cx88/cx88-core.c 383 */[16];
+	unsigned int cocci_id/* drivers/media/pci/cx88/cx88-core.c 38 */;
+	const struct sram_channel cocci_id/* drivers/media/pci/cx88/cx88-core.c 240 */[];
+	__le32 *cocci_id/* drivers/media/pci/cx88/cx88-core.c 136 */;
+	struct scatterlist *cocci_id/* drivers/media/pci/cx88/cx88-core.c 131 */;
+	struct cx88_riscmem *cocci_id/* drivers/media/pci/cx88/cx88-core.c 130 */;
+	void cocci_id/* drivers/media/pci/cx88/cx88-core.c 1062 */;
+	struct pci_dev *cocci_id/* drivers/media/pci/cx88/cx88-core.c 1031 */;
+	struct cx88_core *cocci_id/* drivers/media/pci/cx88/cx88-core.c 1031 */;
+	const struct video_device *cocci_id/* drivers/media/pci/cx88/cx88-core.c 1011 */;
+	struct video_device *cocci_id/* drivers/media/pci/cx88/cx88-core.c 1010 */;
+}

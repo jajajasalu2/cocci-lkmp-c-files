@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 84 */;
+	bool cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 82 */;
+	struct mwifiex_private *cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 82 */;
+	int cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 82 */;
+	u8 cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 45 */;
+	struct ieee80211_supported_band *cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 44 */;
+	struct mwifiex_ie_types_local_pwr_constraint *cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 43 */;
+	struct mwifiex_ie_types_pwr_capability *cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 42 */;
+	struct mwifiex_ie_types_header *cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 41 */;
+	struct mwifiex_bssdescriptor *cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 39 */;
+	u8 **cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 38 */;
+	void cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 37 */;
+	struct mwifiex_uap_bss_param *cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 283 */;
+	struct mwifiex_radar_det_event *cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 257 */;
+	struct mwifiex_ie_types_header cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 225 */;
+	struct host_cmd_ds_chan_rpt_event cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 214 */;
+	void *cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 213 */;
+	u16 cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 211 */;
+	u8 *cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 210 */;
+	struct mwifiex_ie_types_chan_rpt_data *cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 209 */;
+	struct host_cmd_ds_chan_rpt_event *cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 208 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 206 */;
+	struct mwifiex_radar_params cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 174 */;
+	struct cfg80211_chan_def *cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 172 */;
+	struct host_cmd_ds_chan_rpt_req cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 154 */;
+	struct mwifiex_radar_params *cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 149 */;
+	struct host_cmd_ds_chan_rpt_req *cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 148 */;
+	struct host_cmd_ds_command *cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 145 */;
+	struct mwifiex_private cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 128 */;
+	struct delayed_work *cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 126 */;
+	struct cfg80211_chan_def cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 125 */;
+	struct work_struct *cocci_id/* drivers/net/wireless/marvell/mwifiex/11h.c 123 */;
+}

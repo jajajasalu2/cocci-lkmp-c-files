@@ -1,0 +1,65 @@
+cocci_test_suite() {
+	struct pci_driver cocci_id/* drivers/video/fbdev/pvr2fb.c 981 */;
+	const struct pci_device_id cocci_id/* drivers/video/fbdev/pvr2fb.c 973 */[];
+	const struct pci_device_id *cocci_id/* drivers/video/fbdev/pvr2fb.c 929 */;
+	struct pci_dev *cocci_id/* drivers/video/fbdev/pvr2fb.c 928 */;
+	int __init cocci_id/* drivers/video/fbdev/pvr2fb.c 855 */;
+	int __maybe_unused cocci_id/* drivers/video/fbdev/pvr2fb.c 768 */;
+	const struct pvr2_params *cocci_id/* drivers/video/fbdev/pvr2fb.c 738 */;
+	const char *cocci_id/* drivers/video/fbdev/pvr2fb.c 725 */;
+	struct fb_ops cocci_id/* drivers/video/fbdev/pvr2fb.c 710 */;
+	struct page *cocci_id/* drivers/video/fbdev/pvr2fb.c 651 */;
+	struct page **cocci_id/* drivers/video/fbdev/pvr2fb.c 646 */;
+	loff_t *cocci_id/* drivers/video/fbdev/pvr2fb.c 642 */;
+	size_t cocci_id/* drivers/video/fbdev/pvr2fb.c 642 */;
+	ssize_t cocci_id/* drivers/video/fbdev/pvr2fb.c 641 */;
+	irqreturn_t __maybe_unused cocci_id/* drivers/video/fbdev/pvr2fb.c 621 */;
+	void *cocci_id/* drivers/video/fbdev/pvr2fb.c 621 */;
+	struct pvr2fb_par *cocci_id/* drivers/video/fbdev/pvr2fb.c 609 */;
+	void cocci_id/* drivers/video/fbdev/pvr2fb.c 607 */;
+	struct fb_var_screeninfo *cocci_id/* drivers/video/fbdev/pvr2fb.c 555 */;
+	void __iomem *cocci_id/* drivers/video/fbdev/pvr2fb.c 329 */;
+	u32 *cocci_id/* drivers/video/fbdev/pvr2fb.c 319 */;
+	unsigned long cocci_id/* drivers/video/fbdev/pvr2fb.c 249 */;
+	char *cocci_id/* drivers/video/fbdev/pvr2fb.c 227 */;
+	struct fb_videomode cocci_id/* drivers/video/fbdev/pvr2fb.c 197 */[];
+	short cocci_id/* drivers/video/fbdev/pvr2fb.c 184 */;
+	unsigned int cocci_id/* drivers/video/fbdev/pvr2fb.c 182 */;
+	int cocci_id/* drivers/video/fbdev/pvr2fb.c 173 */;
+	const struct fb_var_screeninfo cocci_id/* drivers/video/fbdev/pvr2fb.c 158 */;
+	struct fb_fix_screeninfo cocci_id/* drivers/video/fbdev/pvr2fb.c 149 */;
+	struct fb_info *cocci_id/* drivers/video/fbdev/pvr2fb.c 147 */;
+	struct pvr2fb_par {
+		unsigned int hsync_total;
+		unsigned int vsync_total;
+		unsigned int borderstart_h;
+		unsigned int borderstop_h;
+		unsigned int borderstart_v;
+		unsigned int borderstop_v;
+		unsigned int diwstart_h;
+		unsigned int diwstart_v;
+		unsigned long disp_start;
+		unsigned char is_interlaced;
+		unsigned char is_doublescan;
+		unsigned char is_lowres;
+		void __iomem *mmio_base;
+		u32 palette[16];
+	} *cocci_id/* drivers/video/fbdev/pvr2fb.c 128 */;
+	struct pvr2_params cocci_id/* drivers/video/fbdev/pvr2fb.c 116 */[];
+	struct pvr2_params {
+		unsigned int val;
+		char *name;
+	} cocci_id/* drivers/video/fbdev/pvr2fb.c 115 */;
+	enum{PAL_ARGB1555, PAL_RGB565, PAL_ARGB4444, PAL_ARGB8888,} cocci_id/* drivers/video/fbdev/pvr2fb.c 113 */;
+	struct pvr2_board *cocci_id/* drivers/video/fbdev/pvr2fb.c 1102 */;
+	enum{VO_PAL, VO_NTSC, VO_VGA,} cocci_id/* drivers/video/fbdev/pvr2fb.c 110 */;
+	void __exit cocci_id/* drivers/video/fbdev/pvr2fb.c 1097 */;
+	struct pvr2fb_par cocci_id/* drivers/video/fbdev/pvr2fb.c 1072 */;
+	enum{CT_VGA, CT_NONE, CT_RGB, CT_COMPOSITE,} cocci_id/* drivers/video/fbdev/pvr2fb.c 107 */;
+	struct pvr2_board {
+		int (*init)(void);
+		void (*exit)(void);
+		char name[16];
+	} cocci_id/* drivers/video/fbdev/pvr2fb.c 1046 */[]__refdata;
+	char cocci_id/* drivers/video/fbdev/pvr2fb.c 1013 */[80];
+}

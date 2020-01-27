@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct fb_var_screeninfo *cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 86 */;
+	u8 cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 69 */;
+	unsigned int cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 69 */;
+	void __iomem *cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 67 */;
+	void __init cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 527 */;
+	void cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 527 */;
+	struct platform_device cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 504 */[];
+	struct soc_camera_link cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 485 */[];
+	struct i2c_board_info cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 477 */[];
+	struct mt9v022_platform_data cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 473 */;
+	struct i2c_board_info __initdata cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 465 */[];
+	struct soc_camera_link *cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 455 */;
+	unsigned long cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 437 */;
+	unsigned long cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 42 */[]__initdata;
+	int cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 417 */;
+	struct pca953x_platform_data cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 413 */;
+	struct pxacamera_platform_data cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 405 */;
+	unsigned long cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 382 */[];
+	struct pxaohci_platform_data cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 372 */;
+	struct pxamci_platform_data cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 364 */;
+	struct device *cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 357 */;
+	void *cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 357 */;
+	struct pxamci_platform_data *cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 343 */;
+	irq_handler_t cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 327 */;
+	struct irq_desc *cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 288 */;
+	struct irq_chip cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 283 */;
+	struct irq_data *cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 258 */;
+	struct platform_device cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 160 */;
+	struct platform_pwm_backlight_data cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 154 */;
+	struct pwm_lookup cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 149 */[];
+	struct pxafb_mode_info cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 126 */;
+	struct pxafb_mach_info cocci_id/* arch/arm/mach-pxa/pcm990-baseboard.c 119 */;
+}

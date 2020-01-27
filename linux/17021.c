@@ -1,0 +1,77 @@
+cocci_test_suite() {
+	u8 *cocci_id/* drivers/input/tablet/aiptek.c 888 */;
+	const int cocci_id/* drivers/input/tablet/aiptek.c 886 */;
+	u8 cocci_id/* drivers/input/tablet/aiptek.c 886 */;
+	unsigned char cocci_id/* drivers/input/tablet/aiptek.c 884 */;
+	int cocci_id/* drivers/input/tablet/aiptek.c 883 */;
+	struct usb_device *cocci_id/* drivers/input/tablet/aiptek.c 870 */;
+	void *cocci_id/* drivers/input/tablet/aiptek.c 868 */;
+	struct aiptek *cocci_id/* drivers/input/tablet/aiptek.c 841 */;
+	struct input_dev *cocci_id/* drivers/input/tablet/aiptek.c 839 */;
+	void cocci_id/* drivers/input/tablet/aiptek.c 839 */;
+	const struct usb_device_id cocci_id/* drivers/input/tablet/aiptek.c 808 */[];
+	signed char cocci_id/* drivers/input/tablet/aiptek.c 459 */;
+	unsigned char *cocci_id/* drivers/input/tablet/aiptek.c 415 */;
+	struct urb *cocci_id/* drivers/input/tablet/aiptek.c 412 */;
+	const struct aiptek_map *cocci_id/* drivers/input/tablet/aiptek.c 353 */;
+	const char *cocci_id/* drivers/input/tablet/aiptek.c 353 */;
+	size_t cocci_id/* drivers/input/tablet/aiptek.c 353 */;
+	struct aiptek_map {
+		const char *string;
+		int value;
+	} cocci_id/* drivers/input/tablet/aiptek.c 348 */;
+	const int cocci_id/* drivers/input/tablet/aiptek.c 312 */[];
+	struct aiptek {
+		struct input_dev *inputdev;
+		struct usb_interface *intf;
+		struct urb *urb;
+		dma_addr_t data_dma;
+		struct aiptek_features features;
+		struct aiptek_settings curSetting;
+		struct aiptek_settings newSetting;
+		unsigned int ifnum;
+		int diagnostic;
+		unsigned long eventCount;
+		int inDelay;
+		unsigned long endDelay;
+		int previousJitterable;
+		int lastMacro;
+		int previousToolMode;
+		unsigned char *data;
+	} cocci_id/* drivers/input/tablet/aiptek.c 288 */;
+	struct aiptek_settings {
+		int pointerMode;
+		int coordinateMode;
+		int toolMode;
+		int xTilt;
+		int yTilt;
+		int wheel;
+		int stylusButtonUpper;
+		int stylusButtonLower;
+		int mouseButtonLeft;
+		int mouseButtonMiddle;
+		int mouseButtonRight;
+		int programmableDelay;
+		int jitterDelay;
+	} cocci_id/* drivers/input/tablet/aiptek.c 272 */;
+	struct aiptek_features {
+		int odmCode;
+		int modelCode;
+		int firmwareCode;
+		char usbPath[64 + 1];
+	} cocci_id/* drivers/input/tablet/aiptek.c 265 */;
+	struct usb_driver cocci_id/* drivers/input/tablet/aiptek.c 1915 */;
+	struct usb_interface *cocci_id/* drivers/input/tablet/aiptek.c 1894 */;
+	struct aiptek cocci_id/* drivers/input/tablet/aiptek.c 1693 */;
+	int cocci_id/* drivers/input/tablet/aiptek.c 1675 */[];
+	struct usb_endpoint_descriptor *cocci_id/* drivers/input/tablet/aiptek.c 1671 */;
+	const struct usb_device_id *cocci_id/* drivers/input/tablet/aiptek.c 1668 */;
+	const struct attribute_group cocci_id/* drivers/input/tablet/aiptek.c 1659 */;
+	struct attribute *cocci_id/* drivers/input/tablet/aiptek.c 1635 */[];
+	struct device_attribute *cocci_id/* drivers/input/tablet/aiptek.c 1625 */;
+	struct device *cocci_id/* drivers/input/tablet/aiptek.c 1625 */;
+	char *cocci_id/* drivers/input/tablet/aiptek.c 1625 */;
+	ssize_t cocci_id/* drivers/input/tablet/aiptek.c 1625 */;
+	struct aiptek_settings cocci_id/* drivers/input/tablet/aiptek.c 1584 */;
+	struct aiptek_map cocci_id/* drivers/input/tablet/aiptek.c 1094 */[];
+}

@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	struct sec_alg_tfm_ctx cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 937 */;
+	struct skcipher_alg cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 929 */[];
+	struct device *cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 891 */;
+	struct sec_request cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 876 */;
+	struct scatterlist **cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 717 */;
+	struct sec_queue *cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 712 */;
+	struct sec_alg_tfm_ctx *cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 711 */;
+	struct crypto_tfm *cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 710 */;
+	struct crypto_skcipher *cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 709 */;
+	struct skcipher_request *cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 706 */;
+	struct sec_dev_info *cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 633 */;
+	struct scatterlist *cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 631 */;
+	bool cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 630 */;
+	struct sec_bd_info *cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 629 */;
+	struct sec_request_el *cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 628 */;
+	int **cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 569 */;
+	struct scatterlist ***cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 568 */;
+	size_t *cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 550 */;
+	int *cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 548 */;
+	size_t **cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 547 */;
+	int cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 547 */;
+	struct sec_request *cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 542 */;
+	void *cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 540 */;
+	void cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 540 */;
+	typeof(*backlog_req) cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 498 */;
+	struct sec_request_el cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 435 */;
+	struct skcipher_request cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 424 */;
+	struct crypto_async_request *cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 421 */;
+	const struct sec_c_alg_cfg cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 29 */[];
+	struct sec_c_alg_cfg {
+		unsigned c_alg:3;
+		unsigned c_mode:3;
+		unsigned key_len:2;
+		unsigned c_width:2;
+	} cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 22 */;
+	dma_addr_t cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 182 */;
+	struct sec_hw_sgl *cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 180 */;
+	dma_addr_t *cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 175 */;
+	struct sec_hw_sgl **cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 174 */;
+	enum sec_cipher_alg cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 145 */;
+	const u8 *cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 143 */;
+	const struct sec_c_alg_cfg *cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 130 */;
+	unsigned int cocci_id/* drivers/crypto/hisilicon/sec/sec_algs.c 124 */;
+}

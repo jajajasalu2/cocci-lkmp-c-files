@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	void __iomem *cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 75 */;
+	unsigned int cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 75 */;
+	struct pinctrl_desc *cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 596 */;
+	struct resource *cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 595 */;
+	struct imx1_pinctrl_soc_info *cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 592 */;
+	struct platform_device *cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 591 */;
+	struct imx1_pin_group cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 574 */;
+	struct imx1_pmx_func cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 570 */;
+	u32 cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 551 */;
+	char *cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 527 */;
+	struct imx1_pmx_func *cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 510 */;
+	struct imx1_pin cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 487 */;
+	const __be32 *cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 466 */;
+	struct pinctrl_desc cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 453 */;
+	const struct pinconf_ops cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 446 */;
+	struct imx1_pin_group *cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 427 */;
+	unsigned long cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 416 */;
+	unsigned long *cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 387 */;
+	const struct pinmux_ops cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 379 */;
+	unsigned *constcocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 368 */;
+	const char *const**cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 367 */;
+	const struct imx1_pin *cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 301 */;
+	const struct pinctrl_ops cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 286 */;
+	struct pinctrl_map *cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 281 */;
+	unsigned cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 281 */;
+	struct pinctrl_dev *cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 280 */;
+	void cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 280 */;
+	struct imx1_pinctrl {
+		struct device *dev;
+		struct pinctrl_dev *pctl;
+		void __iomem *base;
+		const struct imx1_pinctrl_soc_info *info;
+	} cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 28 */;
+	struct pinctrl_map cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 244 */;
+	const struct imx1_pin_group *cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 224 */;
+	const struct imx1_pinctrl_soc_info *cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 223 */;
+	struct imx1_pinctrl *cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 222 */;
+	struct pinctrl_map **cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 220 */;
+	unsigned *cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 220 */;
+	struct device_node *cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 219 */;
+	int cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 218 */;
+	struct seq_file *cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 204 */;
+	const unsigned int **cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 189 */;
+	const char *cocci_id/* drivers/pinctrl/freescale/pinctrl-imx1-core.c 179 */;
+}

@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	int __init cocci_id/* mm/workingset.c 573 */;
+	struct lock_class_key cocci_id/* mm/workingset.c 571 */;
+	struct shrinker cocci_id/* mm/workingset.c 560 */;
+	struct address_space cocci_id/* mm/workingset.c 508 */;
+	struct address_space *cocci_id/* mm/workingset.c 493 */;
+	struct xa_node cocci_id/* mm/workingset.c 491 */;
+	struct xa_node *cocci_id/* mm/workingset.c 491 */;
+	spinlock_t *cocci_id/* mm/workingset.c 488 */;
+	struct list_lru_one *cocci_id/* mm/workingset.c 487 */;
+	enum lru_status cocci_id/* mm/workingset.c 486 */;
+	struct list_head *cocci_id/* mm/workingset.c 486 */;
+	int cocci_id/* mm/workingset.c 464 */;
+	struct shrink_control *cocci_id/* mm/workingset.c 431 */;
+	struct shrinker *cocci_id/* mm/workingset.c 430 */;
+	unsigned long cocci_id/* mm/workingset.c 430 */;
+	struct list_lru cocci_id/* mm/workingset.c 403 */;
+	struct page *cocci_id/* mm/workingset.c 371 */;
+	struct pglist_data *cocci_id/* mm/workingset.c 247 */;
+	struct lruvec *cocci_id/* mm/workingset.c 230 */;
+	pg_data_t *cocci_id/* mm/workingset.c 216 */;
+	struct mem_cgroup *cocci_id/* mm/workingset.c 216 */;
+	void cocci_id/* mm/workingset.c 216 */;
+	bool *cocci_id/* mm/workingset.c 197 */;
+	unsigned long *cocci_id/* mm/workingset.c 197 */;
+	pg_data_t **cocci_id/* mm/workingset.c 196 */;
+	int *cocci_id/* mm/workingset.c 196 */;
+	bool cocci_id/* mm/workingset.c 185 */;
+	void *cocci_id/* mm/workingset.c 184 */;
+	unsigned int cocci_id/* mm/workingset.c 182 */;
+}

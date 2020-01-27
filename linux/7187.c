@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	int __init cocci_id/* drivers/extcon/extcon-max77843.c 959 */;
+	struct platform_driver cocci_id/* drivers/extcon/extcon-max77843.c 950 */;
+	const struct platform_device_id cocci_id/* drivers/extcon/extcon-max77843.c 944 */[];
+	struct max77843_muic_irq *cocci_id/* drivers/extcon/extcon-max77843.c 896 */;
+	struct platform_device *cocci_id/* drivers/extcon/extcon-max77843.c 810 */;
+	int cocci_id/* drivers/extcon/extcon-max77843.c 773 */;
+	enum max77843_muic_adc_debounce_time cocci_id/* drivers/extcon/extcon-max77843.c 746 */;
+	struct max77843_muic_info cocci_id/* drivers/extcon/extcon-max77843.c 706 */;
+	struct work_struct *cocci_id/* drivers/extcon/extcon-max77843.c 703 */;
+	irqreturn_t cocci_id/* drivers/extcon/extcon-max77843.c 662 */;
+	void *cocci_id/* drivers/extcon/extcon-max77843.c 662 */;
+	enum max77843_muic_accessory_type{MAX77843_MUIC_ADC_GROUND=0, MAX77843_MUIC_ADC_SEND_END_BUTTON, MAX77843_MUIC_ADC_REMOTE_S1_BUTTON, MAX77843_MUIC_ADC_REMOTE_S2_BUTTON, MAX77843_MUIC_ADC_REMOTE_S3_BUTTON, MAX77843_MUIC_ADC_REMOTE_S4_BUTTON, MAX77843_MUIC_ADC_REMOTE_S5_BUTTON, MAX77843_MUIC_ADC_REMOTE_S6_BUTTON, MAX77843_MUIC_ADC_REMOTE_S7_BUTTON, MAX77843_MUIC_ADC_REMOTE_S8_BUTTON, MAX77843_MUIC_ADC_REMOTE_S9_BUTTON, MAX77843_MUIC_ADC_REMOTE_S10_BUTTON, MAX77843_MUIC_ADC_REMOTE_S11_BUTTON, MAX77843_MUIC_ADC_REMOTE_S12_BUTTON, MAX77843_MUIC_ADC_RESERVED_ACC_1, MAX77843_MUIC_ADC_RESERVED_ACC_2, MAX77843_MUIC_ADC_RESERVED_ACC_3, MAX77843_MUIC_ADC_RESERVED_ACC_4, MAX77843_MUIC_ADC_RESERVED_ACC_5, MAX77843_MUIC_ADC_AUDIO_DEVICE_TYPE2, MAX77843_MUIC_ADC_PHONE_POWERED_DEV, MAX77843_MUIC_ADC_TTY_CONVERTER, MAX77843_MUIC_ADC_UART_CABLE, MAX77843_MUIC_ADC_CEA936A_TYPE1_CHG, MAX77843_MUIC_ADC_FACTORY_MODE_USB_OFF, MAX77843_MUIC_ADC_FACTORY_MODE_USB_ON, MAX77843_MUIC_ADC_AV_CABLE_NOLOAD, MAX77843_MUIC_ADC_CEA936A_TYPE2_CHG, MAX77843_MUIC_ADC_FACTORY_MODE_UART_OFF, MAX77843_MUIC_ADC_FACTORY_MODE_UART_ON, MAX77843_MUIC_ADC_AUDIO_DEVICE_TYPE1, MAX77843_MUIC_ADC_OPEN, MAX77843_MUIC_GND_USB_HOST=0x100, MAX77843_MUIC_GND_USB_HOST_VB=0x101, MAX77843_MUIC_GND_MHL=0x102, MAX77843_MUIC_GND_MHL_VB=0x103,} cocci_id/* drivers/extcon/extcon-max77843.c 61 */;
+	enum max77843_muic_adc_debounce_time{MAX77843_DEBOUNCE_TIME_5MS=0, MAX77843_DEBOUNCE_TIME_10MS, MAX77843_DEBOUNCE_TIME_25MS, MAX77843_DEBOUNCE_TIME_38_62MS,} cocci_id/* drivers/extcon/extcon-max77843.c 53 */;
+	enum max77843_muic_cable_group{MAX77843_CABLE_GROUP_ADC=0, MAX77843_CABLE_GROUP_ADC_GND, MAX77843_CABLE_GROUP_CHG,} cocci_id/* drivers/extcon/extcon-max77843.c 47 */;
+	u8 cocci_id/* drivers/extcon/extcon-max77843.c 414 */;
+	struct max77843_muic_info {
+		struct device *dev;
+		struct max77693_dev *max77843;
+		struct extcon_dev *edev;
+		struct mutex mutex;
+		struct work_struct irq_work;
+		struct delayed_work wq_detcable;
+		u8 status[MAX77843_MUIC_STATUS_NUM];
+		int prev_cable_type;
+		int prev_chg_type;
+		int prev_gnd_type;
+		bool irq_adc;
+		bool irq_chg;
+	} cocci_id/* drivers/extcon/extcon-max77843.c 29 */;
+	enum max77843_muic_cable_group cocci_id/* drivers/extcon/extcon-max77843.c 262 */;
+	bool *cocci_id/* drivers/extcon/extcon-max77843.c 262 */;
+	unsigned int cocci_id/* drivers/extcon/extcon-max77843.c 250 */;
+	struct max77693_dev *cocci_id/* drivers/extcon/extcon-max77843.c 249 */;
+	bool cocci_id/* drivers/extcon/extcon-max77843.c 247 */;
+	struct max77843_muic_info *cocci_id/* drivers/extcon/extcon-max77843.c 246 */;
+	void cocci_id/* drivers/extcon/extcon-max77843.c 246 */;
+	enum max77843_muic_status{MAX77843_MUIC_STATUS1=0, MAX77843_MUIC_STATUS2, MAX77843_MUIC_STATUS3, MAX77843_MUIC_STATUS_NUM,} cocci_id/* drivers/extcon/extcon-max77843.c 21 */;
+	const struct regmap_irq_chip cocci_id/* drivers/extcon/extcon-max77843.c 189 */;
+	const struct regmap_irq cocci_id/* drivers/extcon/extcon-max77843.c 165 */[];
+	const struct regmap_config cocci_id/* drivers/extcon/extcon-max77843.c 159 */;
+	struct max77843_muic_irq cocci_id/* drivers/extcon/extcon-max77843.c 140 */[];
+	struct max77843_muic_irq {
+		unsigned int irq;
+		const char *name;
+		unsigned int virq;
+	} cocci_id/* drivers/extcon/extcon-max77843.c 134 */;
+	const unsigned int cocci_id/* drivers/extcon/extcon-max77843.c 120 */[];
+	enum max77843_muic_charger_type{MAX77843_MUIC_CHG_NONE=0, MAX77843_MUIC_CHG_USB, MAX77843_MUIC_CHG_DOWNSTREAM, MAX77843_MUIC_CHG_DEDICATED, MAX77843_MUIC_CHG_SPECIAL_500MA, MAX77843_MUIC_CHG_SPECIAL_1A, MAX77843_MUIC_CHG_SPECIAL_BIAS, MAX77843_MUIC_CHG_RESERVED, MAX77843_MUIC_CHG_GND, MAX77843_MUIC_CHG_DOCK,} cocci_id/* drivers/extcon/extcon-max77843.c 107 */;
+}

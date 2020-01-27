@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 852 */;
+	struct ethtool_ts_info *cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 828 */;
+	union nic_mbx cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 782 */;
+	struct ethtool_pauseparam *cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 779 */;
+	u8 cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 724 */;
+	bool cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 723 */;
+	struct nicvf *cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 706 */;
+	struct ethtool_channels *cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 704 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 703 */;
+	void cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 703 */;
+	const u8 cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 673 */;
+	const u8 *cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 673 */;
+	const u32 *cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 672 */;
+	struct nicvf_rss_info *cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 655 */;
+	u8 *cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 651 */;
+	u32 *cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 651 */;
+	const struct nicvf_stat cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 61 */[];
+	struct ethtool_rxnfc *cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 515 */;
+	struct queue_set *cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 472 */;
+	struct ethtool_ringparam *cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 469 */;
+	struct ethtool_coalesce *cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 460 */;
+	int cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 459 */;
+	u64 cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 369 */;
+	struct ethtool_regs *cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 365 */;
+	void *cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 365 */;
+	struct nicvf_drv_stats cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 33 */;
+	u64 *cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 323 */;
+	struct ethtool_stats *cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 323 */;
+	u64 **cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 300 */;
+	struct nicvf_hw_stats cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 28 */;
+	u8 **cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 213 */;
+	struct nicvf_stat {
+		char name[ETH_GSTRING_LEN];
+		unsigned int index;
+	} cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 21 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 190 */;
+	u32 cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 182 */;
+	struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 120 */;
+	const unsigned int cocci_id/* drivers/net/ethernet/cavium/thunder/nicvf_ethtool.c 116 */;
+}

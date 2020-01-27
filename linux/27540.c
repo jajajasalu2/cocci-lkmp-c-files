@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct path cocci_id/* fs/statfs.c 97 */;
+	const struct path *cocci_id/* fs/statfs.c 84 */;
+	__kernel_fsid_t *cocci_id/* fs/statfs.c 70 */;
+	struct dentry *cocci_id/* fs/statfs.c 53 */;
+	struct vfsmount *cocci_id/* fs/statfs.c 47 */;
+	int cocci_id/* fs/statfs.c 47 */;
+	compat_size_t cocci_id/* fs/statfs.c 362 */;
+	struct compat_statfs64 __user *cocci_id/* fs/statfs.c 362 */;
+	const char __user *cocci_id/* fs/statfs.c 343 */;
+	struct compat_statfs64 cocci_id/* fs/statfs.c 320 */;
+	struct compat_statfs cocci_id/* fs/statfs.c 264 */;
+	struct compat_statfs __user *cocci_id/* fs/statfs.c 262 */;
+	struct ustat cocci_id/* fs/statfs.c 248 */;
+	struct ustat *cocci_id/* fs/statfs.c 246 */;
+	unsigned cocci_id/* fs/statfs.c 246 */;
+	struct super_block *cocci_id/* fs/statfs.c 236 */;
+	dev_t cocci_id/* fs/statfs.c 234 */;
+	struct statfs64 *cocci_id/* fs/statfs.c 220 */;
+	size_t cocci_id/* fs/statfs.c 220 */;
+	struct kstatfs cocci_id/* fs/statfs.c 213 */;
+	struct statfs *cocci_id/* fs/statfs.c 211 */;
+	unsigned int cocci_id/* fs/statfs.c 211 */;
+	const char *cocci_id/* fs/statfs.c 190 */;
+	struct statfs64 cocci_id/* fs/statfs.c 168 */;
+	struct statfs64 __user *cocci_id/* fs/statfs.c 166 */;
+	struct kstatfs *cocci_id/* fs/statfs.c 166 */;
+	struct statfs cocci_id/* fs/statfs.c 126 */;
+	struct statfs __user *cocci_id/* fs/statfs.c 124 */;
+	struct fd cocci_id/* fs/statfs.c 115 */;
+	unsigned long cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 773 */;
+}

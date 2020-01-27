@@ -1,0 +1,66 @@
+cocci_test_suite() {
+	struct alps_dev {
+		struct input_dev *input;
+		struct input_dev *input2;
+		struct hid_device *hdev;
+		enum dev_num dev_type;
+		u8 max_fingers;
+		u8 has_sp;
+		u8 sp_btn_info;
+		u32 x_active_len_mm;
+		u32 y_active_len_mm;
+		u32 x_max;
+		u32 y_max;
+		u32 x_min;
+		u32 y_min;
+		u32 btn_cnt;
+		u32 sp_btn_cnt;
+	} cocci_id/* drivers/hid/hid-alps.c 95 */;
+	struct hid_driver cocci_id/* drivers/hid/hid-alps.c 836 */;
+	const struct hid_device_id cocci_id/* drivers/hid/hid-alps.c 825 */[];
+	void cocci_id/* drivers/hid/hid-alps.c 820 */;
+	struct alps_dev cocci_id/* drivers/hid/hid-alps.c 784 */;
+	const struct hid_device_id *cocci_id/* drivers/hid/hid-alps.c 780 */;
+	struct hid_usage *cocci_id/* drivers/hid/hid-alps.c 775 */;
+	unsigned long **cocci_id/* drivers/hid/hid-alps.c 775 */;
+	int *cocci_id/* drivers/hid/hid-alps.c 775 */;
+	struct hid_field *cocci_id/* drivers/hid/hid-alps.c 774 */;
+	enum dev_num{U1, T4, UNKNOWN,} cocci_id/* drivers/hid/hid-alps.c 70 */;
+	struct input_dev *cocci_id/* drivers/hid/hid-alps.c 676 */;
+	struct hid_input *cocci_id/* drivers/hid/hid-alps.c 673 */;
+	u8 cocci_id/* drivers/hid/hid-alps.c 611 */;
+	struct hid_device *cocci_id/* drivers/hid/hid-alps.c 608 */;
+	struct alps_dev *cocci_id/* drivers/hid/hid-alps.c 608 */;
+	int cocci_id/* drivers/hid/hid-alps.c 608 */;
+	struct t4_input_report cocci_id/* drivers/hid/hid-alps.c 51 */;
+	int __maybe_unused cocci_id/* drivers/hid/hid-alps.c 450 */;
+	u8 *cocci_id/* drivers/hid/hid-alps.c 434 */;
+	struct hid_report *cocci_id/* drivers/hid/hid-alps.c 434 */;
+	short cocci_id/* drivers/hid/hid-alps.c 361 */;
+	struct t4_input_report *cocci_id/* drivers/hid/hid-alps.c 322 */;
+	unsigned int cocci_id/* drivers/hid/hid-alps.c 320 */;
+	u16 *cocci_id/* drivers/hid/hid-alps.c 226 */;
+	u32 *cocci_id/* drivers/hid/hid-alps.c 220 */;
+	bool cocci_id/* drivers/hid/hid-alps.c 165 */;
+	u32 cocci_id/* drivers/hid/hid-alps.c 144 */;
+	unsigned long cocci_id/* drivers/hid/hid-alps.c 135 */;
+	u16 cocci_id/* drivers/hid/hid-alps.c 134 */;
+	struct t4_input_report {
+		u8 reportID;
+		u8 numContacts;
+		struct t4_contact_data contact[5];
+		u8 button;
+		u8 track[5];
+		u8 zx[5],zy[5];
+		u8 palmTime[5];
+		u8 kilroy;
+		u16 timeStamp;
+	} cocci_id/* drivers/hid/hid-alps.c 122 */;
+	struct t4_contact_data {
+		u8 palm;
+		u8 x_lo;
+		u8 x_hi;
+		u8 y_lo;
+		u8 y_hi;
+	} cocci_id/* drivers/hid/hid-alps.c 114 */;
+}

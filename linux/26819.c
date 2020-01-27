@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	struct orangefs_inode_s cocci_id/* fs/orangefs/super.c 644 */;
+	substring_t cocci_id/* fs/orangefs/super.c 57 */[MAX_OPT_ARGS];
+	struct orangefs_sb_info_s cocci_id/* fs/orangefs/super.c 526 */;
+	struct orangefs_kernel_op_s *cocci_id/* fs/orangefs/super.c 480 */;
+	const char *cocci_id/* fs/orangefs/super.c 475 */;
+	struct file_system_type *cocci_id/* fs/orangefs/super.c 473 */;
+	void *cocci_id/* fs/orangefs/super.c 414 */;
+	struct orangefs_fs_mount_response *cocci_id/* fs/orangefs/super.c 413 */;
+	struct seq_file *cocci_id/* fs/orangefs/super.c 40 */;
+	__s32 cocci_id/* fs/orangefs/super.c 393 */;
+	const struct export_operations cocci_id/* fs/orangefs/super.c 388 */;
+	uint64_t cocci_id/* fs/orangefs/super.c 38 */;
+	char *cocci_id/* fs/orangefs/super.c 373 */;
+	struct orangefs_object_kref cocci_id/* fs/orangefs/super.c 352 */;
+	int *cocci_id/* fs/orangefs/super.c 347 */;
+	__u32 *cocci_id/* fs/orangefs/super.c 346 */;
+	u32 cocci_id/* fs/orangefs/super.c 336 */;
+	struct fid *cocci_id/* fs/orangefs/super.c 326 */;
+	struct dentry *cocci_id/* fs/orangefs/super.c 325 */;
+	const struct super_operations cocci_id/* fs/orangefs/super.c 314 */;
+	void cocci_id/* fs/orangefs/super.c 310 */;
+	const match_table_t cocci_id/* fs/orangefs/super.c 31 */;
+	int cocci_id/* fs/orangefs/super.c 305 */;
+	struct orangefs_sb_info_s *cocci_id/* fs/orangefs/super.c 245 */;
+	enum{Opt_intr, Opt_acl, Opt_local_lock, Opt_err,} cocci_id/* fs/orangefs/super.c 23 */;
+	sector_t cocci_id/* fs/orangefs/super.c 207 */;
+	long cocci_id/* fs/orangefs/super.c 196 */;
+	struct kstatfs *cocci_id/* fs/orangefs/super.c 163 */;
+	struct kmem_cache *cocci_id/* fs/orangefs/super.c 16 */;
+	struct writeback_control *cocci_id/* fs/orangefs/super.c 153 */;
+	struct hlist_node *cocci_id/* fs/orangefs/super.c 132 */;
+	struct orangefs_cached_xattr *cocci_id/* fs/orangefs/super.c 131 */;
+	struct orangefs_inode_s *cocci_id/* fs/orangefs/super.c 107 */;
+	struct super_block *cocci_id/* fs/orangefs/super.c 105 */;
+	struct inode *cocci_id/* fs/orangefs/super.c 105 */;
+}

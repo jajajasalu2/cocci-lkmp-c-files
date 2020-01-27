@@ -1,0 +1,62 @@
+cocci_test_suite() {
+	union xenfb_out_event *cocci_id/* drivers/video/fbdev/xen-fbfront.c 76 */;
+	void cocci_id/* drivers/video/fbdev/xen-fbfront.c 73 */(struct xenfb_info *);
+	int cocci_id/* drivers/video/fbdev/xen-fbfront.c 72 */(struct xenbus_device *,
+							       struct xenfb_info *);
+	void __exit cocci_id/* drivers/video/fbdev/xen-fbfront.c 715 */;
+	void cocci_id/* drivers/video/fbdev/xen-fbfront.c 71 */(struct xenfb_info *,
+								struct fb_info *);
+	int __init cocci_id/* drivers/video/fbdev/xen-fbfront.c 700 */;
+	int cocci_id/* drivers/video/fbdev/xen-fbfront.c 70 */(struct xenbus_device *);
+	struct xenbus_driver cocci_id/* drivers/video/fbdev/xen-fbfront.c 692 */;
+	void cocci_id/* drivers/video/fbdev/xen-fbfront.c 69 */(void);
+	const struct xenbus_device_id cocci_id/* drivers/video/fbdev/xen-fbfront.c 687 */[];
+	int cocci_id/* drivers/video/fbdev/xen-fbfront.c 65 */;
+	struct xenfb_info *cocci_id/* drivers/video/fbdev/xen-fbfront.c 645 */;
+	enum xenbus_state cocci_id/* drivers/video/fbdev/xen-fbfront.c 643 */;
+	struct xenbus_device *cocci_id/* drivers/video/fbdev/xen-fbfront.c 642 */;
+	void cocci_id/* drivers/video/fbdev/xen-fbfront.c 642 */;
+	int cocci_id/* drivers/video/fbdev/xen-fbfront.c 64 */[KPARAM_CNT];
+	enum{KPARAM_MEM, KPARAM_WIDTH, KPARAM_HEIGHT, KPARAM_CNT,} cocci_id/* drivers/video/fbdev/xen-fbfront.c 63 */;
+	struct xenbus_transaction cocci_id/* drivers/video/fbdev/xen-fbfront.c 580 */;
+	void *cocci_id/* drivers/video/fbdev/xen-fbfront.c 550 */;
+	unsigned long cocci_id/* drivers/video/fbdev/xen-fbfront.c 550 */;
+	struct console *cocci_id/* drivers/video/fbdev/xen-fbfront.c 503 */;
+	struct fb_bitfield cocci_id/* drivers/video/fbdev/xen-fbfront.c 440 */;
+	u32 cocci_id/* drivers/video/fbdev/xen-fbfront.c 425 */;
+	struct xenfb_info {
+		unsigned char *fb;
+		struct fb_info *fb_info;
+		int x1,y1,x2,y2;
+		spinlock_t dirty_lock;
+		int nr_pages;
+		int irq;
+		struct xenfb_page *page;
+		unsigned long *gfns;
+		int update_wanted;
+		int feature_resize;
+		struct xenfb_resize resize;
+		int resize_dpy;
+		spinlock_t resize_lock;
+		struct xenbus_device *xbdev;
+	} cocci_id/* drivers/video/fbdev/xen-fbfront.c 42 */;
+	const struct xenbus_device_id *cocci_id/* drivers/video/fbdev/xen-fbfront.c 365 */;
+	struct xenfb_page *cocci_id/* drivers/video/fbdev/xen-fbfront.c 351 */;
+	irqreturn_t cocci_id/* drivers/video/fbdev/xen-fbfront.c 343 */;
+	struct fb_ops cocci_id/* drivers/video/fbdev/xen-fbfront.c 331 */;
+	struct fb_var_screeninfo *cocci_id/* drivers/video/fbdev/xen-fbfront.c 281 */;
+	struct fb_info *cocci_id/* drivers/video/fbdev/xen-fbfront.c 281 */;
+	loff_t *cocci_id/* drivers/video/fbdev/xen-fbfront.c 270 */;
+	size_t cocci_id/* drivers/video/fbdev/xen-fbfront.c 270 */;
+	const char __user *cocci_id/* drivers/video/fbdev/xen-fbfront.c 269 */;
+	ssize_t cocci_id/* drivers/video/fbdev/xen-fbfront.c 269 */;
+	const struct fb_copyarea *cocci_id/* drivers/video/fbdev/xen-fbfront.c 261 */;
+	const struct fb_image *cocci_id/* drivers/video/fbdev/xen-fbfront.c 253 */;
+	const struct fb_fillrect *cocci_id/* drivers/video/fbdev/xen-fbfront.c 245 */;
+	u32 *cocci_id/* drivers/video/fbdev/xen-fbfront.c 238 */;
+	unsigned cocci_id/* drivers/video/fbdev/xen-fbfront.c 214 */;
+	struct fb_deferred_io cocci_id/* drivers/video/fbdev/xen-fbfront.c 209 */;
+	struct page *cocci_id/* drivers/video/fbdev/xen-fbfront.c 188 */;
+	struct list_head *cocci_id/* drivers/video/fbdev/xen-fbfront.c 185 */;
+	union xenfb_out_event cocci_id/* drivers/video/fbdev/xen-fbfront.c 108 */;
+}

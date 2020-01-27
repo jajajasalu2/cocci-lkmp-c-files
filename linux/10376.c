@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 74 */;
+	struct drm_plane cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 686 */;
+	struct mtk_crtc_state cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 68 */;
+	struct device_node *cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 636 */;
+	enum mtk_ddp_comp_id cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 635 */;
+	struct mtk_drm_crtc cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 63 */;
+	struct device *cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 624 */;
+	const enum mtk_ddp_comp_id *cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 621 */;
+	enum drm_plane_type cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 587 */;
+	struct mtk_drm_private *cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 560 */;
+	const struct drm_crtc_helper_funcs cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 527 */;
+	struct mtk_crtc_state {
+		struct drm_crtc_state base;
+		bool pending_config;
+		unsigned int pending_width;
+		unsigned int pending_height;
+		unsigned int pending_vrefresh;
+	} cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 52 */;
+	const struct drm_crtc_funcs cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 515 */;
+	struct drm_crtc_state *cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 465 */;
+	struct mtk_plane_state *cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 379 */;
+	struct drm_plane *cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 378 */;
+	unsigned int cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 360 */;
+	struct mtk_ddp_comp *cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 359 */;
+	struct mtk_crtc_state *cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 358 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 355 */;
+	struct mtk_drm_crtc {
+		struct drm_crtc base;
+		bool enabled;
+		bool pending_needs_vblank;
+		struct drm_pending_vblank_event *event;
+		struct drm_plane *planes;
+		unsigned int layer_nr;
+		bool pending_planes;
+		void __iomem *config_regs;
+		struct mtk_disp_mutex *mutex;
+		unsigned int ddp_comp_nr;
+		struct mtk_ddp_comp **ddp_comp;
+	} cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 35 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 327 */;
+	struct drm_connector_list_iter cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 237 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 236 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 235 */;
+	unsigned int *cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 213 */;
+	int cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 203 */;
+	struct mtk_drm_crtc *cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 201 */;
+	void cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 201 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 145 */;
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 144 */;
+	bool cocci_id/* drivers/gpu/drm/mediatek/mtk_drm_crtc.c 143 */;
+}

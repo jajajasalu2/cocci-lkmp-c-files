@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	struct vmxnet3_rq_driver_stats cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 97 */;
+	const struct ethtool_ops cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 895 */;
+	struct UPT1_RxStats cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 81 */;
+	union Vmxnet3_CmdInfo *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 779 */;
+	struct Vmxnet3_DriverShared *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 778 */;
+	u32 cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 761 */;
+	struct vmxnet3_adapter *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 742 */;
+	struct ethtool_coalesce *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 740 */;
+	int cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 739 */;
+	const u8 cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 713 */;
+	const u8 *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 712 */;
+	const u32 *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 712 */;
+	unsigned int cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 699 */;
+	struct UPT1_RSSConf *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 698 */;
+	struct ethtool_rxnfc *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 672 */;
+	struct vmxnet3_tq_driver_stats cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 57 */;
+	u16 cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 534 */;
+	struct ethtool_ringparam *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 510 */;
+	struct ethtool_link_ksettings *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 485 */;
+	struct ethtool_wolinfo *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 456 */;
+	struct vmxnet3_rx_queue *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 420 */;
+	struct UPT1_TxStats cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 41 */;
+	struct vmxnet3_tx_queue *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 392 */;
+	u32 *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 365 */;
+	struct ethtool_regs *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 362 */;
+	void *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 362 */;
+	u64 cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 325 */;
+	u8 *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 314 */;
+	unsigned long cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 313 */;
+	u64 *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 310 */;
+	struct ethtool_stats *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 310 */;
+	struct vmxnet3_stat_desc {
+		char desc[ETH_GSTRING_LEN];
+		int offset;
+	} cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 30 */;
+	netdev_features_t cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 260 */;
+	struct net_device *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 260 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 204 */;
+	void cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 203 */;
+	struct UPT1_RxStats *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 124 */;
+	struct UPT1_TxStats *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 123 */;
+	struct vmxnet3_rq_driver_stats *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 122 */;
+	struct vmxnet3_tq_driver_stats *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 121 */;
+	struct rtnl_link_stats64 *cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 118 */;
+	struct vmxnet3_adapter cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 111 */;
+	const struct vmxnet3_stat_desc cocci_id/* drivers/net/vmxnet3/vmxnet3_ethtool.c 108 */[];
+}

@@ -1,0 +1,80 @@
+cocci_test_suite() {
+	struct sfb_skb_cb cocci_id/* net/sched/sch_sfb.c 94 */;
+	struct sfb_skb_cb *cocci_id/* net/sched/sch_sfb.c 92 */;
+	struct sfb_skb_cb {
+		u32 hashes[2];
+	} cocci_id/* net/sched/sch_sfb.c 88 */;
+	void __exit cocci_id/* net/sched/sch_sfb.c 720 */;
+	int __init cocci_id/* net/sched/sch_sfb.c 715 */;
+	struct sfb_sched_data cocci_id/* net/sched/sch_sfb.c 701 */;
+	struct Qdisc_ops cocci_id/* net/sched/sch_sfb.c 699 */;
+	const struct Qdisc_class_ops cocci_id/* net/sched/sch_sfb.c 686 */;
+	struct Qdisc *cocci_id/* net/sched/sch_sfb.c 679 */;
+	unsigned long cocci_id/* net/sched/sch_sfb.c 679 */;
+	struct tcf_block *cocci_id/* net/sched/sch_sfb.c 669 */;
+	struct qdisc_walker *cocci_id/* net/sched/sch_sfb.c 657 */;
+	struct nlattr **cocci_id/* net/sched/sch_sfb.c 646 */;
+	unsigned long *cocci_id/* net/sched/sch_sfb.c 646 */;
+	struct Qdisc **cocci_id/* net/sched/sch_sfb.c 618 */;
+	struct tcmsg *cocci_id/* net/sched/sch_sfb.c 612 */;
+	struct tc_sfb_xstats cocci_id/* net/sched/sch_sfb.c 597 */;
+	struct gnet_dump *cocci_id/* net/sched/sch_sfb.c 594 */;
+	struct tc_sfb_qopt cocci_id/* net/sched/sch_sfb.c 569 */;
+	struct sfb_sched_data {
+		struct Qdisc *qdisc;
+		struct tcf_proto __rcu *filter_list;
+		struct tcf_block *block;
+		unsigned long rehash_interval;
+		unsigned long warmup_time;
+		u32 max;
+		u32 bin_size;
+		u32 increment;
+		u32 decrement;
+		u32 limit;
+		u32 penalty_rate;
+		u32 penalty_burst;
+		u32 tokens_avail;
+		unsigned long rehash_time;
+		unsigned long token_time;
+		u8 slot;
+		bool double_buffering;
+		struct sfb_bins bins[2];
+		struct {
+			u32 earlydrop;
+			u32 penaltydrop;
+			u32 bucketdrop;
+			u32 queuedrop;
+			u32 childdrop;
+			u32 marked;
+		} stats;
+	} cocci_id/* net/sched/sch_sfb.c 52 */;
+	const struct tc_sfb_qopt *cocci_id/* net/sched/sch_sfb.c 494 */;
+	struct nlattr *cocci_id/* net/sched/sch_sfb.c 493 */[TCA_SFB_MAX + 1];
+	struct netlink_ext_ack *cocci_id/* net/sched/sch_sfb.c 489 */;
+	struct nlattr *cocci_id/* net/sched/sch_sfb.c 488 */;
+	const struct tc_sfb_qopt cocci_id/* net/sched/sch_sfb.c 476 */;
+	const struct nla_policy cocci_id/* net/sched/sch_sfb.c 472 */[TCA_SFB_MAX + 1];
+	struct sfb_bins {
+		siphash_key_t perturbation;
+		struct sfb_bucket bins[SFB_LEVELS][SFB_NUMBUCKETS];
+	} cocci_id/* net/sched/sch_sfb.c 47 */;
+	struct sfb_bucket {
+		u16 qlen;
+		u16 p_mark;
+	} cocci_id/* net/sched/sch_sfb.c 39 */;
+	struct sk_buff **cocci_id/* net/sched/sch_sfb.c 280 */;
+	struct tcf_result cocci_id/* net/sched/sch_sfb.c 257 */;
+	u32 *cocci_id/* net/sched/sch_sfb.c 255 */;
+	int *cocci_id/* net/sched/sch_sfb.c 255 */;
+	bool cocci_id/* net/sched/sch_sfb.c 254 */;
+	struct tcf_proto *cocci_id/* net/sched/sch_sfb.c 254 */;
+	struct sk_buff *cocci_id/* net/sched/sch_sfb.c 254 */;
+	const struct sfb_bucket *cocci_id/* net/sched/sch_sfb.c 202 */;
+	const struct sfb_sched_data *cocci_id/* net/sched/sch_sfb.c 198 */;
+	const struct sk_buff *cocci_id/* net/sched/sch_sfb.c 167 */;
+	struct sfb_bucket *cocci_id/* net/sched/sch_sfb.c 155 */;
+	int cocci_id/* net/sched/sch_sfb.c 154 */;
+	struct sfb_sched_data *cocci_id/* net/sched/sch_sfb.c 152 */;
+	u32 cocci_id/* net/sched/sch_sfb.c 151 */;
+	void cocci_id/* net/sched/sch_sfb.c 151 */;
+}

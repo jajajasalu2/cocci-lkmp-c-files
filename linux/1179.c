@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	unsigned long long cocci_id/* drivers/usb/musb/ux500_dma.c 88 */;
+	struct musb *cocci_id/* drivers/usb/musb/ux500_dma.c 82 */;
+	enum dma_slave_buswidth cocci_id/* drivers/usb/musb/ux500_dma.c 81 */;
+	struct dma_slave_config cocci_id/* drivers/usb/musb/ux500_dma.c 80 */;
+	struct scatterlist cocci_id/* drivers/usb/musb/ux500_dma.c 79 */;
+	enum dma_transfer_direction cocci_id/* drivers/usb/musb/ux500_dma.c 78 */;
+	struct dma_async_tx_descriptor *cocci_id/* drivers/usb/musb/ux500_dma.c 77 */;
+	struct dma_chan *cocci_id/* drivers/usb/musb/ux500_dma.c 76 */;
+	struct musb_hw_ep *cocci_id/* drivers/usb/musb/ux500_dma.c 75 */;
+	struct ux500_dma_channel *cocci_id/* drivers/usb/musb/ux500_dma.c 74 */;
+	u32 cocci_id/* drivers/usb/musb/ux500_dma.c 72 */;
+	dma_addr_t cocci_id/* drivers/usb/musb/ux500_dma.c 72 */;
+	u8 cocci_id/* drivers/usb/musb/ux500_dma.c 71 */;
+	u16 cocci_id/* drivers/usb/musb/ux500_dma.c 71 */;
+	bool cocci_id/* drivers/usb/musb/ux500_dma.c 70 */;
+	struct dma_channel *cocci_id/* drivers/usb/musb/ux500_dma.c 70 */;
+	unsigned long cocci_id/* drivers/usb/musb/ux500_dma.c 57 */;
+	void *cocci_id/* drivers/usb/musb/ux500_dma.c 51 */;
+	void cocci_id/* drivers/usb/musb/ux500_dma.c 51 */;
+	struct ux500_dma_controller {
+		struct dma_controller controller;
+		struct ux500_dma_channel rx_channel[UX500_MUSB_DMA_NUM_RX_TX_CHANNELS];
+		struct ux500_dma_channel tx_channel[UX500_MUSB_DMA_NUM_RX_TX_CHANNELS];
+		void *private_data;
+		dma_addr_t phy_base;
+	} cocci_id/* drivers/usb/musb/ux500_dma.c 42 */;
+	struct resource *cocci_id/* drivers/usb/musb/ux500_dma.c 362 */;
+	struct platform_device *cocci_id/* drivers/usb/musb/ux500_dma.c 361 */;
+	struct ux500_dma_channel {
+		struct dma_channel channel;
+		struct ux500_dma_controller *controller;
+		struct musb_hw_ep *hw_ep;
+		struct dma_chan *dma_chan;
+		unsigned int cur_len;
+		dma_cookie_t cookie;
+		u8 ch_num;
+		u8 is_tx;
+		u8 is_allocated;
+	} cocci_id/* drivers/usb/musb/ux500_dma.c 30 */;
+	dma_cap_mask_t cocci_id/* drivers/usb/musb/ux500_dma.c 281 */;
+	void **cocci_id/* drivers/usb/musb/ux500_dma.c 279 */;
+	char **cocci_id/* drivers/usb/musb/ux500_dma.c 274 */;
+	struct ux500_musb_board_data *cocci_id/* drivers/usb/musb/ux500_dma.c 272 */;
+	struct musb_hdrc_platform_data *cocci_id/* drivers/usb/musb/ux500_dma.c 271 */;
+	struct device *cocci_id/* drivers/usb/musb/ux500_dma.c 270 */;
+	const char *cocci_id/* drivers/usb/musb/ux500_dma.c 25 */[];
+	void __iomem *cocci_id/* drivers/usb/musb/ux500_dma.c 212 */;
+	struct ux500_dma_controller *cocci_id/* drivers/usb/musb/ux500_dma.c 210 */;
+	int cocci_id/* drivers/usb/musb/ux500_dma.c 207 */;
+	unsigned long int cocci_id/* drivers/usb/musb/ux500_dma.c 181 */;
+	struct ux500_dma_controller cocci_id/* drivers/usb/musb/ux500_dma.c 132 */;
+	struct dma_controller *cocci_id/* drivers/usb/musb/ux500_dma.c 128 */;
+}

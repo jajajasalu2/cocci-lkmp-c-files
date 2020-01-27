@@ -1,0 +1,96 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/mailbox/omap-mailbox.c 923 */;
+	int __init cocci_id/* drivers/mailbox/omap-mailbox.c 903 */;
+	struct platform_driver cocci_id/* drivers/mailbox/omap-mailbox.c 893 */;
+	struct omap_mbox_fifo_info {
+		int tx_id;
+		int tx_usr;
+		int tx_irq;
+		int rx_id;
+		int rx_usr;
+		int rx_irq;
+		const char *name;
+		bool send_no_irq;
+	} cocci_id/* drivers/mailbox/omap-mailbox.c 89 */;
+	struct omap_mbox_device {
+		struct device *dev;
+		struct mutex cfg_lock;
+		void __iomem *mbox_base;
+		u32 *irq_ctx;
+		u32 num_users;
+		u32 num_fifos;
+		u32 intr_type;
+		struct omap_mbox **mboxes;
+		struct mbox_controller controller;
+		struct list_head elem;
+	} cocci_id/* drivers/mailbox/omap-mailbox.c 76 */;
+	struct omap_mbox_match_data {
+		u32 intr_type;
+	} cocci_id/* drivers/mailbox/omap-mailbox.c 72 */;
+	u32 cocci_id/* drivers/mailbox/omap-mailbox.c 710 */[3];
+	const struct omap_mbox_match_data *cocci_id/* drivers/mailbox/omap-mailbox.c 707 */;
+	struct omap_mbox_fifo_info *cocci_id/* drivers/mailbox/omap-mailbox.c 702 */;
+	struct resource *cocci_id/* drivers/mailbox/omap-mailbox.c 698 */;
+	struct platform_device *cocci_id/* drivers/mailbox/omap-mailbox.c 696 */;
+	struct omap_mbox_device cocci_id/* drivers/mailbox/omap-mailbox.c 680 */;
+	struct device_node *cocci_id/* drivers/mailbox/omap-mailbox.c 676 */;
+	phandle cocci_id/* drivers/mailbox/omap-mailbox.c 675 */;
+	const struct of_phandle_args *cocci_id/* drivers/mailbox/omap-mailbox.c 673 */;
+	struct mbox_controller *cocci_id/* drivers/mailbox/omap-mailbox.c 672 */;
+	const struct of_device_id cocci_id/* drivers/mailbox/omap-mailbox.c 649 */[];
+	const struct omap_mbox_match_data cocci_id/* drivers/mailbox/omap-mailbox.c 646 */;
+	const struct dev_pm_ops cocci_id/* drivers/mailbox/omap-mailbox.c 642 */;
+	struct omap_mbox_queue {
+		spinlock_t lock;
+		struct kfifo fifo;
+		struct work_struct work;
+		struct omap_mbox *mbox;
+		bool full;
+	} cocci_id/* drivers/mailbox/omap-mailbox.c 64 */;
+	const struct mbox_chan_ops cocci_id/* drivers/mailbox/omap-mailbox.c 594 */;
+	struct omap_mbox_fifo {
+		unsigned long msg;
+		unsigned long fifo_stat;
+		unsigned long msg_stat;
+		unsigned long irqenable;
+		unsigned long irqstatus;
+		unsigned long irqdisable;
+		u32 intr_bit;
+	} cocci_id/* drivers/mailbox/omap-mailbox.c 54 */;
+	struct class cocci_id/* drivers/mailbox/omap-mailbox.c 464 */;
+	unsigned long cocci_id/* drivers/mailbox/omap-mailbox.c 421 */;
+	struct device *cocci_id/* drivers/mailbox/omap-mailbox.c 417 */;
+	struct mbox_client *cocci_id/* drivers/mailbox/omap-mailbox.c 414 */;
+	struct omap_mbox **cocci_id/* drivers/mailbox/omap-mailbox.c 399 */;
+	const char *cocci_id/* drivers/mailbox/omap-mailbox.c 396 */;
+	void (*cocci_id/* drivers/mailbox/omap-mailbox.c 327 */)(struct work_struct *);
+	irqreturn_t cocci_id/* drivers/mailbox/omap-mailbox.c 313 */;
+	void *cocci_id/* drivers/mailbox/omap-mailbox.c 313 */;
+	unsigned char *cocci_id/* drivers/mailbox/omap-mailbox.c 303 */;
+	int cocci_id/* drivers/mailbox/omap-mailbox.c 292 */;
+	u32 cocci_id/* drivers/mailbox/omap-mailbox.c 291 */;
+	struct omap_mbox_queue *cocci_id/* drivers/mailbox/omap-mailbox.c 290 */;
+	struct omap_mbox *cocci_id/* drivers/mailbox/omap-mailbox.c 288 */;
+	void cocci_id/* drivers/mailbox/omap-mailbox.c 288 */;
+	mbox_msg_t cocci_id/* drivers/mailbox/omap-mailbox.c 259 */;
+	struct omap_mbox_queue cocci_id/* drivers/mailbox/omap-mailbox.c 258 */;
+	struct work_struct *cocci_id/* drivers/mailbox/omap-mailbox.c 255 */;
+	struct omap_mbox_fifo *cocci_id/* drivers/mailbox/omap-mailbox.c 215 */;
+	omap_mbox_irq_t cocci_id/* drivers/mailbox/omap-mailbox.c 213 */;
+	struct omap_mbox_device *cocci_id/* drivers/mailbox/omap-mailbox.c 132 */;
+	size_t cocci_id/* drivers/mailbox/omap-mailbox.c 132 */;
+	struct mbox_chan *cocci_id/* drivers/mailbox/omap-mailbox.c 123 */;
+	unsigned int cocci_id/* drivers/mailbox/omap-mailbox.c 119 */;
+	struct omap_mbox {
+		const char *name;
+		int irq;
+		struct omap_mbox_queue *rxq;
+		struct device *dev;
+		struct omap_mbox_device *parent;
+		struct omap_mbox_fifo tx_fifo;
+		struct omap_mbox_fifo rx_fifo;
+		u32 intr_type;
+		struct mbox_chan *chan;
+		bool send_no_irq;
+	} cocci_id/* drivers/mailbox/omap-mailbox.c 102 */;
+}

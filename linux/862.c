@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	void __iomem *cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 91 */;
+	struct platform_driver cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 831 */;
+	unsigned long cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 76 */;
+	void cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 75 */;
+	struct resource *cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 692 */;
+	unsigned int cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 69 */;
+	const struct nand_controller_ops cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 684 */;
+	struct davinci_nand_info cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 66 */;
+	bool cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 62 */;
+	struct davinci_nand_pdata *cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 594 */;
+	struct davinci_nand_info *cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 593 */;
+	struct mtd_info *cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 592 */;
+	struct nand_chip *cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 590 */;
+	int cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 590 */;
+	struct davinci_nand_pdata cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 522 */;
+	const char *cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 518 */;
+	struct platform_device *cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 514 */;
+	const struct of_device_id cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 506 */[];
+	const struct mtd_ooblayout_ops cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 500 */;
+	struct mtd_oob_region *cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 464 */;
+	const uint8_t *cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 435 */;
+	uint8_t *cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 424 */;
+	struct davinci_nand_info {
+		struct nand_chip chip;
+		struct platform_device *pdev;
+		bool is_readmode;
+		void __iomem *base;
+		void __iomem *vaddr;
+		void __iomem *current_cs;
+		uint32_t mask_chipsel;
+		uint32_t mask_ale;
+		uint32_t mask_cle;
+		uint32_t core_chipsel;
+		struct davinci_aemif_timing *timing;
+	} cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 40 */;
+	uintptr_t cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 306 */;
+	u32 cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 299 */;
+	unsigned short *cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 297 */;
+	unsigned short cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 296 */[8];
+	unsigned cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 259 */;
+	u32 cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 258 */[4];
+	const u32 cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 245 */;
+	uint32_t cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 177 */;
+	u_char cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 167 */;
+	const u_char *cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 160 */;
+	u_char *cocci_id/* drivers/mtd/nand/raw/davinci_nand.c 160 */;
+}

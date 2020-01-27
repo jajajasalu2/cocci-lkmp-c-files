@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	regex_t cocci_id/* tools/vm/slabinfo.c 99 */;
+	unsigned long long cocci_id/* tools/vm/slabinfo.c 783 */;
+	char cocci_id/* tools/vm/slabinfo.c 63 */[4096];
+	char cocci_id/* tools/vm/slabinfo.c 574 */[40];
+	struct aliasinfo {
+		char *name;
+		char *ref;
+		struct slabinfo *slab;
+	} cocci_id/* tools/vm/slabinfo.c 51 */[MAX_ALIASES];
+	char cocci_id/* tools/vm/slabinfo.c 389 */[20];
+	struct slabinfo *cocci_id/* tools/vm/slabinfo.c 331 */;
+	struct slabinfo {
+		char *name;
+		int alias;
+		int refs;
+		int aliases,align,cache_dma,cpu_slabs,destroy_by_rcu;
+		unsigned int hwcache_align,object_size,objs_per_slab;
+		unsigned int sanity_checks,slab_size,store_user,trace;
+		int order,poison,reclaim_account,red_zone;
+		unsigned long partial,objects,slabs,objects_partial,objects_total;
+		unsigned long alloc_fastpath,alloc_slowpath;
+		unsigned long free_fastpath,free_slowpath;
+		unsigned long free_frozen,free_add_partial,free_remove_partial;
+		unsigned long alloc_from_partial,alloc_slab,free_slab,alloc_refill;
+		unsigned long cpuslab_flush,deactivate_full,deactivate_empty;
+		unsigned long deactivate_to_head,deactivate_to_tail;
+		unsigned long deactivate_remote_frees,order_fallback;
+		unsigned long cmpxchg_double_cpu_fail,cmpxchg_double_fail;
+		unsigned long alloc_node_mismatch,deactivate_bypass;
+		unsigned long cpu_partial_alloc,cpu_partial_free;
+		int numa[MAX_NODES];
+		int numa_partial[MAX_NODES];
+	} cocci_id/* tools/vm/slabinfo.c 28 */[MAX_SLABS];
+	int *cocci_id/* tools/vm/slabinfo.c 274 */;
+	char cocci_id/* tools/vm/slabinfo.c 243 */;
+	size_t cocci_id/* tools/vm/slabinfo.c 221 */;
+	char cocci_id/* tools/vm/slabinfo.c 219 */[100];
+	char **cocci_id/* tools/vm/slabinfo.c 184 */;
+	unsigned long cocci_id/* tools/vm/slabinfo.c 176 */;
+	FILE *cocci_id/* tools/vm/slabinfo.c 158 */;
+	char *cocci_id/* tools/vm/slabinfo.c 1381 */[];
+	struct option cocci_id/* tools/vm/slabinfo.c 1352 */[];
+	int cocci_id/* tools/vm/slabinfo.c 1317 */;
+	char *cocci_id/* tools/vm/slabinfo.c 1316 */;
+	void cocci_id/* tools/vm/slabinfo.c 1316 */;
+	struct dirent *cocci_id/* tools/vm/slabinfo.c 1178 */;
+	DIR *cocci_id/* tools/vm/slabinfo.c 1177 */;
+	struct aliasinfo *cocci_id/* tools/vm/slabinfo.c 1118 */;
+	struct aliasinfo cocci_id/* tools/vm/slabinfo.c 1088 */;
+	struct slabinfo cocci_id/* tools/vm/slabinfo.c 1063 */;
+	va_list cocci_id/* tools/vm/slabinfo.c 103 */;
+	const char *cocci_id/* tools/vm/slabinfo.c 101 */;
+}

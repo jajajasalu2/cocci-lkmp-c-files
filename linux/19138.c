@@ -1,0 +1,47 @@
+cocci_test_suite() {
+	struct seq_file *cocci_id/* arch/m68k/mvme16x/config.c 90 */;
+	char cocci_id/* arch/m68k/mvme16x/config.c 79 */[4];
+	char *cocci_id/* arch/m68k/mvme16x/config.c 76 */;
+	volatile char *cocci_id/* arch/m68k/mvme16x/config.c 73 */;
+	const struct bi_record *cocci_id/* arch/m68k/mvme16x/config.c 58 */;
+	int __init cocci_id/* arch/m68k/mvme16x/config.c 58 */;
+	unsigned short cocci_id/* arch/m68k/mvme16x/config.c 54 */;
+	int cocci_id/* arch/m68k/mvme16x/config.c 51 */(unsigned char b);
+	void cocci_id/* arch/m68k/mvme16x/config.c 49 */(void);
+	int cocci_id/* arch/m68k/mvme16x/config.c 48 */(int,
+							struct rtc_time *);
+	void cocci_id/* arch/m68k/mvme16x/config.c 47 */(irq_handler_t handler);
+	void cocci_id/* arch/m68k/mvme16x/config.c 46 */(char *model);
+	volatile MK48T08ptr_t cocci_id/* arch/m68k/mvme16x/config.c 44 */;
+	MK48T08ptr_t cocci_id/* arch/m68k/mvme16x/config.c 44 */;
+	struct rtc_time *cocci_id/* arch/m68k/mvme16x/config.c 438 */;
+	unsigned char cocci_id/* arch/m68k/mvme16x/config.c 433 */;
+	int cocci_id/* arch/m68k/mvme16x/config.c 433 */;
+	t_bdid cocci_id/* arch/m68k/mvme16x/config.c 42 */;
+	u8 cocci_id/* arch/m68k/mvme16x/config.c 417 */;
+	unsigned long cocci_id/* arch/m68k/mvme16x/config.c 416 */;
+	u64 cocci_id/* arch/m68k/mvme16x/config.c 414 */;
+	struct clocksource *cocci_id/* arch/m68k/mvme16x/config.c 414 */;
+	irq_handler_t cocci_id/* arch/m68k/mvme16x/config.c 389 */;
+	u32 cocci_id/* arch/m68k/mvme16x/config.c 357 */;
+	struct clocksource cocci_id/* arch/m68k/mvme16x/config.c 349 */;
+	u64 cocci_id/* arch/m68k/mvme16x/config.c 347 */(struct clocksource *cs);
+	volatile unsigned long *cocci_id/* arch/m68k/mvme16x/config.c 334 */;
+	volatile unsigned char *cocci_id/* arch/m68k/mvme16x/config.c 328 */;
+	volatile unsigned char cocci_id/* arch/m68k/mvme16x/config.c 323 */;
+	unsigned long *cocci_id/* arch/m68k/mvme16x/config.c 321 */;
+	irqreturn_t cocci_id/* arch/m68k/mvme16x/config.c 319 */;
+	void *cocci_id/* arch/m68k/mvme16x/config.c 319 */;
+	unsigned char *cocci_id/* arch/m68k/mvme16x/config.c 297 */;
+	uint16_t cocci_id/* arch/m68k/mvme16x/config.c 270 */;
+	char cocci_id/* arch/m68k/mvme16x/config.c 269 */[40];
+	p_bdid cocci_id/* arch/m68k/mvme16x/config.c 268 */;
+	void __init cocci_id/* arch/m68k/mvme16x/config.c 266 */;
+	void cocci_id/* arch/m68k/mvme16x/config.c 266 */;
+	u_char cocci_id/* arch/m68k/mvme16x/config.c 213 */;
+	volatile u_char cocci_id/* arch/m68k/mvme16x/config.c 212 */;
+	u_char *cocci_id/* arch/m68k/mvme16x/config.c 211 */;
+	const char *cocci_id/* arch/m68k/mvme16x/config.c 209 */;
+	struct console *cocci_id/* arch/m68k/mvme16x/config.c 209 */;
+	unsigned cocci_id/* arch/m68k/mvme16x/config.c 209 */;
+}

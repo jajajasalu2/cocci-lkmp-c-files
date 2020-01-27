@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	const struct attribute_group cocci_id/* drivers/staging/speakup/kobjects.c 996 */;
+	struct attribute *cocci_id/* drivers/staging/speakup/kobjects.c 973 */[];
+	struct kobj_attribute cocci_id/* drivers/staging/speakup/kobjects.c 921 */;
+	char cocci_id/* drivers/staging/speakup/kobjects.c 90 */[80];
+	const char *cocci_id/* drivers/staging/speakup/kobjects.c 85 */[];
+	struct msg_group_t *cocci_id/* drivers/staging/speakup/kobjects.c 843 */;
+	void cocci_id/* drivers/staging/speakup/kobjects.c 82 */;
+	char cocci_id/* drivers/staging/speakup/kobjects.c 734 */[160];
+	enum msg_index_t cocci_id/* drivers/staging/speakup/kobjects.c 708 */;
+	long cocci_id/* drivers/staging/speakup/kobjects.c 630 */;
+	int *cocci_id/* drivers/staging/speakup/kobjects.c 603 */;
+	struct var_t *cocci_id/* drivers/staging/speakup/kobjects.c 551 */;
+	char cocci_id/* drivers/staging/speakup/kobjects.c 505 */[100];
+	char cocci_id/* drivers/staging/speakup/kobjects.c 490 */;
+	short cocci_id/* drivers/staging/speakup/kobjects.c 467 */;
+	struct st_bits_data *cocci_id/* drivers/staging/speakup/kobjects.c 466 */;
+	struct punc_var_t *cocci_id/* drivers/staging/speakup/kobjects.c 465 */;
+	struct st_var_header *cocci_id/* drivers/staging/speakup/kobjects.c 464 */;
+	u_char cocci_id/* drivers/staging/speakup/kobjects.c 416 */[256];
+	char cocci_id/* drivers/staging/speakup/kobjects.c 390 */[10];
+	unsigned long cocci_id/* drivers/staging/speakup/kobjects.c 37 */;
+	size_t cocci_id/* drivers/staging/speakup/kobjects.c 36 */;
+	struct vc_data *cocci_id/* drivers/staging/speakup/kobjects.c 336 */;
+	int cocci_id/* drivers/staging/speakup/kobjects.c 32 */;
+	struct kobj_attribute *cocci_id/* drivers/staging/speakup/kobjects.c 30 */;
+	char *cocci_id/* drivers/staging/speakup/kobjects.c 30 */;
+	ssize_t cocci_id/* drivers/staging/speakup/kobjects.c 29 */;
+	u_char cocci_id/* drivers/staging/speakup/kobjects.c 238 */;
+	u_char *cocci_id/* drivers/staging/speakup/kobjects.c 237 */;
+	char cocci_id/* drivers/staging/speakup/kobjects.c 116 */[MAX_DESC_LEN + 1];
+	const char *cocci_id/* drivers/staging/speakup/kobjects.c 111 */;
+	struct kobject *cocci_id/* drivers/staging/speakup/kobjects.c 1001 */;
+}

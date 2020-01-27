@@ -1,0 +1,67 @@
+cocci_test_suite() {
+	struct ubiblock {
+		struct ubi_volume_desc *desc;
+		int ubi_num;
+		int vol_id;
+		int refcnt;
+		int leb_size;
+		struct gendisk *gd;
+		struct request_queue *rq;
+		struct workqueue_struct *wq;
+		struct mutex dev_mutex;
+		struct list_head list;
+		struct blk_mq_tag_set tag_set;
+	} cocci_id/* drivers/mtd/ubi/block.c 75 */;
+	struct ubiblock_param cocci_id/* drivers/mtd/ubi/block.c 73 */[UBIBLOCK_MAX_DEVICES]__initdata;
+	void __exit cocci_id/* drivers/mtd/ubi/block.c 702 */;
+	int __init cocci_id/* drivers/mtd/ubi/block.c 672 */;
+	struct ubiblock_pdu {
+		struct work_struct work;
+		struct ubi_sgl usgl;
+	} cocci_id/* drivers/mtd/ubi/block.c 64 */;
+	struct ubi_volume_info cocci_id/* drivers/mtd/ubi/block.c 623 */;
+	struct ubi_volume_desc *cocci_id/* drivers/mtd/ubi/block.c 622 */;
+	struct ubiblock_param *cocci_id/* drivers/mtd/ubi/block.c 621 */;
+	void __init cocci_id/* drivers/mtd/ubi/block.c 618 */;
+	const char *cocci_id/* drivers/mtd/ubi/block.c 606 */;
+	struct ubi_volume_desc *__init cocci_id/* drivers/mtd/ubi/block.c 605 */;
+	struct notifier_block cocci_id/* drivers/mtd/ubi/block.c 601 */;
+	struct ubiblock_param {
+		int ubi_num;
+		int vol_id;
+		char name[UBIBLOCK_PARAM_LEN + 1];
+	} cocci_id/* drivers/mtd/ubi/block.c 58 */;
+	struct ubi_notification *cocci_id/* drivers/mtd/ubi/block.c 572 */;
+	void *cocci_id/* drivers/mtd/ubi/block.c 570 */;
+	unsigned long cocci_id/* drivers/mtd/ubi/block.c 570 */;
+	struct notifier_block *cocci_id/* drivers/mtd/ubi/block.c 569 */;
+	void cocci_id/* drivers/mtd/ubi/block.c 479 */;
+	struct ubiblock_pdu cocci_id/* drivers/mtd/ubi/block.c 423 */;
+	struct ubiblock cocci_id/* drivers/mtd/ubi/block.c 385 */;
+	struct gendisk *cocci_id/* drivers/mtd/ubi/block.c 369 */;
+	sector_t cocci_id/* drivers/mtd/ubi/block.c 358 */;
+	u64 cocci_id/* drivers/mtd/ubi/block.c 350 */;
+	u64 *cocci_id/* drivers/mtd/ubi/block.c 348 */;
+	struct ubi_volume_info *cocci_id/* drivers/mtd/ubi/block.c 348 */;
+	int cocci_id/* drivers/mtd/ubi/block.c 348 */;
+	const struct blk_mq_ops cocci_id/* drivers/mtd/ubi/block.c 343 */;
+	unsigned int cocci_id/* drivers/mtd/ubi/block.c 332 */;
+	struct blk_mq_tag_set *cocci_id/* drivers/mtd/ubi/block.c 331 */;
+	const struct blk_mq_queue_data *cocci_id/* drivers/mtd/ubi/block.c 314 */;
+	blk_status_t cocci_id/* drivers/mtd/ubi/block.c 313 */;
+	struct blk_mq_hw_ctx *cocci_id/* drivers/mtd/ubi/block.c 313 */;
+	struct request *cocci_id/* drivers/mtd/ubi/block.c 296 */;
+	struct ubiblock_pdu *cocci_id/* drivers/mtd/ubi/block.c 295 */;
+	struct work_struct *cocci_id/* drivers/mtd/ubi/block.c 292 */;
+	const struct block_device_operations cocci_id/* drivers/mtd/ubi/block.c 285 */;
+	struct hd_geometry *cocci_id/* drivers/mtd/ubi/block.c 275 */;
+	struct block_device *cocci_id/* drivers/mtd/ubi/block.c 275 */;
+	fmode_t cocci_id/* drivers/mtd/ubi/block.c 219 */;
+	struct ubiblock *cocci_id/* drivers/mtd/ubi/block.c 174 */;
+	const struct kernel_param_ops cocci_id/* drivers/mtd/ubi/block.c 159 */;
+	char *cocci_id/* drivers/mtd/ubi/block.c 107 */[UBIBLOCK_PARAM_COUNT];
+	char *cocci_id/* drivers/mtd/ubi/block.c 106 */;
+	char cocci_id/* drivers/mtd/ubi/block.c 105 */[UBIBLOCK_PARAM_LEN];
+	size_t cocci_id/* drivers/mtd/ubi/block.c 103 */;
+	const struct kernel_param *cocci_id/* drivers/mtd/ubi/block.c 100 */;
+}

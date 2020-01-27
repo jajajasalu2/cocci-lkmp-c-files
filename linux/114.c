@@ -1,0 +1,62 @@
+cocci_test_suite() {
+	const struct cpumask *cocci_id/* kernel/sched/rt.c 815 */;
+	int cocci_id/* kernel/sched/rt.c 703 */;
+	s64 cocci_id/* kernel/sched/rt.c 702 */;
+	struct rt_bandwidth *cocci_id/* kernel/sched/rt.c 701 */;
+	rt_rq_iter_t cocci_id/* kernel/sched/rt.c 694 */;
+	struct root_domain *cocci_id/* kernel/sched/rt.c 693 */;
+	struct rq *cocci_id/* kernel/sched/rt.c 691 */;
+	struct task_group cocci_id/* kernel/sched/rt.c 555 */;
+	void cocci_id/* kernel/sched/rt.c 484 */(struct sched_rt_entity *rt_se,
+						 unsigned int flags);
+	typeof(struct task_group) cocci_id/* kernel/sched/rt.c 461 */;
+	void cocci_id/* kernel/sched/rt.c 433 */(struct rt_rq *rt_rq);
+	struct task_struct cocci_id/* kernel/sched/rt.c 392 */;
+	void cocci_id/* kernel/sched/rt.c 359 */(struct rq *);
+	struct seq_file *cocci_id/* kernel/sched/rt.c 2710 */;
+	loff_t *cocci_id/* kernel/sched/rt.c 2688 */;
+	size_t *cocci_id/* kernel/sched/rt.c 2687 */;
+	void __user *cocci_id/* kernel/sched/rt.c 2687 */;
+	struct ctl_table *cocci_id/* kernel/sched/rt.c 2686 */;
+	unsigned long cocci_id/* kernel/sched/rt.c 2611 */;
+	void cocci_id/* kernel/sched/rt.c 261 */(struct rq *this_rq);
+	long cocci_id/* kernel/sched/rt.c 2577 */;
+	struct rt_schedulable_data cocci_id/* kernel/sched/rt.c 2484 */;
+	u64 cocci_id/* kernel/sched/rt.c 2480 */;
+	struct task_group *cocci_id/* kernel/sched/rt.c 2480 */;
+	struct rt_schedulable_data *cocci_id/* kernel/sched/rt.c 2426 */;
+	void *cocci_id/* kernel/sched/rt.c 2424 */;
+	struct rt_schedulable_data {
+		struct task_group *tg;
+		u64 rt_period;
+		u64 rt_runtime;
+	} cocci_id/* kernel/sched/rt.c 2418 */;
+	const struct sched_class cocci_id/* kernel/sched/rt.c 2357 */;
+	struct rq cocci_id/* kernel/sched/rt.c 234 */;
+	void __init cocci_id/* kernel/sched/rt.c 2200 */;
+	struct sched_rt_entity cocci_id/* kernel/sched/rt.c 205 */;
+	struct root_domain cocci_id/* kernel/sched/rt.c 2013 */;
+	struct irq_work *cocci_id/* kernel/sched/rt.c 2010 */;
+	struct rt_rq cocci_id/* kernel/sched/rt.c 200 */;
+	atomic_t *cocci_id/* kernel/sched/rt.c 1966 */;
+	enum hrtimer_restart cocci_id/* kernel/sched/rt.c 17 */;
+	struct hrtimer *cocci_id/* kernel/sched/rt.c 17 */;
+	struct cpumask *cocci_id/* kernel/sched/rt.c 1635 */;
+	struct sched_domain *cocci_id/* kernel/sched/rt.c 1634 */;
+	struct plist_head *cocci_id/* kernel/sched/rt.c 1616 */;
+	struct task_struct *cocci_id/* kernel/sched/rt.c 1556 */;
+	struct rt_bandwidth cocci_id/* kernel/sched/rt.c 15 */;
+	struct rq_flags *cocci_id/* kernel/sched/rt.c 1472 */;
+	int cocci_id/* kernel/sched/rt.c 1387 */(struct task_struct *task);
+	int cocci_id/* kernel/sched/rt.c 13 */(struct rt_bandwidth *rt_b,
+					       int overrun);
+	struct rt_rq *cocci_id/* kernel/sched/rt.c 1267 */;
+	unsigned int cocci_id/* kernel/sched/rt.c 1265 */;
+	struct list_head *cocci_id/* kernel/sched/rt.c 1236 */;
+	struct sched_rt_entity *cocci_id/* kernel/sched/rt.c 1221 */;
+	struct rt_prio_array *cocci_id/* kernel/sched/rt.c 1221 */;
+	void cocci_id/* kernel/sched/rt.c 1221 */;
+	bool cocci_id/* kernel/sched/rt.c 1213 */;
+	__typeof__(struct callback_head) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+	__typeof__(cpumask_var_t) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

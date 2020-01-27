@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	enum ionic_status_code cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 70 */;
+	void __exit cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 563 */;
+	int __init cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 555 */;
+	size_t cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 407 */;
+	struct ionic_identity *cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 405 */;
+	struct ionic_dev *cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 324 */;
+	union ionic_dev_cmd_regs *cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 316 */;
+	struct ionic *cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 314 */;
+	u32 cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 293 */;
+	struct ionic_cq *cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 292 */;
+	struct ionic_qcq *cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 291 */;
+	ionic_cq_done_cb cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 289 */;
+	ionic_cq_cb cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 288 */;
+	struct napi_struct *cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 288 */;
+	ulong cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 284 */;
+	unsigned long cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 271 */;
+	struct device *cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 220 */;
+	struct ionic_admin_comp *cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 219 */;
+	struct ionic_admin_ctx *cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 218 */;
+	struct ionic_cq_info *cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 216 */;
+	void *cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 216 */;
+	struct ionic_desc_info *cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 215 */;
+	struct ionic_queue *cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 214 */;
+	void cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 214 */;
+	const char *cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 193 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 192 */;
+	bool cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 190 */;
+	struct ionic_lif *cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 188 */;
+	int cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 188 */;
+	union ionic_adminq_cmd cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 180 */;
+	enum ionic_cmd_opcode cocci_id/* drivers/net/ethernet/pensando/ionic/ionic_main.c 111 */;
+}

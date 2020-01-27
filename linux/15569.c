@@ -1,0 +1,55 @@
+cocci_test_suite() {
+	struct p80211item_pstr32 *cocci_id/* drivers/staging/wlan-ng/cfg80211.c 91 */;
+	struct p80211msg_dot11req_mibset cocci_id/* drivers/staging/wlan-ng/cfg80211.c 90 */;
+	struct p80211item_uint32 *cocci_id/* drivers/staging/wlan-ng/cfg80211.c 77 */;
+	const struct ieee80211_channel cocci_id/* drivers/staging/wlan-ng/cfg80211.c 7 */[];
+	struct device *cocci_id/* drivers/staging/wlan-ng/cfg80211.c 672 */;
+	const struct cfg80211_ops cocci_id/* drivers/staging/wlan-ng/cfg80211.c 654 */;
+	struct cfg80211_roam_info cocci_id/* drivers/staging/wlan-ng/cfg80211.c 646 */;
+	u16 cocci_id/* drivers/staging/wlan-ng/cfg80211.c 631 */;
+	void cocci_id/* drivers/staging/wlan-ng/cfg80211.c 629 */;
+	struct p80211msg_dot11req_mibget cocci_id/* drivers/staging/wlan-ng/cfg80211.c 606 */;
+	struct prism2_wiphy_private *cocci_id/* drivers/staging/wlan-ng/cfg80211.c 604 */;
+	int *cocci_id/* drivers/staging/wlan-ng/cfg80211.c 602 */;
+	struct wireless_dev *cocci_id/* drivers/staging/wlan-ng/cfg80211.c 601 */;
+	enum nl80211_tx_power_setting cocci_id/* drivers/staging/wlan-ng/cfg80211.c 575 */;
+	struct cfg80211_ibss_params *cocci_id/* drivers/staging/wlan-ng/cfg80211.c 564 */;
+	u8 *cocci_id/* drivers/staging/wlan-ng/cfg80211.c 486 */;
+	const void *const cocci_id/* drivers/staging/wlan-ng/cfg80211.c 48 */;
+	struct p80211msg_lnxreq_autojoin cocci_id/* drivers/staging/wlan-ng/cfg80211.c 438 */;
+	struct ieee80211_channel *cocci_id/* drivers/staging/wlan-ng/cfg80211.c 437 */;
+	struct cfg80211_connect_params *cocci_id/* drivers/staging/wlan-ng/cfg80211.c 434 */;
+	struct prism2_wiphy_private {
+		struct wlandevice *wlandev;
+		struct ieee80211_supported_band band;
+		struct ieee80211_channel channels[ARRAY_SIZE(prism2_channels)];
+		struct ieee80211_rate rates[ARRAY_SIZE(prism2_rates)];
+		struct cfg80211_scan_request *scan_request;
+	} cocci_id/* drivers/staging/wlan-ng/cfg80211.c 38 */;
+	const u32 cocci_id/* drivers/staging/wlan-ng/cfg80211.c 32 */[PRISM2_NUM_CIPHER_SUITES];
+	u8 cocci_id/* drivers/staging/wlan-ng/cfg80211.c 287 */[46];
+	struct cfg80211_scan_info cocci_id/* drivers/staging/wlan-ng/cfg80211.c 281 */;
+	struct cfg80211_bss *cocci_id/* drivers/staging/wlan-ng/cfg80211.c 280 */;
+	struct p80211msg_dot11req_scan_results cocci_id/* drivers/staging/wlan-ng/cfg80211.c 279 */;
+	struct p80211msg_dot11req_scan cocci_id/* drivers/staging/wlan-ng/cfg80211.c 278 */;
+	struct cfg80211_scan_request *cocci_id/* drivers/staging/wlan-ng/cfg80211.c 273 */;
+	struct p80211msg *cocci_id/* drivers/staging/wlan-ng/cfg80211.c 260 */;
+	struct p80211msg_lnxreq_commsquality cocci_id/* drivers/staging/wlan-ng/cfg80211.c 243 */;
+	struct station_info *cocci_id/* drivers/staging/wlan-ng/cfg80211.c 240 */;
+	const struct ieee80211_rate cocci_id/* drivers/staging/wlan-ng/cfg80211.c 24 */[];
+	struct key_params cocci_id/* drivers/staging/wlan-ng/cfg80211.c 180 */;
+	void (*cocci_id/* drivers/staging/wlan-ng/cfg80211.c 177 */)(void *cookie,
+								     struct key_params *);
+	void *cocci_id/* drivers/staging/wlan-ng/cfg80211.c 176 */;
+	u32 cocci_id/* drivers/staging/wlan-ng/cfg80211.c 150 */;
+	struct wlandevice *cocci_id/* drivers/staging/wlan-ng/cfg80211.c 149 */;
+	struct key_params *cocci_id/* drivers/staging/wlan-ng/cfg80211.c 147 */;
+	u8 cocci_id/* drivers/staging/wlan-ng/cfg80211.c 146 */;
+	bool cocci_id/* drivers/staging/wlan-ng/cfg80211.c 146 */;
+	const u8 *cocci_id/* drivers/staging/wlan-ng/cfg80211.c 146 */;
+	struct wiphy *cocci_id/* drivers/staging/wlan-ng/cfg80211.c 145 */;
+	struct net_device *cocci_id/* drivers/staging/wlan-ng/cfg80211.c 145 */;
+	int cocci_id/* drivers/staging/wlan-ng/cfg80211.c 145 */;
+	struct vif_params *cocci_id/* drivers/staging/wlan-ng/cfg80211.c 106 */;
+	enum nl80211_iftype cocci_id/* drivers/staging/wlan-ng/cfg80211.c 105 */;
+}

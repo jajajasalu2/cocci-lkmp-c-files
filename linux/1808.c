@@ -1,0 +1,58 @@
+cocci_test_suite() {
+	struct i2c_driver cocci_id/* drivers/iio/light/us5182d.c 972 */;
+	const struct of_device_id cocci_id/* drivers/iio/light/us5182d.c 966 */[];
+	const int cocci_id/* drivers/iio/light/us5182d.c 96 */[];
+	const struct i2c_device_id cocci_id/* drivers/iio/light/us5182d.c 959 */[];
+	const struct acpi_device_id cocci_id/* drivers/iio/light/us5182d.c 952 */[];
+	struct device *cocci_id/* drivers/iio/light/us5182d.c 934 */;
+	const struct i2c_device_id *cocci_id/* drivers/iio/light/us5182d.c 838 */;
+	struct i2c_client *cocci_id/* drivers/iio/light/us5182d.c 837 */;
+	u64 cocci_id/* drivers/iio/light/us5182d.c 816 */;
+	enum iio_event_direction cocci_id/* drivers/iio/light/us5182d.c 814 */;
+	irqreturn_t cocci_id/* drivers/iio/light/us5182d.c 810 */;
+	void *cocci_id/* drivers/iio/light/us5182d.c 810 */;
+	struct iio_dev *cocci_id/* drivers/iio/light/us5182d.c 785 */;
+	void cocci_id/* drivers/iio/light/us5182d.c 761 */;
+	const struct iio_info cocci_id/* drivers/iio/light/us5182d.c 708 */;
+	enum iio_event_type cocci_id/* drivers/iio/light/us5182d.c 605 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/light/us5182d.c 605 */;
+	enum iio_event_info cocci_id/* drivers/iio/light/us5182d.c 539 */;
+	u16 cocci_id/* drivers/iio/light/us5182d.c 523 */;
+	u8 *cocci_id/* drivers/iio/light/us5182d.c 462 */;
+	__be16 cocci_id/* drivers/iio/light/us5182d.c 458 */;
+	long cocci_id/* drivers/iio/light/us5182d.c 423 */;
+	int *cocci_id/* drivers/iio/light/us5182d.c 422 */;
+	bool cocci_id/* drivers/iio/light/us5182d.c 362 */;
+	unsigned long cocci_id/* drivers/iio/light/us5182d.c 305 */;
+	u8 cocci_id/* drivers/iio/light/us5182d.c 253 */;
+	struct us5182d_data *cocci_id/* drivers/iio/light/us5182d.c 250 */;
+	int cocci_id/* drivers/iio/light/us5182d.c 250 */;
+	const struct iio_chan_spec cocci_id/* drivers/iio/light/us5182d.c 184 */[];
+	const struct iio_event_spec cocci_id/* drivers/iio/light/us5182d.c 169 */[];
+	const struct {
+		u8 reg;
+		u8 val;
+	} cocci_id/* drivers/iio/light/us5182d.c 156 */[];
+	const struct attribute_group cocci_id/* drivers/iio/light/us5182d.c 152 */;
+	struct attribute *cocci_id/* drivers/iio/light/us5182d.c 147 */[];
+	struct us5182d_data {
+		struct i2c_client *client;
+		struct mutex lock;
+		u32 ga;
+		u8 lower_dark_gain;
+		u8 upper_dark_gain;
+		u16 *us5182d_dark_ths;
+		u16 px_low_th;
+		u16 px_high_th;
+		int rising_en;
+		int falling_en;
+		u8 opmode;
+		u8 power_mode;
+		bool als_enabled;
+		bool px_enabled;
+		bool default_continuous;
+	} cocci_id/* drivers/iio/light/us5182d.c 117 */;
+	enum pmode{US5182D_CONTINUOUS, US5182D_ONESHOT,} cocci_id/* drivers/iio/light/us5182d.c 112 */;
+	enum mode{US5182D_ALS_PX, US5182D_ALS_ONLY, US5182D_PX_ONLY,} cocci_id/* drivers/iio/light/us5182d.c 106 */;
+	u16 cocci_id/* drivers/iio/light/us5182d.c 103 */[];
+}

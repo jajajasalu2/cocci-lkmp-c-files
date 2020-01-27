@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	va_list cocci_id/* drivers/isdn/mISDN/layer2.c 94 */;
+	struct va_format cocci_id/* drivers/isdn/mISDN/layer2.c 93 */;
+	char *cocci_id/* drivers/isdn/mISDN/layer2.c 90 */;
+	struct FsmInst *cocci_id/* drivers/isdn/mISDN/layer2.c 697 */;
+	char *cocci_id/* drivers/isdn/mISDN/layer2.c 61 */[];
+	u_char *cocci_id/* drivers/isdn/mISDN/layer2.c 557 */;
+	u_int cocci_id/* drivers/isdn/mISDN/layer2.c 556 */;
+	struct sk_buff *cocci_id/* drivers/isdn/mISDN/layer2.c 554 */;
+	struct layer2 *cocci_id/* drivers/isdn/mISDN/layer2.c 554 */;
+	int cocci_id/* drivers/isdn/mISDN/layer2.c 553 */;
+	u_char cocci_id/* drivers/isdn/mISDN/layer2.c 475 */;
+	unsigned int cocci_id/* drivers/isdn/mISDN/layer2.c 369 */;
+	void cocci_id/* drivers/isdn/mISDN/layer2.c 335 */;
+	enum{EV_L2_UI, EV_L2_SABME, EV_L2_DISC, EV_L2_DM, EV_L2_UA, EV_L2_FRMR, EV_L2_SUPER, EV_L2_I, EV_L2_DL_DATA, EV_L2_ACK_PULL, EV_L2_DL_UNITDATA, EV_L2_DL_ESTABLISH_REQ, EV_L2_DL_RELEASE_REQ, EV_L2_MDL_ASSIGN, EV_L2_MDL_REMOVE, EV_L2_MDL_ERROR, EV_L1_DEACTIVATE, EV_L2_T200, EV_L2_T203, EV_L2_T200I, EV_L2_T203I, EV_L2_SET_OWN_BUSY, EV_L2_CLEAR_OWN_BUSY, EV_L2_FRAME_ERROR,} cocci_id/* drivers/isdn/mISDN/layer2.c 32 */;
+	char cocci_id/* drivers/isdn/mISDN/layer2.c 307 */;
+	u_int *cocci_id/* drivers/isdn/mISDN/layer2.c 2236 */;
+	struct Bprotocol cocci_id/* drivers/isdn/mISDN/layer2.c 2229 */;
+	struct channel_req *cocci_id/* drivers/isdn/mISDN/layer2.c 2215 */;
+	struct layer2 cocci_id/* drivers/isdn/mISDN/layer2.c 2114 */;
+	struct channel_req cocci_id/* drivers/isdn/mISDN/layer2.c 2112 */;
+	u_long cocci_id/* drivers/isdn/mISDN/layer2.c 2108 */;
+	struct mISDNchannel *cocci_id/* drivers/isdn/mISDN/layer2.c 2108 */;
+	struct mISDNhead *cocci_id/* drivers/isdn/mISDN/layer2.c 1945 */;
+	struct Fsm cocci_id/* drivers/isdn/mISDN/layer2.c 18 */;
+	struct FsmNode cocci_id/* drivers/isdn/mISDN/layer2.c 1758 */[];
+	void *cocci_id/* drivers/isdn/mISDN/layer2.c 1728 */;
+	long cocci_id/* drivers/isdn/mISDN/layer2.c 1349 */;
+	signed char cocci_id/* drivers/isdn/mISDN/layer2.c 1349 */;
+	u_char cocci_id/* drivers/isdn/mISDN/layer2.c 1103 */[MAX_L2HEADER_LEN];
+}

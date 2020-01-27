@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/mfd/kempld-core.c 820 */;
+	void cocci_id/* drivers/mfd/kempld-core.c 820 */;
+	const struct mfd_cell cocci_id/* drivers/mfd/kempld-core.c 82 */[];
+	int __init cocci_id/* drivers/mfd/kempld-core.c 800 */;
+	enum kempld_cells{KEMPLD_I2C=0, KEMPLD_WDT, KEMPLD_GPIO, KEMPLD_UART,} cocci_id/* drivers/mfd/kempld-core.c 75 */;
+	void *cocci_id/* drivers/mfd/kempld-core.c 497 */;
+	const struct dmi_system_id cocci_id/* drivers/mfd/kempld-core.c 490 */[]__initconst;
+	struct platform_driver cocci_id/* drivers/mfd/kempld-core.c 482 */;
+	struct resource *cocci_id/* drivers/mfd/kempld-core.c 443 */;
+	struct device *cocci_id/* drivers/mfd/kempld-core.c 441 */;
+	u16 cocci_id/* drivers/mfd/kempld-core.c 43 */;
+	u8 cocci_id/* drivers/mfd/kempld-core.c 397 */;
+	struct kempld_device_data *cocci_id/* drivers/mfd/kempld-core.c 395 */;
+	const struct attribute_group cocci_id/* drivers/mfd/kempld-core.c 391 */;
+	struct attribute *cocci_id/* drivers/mfd/kempld-core.c 384 */[];
+	struct device_attribute *cocci_id/* drivers/mfd/kempld-core.c 363 */;
+	char *cocci_id/* drivers/mfd/kempld-core.c 363 */;
+	ssize_t cocci_id/* drivers/mfd/kempld-core.c 362 */;
+	const char *cocci_id/* drivers/mfd/kempld-core.c 332 */;
+	char cocci_id/* drivers/mfd/kempld-core.c 286 */;
+	u32 cocci_id/* drivers/mfd/kempld-core.c 227 */;
+	char cocci_id/* drivers/mfd/kempld-core.c 18 */[MAX_ID_LEN + 1];
+	const struct kempld_platform_data *cocci_id/* drivers/mfd/kempld-core.c 138 */;
+	const struct dmi_system_id *cocci_id/* drivers/mfd/kempld-core.c 136 */;
+	int cocci_id/* drivers/mfd/kempld-core.c 136 */;
+	struct platform_device *cocci_id/* drivers/mfd/kempld-core.c 134 */;
+	const struct kempld_platform_data cocci_id/* drivers/mfd/kempld-core.c 125 */;
+	struct resource cocci_id/* drivers/mfd/kempld-core.c 119 */;
+	struct mfd_cell cocci_id/* drivers/mfd/kempld-core.c 101 */[KEMPLD_MAX_DEVS];
+}

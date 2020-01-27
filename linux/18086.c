@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	struct platform_device cocci_id/* arch/arm/mach-davinci/da850.c 724 */;
+	struct da8xx_cfgchip_clk_platform_data cocci_id/* arch/arm/mach-davinci/da850.c 722 */;
+	struct davinci_pll_platform_data cocci_id/* arch/arm/mach-davinci/da850.c 680 */;
+	struct resource cocci_id/* arch/arm/mach-davinci/da850.c 672 */[];
+	int cocci_id/* arch/arm/mach-davinci/da850.c 653 */;
+	struct clk *cocci_id/* arch/arm/mach-davinci/da850.c 652 */;
+	struct regmap *cocci_id/* arch/arm/mach-davinci/da850.c 651 */;
+	void __iomem *cocci_id/* arch/arm/mach-davinci/da850.c 650 */;
+	const struct davinci_cp_intc_config cocci_id/* arch/arm/mach-davinci/da850.c 634 */;
+	void __init cocci_id/* arch/arm/mach-davinci/da850.c 622 */;
+	void cocci_id/* arch/arm/mach-davinci/da850.c 622 */;
+	const struct davinci_soc_info cocci_id/* arch/arm/mach-davinci/da850.c 608 */;
+	struct davinci_gpio_platform_data cocci_id/* arch/arm/mach-davinci/da850.c 597 */;
+	struct vpif_capture_config *cocci_id/* arch/arm/mach-davinci/da850.c 590 */;
+	struct vpif_display_config *cocci_id/* arch/arm/mach-davinci/da850.c 583 */;
+	u64 cocci_id/* arch/arm/mach-davinci/da850.c 514 */;
+	int __init cocci_id/* arch/arm/mach-davinci/da850.c 507 */;
+	char *cocci_id/* arch/arm/mach-davinci/da850.c 489 */;
+	unsigned int cocci_id/* arch/arm/mach-davinci/da850.c 487 */;
+	struct da850_opp *cocci_id/* arch/arm/mach-davinci/da850.c 457 */;
+	struct regulator *cocci_id/* arch/arm/mach-davinci/da850.c 453 */;
+	struct davinci_cpufreq_config cocci_id/* arch/arm/mach-davinci/da850.c 444 */;
+	int cocci_id/* arch/arm/mach-davinci/da850.c 441 */(void);
+	int cocci_id/* arch/arm/mach-davinci/da850.c 440 */(unsigned int index);
+	struct cpufreq_frequency_table cocci_id/* arch/arm/mach-davinci/da850.c 426 */[];
+	const struct da850_opp cocci_id/* arch/arm/mach-davinci/da850.c 402 */;
+	struct da850_opp {
+		unsigned int freq;
+		unsigned int prediv;
+		unsigned int mult;
+		unsigned int postdiv;
+		unsigned int cvdd_min;
+		unsigned int cvdd_max;
+	} cocci_id/* arch/arm/mach-davinci/da850.c 357 */;
+	const struct davinci_timer_cfg cocci_id/* arch/arm/mach-davinci/da850.c 341 */;
+	struct davinci_id cocci_id/* arch/arm/mach-davinci/da850.c 320 */[];
+	struct map_desc cocci_id/* arch/arm/mach-davinci/da850.c 304 */[];
+	const short cocci_id/* arch/arm/mach-davinci/da850.c 265 */[]__initconst;
+}

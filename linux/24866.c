@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	__u8 *cocci_id/* net/bpf/test_run.c 494 */;
+	struct ethhdr *cocci_id/* net/bpf/test_run.c 475 */;
+	unsigned int cocci_id/* net/bpf/test_run.c 459 */;
+	const struct ethhdr *cocci_id/* net/bpf/test_run.c 458 */;
+	struct bpf_flow_keys cocci_id/* net/bpf/test_run.c 456 */;
+	struct bpf_flow_keys *cocci_id/* net/bpf/test_run.c 455 */;
+	struct bpf_flow_dissector cocci_id/* net/bpf/test_run.c 453 */;
+	struct bpf_prog *cocci_id/* net/bpf/test_run.c 448 */;
+	struct xdp_buff cocci_id/* net/bpf/test_run.c 400 */;
+	struct netdev_rx_queue *cocci_id/* net/bpf/test_run.c 399 */;
+	struct sock cocci_id/* net/bpf/test_run.c 332 */;
+	struct __sk_buff cocci_id/* net/bpf/test_run.c 312 */;
+	struct skb_shared_info cocci_id/* net/bpf/test_run.c 308 */;
+	struct sock *cocci_id/* net/bpf/test_run.c 303 */;
+	struct sk_buff *cocci_id/* net/bpf/test_run.c 302 */;
+	struct __sk_buff *cocci_id/* net/bpf/test_run.c 299 */;
+	bool cocci_id/* net/bpf/test_run.c 296 */;
+	void cocci_id/* net/bpf/test_run.c 281 */;
+	struct qdisc_skb_cb *cocci_id/* net/bpf/test_run.c 244 */;
+	u8 *cocci_id/* net/bpf/test_run.c 239 */;
+	size_t cocci_id/* net/bpf/test_run.c 237 */;
+	enum bpf_cgroup_storage_type cocci_id/* net/bpf/test_run.c 21 */;
+	void __user *cocci_id/* net/bpf/test_run.c 206 */;
+	u32 cocci_id/* net/bpf/test_run.c 204 */;
+	const void *cocci_id/* net/bpf/test_run.c 203 */;
+	union bpf_attr __user *cocci_id/* net/bpf/test_run.c 203 */;
+	const union bpf_attr *cocci_id/* net/bpf/test_run.c 202 */;
+	int cocci_id/* net/bpf/test_run.c 202 */;
+	struct bpf_cgroup_storage *cocci_id/* net/bpf/test_run.c 20 */[MAX_BPF_CGROUP_STORAGE_TYPE];
+	u32 *cocci_id/* net/bpf/test_run.c 18 */;
+	void *cocci_id/* net/bpf/test_run.c 171 */;
+	short cocci_id/* net/bpf/test_run.c 132 */;
+	long cocci_id/* net/bpf/test_run.c 129 */;
+	char cocci_id/* net/bpf/test_run.c 122 */;
+	u64 cocci_id/* net/bpf/test_run.c 117 */;
+	int noinline cocci_id/* net/bpf/test_run.c 112 */;
+}

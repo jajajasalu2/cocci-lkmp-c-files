@@ -1,0 +1,47 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 932 */;
+	const struct of_device_id cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 922 */[];
+	struct platform_device *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 890 */;
+	void __iomem *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 834 */;
+	struct resource *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 833 */;
+	const struct regmap_config cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 823 */;
+	struct regmap *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 796 */;
+	irqreturn_t cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 793 */;
+	void *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 793 */;
+	struct v4l2_async_subdev cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 762 */;
+	struct sun6i_csi *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 699 */;
+	struct v4l2_async_subdev *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 697 */;
+	struct v4l2_fwnode_endpoint *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 696 */;
+	struct device *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 695 */;
+	int cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 695 */;
+	const struct v4l2_async_notifier_operations cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 691 */;
+	struct v4l2_subdev cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 676 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 671 */;
+	struct v4l2_device *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 670 */;
+	struct sun6i_csi cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 668 */;
+	struct v4l2_async_notifier *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 666 */;
+	struct media_pad *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 634 */;
+	struct fwnode_handle *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 631 */;
+	struct media_entity *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 630 */;
+	dma_addr_t cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 588 */;
+	int *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 502 */;
+	struct sun6i_csi_config *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 499 */;
+	void cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 462 */;
+	struct sun6i_csi_dev cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 46 */;
+	unsigned char cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 377 */;
+	struct sun6i_csi_dev {
+		struct sun6i_csi csi;
+		struct device *dev;
+		struct regmap *regmap;
+		struct clk *clk_mod;
+		struct clk *clk_ram;
+		struct reset_control *rstc_bus;
+		int planar_offset[3];
+	} cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 32 */;
+	enum csi_input_seq cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 306 */;
+	bool cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 242 */;
+	enum csi_output_fmt cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 239 */;
+	u32 cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 218 */;
+	enum csi_input_fmt cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 217 */;
+	struct sun6i_csi_dev *cocci_id/* drivers/media/platform/sunxi/sun6i-csi/sun6i_csi.c 217 */;
+}

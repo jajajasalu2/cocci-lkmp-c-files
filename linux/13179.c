@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct ivtv_open_id cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 981 */;
+	struct video_device *cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 933 */;
+	struct file *cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 931 */;
+	struct v4l2_fh *cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 868 */;
+	u64 cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 835 */;
+	__poll_t cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 721 */;
+	poll_table *cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 721 */;
+	const char __user *cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 708 */;
+	void __user *cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 595 */;
+	const struct v4l2_sliced_vbi_data __user *cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 567 */;
+	struct v4l2_sliced_vbi_data cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 563 */;
+	struct ivtv_queue cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 543 */;
+	struct yuv_playback_info *cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 541 */;
+	loff_t *cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 404 */;
+	struct ivtv_stream *cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 35 */;
+	ssize_t cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 346 */;
+	struct ivtv *cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 34 */;
+	u8 *cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 333 */;
+	struct ivtv_open_id *cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 32 */;
+	int cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 32 */;
+	char *cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 303 */;
+	u8 cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 298 */;
+	const u8 *cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 297 */;
+	const char *cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 295 */;
+	char __user *cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 287 */;
+	struct ivtv_buffer *cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 286 */;
+	size_t cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 286 */;
+	int *cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 193 */;
+	const int cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 176 */[8];
+	struct v4l2_enc_idx_entry *cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 174 */;
+	const u32 cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 144 */;
+	u32 cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 143 */;
+	struct v4l2_tuner cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 142 */;
+	void cocci_id/* drivers/media/pci/ivtv/ivtv-fileops.c 140 */;
+}

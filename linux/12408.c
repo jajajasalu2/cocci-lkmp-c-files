@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 793 */;
+	const struct of_device_id cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 787 */[];
+	struct platform_device *cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 696 */;
+	struct device_node *cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 683 */;
+	u32 cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 66 */;
+	struct omap_dss_device *cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 650 */;
+	struct hdmi_wp_data *cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 65 */;
+	const struct component_ops cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 639 */;
+	void cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 627 */;
+	irqreturn_t cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 62 */;
+	struct omap_hdmi *cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 602 */;
+	struct dss_device *cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 601 */;
+	struct device *cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 599 */;
+	void *cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 599 */;
+	int cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 599 */;
+	struct omap_hdmi_audio_pdata cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 573 */;
+	const struct omap_hdmi_audio_ops cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 563 */;
+	struct omap_dss_audio *cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 541 */;
+	unsigned long cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 507 */;
+	void (*cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 476 */)(struct device *dev);
+	const struct omap_dss_device_ops cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 454 */;
+	const struct hdmi_avi_infoframe *cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 437 */;
+	bool cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 417 */;
+	u8 *cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 414 */;
+	struct seq_file *cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 253 */;
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 240 */;
+	unsigned int cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 147 */;
+	struct dss_pll_clock_info cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 146 */;
+	const struct videomode *cocci_id/* drivers/gpu/drm/omapdrm/dss/hdmi5.c 145 */;
+}

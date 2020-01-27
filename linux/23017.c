@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	const char *cocci_id/* sound/soc/sof/pcm.c 765 */;
+	struct snd_sof_pdata *cocci_id/* sound/soc/sof/pcm.c 764 */;
+	struct snd_soc_component_driver *cocci_id/* sound/soc/sof/pcm.c 763 */;
+	void cocci_id/* sound/soc/sof/pcm.c 761 */;
+	char *cocci_id/* sound/soc/sof/pcm.c 635 */;
+	struct snd_sof_dai *cocci_id/* sound/soc/sof/pcm.c 634 */;
+	struct snd_mask *cocci_id/* sound/soc/sof/pcm.c 630 */;
+	struct snd_interval *cocci_id/* sound/soc/sof/pcm.c 626 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/sof/pcm.c 624 */;
+	struct snd_sof_pcm_stream cocci_id/* sound/soc/sof/pcm.c 60 */;
+	struct snd_sof_pcm_stream *cocci_id/* sound/soc/sof/pcm.c 59 */;
+	struct snd_soc_tplg_stream_caps *cocci_id/* sound/soc/sof/pcm.c 574 */;
+	struct snd_pcm *cocci_id/* sound/soc/sof/pcm.c 573 */;
+	struct work_struct *cocci_id/* sound/soc/sof/pcm.c 57 */;
+	const struct snd_sof_dsp_ops *cocci_id/* sound/soc/sof/pcm.c 463 */;
+	snd_pcm_uframes_t cocci_id/* sound/soc/sof/pcm.c 425 */;
+	const struct sof_ipc_pcm_params_reply *cocci_id/* sound/soc/sof/pcm.c 41 */;
+	bool cocci_id/* sound/soc/sof/pcm.c 321 */;
+	struct snd_dma_buffer *cocci_id/* sound/soc/sof/pcm.c 29 */;
+	struct snd_sof_pcm *cocci_id/* sound/soc/sof/pcm.c 28 */;
+	struct snd_sof_dev *cocci_id/* sound/soc/sof/pcm.c 27 */;
+	struct snd_soc_pcm_runtime *cocci_id/* sound/soc/sof/pcm.c 26 */;
+	unsigned char *cocci_id/* sound/soc/sof/pcm.c 24 */;
+	size_t cocci_id/* sound/soc/sof/pcm.c 24 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/sof/pcm.c 23 */;
+	struct sof_ipc_reply cocci_id/* sound/soc/sof/pcm.c 222 */;
+	struct sof_ipc_stream cocci_id/* sound/soc/sof/pcm.c 221 */;
+	struct snd_soc_component *cocci_id/* sound/soc/sof/pcm.c 22 */;
+	int cocci_id/* sound/soc/sof/pcm.c 22 */;
+	struct sof_ipc_pcm_params_reply cocci_id/* sound/soc/sof/pcm.c 106 */;
+	struct sof_ipc_pcm_params cocci_id/* sound/soc/sof/pcm.c 105 */;
+	struct snd_pcm_runtime *cocci_id/* sound/soc/sof/pcm.c 102 */;
+}

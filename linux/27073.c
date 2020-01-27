@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	struct xchk_xattr {
+		struct xfs_attr_list_context context;
+		struct xfs_scrub *sc;
+	} cocci_id/* fs/xfs/scrub/attr.c 93 */;
+	struct xfs_inode *cocci_id/* fs/xfs/scrub/attr.c 73 */;
+	struct xfs_scrub *cocci_id/* fs/xfs/scrub/attr.c 72 */;
+	int cocci_id/* fs/xfs/scrub/attr.c 70 */;
+	xfs_dablk_t cocci_id/* fs/xfs/scrub/attr.c 478 */;
+	struct attrlist_cursor_kern cocci_id/* fs/xfs/scrub/attr.c 477 */;
+	struct xchk_xattr cocci_id/* fs/xfs/scrub/attr.c 476 */;
+	long cocci_id/* fs/xfs/scrub/attr.c 42 */;
+	xfs_dahash_t cocci_id/* fs/xfs/scrub/attr.c 409 */;
+	struct xchk_xattr_buf *cocci_id/* fs/xfs/scrub/attr.c 35 */;
+	struct xfs_attr3_leafblock *cocci_id/* fs/xfs/scrub/attr.c 339 */;
+	xfs_km_flags_t cocci_id/* fs/xfs/scrub/attr.c 32 */;
+	unsigned int cocci_id/* fs/xfs/scrub/attr.c 318 */;
+	__u32 cocci_id/* fs/xfs/scrub/attr.c 317 */;
+	char *cocci_id/* fs/xfs/scrub/attr.c 315 */;
+	unsigned long *cocci_id/* fs/xfs/scrub/attr.c 314 */;
+	struct xfs_attr_leaf_entry *cocci_id/* fs/xfs/scrub/attr.c 312 */;
+	struct xfs_attr_leafblock *cocci_id/* fs/xfs/scrub/attr.c 311 */;
+	xfs_dablk_t *cocci_id/* fs/xfs/scrub/attr.c 310 */;
+	size_t cocci_id/* fs/xfs/scrub/attr.c 31 */;
+	struct xfs_buf *cocci_id/* fs/xfs/scrub/attr.c 309 */;
+	struct xfs_da_state_blk *cocci_id/* fs/xfs/scrub/attr.c 308 */;
+	struct xfs_mount *cocci_id/* fs/xfs/scrub/attr.c 307 */;
+	struct xfs_attr3_icleaf_hdr cocci_id/* fs/xfs/scrub/attr.c 306 */;
+	struct xchk_da_btree *cocci_id/* fs/xfs/scrub/attr.c 303 */;
+	struct xfs_attr_leaf_name_remote *cocci_id/* fs/xfs/scrub/attr.c 257 */;
+	struct xfs_attr_leaf_name_local *cocci_id/* fs/xfs/scrub/attr.c 256 */;
+	__u32 *cocci_id/* fs/xfs/scrub/attr.c 251 */;
+	unsigned int *cocci_id/* fs/xfs/scrub/attr.c 250 */;
+	void cocci_id/* fs/xfs/scrub/attr.c 241 */;
+	struct xfs_attr3_icleaf_hdr *cocci_id/* fs/xfs/scrub/attr.c 217 */;
+	bool cocci_id/* fs/xfs/scrub/attr.c 213 */;
+	struct xfs_da_args cocci_id/* fs/xfs/scrub/attr.c 115 */;
+	struct xchk_xattr *cocci_id/* fs/xfs/scrub/attr.c 114 */;
+	unsigned char *cocci_id/* fs/xfs/scrub/attr.c 110 */;
+	struct xfs_attr_list_context *cocci_id/* fs/xfs/scrub/attr.c 108 */;
+}

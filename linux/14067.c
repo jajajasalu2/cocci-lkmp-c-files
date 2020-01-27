@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	struct video_device *cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 925 */;
+	const struct rvin_video_format *cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 92 */;
+	struct rvin_dev cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 912 */;
+	const struct v4l2_file_operations cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 886 */;
+	bool cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 796 */;
+	const struct v4l2_ioctl_ops cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 657 */;
+	struct v4l2_edid *cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 621 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 606 */;
+	struct rvin_dev *cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 605 */;
+	struct v4l2_dv_timings_cap *cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 603 */;
+	struct file *cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 602 */;
+	void *cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 602 */;
+	int cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 602 */;
+	struct v4l2_dv_timings *cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 585 */;
+	struct v4l2_enum_dv_timings *cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 551 */;
+	const struct v4l2_event_subscription *cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 541 */;
+	struct v4l2_fh *cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 540 */;
+	v4l2_std_id *cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 528 */;
+	v4l2_std_id cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 513 */;
+	unsigned int *cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 492 */;
+	struct v4l2_input *cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 464 */;
+	struct v4l2_fract *cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 452 */;
+	struct v4l2_selection *cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 345 */;
+	unsigned int cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 327 */;
+	struct v4l2_fmtdesc *cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 324 */;
+	const struct rvin_video_format cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 32 */[];
+	struct v4l2_format *cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 314 */;
+	struct v4l2_rect cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 288 */;
+	struct v4l2_capability *cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 265 */;
+	enum v4l2_field cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 219 */;
+	struct v4l2_subdev_pad_config *cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 214 */;
+	struct v4l2_rect *cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 211 */;
+	struct v4l2_subdev_format cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 174 */;
+	u32 cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 127 */;
+	struct v4l2_pix_format *cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 125 */;
+	void cocci_id/* drivers/media/platform/rcar-vin/rcar-v4l2.c 125 */;
+}

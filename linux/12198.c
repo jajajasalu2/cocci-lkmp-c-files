@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	const struct drm_framebuffer_funcs cocci_id/* drivers/gpu/drm/tegra/fb.c 95 */;
+	uint64_t cocci_id/* drivers/gpu/drm/tegra/fb.c 45 */;
+	struct tegra_bo_tiling *cocci_id/* drivers/gpu/drm/tegra/fb.c 43 */;
+	struct tegra_drm *cocci_id/* drivers/gpu/drm/tegra/fb.c 405 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/tegra/fb.c 402 */;
+	void cocci_id/* drivers/gpu/drm/tegra/fb.c 402 */;
+	int cocci_id/* drivers/gpu/drm/tegra/fb.c 387 */;
+	bool cocci_id/* drivers/gpu/drm/tegra/fb.c 32 */;
+	struct tegra_fbdev *cocci_id/* drivers/gpu/drm/tegra/fb.c 289 */;
+	const struct drm_fb_helper_funcs cocci_id/* drivers/gpu/drm/tegra/fb.c 285 */;
+	void __iomem *cocci_id/* drivers/gpu/drm/tegra/fb.c 273 */;
+	resource_size_t cocci_id/* drivers/gpu/drm/tegra/fb.c 272 */;
+	struct tegra_bo *cocci_id/* drivers/gpu/drm/tegra/fb.c 26 */;
+	struct tegra_fbdev cocci_id/* drivers/gpu/drm/tegra/fb.c 22 */;
+	size_t cocci_id/* drivers/gpu/drm/tegra/fb.c 216 */;
+	unsigned long cocci_id/* drivers/gpu/drm/tegra/fb.c 213 */;
+	struct drm_mode_fb_cmd2 cocci_id/* drivers/gpu/drm/tegra/fb.c 210 */;
+	struct drm_fb_helper_surface_size *cocci_id/* drivers/gpu/drm/tegra/fb.c 205 */;
+	struct fb_ops cocci_id/* drivers/gpu/drm/tegra/fb.c 195 */;
+	struct drm_fb_helper *cocci_id/* drivers/gpu/drm/tegra/fb.c 182 */;
+	struct vm_area_struct *cocci_id/* drivers/gpu/drm/tegra/fb.c 180 */;
+	struct fb_info *cocci_id/* drivers/gpu/drm/tegra/fb.c 180 */;
+	struct drm_gem_object *cocci_id/* drivers/gpu/drm/tegra/fb.c 135 */;
+	struct tegra_bo *cocci_id/* drivers/gpu/drm/tegra/fb.c 134 */[4];
+	const struct drm_format_info *cocci_id/* drivers/gpu/drm/tegra/fb.c 133 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/tegra/fb.c 130 */;
+	unsigned int cocci_id/* drivers/gpu/drm/tegra/fb.c 103 */;
+	struct tegra_bo **cocci_id/* drivers/gpu/drm/tegra/fb.c 102 */;
+	const struct drm_mode_fb_cmd2 *cocci_id/* drivers/gpu/drm/tegra/fb.c 101 */;
+	struct drm_framebuffer *cocci_id/* drivers/gpu/drm/tegra/fb.c 100 */;
+}

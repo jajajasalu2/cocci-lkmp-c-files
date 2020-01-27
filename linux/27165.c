@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	const struct inode *cocci_id/* fs/crypto/policy.c 77 */;
+	struct fscrypt_info *cocci_id/* fs/crypto/policy.c 513 */;
+	bool cocci_id/* fs/crypto/policy.c 509 */;
+	void *cocci_id/* fs/crypto/policy.c 509 */;
+	union fscrypt_policy cocci_id/* fs/crypto/policy.c 449 */;
+	typeof(arg) cocci_id/* fs/crypto/policy.c 405 */;
+	size_t cocci_id/* fs/crypto/policy.c 401 */;
+	struct fscrypt_get_policy_ex_arg cocci_id/* fs/crypto/policy.c 399 */;
+	struct file *cocci_id/* fs/crypto/policy.c 378 */;
+	void __user *cocci_id/* fs/crypto/policy.c 378 */;
+	struct super_block *cocci_id/* fs/crypto/policy.c 36 */;
+	const u8 __user *cocci_id/* fs/crypto/policy.c 321 */;
+	u8 cocci_id/* fs/crypto/policy.c 317 */;
+	const void __user *cocci_id/* fs/crypto/policy.c 312 */;
+	union fscrypt_context cocci_id/* fs/crypto/policy.c 250 */;
+	const struct fscrypt_info *cocci_id/* fs/crypto/policy.c 249 */;
+	union fscrypt_policy *cocci_id/* fs/crypto/policy.c 247 */;
+	struct inode *cocci_id/* fs/crypto/policy.c 247 */;
+	int cocci_id/* fs/crypto/policy.c 247 */;
+	struct fscrypt_policy_v2 *cocci_id/* fs/crypto/policy.c 226 */;
+	const struct fscrypt_context_v2 *cocci_id/* fs/crypto/policy.c 225 */;
+	struct fscrypt_policy_v1 *cocci_id/* fs/crypto/policy.c 211 */;
+	const struct fscrypt_context_v1 *cocci_id/* fs/crypto/policy.c 210 */;
+	const union fscrypt_context *cocci_id/* fs/crypto/policy.c 200 */;
+	struct fscrypt_context_v2 *cocci_id/* fs/crypto/policy.c 170 */;
+	const struct fscrypt_policy_v2 *cocci_id/* fs/crypto/policy.c 169 */;
+	struct fscrypt_context_v1 *cocci_id/* fs/crypto/policy.c 154 */;
+	const struct fscrypt_policy_v1 *cocci_id/* fs/crypto/policy.c 153 */;
+	const union fscrypt_policy *cocci_id/* fs/crypto/policy.c 147 */;
+	union fscrypt_context *cocci_id/* fs/crypto/policy.c 146 */;
+}

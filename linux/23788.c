@@ -1,0 +1,83 @@
+cocci_test_suite() {
+	struct netlbl_unlhsh_walk_arg {
+		struct netlink_callback *nl_cb;
+		struct sk_buff *skb;
+		u32 seq;
+	} cocci_id/* net/netlabel/netlabel_unlabeled.c 93 */;
+	char *cocci_id/* net/netlabel/netlabel_unlabeled.c 880 */;
+	void *cocci_id/* net/netlabel/netlabel_unlabeled.c 839 */;
+	struct netlbl_unlhsh_iface {
+		int ifindex;
+		struct list_head addr4_list;
+		struct list_head addr6_list;
+		u32 valid;
+		struct list_head list;
+		struct rcu_head rcu;
+	} cocci_id/* net/netlabel/netlabel_unlabeled.c 82 */;
+	struct netlbl_audit cocci_id/* net/netlabel/netlabel_unlabeled.c 811 */;
+	struct sk_buff *cocci_id/* net/netlabel/netlabel_unlabeled.c 808 */;
+	struct genl_info *cocci_id/* net/netlabel/netlabel_unlabeled.c 808 */;
+	int cocci_id/* net/netlabel/netlabel_unlabeled.c 808 */;
+	struct in6_addr cocci_id/* net/netlabel/netlabel_unlabeled.c 782 */;
+	struct in_addr cocci_id/* net/netlabel/netlabel_unlabeled.c 773 */;
+	u32 cocci_id/* net/netlabel/netlabel_unlabeled.c 768 */;
+	u32 *cocci_id/* net/netlabel/netlabel_unlabeled.c 766 */;
+	void **cocci_id/* net/netlabel/netlabel_unlabeled.c 764 */;
+	struct netlbl_unlhsh_addr6 {
+		u32 secid;
+		struct netlbl_af6list list;
+		struct rcu_head rcu;
+	} cocci_id/* net/netlabel/netlabel_unlabeled.c 76 */;
+	struct netlbl_unlhsh_addr6 cocci_id/* net/netlabel/netlabel_unlabeled.c 75 */;
+	struct audit_buffer *cocci_id/* net/netlabel/netlabel_unlabeled.c 737 */;
+	struct netlbl_audit *cocci_id/* net/netlabel/netlabel_unlabeled.c 735 */;
+	void cocci_id/* net/netlabel/netlabel_unlabeled.c 734 */;
+	unsigned long cocci_id/* net/netlabel/netlabel_unlabeled.c 699 */;
+	struct notifier_block *cocci_id/* net/netlabel/netlabel_unlabeled.c 698 */;
+	struct netlbl_unlhsh_addr4 {
+		u32 secid;
+		struct netlbl_af4list list;
+		struct rcu_head rcu;
+	} cocci_id/* net/netlabel/netlabel_unlabeled.c 68 */;
+	struct netlbl_unlhsh_addr4 cocci_id/* net/netlabel/netlabel_unlabeled.c 67 */;
+	struct netlbl_unlhsh_tbl {
+		struct list_head *tbl;
+		u32 size;
+	} cocci_id/* net/netlabel/netlabel_unlabeled.c 62 */;
+	const struct in6_addr *cocci_id/* net/netlabel/netlabel_unlabeled.c 420 */;
+	const struct in_addr *cocci_id/* net/netlabel/netlabel_unlabeled.c 407 */;
+	const void *cocci_id/* net/netlabel/netlabel_unlabeled.c 365 */;
+	const char *cocci_id/* net/netlabel/netlabel_unlabeled.c 364 */;
+	struct net *cocci_id/* net/netlabel/netlabel_unlabeled.c 363 */;
+	struct netlbl_unlhsh_addr6 *cocci_id/* net/netlabel/netlabel_unlabeled.c 276 */;
+	struct netlbl_unlhsh_addr4 *cocci_id/* net/netlabel/netlabel_unlabeled.c 236 */;
+	struct netlbl_unlhsh_iface cocci_id/* net/netlabel/netlabel_unlabeled.c 157 */;
+	struct netlbl_dom_map *cocci_id/* net/netlabel/netlabel_unlabeled.c 1528 */;
+	int __init cocci_id/* net/netlabel/netlabel_unlabeled.c 1525 */;
+	struct netlbl_af6list *cocci_id/* net/netlabel/netlabel_unlabeled.c 1489 */;
+	struct ipv6hdr *cocci_id/* net/netlabel/netlabel_unlabeled.c 1488 */;
+	struct netlbl_af4list *cocci_id/* net/netlabel/netlabel_unlabeled.c 1476 */;
+	struct iphdr *cocci_id/* net/netlabel/netlabel_unlabeled.c 1475 */;
+	struct rcu_head *cocci_id/* net/netlabel/netlabel_unlabeled.c 147 */;
+	struct netlbl_unlhsh_iface *cocci_id/* net/netlabel/netlabel_unlabeled.c 1455 */;
+	struct netlbl_lsm_secattr *cocci_id/* net/netlabel/netlabel_unlabeled.c 1453 */;
+	u16 cocci_id/* net/netlabel/netlabel_unlabeled.c 1452 */;
+	const struct sk_buff *cocci_id/* net/netlabel/netlabel_unlabeled.c 1451 */;
+	struct list_head cocci_id/* net/netlabel/netlabel_unlabeled.c 1422 */;
+	struct netlbl_unlhsh_tbl *cocci_id/* net/netlabel/netlabel_unlabeled.c 1412 */;
+	struct notifier_block cocci_id/* net/netlabel/netlabel_unlabeled.c 1394 */;
+	const struct genl_ops cocci_id/* net/netlabel/netlabel_unlabeled.c 1303 */[];
+	struct list_head *cocci_id/* net/netlabel/netlabel_unlabeled.c 1171 */;
+	struct netlbl_unlhsh_walk_arg cocci_id/* net/netlabel/netlabel_unlabeled.c 1165 */;
+	struct netlink_callback *cocci_id/* net/netlabel/netlabel_unlabeled.c 1163 */;
+	const struct nla_policy cocci_id/* net/netlabel/netlabel_unlabeled.c 115 */[NLBL_UNLABEL_A_MAX + 1];
+	struct genl_family cocci_id/* net/netlabel/netlabel_unlabeled.c 112 */;
+	u8 cocci_id/* net/netlabel/netlabel_unlabeled.c 109 */;
+	struct net_device *cocci_id/* net/netlabel/netlabel_unlabeled.c 1072 */;
+	struct netlbl_unlhsh_walk_arg *cocci_id/* net/netlabel/netlabel_unlabeled.c 1071 */;
+	const struct netlbl_unlhsh_addr6 *cocci_id/* net/netlabel/netlabel_unlabeled.c 1067 */;
+	const struct netlbl_unlhsh_addr4 *cocci_id/* net/netlabel/netlabel_unlabeled.c 1066 */;
+	const struct netlbl_unlhsh_iface *cocci_id/* net/netlabel/netlabel_unlabeled.c 1065 */;
+	struct netlbl_unlhsh_iface __rcu *cocci_id/* net/netlabel/netlabel_unlabeled.c 106 */;
+	struct netlbl_unlhsh_tbl __rcu *cocci_id/* net/netlabel/netlabel_unlabeled.c 105 */;
+}

@@ -1,0 +1,58 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* sound/soc/fsl/fsl_dma.c 958 */;
+	const struct of_device_id cocci_id/* sound/soc/fsl/fsl_dma.c 952 */[];
+	struct fsl_dma_private {
+		struct fsl_dma_link_descriptor link[NUM_DMA_LINKS];
+		struct ccsr_dma_channel __iomem *dma_channel;
+		unsigned int irq;
+		struct snd_pcm_substream *substream;
+		dma_addr_t ssi_sxx_phys;
+		unsigned int ssi_fifo_depth;
+		dma_addr_t ld_buf_phys;
+		unsigned int current_link;
+		dma_addr_t dma_buf_phys;
+		dma_addr_t dma_buf_next;
+		dma_addr_t dma_buf_end;
+		size_t period_size;
+		unsigned int num_periods;
+	} cocci_id/* sound/soc/fsl/fsl_dma.c 93 */;
+	const uint32_t *cocci_id/* sound/soc/fsl/fsl_dma.c 879 */;
+	struct resource cocci_id/* sound/soc/fsl/fsl_dma.c 878 */;
+	struct platform_device *cocci_id/* sound/soc/fsl/fsl_dma.c 873 */;
+	struct device_node *cocci_id/* sound/soc/fsl/fsl_dma.c 851 */;
+	unsigned int cocci_id/* sound/soc/fsl/fsl_dma.c 828 */;
+	struct snd_pcm *cocci_id/* sound/soc/fsl/fsl_dma.c 825 */;
+	struct fsl_dma_private cocci_id/* sound/soc/fsl/fsl_dma.c 811 */;
+	struct dma_object cocci_id/* sound/soc/fsl/fsl_dma.c 804 */;
+	struct dma_object *cocci_id/* sound/soc/fsl/fsl_dma.c 803 */;
+	struct device *cocci_id/* sound/soc/fsl/fsl_dma.c 802 */;
+	struct fsl_dma_private *cocci_id/* sound/soc/fsl/fsl_dma.c 801 */;
+	struct snd_pcm_runtime *cocci_id/* sound/soc/fsl/fsl_dma.c 800 */;
+	struct snd_soc_component *cocci_id/* sound/soc/fsl/fsl_dma.c 797 */;
+	int cocci_id/* sound/soc/fsl/fsl_dma.c 797 */;
+	struct ccsr_dma_channel __iomem *cocci_id/* sound/soc/fsl/fsl_dma.c 770 */;
+	snd_pcm_uframes_t cocci_id/* sound/soc/fsl/fsl_dma.c 699 */;
+	struct fsl_dma_link_descriptor *cocci_id/* sound/soc/fsl/fsl_dma.c 642 */;
+	u32 cocci_id/* sound/soc/fsl/fsl_dma.c 565 */;
+	struct dma_object {
+		struct snd_soc_component_driver dai;
+		dma_addr_t ssi_stx_phys;
+		dma_addr_t ssi_srx_phys;
+		unsigned int ssi_fifo_depth;
+		struct ccsr_dma_channel __iomem *channel;
+		unsigned int irq;
+		bool assigned;
+	} cocci_id/* sound/soc/fsl/fsl_dma.c 56 */;
+	size_t cocci_id/* sound/soc/fsl/fsl_dma.c 554 */;
+	dma_addr_t cocci_id/* sound/soc/fsl/fsl_dma.c 551 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/fsl/fsl_dma.c 537 */;
+	struct fsl_dma_link_descriptor cocci_id/* sound/soc/fsl/fsl_dma.c 457 */;
+	u64 cocci_id/* sound/soc/fsl/fsl_dma.c 393 */;
+	struct snd_card *cocci_id/* sound/soc/fsl/fsl_dma.c 285 */;
+	struct snd_soc_pcm_runtime *cocci_id/* sound/soc/fsl/fsl_dma.c 203 */;
+	irqreturn_t cocci_id/* sound/soc/fsl/fsl_dma.c 199 */;
+	void *cocci_id/* sound/soc/fsl/fsl_dma.c 199 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/fsl/fsl_dma.c 149 */;
+	void cocci_id/* sound/soc/fsl/fsl_dma.c 149 */;
+	const struct snd_pcm_hardware cocci_id/* sound/soc/fsl/fsl_dma.c 128 */;
+}

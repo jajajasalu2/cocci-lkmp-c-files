@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	struct xen_platform_op cocci_id/* arch/arm/xen/enlighten.c 99 */;
+	struct notifier_block *cocci_id/* arch/arm/xen/enlighten.c 93 */;
+	uint64_t cocci_id/* arch/arm/xen/enlighten.c 83 */;
+	struct pvclock_wall_clock *cocci_id/* arch/arm/xen/enlighten.c 77 */;
+	u32 cocci_id/* arch/arm/xen/enlighten.c 74 */;
+	struct timespec64 *cocci_id/* arch/arm/xen/enlighten.c 72 */;
+	struct page **cocci_id/* arch/arm/xen/enlighten.c 66 */;
+	struct vm_area_struct *cocci_id/* arch/arm/xen/enlighten.c 65 */;
+	uint32_t cocci_id/* arch/arm/xen/enlighten.c 62 */;
+	struct xen_memory_region cocci_id/* arch/arm/xen/enlighten.c 58 */[XEN_EXTRA_MEM_MAX_REGIONS]__initdata;
+	struct vcpu_info __percpu *cocci_id/* arch/arm/xen/enlighten.c 50 */;
+	struct shared_info *cocci_id/* arch/arm/xen/enlighten.c 47 */;
+	void *cocci_id/* arch/arm/xen/enlighten.c 47 */;
+	struct shared_info cocci_id/* arch/arm/xen/enlighten.c 46 */;
+	enum xen_domain_type cocci_id/* arch/arm/xen/enlighten.c 43 */;
+	struct timespec64 cocci_id/* arch/arm/xen/enlighten.c 410 */;
+	struct start_info *cocci_id/* arch/arm/xen/enlighten.c 40 */;
+	struct start_info cocci_id/* arch/arm/xen/enlighten.c 39 */;
+	struct vcpu_info cocci_id/* arch/arm/xen/enlighten.c 357 */;
+	struct xen_add_to_physmap cocci_id/* arch/arm/xen/enlighten.c 310 */;
+	struct device_node *cocci_id/* arch/arm/xen/enlighten.c 297 */;
+	struct xen_hvm_param cocci_id/* arch/arm/xen/enlighten.c 274 */;
+	void __init cocci_id/* arch/arm/xen/enlighten.c 271 */;
+	void cocci_id/* arch/arm/xen/enlighten.c 271 */;
+	const void *cocci_id/* arch/arm/xen/enlighten.c 210 */;
+	int cocci_id/* arch/arm/xen/enlighten.c 208 */;
+	const char *cocci_id/* arch/arm/xen/enlighten.c 207 */;
+	unsigned long cocci_id/* arch/arm/xen/enlighten.c 207 */;
+	int __init cocci_id/* arch/arm/xen/enlighten.c 207 */;
+	struct {
+		const char *compat;
+		const char *prefix;
+		const char *version;
+		bool found;
+	} cocci_id/* arch/arm/xen/enlighten.c 200 */;
+	irqreturn_t cocci_id/* arch/arm/xen/enlighten.c 194 */;
+	enum reboot_mode cocci_id/* arch/arm/xen/enlighten.c 183 */;
+	struct sched_shutdown cocci_id/* arch/arm/xen/enlighten.c 176 */;
+	unsigned int cocci_id/* arch/arm/xen/enlighten.c 168 */;
+	struct vcpu_info *cocci_id/* arch/arm/xen/enlighten.c 139 */;
+	struct vcpu_register_vcpu_info cocci_id/* arch/arm/xen/enlighten.c 138 */;
+	struct notifier_block cocci_id/* arch/arm/xen/enlighten.c 132 */;
+	long cocci_id/* arch/arm/xen/enlighten.c 104 */;
+	struct timekeeper *cocci_id/* arch/arm/xen/enlighten.c 101 */;
+	__typeof__(struct vcpu_info *) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+	__typeof__(uint32_t) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

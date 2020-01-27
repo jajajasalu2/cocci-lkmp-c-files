@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* arch/arm/mach-pxa/poodle.c 56 */[]__initdata;
+	struct tag *cocci_id/* arch/arm/mach-pxa/poodle.c 456 */;
+	char **cocci_id/* arch/arm/mach-pxa/poodle.c 456 */;
+	void __init cocci_id/* arch/arm/mach-pxa/poodle.c 456 */;
+	int cocci_id/* arch/arm/mach-pxa/poodle.c 427 */;
+	void cocci_id/* arch/arm/mach-pxa/poodle.c 425 */;
+	struct i2c_board_info __initdata cocci_id/* arch/arm/mach-pxa/poodle.c 416 */[];
+	struct platform_device *cocci_id/* arch/arm/mach-pxa/poodle.c 408 */[]__initdata;
+	struct physmap_flash_data cocci_id/* arch/arm/mach-pxa/poodle.c 386 */;
+	struct mtd_partition cocci_id/* arch/arm/mach-pxa/poodle.c 378 */[];
+	struct sharpsl_nand_platform_data cocci_id/* arch/arm/mach-pxa/poodle.c 357 */;
+	const char *const cocci_id/* arch/arm/mach-pxa/poodle.c 350 */[];
+	struct nand_bbt_descr cocci_id/* arch/arm/mach-pxa/poodle.c 343 */;
+	uint8_t cocci_id/* arch/arm/mach-pxa/poodle.c 341 */[];
+	struct pxafb_mach_info cocci_id/* arch/arm/mach-pxa/poodle.c 335 */;
+	struct pxafb_mode_info cocci_id/* arch/arm/mach-pxa/poodle.c 321 */;
+	struct pxa2xx_udc_mach_info cocci_id/* arch/arm/mach-pxa/poodle.c 314 */;
+	struct pxaficp_platform_data cocci_id/* arch/arm/mach-pxa/poodle.c 305 */;
+	struct gpiod_lookup_table cocci_id/* arch/arm/mach-pxa/poodle.c 291 */;
+	struct pxamci_platform_data cocci_id/* arch/arm/mach-pxa/poodle.c 283 */;
+	struct device *cocci_id/* arch/arm/mach-pxa/poodle.c 277 */;
+	void *cocci_id/* arch/arm/mach-pxa/poodle.c 277 */;
+	struct pxamci_platform_data *cocci_id/* arch/arm/mach-pxa/poodle.c 263 */;
+	unsigned int cocci_id/* arch/arm/mach-pxa/poodle.c 261 */;
+	irq_handler_t cocci_id/* arch/arm/mach-pxa/poodle.c 238 */;
+	struct spi_board_info cocci_id/* arch/arm/mach-pxa/poodle.c 212 */[];
+	struct pxa2xx_spi_chip cocci_id/* arch/arm/mach-pxa/poodle.c 208 */;
+	struct ads7846_platform_data cocci_id/* arch/arm/mach-pxa/poodle.c 200 */;
+	struct pxa2xx_spi_controller cocci_id/* arch/arm/mach-pxa/poodle.c 196 */;
+	struct locomo_platform_data cocci_id/* arch/arm/mach-pxa/poodle.c 179 */;
+	struct resource cocci_id/* arch/arm/mach-pxa/poodle.c 166 */[];
+	struct platform_device cocci_id/* arch/arm/mach-pxa/poodle.c 160 */;
+	struct scoop_pcmcia_config cocci_id/* arch/arm/mach-pxa/poodle.c 152 */;
+	struct scoop_pcmcia_dev cocci_id/* arch/arm/mach-pxa/poodle.c 143 */[];
+	struct scoop_config cocci_id/* arch/arm/mach-pxa/poodle.c 127 */;
+	const struct machine_desc cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 397 */;
+}

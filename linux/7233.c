@@ -1,0 +1,61 @@
+cocci_test_suite() {
+	void *cocci_id/* drivers/bluetooth/btrtl.c 756 */;
+	bool cocci_id/* drivers/bluetooth/btrtl.c 736 */;
+	struct rtl_vendor_config_entry *cocci_id/* drivers/bluetooth/btrtl.c 734 */;
+	struct rtl_vendor_config *cocci_id/* drivers/bluetooth/btrtl.c 733 */;
+	u32 *cocci_id/* drivers/bluetooth/btrtl.c 731 */;
+	bool *cocci_id/* drivers/bluetooth/btrtl.c 731 */;
+	unsigned int *cocci_id/* drivers/bluetooth/btrtl.c 730 */;
+	u32 cocci_id/* drivers/bluetooth/btrtl.c 691 */;
+	unsigned int cocci_id/* drivers/bluetooth/btrtl.c 691 */;
+	struct btrtl_device_info *cocci_id/* drivers/bluetooth/btrtl.c 620 */;
+	struct hci_dev *cocci_id/* drivers/bluetooth/btrtl.c 619 */;
+	int cocci_id/* drivers/bluetooth/btrtl.c 619 */;
+	const struct id_table cocci_id/* drivers/bluetooth/btrtl.c 60 */[];
+	u8 cocci_id/* drivers/bluetooth/btrtl.c 542 */;
+	u16 cocci_id/* drivers/bluetooth/btrtl.c 541 */;
+	char cocci_id/* drivers/bluetooth/btrtl.c 540 */[40];
+	struct hci_rp_read_local_version *cocci_id/* drivers/bluetooth/btrtl.c 539 */;
+	struct sk_buff *cocci_id/* drivers/bluetooth/btrtl.c 538 */;
+	const char *cocci_id/* drivers/bluetooth/btrtl.c 535 */;
+	void cocci_id/* drivers/bluetooth/btrtl.c 526 */;
+	struct btrtl_device_info {
+		const struct id_table *ic_info;
+		u8 rom_version;
+		u8 *fw_data;
+		int fw_len;
+		u8 *cfg_data;
+		int cfg_len;
+	} cocci_id/* drivers/bluetooth/btrtl.c 51 */;
+	u8 *cocci_id/* drivers/bluetooth/btrtl.c 495 */;
+	unsigned char *cocci_id/* drivers/bluetooth/btrtl.c 493 */;
+	const struct firmware *cocci_id/* drivers/bluetooth/btrtl.c 455 */;
+	u8 **cocci_id/* drivers/bluetooth/btrtl.c 453 */;
+	struct rtl_download_response cocci_id/* drivers/bluetooth/btrtl.c 425 */;
+	struct rtl_download_cmd cocci_id/* drivers/bluetooth/btrtl.c 395 */;
+	struct id_table {
+		__u16 match_flags;
+		__u16 lmp_subver;
+		__u16 hci_rev;
+		__u8 hci_ver;
+		__u8 hci_bus;
+		bool config_needed;
+		bool has_rom_version;
+		char *fw_name;
+		char *cfg_name;
+	} cocci_id/* drivers/bluetooth/btrtl.c 39 */;
+	struct rtl_download_cmd *cocci_id/* drivers/bluetooth/btrtl.c 387 */;
+	const unsigned char *cocci_id/* drivers/bluetooth/btrtl.c 385 */;
+	struct rtl_epatch_header cocci_id/* drivers/bluetooth/btrtl.c 260 */;
+	const struct {
+		__u16 lmp_subver;
+		__u8 id;
+	} cocci_id/* drivers/bluetooth/btrtl.c 246 */[];
+	size_t cocci_id/* drivers/bluetooth/btrtl.c 239 */;
+	struct rtl_epatch_header *cocci_id/* drivers/bluetooth/btrtl.c 236 */;
+	const u8 cocci_id/* drivers/bluetooth/btrtl.c 235 */[];
+	unsigned char **cocci_id/* drivers/bluetooth/btrtl.c 233 */;
+	struct rtl_rom_version_evt *cocci_id/* drivers/bluetooth/btrtl.c 204 */;
+	struct hci_rp_read_local_version cocci_id/* drivers/bluetooth/btrtl.c 193 */;
+	const struct id_table *cocci_id/* drivers/bluetooth/btrtl.c 154 */;
+}

@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	char *cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 88 */;
+	unsigned long cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 673 */;
+	struct pwrctrl_priv *cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 547 */;
+	struct adapter *cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 546 */;
+	uint cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 544 */;
+	struct net_device *cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 542 */;
+	int cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 542 */;
+	struct security_priv *cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 366 */;
+	struct mlme_priv *cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 365 */;
+	struct xmit_priv *cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 364 */;
+	struct iw_handler_def *cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 327 */;
+	void *cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 316 */;
+	const struct device_type cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 304 */;
+	const char *cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 295 */;
+	const struct net_device_ops cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 285 */;
+	u8 *cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 268 */;
+	u32 cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 267 */;
+	__be16 cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 266 */;
+	struct iphdr *cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 264 */;
+	struct sk_buff *cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 225 */;
+	unsigned int cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 225 */;
+	const u16 cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 222 */[8];
+	struct recv_priv *cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 203 */;
+	struct net_device_stats *cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 199 */;
+	struct sockaddr *cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 191 */;
+	u16 cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 152 */;
+	u8 cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 148 */;
+	struct registry_priv *cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 141 */;
+	void cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 139 */;
+	int cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 137 */(struct net_device *pnetdev);
+	bool cocci_id/* drivers/staging/rtl8188eu/os_dep/os_intfs.c 133 */;
+}

@@ -1,0 +1,65 @@
+cocci_test_suite() {
+	int __init cocci_id/* net/batman-adv/main.c 94 */;
+	char *cocci_id/* net/batman-adv/main.c 82 */[];
+	void cocci_id/* net/batman-adv/main.c 76 */(void);
+	struct workqueue_struct *cocci_id/* net/batman-adv/main.c 74 */;
+	unsigned char cocci_id/* net/batman-adv/main.c 72 */[];
+	char *cocci_id/* net/batman-adv/main.c 704 */[4];
+	struct kobject *cocci_id/* net/batman-adv/main.c 703 */;
+	enum batadv_uev_action cocci_id/* net/batman-adv/main.c 700 */;
+	const char *cocci_id/* net/batman-adv/main.c 700 */;
+	enum batadv_uev_type cocci_id/* net/batman-adv/main.c 699 */;
+	int (*cocci_id/* net/batman-adv/main.c 69 */[256])(struct sk_buff *skb,
+							   struct batadv_hard_iface *recv_if);
+	unsigned int cocci_id/* net/batman-adv/main.c 68 */;
+	struct batadv_softif_vlan *cocci_id/* net/batman-adv/main.c 675 */;
+	struct list_head cocci_id/* net/batman-adv/main.c 67 */;
+	struct vlan_ethhdr *cocci_id/* net/batman-adv/main.c 647 */;
+	struct ethhdr *cocci_id/* net/batman-adv/main.c 646 */;
+	unsigned short cocci_id/* net/batman-adv/main.c 644 */;
+	size_t cocci_id/* net/batman-adv/main.c 644 */;
+	struct skb_seq_state cocci_id/* net/batman-adv/main.c 620 */;
+	u32 cocci_id/* net/batman-adv/main.c 617 */;
+	__be32 cocci_id/* net/batman-adv/main.c 615 */;
+	u8 *cocci_id/* net/batman-adv/main.c 615 */;
+	int (*cocci_id/* net/batman-adv/main.c 582 */)(struct sk_buff *skb,
+						       struct batadv_hard_iface *recv_if);
+	int (*cocci_id/* net/batman-adv/main.c 579 */)(struct sk_buff *,
+						       struct batadv_hard_iface *);
+	struct sk_buff cocci_id/* net/batman-adv/main.c 551 */;
+	struct batadv_tvlv_roam_adv cocci_id/* net/batman-adv/main.c 549 */;
+	struct batadv_tvlv_tt_change cocci_id/* net/batman-adv/main.c 548 */;
+	struct batadv_tvlv_tt_vlan_data cocci_id/* net/batman-adv/main.c 547 */;
+	struct batadv_tvlv_gateway_data cocci_id/* net/batman-adv/main.c 546 */;
+	struct batadv_tvlv_hdr cocci_id/* net/batman-adv/main.c 545 */;
+	struct batadv_unicast_tvlv_packet cocci_id/* net/batman-adv/main.c 544 */;
+	struct batadv_frag_packet cocci_id/* net/batman-adv/main.c 541 */;
+	struct batadv_icmp_packet_rr cocci_id/* net/batman-adv/main.c 538 */;
+	struct batadv_icmp_packet cocci_id/* net/batman-adv/main.c 537 */;
+	struct batadv_icmp_header cocci_id/* net/batman-adv/main.c 536 */;
+	struct batadv_ogm_packet cocci_id/* net/batman-adv/main.c 535 */;
+	struct batadv_bla_claim_dst cocci_id/* net/batman-adv/main.c 534 */;
+	struct batadv_skb_cb cocci_id/* net/batman-adv/main.c 502 */;
+	struct batadv_hard_iface cocci_id/* net/batman-adv/main.c 456 */;
+	u8 cocci_id/* net/batman-adv/main.c 454 */;
+	struct batadv_hard_iface *cocci_id/* net/batman-adv/main.c 453 */;
+	struct batadv_ogm_packet *cocci_id/* net/batman-adv/main.c 452 */;
+	struct batadv_priv *cocci_id/* net/batman-adv/main.c 451 */;
+	struct packet_type *cocci_id/* net/batman-adv/main.c 448 */;
+	struct sk_buff *cocci_id/* net/batman-adv/main.c 447 */;
+	struct net_device *cocci_id/* net/batman-adv/main.c 447 */;
+	int cocci_id/* net/batman-adv/main.c 447 */;
+	struct ethhdr cocci_id/* net/batman-adv/main.c 384 */;
+	struct ipv6hdr cocci_id/* net/batman-adv/main.c 383 */;
+	struct iphdr cocci_id/* net/batman-adv/main.c 382 */;
+	struct batadv_coded_packet cocci_id/* net/batman-adv/main.c 366 */;
+	struct batadv_bcast_packet cocci_id/* net/batman-adv/main.c 362 */;
+	struct batadv_unicast_4addr_packet cocci_id/* net/batman-adv/main.c 360 */;
+	struct batadv_unicast_packet cocci_id/* net/batman-adv/main.c 358 */;
+	struct seq_file *cocci_id/* net/batman-adv/main.c 318 */;
+	const struct batadv_hard_iface *cocci_id/* net/batman-adv/main.c 289 */;
+	bool cocci_id/* net/batman-adv/main.c 287 */;
+	const u8 *cocci_id/* net/batman-adv/main.c 287 */;
+	void __exit cocci_id/* net/batman-adv/main.c 134 */;
+	void cocci_id/* net/batman-adv/main.c 134 */;
+}

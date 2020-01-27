@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 540 */;
+	struct dma_fence **cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 539 */;
+	const struct dma_fence_ops *cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 527 */;
+	struct dma_resv *cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 526 */;
+	struct i915_sw_fence *cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 499 */;
+	int cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 499 */;
+	typeof(*cb) cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 493 */;
+	struct i915_sw_dma_fence_cb *cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 493 */;
+	struct dma_fence_cb *cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 491 */;
+	struct dma_fence *cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 490 */;
+	void cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 490 */;
+	typeof(*timer) cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 466 */;
+	struct i915_sw_dma_fence_cb cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 451 */;
+	struct i915_sw_dma_fence_cb_timer cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 450 */;
+	dma_fence_func_t cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 440 */;
+	struct irq_work *cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 423 */;
+	struct i915_sw_dma_fence_cb_timer *cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 412 */;
+	struct timer_list *cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 390 */;
+	struct i915_sw_dma_fence_cb_timer {
+		struct i915_sw_dma_fence_cb base;
+		struct dma_fence *dma;
+		struct timer_list timer;
+		struct irq_work work;
+		struct rcu_head rcu;
+	} cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 372 */;
+	struct debug_obj_descr cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 31 */;
+	unsigned long cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 306 */;
+	gfp_t cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 304 */;
+	wait_queue_entry_t *cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 304 */;
+	const struct i915_sw_fence *const cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 249 */;
+	bool cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 248 */;
+	void *cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 24 */;
+	unsigned cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 236 */;
+	struct lock_class_key *cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 217 */;
+	const char *cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 216 */;
+	i915_sw_fence_notify_t cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 215 */;
+	enum{DEBUG_FENCE_IDLE=0, DEBUG_FENCE_NOTIFY,} cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 19 */;
+	struct list_head *cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 178 */;
+	wait_queue_head_t *cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 134 */;
+	enum i915_sw_fence_notify cocci_id/* drivers/gpu/drm/i915/i915_sw_fence.c 116 */;
+}

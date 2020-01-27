@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	u64 cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 80 */;
+	unsigned long cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 69 */;
+	struct clk_rate_request *cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 67 */;
+	struct clk_hw *cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 66 */;
+	int cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 66 */;
+	struct cpg_z_clk *cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 56 */;
+	struct cpg_z_clk cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 51 */;
+	struct cpg_z_clk {
+		struct clk_hw hw;
+		void __iomem *reg;
+		void __iomem *kick_reg;
+	} cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 45 */;
+	uintptr_t cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 388 */;
+	const struct soc_device_attribute *cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 381 */;
+	int __init cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 378 */;
+	spinlock_t cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 33 */;
+	const struct clk *cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 282 */;
+	const struct clk_div_table *cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 281 */;
+	struct raw_notifier_head *cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 279 */;
+	struct clk **cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 278 */;
+	const struct cpg_mssr_info *cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 277 */;
+	const struct cpg_core_clk *cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 277 */;
+	struct device *cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 276 */;
+	void *cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 271 */;
+	const struct soc_device_attribute cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 268 */[]__initconst;
+	u32 cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 263 */;
+	unsigned int cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 262 */;
+	const struct rcar_gen2_cpg_pll_config *cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 261 */;
+	struct clk *cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 215 */;
+	struct clk_gate *cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 214 */;
+	struct clk_divider *cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 213 */;
+	void __iomem *cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 211 */;
+	const char *cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 209 */;
+	struct clk *__initcocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 209 */;
+	const struct clk_div_table cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 203 */[];
+	struct clk_fixed_factor *cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 169 */;
+	struct clk_init_data cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 140 */;
+	const struct clk_ops cocci_id/* drivers/clk/renesas/rcar-gen2-cpg.c 130 */;
+}

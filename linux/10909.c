@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct drm_connector_list_iter cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 90 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 89 */;
+	struct drm_mode_config *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 88 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 87 */;
+	struct amdgpu_device cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 85 */;
+	struct amdgpu_device *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 85 */;
+	struct work_struct *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 83 */;
+	void cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 83 */;
+	int cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 653 */;
+	const struct irq_domain_ops cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 638 */;
+	irq_hw_number_t cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 627 */;
+	struct irq_domain *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 626 */;
+	struct irq_chip cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 607 */;
+	struct irq_data *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 596 */;
+	enum amdgpu_interrupt_state cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 463 */;
+	const uint32_t *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 413 */;
+	bool cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 410 */;
+	struct amdgpu_iv_entry cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 407 */;
+	u32 cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 406 */;
+	struct amdgpu_ih_ring *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 404 */;
+	atomic_t cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 383 */;
+	atomic_t *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 381 */;
+	struct amdgpu_irq_src *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 357 */;
+	unsigned cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 356 */;
+	unsigned int cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 249 */;
+	irqreturn_t cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 150 */;
+	void *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 150 */;
+	unsigned long cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_irq.c 111 */;
+}

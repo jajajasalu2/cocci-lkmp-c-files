@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/dma/mic_x100_dma.c 758 */;
+	int __init cocci_id/* drivers/dma/mic_x100_dma.c 749 */;
+	struct mbus_driver cocci_id/* drivers/dma/mic_x100_dma.c 741 */;
+	struct mbus_device_id cocci_id/* drivers/dma/mic_x100_dma.c 735 */[];
+	struct dentry *cocci_id/* drivers/dma/mic_x100_dma.c 702 */;
+	struct seq_file *cocci_id/* drivers/dma/mic_x100_dma.c 668 */;
+	bool cocci_id/* drivers/dma/mic_x100_dma.c 66 */;
+	enum mic_dma_chan_owner cocci_id/* drivers/dma/mic_x100_dma.c 625 */;
+	struct mic_dma_device *cocci_id/* drivers/dma/mic_x100_dma.c 624 */;
+	struct mbus_device *cocci_id/* drivers/dma/mic_x100_dma.c 624 */;
+	struct dma_chan *cocci_id/* drivers/dma/mic_x100_dma.c 568 */;
+	int cocci_id/* drivers/dma/mic_x100_dma.c 568 */;
+	dma_cookie_t cocci_id/* drivers/dma/mic_x100_dma.c 501 */;
+	struct mic_dma_desc *cocci_id/* drivers/dma/mic_x100_dma.c 50 */;
+	void cocci_id/* drivers/dma/mic_x100_dma.c 456 */;
+	struct device *cocci_id/* drivers/dma/mic_x100_dma.c 364 */;
+	u64 cocci_id/* drivers/dma/mic_x100_dma.c 363 */;
+	irqreturn_t cocci_id/* drivers/dma/mic_x100_dma.c 353 */;
+	void *cocci_id/* drivers/dma/mic_x100_dma.c 353 */;
+	struct dma_tx_state *cocci_id/* drivers/dma/mic_x100_dma.c 337 */;
+	enum dma_status cocci_id/* drivers/dma/mic_x100_dma.c 335 */;
+	unsigned long cocci_id/* drivers/dma/mic_x100_dma.c 321 */;
+	enum mic_dma_desc_format_type{MIC_DMA_MEMCPY=1, MIC_DMA_STATUS,} cocci_id/* drivers/dma/mic_x100_dma.c 29 */;
+	u32 cocci_id/* drivers/dma/mic_x100_dma.c 260 */;
+	struct mic_dma_chan *cocci_id/* drivers/dma/mic_x100_dma.c 258 */;
+	struct dma_async_tx_descriptor *cocci_id/* drivers/dma/mic_x100_dma.c 257 */;
+	size_t cocci_id/* drivers/dma/mic_x100_dma.c 181 */;
+	dma_addr_t cocci_id/* drivers/dma/mic_x100_dma.c 180 */;
+}

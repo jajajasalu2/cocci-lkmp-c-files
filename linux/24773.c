@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct dst_entry *cocci_id/* net/netfilter/nf_flow_table_core.c 82 */;
+	const struct nf_flow_route *cocci_id/* net/netfilter/nf_flow_table_core.c 78 */;
+	void __exit cocci_id/* net/netfilter/nf_flow_table_core.c 571 */;
+	int __init cocci_id/* net/netfilter/nf_flow_table_core.c 566 */;
+	struct net_device *cocci_id/* net/netfilter/nf_flow_table_core.c 543 */;
+	void *cocci_id/* net/netfilter/nf_flow_table_core.c 476 */;
+	__be16 cocci_id/* net/netfilter/nf_flow_table_core.c 470 */;
+	struct flow_ports *cocci_id/* net/netfilter/nf_flow_table_core.c 469 */;
+	u8 cocci_id/* net/netfilter/nf_flow_table_core.c 467 */;
+	struct sk_buff *cocci_id/* net/netfilter/nf_flow_table_core.c 466 */;
+	const struct flow_offload *cocci_id/* net/netfilter/nf_flow_table_core.c 465 */;
+	struct nf_conn *cocci_id/* net/netfilter/nf_flow_table_core.c 46 */;
+	struct udphdr *cocci_id/* net/netfilter/nf_flow_table_core.c 399 */;
+	struct tcphdr *cocci_id/* net/netfilter/nf_flow_table_core.c 384 */;
+	struct nf_flowtable cocci_id/* net/netfilter/nf_flow_table_core.c 376 */;
+	struct work_struct *cocci_id/* net/netfilter/nf_flow_table_core.c 372 */;
+	struct rhashtable_iter cocci_id/* net/netfilter/nf_flow_table_core.c 324 */;
+	void (*cocci_id/* net/netfilter/nf_flow_table_core.c 320 */)(struct flow_offload *flow,
+								     void *data);
+	struct flow_offload cocci_id/* net/netfilter/nf_flow_table_core.c 307 */;
+	struct flow_offload_tuple_rhash *cocci_id/* net/netfilter/nf_flow_table_core.c 293 */;
+	void cocci_id/* net/netfilter/nf_flow_table_core.c 265 */;
+	bool cocci_id/* net/netfilter/nf_flow_table_core.c 260 */;
+	struct nf_conntrack_tuple *cocci_id/* net/netfilter/nf_flow_table_core.c 25 */;
+	struct flow_offload_tuple *cocci_id/* net/netfilter/nf_flow_table_core.c 24 */;
+	u32 cocci_id/* net/netfilter/nf_flow_table_core.c 235 */;
+	struct nf_flowtable *cocci_id/* net/netfilter/nf_flow_table_core.c 231 */;
+	struct flow_offload *cocci_id/* net/netfilter/nf_flow_table_core.c 231 */;
+	int cocci_id/* net/netfilter/nf_flow_table_core.c 231 */;
+	struct flow_offload_tuple_rhash cocci_id/* net/netfilter/nf_flow_table_core.c 224 */;
+	const struct rhashtable_params cocci_id/* net/netfilter/nf_flow_table_core.c 223 */;
+	enum flow_offload_tuple_dir cocci_id/* net/netfilter/nf_flow_table_core.c 22 */;
+	const struct flow_offload_tuple_rhash *cocci_id/* net/netfilter/nf_flow_table_core.c 215 */;
+	struct rhashtable_compare_arg *cocci_id/* net/netfilter/nf_flow_table_core.c 211 */;
+	struct flow_offload_tuple cocci_id/* net/netfilter/nf_flow_table_core.c 201 */;
+	const struct flow_offload_tuple *cocci_id/* net/netfilter/nf_flow_table_core.c 199 */;
+	const void *cocci_id/* net/netfilter/nf_flow_table_core.c 197 */;
+	__s32 cocci_id/* net/netfilter/nf_flow_table_core.c 159 */;
+	unsigned int cocci_id/* net/netfilter/nf_flow_table_core.c 146 */;
+	const struct nf_conntrack_l4proto *cocci_id/* net/netfilter/nf_flow_table_core.c 144 */;
+	struct ip_ct_tcp *cocci_id/* net/netfilter/nf_flow_table_core.c 127 */;
+}

@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct usb_driver cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 830 */;
+	struct ttusb2_state cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 651 */;
+	struct ttusb2_state {
+		struct dvb_ca_en50221 ca;
+		struct mutex ca_mutex;
+		u8 id;
+		u16 last_rc_key;
+	} cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 64 */;
+	struct usb_device_id cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 632 */[];
+	const struct usb_device_id *cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 620 */;
+	struct usb_interface *cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 619 */;
+	struct dvb_usb_device_properties cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 607 */;
+	enum{TT3650_CMD_CI_TEST=0x40, TT3650_CMD_CI_RD_CTRL, TT3650_CMD_CI_WR_CTRL, TT3650_CMD_CI_RD_ATTR, TT3650_CMD_CI_WR_ATTR, TT3650_CMD_CI_RESET, TT3650_CMD_CI_SET_VIDEO_PORT,} cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 54 */;
+	struct dvb_frontend *cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 535 */;
+	struct tda827x_config cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 518 */;
+	struct tda10048_config cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 503 */;
+	struct tda10023_config cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 493 */;
+	struct tda10086_config cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 486 */;
+	int *cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 472 */;
+	struct dvb_usb_device_description **cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 471 */;
+	struct usb_device *cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 470 */;
+	struct dvb_usb_device_properties *cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 470 */;
+	u8 cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 449 */[9];
+	struct i2c_algorithm cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 437 */;
+	u32 cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 432 */;
+	struct i2c_adapter *cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 432 */;
+	int cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 37 */;
+	struct i2c_msg cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 368 */[];
+	struct ttusb2_state *cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 335 */;
+	struct dvb_usb_device *cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 334 */;
+	struct dvb_usb_adapter *cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 332 */;
+	void cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 311 */;
+	u8 cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 294 */[1];
+	u8 cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 183 */[2];
+	u8 cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 145 */[3];
+	struct dvb_ca_en50221 *cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 130 */;
+	u8 cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 123 */[60];
+	u8 cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 120 */;
+	u8 *cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 120 */;
+	unsigned int cocci_id/* drivers/media/usb/dvb-usb/ttusb2.c 120 */;
+}

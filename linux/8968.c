@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct ieee_ets *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 995 */;
+	uint32_t cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 946 */;
+	enum cxgb4_dcb_fw_msgs cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 927 */;
+	struct fw_port_cmd cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 794 */;
+	struct adapter *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 787 */;
+	struct port_info *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 786 */;
+	u8 cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 783 */;
+	u16 cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 783 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 783 */;
+	int cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 783 */;
+	u8 *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 686 */;
+	struct dcb_app cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 64 */;
+	struct port_dcb_info *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 63 */;
+	void cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 59 */;
+	struct port_dcb_info cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 39 */;
+	struct app_priority *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 364 */;
+	const struct fw_port_app_priority *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 362 */;
+	enum cxgb4_dcb_state_input cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 288 */;
+	const union fw_port_dcb *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 276 */;
+	const struct fw_port_cmd *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 274 */;
+	bool cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 22 */;
+	enum cxgb4_dcb_state cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 131 */;
+	const char *const cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 13 */[];
+	const struct dcbnl_rtnl_ops cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 1242 */;
+	struct cee_pfc *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 1225 */;
+	u32 cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 1186 */;
+	struct cee_pg *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 1181 */;
+	struct dcb_app *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 1144 */;
+	u16 *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 1110 */;
+	struct dcb_peer_app_info *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 1110 */;
+	struct ieee_pfc cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 1006 */;
+	struct ieee_pfc *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/cxgb4_dcb.c 1001 */;
+}

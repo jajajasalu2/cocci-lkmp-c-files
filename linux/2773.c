@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	const struct chip_desc cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 99 */[];
+	struct pca954x {
+		const struct chip_desc *chip;
+		u8 last_chan;
+		s8 idle_state;
+		struct i2c_client *client;
+		struct irq_domain *irq;
+		unsigned int irq_mask;
+		raw_spinlock_t lock;
+	} cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 84 */;
+	struct chip_desc {
+		u8 nchans;
+		u8 enable;
+		u8 has_irq;
+		enum muxtype{pca954x_ismux=0, pca954x_isswi,} muxtype;
+		struct i2c_device_identity id;
+	} cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 73 */;
+	enum pca_type{pca_9540, pca_9542, pca_9543, pca_9544, pca_9545, pca_9546, pca_9547, pca_9548, pca_9846, pca_9847, pca_9848, pca_9849,} cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 58 */;
+	struct i2c_driver cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 541 */;
+	struct i2c_device_identity cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 449 */;
+	struct gpio_desc *cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 415 */;
+	bool cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 414 */;
+	struct device_node *cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 413 */;
+	struct i2c_adapter *cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 411 */;
+	const struct i2c_device_id *cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 409 */;
+	void cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 387 */;
+	struct irq_chip cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 351 */;
+	struct irq_data *cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 344 */;
+	unsigned int cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 327 */;
+	irqreturn_t cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 324 */;
+	void *cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 324 */;
+	int cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 296 */;
+	const char *cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 291 */;
+	size_t cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 291 */;
+	struct pca954x *cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 284 */;
+	struct i2c_mux_core *cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 283 */;
+	struct i2c_client *cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 282 */;
+	char *cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 280 */;
+	struct device_attribute *cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 279 */;
+	struct device *cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 278 */;
+	ssize_t cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 278 */;
+	s8 cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 259 */;
+	u32 cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 255 */;
+	const struct chip_desc *cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 236 */;
+	union i2c_smbus_data cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 225 */;
+	u8 cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 223 */;
+	const struct of_device_id cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 202 */[];
+	const struct i2c_device_id cocci_id/* drivers/i2c/muxes/i2c-mux-pca954x.c 184 */[];
+}

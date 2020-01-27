@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct drm_prime_file_private *cocci_id/* drivers/gpu/drm/drm_prime.c 98 */;
+	dma_addr_t cocci_id/* drivers/gpu/drm/drm_prime.c 963 */;
+	u32 cocci_id/* drivers/gpu/drm/drm_prime.c 962 */;
+	struct page *cocci_id/* drivers/gpu/drm/drm_prime.c 961 */;
+	struct scatterlist *cocci_id/* drivers/gpu/drm/drm_prime.c 960 */;
+	unsigned cocci_id/* drivers/gpu/drm/drm_prime.c 959 */;
+	dma_addr_t *cocci_id/* drivers/gpu/drm/drm_prime.c 957 */;
+	struct drm_prime_member {
+		struct dma_buf *dma_buf;
+		uint32_t handle;
+		struct rb_node dmabuf_rb;
+		struct rb_node handle_rb;
+	} cocci_id/* drivers/gpu/drm/drm_prime.c 90 */;
+	struct device *cocci_id/* drivers/gpu/drm/drm_prime.c 868 */;
+	struct dma_buf_export_info cocci_id/* drivers/gpu/drm/drm_prime.c 838 */;
+	struct sg_table cocci_id/* drivers/gpu/drm/drm_prime.c 807 */;
+	struct page **cocci_id/* drivers/gpu/drm/drm_prime.c 802 */;
+	unsigned int cocci_id/* drivers/gpu/drm/drm_prime.c 802 */;
+	const struct dma_buf_ops cocci_id/* drivers/gpu/drm/drm_prime.c 779 */;
+	struct drm_gem_object *cocci_id/* drivers/gpu/drm/drm_prime.c 769 */;
+	struct vm_area_struct *cocci_id/* drivers/gpu/drm/drm_prime.c 767 */;
+	int cocci_id/* drivers/gpu/drm/drm_prime.c 767 */;
+	struct file *cocci_id/* drivers/gpu/drm/drm_prime.c 713 */;
+	void *cocci_id/* drivers/gpu/drm/drm_prime.c 669 */;
+	enum dma_data_direction cocci_id/* drivers/gpu/drm/drm_prime.c 614 */;
+	struct sg_table *cocci_id/* drivers/gpu/drm/drm_prime.c 613 */;
+	struct dma_buf_attachment *cocci_id/* drivers/gpu/drm/drm_prime.c 575 */;
+	int *cocci_id/* drivers/gpu/drm/drm_prime.c 425 */;
+	uint32_t cocci_id/* drivers/gpu/drm/drm_prime.c 423 */;
+	struct drm_prime_handle *cocci_id/* drivers/gpu/drm/drm_prime.c 364 */;
+	uint32_t *cocci_id/* drivers/gpu/drm/drm_prime.c 293 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/drm_prime.c 292 */;
+	void cocci_id/* drivers/gpu/drm/drm_prime.c 265 */;
+	struct dma_buf_export_info *cocci_id/* drivers/gpu/drm/drm_prime.c 241 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/drm_prime.c 240 */;
+	struct dma_buf *cocci_id/* drivers/gpu/drm/drm_prime.c 240 */;
+	struct rb_node *cocci_id/* drivers/gpu/drm/drm_prime.c 148 */;
+	struct drm_prime_member cocci_id/* drivers/gpu/drm/drm_prime.c 118 */;
+	struct rb_node **cocci_id/* drivers/gpu/drm/drm_prime.c 102 */;
+	struct drm_prime_member *cocci_id/* drivers/gpu/drm/drm_prime.c 101 */;
+}

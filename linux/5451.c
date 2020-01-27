@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	unsigned int *cocci_id/* drivers/spi/spi-geni-qcom.c 94 */;
+	struct spi_geni_master {
+		struct geni_se se;
+		struct device *dev;
+		u32 tx_fifo_depth;
+		u32 fifo_width_bits;
+		u32 tx_wm;
+		unsigned long cur_speed_hz;
+		unsigned int cur_bits_per_word;
+		unsigned int tx_rem_bytes;
+		unsigned int rx_rem_bytes;
+		const struct spi_transfer *cur_xfer;
+		struct completion xfer_done;
+		unsigned int oversampling;
+		spinlock_t lock;
+		enum spi_m_cmd_opcode cur_mcmd;
+		int irq;
+	} cocci_id/* drivers/spi/spi-geni-qcom.c 74 */;
+	struct platform_driver cocci_id/* drivers/spi/spi-geni-qcom.c 679 */;
+	const struct of_device_id cocci_id/* drivers/spi/spi-geni-qcom.c 673 */[];
+	enum spi_m_cmd_opcode{CMD_NONE, CMD_XFER, CMD_CS, CMD_CANCEL,} cocci_id/* drivers/spi/spi-geni-qcom.c 67 */;
+	struct device *cocci_id/* drivers/spi/spi-geni-qcom.c 651 */;
+	int __maybe_unused cocci_id/* drivers/spi/spi-geni-qcom.c 651 */;
+	struct clk *cocci_id/* drivers/spi/spi-geni-qcom.c 538 */;
+	void __iomem *cocci_id/* drivers/spi/spi-geni-qcom.c 537 */;
+	struct platform_device *cocci_id/* drivers/spi/spi-geni-qcom.c 532 */;
+	unsigned long cocci_id/* drivers/spi/spi-geni-qcom.c 481 */;
+	struct spi_master *cocci_id/* drivers/spi/spi-geni-qcom.c 477 */;
+	irqreturn_t cocci_id/* drivers/spi/spi-geni-qcom.c 475 */;
+	void *cocci_id/* drivers/spi/spi-geni-qcom.c 475 */;
+	int cocci_id/* drivers/spi/spi-geni-qcom.c 475 */;
+	u8 *cocci_id/* drivers/spi/spi-geni-qcom.c 445 */;
+	u32 cocci_id/* drivers/spi/spi-geni-qcom.c 442 */;
+	struct geni_se *cocci_id/* drivers/spi/spi-geni-qcom.c 441 */;
+	void cocci_id/* drivers/spi/spi-geni-qcom.c 439 */;
+	const u8 *cocci_id/* drivers/spi/spi-geni-qcom.c 414 */;
+	struct spi_geni_master *cocci_id/* drivers/spi/spi-geni-qcom.c 396 */;
+	unsigned int cocci_id/* drivers/spi/spi-geni-qcom.c 396 */;
+	u16 cocci_id/* drivers/spi/spi-geni-qcom.c 305 */;
+	struct spi_transfer *cocci_id/* drivers/spi/spi-geni-qcom.c 303 */;
+	struct spi_device *cocci_id/* drivers/spi/spi-geni-qcom.c 198 */;
+	bool cocci_id/* drivers/spi/spi-geni-qcom.c 148 */;
+	struct spi_message *cocci_id/* drivers/spi/spi-geni-qcom.c 123 */;
+}

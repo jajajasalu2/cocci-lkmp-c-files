@@ -1,0 +1,62 @@
+cocci_test_suite() {
+	struct _bpf_dtab_netdev cocci_id/* kernel/bpf/devmap.c 815 */;
+	int __init cocci_id/* kernel/bpf/devmap.c 811 */;
+	struct notifier_block cocci_id/* kernel/bpf/devmap.c 807 */;
+	ulong cocci_id/* kernel/bpf/devmap.c 767 */;
+	struct notifier_block *cocci_id/* kernel/bpf/devmap.c 766 */;
+	struct bpf_dtab {
+		struct bpf_map map;
+		struct bpf_dtab_netdev **netdev_map;
+		struct list_head __percpu *flush_list;
+		struct list_head list;
+		struct hlist_head *dev_index_head;
+		spinlock_t index_lock;
+		unsigned int items;
+		u32 n_buckets;
+	} cocci_id/* kernel/bpf/devmap.c 75 */;
+	const struct bpf_map_ops cocci_id/* kernel/bpf/devmap.c 730 */;
+	unsigned long cocci_id/* kernel/bpf/devmap.c 670 */;
+	u32 *cocci_id/* kernel/bpf/devmap.c 668 */;
+	u64 cocci_id/* kernel/bpf/devmap.c 664 */;
+	struct bpf_dtab_netdev {
+		struct net_device *dev;
+		struct hlist_node index_hlist;
+		struct bpf_dtab *dtab;
+		struct xdp_bulk_queue __percpu *bulkq;
+		struct rcu_head rcu;
+		unsigned int idx;
+	} cocci_id/* kernel/bpf/devmap.c 66 */;
+	void *cocci_id/* kernel/bpf/devmap.c 598 */;
+	int cocci_id/* kernel/bpf/devmap.c 591 */;
+	struct xdp_bulk_queue *cocci_id/* kernel/bpf/devmap.c 590 */;
+	gfp_t cocci_id/* kernel/bpf/devmap.c 588 */;
+	unsigned int cocci_id/* kernel/bpf/devmap.c 586 */;
+	u32 cocci_id/* kernel/bpf/devmap.c 585 */;
+	struct bpf_dtab *cocci_id/* kernel/bpf/devmap.c 584 */;
+	struct net *cocci_id/* kernel/bpf/devmap.c 583 */;
+	struct bpf_dtab_netdev *cocci_id/* kernel/bpf/devmap.c 583 */;
+	struct xdp_bulk_queue {
+		struct xdp_frame *q[DEV_MAP_BULK_SIZE];
+		struct list_head flush_node;
+		struct net_device *dev_rx;
+		struct bpf_dtab_netdev *obj;
+		unsigned int count;
+	} cocci_id/* kernel/bpf/devmap.c 58 */;
+	struct bpf_dtab_netdev cocci_id/* kernel/bpf/devmap.c 531 */;
+	struct rcu_head *cocci_id/* kernel/bpf/devmap.c 527 */;
+	void cocci_id/* kernel/bpf/devmap.c 527 */;
+	struct bpf_prog *cocci_id/* kernel/bpf/devmap.c 482 */;
+	struct sk_buff *cocci_id/* kernel/bpf/devmap.c 481 */;
+	struct xdp_buff *cocci_id/* kernel/bpf/devmap.c 460 */;
+	struct net_device *cocci_id/* kernel/bpf/devmap.c 436 */;
+	struct xdp_frame *cocci_id/* kernel/bpf/devmap.c 435 */;
+	struct list_head *cocci_id/* kernel/bpf/devmap.c 407 */;
+	struct bpf_dtab cocci_id/* kernel/bpf/devmap.c 406 */;
+	struct bpf_map *cocci_id/* kernel/bpf/devmap.c 404 */;
+	bool cocci_id/* kernel/bpf/devmap.c 349 */;
+	struct hlist_head *cocci_id/* kernel/bpf/devmap.c 293 */;
+	struct hlist_node *cocci_id/* kernel/bpf/devmap.c 240 */;
+	union bpf_attr *cocci_id/* kernel/bpf/devmap.c 176 */;
+	struct hlist_head cocci_id/* kernel/bpf/devmap.c 136 */;
+	struct list_head cocci_id/* kernel/bpf/devmap.c 129 */;
+}

@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	enum base_type{REG, IO_CTRL,} cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 80 */;
+	int __init cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 720 */;
+	struct platform_driver cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 712 */;
+	struct nsp_gpio {
+		struct device *dev;
+		void __iomem *base;
+		void __iomem *io_ctrl;
+		struct irq_chip irqchip;
+		struct gpio_chip gc;
+		struct pinctrl_dev *pctl;
+		struct pinctrl_desc pctldesc;
+		raw_spinlock_t lock;
+	} cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 69 */;
+	struct irq_chip *cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 665 */;
+	struct gpio_irq_chip *cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 664 */;
+	struct device *cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 615 */;
+	struct platform_device *cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 613 */;
+	const struct of_device_id cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 608 */[];
+	struct pinctrl_pin_desc *cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 579 */;
+	struct pinctrl_desc *cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 578 */;
+	const struct pinconf_ops cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 560 */;
+	u16 cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 466 */;
+	enum pin_config_param cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 464 */;
+	unsigned long *cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 461 */;
+	u32 cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 423 */;
+	u16 *cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 420 */;
+	bool *cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 380 */;
+	void cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 379 */;
+	const struct pinctrl_ops cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 347 */;
+	const char *cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 341 */;
+	struct pinctrl_dev *cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 341 */;
+	int cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 332 */;
+	unsigned long cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 275 */;
+	struct gpio_chip *cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 272 */;
+	struct irq_data *cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 171 */;
+	irqreturn_t cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 136 */;
+	void *cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 136 */;
+	unsigned int cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 128 */;
+	unsigned cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 128 */;
+	bool cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 127 */;
+	enum base_type cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 127 */;
+	struct nsp_gpio *cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 127 */;
+	void __iomem *cocci_id/* drivers/pinctrl/bcm/pinctrl-nsp-gpio.c 107 */;
+}

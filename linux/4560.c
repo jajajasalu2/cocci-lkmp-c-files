@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct file *cocci_id/* drivers/misc/sgi-gru/grufile.c 94 */;
+	struct gru_thread_state cocci_id/* drivers/misc/sgi-gru/grufile.c 75 */;
+	struct list_head *cocci_id/* drivers/misc/sgi-gru/grufile.c 64 */;
+	struct gru_thread_state *cocci_id/* drivers/misc/sgi-gru/grufile.c 63 */;
+	 cocci_id/* drivers/misc/sgi-gru/grufile.c 609 */(GRU_DRIVER_ID_STR GRU_DRIVER_VERSION_STR);
+	const struct vm_operations_struct cocci_id/* drivers/misc/sgi-gru/grufile.c 592 */;
+	const struct file_operations cocci_id/* drivers/misc/sgi-gru/grufile.c 579 */;
+	void __exit cocci_id/* drivers/misc/sgi-gru/grufile.c 566 */;
+	int __init cocci_id/* drivers/misc/sgi-gru/grufile.c 509 */;
+	struct miscdevice cocci_id/* drivers/misc/sgi-gru/grufile.c 46 */;
+	struct gru_stats_s cocci_id/* drivers/misc/sgi-gru/grufile.c 41 */;
+	void cocci_id/* drivers/misc/sgi-gru/grufile.c 387 */;
+	struct gru_blade_state *cocci_id/* drivers/misc/sgi-gru/grufile.c 36 */[GRU_MAX_BLADES]__read_mostly;
+	irq_handler_t cocci_id/* drivers/misc/sgi-gru/grufile.c 356 */;
+	char *cocci_id/* drivers/misc/sgi-gru/grufile.c 355 */;
+	struct irq_data *cocci_id/* drivers/misc/sgi-gru/grufile.c 343 */;
+	int cocci_id/* drivers/misc/sgi-gru/grufile.c 341 */[GRU_CHIPLETS_PER_BLADE];
+	int *cocci_id/* drivers/misc/sgi-gru/grufile.c 310 */;
+	unsigned long cocci_id/* drivers/misc/sgi-gru/grufile.c 310 */;
+	int cocci_id/* drivers/misc/sgi-gru/grufile.c 310 */;
+	struct gru_state cocci_id/* drivers/misc/sgi-gru/grufile.c 303 */;
+	struct page *cocci_id/* drivers/misc/sgi-gru/grufile.c 256 */;
+	struct gru_blade_state cocci_id/* drivers/misc/sgi-gru/grufile.c 255 */;
+	void *cocci_id/* drivers/misc/sgi-gru/grufile.c 230 */;
+	struct gru_state *cocci_id/* drivers/misc/sgi-gru/grufile.c 229 */;
+	unsigned int cocci_id/* drivers/misc/sgi-gru/grufile.c 183 */;
+	long cocci_id/* drivers/misc/sgi-gru/grufile.c 183 */;
+	struct gru_config_info cocci_id/* drivers/misc/sgi-gru/grufile.c 159 */;
+	void __user *cocci_id/* drivers/misc/sgi-gru/grufile.c 127 */;
+	struct gru_vma_data *cocci_id/* drivers/misc/sgi-gru/grufile.c 124 */;
+	struct vm_area_struct *cocci_id/* drivers/misc/sgi-gru/grufile.c 123 */;
+	struct gru_create_context_req cocci_id/* drivers/misc/sgi-gru/grufile.c 122 */;
+}

@@ -1,0 +1,58 @@
+cocci_test_suite() {
+	size_t cocci_id/* drivers/net/ppp/pppoe.c 977 */;
+	struct msghdr *cocci_id/* drivers/net/ppp/pppoe.c 976 */;
+	struct ppp_channel *cocci_id/* drivers/net/ppp/pppoe.c 966 */;
+	struct pppoe_net {
+		struct pppox_sock *hash_table[PPPOE_HASH_SIZE];
+		rwlock_t hash_lock;
+	} cocci_id/* drivers/net/ppp/pppoe.c 94 */;
+	struct pppoe_hdr *cocci_id/* drivers/net/ppp/pppoe.c 913 */;
+	struct net_device *cocci_id/* drivers/net/ppp/pppoe.c 912 */;
+	struct sock *cocci_id/* drivers/net/ppp/pppoe.c 909 */;
+	struct sk_buff *cocci_id/* drivers/net/ppp/pppoe.c 909 */;
+	const struct ppp_channel_ops cocci_id/* drivers/net/ppp/pppoe.c 90 */;
+	const struct proto_ops cocci_id/* drivers/net/ppp/pppoe.c 89 */;
+	int cocci_id/* drivers/net/ppp/pppoe.c 87 */(struct sock *sk,
+						     struct sk_buff *skb);
+	void __user *cocci_id/* drivers/net/ppp/pppoe.c 796 */;
+	int __user *cocci_id/* drivers/net/ppp/pppoe.c 751 */;
+	struct pppoe_hdr cocci_id/* drivers/net/ppp/pppoe.c 687 */;
+	struct pppoe_addr cocci_id/* drivers/net/ppp/pppoe.c 679 */;
+	struct sockaddr_pppox cocci_id/* drivers/net/ppp/pppoe.c 621 */;
+	struct socket *cocci_id/* drivers/net/ppp/pppoe.c 606 */;
+	struct sockaddr *cocci_id/* drivers/net/ppp/pppoe.c 606 */;
+	struct pppox_sock cocci_id/* drivers/net/ppp/pppoe.c 525 */;
+	struct proto cocci_id/* drivers/net/ppp/pppoe.c 522 */;
+	struct packet_type cocci_id/* drivers/net/ppp/pppoe.c 517 */;
+	struct packet_type *cocci_id/* drivers/net/ppp/pppoe.c 482 */;
+	struct work_struct *cocci_id/* drivers/net/ppp/pppoe.c 459 */;
+	struct notifier_block cocci_id/* drivers/net/ppp/pppoe.c 356 */;
+	void *cocci_id/* drivers/net/ppp/pppoe.c 331 */;
+	unsigned long cocci_id/* drivers/net/ppp/pppoe.c 331 */;
+	struct notifier_block *cocci_id/* drivers/net/ppp/pppoe.c 330 */;
+	struct sockaddr_pppox *cocci_id/* drivers/net/ppp/pppoe.c 238 */;
+	struct net *cocci_id/* drivers/net/ppp/pppoe.c 237 */;
+	struct pppox_sock *cocci_id/* drivers/net/ppp/pppoe.c 201 */;
+	char *cocci_id/* drivers/net/ppp/pppoe.c 198 */;
+	int cocci_id/* drivers/net/ppp/pppoe.c 198 */;
+	__be16 cocci_id/* drivers/net/ppp/pppoe.c 197 */;
+	struct pppoe_net *cocci_id/* drivers/net/ppp/pppoe.c 197 */;
+	void cocci_id/* drivers/net/ppp/pppoe.c 197 */;
+	unsigned char *cocci_id/* drivers/net/ppp/pppoe.c 160 */;
+	__u32 cocci_id/* drivers/net/ppp/pppoe.c 147 */;
+	unsigned int cocci_id/* drivers/net/ppp/pppoe.c 142 */;
+	unsigned char cocci_id/* drivers/net/ppp/pppoe.c 141 */;
+	struct pppoe_addr *cocci_id/* drivers/net/ppp/pppoe.c 125 */;
+	void __exit cocci_id/* drivers/net/ppp/pppoe.c 1186 */;
+	int __init cocci_id/* drivers/net/ppp/pppoe.c 1156 */;
+	struct pppoe_net cocci_id/* drivers/net/ppp/pppoe.c 1153 */;
+	bool cocci_id/* drivers/net/ppp/pppoe.c 115 */;
+	struct pernet_operations cocci_id/* drivers/net/ppp/pppoe.c 1149 */;
+	struct seq_net_private cocci_id/* drivers/net/ppp/pppoe.c 1135 */;
+	struct proc_dir_entry *cocci_id/* drivers/net/ppp/pppoe.c 1130 */;
+	const struct pppox_proto cocci_id/* drivers/net/ppp/pppoe.c 1121 */;
+	const struct seq_operations cocci_id/* drivers/net/ppp/pppoe.c 1090 */;
+	loff_t *cocci_id/* drivers/net/ppp/pppoe.c 1055 */;
+	struct seq_file *cocci_id/* drivers/net/ppp/pppoe.c 1055 */;
+	loff_t cocci_id/* drivers/net/ppp/pppoe.c 1027 */;
+}

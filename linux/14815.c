@@ -1,0 +1,106 @@
+cocci_test_suite() {
+	struct atlas7_div_init_data cocci_id/* drivers/clk/sirf/clk-atlas7.c 655 */[]__initdata;
+	struct clk_dto cocci_id/* drivers/clk/sirf/clk-atlas7.c 605 */;
+	const struct clk_init_data cocci_id/* drivers/clk/sirf/clk-atlas7.c 598 */;
+	const char *const cocci_id/* drivers/clk/sirf/clk-atlas7.c 592 */[];
+	unsigned long *cocci_id/* drivers/clk/sirf/clk-atlas7.c 538 */;
+	long cocci_id/* drivers/clk/sirf/clk-atlas7.c 537 */;
+	u64 cocci_id/* drivers/clk/sirf/clk-atlas7.c 522 */;
+	struct clk_dto *cocci_id/* drivers/clk/sirf/clk-atlas7.c 511 */;
+	struct clk_hw *cocci_id/* drivers/clk/sirf/clk-atlas7.c 508 */;
+	struct clk_pll cocci_id/* drivers/clk/sirf/clk-atlas7.c 401 */;
+	const struct clk_ops cocci_id/* drivers/clk/sirf/clk-atlas7.c 386 */;
+	struct clk_pll *cocci_id/* drivers/clk/sirf/clk-atlas7.c 356 */;
+	void cocci_id/* drivers/clk/sirf/clk-atlas7.c 341 */;
+	unsigned cocci_id/* drivers/clk/sirf/clk-atlas7.c 336 */;
+	const struct clk_div_table cocci_id/* drivers/clk/sirf/clk-atlas7.c 292 */[];
+	struct clk_onecell_data cocci_id/* drivers/clk/sirf/clk-atlas7.c 290 */;
+	void __iomem *cocci_id/* drivers/clk/sirf/clk-atlas7.c 289 */;
+	struct atlas7_reset_desc {
+		const char *name;
+		u32 clk_ofs;
+		u8 clk_bit;
+		u32 rst_ofs;
+		u8 rst_bit;
+		spinlock_t *lock;
+	} cocci_id/* drivers/clk/sirf/clk-atlas7.c 280 */;
+	struct atlas7_unit_init_data {
+		u32 index;
+		const char *unit_name;
+		const char *parent_name;
+		unsigned long flags;
+		u32 regofs;
+		u8 bit;
+		u32 type;
+		u8 idle_bit;
+		spinlock_t *lock;
+	} cocci_id/* drivers/clk/sirf/clk-atlas7.c 268 */;
+	struct atlas7_mux_init_data {
+		const char *mux_name;
+		const char *const *parent_names;
+		u8 parent_num;
+		unsigned long flags;
+		u8 mux_flags;
+		u32 mux_offset;
+		u8 shift;
+		u8 width;
+	} cocci_id/* drivers/clk/sirf/clk-atlas7.c 257 */;
+	struct atlas7_div_init_data {
+		const char *div_name;
+		const char *parent_name;
+		const char *gate_name;
+		unsigned long flags;
+		u8 divider_flags;
+		u8 gate_flags;
+		u32 div_offset;
+		u8 shift;
+		u8 width;
+		u32 gate_offset;
+		u8 gate_bit;
+		spinlock_t *lock;
+	} cocci_id/* drivers/clk/sirf/clk-atlas7.c 242 */;
+	struct clk_unit cocci_id/* drivers/clk/sirf/clk-atlas7.c 240 */;
+	struct clk_unit {
+		struct clk_hw hw;
+		u16 regofs;
+		u16 bit;
+		u32 type;
+		u8 idle_bit;
+		spinlock_t *lock;
+	} cocci_id/* drivers/clk/sirf/clk-atlas7.c 232 */;
+	enum clk_unit_type{CLK_UNIT_NOC_OTHER, CLK_UNIT_NOC_CLOCK, CLK_UNIT_NOC_SOCKET,} cocci_id/* drivers/clk/sirf/clk-atlas7.c 226 */;
+	struct clk_dto {
+		struct clk_hw hw;
+		u16 inc_offset;
+		u16 src_offset;
+	} cocci_id/* drivers/clk/sirf/clk-atlas7.c 219 */;
+	struct clk_pll {
+		struct clk_hw hw;
+		u16 regofs;
+	} cocci_id/* drivers/clk/sirf/clk-atlas7.c 213 */;
+	int cocci_id/* drivers/clk/sirf/clk-atlas7.c 1441 */;
+	struct atlas7_unit_init_data *cocci_id/* drivers/clk/sirf/clk-atlas7.c 1440 */;
+	struct atlas7_mux_init_data *cocci_id/* drivers/clk/sirf/clk-atlas7.c 1439 */;
+	struct atlas7_div_init_data *cocci_id/* drivers/clk/sirf/clk-atlas7.c 1438 */;
+	struct clk *cocci_id/* drivers/clk/sirf/clk-atlas7.c 1437 */;
+	struct device_node *cocci_id/* drivers/clk/sirf/clk-atlas7.c 1435 */;
+	void __init cocci_id/* drivers/clk/sirf/clk-atlas7.c 1435 */;
+	struct reset_controller_dev cocci_id/* drivers/clk/sirf/clk-atlas7.c 1429 */;
+	const struct reset_control_ops cocci_id/* drivers/clk/sirf/clk-atlas7.c 1425 */;
+	struct atlas7_reset_desc *cocci_id/* drivers/clk/sirf/clk-atlas7.c 1391 */;
+	unsigned long cocci_id/* drivers/clk/sirf/clk-atlas7.c 1389 */;
+	struct reset_controller_dev *cocci_id/* drivers/clk/sirf/clk-atlas7.c 1388 */;
+	struct atlas7_reset_desc cocci_id/* drivers/clk/sirf/clk-atlas7.c 1304 */[];
+	struct clk_init_data cocci_id/* drivers/clk/sirf/clk-atlas7.c 1277 */;
+	struct clk_unit *cocci_id/* drivers/clk/sirf/clk-atlas7.c 1276 */;
+	u8 cocci_id/* drivers/clk/sirf/clk-atlas7.c 1273 */;
+	u32 cocci_id/* drivers/clk/sirf/clk-atlas7.c 1273 */;
+	spinlock_t *cocci_id/* drivers/clk/sirf/clk-atlas7.c 1273 */;
+	const char *const cocci_id/* drivers/clk/sirf/clk-atlas7.c 1272 */;
+	const char *cocci_id/* drivers/clk/sirf/clk-atlas7.c 1271 */;
+	struct device *cocci_id/* drivers/clk/sirf/clk-atlas7.c 1271 */;
+	struct clk *__init cocci_id/* drivers/clk/sirf/clk-atlas7.c 1270 */;
+	struct clk *cocci_id/* drivers/clk/sirf/clk-atlas7.c 1201 */[ARRAY_SIZE(unit_list) + ARRAY_SIZE(mux_list)];
+	struct atlas7_unit_init_data cocci_id/* drivers/clk/sirf/clk-atlas7.c 1055 */[]__initdata;
+	struct atlas7_mux_init_data cocci_id/* drivers/clk/sirf/clk-atlas7.c 1020 */[]__initdata;
+}

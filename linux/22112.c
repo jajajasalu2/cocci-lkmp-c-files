@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	char *cocci_id/* lib/test_printf.c 98 */;
+	va_list cocci_id/* lib/test_printf.c 96 */;
+	const char *cocci_id/* lib/test_printf.c 94 */;
+	int cocci_id/* lib/test_printf.c 94 */;
+	void __printf(3,4)__init cocci_id/* lib/test_printf.c 93 */;
+	const char *const cocci_id/* lib/test_printf.c 606 */;
+	const struct software_node cocci_id/* lib/test_printf.c 600 */[];
+	void __init cocci_id/* lib/test_printf.c 598 */;
+	gfp_t cocci_id/* lib/test_printf.c 553 */;
+	unsigned long cocci_id/* lib/test_printf.c 552 */;
+	const int cocci_id/* lib/test_printf.c 525 */[];
+	unsigned long *cocci_id/* lib/test_printf.c 511 */;
+	const int cocci_id/* lib/test_printf.c 510 */;
+	const struct rtc_time cocci_id/* lib/test_printf.c 484 */;
+	struct dentry cocci_id/* lib/test_printf.c 439 */[4]__initdata;
+	const char cocci_id/* lib/test_printf.c 430 */[16];
+	struct sockaddr_in cocci_id/* lib/test_printf.c 403 */;
+	const u8 cocci_id/* lib/test_printf.c 391 */[6];
+	const char cocci_id/* lib/test_printf.c 380 */[3];
+	int __printf(4,0)__init cocci_id/* lib/test_printf.c 38 */;
+	void cocci_id/* lib/test_printf.c 368 */;
+	void __init cocci_id/* lib/test_printf.c 367 */;
+	unsigned cocci_id/* lib/test_printf.c 34 */;
+	const void *cocci_id/* lib/test_printf.c 259 */;
+	size_t cocci_id/* lib/test_printf.c 259 */;
+	char cocci_id/* lib/test_printf.c 221 */[PLAIN_BUF_SIZE];
+	int __init cocci_id/* lib/test_printf.c 218 */;
+	void *cocci_id/* lib/test_printf.c 213 */;
+	u8 cocci_id/* lib/test_printf.c 176 */;
+	char cocci_id/* lib/test_printf.c 141 */;
+}

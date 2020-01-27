@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	struct htc_record_hdr cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 999 */;
+	u32 cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 948 */;
+	struct htc_frame_hdr *cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 947 */;
+	struct htc_credit_report cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 884 */;
+	struct htc_record_hdr *cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 855 */;
+	struct htc_target *cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 813 */;
+	struct htc_packet *cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 813 */;
+	struct htc_credit_report *cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 655 */;
+	struct htc_pipe_txcredit_alloc *cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 551 */;
+	struct htc_frame_hdr cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 32 */;
+	enum htc_send_full_action cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 307 */;
+	enum htc_send_queue_result cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 300 */;
+	void cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 26 */(struct htc_target *handle);
+	int cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 24 */(struct htc_target *handle,
+									struct htc_packet *packet);
+	struct ath6kl *cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1722 */;
+	const struct ath6kl_htc_ops cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1704 */;
+	struct ath6kl_htc_credit_info *cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1699 */;
+	bool cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1666 */;
+	enum htc_endpoint_id cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1665 */;
+	void cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1664 */;
+	struct htc_packet cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1632 */;
+	struct htc_endpoint *cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1626 */;
+	struct list_head *cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1623 */;
+	int cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1622 */;
+	struct htc_service_connect_resp cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1559 */;
+	struct htc_service_connect_req cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1558 */;
+	struct htc_ready_ext_msg *cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1557 */;
+	struct list_head cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1542 */;
+	struct htc_setup_comp_ext_msg cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1497 */;
+	struct htc_setup_comp_ext_msg *cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1481 */;
+	struct htc_target cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1413 */;
+	void *cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1405 */;
+	u8 *cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1290 */;
+	struct htc_conn_service_msg cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1264 */;
+	u16 cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1233 */;
+	u8 cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1232 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1231 */;
+	unsigned int cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1228 */;
+	struct htc_conn_service_msg *cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1225 */;
+	struct htc_conn_service_resp *cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1224 */;
+	struct htc_service_connect_resp *cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1220 */;
+	struct htc_service_connect_req *cocci_id/* drivers/net/wireless/ath/ath6kl/htc_pipe.c 1219 */;
+}

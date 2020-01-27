@@ -1,0 +1,62 @@
+cocci_test_suite() {
+	struct i2c_driver cocci_id/* drivers/iio/light/tsl2563.c 881 */;
+	const struct of_device_id cocci_id/* drivers/iio/light/tsl2563.c 872 */[];
+	const struct i2c_device_id cocci_id/* drivers/iio/light/tsl2563.c 863 */[];
+	struct device *cocci_id/* drivers/iio/light/tsl2563.c 835 */;
+	const struct tsl2563_gainlevel_coeff cocci_id/* drivers/iio/light/tsl2563.c 82 */[];
+	struct tsl2563_gainlevel_coeff {
+		u8 gaintime;
+		u16 min;
+		u16 max;
+	} cocci_id/* drivers/iio/light/tsl2563.c 76 */;
+	struct device_node *cocci_id/* drivers/iio/light/tsl2563.c 706 */;
+	struct tsl2563_platform_data *cocci_id/* drivers/iio/light/tsl2563.c 705 */;
+	const struct i2c_device_id *cocci_id/* drivers/iio/light/tsl2563.c 701 */;
+	const struct iio_info cocci_id/* drivers/iio/light/tsl2563.c 691 */;
+	enum iio_event_direction cocci_id/* drivers/iio/light/tsl2563.c 671 */;
+	enum iio_event_type cocci_id/* drivers/iio/light/tsl2563.c 670 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/light/tsl2563.c 670 */;
+	struct iio_dev *cocci_id/* drivers/iio/light/tsl2563.c 612 */;
+	irqreturn_t cocci_id/* drivers/iio/light/tsl2563.c 610 */;
+	void *cocci_id/* drivers/iio/light/tsl2563.c 610 */;
+	enum iio_event_info cocci_id/* drivers/iio/light/tsl2563.c 559 */;
+	const struct iio_chan_spec cocci_id/* drivers/iio/light/tsl2563.c 534 */[];
+	const struct iio_event_spec cocci_id/* drivers/iio/light/tsl2563.c 520 */[];
+	long cocci_id/* drivers/iio/light/tsl2563.c 466 */;
+	int *cocci_id/* drivers/iio/light/tsl2563.c 464 */;
+	unsigned long cocci_id/* drivers/iio/light/tsl2563.c 419 */;
+	const struct tsl2563_lux_coeff *cocci_id/* drivers/iio/light/tsl2563.c 418 */;
+	u32 cocci_id/* drivers/iio/light/tsl2563.c 416 */;
+	unsigned int cocci_id/* drivers/iio/light/tsl2563.c 416 */;
+	const struct tsl2563_lux_coeff cocci_id/* drivers/iio/light/tsl2563.c 379 */[];
+	struct tsl2563_lux_coeff {
+		unsigned long ch_ratio;
+		unsigned long ch0_coeff;
+		unsigned long ch1_coeff;
+	} cocci_id/* drivers/iio/light/tsl2563.c 373 */;
+	struct i2c_client *cocci_id/* drivers/iio/light/tsl2563.c 281 */;
+	u16 cocci_id/* drivers/iio/light/tsl2563.c 279 */;
+	struct tsl2563_chip *cocci_id/* drivers/iio/light/tsl2563.c 279 */;
+	u8 cocci_id/* drivers/iio/light/tsl2563.c 230 */;
+	int cocci_id/* drivers/iio/light/tsl2563.c 230 */;
+	u8 *cocci_id/* drivers/iio/light/tsl2563.c 210 */;
+	struct tsl2563_chip cocci_id/* drivers/iio/light/tsl2563.c 191 */;
+	struct work_struct *cocci_id/* drivers/iio/light/tsl2563.c 188 */;
+	void cocci_id/* drivers/iio/light/tsl2563.c 188 */;
+	struct tsl2563_chip {
+		struct mutex lock;
+		struct i2c_client *client;
+		struct delayed_work poweroff_work;
+		bool suspended;
+		const struct tsl2563_gainlevel_coeff *gainlevel;
+		u16 low_thres;
+		u16 high_thres;
+		u8 intr;
+		bool int_enabled;
+		u32 calib0;
+		u32 calib1;
+		int cover_comp_gain;
+		u32 data0;
+		u32 data1;
+	} cocci_id/* drivers/iio/light/tsl2563.c 102 */;
+}

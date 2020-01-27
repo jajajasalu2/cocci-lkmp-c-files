@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	va_list cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 829 */;
+	u32 cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 828 */[MAX_MB_ARGUMENTS];
+	struct cx18_stream *cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 753 */;
+	u32 cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 751 */[CX2341X_MBOX_MAX_DATA];
+	void *cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 750 */;
+	u32 cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 728 */;
+	u32 cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 728 */[];
+	char cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 589 */[MAX_MB_ARGUMENTS * 11 + 1];
+	unsigned long int cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 587 */;
+	struct mutex *cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 586 */;
+	wait_queue_head_t *cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 585 */;
+	struct cx18_mailbox __iomem *cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 584 */;
+	const struct cx18_api_info *cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 582 */;
+	struct cx18_mailbox *cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 523 */;
+	void cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 520 */;
+	int cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 499 */;
+	struct cx18_in_work_order *cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 497 */;
+	struct cx18 *cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 497 */;
+	u32 *cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 435 */;
+	struct cx18_mdl_ack cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 434 */;
+	struct cx18_in_work_order cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 371 */;
+	struct work_struct *cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 368 */;
+	const struct cx18_api_info cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 34 */[];
+	struct cx18_api_info {
+		u32 cmd;
+		u8 flags;
+		u8 rpu;
+		const char *name;
+	} cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 25 */;
+	struct cx18_mdl_ack *cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 234 */;
+	struct cx18_buffer cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 215 */;
+	struct cx18_buffer *cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 206 */;
+	struct cx18_mdl *cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 204 */;
+	const char *cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 20 */[];
+	struct cx18_videobuf_buffer cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 165 */;
+	u8 *cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 153 */;
+	struct cx18_videobuf_buffer *cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 151 */;
+	char *cocci_id/* drivers/media/pci/cx18/cx18-mailbox.c 105 */;
+}

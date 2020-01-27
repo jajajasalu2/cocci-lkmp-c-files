@@ -1,0 +1,75 @@
+cocci_test_suite() {
+	struct snd_amd7930 **cocci_id/* sound/sparc/amd7930.c 940 */;
+	struct snd_device_ops cocci_id/* sound/sparc/amd7930.c 933 */;
+	struct snd_device *cocci_id/* sound/sparc/amd7930.c 926 */;
+	struct snd_kcontrol_new cocci_id/* sound/sparc/amd7930.c 858 */[];
+	struct amd7930_map {
+		__u16 x[8];
+		__u16 r[8];
+		__u16 gx;
+		__u16 gr;
+		__u16 ger;
+		__u16 stgr;
+		__u16 ftgr;
+		__u16 atgr;
+		__u8 mmr1;
+		__u8 mmr2;
+	} cocci_id/* sound/sparc/amd7930.c 84 */;
+	int *cocci_id/* sound/sparc/amd7930.c 804 */;
+	struct snd_kcontrol *cocci_id/* sound/sparc/amd7930.c 800 */;
+	struct snd_ctl_elem_value *cocci_id/* sound/sparc/amd7930.c 800 */;
+	struct snd_ctl_elem_info *cocci_id/* sound/sparc/amd7930.c 790 */;
+	struct snd_pcm *cocci_id/* sound/sparc/amd7930.c 761 */;
+	const struct snd_pcm_ops cocci_id/* sound/sparc/amd7930.c 748 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/sparc/amd7930.c 727 */;
+	struct snd_pcm_substream *cocci_id/* sound/sparc/amd7930.c 718 */;
+	struct snd_pcm_runtime *cocci_id/* sound/sparc/amd7930.c 703 */;
+	const struct snd_pcm_hardware cocci_id/* sound/sparc/amd7930.c 670 */;
+	size_t cocci_id/* sound/sparc/amd7930.c 660 */;
+	snd_pcm_uframes_t cocci_id/* sound/sparc/amd7930.c 657 */;
+	u8 cocci_id/* sound/sparc/amd7930.c 620 */;
+	unsigned int cocci_id/* sound/sparc/amd7930.c 618 */;
+	bool cocci_id/* sound/sparc/amd7930.c 60 */;
+	bool cocci_id/* sound/sparc/amd7930.c 54 */[SNDRV_CARDS];
+	char *cocci_id/* sound/sparc/amd7930.c 53 */[SNDRV_CARDS];
+	int cocci_id/* sound/sparc/amd7930.c 52 */[SNDRV_CARDS];
+	irqreturn_t cocci_id/* sound/sparc/amd7930.c 495 */;
+	void *cocci_id/* sound/sparc/amd7930.c 495 */;
+	int cocci_id/* sound/sparc/amd7930.c 480 */;
+	struct amd7930_map *cocci_id/* sound/sparc/amd7930.c 479 */;
+	struct snd_amd7930 *cocci_id/* sound/sparc/amd7930.c 477 */;
+	void cocci_id/* sound/sparc/amd7930.c 477 */;
+	__const__ __u16 cocci_id/* sound/sparc/amd7930.c 450 */[];
+	__const__ __u16 cocci_id/* sound/sparc/amd7930.c 415 */[256];
+	unsigned long cocci_id/* sound/sparc/amd7930.c 372 */;
+	struct snd_amd7930 {
+		spinlock_t lock;
+		void __iomem *regs;
+		u32 flags;
+#define AMD7930_FLAG_PLAYBACK 0x00000001
+#define AMD7930_FLAG_CAPTURE 0x00000002
+		struct amd7930_map map;
+		struct snd_card *card;
+		struct snd_pcm *pcm;
+		struct snd_pcm_substream *playback_substream;
+		struct snd_pcm_substream *capture_substream;
+		unsigned char *p_orig,*p_cur;
+		int p_left;
+		unsigned char *c_orig,*c_cur;
+		int c_left;
+		int rgain;
+		int pgain;
+		int mgain;
+		struct platform_device *op;
+		unsigned int irq;
+		struct snd_amd7930 *next;
+	} cocci_id/* sound/sparc/amd7930.c 316 */;
+	void __exit cocci_id/* sound/sparc/amd7930.c 1083 */;
+	int __init cocci_id/* sound/sparc/amd7930.c 1078 */;
+	struct platform_driver cocci_id/* sound/sparc/amd7930.c 1070 */;
+	const struct of_device_id cocci_id/* sound/sparc/amd7930.c 1062 */[];
+	unsigned long long cocci_id/* sound/sparc/amd7930.c 1034 */;
+	struct snd_card *cocci_id/* sound/sparc/amd7930.c 1011 */;
+	struct resource *cocci_id/* sound/sparc/amd7930.c 1009 */;
+	struct platform_device *cocci_id/* sound/sparc/amd7930.c 1007 */;
+}

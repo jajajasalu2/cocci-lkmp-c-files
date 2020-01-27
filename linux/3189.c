@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	s32 cocci_id/* drivers/hwmon/ina209.c 81 */;
+	struct ina209_data {
+		struct i2c_client *client;
+		struct mutex update_lock;
+		bool valid;
+		unsigned long last_updated;
+		u16 regs[INA209_REGISTERS];
+		u16 config_orig;
+		u16 calibration_orig;
+		u16 update_interval;
+	} cocci_id/* drivers/hwmon/ina209.c 62 */;
+	struct i2c_driver cocci_id/* drivers/hwmon/ina209.c 594 */;
+	const struct of_device_id __maybe_unused cocci_id/* drivers/hwmon/ina209.c 587 */[];
+	const struct i2c_device_id cocci_id/* drivers/hwmon/ina209.c 581 */[];
+	struct i2c_adapter *cocci_id/* drivers/hwmon/ina209.c 537 */;
+	const struct i2c_device_id *cocci_id/* drivers/hwmon/ina209.c 535 */;
+	struct ina2xx_platform_data *cocci_id/* drivers/hwmon/ina209.c 490 */;
+	void cocci_id/* drivers/hwmon/ina209.c 477 */;
+	struct attribute *cocci_id/* drivers/hwmon/ina209.c 434 */[];
+	u16 cocci_id/* drivers/hwmon/ina209.c 355 */;
+	const unsigned int cocci_id/* drivers/hwmon/ina209.c 354 */;
+	struct ina209_data *cocci_id/* drivers/hwmon/ina209.c 353 */;
+	struct sensor_device_attribute *cocci_id/* drivers/hwmon/ina209.c 352 */;
+	struct device_attribute *cocci_id/* drivers/hwmon/ina209.c 350 */;
+	char *cocci_id/* drivers/hwmon/ina209.c 350 */;
+	struct device *cocci_id/* drivers/hwmon/ina209.c 349 */;
+	ssize_t cocci_id/* drivers/hwmon/ina209.c 349 */;
+	int cocci_id/* drivers/hwmon/ina209.c 288 */;
+	u32 cocci_id/* drivers/hwmon/ina209.c 286 */;
+	struct i2c_client *cocci_id/* drivers/hwmon/ina209.c 285 */;
+	const char *cocci_id/* drivers/hwmon/ina209.c 281 */;
+	size_t cocci_id/* drivers/hwmon/ina209.c 281 */;
+	u16 cocci_id/* drivers/hwmon/ina209.c 271 */[];
+	u8 cocci_id/* drivers/hwmon/ina209.c 158 */;
+	s16 cocci_id/* drivers/hwmon/ina209.c 117 */;
+	const u8 cocci_id/* drivers/hwmon/ina209.c 108 */;
+	const u16 cocci_id/* drivers/hwmon/ina209.c 108 */;
+	long cocci_id/* drivers/hwmon/ina209.c 108 */;
+}

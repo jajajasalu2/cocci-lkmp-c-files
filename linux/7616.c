@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	struct fb_info *cocci_id/* drivers/video/fbdev/pm2fb.c 997 */;
+	unsigned cocci_id/* drivers/video/fbdev/pm2fb.c 866 */;
+	struct pm2fb_par {
+		pm2type_t type;
+		unsigned char __iomem *v_regs;
+		u32 memclock;
+		u32 video;
+		u32 mem_config;
+		u32 mem_control;
+		u32 boot_address;
+		u32 palette[16];
+		int wc_cookie;
+	} cocci_id/* drivers/video/fbdev/pm2fb.c 86 */;
+	bool cocci_id/* drivers/video/fbdev/pm2fb.c 77 */;
+	char *cocci_id/* drivers/video/fbdev/pm2fb.c 66 */;
+	struct fb_var_screeninfo *cocci_id/* drivers/video/fbdev/pm2fb.c 563 */;
+	int cocci_id/* drivers/video/fbdev/pm2fb.c 306 */;
+	unsigned char cocci_id/* drivers/video/fbdev/pm2fb.c 253 */;
+	unsigned char *cocci_id/* drivers/video/fbdev/pm2fb.c 250 */;
+	const struct {
+		u16 width;
+		u16 pp;
+	} cocci_id/* drivers/video/fbdev/pm2fb.c 198 */[];
+	u32 cocci_id/* drivers/video/fbdev/pm2fb.c 187 */;
+	struct pm2fb_par *cocci_id/* drivers/video/fbdev/pm2fb.c 187 */;
+	void cocci_id/* drivers/video/fbdev/pm2fb.c 187 */;
+	void __exit cocci_id/* drivers/video/fbdev/pm2fb.c 1811 */;
+	int __init cocci_id/* drivers/video/fbdev/pm2fb.c 1791 */;
+	struct pci_driver cocci_id/* drivers/video/fbdev/pm2fb.c 1747 */;
+	const struct pci_device_id cocci_id/* drivers/video/fbdev/pm2fb.c 1737 */[];
+	struct fb_fix_screeninfo *cocci_id/* drivers/video/fbdev/pm2fb.c 1722 */;
+	struct pm2fb_par cocci_id/* drivers/video/fbdev/pm2fb.c 1526 */;
+	const struct pci_device_id *cocci_id/* drivers/video/fbdev/pm2fb.c 1513 */;
+	struct pci_dev *cocci_id/* drivers/video/fbdev/pm2fb.c 1513 */;
+	struct fb_ops cocci_id/* drivers/video/fbdev/pm2fb.c 1486 */;
+	s32 cocci_id/* drivers/video/fbdev/pm2fb.c 144 */;
+	u8 *cocci_id/* drivers/video/fbdev/pm2fb.c 1424 */;
+	u8 cocci_id/* drivers/video/fbdev/pm2fb.c 1363 */;
+	struct fb_cursor *cocci_id/* drivers/video/fbdev/pm2fb.c 1360 */;
+	struct fb_cmap cocci_id/* drivers/video/fbdev/pm2fb.c 1296 */;
+	const u8 cocci_id/* drivers/video/fbdev/pm2fb.c 1254 */[16];
+	const struct fb_var_screeninfo cocci_id/* drivers/video/fbdev/pm2fb.c 116 */;
+	const u32 *cocci_id/* drivers/video/fbdev/pm2fb.c 1155 */;
+	const struct fb_image *cocci_id/* drivers/video/fbdev/pm2fb.c 1150 */;
+	struct fb_copyarea cocci_id/* drivers/video/fbdev/pm2fb.c 1107 */;
+	const struct fb_copyarea *cocci_id/* drivers/video/fbdev/pm2fb.c 1104 */;
+	u32 *cocci_id/* drivers/video/fbdev/pm2fb.c 1052 */;
+	struct fb_fillrect cocci_id/* drivers/video/fbdev/pm2fb.c 1049 */;
+	const struct fb_fillrect *cocci_id/* drivers/video/fbdev/pm2fb.c 1046 */;
+	struct fb_fix_screeninfo cocci_id/* drivers/video/fbdev/pm2fb.c 103 */;
+}

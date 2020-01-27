@@ -1,0 +1,66 @@
+cocci_test_suite() {
+	const struct i2c_device_id *cocci_id/* drivers/iio/proximity/sx9500.c 914 */;
+	struct device *cocci_id/* drivers/iio/proximity/sx9500.c 886 */;
+	struct gpio_desc *cocci_id/* drivers/iio/proximity/sx9500.c 885 */;
+	struct i2c_client *cocci_id/* drivers/iio/proximity/sx9500.c 882 */;
+	void cocci_id/* drivers/iio/proximity/sx9500.c 882 */;
+	const struct acpi_gpio_mapping cocci_id/* drivers/iio/proximity/sx9500.c 872 */[];
+	const struct acpi_gpio_params cocci_id/* drivers/iio/proximity/sx9500.c 870 */;
+	struct sx9500_data {
+		struct mutex mutex;
+		struct i2c_client *client;
+		struct iio_trigger *trig;
+		struct regmap *regmap;
+		struct gpio_desc *gpiod_rst;
+		bool prox_stat[SX9500_NUM_CHANNELS];
+		bool event_enabled[SX9500_NUM_CHANNELS];
+		bool trigger_enabled;
+		u16 *buffer;
+		unsigned int suspend_ctrl0;
+		struct completion completion;
+		int data_rdy_users,close_far_users;
+		int channel_users[SX9500_NUM_CHANNELS];
+	} cocci_id/* drivers/iio/proximity/sx9500.c 79 */;
+	const struct sx9500_reg_default cocci_id/* drivers/iio/proximity/sx9500.c 745 */[];
+	struct sx9500_reg_default {
+		u8 reg;
+		u8 def;
+	} cocci_id/* drivers/iio/proximity/sx9500.c 740 */;
+	const struct iio_buffer_setup_ops cocci_id/* drivers/iio/proximity/sx9500.c 735 */;
+	struct sx9500_data *cocci_id/* drivers/iio/proximity/sx9500.c 680 */;
+	struct iio_dev *cocci_id/* drivers/iio/proximity/sx9500.c 678 */;
+	int cocci_id/* drivers/iio/proximity/sx9500.c 678 */;
+	struct iio_poll_func *cocci_id/* drivers/iio/proximity/sx9500.c 650 */;
+	const struct iio_trigger_ops cocci_id/* drivers/iio/proximity/sx9500.c 644 */;
+	struct iio_trigger *cocci_id/* drivers/iio/proximity/sx9500.c 620 */;
+	const struct iio_info cocci_id/* drivers/iio/proximity/sx9500.c 611 */;
+	const struct attribute_group cocci_id/* drivers/iio/proximity/sx9500.c 607 */;
+	struct attribute *cocci_id/* drivers/iio/proximity/sx9500.c 602 */[];
+	const unsigned long *cocci_id/* drivers/iio/proximity/sx9500.c 584 */;
+	enum iio_event_direction cocci_id/* drivers/iio/proximity/sx9500.c 528 */;
+	enum iio_event_type cocci_id/* drivers/iio/proximity/sx9500.c 527 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/proximity/sx9500.c 526 */;
+	bool cocci_id/* drivers/iio/proximity/sx9500.c 482 */;
+	u64 cocci_id/* drivers/iio/proximity/sx9500.c 481 */;
+	irqreturn_t cocci_id/* drivers/iio/proximity/sx9500.c 449 */;
+	void *cocci_id/* drivers/iio/proximity/sx9500.c 449 */;
+	long cocci_id/* drivers/iio/proximity/sx9500.c 381 */;
+	__be16 cocci_id/* drivers/iio/proximity/sx9500.c 269 */;
+	unsigned int cocci_id/* drivers/iio/proximity/sx9500.c 216 */;
+	int *cocci_id/* drivers/iio/proximity/sx9500.c 215 */;
+	const struct regmap_config cocci_id/* drivers/iio/proximity/sx9500.c 192 */;
+	const struct regmap_access_table cocci_id/* drivers/iio/proximity/sx9500.c 176 */;
+	const struct regmap_range cocci_id/* drivers/iio/proximity/sx9500.c 169 */[];
+	const unsigned int cocci_id/* drivers/iio/proximity/sx9500.c 148 */[];
+	const struct {
+		int val;
+		int val2;
+	} cocci_id/* drivers/iio/proximity/sx9500.c 134 */[];
+	const struct iio_chan_spec cocci_id/* drivers/iio/proximity/sx9500.c 126 */[];
+	struct i2c_driver cocci_id/* drivers/iio/proximity/sx9500.c 1069 */;
+	const struct i2c_device_id cocci_id/* drivers/iio/proximity/sx9500.c 1063 */[];
+	const struct of_device_id cocci_id/* drivers/iio/proximity/sx9500.c 1057 */[];
+	const struct acpi_device_id cocci_id/* drivers/iio/proximity/sx9500.c 1050 */[];
+	const struct dev_pm_ops cocci_id/* drivers/iio/proximity/sx9500.c 1046 */;
+	const struct iio_event_spec cocci_id/* drivers/iio/proximity/sx9500.c 100 */[];
+}

@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	const struct nfs_fh *cocci_id/* fs/nfs/delegation.c 958 */;
+	struct nfs_server *cocci_id/* fs/nfs/delegation.c 898 */;
+	const nfs4_stateid *cocci_id/* fs/nfs/delegation.c 896 */;
+	struct nfs_delegation cocci_id/* fs/nfs/delegation.c 542 */;
+	struct nfs_server cocci_id/* fs/nfs/delegation.c 535 */;
+	const struct nfs_delegation *cocci_id/* fs/nfs/delegation.c 46 */;
+	struct nfs_client *cocci_id/* fs/nfs/delegation.c 277 */;
+	void cocci_id/* fs/nfs/delegation.c 275 */;
+	unsigned long cocci_id/* fs/nfs/delegation.c 193 */;
+	unsigned int cocci_id/* fs/nfs/delegation.c 144 */;
+	struct nfs4_state_owner *cocci_id/* fs/nfs/delegation.c 142 */;
+	struct nfs_open_context *cocci_id/* fs/nfs/delegation.c 141 */;
+	const struct inode *cocci_id/* fs/nfs/delegation.c 1304 */;
+	struct nfs_delegation *cocci_id/* fs/nfs/delegation.c 1279 */;
+	struct nfs_inode *cocci_id/* fs/nfs/delegation.c 1278 */;
+	nfs4_stateid *cocci_id/* fs/nfs/delegation.c 1276 */;
+	const struct cred **cocci_id/* fs/nfs/delegation.c 1276 */;
+	bool cocci_id/* fs/nfs/delegation.c 1275 */;
+	nfs4_stateid cocci_id/* fs/nfs/delegation.c 1151 */;
+	const struct nfs4_minor_version_ops *cocci_id/* fs/nfs/delegation.c 1126 */;
+	const struct cred *cocci_id/* fs/nfs/delegation.c 1123 */;
+	struct list_head *cocci_id/* fs/nfs/delegation.c 110 */;
+	struct file_lock_context *cocci_id/* fs/nfs/delegation.c 109 */;
+	struct file_lock *cocci_id/* fs/nfs/delegation.c 108 */;
+	const struct nfs_client *cocci_id/* fs/nfs/delegation.c 1053 */;
+	struct nfs4_state *cocci_id/* fs/nfs/delegation.c 105 */;
+	fmode_t cocci_id/* fs/nfs/delegation.c 100 */;
+	struct inode *cocci_id/* fs/nfs/delegation.c 100 */;
+	int cocci_id/* fs/nfs/delegation.c 100 */;
+}

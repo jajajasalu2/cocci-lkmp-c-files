@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* drivers/infiniband/core/iwcm.c 951 */;
+	struct ib_qp *cocci_id/* drivers/infiniband/core/iwcm.c 950 */;
+	struct iwcm_work {
+		struct work_struct work;
+		struct iwcm_id_private *cm_id;
+		struct list_head list;
+		struct iw_cm_event event;
+		struct list_head free_list;
+	} cocci_id/* drivers/infiniband/core/iwcm.c 95 */;
+	struct iw_cm_event *cocci_id/* drivers/infiniband/core/iwcm.c 948 */;
+	struct workqueue_struct *cocci_id/* drivers/infiniband/core/iwcm.c 94 */;
+	struct rdma_nl_cbs cocci_id/* drivers/infiniband/core/iwcm.c 83 */[RDMA_NL_IWPM_NUM_OPS];
+	size_t cocci_id/* drivers/infiniband/core/iwcm.c 70 */;
+	const char *__attribute_const__ cocci_id/* drivers/infiniband/core/iwcm.c 68 */;
+	struct iw_cm_conn_param *cocci_id/* drivers/infiniband/core/iwcm.c 641 */;
+	const char *const cocci_id/* drivers/infiniband/core/iwcm.c 62 */[];
+	u8 cocci_id/* drivers/infiniband/core/iwcm.c 604 */;
+	const void *cocci_id/* drivers/infiniband/core/iwcm.c 603 */;
+	struct iwpm_sa_data cocci_id/* drivers/infiniband/core/iwcm.c 511 */;
+	struct iwpm_dev_data cocci_id/* drivers/infiniband/core/iwcm.c 510 */;
+	const char *cocci_id/* drivers/infiniband/core/iwcm.c 508 */;
+	bool cocci_id/* drivers/infiniband/core/iwcm.c 506 */;
+	struct sockaddr_in6 *cocci_id/* drivers/infiniband/core/iwcm.c 482 */;
+	struct sockaddr_in *cocci_id/* drivers/infiniband/core/iwcm.c 471 */;
+	struct sockaddr_storage *cocci_id/* drivers/infiniband/core/iwcm.c 466 */;
+	struct ib_qp_attr cocci_id/* drivers/infiniband/core/iwcm.c 271 */;
+	iw_cm_handler cocci_id/* drivers/infiniband/core/iwcm.c 241 */;
+	struct ib_device *cocci_id/* drivers/infiniband/core/iwcm.c 240 */;
+	int cocci_id/* drivers/infiniband/core/iwcm.c 238 */(struct iw_cm_id *cm_id,
+							     struct iw_cm_event *event);
+	struct iwcm_id_private cocci_id/* drivers/infiniband/core/iwcm.c 225 */;
+	struct iwcm_id_private *cocci_id/* drivers/infiniband/core/iwcm.c 224 */;
+	struct iw_cm_id *cocci_id/* drivers/infiniband/core/iwcm.c 222 */;
+	void cocci_id/* drivers/infiniband/core/iwcm.c 222 */;
+	void *cocci_id/* drivers/infiniband/core/iwcm.c 191 */;
+	struct iwcm_work cocci_id/* drivers/infiniband/core/iwcm.c 172 */;
+	struct iwcm_work *cocci_id/* drivers/infiniband/core/iwcm.c 168 */;
+	int cocci_id/* drivers/infiniband/core/iwcm.c 166 */;
+	struct list_head *cocci_id/* drivers/infiniband/core/iwcm.c 160 */;
+	void __exit cocci_id/* drivers/infiniband/core/iwcm.c 1206 */;
+	int __init cocci_id/* drivers/infiniband/core/iwcm.c 1182 */;
+	int *cocci_id/* drivers/infiniband/core/iwcm.c 1158 */;
+	struct ib_qp_attr *cocci_id/* drivers/infiniband/core/iwcm.c 1157 */;
+	struct ctl_table cocci_id/* drivers/infiniband/core/iwcm.c 106 */[];
+	struct ctl_table_header *cocci_id/* drivers/infiniband/core/iwcm.c 105 */;
+	unsigned int cocci_id/* drivers/infiniband/core/iwcm.c 103 */;
+	struct iw_cm_event cocci_id/* drivers/infiniband/core/iwcm.c 1017 */;
+	struct work_struct *cocci_id/* drivers/infiniband/core/iwcm.c 1014 */;
+}

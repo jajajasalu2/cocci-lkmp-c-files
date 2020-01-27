@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	struct ieee802154_llsec_key_entry *cocci_id/* net/ieee802154/nl-mac.c 950 */;
+	const struct ieee802154_llsec_key_entry *cocci_id/* net/ieee802154/nl-mac.c 909 */;
+	struct ieee802154_llsec_key_id cocci_id/* net/ieee802154/nl-mac.c 873 */;
+	struct ieee802154_llsec_key cocci_id/* net/ieee802154/nl-mac.c 872 */;
+	u32 cocci_id/* net/ieee802154/nl-mac.c 835 */[256 / 32];
+	struct ieee802154_llsec_key *cocci_id/* net/ieee802154/nl-mac.c 832 */;
+	int (*cocci_id/* net/ieee802154/nl-mac.c 812 */)(struct net_device *,
+							 struct genl_info *);
+	__le16 cocci_id/* net/ieee802154/nl-mac.c 80 */;
+	struct wpan_phy *cocci_id/* net/ieee802154/nl-mac.c 78 */;
+	struct llsec_dump_data cocci_id/* net/ieee802154/nl-mac.c 774 */;
+	int (*cocci_id/* net/ieee802154/nl-mac.c 770 */)(struct llsec_dump_data *);
+	struct llsec_dump_data {
+		struct sk_buff *skb;
+		int s_idx,s_idx2;
+		int portid;
+		int nlmsg_seq;
+		struct net_device *dev;
+		struct ieee802154_mlme_ops *ops;
+		struct ieee802154_llsec_table *table;
+	} cocci_id/* net/ieee802154/nl-mac.c 758 */;
+	struct ieee802154_llsec_params cocci_id/* net/ieee802154/nl-mac.c 649 */;
+	void *cocci_id/* net/ieee802154/nl-mac.c 648 */;
+	struct ieee802154_mlme_ops *cocci_id/* net/ieee802154/nl-mac.c 647 */;
+	const struct ieee802154_llsec_key_id *cocci_id/* net/ieee802154/nl-mac.c 603 */;
+	u32 cocci_id/* net/ieee802154/nl-mac.c 588 */;
+	struct ieee802154_llsec_key_id *cocci_id/* net/ieee802154/nl-mac.c 544 */;
+	struct net *cocci_id/* net/ieee802154/nl-mac.c 440 */;
+	struct netlink_callback *cocci_id/* net/ieee802154/nl-mac.c 438 */;
+	const struct nlattr *cocci_id/* net/ieee802154/nl-mac.c 36 */;
+	u64 cocci_id/* net/ieee802154/nl-mac.c 32 */;
+	u8 cocci_id/* net/ieee802154/nl-mac.c 177 */;
+	struct ieee802154_addr cocci_id/* net/ieee802154/nl-mac.c 176 */;
+	struct net_device *cocci_id/* net/ieee802154/nl-mac.c 175 */;
+	struct sk_buff *cocci_id/* net/ieee802154/nl-mac.c 173 */;
+	struct genl_info *cocci_id/* net/ieee802154/nl-mac.c 173 */;
+	int cocci_id/* net/ieee802154/nl-mac.c 173 */;
+	char cocci_id/* net/ieee802154/nl-mac.c 150 */[IFNAMSIZ + 1];
+	struct ieee802154_llsec_seclevel *cocci_id/* net/ieee802154/nl-mac.c 1317 */;
+	const struct ieee802154_llsec_seclevel *cocci_id/* net/ieee802154/nl-mac.c 1283 */;
+	struct ieee802154_llsec_seclevel cocci_id/* net/ieee802154/nl-mac.c 1248 */;
+	struct ieee802154_llsec_device_key *cocci_id/* net/ieee802154/nl-mac.c 1185 */;
+	struct ieee802154_llsec_device *cocci_id/* net/ieee802154/nl-mac.c 1184 */;
+	struct llsec_dump_data *cocci_id/* net/ieee802154/nl-mac.c 1182 */;
+	const struct ieee802154_llsec_device_key *cocci_id/* net/ieee802154/nl-mac.c 1154 */;
+	__le64 cocci_id/* net/ieee802154/nl-mac.c 1153 */;
+	struct ieee802154_llsec_device_key cocci_id/* net/ieee802154/nl-mac.c 1108 */;
+	struct ieee802154_mac_params cocci_id/* net/ieee802154/nl-mac.c 109 */;
+	const struct net_device *cocci_id/* net/ieee802154/nl-mac.c 1047 */;
+	const struct ieee802154_llsec_device *cocci_id/* net/ieee802154/nl-mac.c 1046 */;
+	struct ieee802154_llsec_device cocci_id/* net/ieee802154/nl-mac.c 1009 */;
+}

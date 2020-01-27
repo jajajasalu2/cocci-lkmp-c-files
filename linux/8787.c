@@ -1,0 +1,57 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/net/ethernet/8390/etherh.c 850 */;
+	int __init cocci_id/* drivers/net/ethernet/8390/etherh.c 838 */;
+	struct ecard_driver cocci_id/* drivers/net/ethernet/8390/etherh.c 829 */;
+	const struct ecard_id cocci_id/* drivers/net/ethernet/8390/etherh.c 821 */[];
+	struct etherh_data cocci_id/* drivers/net/ethernet/8390/etherh.c 790 */;
+	struct etherh_data {
+		unsigned long ns8390_offset;
+		unsigned long dataport_offset;
+		unsigned long ctrlport_offset;
+		int ctrl_ioc;
+		const char name[16];
+		u32 supported;
+		unsigned char tx_start_page;
+		unsigned char stop_page;
+	} cocci_id/* drivers/net/ethernet/8390/etherh.c 74 */;
+	struct etherh_priv cocci_id/* drivers/net/ethernet/8390/etherh.c 664 */;
+	const struct etherh_data *cocci_id/* drivers/net/ethernet/8390/etherh.c 654 */;
+	const struct ecard_id *cocci_id/* drivers/net/ethernet/8390/etherh.c 652 */;
+	u32 cocci_id/* drivers/net/ethernet/8390/etherh.c 648 */[16];
+	struct etherh_priv {
+		void __iomem *ioc_fast;
+		void __iomem *memc;
+		void __iomem *dma_base;
+		unsigned int id;
+		void __iomem *ctrl_port;
+		unsigned char ctrl;
+		u32 supported;
+	} cocci_id/* drivers/net/ethernet/8390/etherh.c 64 */;
+	const struct net_device_ops cocci_id/* drivers/net/ethernet/8390/etherh.c 633 */;
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/8390/etherh.c 624 */;
+	u32 cocci_id/* drivers/net/ethernet/8390/etherh.c 610 */;
+	char cocci_id/* drivers/net/ethernet/8390/etherh.c 59 */[];
+	const struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/8390/etherh.c 578 */;
+	struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/8390/etherh.c 565 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/ethernet/8390/etherh.c 556 */;
+	struct in_chunk_dir cocci_id/* drivers/net/ethernet/8390/etherh.c 505 */;
+	struct expansion_card *cocci_id/* drivers/net/ethernet/8390/etherh.c 503 */;
+	char *cocci_id/* drivers/net/ethernet/8390/etherh.c 503 */;
+	int cocci_id/* drivers/net/ethernet/8390/etherh.c 503 */;
+	struct e8390_pkt_hdr *cocci_id/* drivers/net/ethernet/8390/etherh.c 411 */;
+	void __iomem *cocci_id/* drivers/net/ethernet/8390/etherh.c 374 */;
+	unsigned char *cocci_id/* drivers/net/ethernet/8390/etherh.c 373 */;
+	struct ei_device *cocci_id/* drivers/net/ethernet/8390/etherh.c 372 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/8390/etherh.c 370 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/8390/etherh.c 370 */;
+	void cocci_id/* drivers/net/ethernet/8390/etherh.c 369 */;
+	unsigned long cocci_id/* drivers/net/ethernet/8390/etherh.c 308 */;
+	const unsigned char *cocci_id/* drivers/net/ethernet/8390/etherh.c 305 */;
+	struct ifmap *cocci_id/* drivers/net/ethernet/8390/etherh.c 251 */;
+	expansioncard_ops_t cocci_id/* drivers/net/ethernet/8390/etherh.c 155 */;
+	ecard_t *cocci_id/* drivers/net/ethernet/8390/etherh.c 148 */;
+	unsigned int cocci_id/* drivers/net/ethernet/8390/etherh.c 133 */;
+	struct etherh_priv *cocci_id/* drivers/net/ethernet/8390/etherh.c 126 */;
+	unsigned char cocci_id/* drivers/net/ethernet/8390/etherh.c 126 */;
+	struct ei_device cocci_id/* drivers/net/ethernet/8390/etherh.c 117 */;
+}

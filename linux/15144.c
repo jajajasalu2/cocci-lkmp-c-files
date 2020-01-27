@@ -1,0 +1,121 @@
+cocci_test_suite() {
+	struct vfio_device {
+		struct kref kref;
+		struct device *dev;
+		const struct vfio_device_ops *ops;
+		struct vfio_group *group;
+		struct list_head group_next;
+		void *device_data;
+	} cocci_id/* drivers/vfio/vfio.c 92 */;
+	unsigned int cocci_id/* drivers/vfio/vfio.c 912 */;
+	struct vfio_unbound_dev *cocci_id/* drivers/vfio/vfio.c 911 */;
+	char *cocci_id/* drivers/vfio/vfio.c 876 */;
+	struct vfio_device *cocci_id/* drivers/vfio/vfio.c 805 */;
+	struct iommu_group *cocci_id/* drivers/vfio/vfio.c 803 */;
+	const struct vfio_device_ops *cocci_id/* drivers/vfio/vfio.c 801 */;
+	struct device *cocci_id/* drivers/vfio/vfio.c 800 */;
+	struct notifier_block *cocci_id/* drivers/vfio/vfio.c 720 */;
+	struct vfio_group {
+		struct kref kref;
+		int minor;
+		atomic_t container_users;
+		struct iommu_group *iommu_group;
+		struct vfio_container *container;
+		struct list_head device_list;
+		struct mutex device_lock;
+		struct device *dev;
+		struct notifier_block nb;
+		struct list_head vfio_next;
+		struct list_head container_next;
+		struct list_head unbound_list;
+		struct mutex unbound_lock;
+		atomic_t opened;
+		wait_queue_head_t container_q;
+		bool noiommu;
+		struct kvm *kvm;
+		struct blocking_notifier_head notifier;
+	} cocci_id/* drivers/vfio/vfio.c 71 */;
+	struct device_driver *cocci_id/* drivers/vfio/vfio.c 661 */;
+	struct vfio_unbound_dev {
+		struct device *dev;
+		struct list_head unbound_next;
+	} cocci_id/* drivers/vfio/vfio.c 66 */;
+	struct pci_dev *cocci_id/* drivers/vfio/vfio.c 632 */;
+	const char *const cocci_id/* drivers/vfio/vfio.c 627 */[];
+	struct vfio_container {
+		struct kref kref;
+		struct list_head group_list;
+		struct rw_semaphore group_lock;
+		struct vfio_iommu_driver *iommu_driver;
+		void *iommu_data;
+		bool noiommu;
+	} cocci_id/* drivers/vfio/vfio.c 57 */;
+	struct vfio_device cocci_id/* drivers/vfio/vfio.c 566 */;
+	struct vfio_iommu_driver {
+		const struct vfio_iommu_driver_ops *ops;
+		struct list_head vfio_next;
+	} cocci_id/* drivers/vfio/vfio.c 52 */;
+	struct vfio_group_put_work cocci_id/* drivers/vfio/vfio.c 436 */;
+	struct vfio_group_put_work *cocci_id/* drivers/vfio/vfio.c 434 */;
+	struct work_struct *cocci_id/* drivers/vfio/vfio.c 432 */;
+	struct vfio_group_put_work {
+		struct work_struct work;
+		struct vfio_group *group;
+	} cocci_id/* drivers/vfio/vfio.c 427 */;
+	struct vfio_group cocci_id/* drivers/vfio/vfio.c 402 */;
+	struct vfio {
+		struct class *class;
+		struct list_head iommu_drivers_list;
+		struct mutex iommu_drivers_lock;
+		struct list_head group_list;
+		struct idr group_idr;
+		struct mutex group_lock;
+		struct cdev group_cdev;
+		dev_t group_devt;
+		wait_queue_head_t release_q;
+	} cocci_id/* drivers/vfio/vfio.c 40 */;
+	struct vfio_container cocci_id/* drivers/vfio/vfio.c 299 */;
+	struct kref *cocci_id/* drivers/vfio/vfio.c 296 */;
+	void cocci_id/* drivers/vfio/vfio.c 283 */(struct vfio_group *group);
+	int cocci_id/* drivers/vfio/vfio.c 281 */(struct notifier_block *nb,
+						  unsigned long action,
+						  void *data);
+	const struct vfio_iommu_driver_ops *cocci_id/* drivers/vfio/vfio.c 222 */;
+	void __exit cocci_id/* drivers/vfio/vfio.c 2199 */;
+	int __init cocci_id/* drivers/vfio/vfio.c 2147 */;
+	struct miscdevice cocci_id/* drivers/vfio/vfio.c 2139 */;
+	umode_t *cocci_id/* drivers/vfio/vfio.c 2134 */;
+	enum vfio_notify_type cocci_id/* drivers/vfio/vfio.c 2073 */;
+	const struct vfio_iommu_driver_ops cocci_id/* drivers/vfio/vfio.c 207 */;
+	struct kvm *cocci_id/* drivers/vfio/vfio.c 2013 */;
+	unsigned long *cocci_id/* drivers/vfio/vfio.c 1880 */;
+	struct vfio_irq_set cocci_id/* drivers/vfio/vfio.c 1827 */;
+	size_t *cocci_id/* drivers/vfio/vfio.c 1822 */;
+	struct vfio_irq_set *cocci_id/* drivers/vfio/vfio.c 1821 */;
+	struct vfio_info_cap_header *cocci_id/* drivers/vfio/vfio.c 1807 */;
+	struct vfio_info_cap *cocci_id/* drivers/vfio/vfio.c 1806 */;
+	u16 cocci_id/* drivers/vfio/vfio.c 1764 */;
+	struct vm_area_struct *cocci_id/* drivers/vfio/vfio.c 1658 */;
+	struct file *cocci_id/* drivers/vfio/vfio.c 1658 */;
+	const char __user *cocci_id/* drivers/vfio/vfio.c 1647 */;
+	loff_t *cocci_id/* drivers/vfio/vfio.c 1636 */;
+	size_t cocci_id/* drivers/vfio/vfio.c 1636 */;
+	char __user *cocci_id/* drivers/vfio/vfio.c 1635 */;
+	ssize_t cocci_id/* drivers/vfio/vfio.c 1635 */;
+	unsigned long cocci_id/* drivers/vfio/vfio.c 1625 */;
+	long cocci_id/* drivers/vfio/vfio.c 1624 */;
+	struct inode *cocci_id/* drivers/vfio/vfio.c 1611 */;
+	int __user *cocci_id/* drivers/vfio/vfio.c 1519 */;
+	void __user *cocci_id/* drivers/vfio/vfio.c 1495 */;
+	struct vfio_group_status cocci_id/* drivers/vfio/vfio.c 1490 */;
+	const struct file_operations cocci_id/* drivers/vfio/vfio.c 1417 */;
+	struct fd cocci_id/* drivers/vfio/vfio.c 1339 */;
+	void cocci_id/* drivers/vfio/vfio.c 1276 */;
+	int __maybe_unused cocci_id/* drivers/vfio/vfio.c 119 */;
+	struct vfio_group *cocci_id/* drivers/vfio/vfio.c 1061 */;
+	void *cocci_id/* drivers/vfio/vfio.c 1059 */;
+	struct vfio_iommu_driver *cocci_id/* drivers/vfio/vfio.c 1058 */;
+	struct vfio_container *cocci_id/* drivers/vfio/vfio.c 1057 */;
+	int cocci_id/* drivers/vfio/vfio.c 1057 */;
+	bool cocci_id/* drivers/vfio/vfio.c 102 */;
+}

@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	const struct cros_ec_bs_map cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 80 */[];
+	struct cros_ec_bs_map {
+		unsigned int ev_type;
+		unsigned int code;
+		u8 bit;
+		bool inverted;
+	} cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 72 */;
+	struct platform_driver cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 654 */;
+	const struct of_device_id cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 645 */[];
+	struct platform_device *cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 592 */;
+	const struct cros_ec_bs_map *cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 494 */;
+	u32 cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 446 */;
+	const char *cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 445 */;
+	struct cros_ec_keyb {
+		unsigned int rows;
+		unsigned int cols;
+		int row_shift;
+		const struct matrix_keymap_data *keymap_data;
+		bool ghost_filter;
+		uint8_t *valid_keys;
+		uint8_t *old_kb_state;
+		struct device *dev;
+		struct cros_ec_device *ec;
+		struct input_dev *idev;
+		struct input_dev *bs_idev;
+		struct notifier_block notifier;
+	} cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 44 */;
+	union ec_response_get_next_data cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 391 */;
+	struct cros_ec_command *cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 334 */;
+	struct ec_params_mkbp_info *cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 333 */;
+	size_t cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 331 */;
+	union ec_response_get_next_data *cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 330 */;
+	enum ec_mkbp_event cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 329 */;
+	enum ec_mkbp_info_type cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 328 */;
+	struct cros_ec_device *cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 327 */;
+	unsigned short cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 295 */;
+	unsigned short *cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 294 */;
+	int cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 292 */;
+	struct cros_ec_keyb *cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 290 */;
+	void cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 290 */;
+	struct cros_ec_keyb cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 227 */;
+	void *cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 225 */;
+	unsigned long cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 225 */;
+	struct notifier_block *cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 224 */;
+	unsigned int cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 206 */;
+	const unsigned short *cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 177 */;
+	struct input_dev *cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 159 */;
+	struct device *cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 119 */;
+	bool cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 116 */;
+	uint8_t *cocci_id/* drivers/input/keyboard/cros_ec_keyb.c 116 */;
+}

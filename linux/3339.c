@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	enum in_index{i_input=0, i_max, i_min, i_num_in,} cocci_id/* drivers/hwmon/lm80.c 99 */;
+	const u8 cocci_id/* drivers/hwmon/lm80.c 91 */[t_num_temp];
+	enum temp_index{t_input=0, t_hot_max, t_hot_hyst, t_os_max, t_os_hyst, t_num_temp,} cocci_id/* drivers/hwmon/lm80.c 82 */;
+	unsigned cocci_id/* drivers/hwmon/lm80.c 65 */;
+	unsigned char cocci_id/* drivers/hwmon/lm80.c 65 */;
+	struct i2c_driver cocci_id/* drivers/hwmon/lm80.c 639 */;
+	const struct i2c_device_id cocci_id/* drivers/hwmon/lm80.c 632 */[];
+	struct lm80_data cocci_id/* drivers/hwmon/lm80.c 602 */;
+	const struct i2c_device_id *cocci_id/* drivers/hwmon/lm80.c 595 */;
+	struct i2c_adapter *cocci_id/* drivers/hwmon/lm80.c 551 */;
+	struct i2c_board_info *cocci_id/* drivers/hwmon/lm80.c 549 */;
+	struct attribute *cocci_id/* drivers/hwmon/lm80.c 499 */[];
+	struct lm80_data *cocci_id/* drivers/hwmon/lm80.c 444 */;
+	int cocci_id/* drivers/hwmon/lm80.c 443 */;
+	char *cocci_id/* drivers/hwmon/lm80.c 441 */;
+	struct device_attribute *cocci_id/* drivers/hwmon/lm80.c 440 */;
+	struct device *cocci_id/* drivers/hwmon/lm80.c 440 */;
+	ssize_t cocci_id/* drivers/hwmon/lm80.c 440 */;
+	struct sensor_device_attribute *cocci_id/* drivers/hwmon/lm80.c 404 */;
+	u8 cocci_id/* drivers/hwmon/lm80.c 350 */;
+	unsigned long cocci_id/* drivers/hwmon/lm80.c 349 */;
+	struct i2c_client *cocci_id/* drivers/hwmon/lm80.c 348 */;
+	size_t cocci_id/* drivers/hwmon/lm80.c 344 */;
+	const char *cocci_id/* drivers/hwmon/lm80.c 343 */;
+	long cocci_id/* drivers/hwmon/lm80.c 278 */;
+	const unsigned short cocci_id/* drivers/hwmon/lm80.c 22 */[];
+	void cocci_id/* drivers/hwmon/lm80.c 141 */;
+	struct lm80_data {
+		struct i2c_client *client;
+		struct mutex update_lock;
+		char error;
+		char valid;
+		unsigned long last_updated;
+		u8 in[i_num_in][7];
+		u8 fan[f_num_fan][2];
+		u8 fan_div[2];
+		s16 temp[t_num_temp];
+		u16 alarms;
+	} cocci_id/* drivers/hwmon/lm80.c 116 */;
+	enum fan_index{f_input, f_min, f_num_fan,} cocci_id/* drivers/hwmon/lm80.c 106 */;
+}

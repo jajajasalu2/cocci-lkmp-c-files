@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	unsigned long long cocci_id/* arch/mips/txx9/rbtx4939/setup.c 82 */[]__initdata;
+	struct pci_controller *cocci_id/* arch/mips/txx9/rbtx4939/setup.c 61 */;
+	struct txx9_board_vec cocci_id/* arch/mips/txx9/rbtx4939/setup.c 543 */;
+	u16 *cocci_id/* arch/mips/txx9/rbtx4939/setup.c 480 */;
+	u16 cocci_id/* arch/mips/txx9/rbtx4939/setup.c 474 */[3];
+	void *cocci_id/* arch/mips/txx9/rbtx4939/setup.c 472 */;
+	u16 cocci_id/* arch/mips/txx9/rbtx4939/setup.c 47 */;
+	volatile u16 *cocci_id/* arch/mips/txx9/rbtx4939/setup.c 47 */;
+	u8 cocci_id/* arch/mips/txx9/rbtx4939/setup.c 467 */;
+	unsigned char cocci_id/* arch/mips/txx9/rbtx4939/setup.c 466 */[2][6];
+	int cocci_id/* arch/mips/txx9/rbtx4939/setup.c 465 */;
+	struct platform_device *cocci_id/* arch/mips/txx9/rbtx4939/setup.c 463 */;
+	struct smc91x_platdata cocci_id/* arch/mips/txx9/rbtx4939/setup.c 460 */;
+	struct resource cocci_id/* arch/mips/txx9/rbtx4939/setup.c 449 */[];
+	void __init cocci_id/* arch/mips/txx9/rbtx4939/setup.c 441 */;
+	struct resource *cocci_id/* arch/mips/txx9/rbtx4939/setup.c 420 */;
+	struct rbtx4939_flash_data *cocci_id/* arch/mips/txx9/rbtx4939/setup.c 384 */;
+	struct mtd_partition cocci_id/* arch/mips/txx9/rbtx4939/setup.c 383 */[4];
+	char cocci_id/* arch/mips/txx9/rbtx4939/setup.c 382 */[4][8];
+	struct {
+		struct platform_device dev;
+		struct resource res;
+		struct rbtx4939_flash_data data;
+	} cocci_id/* arch/mips/txx9/rbtx4939/setup.c 376 */[4];
+	ssize_t cocci_id/* arch/mips/txx9/rbtx4939/setup.c 327 */;
+	struct map_info *cocci_id/* arch/mips/txx9/rbtx4939/setup.c 326 */;
+	const map_word cocci_id/* arch/mips/txx9/rbtx4939/setup.c 318 */;
+	map_word cocci_id/* arch/mips/txx9/rbtx4939/setup.c 309 */;
+	char *cocci_id/* arch/mips/txx9/rbtx4939/setup.c 29 */;
+	unsigned long cocci_id/* arch/mips/txx9/rbtx4939/setup.c 265 */;
+	unsigned int cocci_id/* arch/mips/txx9/rbtx4939/setup.c 262 */;
+	unsigned char cocci_id/* arch/mips/txx9/rbtx4939/setup.c 262 */;
+	void cocci_id/* arch/mips/txx9/rbtx4939/setup.c 262 */;
+	struct platform_driver cocci_id/* arch/mips/txx9/rbtx4939/setup.c 245 */;
+	char *cocci_id/* arch/mips/txx9/rbtx4939/setup.c 216 */[]__initdata;
+	int __init cocci_id/* arch/mips/txx9/rbtx4939/setup.c 212 */;
+	struct rbtx4939_led_data cocci_id/* arch/mips/txx9/rbtx4939/setup.c 202 */;
+	struct rbtx4939_led_data *cocci_id/* arch/mips/txx9/rbtx4939/setup.c 201 */;
+	enum led_brightness cocci_id/* arch/mips/txx9/rbtx4939/setup.c 199 */;
+	struct led_classdev *cocci_id/* arch/mips/txx9/rbtx4939/setup.c 198 */;
+	struct rbtx4939_led_data {
+		struct led_classdev cdev;
+		char name[32];
+		unsigned int num;
+	} cocci_id/* arch/mips/txx9/rbtx4939/setup.c 191 */;
+	u8 cocci_id/* arch/mips/txx9/rbtx4939/setup.c 190 */[RBTX4939_MAX_7SEGLEDS];
+	__u8 cocci_id/* arch/mips/txx9/rbtx4939/setup.c 115 */;
+	__u64 cocci_id/* arch/mips/txx9/rbtx4939/setup.c 113 */;
+}

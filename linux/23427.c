@@ -1,0 +1,47 @@
+cocci_test_suite() {
+	struct snd_soc_dai_driver cocci_id/* sound/soc/codecs/rt5677-spi.c 86 */;
+	const struct snd_pcm_hardware cocci_id/* sound/soc/codecs/rt5677-spi.c 72 */;
+	struct spi_driver cocci_id/* sound/soc/codecs/rt5677-spi.c 630 */;
+	const struct acpi_device_id cocci_id/* sound/soc/codecs/rt5677-spi.c 624 */[];
+	struct rt5677_dsp {
+		struct device *dev;
+		struct delayed_work copy_work;
+		struct mutex dma_lock;
+		struct snd_pcm_substream *substream;
+		size_t dma_offset;
+		size_t avail_bytes;
+		u32 mic_read_offset;
+		bool new_hotword;
+	} cocci_id/* sound/soc/codecs/rt5677-spi.c 61 */;
+	struct spi_device *cocci_id/* sound/soc/codecs/rt5677-spi.c 58 */;
+	const struct firmware *cocci_id/* sound/soc/codecs/rt5677-spi.c 576 */;
+	u8 cocci_id/* sound/soc/codecs/rt5677-spi.c 534 */[RT5677_SPI_HEADER + RT5677_SPI_BURST_LEN + 1];
+	struct spi_transfer cocci_id/* sound/soc/codecs/rt5677-spi.c 531 */;
+	const void *cocci_id/* sound/soc/codecs/rt5677-spi.c 527 */;
+	u8 *cocci_id/* sound/soc/codecs/rt5677-spi.c 482 */;
+	u8 cocci_id/* sound/soc/codecs/rt5677-spi.c 481 */;
+	u8 cocci_id/* sound/soc/codecs/rt5677-spi.c 480 */[RT5677_SPI_BURST_LEN];
+	u8 cocci_id/* sound/soc/codecs/rt5677-spi.c 479 */[RT5677_SPI_HEADER + 4];
+	struct spi_message cocci_id/* sound/soc/codecs/rt5677-spi.c 477 */;
+	struct spi_transfer cocci_id/* sound/soc/codecs/rt5677-spi.c 476 */[2];
+	void *cocci_id/* sound/soc/codecs/rt5677-spi.c 472 */;
+	const u8 *cocci_id/* sound/soc/codecs/rt5677-spi.c 458 */;
+	bool cocci_id/* sound/soc/codecs/rt5677-spi.c 440 */;
+	const struct snd_soc_component_driver cocci_id/* sound/soc/codecs/rt5677-spi.c 400 */;
+	unsigned int cocci_id/* sound/soc/codecs/rt5677-spi.c 312 */;
+	struct rt5677_dsp cocci_id/* sound/soc/codecs/rt5677-spi.c 308 */;
+	struct work_struct *cocci_id/* sound/soc/codecs/rt5677-spi.c 305 */;
+	void cocci_id/* sound/soc/codecs/rt5677-spi.c 305 */;
+	u32 cocci_id/* sound/soc/codecs/rt5677-spi.c 277 */;
+	struct rt5677_dsp *cocci_id/* sound/soc/codecs/rt5677-spi.c 277 */;
+	int cocci_id/* sound/soc/codecs/rt5677-spi.c 277 */;
+	size_t cocci_id/* sound/soc/codecs/rt5677-spi.c 217 */;
+	struct snd_pcm_runtime *cocci_id/* sound/soc/codecs/rt5677-spi.c 216 */;
+	u32 *cocci_id/* sound/soc/codecs/rt5677-spi.c 188 */;
+	snd_pcm_uframes_t cocci_id/* sound/soc/codecs/rt5677-spi.c 177 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/codecs/rt5677-spi.c 147 */;
+	struct snd_soc_component *cocci_id/* sound/soc/codecs/rt5677-spi.c 146 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/codecs/rt5677-spi.c 131 */;
+	struct rt5677_priv *cocci_id/* sound/soc/codecs/rt5677-spi.c 118 */;
+	struct snd_soc_pcm_runtime *cocci_id/* sound/soc/codecs/rt5677-spi.c 115 */;
+}

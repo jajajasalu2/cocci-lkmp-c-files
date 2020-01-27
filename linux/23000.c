@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/rockchip/rockchip_max98090.c 79 */[];
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/rockchip/rockchip_max98090.c 54 */[];
+	struct platform_driver cocci_id/* sound/soc/rockchip/rockchip_max98090.c 458 */;
+	const struct of_device_id cocci_id/* sound/soc/rockchip/rockchip_max98090.c 451 */[];
+	struct platform_device *cocci_id/* sound/soc/rockchip/rockchip_max98090.c 376 */;
+	struct device_node *cocci_id/* sound/soc/rockchip/rockchip_max98090.c 364 */;
+	struct device *cocci_id/* sound/soc/rockchip/rockchip_max98090.c 364 */;
+	struct snd_soc_component *cocci_id/* sound/soc/rockchip/rockchip_max98090.c 344 */;
+	int cocci_id/* sound/soc/rockchip/rockchip_max98090.c 344 */;
+	struct snd_soc_card cocci_id/* sound/soc/rockchip/rockchip_max98090.c 316 */;
+	struct snd_soc_aux_dev cocci_id/* sound/soc/rockchip/rockchip_max98090.c 296 */;
+	int cocci_id/* sound/soc/rockchip/rockchip_max98090.c 294 */(struct snd_soc_component *component);
+	struct snd_soc_jack_pin cocci_id/* sound/soc/rockchip/rockchip_max98090.c 29 */[];
+	struct snd_soc_jack cocci_id/* sound/soc/rockchip/rockchip_max98090.c 26 */;
+	struct snd_soc_dai_link cocci_id/* sound/soc/rockchip/rockchip_max98090.c 259 */[];
+	struct snd_soc_card *cocci_id/* sound/soc/rockchip/rockchip_max98090.c 229 */;
+	enum{DAILINK_MAX98090, DAILINK_HDMI,} cocci_id/* sound/soc/rockchip/rockchip_max98090.c 220 */;
+	const struct snd_soc_ops cocci_id/* sound/soc/rockchip/rockchip_max98090.c 205 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/rockchip/rockchip_max98090.c 149 */;
+	struct snd_soc_pcm_runtime *cocci_id/* sound/soc/rockchip/rockchip_max98090.c 148 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/rockchip/rockchip_max98090.c 145 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/rockchip/rockchip_max98090.c 144 */;
+	struct notifier_block cocci_id/* sound/soc/rockchip/rockchip_max98090.c 129 */;
+	struct snd_soc_dapm_context *cocci_id/* sound/soc/rockchip/rockchip_max98090.c 114 */;
+	struct snd_soc_jack *cocci_id/* sound/soc/rockchip/rockchip_max98090.c 113 */;
+	void *cocci_id/* sound/soc/rockchip/rockchip_max98090.c 111 */;
+	struct notifier_block *cocci_id/* sound/soc/rockchip/rockchip_max98090.c 110 */;
+	unsigned long cocci_id/* sound/soc/rockchip/rockchip_max98090.c 110 */;
+	const struct snd_kcontrol_new cocci_id/* sound/soc/rockchip/rockchip_max98090.c 101 */[];
+}

@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	struct nlattr *cocci_id/* drivers/infiniband/core/iwpm_msg.c 852 */[IWPM_NLA_HELLO_MAX];
+	const struct nla_policy cocci_id/* drivers/infiniband/core/iwpm_msg.c 837 */[IWPM_NLA_HELLO_MAX];
+	struct nlattr *cocci_id/* drivers/infiniband/core/iwpm_msg.c 806 */[IWPM_NLA_ERR_MAX];
+	const struct nla_policy cocci_id/* drivers/infiniband/core/iwpm_msg.c 791 */[IWPM_NLA_ERR_MAX];
+	const char *cocci_id/* drivers/infiniband/core/iwpm_msg.c 776 */;
+	u32 cocci_id/* drivers/infiniband/core/iwpm_msg.c 775 */;
+	struct nlattr *cocci_id/* drivers/infiniband/core/iwpm_msg.c 774 */[IWPM_NLA_MAPINFO_NUM_MAX];
+	struct sk_buff *cocci_id/* drivers/infiniband/core/iwpm_msg.c 772 */;
+	struct netlink_callback *cocci_id/* drivers/infiniband/core/iwpm_msg.c 772 */;
+	int cocci_id/* drivers/infiniband/core/iwpm_msg.c 772 */;
+	const struct nla_policy cocci_id/* drivers/infiniband/core/iwpm_msg.c 760 */[IWPM_NLA_MAPINFO_NUM_MAX];
+	char *cocci_id/* drivers/infiniband/core/iwpm_msg.c 720 */;
+	struct nlattr *cocci_id/* drivers/infiniband/core/iwpm_msg.c 717 */[IWPM_NLA_MAPINFO_REQ_MAX];
+	const struct nla_policy cocci_id/* drivers/infiniband/core/iwpm_msg.c 700 */[IWPM_NLA_MAPINFO_REQ_MAX];
+	struct iwpm_remote_info cocci_id/* drivers/infiniband/core/iwpm_msg.c 673 */;
+	struct iwpm_remote_info *cocci_id/* drivers/infiniband/core/iwpm_msg.c 640 */;
+	struct iwpm_dev_data *cocci_id/* drivers/infiniband/core/iwpm_msg.c 63 */;
+	u16 cocci_id/* drivers/infiniband/core/iwpm_msg.c 561 */;
+	struct sockaddr_storage *cocci_id/* drivers/infiniband/core/iwpm_msg.c 557 */;
+	struct nlattr *cocci_id/* drivers/infiniband/core/iwpm_msg.c 556 */[IWPM_NLA_RQUERY_MAPPING_MAX];
+	const struct nla_policy cocci_id/* drivers/infiniband/core/iwpm_msg.c 532 */[IWPM_NLA_RQUERY_MAPPING_MAX];
+	struct nlattr *cocci_id/* drivers/infiniband/core/iwpm_msg.c 478 */[IWPM_NLA_RMANAGE_MAPPING_MAX];
+	void cocci_id/* drivers/infiniband/core/iwpm_msg.c 46 */;
+	const struct nla_policy cocci_id/* drivers/infiniband/core/iwpm_msg.c 459 */[IWPM_NLA_RMANAGE_MAPPING_MAX];
+	struct nlattr *cocci_id/* drivers/infiniband/core/iwpm_msg.c 404 */[IWPM_NLA_RREG_PID_MAX];
+	atomic_t cocci_id/* drivers/infiniband/core/iwpm_msg.c 39 */;
+	const struct nla_policy cocci_id/* drivers/infiniband/core/iwpm_msg.c 382 */[IWPM_NLA_RREG_PID_MAX];
+	const char cocci_id/* drivers/infiniband/core/iwpm_msg.c 36 */[IWPM_ULIBNAME_SIZE];
+	struct sockaddr_storage cocci_id/* drivers/infiniband/core/iwpm_msg.c 274 */;
+	struct nlmsghdr *cocci_id/* drivers/infiniband/core/iwpm_msg.c 238 */;
+	struct iwpm_nlmsg_request *cocci_id/* drivers/infiniband/core/iwpm_msg.c 237 */;
+	u8 cocci_id/* drivers/infiniband/core/iwpm_msg.c 234 */;
+	struct iwpm_sa_data *cocci_id/* drivers/infiniband/core/iwpm_msg.c 234 */;
+}

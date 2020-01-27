@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct ieee80211_rxb *cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 430 */;
+	int cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 429 */;
+	struct rx_reorder_entry cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 426 */;
+	struct rx_reorder_entry *cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 418 */;
+	unsigned long cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 412 */;
+	struct rx_ts_record cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 378 */;
+	struct rx_ts_record *cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 378 */;
+	struct tx_ts_record cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 375 */;
+	struct tx_ts_record *cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 375 */;
+	struct ts_common_info cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 372 */;
+	enum direction_value cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 367 */;
+	struct list_head *cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 357 */;
+	struct qos_tsinfo *cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 356 */;
+	struct tspec_body cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 355 */;
+	enum tr_select cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 292 */;
+	u8 cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 291 */;
+	u8 *cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 290 */;
+	struct ieee80211_device cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 29 */;
+	struct ts_common_info **cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 289 */;
+	bool cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 287 */;
+	union qos_tclas cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 280 */;
+	union qos_tclas *cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 266 */;
+	struct tspec_body *cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 266 */;
+	struct timer_list *cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 26 */;
+	bool cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 209 */[4];
+	u32 cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 192 */;
+	struct ts_common_info *cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 192 */;
+	struct ieee80211_device *cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 191 */;
+	void cocci_id/* drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c 191 */;
+}

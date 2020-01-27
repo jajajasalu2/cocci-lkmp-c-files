@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 580 */;
+	const int cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 58 */[]__initconst;
+	const struct snd_mx27vis_platform_data cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 477 */;
+	struct platform_device cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 437 */;
+	const struct imx_ssi_platform_data cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 419 */;
+	const struct mxc_usbh_platform_data cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 412 */;
+	struct platform_device *cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 407 */;
+	int cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 407 */;
+	struct i2c_board_info cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 392 */[];
+	struct aic32x4_pdata cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 381 */;
+	struct pca953x_platform_data cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 376 */;
+	const struct imxi2c_platform_data cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 372 */;
+	const struct imxuart_platform_data cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 367 */;
+	struct platform_device *cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 362 */[]__initdata;
+	struct resource cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 346 */;
+	struct physmap_flash_data cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 342 */;
+	const struct imxmmc_platform_data cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 336 */;
+	void *cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 331 */;
+	irq_handler_t cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 322 */;
+	const struct gpio_led_platform_data cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 315 */;
+	const struct gpio_led cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 292 */[]__initconst;
+	const struct gpio_keys_platform_data cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 285 */;
+	struct gpio_keys_button cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 258 */[];
+	void __init cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 231 */;
+	void cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 231 */;
+	phys_addr_t cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 228 */;
+	struct mx2_camera_platform_data cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 222 */;
+	struct soc_camera_link cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 214 */;
+	struct i2c_board_info cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 210 */;
+	struct device *cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 194 */;
+	const struct gpio cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 155 */[]__initconst;
+	struct gpio cocci_id/* arch/arm/mach-imx/mach-imx27_visstrim_m10.c 146 */[];
+	const struct machine_desc cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 397 */;
+}

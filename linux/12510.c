@@ -1,0 +1,65 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 825 */;
+	const struct of_device_id cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 819 */[];
+	const struct jz_soc_info cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 815 */;
+	void __iomem *cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 606 */;
+	struct drm_panel *cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 604 */;
+	struct drm_bridge *cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 603 */;
+	struct clk *cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 602 */;
+	struct device *cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 600 */;
+	const struct jz_soc_info *cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 599 */;
+	struct platform_device *cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 597 */;
+	void *cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 589 */;
+	const struct drm_encoder_funcs cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 585 */;
+	const struct drm_mode_config_funcs cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 578 */;
+	const struct drm_encoder_helper_funcs cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 573 */;
+	const struct drm_crtc_helper_funcs cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 566 */;
+	const struct drm_plane_helper_funcs cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 561 */;
+	const struct drm_crtc_funcs cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 546 */;
+	const struct drm_plane_funcs cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 536 */;
+	struct drm_driver cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 509 */;
+	irqreturn_t cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 465 */;
+	struct drm_display_info *cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 446 */;
+	struct drm_connector_state *cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 444 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 391 */;
+	struct drm_plane_state *cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 370 */;
+	const struct drm_format_info *cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 344 */;
+	struct drm_framebuffer *cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 343 */;
+	struct drm_pending_vblank_event *cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 342 */;
+	long cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 324 */;
+	struct drm_crtc_state *cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 321 */;
+	int cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 320 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 257 */;
+	unsigned int cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 244 */;
+	void cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 240 */;
+	struct drm_plane *cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 221 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 216 */;
+	struct ingenic_drm cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 212 */;
+	struct ingenic_drm *cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 210 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 210 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 205 */;
+	const struct regmap_config cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 196 */;
+	bool cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 180 */;
+	const u32 cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 174 */[];
+	struct ingenic_drm {
+		struct drm_device drm;
+		struct drm_plane primary;
+		struct drm_crtc crtc;
+		struct drm_encoder encoder;
+		struct device *dev;
+		struct regmap *map;
+		struct clk *lcd_clk,*pix_clk;
+		struct ingenic_dma_hwdesc *dma_hwdesc;
+		dma_addr_t dma_hwdesc_phys;
+		bool panel_is_sharp;
+	} cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 158 */;
+	struct jz_soc_info {
+		bool needs_dev_clk;
+	} cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 154 */;
+	struct ingenic_dma_hwdesc {
+		u32 next;
+		u32 addr;
+		u32 id;
+		u32 cmd;
+	}__packed cocci_id/* drivers/gpu/drm/ingenic/ingenic-drm.c 147 */;
+}

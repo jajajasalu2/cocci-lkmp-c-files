@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	enum gb_interface_type *cocci_id/* drivers/greybus/interface.c 918 */;
+	struct gb_interface *cocci_id/* drivers/greybus/interface.c 917 */;
+	int cocci_id/* drivers/greybus/interface.c 917 */;
+	u64 cocci_id/* drivers/greybus/interface.c 88 */;
+	u8 cocci_id/* drivers/greybus/interface.c 877 */;
+	struct gb_svc *cocci_id/* drivers/greybus/interface.c 876 */;
+	bool cocci_id/* drivers/greybus/interface.c 841 */;
+	struct gb_host_device *cocci_id/* drivers/greybus/interface.c 789 */;
+	struct gb_module *cocci_id/* drivers/greybus/interface.c 786 */;
+	struct device_type cocci_id/* drivers/greybus/interface.c 768 */;
+	const struct dev_pm_ops cocci_id/* drivers/greybus/interface.c 763 */;
+	const struct attribute_group *cocci_id/* drivers/greybus/interface.c 683 */[];
+	const struct attribute_group cocci_id/* drivers/greybus/interface.c 679 */;
+	struct device cocci_id/* drivers/greybus/interface.c 638 */;
+	struct attribute *cocci_id/* drivers/greybus/interface.c 636 */;
+	umode_t cocci_id/* drivers/greybus/interface.c 635 */;
+	struct kobject *cocci_id/* drivers/greybus/interface.c 635 */;
+	struct attribute *cocci_id/* drivers/greybus/interface.c 614 */[];
+	const char *const cocci_id/* drivers/greybus/interface.c 573 */[];
+	const char *cocci_id/* drivers/greybus/interface.c 571 */;
+	size_t cocci_id/* drivers/greybus/interface.c 527 */;
+	u16 cocci_id/* drivers/greybus/interface.c 49 */;
+	u32 *cocci_id/* drivers/greybus/interface.c 49 */;
+	u32 cocci_id/* drivers/greybus/interface.c 481 */;
+	struct device_attribute *cocci_id/* drivers/greybus/interface.c 477 */;
+	char *cocci_id/* drivers/greybus/interface.c 477 */;
+	struct device *cocci_id/* drivers/greybus/interface.c 476 */;
+	ssize_t cocci_id/* drivers/greybus/interface.c 476 */;
+	int cocci_id/* drivers/greybus/interface.c 46 */(struct gb_interface *intf,
+							 bool enable);
+	int cocci_id/* drivers/greybus/interface.c 45 */(struct gb_interface *intf);
+	struct gb_interface cocci_id/* drivers/greybus/interface.c 258 */;
+	unsigned long cocci_id/* drivers/greybus/interface.c 255 */;
+	struct work_struct *cocci_id/* drivers/greybus/interface.c 251 */;
+	struct gb_bundle *cocci_id/* drivers/greybus/interface.c 1183 */;
+	void *cocci_id/* drivers/greybus/interface.c 1073 */;
+	struct gb_control *cocci_id/* drivers/greybus/interface.c 1070 */;
+	void cocci_id/* drivers/greybus/interface.c 1041 */;
+	enum gb_interface_type cocci_id/* drivers/greybus/interface.c 1007 */;
+}

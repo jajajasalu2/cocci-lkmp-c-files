@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 980 */;
+	struct mmc_host *cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 945 */;
+	u8 *cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 891 */;
+	void __iomem *cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 809 */;
+	struct mmc_ios *cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 805 */;
+	const struct of_device_id cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 791 */[];
+	struct sdhci_esdhc {
+		u8 vendor_ver;
+		u8 spec_ver;
+		bool quirk_incorrect_hostver;
+		bool quirk_limited_clk_division;
+		bool quirk_unreliable_pulse_detection;
+		bool quirk_tuning_erratum_type1;
+		bool quirk_tuning_erratum_type2;
+		bool quirk_ignore_data_inhibit;
+		bool quirk_delay_before_data_reset;
+		bool in_sw_tuning;
+		unsigned int peripheral_clock;
+		const struct esdhc_clk_fixup *clk_fixup;
+		u32 div_ratio;
+	} cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 74 */;
+	long cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 628 */;
+	ktime_t cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 566 */;
+	bool cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 563 */;
+	struct device *cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 522 */;
+	dma_addr_t cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 498 */;
+	const struct esdhc_clk_fixup cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 49 */;
+	void cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 464 */;
+	struct sdhci_esdhc *cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 415 */;
+	struct sdhci_pltfm_host *cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 414 */;
+	u32 cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 377 */;
+	u8 cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 374 */;
+	struct sdhci_host *cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 374 */;
+	int cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 374 */;
+	u16 cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 352 */;
+	struct esdhc_clk_fixup {
+		const unsigned int sd_dflt_max_clk;
+		const unsigned int max_clk[MMC_TIMING_NUM];
+	} cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 32 */;
+	struct platform_driver cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 1354 */;
+	struct sdhci_esdhc cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 1276 */;
+	struct clk *cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 1197 */;
+	struct device_node *cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 1196 */;
+	const struct of_device_id *cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 1193 */;
+	struct platform_device *cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 1191 */;
+	struct soc_device_attribute cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 1179 */[];
+	const struct sdhci_pltfm_data cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 1156 */;
+	const struct sdhci_ops cocci_id/* drivers/mmc/host/sdhci-of-esdhc.c 1120 */;
+}

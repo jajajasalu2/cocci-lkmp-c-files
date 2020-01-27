@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 916 */;
+	const void *cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 899 */;
+	const struct ethtool_tunable *cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 880 */;
+	struct ethtool_ts_info *cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 845 */;
+	const u8 cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 824 */;
+	const u8 *cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 824 */;
+	const u32 *cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 823 */;
+	u8 *cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 804 */;
+	struct ethtool_rxnfc *cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 775 */;
+	unsigned int cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 733 */;
+	struct ethtool_coalesce *cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 713 */;
+	struct ethtool_eee *cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 645 */;
+	struct ethtool_wolinfo *cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 599 */;
+	const char *cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 568 */;
+	u64 cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 506 */;
+	char *cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 502 */;
+	unsigned long cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 482 */;
+	u64 *cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 477 */;
+	struct ethtool_stats *cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 477 */;
+	struct ethtool_pauseparam *cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 445 */;
+	u32 *cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 423 */;
+	struct ethtool_regs *cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 420 */;
+	void *cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 420 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 403 */;
+	int cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 403 */;
+	const struct stmmac_stats cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 40 */[];
+	struct stmmac_priv cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 38 */;
+	struct stmmac_extra_stats cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 37 */;
+	const struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 361 */;
+	struct stmmac_stats {
+		char stat_string[ETH_GSTRING_LEN];
+		int sizeof_stat;
+		int stat_offset;
+	} cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 30 */;
+	u32 cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 282 */;
+	struct rgmii_adv cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 281 */;
+	struct stmmac_priv *cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 277 */;
+	struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 275 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 259 */;
+	void cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 258 */;
+	struct stmmac_counters cocci_id/* drivers/net/ethernet/stmicro/stmmac/stmmac_ethtool.c 166 */;
+}

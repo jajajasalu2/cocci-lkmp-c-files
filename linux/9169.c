@@ -1,0 +1,67 @@
+cocci_test_suite() {
+	char cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 985 */[MLXSW_REG_MFSL_LEN];
+	struct mlxsw_thermal_module {
+		struct mlxsw_thermal *parent;
+		struct thermal_zone_device *tzdev;
+		struct mlxsw_thermal_trip trips[MLXSW_THERMAL_NUM_TRIPS];
+		enum thermal_device_mode mode;
+		int module;
+	} cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 97 */;
+	enum mlxsw_reg_mfcr_pwm_frequency cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 960 */;
+	char cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 959 */[MLXSW_REG_MFCR_LEN];
+	struct mlxsw_thermal **cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 957 */;
+	const struct mlxsw_bus_info *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 956 */;
+	struct mlxsw_thermal cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 95 */;
+	char cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 899 */[MLXSW_REG_MGPIR_LEN];
+	struct mlxsw_core *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 895 */;
+	char cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 871 */[MLXSW_THERMAL_ZONE_MAX_NAME];
+	const struct thermal_cooling_device_ops cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 743 */;
+	unsigned long cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 683 */;
+	char cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 662 */[MLXSW_REG_MFSC_LEN];
+	unsigned long *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 657 */;
+	struct thermal_zone_device_ops cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 635 */;
+	u16 cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 616 */;
+	char cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 615 */[MLXSW_REG_MTMP_LEN];
+	struct mlxsw_thermal_module *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 613 */;
+	int *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 611 */;
+	const struct mlxsw_thermal_trip cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 59 */[];
+	struct mlxsw_thermal_trip {
+		int type;
+		int temp;
+		int hyst;
+		int min_state;
+		int max_state;
+	} cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 51 */;
+	enum thermal_device_mode cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 480 */;
+	enum mlxsw_thermal_trips{MLXSW_THERMAL_TEMP_TRIP_NORM, MLXSW_THERMAL_TEMP_TRIP_HIGH, MLXSW_THERMAL_TEMP_TRIP_HOT, MLXSW_THERMAL_TEMP_TRIP_CRIT,} cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 44 */;
+	char *const cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 40 */[];
+	enum thermal_trend *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 392 */;
+	enum thermal_trip_type *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 337 */;
+	enum thermal_device_mode *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 281 */;
+	const struct mlxsw_thermal_trip *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 244 */;
+	struct device *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 236 */;
+	struct thermal_zone_device *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 232 */;
+	unsigned int cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 210 */;
+	struct mlxsw_thermal_trip *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 206 */;
+	struct thermal_cooling_device *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 135 */;
+	struct mlxsw_thermal *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 134 */;
+	u8 cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 128 */;
+	int cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 128 */;
+	void cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 1069 */;
+	struct mlxsw_thermal {
+		struct mlxsw_core *core;
+		const struct mlxsw_bus_info *bus_info;
+		struct thermal_zone_device *tzdev;
+		int polling_delay;
+		struct thermal_cooling_device *cdevs[MLXSW_MFCR_PWMS_MAX];
+		u8 cooling_levels[MLXSW_THERMAL_MAX_STATE + 1];
+		struct mlxsw_thermal_trip trips[MLXSW_THERMAL_NUM_TRIPS];
+		enum thermal_device_mode mode;
+		struct mlxsw_thermal_module *tz_module_arr;
+		u8 tz_module_num;
+		struct mlxsw_thermal_module *tz_gearbox_arr;
+		u8 tz_gearbox_num;
+		unsigned int tz_highest_score;
+		struct thermal_zone_device *tz_highest_dev;
+	} cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_thermal.c 105 */;
+}

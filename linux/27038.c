@@ -1,0 +1,62 @@
+cocci_test_suite() {
+	struct xfs_rmap_irec cocci_id/* fs/xfs/libxfs/xfs_rmap.c 995 */[4];
+	bool cocci_id/* fs/xfs/libxfs/xfs_rmap.c 991 */;
+	struct xfs_btree_cur *cocci_id/* fs/xfs/libxfs/xfs_rmap.c 957 */;
+	struct xfs_mount *cocci_id/* fs/xfs/libxfs/xfs_rmap.c 956 */;
+	const struct xfs_owner_info *cocci_id/* fs/xfs/libxfs/xfs_rmap.c 954 */;
+	xfs_extlen_t cocci_id/* fs/xfs/libxfs/xfs_rmap.c 953 */;
+	xfs_agblock_t cocci_id/* fs/xfs/libxfs/xfs_rmap.c 952 */;
+	xfs_agnumber_t cocci_id/* fs/xfs/libxfs/xfs_rmap.c 951 */;
+	struct xfs_buf *cocci_id/* fs/xfs/libxfs/xfs_rmap.c 950 */;
+	union xfs_btree_rec cocci_id/* fs/xfs/libxfs/xfs_rmap.c 79 */;
+	struct xfs_find_left_neighbor_info cocci_id/* fs/xfs/libxfs/xfs_rmap.c 294 */;
+	int *cocci_id/* fs/xfs/libxfs/xfs_rmap.c 292 */;
+	const struct xfs_owner_info cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2761 */;
+	struct xfs_rmap_key_state cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2730 */;
+	struct xfs_rmap_irec cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2728 */;
+	bool *cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2726 */;
+	struct xfs_rmap_key_state *cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2707 */;
+	struct xfs_rmap_key_state {
+		uint64_t owner;
+		uint64_t offset;
+		unsigned int flags;
+		bool has_rmap;
+	} cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2693 */;
+	union xfs_btree_irec cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2634 */;
+	__u64 cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2604 */;
+	const struct xfs_rmap_irec *cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2601 */;
+	struct xfs_find_left_neighbor_info *cocci_id/* fs/xfs/libxfs/xfs_rmap.c 260 */;
+	void *cocci_id/* fs/xfs/libxfs/xfs_rmap.c 258 */;
+	struct xfs_bmbt_irec cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2563 */;
+	struct xfs_inode *cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2542 */;
+	struct xfs_rmap_intent cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2490 */;
+	struct xfs_rmap_intent *cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2479 */;
+	struct xfs_bmbt_irec *cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2477 */;
+	int cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2476 */;
+	uint64_t cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2475 */;
+	enum xfs_rmap_intent_type cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2474 */;
+	struct xfs_trans *cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2473 */;
+	void cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2471 */;
+	struct xfs_find_left_neighbor_info {
+		struct xfs_rmap_irec high;
+		struct xfs_rmap_irec *irec;
+		int *stat;
+	} cocci_id/* fs/xfs/libxfs/xfs_rmap.c 247 */;
+	struct xfs_owner_info cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2369 */;
+	struct xfs_btree_cur **cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2362 */;
+	xfs_exntst_t cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2361 */;
+	xfs_filblks_t cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2360 */;
+	xfs_fsblock_t cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2359 */;
+	xfs_fileoff_t cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2358 */;
+	struct xfs_rmap_query_range_info cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2321 */;
+	xfs_rmap_query_range_fn cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2318 */;
+	struct xfs_rmap_query_range_info *cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2283 */;
+	struct xfs_rmap_query_range_info {
+		xfs_rmap_query_range_fn fn;
+		void *priv;
+	} cocci_id/* fs/xfs/libxfs/xfs_rmap.c 2271 */;
+	struct xfs_rmap_irec *cocci_id/* fs/xfs/libxfs/xfs_rmap.c 181 */;
+	union xfs_btree_rec *cocci_id/* fs/xfs/libxfs/xfs_rmap.c 180 */;
+	unsigned long cocci_id/* fs/xfs/libxfs/xfs_rmap.c 1131 */;
+	unsigned int cocci_id/* fs/xfs/libxfs/xfs_rmap.c 1001 */;
+}

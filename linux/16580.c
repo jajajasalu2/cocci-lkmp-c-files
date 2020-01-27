@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct file *cocci_id/* drivers/s390/char/sclp_tty.c 74 */;
+	struct tty_driver *cocci_id/* drivers/s390/char/sclp_tty.c 54 */;
+	unsigned short int cocci_id/* drivers/s390/char/sclp_tty.c 52 */;
+	unsigned char cocci_id/* drivers/s390/char/sclp_tty.c 51 */[SCLP_TTY_BUF_SIZE];
+	struct tty_port cocci_id/* drivers/s390/char/sclp_tty.c 50 */;
+	int __init cocci_id/* drivers/s390/char/sclp_tty.c 497 */;
+	const struct tty_operations cocci_id/* drivers/s390/char/sclp_tty.c 486 */;
+	struct timer_list cocci_id/* drivers/s390/char/sclp_tty.c 48 */;
+	struct sclp_register cocci_id/* drivers/s390/char/sclp_tty.c 479 */;
+	struct sclp_register *cocci_id/* drivers/s390/char/sclp_tty.c 475 */;
+	struct evbuf_header *cocci_id/* drivers/s390/char/sclp_tty.c 464 */;
+	void *cocci_id/* drivers/s390/char/sclp_tty.c 448 */;
+	struct gds_vector *cocci_id/* drivers/s390/char/sclp_tty.c 446 */;
+	struct gds_subvector *cocci_id/* drivers/s390/char/sclp_tty.c 423 */;
+	struct list_head cocci_id/* drivers/s390/char/sclp_tty.c 42 */;
+	unsigned char *cocci_id/* drivers/s390/char/sclp_tty.c 408 */;
+	spinlock_t cocci_id/* drivers/s390/char/sclp_tty.c 38 */;
+	const char *cocci_id/* drivers/s390/char/sclp_tty.c 342 */;
+	unsigned int cocci_id/* drivers/s390/char/sclp_tty.c 320 */;
+	struct sclp_buffer cocci_id/* drivers/s390/char/sclp_tty.c 297 */;
+	struct list_head *cocci_id/* drivers/s390/char/sclp_tty.c 288 */;
+	struct tty_struct *cocci_id/* drivers/s390/char/sclp_tty.c 285 */;
+	unsigned char cocci_id/* drivers/s390/char/sclp_tty.c 254 */;
+	const unsigned char *cocci_id/* drivers/s390/char/sclp_tty.c 234 */;
+	struct timer_list *cocci_id/* drivers/s390/char/sclp_tty.c 154 */;
+	int cocci_id/* drivers/s390/char/sclp_tty.c 135 */;
+	unsigned long cocci_id/* drivers/s390/char/sclp_tty.c 134 */;
+	struct sclp_buffer *cocci_id/* drivers/s390/char/sclp_tty.c 132 */;
+	void cocci_id/* drivers/s390/char/sclp_tty.c 131 */;
+	struct msg_buf cocci_id/* drivers/s390/char/sclp_tty.c 100 */;
+}

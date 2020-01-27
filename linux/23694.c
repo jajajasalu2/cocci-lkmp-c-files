@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	char cocci_id/* sound/soc/fsl/fsl_sai.c 902 */[8];
+	void __iomem *cocci_id/* sound/soc/fsl/fsl_sai.c 901 */;
+	struct resource *cocci_id/* sound/soc/fsl/fsl_sai.c 900 */;
+	struct regmap *cocci_id/* sound/soc/fsl/fsl_sai.c 899 */;
+	struct device_node *cocci_id/* sound/soc/fsl/fsl_sai.c 897 */;
+	struct platform_device *cocci_id/* sound/soc/fsl/fsl_sai.c 895 */;
+	struct regmap_config cocci_id/* sound/soc/fsl/fsl_sai.c 880 */;
+	struct reg_default cocci_id/* sound/soc/fsl/fsl_sai.c 723 */[];
+	const struct snd_soc_component_driver cocci_id/* sound/soc/fsl/fsl_sai.c 719 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/fsl/fsl_sai.c 696 */;
+	unsigned int cocci_id/* sound/soc/fsl/fsl_sai.c 673 */;
+	struct fsl_sai *cocci_id/* sound/soc/fsl/fsl_sai.c 672 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/fsl/fsl_sai.c 670 */;
+	int cocci_id/* sound/soc/fsl/fsl_sai.c 670 */;
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/fsl/fsl_sai.c 658 */;
+	void cocci_id/* sound/soc/fsl/fsl_sai.c 647 */;
+	bool cocci_id/* sound/soc/fsl/fsl_sai.c 514 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/fsl/fsl_sai.c 510 */;
+	struct device *cocci_id/* sound/soc/fsl/fsl_sai.c 44 */;
+	u32 cocci_id/* sound/soc/fsl/fsl_sai.c 423 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/fsl/fsl_sai.c 416 */;
+	irqreturn_t cocci_id/* sound/soc/fsl/fsl_sai.c 40 */;
+	void *cocci_id/* sound/soc/fsl/fsl_sai.c 40 */;
+	const struct snd_pcm_hw_constraint_list cocci_id/* sound/soc/fsl/fsl_sai.c 35 */;
+	unsigned long cocci_id/* sound/soc/fsl/fsl_sai.c 333 */;
+	const unsigned int cocci_id/* sound/soc/fsl/fsl_sai.c 29 */[];
+	struct platform_driver cocci_id/* sound/soc/fsl/fsl_sai.c 1159 */;
+	const struct of_device_id cocci_id/* sound/soc/fsl/fsl_sai.c 1072 */[];
+	const struct fsl_sai_soc_data cocci_id/* sound/soc/fsl/fsl_sai.c 1044 */;
+}

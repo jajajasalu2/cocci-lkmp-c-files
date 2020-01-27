@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	struct task_struct *cocci_id/* kernel/rcu/rcuperf.c 98 */;
+	struct task_struct **cocci_id/* kernel/rcu/rcuperf.c 97 */;
+	char *cocci_id/* kernel/rcu/rcuperf.c 90 */;
+	void *cocci_id/* kernel/rcu/rcuperf.c 644 */;
+	struct rcu_perf_ops *cocci_id/* kernel/rcu/rcuperf.c 592 */[];
+	long cocci_id/* kernel/rcu/rcuperf.c 590 */;
+	int __init cocci_id/* kernel/rcu/rcuperf.c 587 */;
+	int cocci_id/* kernel/rcu/rcuperf.c 555 */;
+	u64 *cocci_id/* kernel/rcu/rcuperf.c 473 */;
+	const char *cocci_id/* kernel/rcu/rcuperf.c 460 */;
+	u64 cocci_id/* kernel/rcu/rcuperf.c 356 */;
+	bool cocci_id/* kernel/rcu/rcuperf.c 355 */;
+	struct sched_param cocci_id/* kernel/rcu/rcuperf.c 354 */;
+	struct rcu_head *cocci_id/* kernel/rcu/rcuperf.c 338 */;
+	struct srcu_struct cocci_id/* kernel/rcu/rcuperf.c 233 */;
+	rcu_callback_t cocci_id/* kernel/rcu/rcuperf.c 198 */;
+	struct srcu_struct *cocci_id/* kernel/rcu/rcuperf.c 181 */;
+	struct rcu_perf_ops cocci_id/* kernel/rcu/rcuperf.c 161 */;
+	unsigned long __maybe_unused cocci_id/* kernel/rcu/rcuperf.c 152 */;
+	void cocci_id/* kernel/rcu/rcuperf.c 152 */;
+	struct rcu_perf_ops *cocci_id/* kernel/rcu/rcuperf.c 135 */;
+	struct rcu_perf_ops {
+		int ptype;
+		void (*init)(void);
+		void (*cleanup)(void);
+		int (*readlock)(void);
+		void (*readunlock)(int idx);
+		unsigned long (*get_gp_seq)(void);
+		unsigned long (*gp_diff)(unsigned long new, unsigned long old);
+		unsigned long (*exp_completed)(void);
+		void (*async)(struct rcu_head *head, rcu_callback_t func);
+		void (*gp_barrier)(void);
+		void (*sync)(void);
+		void (*exp_sync)(void);
+		const char *name;
+	} cocci_id/* kernel/rcu/rcuperf.c 119 */;
+	unsigned long cocci_id/* kernel/rcu/rcuperf.c 109 */;
+	wait_queue_head_t cocci_id/* kernel/rcu/rcuperf.c 105 */;
+	atomic_t cocci_id/* kernel/rcu/rcuperf.c 102 */;
+	int *cocci_id/* kernel/rcu/rcuperf.c 101 */;
+	u64 **cocci_id/* kernel/rcu/rcuperf.c 100 */;
+	__typeof__(atomic_t) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	struct pci_dev *cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 960 */;
+	enum ntb_topo cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 946 */;
+	resource_size_t *cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 93 */;
+	unsigned int cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 898 */;
+	struct work_struct *cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 867 */;
+	struct dentry *cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 74 */;
+	const struct file_operations cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 73 */;
+	union {
+		u64 v64;
+		u32 v32;
+		u16 v16;
+	} cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 719 */;
+	char *cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 716 */;
+	loff_t *cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 712 */;
+	size_t cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 712 */;
+	struct file *cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 711 */;
+	char __user *cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 711 */;
+	ssize_t cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 711 */;
+	void *cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 575 */;
+	struct amd_ntb_vec *cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 570 */;
+	irqreturn_t cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 555 */;
+	struct device *cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 503 */;
+	int cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 491 */;
+	void __iomem *cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 490 */;
+	u32 cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 488 */;
+	struct amd_ntb_dev *cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 488 */;
+	void cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 488 */;
+	const struct ntb_dev_ops cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 464 */;
+	unsigned long cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 378 */;
+	u16 cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 352 */;
+	u64 cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 347 */;
+	struct ntb_dev *cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 347 */;
+	phys_addr_t *cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 301 */;
+	enum ntb_width cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 252 */;
+	enum ntb_speed cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 251 */;
+	enum ntb_width *cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 224 */;
+	enum ntb_speed *cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 223 */;
+	resource_size_t cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 120 */;
+	dma_addr_t cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 120 */;
+	void __exit cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 1165 */;
+	int __init cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 1154 */;
+	struct pci_driver cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 1147 */;
+	const struct pci_device_id cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 1139 */[];
+	const struct ntb_dev_data cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 1128 */[];
+	struct ntb_dev_data *cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 1072 */;
+	const struct pci_device_id *cocci_id/* drivers/ntb/hw/amd/ntb_hw_amd.c 1059 */;
+}

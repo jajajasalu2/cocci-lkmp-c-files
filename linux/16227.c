@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct attribute *cocci_id/* drivers/staging/speakup/speakup_soft.c 95 */[];
+	struct kobj_attribute cocci_id/* drivers/staging/speakup/speakup_soft.c 54 */;
+	short cocci_id/* drivers/staging/speakup/speakup_soft.c 417 */;
+	struct var_t cocci_id/* drivers/staging/speakup/speakup_soft.c 37 */[];
+	const struct file_operations cocci_id/* drivers/staging/speakup/speakup_soft.c 355 */;
+	int cocci_id/* drivers/staging/speakup/speakup_soft.c 348 */;
+	struct spk_synth *cocci_id/* drivers/staging/speakup/speakup_soft.c 346 */;
+	unsigned char cocci_id/* drivers/staging/speakup/speakup_soft.c 346 */;
+	__poll_t cocci_id/* drivers/staging/speakup/speakup_soft.c 331 */;
+	struct poll_table_struct *cocci_id/* drivers/staging/speakup/speakup_soft.c 331 */;
+	struct miscdevice cocci_id/* drivers/staging/speakup/speakup_soft.c 33 */;
+	const char __user *cocci_id/* drivers/staging/speakup/speakup_soft.c 316 */;
+	unsigned char cocci_id/* drivers/staging/speakup/speakup_soft.c 31 */(struct spk_synth *synth);
+	loff_t *cocci_id/* drivers/staging/speakup/speakup_soft.c 303 */;
+	char __user *cocci_id/* drivers/staging/speakup/speakup_soft.c 302 */;
+	ssize_t cocci_id/* drivers/staging/speakup/speakup_soft.c 302 */;
+	size_t cocci_id/* drivers/staging/speakup/speakup_soft.c 302 */;
+	int cocci_id/* drivers/staging/speakup/speakup_soft.c 30 */(struct spk_synth *synth);
+	void cocci_id/* drivers/staging/speakup/speakup_soft.c 29 */(void);
+	u_char cocci_id/* drivers/staging/speakup/speakup_soft.c 277 */[3];
+	u_char cocci_id/* drivers/staging/speakup/speakup_soft.c 266 */[2];
+	u_char cocci_id/* drivers/staging/speakup/speakup_soft.c 258 */;
+	u16 cocci_id/* drivers/staging/speakup/speakup_soft.c 204 */;
+	unsigned long cocci_id/* drivers/staging/speakup/speakup_soft.c 186 */;
+	struct inode *cocci_id/* drivers/staging/speakup/speakup_soft.c 184 */;
+	struct file *cocci_id/* drivers/staging/speakup/speakup_soft.c 184 */;
+	struct var_t *cocci_id/* drivers/staging/speakup/speakup_soft.c 153 */;
+	char cocci_id/* drivers/staging/speakup/speakup_soft.c 151 */[40];
+	char *cocci_id/* drivers/staging/speakup/speakup_soft.c 149 */;
+	void cocci_id/* drivers/staging/speakup/speakup_soft.c 149 */;
+	struct spk_synth cocci_id/* drivers/staging/speakup/speakup_soft.c 114 */;
+}

@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	struct kcore_list *cocci_id/* fs/proc/kcore.c 95 */;
+	int *cocci_id/* fs/proc/kcore.c 91 */;
+	int __init cocci_id/* fs/proc/kcore.c 638 */;
+	void *cocci_id/* fs/proc/kcore.c 628 */;
+	void __init cocci_id/* fs/proc/kcore.c 625 */;
+	void cocci_id/* fs/proc/kcore.c 625 */;
+	struct kcore_list cocci_id/* fs/proc/kcore.c 624 */;
+	int (*cocci_id/* fs/proc/kcore.c 62 */)(unsigned long pfn);
+	struct notifier_block cocci_id/* fs/proc/kcore.c 597 */;
+	struct notifier_block *cocci_id/* fs/proc/kcore.c 585 */;
+	int __meminit cocci_id/* fs/proc/kcore.c 585 */;
+	const struct file_operations cocci_id/* fs/proc/kcore.c 577 */;
+	struct inode *cocci_id/* fs/proc/kcore.c 547 */;
+	struct file *cocci_id/* fs/proc/kcore.c 547 */;
+	struct proc_dir_entry *cocci_id/* fs/proc/kcore.c 44 */;
+	struct elf_phdr *cocci_id/* fs/proc/kcore.c 368 */;
+	loff_t *cocci_id/* fs/proc/kcore.c 314 */;
+	char __user *cocci_id/* fs/proc/kcore.c 314 */;
+	ssize_t cocci_id/* fs/proc/kcore.c 313 */;
+	struct elf_note *cocci_id/* fs/proc/kcore.c 301 */;
+	size_t cocci_id/* fs/proc/kcore.c 299 */;
+	const void *cocci_id/* fs/proc/kcore.c 298 */;
+	unsigned int cocci_id/* fs/proc/kcore.c 298 */;
+	const char *cocci_id/* fs/proc/kcore.c 297 */;
+	char *cocci_id/* fs/proc/kcore.c 297 */;
+	size_t *cocci_id/* fs/proc/kcore.c 297 */;
+	struct page *cocci_id/* fs/proc/kcore.c 190 */;
+	unsigned long cocci_id/* fs/proc/kcore.c 147 */;
+	struct list_head *cocci_id/* fs/proc/kcore.c 145 */;
+	int cocci_id/* fs/proc/kcore.c 144 */;
+	struct elfhdr cocci_id/* fs/proc/kcore.c 115 */;
+	struct elf_prpsinfo cocci_id/* fs/proc/kcore.c 112 */;
+	struct elf_prstatus cocci_id/* fs/proc/kcore.c 111 */;
+	struct elf_note cocci_id/* fs/proc/kcore.c 108 */;
+	struct elf_phdr cocci_id/* fs/proc/kcore.c 107 */;
+}

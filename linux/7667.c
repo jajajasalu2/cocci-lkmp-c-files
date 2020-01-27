@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	struct device_driver *cocci_id/* drivers/tty/serdev/core.c 85 */;
+	const struct device_type cocci_id/* drivers/tty/serdev/core.c 81 */;
+	int __init cocci_id/* drivers/tty/serdev/core.c 807 */;
+	void __exit cocci_id/* drivers/tty/serdev/core.c 800 */;
+	struct serdev_device_driver *cocci_id/* drivers/tty/serdev/core.c 788 */;
+	struct module *cocci_id/* drivers/tty/serdev/core.c 788 */;
+	int cocci_id/* drivers/tty/serdev/core.c 788 */;
+	const struct device *cocci_id/* drivers/tty/serdev/core.c 69 */;
+	struct acpi_device *cocci_id/* drivers/tty/serdev/core.c 670 */;
+	struct serdev_controller *cocci_id/* drivers/tty/serdev/core.c 669 */;
+	void **cocci_id/* drivers/tty/serdev/core.c 667 */;
+	void *cocci_id/* drivers/tty/serdev/core.c 667 */;
+	u32 cocci_id/* drivers/tty/serdev/core.c 666 */;
+	acpi_status cocci_id/* drivers/tty/serdev/core.c 666 */;
+	acpi_handle cocci_id/* drivers/tty/serdev/core.c 666 */;
+	struct serdev_device *cocci_id/* drivers/tty/serdev/core.c 643 */;
+	struct acpi_serdev_lookup cocci_id/* drivers/tty/serdev/core.c 620 */;
+	struct list_head cocci_id/* drivers/tty/serdev/core.c 599 */;
+	struct acpi_serdev_lookup *cocci_id/* drivers/tty/serdev/core.c 597 */;
+	struct acpi_resource_uart_serialbus *cocci_id/* drivers/tty/serdev/core.c 568 */;
+	struct acpi_resource *cocci_id/* drivers/tty/serdev/core.c 565 */;
+	struct acpi_serdev_lookup {
+		acpi_handle device_handle;
+		acpi_handle controller_handle;
+		int n;
+		int index;
+	} cocci_id/* drivers/tty/serdev/core.c 558 */;
+	struct device_node *cocci_id/* drivers/tty/serdev/core.c 523 */;
+	size_t cocci_id/* drivers/tty/serdev/core.c 478 */;
+	struct kobj_uevent_env *cocci_id/* drivers/tty/serdev/core.c 44 */;
+	struct bus_type cocci_id/* drivers/tty/serdev/core.c 434 */;
+	const struct serdev_device_driver *cocci_id/* drivers/tty/serdev/core.c 409 */;
+	struct attribute *cocci_id/* drivers/tty/serdev/core.c 38 */[];
+	long cocci_id/* drivers/tty/serdev/core.c 374 */;
+	enum serdev_parity cocci_id/* drivers/tty/serdev/core.c 363 */;
+	unsigned int cocci_id/* drivers/tty/serdev/core.c 339 */;
+	const unsigned char *cocci_id/* drivers/tty/serdev/core.c 270 */;
+	struct device_attribute *cocci_id/* drivers/tty/serdev/core.c 26 */;
+	char *cocci_id/* drivers/tty/serdev/core.c 26 */;
+	ssize_t cocci_id/* drivers/tty/serdev/core.c 25 */;
+	bool cocci_id/* drivers/tty/serdev/core.c 22 */;
+	struct serdev_device **cocci_id/* drivers/tty/serdev/core.c 194 */;
+	struct device *cocci_id/* drivers/tty/serdev/core.c 192 */;
+	void cocci_id/* drivers/tty/serdev/core.c 187 */;
+}

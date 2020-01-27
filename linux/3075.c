@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	gfp_t cocci_id/* drivers/block/brd.c 91 */;
+	pgoff_t cocci_id/* drivers/block/brd.c 89 */;
+	void __exit cocci_id/* drivers/block/brd.c 537 */;
+	int __init cocci_id/* drivers/block/brd.c 476 */;
+	bool cocci_id/* drivers/block/brd.c 463 */;
+	dev_t cocci_id/* drivers/block/brd.c 459 */;
+	struct kobject *cocci_id/* drivers/block/brd.c 459 */;
+	int *cocci_id/* drivers/block/brd.c 459 */;
+	void cocci_id/* drivers/block/brd.c 452 */;
+	bool *cocci_id/* drivers/block/brd.c 431 */;
+	struct brd_device {
+		int brd_number;
+		struct request_queue *brd_queue;
+		struct gendisk *brd_disk;
+		struct list_head brd_list;
+		spinlock_t brd_lock;
+		struct radix_tree_root brd_pages;
+	} cocci_id/* drivers/block/brd.c 38 */;
+	struct gendisk *cocci_id/* drivers/block/brd.c 375 */;
+	struct brd_device *cocci_id/* drivers/block/brd.c 372 */;
+	int cocci_id/* drivers/block/brd.c 372 */;
+	char *cocci_id/* drivers/block/brd.c 357 */;
+	const struct block_device_operations cocci_id/* drivers/block/brd.c 331 */;
+	struct block_device *cocci_id/* drivers/block/brd.c 318 */;
+	struct bvec_iter cocci_id/* drivers/block/brd.c 290 */;
+	struct bio_vec cocci_id/* drivers/block/brd.c 288 */;
+	blk_qc_t cocci_id/* drivers/block/brd.c 285 */;
+	struct request_queue *cocci_id/* drivers/block/brd.c 285 */;
+	struct bio *cocci_id/* drivers/block/brd.c 285 */;
+	void *cocci_id/* drivers/block/brd.c 262 */;
+	sector_t cocci_id/* drivers/block/brd.c 260 */;
+	unsigned int cocci_id/* drivers/block/brd.c 259 */;
+	struct page *cocci_id/* drivers/block/brd.c 258 */;
+	size_t cocci_id/* drivers/block/brd.c 225 */;
+	const void *cocci_id/* drivers/block/brd.c 192 */;
+	void **cocci_id/* drivers/block/brd.c 142 */;
+	struct page *cocci_id/* drivers/block/brd.c 135 */[FREE_BATCH];
+	unsigned long cocci_id/* drivers/block/brd.c 134 */;
+}

@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	const struct fb_var_screeninfo cocci_id/* drivers/video/fbdev/arcfb.c 92 */;
+	const struct fb_fix_screeninfo cocci_id/* drivers/video/fbdev/arcfb.c 82 */;
+	struct arcfb_par {
+		unsigned long dio_addr;
+		unsigned long cio_addr;
+		unsigned long c2io_addr;
+		atomic_t ref_count;
+		unsigned char cslut[9];
+		struct fb_info *info;
+		unsigned int irq;
+		spinlock_t lock;
+	} cocci_id/* drivers/video/fbdev/arcfb.c 71 */;
+	void __exit cocci_id/* drivers/video/fbdev/arcfb.c 636 */;
+	int cocci_id/* drivers/video/fbdev/arcfb.c 614 */;
+	int __init cocci_id/* drivers/video/fbdev/arcfb.c 612 */;
+	struct platform_device *cocci_id/* drivers/video/fbdev/arcfb.c 610 */;
+	struct platform_driver cocci_id/* drivers/video/fbdev/arcfb.c 602 */;
+	void __force *cocci_id/* drivers/video/fbdev/arcfb.c 596 */;
+	char __iomem *cocci_id/* drivers/video/fbdev/arcfb.c 528 */;
+	struct arcfb_par cocci_id/* drivers/video/fbdev/arcfb.c 524 */;
+	struct fb_ops cocci_id/* drivers/video/fbdev/arcfb.c 494 */;
+	char __force *cocci_id/* drivers/video/fbdev/arcfb.c 471 */;
+	char *cocci_id/* drivers/video/fbdev/arcfb.c 469 */;
+	loff_t *cocci_id/* drivers/video/fbdev/arcfb.c 444 */;
+	size_t cocci_id/* drivers/video/fbdev/arcfb.c 444 */;
+	const char __user *cocci_id/* drivers/video/fbdev/arcfb.c 443 */;
+	ssize_t cocci_id/* drivers/video/fbdev/arcfb.c 443 */;
+	void __user *cocci_id/* drivers/video/fbdev/arcfb.c 401 */;
+	unsigned long cocci_id/* drivers/video/fbdev/arcfb.c 399 */;
+	const struct fb_image *cocci_id/* drivers/video/fbdev/arcfb.c 387 */;
+	struct arcfb_par *cocci_id/* drivers/video/fbdev/arcfb.c 379 */;
+	const struct fb_copyarea *cocci_id/* drivers/video/fbdev/arcfb.c 377 */;
+	struct fb_info *cocci_id/* drivers/video/fbdev/arcfb.c 376 */;
+	void cocci_id/* drivers/video/fbdev/arcfb.c 376 */;
+	const struct fb_fillrect *cocci_id/* drivers/video/fbdev/arcfb.c 366 */;
+	unsigned char __force *cocci_id/* drivers/video/fbdev/arcfb.c 263 */;
+	unsigned char *cocci_id/* drivers/video/fbdev/arcfb.c 250 */;
+	unsigned char cocci_id/* drivers/video/fbdev/arcfb.c 222 */;
+	irqreturn_t cocci_id/* drivers/video/fbdev/arcfb.c 219 */;
+	void *cocci_id/* drivers/video/fbdev/arcfb.c 219 */;
+	struct fb_var_screeninfo *cocci_id/* drivers/video/fbdev/arcfb.c 201 */;
+	unsigned int cocci_id/* drivers/video/fbdev/arcfb.c 109 */;
+}

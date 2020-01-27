@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	u32 cocci_id/* sound/aoa/soundbus/i2sbus/core.c 93 */;
+	irqreturn_t cocci_id/* sound/aoa/soundbus/i2sbus/core.c 90 */;
+	struct device *cocci_id/* sound/aoa/soundbus/i2sbus/core.c 70 */;
+	void cocci_id/* sound/aoa/soundbus/i2sbus/core.c 61 */;
+	char *cocci_id/* sound/aoa/soundbus/i2sbus/core.c 56 */;
+	void *cocci_id/* sound/aoa/soundbus/i2sbus/core.c 54 */;
+	struct dbdma_cmd cocci_id/* sound/aoa/soundbus/i2sbus/core.c 45 */;
+	void __exit cocci_id/* sound/aoa/soundbus/i2sbus/core.c 448 */;
+	int __init cocci_id/* sound/aoa/soundbus/i2sbus/core.c 443 */;
+	struct macio_driver cocci_id/* sound/aoa/soundbus/i2sbus/core.c 428 */;
+	struct dbdma_command_mem *cocci_id/* sound/aoa/soundbus/i2sbus/core.c 41 */;
+	struct codec_info_item *cocci_id/* sound/aoa/soundbus/i2sbus/core.c 401 */;
+	struct i2sbus_dev *cocci_id/* sound/aoa/soundbus/i2sbus/core.c 40 */;
+	int cocci_id/* sound/aoa/soundbus/i2sbus/core.c 40 */;
+	pm_message_t cocci_id/* sound/aoa/soundbus/i2sbus/core.c 374 */;
+	const struct of_device_id *cocci_id/* sound/aoa/soundbus/i2sbus/core.c 330 */;
+	const struct of_device_id cocci_id/* sound/aoa/soundbus/i2sbus/core.c 33 */[];
+	struct dbdma_regs cocci_id/* sound/aoa/soundbus/i2sbus/core.c 278 */;
+	struct i2s_interface_regs cocci_id/* sound/aoa/soundbus/i2sbus/core.c 272 */;
+	const u32 *cocci_id/* sound/aoa/soundbus/i2sbus/core.c 186 */;
+	struct i2sbus_dev cocci_id/* sound/aoa/soundbus/i2sbus/core.c 174 */;
+	irq_handler_t cocci_id/* sound/aoa/soundbus/i2sbus/core.c 163 */[];
+	const char *cocci_id/* sound/aoa/soundbus/i2sbus/core.c 160 */[];
+	char cocci_id/* sound/aoa/soundbus/i2sbus/core.c 159 */[6];
+	struct resource *cocci_id/* sound/aoa/soundbus/i2sbus/core.c 157 */;
+	struct device_node *cocci_id/* sound/aoa/soundbus/i2sbus/core.c 153 */;
+	struct i2sbus_control *cocci_id/* sound/aoa/soundbus/i2sbus/core.c 152 */;
+	struct macio_dev *cocci_id/* sound/aoa/soundbus/i2sbus/core.c 151 */;
+}

@@ -1,0 +1,121 @@
+cocci_test_suite() {
+	struct fb_bitfield cocci_id/* drivers/video/fbdev/au1200fb.c 968 */[][4];
+	void cocci_id/* drivers/video/fbdev/au1200fb.c 937 */;
+	struct au1200_lcd_global_regs_t {
+		unsigned int flags;
+		unsigned int xsize;
+		unsigned int ysize;
+		unsigned int backcolor;
+		unsigned int brightness;
+		unsigned int colorkey;
+		unsigned int mask;
+		unsigned int panel_choice;
+		char panel_desc[80];
+	} cocci_id/* drivers/video/fbdev/au1200fb.c 83 */;
+	long cocci_id/* drivers/video/fbdev/au1200fb.c 824 */;
+	struct clk *cocci_id/* drivers/video/fbdev/au1200fb.c 823 */;
+	struct au1200fb_platdata *cocci_id/* drivers/video/fbdev/au1200fb.c 773 */;
+	struct panel_settings *cocci_id/* drivers/video/fbdev/au1200fb.c 772 */;
+	uint32 cocci_id/* drivers/video/fbdev/au1200fb.c 705 */;
+	struct au1200fb_device *cocci_id/* drivers/video/fbdev/au1200fb.c 702 */;
+	int cocci_id/* drivers/video/fbdev/au1200fb.c 702 */;
+	struct panel_settings cocci_id/* drivers/video/fbdev/au1200fb.c 360 */[];
+	struct panel_settings {
+		const char name[25];
+		struct fb_monspecs monspecs;
+		uint32 mode_screen;
+		uint32 mode_horztiming;
+		uint32 mode_verttiming;
+		uint32 mode_clkcontrol;
+		uint32 mode_pwmdiv;
+		uint32 mode_pwmhi;
+		uint32 mode_outmask;
+		uint32 mode_fifoctrl;
+		uint32 mode_backlight;
+		uint32 lcdclk;
+#define Xres min_xres
+#define Yres min_yres
+		u32 min_xres;
+		u32 max_xres;
+		u32 min_yres;
+		u32 max_yres;
+	} cocci_id/* drivers/video/fbdev/au1200fb.c 321 */;
+	struct window_settings cocci_id/* drivers/video/fbdev/au1200fb.c 212 */[];
+	struct window_settings {
+		unsigned char name[64];
+		uint32 mode_backcolor;
+		uint32 mode_colorkey;
+		uint32 mode_colorkeymsk;
+		struct {
+			int xres;
+			int yres;
+			int xpos;
+			int ypos;
+			uint32 mode_winctrl1;
+			uint32 mode_winenable;
+		} w[4];
+	} cocci_id/* drivers/video/fbdev/au1200fb.c 188 */;
+	struct platform_driver cocci_id/* drivers/video/fbdev/au1200fb.c 1834 */;
+	struct window_settings *cocci_id/* drivers/video/fbdev/au1200fb.c 183 */;
+	const struct dev_pm_ops cocci_id/* drivers/video/fbdev/au1200fb.c 1821 */;
+	struct device *cocci_id/* drivers/video/fbdev/au1200fb.c 1804 */;
+	struct au1200_lcd *cocci_id/* drivers/video/fbdev/au1200fb.c 179 */;
+	struct fb_info *cocci_id/* drivers/video/fbdev/au1200fb.c 178 */[MAX_DEVICE_COUNT];
+	void *cocci_id/* drivers/video/fbdev/au1200fb.c 1733 */;
+	struct au1200fb_device cocci_id/* drivers/video/fbdev/au1200fb.c 1675 */;
+	struct fb_info *cocci_id/* drivers/video/fbdev/au1200fb.c 1648 */;
+	struct platform_device *cocci_id/* drivers/video/fbdev/au1200fb.c 1644 */;
+	long int cocci_id/* drivers/video/fbdev/au1200fb.c 1595 */;
+	char *cocci_id/* drivers/video/fbdev/au1200fb.c 1580 */;
+	char __iomem *cocci_id/* drivers/video/fbdev/au1200fb.c 1568 */;
+	struct fb_monspecs cocci_id/* drivers/video/fbdev/au1200fb.c 1530 */;
+	irqreturn_t cocci_id/* drivers/video/fbdev/au1200fb.c 1504 */;
+	struct fb_ops cocci_id/* drivers/video/fbdev/au1200fb.c 1486 */;
+	struct au1200fb_device {
+		struct fb_info *fb_info;
+		struct au1200fb_platdata *pd;
+		struct device *dev;
+		int plane;
+		unsigned char *fb_mem;
+		unsigned int fb_len;
+		dma_addr_t fb_phys;
+	} cocci_id/* drivers/video/fbdev/au1200fb.c 147 */;
+	void __user *cocci_id/* drivers/video/fbdev/au1200fb.c 1427 */;
+	struct au1200_lcd_iodata_t cocci_id/* drivers/video/fbdev/au1200fb.c 1425 */;
+	unsigned long cocci_id/* drivers/video/fbdev/au1200fb.c 1415 */;
+	unsigned int cocci_id/* drivers/video/fbdev/au1200fb.c 1414 */;
+	struct au1200_lcd_window_regs_t *cocci_id/* drivers/video/fbdev/au1200fb.c 1388 */;
+	struct au1200_lcd_iodata_t {
+		unsigned int subcmd;
+		struct au1200_lcd_global_regs_t global;
+		struct au1200_lcd_window_regs_t window;
+	} cocci_id/* drivers/video/fbdev/au1200fb.c 133 */;
+	u_int cocci_id/* drivers/video/fbdev/au1200fb.c 1270 */;
+	struct au1200_lcd_global_regs_t *cocci_id/* drivers/video/fbdev/au1200fb.c 1270 */;
+	struct vm_area_struct *cocci_id/* drivers/video/fbdev/au1200fb.c 1232 */;
+	u32 *cocci_id/* drivers/video/fbdev/au1200fb.c 1162 */;
+	volatile u32 *cocci_id/* drivers/video/fbdev/au1200fb.c 1145 */;
+	unsigned cocci_id/* drivers/video/fbdev/au1200fb.c 1142 */;
+	struct au1200_lcd_window_regs_t {
+		unsigned int flags;
+		unsigned int xpos;
+		unsigned int ypos;
+		unsigned int alpha_color;
+		unsigned int alpha_mode;
+		unsigned int priority;
+		unsigned int channel;
+		unsigned int buffer_format;
+		unsigned int color_order;
+		unsigned int pixel_order;
+		unsigned int xsize;
+		unsigned int ysize;
+		unsigned int colorkey_mode;
+		unsigned int double_buffer_mode;
+		unsigned int ram_array_mode;
+		unsigned int xscale;
+		unsigned int yscale;
+		unsigned int enable;
+	} cocci_id/* drivers/video/fbdev/au1200fb.c 111 */;
+	u32 cocci_id/* drivers/video/fbdev/au1200fb.c 1040 */;
+	struct fb_var_screeninfo *cocci_id/* drivers/video/fbdev/au1200fb.c 1036 */;
+}

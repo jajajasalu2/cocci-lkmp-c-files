@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	const char *cocci_id/* tools/perf/util/stat.c 87 */[PERF_STAT_EVSEL_ID__MAX];
+	struct perf_stat_evsel *cocci_id/* tools/perf/util/stat.c 81 */;
+	enum perf_stat_evsel_id cocci_id/* tools/perf/util/stat.c 79 */;
+	bool cocci_id/* tools/perf/util/stat.c 78 */;
+	struct evsel *cocci_id/* tools/perf/util/stat.c 78 */;
+	struct perf_event_attr *cocci_id/* tools/perf/util/stat.c 470 */;
+	struct target *cocci_id/* tools/perf/util/stat.c 467 */;
+	struct perf_stat_config *cocci_id/* tools/perf/util/stat.c 466 */;
+	struct perf_stat_config cocci_id/* tools/perf/util/stat.c 452 */;
+	struct perf_record_stat_round *cocci_id/* tools/perf/util/stat.c 441 */;
+	struct perf_record_stat *cocci_id/* tools/perf/util/stat.c 428 */;
+	FILE *cocci_id/* tools/perf/util/stat.c 426 */;
+	union perf_event *cocci_id/* tools/perf/util/stat.c 426 */;
+	size_t cocci_id/* tools/perf/util/stat.c 426 */;
+	struct perf_counts_values cocci_id/* tools/perf/util/stat.c 407 */;
+	struct perf_session *cocci_id/* tools/perf/util/stat.c 404 */;
+	u64 *cocci_id/* tools/perf/util/stat.c 359 */;
+	struct stats *cocci_id/* tools/perf/util/stat.c 34 */;
+	double cocci_id/* tools/perf/util/stat.c 34 */;
+	struct perf_cpu_map *cocci_id/* tools/perf/util/stat.c 242 */;
+	unsigned long *cocci_id/* tools/perf/util/stat.c 241 */;
+	bool *cocci_id/* tools/perf/util/stat.c 239 */;
+	struct perf_counts_values *cocci_id/* tools/perf/util/stat.c 239 */;
+	int cocci_id/* tools/perf/util/stat.c 238 */;
+	void cocci_id/* tools/perf/util/stat.c 203 */;
+	struct evlist *cocci_id/* tools/perf/util/stat.c 187 */;
+	u64 cocci_id/* tools/perf/util/stat.c 18 */;
+	struct perf_counts *cocci_id/* tools/perf/util/stat.c 150 */;
+	struct perf_stat_evsel cocci_id/* tools/perf/util/stat.c 131 */;
+}

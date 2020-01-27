@@ -1,0 +1,82 @@
+cocci_test_suite() {
+	enum pt_level cocci_id/* arch/x86/xen/mmu_pv.c 858 */;
+	int __init cocci_id/* arch/x86/xen/mmu_pv.c 857 */;
+	pgd_t *cocci_id/* arch/x86/xen/mmu_pv.c 788 */;
+	struct mm_struct *cocci_id/* arch/x86/xen/mmu_pv.c 788 */;
+	spinlock_t *cocci_id/* arch/x86/xen/mmu_pv.c 741 */;
+	p4d_t *cocci_id/* arch/x86/xen/mmu_pv.c 668 */;
+	int (*cocci_id/* arch/x86/xen/mmu_pv.c 646 */)(struct mm_struct *mm,
+						       struct page *,
+						       enum pt_level);
+	int cocci_id/* arch/x86/xen/mmu_pv.c 645 */;
+	p4dval_t cocci_id/* arch/x86/xen/mmu_pv.c 566 */;
+	struct mmu_update cocci_id/* arch/x86/xen/mmu_pv.c 502 */;
+	p4d_t cocci_id/* arch/x86/xen/mmu_pv.c 500 */;
+	pudval_t cocci_id/* arch/x86/xen/mmu_pv.c 476 */;
+	pmdval_t cocci_id/* arch/x86/xen/mmu_pv.c 462 */;
+	pgdval_t cocci_id/* arch/x86/xen/mmu_pv.c 397 */;
+	pteval_t cocci_id/* arch/x86/xen/mmu_pv.c 333 */;
+	struct vm_area_struct *cocci_id/* arch/x86/xen/mmu_pv.c 317 */;
+	pte_t cocci_id/* arch/x86/xen/mmu_pv.c 278 */;
+	pte_t *cocci_id/* arch/x86/xen/mmu_pv.c 278 */;
+	struct mmu_update cocci_id/* arch/x86/xen/mmu_pv.c 2721 */[REMAP_BATCH_SIZE];
+	struct remap_data cocci_id/* arch/x86/xen/mmu_pv.c 2720 */;
+	struct page **cocci_id/* arch/x86/xen/mmu_pv.c 2717 */;
+	xen_pfn_t *cocci_id/* arch/x86/xen/mmu_pv.c 2716 */;
+	int *cocci_id/* arch/x86/xen/mmu_pv.c 2716 */;
+	struct remap_data *cocci_id/* arch/x86/xen/mmu_pv.c 2693 */;
+	struct remap_data {
+		xen_pfn_t *pfn;
+		bool contiguous;
+		bool no_translate;
+		pgprot_t prot;
+		struct mmu_update *mmu_update;
+	} cocci_id/* arch/x86/xen/mmu_pv.c 2683 */;
+	dma_addr_t *cocci_id/* arch/x86/xen/mmu_pv.c 2588 */;
+	struct xen_memory_exchange cocci_id/* arch/x86/xen/mmu_pv.c 2559 */;
+	long cocci_id/* arch/x86/xen/mmu_pv.c 2556 */;
+	unsigned long cocci_id/* arch/x86/xen/mmu_pv.c 2472 */[1 << MAX_CONTIG_ORDER];
+	const struct pv_mmu_ops cocci_id/* arch/x86/xen/mmu_pv.c 2389 */;
+	unsigned char cocci_id/* arch/x86/xen/mmu_pv.c 2293 */[PAGE_SIZE]__page_aligned_bss;
+	pmd_t cocci_id/* arch/x86/xen/mmu_pv.c 2172 */;
+	pud_t cocci_id/* arch/x86/xen/mmu_pv.c 2016 */;
+	pgd_t cocci_id/* arch/x86/xen/mmu_pv.c 2015 */;
+	phys_addr_t __init cocci_id/* arch/x86/xen/mmu_pv.c 2012 */;
+	const struct mmuext_op *cocci_id/* arch/x86/xen/mmu_pv.c 201 */;
+	struct start_info *cocci_id/* arch/x86/xen/mmu_pv.c 1990 */;
+	unsigned long cocci_id/* arch/x86/xen/mmu_pv.c 1879 */[3];
+	struct mmu_update *cocci_id/* arch/x86/xen/mmu_pv.c 186 */;
+	unsigned long *cocci_id/* arch/x86/xen/mmu_pv.c 1851 */;
+	void __init cocci_id/* arch/x86/xen/mmu_pv.c 1851 */;
+	const struct mmu_update *cocci_id/* arch/x86/xen/mmu_pv.c 183 */;
+	struct xen_machphys_mapping cocci_id/* arch/x86/xen/mmu_pv.c 1826 */;
+	unsigned long __init cocci_id/* arch/x86/xen/mmu_pv.c 1744 */;
+	void *cocci_id/* arch/x86/xen/mmu_pv.c 1737 */;
+	phys_addr_t cocci_id/* arch/x86/xen/mmu_pv.c 1734 */;
+	void *__initcocci_id/* arch/x86/xen/mmu_pv.c 1734 */;
+	struct xen_platform_parameters cocci_id/* arch/x86/xen/mmu_pv.c 1721 */;
+	struct page *cocci_id/* arch/x86/xen/mmu_pv.c 1640 */;
+	pgprot_t cocci_id/* arch/x86/xen/mmu_pv.c 1620 */;
+	struct mmuext_op *cocci_id/* arch/x86/xen/mmu_pv.c 1610 */;
+	struct multicall_space cocci_id/* arch/x86/xen/mmu_pv.c 1609 */;
+	unsigned long cocci_id/* arch/x86/xen/mmu_pv.c 1607 */;
+	unsigned cocci_id/* arch/x86/xen/mmu_pv.c 1607 */;
+	void cocci_id/* arch/x86/xen/mmu_pv.c 1607 */;
+	unsigned int cocci_id/* arch/x86/xen/mmu_pv.c 140 */;
+	struct mmuext_op cocci_id/* arch/x86/xen/mmu_pv.c 1396 */;
+	bool cocci_id/* arch/x86/xen/mmu_pv.c 1394 */;
+	const size_t cocci_id/* arch/x86/xen/mmu_pv.c 1356 */;
+	struct {
+		struct mmuext_op op;
+		DECLARE_BITMAP(mask,NR_CPUS)
+		;
+	} *cocci_id/* arch/x86/xen/mmu_pv.c 1351 */;
+	const struct flush_tlb_info *cocci_id/* arch/x86/xen/mmu_pv.c 1349 */;
+	const struct cpumask *cocci_id/* arch/x86/xen/mmu_pv.c 1348 */;
+	pud_t *cocci_id/* arch/x86/xen/mmu_pv.c 1185 */;
+	pmd_t *cocci_id/* arch/x86/xen/mmu_pv.c 1097 */;
+	void cocci_id/* arch/x86/xen/mmu_pv.c 1080 */(void);
+	cpumask_var_t cocci_id/* arch/x86/xen/mmu_pv.c 1013 */;
+	pud_t cocci_id/* arch/x86/xen/mmu_pv.c 100 */[PTRS_PER_PUD]__page_aligned_bss;
+	__typeof__(unsigned long) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

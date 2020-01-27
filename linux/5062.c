@@ -1,0 +1,63 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/gpio/gpio-davinci.c 92 */;
+	unsigned long cocci_id/* drivers/gpio/gpio-davinci.c 91 */;
+	struct davinci_gpio_regs __iomem *cocci_id/* drivers/gpio/gpio-davinci.c 90 */;
+	struct davinci_gpio_controller *cocci_id/* drivers/gpio/gpio-davinci.c 89 */;
+	bool cocci_id/* drivers/gpio/gpio-davinci.c 87 */;
+	unsigned cocci_id/* drivers/gpio/gpio-davinci.c 87 */;
+	struct gpio_chip *cocci_id/* drivers/gpio/gpio-davinci.c 86 */;
+	int cocci_id/* drivers/gpio/gpio-davinci.c 86 */;
+	int cocci_id/* drivers/gpio/gpio-davinci.c 81 */(struct platform_device *pdev);
+	int __init cocci_id/* drivers/gpio/gpio-davinci.c 654 */;
+	void cocci_id/* drivers/gpio/gpio-davinci.c 654 */;
+	struct platform_driver cocci_id/* drivers/gpio/gpio-davinci.c 642 */;
+	struct davinci_gpio_irq_data cocci_id/* drivers/gpio/gpio-davinci.c 606 */;
+	struct davinci_gpio_controller {
+		struct gpio_chip chip;
+		struct irq_domain *irq_domain;
+		spinlock_t lock;
+		void __iomem *regs[MAX_REGS_BANKS];
+		int gpio_unbanked;
+		int irqs[MAX_INT_PER_BANK];
+	} cocci_id/* drivers/gpio/gpio-davinci.c 57 */;
+	struct davinci_gpio_irq_data {
+		void __iomem *regs;
+		struct davinci_gpio_controller *chip;
+		int bank_num;
+	} cocci_id/* drivers/gpio/gpio-davinci.c 51 */;
+	gpio_get_irq_chip_cb_t cocci_id/* drivers/gpio/gpio-davinci.c 504 */;
+	struct davinci_gpio_irq_data *cocci_id/* drivers/gpio/gpio-davinci.c 503 */;
+	const struct of_device_id *cocci_id/* drivers/gpio/gpio-davinci.c 501 */;
+	struct device *cocci_id/* drivers/gpio/gpio-davinci.c 496 */;
+	struct clk *cocci_id/* drivers/gpio/gpio-davinci.c 493 */;
+	unsigned int cocci_id/* drivers/gpio/gpio-davinci.c 49 */[5];
+	void __iomem *cocci_id/* drivers/gpio/gpio-davinci.c 48 */;
+	const struct of_device_id cocci_id/* drivers/gpio/gpio-davinci.c 478 */[];
+	struct irq_chip_type cocci_id/* drivers/gpio/gpio-davinci.c 463 */;
+	struct irq_chip *cocci_id/* drivers/gpio/gpio-davinci.c 461 */;
+	unsigned int cocci_id/* drivers/gpio/gpio-davinci.c 461 */;
+	const struct irq_domain_ops cocci_id/* drivers/gpio/gpio-davinci.c 456 */;
+	uintptr_t cocci_id/* drivers/gpio/gpio-davinci.c 451 */;
+	void *cocci_id/* drivers/gpio/gpio-davinci.c 450 */;
+	irq_hw_number_t cocci_id/* drivers/gpio/gpio-davinci.c 441 */;
+	struct irq_domain *cocci_id/* drivers/gpio/gpio-davinci.c 440 */;
+	struct irq_chip *(*cocci_id/* drivers/gpio/gpio-davinci.c 44 */)(unsigned int irq);
+	struct irq_desc *cocci_id/* drivers/gpio/gpio-davinci.c 339 */;
+	struct irq_chip cocci_id/* drivers/gpio/gpio-davinci.c 331 */;
+	struct davinci_gpio_regs {
+		u32 dir;
+		u32 out_data;
+		u32 set_data;
+		u32 clr_data;
+		u32 in_data;
+		u32 set_rising;
+		u32 clr_rising;
+		u32 set_falling;
+		u32 clr_falling;
+		u32 intstat;
+	} cocci_id/* drivers/gpio/gpio-davinci.c 31 */;
+	struct irq_data *cocci_id/* drivers/gpio/gpio-davinci.c 298 */;
+	struct device_node *cocci_id/* drivers/gpio/gpio-davinci.c 159 */;
+	struct platform_device *cocci_id/* drivers/gpio/gpio-davinci.c 157 */;
+	struct davinci_gpio_platform_data *cocci_id/* drivers/gpio/gpio-davinci.c 156 */;
+}

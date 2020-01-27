@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	const gfp_t cocci_id/* net/dccp/output.c 671 */;
+	const int cocci_id/* net/dccp/output.c 667 */;
+	const enum dccp_pkt_type cocci_id/* net/dccp/output.c 631 */;
+	const u64 cocci_id/* net/dccp/output.c 630 */;
+	u64 cocci_id/* net/dccp/output.c 55 */;
+	struct inet_connection_sock *cocci_id/* net/dccp/output.c 537 */;
+	struct dst_entry *cocci_id/* net/dccp/output.c 536 */;
+	struct dccp_sock *cocci_id/* net/dccp/output.c 535 */;
+	struct sk_buff *cocci_id/* net/dccp/output.c 534 */;
+	struct sock *cocci_id/* net/dccp/output.c 532 */;
+	int cocci_id/* net/dccp/output.c 532 */;
+	enum dccp_reset_codes cocci_id/* net/dccp/output.c 505 */;
+	struct dccp_hdr_reset *cocci_id/* net/dccp/output.c 460 */;
+	const struct inet_connection_sock *cocci_id/* net/dccp/output.c 46 */;
+	struct dccp_hdr_reset cocci_id/* net/dccp/output.c 459 */;
+	struct dccp_hdr_ext cocci_id/* net/dccp/output.c 458 */;
+	const u32 cocci_id/* net/dccp/output.c 457 */;
+	struct dccp_hdr cocci_id/* net/dccp/output.c 457 */;
+	struct dccp_skb_cb *cocci_id/* net/dccp/output.c 456 */;
+	struct dccp_hdr *cocci_id/* net/dccp/output.c 455 */;
+	struct inet_sock *cocci_id/* net/dccp/output.c 45 */;
+	struct dccp_hdr_response cocci_id/* net/dccp/output.c 397 */;
+	struct dccp_request_sock *cocci_id/* net/dccp/output.c 394 */;
+	struct request_sock *cocci_id/* net/dccp/output.c 391 */;
+	const struct sock *cocci_id/* net/dccp/output.c 390 */;
+	long cocci_id/* net/dccp/output.c 308 */;
+	long *cocci_id/* net/dccp/output.c 304 */;
+	void cocci_id/* net/dccp/output.c 22 */;
+	unsigned long cocci_id/* net/dccp/output.c 217 */;
+	struct socket_wq *cocci_id/* net/dccp/output.c 197 */;
+	unsigned int cocci_id/* net/dccp/output.c 159 */;
+	const struct ccid *cocci_id/* net/dccp/output.c 152 */;
+	u32 cocci_id/* net/dccp/output.c 150 */;
+	const struct dccp_sock *cocci_id/* net/dccp/output.c 150 */;
+}

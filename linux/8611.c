@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	dma_addr_t cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 954 */;
+	struct xdp_desc cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 953 */;
+	u8 cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 855 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 852 */;
+	struct xdp_buff cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 843 */;
+	unsigned int cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 840 */;
+	struct bpf_prog *cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 792 */;
+	struct xdp_buff *cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 758 */;
+	unsigned long cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 726 */;
+	void cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 684 */;
+	u16 cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 661 */;
+	union ice_32b_rx_flex_desc *cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 613 */;
+	bool cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 611 */(struct ice_ring *,
+									struct ice_rx_buf *);
+	int cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 610 */;
+	u64 cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 536 */;
+	void *cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 535 */;
+	struct xdp_umem *cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 534 */;
+	struct ice_rx_buf *cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 532 */;
+	struct ice_ring *cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 532 */;
+	bool cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 531 */;
+	struct ice_ring cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 498 */;
+	struct zero_copy_allocator *cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 490 */;
+	struct xdp_umem_fq_reuse *cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 411 */;
+	struct ice_vsi *cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 36 */;
+	struct device *cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 331 */;
+	struct ice_aqc_add_tx_qgrp *cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 206 */;
+	struct ice_q_vector *cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 151 */;
+	struct ice_txq_meta cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 149 */;
+	struct ice_netdev_priv *cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 1083 */;
+	u32 __always_unused cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 1081 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 1080 */;
+	struct ice_hw *cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 106 */;
+	struct ice_pf *cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 105 */;
+	u32 cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 1023 */;
+	struct ice_tx_buf *cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 1021 */;
+	struct ice_tx_desc *cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 1020 */;
+	s16 cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 1019 */;
+	struct xdp_frame *cocci_id/* drivers/net/ethernet/intel/ice/ice_xsk.c 1003 */;
+}

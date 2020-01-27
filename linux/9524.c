@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct rtl_phy *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 84 */;
+	__le16 *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 609 */;
+	struct rtl_mac *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 598 */;
+	struct rtl_ps_ctl *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 555 */;
+	unsigned long long cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 525 */;
+	struct h2c_wpa_two_way_parm cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 521 */;
+	struct h2c_joinbss_rpt_parm cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 517 */;
+	struct h2c_set_pwrmode_parm cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 513 */;
+	__le32 *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 445 */;
+	u8 **cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 425 */;
+	u32 *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 424 */;
+	u32 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 423 */;
+	struct fw_hdr *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 318 */;
+	int cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 313 */;
+	enum fw_status cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 201 */;
+	short cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 195 */;
+	struct rt_firmware *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 192 */;
+	struct rtl_hal *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 191 */;
+	u16 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 139 */;
+	struct rtl_tcb_desc *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 138 */;
+	u8 *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 125 */;
+	unsigned long cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 116 */;
+	struct rtl_tx_desc *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 115 */;
+	struct rtl8192_tx_ring *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 114 */;
+	struct rtl_pci *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 113 */;
+	struct rtl_priv *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 112 */;
+	u8 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 110 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 110 */;
+	bool cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 109 */;
+	struct ieee80211_hw *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 109 */;
+	struct fw_priv *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 101 */;
+	void cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.c 100 */;
+}

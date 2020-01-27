@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* drivers/w1/slaves/w1_ds28e17.c 89 */;
+	const unsigned long cocci_id/* drivers/w1/slaves/w1_ds28e17.c 87 */[3];
+	struct w1_f19_data {
+		u8 speed;
+		u8 stretch;
+		struct i2c_adapter adapter;
+	} cocci_id/* drivers/w1/slaves/w1_ds28e17.c 77 */;
+	void __exit cocci_id/* drivers/w1/slaves/w1_ds28e17.c 762 */;
+	void cocci_id/* drivers/w1/slaves/w1_ds28e17.c 762 */;
+	int __init cocci_id/* drivers/w1/slaves/w1_ds28e17.c 757 */;
+	struct w1_family cocci_id/* drivers/w1/slaves/w1_ds28e17.c 750 */;
+	struct w1_family_ops cocci_id/* drivers/w1/slaves/w1_ds28e17.c 744 */;
+	const struct attribute_group *cocci_id/* drivers/w1/slaves/w1_ds28e17.c 674 */[];
+	const struct attribute_group cocci_id/* drivers/w1/slaves/w1_ds28e17.c 670 */;
+	struct attribute *cocci_id/* drivers/w1/slaves/w1_ds28e17.c 664 */[];
+	const char *cocci_id/* drivers/w1/slaves/w1_ds28e17.c 590 */;
+	char *cocci_id/* drivers/w1/slaves/w1_ds28e17.c 575 */;
+	struct device_attribute *cocci_id/* drivers/w1/slaves/w1_ds28e17.c 574 */;
+	struct device *cocci_id/* drivers/w1/slaves/w1_ds28e17.c 574 */;
+	ssize_t cocci_id/* drivers/w1/slaves/w1_ds28e17.c 574 */;
+	const int cocci_id/* drivers/w1/slaves/w1_ds28e17.c 535 */[3];
+	struct w1_f19_data *cocci_id/* drivers/w1/slaves/w1_ds28e17.c 534 */;
+	u8 cocci_id/* drivers/w1/slaves/w1_ds28e17.c 532 */;
+	const struct i2c_algorithm cocci_id/* drivers/w1/slaves/w1_ds28e17.c 493 */;
+	const struct i2c_adapter_quirks cocci_id/* drivers/w1/slaves/w1_ds28e17.c 488 */;
+	u32 cocci_id/* drivers/w1/slaves/w1_ds28e17.c 467 */;
+	struct i2c_adapter *cocci_id/* drivers/w1/slaves/w1_ds28e17.c 467 */;
+	char cocci_id/* drivers/w1/slaves/w1_ds28e17.c 38 */;
+	struct i2c_msg *cocci_id/* drivers/w1/slaves/w1_ds28e17.c 347 */;
+	u8 cocci_id/* drivers/w1/slaves/w1_ds28e17.c 306 */[3];
+	u8 cocci_id/* drivers/w1/slaves/w1_ds28e17.c 267 */[5];
+	u8 *cocci_id/* drivers/w1/slaves/w1_ds28e17.c 263 */;
+	bool cocci_id/* drivers/w1/slaves/w1_ds28e17.c 191 */;
+	u8 cocci_id/* drivers/w1/slaves/w1_ds28e17.c 155 */[2];
+	u16 cocci_id/* drivers/w1/slaves/w1_ds28e17.c 153 */;
+	const u8 *cocci_id/* drivers/w1/slaves/w1_ds28e17.c 150 */;
+	size_t cocci_id/* drivers/w1/slaves/w1_ds28e17.c 150 */;
+	struct w1_slave *cocci_id/* drivers/w1/slaves/w1_ds28e17.c 149 */;
+	int cocci_id/* drivers/w1/slaves/w1_ds28e17.c 149 */;
+	u8 cocci_id/* drivers/w1/slaves/w1_ds28e17.c 122 */[];
+}

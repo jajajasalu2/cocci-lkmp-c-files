@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	const struct timespec64 *cocci_id/* drivers/ptp/ptp_clock.c 96 */;
+	struct timespec64 *cocci_id/* drivers/ptp/ptp_clock.c 89 */;
+	u32 cocci_id/* drivers/ptp/ptp_clock.c 47 */;
+	s64 cocci_id/* drivers/ptp/ptp_clock.c 46 */;
+	unsigned long cocci_id/* drivers/ptp/ptp_clock.c 45 */;
+	struct ptp_extts_event *cocci_id/* drivers/ptp/ptp_clock.c 44 */;
+	struct ptp_clock_event *cocci_id/* drivers/ptp/ptp_clock.c 42 */;
+	struct timestamp_event_queue *cocci_id/* drivers/ptp/ptp_clock.c 41 */;
+	int __init cocci_id/* drivers/ptp/ptp_clock.c 383 */;
+	void __exit cocci_id/* drivers/ptp/ptp_clock.c 376 */;
+	struct ptp_pin_desc *cocci_id/* drivers/ptp/ptp_clock.c 351 */;
+	enum ptp_pin_function cocci_id/* drivers/ptp/ptp_clock.c 349 */;
+	unsigned int cocci_id/* drivers/ptp/ptp_clock.c 349 */;
+	struct pps_event_time cocci_id/* drivers/ptp/ptp_clock.c 317 */;
+	struct class *cocci_id/* drivers/ptp/ptp_clock.c 30 */;
+	dev_t cocci_id/* drivers/ptp/ptp_clock.c 29 */;
+	struct pps_source_info cocci_id/* drivers/ptp/ptp_clock.c 250 */;
+	struct device *cocci_id/* drivers/ptp/ptp_clock.c 195 */;
+	long cocci_id/* drivers/ptp/ptp_clock.c 184 */;
+	struct ptp_clock_info *cocci_id/* drivers/ptp/ptp_clock.c 183 */;
+	struct kthread_work *cocci_id/* drivers/ptp/ptp_clock.c 179 */;
+	struct ptp_clock cocci_id/* drivers/ptp/ptp_clock.c 171 */;
+	struct ptp_clock *cocci_id/* drivers/ptp/ptp_clock.c 171 */;
+	struct posix_clock *cocci_id/* drivers/ptp/ptp_clock.c 169 */;
+	void cocci_id/* drivers/ptp/ptp_clock.c 169 */;
+	struct posix_clock_operations cocci_id/* drivers/ptp/ptp_clock.c 157 */;
+	s32 cocci_id/* drivers/ptp/ptp_clock.c 141 */;
+	ktime_t cocci_id/* drivers/ptp/ptp_clock.c 125 */;
+	struct timespec64 cocci_id/* drivers/ptp/ptp_clock.c 124 */;
+	struct __kernel_timex *cocci_id/* drivers/ptp/ptp_clock.c 115 */;
+	int cocci_id/* drivers/ptp/ptp_clock.c 115 */;
+}

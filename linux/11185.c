@@ -1,0 +1,55 @@
+cocci_test_suite() {
+	uint64_t cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 938 */;
+	const struct encoder_unblank_param *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 930 */;
+	const uint32_t *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 810 */;
+	const uint8_t *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 758 */;
+	const struct encoder_info_frame *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 709 */;
+	struct fixed31_32 cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 626 */;
+	struct bp_encoder_control cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 605 */;
+	const struct dc_info_packet *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 59 */;
+	enum{DP_MST_UPDATE_MAX_RETRY=50,} cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 49 */;
+	struct dc_crtc_timing cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 266 */;
+	uint8_t cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 258 */;
+	enum dc_color_space cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 249 */;
+	struct dc_crtc_timing *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 248 */;
+	const struct dcn10_stream_encoder_mask *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1663 */;
+	const struct dcn10_stream_encoder_shift *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1662 */;
+	const struct dcn10_stream_enc_registers *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1661 */;
+	enum engine_id cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1660 */;
+	struct dc_bios *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1659 */;
+	struct dc_context *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1658 */;
+	struct dcn10_stream_encoder *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1657 */;
+	void cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1656 */;
+	const struct stream_encoder_funcs cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1616 */;
+	enum dc_color_depth *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1559 */;
+	enum dc_pixel_encoding *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1558 */;
+	uint32_t cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1548 */;
+	unsigned int cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1545 */;
+	int cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1538 */;
+	struct stream_encoder *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1537 */;
+	struct audio_crtc_info *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1513 */;
+	bool cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1479 */;
+	struct audio_clock_info cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1303 */;
+	const struct audio_crtc_info *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1299 */;
+	struct audio_info *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1275 */;
+	const struct audio_clock_info *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1217 */;
+	struct audio_clock_info *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1215 */;
+	enum dc_color_depth cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1212 */;
+	struct audio_speaker_flags cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1178 */;
+	union audio_cea_channels cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1177 */;
+	const struct audio_clock_info cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1141 */[14];
+	const struct audio_clock_info cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1122 */[16];
+	union audio_cea_channels {
+		uint8_t all;
+		struct audio_cea_channels_bits {
+			uint32_t FL:1;
+			uint32_t FR:1;
+			uint32_t LFE:1;
+			uint32_t FC:1;
+			uint32_t RL_RC:1;
+			uint32_t RR:1;
+			uint32_t RC_RLC_FLC:1;
+			uint32_t RRC_FRC:1;
+		} channels;
+	} cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_stream_encoder.c 1095 */;
+}

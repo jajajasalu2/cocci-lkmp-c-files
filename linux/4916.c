@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	int *cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 92 */;
+	void *cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 74 */;
+	struct mthca_arbel_srq_context {
+		__be32 state_logsize_srqn;
+		__be32 lkey;
+		__be32 db_index;
+		__be32 logstride_usrpage;
+		__be64 wqe_base;
+		__be32 eq_pd;
+		__be16 limit_watermark;
+		__be16 wqe_cnt;
+		u16 reserved1;
+		__be16 wqe_counter;
+		u32 reserved2[3];
+	} cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 60 */;
+	unsigned long cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 582 */;
+	const struct ib_recv_wr **cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 578 */;
+	const struct ib_recv_wr *cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 577 */;
+	struct ib_srq *cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 577 */;
+	struct mthca_tavor_srq_context {
+		__be64 wqe_base_ds;
+		__be32 state_pd;
+		__be32 lkey;
+		__be32 uar;
+		__be16 limit_watermark;
+		__be16 wqe_cnt;
+		u32 reserved[2];
+	} cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 50 */;
+	u32 cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 465 */;
+	enum{MTHCA_MAX_DIRECT_SRQ_SIZE=4 * PAGE_SIZE,} cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 46 */;
+	struct ib_event cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 434 */;
+	enum ib_event_type cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 431 */;
+	struct mthca_tavor_srq_context *cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 402 */;
+	enum ib_srq_attr_mask cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 373 */;
+	struct mthca_srq *cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 327 */;
+	struct mthca_dev *cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 327 */;
+	int cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 327 */;
+	struct mthca_data_seg cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 230 */;
+	struct mthca_next_seg cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 229 */;
+	struct mthca_mailbox *cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 210 */;
+	struct ib_udata *cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 208 */;
+	struct ib_srq_attr *cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 207 */;
+	struct mthca_pd *cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 206 */;
+	struct mthca_next_seg *cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 183 */;
+	struct mthca_data_seg *cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 157 */;
+	struct mthca_ucontext cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 125 */;
+	struct mthca_ucontext *cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 124 */;
+	struct mthca_arbel_srq_context *cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 121 */;
+	void cocci_id/* drivers/infiniband/hw/mthca/mthca_srq.c 118 */;
+}

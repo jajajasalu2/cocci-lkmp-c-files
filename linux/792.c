@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	const struct iproc_pcie_ob_map *cocci_id/* drivers/pci/controller/pcie-iproc.c 938 */;
+	struct device *cocci_id/* drivers/pci/controller/pcie-iproc.c 778 */;
+	struct pci_ops cocci_id/* drivers/pci/controller/pcie-iproc.c 735 */;
+	u32 cocci_id/* drivers/pci/controller/pcie-iproc.c 685 */;
+	void __iomem *cocci_id/* drivers/pci/controller/pcie-iproc.c 667 */;
+	u32 *cocci_id/* drivers/pci/controller/pcie-iproc.c 665 */;
+	unsigned int cocci_id/* drivers/pci/controller/pcie-iproc.c 664 */;
+	int cocci_id/* drivers/pci/controller/pcie-iproc.c 663 */;
+	unsigned cocci_id/* drivers/pci/controller/pcie-iproc.c 634 */;
+	bool cocci_id/* drivers/pci/controller/pcie-iproc.c 445 */;
+	void cocci_id/* drivers/pci/controller/pcie-iproc.c 444 */;
+	enum iproc_pcie_reg cocci_id/* drivers/pci/controller/pcie-iproc.c 417 */;
+	struct pci_bus *cocci_id/* drivers/pci/controller/pcie-iproc.c 399 */;
+	struct iproc_pcie *cocci_id/* drivers/pci/controller/pcie-iproc.c 399 */;
+	const u16 cocci_id/* drivers/pci/controller/pcie-iproc.c 392 */[];
+	enum iproc_pcie_reg{IPROC_PCIE_CLK_CTRL=0, IPROC_PCIE_MSI_GIC_MODE, IPROC_PCIE_MSI_BASE_ADDR, IPROC_PCIE_MSI_WINDOW_SIZE, IPROC_PCIE_MSI_ADDR_LO, IPROC_PCIE_MSI_ADDR_HI, IPROC_PCIE_MSI_EN_CFG, IPROC_PCIE_CFG_IND_ADDR, IPROC_PCIE_CFG_IND_DATA, IPROC_PCIE_CFG_ADDR, IPROC_PCIE_CFG_DATA, IPROC_PCIE_INTX_EN, IPROC_PCIE_OARR0, IPROC_PCIE_OMAP0, IPROC_PCIE_OARR1, IPROC_PCIE_OMAP1, IPROC_PCIE_OARR2, IPROC_PCIE_OMAP2, IPROC_PCIE_OARR3, IPROC_PCIE_OMAP3, IPROC_PCIE_IARR0, IPROC_PCIE_IMAP0, IPROC_PCIE_IARR1, IPROC_PCIE_IMAP1, IPROC_PCIE_IARR2, IPROC_PCIE_IMAP2, IPROC_PCIE_IARR3, IPROC_PCIE_IMAP3, IPROC_PCIE_IARR4, IPROC_PCIE_IMAP4, IPROC_PCIE_CFG_RD_STATUS, IPROC_PCIE_LINK_STATUS, IPROC_PCIE_APB_ERR_EN, IPROC_PCIE_MAX_NUM_REG,} cocci_id/* drivers/pci/controller/pcie-iproc.c 234 */;
+	const struct iproc_pcie_ib_map cocci_id/* drivers/pci/controller/pcie-iproc.c 183 */[];
+	struct iproc_pcie_ib_map {
+		enum iproc_pcie_ib_map_type type;
+		unsigned int size_unit;
+		resource_size_t region_sizes[MAX_NUM_IB_REGION_SIZES];
+		unsigned int nr_sizes;
+		unsigned int nr_windows;
+		u16 imap_addr_offset;
+		u16 imap_window_offset;
+	} cocci_id/* drivers/pci/controller/pcie-iproc.c 173 */;
+	struct pci_dev *cocci_id/* drivers/pci/controller/pcie-iproc.c 1577 */;
+	enum iproc_pcie_ib_map_type{IPROC_PCIE_IB_MAP_MEM=0, IPROC_PCIE_IB_MAP_IO, IPROC_PCIE_IB_MAP_INVALID,} cocci_id/* drivers/pci/controller/pcie-iproc.c 148 */;
+	const u16 *cocci_id/* drivers/pci/controller/pcie-iproc.c 1407 */;
+	const __be32 *cocci_id/* drivers/pci/controller/pcie-iproc.c 1362 */;
+	struct device_node *cocci_id/* drivers/pci/controller/pcie-iproc.c 1352 */;
+	struct resource_entry cocci_id/* drivers/pci/controller/pcie-iproc.c 1259 */;
+	struct resource cocci_id/* drivers/pci/controller/pcie-iproc.c 1234 */;
+	u64 *cocci_id/* drivers/pci/controller/pcie-iproc.c 1230 */;
+	struct iproc_pcie_ob *cocci_id/* drivers/pci/controller/pcie-iproc.c 1205 */;
+	struct iproc_pcie_ib *cocci_id/* drivers/pci/controller/pcie-iproc.c 1204 */;
+	struct resource_entry *cocci_id/* drivers/pci/controller/pcie-iproc.c 1189 */;
+	struct pci_host_bridge *cocci_id/* drivers/pci/controller/pcie-iproc.c 1188 */;
+	const struct iproc_pcie_ob_map cocci_id/* drivers/pci/controller/pcie-iproc.c 109 */[];
+	u16 cocci_id/* drivers/pci/controller/pcie-iproc.c 1073 */;
+	resource_size_t cocci_id/* drivers/pci/controller/pcie-iproc.c 1069 */;
+	u64 cocci_id/* drivers/pci/controller/pcie-iproc.c 1068 */;
+	enum iproc_pcie_ib_map_type cocci_id/* drivers/pci/controller/pcie-iproc.c 1062 */;
+	const struct iproc_pcie_ib_map *cocci_id/* drivers/pci/controller/pcie-iproc.c 1061 */;
+	struct iproc_pcie_ob_map {
+		resource_size_t window_sizes[MAX_NUM_OB_WINDOW_SIZES];
+		unsigned int nr_sizes;
+	} cocci_id/* drivers/pci/controller/pcie-iproc.c 104 */;
+	struct resource *cocci_id/* drivers/pci/controller/pcie-iproc.c 1027 */;
+	struct list_head *cocci_id/* drivers/pci/controller/pcie-iproc.c 1020 */;
+}

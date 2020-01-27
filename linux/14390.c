@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	struct i2c_driver cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 734 */;
+	const struct i2c_device_id cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 728 */[];
+	const struct regmap_config cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 579 */;
+	const struct regmap_range_cfg cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 557 */[];
+	unsigned int cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 556 */;
+	struct cxd2820r_platform_data *cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 553 */;
+	const struct i2c_device_id *cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 551 */;
+	struct cxd2820r_priv *cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 543 */;
+	struct cxd2820r_platform_data cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 520 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 52 */;
+	struct i2c_board_info cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 519 */;
+	struct i2c_client *cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 518 */;
+	int *cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 516 */;
+	struct i2c_adapter *cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 515 */;
+	const struct cxd2820r_config *cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 514 */;
+	struct dvb_frontend *cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 514 */;
+	const struct dvb_frontend_ops cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 463 */;
+	u8 *cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 46 */;
+	void cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 436 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 426 */[GPIO_COUNT];
+	struct gpio_chip *cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 421 */;
+	unsigned cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 421 */;
+	enum dvbfe_algo cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 393 */;
+	enum fe_status cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 326 */;
+	enum dvbfe_search cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 320 */;
+	struct dvb_frontend_tune_settings *cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 294 */;
+	u16 *cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 217 */;
+	u32 *cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 203 */;
+	struct regmap *cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 18 */;
+	struct dtv_frontend_properties *cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 174 */;
+	int cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 173 */;
+	enum fe_status *cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 147 */;
+	const struct reg_val_mask *cocci_id/* drivers/media/dvb-frontends/cxd2820r_core.c 13 */;
+}

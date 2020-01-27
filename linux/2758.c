@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	struct scx200_acb_iface {
+		struct scx200_acb_iface *next;
+		struct i2c_adapter adapter;
+		unsigned base;
+		struct mutex mutex;
+		enum scx200_acb_state state;
+		int result;
+		u8 address_byte;
+		u8 command;
+		u8 *ptr;
+		char needs_reset;
+		unsigned len;
+	} cocci_id/* drivers/i2c/busses/scx200_acb.c 63 */;
+	struct scx200_acb_iface *cocci_id/* drivers/i2c/busses/scx200_acb.c 583 */;
+	void __exit cocci_id/* drivers/i2c/busses/scx200_acb.c 581 */;
+	void cocci_id/* drivers/i2c/busses/scx200_acb.c 581 */;
+	int __init cocci_id/* drivers/i2c/busses/scx200_acb.c 566 */;
+	const struct pci_device_id cocci_id/* drivers/i2c/busses/scx200_acb.c 544 */[];
+	struct platform_driver cocci_id/* drivers/i2c/busses/scx200_acb.c 536 */;
+	const char *cocci_id/* drivers/i2c/busses/scx200_acb.c 52 */[];
+	struct resource *cocci_id/* drivers/i2c/busses/scx200_acb.c 500 */;
+	struct platform_device *cocci_id/* drivers/i2c/busses/scx200_acb.c 497 */;
+	struct device *cocci_id/* drivers/i2c/busses/scx200_acb.c 470 */;
+	struct i2c_adapter *cocci_id/* drivers/i2c/busses/scx200_acb.c 440 */;
+	int cocci_id/* drivers/i2c/busses/scx200_acb.c 438 */;
+	enum scx200_acb_state{state_idle, state_address, state_command, state_repeat_start, state_quick, state_read, state_write,} cocci_id/* drivers/i2c/busses/scx200_acb.c 42 */;
+	const struct i2c_algorithm cocci_id/* drivers/i2c/busses/scx200_acb.c 372 */;
+	u32 cocci_id/* drivers/i2c/busses/scx200_acb.c 364 */;
+	int cocci_id/* drivers/i2c/busses/scx200_acb.c 36 */[MAX_DEVICES];
+	u8 *cocci_id/* drivers/i2c/busses/scx200_acb.c 275 */;
+	union i2c_smbus_data *cocci_id/* drivers/i2c/busses/scx200_acb.c 271 */;
+	char cocci_id/* drivers/i2c/busses/scx200_acb.c 270 */;
+	u16 cocci_id/* drivers/i2c/busses/scx200_acb.c 269 */;
+	unsigned short cocci_id/* drivers/i2c/busses/scx200_acb.c 269 */;
+	s32 cocci_id/* drivers/i2c/busses/scx200_acb.c 268 */;
+	unsigned long cocci_id/* drivers/i2c/busses/scx200_acb.c 220 */;
+	const char *cocci_id/* drivers/i2c/busses/scx200_acb.c 103 */;
+	u8 cocci_id/* drivers/i2c/busses/scx200_acb.c 101 */;
+}

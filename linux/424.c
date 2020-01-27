@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	enum vgic_type cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 892 */;
+	struct kvm *cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 891 */;
+	struct kvm_io_device_ops cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 886 */;
+	const void *cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 858 */;
+	struct vgic_io_device *cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 828 */;
+	void *cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 826 */;
+	struct kvm_io_device *cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 825 */;
+	u32 *cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 817 */;
+	const u32 *cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 795 */;
+	u64 cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 740 */;
+	u8 cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 734 */;
+	const struct vgic_register_region *cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 728 */;
+	bool cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 727 */;
+	const struct kvm *cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 727 */;
+	struct vgic_io_device cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 724 */;
+	const struct kvm_io_device *cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 722 */;
+	struct vgic_vmcr *cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 660 */;
+	uintptr_t cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 648 */;
+	const unsigned int cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 632 */;
+	const u64 cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 598 */;
+	struct vgic_irq *cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 412 */;
+	int cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 409 */;
+	u32 cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 408 */;
+	unsigned long cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 406 */;
+	gpa_t cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 405 */;
+	unsigned int cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 405 */;
+	struct kvm_vcpu *cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 404 */;
+	void cocci_id/* virt/kvm/arm/vgic/vgic-mmio.c 404 */;
+}

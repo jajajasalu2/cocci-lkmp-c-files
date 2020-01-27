@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/input/touchscreen/wm97xx-core.c 925 */;
+	int __init cocci_id/* drivers/input/touchscreen/wm97xx-core.c 912 */;
+	struct platform_driver cocci_id/* drivers/input/touchscreen/wm97xx-core.c 903 */;
+	struct device_driver cocci_id/* drivers/input/touchscreen/wm97xx-core.c 892 */;
+	struct wm97xx_mach_ops *cocci_id/* drivers/input/touchscreen/wm97xx-core.c 870 */;
+	int __maybe_unused cocci_id/* drivers/input/touchscreen/wm97xx-core.c 830 */;
+	struct wm97xx cocci_id/* drivers/input/touchscreen/wm97xx-core.c 771 */;
+	int cocci_id/* drivers/input/touchscreen/wm97xx-core.c 77 */[3];
+	struct wm97xx_platform_data *cocci_id/* drivers/input/touchscreen/wm97xx-core.c 768 */;
+	struct platform_device *cocci_id/* drivers/input/touchscreen/wm97xx-core.c 765 */;
+	struct wm97xx_pdata *cocci_id/* drivers/input/touchscreen/wm97xx-core.c 731 */;
+	struct device *cocci_id/* drivers/input/touchscreen/wm97xx-core.c 727 */;
+	struct wm97xx_batt_pdata *cocci_id/* drivers/input/touchscreen/wm97xx-core.c 709 */;
+	struct wm97xx *cocci_id/* drivers/input/touchscreen/wm97xx-core.c 646 */;
+	int cocci_id/* drivers/input/touchscreen/wm97xx-core.c 646 */;
+	struct input_dev *cocci_id/* drivers/input/touchscreen/wm97xx-core.c 544 */;
+	struct wm97xx_data cocci_id/* drivers/input/touchscreen/wm97xx-core.c 404 */;
+	irqreturn_t cocci_id/* drivers/input/touchscreen/wm97xx-core.c 358 */;
+	void *cocci_id/* drivers/input/touchscreen/wm97xx-core.c 358 */;
+	struct work_struct *cocci_id/* drivers/input/touchscreen/wm97xx-core.c 290 */;
+	u16 cocci_id/* drivers/input/touchscreen/wm97xx-core.c 231 */;
+	enum wm97xx_gpio_wake cocci_id/* drivers/input/touchscreen/wm97xx-core.c 229 */;
+	enum wm97xx_gpio_sticky cocci_id/* drivers/input/touchscreen/wm97xx-core.c 228 */;
+	enum wm97xx_gpio_pol cocci_id/* drivers/input/touchscreen/wm97xx-core.c 228 */;
+	u32 cocci_id/* drivers/input/touchscreen/wm97xx-core.c 227 */;
+	enum wm97xx_gpio_dir cocci_id/* drivers/input/touchscreen/wm97xx-core.c 227 */;
+	void cocci_id/* drivers/input/touchscreen/wm97xx-core.c 227 */;
+	enum wm97xx_gpio_status cocci_id/* drivers/input/touchscreen/wm97xx-core.c 175 */;
+}

@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* drivers/leds/leds-lp55xx-common.c 96 */;
+	size_t cocci_id/* drivers/leds/leds-lp55xx-common.c 92 */;
+	char *cocci_id/* drivers/leds/leds-lp55xx-common.c 83 */;
+	struct device_attribute *cocci_id/* drivers/leds/leds-lp55xx-common.c 82 */;
+	ssize_t cocci_id/* drivers/leds/leds-lp55xx-common.c 81 */;
+	u8 *cocci_id/* drivers/leds/leds-lp55xx-common.c 585 */;
+	struct lp55xx_led_config *cocci_id/* drivers/leds/leds-lp55xx-common.c 546 */;
+	struct device_node *cocci_id/* drivers/leds/leds-lp55xx-common.c 542 */;
+	u8 cocci_id/* drivers/leds/leds-lp55xx-common.c 51 */;
+	struct lp55xx_device_config *cocci_id/* drivers/leds/leds-lp55xx-common.c 50 */;
+	int cocci_id/* drivers/leds/leds-lp55xx-common.c 48 */;
+	struct lp55xx_platform_data *cocci_id/* drivers/leds/leds-lp55xx-common.c 445 */;
+	struct lp55xx_chip *cocci_id/* drivers/leds/leds-lp55xx-common.c 443 */;
+	void cocci_id/* drivers/leds/leds-lp55xx-common.c 443 */;
+	struct clk *cocci_id/* drivers/leds/leds-lp55xx-common.c 356 */;
+	bool cocci_id/* drivers/leds/leds-lp55xx-common.c 354 */;
+	struct device *cocci_id/* drivers/leds/leds-lp55xx-common.c 33 */;
+	s32 cocci_id/* drivers/leds/leds-lp55xx-common.c 327 */;
+	const struct attribute_group cocci_id/* drivers/leds/leds-lp55xx-common.c 315 */;
+	struct attribute *cocci_id/* drivers/leds/leds-lp55xx-common.c 309 */[];
+	struct lp55xx_led cocci_id/* drivers/leds/leds-lp55xx-common.c 30 */;
+	struct lp55xx_led *cocci_id/* drivers/leds/leds-lp55xx-common.c 28 */;
+	struct led_classdev *cocci_id/* drivers/leds/leds-lp55xx-common.c 28 */;
+	const char *cocci_id/* drivers/leds/leds-lp55xx-common.c 221 */;
+	enum lp55xx_engine_index cocci_id/* drivers/leds/leds-lp55xx-common.c 197 */;
+	const struct firmware *cocci_id/* drivers/leds/leds-lp55xx-common.c 193 */;
+	void *cocci_id/* drivers/leds/leds-lp55xx-common.c 193 */;
+	char cocci_id/* drivers/leds/leds-lp55xx-common.c 150 */[32];
+	enum led_brightness cocci_id/* drivers/leds/leds-lp55xx-common.c 135 */;
+}

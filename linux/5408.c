@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* drivers/spi/spi-txx9.c 97 */;
+	int cocci_id/* drivers/spi/spi-txx9.c 97 */;
+	struct txx9spi *cocci_id/* drivers/spi/spi-txx9.c 96 */;
+	struct spi_device *cocci_id/* drivers/spi/spi-txx9.c 96 */;
+	void cocci_id/* drivers/spi/spi-txx9.c 96 */;
+	struct txx9spi {
+		struct work_struct work;
+		spinlock_t lock;
+		struct list_head queue;
+		wait_queue_head_t waitq;
+		void __iomem *membase;
+		int baseclk;
+		struct clk *clk;
+		struct gpio_desc *last_chipselect;
+		int last_chipselect_val;
+	} cocci_id/* drivers/spi/spi-txx9.c 75 */;
+	void __exit cocci_id/* drivers/spi/spi-txx9.c 470 */;
+	int __init cocci_id/* drivers/spi/spi-txx9.c 464 */;
+	struct platform_driver cocci_id/* drivers/spi/spi-txx9.c 456 */;
+	u16 cocci_id/* drivers/spi/spi-txx9.c 427 */;
+	unsigned long long cocci_id/* drivers/spi/spi-txx9.c 416 */;
+	u32 cocci_id/* drivers/spi/spi-txx9.c 366 */;
+	struct resource *cocci_id/* drivers/spi/spi-txx9.c 364 */;
+	struct spi_master *cocci_id/* drivers/spi/spi-txx9.c 362 */;
+	struct platform_device *cocci_id/* drivers/spi/spi-txx9.c 360 */;
+	struct gpiod_lookup_table cocci_id/* drivers/spi/spi-txx9.c 337 */;
+	unsigned long cocci_id/* drivers/spi/spi-txx9.c 301 */;
+	struct spi_transfer *cocci_id/* drivers/spi/spi-txx9.c 300 */;
+	struct spi_message *cocci_id/* drivers/spi/spi-txx9.c 296 */;
+	struct spi_message cocci_id/* drivers/spi/spi-txx9.c 285 */;
+	struct txx9spi cocci_id/* drivers/spi/spi-txx9.c 278 */;
+	struct work_struct *cocci_id/* drivers/spi/spi-txx9.c 276 */;
+	u16 *cocci_id/* drivers/spi/spi-txx9.c 241 */;
+	u8 *cocci_id/* drivers/spi/spi-txx9.c 239 */;
+	const u16 *cocci_id/* drivers/spi/spi-txx9.c 225 */;
+	const u8 *cocci_id/* drivers/spi/spi-txx9.c 224 */;
+	const void *cocci_id/* drivers/spi/spi-txx9.c 175 */;
+	u8 cocci_id/* drivers/spi/spi-txx9.c 153 */;
+	irqreturn_t cocci_id/* drivers/spi/spi-txx9.c 133 */;
+	void *cocci_id/* drivers/spi/spi-txx9.c 133 */;
+}

@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	struct strfilter *cocci_id/* tools/perf/util/probe-file.c 946 */;
+	void *cocci_id/* tools/perf/util/probe-file.c 882 */;
+	struct iovec cocci_id/* tools/perf/util/probe-file.c 873 */[3];
+	struct stat cocci_id/* tools/perf/util/probe-file.c 872 */;
+	char cocci_id/* tools/perf/util/probe-file.c 820 */[64];
+	struct sdt_note *cocci_id/* tools/perf/util/probe-file.c 818 */;
+	struct list_head cocci_id/* tools/perf/util/probe-file.c 817 */;
+	struct strbuf cocci_id/* tools/perf/util/probe-file.c 776 */;
+	char cocci_id/* tools/perf/util/probe-file.c 76 */[PATH_MAX];
+	const char *cocci_id/* tools/perf/util/probe-file.c 74 */;
+	struct strbuf *cocci_id/* tools/perf/util/probe-file.c 727 */;
+	long cocci_id/* tools/perf/util/probe-file.c 715 */;
+	const char **cocci_id/* tools/perf/util/probe-file.c 713 */;
+	const char *const cocci_id/* tools/perf/util/probe-file.c 703 */[];
+	unsigned long long cocci_id/* tools/perf/util/probe-file.c 689 */;
+	char cocci_id/* tools/perf/util/probe-file.c 66 */[STRERR_BUFSIZE];
+	struct probe_cache_entry *cocci_id/* tools/perf/util/probe-file.c 647 */;
+	struct probe_trace_event *cocci_id/* tools/perf/util/probe-file.c 645 */;
+	struct perf_probe_event *cocci_id/* tools/perf/util/probe-file.c 644 */;
+	struct probe_cache *cocci_id/* tools/perf/util/probe-file.c 643 */;
+	struct nsinfo *cocci_id/* tools/perf/util/probe-file.c 554 */;
+	FILE *cocci_id/* tools/perf/util/probe-file.c 472 */;
+	char cocci_id/* tools/perf/util/probe-file.c 470 */[MAX_CMDLEN];
+	struct nscookie cocci_id/* tools/perf/util/probe-file.c 415 */;
+	char cocci_id/* tools/perf/util/probe-file.c 411 */[SBUILD_ID_SIZE];
+	struct probe_trace_event **cocci_id/* tools/perf/util/probe-file.c 382 */;
+	char cocci_id/* tools/perf/util/probe-file.c 254 */[128];
+	char *cocci_id/* tools/perf/util/probe-file.c 253 */;
+	struct str_node *cocci_id/* tools/perf/util/probe-file.c 251 */;
+	int cocci_id/* tools/perf/util/probe-file.c 251 */;
+	struct probe_trace_event cocci_id/* tools/perf/util/probe-file.c 189 */;
+	bool cocci_id/* tools/perf/util/probe-file.c 184 */;
+	struct strlist *cocci_id/* tools/perf/util/probe-file.c 184 */;
+	int *cocci_id/* tools/perf/util/probe-file.c 117 */;
+	void cocci_id/* tools/perf/util/probe-file.c 1098 */;
+	enum probe_type cocci_id/* tools/perf/util/probe-file.c 1068 */;
+	size_t cocci_id/* tools/perf/util/probe-file.c 1034 */;
+	enum ftrace_readme cocci_id/* tools/perf/util/probe-file.c 1029 */;
+	struct {
+		const char *pattern;
+		bool avail;
+	} cocci_id/* tools/perf/util/probe-file.c 1015 */[];
+	enum ftrace_readme{FTRACE_README_PROBE_TYPE_X=0, FTRACE_README_KRETPROBE_OFFSET, FTRACE_README_UPROBE_REF_CTR, FTRACE_README_USER_ACCESS, FTRACE_README_MULTIPROBE_EVENT, FTRACE_README_IMMEDIATE_VALUE, FTRACE_README_END,} cocci_id/* tools/perf/util/probe-file.c 1005 */;
+}

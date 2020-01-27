@@ -1,0 +1,64 @@
+cocci_test_suite() {
+	const struct charlcd_ops cocci_id/* drivers/auxdisplay/panel.c 882 */;
+	unsigned char cocci_id/* drivers/auxdisplay/panel.c 74 */;
+	struct charlcd *cocci_id/* drivers/auxdisplay/panel.c 713 */;
+	int *cocci_id/* drivers/auxdisplay/panel.c 580 */;
+	unsigned int cocci_id/* drivers/auxdisplay/panel.c 580 */;
+	const char *cocci_id/* drivers/auxdisplay/panel.c 576 */[4][9];
+	const char cocci_id/* drivers/auxdisplay/panel.c 554 */[][4][9];
+	const unsigned char cocci_id/* drivers/auxdisplay/panel.c 507 */[256];
+	struct timer_list cocci_id/* drivers/auxdisplay/panel.c 408 */;
+	struct pardevice *cocci_id/* drivers/auxdisplay/panel.c 403 */;
+	atomic_t cocci_id/* drivers/auxdisplay/panel.c 401 */;
+	unsigned char cocci_id/* drivers/auxdisplay/panel.c 251 */[LCD_PORTS][LCD_BITS][BIT_STATES];
+	struct {
+		bool enabled;
+		bool initialized;
+		int charset;
+		int proto;
+		struct {
+			int e;
+			int rs;
+			int rw;
+			int cl;
+			int da;
+			int bl;
+		} pins;
+		struct charlcd *charlcd;
+	} cocci_id/* drivers/auxdisplay/panel.c 201 */;
+	wait_queue_head_t cocci_id/* drivers/auxdisplay/panel.c 198 */;
+	char cocci_id/* drivers/auxdisplay/panel.c 194 */[KEYPAD_BUFFER];
+	struct {
+		bool enabled;
+	} cocci_id/* drivers/auxdisplay/panel.c 190 */;
+	char cocci_id/* drivers/auxdisplay/panel.c 187 */;
+	void __exit cocci_id/* drivers/auxdisplay/panel.c 1782 */;
+	int __init cocci_id/* drivers/auxdisplay/panel.c 1670 */;
+	struct parport_driver cocci_id/* drivers/auxdisplay/panel.c 1662 */;
+	struct pardev_cb cocci_id/* drivers/auxdisplay/panel.c 1575 */;
+	struct parport *cocci_id/* drivers/auxdisplay/panel.c 1573 */;
+	int cocci_id/* drivers/auxdisplay/panel.c 1441 */;
+	__u64 cocci_id/* drivers/auxdisplay/panel.c 1434 */;
+	const char cocci_id/* drivers/auxdisplay/panel.c 1432 */[];
+	u8 *cocci_id/* drivers/auxdisplay/panel.c 1430 */;
+	u8 cocci_id/* drivers/auxdisplay/panel.c 1429 */;
+	const char *cocci_id/* drivers/auxdisplay/panel.c 1429 */;
+	__u64 *cocci_id/* drivers/auxdisplay/panel.c 1429 */;
+	void cocci_id/* drivers/auxdisplay/panel.c 1414 */;
+	struct timer_list *cocci_id/* drivers/auxdisplay/panel.c 1394 */;
+	enum input_state{INPUT_ST_LOW, INPUT_ST_RISING, INPUT_ST_HIGH, INPUT_ST_FALLING,} cocci_id/* drivers/auxdisplay/panel.c 134 */;
+	void (*cocci_id/* drivers/auxdisplay/panel.c 1327 */)(int);
+	char *cocci_id/* drivers/auxdisplay/panel.c 1308 */;
+	struct logical_input *cocci_id/* drivers/auxdisplay/panel.c 1291 */;
+	enum input_type{INPUT_TYPE_STD, INPUT_TYPE_KBD,} cocci_id/* drivers/auxdisplay/panel.c 129 */;
+	__u8 cocci_id/* drivers/auxdisplay/panel.c 127 */;
+	struct miscdevice cocci_id/* drivers/auxdisplay/panel.c 1133 */;
+	const struct file_operations cocci_id/* drivers/auxdisplay/panel.c 1126 */;
+	struct inode *cocci_id/* drivers/auxdisplay/panel.c 1101 */;
+	struct file *cocci_id/* drivers/auxdisplay/panel.c 1101 */;
+	unsigned cocci_id/* drivers/auxdisplay/panel.c 1079 */;
+	loff_t *cocci_id/* drivers/auxdisplay/panel.c 1077 */;
+	char __user *cocci_id/* drivers/auxdisplay/panel.c 1077 */;
+	size_t cocci_id/* drivers/auxdisplay/panel.c 1077 */;
+	ssize_t cocci_id/* drivers/auxdisplay/panel.c 1076 */;
+}

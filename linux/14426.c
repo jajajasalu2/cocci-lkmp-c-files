@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	struct usb_driver cocci_id/* drivers/media/radio/radio-mr800.c 589 */;
+	const struct usb_device_id cocci_id/* drivers/media/radio/radio-mr800.c 580 */[];
+	const struct usb_device_id *cocci_id/* drivers/media/radio/radio-mr800.c 499 */;
+	const struct v4l2_ioctl_ops cocci_id/* drivers/media/radio/radio-mr800.c 474 */;
+	const struct v4l2_file_operations cocci_id/* drivers/media/radio/radio-mr800.c 466 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/radio/radio-mr800.c 461 */;
+	pm_message_t cocci_id/* drivers/media/radio/radio-mr800.c 428 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/radio/radio-mr800.c 394 */;
+	unsigned long cocci_id/* drivers/media/radio/radio-mr800.c 344 */;
+	u8 cocci_id/* drivers/media/radio/radio-mr800.c 340 */[8];
+	const struct v4l2_hw_freq_seek *cocci_id/* drivers/media/radio/radio-mr800.c 338 */;
+	struct v4l2_frequency *cocci_id/* drivers/media/radio/radio-mr800.c 325 */;
+	struct file *cocci_id/* drivers/media/radio/radio-mr800.c 324 */;
+	void *cocci_id/* drivers/media/radio/radio-mr800.c 324 */;
+	const struct v4l2_frequency *cocci_id/* drivers/media/radio/radio-mr800.c 314 */;
+	const struct v4l2_tuner *cocci_id/* drivers/media/radio/radio-mr800.c 296 */;
+	struct v4l2_tuner *cocci_id/* drivers/media/radio/radio-mr800.c 268 */;
+	struct v4l2_capability *cocci_id/* drivers/media/radio/radio-mr800.c 256 */;
+	struct usb_interface *cocci_id/* drivers/media/radio/radio-mr800.c 241 */;
+	void cocci_id/* drivers/media/radio/radio-mr800.c 241 */;
+	u32 *cocci_id/* drivers/media/radio/radio-mr800.c 224 */;
+	bool *cocci_id/* drivers/media/radio/radio-mr800.c 224 */;
+	struct amradio_device *cocci_id/* drivers/media/radio/radio-mr800.c 224 */;
+	int cocci_id/* drivers/media/radio/radio-mr800.c 224 */;
+	unsigned cocci_id/* drivers/media/radio/radio-mr800.c 198 */;
+	u8 cocci_id/* drivers/media/radio/radio-mr800.c 194 */[3];
+	unsigned short cocci_id/* drivers/media/radio/radio-mr800.c 193 */;
+	bool cocci_id/* drivers/media/radio/radio-mr800.c 136 */;
+	u8 *cocci_id/* drivers/media/radio/radio-mr800.c 136 */;
+	u8 cocci_id/* drivers/media/radio/radio-mr800.c 135 */;
+	struct amradio_device cocci_id/* drivers/media/radio/radio-mr800.c 132 */;
+	struct v4l2_device *cocci_id/* drivers/media/radio/radio-mr800.c 130 */;
+	struct amradio_device {
+		struct usb_device *usbdev;
+		struct usb_interface *intf;
+		struct video_device vdev;
+		struct v4l2_device v4l2_dev;
+		struct v4l2_ctrl_handler hdl;
+		u8 *buffer;
+		struct mutex lock;
+		int curfreq;
+		int stereo;
+		int muted;
+	} cocci_id/* drivers/media/radio/radio-mr800.c 115 */;
+}

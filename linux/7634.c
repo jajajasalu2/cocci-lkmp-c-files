@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct xencons_interface *cocci_id/* drivers/tty/hvc/hvc_xen.c 83 */;
+	XENCONS_RING_IDX cocci_id/* drivers/tty/hvc/hvc_xen.c 82 */;
+	const char *cocci_id/* drivers/tty/hvc/hvc_xen.c 80 */;
+	struct xencons_info *cocci_id/* drivers/tty/hvc/hvc_xen.c 79 */;
+	int cocci_id/* drivers/tty/hvc/hvc_xen.c 79 */;
+	void cocci_id/* drivers/tty/hvc/hvc_xen.c 73 */;
+	struct earlycon_device *cocci_id/* drivers/tty/hvc/hvc_xen.c 688 */;
+	unsigned cocci_id/* drivers/tty/hvc/hvc_xen.c 683 */;
+	struct console *cocci_id/* drivers/tty/hvc/hvc_xen.c 681 */;
+	va_list cocci_id/* drivers/tty/hvc/hvc_xen.c 672 */;
+	char cocci_id/* drivers/tty/hvc/hvc_xen.c 671 */[512];
+	ssize_t cocci_id/* drivers/tty/hvc/hvc_xen.c 658 */;
+	struct console cocci_id/* drivers/tty/hvc/hvc_xen.c 647 */;
+	unsigned int cocci_id/* drivers/tty/hvc/hvc_xen.c 621 */;
+	const struct hv_ops *cocci_id/* drivers/tty/hvc/hvc_xen.c 571 */;
+	int __init cocci_id/* drivers/tty/hvc/hvc_xen.c 517 */;
+	struct xenbus_driver cocci_id/* drivers/tty/hvc/hvc_xen.c 507 */;
+	const struct xenbus_device_id cocci_id/* drivers/tty/hvc/hvc_xen.c 502 */[];
+	enum xenbus_state cocci_id/* drivers/tty/hvc/hvc_xen.c 475 */;
+	struct xenbus_device *cocci_id/* drivers/tty/hvc/hvc_xen.c 474 */;
+	void *cocci_id/* drivers/tty/hvc/hvc_xen.c 443 */;
+	const struct xenbus_device_id *cocci_id/* drivers/tty/hvc/hvc_xen.c 428 */;
+	grant_ref_t cocci_id/* drivers/tty/hvc/hvc_xen.c 372 */;
+	struct xenbus_transaction cocci_id/* drivers/tty/hvc/hvc_xen.c 371 */;
+	struct xencons_info {
+		struct list_head list;
+		struct xenbus_device *xbdev;
+		struct xencons_interface *intf;
+		unsigned int evtchn;
+		struct hvc_struct *hvc;
+		int irq;
+		int vtermno;
+		grant_ref_t gntref;
+	} cocci_id/* drivers/tty/hvc/hvc_xen.c 35 */;
+	uint64_t cocci_id/* drivers/tty/hvc/hvc_xen.c 301 */;
+	struct xencons_info cocci_id/* drivers/tty/hvc/hvc_xen.c 199 */;
+	unsigned long cocci_id/* drivers/tty/hvc/hvc_xen.c 191 */;
+	const struct hv_ops cocci_id/* drivers/tty/hvc/hvc_xen.c 179 */;
+	uint32_t cocci_id/* drivers/tty/hvc/hvc_xen.c 161 */;
+	char *cocci_id/* drivers/tty/hvc/hvc_xen.c 161 */;
+}

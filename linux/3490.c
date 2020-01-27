@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/mmc/host/meson-mx-sdio.c 761 */;
+	const struct of_device_id cocci_id/* drivers/mmc/host/meson-mx-sdio.c 754 */[];
+	struct resource *cocci_id/* drivers/mmc/host/meson-mx-sdio.c 641 */;
+	struct platform_device *cocci_id/* drivers/mmc/host/meson-mx-sdio.c 636 */;
+	const char *cocci_id/* drivers/mmc/host/meson-mx-sdio.c 590 */;
+	struct clk_init_data cocci_id/* drivers/mmc/host/meson-mx-sdio.c 589 */;
+	struct device *cocci_id/* drivers/mmc/host/meson-mx-sdio.c 539 */;
+	struct mmc_host *cocci_id/* drivers/mmc/host/meson-mx-sdio.c 538 */;
+	struct meson_mx_mmc_host *cocci_id/* drivers/mmc/host/meson-mx-sdio.c 536 */;
+	int cocci_id/* drivers/mmc/host/meson-mx-sdio.c 536 */;
+	struct device_node *cocci_id/* drivers/mmc/host/meson-mx-sdio.c 516 */;
+	struct mmc_host_ops cocci_id/* drivers/mmc/host/meson-mx-sdio.c 506 */;
+	struct timer_list *cocci_id/* drivers/mmc/host/meson-mx-sdio.c 474 */;
+	unsigned long cocci_id/* drivers/mmc/host/meson-mx-sdio.c 426 */;
+	irqreturn_t cocci_id/* drivers/mmc/host/meson-mx-sdio.c 422 */;
+	void *cocci_id/* drivers/mmc/host/meson-mx-sdio.c 422 */;
+	u32 cocci_id/* drivers/mmc/host/meson-mx-sdio.c 363 */;
+	struct scatterlist *cocci_id/* drivers/mmc/host/meson-mx-sdio.c 311 */;
+	struct mmc_data *cocci_id/* drivers/mmc/host/meson-mx-sdio.c 309 */;
+	struct mmc_request *cocci_id/* drivers/mmc/host/meson-mx-sdio.c 307 */;
+	unsigned short cocci_id/* drivers/mmc/host/meson-mx-sdio.c 258 */;
+	struct mmc_ios *cocci_id/* drivers/mmc/host/meson-mx-sdio.c 255 */;
+	unsigned int cocci_id/* drivers/mmc/host/meson-mx-sdio.c 159 */;
+	struct mmc_command *cocci_id/* drivers/mmc/host/meson-mx-sdio.c 144 */;
+	char cocci_id/* drivers/mmc/host/meson-mx-sdio.c 125 */;
+	void cocci_id/* drivers/mmc/host/meson-mx-sdio.c 125 */;
+	struct meson_mx_mmc_host {
+		struct device *controller_dev;
+		struct clk *parent_clk;
+		struct clk *core_clk;
+		struct clk_divider cfg_div;
+		struct clk *cfg_div_clk;
+		struct clk_fixed_factor fixed_factor;
+		struct clk *fixed_factor_clk;
+		void __iomem *base;
+		int irq;
+		spinlock_t irq_lock;
+		struct timer_list cmd_timeout;
+		unsigned int slot_id;
+		struct mmc_host *mmc;
+		struct mmc_request *mrq;
+		struct mmc_command *cmd;
+		int error;
+	} cocci_id/* drivers/mmc/host/meson-mx-sdio.c 101 */;
+}

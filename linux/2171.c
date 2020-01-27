@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	struct tosa_bat *cocci_id/* drivers/power/supply/tosa_battery.c 95 */;
+	union power_supply_propval *cocci_id/* drivers/power/supply/tosa_battery.c 92 */;
+	enum power_supply_property cocci_id/* drivers/power/supply/tosa_battery.c 91 */;
+	int cocci_id/* drivers/power/supply/tosa_battery.c 90 */;
+	unsigned long cocci_id/* drivers/power/supply/tosa_battery.c 50 */;
+	struct platform_driver cocci_id/* drivers/power/supply/tosa_battery.c 452 */;
+	struct power_supply_config cocci_id/* drivers/power/supply/tosa_battery.c 349 */;
+	struct platform_device *cocci_id/* drivers/power/supply/tosa_battery.c 346 */;
+	pm_message_t cocci_id/* drivers/power/supply/tosa_battery.c 328 */;
+	struct gpio cocci_id/* drivers/power/supply/tosa_battery.c 311 */[];
+	struct tosa_bat cocci_id/* drivers/power/supply/tosa_battery.c 292 */;
+	const struct power_supply_desc cocci_id/* drivers/power/supply/tosa_battery.c 240 */;
+	struct tosa_bat {
+		int status;
+		struct power_supply *psy;
+		int full_chrg;
+		struct mutex work_lock;
+		bool (*is_present)(struct tosa_bat *bat);
+		int gpio_full;
+		int gpio_charge_off;
+		int technology;
+		int gpio_bat;
+		int adc_bat;
+		int adc_bat_divider;
+		int bat_max;
+		int bat_min;
+		int gpio_temp;
+		int adc_temp;
+		int adc_temp_divider;
+	} cocci_id/* drivers/power/supply/tosa_battery.c 23 */;
+	enum power_supply_property cocci_id/* drivers/power/supply/tosa_battery.c 212 */[];
+	struct work_struct cocci_id/* drivers/power/supply/tosa_battery.c 21 */;
+	struct work_struct *cocci_id/* drivers/power/supply/tosa_battery.c 195 */;
+	irqreturn_t cocci_id/* drivers/power/supply/tosa_battery.c 147 */;
+	void *cocci_id/* drivers/power/supply/tosa_battery.c 147 */;
+	struct power_supply *cocci_id/* drivers/power/supply/tosa_battery.c 142 */;
+	void cocci_id/* drivers/power/supply/tosa_battery.c 142 */;
+	bool cocci_id/* drivers/power/supply/tosa_battery.c 137 */;
+}

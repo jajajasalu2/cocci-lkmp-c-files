@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	enum cm36651_operation_mode{CM36651_LIGHT_EN, CM36651_PROXIMITY_EN, CM36651_PROXIMITY_EV_EN,} cocci_id/* drivers/iio/light/cm36651.c 96 */;
+	struct i2c_driver cocci_id/* drivers/iio/light/cm36651.c 732 */;
+	const struct of_device_id cocci_id/* drivers/iio/light/cm36651.c 726 */[];
+	const struct i2c_device_id cocci_id/* drivers/iio/light/cm36651.c 719 */[];
+	const struct i2c_device_id *cocci_id/* drivers/iio/light/cm36651.c 622 */;
+	const struct iio_info cocci_id/* drivers/iio/light/cm36651.c 611 */;
+	const struct attribute_group cocci_id/* drivers/iio/light/cm36651.c 607 */;
+	struct attribute *cocci_id/* drivers/iio/light/cm36651.c 601 */[];
+	const struct iio_chan_spec cocci_id/* drivers/iio/light/cm36651.c 582 */[];
+	const struct iio_event_spec cocci_id/* drivers/iio/light/cm36651.c 573 */[];
+	enum iio_event_direction cocci_id/* drivers/iio/light/cm36651.c 550 */;
+	enum iio_event_type cocci_id/* drivers/iio/light/cm36651.c 549 */;
+	enum iio_event_info cocci_id/* drivers/iio/light/cm36651.c 492 */;
+	long cocci_id/* drivers/iio/light/cm36651.c 447 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/light/cm36651.c 327 */;
+	int *cocci_id/* drivers/iio/light/cm36651.c 327 */;
+	u64 cocci_id/* drivers/iio/light/cm36651.c 236 */;
+	struct i2c_client *cocci_id/* drivers/iio/light/cm36651.c 234 */;
+	struct cm36651_data *cocci_id/* drivers/iio/light/cm36651.c 233 */;
+	struct iio_dev *cocci_id/* drivers/iio/light/cm36651.c 232 */;
+	irqreturn_t cocci_id/* drivers/iio/light/cm36651.c 230 */;
+	void *cocci_id/* drivers/iio/light/cm36651.c 230 */;
+	int cocci_id/* drivers/iio/light/cm36651.c 230 */;
+	struct cm36651_data {
+		const struct cm36651_platform_data *pdata;
+		struct i2c_client *client;
+		struct i2c_client *ps_client;
+		struct i2c_client *ara_client;
+		struct mutex lock;
+		struct regulator *vled_reg;
+		unsigned long flags;
+		int cs_int_time[CM36651_CS_COLOR_NUM];
+		int ps_int_time;
+		u8 cs_ctrl_regs[CM36651_CS_CONF_REG_NUM];
+		u8 ps_ctrl_regs[CM36651_PS_REG_NUM];
+		u16 color[CM36651_CS_COLOR_NUM];
+	} cocci_id/* drivers/iio/light/cm36651.c 128 */;
+	const u8 cocci_id/* drivers/iio/light/cm36651.c 121 */[CM36651_PS_REG_NUM];
+	const u8 cocci_id/* drivers/iio/light/cm36651.c 116 */[CM36651_CS_CONF_REG_NUM];
+	enum cm36651_command{CM36651_CMD_READ_RAW_LIGHT, CM36651_CMD_READ_RAW_PROXIMITY, CM36651_CMD_PROX_EV_EN, CM36651_CMD_PROX_EV_DIS,} cocci_id/* drivers/iio/light/cm36651.c 109 */;
+	enum cm36651_light_channel_idx{CM36651_LIGHT_CHANNEL_IDX_RED, CM36651_LIGHT_CHANNEL_IDX_GREEN, CM36651_LIGHT_CHANNEL_IDX_BLUE, CM36651_LIGHT_CHANNEL_IDX_CLEAR,} cocci_id/* drivers/iio/light/cm36651.c 102 */;
+}

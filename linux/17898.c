@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct console cocci_id/* arch/sparc/kernel/setup_64.c 93 */;
+	unsigned long cocci_id/* arch/sparc/kernel/setup_64.c 91 */;
+	struct console *cocci_id/* arch/sparc/kernel/setup_64.c 85 */;
+	struct screen_info cocci_id/* arch/sparc/kernel/setup_64.c 72 */;
+	u32 cocci_id/* arch/sparc/kernel/setup_64.c 676 */;
+	phandle cocci_id/* arch/sparc/kernel/setup_64.c 675 */;
+	char **cocci_id/* arch/sparc/kernel/setup_64.c 638 */;
+	unsigned int cocci_id/* arch/sparc/kernel/setup_64.c 620 */;
+	void __init cocci_id/* arch/sparc/kernel/setup_64.c 618 */;
+	void cocci_id/* arch/sparc/kernel/setup_64.c 618 */;
+	u64 cocci_id/* arch/sparc/kernel/setup_64.c 491 */;
+	const char *cocci_id/* arch/sparc/kernel/setup_64.c 489 */;
+	struct mdesc_handle *cocci_id/* arch/sparc/kernel/setup_64.c 487 */;
+	unsigned long __init cocci_id/* arch/sparc/kernel/setup_64.c 485 */;
+	int *cocci_id/* arch/sparc/kernel/setup_64.c 456 */;
+	int cocci_id/* arch/sparc/kernel/setup_64.c 417 */;
+	struct seq_file *cocci_id/* arch/sparc/kernel/setup_64.c 414 */;
+	const char *cocci_id/* arch/sparc/kernel/setup_64.c 409 */[];
+	unsigned int *cocci_id/* arch/sparc/kernel/setup_64.c 358 */;
+	struct pause_patch_entry *cocci_id/* arch/sparc/kernel/setup_64.c 351 */;
+	struct popc_6insn_patch_entry *cocci_id/* arch/sparc/kernel/setup_64.c 318 */;
+	struct popc_3insn_patch_entry *cocci_id/* arch/sparc/kernel/setup_64.c 317 */;
+	void cocci_id/* arch/sparc/kernel/setup_64.c 283 */(void);
+	struct sun4v_2insn_patch_entry *cocci_id/* arch/sparc/kernel/setup_64.c 245 */;
+	struct sun4v_1insn_patch_entry *cocci_id/* arch/sparc/kernel/setup_64.c 231 */;
+	struct cpuid_patch_entry *cocci_id/* arch/sparc/kernel/setup_64.c 173 */;
+	struct pt_regs cocci_id/* arch/sparc/kernel/setup_64.c 169 */;
+	char cocci_id/* arch/sparc/kernel/setup_64.c 167 */[COMMAND_LINE_SIZE];
+	unsigned short cocci_id/* arch/sparc/kernel/setup_64.c 160 */;
+	char *cocci_id/* arch/sparc/kernel/setup_64.c 134 */;
+	char cocci_id/* arch/sparc/kernel/setup_64.c 104 */;
+}

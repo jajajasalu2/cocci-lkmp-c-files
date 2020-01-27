@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	struct rockchip_dp_device {
+		struct drm_device *drm_dev;
+		struct device *dev;
+		struct drm_encoder encoder;
+		struct drm_display_mode mode;
+		struct clk *pclk;
+		struct clk *grfclk;
+		struct regmap *grf;
+		struct reset_control *rst;
+		const struct rockchip_dp_chip_data *data;
+		struct analogix_dp_device *adp;
+		struct analogix_dp_plat_data plat_data;
+	} cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 58 */;
+	struct rockchip_dp_chip_data {
+		u32 lcdsel_grf_reg;
+		u32 lcdsel_big;
+		u32 lcdsel_lit;
+		u32 chip_type;
+	} cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 51 */;
+	struct platform_driver cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 465 */;
+	const struct of_device_id cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 458 */[];
+	const struct rockchip_dp_chip_data cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 451 */;
+	const struct dev_pm_ops cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 437 */;
+	struct rockchip_dp_device cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 42 */;
+	struct drm_panel *cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 383 */;
+	struct platform_device *cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 380 */;
+	const struct component_ops cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 375 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 329 */;
+	const struct rockchip_dp_chip_data *cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 328 */;
+	struct rockchip_dp_device *cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 327 */;
+	void *cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 325 */;
+	struct device *cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 324 */;
+	int cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 324 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 303 */;
+	struct device_node *cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 268 */;
+	struct drm_encoder_funcs cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 261 */;
+	struct drm_encoder_helper_funcs cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 253 */;
+	struct drm_display_info *cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 236 */;
+	struct rockchip_crtc_state *cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 235 */;
+	struct drm_connector_state *cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 233 */;
+	struct drm_crtc_state *cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 232 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 211 */;
+	struct drm_atomic_state *cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 208 */;
+	void cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 207 */;
+	u32 cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 172 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 151 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 134 */;
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 133 */;
+	bool cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 131 */;
+	struct analogix_dp_plat_data *cocci_id/* drivers/gpu/drm/rockchip/analogix_dp-rockchip.c 114 */;
+}

@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	struct meson_reg_desc *cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 97 */;
+	unsigned int *cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 95 */;
+	enum meson_reg_type cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 94 */;
+	struct meson_bank *cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 93 */;
+	unsigned int cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 93 */;
+	void cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 93 */;
+	struct meson_pinctrl_data *cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 729 */;
+	struct meson_pinctrl cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 724 */;
+	struct device *cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 720 */;
+	struct platform_device *cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 718 */;
+	struct meson_pinctrl *cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 699 */;
+	int cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 699 */;
+	struct meson_bank **cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 69 */;
+	void __iomem *cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 623 */;
+	struct resource cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 622 */;
+	struct device_node *cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 620 */;
+	char *cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 620 */;
+	struct regmap *cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 619 */;
+	struct regmap_config cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 613 */;
+	struct gpio_chip *cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 551 */;
+	const struct pinconf_ops cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 543 */;
+	struct meson_pmx_group *cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 524 */;
+	u16 cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 474 */;
+	enum pin_config_param cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 473 */;
+	unsigned long *cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 470 */;
+	u16 *cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 429 */;
+	bool cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 273 */;
+	unsigned *constcocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 161 */;
+	const char *const**cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 160 */;
+	const struct pinctrl_ops cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 135 */;
+	struct seq_file *cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 129 */;
+	const unsigned **cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 119 */;
+	unsigned *cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 119 */;
+	unsigned cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 111 */;
+	const char *cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 110 */;
+	struct pinctrl_dev *cocci_id/* drivers/pinctrl/meson/pinctrl-meson.c 110 */;
+}

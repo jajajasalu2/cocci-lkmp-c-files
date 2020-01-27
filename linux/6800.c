@@ -1,0 +1,228 @@
+cocci_test_suite() {
+	union lpfc_wqe128 cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 9961 */;
+	struct lpfc_node_rrq *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 996 */;
+	struct fcp_cmnd *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 9573 */;
+	struct fcp_rsp cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 9537 */;
+	union lpfc_wqe cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 9389 */;
+	union lpfc_wqe128 *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 9358 */;
+	struct sli4_sge *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 9258 */;
+	struct ulp_bde64 cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 9257 */;
+	IOCB_t *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 9127 */;
+	void cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 91 */(struct lpfc_hba *phba,
+							   struct lpfc_queue *cq,
+							   struct lpfc_cqe *cqe);
+	struct lpfc_iocbq **cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 9085 */;
+	struct lpfc_cqe *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 90 */(struct lpfc_queue *q);
+	bool cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 88 */(struct lpfc_hba *phba);
+	struct lpfc_mcqe cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 8686 */;
+	struct lpfc_mqe cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 8658 */;
+	struct lpfc_bmbx_create cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 8656 */;
+	struct dma_address *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 8622 */;
+	struct lpfc_bmbx_create *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 8621 */;
+	void cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 85 */(struct lpfc_hba *phba,
+							   struct lpfc_queue *eq,
+							   struct lpfc_eqe *eqe);
+	uint16_t cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 833 */;
+	struct lpfc_hba *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 833 */;
+	struct lpfc_sglq *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 832 */;
+	int cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 83 */(struct lpfc_hba *,
+							  struct list_head *,
+							  int);
+	struct lpfc_iocbq cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 812 */;
+	bool cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 81 */(struct lpfc_hba *phba,
+							   struct lpfc_queue *cq,
+							   struct lpfc_cqe *cqe);
+	MAILBOX_t *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 7998 */;
+	void cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 79 */(struct lpfc_vport *vport,
+							   struct hbq_dmabuf *dmabuf);
+	struct lpfc_mcqe *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 7892 */;
+	struct timer_list *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 7861 */;
+	void cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 77 */(struct lpfc_vport *,
+							   struct hbq_dmabuf *);
+	struct serv_parm cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 7512 */;
+	struct lpfc_iocbq *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 75 */(struct lpfc_hba *,
+									 struct lpfc_iocbq *);
+	int cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 73 */(struct lpfc_hba *,
+							  LPFC_MBOXQ_t *,
+							  uint8_t *,
+							  uint32_t *);
+	struct rqb_dmabuf cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 7170 */;
+	struct rqb_dmabuf *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 7152 */;
+	struct lpfc_rqb *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 7150 */;
+	struct lpfc_rqe cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 7148 */;
+	struct lpfc_mbx_set_host_data cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 7128 */;
+	int cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 71 */(struct lpfc_hba *,
+							  LPFC_MBOXQ_t *,
+							  uint32_t);
+	struct lpfc_rqe *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 685 */;
+	struct lpfc_mbx_set_ras_fwlog cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 6445 */;
+	struct lpfc_mbx_set_ras_fwlog *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 6408 */;
+	struct lpfc_ras_fwlog *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 6229 */;
+	enum _lpfc_iocb_type{LPFC_UNKNOWN_IOCB, LPFC_UNSOL_IOCB, LPFC_SOL_IOCB, LPFC_ABORT_IOCB,} cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 62 */;
+	struct lpfc_mbx_set_feature cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 6185 */;
+	struct lpfc_mbx_dealloc_rsrc_extents cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 6088 */;
+	struct lpfc_mbx_dealloc_rsrc_extents *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 6076 */;
+	struct lpfc_cqe *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 596 */;
+	struct lpfc_queue *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 595 */;
+	void cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 594 */;
+	struct lpfc_rsrc_blks cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 5910 */;
+	struct lpfc_mbx_alloc_rsrc_extents *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 5854 */;
+	struct lpfc_mbx_nembed_rsrc_extent *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 5853 */;
+	struct lpfc_id_range *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 5851 */;
+	struct lpfc_rsrc_blks *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 5848 */;
+	uint16_t *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 5844 */;
+	MAILBOX_t cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 5789 */;
+	struct mbox_header cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 5789 */;
+	bool *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 5775 */;
+	struct lpfc_mbx_get_rsrc_extent_info cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 5642 */;
+	struct lpfc_mbx_get_rsrc_extent_info *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 5634 */;
+	struct lpfc_sli4_hba *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 5578 */;
+	struct lpfc_mbx_get_port_name cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 5503 */;
+	char cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 5479 */;
+	struct lpfc_mbx_get_port_name *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 5476 */;
+	struct lpfc_mbx_get_cntl_attributes cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 5404 */;
+	struct lpfc_controller_attribute *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 5392 */;
+	struct lpfc_mbx_get_cntl_attributes *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 5391 */;
+	struct lpfc_hbq_entry cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 4836 */;
+	struct lpfc_eqe *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 461 */;
+	volatile uint32_t cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 4232 */;
+	uint32_t __iomem *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 4230 */;
+	struct lpfc_register cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 362 */;
+	char cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 3502 */[LPFC_MAX_ADPTMSG];
+	lpfc_iocb_type cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 3389 */;
+	struct lpfc_pgp *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 3381 */;
+	uint64_t cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 3326 */;
+	spinlock_t *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 3045 */;
+	WORD5 *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 2872 */;
+	struct lpfc_vport *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 2464 */;
+	struct completion *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 2448 */;
+	struct lpfc_hbq_init *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 2143 */[];
+	struct lpfc_hbq_init cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 2131 */;
+	struct fcp_cmd_rsp_buf *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 20906 */;
+	struct fcp_cmd_rsp_buf cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 20844 */;
+	struct fcp_cmnd cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 20837 */;
+	uint8_t *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 20836 */;
+	struct fcp_rsp *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 20836 */;
+	struct sli4_hybrid_sgl *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 20757 */;
+	struct hbq_s *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 2073 */;
+	struct sli4_hybrid_sgl cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 20696 */;
+	struct lpfc_hbq_entry *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 2066 */;
+	struct lpfc_epd_pool *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 20476 */;
+	u32 cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 20190 */;
+	struct lpfc_pvt_pool *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 20190 */;
+	struct lpfc_pbl_pool *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 20189 */;
+	struct lpfc_sli4_hdw_queue *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 20188 */;
+	struct list_head cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 20126 */;
+	struct lpfc_multixri_pool *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 20081 */;
+	struct lpfc_nvmet_rcv_ctx *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 19900 */;
+	LPFC_MBOXQ_t cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 19633 */;
+	struct Scsi_Host *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 19566 */;
+	struct lpfc_dmabuf *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 19563 */;
+	LPFC_MBOXQ_t *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 19562 */;
+	struct lpfc_mbx_wr_object cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 19464 */;
+	struct lpfc_mbx_wr_object *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 19449 */;
+	struct lpfc_mqe *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 19290 */;
+	struct lpfc_mbx_redisc_fcf_tbl cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 19171 */;
+	struct lpfc_mbx_redisc_fcf_tbl *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 19099 */;
+	struct lpfc_fcf_pri *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 18873 */;
+	union lpfc_sli4_cfg_shdr cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 18608 */;
+	struct fcf_record cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 18608 */;
+	struct lpfc_mbx_sge cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 18597 */;
+	struct fcf_record *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 18591 */;
+	void (*cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 18480 */)(struct lpfc_hba *,
+								 LPFC_MBOXQ_t *);
+	int cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 18421 */;
+	struct lpfc_rpi_hdr *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 18346 */;
+	struct lpfc_mbx_post_hdr_tmpl cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 18290 */;
+	struct lpfc_mbx_post_hdr_tmpl *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 18266 */;
+	struct lpfc_dmabuf cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 18027 */;
+	union lpfc_wqe *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 18004 */;
+	struct ulp_bde64 *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 17838 */;
+	struct fc_frame_header cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 17741 */;
+	typeof(*d_buf) cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 17413 */;
+	struct fc_frame_header *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 17362 */;
+	struct hbq_dmabuf cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 17290 */;
+	struct hbq_dmabuf *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 17286 */;
+	struct lpfc_vport **cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 17223 */;
+	uint32_t *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 17118 */;
+	struct fc_vft_header *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 17117 */;
+	struct lpfc_io_buf cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 17084 */;
+	struct sgl_page_pairs cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 16891 */;
+	dma_addr_t cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 16887 */;
+	struct sgl_page_pairs *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 16879 */;
+	struct lpfc_mbx_post_uembed_sgl_page1 *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 16878 */;
+	struct lpfc_mbx_post_sgl_pages cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 16628 */;
+	struct lpfc_mbx_post_sgl_pages *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 16609 */;
+	struct lpfc_mbx_rq_destroy cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 16537 */;
+	struct lpfc_mbx_wq_destroy cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 16481 */;
+	struct lpfc_mbx_mq_destroy cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 16427 */;
+	struct lpfc_mbx_cq_destroy cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 16373 */;
+	struct lpfc_mbx_eq_destroy cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 16317 */;
+	struct lpfc_mbx_rq_create_v2 cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 16146 */;
+	struct lpfc_mbx_rq_create_v2 *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 16126 */;
+	struct lpfc_mbx_rq_create cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 15857 */;
+	struct lpfc_mbx_rq_create *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 15835 */;
+	struct lpfc_sli_ring cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 15789 */;
+	struct lpfc_mbx_wq_create cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 15593 */;
+	struct lpfc_mbx_wq_create *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 15568 */;
+	struct lpfc_mbx_mq_create_ext cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 15431 */;
+	struct lpfc_mbx_mq_create_ext *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 15414 */;
+	struct lpfc_mbx_mq_create *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 15413 */;
+	int32_t cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 15409 */;
+	struct lpfc_mbx_mq_create cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 15351 */;
+	struct dma_address cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 15127 */;
+	struct lpfc_mbx_cq_create_set cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 15125 */;
+	struct lpfc_mbx_cq_create_set *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 15107 */;
+	struct lpfc_queue **cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 15101 */;
+	struct lpfc_sli4_cfg_mhdr cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 14974 */;
+	struct lpfc_mbx_cq_create cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 14973 */;
+	union lpfc_sli4_cfg_shdr *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 14964 */;
+	struct lpfc_mbx_cq_create *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 14959 */;
+	struct lpfc_mbx_eq_create cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 14844 */;
+	struct lpfc_mbx_eq_create *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 14826 */;
+	struct lpfc_mbx_modify_eq_delay cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 14757 */;
+	struct lpfc_mbx_modify_eq_delay *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 14714 */;
+	void __iomem *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 14668 */;
+	void **cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 14622 */;
+	uint8_t cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 14481 */;
+	struct lpfc_eq_intr_info *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 14295 */;
+	struct lpfc_hba_eq_hdl *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 14290 */;
+	irqreturn_t cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 14286 */;
+	struct lpfc_queue cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 14255 */;
+	struct work_struct *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 14252 */;
+	bool cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 14210 */;
+	unsigned long cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 14209 */;
+	struct lpfc_rcqe *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 14093 */;
+	struct lpfc_wcqe_release *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 14079 */;
+	struct lpfc_cqe cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 14062 */;
+	struct lpfc_wcqe_release cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 14058 */;
+	struct lpfc_nvmet_tgtport *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 13954 */;
+	unsigned long *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 13662 */;
+	bool (*cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 13661 */)(struct lpfc_hba *,
+								 struct lpfc_queue *,
+								 struct lpfc_cqe *);
+	char *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 1360 */;
+	size_t cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 1353 */;
+	struct sli4_wcqe_xri_aborted cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 13414 */;
+	void *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 13097 */;
+	struct lpfc_cq_event *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 13096 */;
+	struct lpfc_wcqe_complete *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 13063 */;
+	struct lpfc_cq_event cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 12921 */;
+	struct completion cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 12052 */;
+	long cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 11910 */;
+	IOCB_t cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 11820 */;
+	uint64_t *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 118 */;
+	wait_queue_head_t *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 11794 */;
+	struct lpfc_sglq cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 1175 */;
+	lpfc_ctx_cmd cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 11541 */;
+	struct lpfc_sli_ring *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 1149 */;
+	struct lpfc_nodelist *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 1148 */;
+	struct lpfc_io_buf *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 1147 */;
+	struct list_head *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 1144 */;
+	struct lpfc_iocbq *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 1142 */;
+	unsigned long long cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 11083 */;
+	struct temp_event cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 10325 */;
+	struct sli4_wcqe_xri_aborted *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 10274 */;
+	struct lpfc_sli *cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 10181 */;
+	uint32_t cocci_id/* drivers/scsi/lpfc/lpfc_sli.c 10050 */;
+}

@@ -1,0 +1,107 @@
+cocci_test_suite() {
+	struct os_desc {
+		struct config_group group;
+	} cocci_id/* drivers/usb/gadget/configfs.c 99 */;
+	struct usb_os_desc *cocci_id/* drivers/usb/gadget/configfs.c 972 */;
+	size_t cocci_id/* drivers/usb/gadget/configfs.c 969 */;
+	struct usb_os_desc_ext_prop *cocci_id/* drivers/usb/gadget/configfs.c 956 */;
+	ssize_t cocci_id/* drivers/usb/gadget/configfs.c 954 */;
+	struct gadget_strings {
+		struct usb_gadget_strings stringtab_dev;
+		struct usb_string strings[USB_GADGET_FIRST_AVAIL_IDX];
+		char *manufacturer;
+		char *product;
+		char *serialnumber;
+		struct config_group group;
+		struct list_head list;
+	} cocci_id/* drivers/usb/gadget/configfs.c 88 */;
+	struct os_desc *cocci_id/* drivers/usb/gadget/configfs.c 836 */;
+	wchar_t *cocci_id/* drivers/usb/gadget/configfs.c 795 */;
+	bool cocci_id/* drivers/usb/gadget/configfs.c 753 */;
+	struct os_desc cocci_id/* drivers/usb/gadget/configfs.c 733 */;
+	struct config_usb_cfg {
+		struct config_group group;
+		struct config_group strings_group;
+		struct list_head string_list;
+		struct usb_configuration c;
+		struct list_head func_list;
+		struct usb_gadget_strings *gstrings[MAX_USB_STRING_LANGS + 1];
+	} cocci_id/* drivers/usb/gadget/configfs.c 73 */;
+	const struct config_item_type cocci_id/* drivers/usb/gadget/configfs.c 700 */;
+	struct configfs_group_operations cocci_id/* drivers/usb/gadget/configfs.c 695 */;
+	struct config_item *cocci_id/* drivers/usb/gadget/configfs.c 690 */;
+	struct config_group *cocci_id/* drivers/usb/gadget/configfs.c 689 */;
+	struct gadget_info cocci_id/* drivers/usb/gadget/configfs.c 635 */;
+	u8 cocci_id/* drivers/usb/gadget/configfs.c 632 */;
+	char *cocci_id/* drivers/usb/gadget/configfs.c 631 */;
+	char cocci_id/* drivers/usb/gadget/configfs.c 630 */[MAX_NAME_LEN];
+	struct config_usb_cfg *cocci_id/* drivers/usb/gadget/configfs.c 629 */;
+	struct gadget_info *cocci_id/* drivers/usb/gadget/configfs.c 628 */;
+	struct usb_composite_dev *cocci_id/* drivers/usb/gadget/configfs.c 523 */;
+	void cocci_id/* drivers/usb/gadget/configfs.c 523 */;
+	struct gadget_info {
+		struct config_group group;
+		struct config_group functions_group;
+		struct config_group configs_group;
+		struct config_group strings_group;
+		struct config_group os_desc_group;
+		struct mutex lock;
+		struct usb_gadget_strings *gstrings[MAX_USB_STRING_LANGS + 1];
+		struct list_head string_list;
+		struct list_head available_func;
+		struct usb_composite_driver composite;
+		struct usb_composite_dev cdev;
+		bool use_os_desc;
+		char b_vendor_code;
+		char qw_sign[OS_STRING_QW_SIGN_LEN];
+		spinlock_t spinlock;
+		bool unbind;
+	} cocci_id/* drivers/usb/gadget/configfs.c 47 */;
+	const struct usb_descriptor_header *cocci_id/* drivers/usb/gadget/configfs.c 45 */[2];
+	struct usb_function *cocci_id/* drivers/usb/gadget/configfs.c 376 */;
+	struct usb_function_instance cocci_id/* drivers/usb/gadget/configfs.c 374 */;
+	struct usb_function_instance *cocci_id/* drivers/usb/gadget/configfs.c 373 */;
+	struct gadget_config_name cocci_id/* drivers/usb/gadget/configfs.c 328 */;
+	struct gadget_strings cocci_id/* drivers/usb/gadget/configfs.c 321 */;
+	u16 cocci_id/* drivers/usb/gadget/configfs.c 18 */;
+	void __exit cocci_id/* drivers/usb/gadget/configfs.c 1617 */;
+	int __init cocci_id/* drivers/usb/gadget/configfs.c 1606 */;
+	unsigned cocci_id/* drivers/usb/gadget/configfs.c 16 */;
+	struct configfs_subsystem cocci_id/* drivers/usb/gadget/configfs.c 1586 */;
+	const struct usb_gadget_driver cocci_id/* drivers/usb/gadget/configfs.c 1494 */;
+	unsigned long cocci_id/* drivers/usb/gadget/configfs.c 1432 */;
+	const struct usb_ctrlrequest *cocci_id/* drivers/usb/gadget/configfs.c 1404 */;
+	struct usb_gadget_strings *cocci_id/* drivers/usb/gadget/configfs.c 14 */;
+	struct gadget_config_name *cocci_id/* drivers/usb/gadget/configfs.c 1329 */;
+	struct usb_descriptor_header *cocci_id/* drivers/usb/gadget/configfs.c 1312 */;
+	const char *cocci_id/* drivers/usb/gadget/configfs.c 13 */;
+	int cocci_id/* drivers/usb/gadget/configfs.c 13 */;
+	struct gadget_strings *cocci_id/* drivers/usb/gadget/configfs.c 1279 */;
+	struct config_usb_cfg cocci_id/* drivers/usb/gadget/configfs.c 1268 */;
+	struct usb_string *cocci_id/* drivers/usb/gadget/configfs.c 1244 */;
+	struct usb_configuration *cocci_id/* drivers/usb/gadget/configfs.c 1243 */;
+	struct usb_composite_driver *cocci_id/* drivers/usb/gadget/configfs.c 1239 */;
+	struct usb_gadget_driver *cocci_id/* drivers/usb/gadget/configfs.c 1237 */;
+	struct usb_gadget *cocci_id/* drivers/usb/gadget/configfs.c 1236 */;
+	int cocci_id/* drivers/usb/gadget/configfs.c 1204 */(struct usb_composite_dev *cdev,
+							     struct usb_ep *ep0);
+	int cocci_id/* drivers/usb/gadget/configfs.c 1201 */(struct usb_composite_driver *composite,
+							     struct usb_composite_dev *dev);
+	struct config_group cocci_id/* drivers/usb/gadget/configfs.c 1160 */;
+	struct module *cocci_id/* drivers/usb/gadget/configfs.c 1154 */;
+	char **cocci_id/* drivers/usb/gadget/configfs.c 1153 */;
+	struct usb_os_desc **cocci_id/* drivers/usb/gadget/configfs.c 1152 */;
+	struct usb_os_desc cocci_id/* drivers/usb/gadget/configfs.c 1042 */;
+	struct config_item_type cocci_id/* drivers/usb/gadget/configfs.c 1033 */;
+	struct usb_os_desc_ext_prop cocci_id/* drivers/usb/gadget/configfs.c 1032 */;
+	struct gadget_config_name {
+		struct usb_gadget_strings stringtab_dev;
+		struct usb_string strings;
+		char *configuration;
+		struct config_group group;
+		struct list_head list;
+	} cocci_id/* drivers/usb/gadget/configfs.c 103 */;
+	struct config_item_type *cocci_id/* drivers/usb/gadget/configfs.c 1027 */;
+	struct configfs_item_operations cocci_id/* drivers/usb/gadget/configfs.c 1018 */;
+	struct configfs_attribute *cocci_id/* drivers/usb/gadget/configfs.c 1005 */[];
+}

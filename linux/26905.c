@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	struct file *cocci_id/* fs/afs/proc.c 86 */;
+	char *cocci_id/* fs/afs/proc.c 86 */;
+	size_t cocci_id/* fs/afs/proc.c 86 */;
+	struct afs_net *cocci_id/* fs/afs/proc.c 639 */;
+	struct afs_cell *cocci_id/* fs/afs/proc.c 637 */;
+	void cocci_id/* fs/afs/proc.c 637 */;
+	struct seq_net_private cocci_id/* fs/afs/proc.c 620 */;
+	struct afs_vl_seq_net_private cocci_id/* fs/afs/proc.c 616 */;
+	struct proc_dir_entry *cocci_id/* fs/afs/proc.c 605 */;
+	int cocci_id/* fs/afs/proc.c 603 */;
+	unsigned long cocci_id/* fs/afs/proc.c 461 */;
+	struct afs_sysnames *cocci_id/* fs/afs/proc.c 456 */;
+	struct afs_cell cocci_id/* fs/afs/proc.c 45 */;
+	unsigned int cocci_id/* fs/afs/proc.c 432 */;
+	struct afs_server cocci_id/* fs/afs/proc.c 385 */;
+	struct afs_addr_list *cocci_id/* fs/afs/proc.c 377 */;
+	struct afs_server *cocci_id/* fs/afs/proc.c 376 */;
+	const struct seq_operations cocci_id/* fs/afs/proc.c 364 */;
+	loff_t cocci_id/* fs/afs/proc.c 347 */;
+	struct afs_vlserver_list *cocci_id/* fs/afs/proc.c 346 */;
+	struct afs_vl_seq_net_private *cocci_id/* fs/afs/proc.c 345 */;
+	loff_t *cocci_id/* fs/afs/proc.c 343 */;
+	struct seq_file *cocci_id/* fs/afs/proc.c 342 */;
+	void *cocci_id/* fs/afs/proc.c 342 */;
+	const struct afs_addr_list *cocci_id/* fs/afs/proc.c 291 */;
+	const struct afs_vlserver *cocci_id/* fs/afs/proc.c 290 */;
+	const struct afs_vlserver_entry *cocci_id/* fs/afs/proc.c 289 */;
+	const struct afs_vlserver_list *cocci_id/* fs/afs/proc.c 288 */;
+	const struct afs_vl_seq_net_private *cocci_id/* fs/afs/proc.c 287 */;
+	const char *const cocci_id/* fs/afs/proc.c 270 */[NR__dns_lookup_status + 1];
+	const char *const cocci_id/* fs/afs/proc.c 260 */[NR__dns_record_source + 1];
+	struct afs_volume cocci_id/* fs/afs/proc.c 212 */;
+	struct afs_volume *cocci_id/* fs/afs/proc.c 212 */;
+	const char cocci_id/* fs/afs/proc.c 200 */[3][3];
+	struct afs_vl_seq_net_private {
+		struct seq_net_private seq;
+		struct afs_vlserver_list *vllist;
+	} cocci_id/* fs/afs/proc.c 16 */;
+}

@@ -1,0 +1,81 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 777 */;
+	dma_addr_t cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 770 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 769 */;
+	struct ath10k_ce_pipe *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 768 */;
+	struct ath10k_ce *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 767 */;
+	struct ath10k_pci_pipe *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 764 */;
+	const char *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 754 */;
+	const struct ath10k_pci_supp_chip cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 68 */[];
+	struct timer_list *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 591 */;
+	const struct pci_device_id cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 53 */[];
+	struct ath10k_pci *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 454 */;
+	void cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 452 */;
+	void __exit cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 3761 */;
+	int __init cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 3744 */;
+	struct pci_driver cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 3734 */;
+	struct device *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 3718 */;
+	u32 (*cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 3492 */)(struct ath10k *ar,
+									u32 addr);
+	int (*cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 3490 */)(struct ath10k *ar);
+	struct ath10k_bus_params cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 3488 */;
+	enum ath10k_hw_rev cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 3487 */;
+	const struct pci_device_id *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 3482 */;
+	const struct ath10k_bus_ops cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 3475 */;
+	const struct ath10k_pci_supp_chip *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 3425 */;
+	bool cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 3423 */;
+	struct service_to_pipe cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 338 */[];
+	struct pci_dev *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 3354 */;
+	struct ath10k cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 3102 */;
+	struct napi_struct *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 3100 */;
+	irqreturn_t cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 3074 */;
+	const struct ath10k_hif_ops cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 3049 */;
+	size_t *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 3013 */;
+	__le16 *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 2913 */;
+	enum ath10k_firmware_mode cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 2792 */;
+	enum ath10k_pci_reset_mode{ATH10K_PCI_RESET_AUTO=0, ATH10K_PCI_RESET_WARM_ONLY=1,} cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 26 */;
+	size_t cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 2491 */;
+	struct ce_pipe_config *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 2445 */;
+	struct ce_attr *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 2444 */;
+	struct ce_pipe_config cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 2349 */;
+	struct pcie_state cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 2333 */;
+	struct ce_pipe_config cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 225 */[];
+	void **cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 2193 */;
+	unsigned int cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 2191 */;
+	struct bmi_xfer *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 2190 */;
+	struct bmi_xfer cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 2094 */;
+	const struct service_to_pipe *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1808 */;
+	char cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1739 */[UUID_STRING_LEN + 1];
+	struct ath10k_pci cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1735 */;
+	struct work_struct *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1733 */;
+	u8 *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1653 */;
+	struct ath10k_dump_ram_data_hdr *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1649 */;
+	const struct ath10k_mem_region *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1648 */;
+	const struct ath10k_hw_mem_layout *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1647 */;
+	struct ath10k_fw_crash_data *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1645 */;
+	const struct ath10k_mem_section *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1472 */;
+	__le32 cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1437 */[REG_DUMP_COUNT_QCA988X];
+	u8 cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1425 */;
+	u16 cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1425 */;
+	struct ath10k_ce_ring *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1356 */;
+	struct ath10k_hif_sg_item *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1350 */;
+	struct ath10k_htc_hdr cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1334 */;
+	void (*cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1234 */)(struct ath10k *ar,
+									 struct sk_buff *skb);
+	struct ce_attr cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 119 */[];
+	struct sk_buff_head cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1174 */;
+	void cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 113 */(struct ath10k_ce_pipe *ce_state);
+	int cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 107 */(struct ath10k *ar,
+								    struct ath10k_ce_pipe *tx_pipe,
+								    struct ath10k_ce_pipe *rx_pipe,
+								    struct bmi_xfer *xfer);
+	const void *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1048 */;
+	u32 cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1020 */;
+	struct ath10k *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1019 */;
+	void *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1019 */;
+	int cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1019 */;
+	__le32 cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1010 */;
+	int cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 101 */(struct ath10k *ar);
+	u32 *cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 1008 */;
+	void cocci_id/* drivers/net/wireless/ath/ath10k/pci.c 100 */(struct ath10k *ar);
+}

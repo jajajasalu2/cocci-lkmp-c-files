@@ -1,0 +1,57 @@
+cocci_test_suite() {
+	struct hisi_mux_clock cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 85 */[]__initdata;
+	struct hisi_fixed_factor_clock cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 79 */[]__initdata;
+	struct hisi_fixed_rate_clock cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 66 */[]__initdata;
+	const char *constcocci_id/* drivers/clk/hisilicon/clk-hi3620.c 54 */[]__initconst;
+	struct hisi_mmc_clock *cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 474 */;
+	struct clk_onecell_data *cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 452 */;
+	int cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 451 */;
+	void __iomem *cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 450 */;
+	struct clk_init_data cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 416 */;
+	struct clk_mmc *cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 414 */;
+	struct clk *cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 411 */;
+	const struct clk_ops cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 404 */;
+	unsigned long cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 388 */;
+	u32 cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 306 */;
+	struct clk_rate_request *cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 282 */;
+	struct clk_hw *cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 281 */;
+	struct hisi_mmc_clock cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 255 */[]__initdata;
+	struct clk_mmc cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 253 */;
+	struct clk_mmc {
+		struct clk_hw hw;
+		u32 id;
+		void __iomem *clken_reg;
+		u32 clken_bit;
+		void __iomem *div_reg;
+		u32 div_off;
+		u32 div_bits;
+		void __iomem *drv_reg;
+		u32 drv_off;
+		u32 drv_bits;
+		void __iomem *sam_reg;
+		u32 sam_off;
+		u32 sam_bits;
+	} cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 237 */;
+	struct hisi_mmc_clock {
+		unsigned int id;
+		const char *name;
+		const char *parent_name;
+		unsigned long flags;
+		u32 clken_reg;
+		u32 clken_bit;
+		u32 div_reg;
+		u32 div_off;
+		u32 div_bits;
+		u32 drv_reg;
+		u32 drv_off;
+		u32 drv_bits;
+		u32 sam_reg;
+		u32 sam_off;
+		u32 sam_bits;
+	} cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 219 */;
+	struct hisi_clock_data *cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 197 */;
+	struct device_node *cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 195 */;
+	void __init cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 195 */;
+	struct hisi_gate_clock cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 133 */[]__initdata;
+	struct hisi_divider_clock cocci_id/* drivers/clk/hisilicon/clk-hi3620.c 123 */[]__initdata;
+}

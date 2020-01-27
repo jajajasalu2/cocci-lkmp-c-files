@@ -1,0 +1,66 @@
+cocci_test_suite() {
+	struct brcms_fifo_info {
+		u16 ampdu_pld_size;
+		u8 mcs2ampdu_table[FFPLD_MAX_MCS + 1];
+		u16 prev_txfunfl;
+		u32 accum_txfunfl;
+		u32 accum_txampdu;
+		u32 prev_txampdu;
+		u32 dmaxferrate;
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 93 */;
+	u8 cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 860 */[AMPDU_MAX_MPDU];
+	struct ieee80211_hdr *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 847 */;
+	u8 cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 844 */[8];
+	struct ieee80211_rts *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 642 */;
+	struct brcms_fifo_info *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 584 */;
+	u16 cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 531 */;
+	uint cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 530 */;
+	u8 *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 529 */;
+	unsigned cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 527 */;
+	struct d11txh *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 526 */;
+	struct ieee80211_tx_rate *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 525 */;
+	struct ieee80211_tx_info *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 524 */;
+	struct scb_ampdu *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 523 */;
+	struct scb *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 522 */;
+	struct ampdu_info *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 521 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 518 */;
+	struct brcms_ampdu_session *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 517 */;
+	int cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 517 */;
+	struct macstat cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 372 */;
+	void cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 278 */;
+	struct ampdu_info cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 228 */;
+	struct bcma_device *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 184 */;
+	struct cb_del_ampdu_pars {
+		struct ieee80211_sta *sta;
+		u16 tid;
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 147 */;
+	struct ampdu_info {
+		struct brcms_c_info *wlc;
+		int scb_handle;
+		u8 ini_enable[AMPDU_MAX_SCB_TID];
+		u8 ba_tx_wsize;
+		u8 ba_rx_wsize;
+		u8 retry_limit;
+		u8 rr_retry_limit;
+		u8 retry_limit_tid[AMPDU_MAX_SCB_TID];
+		u8 rr_retry_limit_tid[AMPDU_MAX_SCB_TID];
+		u8 mpdu_density;
+		s8 max_pdu;
+		u8 dur;
+		u8 rx_factor;
+		u32 ffpld_rsvd;
+		u32 max_txlen[MCS_TABLE_SIZE][2][2];
+		bool mfbr;
+		u32 tx_max_funl;
+		struct brcms_fifo_info fifo_tb[NUM_FFPLD_FIFO];
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 125 */;
+	struct ieee80211_sta *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 1141 */;
+	void *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 1126 */;
+	u8 cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 1100 */;
+	bool cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 1100 */;
+	struct brcms_c_info *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 1100 */;
+	char cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 1090 */[T_RAM_ACCESS_SZ * 2];
+	u32 cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 1036 */;
+	struct scb_ampdu_tid_ini *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 1035 */;
+	struct tx_status *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.c 1031 */;
+}

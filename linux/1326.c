@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/usb/phy/phy-mv-usb.c 875 */;
+	pm_message_t cocci_id/* drivers/usb/phy/phy-mv-usb.c 837 */;
+	struct mv_otg_regs __iomem *cocci_id/* drivers/usb/phy/phy-mv-usb.c 757 */;
+	unsigned long cocci_id/* drivers/usb/phy/phy-mv-usb.c 757 */;
+	struct usb_gadget *cocci_id/* drivers/usb/phy/phy-mv-usb.c 69 */;
+	struct resource *cocci_id/* drivers/usb/phy/phy-mv-usb.c 670 */;
+	struct usb_otg *cocci_id/* drivers/usb/phy/phy-mv-usb.c 669 */;
+	struct mv_usb_platform_data *cocci_id/* drivers/usb/phy/phy-mv-usb.c 667 */;
+	struct platform_device *cocci_id/* drivers/usb/phy/phy-mv-usb.c 665 */;
+	const struct attribute_group *cocci_id/* drivers/usb/phy/phy-mv-usb.c 644 */[];
+	const struct attribute_group cocci_id/* drivers/usb/phy/phy-mv-usb.c 639 */;
+	struct attribute *cocci_id/* drivers/usb/phy/phy-mv-usb.c 632 */[];
+	struct usb_bus *cocci_id/* drivers/usb/phy/phy-mv-usb.c 61 */;
+	const char *cocci_id/* drivers/usb/phy/phy-mv-usb.c 600 */;
+	size_t cocci_id/* drivers/usb/phy/phy-mv-usb.c 600 */;
+	struct mv_otg *cocci_id/* drivers/usb/phy/phy-mv-usb.c 593 */;
+	char *cocci_id/* drivers/usb/phy/phy-mv-usb.c 591 */;
+	struct device_attribute *cocci_id/* drivers/usb/phy/phy-mv-usb.c 590 */;
+	struct device *cocci_id/* drivers/usb/phy/phy-mv-usb.c 590 */;
+	ssize_t cocci_id/* drivers/usb/phy/phy-mv-usb.c 589 */;
+	struct mv_otg cocci_id/* drivers/usb/phy/phy-mv-usb.c 53 */;
+	bool cocci_id/* drivers/usb/phy/phy-mv-usb.c 51 */;
+	irqreturn_t cocci_id/* drivers/usb/phy/phy-mv-usb.c 504 */;
+	void *cocci_id/* drivers/usb/phy/phy-mv-usb.c 504 */;
+	struct work_struct *cocci_id/* drivers/usb/phy/phy-mv-usb.c 401 */;
+	char *cocci_id/* drivers/usb/phy/phy-mv-usb.c 34 */[];
+	const char cocci_id/* drivers/usb/phy/phy-mv-usb.c 32 */[];
+	struct mv_otg_ctrl *cocci_id/* drivers/usb/phy/phy-mv-usb.c 292 */;
+	void cocci_id/* drivers/usb/phy/phy-mv-usb.c 284 */;
+	struct usb_hcd *cocci_id/* drivers/usb/phy/phy-mv-usb.c 197 */;
+	u32 cocci_id/* drivers/usb/phy/phy-mv-usb.c 169 */;
+	struct timer_list *cocci_id/* drivers/usb/phy/phy-mv-usb.c 103 */;
+	unsigned int cocci_id/* drivers/usb/phy/phy-mv-usb.c 101 */;
+	int cocci_id/* drivers/usb/phy/phy-mv-usb.c 101 */;
+}

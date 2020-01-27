@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/dma/idma64.c 694 */;
+	const struct dev_pm_ops cocci_id/* drivers/dma/idma64.c 690 */;
+	struct resource *cocci_id/* drivers/dma/idma64.c 632 */;
+	struct idma64_chip *cocci_id/* drivers/dma/idma64.c 629 */;
+	struct platform_device *cocci_id/* drivers/dma/idma64.c 627 */;
+	struct idma64 *cocci_id/* drivers/dma/idma64.c 59 */;
+	struct idma64_lli cocci_id/* drivers/dma/idma64.c 504 */;
+	int cocci_id/* drivers/dma/idma64.c 497 */;
+	unsigned short cocci_id/* drivers/dma/idma64.c 416 */;
+	bool cocci_id/* drivers/dma/idma64.c 414 */;
+	u32 *cocci_id/* drivers/dma/idma64.c 393 */;
+	void cocci_id/* drivers/dma/idma64.c 393 */;
+	dma_cookie_t cocci_id/* drivers/dma/idma64.c 366 */;
+	struct dma_tx_state *cocci_id/* drivers/dma/idma64.c 366 */;
+	enum dma_status cocci_id/* drivers/dma/idma64.c 365 */;
+	unsigned int cocci_id/* drivers/dma/idma64.c 347 */;
+	u32 cocci_id/* drivers/dma/idma64.c 346 */;
+	u64 cocci_id/* drivers/dma/idma64.c 345 */;
+	struct idma64_hw_desc *cocci_id/* drivers/dma/idma64.c 343 */;
+	struct idma64_desc *cocci_id/* drivers/dma/idma64.c 342 */;
+	struct idma64_chan *cocci_id/* drivers/dma/idma64.c 340 */;
+	size_t cocci_id/* drivers/dma/idma64.c 340 */;
+	unsigned long cocci_id/* drivers/dma/idma64.c 332 */;
+	struct scatterlist *cocci_id/* drivers/dma/idma64.c 293 */;
+	struct dma_async_tx_descriptor *cocci_id/* drivers/dma/idma64.c 292 */;
+	struct dma_chan *cocci_id/* drivers/dma/idma64.c 28 */;
+	struct device *cocci_id/* drivers/dma/idma64.c 28 */;
+	struct idma64_lli *cocci_id/* drivers/dma/idma64.c 274 */;
+	struct dma_slave_config *cocci_id/* drivers/dma/idma64.c 271 */;
+	enum dma_transfer_direction cocci_id/* drivers/dma/idma64.c 231 */;
+	irqreturn_t cocci_id/* drivers/dma/idma64.c 162 */;
+	void *cocci_id/* drivers/dma/idma64.c 162 */;
+	struct virt_dma_desc *cocci_id/* drivers/dma/idma64.c 115 */;
+}

@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	struct w5300_priv {
+		void __iomem *base;
+		spinlock_t reg_lock;
+		bool indirect;
+		u16 (*read)(struct w5300_priv *priv, u16 addr);
+		void (*write)(struct w5300_priv *priv, u16 addr, u16 data);
+		int irq;
+		int link_irq;
+		int link_gpio;
+		struct napi_struct napi;
+		struct net_device *ndev;
+		bool promisc;
+		u32 msg_enable;
+	} cocci_id/* drivers/net/ethernet/wiznet/w5300.c 86 */;
+	struct platform_driver cocci_id/* drivers/net/ethernet/wiznet/w5300.c 680 */;
+	struct device *cocci_id/* drivers/net/ethernet/wiznet/w5300.c 660 */;
+	u64 cocci_id/* drivers/net/ethernet/wiznet/w5300.c 585 */;
+	char *cocci_id/* drivers/net/ethernet/wiznet/w5300.c 574 */;
+	struct resource *cocci_id/* drivers/net/ethernet/wiznet/w5300.c 531 */;
+	const char *cocci_id/* drivers/net/ethernet/wiznet/w5300.c 530 */;
+	struct wiznet_platform_data *cocci_id/* drivers/net/ethernet/wiznet/w5300.c 527 */;
+	struct platform_device *cocci_id/* drivers/net/ethernet/wiznet/w5300.c 525 */;
+	const struct net_device_ops cocci_id/* drivers/net/ethernet/wiznet/w5300.c 515 */;
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/wiznet/w5300.c 506 */;
+	struct sockaddr *cocci_id/* drivers/net/ethernet/wiznet/w5300.c 471 */;
+	bool cocci_id/* drivers/net/ethernet/wiznet/w5300.c 460 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/wiznet/w5300.c 441 */;
+	irqreturn_t cocci_id/* drivers/net/ethernet/wiznet/w5300.c 439 */;
+	void *cocci_id/* drivers/net/ethernet/wiznet/w5300.c 439 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/wiznet/w5300.c 377 */;
+	struct w5300_priv cocci_id/* drivers/net/ethernet/wiznet/w5300.c 375 */;
+	struct napi_struct *cocci_id/* drivers/net/ethernet/wiznet/w5300.c 373 */;
+	netdev_tx_t cocci_id/* drivers/net/ethernet/wiznet/w5300.c 356 */;
+	u8 *cocci_id/* drivers/net/ethernet/wiznet/w5300.c 324 */;
+	struct ethtool_regs *cocci_id/* drivers/net/ethernet/wiznet/w5300.c 321 */;
+	u32 cocci_id/* drivers/net/ethernet/wiznet/w5300.c 291 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/ethernet/wiznet/w5300.c 283 */;
+	void cocci_id/* drivers/net/ethernet/wiznet/w5300.c 282 */;
+	unsigned long cocci_id/* drivers/net/ethernet/wiznet/w5300.c 188 */;
+	u16 cocci_id/* drivers/net/ethernet/wiznet/w5300.c 186 */;
+	struct w5300_priv *cocci_id/* drivers/net/ethernet/wiznet/w5300.c 186 */;
+	int cocci_id/* drivers/net/ethernet/wiznet/w5300.c 186 */;
+}

@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct rtc_device *cocci_id/* drivers/rtc/dev.c 86 */;
+	int cocci_id/* drivers/rtc/dev.c 86 */;
+	struct timer_list *cocci_id/* drivers/rtc/dev.c 73 */;
+	void __exit cocci_id/* drivers/rtc/dev.c 505 */;
+	void cocci_id/* drivers/rtc/dev.c 505 */;
+	void __init cocci_id/* drivers/rtc/dev.c 496 */;
+	const struct file_operations cocci_id/* drivers/rtc/dev.c 459 */;
+	struct work_struct *cocci_id/* drivers/rtc/dev.c 45 */;
+	__u32 __user *cocci_id/* drivers/rtc/dev.c 415 */;
+	void __user *cocci_id/* drivers/rtc/dev.c 411 */;
+	unsigned long cocci_id/* drivers/rtc/dev.c 408 */;
+	unsigned int cocci_id/* drivers/rtc/dev.c 408 */;
+	struct file *cocci_id/* drivers/rtc/dev.c 407 */;
+	long cocci_id/* drivers/rtc/dev.c 407 */;
+	unsigned long __user *cocci_id/* drivers/rtc/dev.c 365 */;
+	time64_t cocci_id/* drivers/rtc/dev.c 292 */;
+	struct rtc_device cocci_id/* drivers/rtc/dev.c 26 */;
+	struct inode *cocci_id/* drivers/rtc/dev.c 23 */;
+	struct rtc_wkalrm cocci_id/* drivers/rtc/dev.c 210 */;
+	struct rtc_time cocci_id/* drivers/rtc/dev.c 209 */;
+	const struct rtc_class_ops *cocci_id/* drivers/rtc/dev.c 208 */;
+	__poll_t cocci_id/* drivers/rtc/dev.c 191 */;
+	poll_table *cocci_id/* drivers/rtc/dev.c 191 */;
+	dev_t cocci_id/* drivers/rtc/dev.c 19 */;
+	unsigned int __user *cocci_id/* drivers/rtc/dev.c 182 */;
+	loff_t *cocci_id/* drivers/rtc/dev.c 142 */;
+	char __user *cocci_id/* drivers/rtc/dev.c 142 */;
+	size_t cocci_id/* drivers/rtc/dev.c 142 */;
+	ssize_t cocci_id/* drivers/rtc/dev.c 141 */;
+}

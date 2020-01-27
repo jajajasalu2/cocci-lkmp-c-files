@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	uint8_t cocci_id/* drivers/input/serio/hp_sdc.c 997 */[5];
+	struct parisc_device *cocci_id/* drivers/input/serio/hp_sdc.c 934 */;
+	struct work_struct *cocci_id/* drivers/input/serio/hp_sdc.c 929 */;
+	void *cocci_id/* drivers/input/serio/hp_sdc.c 921 */;
+	struct semaphore cocci_id/* drivers/input/serio/hp_sdc.c 833 */;
+	uint8_t cocci_id/* drivers/input/serio/hp_sdc.c 832 */[6];
+	hp_sdc_transaction cocci_id/* drivers/input/serio/hp_sdc.c 831 */;
+	char *cocci_id/* drivers/input/serio/hp_sdc.c 830 */;
+	int __init cocci_id/* drivers/input/serio/hp_sdc.c 828 */;
+	struct parisc_driver cocci_id/* drivers/input/serio/hp_sdc.c 820 */;
+	struct delayed_work cocci_id/* drivers/input/serio/hp_sdc.c 818 */;
+	int __init cocci_id/* drivers/input/serio/hp_sdc.c 817 */(struct parisc_device *d);
+	const struct parisc_device_id cocci_id/* drivers/input/serio/hp_sdc.c 805 */[]__initconst;
+	struct timer_list *cocci_id/* drivers/input/serio/hp_sdc.c 794 */;
+	hp_sdc_irqhook *cocci_id/* drivers/input/serio/hp_sdc.c 771 */;
+	hp_sdc_transaction *cocci_id/* drivers/input/serio/hp_sdc.c 598 */;
+	int cocci_id/* drivers/input/serio/hp_sdc.c 598 */;
+	uint8_t cocci_id/* drivers/input/serio/hp_sdc.c 473 */[4];
+	ktime_t cocci_id/* drivers/input/serio/hp_sdc.c 309 */;
+	unsigned long cocci_id/* drivers/input/serio/hp_sdc.c 302 */(void);
+	irqreturn_t cocci_id/* drivers/input/serio/hp_sdc.c 219 */;
+	rwlock_t *cocci_id/* drivers/input/serio/hp_sdc.c 162 */;
+	unsigned long cocci_id/* drivers/input/serio/hp_sdc.c 147 */;
+	uint8_t cocci_id/* drivers/input/serio/hp_sdc.c 128 */;
+	void cocci_id/* drivers/input/serio/hp_sdc.c 128 */;
+	hp_i8042_sdc cocci_id/* drivers/input/serio/hp_sdc.c 111 */;
+	bool cocci_id/* drivers/input/serio/hp_sdc.c 107 */;
+	const char *cocci_id/* drivers/input/serio/hp_sdc.c 1060 */;
+	unsigned char *cocci_id/* drivers/input/serio/hp_sdc.c 1024 */;
+	unsigned char cocci_id/* drivers/input/serio/hp_sdc.c 1000 */;
+}

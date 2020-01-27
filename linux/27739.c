@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	struct gfs2_trans cocci_id/* fs/gfs2/glops.c 85 */;
+	const struct gfs2_glock_operations *cocci_id/* fs/gfs2/glops.c 640 */[];
+	const struct gfs2_glock_operations cocci_id/* fs/gfs2/glops.c 622 */;
+	const unsigned long cocci_id/* fs/gfs2/glops.c 60 */;
+	struct buffer_head *cocci_id/* fs/gfs2/glops.c 59 */;
+	struct gfs2_bufdata *cocci_id/* fs/gfs2/glops.c 58 */;
+	struct list_head *cocci_id/* fs/gfs2/glops.c 57 */;
+	struct gfs2_sbd *cocci_id/* fs/gfs2/glops.c 56 */;
+	const struct gfs2_glock *cocci_id/* fs/gfs2/glops.c 558 */;
+	int cocci_id/* fs/gfs2/glops.c 558 */;
+	unsigned int cocci_id/* fs/gfs2/glops.c 54 */;
+	struct gfs2_log_header_host cocci_id/* fs/gfs2/glops.c 530 */;
+	bool cocci_id/* fs/gfs2/glops.c 53 */;
+	struct gfs2_glock *cocci_id/* fs/gfs2/glops.c 53 */;
+	void cocci_id/* fs/gfs2/glops.c 53 */;
+	struct gfs2_inode *cocci_id/* fs/gfs2/glops.c 528 */;
+	struct gfs2_holder *cocci_id/* fs/gfs2/glops.c 525 */;
+	unsigned long cocci_id/* fs/gfs2/glops.c 473 */;
+	struct inode *cocci_id/* fs/gfs2/glops.c 472 */;
+	const char *cocci_id/* fs/gfs2/glops.c 469 */;
+	struct seq_file *cocci_id/* fs/gfs2/glops.c 468 */;
+	u8 cocci_id/* fs/gfs2/glops.c 379 */;
+	unsigned long long cocci_id/* fs/gfs2/glops.c 37 */;
+	u16 cocci_id/* fs/gfs2/glops.c 340 */;
+	struct timespec64 cocci_id/* fs/gfs2/glops.c 339 */;
+	const struct gfs2_dinode *cocci_id/* fs/gfs2/glops.c 338 */;
+	const void *cocci_id/* fs/gfs2/glops.c 336 */;
+	const struct buffer_head *cocci_id/* fs/gfs2/glops.c 32 */;
+	struct workqueue_struct *cocci_id/* fs/gfs2/glops.c 30 */;
+	struct address_space *cocci_id/* fs/gfs2/glops.c 297 */;
+	struct gfs2_rgrpd *cocci_id/* fs/gfs2/glops.c 213 */;
+	struct gfs2_meta_header cocci_id/* fs/gfs2/glops.c 123 */;
+	struct gfs2_log_descriptor cocci_id/* fs/gfs2/glops.c 116 */;
+}

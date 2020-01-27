@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	const struct md5_state *cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 87 */;
+	const void *cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 84 */;
+	struct md5_state *cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 64 */;
+	void *cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 61 */;
+	__le64 *cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 443 */;
+	__be64 *cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 439 */;
+	u32 *cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 411 */;
+	struct crypto_tfm *cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 38 */;
+	void cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 38 */;
+	struct sun4i_req_ctx cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 34 */;
+	struct sun4i_ss_alg_template cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 26 */;
+	struct sun4i_tfm_ctx cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 24 */;
+	struct sun4i_ss_alg_template *cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 21 */;
+	struct ahash_alg *cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 20 */;
+	__le32 cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 199 */;
+	size_t cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 198 */;
+	struct sg_mapping_iter cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 196 */;
+	struct scatterlist *cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 195 */;
+	struct sun4i_ss_ctx *cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 194 */;
+	struct sun4i_tfm_ctx *cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 193 */;
+	struct crypto_ahash *cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 192 */;
+	struct sun4i_req_ctx *cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 191 */;
+	u32 cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 190 */;
+	unsigned int cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 188 */;
+	struct ahash_request *cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 176 */;
+	int cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 176 */;
+	const struct sha1_state *cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 130 */;
+	struct sha1_state *cocci_id/* drivers/crypto/allwinner/sun4i-ss/sun4i-ss-hash.c 106 */;
+}

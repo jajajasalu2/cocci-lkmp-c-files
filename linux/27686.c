@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct address_space *cocci_id/* fs/ext2/dir.c 92 */;
+	const struct file_operations cocci_id/* fs/ext2/dir.c 695 */;
+	void cocci_id/* fs/ext2/dir.c 69 */;
+	void *cocci_id/* fs/ext2/dir.c 609 */;
+	struct ext2_dir_entry_2 *cocci_id/* fs/ext2/dir.c 560 */;
+	loff_t cocci_id/* fs/ext2/dir.c 474 */;
+	char *cocci_id/* fs/ext2/dir.c 473 */;
+	unsigned long cocci_id/* fs/ext2/dir.c 471 */;
+	ext2_dirent *cocci_id/* fs/ext2/dir.c 470 */;
+	struct page *cocci_id/* fs/ext2/dir.c 469 */;
+	unsigned short cocci_id/* fs/ext2/dir.c 468 */;
+	unsigned cocci_id/* fs/ext2/dir.c 466 */;
+	const char *cocci_id/* fs/ext2/dir.c 464 */;
+	struct inode *cocci_id/* fs/ext2/dir.c 461 */;
+	struct dentry *cocci_id/* fs/ext2/dir.c 461 */;
+	int cocci_id/* fs/ext2/dir.c 461 */;
+	ino_t cocci_id/* fs/ext2/dir.c 417 */;
+	struct page **cocci_id/* fs/ext2/dir.c 405 */;
+	unsigned long long cocci_id/* fs/ext2/dir.c 392 */;
+	__le16 cocci_id/* fs/ext2/dir.c 38 */;
+	struct ext2_inode_info *cocci_id/* fs/ext2/dir.c 349 */;
+	const struct qstr *cocci_id/* fs/ext2/dir.c 341 */;
+	unsigned char cocci_id/* fs/ext2/dir.c 313 */;
+	struct ext2_dir_entry_2 cocci_id/* fs/ext2/dir.c 31 */;
+	unsigned int cocci_id/* fs/ext2/dir.c 269 */;
+	struct file *cocci_id/* fs/ext2/dir.c 264 */;
+	struct dir_context *cocci_id/* fs/ext2/dir.c 264 */;
+	const char *const cocci_id/* fs/ext2/dir.c 223 */;
+	u32 cocci_id/* fs/ext2/dir.c 121 */;
+	struct super_block *cocci_id/* fs/ext2/dir.c 118 */;
+	bool cocci_id/* fs/ext2/dir.c 115 */;
+}

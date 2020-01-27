@@ -1,0 +1,62 @@
+cocci_test_suite() {
+	struct pdc_chassis_lcd_info_ret_block {
+		unsigned long model:16;
+		unsigned long lcd_width:16;
+		unsigned long lcd_cmd_reg_addr;
+		unsigned long lcd_data_reg_addr;
+		unsigned int min_cmd_delay;
+		unsigned char reset_cmd1;
+		unsigned char reset_cmd2;
+		unsigned char act_enable;
+		struct lcd_block heartbeat;
+		struct lcd_block disk_io;
+		struct lcd_block lan_rcv;
+		struct lcd_block lan_tx;
+		char _pad;
+	} cocci_id/* drivers/parisc/led.c 85 */;
+	void __exit cocci_id/* drivers/parisc/led.c 770 */;
+	struct lcd_block {
+		unsigned char command;
+		unsigned char on;
+		unsigned char off;
+	} cocci_id/* drivers/parisc/led.c 76 */;
+	struct pdc_chassis_info cocci_id/* drivers/parisc/led.c 687 */;
+	void cocci_id/* drivers/parisc/led.c 67 */(struct work_struct *);
+	struct workqueue_struct *cocci_id/* drivers/parisc/led.c 66 */;
+	const char *cocci_id/* drivers/parisc/led.c 638 */;
+	int cocci_id/* drivers/parisc/led.c 63 */;
+	void __init cocci_id/* drivers/parisc/led.c 614 */;
+	char cocci_id/* drivers/parisc/led.c 61 */[32]__read_mostly;
+	unsigned char cocci_id/* drivers/parisc/led.c 57 */;
+	char *cocci_id/* drivers/parisc/led.c 507 */;
+	struct notifier_block *cocci_id/* drivers/parisc/led.c 505 */;
+	struct notifier_block cocci_id/* drivers/parisc/led.c 500 */;
+	int cocci_id/* drivers/parisc/led.c 498 */(struct notifier_block *,
+						   unsigned long, void *);
+	struct work_struct *cocci_id/* drivers/parisc/led.c 436 */;
+	unsigned long cocci_id/* drivers/parisc/led.c 403 */[NR_VM_EVENT_ITEMS];
+	unsigned long cocci_id/* drivers/parisc/led.c 402 */;
+	struct in_device *cocci_id/* drivers/parisc/led.c 365 */;
+	struct rtnl_link_stats64 cocci_id/* drivers/parisc/led.c 364 */;
+	const struct rtnl_link_stats64 *cocci_id/* drivers/parisc/led.c 363 */;
+	struct net_device *cocci_id/* drivers/parisc/led.c 355 */;
+	u64 cocci_id/* drivers/parisc/led.c 353 */;
+	unsigned int cocci_id/* drivers/parisc/led.c 323 */;
+	struct lcd_block *cocci_id/* drivers/parisc/led.c 315 */[4];
+	unsigned char cocci_id/* drivers/parisc/led.c 312 */[4];
+	void cocci_id/* drivers/parisc/led.c 277 */;
+	void *cocci_id/* drivers/parisc/led.c 255 */;
+	struct proc_dir_entry *cocci_id/* drivers/parisc/led.c 244 */;
+	int __init cocci_id/* drivers/parisc/led.c 242 */;
+	const struct file_operations cocci_id/* drivers/parisc/led.c 233 */;
+	loff_t *cocci_id/* drivers/parisc/led.c 176 */;
+	size_t cocci_id/* drivers/parisc/led.c 176 */;
+	const char __user *cocci_id/* drivers/parisc/led.c 175 */;
+	ssize_t cocci_id/* drivers/parisc/led.c 175 */;
+	struct inode *cocci_id/* drivers/parisc/led.c 169 */;
+	struct file *cocci_id/* drivers/parisc/led.c 169 */;
+	long cocci_id/* drivers/parisc/led.c 153 */;
+	struct seq_file *cocci_id/* drivers/parisc/led.c 151 */;
+	void (*cocci_id/* drivers/parisc/led.c 148 */)(unsigned char)__read_mostly;
+	struct pdc_chassis_lcd_info_ret_block cocci_id/* drivers/parisc/led.c 108 */;
+}

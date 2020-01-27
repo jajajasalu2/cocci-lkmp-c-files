@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	struct kobject *cocci_id/* mm/swap_state.c 824 */;
+	int __init cocci_id/* mm/swap_state.c 821 */;
+	struct attribute_group cocci_id/* mm/swap_state.c 817 */;
+	struct attribute *cocci_id/* mm/swap_state.c 812 */[];
+	struct kobj_attribute cocci_id/* mm/swap_state.c 808 */;
+	const char *cocci_id/* mm/swap_state.c 797 */;
+	size_t cocci_id/* mm/swap_state.c 797 */;
+	struct kobj_attribute *cocci_id/* mm/swap_state.c 791 */;
+	char *cocci_id/* mm/swap_state.c 791 */;
+	ssize_t cocci_id/* mm/swap_state.c 790 */;
+	struct vma_swap_readahead cocci_id/* mm/swap_state.c 732 */;
+	pte_t *cocci_id/* mm/swap_state.c 648 */;
+	struct vma_swap_readahead *cocci_id/* mm/swap_state.c 641 */;
+	struct {
+		unsigned long add_total;
+		unsigned long del_total;
+		unsigned long find_success;
+		unsigned long find_total;
+	} cocci_id/* mm/swap_state.c 64 */;
+	unsigned long *cocci_id/* mm/swap_state.c 631 */;
+	struct address_space cocci_id/* mm/swap_state.c 603 */;
+	struct inode *cocci_id/* mm/swap_state.c 559 */;
+	struct blk_plug cocci_id/* mm/swap_state.c 548 */;
+	struct vm_fault *cocci_id/* mm/swap_state.c 540 */;
+	atomic_t cocci_id/* mm/swap_state.c 505 */;
+	unsigned int cocci_id/* mm/swap_state.c 461 */;
+	bool cocci_id/* mm/swap_state.c 41 */;
+	unsigned int cocci_id/* mm/swap_state.c 40 */[MAX_SWAPFILES]__read_mostly;
+	struct address_space *cocci_id/* mm/swap_state.c 39 */[MAX_SWAPFILES]__read_mostly;
+	struct swap_info_struct *cocci_id/* mm/swap_state.c 364 */;
+	bool *cocci_id/* mm/swap_state.c 361 */;
+	struct vm_area_struct *cocci_id/* mm/swap_state.c 360 */;
+	unsigned long cocci_id/* mm/swap_state.c 360 */;
+	gfp_t cocci_id/* mm/swap_state.c 359 */;
+	const struct address_space_operations cocci_id/* mm/swap_state.c 31 */;
+	struct page **cocci_id/* mm/swap_state.c 288 */;
+	void *cocci_id/* mm/swap_state.c 170 */;
+	pgoff_t cocci_id/* mm/swap_state.c 162 */;
+	int cocci_id/* mm/swap_state.c 161 */;
+	struct address_space *cocci_id/* mm/swap_state.c 160 */;
+	swp_entry_t cocci_id/* mm/swap_state.c 158 */;
+	struct page *cocci_id/* mm/swap_state.c 158 */;
+	void cocci_id/* mm/swap_state.c 158 */;
+}

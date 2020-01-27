@@ -1,0 +1,82 @@
+cocci_test_suite() {
+	const struct ide_port_info cocci_id/* drivers/ide/pmac.c 998 */;
+	const struct ide_dma_ops cocci_id/* drivers/ide/pmac.c 996 */;
+	const struct ide_port_ops cocci_id/* drivers/ide/pmac.c 983 */;
+	const struct ide_tp_ops cocci_id/* drivers/ide/pmac.c 969 */;
+	const char *cocci_id/* drivers/ide/pmac.c 914 */;
+	struct device_node *cocci_id/* drivers/ide/pmac.c 913 */;
+	pmac_ide_hwif_t *cocci_id/* drivers/ide/pmac.c 846 */;
+	const char *cocci_id/* drivers/ide/pmac.c 82 */[];
+	const u8 cocci_id/* drivers/ide/pmac.c 779 */;
+	u32 *cocci_id/* drivers/ide/pmac.c 777 */;
+	enum{controller_ohare, controller_heathrow, controller_kl_ata3, controller_kl_ata4, controller_un_ata6, controller_k2_ata6, controller_sh_ata6,} cocci_id/* drivers/ide/pmac.c 72 */;
+	struct mdma_timings_t *cocci_id/* drivers/ide/pmac.c 645 */;
+	u16 *cocci_id/* drivers/ide/pmac.c 642 */;
+	struct pmac_ide_hwif {
+		unsigned long regbase;
+		int irq;
+		int kind;
+		int aapl_bus_id;
+		unsigned broken_dma:1;
+		unsigned broken_dma_warn:1;
+		struct device_node *node;
+		struct macio_dev *mdev;
+		u32 timings[4];
+		volatile u32 __iomem **kauai_fcr;
+		ide_hwif_t *hwif;
+		volatile struct dbdma_regs __iomem *dma_regs;
+		struct dbdma_cmd *dma_table_cpu;
+	} cocci_id/* drivers/ide/pmac.c 50 */;
+	unsigned cocci_id/* drivers/ide/pmac.c 498 */;
+	struct ide_timing *cocci_id/* drivers/ide/pmac.c 496 */;
+	u8 cocci_id/* drivers/ide/pmac.c 475 */;
+	ide_hwif_t *cocci_id/* drivers/ide/pmac.c 475 */;
+	void __iomem *cocci_id/* drivers/ide/pmac.c 464 */;
+	ide_drive_t *cocci_id/* drivers/ide/pmac.c 459 */;
+	void cocci_id/* drivers/ide/pmac.c 459 */;
+	int cocci_id/* drivers/ide/pmac.c 400 */(ide_hwif_t *,
+						 const struct ide_port_info *);
+	struct kauai_timing *cocci_id/* drivers/ide/pmac.c 372 */;
+	int cocci_id/* drivers/ide/pmac.c 372 */;
+	u32 cocci_id/* drivers/ide/pmac.c 371 */;
+	struct kauai_timing cocci_id/* drivers/ide/pmac.c 303 */[];
+	struct kauai_timing {
+		int cycle_time;
+		u32 timing_reg;
+	} cocci_id/* drivers/ide/pmac.c 282 */;
+	struct {
+		int addrSetup;
+		int rdy2pause;
+		int wrDataSetup;
+	} cocci_id/* drivers/ide/pmac.c 268 */[];
+	struct mdma_timings_t cocci_id/* drivers/ide/pmac.c 228 */[];
+	struct mdma_timings_t {
+		int accessTime;
+		int recoveryTime;
+		int cycleTime;
+	} cocci_id/* drivers/ide/pmac.c 222 */;
+	struct pci_dev *cocci_id/* drivers/ide/pmac.c 1676 */;
+	const struct ide_port_info *cocci_id/* drivers/ide/pmac.c 1673 */;
+	unsigned long cocci_id/* drivers/ide/pmac.c 1655 */;
+	struct dbdma_cmd cocci_id/* drivers/ide/pmac.c 1514 */;
+	unsigned int cocci_id/* drivers/ide/pmac.c 1489 */;
+	struct scatterlist *cocci_id/* drivers/ide/pmac.c 1459 */;
+	volatile struct dbdma_regs __iomem *cocci_id/* drivers/ide/pmac.c 1458 */;
+	struct dbdma_cmd *cocci_id/* drivers/ide/pmac.c 1457 */;
+	struct ide_cmd *cocci_id/* drivers/ide/pmac.c 1453 */;
+	int __init cocci_id/* drivers/ide/pmac.c 1419 */;
+	struct pci_driver cocci_id/* drivers/ide/pmac.c 1410 */;
+	const struct pci_device_id cocci_id/* drivers/ide/pmac.c 1401 */[];
+	struct macio_driver cocci_id/* drivers/ide/pmac.c 1386 */;
+	struct of_device_id cocci_id/* drivers/ide/pmac.c 1369 */[];
+	const struct pci_device_id *cocci_id/* drivers/ide/pmac.c 1252 */;
+	pm_message_t cocci_id/* drivers/ide/pmac.c 1218 */;
+	struct ide_hw cocci_id/* drivers/ide/pmac.c 1137 */;
+	const struct of_device_id *cocci_id/* drivers/ide/pmac.c 1131 */;
+	struct macio_dev *cocci_id/* drivers/ide/pmac.c 1130 */;
+	struct ide_hw *cocci_id/* drivers/ide/pmac.c 1117 */;
+	struct ide_port_info cocci_id/* drivers/ide/pmac.c 1024 */;
+	struct ide_hw *cocci_id/* drivers/ide/pmac.c 1023 */[];
+	struct ide_host *cocci_id/* drivers/ide/pmac.c 1021 */;
+	const int *cocci_id/* drivers/ide/pmac.c 1020 */;
+}

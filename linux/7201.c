@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	struct notifier_block *cocci_id/* drivers/extcon/extcon.c 900 */;
+	union extcon_property_value cocci_id/* drivers/extcon/extcon.c 623 */;
+	union extcon_property_value *cocci_id/* drivers/extcon/extcon.c 617 */;
+	unsigned int cocci_id/* drivers/extcon/extcon.c 615 */;
+	bool cocci_id/* drivers/extcon/extcon.c 522 */;
+	const unsigned int cocci_id/* drivers/extcon/extcon.c 489 */;
+	char *cocci_id/* drivers/extcon/extcon.c 413 */[3];
+	char cocci_id/* drivers/extcon/extcon.c 410 */[120];
+	int cocci_id/* drivers/extcon/extcon.c 381 */;
+	struct extcon_cable cocci_id/* drivers/extcon/extcon.c 379 */;
+	struct extcon_cable *cocci_id/* drivers/extcon/extcon.c 379 */;
+	struct device_attribute *cocci_id/* drivers/extcon/extcon.c 377 */;
+	char *cocci_id/* drivers/extcon/extcon.c 377 */;
+	struct device *cocci_id/* drivers/extcon/extcon.c 376 */;
+	ssize_t cocci_id/* drivers/extcon/extcon.c 376 */;
+	const struct __extcon_info {
+		unsigned int type;
+		unsigned int id;
+		const char *name;
+	} cocci_id/* drivers/extcon/extcon.c 31 */[];
+	u32 cocci_id/* drivers/extcon/extcon.c 226 */;
+	struct extcon_dev *cocci_id/* drivers/extcon/extcon.c 226 */;
+	struct class *cocci_id/* drivers/extcon/extcon.c 221 */;
+	struct extcon_cable {
+		struct extcon_dev *edev;
+		int cable_index;
+		struct attribute_group attr_g;
+		struct device_attribute attr_name;
+		struct device_attribute attr_state;
+		struct attribute *attrs[3];
+		union extcon_property_value usb_propval[EXTCON_PROP_USB_CNT];
+		union extcon_property_value chg_propval[EXTCON_PROP_CHG_CNT];
+		union extcon_property_value jack_propval[EXTCON_PROP_JACK_CNT];
+		union extcon_property_value disp_propval[EXTCON_PROP_DISP_CNT];
+		unsigned long usb_bits[BITS_TO_LONGS(EXTCON_PROP_USB_CNT)];
+		unsigned long chg_bits[BITS_TO_LONGS(EXTCON_PROP_CHG_CNT)];
+		unsigned long jack_bits[BITS_TO_LONGS(EXTCON_PROP_JACK_CNT)];
+		unsigned long disp_bits[BITS_TO_LONGS(EXTCON_PROP_DISP_CNT)];
+	} cocci_id/* drivers/extcon/extcon.c 200 */;
+	void __exit cocci_id/* drivers/extcon/extcon.c 1416 */;
+	int __init cocci_id/* drivers/extcon/extcon.c 1410 */;
+	const char *cocci_id/* drivers/extcon/extcon.c 1405 */;
+	struct device_node *cocci_id/* drivers/extcon/extcon.c 1336 */;
+	struct attribute_group *cocci_id/* drivers/extcon/extcon.c 1213 */;
+	struct device_attribute cocci_id/* drivers/extcon/extcon.c 1178 */;
+	struct attribute *cocci_id/* drivers/extcon/extcon.c 1170 */;
+	unsigned long cocci_id/* drivers/extcon/extcon.c 1115 */;
+	atomic_t cocci_id/* drivers/extcon/extcon.c 1085 */;
+	const unsigned int *cocci_id/* drivers/extcon/extcon.c 1041 */;
+	void cocci_id/* drivers/extcon/extcon.c 1009 */;
+	struct attribute *cocci_id/* drivers/extcon/extcon.c 1002 */[];
+}

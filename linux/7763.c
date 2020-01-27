@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	struct vt8500_port {
+		struct uart_port uart;
+		char name[16];
+		struct clk *clk;
+		unsigned int clk_predivisor;
+		unsigned int ier;
+		unsigned int vt8500_uart_flags;
+	} cocci_id/* drivers/tty/serial/vt8500_serial.c 99 */;
+	struct platform_driver cocci_id/* drivers/tty/serial/vt8500_serial.c 724 */;
+	const unsigned int *cocci_id/* drivers/tty/serial/vt8500_serial.c 633 */;
+	const struct of_device_id *cocci_id/* drivers/tty/serial/vt8500_serial.c 632 */;
+	struct device_node *cocci_id/* drivers/tty/serial/vt8500_serial.c 631 */;
+	struct resource *cocci_id/* drivers/tty/serial/vt8500_serial.c 630 */;
+	struct platform_device *cocci_id/* drivers/tty/serial/vt8500_serial.c 627 */;
+	const struct of_device_id cocci_id/* drivers/tty/serial/vt8500_serial.c 621 */[];
+	const struct uart_ops cocci_id/* drivers/tty/serial/vt8500_serial.c 587 */;
+	unsigned char cocci_id/* drivers/tty/serial/vt8500_serial.c 571 */;
+	struct console cocci_id/* drivers/tty/serial/vt8500_serial.c 544 */;
+	struct vt8500_port *cocci_id/* drivers/tty/serial/vt8500_serial.c 523 */;
+	struct console *cocci_id/* drivers/tty/serial/vt8500_serial.c 521 */;
+	char *cocci_id/* drivers/tty/serial/vt8500_serial.c 521 */;
+	int __init cocci_id/* drivers/tty/serial/vt8500_serial.c 521 */;
+	unsigned long cocci_id/* drivers/tty/serial/vt8500_serial.c 503 */;
+	const char *cocci_id/* drivers/tty/serial/vt8500_serial.c 499 */;
+	struct uart_driver cocci_id/* drivers/tty/serial/vt8500_serial.c 475 */;
+	struct vt8500_port *cocci_id/* drivers/tty/serial/vt8500_serial.c 474 */[VT8500_MAX_PORTS];
+	struct serial_struct *cocci_id/* drivers/tty/serial/vt8500_serial.c 465 */;
+	struct ktermios *cocci_id/* drivers/tty/serial/vt8500_serial.c 363 */;
+	int cocci_id/* drivers/tty/serial/vt8500_serial.c 298 */;
+	irqreturn_t cocci_id/* drivers/tty/serial/vt8500_serial.c 246 */;
+	void *cocci_id/* drivers/tty/serial/vt8500_serial.c 246 */;
+	struct uart_port *cocci_id/* drivers/tty/serial/vt8500_serial.c 240 */;
+	void cocci_id/* drivers/tty/serial/vt8500_serial.c 240 */;
+	struct circ_buf *cocci_id/* drivers/tty/serial/vt8500_serial.c 198 */;
+	char cocci_id/* drivers/tty/serial/vt8500_serial.c 171 */;
+	unsigned int cocci_id/* drivers/tty/serial/vt8500_serial.c 170 */;
+	struct tty_port *cocci_id/* drivers/tty/serial/vt8500_serial.c 158 */;
+	struct vt8500_port cocci_id/* drivers/tty/serial/vt8500_serial.c 149 */;
+}

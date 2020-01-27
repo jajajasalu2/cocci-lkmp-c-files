@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct nouveau_hwmon *cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 765 */;
+	void cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 761 */;
+	const struct attribute_group *cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 721 */[N_ATTR_GROUPS];
+	struct nvkm_volt *cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 720 */;
+	struct nvkm_iccsense *cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 718 */;
+	const struct hwmon_chip_info cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 707 */;
+	const struct hwmon_ops cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 700 */;
+	const char **cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 654 */;
+	const char cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 650 */[];
+	enum hwmon_sensor_types cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 629 */;
+	struct device *cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 403 */;
+	long *cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 403 */;
+	struct nvkm_therm *cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 389 */;
+	struct nouveau_drm *cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 388 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 388 */;
+	u32 cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 287 */;
+	const void *cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 287 */;
+	int cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 287 */;
+	umode_t cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 286 */;
+	const struct hwmon_channel_info *cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 276 */[];
+	const struct hwmon_channel_info cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 246 */;
+	const u32 cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 214 */[];
+	const struct attribute_group cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 198 */;
+	struct attribute *cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 193 */[];
+	long cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 177 */;
+	const char *cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 172 */;
+	size_t cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 172 */;
+	struct device_attribute *cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 117 */;
+	char *cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 117 */;
+	ssize_t cocci_id/* drivers/gpu/drm/nouveau/nouveau_hwmon.c 115 */;
+}

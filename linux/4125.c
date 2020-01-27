@@ -1,0 +1,87 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 940 */;
+	struct pipe3_data *cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 789 */;
+	const struct of_device_id *cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 788 */;
+	struct phy_provider *cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 785 */;
+	struct platform_device *cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 770 */;
+	struct resource *cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 768 */;
+	struct device_node *cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 673 */;
+	struct device *cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 606 */;
+	struct clk *cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 605 */;
+	const struct of_device_id cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 601 */[];
+	const struct phy_ops cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 593 */;
+	struct phy *cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 546 */;
+	struct pipe3_settings *cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 446 */;
+	u32 cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 445 */;
+	struct ti_pipe3 *cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 443 */;
+	void cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 443 */;
+	struct pipe3_dpll_params *cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 407 */;
+	int cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 404 */;
+	unsigned long cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 390 */;
+	bool cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 343 */;
+	void cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 334 */(struct ti_pipe3 *phy);
+	int cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 316 */(struct ti_pipe3 *phy);
+	struct pipe3_dpll_map *cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 302 */;
+	void __iomem *cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 288 */;
+	unsigned cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 288 */;
+	struct pipe3_data cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 263 */;
+	struct pipe3_data {
+		enum pipe3_mode mode;
+		struct pipe3_dpll_map *dpll_map;
+		struct pipe3_settings settings;
+	} cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 205 */;
+	struct pipe3_dpll_map cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 195 */[];
+	struct ti_pipe3 {
+		void __iomem *pll_ctrl_base;
+		void __iomem *phy_rx;
+		void __iomem *phy_tx;
+		struct device *dev;
+		struct device *control_dev;
+		struct clk *wkupclk;
+		struct clk *sys_clk;
+		struct clk *refclk;
+		struct clk *div_clk;
+		struct pipe3_dpll_map *dpll_map;
+		struct regmap *phy_power_syscon;
+		struct regmap *pcs_syscon;
+		struct regmap *dpll_reset_syscon;
+		unsigned int dpll_reset_reg;
+		unsigned int power_reg;
+		unsigned int pcie_pcs_reg;
+		bool sata_refclk_enabled;
+		enum pipe3_mode mode;
+		struct pipe3_settings settings;
+	} cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 163 */;
+	struct pipe3_settings {
+		u8 ana_interface;
+		u8 ana_losd;
+		u8 dig_fastlock;
+		u8 dig_lbw;
+		u8 dig_stepcnt;
+		u8 dig_stl;
+		u8 dig_thr;
+		u8 dig_thr_mode;
+		u8 dig_2ndo_sdm_mode;
+		u8 dig_hs_rate;
+		u8 dig_ovrd_hs_rate;
+		u8 dll_trim_sel;
+		u8 dll_phint_rate;
+		u8 eq_lev;
+		u8 eq_ftc;
+		u8 eq_ctl;
+		u8 eq_ovrd_lev;
+		u8 eq_ovrd_ftc;
+	} cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 142 */;
+	struct pipe3_dpll_map {
+		unsigned long rate;
+		struct pipe3_dpll_params params;
+	} cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 137 */;
+	struct pipe3_dpll_params {
+		u16 m;
+		u8 n;
+		u8 freq:3;
+		u8 sd;
+		u32 mf;
+	} cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 129 */;
+	enum pipe3_mode{PIPE3_MODE_PCIE=1, PIPE3_MODE_SATA, PIPE3_MODE_USBSS,} cocci_id/* drivers/phy/ti/phy-ti-pipe3.c 125 */;
+}

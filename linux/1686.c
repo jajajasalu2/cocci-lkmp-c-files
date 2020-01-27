@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	u16 *cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 73 */;
+	s64 cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 579 */;
+	unsigned int *cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 574 */;
+	int *cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 573 */;
+	struct ms_tp_dev *cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 572 */;
+	s32 cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 482 */;
+	u16 cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 463 */;
+	struct ms_ht_dev *cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 458 */;
+	s32 *cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 418 */;
+	const char *cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 371 */;
+	size_t cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 371 */;
+	char *cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 316 */;
+	ssize_t cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 315 */;
+	__u8 *cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 198 */;
+	struct i2c_msg cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 193 */[2];
+	__be16 cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 190 */;
+	u64 cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 189 */;
+	__be64 cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 188 */;
+	u64 *cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 185 */;
+	const u16 cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 18 */[];
+	u32 cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 146 */;
+	bool cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 146 */;
+	u8 *cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 119 */;
+	struct i2c_client *cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 109 */;
+	__be32 cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 108 */;
+	u32 *cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 105 */;
+	unsigned int cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 105 */;
+	u8 cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 104 */;
+	void *cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 104 */;
+	int cocci_id/* drivers/iio/common/ms_sensors/ms_sensors_i2c.c 104 */;
+}

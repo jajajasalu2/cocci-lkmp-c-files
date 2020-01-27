@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	const struct pci_device_id *cocci_id/* drivers/i2c/busses/i2c-ismt.c 843 */;
+	struct pci_dev *cocci_id/* drivers/i2c/busses/i2c-ismt.c 843 */;
+	struct pci_driver cocci_id/* drivers/i2c/busses/i2c-ismt.c 835 */;
+	u32 cocci_id/* drivers/i2c/busses/i2c-ismt.c 660 */;
+	irqreturn_t cocci_id/* drivers/i2c/busses/i2c-ismt.c 658 */;
+	void *cocci_id/* drivers/i2c/busses/i2c-ismt.c 658 */;
+	const struct i2c_algorithm cocci_id/* drivers/i2c/busses/i2c-ismt.c 636 */;
+	struct ismt_desc cocci_id/* drivers/i2c/busses/i2c-ismt.c 408 */;
+	u8 *cocci_id/* drivers/i2c/busses/i2c-ismt.c 400 */;
+	struct ismt_priv *cocci_id/* drivers/i2c/busses/i2c-ismt.c 398 */;
+	struct ismt_desc *cocci_id/* drivers/i2c/busses/i2c-ismt.c 397 */;
+	enum dma_data_direction cocci_id/* drivers/i2c/busses/i2c-ismt.c 396 */;
+	dma_addr_t cocci_id/* drivers/i2c/busses/i2c-ismt.c 394 */;
+	unsigned long cocci_id/* drivers/i2c/busses/i2c-ismt.c 393 */;
+	union i2c_smbus_data *cocci_id/* drivers/i2c/busses/i2c-ismt.c 390 */;
+	u8 cocci_id/* drivers/i2c/busses/i2c-ismt.c 389 */;
+	unsigned short cocci_id/* drivers/i2c/busses/i2c-ismt.c 389 */;
+	char cocci_id/* drivers/i2c/busses/i2c-ismt.c 389 */;
+	u16 cocci_id/* drivers/i2c/busses/i2c-ismt.c 388 */;
+	struct i2c_adapter *cocci_id/* drivers/i2c/busses/i2c-ismt.c 388 */;
+	int cocci_id/* drivers/i2c/busses/i2c-ismt.c 388 */;
+	uint cocci_id/* drivers/i2c/busses/i2c-ismt.c 293 */;
+	long long unsigned int cocci_id/* drivers/i2c/busses/i2c-ismt.c 243 */;
+	const struct ismt_desc *cocci_id/* drivers/i2c/busses/i2c-ismt.c 201 */;
+	struct device *cocci_id/* drivers/i2c/busses/i2c-ismt.c 201 */;
+	void cocci_id/* drivers/i2c/busses/i2c-ismt.c 201 */;
+	unsigned int cocci_id/* drivers/i2c/busses/i2c-ismt.c 194 */;
+	const struct pci_device_id cocci_id/* drivers/i2c/busses/i2c-ismt.c 182 */[];
+	struct ismt_priv {
+		struct i2c_adapter adapter;
+		void __iomem *smba;
+		struct pci_dev *pci_dev;
+		struct ismt_desc *hw;
+		dma_addr_t io_rng_dma;
+		u8 head;
+		struct completion cmp;
+		u8 buffer[I2C_SMBUS_BLOCK_MAX + 16];
+	} cocci_id/* drivers/i2c/busses/i2c-ismt.c 168 */;
+	struct ismt_desc {
+		u8 tgtaddr_rw;
+		u8 wr_len_cmd;
+		u8 rd_len;
+		u8 control;
+		u8 status;
+		u8 retry;
+		u8 rxbytes;
+		u8 txbytes;
+		u32 dptr_low;
+		u32 dptr_high;
+	}__packed cocci_id/* drivers/i2c/busses/i2c-ismt.c 155 */;
+}

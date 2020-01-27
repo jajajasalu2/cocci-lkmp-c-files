@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	const struct i915_subtest cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 609 */[];
+	u32 *cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 482 */;
+	struct intel_engine_cs *cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 481 */;
+	u64 cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 474 */;
+	u32 cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 471 */[];
+	typeof(*engine) cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 458 */;
+	struct rnd_state *cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 449 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 407 */;
+	void *cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 381 */;
+	int *cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 317 */;
+	struct i915_vma *cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 316 */;
+	unsigned int cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 315 */;
+	struct intel_context *cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 312 */;
+	struct i915_address_space *cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 311 */;
+	struct i915_gem_engines_iter cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 310 */;
+	struct i915_gem_engines *cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 309 */;
+	struct i915_gem_context *cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 306 */;
+	struct drm_i915_gem_object *cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 29 */;
+	u32 __iomem *cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 287 */;
+	struct drm_i915_private *cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 28 */;
+	unsigned long cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 273 */;
+	u32 cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 271 */;
+	int cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 271 */;
+	struct list_head *cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 26 */;
+	struct intel_memory_region *cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 25 */;
+	void cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 25 */;
+	bool cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 242 */;
+	resource_size_t cocci_id/* drivers/gpu/drm/i915/selftests/intel_memory_region.c 138 */;
+}

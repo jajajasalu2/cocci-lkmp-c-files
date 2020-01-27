@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	u64 cocci_id/* drivers/thermal/qcom/tsens-common.c 95 */;
+	u32 *cocci_id/* drivers/thermal/qcom/tsens-common.c 63 */;
+	struct tsens_priv *cocci_id/* drivers/thermal/qcom/tsens-common.c 63 */;
+	void cocci_id/* drivers/thermal/qcom/tsens-common.c 63 */;
+	struct resource *cocci_id/* drivers/thermal/qcom/tsens-common.c 593 */;
+	struct device *cocci_id/* drivers/thermal/qcom/tsens-common.c 592 */;
+	void __iomem *cocci_id/* drivers/thermal/qcom/tsens-common.c 591 */;
+	int __init cocci_id/* drivers/thermal/qcom/tsens-common.c 589 */;
+	const struct regmap_config cocci_id/* drivers/thermal/qcom/tsens-common.c 575 */;
+	struct dentry *cocci_id/* drivers/thermal/qcom/tsens-common.c 554 */;
+	struct platform_device *cocci_id/* drivers/thermal/qcom/tsens-common.c 507 */;
+	struct seq_file *cocci_id/* drivers/thermal/qcom/tsens-common.c 505 */;
+	void *cocci_id/* drivers/thermal/qcom/tsens-common.c 505 */;
+	struct tsens_sensor *cocci_id/* drivers/thermal/qcom/tsens-common.c 489 */;
+	int *cocci_id/* drivers/thermal/qcom/tsens-common.c 489 */;
+	ssize_t cocci_id/* drivers/thermal/qcom/tsens-common.c 44 */;
+	struct nvmem_cell *cocci_id/* drivers/thermal/qcom/tsens-common.c 43 */;
+	const char *cocci_id/* drivers/thermal/qcom/tsens-common.c 41 */;
+	char *cocci_id/* drivers/thermal/qcom/tsens-common.c 41 */;
+	unsigned long cocci_id/* drivers/thermal/qcom/tsens-common.c 344 */;
+	bool cocci_id/* drivers/thermal/qcom/tsens-common.c 343 */;
+	struct tsens_irq_data cocci_id/* drivers/thermal/qcom/tsens-common.c 342 */;
+	irqreturn_t cocci_id/* drivers/thermal/qcom/tsens-common.c 339 */;
+	enum tsens_ver cocci_id/* drivers/thermal/qcom/tsens-common.c 315 */;
+	struct tsens_irq_data {
+		u32 up_viol;
+		int up_thresh;
+		u32 up_irq_mask;
+		u32 up_irq_clear;
+		u32 low_viol;
+		int low_thresh;
+		u32 low_irq_mask;
+		u32 low_irq_clear;
+	} cocci_id/* drivers/thermal/qcom/tsens-common.c 30 */;
+	struct tsens_irq_data *cocci_id/* drivers/thermal/qcom/tsens-common.c 278 */;
+	enum tsens_irq_type cocci_id/* drivers/thermal/qcom/tsens-common.c 240 */;
+	u32 cocci_id/* drivers/thermal/qcom/tsens-common.c 101 */;
+	const struct tsens_sensor *cocci_id/* drivers/thermal/qcom/tsens-common.c 101 */;
+	int cocci_id/* drivers/thermal/qcom/tsens-common.c 101 */;
+}

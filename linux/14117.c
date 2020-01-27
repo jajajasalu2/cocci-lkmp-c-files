@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 99 */;
+	struct vsp1_rwpf cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 97 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 94 */;
+	int cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 567 */;
+	char cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 566 */[6];
+	struct vsp1_rwpf *cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 563 */;
+	struct vsp1_device *cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 563 */;
+	unsigned int cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 563 */;
+	const struct vsp1_entity_operations cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 550 */;
+	struct vsp1_partition_window *cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 545 */;
+	struct vsp1_partition *cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 543 */;
+	bool cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 49 */;
+	struct v4l2_mbus_framefmt *cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 47 */;
+	struct vsp1_video *cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 46 */;
+	const struct vsp1_format_info *cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 401 */;
+	const struct v4l2_pix_format_mplane *cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 400 */;
+	const struct v4l2_mbus_framefmt *cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 399 */;
+	struct vsp1_rwpf_memory cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 398 */;
+	enum wpf_flip_ctrl{WPF_CTRL_VFLIP=0, WPF_CTRL_HFLIP=1,} cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 39 */;
+	unsigned long cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 373 */;
+	const unsigned int cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 370 */;
+	struct vsp1_dl_list *cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 367 */;
+	struct vsp1_pipeline *cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 366 */;
+	struct vsp1_dl_body *cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 30 */;
+	struct vsp1_entity *cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 228 */;
+	void cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 228 */;
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 219 */;
+	const struct v4l2_subdev_video_ops cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 215 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 192 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/platform/vsp1/vsp1_wpf.c 130 */;
+}

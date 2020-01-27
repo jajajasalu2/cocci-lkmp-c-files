@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	unsigned long long cocci_id/* fs/xfs/xfs_mount.c 869 */;
+	uint cocci_id/* fs/xfs/xfs_mount.c 651 */;
+	struct xfs_ino_geometry *cocci_id/* fs/xfs/xfs_mount.c 649 */;
+	struct xfs_inode *cocci_id/* fs/xfs/xfs_mount.c 648 */;
+	uuid_t *cocci_id/* fs/xfs/xfs_mount.c 58 */;
+	xfs_mount_t *cocci_id/* fs/xfs/xfs_mount.c 565 */;
+	uint64_t cocci_id/* fs/xfs/xfs_mount.c 564 */;
+	xfs_daddr_t cocci_id/* fs/xfs/xfs_mount.c 506 */;
+	struct xfs_buf *cocci_id/* fs/xfs/xfs_mount.c 505 */;
+	xfs_ino_t cocci_id/* fs/xfs/xfs_mount.c 375 */;
+	struct xfs_sb *cocci_id/* fs/xfs/xfs_mount.c 374 */;
+	bool *cocci_id/* fs/xfs/xfs_mount.c 372 */;
+	struct xfs_mount *cocci_id/* fs/xfs/xfs_mount.c 370 */;
+	int cocci_id/* fs/xfs/xfs_mount.c 368 */;
+	const struct xfs_buf_ops *cocci_id/* fs/xfs/xfs_mount.c 276 */;
+	unsigned int cocci_id/* fs/xfs/xfs_mount.c 271 */;
+	xfs_perag_t *cocci_id/* fs/xfs/xfs_mount.c 182 */;
+	xfs_agnumber_t *cocci_id/* fs/xfs/xfs_mount.c 178 */;
+	xfs_sb_t *cocci_id/* fs/xfs/xfs_mount.c 162 */;
+	int64_t cocci_id/* fs/xfs/xfs_mount.c 1406 */;
+	xfs_agnumber_t cocci_id/* fs/xfs/xfs_mount.c 140 */;
+	char *cocci_id/* fs/xfs/xfs_mount.c 1368 */;
+	struct xfs_perag cocci_id/* fs/xfs/xfs_mount.c 127 */;
+	struct xfs_perag *cocci_id/* fs/xfs/xfs_mount.c 127 */;
+	struct rcu_head *cocci_id/* fs/xfs/xfs_mount.c 125 */;
+	s32 cocci_id/* fs/xfs/xfs_mount.c 1241 */;
+	long long cocci_id/* fs/xfs/xfs_mount.c 1240 */;
+	void cocci_id/* fs/xfs/xfs_mount.c 123 */;
+	bool cocci_id/* fs/xfs/xfs_mount.c 1153 */;
+	uuid_t cocci_id/* fs/xfs/xfs_mount.c 115 */;
+}

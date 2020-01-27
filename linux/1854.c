@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct max9611_dev {
+		struct device *dev;
+		struct i2c_client *i2c_client;
+		struct mutex lock;
+		unsigned int shunt_resistor_uohm;
+	} cocci_id/* drivers/iio/adc/max9611.c 98 */;
+	struct i2c_driver cocci_id/* drivers/iio/adc/max9611.c 573 */;
+	unsigned int cocci_id/* drivers/iio/adc/max9611.c 535 */;
+	struct iio_dev *cocci_id/* drivers/iio/adc/max9611.c 534 */;
+	const struct of_device_id *cocci_id/* drivers/iio/adc/max9611.c 531 */;
+	const struct device_node *cocci_id/* drivers/iio/adc/max9611.c 530 */;
+	const char *const cocci_id/* drivers/iio/adc/max9611.c 529 */;
+	const struct i2c_device_id *cocci_id/* drivers/iio/adc/max9611.c 527 */;
+	const struct of_device_id cocci_id/* drivers/iio/adc/max9611.c 519 */[];
+	u16 cocci_id/* drivers/iio/adc/max9611.c 471 */;
+	struct i2c_client *cocci_id/* drivers/iio/adc/max9611.c 470 */;
+	struct max9611_dev *cocci_id/* drivers/iio/adc/max9611.c 468 */;
+	int cocci_id/* drivers/iio/adc/max9611.c 468 */;
+	const struct iio_info cocci_id/* drivers/iio/adc/max9611.c 463 */;
+	const struct attribute_group cocci_id/* drivers/iio/adc/max9611.c 459 */;
+	struct attribute *cocci_id/* drivers/iio/adc/max9611.c 453 */[];
+	char *cocci_id/* drivers/iio/adc/max9611.c 437 */;
+	struct device_attribute *cocci_id/* drivers/iio/adc/max9611.c 436 */;
+	struct device *cocci_id/* drivers/iio/adc/max9611.c 435 */;
+	ssize_t cocci_id/* drivers/iio/adc/max9611.c 435 */;
+	const unsigned int *cocci_id/* drivers/iio/adc/max9611.c 307 */;
+	int *cocci_id/* drivers/iio/adc/max9611.c 303 */;
+	long cocci_id/* drivers/iio/adc/max9611.c 303 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/adc/max9611.c 302 */;
+	enum max9611_csa_gain cocci_id/* drivers/iio/adc/max9611.c 293 */;
+	enum max9611_conf_ids cocci_id/* drivers/iio/adc/max9611.c 279 */[];
+	enum max9611_csa_gain *cocci_id/* drivers/iio/adc/max9611.c 277 */;
+	u16 *cocci_id/* drivers/iio/adc/max9611.c 276 */;
+	u8 cocci_id/* drivers/iio/adc/max9611.c 228 */;
+	enum max9611_conf_ids cocci_id/* drivers/iio/adc/max9611.c 223 */;
+	const struct iio_chan_spec cocci_id/* drivers/iio/adc/max9611.c 173 */[];
+	enum max9611_chan_addrs{MAX9611_CHAN_VOLTAGE_INPUT, MAX9611_CHAN_VOLTAGE_SENSE, MAX9611_CHAN_TEMPERATURE, MAX9611_CHAN_CURRENT_LOAD, MAX9611_CHAN_POWER_LOAD,} cocci_id/* drivers/iio/adc/max9611.c 165 */;
+	const unsigned int cocci_id/* drivers/iio/adc/max9611.c 150 */[][2];
+	enum max9611_csa_gain_params{CSA_GAIN_LSB_nV, CSA_GAIN_OFFS_RAW,} cocci_id/* drivers/iio/adc/max9611.c 136 */;
+	enum max9611_csa_gain{CSA_GAIN_1x, CSA_GAIN_4x, CSA_GAIN_8x,} cocci_id/* drivers/iio/adc/max9611.c 130 */;
+	enum max9611_conf_ids{CONF_SENSE_1x, CONF_SENSE_4x, CONF_SENSE_8x, CONF_IN_VOLT, CONF_TEMP,} cocci_id/* drivers/iio/adc/max9611.c 105 */;
+}

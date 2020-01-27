@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	struct device_node *cocci_id/* drivers/devfreq/devfreq.c 977 */;
+	struct devfreq **cocci_id/* drivers/devfreq/devfreq.c 948 */;
+	unsigned int cocci_id/* drivers/devfreq/devfreq.c 811 */;
+	struct devfreq cocci_id/* drivers/devfreq/devfreq.c 757 */;
+	atomic_t cocci_id/* drivers/devfreq/devfreq.c 739 */;
+	void *cocci_id/* drivers/devfreq/devfreq.c 735 */;
+	const char *cocci_id/* drivers/devfreq/devfreq.c 734 */;
+	struct devfreq_dev_profile *cocci_id/* drivers/devfreq/devfreq.c 733 */;
+	void cocci_id/* drivers/devfreq/devfreq.c 684 */;
+	struct notifier_block *cocci_id/* drivers/devfreq/devfreq.c 609 */;
+	unsigned int *cocci_id/* drivers/devfreq/devfreq.c 558 */;
+	struct work_struct *cocci_id/* drivers/devfreq/devfreq.c 426 */;
+	struct workqueue_struct *cocci_id/* drivers/devfreq/devfreq.c 42 */;
+	struct class *cocci_id/* drivers/devfreq/devfreq.c 35 */;
+	struct devfreq_freqs cocci_id/* drivers/devfreq/devfreq.c 343 */;
+	struct devfreq_freqs *cocci_id/* drivers/devfreq/devfreq.c 318 */;
+	struct devfreq_notifier_devres *cocci_id/* drivers/devfreq/devfreq.c 1810 */;
+	struct devfreq_notifier_devres {
+		struct devfreq *devfreq;
+		struct notifier_block *nb;
+		unsigned int list;
+	} cocci_id/* drivers/devfreq/devfreq.c 1802 */;
+	u32 cocci_id/* drivers/devfreq/devfreq.c 1645 */;
+	unsigned long *cocci_id/* drivers/devfreq/devfreq.c 1644 */;
+	struct dev_pm_opp *cocci_id/* drivers/devfreq/devfreq.c 1643 */;
+	int __init cocci_id/* drivers/devfreq/devfreq.c 1608 */;
+	struct attribute *cocci_id/* drivers/devfreq/devfreq.c 1594 */[];
+	int cocci_id/* drivers/devfreq/devfreq.c 1526 */;
+	struct devfreq *cocci_id/* drivers/devfreq/devfreq.c 1524 */;
+	char *cocci_id/* drivers/devfreq/devfreq.c 1522 */;
+	struct device_attribute *cocci_id/* drivers/devfreq/devfreq.c 1521 */;
+	struct device *cocci_id/* drivers/devfreq/devfreq.c 1520 */;
+	ssize_t cocci_id/* drivers/devfreq/devfreq.c 1520 */;
+	unsigned long cocci_id/* drivers/devfreq/devfreq.c 1379 */;
+	struct devfreq_governor *cocci_id/* drivers/devfreq/devfreq.c 1354 */;
+	const struct devfreq_governor *cocci_id/* drivers/devfreq/devfreq.c 1277 */;
+	char cocci_id/* drivers/devfreq/devfreq.c 1276 */[DEVFREQ_NAME_LEN + 1];
+	size_t cocci_id/* drivers/devfreq/devfreq.c 1272 */;
+	s32 cocci_id/* drivers/devfreq/devfreq.c 117 */;
+}

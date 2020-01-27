@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* arch/powerpc/kvm/book3s_xive.c 999 */;
+	struct kvmppc_xive_irq_state *cocci_id/* arch/powerpc/kvm/book3s_xive.c 998 */;
+	struct kvmppc_xive_src_block *cocci_id/* arch/powerpc/kvm/book3s_xive.c 997 */;
+	struct irq_desc *cocci_id/* arch/powerpc/kvm/book3s_xive.c 994 */;
+	struct kvm *cocci_id/* arch/powerpc/kvm/book3s_xive.c 993 */;
+	__be32 *cocci_id/* arch/powerpc/kvm/book3s_xive.c 257 */;
+	u64 cocci_id/* arch/powerpc/kvm/book3s_xive.c 233 */;
+	struct xive_irq_data *cocci_id/* arch/powerpc/kvm/book3s_xive.c 229 */;
+	struct irq_data *cocci_id/* arch/powerpc/kvm/book3s_xive.c 228 */;
+	struct kvm_device_ops cocci_id/* arch/powerpc/kvm/book3s_xive.c 2242 */;
+	void *cocci_id/* arch/powerpc/kvm/book3s_xive.c 2157 */;
+	struct seq_file *cocci_id/* arch/powerpc/kvm/book3s_xive.c 2119 */;
+	struct kvmppc_xive **cocci_id/* arch/powerpc/kvm/book3s_xive.c 2061 */;
+	u32 cocci_id/* arch/powerpc/kvm/book3s_xive.c 1953 */;
+	void cocci_id/* arch/powerpc/kvm/book3s_xive.c 1953 */;
+	struct kvm_device_attr *cocci_id/* arch/powerpc/kvm/book3s_xive.c 1923 */;
+	u32 __user *cocci_id/* arch/powerpc/kvm/book3s_xive.c 1871 */;
+	char *cocci_id/* arch/powerpc/kvm/book3s_xive.c 180 */;
+	struct xive_q *cocci_id/* arch/powerpc/kvm/book3s_xive.c 179 */;
+	struct kvmppc_xive_vcpu *cocci_id/* arch/powerpc/kvm/book3s_xive.c 178 */;
+	bool cocci_id/* arch/powerpc/kvm/book3s_xive.c 176 */;
+	u8 cocci_id/* arch/powerpc/kvm/book3s_xive.c 175 */;
+	struct kvm_vcpu *cocci_id/* arch/powerpc/kvm/book3s_xive.c 175 */;
+	int cocci_id/* arch/powerpc/kvm/book3s_xive.c 175 */;
+	u64 __user *cocci_id/* arch/powerpc/kvm/book3s_xive.c 1530 */;
+	long cocci_id/* arch/powerpc/kvm/book3s_xive.c 1526 */;
+	irqreturn_t cocci_id/* arch/powerpc/kvm/book3s_xive.c 149 */;
+	struct kvm_device *cocci_id/* arch/powerpc/kvm/book3s_xive.c 1253 */;
+	u32 *cocci_id/* arch/powerpc/kvm/book3s_xive.c 1225 */;
+	unsigned long cocci_id/* arch/powerpc/kvm/book3s_xive.c 1195 */;
+	struct kvmppc_xive *cocci_id/* arch/powerpc/kvm/book3s_xive.c 1153 */;
+	void __iomem *cocci_id/* arch/powerpc/kvm/book3s_xive.c 1111 */;
+	u16 cocci_id/* arch/powerpc/kvm/book3s_xive.c 1000 */;
+}

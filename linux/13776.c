@@ -1,0 +1,98 @@
+cocci_test_suite() {
+	struct property *cocci_id/* drivers/media/i2c/mt9v032.c 991 */;
+	struct device_node *cocci_id/* drivers/media/i2c/mt9v032.c 990 */;
+	struct v4l2_fwnode_endpoint cocci_id/* drivers/media/i2c/mt9v032.c 989 */;
+	struct mt9v032_platform_data *cocci_id/* drivers/media/i2c/mt9v032.c 985 */;
+	const struct regmap_config cocci_id/* drivers/media/i2c/mt9v032.c 974 */;
+	const struct v4l2_subdev_internal_ops cocci_id/* drivers/media/i2c/mt9v032.c 968 */;
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/i2c/mt9v032.c 962 */;
+	const struct v4l2_subdev_pad_ops cocci_id/* drivers/media/i2c/mt9v032.c 953 */;
+	const struct v4l2_subdev_video_ops cocci_id/* drivers/media/i2c/mt9v032.c 949 */;
+	const struct v4l2_subdev_core_ops cocci_id/* drivers/media/i2c/mt9v032.c 945 */;
+	struct v4l2_subdev_fh *cocci_id/* drivers/media/i2c/mt9v032.c 940 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/i2c/mt9v032.c 940 */;
+	u32 cocci_id/* drivers/media/i2c/mt9v032.c 870 */;
+	const struct v4l2_ctrl_config cocci_id/* drivers/media/i2c/mt9v032.c 808 */;
+	const struct v4l2_ctrl_config cocci_id/* drivers/media/i2c/mt9v032.c 754 */[];
+	const char *const cocci_id/* drivers/media/i2c/mt9v032.c 734 */[];
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/i2c/mt9v032.c 730 */;
+	u16 cocci_id/* drivers/media/i2c/mt9v032.c 641 */;
+	struct mt9v032 cocci_id/* drivers/media/i2c/mt9v032.c 638 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/i2c/mt9v032.c 635 */;
+	struct v4l2_rect cocci_id/* drivers/media/i2c/mt9v032.c 552 */;
+	struct v4l2_subdev_selection *cocci_id/* drivers/media/i2c/mt9v032.c 534 */;
+	struct i2c_client *cocci_id/* drivers/media/i2c/mt9v032.c 466 */;
+	void cocci_id/* drivers/media/i2c/mt9v032.c 464 */;
+	struct v4l2_subdev_format *cocci_id/* drivers/media/i2c/mt9v032.c 455 */;
+	struct v4l2_subdev_frame_size_enum *cocci_id/* drivers/media/i2c/mt9v032.c 440 */;
+	struct v4l2_subdev_mbus_code_enum *cocci_id/* drivers/media/i2c/mt9v032.c 429 */;
+	const u16 cocci_id/* drivers/media/i2c/mt9v032.c 381 */;
+	enum v4l2_subdev_format_whence cocci_id/* drivers/media/i2c/mt9v032.c 367 */;
+	unsigned int cocci_id/* drivers/media/i2c/mt9v032.c 367 */;
+	struct v4l2_subdev_pad_config *cocci_id/* drivers/media/i2c/mt9v032.c 366 */;
+	struct mt9v032 *cocci_id/* drivers/media/i2c/mt9v032.c 366 */;
+	struct v4l2_rect *cocci_id/* drivers/media/i2c/mt9v032.c 365 */;
+	struct v4l2_mbus_framefmt *cocci_id/* drivers/media/i2c/mt9v032.c 351 */;
+	struct regmap *cocci_id/* drivers/media/i2c/mt9v032.c 319 */;
+	bool cocci_id/* drivers/media/i2c/mt9v032.c 317 */;
+	int cocci_id/* drivers/media/i2c/mt9v032.c 317 */;
+	struct mt9v032 {
+		struct v4l2_subdev subdev;
+		struct media_pad pad;
+		struct v4l2_mbus_framefmt format;
+		struct v4l2_rect crop;
+		unsigned int hratio;
+		unsigned int vratio;
+		struct v4l2_ctrl_handler ctrls;
+		struct {
+			struct v4l2_ctrl *link_freq;
+			struct v4l2_ctrl *pixel_rate;
+		};
+		struct mutex power_lock;
+		int power_count;
+		struct regmap *regmap;
+		struct clk *clk;
+		struct gpio_desc *reset_gpio;
+		struct gpio_desc *standby_gpio;
+		struct mt9v032_platform_data *pdata;
+		const struct mt9v032_model_info *model;
+		const struct mt9v032_model_version *version;
+		u32 sysclk;
+		u16 aec_agc;
+		u16 hblank;
+		struct {
+			struct v4l2_ctrl *test_pattern;
+			struct v4l2_ctrl *test_pattern_color;
+		};
+	} cocci_id/* drivers/media/i2c/mt9v032.c 184 */;
+	const struct mt9v032_model_version cocci_id/* drivers/media/i2c/mt9v032.c 178 */[];
+	struct mt9v032_model_info {
+		const struct mt9v032_model_data *data;
+		bool color;
+	} cocci_id/* drivers/media/i2c/mt9v032.c 173 */;
+	struct mt9v032_model_data {
+		unsigned int min_row_time;
+		unsigned int min_hblank;
+		unsigned int min_vblank;
+		unsigned int max_vblank;
+		unsigned int min_shutter;
+		unsigned int max_shutter;
+		unsigned int pclk_reg;
+		unsigned int aec_max_shutter_reg;
+		const struct v4l2_ctrl_config *const aec_max_shutter_v4l2_ctrl;
+	} cocci_id/* drivers/media/i2c/mt9v032.c 161 */;
+	struct mt9v032_model_version {
+		unsigned int version;
+		const char *name;
+	} cocci_id/* drivers/media/i2c/mt9v032.c 156 */;
+	enum mt9v032_model{MT9V032_MODEL_V022_COLOR, MT9V032_MODEL_V022_MONO, MT9V032_MODEL_V024_COLOR, MT9V032_MODEL_V024_MONO, MT9V032_MODEL_V032_COLOR, MT9V032_MODEL_V032_MONO, MT9V032_MODEL_V034_COLOR, MT9V032_MODEL_V034_MONO,} cocci_id/* drivers/media/i2c/mt9v032.c 145 */;
+	struct i2c_driver cocci_id/* drivers/media/i2c/mt9v032.c 1282 */;
+	const struct of_device_id cocci_id/* drivers/media/i2c/mt9v032.c 1268 */[];
+	const struct i2c_device_id cocci_id/* drivers/media/i2c/mt9v032.c 1254 */[];
+	const struct mt9v032_model_info cocci_id/* drivers/media/i2c/mt9v032.c 1219 */[];
+	const struct mt9v032_model_data cocci_id/* drivers/media/i2c/mt9v032.c 1193 */[];
+	const void *cocci_id/* drivers/media/i2c/mt9v032.c 1065 */;
+	const struct i2c_device_id *cocci_id/* drivers/media/i2c/mt9v032.c 1034 */;
+	size_t cocci_id/* drivers/media/i2c/mt9v032.c 1010 */;
+	u64 *cocci_id/* drivers/media/i2c/mt9v032.c 1009 */;
+}

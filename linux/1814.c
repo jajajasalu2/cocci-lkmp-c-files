@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	struct device *cocci_id/* drivers/iio/light/veml6030.c 99 */;
+	ssize_t cocci_id/* drivers/iio/light/veml6030.c 99 */;
+	struct i2c_driver cocci_id/* drivers/iio/light/veml6030.c 895 */;
+	const struct i2c_device_id cocci_id/* drivers/iio/light/veml6030.c 889 */[];
+	const struct of_device_id cocci_id/* drivers/iio/light/veml6030.c 883 */[];
+	int __maybe_unused cocci_id/* drivers/iio/light/veml6030.c 863 */;
+	const char *const cocci_id/* drivers/iio/light/veml6030.c 86 */[];
+	struct regmap *cocci_id/* drivers/iio/light/veml6030.c 795 */;
+	const struct i2c_device_id *cocci_id/* drivers/iio/light/veml6030.c 790 */;
+	const struct attribute_group cocci_id/* drivers/iio/light/veml6030.c 77 */;
+	struct i2c_client *cocci_id/* drivers/iio/light/veml6030.c 731 */;
+	struct attribute *cocci_id/* drivers/iio/light/veml6030.c 71 */[];
+	irqreturn_t cocci_id/* drivers/iio/light/veml6030.c 692 */;
+	const struct iio_info cocci_id/* drivers/iio/light/veml6030.c 675 */;
+	enum iio_event_info cocci_id/* drivers/iio/light/veml6030.c 586 */;
+	enum iio_event_direction cocci_id/* drivers/iio/light/veml6030.c 586 */;
+	enum iio_event_type cocci_id/* drivers/iio/light/veml6030.c 585 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/light/veml6030.c 585 */;
+	struct veml6030_data {
+		struct i2c_client *client;
+		struct regmap *regmap;
+		int cur_resolution;
+		int cur_gain;
+		int cur_integration_time;
+	} cocci_id/* drivers/iio/light/veml6030.c 52 */;
+	long cocci_id/* drivers/iio/light/veml6030.c 507 */;
+	int *cocci_id/* drivers/iio/light/veml6030.c 421 */;
+	const struct regmap_config cocci_id/* drivers/iio/light/veml6030.c 206 */;
+	const struct iio_chan_spec cocci_id/* drivers/iio/light/veml6030.c 185 */[];
+	enum veml6030_chan{CH_ALS, CH_WHITE,} cocci_id/* drivers/iio/light/veml6030.c 180 */;
+	const struct iio_event_spec cocci_id/* drivers/iio/light/veml6030.c 162 */[];
+	void *cocci_id/* drivers/iio/light/veml6030.c 157 */;
+	void cocci_id/* drivers/iio/light/veml6030.c 157 */;
+	struct veml6030_data *cocci_id/* drivers/iio/light/veml6030.c 104 */;
+	struct iio_dev *cocci_id/* drivers/iio/light/veml6030.c 103 */;
+	int cocci_id/* drivers/iio/light/veml6030.c 102 */;
+	struct device_attribute *cocci_id/* drivers/iio/light/veml6030.c 100 */;
+	char *cocci_id/* drivers/iio/light/veml6030.c 100 */;
+}

@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	char *cocci_id/* drivers/parport/share.c 851 */;
+	const struct pardev_cb *cocci_id/* drivers/parport/share.c 847 */;
+	struct device *cocci_id/* drivers/parport/share.c 837 */;
+	struct parport_state cocci_id/* drivers/parport/share.c 764 */;
+	struct pardevice cocci_id/* drivers/parport/share.c 760 */;
+	int (*cocci_id/* drivers/parport/share.c 715 */)(void *);
+	void (*cocci_id/* drivers/parport/share.c 715 */)(void *);
+	struct parport_operations cocci_id/* drivers/parport/share.c 68 */;
+	void *cocci_id/* drivers/parport/share.c 66 */;
+	size_t cocci_id/* drivers/parport/share.c 66 */;
+	const void *cocci_id/* drivers/parport/share.c 64 */;
+	struct parport_state *cocci_id/* drivers/parport/share.c 62 */;
+	struct pardevice *cocci_id/* drivers/parport/share.c 62 */;
+	unsigned char cocci_id/* drivers/parport/share.c 59 */;
+	struct parport_device_info cocci_id/* drivers/parport/share.c 481 */;
+	struct parport cocci_id/* drivers/parport/share.c 466 */;
+	struct list_head *cocci_id/* drivers/parport/share.c 459 */;
+	struct parport_operations *cocci_id/* drivers/parport/share.c 457 */;
+	struct parport *cocci_id/* drivers/parport/share.c 309 */;
+	const char *cocci_id/* drivers/parport/share.c 279 */;
+	struct parport_driver *cocci_id/* drivers/parport/share.c 278 */;
+	struct module *cocci_id/* drivers/parport/share.c 278 */;
+	int cocci_id/* drivers/parport/share.c 278 */;
+	void cocci_id/* drivers/parport/share.c 165 */;
+	struct device_driver *cocci_id/* drivers/parport/share.c 154 */;
+	irqreturn_t cocci_id/* drivers/parport/share.c 1380 */;
+	struct bus_type cocci_id/* drivers/parport/share.c 133 */;
+	unsigned long cocci_id/* drivers/parport/share.c 1137 */;
+	struct device_type cocci_id/* drivers/parport/share.c 104 */;
+}

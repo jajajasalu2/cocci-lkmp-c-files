@@ -1,0 +1,86 @@
+cocci_test_suite() {
+	struct mtk_dpi_sync_param {
+		u32 sync_width;
+		u32 front_porch;
+		u32 back_porch;
+		bool shift_half_line;
+	} cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 97 */;
+	struct mtk_dpi_polarities {
+		enum mtk_dpi_polarity de_pol;
+		enum mtk_dpi_polarity ck_pol;
+		enum mtk_dpi_polarity hsync_pol;
+		enum mtk_dpi_polarity vsync_pol;
+	} cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 90 */;
+	enum mtk_dpi_polarity{MTK_DPI_POLARITY_RISING, MTK_DPI_POLARITY_FALLING,} cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 85 */;
+	struct mtk_dpi cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 82 */;
+	struct platform_driver cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 776 */;
+	const struct of_device_id cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 766 */[];
+	struct mtk_dpi_conf *cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 691 */;
+	struct resource *cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 682 */;
+	struct platform_device *cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 678 */;
+	const struct mtk_dpi_conf cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 672 */;
+	unsigned int cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 657 */;
+	int cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 657 */;
+	const struct component_ops cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 640 */;
+	struct mtk_dpi {
+		struct mtk_ddp_comp ddp_comp;
+		struct drm_encoder encoder;
+		struct drm_bridge *bridge;
+		void __iomem *regs;
+		struct device *dev;
+		struct clk *engine_clk;
+		struct clk *pixel_clk;
+		struct clk *tvd_clk;
+		int irq;
+		struct drm_display_mode mode;
+		const struct mtk_dpi_conf *conf;
+		enum mtk_dpi_out_color_format color_format;
+		enum mtk_dpi_out_yc_map yc_map;
+		enum mtk_dpi_out_bit_num bit_num;
+		enum mtk_dpi_out_channel_swap channel_swap;
+		int refcount;
+	} cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 61 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 589 */;
+	struct mtk_dpi *cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 588 */;
+	struct device *cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 586 */;
+	void *cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 586 */;
+	const struct mtk_ddp_comp_funcs cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 581 */;
+	struct mtk_ddp_comp *cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 567 */;
+	const struct drm_encoder_helper_funcs cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 559 */;
+	struct drm_connector_state *cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 554 */;
+	struct drm_crtc_state *cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 553 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 552 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 523 */;
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 522 */;
+	const struct drm_encoder_funcs cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 517 */;
+	enum mtk_dpi_out_color_format{MTK_DPI_COLOR_FORMAT_RGB, MTK_DPI_COLOR_FORMAT_RGB_FULL, MTK_DPI_COLOR_FORMAT_YCBCR_444, MTK_DPI_COLOR_FORMAT_YCBCR_422, MTK_DPI_COLOR_FORMAT_XV_YCC, MTK_DPI_COLOR_FORMAT_YCBCR_444_FULL, MTK_DPI_COLOR_FORMAT_YCBCR_422_FULL,} cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 51 */;
+	unsigned long cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 427 */;
+	struct videomode cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 426 */;
+	struct mtk_dpi_sync_param cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 421 */;
+	struct mtk_dpi_polarities cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 420 */;
+	enum mtk_dpi_out_channel_swap{MTK_DPI_OUT_CHANNEL_SWAP_RGB, MTK_DPI_OUT_CHANNEL_SWAP_GBR, MTK_DPI_OUT_CHANNEL_SWAP_BRG, MTK_DPI_OUT_CHANNEL_SWAP_RBG, MTK_DPI_OUT_CHANNEL_SWAP_GRB, MTK_DPI_OUT_CHANNEL_SWAP_BGR,} cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 42 */;
+	struct mtk_dpi_yc_limit cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 419 */;
+	enum mtk_dpi_out_color_format cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 352 */;
+	void cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 340 */;
+	enum mtk_dpi_out_yc_map{MTK_DPI_OUT_YC_MAP_RGB, MTK_DPI_OUT_YC_MAP_CYCY, MTK_DPI_OUT_YC_MAP_YCYC, MTK_DPI_OUT_YC_MAP_CY, MTK_DPI_OUT_YC_MAP_YC,} cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 34 */;
+	enum mtk_dpi_out_channel_swap cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 294 */;
+	enum mtk_dpi_out_bit_num{MTK_DPI_OUT_BIT_NUM_8BITS, MTK_DPI_OUT_BIT_NUM_10BITS, MTK_DPI_OUT_BIT_NUM_12BITS, MTK_DPI_OUT_BIT_NUM_16BITS,} cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 27 */;
+	enum mtk_dpi_out_yc_map cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 265 */;
+	u32 cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 241 */;
+	enum mtk_dpi_out_bit_num cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 239 */;
+	struct mtk_dpi_yc_limit *cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 226 */;
+	bool cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 209 */;
+	struct mtk_dpi_polarities *cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 197 */;
+	struct mtk_dpi_sync_param *cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 141 */;
+	struct mtk_dpi_conf {
+		unsigned int (*cal_factor)(int clock);
+		u32 reg_h_fre_con;
+		bool edge_sel_en;
+	} cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 111 */;
+	struct mtk_dpi_yc_limit {
+		u16 y_top;
+		u16 y_bottom;
+		u16 c_top;
+		u16 c_bottom;
+	} cocci_id/* drivers/gpu/drm/mediatek/mtk_dpi.c 104 */;
+}

@@ -1,0 +1,111 @@
+cocci_test_suite() {
+	struct iw_michaelmicfailure cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 991 */;
+	u8 cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 964 */[MICHAEL_MIC_LEN];
+	struct orinoco_rx_data *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 837 */;
+	struct hermes_rx_descriptor *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 836 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 833 */;
+	struct net_device_stats *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 831 */;
+	u32 cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 733 */;
+	struct iw_quality cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 689 */;
+	u_char *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 686 */;
+	u8 *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 675 */;
+	union iwreq_data cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 630 */;
+	struct hermes_txexc_data cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 600 */;
+	u16 cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 574 */;
+	struct hermes_tx_descriptor cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 493 */;
+	__le16 *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 479 */;
+	char cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 478 */[HERMES_802_3_OFFSET];
+	u8 cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 434 */[MICHAEL_MIC_LEN + 1];
+	netdev_tx_t cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 425 */;
+	size_t cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 405 */;
+	struct header_struct {
+		struct ethhdr eth;
+		u8 encap[6];
+	}__packed cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 379 */;
+	struct ethhdr *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 363 */;
+	struct orinoco_tkip_key *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 362 */;
+	int *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 359 */;
+	struct ieee80211_hdr cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 318 */;
+	void __exit cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 2410 */;
+	int __init cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 2404 */;
+	char cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 2400 */[]__initdata;
+	struct orinoco_scan_data *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 2308 */;
+	struct wireless_dev cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 2239 */;
+	struct wireless_dev *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 2235 */;
+	const struct net_device_ops *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 2232 */;
+	unsigned int cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 2231 */;
+	int cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 221 */(struct orinoco_private *priv);
+	int cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 218 */(struct net_device *dev);
+	unsigned long cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 2176 */;
+	struct orinoco_private cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 2168 */;
+	struct wiphy *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 2161 */;
+	int (*cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 2158 */)(struct orinoco_private *,
+									       int);
+	int (*cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 2157 */)(struct orinoco_private *);
+	struct device *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 2156 */;
+	const struct net_device_ops cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 2118 */;
+	struct orinoco_scan_data {
+		void *buf;
+		size_t len;
+		int type;
+		struct list_head list;
+	} cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 207 */;
+	struct orinoco_rx_data {
+		struct hermes_rx_descriptor *desc;
+		struct sk_buff *skb;
+		struct list_head list;
+	} cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 201 */;
+	struct notifier_block *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 1956 */;
+	irqreturn_t cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 1874 */;
+	void cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 1807 */;
+	struct net_device *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 1795 */;
+	struct orinoco_private *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 1793 */;
+	int cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 1793 */;
+	struct hermes_rx_descriptor {
+		__le16 status;
+		__le32 time;
+		u8 silence;
+		u8 signal;
+		u8 rate;
+		u8 rxflow;
+		__le32 reserved;
+		__le16 frame_ctl;
+		__le16 duration_id;
+		u8 addr1[ETH_ALEN];
+		u8 addr2[ETH_ALEN];
+		u8 addr3[ETH_ALEN];
+		__le16 seq_ctl;
+		u8 addr4[ETH_ALEN];
+		__le16 data_len;
+	}__packed cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 178 */;
+	struct hermes_txexc_data {
+		struct hermes_tx_descriptor desc;
+		__le16 frame_ctl;
+		__le16 duration_id;
+		u8 addr1[ETH_ALEN];
+	}__packed cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 170 */;
+	struct hermes *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 1649 */;
+	struct agere_ext_scan_info cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 1568 */;
+	struct agere_ext_scan_info *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 1553 */;
+	void *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 1530 */;
+	unsigned char *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 1511 */;
+	struct hermes_linkstatus cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 1452 */;
+	struct iw_statistics *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 1421 */;
+	struct hermes_tallies_frame cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 1420 */;
+	const u8 cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 142 */[];
+	struct {
+		__le16 len;
+		__le16 type;
+	}__packed cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 1393 */;
+	bool cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 125 */;
+	u8 cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 1241 */[88];
+	struct prism2_scan_apinfo *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 1153 */;
+	const int cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 1152 */;
+	struct prism2_scan_apinfo cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 1152 */;
+	struct join_req {
+		u8 bssid[ETH_ALEN];
+		__le16 channel;
+	}__packed cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 1148 */;
+	struct work_struct *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 1140 */;
+	char *cocci_id/* drivers/net/wireless/intersil/orinoco/main.c 1014 */;
+}

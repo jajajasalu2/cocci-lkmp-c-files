@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct tcf_block *cocci_id/* net/sched/cls_matchall.c 72 */;
+	struct tc_cls_matchall_offload cocci_id/* net/sched/cls_matchall.c 71 */;
+	struct cls_mall_head cocci_id/* net/sched/cls_matchall.c 59 */;
+	struct work_struct *cocci_id/* net/sched/cls_matchall.c 56 */;
+	struct cls_mall_head *cocci_id/* net/sched/cls_matchall.c 48 */;
+	void cocci_id/* net/sched/cls_matchall.c 48 */;
+	void __exit cocci_id/* net/sched/cls_matchall.c 424 */;
+	int __init cocci_id/* net/sched/cls_matchall.c 419 */;
+	struct tcf_proto_ops cocci_id/* net/sched/cls_matchall.c 404 */;
+	u32 cocci_id/* net/sched/cls_matchall.c 396 */;
+	void *cocci_id/* net/sched/cls_matchall.c 396 */;
+	unsigned long cocci_id/* net/sched/cls_matchall.c 396 */;
+	struct tc_matchall_pcnt *cocci_id/* net/sched/cls_matchall.c 371 */;
+	struct nlattr *cocci_id/* net/sched/cls_matchall.c 348 */;
+	struct tcmsg *cocci_id/* net/sched/cls_matchall.c 344 */;
+	flow_setup_cb_t *cocci_id/* net/sched/cls_matchall.c 284 */;
+	struct tcf_result *cocci_id/* net/sched/cls_matchall.c 28 */;
+	const struct tcf_proto *cocci_id/* net/sched/cls_matchall.c 27 */;
+	struct tcf_walker *cocci_id/* net/sched/cls_matchall.c 268 */;
+	bool *cocci_id/* net/sched/cls_matchall.c 258 */;
+	struct tc_matchall_pcnt cocci_id/* net/sched/cls_matchall.c 223 */;
+	struct nlattr *cocci_id/* net/sched/cls_matchall.c 189 */[TCA_MATCHALL_MAX + 1];
+	struct netlink_ext_ack *cocci_id/* net/sched/cls_matchall.c 186 */;
+	bool cocci_id/* net/sched/cls_matchall.c 185 */;
+	void **cocci_id/* net/sched/cls_matchall.c 185 */;
+	struct nlattr **cocci_id/* net/sched/cls_matchall.c 184 */;
+	struct tcf_proto *cocci_id/* net/sched/cls_matchall.c 183 */;
+	struct sk_buff *cocci_id/* net/sched/cls_matchall.c 182 */;
+	struct net *cocci_id/* net/sched/cls_matchall.c 182 */;
+	int cocci_id/* net/sched/cls_matchall.c 182 */;
+	struct cls_mall_head {
+		struct tcf_exts exts;
+		struct tcf_result res;
+		u32 handle;
+		u32 flags;
+		unsigned int in_hw_count;
+		struct tc_matchall_pcnt __percpu *pf;
+		struct rcu_work rwork;
+		bool deleting;
+	} cocci_id/* net/sched/cls_matchall.c 16 */;
+	const struct nla_policy cocci_id/* net/sched/cls_matchall.c 157 */[TCA_MATCHALL_MAX + 1];
+}

@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct uac3_clock_multiplier_descriptor cocci_id/* sound/usb/clock.c 98 */;
+	struct uac_clock_multiplier_descriptor cocci_id/* sound/usb/clock.c 95 */;
+	struct uac3_clock_selector_descriptor cocci_id/* sound/usb/clock.c 91 */;
+	struct uac_clock_selector_descriptor cocci_id/* sound/usb/clock.c 88 */;
+	struct uac3_clock_source_descriptor cocci_id/* sound/usb/clock.c 84 */;
+	struct uac_clock_source_descriptor cocci_id/* sound/usb/clock.c 81 */;
+	obj *cocci_id/* sound/usb/clock.c 75 */;
+	u32 cocci_id/* sound/usb/clock.c 498 */;
+	__le32 cocci_id/* sound/usb/clock.c 472 */;
+	struct usb_device *cocci_id/* sound/usb/clock.c 471 */;
+	unsigned char cocci_id/* sound/usb/clock.c 416 */[3];
+	unsigned int cocci_id/* sound/usb/clock.c 415 */;
+	struct audioformat *cocci_id/* sound/usb/clock.c 412 */;
+	struct uac3_clock_multiplier_descriptor *cocci_id/* sound/usb/clock.c 295 */;
+	struct uac3_clock_selector_descriptor *cocci_id/* sound/usb/clock.c 294 */;
+	struct uac3_clock_source_descriptor *cocci_id/* sound/usb/clock.c 293 */;
+	bool cocci_id/* sound/usb/clock.c 291 */;
+	unsigned long *cocci_id/* sound/usb/clock.c 291 */;
+	struct snd_usb_audio *cocci_id/* sound/usb/clock.c 290 */;
+	int cocci_id/* sound/usb/clock.c 290 */;
+	bool (*cocci_id/* sound/usb/clock.c 25 */)(void *, int);
+	u8 cocci_id/* sound/usb/clock.c 25 */;
+	struct usb_host_interface *cocci_id/* sound/usb/clock.c 24 */;
+	void *cocci_id/* sound/usb/clock.c 24 */;
+	struct uac_clock_multiplier_descriptor *cocci_id/* sound/usb/clock.c 205 */;
+	struct uac_clock_selector_descriptor *cocci_id/* sound/usb/clock.c 204 */;
+	struct uac_clock_source_descriptor *cocci_id/* sound/usb/clock.c 203 */;
+	unsigned char cocci_id/* sound/usb/clock.c 103 */;
+}

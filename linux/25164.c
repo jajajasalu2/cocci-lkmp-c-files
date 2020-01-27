@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	enum cpufreq_value cocci_id/* tools/power/cpupower/lib/cpufreq.c 88 */;
+	const char *cocci_id/* tools/power/cpupower/lib/cpufreq.c 75 */[MAX_CPUFREQ_VALUE_READ_FILES];
+	unsigned long long *cocci_id/* tools/power/cpupower/lib/cpufreq.c 641 */;
+	struct cpufreq_stats *cocci_id/* tools/power/cpupower/lib/cpufreq.c 640 */;
+	enum cpufreq_value{CPUINFO_CUR_FREQ, CPUINFO_MIN_FREQ, CPUINFO_MAX_FREQ, CPUINFO_LATENCY, SCALING_CUR_FREQ, SCALING_MIN_FREQ, SCALING_MAX_FREQ, STATS_NUM_TRANSITIONS, MAX_CPUFREQ_VALUE_READ_FILES,} cocci_id/* tools/power/cpupower/lib/cpufreq.c 63 */;
+	char cocci_id/* tools/power/cpupower/lib/cpufreq.c 617 */[];
+	void cocci_id/* tools/power/cpupower/lib/cpufreq.c 470 */;
+	struct cpufreq_affected_cpus *cocci_id/* tools/power/cpupower/lib/cpufreq.c 465 */;
+	unsigned int cocci_id/* tools/power/cpupower/lib/cpufreq.c 465 */;
+	ssize_t cocci_id/* tools/power/cpupower/lib/cpufreq.c 41 */;
+	char cocci_id/* tools/power/cpupower/lib/cpufreq.c 340 */[SYSFS_PATH_MAX];
+	const char *cocci_id/* tools/power/cpupower/lib/cpufreq.c 336 */;
+	struct cpufreq_frequencies *cocci_id/* tools/power/cpupower/lib/cpufreq.c 335 */;
+	char cocci_id/* tools/power/cpupower/lib/cpufreq.c 266 */[MAX_LINE_LEN];
+	struct cpufreq_available_governors *cocci_id/* tools/power/cpupower/lib/cpufreq.c 261 */;
+	size_t cocci_id/* tools/power/cpupower/lib/cpufreq.c 24 */;
+	struct cpufreq_policy cocci_id/* tools/power/cpupower/lib/cpufreq.c 231 */;
+	struct cpufreq_policy *cocci_id/* tools/power/cpupower/lib/cpufreq.c 227 */;
+	char *cocci_id/* tools/power/cpupower/lib/cpufreq.c 215 */;
+	unsigned long *cocci_id/* tools/power/cpupower/lib/cpufreq.c 198 */;
+	int cocci_id/* tools/power/cpupower/lib/cpufreq.c 197 */;
+	unsigned long cocci_id/* tools/power/cpupower/lib/cpufreq.c 187 */;
+	enum cpufreq_write cocci_id/* tools/power/cpupower/lib/cpufreq.c 169 */;
+	const char *cocci_id/* tools/power/cpupower/lib/cpufreq.c 161 */[MAX_CPUFREQ_WRITE_FILES];
+	enum cpufreq_write{WRITE_SCALING_MIN_FREQ, WRITE_SCALING_MAX_FREQ, WRITE_SCALING_GOVERNOR, WRITE_SCALING_SET_SPEED, MAX_CPUFREQ_WRITE_FILES,} cocci_id/* tools/power/cpupower/lib/cpufreq.c 153 */;
+	enum cpufreq_string cocci_id/* tools/power/cpupower/lib/cpufreq.c 127 */;
+	const char *cocci_id/* tools/power/cpupower/lib/cpufreq.c 120 */[MAX_CPUFREQ_STRING_FILES];
+	enum cpufreq_string{SCALING_DRIVER, SCALING_GOVERNOR, MAX_CPUFREQ_STRING_FILES,} cocci_id/* tools/power/cpupower/lib/cpufreq.c 114 */;
+}

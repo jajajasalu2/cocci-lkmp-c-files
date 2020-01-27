@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct v4l2_mbus_framefmt *cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 936 */;
+	struct v4l2_subdev_format *cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 934 */;
+	struct v4l2_subdev_pad_config *cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 933 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 903 */;
+	void cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 87 */;
+	v4l2_std_id cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 840 */;
+	const struct v4l2_tuner *cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 795 */;
+	u32 cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 79 */;
+	struct cx18_av_state *cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 760 */;
+	struct v4l2_tuner *cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 758 */;
+	u8 cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 72 */;
+	u16 cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 71 */;
+	struct cx18 *cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 71 */;
+	unsigned cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 71 */;
+	int cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 71 */;
+	enum analog_signal_type{NONE, CVBS, Y, C, SIF, Pb, Pr,} cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 575 */[3];
+	enum cx18_av_audio_input cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 570 */;
+	enum cx18_av_video_input cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 569 */;
+	const struct v4l2_frequency *cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 562 */;
+	u64 cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 448 */;
+	const int cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 283 */;
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 1290 */;
+	const struct v4l2_subdev_pad_ops cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 1286 */;
+	const struct v4l2_subdev_vbi_ops cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 1279 */;
+	const struct v4l2_subdev_video_ops cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 1273 */;
+	const struct v4l2_subdev_audio_ops cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 1268 */;
+	const struct v4l2_subdev_tuner_ops cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 1261 */;
+	const struct v4l2_subdev_core_ops cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 1251 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 1247 */;
+	const struct v4l2_dbg_register *cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 1236 */;
+	struct v4l2_dbg_register *cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 1224 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 1223 */;
+	char *cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 1077 */;
+	const char *const cocci_id/* drivers/media/pci/cx18/cx18-av-core.c 1026 */[];
+}

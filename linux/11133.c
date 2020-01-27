@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	uint64_t cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 982 */;
+	const struct encoder_unblank_param *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 970 */;
+	const struct encoder_info_frame *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 851 */;
+	const uint32_t *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 750 */;
+	struct fixed31_32 cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 714 */;
+	const struct dc_info_packet *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 68 */;
+	struct bp_encoder_control cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 671 */;
+	struct dce110_stream_encoder cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 60 */;
+	int cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 554 */;
+	enum{DP_MST_UPDATE_MAX_RETRY=50,} cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 55 */;
+	struct dc_crtc_timing cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 294 */;
+	uint8_t cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 287 */;
+	enum dc_color_space cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 277 */;
+	struct dc_crtc_timing *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 276 */;
+	const struct dce_stream_encoder_mask *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1661 */;
+	const struct dce_stream_encoder_shift *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1660 */;
+	const struct dce110_stream_enc_registers *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1659 */;
+	enum engine_id cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1658 */;
+	struct dc_bios *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1657 */;
+	struct dc_context *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1656 */;
+	const struct stream_encoder_funcs cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1616 */;
+	struct audio_crtc_info *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1573 */;
+	bool cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1539 */;
+	struct audio_clock_info cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1362 */;
+	struct audio_info *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1334 */;
+	unsigned int cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1333 */;
+	const struct audio_clock_info *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1276 */;
+	struct audio_clock_info *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1274 */;
+	enum dc_color_depth cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1271 */;
+	const struct audio_crtc_info *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1250 */;
+	uint32_t cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1249 */;
+	struct audio_speaker_flags cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1216 */;
+	union audio_cea_channels cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1215 */;
+	const struct audio_clock_info cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1179 */[14];
+	const struct audio_clock_info cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1160 */[16];
+	union audio_cea_channels {
+		uint8_t all;
+		struct audio_cea_channels_bits {
+			uint32_t FL:1;
+			uint32_t FR:1;
+			uint32_t LFE:1;
+			uint32_t FC:1;
+			uint32_t RL_RC:1;
+			uint32_t RR:1;
+			uint32_t RC_RLC_FLC:1;
+			uint32_t RRC_FRC:1;
+		} channels;
+	} cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1133 */;
+	struct dce110_stream_encoder *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1044 */;
+	struct stream_encoder *cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1042 */;
+	void cocci_id/* drivers/gpu/drm/amd/display/dc/dce/dce_stream_encoder.c 1041 */;
+}

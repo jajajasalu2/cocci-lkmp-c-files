@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	const struct mv88e6xxx_ptp_ops *cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 69 */;
+	struct ethtool_ts_info *cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 67 */;
+	struct dsa_switch *cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 66 */;
+	u16 cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 532 */;
+	struct mv88e6xxx_chip *cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 530 */;
+	__be16 *cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 506 */;
+	struct ptp_clock_info *cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 480 */;
+	long cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 480 */;
+	u32 cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 401 */;
+	struct skb_shared_hwtstamps cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 398 */;
+	unsigned int cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 366 */;
+	bool cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 365 */;
+	u8 *cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 360 */;
+	int cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 360 */;
+	unsigned long cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 295 */;
+	u64 cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 294 */;
+	struct sk_buff_head cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 293 */;
+	struct skb_shared_hwtstamps *cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 292 */;
+	u16 cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 291 */[4];
+	struct sk_buff_head *cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 289 */;
+	struct sk_buff *cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 288 */;
+	struct mv88e6xxx_port_hwtstamp *cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 287 */;
+	void cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 286 */;
+	u16 *cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 22 */;
+	struct hwtstamp_config *cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 205 */;
+	struct ifreq *cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 201 */;
+	unsigned int *cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 19 */;
+	struct hwtstamp_config cocci_id/* drivers/net/dsa/mv88e6xxx/hwtstamp.c 180 */;
+}

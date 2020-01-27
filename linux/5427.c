@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	struct ep93xx_spi {
+		struct clk *clk;
+		void __iomem *mmio;
+		unsigned long sspdr_phys;
+		size_t tx;
+		size_t rx;
+		size_t fifo_level;
+		struct dma_chan *dma_rx;
+		struct dma_chan *dma_tx;
+		struct ep93xx_dma_data dma_rx_data;
+		struct ep93xx_dma_data dma_tx_data;
+		struct sg_table rx_sgt;
+		struct sg_table tx_sgt;
+		void *zeropage;
+	} cocci_id/* drivers/spi/spi-ep93xx.c 85 */;
+	struct platform_driver cocci_id/* drivers/spi/spi-ep93xx.c 754 */;
+	struct resource *cocci_id/* drivers/spi/spi-ep93xx.c 648 */;
+	struct ep93xx_spi_info *cocci_id/* drivers/spi/spi-ep93xx.c 646 */;
+	struct platform_device *cocci_id/* drivers/spi/spi-ep93xx.c 643 */;
+	dma_cap_mask_t cocci_id/* drivers/spi/spi-ep93xx.c 585 */;
+	bool cocci_id/* drivers/spi/spi-ep93xx.c 574 */;
+	struct dma_chan *cocci_id/* drivers/spi/spi-ep93xx.c 574 */;
+	struct spi_message *cocci_id/* drivers/spi/spi-ep93xx.c 516 */;
+	irqreturn_t cocci_id/* drivers/spi/spi-ep93xx.c 433 */;
+	void *cocci_id/* drivers/spi/spi-ep93xx.c 390 */;
+	struct sg_table *cocci_id/* drivers/spi/spi-ep93xx.c 377 */;
+	size_t cocci_id/* drivers/spi/spi-ep93xx.c 280 */;
+	const void *cocci_id/* drivers/spi/spi-ep93xx.c 279 */;
+	struct scatterlist *cocci_id/* drivers/spi/spi-ep93xx.c 276 */;
+	struct dma_slave_config cocci_id/* drivers/spi/spi-ep93xx.c 275 */;
+	enum dma_slave_buswidth cocci_id/* drivers/spi/spi-ep93xx.c 274 */;
+	struct dma_async_tx_descriptor *cocci_id/* drivers/spi/spi-ep93xx.c 267 */;
+	enum dma_data_direction cocci_id/* drivers/spi/spi-ep93xx.c 246 */;
+	enum dma_transfer_direction cocci_id/* drivers/spi/spi-ep93xx.c 245 */;
+	u8 *cocci_id/* drivers/spi/spi-ep93xx.c 206 */;
+	u16 *cocci_id/* drivers/spi/spi-ep93xx.c 202 */;
+	u32 cocci_id/* drivers/spi/spi-ep93xx.c 197 */;
+	struct spi_transfer *cocci_id/* drivers/spi/spi-ep93xx.c 196 */;
+	struct ep93xx_spi *cocci_id/* drivers/spi/spi-ep93xx.c 195 */;
+	struct spi_master *cocci_id/* drivers/spi/spi-ep93xx.c 193 */;
+	void cocci_id/* drivers/spi/spi-ep93xx.c 193 */;
+	u16 cocci_id/* drivers/spi/spi-ep93xx.c 153 */;
+	struct spi_device *cocci_id/* drivers/spi/spi-ep93xx.c 146 */;
+	u8 cocci_id/* drivers/spi/spi-ep93xx.c 135 */;
+	unsigned long cocci_id/* drivers/spi/spi-ep93xx.c 115 */;
+	int cocci_id/* drivers/spi/spi-ep93xx.c 111 */;
+}

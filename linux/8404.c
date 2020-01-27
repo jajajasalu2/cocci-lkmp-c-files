@@ -1,0 +1,64 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* drivers/net/ethernet/micrel/ks8842.c 957 */;
+	void *cocci_id/* drivers/net/ethernet/micrel/ks8842.c 928 */;
+	long cocci_id/* drivers/net/ethernet/micrel/ks8842.c 928 */;
+	dma_cap_mask_t cocci_id/* drivers/net/ethernet/micrel/ks8842.c 919 */;
+	struct ks8842_tx_dma_ctl *cocci_id/* drivers/net/ethernet/micrel/ks8842.c 915 */;
+	bool cocci_id/* drivers/net/ethernet/micrel/ks8842.c 907 */;
+	struct dma_chan *cocci_id/* drivers/net/ethernet/micrel/ks8842.c 907 */;
+	irqreturn_t cocci_id/* drivers/net/ethernet/micrel/ks8842.c 795 */;
+	u32 *cocci_id/* drivers/net/ethernet/micrel/ks8842.c 668 */;
+	u16 *cocci_id/* drivers/net/ethernet/micrel/ks8842.c 658 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/micrel/ks8842.c 651 */;
+	dma_addr_t cocci_id/* drivers/net/ethernet/micrel/ks8842.c 596 */;
+	struct scatterlist *cocci_id/* drivers/net/ethernet/micrel/ks8842.c 544 */;
+	struct ks8842_rx_dma_ctl *cocci_id/* drivers/net/ethernet/micrel/ks8842.c 543 */;
+	struct ks8842_adapter *cocci_id/* drivers/net/ethernet/micrel/ks8842.c 542 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/micrel/ks8842.c 540 */;
+	int cocci_id/* drivers/net/ethernet/micrel/ks8842.c 540 */;
+	u8 *cocci_id/* drivers/net/ethernet/micrel/ks8842.c 351 */;
+	u32 cocci_id/* drivers/net/ethernet/micrel/ks8842.c 231 */;
+	u8 cocci_id/* drivers/net/ethernet/micrel/ks8842.c 217 */;
+	u16 cocci_id/* drivers/net/ethernet/micrel/ks8842.c 200 */;
+	void cocci_id/* drivers/net/ethernet/micrel/ks8842.c 200 */;
+	void cocci_id/* drivers/net/ethernet/micrel/ks8842.c 163 */(void *data);
+	struct ks8842_adapter {
+		void __iomem *hw_addr;
+		int irq;
+		unsigned long conf_flags;
+		struct tasklet_struct tasklet;
+		spinlock_t lock;
+		struct work_struct timeout_work;
+		struct net_device *netdev;
+		struct device *dev;
+		struct ks8842_tx_dma_ctl dma_tx;
+		struct ks8842_rx_dma_ctl dma_rx;
+	} cocci_id/* drivers/net/ethernet/micrel/ks8842.c 150 */;
+	struct ks8842_rx_dma_ctl {
+		struct dma_chan *chan;
+		struct dma_async_tx_descriptor *adesc;
+		struct sk_buff *skb;
+		struct scatterlist sg;
+		struct tasklet_struct tasklet;
+		int channel;
+	} cocci_id/* drivers/net/ethernet/micrel/ks8842.c 138 */;
+	struct ks8842_tx_dma_ctl {
+		struct dma_chan *chan;
+		struct dma_async_tx_descriptor *adesc;
+		void *buf;
+		struct scatterlist sg;
+		int channel;
+	} cocci_id/* drivers/net/ethernet/micrel/ks8842.c 130 */;
+	struct platform_driver cocci_id/* drivers/net/ethernet/micrel/ks8842.c 1242 */;
+	struct ks8842_adapter cocci_id/* drivers/net/ethernet/micrel/ks8842.c 1142 */;
+	unsigned cocci_id/* drivers/net/ethernet/micrel/ks8842.c 1136 */;
+	struct ks8842_platform_data *cocci_id/* drivers/net/ethernet/micrel/ks8842.c 1134 */;
+	struct resource *cocci_id/* drivers/net/ethernet/micrel/ks8842.c 1131 */;
+	struct platform_device *cocci_id/* drivers/net/ethernet/micrel/ks8842.c 1128 */;
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/micrel/ks8842.c 1124 */;
+	const struct net_device_ops cocci_id/* drivers/net/ethernet/micrel/ks8842.c 1115 */;
+	struct work_struct *cocci_id/* drivers/net/ethernet/micrel/ks8842.c 1074 */;
+	char *cocci_id/* drivers/net/ethernet/micrel/ks8842.c 1061 */;
+	struct sockaddr *cocci_id/* drivers/net/ethernet/micrel/ks8842.c 1060 */;
+	netdev_tx_t cocci_id/* drivers/net/ethernet/micrel/ks8842.c 1030 */;
+}

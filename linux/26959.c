@@ -1,0 +1,71 @@
+cocci_test_suite() {
+	struct nfs4_string *cocci_id/* fs/nfs/nfs4idmap.c 89 */;
+	const struct nfs_server *cocci_id/* fs/nfs/nfs4idmap.c 790 */;
+	kgid_t *cocci_id/* fs/nfs/nfs4idmap.c 759 */;
+	const struct idmap *cocci_id/* fs/nfs/nfs4idmap.c 75 */;
+	struct user_namespace *cocci_id/* fs/nfs/nfs4idmap.c 75 */;
+	kuid_t *cocci_id/* fs/nfs/nfs4idmap.c 742 */;
+	struct inode *cocci_id/* fs/nfs/nfs4idmap.c 734 */;
+	struct idmap *cocci_id/* fs/nfs/nfs4idmap.c 727 */;
+	struct idmap_legacy_upcalldata cocci_id/* fs/nfs/nfs4idmap.c 725 */;
+	struct idmap_legacy_upcalldata *cocci_id/* fs/nfs/nfs4idmap.c 724 */;
+	struct rpc_pipe_msg *cocci_id/* fs/nfs/nfs4idmap.c 722 */;
+	void cocci_id/* fs/nfs/nfs4idmap.c 721 */;
+	int cocci_id/* fs/nfs/nfs4idmap.c 674 */;
+	struct idmap_msg cocci_id/* fs/nfs/nfs4idmap.c 672 */;
+	struct key *cocci_id/* fs/nfs/nfs4idmap.c 671 */;
+	struct idmap {
+		struct rpc_pipe_dir_object idmap_pdo;
+		struct rpc_pipe *idmap_pipe;
+		struct idmap_legacy_upcalldata *idmap_upcall_data;
+		struct mutex idmap_mutex;
+		const struct cred *cred;
+	} cocci_id/* fs/nfs/nfs4idmap.c 67 */;
+	struct rpc_inode *cocci_id/* fs/nfs/nfs4idmap.c 669 */;
+	struct request_key_auth *cocci_id/* fs/nfs/nfs4idmap.c 668 */;
+	const char __user *cocci_id/* fs/nfs/nfs4idmap.c 666 */;
+	struct file *cocci_id/* fs/nfs/nfs4idmap.c 666 */;
+	size_t cocci_id/* fs/nfs/nfs4idmap.c 666 */;
+	ssize_t cocci_id/* fs/nfs/nfs4idmap.c 665 */;
+	struct idmap_legacy_upcalldata {
+		struct rpc_pipe_msg pipe_msg;
+		struct idmap_msg idmap_msg;
+		struct key *authkey;
+		struct idmap *idmap;
+	} cocci_id/* fs/nfs/nfs4idmap.c 60 */;
+	struct idmap_msg *cocci_id/* fs/nfs/nfs4idmap.c 586 */;
+	const struct cred *cocci_id/* fs/nfs/nfs4idmap.c 57 */;
+	substring_t cocci_id/* fs/nfs/nfs4idmap.c 514 */;
+	struct nfs_client *cocci_id/* fs/nfs/nfs4idmap.c 495 */;
+	struct rpc_pipe *cocci_id/* fs/nfs/nfs4idmap.c 457 */;
+	const struct rpc_pipe_dir_object_ops cocci_id/* fs/nfs/nfs4idmap.c 448 */;
+	struct rpc_pipe_dir_object *cocci_id/* fs/nfs/nfs4idmap.c 435 */;
+	struct dentry *cocci_id/* fs/nfs/nfs4idmap.c 434 */;
+	const struct rpc_pipe_ops cocci_id/* fs/nfs/nfs4idmap.c 403 */;
+	void cocci_id/* fs/nfs/nfs4idmap.c 401 */(struct rpc_pipe_msg *);
+	void cocci_id/* fs/nfs/nfs4idmap.c 400 */(struct inode *);
+	ssize_t cocci_id/* fs/nfs/nfs4idmap.c 398 */(struct file *,
+						     const char __user *,
+						     size_t);
+	int cocci_id/* fs/nfs/nfs4idmap.c 397 */(struct key *, void *);
+	const match_table_t cocci_id/* fs/nfs/nfs4idmap.c 389 */;
+	enum{Opt_find_uid, Opt_find_gid, Opt_find_user, Opt_find_group, Opt_find_err,} cocci_id/* fs/nfs/nfs4idmap.c 385 */;
+	__u32 cocci_id/* fs/nfs/nfs4idmap.c 378 */;
+	long cocci_id/* fs/nfs/nfs4idmap.c 368 */;
+	char cocci_id/* fs/nfs/nfs4idmap.c 367 */[NFS_UINT_MAXLEN];
+	__u32 *cocci_id/* fs/nfs/nfs4idmap.c 365 */;
+	const struct user_key_payload *cocci_id/* fs/nfs/nfs4idmap.c 310 */;
+	void *cocci_id/* fs/nfs/nfs4idmap.c 305 */;
+	char *cocci_id/* fs/nfs/nfs4idmap.c 260 */;
+	char **cocci_id/* fs/nfs/nfs4idmap.c 258 */;
+	const char *cocci_id/* fs/nfs/nfs4idmap.c 257 */;
+	struct cred *cocci_id/* fs/nfs/nfs4idmap.c 198 */;
+	struct key_type cocci_id/* fs/nfs/nfs4idmap.c 185 */;
+	char cocci_id/* fs/nfs/nfs4idmap.c 167 */[16];
+	unsigned long cocci_id/* fs/nfs/nfs4idmap.c 166 */;
+	struct nfs_server *cocci_id/* fs/nfs/nfs4idmap.c 156 */;
+	kgid_t cocci_id/* fs/nfs/nfs4idmap.c 125 */;
+	bool cocci_id/* fs/nfs/nfs4idmap.c 122 */;
+	kuid_t cocci_id/* fs/nfs/nfs4idmap.c 111 */;
+	struct nfs_fattr *cocci_id/* fs/nfs/nfs4idmap.c 102 */;
+}

@@ -1,0 +1,75 @@
+cocci_test_suite() {
+	struct asus_touchpad_info {
+		int max_x;
+		int max_y;
+		int res_x;
+		int res_y;
+		int contact_size;
+		int max_contacts;
+	} cocci_id/* drivers/hid/hid-asus.c 98 */;
+	unsigned int *cocci_id/* drivers/hid/hid-asus.c 952 */;
+	__u8 *cocci_id/* drivers/hid/hid-asus.c 951 */;
+	const __u8 cocci_id/* drivers/hid/hid-asus.c 946 */[];
+	struct asus_kbd_leds {
+		struct led_classdev cdev;
+		struct hid_device *hdev;
+		struct work_struct work;
+		unsigned int brightness;
+		bool removed;
+	} cocci_id/* drivers/hid/hid-asus.c 90 */;
+	struct usb_interface *cocci_id/* drivers/hid/hid-asus.c 852 */;
+	const struct hid_device_id *cocci_id/* drivers/hid/hid-asus.c 824 */;
+	int __maybe_unused cocci_id/* drivers/hid/hid-asus.c 814 */;
+	const unsigned char cocci_id/* drivers/hid/hid-asus.c 790 */[];
+	int *cocci_id/* drivers/hid/hid-asus.c 663 */;
+	unsigned long **cocci_id/* drivers/hid/hid-asus.c 662 */;
+	struct input_dev *cocci_id/* drivers/hid/hid-asus.c 609 */;
+	struct hid_input *cocci_id/* drivers/hid/hid-asus.c 607 */;
+	struct power_supply_config cocci_id/* drivers/hid/hid-asus.c 572 */;
+	struct hid_device *cocci_id/* drivers/hid/hid-asus.c 569 */;
+	struct asus_drvdata *cocci_id/* drivers/hid/hid-asus.c 534 */;
+	union power_supply_propval *cocci_id/* drivers/hid/hid-asus.c 532 */;
+	enum power_supply_property cocci_id/* drivers/hid/hid-asus.c 531 */;
+	struct power_supply *cocci_id/* drivers/hid/hid-asus.c 530 */;
+	int cocci_id/* drivers/hid/hid-asus.c 530 */;
+	enum power_supply_property cocci_id/* drivers/hid/hid-asus.c 520 */[];
+	u8 *cocci_id/* drivers/hid/hid-asus.c 498 */;
+	u8 cocci_id/* drivers/hid/hid-asus.c 460 */;
+	unsigned char cocci_id/* drivers/hid/hid-asus.c 408 */;
+	u32 cocci_id/* drivers/hid/hid-asus.c 390 */;
+	bool cocci_id/* drivers/hid/hid-asus.c 388 */;
+	u8 cocci_id/* drivers/hid/hid-asus.c 371 */[];
+	struct work_struct *cocci_id/* drivers/hid/hid-asus.c 368 */;
+	struct asus_kbd_leds cocci_id/* drivers/hid/hid-asus.c 362 */;
+	struct asus_kbd_leds *cocci_id/* drivers/hid/hid-asus.c 362 */;
+	enum led_brightness cocci_id/* drivers/hid/hid-asus.c 360 */;
+	struct led_classdev *cocci_id/* drivers/hid/hid-asus.c 360 */;
+	void cocci_id/* drivers/hid/hid-asus.c 348 */;
+	unsigned char *cocci_id/* drivers/hid/hid-asus.c 317 */;
+	size_t cocci_id/* drivers/hid/hid-asus.c 286 */;
+	struct hid_report *cocci_id/* drivers/hid/hid-asus.c 273 */;
+	__s32 cocci_id/* drivers/hid/hid-asus.c 261 */;
+	struct hid_usage *cocci_id/* drivers/hid/hid-asus.c 261 */;
+	struct hid_field *cocci_id/* drivers/hid/hid-asus.c 260 */;
+	struct input_mt_slot *cocci_id/* drivers/hid/hid-asus.c 198 */;
+	struct input_mt *cocci_id/* drivers/hid/hid-asus.c 197 */;
+	const struct asus_touchpad_info cocci_id/* drivers/hid/hid-asus.c 124 */;
+	int cocci_id/* drivers/hid/hid-asus.c 122 */(struct asus_drvdata *,
+						     u8 *, int);
+	struct asus_drvdata {
+		unsigned long quirks;
+		struct hid_device *hdev;
+		struct input_dev *input;
+		struct asus_kbd_leds *kbd_backlight;
+		const struct asus_touchpad_info *tp;
+		bool enable_backlight;
+		struct power_supply *battery;
+		struct power_supply_desc battery_desc;
+		int battery_capacity;
+		int battery_stat;
+		bool battery_in_query;
+		unsigned long battery_next_query;
+	} cocci_id/* drivers/hid/hid-asus.c 107 */;
+	struct hid_driver cocci_id/* drivers/hid/hid-asus.c 1063 */;
+	const struct hid_device_id cocci_id/* drivers/hid/hid-asus.c 1031 */[];
+}

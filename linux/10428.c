@@ -1,0 +1,71 @@
+cocci_test_suite() {
+	struct drm_atomic_state *cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 98 */;
+	struct platform_driver cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 963 */;
+	const struct of_device_id cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 942 */[];
+	const struct rcar_lvds_device_info cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 911 */;
+	struct resource *cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 864 */;
+	const struct soc_device_attribute *cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 862 */;
+	struct platform_device *cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 860 */;
+	const struct soc_device_attribute cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 852 */[];
+	const char *cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 792 */;
+	struct device_node *cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 707 */;
+	struct device *cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 672 */;
+	const struct of_device_id *cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 670 */;
+	const struct drm_bridge_funcs cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 647 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 613 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 612 */;
+	struct drm_bridge *cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 609 */;
+	int cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 609 */;
+	enum rcar_lvds_mode cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 564 */;
+	struct drm_display_info *cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 563 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 545 */;
+	struct rcar_lvds {
+		struct device *dev;
+		const struct rcar_lvds_device_info *info;
+		struct drm_bridge bridge;
+		struct drm_bridge *next_bridge;
+		struct drm_connector connector;
+		struct drm_panel *panel;
+		void __iomem *mmio;
+		struct {
+			struct clk *mod;
+			struct clk *extal;
+			struct clk *dotclkin[2];
+		} clocks;
+		struct drm_display_mode display_mode;
+		enum rcar_lvds_mode mode;
+		struct drm_bridge *companion;
+		bool dual_link;
+	} cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 51 */;
+	struct rcar_lvds_device_info {
+		unsigned int gen;
+		unsigned int quirks;
+		void (*pll_setup)(struct rcar_lvds *lvds, unsigned int freq);
+	} cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 45 */;
+	enum rcar_lvds_mode{RCAR_LVDS_MODE_JEIDA=0, RCAR_LVDS_MODE_MIRROR=1, RCAR_LVDS_MODE_VESA=4,} cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 33 */;
+	u32 cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 325 */;
+	struct pll_info cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 324 */;
+	unsigned long cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 324 */;
+	bool cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 322 */;
+	unsigned int cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 322 */;
+	struct rcar_lvds *cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 321 */;
+	void cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 321 */;
+	long cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 312 */;
+	struct rcar_lvds cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 30 */;
+	struct pll_info *cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 191 */;
+	struct clk *cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 190 */;
+	struct pll_info {
+		unsigned long diff;
+		unsigned int pll_m;
+		unsigned int pll_n;
+		unsigned int pll_e;
+		unsigned int div;
+		u32 clksel;
+	} cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 181 */;
+	const struct drm_connector_funcs cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 137 */;
+	const struct drm_connector_helper_funcs cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 132 */;
+	struct drm_display_mode cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 115 */;
+	struct drm_crtc_state *cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 103 */;
+	struct drm_connector_state *cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 102 */;
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/rcar-du/rcar_lvds.c 101 */;
+}

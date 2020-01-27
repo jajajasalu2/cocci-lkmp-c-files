@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	struct perf_event *cocci_id/* kernel/bpf/arraymap.c 914 */;
+	struct bpf_event_entry cocci_id/* kernel/bpf/arraymap.c 900 */;
+	struct bpf_event_entry *cocci_id/* kernel/bpf/arraymap.c 898 */;
+	struct rcu_head *cocci_id/* kernel/bpf/arraymap.c 896 */;
+	void cocci_id/* kernel/bpf/arraymap.c 896 */;
+	struct file *cocci_id/* kernel/bpf/arraymap.c 881 */;
+	struct prog_poke_elem *cocci_id/* kernel/bpf/arraymap.c 852 */;
+	struct bpf_array *cocci_id/* kernel/bpf/arraymap.c 83 */;
+	struct bpf_array_aux *cocci_id/* kernel/bpf/arraymap.c 827 */;
+	struct bpf_map_memory cocci_id/* kernel/bpf/arraymap.c 82 */;
+	struct bpf_array_aux cocci_id/* kernel/bpf/arraymap.c 811 */;
+	u64 cocci_id/* kernel/bpf/arraymap.c 81 */;
+	struct work_struct *cocci_id/* kernel/bpf/arraymap.c 809 */;
+	u8 *cocci_id/* kernel/bpf/arraymap.c 800 */;
+	u32 cocci_id/* kernel/bpf/arraymap.c 79 */;
+	int cocci_id/* kernel/bpf/arraymap.c 78 */;
+	bool cocci_id/* kernel/bpf/arraymap.c 77 */;
+	struct bpf_jit_poke_descriptor *cocci_id/* kernel/bpf/arraymap.c 756 */;
+	union bpf_attr *cocci_id/* kernel/bpf/arraymap.c 75 */;
+	struct bpf_map *cocci_id/* kernel/bpf/arraymap.c 75 */;
+	struct bpf_prog *cocci_id/* kernel/bpf/arraymap.c 746 */;
+	struct bpf_prog_aux *cocci_id/* kernel/bpf/arraymap.c 695 */;
+	struct prog_poke_elem {
+		struct list_head list;
+		struct bpf_prog_aux *aux;
+	} cocci_id/* kernel/bpf/arraymap.c 689 */;
+	void **cocci_id/* kernel/bpf/arraymap.c 553 */;
+	const struct bpf_map_ops cocci_id/* kernel/bpf/arraymap.c 492 */;
+	pgoff_t cocci_id/* kernel/bpf/arraymap.c 484 */;
+	struct vm_area_struct *cocci_id/* kernel/bpf/arraymap.c 481 */;
+	u32 *cocci_id/* kernel/bpf/arraymap.c 471 */;
+	const struct btf_type *cocci_id/* kernel/bpf/arraymap.c 451 */;
+	const struct btf *cocci_id/* kernel/bpf/arraymap.c 450 */;
+	const struct bpf_map *cocci_id/* kernel/bpf/arraymap.c 449 */;
+	struct seq_file *cocci_id/* kernel/bpf/arraymap.c 406 */;
+	void __percpu *cocci_id/* kernel/bpf/arraymap.c 31 */;
+	char *cocci_id/* kernel/bpf/arraymap.c 303 */;
+	const int cocci_id/* kernel/bpf/arraymap.c 216 */;
+	struct bpf_insn *cocci_id/* kernel/bpf/arraymap.c 211 */;
+	unsigned long cocci_id/* kernel/bpf/arraymap.c 190 */;
+	u64 *cocci_id/* kernel/bpf/arraymap.c 180 */;
+	struct bpf_array cocci_id/* kernel/bpf/arraymap.c 142 */;
+	void *cocci_id/* kernel/bpf/arraymap.c 110 */;
+	struct bpf_map **cocci_id/* kernel/bpf/arraymap.c 1034 */;
+}

@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct clk_hw *cocci_id/* drivers/clk/mvebu/dove-divider.c 99 */;
+	unsigned int cocci_id/* drivers/clk/mvebu/dove-divider.c 70 */;
+	bool cocci_id/* drivers/clk/mvebu/dove-divider.c 68 */;
+	const struct dove_clk *cocci_id/* drivers/clk/mvebu/dove-divider.c 67 */;
+	unsigned long cocci_id/* drivers/clk/mvebu/dove-divider.c 67 */;
+	int cocci_id/* drivers/clk/mvebu/dove-divider.c 67 */;
+	u32 cocci_id/* drivers/clk/mvebu/dove-divider.c 54 */;
+	void cocci_id/* drivers/clk/mvebu/dove-divider.c 37 */;
+	struct dove_clk cocci_id/* drivers/clk/mvebu/dove-divider.c 35 */;
+	enum{DIV_CTRL0=0, DIV_CTRL1=4, DIV_CTRL1_N_RESET_MASK=BIT(10),} cocci_id/* drivers/clk/mvebu/dove-divider.c 29 */;
+	struct device_node *cocci_id/* drivers/clk/mvebu/dove-divider.c 248 */;
+	void __init cocci_id/* drivers/clk/mvebu/dove-divider.c 248 */;
+	struct clk_onecell_data cocci_id/* drivers/clk/mvebu/dove-divider.c 243 */;
+	struct clk *cocci_id/* drivers/clk/mvebu/dove-divider.c 241 */[4];
+	struct clk **cocci_id/* drivers/clk/mvebu/dove-divider.c 220 */;
+	const char *cocci_id/* drivers/clk/mvebu/dove-divider.c 215 */[];
+	struct dove_clk cocci_id/* drivers/clk/mvebu/dove-divider.c 186 */[4];
+	u32 cocci_id/* drivers/clk/mvebu/dove-divider.c 184 */[];
+	struct dove_clk {
+		const char *name;
+		struct clk_hw hw;
+		void __iomem *base;
+		spinlock_t *lock;
+		u8 div_bit_start;
+		u8 div_bit_end;
+		u8 div_bit_load;
+		u8 div_bit_size;
+		u32 *divider_table;
+	} cocci_id/* drivers/clk/mvebu/dove-divider.c 17 */;
+	struct clk_init_data cocci_id/* drivers/clk/mvebu/dove-divider.c 166 */;
+	char cocci_id/* drivers/clk/mvebu/dove-divider.c 165 */[32];
+	void __iomem *cocci_id/* drivers/clk/mvebu/dove-divider.c 163 */;
+	struct dove_clk *cocci_id/* drivers/clk/mvebu/dove-divider.c 162 */;
+	const char **cocci_id/* drivers/clk/mvebu/dove-divider.c 162 */;
+	size_t cocci_id/* drivers/clk/mvebu/dove-divider.c 162 */;
+	struct device *cocci_id/* drivers/clk/mvebu/dove-divider.c 161 */;
+	struct clk *cocci_id/* drivers/clk/mvebu/dove-divider.c 161 */;
+	const struct clk_ops cocci_id/* drivers/clk/mvebu/dove-divider.c 155 */;
+	unsigned long *cocci_id/* drivers/clk/mvebu/dove-divider.c 112 */;
+	long cocci_id/* drivers/clk/mvebu/dove-divider.c 111 */;
+}

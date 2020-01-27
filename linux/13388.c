@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct i2c_driver cocci_id/* drivers/media/tuners/e4000.c 730 */;
+	const struct i2c_device_id cocci_id/* drivers/media/tuners/e4000.c 724 */[];
+	const struct regmap_config cocci_id/* drivers/media/tuners/e4000.c 620 */;
+	struct e4000_config *cocci_id/* drivers/media/tuners/e4000.c 616 */;
+	const struct i2c_device_id *cocci_id/* drivers/media/tuners/e4000.c 613 */;
+	const struct dvb_tuner_ops cocci_id/* drivers/media/tuners/e4000.c 598 */;
+	u32 *cocci_id/* drivers/media/tuners/e4000.c 592 */;
+	struct dvb_frontend *cocci_id/* drivers/media/tuners/e4000.c 592 */;
+	int cocci_id/* drivers/media/tuners/e4000.c 592 */;
+	struct dtv_frontend_properties *cocci_id/* drivers/media/tuners/e4000.c 575 */;
+	struct e4000_dev *cocci_id/* drivers/media/tuners/e4000.c 574 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/tuners/e4000.c 563 */;
+	struct e4000_dev cocci_id/* drivers/media/tuners/e4000.c 502 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/tuners/e4000.c 500 */;
+	unsigned int cocci_id/* drivers/media/tuners/e4000.c 486 */;
+	u8 cocci_id/* drivers/media/tuners/e4000.c 448 */;
+	u8 cocci_id/* drivers/media/tuners/e4000.c 447 */[2];
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/tuners/e4000.c 370 */;
+	const struct v4l2_subdev_tuner_ops cocci_id/* drivers/media/tuners/e4000.c 361 */;
+	struct i2c_client *cocci_id/* drivers/media/tuners/e4000.c 347 */;
+	struct v4l2_frequency_band *cocci_id/* drivers/media/tuners/e4000.c 344 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/tuners/e4000.c 343 */;
+	const struct v4l2_frequency *cocci_id/* drivers/media/tuners/e4000.c 330 */;
+	struct v4l2_frequency *cocci_id/* drivers/media/tuners/e4000.c 319 */;
+	const struct v4l2_tuner *cocci_id/* drivers/media/tuners/e4000.c 310 */;
+	struct v4l2_tuner *cocci_id/* drivers/media/tuners/e4000.c 295 */;
+	const struct v4l2_frequency_band cocci_id/* drivers/media/tuners/e4000.c 261 */[];
+	u8 cocci_id/* drivers/media/tuners/e4000.c 103 */[5];
+	u64 cocci_id/* drivers/media/tuners/e4000.c 102 */;
+}

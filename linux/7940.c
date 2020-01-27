@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct usb_driver cocci_id/* drivers/net/usb/dm9601.c 633 */;
+	u16 cocci_id/* drivers/net/usb/dm9601.c 61 */;
+	unsigned long cocci_id/* drivers/net/usb/dm9601.c 574 */;
+	const struct usb_device_id cocci_id/* drivers/net/usb/dm9601.c 571 */[];
+	const struct driver_info cocci_id/* drivers/net/usb/dm9601.c 560 */;
+	struct ethtool_cmd cocci_id/* drivers/net/usb/dm9601.c 549 */;
+	struct urb *cocci_id/* drivers/net/usb/dm9601.c 519 */;
+	gfp_t cocci_id/* drivers/net/usb/dm9601.c 473 */;
+	struct sk_buff *cocci_id/* drivers/net/usb/dm9601.c 436 */;
+	u8 cocci_id/* drivers/net/usb/dm9601.c 410 */;
+	u8 cocci_id/* drivers/net/usb/dm9601.c 356 */[ETH_ALEN];
+	struct usb_interface *cocci_id/* drivers/net/usb/dm9601.c 353 */;
+	int cocci_id/* drivers/net/usb/dm9601.c 353 */;
+	const struct net_device_ops cocci_id/* drivers/net/usb/dm9601.c 340 */;
+	struct sockaddr *cocci_id/* drivers/net/usb/dm9601.c 325 */;
+	void *cocci_id/* drivers/net/usb/dm9601.c 323 */;
+	struct usbnet *cocci_id/* drivers/net/usb/dm9601.c 318 */;
+	void cocci_id/* drivers/net/usb/dm9601.c 318 */;
+	struct netdev_hw_addr *cocci_id/* drivers/net/usb/dm9601.c 306 */;
+	const struct ethtool_ops cocci_id/* drivers/net/usb/dm9601.c 277 */;
+	struct ifreq *cocci_id/* drivers/net/usb/dm9601.c 270 */;
+	u32 cocci_id/* drivers/net/usb/dm9601.c 263 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/usb/dm9601.c 257 */;
+	struct net_device *cocci_id/* drivers/net/usb/dm9601.c 256 */;
+	__le16 cocci_id/* drivers/net/usb/dm9601.c 223 */;
+	__le16 *cocci_id/* drivers/net/usb/dm9601.c 204 */;
+	u8 *cocci_id/* drivers/net/usb/dm9601.c 201 */;
+	struct ethtool_eeprom *cocci_id/* drivers/net/usb/dm9601.c 201 */;
+}

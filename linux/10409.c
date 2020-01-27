@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	drm_i810_clear_t *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 960 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 958 */;
+	void *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 957 */;
+	struct vm_area_struct *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 94 */;
+	struct file *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 94 */;
+	drm_i810_vertex_t *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 937 */;
+	struct drm_clip_rect *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 599 */;
+	drm_i810_sarea_t *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 564 */;
+	unsigned int cocci_id/* drivers/gpu/drm/i810/i810_dma.c 465 */;
+	int cocci_id/* drivers/gpu/drm/i810/i810_dma.c 464 */;
+	drm_i810_private_t *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 463 */;
+	volatile unsigned int *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 461 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 460 */;
+	void cocci_id/* drivers/gpu/drm/i810/i810_dma.c 460 */;
+	drm_i810_private_t cocci_id/* drivers/gpu/drm/i810/i810_dma.c 437 */;
+	drm_i810_init_t *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 431 */;
+	u8 *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 359 */;
+	struct drm_map_list *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 325 */;
+	drm_i810_ring_buffer_t *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 277 */;
+	drm_i810_buf_priv_t *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 232 */;
+	struct drm_buf *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 231 */;
+	struct drm_device_dma *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 206 */;
+	drm_i810_dma_t *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 174 */;
+	size_t cocci_id/* drivers/gpu/drm/i810/i810_dma.c 166 */;
+	const struct file_operations *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 132 */;
+	const struct drm_ioctl_desc cocci_id/* drivers/gpu/drm/i810/i810_dma.c 1248 */[];
+	const struct file_operations cocci_id/* drivers/gpu/drm/i810/i810_dma.c 118 */;
+	drm_i810_overlay_t *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 1128 */;
+	drm_i810_mc_t *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 1100 */;
+	u32 *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 1066 */;
+	char *cocci_id/* drivers/gpu/drm/i810/i810_dma.c 1066 */;
+	unsigned long cocci_id/* drivers/gpu/drm/i810/i810_dma.c 1040 */;
+}

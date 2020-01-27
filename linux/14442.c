@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* drivers/media/radio/radio-ma901.c 95 */;
+	struct ma901radio_device cocci_id/* drivers/media/radio/radio-ma901.c 89 */;
+	struct v4l2_device *cocci_id/* drivers/media/radio/radio-ma901.c 87 */;
+	struct ma901radio_device {
+		struct usb_device *usbdev;
+		struct usb_interface *intf;
+		struct video_device vdev;
+		struct v4l2_device v4l2_dev;
+		struct v4l2_ctrl_handler hdl;
+		u8 *buffer;
+		struct mutex lock;
+		int curfreq;
+		u16 volume;
+		int stereo;
+		bool muted;
+	} cocci_id/* drivers/media/radio/radio-ma901.c 71 */;
+	struct usb_driver cocci_id/* drivers/media/radio/radio-ma901.c 446 */;
+	const struct usb_device_id cocci_id/* drivers/media/radio/radio-ma901.c 437 */[];
+	struct usb_device *cocci_id/* drivers/media/radio/radio-ma901.c 335 */;
+	const struct usb_device_id *cocci_id/* drivers/media/radio/radio-ma901.c 333 */;
+	const struct v4l2_ioctl_ops cocci_id/* drivers/media/radio/radio-ma901.c 310 */;
+	const struct v4l2_file_operations cocci_id/* drivers/media/radio/radio-ma901.c 302 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/radio/radio-ma901.c 297 */;
+	pm_message_t cocci_id/* drivers/media/radio/radio-ma901.c 287 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/radio/radio-ma901.c 269 */;
+	struct v4l2_frequency *cocci_id/* drivers/media/radio/radio-ma901.c 258 */;
+	struct file *cocci_id/* drivers/media/radio/radio-ma901.c 257 */;
+	void *cocci_id/* drivers/media/radio/radio-ma901.c 257 */;
+	unsigned cocci_id/* drivers/media/radio/radio-ma901.c 252 */;
+	const struct v4l2_frequency *cocci_id/* drivers/media/radio/radio-ma901.c 245 */;
+	const struct v4l2_tuner *cocci_id/* drivers/media/radio/radio-ma901.c 227 */;
+	struct v4l2_tuner *cocci_id/* drivers/media/radio/radio-ma901.c 199 */;
+	struct v4l2_capability *cocci_id/* drivers/media/radio/radio-ma901.c 187 */;
+	struct usb_interface *cocci_id/* drivers/media/radio/radio-ma901.c 173 */;
+	void cocci_id/* drivers/media/radio/radio-ma901.c 173 */;
+	u8 cocci_id/* drivers/media/radio/radio-ma901.c 140 */;
+	struct ma901radio_device *cocci_id/* drivers/media/radio/radio-ma901.c 140 */;
+	int cocci_id/* drivers/media/radio/radio-ma901.c 140 */;
+	u16 cocci_id/* drivers/media/radio/radio-ma901.c 117 */;
+}

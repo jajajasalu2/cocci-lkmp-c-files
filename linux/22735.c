@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct pnp_dev *cocci_id/* sound/isa/wavefront/wavefront.c 92 */;
+	const struct pnp_card_device_id *cocci_id/* sound/isa/wavefront/wavefront.c 90 */;
+	struct pnp_card_link *cocci_id/* sound/isa/wavefront/wavefront.c 89 */;
+	const struct pnp_card_device_id cocci_id/* sound/isa/wavefront/wavefront.c 78 */[];
+	void __exit cocci_id/* sound/isa/wavefront/wavefront.c 658 */;
+	void cocci_id/* sound/isa/wavefront/wavefront.c 658 */;
+	int cocci_id/* sound/isa/wavefront/wavefront.c 641 */;
+	int __init cocci_id/* sound/isa/wavefront/wavefront.c 639 */;
+	struct pnp_card_driver cocci_id/* sound/isa/wavefront/wavefront.c 628 */;
+	struct isa_driver cocci_id/* sound/isa/wavefront/wavefront.c 576 */;
+	unsigned int cocci_id/* sound/isa/wavefront/wavefront.c 530 */;
+	long cocci_id/* sound/isa/wavefront/wavefront.c 53 */;
+	bool cocci_id/* sound/isa/wavefront/wavefront.c 47 */;
+	struct snd_opl3 *cocci_id/* sound/isa/wavefront/wavefront.c 381 */;
+	struct snd_wss *cocci_id/* sound/isa/wavefront/wavefront.c 353 */;
+	int cocci_id/* sound/isa/wavefront/wavefront.c 35 */[SNDRV_CARDS];
+	long cocci_id/* sound/isa/wavefront/wavefront.c 34 */[SNDRV_CARDS];
+	snd_wavefront_card_t cocci_id/* sound/isa/wavefront/wavefront.c 332 */;
+	snd_wavefront_card_t *cocci_id/* sound/isa/wavefront/wavefront.c 328 */;
+	struct snd_card *cocci_id/* sound/isa/wavefront/wavefront.c 327 */;
+	struct snd_card **cocci_id/* sound/isa/wavefront/wavefront.c 325 */;
+	struct device *cocci_id/* sound/isa/wavefront/wavefront.c 324 */;
+	void *cocci_id/* sound/isa/wavefront/wavefront.c 320 */;
+	bool cocci_id/* sound/isa/wavefront/wavefront.c 28 */[SNDRV_CARDS];
+	struct snd_rawmidi *cocci_id/* sound/isa/wavefront/wavefront.c 272 */;
+	snd_wavefront_mpu_id cocci_id/* sound/isa/wavefront/wavefront.c 270 */;
+	char *cocci_id/* sound/isa/wavefront/wavefront.c 27 */[SNDRV_CARDS];
+	unsigned long cocci_id/* sound/isa/wavefront/wavefront.c 249 */;
+	struct snd_hwdep *cocci_id/* sound/isa/wavefront/wavefront.c 246 */;
+	irqreturn_t cocci_id/* sound/isa/wavefront/wavefront.c 204 */;
+}

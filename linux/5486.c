@@ -1,0 +1,61 @@
+cocci_test_suite() {
+	struct s3c24xx_spi_devstate *cocci_id/* drivers/spi/spi-s3c24xx.c 95 */;
+	struct spi_device *cocci_id/* drivers/spi/spi-s3c24xx.c 93 */;
+	void cocci_id/* drivers/spi/spi-s3c24xx.c 93 */;
+	struct s3c2410_spi_info *cocci_id/* drivers/spi/spi-s3c24xx.c 88 */;
+	struct platform_driver cocci_id/* drivers/spi/spi-s3c24xx.c 653 */;
+	const struct dev_pm_ops cocci_id/* drivers/spi/spi-s3c24xx.c 642 */;
+	struct device *cocci_id/* drivers/spi/spi-s3c24xx.c 634 */;
+	struct s3c24xx_spi {
+		struct spi_bitbang bitbang;
+		struct completion done;
+		void __iomem *regs;
+		int irq;
+		int len;
+		int count;
+		struct fiq_handler fiq_handler;
+		enum spi_fiq_mode fiq_mode;
+		unsigned char fiq_inuse;
+		unsigned char fiq_claimed;
+		void (*set_cs)(struct s3c2410_spi_info *spi, int cs, int pol);
+		const unsigned char *tx;
+		unsigned char *rx;
+		struct clk *clk;
+		struct spi_master *master;
+		struct spi_device *curdev;
+		struct device *dev;
+		struct s3c2410_spi_info *pdata;
+	} cocci_id/* drivers/spi/spi-s3c24xx.c 51 */;
+	struct s3c24xx_spi cocci_id/* drivers/spi/spi-s3c24xx.c 492 */;
+	struct spi_master *cocci_id/* drivers/spi/spi-s3c24xx.c 489 */;
+	struct platform_device *cocci_id/* drivers/spi/spi-s3c24xx.c 485 */;
+	enum spi_fiq_mode{FIQ_MODE_NONE=0, FIQ_MODE_TX=1, FIQ_MODE_RX=2, FIQ_MODE_TXRX=3,} cocci_id/* drivers/spi/spi-s3c24xx.c 44 */;
+	irqreturn_t cocci_id/* drivers/spi/spi-s3c24xx.c 420 */;
+	bool cocci_id/* drivers/spi/spi-s3c24xx.c 373 */;
+	struct s3c24xx_spi_devstate {
+		unsigned int hz;
+		unsigned int mode;
+		u8 spcon;
+		u8 sppre;
+	} cocci_id/* drivers/spi/spi-s3c24xx.c 37 */;
+	void *cocci_id/* drivers/spi/spi-s3c24xx.c 332 */;
+	u32 *cocci_id/* drivers/spi/spi-s3c24xx.c 291 */;
+	long cocci_id/* drivers/spi/spi-s3c24xx.c 282 */;
+	struct spi_fiq_code *cocci_id/* drivers/spi/spi-s3c24xx.c 263 */;
+	enum spi_fiq_mode cocci_id/* drivers/spi/spi-s3c24xx.c 262 */;
+	struct pt_regs cocci_id/* drivers/spi/spi-s3c24xx.c 261 */;
+	u32 cocci_id/* drivers/spi/spi-s3c24xx.c 243 */;
+	unsigned int cocci_id/* drivers/spi/spi-s3c24xx.c 243 */;
+	struct spi_fiq_code cocci_id/* drivers/spi/spi-s3c24xx.c 235 */;
+	struct spi_fiq_code {
+		u32 length;
+		u32 ack_offset;
+		u8 data[0];
+	} cocci_id/* drivers/spi/spi-s3c24xx.c 227 */;
+	struct s3c24xx_spi *cocci_id/* drivers/spi/spi-s3c24xx.c 207 */;
+	int cocci_id/* drivers/spi/spi-s3c24xx.c 207 */;
+	struct s3c24xx_spi_devstate cocci_id/* drivers/spi/spi-s3c24xx.c 182 */;
+	struct spi_transfer *cocci_id/* drivers/spi/spi-s3c24xx.c 160 */;
+	u8 cocci_id/* drivers/spi/spi-s3c24xx.c 130 */;
+	unsigned long cocci_id/* drivers/spi/spi-s3c24xx.c 122 */;
+}

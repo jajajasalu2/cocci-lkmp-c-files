@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 85 */;
+	struct x509_parse_context cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 80 */;
+	struct public_key_signature cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 77 */;
+	struct public_key cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 74 */;
+	struct x509_certificate cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 71 */;
+	long cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 68 */;
+	struct asymmetric_key_id *cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 634 */;
+	struct x509_parse_context *cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 633 */;
+	const void *cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 631 */;
+	unsigned char cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 630 */;
+	struct x509_certificate *cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 63 */;
+	void *cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 629 */;
+	int cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 629 */;
+	size_t cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 629 */;
+	unsigned cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 540 */;
+	const unsigned char cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 537 */[];
+	const unsigned char *cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 535 */;
+	time64_t *cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 533 */;
+	const u8 *cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 463 */;
+	void cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 46 */;
+	char *cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 334 */;
+	char **cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 330 */;
+	struct x509_parse_context {
+		struct x509_certificate *cert;
+		unsigned long data;
+		const void *cert_start;
+		const void *key;
+		size_t key_size;
+		const void *params;
+		size_t params_size;
+		enum OID key_algo;
+		enum OID last_oid;
+		enum OID algo_oid;
+		unsigned char nr_mpi;
+		u8 o_size;
+		u8 cn_size;
+		u8 email_size;
+		u16 o_offset;
+		u16 cn_offset;
+		u16 email_offset;
+		unsigned raw_akid_size;
+		const void *raw_akid;
+		const void *akid_raw_issuer;
+		unsigned akid_raw_issuer_size;
+	} cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 19 */;
+	char cocci_id/* crypto/asymmetric_keys/x509_cert_parser.c 163 */[50];
+}

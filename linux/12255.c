@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/imx/parallel-display.c 63 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/imx/parallel-display.c 42 */;
+	struct imx_parallel_display cocci_id/* drivers/gpu/drm/imx/parallel-display.c 39 */;
+	struct imx_parallel_display *cocci_id/* drivers/gpu/drm/imx/parallel-display.c 37 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/imx/parallel-display.c 37 */;
+	struct platform_driver cocci_id/* drivers/gpu/drm/imx/parallel-display.c 279 */;
+	const struct of_device_id cocci_id/* drivers/gpu/drm/imx/parallel-display.c 273 */[];
+	struct platform_device *cocci_id/* drivers/gpu/drm/imx/parallel-display.c 261 */;
+	const struct component_ops cocci_id/* drivers/gpu/drm/imx/parallel-display.c 256 */;
+	struct imx_parallel_display {
+		struct drm_connector connector;
+		struct drm_encoder encoder;
+		struct device *dev;
+		void *edid;
+		int edid_len;
+		u32 bus_format;
+		u32 bus_flags;
+		struct drm_display_mode mode;
+		struct drm_panel *panel;
+		struct drm_bridge *bridge;
+	} cocci_id/* drivers/gpu/drm/imx/parallel-display.c 24 */;
+	const char *cocci_id/* drivers/gpu/drm/imx/parallel-display.c 206 */;
+	u32 cocci_id/* drivers/gpu/drm/imx/parallel-display.c 205 */;
+	const u8 *cocci_id/* drivers/gpu/drm/imx/parallel-display.c 202 */;
+	struct device_node *cocci_id/* drivers/gpu/drm/imx/parallel-display.c 201 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/imx/parallel-display.c 200 */;
+	struct device *cocci_id/* drivers/gpu/drm/imx/parallel-display.c 198 */;
+	void *cocci_id/* drivers/gpu/drm/imx/parallel-display.c 198 */;
+	int cocci_id/* drivers/gpu/drm/imx/parallel-display.c 198 */;
+	const struct drm_encoder_helper_funcs cocci_id/* drivers/gpu/drm/imx/parallel-display.c 146 */;
+	const struct drm_encoder_funcs cocci_id/* drivers/gpu/drm/imx/parallel-display.c 142 */;
+	const struct drm_connector_helper_funcs cocci_id/* drivers/gpu/drm/imx/parallel-display.c 137 */;
+	const struct drm_connector_funcs cocci_id/* drivers/gpu/drm/imx/parallel-display.c 129 */;
+	struct drm_display_info *cocci_id/* drivers/gpu/drm/imx/parallel-display.c 113 */;
+	struct imx_crtc_state *cocci_id/* drivers/gpu/drm/imx/parallel-display.c 112 */;
+	struct drm_connector_state *cocci_id/* drivers/gpu/drm/imx/parallel-display.c 110 */;
+	struct drm_crtc_state *cocci_id/* drivers/gpu/drm/imx/parallel-display.c 109 */;
+	void cocci_id/* drivers/gpu/drm/imx/parallel-display.c 100 */;
+}

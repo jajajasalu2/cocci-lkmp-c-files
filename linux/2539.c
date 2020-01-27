@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct dm_verity_fec_io cocci_id/* drivers/md/dm-verity-fec.c 812 */;
+	struct dm_target *cocci_id/* drivers/md/dm-verity-fec.c 675 */;
+	struct dm_verity_fec *cocci_id/* drivers/md/dm-verity-fec.c 674 */;
+	struct dm_verity_fec cocci_id/* drivers/md/dm-verity-fec.c 658 */;
+	struct dm_buffer **cocci_id/* drivers/md/dm-verity-fec.c 62 */;
+	unsigned *cocci_id/* drivers/md/dm-verity-fec.c 62 */;
+	char cocci_id/* drivers/md/dm-verity-fec.c 599 */;
+	unsigned char cocci_id/* drivers/md/dm-verity-fec.c 598 */;
+	const char *cocci_id/* drivers/md/dm-verity-fec.c 592 */;
+	struct dm_arg_set *cocci_id/* drivers/md/dm-verity-fec.c 591 */;
+	struct rs_control *cocci_id/* drivers/md/dm-verity-fec.c 577 */;
+	gfp_t cocci_id/* drivers/md/dm-verity-fec.c 568 */;
+	void *cocci_id/* drivers/md/dm-verity-fec.c 568 */;
+	char *cocci_id/* drivers/md/dm-verity-fec.c 527 */;
+	uint16_t cocci_id/* drivers/md/dm-verity-fec.c 48 */[DM_VERITY_FEC_RSM - DM_VERITY_FEC_MIN_RSN];
+	struct bvec_iter *cocci_id/* drivers/md/dm-verity-fec.c 421 */;
+	sector_t cocci_id/* drivers/md/dm-verity-fec.c 420 */;
+	enum verity_block_type cocci_id/* drivers/md/dm-verity-fec.c 420 */;
+	size_t cocci_id/* drivers/md/dm-verity-fec.c 405 */;
+	struct dm_verity_io *cocci_id/* drivers/md/dm-verity-fec.c 404 */;
+	bool cocci_id/* drivers/md/dm-verity-fec.c 363 */;
+	u32 cocci_id/* drivers/md/dm-verity-fec.c 35 */;
+	void cocci_id/* drivers/md/dm-verity-fec.c 346 */;
+	unsigned cocci_id/* drivers/md/dm-verity-fec.c 308 */;
+	struct dm_verity_fec_io *cocci_id/* drivers/md/dm-verity-fec.c 306 */;
+	struct dm_verity *cocci_id/* drivers/md/dm-verity-fec.c 306 */;
+	int cocci_id/* drivers/md/dm-verity-fec.c 306 */;
+	u8 cocci_id/* drivers/md/dm-verity-fec.c 211 */[HASH_MAX_DIGESTSIZE];
+	struct dm_bufio_client *cocci_id/* drivers/md/dm-verity-fec.c 207 */;
+	int *cocci_id/* drivers/md/dm-verity-fec.c 202 */;
+	unsigned long long cocci_id/* drivers/md/dm-verity-fec.c 173 */;
+	struct dm_buffer *cocci_id/* drivers/md/dm-verity-fec.c 129 */;
+	u64 cocci_id/* drivers/md/dm-verity-fec.c 125 */;
+	u8 *cocci_id/* drivers/md/dm-verity-fec.c 104 */;
+}

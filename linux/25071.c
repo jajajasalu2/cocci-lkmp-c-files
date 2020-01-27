@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	size_t cocci_id/* net/mac80211/agg-tx.c 922 */;
+	struct ieee80211_mgmt *cocci_id/* net/mac80211/agg-tx.c 921 */;
+	const u8 *cocci_id/* net/mac80211/agg-tx.c 763 */;
+	struct sta_info **cocci_id/* net/mac80211/agg-tx.c 763 */;
+	struct sk_buff *cocci_id/* net/mac80211/agg-tx.c 67 */;
+	struct tid_ampdu_tx cocci_id/* net/mac80211/agg-tx.c 666 */;
+	u8 cocci_id/* net/mac80211/agg-tx.c 63 */;
+	struct sta_info cocci_id/* net/mac80211/agg-tx.c 569 */;
+	struct ieee80211_sta *cocci_id/* net/mac80211/agg-tx.c 566 */;
+	struct timer_list *cocci_id/* net/mac80211/agg-tx.c 431 */;
+	struct ieee80211_ampdu_params cocci_id/* net/mac80211/agg-tx.c 303 */;
+	struct tid_ampdu_tx *cocci_id/* net/mac80211/agg-tx.c 302 */;
+	struct ieee80211_local *cocci_id/* net/mac80211/agg-tx.c 301 */;
+	enum ieee80211_agg_stop_reason cocci_id/* net/mac80211/agg-tx.c 299 */;
+	u16 cocci_id/* net/mac80211/agg-tx.c 298 */;
+	struct sta_info *cocci_id/* net/mac80211/agg-tx.c 298 */;
+	int cocci_id/* net/mac80211/agg-tx.c 298 */;
+	struct ieee80211_sub_if_data *cocci_id/* net/mac80211/agg-tx.c 263 */;
+	void __releases(agg_queue) cocci_id/* net/mac80211/agg-tx.c 262 */;
+	unsigned long cocci_id/* net/mac80211/agg-tx.c 244 */;
+	void __acquires(agg_queue) cocci_id/* net/mac80211/agg-tx.c 238 */;
+	struct txq_info *cocci_id/* net/mac80211/agg-tx.c 214 */;
+	struct ieee80211_txq *cocci_id/* net/mac80211/agg-tx.c 213 */;
+	bool cocci_id/* net/mac80211/agg-tx.c 211 */;
+	void cocci_id/* net/mac80211/agg-tx.c 210 */;
+	struct fq *cocci_id/* net/mac80211/agg-tx.c 194 */;
+	struct ieee80211_bar *cocci_id/* net/mac80211/agg-tx.c 117 */;
+	u8 *cocci_id/* net/mac80211/agg-tx.c 112 */;
+	struct ieee80211_vif *cocci_id/* net/mac80211/agg-tx.c 112 */;
+}

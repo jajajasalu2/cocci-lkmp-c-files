@@ -1,0 +1,80 @@
+cocci_test_suite() {
+	struct netdev_hw_addr *cocci_id/* drivers/net/ethernet/apple/bmac.c 969 */;
+	unsigned char cocci_id/* drivers/net/ethernet/apple/bmac.c 872 */;
+	unsigned short *cocci_id/* drivers/net/ethernet/apple/bmac.c 868 */;
+	unsigned short cocci_id/* drivers/net/ethernet/apple/bmac.c 865 */;
+	unsigned int cocci_id/* drivers/net/ethernet/apple/bmac.c 864 */;
+	struct bmac_data *cocci_id/* drivers/net/ethernet/apple/bmac.c 862 */;
+	unsigned char *cocci_id/* drivers/net/ethernet/apple/bmac.c 862 */;
+	void cocci_id/* drivers/net/ethernet/apple/bmac.c 861 */;
+	int cocci_id/* drivers/net/ethernet/apple/bmac.c 804 */[64];
+	struct dbdma_cmd cocci_id/* drivers/net/ethernet/apple/bmac.c 614 */;
+	char *cocci_id/* drivers/net/ethernet/apple/bmac.c 613 */;
+	struct bmac_data {
+		struct sk_buff_head *queue;
+		volatile struct dbdma_regs __iomem *tx_dma;
+		int tx_dma_intr;
+		volatile struct dbdma_regs __iomem *rx_dma;
+		int rx_dma_intr;
+		volatile struct dbdma_cmd *tx_cmds;
+		volatile struct dbdma_cmd *rx_cmds;
+		struct macio_dev *mdev;
+		int is_bmac_plus;
+		struct sk_buff *rx_bufs[N_RX_RING];
+		int rx_fill;
+		int rx_empty;
+		struct sk_buff *tx_bufs[N_TX_RING];
+		int tx_fill;
+		int tx_empty;
+		unsigned char tx_fullup;
+		struct timer_list tx_timeout;
+		int timeout_active;
+		int sleeping;
+		int opened;
+		unsigned short hash_use_count[64];
+		unsigned short hash_table_mask[4];
+		spinlock_t lock;
+	} cocci_id/* drivers/net/ethernet/apple/bmac.c 59 */;
+	volatile struct dbdma_cmd *cocci_id/* drivers/net/ethernet/apple/bmac.c 575 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/apple/bmac.c 575 */;
+	unsigned long cocci_id/* drivers/net/ethernet/apple/bmac.c 564 */;
+	void *cocci_id/* drivers/net/ethernet/apple/bmac.c 563 */;
+	pm_message_t cocci_id/* drivers/net/ethernet/apple/bmac.c 453 */;
+	volatile unsigned short cocci_id/* drivers/net/ethernet/apple/bmac.c 310 */;
+	unsigned cocci_id/* drivers/net/ethernet/apple/bmac.c 210 */;
+	__u32 cocci_id/* drivers/net/ethernet/apple/bmac.c 173 */;
+	volatile __u32 __iomem *cocci_id/* drivers/net/ethernet/apple/bmac.c 171 */;
+	void __exit cocci_id/* drivers/net/ethernet/apple/bmac.c 1659 */;
+	int __init cocci_id/* drivers/net/ethernet/apple/bmac.c 1648 */;
+	struct macio_driver cocci_id/* drivers/net/ethernet/apple/bmac.c 1632 */;
+	const struct of_device_id cocci_id/* drivers/net/ethernet/apple/bmac.c 1617 */[];
+	netdev_tx_t cocci_id/* drivers/net/ethernet/apple/bmac.c 158 */(struct sk_buff *skb,
+									struct net_device *dev);
+	void cocci_id/* drivers/net/ethernet/apple/bmac.c 157 */(struct timer_list *t);
+	irqreturn_t cocci_id/* drivers/net/ethernet/apple/bmac.c 153 */(int irq,
+									void *dev_id);
+	int cocci_id/* drivers/net/ethernet/apple/bmac.c 152 */(struct net_device *dev,
+								void *addr);
+	void cocci_id/* drivers/net/ethernet/apple/bmac.c 151 */(struct net_device *dev);
+	struct timer_list *cocci_id/* drivers/net/ethernet/apple/bmac.c 1469 */;
+	netdev_tx_t cocci_id/* drivers/net/ethernet/apple/bmac.c 1460 */;
+	int cocci_id/* drivers/net/ethernet/apple/bmac.c 145 */(struct sk_buff *skb,
+								struct net_device *dev);
+	int cocci_id/* drivers/net/ethernet/apple/bmac.c 144 */(struct net_device *dev);
+	struct sk_buff_head cocci_id/* drivers/net/ethernet/apple/bmac.c 141 */;
+	volatile struct dbdma_regs __iomem *cocci_id/* drivers/net/ethernet/apple/bmac.c 1390 */;
+	struct bmac_data cocci_id/* drivers/net/ethernet/apple/bmac.c 139 */;
+	int cocci_id/* drivers/net/ethernet/apple/bmac.c 1387 */;
+	void __iomem *cocci_id/* drivers/net/ethernet/apple/bmac.c 1366 */;
+	struct sk_buff_head *cocci_id/* drivers/net/ethernet/apple/bmac.c 1316 */;
+	unsigned char cocci_id/* drivers/net/ethernet/apple/bmac.c 1242 */[6];
+	const unsigned char *cocci_id/* drivers/net/ethernet/apple/bmac.c 1241 */;
+	const struct of_device_id *cocci_id/* drivers/net/ethernet/apple/bmac.c 1237 */;
+	struct macio_dev *cocci_id/* drivers/net/ethernet/apple/bmac.c 1237 */;
+	const struct net_device_ops cocci_id/* drivers/net/ethernet/apple/bmac.c 1228 */;
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/apple/bmac.c 1224 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/apple/bmac.c 1107 */;
+	irqreturn_t cocci_id/* drivers/net/ethernet/apple/bmac.c 1048 */;
+	u16 cocci_id/* drivers/net/ethernet/apple/bmac.c 1027 */[4];
+	u32 cocci_id/* drivers/net/ethernet/apple/bmac.c 1015 */;
+}

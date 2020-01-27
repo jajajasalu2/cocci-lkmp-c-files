@@ -1,0 +1,80 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/platform/x86/hp-wmi.c 990 */;
+	struct bios_return {
+		u32 sigpass;
+		u32 return_code;
+	} cocci_id/* drivers/platform/x86/hp-wmi.c 97 */;
+	struct platform_driver cocci_id/* drivers/platform/x86/hp-wmi.c 941 */;
+	const struct dev_pm_ops cocci_id/* drivers/platform/x86/hp-wmi.c 936 */;
+	enum hp_wmi_hardware_mask{HPWMI_DOCK_MASK=0x01, HPWMI_TABLET_MASK=0x04,} cocci_id/* drivers/platform/x86/hp-wmi.c 92 */;
+	struct platform_device *cocci_id/* drivers/platform/x86/hp-wmi.c 874 */;
+	int __exit cocci_id/* drivers/platform/x86/hp-wmi.c 874 */;
+	enum hp_wmi_command{HPWMI_READ=0x01, HPWMI_WRITE=0x02, HPWMI_ODM=0x03,} cocci_id/* drivers/platform/x86/hp-wmi.c 86 */;
+	enum rfkill_type cocci_id/* drivers/platform/x86/hp-wmi.c 792 */;
+	enum hp_wmi_commandtype{HPWMI_DISPLAY_QUERY=0x01, HPWMI_HDDTEMP_QUERY=0x02, HPWMI_ALS_QUERY=0x03, HPWMI_HARDWARE_QUERY=0x04, HPWMI_WIRELESS_QUERY=0x05, HPWMI_BATTERY_QUERY=0x07, HPWMI_BIOS_QUERY=0x09, HPWMI_FEATURE_QUERY=0x0b, HPWMI_HOTKEY_QUERY=0x0c, HPWMI_FEATURE2_QUERY=0x0d, HPWMI_WIRELESS2_QUERY=0x1b, HPWMI_POSTCODEERROR_QUERY=0x2a,} cocci_id/* drivers/platform/x86/hp-wmi.c 71 */;
+	acpi_status cocci_id/* drivers/platform/x86/hp-wmi.c 630 */;
+	struct bios_args {
+		u32 signature;
+		u32 command;
+		u32 commandtype;
+		u32 datasize;
+		u8 data[128];
+	} cocci_id/* drivers/platform/x86/hp-wmi.c 63 */;
+	u32 *cocci_id/* drivers/platform/x86/hp-wmi.c 522 */;
+	union acpi_object *cocci_id/* drivers/platform/x86/hp-wmi.c 520 */;
+	struct acpi_buffer cocci_id/* drivers/platform/x86/hp-wmi.c 518 */;
+	void *cocci_id/* drivers/platform/x86/hp-wmi.c 516 */;
+	struct attribute *cocci_id/* drivers/platform/x86/hp-wmi.c 505 */[];
+	long unsigned int cocci_id/* drivers/platform/x86/hp-wmi.c 476 */;
+	u32 cocci_id/* drivers/platform/x86/hp-wmi.c 464 */;
+	const char *cocci_id/* drivers/platform/x86/hp-wmi.c 462 */;
+	size_t cocci_id/* drivers/platform/x86/hp-wmi.c 462 */;
+	enum hp_wmi_event_ids{HPWMI_DOCK_EVENT=0x01, HPWMI_PARK_HDD=0x02, HPWMI_SMART_ADAPTER=0x03, HPWMI_BEZEL_BUTTON=0x04, HPWMI_WIRELESS=0x05, HPWMI_CPU_BATTERY_THROTTLE=0x06, HPWMI_LOCK_SWITCH=0x07, HPWMI_LID_SWITCH=0x08, HPWMI_SCREEN_ROTATION=0x09, HPWMI_COOLSENSE_SYSTEM_MOBILE=0x0A, HPWMI_COOLSENSE_SYSTEM_HOT=0x0B, HPWMI_PROXIMITY_SENSOR=0x0C, HPWMI_BACKLIT_KB_BRIGHTNESS=0x0D, HPWMI_PEAKSHIFT_PERIOD=0x0F, HPWMI_BATTERY_CHARGE_PERIOD=0x10,} cocci_id/* drivers/platform/x86/hp-wmi.c 45 */;
+	int cocci_id/* drivers/platform/x86/hp-wmi.c 427 */;
+	char *cocci_id/* drivers/platform/x86/hp-wmi.c 425 */;
+	struct device_attribute *cocci_id/* drivers/platform/x86/hp-wmi.c 424 */;
+	struct device *cocci_id/* drivers/platform/x86/hp-wmi.c 424 */;
+	ssize_t cocci_id/* drivers/platform/x86/hp-wmi.c 424 */;
+	struct bios_rfkill2_device_state *cocci_id/* drivers/platform/x86/hp-wmi.c 389 */;
+	enum hp_wmi_radio{HPWMI_WIFI=0x0, HPWMI_BLUETOOTH=0x1, HPWMI_WWAN=0x2, HPWMI_GPS=0x3,} cocci_id/* drivers/platform/x86/hp-wmi.c 38 */;
+	struct bios_rfkill2_state cocci_id/* drivers/platform/x86/hp-wmi.c 379 */;
+	const struct rfkill_ops cocci_id/* drivers/platform/x86/hp-wmi.c 373 */;
+	char cocci_id/* drivers/platform/x86/hp-wmi.c 364 */[4];
+	long cocci_id/* drivers/platform/x86/hp-wmi.c 363 */;
+	bool cocci_id/* drivers/platform/x86/hp-wmi.c 349 */;
+	enum hp_wmi_radio cocci_id/* drivers/platform/x86/hp-wmi.c 349 */;
+	u8 cocci_id/* drivers/platform/x86/hp-wmi.c 303 */[128];
+	int __init cocci_id/* drivers/platform/x86/hp-wmi.c 290 */;
+	void cocci_id/* drivers/platform/x86/hp-wmi.c 290 */;
+	struct bios_args cocci_id/* drivers/platform/x86/hp-wmi.c 214 */;
+	struct bios_return *cocci_id/* drivers/platform/x86/hp-wmi.c 211 */;
+	enum hp_wmi_command cocci_id/* drivers/platform/x86/hp-wmi.c 207 */;
+	struct rfkill2_device cocci_id/* drivers/platform/x86/hp-wmi.c 169 */[HPWMI_MAX_RFKILL2_DEVICES];
+	struct rfkill2_device {
+		u8 id;
+		int num;
+		struct rfkill *rfkill;
+	} cocci_id/* drivers/platform/x86/hp-wmi.c 162 */;
+	struct rfkill *cocci_id/* drivers/platform/x86/hp-wmi.c 159 */;
+	struct input_dev *cocci_id/* drivers/platform/x86/hp-wmi.c 155 */;
+	const struct key_entry cocci_id/* drivers/platform/x86/hp-wmi.c 142 */[];
+	struct bios_rfkill2_state {
+		u8 unknown[7];
+		u8 count;
+		u8 pad[8];
+		struct bios_rfkill2_device_state device[HPWMI_MAX_RFKILL2_DEVICES];
+	} cocci_id/* drivers/platform/x86/hp-wmi.c 135 */;
+	struct bios_rfkill2_device_state {
+		u8 radio_type;
+		u8 bus_type;
+		u16 vendor_id;
+		u16 product_id;
+		u16 subsys_vendor_id;
+		u16 subsys_product_id;
+		u8 rfkill_id;
+		u8 power;
+		u8 unknown[4];
+	} cocci_id/* drivers/platform/x86/hp-wmi.c 120 */;
+	enum hp_wireless2_bits{HPWMI_POWER_STATE=0x01, HPWMI_POWER_SOFT=0x02, HPWMI_POWER_BIOS=0x04, HPWMI_POWER_HARD=0x08,} cocci_id/* drivers/platform/x86/hp-wmi.c 109 */;
+	enum hp_return_value{HPWMI_RET_WRONG_SIGNATURE=0x02, HPWMI_RET_UNKNOWN_COMMAND=0x03, HPWMI_RET_UNKNOWN_CMDTYPE=0x04, HPWMI_RET_INVALID_PARAMETERS=0x05,} cocci_id/* drivers/platform/x86/hp-wmi.c 102 */;
+}

@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	char *cocci_id/* net/netfilter/nft_meta.c 97 */;
+	u16 cocci_id/* net/netfilter/nft_meta.c 74 */;
+	struct nft_object_type cocci_id/* net/netfilter/nft_meta.c 715 */;
+	struct nft_secmark cocci_id/* net/netfilter/nft_meta.c 709 */;
+	const struct nft_object_ops cocci_id/* net/netfilter/nft_meta.c 707 */;
+	struct nft_object *cocci_id/* net/netfilter/nft_meta.c 698 */;
+	bool cocci_id/* net/netfilter/nft_meta.c 681 */;
+	u32 *cocci_id/* net/netfilter/nft_meta.c 67 */;
+	struct sock *cocci_id/* net/netfilter/nft_meta.c 66 */;
+	const struct net_device *cocci_id/* net/netfilter/nft_meta.c 65 */;
+	const struct nft_secmark *cocci_id/* net/netfilter/nft_meta.c 649 */;
+	const struct sk_buff *cocci_id/* net/netfilter/nft_meta.c 64 */;
+	struct nft_secmark *cocci_id/* net/netfilter/nft_meta.c 626 */;
+	const struct nla_policy cocci_id/* net/netfilter/nft_meta.c 622 */[NFTA_SECMARK_MAX + 1];
+	struct nft_secmark {
+		u32 secid;
+		char *ctx;
+	} cocci_id/* net/netfilter/nft_meta.c 617 */;
+	const struct nft_pktinfo *cocci_id/* net/netfilter/nft_meta.c 61 */;
+	struct nft_expr_type cocci_id/* net/netfilter/nft_meta.c 608 */;
+	struct nft_regs *cocci_id/* net/netfilter/nft_meta.c 60 */;
+	void cocci_id/* net/netfilter/nft_meta.c 59 */;
+	const struct nft_expr_ops *cocci_id/* net/netfilter/nft_meta.c 585 */;
+	struct nft_meta cocci_id/* net/netfilter/nft_meta.c 567 */;
+	const struct nft_expr_ops cocci_id/* net/netfilter/nft_meta.c 565 */;
+	struct nft_offload_reg *cocci_id/* net/netfilter/nft_meta.c 537 */;
+	struct nft_flow_rule *cocci_id/* net/netfilter/nft_meta.c 533 */;
+	struct nft_offload_ctx *cocci_id/* net/netfilter/nft_meta.c 532 */;
+	struct tm cocci_id/* net/netfilter/nft_meta.c 50 */;
+	const struct nft_meta *cocci_id/* net/netfilter/nft_meta.c 493 */;
+	const struct nft_expr *cocci_id/* net/netfilter/nft_meta.c 491 */;
+	struct sk_buff *cocci_id/* net/netfilter/nft_meta.c 490 */;
+	int cocci_id/* net/netfilter/nft_meta.c 490 */;
+	time64_t cocci_id/* net/netfilter/nft_meta.c 48 */;
+	const struct nft_data **cocci_id/* net/netfilter/nft_meta.c 391 */;
+	u32 cocci_id/* net/netfilter/nft_meta.c 353 */;
+	unsigned int cocci_id/* net/netfilter/nft_meta.c 322 */;
+	struct nft_meta *cocci_id/* net/netfilter/nft_meta.c 321 */;
+	const struct nlattr *const cocci_id/* net/netfilter/nft_meta.c 319 */[];
+	const struct nft_ctx *cocci_id/* net/netfilter/nft_meta.c 317 */;
+	const struct nla_policy cocci_id/* net/netfilter/nft_meta.c 310 */[NFTA_META_MAX + 1];
+	u8 cocci_id/* net/netfilter/nft_meta.c 277 */;
+	struct rnd_state *cocci_id/* net/netfilter/nft_meta.c 230 */;
+	struct iphdr *cocci_id/* net/netfilter/nft_meta.c 180 */;
+	const struct dst_entry *cocci_id/* net/netfilter/nft_meta.c 147 */;
+	__typeof__(struct rnd_state) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

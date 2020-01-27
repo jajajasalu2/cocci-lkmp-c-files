@@ -1,0 +1,58 @@
+cocci_test_suite() {
+	const char *cocci_id/* drivers/media/usb/pvrusb2/pvrusb2-io.c 99 */;
+	enum pvr2_buffer_state cocci_id/* drivers/media/usb/pvrusb2/pvrusb2-io.c 87 */;
+	struct pvr2_buffer {
+		int id;
+		int signature;
+		enum pvr2_buffer_state state;
+		void *ptr;
+		unsigned int max_count;
+		unsigned int used_count;
+		int status;
+		struct pvr2_stream *stream;
+		struct list_head list_overhead;
+		struct urb *purb;
+	} cocci_id/* drivers/media/usb/pvrusb2/pvrusb2-io.c 74 */;
+	int cocci_id/* drivers/media/usb/pvrusb2/pvrusb2-io.c 669 */;
+	unsigned int cocci_id/* drivers/media/usb/pvrusb2/pvrusb2-io.c 659 */;
+	void *cocci_id/* drivers/media/usb/pvrusb2/pvrusb2-io.c 630 */;
+	unsigned int *cocci_id/* drivers/media/usb/pvrusb2/pvrusb2-io.c 612 */;
+	struct pvr2_buffer cocci_id/* drivers/media/usb/pvrusb2/pvrusb2-io.c 551 */;
+	struct list_head *cocci_id/* drivers/media/usb/pvrusb2/pvrusb2-io.c 549 */;
+	struct pvr2_stream_stats *cocci_id/* drivers/media/usb/pvrusb2/pvrusb2-io.c 507 */;
+	pvr2_stream_callback cocci_id/* drivers/media/usb/pvrusb2/pvrusb2-io.c 492 */;
+	struct usb_device *cocci_id/* drivers/media/usb/pvrusb2/pvrusb2-io.c 479 */;
+	unsigned long cocci_id/* drivers/media/usb/pvrusb2/pvrusb2-io.c 419 */;
+	struct pvr2_stream *cocci_id/* drivers/media/usb/pvrusb2/pvrusb2-io.c 418 */;
+	struct pvr2_buffer *cocci_id/* drivers/media/usb/pvrusb2/pvrusb2-io.c 417 */;
+	struct urb *cocci_id/* drivers/media/usb/pvrusb2/pvrusb2-io.c 415 */;
+	void cocci_id/* drivers/media/usb/pvrusb2/pvrusb2-io.c 415 */;
+	struct pvr2_stream {
+		struct list_head queued_list;
+		unsigned int q_count;
+		unsigned int q_bcount;
+		struct list_head ready_list;
+		unsigned int r_count;
+		unsigned int r_bcount;
+		struct list_head idle_list;
+		unsigned int i_count;
+		unsigned int i_bcount;
+		struct pvr2_buffer **buffers;
+		unsigned int buffer_slot_count;
+		unsigned int buffer_total_count;
+		unsigned int buffer_target_count;
+		pvr2_stream_callback callback_func;
+		void *callback_data;
+		struct usb_device *dev;
+		int endpoint;
+		spinlock_t list_lock;
+		struct mutex mutex;
+		unsigned int fail_count;
+		unsigned int fail_tolerance;
+		unsigned int buffers_processed;
+		unsigned int buffers_failed;
+		unsigned int bytes_processed;
+	} cocci_id/* drivers/media/usb/pvrusb2/pvrusb2-io.c 35 */;
+	struct pvr2_buffer **cocci_id/* drivers/media/usb/pvrusb2/pvrusb2-io.c 300 */;
+	const char *cocci_id/* drivers/media/usb/pvrusb2/pvrusb2-io.c 14 */(enum pvr2_buffer_state);
+}

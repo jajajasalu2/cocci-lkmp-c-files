@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	struct cbaf {
+		struct usb_device *usb_dev;
+		struct usb_interface *usb_iface;
+		void *buffer;
+		size_t buffer_size;
+		struct wusb_ckhdid chid;
+		char host_name[CBA_NAME_LEN];
+		u16 host_band_groups;
+		struct wusb_ckhdid cdid;
+		char device_name[CBA_NAME_LEN];
+		u16 device_band_groups;
+		struct wusb_ckhdid ck;
+	} cocci_id/* drivers/staging/wusbcore/cbaf.c 90 */;
+	struct usb_driver cocci_id/* drivers/staging/wusbcore/cbaf.c 634 */;
+	const struct usb_device_id cocci_id/* drivers/staging/wusbcore/cbaf.c 628 */[];
+	struct usb_interface *cocci_id/* drivers/staging/wusbcore/cbaf.c 615 */;
+	void cocci_id/* drivers/staging/wusbcore/cbaf.c 615 */;
+	const struct usb_device_id *cocci_id/* drivers/staging/wusbcore/cbaf.c 574 */;
+	const struct attribute_group cocci_id/* drivers/staging/wusbcore/cbaf.c 568 */;
+	struct attribute *cocci_id/* drivers/staging/wusbcore/cbaf.c 557 */[];
+	struct wusb_cbaf_cc_data *cocci_id/* drivers/staging/wusbcore/cbaf.c 501 */;
+	struct device *cocci_id/* drivers/staging/wusbcore/cbaf.c 500 */;
+	struct cbaf *cocci_id/* drivers/staging/wusbcore/cbaf.c 497 */;
+	int cocci_id/* drivers/staging/wusbcore/cbaf.c 497 */;
+	const struct wusb_cbaf_cc_data_fail cocci_id/* drivers/staging/wusbcore/cbaf.c 487 */;
+	struct wusb_cbaf_cc_data cocci_id/* drivers/staging/wusbcore/cbaf.c 482 */;
+	const struct wusb_cbaf_cc_data cocci_id/* drivers/staging/wusbcore/cbaf.c 476 */;
+	struct wusb_ckhdid cocci_id/* drivers/staging/wusbcore/cbaf.c 427 */;
+	struct device_attribute *cocci_id/* drivers/staging/wusbcore/cbaf.c 412 */;
+	char *cocci_id/* drivers/staging/wusbcore/cbaf.c 412 */;
+	ssize_t cocci_id/* drivers/staging/wusbcore/cbaf.c 411 */;
+	const struct wusb_cbaf_device_info cocci_id/* drivers/staging/wusbcore/cbaf.c 403 */;
+	size_t cocci_id/* drivers/staging/wusbcore/cbaf.c 270 */;
+	struct wusb_cbaf_device_info *cocci_id/* drivers/staging/wusbcore/cbaf.c 269 */;
+	struct wusb_cbaf_host_info *cocci_id/* drivers/staging/wusbcore/cbaf.c 235 */;
+	const struct wusb_cbaf_host_info cocci_id/* drivers/staging/wusbcore/cbaf.c 222 */;
+	const char *cocci_id/* drivers/staging/wusbcore/cbaf.c 168 */;
+	u32 cocci_id/* drivers/staging/wusbcore/cbaf.c 167 */;
+	u16 cocci_id/* drivers/staging/wusbcore/cbaf.c 166 */;
+	void *cocci_id/* drivers/staging/wusbcore/cbaf.c 125 */;
+	struct wusb_cbaf_assoc_request *cocci_id/* drivers/staging/wusbcore/cbaf.c 123 */;
+	struct wusb_cbaf_assoc_info *cocci_id/* drivers/staging/wusbcore/cbaf.c 122 */;
+}

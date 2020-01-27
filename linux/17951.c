@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* arch/sparc/kernel/pci_schizo.c 99 */[128];
+	enum schizo_error_type{UE_ERR, CE_ERR, PCI_ERR, SAFARI_ERR,} cocci_id/* arch/sparc/kernel/pci_schizo.c 94 */;
+	unsigned int cocci_id/* arch/sparc/kernel/pci_schizo.c 82 */;
+	unsigned char cocci_id/* arch/sparc/kernel/pci_schizo.c 81 */;
+	irqreturn_t cocci_id/* arch/sparc/kernel/pci_schizo.c 461 */;
+	void *cocci_id/* arch/sparc/kernel/pci_schizo.c 461 */;
+	char *cocci_id/* arch/sparc/kernel/pci_schizo.c 250 */;
+	unsigned long cocci_id/* arch/sparc/kernel/pci_schizo.c 240 */[16];
+	int __init cocci_id/* arch/sparc/kernel/pci_schizo.c 1505 */;
+	struct platform_driver cocci_id/* arch/sparc/kernel/pci_schizo.c 1497 */;
+	const struct of_device_id *cocci_id/* arch/sparc/kernel/pci_schizo.c 1465 */;
+	const struct of_device_id cocci_id/* arch/sparc/kernel/pci_schizo.c 1462 */[];
+	struct iommu cocci_id/* arch/sparc/kernel/pci_schizo.c 1434 */;
+	u32 cocci_id/* arch/sparc/kernel/pci_schizo.c 1420 */;
+	struct iommu *cocci_id/* arch/sparc/kernel/pci_schizo.c 1419 */;
+	struct device_node *cocci_id/* arch/sparc/kernel/pci_schizo.c 1417 */;
+	struct platform_device *cocci_id/* arch/sparc/kernel/pci_schizo.c 1415 */;
+	int cocci_id/* arch/sparc/kernel/pci_schizo.c 135 */;
+	u64 cocci_id/* arch/sparc/kernel/pci_schizo.c 134 */;
+	unsigned long cocci_id/* arch/sparc/kernel/pci_schizo.c 132 */;
+	const char *cocci_id/* arch/sparc/kernel/pci_schizo.c 1317 */;
+	const struct linux_prom64_registers *cocci_id/* arch/sparc/kernel/pci_schizo.c 1315 */;
+	struct strbuf *cocci_id/* arch/sparc/kernel/pci_schizo.c 131 */;
+	enum schizo_error_type cocci_id/* arch/sparc/kernel/pci_schizo.c 129 */;
+	struct pci_pbm_info *cocci_id/* arch/sparc/kernel/pci_schizo.c 128 */;
+	void cocci_id/* arch/sparc/kernel/pci_schizo.c 128 */;
+	const u32 *cocci_id/* arch/sparc/kernel/pci_schizo.c 1139 */;
+	const u32 cocci_id/* arch/sparc/kernel/pci_schizo.c 1135 */[];
+	volatile unsigned long *cocci_id/* arch/sparc/kernel/pci_schizo.c 1107 */;
+	struct device *cocci_id/* arch/sparc/kernel/pci_schizo.c 1069 */;
+	u8 *cocci_id/* arch/sparc/kernel/pci_schizo.c 1054 */;
+}

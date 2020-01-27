@@ -1,0 +1,56 @@
+cocci_test_suite() {
+	struct sk_buff_head cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 989 */;
+	struct ipoib_cm_data *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 988 */;
+	const struct ib_cm_event *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 984 */;
+	typeof(*p) cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 940 */;
+	int cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 80 */(struct ib_cm_id *cm_id,
+								     const struct ib_cm_event *event);
+	struct ipoib_tx_buf *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 798 */;
+	struct ib_send_wr cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 76 */;
+	struct ib_qp_attr cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 70 */;
+	struct ipoib_header *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 668 */;
+	unsigned int cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 564 */;
+	struct ib_wc *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 560 */;
+	skb_frag_t *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 541 */;
+	int cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 54 */;
+	struct ib_cm_rep_param cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 427 */;
+	struct ipoib_cm_data cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 426 */;
+	const struct ib_cm_req_event_param *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 422 */;
+	struct {
+		struct ib_recv_wr wr;
+		struct ib_sge sge[IPOIB_CM_RX_SG];
+	} *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 351 */;
+	struct ib_sge *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 330 */;
+	struct ib_recv_wr *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 329 */;
+	struct ib_cm_id *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 274 */;
+	struct ib_qp_init_attr cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 253 */;
+	struct ipoib_cm_rx *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 250 */;
+	struct ib_qp *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 249 */;
+	struct ib_event *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 233 */;
+	void *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 233 */;
+	struct page *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 169 */;
+	struct ib_srq_init_attr cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 1556 */;
+	void cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 1553 */;
+	struct net_device *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 1548 */;
+	const char *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 1520 */;
+	size_t cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 1520 */;
+	struct device_attribute *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 1519 */;
+	struct device *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 1519 */;
+	ssize_t cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 1519 */;
+	char *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 1508 */;
+	struct ipoib_dev_priv cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 1474 */;
+	struct work_struct *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 1472 */;
+	struct ipoib_dev_priv *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 147 */;
+	gfp_t cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 145 */;
+	u64 cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 144 */[IPOIB_CM_RX_SG];
+	struct ipoib_cm_rx_buf *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 142 */;
+	struct sk_buff *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 141 */;
+	struct sa_path_rec cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 1349 */;
+	unsigned long cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 1324 */;
+	struct ipoib_neigh *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 1303 */;
+	struct ipoib_path *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 1302 */;
+	struct ipoib_cm_tx *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 1302 */;
+	struct ib_cm_req_param cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 1087 */;
+	struct sa_path_rec *cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 1083 */;
+	u32 cocci_id/* drivers/infiniband/ulp/ipoib/ipoib_cm.c 1082 */;
+}

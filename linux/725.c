@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	struct ebda_rsrc_list *__init cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 99 */;
+	short cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 925 */;
+	struct ebda_hpc_bus cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 78 */;
+	struct bus_info cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 742 */;
+	struct ebda_hpc_slot cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 73 */;
+	struct bus_info *cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 690 */;
+	struct controller cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 69 */;
+	struct pci_driver cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 674 */;
+	struct ebda_hpc_bus *cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 67 */;
+	struct hotplug_slot *cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 664 */;
+	struct ebda_hpc_slot *cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 66 */;
+	u32 cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 63 */;
+	struct controller *cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 63 */;
+	struct ebda_hpc_list cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 60 */;
+	char cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 599 */[SLOT_NAME_SIZE];
+	char *cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 595 */;
+	struct slot *cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 581 */;
+	struct ebda_hpc_list *__init cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 58 */;
+	void cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 58 */;
+	u8 cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 578 */;
+	int cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 56 */(void);
+	void __iomem *cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 51 */;
+	struct opt_rio_lo cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 502 */;
+	struct opt_rio_lo *cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 496 */;
+	int cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 494 */;
+	struct opt_rio cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 464 */;
+	struct rio_detail *cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 459 */;
+	struct opt_rio *cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 458 */;
+	int __init cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 456 */;
+	struct rio_table_hdr *cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 44 */;
+	struct ebda_rsrc_list *cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 43 */;
+	struct ebda_hpc_list *cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 42 */;
+	struct rio_detail cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 411 */;
+	u16 cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 402 */;
+	struct rio_table_hdr cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 355 */;
+	const struct pci_device_id *cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 1104 */;
+	struct pci_dev *cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 1104 */;
+	void __init cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 109 */;
+	int cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 1084 */(struct pci_dev *,
+								 const struct pci_device_id *);
+	const struct pci_device_id cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 1072 */[];
+	struct ebda_pci_rsrc cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 106 */;
+	struct ebda_pci_rsrc *cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 104 */;
+	struct ebda_rsrc_list cocci_id/* drivers/pci/hotplug/ibmphp_ebda.c 101 */;
+}

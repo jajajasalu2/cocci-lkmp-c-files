@@ -1,0 +1,47 @@
+cocci_test_suite() {
+	u8 __iomem *cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 968 */;
+	phy_interface_t cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 956 */;
+	struct mac_info cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 95 */;
+	u16 *cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 92 */;
+	const char *cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 811 */;
+	struct of_phandle_args cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 810 */;
+	struct regmap *cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 809 */;
+	struct device_node *cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 808 */;
+	const struct {
+		enum hnae_media_type value;
+		const char *name;
+	} cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 790 */[];
+	struct mii_bus *cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 734 */;
+	struct platform_device *cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 733 */;
+	struct fwnode_reference_args cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 732 */;
+	struct phy_device *cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 689 */;
+	struct device *cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 666 */;
+	struct mac_params cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 631 */;
+	enum mac_mode cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 55 */;
+	const struct hns_mac_cb *cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 55 */;
+	u32 *cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 548 */;
+	const enum mac_mode cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 39 */[];
+	u16 cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 384 */;
+	struct mac_params *cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 366 */;
+	struct dsaf_drv_mac_single_dest_entry cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 289 */;
+	struct dsaf_device *cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 288 */;
+	const unsigned char *cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 286 */;
+	u8 cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 285 */;
+	const u16 cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 25 */[];
+	struct mac_entry_idx *cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 249 */;
+	u32 cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 243 */;
+	char *cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 243 */;
+	u8 *cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 163 */;
+	enum mac_speed cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 145 */;
+	struct mac_driver *cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 136 */;
+	void cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 133 */;
+	enum hnae_led_state cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 1221 */;
+	struct hns_mac_cb *cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 1220 */;
+	int cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 1220 */;
+	void *cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 1196 */;
+	u64 *cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 1157 */;
+	enum hnae_loop cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 1137 */;
+	struct fwnode_handle *cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 1064 */;
+	bool cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 1059 */;
+	enum mac_commom_mode cocci_id/* drivers/net/ethernet/hisilicon/hns/hns_dsaf_mac.c 1045 */;
+}

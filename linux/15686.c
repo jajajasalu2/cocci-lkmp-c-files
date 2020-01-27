@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	const struct pinctrl_ops cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 77 */;
+	unsigned int *cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 64 */;
+	const unsigned int **cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 63 */;
+	unsigned int cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 54 */;
+	const char *cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 53 */;
+	struct rt2880_priv *cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 48 */;
+	struct pinctrl_dev *cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 46 */;
+	int cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 46 */;
+	int __init cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 394 */;
+	void cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 394 */;
+	struct platform_driver cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 386 */;
+	const struct of_device_id cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 380 */[];
+	struct pinctrl_gpio_range *cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 352 */;
+	const __be32 *cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 351 */;
+	struct rt2880_priv cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 327 */;
+	struct device_node *cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 321 */;
+	struct platform_device *cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 317 */;
+	struct rt2880_priv {
+		struct device *dev;
+		struct pinctrl_pin_desc *pads;
+		struct pinctrl_desc *desc;
+		struct rt2880_pmx_func **func;
+		int func_count;
+		struct rt2880_pmx_group *groups;
+		const char **group_names;
+		int group_count;
+		u8 *gpio;
+		int max_pins;
+	} cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 29 */;
+	struct pinctrl_pin_desc cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 282 */;
+	u8 cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 279 */;
+	char *cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 208 */;
+	struct rt2880_pmx_group *cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 197 */;
+	struct rt2880_pmx_func **cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 196 */;
+	struct rt2880_pmx_func cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 190 */;
+	struct pinctrl_desc cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 183 */;
+	const struct pinmux_ops cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 175 */;
+	u32 cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 121 */;
+	unsigned int *const cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 103 */;
+	const char *const **cocci_id/* drivers/staging/mt7621-pinctrl/pinctrl-rt2880.c 102 */;
+}

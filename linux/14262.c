@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	const struct ccdc_hw_device cocci_id/* drivers/media/platform/davinci/isif.c 983 */;
+	struct device *cocci_id/* drivers/media/platform/davinci/isif.c 976 */;
+	int cocci_id/* drivers/media/platform/davinci/isif.c 976 */;
+	struct isif_ycbcr_config *cocci_id/* drivers/media/platform/davinci/isif.c 877 */;
+	struct vpfe_hw_if_param *cocci_id/* drivers/media/platform/davinci/isif.c 847 */;
+	unsigned long cocci_id/* drivers/media/platform/davinci/isif.c 841 */;
+	enum ccdc_frmfmt cocci_id/* drivers/media/platform/davinci/isif.c 828 */;
+	unsigned int cocci_id/* drivers/media/platform/davinci/isif.c 803 */;
+	struct v4l2_rect *cocci_id/* drivers/media/platform/davinci/isif.c 795 */;
+	u32 *cocci_id/* drivers/media/platform/davinci/isif.c 709 */;
+	enum ccdc_buftype cocci_id/* drivers/media/platform/davinci/isif.c 701 */;
+	struct isif_oper_config {
+		struct device *dev;
+		enum vpfe_hw_if_type if_type;
+		struct isif_ycbcr_config ycbcr;
+		struct isif_params_raw bayer;
+		enum isif_data_pack data_pack;
+		void __iomem *base_addr;
+		void __iomem *linear_tbl0_addr;
+		void __iomem *linear_tbl1_addr;
+	} cocci_id/* drivers/media/platform/davinci/isif.c 69 */;
+	struct vpss_sync_pol cocci_id/* drivers/media/platform/davinci/isif.c 534 */;
+	struct vpss_pg_frame_size cocci_id/* drivers/media/platform/davinci/isif.c 533 */;
+	struct isif_config_params_raw *cocci_id/* drivers/media/platform/davinci/isif.c 531 */;
+	struct isif_params_raw *cocci_id/* drivers/media/platform/davinci/isif.c 530 */;
+	struct isif_df_csc *cocci_id/* drivers/media/platform/davinci/isif.c 482 */;
+	struct isif_dfc *cocci_id/* drivers/media/platform/davinci/isif.c 398 */;
+	struct isif_linearize *cocci_id/* drivers/media/platform/davinci/isif.c 371 */;
+	struct isif_config_params_raw cocci_id/* drivers/media/platform/davinci/isif.c 32 */;
+	u32 cocci_id/* drivers/media/platform/davinci/isif.c 311 */;
+	struct isif_black_clamp *cocci_id/* drivers/media/platform/davinci/isif.c 309 */;
+	void cocci_id/* drivers/media/platform/davinci/isif.c 309 */;
+	enum vpss_ccdc_source_sel cocci_id/* drivers/media/platform/davinci/isif.c 247 */;
+	struct isif_gain_offsets_adj *cocci_id/* drivers/media/platform/davinci/isif.c 213 */;
+	struct isif_cul *cocci_id/* drivers/media/platform/davinci/isif.c 195 */;
+	const u32 cocci_id/* drivers/media/platform/davinci/isif.c 128 */[];
+	struct platform_driver cocci_id/* drivers/media/platform/davinci/isif.c 1111 */;
+	void __iomem *cocci_id/* drivers/media/platform/davinci/isif.c 1012 */;
+	struct resource *cocci_id/* drivers/media/platform/davinci/isif.c 1011 */;
+	void (*cocci_id/* drivers/media/platform/davinci/isif.c 1010 */)(void);
+	struct platform_device *cocci_id/* drivers/media/platform/davinci/isif.c 1008 */;
+}

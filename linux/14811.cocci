@@ -1,0 +1,126 @@
+@ initialize:python @
+@@
+from collections import defaultdict
+rule_matches = defaultdict(dict)
+
+@ r1 @
+symbol cocci_id;
+position p;
+@@
+ const struct cpg_mssr_info cocci_id@p ;
+
+@ script:python depends on r1 @
+p << r1.p;
+@@
+
+if 1 not in rule_matches:
+    rule_matches[1] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['3']:
+    rule_matches[1]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[1]['other_lines'].append(p[0].line)
+
+@ r2 @
+symbol cocci_id;
+position p;
+@@
+ struct device * cocci_id@p ;
+
+@ script:python depends on r2 @
+p << r2.p;
+@@
+
+if 2 not in rule_matches:
+    rule_matches[2] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['7']:
+    rule_matches[2]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[2]['other_lines'].append(p[0].line)
+
+@ r3 @
+symbol cocci_id;
+position p;
+@@
+ int cocci_id@p ;
+
+@ script:python depends on r3 @
+p << r3.p;
+@@
+
+if 3 not in rule_matches:
+    rule_matches[3] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['4']:
+    rule_matches[3]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[3]['other_lines'].append(p[0].line)
+
+@ r4 @
+symbol cocci_id;
+position p;
+@@
+ const struct rcar_gen3_cpg_pll_config * cocci_id@p ;
+
+@ script:python depends on r4 @
+p << r4.p;
+@@
+
+if 4 not in rule_matches:
+    rule_matches[4] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['6']:
+    rule_matches[4]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[4]['other_lines'].append(p[0].line)
+
+@ r5 @
+symbol cocci_id;
+position p;
+@@
+ enum clk_ids { LAST_DT_CORE_CLK = R8A774C0_CLK_CANFD , CLK_EXTAL , CLK_MAIN , CLK_PLL0 , CLK_PLL1 , CLK_PLL3 , CLK_PLL0D4 , CLK_PLL0D6 , CLK_PLL0D8 , CLK_PLL0D20 , CLK_PLL0D24 , CLK_PLL1D2 , CLK_PE , CLK_S0 , CLK_S1 , CLK_S2 , CLK_S3 , CLK_SDSRC , CLK_RINT , CLK_OCO , MOD_CLK_BASE , } cocci_id@p ;
+
+@ script:python depends on r5 @
+p << r5.p;
+@@
+
+if 5 not in rule_matches:
+    rule_matches[5] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['11']:
+    rule_matches[5]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[5]['other_lines'].append(p[0].line)
+
+@ r6 @
+symbol cocci_id;
+position p;
+typedef u32;
+@@
+ u32 cocci_id@p ;
+
+@ script:python depends on r6 @
+p << r6.p;
+@@
+
+if 6 not in rule_matches:
+    rule_matches[6] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['5']:
+    rule_matches[6]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[6]['other_lines'].append(p[0].line)
+
+@ finalize:python @
+@@
+rules = [1, 2, 3, 4, 5, 6]
+for i in rules:
+    if i not in rule_matches:
+        print("FAILED %s: NO MATCHES" % (str(i)))
+        continue
+    elif rule_matches[i]['correct_lines']:
+        if rule_matches[i]['other_lines']:
+            print("PASSED %s: CORRECT MATCHES: %s INCORRECT MATCHES: %s" % (str(i), str(rule_matches[i]['correct_lines']), str(rule_matches[i]['other_lines'])))
+        else:
+            print("PASSED %s: CORRECT MATCHES: %s" % (str(i), str(rule_matches[i]['correct_lines'])))
+    elif rule_matches[i]['other_lines']:
+        print("FAILED %s: INCORRECT MATCHES: %s" % (str(i), str(rule_matches[i]['other_lines'])))
+    else:
+        print("UNDEFINED %s" % str(i))
+
+print("Total Number of cases: %s" % str(len(rules)))

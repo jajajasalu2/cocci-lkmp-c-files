@@ -1,0 +1,70 @@
+cocci_test_suite() {
+	struct gk20a_instmem {
+		struct nvkm_instmem base;
+		struct mutex lock;
+		unsigned int vaddr_use;
+		unsigned int vaddr_max;
+		struct list_head vaddr_lru;
+		struct mutex *mm_mutex;
+		struct nvkm_mm *mm;
+		struct iommu_domain *domain;
+		unsigned long iommu_pgshift;
+		u16 iommu_bit;
+		unsigned long attrs;
+	} cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 92 */;
+	struct gk20a_instobj_iommu {
+		struct gk20a_instobj base;
+		struct list_head vaddr_node;
+		u32 use_cpt;
+		dma_addr_t *dma_addrs;
+		struct page *pages[];
+	} cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 76 */;
+	struct gk20a_instobj_dma cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 71 */;
+	struct gk20a_instobj_dma {
+		struct gk20a_instobj base;
+		dma_addr_t handle;
+		struct nvkm_mm_node r;
+	} cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 64 */;
+	struct gk20a_instobj cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 59 */;
+	struct nvkm_device_tegra *cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 574 */;
+	struct nvkm_instmem **cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 572 */;
+	struct nvkm_device *cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 571 */;
+	int cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 570 */;
+	const struct nvkm_instmem_func cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 563 */;
+	struct gk20a_instmem *cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 550 */;
+	struct nvkm_instmem *cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 548 */;
+	void *cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 547 */;
+	struct nvkm_memory **cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 515 */;
+	bool cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 514 */;
+	struct gk20a_instobj {
+		struct nvkm_memory memory;
+		struct nvkm_mm_node *mn;
+		struct gk20a_instmem *imem;
+		u32 *vaddr;
+	} cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 51 */;
+	dma_addr_t cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 447 */;
+	struct page *cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 446 */;
+	struct nvkm_mm_node *cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 427 */;
+	struct device *cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 388 */;
+	struct nvkm_subdev *cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 387 */;
+	struct gk20a_instobj_dma *cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 386 */;
+	struct gk20a_instobj **cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 384 */;
+	u32 cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 383 */;
+	const struct nvkm_memory_ptrs cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 376 */;
+	const struct nvkm_memory_func cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 352 */;
+	struct nvkm_vmm_map cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 285 */;
+	struct nvkm_vma *cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 282 */;
+	struct nvkm_vmm *cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 281 */;
+	struct gk20a_instobj_iommu *cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 188 */;
+	struct nvkm_ltc *cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 178 */;
+	struct gk20a_instobj *cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 176 */;
+	struct nvkm_memory *cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 174 */;
+	void __iomem *cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 173 */;
+	struct gk20a_instobj_iommu cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 169 */;
+	const u64 cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 160 */;
+	void cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 159 */;
+	u64 cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 127 */;
+	u8 cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 121 */;
+	enum nvkm_memory_target cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 115 */;
+	struct gk20a_instmem cocci_id/* drivers/gpu/drm/nouveau/nvkm/subdev/instmem/gk20a.c 113 */;
+}

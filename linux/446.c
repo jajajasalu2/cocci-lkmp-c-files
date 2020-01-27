@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct scsi_request *cocci_id/* block/bsg.c 91 */;
+	struct request *cocci_id/* block/bsg.c 89 */;
+	fmode_t cocci_id/* block/bsg.c 66 */;
+	struct sg_io_v4 *cocci_id/* block/bsg.c 57 */;
+	struct hlist_head *cocci_id/* block/bsg.c 50 */;
+	dev_t cocci_id/* block/bsg.c 484 */;
+	int __init cocci_id/* block/bsg.c 481 */;
+	umode_t *cocci_id/* block/bsg.c 476 */;
+	struct device *cocci_id/* block/bsg.c 476 */;
+	char *cocci_id/* block/bsg.c 476 */;
+	struct cdev cocci_id/* block/bsg.c 474 */;
+	struct class *cocci_id/* block/bsg.c 47 */;
+	struct hlist_head cocci_id/* block/bsg.c 45 */[BSG_LIST_ARRAY_SIZE];
+	const struct bsg_ops *cocci_id/* block/bsg.c 407 */;
+	const char *cocci_id/* block/bsg.c 407 */;
+	const struct file_operations cocci_id/* block/bsg.c 381 */;
+	void __user *cocci_id/* block/bsg.c 350 */;
+	unsigned long cocci_id/* block/bsg.c 347 */;
+	unsigned int cocci_id/* block/bsg.c 347 */;
+	long cocci_id/* block/bsg.c 347 */;
+	int __user *cocci_id/* block/bsg.c 327 */;
+	struct bsg_device {
+		struct request_queue *queue;
+		spinlock_t lock;
+		struct hlist_node dev_list;
+		refcount_t ref_count;
+		char name[20];
+		int max_queue;
+	} cocci_id/* block/bsg.c 29 */;
+	struct bsg_class_device *cocci_id/* block/bsg.c 284 */;
+	struct request_queue *cocci_id/* block/bsg.c 264 */;
+	struct bsg_device *cocci_id/* block/bsg.c 264 */;
+	int cocci_id/* block/bsg.c 264 */;
+	unsigned char cocci_id/* block/bsg.c 239 */[32];
+	struct file *cocci_id/* block/bsg.c 236 */;
+	struct inode *cocci_id/* block/bsg.c 234 */;
+	struct bsg_device cocci_id/* block/bsg.c 200 */;
+	void cocci_id/* block/bsg.c 196 */;
+	struct sg_io_v4 cocci_id/* block/bsg.c 139 */;
+	struct bio *cocci_id/* block/bsg.c 138 */;
+	const struct bsg_ops cocci_id/* block/bsg.c 128 */;
+}

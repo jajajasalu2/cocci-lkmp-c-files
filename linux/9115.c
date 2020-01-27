@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct mlx5dr_table *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 68 */;
+	unsigned int cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 65 */;
+	const struct mlx5_flow_cmds *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 597 */;
+	const struct mlx5_flow_cmds cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 578 */;
+	struct mlx5_fs_dr_rule *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 525 */;
+	void cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 506 */;
+	struct mlx5_modify_hdr *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 485 */;
+	void *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 484 */;
+	struct mlx5_pkt_reformat *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 438 */;
+	enum mlx5_flow_namespace_type cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 437 */;
+	u64 *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 401 */;
+	enum mlx5_flow_destination_type cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 354 */;
+	enum mlx5dr_action_reformat_type cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 274 */;
+	size_t cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 227 */;
+	struct mlx5dr_rule *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 223 */;
+	bool cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 222 */;
+	struct mlx5dr_action **cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 219 */;
+	struct fs_fte *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 213 */;
+	u32 cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 203 */;
+	u8 cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 201 */;
+	u16 cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 200 */;
+	struct mlx5_fs_vlan *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 198 */;
+	struct mlx5dr_domain *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 197 */;
+	struct mlx5dr_action *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 197 */;
+	struct mlx5_flow_table *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 190 */;
+	struct mlx5_flow_rule *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 188 */;
+	struct mlx5_core_dev *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 187 */;
+	struct mlx5_flow_destination *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 179 */;
+	struct mlx5dr_match_parameters cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 143 */;
+	struct mlx5dr_matcher *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 137 */;
+	struct mlx5_flow_group *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 135 */;
+	u32 *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 134 */;
+	struct mlx5_flow_root_namespace *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 132 */;
+	int cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/fs_dr.c 132 */;
+}

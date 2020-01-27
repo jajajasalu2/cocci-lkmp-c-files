@@ -1,0 +1,64 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/input/misc/cm109.c 938 */;
+	void cocci_id/* drivers/input/misc/cm109.c 938 */;
+	int cocci_id/* drivers/input/misc/cm109.c 922 */;
+	int __init cocci_id/* drivers/input/misc/cm109.c 920 */;
+	struct cm109_dev {
+		struct input_dev *idev;
+		struct usb_device *udev;
+		struct usb_interface *intf;
+		struct cm109_ctl_packet *irq_data;
+		dma_addr_t irq_dma;
+		struct urb *urb_irq;
+		struct cm109_ctl_packet *ctl_data;
+		dma_addr_t ctl_dma;
+		struct usb_ctrlrequest *ctl_req;
+		struct urb *urb_ctl;
+		unsigned irq_urb_pending:1;
+		unsigned ctl_urb_pending:1;
+		unsigned buzzer_pending:1;
+		spinlock_t ctl_submit_lock;
+		unsigned char buzzer_state;
+		unsigned open:1;
+		unsigned resetting:1;
+		unsigned shutdown:1;
+		struct mutex pm_mutex;
+		unsigned short keymap[KEYMAP_SIZE];
+		char phys[64];
+		int key_code;
+		int keybit;
+		u8 gpi;
+	} cocci_id/* drivers/input/misc/cm109.c 88 */;
+	struct usb_driver cocci_id/* drivers/input/misc/cm109.c 879 */;
+	enum{USB_PKT_LEN=sizeof(struct cm109_ctl_packet),} cocci_id/* drivers/input/misc/cm109.c 85 */;
+	pm_message_t cocci_id/* drivers/input/misc/cm109.c 821 */;
+	struct cm109_ctl_packet {
+		u8 byte[4];
+	}__attribute__((packed)) cocci_id/* drivers/input/misc/cm109.c 81 */;
+	unsigned char cocci_id/* drivers/input/misc/cm109.c 793 */;
+	void *cocci_id/* drivers/input/misc/cm109.c 771 */;
+	struct usb_endpoint_descriptor *cocci_id/* drivers/input/misc/cm109.c 693 */;
+	struct usb_host_interface *cocci_id/* drivers/input/misc/cm109.c 692 */;
+	struct driver_info *cocci_id/* drivers/input/misc/cm109.c 691 */;
+	struct usb_device *cocci_id/* drivers/input/misc/cm109.c 690 */;
+	const struct usb_device_id *cocci_id/* drivers/input/misc/cm109.c 688 */;
+	struct usb_interface *cocci_id/* drivers/input/misc/cm109.c 678 */;
+	const struct usb_device_id cocci_id/* drivers/input/misc/cm109.c 648 */[];
+	enum{VENDOR_ID=0x0d8c, PRODUCT_ID_CM109=0x000e,} cocci_id/* drivers/input/misc/cm109.c 642 */;
+	const struct driver_info cocci_id/* drivers/input/misc/cm109.c 638 */;
+	struct driver_info {
+		char *name;
+	} cocci_id/* drivers/input/misc/cm109.c 634 */;
+	unsigned int cocci_id/* drivers/input/misc/cm109.c 605 */;
+	struct cm109_dev *cocci_id/* drivers/input/misc/cm109.c 588 */;
+	struct input_dev *cocci_id/* drivers/input/misc/cm109.c 586 */;
+	unsigned long cocci_id/* drivers/input/misc/cm109.c 478 */;
+	enum{HID_IR0=0x00, HID_IR1=0x01, HID_IR2=0x02, HID_IR3=0x03, HID_OR0=0x00, HID_OR1=0x01, HID_OR2=0x02, HID_OR3=0x03, RECORD_MUTE=1 << 3, PLAYBACK_MUTE=1 << 2, VOLUME_DOWN=1 << 1, VOLUME_UP=1 << 0, HID_OR_GPO_BUZ_SPDIF=0 << 6, HID_OR_GENERIC_HID_REG=1 << 6, HID_OR_MAP_MCU_EEPROM=2 << 6, BUZZER_ON=1 << 5, KEYMAP_SIZE=256 + 15,} cocci_id/* drivers/input/misc/cm109.c 44 */;
+	const int cocci_id/* drivers/input/misc/cm109.c 435 */;
+	struct urb *cocci_id/* drivers/input/misc/cm109.c 432 */;
+	char *cocci_id/* drivers/input/misc/cm109.c 40 */;
+	unsigned short cocci_id/* drivers/input/misc/cm109.c 321 */;
+	u8 cocci_id/* drivers/input/misc/cm109.c 320 */;
+	const u8 cocci_id/* drivers/input/misc/cm109.c 318 */;
+	unsigned short (*cocci_id/* drivers/input/misc/cm109.c 288 */)(int);
+}

@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* drivers/power/supply/bq24735-charger.c 95 */;
+	u8 cocci_id/* drivers/power/supply/bq24735-charger.c 87 */;
+	enum power_supply_property cocci_id/* drivers/power/supply/bq24735-charger.c 63 */[];
+	struct i2c_driver cocci_id/* drivers/power/supply/bq24735-charger.c 507 */;
+	const struct of_device_id cocci_id/* drivers/power/supply/bq24735-charger.c 501 */[];
+	const struct i2c_device_id cocci_id/* drivers/power/supply/bq24735-charger.c 495 */[];
+	struct bq24735 {
+		struct power_supply *charger;
+		struct power_supply_desc charger_desc;
+		struct i2c_client *client;
+		struct bq24735_platform *pdata;
+		struct mutex lock;
+		struct gpio_desc *status_gpio;
+		struct delayed_work poll;
+		u32 poll_interval;
+		bool charging;
+	} cocci_id/* drivers/power/supply/bq24735-charger.c 46 */;
+	char *cocci_id/* drivers/power/supply/bq24735-charger.c 359 */;
+	struct power_supply_config cocci_id/* drivers/power/supply/bq24735-charger.c 358 */;
+	struct power_supply_desc *cocci_id/* drivers/power/supply/bq24735-charger.c 357 */;
+	const struct i2c_device_id *cocci_id/* drivers/power/supply/bq24735-charger.c 353 */;
+	struct i2c_client *cocci_id/* drivers/power/supply/bq24735-charger.c 352 */;
+	u32 cocci_id/* drivers/power/supply/bq24735-charger.c 325 */;
+	struct device_node *cocci_id/* drivers/power/supply/bq24735-charger.c 324 */;
+	const union power_supply_propval *cocci_id/* drivers/power/supply/bq24735-charger.c 284 */;
+	struct bq24735 *cocci_id/* drivers/power/supply/bq24735-charger.c 256 */;
+	union power_supply_propval *cocci_id/* drivers/power/supply/bq24735-charger.c 254 */;
+	enum power_supply_property cocci_id/* drivers/power/supply/bq24735-charger.c 253 */;
+	struct power_supply *cocci_id/* drivers/power/supply/bq24735-charger.c 252 */;
+	int cocci_id/* drivers/power/supply/bq24735-charger.c 252 */;
+	struct bq24735 cocci_id/* drivers/power/supply/bq24735-charger.c 244 */;
+	struct work_struct *cocci_id/* drivers/power/supply/bq24735-charger.c 242 */;
+	void cocci_id/* drivers/power/supply/bq24735-charger.c 242 */;
+	irqreturn_t cocci_id/* drivers/power/supply/bq24735-charger.c 232 */;
+	void *cocci_id/* drivers/power/supply/bq24735-charger.c 232 */;
+	bool cocci_id/* drivers/power/supply/bq24735-charger.c 184 */;
+	u16 cocci_id/* drivers/power/supply/bq24735-charger.c 112 */;
+	struct bq24735_platform *cocci_id/* drivers/power/supply/bq24735-charger.c 110 */;
+}

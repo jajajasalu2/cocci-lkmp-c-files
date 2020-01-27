@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	u32 cocci_id/* fs/nilfs2/recovery.c 99 */;
+	unsigned int cocci_id/* fs/nilfs2/recovery.c 97 */;
+	sector_t cocci_id/* fs/nilfs2/recovery.c 95 */;
+	u64 cocci_id/* fs/nilfs2/recovery.c 94 */;
+	unsigned long cocci_id/* fs/nilfs2/recovery.c 94 */;
+	u32 *cocci_id/* fs/nilfs2/recovery.c 93 */;
+	struct buffer_head *cocci_id/* fs/nilfs2/recovery.c 93 */;
+	struct the_nilfs *cocci_id/* fs/nilfs2/recovery.c 92 */;
+	int cocci_id/* fs/nilfs2/recovery.c 92 */;
+	unsigned long long cocci_id/* fs/nilfs2/recovery.c 686 */;
+	enum{RF_INIT_ST, RF_DSYNC_ST,} cocci_id/* fs/nilfs2/recovery.c 583 */;
+	__u64 cocci_id/* fs/nilfs2/recovery.c 579 */;
+	struct nilfs_segment_summary *cocci_id/* fs/nilfs2/recovery.c 573 */;
+	struct nilfs_recovery_info *cocci_id/* fs/nilfs2/recovery.c 570 */;
+	struct nilfs_root *cocci_id/* fs/nilfs2/recovery.c 569 */;
+	struct super_block *cocci_id/* fs/nilfs2/recovery.c 568 */;
+	loff_t cocci_id/* fs/nilfs2/recovery.c 501 */;
+	struct page *cocci_id/* fs/nilfs2/recovery.c 500 */;
+	const char *cocci_id/* fs/nilfs2/recovery.c 50 */;
+	unsigned long *cocci_id/* fs/nilfs2/recovery.c 495 */;
+	__u64 cocci_id/* fs/nilfs2/recovery.c 422 */[4];
+	struct inode *cocci_id/* fs/nilfs2/recovery.c 421 */;
+	struct nilfs_segment_entry cocci_id/* fs/nilfs2/recovery.c 409 */;
+	struct nilfs_segment_entry *cocci_id/* fs/nilfs2/recovery.c 407 */;
+	struct nilfs_segment_entry {
+		struct list_head list;
+		__u64 segnum;
+	} cocci_id/* fs/nilfs2/recovery.c 386 */;
+	struct nilfs_recovery_block cocci_id/* fs/nilfs2/recovery.c 380 */;
+	struct nilfs_recovery_block *cocci_id/* fs/nilfs2/recovery.c 378 */;
+	struct list_head *cocci_id/* fs/nilfs2/recovery.c 375 */;
+	void cocci_id/* fs/nilfs2/recovery.c 375 */;
+	struct nilfs_recovery_block {
+		ino_t ino;
+		sector_t blocknr;
+		__u64 vblocknr;
+		unsigned long blkoff;
+		struct list_head list;
+	} cocci_id/* fs/nilfs2/recovery.c 36 */;
+	struct nilfs_binfo_v *cocci_id/* fs/nilfs2/recovery.c 342 */;
+	struct nilfs_finfo *cocci_id/* fs/nilfs2/recovery.c 328 */;
+	ino_t cocci_id/* fs/nilfs2/recovery.c 312 */;
+	unsigned int *cocci_id/* fs/nilfs2/recovery.c 244 */;
+	struct buffer_head **cocci_id/* fs/nilfs2/recovery.c 243 */;
+	void *cocci_id/* fs/nilfs2/recovery.c 242 */;
+	enum{NILFS_SEG_VALID, NILFS_SEG_NO_SUPER_ROOT, NILFS_SEG_FAIL_IO, NILFS_SEG_FAIL_MAGIC, NILFS_SEG_FAIL_SEQ, NILFS_SEG_FAIL_CHECKSUM_SUPER_ROOT, NILFS_SEG_FAIL_CHECKSUM_FULL, NILFS_SEG_FAIL_CONSISTENCY,} cocci_id/* fs/nilfs2/recovery.c 24 */;
+	struct nilfs_segment_summary **cocci_id/* fs/nilfs2/recovery.c 182 */;
+	struct nilfs_super_root *cocci_id/* fs/nilfs2/recovery.c 134 */;
+	unsigned char *cocci_id/* fs/nilfs2/recovery.c 105 */;
+}

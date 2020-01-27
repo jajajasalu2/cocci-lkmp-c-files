@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	const struct firmware *cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 930 */;
+	u8 *cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 927 */;
+	struct sas_task_slow *cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 898 */;
+	sector_t cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 878 */;
+	int *cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 878 */;
+	struct block_device *cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 877 */;
+	struct scsi_device *cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 876 */;
+	int cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 876 */;
+	struct domain_device *cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 866 */;
+	struct scsi_target *cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 823 */;
+	struct sas_rphy *cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 794 */;
+	void __user *cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 784 */;
+	unsigned int cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 784 */;
+	bool cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 728 */;
+	typeof(*dev) cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 702 */;
+	typeof(*ssp) cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 700 */;
+	struct ssp_device *cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 698 */;
+	struct asd_sas_port *cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 643 */;
+	enum task_disposition cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 559 */;
+	struct list_head *cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 556 */;
+	unsigned long cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 467 */;
+	struct sas_internal *cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 466 */;
+	struct Scsi_Host *cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 464 */;
+	u64 cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 419 */;
+	struct task_status_struct *cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 39 */;
+	struct sas_phy *cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 369 */;
+	enum task_disposition{TASK_IS_DONE, TASK_IS_ABORTED, TASK_IS_AT_LU, TASK_IS_NOT_AT_LU, TASK_ABORT_FAILED,} cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 270 */;
+	struct sas_ha_struct *cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 207 */;
+	void cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 205 */;
+	struct scsi_lun cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 136 */;
+	gfp_t cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 133 */;
+	struct scsi_cmnd *cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 131 */;
+	struct sas_task *cocci_id/* drivers/scsi/libsas/sas_scsi_host.c 131 */;
+}

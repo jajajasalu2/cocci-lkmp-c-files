@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct of_phandle_args *cocci_id/* drivers/gpio/gpiolib-of.c 90 */;
+	struct gpio_chip *cocci_id/* drivers/gpio/gpiolib-of.c 89 */;
+	struct property *cocci_id/* drivers/gpio/gpiolib-of.c 809 */;
+	const char cocci_id/* drivers/gpio/gpiolib-of.c 808 */[];
+	struct pinctrl_dev *cocci_id/* drivers/gpio/gpiolib-of.c 805 */;
+	void *cocci_id/* drivers/gpio/gpiolib-of.c 80 */;
+	struct of_mm_gpio_chip *cocci_id/* drivers/gpio/gpiolib-of.c 725 */;
+	u32 *cocci_id/* drivers/gpio/gpiolib-of.c 679 */;
+	const struct of_phandle_args *cocci_id/* drivers/gpio/gpiolib-of.c 678 */;
+	enum gpiod_flags *cocci_id/* drivers/gpio/gpiolib-of.c 569 */;
+	const char **cocci_id/* drivers/gpio/gpiolib-of.c 567 */;
+	char cocci_id/* drivers/gpio/gpiolib-of.c 487 */[32];
+	unsigned long *cocci_id/* drivers/gpio/gpiolib-of.c 485 */;
+	unsigned int cocci_id/* drivers/gpio/gpiolib-of.c 485 */;
+	enum of_gpio_flags *cocci_id/* drivers/gpio/gpiolib-of.c 473 */;
+	struct device *cocci_id/* drivers/gpio/gpiolib-of.c 471 */;
+	const char *cocci_id/* drivers/gpio/gpiolib-of.c 448 */[];
+	bool cocci_id/* drivers/gpio/gpiolib-of.c 331 */;
+	enum of_gpio_flags cocci_id/* drivers/gpio/gpiolib-of.c 330 */;
+	unsigned long cocci_id/* drivers/gpio/gpiolib-of.c 328 */;
+	enum gpiod_flags cocci_id/* drivers/gpio/gpiolib-of.c 325 */;
+	const char *cocci_id/* drivers/gpio/gpiolib-of.c 324 */;
+	int cocci_id/* drivers/gpio/gpiolib-of.c 324 */;
+	struct gpio_desc *cocci_id/* drivers/gpio/gpiolib-of.c 323 */;
+	struct device_node *cocci_id/* drivers/gpio/gpiolib-of.c 323 */;
+	struct of_phandle_args cocci_id/* drivers/gpio/gpiolib-of.c 259 */;
+	u32 cocci_id/* drivers/gpio/gpiolib-of.c 200 */;
+	void cocci_id/* drivers/gpio/gpiolib-of.c 129 */;
+	const struct gpio_chip *cocci_id/* drivers/gpio/gpiolib-of.c 118 */;
+}

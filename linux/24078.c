@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct sockaddr *cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 88 */;
+	struct rpc_create_args cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 85 */;
+	const struct sockaddr_un cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 81 */;
+	struct rpc_clnt **cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 79 */;
+	const struct rpc_program cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 77 */;
+	const struct rpc_procinfo cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 53 */[];
+	struct rpc_stat cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 389 */;
+	const struct rpc_version *cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 384 */[];
+	const struct rpc_version cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 377 */;
+	unsigned int cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 376 */[ARRAY_SIZE(gssp_procedures)];
+	struct svc_cred *cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 333 */;
+	gssx_buffer *cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 327 */;
+	struct xdr_netobj cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 294 */;
+	struct rpc_message cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 288 */;
+	struct gssx_res_accept_sec_context cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 284 */;
+	struct gssx_arg_accept_sec_context cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 271 */;
+	struct gssx_ctx cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 268 */;
+	struct gssp_upcall_data *cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 266 */;
+	struct net *cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 265 */;
+	int cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 265 */;
+	struct svc_cred cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 263 */;
+	char *cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 231 */;
+	enum{GSSX_NULL=0, GSSX_INDICATE_MECHS=1, GSSX_GET_CALL_CONTEXT=2, GSSX_IMPORT_AND_CANON_NAME=3, GSSX_EXPORT_CRED=4, GSSX_IMPORT_CRED=5, GSSX_ACQUIRE_CRED=6, GSSX_STORE_CRED=7, GSSX_INIT_SEC_CONTEXT=8, GSSX_ACCEPT_SEC_CONTEXT=9, GSSX_RELEASE_HANDLE=10, GSSX_GET_MIC=11, GSSX_VERIFY=12, GSSX_WRAP=13, GSSX_UNWRAP=14, GSSX_WRAP_SIZE_LIMIT=15,} cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 23 */;
+	char **cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 229 */;
+	struct xdr_netobj *cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 224 */;
+	struct page *cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 214 */;
+	struct gssx_arg_accept_sec_context *cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 211 */;
+	struct rpc_message *cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 168 */;
+	struct rpc_clnt *cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 156 */;
+	struct sunrpc_net *cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 146 */;
+	void cocci_id/* net/sunrpc/auth_gss/gss_rpc_upcall.c 146 */;
+}

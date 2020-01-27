@@ -1,0 +1,65 @@
+cocci_test_suite() {
+	struct tea5764_regs {
+		u16 intreg;
+		u16 frqset;
+		u16 tnctrl;
+		u16 frqchk;
+		u16 tunchk;
+		u16 testreg;
+		u16 rdsstat;
+		u16 rdslb;
+		u16 rdspb;
+		u16 rdsbc;
+		u16 rdsctrl;
+		u16 rdsbbl;
+		u16 manid;
+		u16 chipid;
+	}__attribute__((packed)) cocci_id/* drivers/media/radio/radio-tea5764.c 95 */;
+	struct i2c_driver cocci_id/* drivers/media/radio/radio-tea5764.c 512 */;
+	const struct i2c_device_id cocci_id/* drivers/media/radio/radio-tea5764.c 506 */[];
+	struct tea5764_device cocci_id/* drivers/media/radio/radio-tea5764.c 424 */;
+	struct v4l2_ctrl_handler *cocci_id/* drivers/media/radio/radio-tea5764.c 419 */;
+	struct v4l2_device *cocci_id/* drivers/media/radio/radio-tea5764.c 418 */;
+	const struct i2c_device_id *cocci_id/* drivers/media/radio/radio-tea5764.c 415 */;
+	struct i2c_client *cocci_id/* drivers/media/radio/radio-tea5764.c 414 */;
+	const struct video_device cocci_id/* drivers/media/radio/radio-tea5764.c 406 */;
+	const struct v4l2_ioctl_ops cocci_id/* drivers/media/radio/radio-tea5764.c 394 */;
+	const struct v4l2_file_operations cocci_id/* drivers/media/radio/radio-tea5764.c 386 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/radio/radio-tea5764.c 381 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/radio/radio-tea5764.c 368 */;
+	struct v4l2_frequency *cocci_id/* drivers/media/radio/radio-tea5764.c 351 */;
+	struct file *cocci_id/* drivers/media/radio/radio-tea5764.c 350 */;
+	unsigned cocci_id/* drivers/media/radio/radio-tea5764.c 330 */;
+	const struct v4l2_frequency *cocci_id/* drivers/media/radio/radio-tea5764.c 327 */;
+	const struct v4l2_tuner *cocci_id/* drivers/media/radio/radio-tea5764.c 315 */;
+	struct v4l2_tuner *cocci_id/* drivers/media/radio/radio-tea5764.c 289 */;
+	struct video_device *cocci_id/* drivers/media/radio/radio-tea5764.c 279 */;
+	struct v4l2_capability *cocci_id/* drivers/media/radio/radio-tea5764.c 276 */;
+	void cocci_id/* drivers/media/radio/radio-tea5764.c 261 */;
+	struct tea5764_regs *cocci_id/* drivers/media/radio/radio-tea5764.c 253 */;
+	struct tea5764_device *cocci_id/* drivers/media/radio/radio-tea5764.c 251 */;
+	struct tea5764_write_regs cocci_id/* drivers/media/radio/radio-tea5764.c 162 */;
+	__be16 cocci_id/* drivers/media/radio/radio-tea5764.c 155 */;
+	u16 cocci_id/* drivers/media/radio/radio-tea5764.c 154 */;
+	struct tea5764_regs cocci_id/* drivers/media/radio/radio-tea5764.c 154 */;
+	void *cocci_id/* drivers/media/radio/radio-tea5764.c 149 */;
+	struct i2c_msg cocci_id/* drivers/media/radio/radio-tea5764.c 145 */[1];
+	u16 *cocci_id/* drivers/media/radio/radio-tea5764.c 143 */;
+	struct tea5764_device {
+		struct v4l2_device v4l2_dev;
+		struct v4l2_ctrl_handler ctrl_handler;
+		struct i2c_client *i2c_client;
+		struct video_device vdev;
+		struct tea5764_regs regs;
+		struct mutex mutex;
+	} cocci_id/* drivers/media/radio/radio-tea5764.c 130 */;
+	int cocci_id/* drivers/media/radio/radio-tea5764.c 127 */;
+	struct tea5764_write_regs {
+		u8 intreg;
+		__be16 frqset;
+		__be16 tnctrl;
+		__be16 testreg;
+		__be16 rdsctrl;
+		__be16 rdsbbl;
+	}__attribute__((packed)) cocci_id/* drivers/media/radio/radio-tea5764.c 112 */;
+}

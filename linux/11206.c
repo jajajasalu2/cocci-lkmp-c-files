@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 79 */;
+	struct clock_source *cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 77 */;
+	struct pipe_ctx *cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 75 */;
+	struct link_encoder *cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 71 */;
+	const struct dc_link_settings *cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 69 */;
+	enum clock_source_id cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 68 */;
+	uint8_t cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 54 */;
+	bool cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 52 */;
+	uint8_t cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 497 */[128];
+	struct display_stream_compressor *cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 464 */;
+	const uint8_t *cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 40 */;
+	enum optc_dsc_mode cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 396 */;
+	struct dsc_optc_config cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 395 */;
+	struct dsc_config cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 394 */;
+	int cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 388 */;
+	struct dc_stream_state *cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 369 */;
+	uint64_t cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 351 */;
+	struct dsc_optc_config *cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 346 */;
+	struct dc_link_settings *cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 269 */;
+	struct encoder_set_dp_phy_pattern_param cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 257 */;
+	enum dp_test_pattern cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 253 */;
+	uint8_t *cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 25 */;
+	const struct link_training_settings *cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 243 */;
+	uint32_t cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 24 */;
+	struct dc_link *cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 23 */;
+	enum dc_status cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 22 */;
+	enum dc_dp_training_pattern cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 215 */;
+	struct dmcu *cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 178 */;
+	struct dc *cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 177 */;
+	enum signal_type cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 175 */;
+	void cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 175 */;
+	unsigned char cocci_id/* drivers/gpu/drm/amd/display/dc/core/dc_link_hwss.c 151 */;
+}

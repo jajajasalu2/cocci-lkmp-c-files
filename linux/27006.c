@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	xfs_exntst_t cocci_id/* fs/xfs/xfs_rmap_item.c 503 */;
+	enum xfs_rmap_intent_type cocci_id/* fs/xfs/xfs_rmap_item.c 501 */;
+	bool cocci_id/* fs/xfs/xfs_rmap_item.c 499 */;
+	xfs_fsblock_t cocci_id/* fs/xfs/xfs_rmap_item.c 498 */;
+	const struct xfs_defer_op_type cocci_id/* fs/xfs/xfs_rmap_item.c 474 */;
+	struct xfs_rmap_intent cocci_id/* fs/xfs/xfs_rmap_item.c 470 */;
+	struct xfs_rmap_intent *cocci_id/* fs/xfs/xfs_rmap_item.c 468 */;
+	struct list_head *cocci_id/* fs/xfs/xfs_rmap_item.c 466 */;
+	void *cocci_id/* fs/xfs/xfs_rmap_item.c 458 */;
+	void cocci_id/* fs/xfs/xfs_rmap_item.c 456 */;
+	struct xfs_btree_cur *cocci_id/* fs/xfs/xfs_rmap_item.c 450 */;
+	struct xfs_btree_cur **cocci_id/* fs/xfs/xfs_rmap_item.c 438 */;
+	void **cocci_id/* fs/xfs/xfs_rmap_item.c 425 */;
+	unsigned int cocci_id/* fs/xfs/xfs_rmap_item.c 414 */;
+	struct xfs_trans *cocci_id/* fs/xfs/xfs_rmap_item.c 412 */;
+	struct xfs_map_extent *cocci_id/* fs/xfs/xfs_rmap_item.c 386 */;
+	uint cocci_id/* fs/xfs/xfs_rmap_item.c 385 */;
+	struct xfs_mount *cocci_id/* fs/xfs/xfs_rmap_item.c 345 */;
+	int cocci_id/* fs/xfs/xfs_rmap_item.c 339 */;
+	xfs_filblks_t cocci_id/* fs/xfs/xfs_rmap_item.c 316 */;
+	xfs_fileoff_t cocci_id/* fs/xfs/xfs_rmap_item.c 314 */;
+	uint64_t cocci_id/* fs/xfs/xfs_rmap_item.c 312 */;
+	struct xfs_rui_log_item cocci_id/* fs/xfs/xfs_rmap_item.c 27 */;
+	struct xfs_rui_log_item *cocci_id/* fs/xfs/xfs_rmap_item.c 25 */;
+	const struct xfs_item_ops cocci_id/* fs/xfs/xfs_rmap_item.c 235 */;
+	kmem_zone_t *cocci_id/* fs/xfs/xfs_rmap_item.c 23 */;
+	struct xfs_rud_log_format cocci_id/* fs/xfs/xfs_rmap_item.c 217 */;
+	struct xfs_log_iovec *cocci_id/* fs/xfs/xfs_rmap_item.c 211 */;
+	struct xfs_log_vec *cocci_id/* fs/xfs/xfs_rmap_item.c 208 */;
+	int *cocci_id/* fs/xfs/xfs_rmap_item.c 191 */;
+	struct xfs_rud_log_item cocci_id/* fs/xfs/xfs_rmap_item.c 185 */;
+	struct xfs_rud_log_item *cocci_id/* fs/xfs/xfs_rmap_item.c 183 */;
+	struct xfs_log_item *cocci_id/* fs/xfs/xfs_rmap_item.c 183 */;
+	struct xfs_rui_log_format *cocci_id/* fs/xfs/xfs_rmap_item.c 166 */;
+	uintptr_t cocci_id/* fs/xfs/xfs_rmap_item.c 151 */;
+}

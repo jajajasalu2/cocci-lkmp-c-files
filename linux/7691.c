@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/tty/serial/sa1100.c 944 */;
+	struct platform_driver cocci_id/* drivers/tty/serial/sa1100.c 917 */;
+	struct resource *cocci_id/* drivers/tty/serial/sa1100.c 887 */;
+	struct platform_device *cocci_id/* drivers/tty/serial/sa1100.c 860 */;
+	pm_message_t cocci_id/* drivers/tty/serial/sa1100.c 840 */;
+	int __init cocci_id/* drivers/tty/serial/sa1100.c 817 */;
+	struct console cocci_id/* drivers/tty/serial/sa1100.c 807 */;
+	struct uart_driver cocci_id/* drivers/tty/serial/sa1100.c 806 */;
+	struct console *cocci_id/* drivers/tty/serial/sa1100.c 781 */;
+	char *cocci_id/* drivers/tty/serial/sa1100.c 781 */;
+	int __init cocci_id/* drivers/tty/serial/sa1100.c 780 */;
+	struct sa1100_port {
+		struct uart_port port;
+		struct timer_list timer;
+		unsigned int old_status;
+		struct mctrl_gpios *gpios;
+	} cocci_id/* drivers/tty/serial/sa1100.c 78 */;
+	int *cocci_id/* drivers/tty/serial/sa1100.c 749 */;
+	void __init cocci_id/* drivers/tty/serial/sa1100.c 748 */;
+	const char *cocci_id/* drivers/tty/serial/sa1100.c 720 */;
+	void __iomem *cocci_id/* drivers/tty/serial/sa1100.c 679 */;
+	struct sa1100_port_fns *cocci_id/* drivers/tty/serial/sa1100.c 656 */;
+	void __init cocci_id/* drivers/tty/serial/sa1100.c 630 */;
+	struct sa1100_port cocci_id/* drivers/tty/serial/sa1100.c 616 */[NR_PORTS];
+	struct uart_ops cocci_id/* drivers/tty/serial/sa1100.c 597 */;
+	struct serial_struct *cocci_id/* drivers/tty/serial/sa1100.c 574 */;
+	struct ktermios *cocci_id/* drivers/tty/serial/sa1100.c 419 */;
+	unsigned int cocci_id/* drivers/tty/serial/sa1100.c 355 */;
+	unsigned long cocci_id/* drivers/tty/serial/sa1100.c 354 */;
+	struct sa1100_port cocci_id/* drivers/tty/serial/sa1100.c 353 */;
+	struct sa1100_port *cocci_id/* drivers/tty/serial/sa1100.c 352 */;
+	struct uart_port *cocci_id/* drivers/tty/serial/sa1100.c 350 */;
+	int cocci_id/* drivers/tty/serial/sa1100.c 350 */;
+	void cocci_id/* drivers/tty/serial/sa1100.c 350 */;
+	irqreturn_t cocci_id/* drivers/tty/serial/sa1100.c 278 */;
+	void *cocci_id/* drivers/tty/serial/sa1100.c 278 */;
+	struct circ_buf *cocci_id/* drivers/tty/serial/sa1100.c 239 */;
+	u32 cocci_id/* drivers/tty/serial/sa1100.c 151 */;
+	struct timer_list *cocci_id/* drivers/tty/serial/sa1100.c 116 */;
+}

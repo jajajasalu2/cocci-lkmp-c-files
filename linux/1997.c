@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	char *cocci_id/* drivers/iio/dac/max5821.c 83 */;
+	uintptr_t cocci_id/* drivers/iio/dac/max5821.c 81 */;
+	ssize_t cocci_id/* drivers/iio/dac/max5821.c 80 */;
+	const struct iio_enum cocci_id/* drivers/iio/dac/max5821.c 73 */;
+	unsigned int cocci_id/* drivers/iio/dac/max5821.c 64 */;
+	struct max5821_data *cocci_id/* drivers/iio/dac/max5821.c 57 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/dac/max5821.c 55 */;
+	struct iio_dev *cocci_id/* drivers/iio/dac/max5821.c 54 */;
+	int cocci_id/* drivers/iio/dac/max5821.c 54 */;
+	enum{MAX5821_THREE_STATE, MAX5821_1KOHM_TO_GND, MAX5821_100KOHM_TO_GND,} cocci_id/* drivers/iio/dac/max5821.c 48 */;
+	const char *const cocci_id/* drivers/iio/dac/max5821.c 42 */[];
+	struct i2c_driver cocci_id/* drivers/iio/dac/max5821.c 383 */;
+	const struct of_device_id cocci_id/* drivers/iio/dac/max5821.c 377 */[];
+	const struct i2c_device_id cocci_id/* drivers/iio/dac/max5821.c 371 */[];
+	struct max5821_data {
+		struct i2c_client *client;
+		struct regulator *vref_reg;
+		unsigned short vref_mv;
+		bool powerdown[MAX5821_MAX_DAC_CHANNELS];
+		u8 powerdown_mode[MAX5821_MAX_DAC_CHANNELS];
+		struct mutex lock;
+	} cocci_id/* drivers/iio/dac/max5821.c 33 */;
+	u32 cocci_id/* drivers/iio/dac/max5821.c 302 */;
+	const struct i2c_device_id *cocci_id/* drivers/iio/dac/max5821.c 298 */;
+	const struct iio_info cocci_id/* drivers/iio/dac/max5821.c 292 */;
+	enum max5821_device_ids{ID_MAX5821,} cocci_id/* drivers/iio/dac/max5821.c 29 */;
+	struct device *cocci_id/* drivers/iio/dac/max5821.c 280 */;
+	int __maybe_unused cocci_id/* drivers/iio/dac/max5821.c 280 */;
+	long cocci_id/* drivers/iio/dac/max5821.c 239 */;
+	u8 cocci_id/* drivers/iio/dac/max5821.c 175 */[2];
+	u8 cocci_id/* drivers/iio/dac/max5821.c 174 */[1];
+	struct i2c_client *cocci_id/* drivers/iio/dac/max5821.c 173 */;
+	int *cocci_id/* drivers/iio/dac/max5821.c 170 */;
+	const u8 cocci_id/* drivers/iio/dac/max5821.c 164 */[];
+	const struct iio_chan_spec cocci_id/* drivers/iio/dac/max5821.c 154 */[];
+	const struct iio_chan_spec_ext_info cocci_id/* drivers/iio/dac/max5821.c 132 */[];
+	bool cocci_id/* drivers/iio/dac/max5821.c 116 */;
+	const char *cocci_id/* drivers/iio/dac/max5821.c 113 */;
+	size_t cocci_id/* drivers/iio/dac/max5821.c 113 */;
+}

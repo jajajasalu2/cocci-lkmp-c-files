@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	struct ad9523_state *cocci_id/* drivers/iio/frequency/ad9523.c 976 */;
+	struct ad9523_platform_data *cocci_id/* drivers/iio/frequency/ad9523.c 974 */;
+	struct spi_device *cocci_id/* drivers/iio/frequency/ad9523.c 972 */;
+	unsigned long long cocci_id/* drivers/iio/frequency/ad9523.c 864 */;
+	struct ad9523_channel_spec *cocci_id/* drivers/iio/frequency/ad9523.c 762 */;
+	const struct iio_info cocci_id/* drivers/iio/frequency/ad9523.c 751 */;
+	unsigned int *cocci_id/* drivers/iio/frequency/ad9523.c 728 */;
+	long cocci_id/* drivers/iio/frequency/ad9523.c 634 */;
+	int *cocci_id/* drivers/iio/frequency/ad9523.c 632 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/frequency/ad9523.c 631 */;
+	const struct attribute_group cocci_id/* drivers/iio/frequency/ad9523.c 626 */;
+	struct attribute *cocci_id/* drivers/iio/frequency/ad9523.c 612 */[];
+	u32 cocci_id/* drivers/iio/frequency/ad9523.c 555 */;
+	struct iio_dev_attr *cocci_id/* drivers/iio/frequency/ad9523.c 547 */;
+	char *cocci_id/* drivers/iio/frequency/ad9523.c 544 */;
+	struct device_attribute *cocci_id/* drivers/iio/frequency/ad9523.c 543 */;
+	struct device *cocci_id/* drivers/iio/frequency/ad9523.c 542 */;
+	ssize_t cocci_id/* drivers/iio/frequency/ad9523.c 542 */;
+	const char *cocci_id/* drivers/iio/frequency/ad9523.c 511 */;
+	size_t cocci_id/* drivers/iio/frequency/ad9523.c 511 */;
+	bool cocci_id/* drivers/iio/frequency/ad9523.c 425 */;
+	unsigned long cocci_id/* drivers/iio/frequency/ad9523.c 421 */;
+	struct iio_dev *cocci_id/* drivers/iio/frequency/ad9523.c 361 */;
+	int cocci_id/* drivers/iio/frequency/ad9523.c 361 */;
+	struct spi_transfer cocci_id/* drivers/iio/frequency/ad9523.c 309 */[];
+	unsigned int cocci_id/* drivers/iio/frequency/ad9523.c 299 */;
+	struct ad9523_state {
+		struct spi_device *spi;
+		struct regulator *reg;
+		struct ad9523_platform_data *pdata;
+		struct iio_chan_spec ad9523_channels[AD9523_NUM_CHAN];
+		struct gpio_desc *pwrdown_gpio;
+		struct gpio_desc *reset_gpio;
+		struct gpio_desc *sync_gpio;
+		unsigned long vcxo_freq;
+		unsigned long vco_freq;
+		unsigned long vco_out_freq[AD9523_NUM_CLK_SRC];
+		unsigned char vco_out_map[AD9523_NUM_CHAN_ALT_CLK_SRC];
+		struct mutex lock;
+		union {
+			__be32 d32;
+			u8 d8[4];
+		} data[2]____cacheline_aligned;
+	} cocci_id/* drivers/iio/frequency/ad9523.c 266 */;
+	enum{AD9523_VCO1, AD9523_VCO2, AD9523_VCXO, AD9523_NUM_CLK_SRC,} cocci_id/* drivers/iio/frequency/ad9523.c 259 */;
+	enum{AD9523_STAT_PLL1_LD, AD9523_STAT_PLL2_LD, AD9523_STAT_REFA, AD9523_STAT_REFB, AD9523_STAT_REF_TEST, AD9523_STAT_VCXO, AD9523_STAT_PLL2_FB_CLK, AD9523_STAT_PLL2_REF_CLK, AD9523_SYNC, AD9523_EEPROM,} cocci_id/* drivers/iio/frequency/ad9523.c 246 */;
+	struct spi_driver cocci_id/* drivers/iio/frequency/ad9523.c 1075 */;
+	const struct spi_device_id cocci_id/* drivers/iio/frequency/ad9523.c 1069 */[];
+}

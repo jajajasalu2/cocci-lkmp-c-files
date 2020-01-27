@@ -1,0 +1,63 @@
+cocci_test_suite() {
+	char cocci_id/* drivers/block/xen-blkback/xenbus.c 974 */[RINGREF_NAME_LEN];
+	struct pending_req *cocci_id/* drivers/block/xen-blkback/xenbus.c 952 */;
+	unsigned int cocci_id/* drivers/block/xen-blkback/xenbus.c 951 */[XENBUS_MAX_RING_GRANTS];
+	struct xen_blkif_ring *cocci_id/* drivers/block/xen-blkback/xenbus.c 949 */;
+	unsigned long long cocci_id/* drivers/block/xen-blkback/xenbus.c 900 */;
+	struct xenbus_transaction cocci_id/* drivers/block/xen-blkback/xenbus.c 871 */;
+	enum xenbus_state cocci_id/* drivers/block/xen-blkback/xenbus.c 791 */;
+	char cocci_id/* drivers/block/xen-blkback/xenbus.c 79 */[TASK_COMM_LEN];
+	char *cocci_id/* drivers/block/xen-blkback/xenbus.c 711 */;
+	unsigned long cocci_id/* drivers/block/xen-blkback/xenbus.c 710 */;
+	struct xenbus_device *cocci_id/* drivers/block/xen-blkback/xenbus.c 708 */;
+	struct backend_info cocci_id/* drivers/block/xen-blkback/xenbus.c 707 */;
+	struct backend_info *cocci_id/* drivers/block/xen-blkback/xenbus.c 706 */;
+	unsigned cocci_id/* drivers/block/xen-blkback/xenbus.c 704 */;
+	int cocci_id/* drivers/block/xen-blkback/xenbus.c 703 */;
+	const char *cocci_id/* drivers/block/xen-blkback/xenbus.c 701 */;
+	struct xenbus_watch *cocci_id/* drivers/block/xen-blkback/xenbus.c 700 */;
+	void cocci_id/* drivers/block/xen-blkback/xenbus.c 700 */;
+	const struct xenbus_device_id *cocci_id/* drivers/block/xen-blkback/xenbus.c 630 */;
+	struct request_queue *cocci_id/* drivers/block/xen-blkback/xenbus.c 575 */;
+	struct block_device *cocci_id/* drivers/block/xen-blkback/xenbus.c 574 */;
+	struct xen_blkif *cocci_id/* drivers/block/xen-blkback/xenbus.c 55 */;
+	struct xen_blkif cocci_id/* drivers/block/xen-blkback/xenbus.c 51 */;
+	struct xen_vbd *cocci_id/* drivers/block/xen-blkback/xenbus.c 482 */;
+	blkif_vdev_t cocci_id/* drivers/block/xen-blkback/xenbus.c 478 */;
+	struct work_struct *cocci_id/* drivers/block/xen-blkback/xenbus.c 47 */;
+	const struct attribute_group cocci_id/* drivers/block/xen-blkback/xenbus.c 419 */;
+	struct attribute *cocci_id/* drivers/block/xen-blkback/xenbus.c 408 */[];
+	void cocci_id/* drivers/block/xen-blkback/xenbus.c 36 */(struct xen_vbd *vbd);
+	int __init cocci_id/* drivers/block/xen-blkback/xenbus.c 354 */;
+	void cocci_id/* drivers/block/xen-blkback/xenbus.c 35 */(struct xen_blkif *blkif);
+	void cocci_id/* drivers/block/xen-blkback/xenbus.c 33 */(struct xenbus_watch *,
+								 const char *,
+								 const char *);
+	int cocci_id/* drivers/block/xen-blkback/xenbus.c 32 */(struct backend_info *);
+	void cocci_id/* drivers/block/xen-blkback/xenbus.c 31 */(struct backend_info *);
+	struct kmem_cache *cocci_id/* drivers/block/xen-blkback/xenbus.c 30 */;
+	bool cocci_id/* drivers/block/xen-blkback/xenbus.c 268 */;
+	struct blkif_x86_64_sring *cocci_id/* drivers/block/xen-blkback/xenbus.c 233 */;
+	struct blkif_x86_32_sring *cocci_id/* drivers/block/xen-blkback/xenbus.c 223 */;
+	struct blkif_sring *cocci_id/* drivers/block/xen-blkback/xenbus.c 213 */;
+	struct backend_info {
+		struct xenbus_device *dev;
+		struct xen_blkif *blkif;
+		struct xenbus_watch backend_watch;
+		unsigned major;
+		unsigned minor;
+		char *mode;
+	} cocci_id/* drivers/block/xen-blkback/xenbus.c 21 */;
+	struct blkif_common_sring *cocci_id/* drivers/block/xen-blkback/xenbus.c 206 */;
+	RING_IDX cocci_id/* drivers/block/xen-blkback/xenbus.c 194 */;
+	const struct blkif_common_sring *cocci_id/* drivers/block/xen-blkback/xenbus.c 193 */;
+	grant_ref_t *cocci_id/* drivers/block/xen-blkback/xenbus.c 188 */;
+	domid_t cocci_id/* drivers/block/xen-blkback/xenbus.c 161 */;
+	struct xen_blkif_ring cocci_id/* drivers/block/xen-blkback/xenbus.c 134 */;
+	struct xenbus_driver cocci_id/* drivers/block/xen-blkback/xenbus.c 1149 */;
+	const struct xenbus_device_id cocci_id/* drivers/block/xen-blkback/xenbus.c 1144 */[];
+	const size_t cocci_id/* drivers/block/xen-blkback/xenbus.c 1058 */;
+	size_t cocci_id/* drivers/block/xen-blkback/xenbus.c 1057 */;
+	char cocci_id/* drivers/block/xen-blkback/xenbus.c 1054 */[64];
+	unsigned int cocci_id/* drivers/block/xen-blkback/xenbus.c 1053 */;
+}

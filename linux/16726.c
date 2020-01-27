@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct samsung_keypad {
+		struct input_dev *input_dev;
+		struct platform_device *pdev;
+		struct clk *clk;
+		void __iomem *base;
+		wait_queue_head_t wait;
+		bool stopped;
+		bool wake_enabled;
+		int irq;
+		enum samsung_keypad_type type;
+		unsigned int row_shift;
+		unsigned int rows;
+		unsigned int cols;
+		unsigned int row_state[SAMSUNG_MAX_COLS];
+		unsigned short keycodes[];
+	} cocci_id/* drivers/input/keyboard/samsung-keypad.c 62 */;
+	struct platform_driver cocci_id/* drivers/input/keyboard/samsung-keypad.c 596 */;
+	const struct platform_device_id cocci_id/* drivers/input/keyboard/samsung-keypad.c 584 */[];
+	const struct of_device_id cocci_id/* drivers/input/keyboard/samsung-keypad.c 576 */[];
+	enum samsung_keypad_type{KEYPAD_TYPE_SAMSUNG, KEYPAD_TYPE_S5PV210,} cocci_id/* drivers/input/keyboard/samsung-keypad.c 57 */;
+	struct resource *cocci_id/* drivers/input/keyboard/samsung-keypad.c 320 */;
+	const struct matrix_keymap_data *cocci_id/* drivers/input/keyboard/samsung-keypad.c 318 */;
+	const struct samsung_keypad_platdata *cocci_id/* drivers/input/keyboard/samsung-keypad.c 317 */;
+	struct platform_device *cocci_id/* drivers/input/keyboard/samsung-keypad.c 315 */;
+	u32 cocci_id/* drivers/input/keyboard/samsung-keypad.c 288 */;
+	uint32_t cocci_id/* drivers/input/keyboard/samsung-keypad.c 280 */;
+	struct device_node *cocci_id/* drivers/input/keyboard/samsung-keypad.c 248 */;
+	uint32_t *cocci_id/* drivers/input/keyboard/samsung-keypad.c 247 */;
+	struct matrix_keymap_data *cocci_id/* drivers/input/keyboard/samsung-keypad.c 246 */;
+	struct device *cocci_id/* drivers/input/keyboard/samsung-keypad.c 243 */;
+	struct samsung_keypad_platdata *cocci_id/* drivers/input/keyboard/samsung-keypad.c 242 */;
+	struct samsung_keypad *cocci_id/* drivers/input/keyboard/samsung-keypad.c 236 */;
+	struct input_dev *cocci_id/* drivers/input/keyboard/samsung-keypad.c 234 */;
+	void cocci_id/* drivers/input/keyboard/samsung-keypad.c 234 */;
+	bool cocci_id/* drivers/input/keyboard/samsung-keypad.c 150 */;
+	unsigned int cocci_id/* drivers/input/keyboard/samsung-keypad.c 149 */;
+	unsigned int cocci_id/* drivers/input/keyboard/samsung-keypad.c 148 */[SAMSUNG_MAX_COLS];
+	irqreturn_t cocci_id/* drivers/input/keyboard/samsung-keypad.c 145 */;
+	void *cocci_id/* drivers/input/keyboard/samsung-keypad.c 145 */;
+	int cocci_id/* drivers/input/keyboard/samsung-keypad.c 145 */;
+	unsigned int *cocci_id/* drivers/input/keyboard/samsung-keypad.c 106 */;
+}

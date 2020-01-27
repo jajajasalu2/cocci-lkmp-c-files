@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	enum batadv_subtype cocci_id/* net/batman-adv/routing.c 963 */;
+	u8 *cocci_id/* net/batman-adv/routing.c 960 */;
+	struct batadv_unicast_4addr_packet *cocci_id/* net/batman-adv/routing.c 959 */;
+	unsigned short cocci_id/* net/batman-adv/routing.c 814 */;
+	u8 cocci_id/* net/batman-adv/routing.c 812 */;
+	struct batadv_unicast_packet *cocci_id/* net/batman-adv/routing.c 809 */;
+	struct batadv_unicast_packet cocci_id/* net/batman-adv/routing.c 713 */;
+	struct batadv_unicast_4addr_packet cocci_id/* net/batman-adv/routing.c 710 */;
+	unsigned int cocci_id/* net/batman-adv/routing.c 683 */;
+	struct batadv_orig_ifinfo *cocci_id/* net/batman-adv/routing.c 59 */;
+	struct batadv_neigh_node *cocci_id/* net/batman-adv/routing.c 57 */;
+	struct batadv_hard_iface *cocci_id/* net/batman-adv/routing.c 56 */;
+	struct batadv_orig_node *cocci_id/* net/batman-adv/routing.c 55 */;
+	struct batadv_algo_ops *cocci_id/* net/batman-adv/routing.c 544 */;
+	struct batadv_priv *cocci_id/* net/batman-adv/routing.c 54 */;
+	void cocci_id/* net/batman-adv/routing.c 54 */;
+	int cocci_id/* net/batman-adv/routing.c 42 */(struct sk_buff *skb,
+						      struct batadv_hard_iface *recv_if);
+	struct batadv_icmp_packet_rr cocci_id/* net/batman-adv/routing.c 388 */;
+	struct batadv_icmp_header cocci_id/* net/batman-adv/routing.c 362 */;
+	struct batadv_icmp_packet_rr *cocci_id/* net/batman-adv/routing.c 359 */;
+	struct batadv_icmp_header *cocci_id/* net/batman-adv/routing.c 358 */;
+	struct batadv_icmp_packet *cocci_id/* net/batman-adv/routing.c 297 */;
+	struct batadv_icmp_tp_packet cocci_id/* net/batman-adv/routing.c 269 */;
+	struct ethhdr *cocci_id/* net/batman-adv/routing.c 184 */;
+	int cocci_id/* net/batman-adv/routing.c 182 */;
+	bool cocci_id/* net/batman-adv/routing.c 180 */;
+	struct sk_buff *cocci_id/* net/batman-adv/routing.c 180 */;
+	bool *cocci_id/* net/batman-adv/routing.c 154 */;
+	unsigned long *cocci_id/* net/batman-adv/routing.c 153 */;
+	struct batadv_bcast_packet cocci_id/* net/batman-adv/routing.c 1255 */;
+	u32 cocci_id/* net/batman-adv/routing.c 1193 */;
+	s32 cocci_id/* net/batman-adv/routing.c 1192 */;
+	struct batadv_bcast_packet *cocci_id/* net/batman-adv/routing.c 1188 */;
+	struct batadv_frag_packet *cocci_id/* net/batman-adv/routing.c 1126 */;
+	u16 cocci_id/* net/batman-adv/routing.c 1070 */;
+	unsigned char *cocci_id/* net/batman-adv/routing.c 1069 */;
+	struct batadv_unicast_tvlv_packet *cocci_id/* net/batman-adv/routing.c 1068 */;
+}

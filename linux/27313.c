@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	char cocci_id/* fs/cifs/link.c 88 */[34];
+	char **cocci_id/* fs/cifs/link.c 81 */;
+	const u8 *cocci_id/* fs/cifs/link.c 80 */;
+	bool cocci_id/* fs/cifs/link.c 653 */;
+	struct cifsInodeInfo *cocci_id/* fs/cifs/link.c 652 */;
+	struct TCP_Server_Info *cocci_id/* fs/cifs/link.c 618 */;
+	struct tcon_link *cocci_id/* fs/cifs/link.c 616 */;
+	struct delayed_call *cocci_id/* fs/cifs/link.c 609 */;
+	struct inode *cocci_id/* fs/cifs/link.c 608 */;
+	struct dentry *cocci_id/* fs/cifs/link.c 608 */;
+	const char *cocci_id/* fs/cifs/link.c 607 */;
+	struct sdesc *cocci_id/* fs/cifs/link.c 54 */;
+	struct crypto_shash *cocci_id/* fs/cifs/link.c 53 */;
+	struct kvec cocci_id/* fs/cifs/link.c 463 */[2];
+	__u8 cocci_id/* fs/cifs/link.c 462 */;
+	__le16 *cocci_id/* fs/cifs/link.c 461 */;
+	struct smb2_file_all_info cocci_id/* fs/cifs/link.c 416 */;
+	struct smb2_file_all_info *cocci_id/* fs/cifs/link.c 400 */;
+	struct cifs_io_parms cocci_id/* fs/cifs/link.c 355 */;
+	struct cifs_open_parms cocci_id/* fs/cifs/link.c 354 */;
+	struct cifs_fid cocci_id/* fs/cifs/link.c 353 */;
+	unsigned int *cocci_id/* fs/cifs/link.c 349 */;
+	char *cocci_id/* fs/cifs/link.c 349 */;
+	FILE_ALL_INFO cocci_id/* fs/cifs/link.c 313 */;
+	u8 *cocci_id/* fs/cifs/link.c 254 */;
+	const unsigned char *cocci_id/* fs/cifs/link.c 251 */;
+	struct cifs_sb_info *cocci_id/* fs/cifs/link.c 250 */;
+	struct cifs_fattr *cocci_id/* fs/cifs/link.c 250 */;
+	struct cifs_tcon *cocci_id/* fs/cifs/link.c 249 */;
+	unsigned int cocci_id/* fs/cifs/link.c 249 */;
+	int cocci_id/* fs/cifs/link.c 248 */;
+	const unsigned int cocci_id/* fs/cifs/link.c 182 */;
+	const struct cifs_fattr *cocci_id/* fs/cifs/link.c 168 */;
+	CIFS_MF_SYMLINK_LEN_FORMAT cocci_id/* fs/cifs/link.c 146 */;
+	u8 cocci_id/* fs/cifs/link.c 129 */[16];
+}

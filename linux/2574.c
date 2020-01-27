@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct dm_rq_target_io cocci_id/* drivers/md/dm-rq.c 554 */;
+	struct blk_mq_tag_set cocci_id/* drivers/md/dm-rq.c 543 */;
+	struct dm_target *cocci_id/* drivers/md/dm-rq.c 540 */;
+	struct dm_table *cocci_id/* drivers/md/dm-rq.c 537 */;
+	const struct blk_mq_ops cocci_id/* drivers/md/dm-rq.c 531 */;
+	const struct blk_mq_queue_data *cocci_id/* drivers/md/dm-rq.c 492 */;
+	struct blk_mq_hw_ctx *cocci_id/* drivers/md/dm-rq.c 491 */;
+	unsigned cocci_id/* drivers/md/dm-rq.c 49 */;
+	unsigned int cocci_id/* drivers/md/dm-rq.c 472 */;
+	struct blk_mq_tag_set *cocci_id/* drivers/md/dm-rq.c 471 */;
+	const char *cocci_id/* drivers/md/dm-rq.c 443 */;
+	size_t cocci_id/* drivers/md/dm-rq.c 443 */;
+	struct mapped_device *cocci_id/* drivers/md/dm-rq.c 437 */;
+	char *cocci_id/* drivers/md/dm-rq.c 437 */;
+	ssize_t cocci_id/* drivers/md/dm-rq.c 437 */;
+	gfp_t cocci_id/* drivers/md/dm-rq.c 343 */;
+	struct dm_rq_clone_bio_info cocci_id/* drivers/md/dm-rq.c 333 */;
+	struct dm_rq_clone_bio_info *cocci_id/* drivers/md/dm-rq.c 332 */;
+	void *cocci_id/* drivers/md/dm-rq.c 329 */;
+	struct bio *cocci_id/* drivers/md/dm-rq.c 328 */;
+	struct dm_rq_target_io *cocci_id/* drivers/md/dm-rq.c 288 */;
+	blk_status_t cocci_id/* drivers/md/dm-rq.c 286 */;
+	struct request *cocci_id/* drivers/md/dm-rq.c 286 */;
+	dm_request_endio_fn cocci_id/* drivers/md/dm-rq.c 215 */;
+	int cocci_id/* drivers/md/dm-rq.c 213 */;
+	bool cocci_id/* drivers/md/dm-rq.c 211 */;
+	struct dm_rq_target_io {
+		struct mapped_device *md;
+		struct dm_target *ti;
+		struct request *orig,*clone;
+		struct kthread_work work;
+		blk_status_t error;
+		union map_info info;
+		struct dm_stats_aux stats_aux;
+		unsigned long duration_jiffies;
+		unsigned n_sectors;
+		unsigned completed;
+	} cocci_id/* drivers/md/dm-rq.c 18 */;
+	struct request_queue *cocci_id/* drivers/md/dm-rq.c 178 */;
+	unsigned long cocci_id/* drivers/md/dm-rq.c 178 */;
+	void cocci_id/* drivers/md/dm-rq.c 178 */;
+}

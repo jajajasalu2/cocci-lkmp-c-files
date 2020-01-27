@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	void *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 97 */;
+	struct bnxt_cos2bw_cfg cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 95 */;
+	struct hwrm_queue_cos2bw_cfg_input cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 94 */;
+	struct bnxt *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 735 */;
+	void cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 735 */;
+	const struct dcbnl_rtnl_ops cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 709 */;
+	u8 cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 677 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 677 */;
+	struct hwrm_queue_pri2cos_qcfg_input cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 66 */;
+	struct hwrm_queue_pri2cos_qcfg_output *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 65 */;
+	struct dcb_app *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 649 */;
+	int cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 649 */;
+	long cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 551 */;
+	__le64 *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 549 */;
+	struct ieee_pfc *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 546 */;
+	struct ieee_ets *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 478 */;
+	u8 *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 440 */;
+	dma_addr_t cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 414 */;
+	struct bnxt_dscp2pri_entry *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 413 */;
+	struct hwrm_queue_dscp2pri_cfg_input cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 412 */;
+	bool cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 410 */;
+	struct hwrm_queue_pri2cos_cfg_input cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 41 */;
+	struct hwrm_queue_dscp_qcaps_input cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 389 */;
+	struct hwrm_queue_dscp_qcaps_output *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 388 */;
+	size_t cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 311 */;
+	struct hwrm_struct_hdr *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 309 */;
+	struct hwrm_struct_data_dcbx_app *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 308 */;
+	struct hwrm_fw_get_structured_data_input cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 307 */;
+	struct hwrm_fw_set_structured_data_input cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 306 */;
+	struct hwrm_queue_pfcenable_qcfg_input cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 284 */;
+	struct hwrm_queue_pfcenable_qcfg_output *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 283 */;
+	unsigned int cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 236 */;
+	struct hwrm_queue_pfcenable_cfg_input cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 234 */;
+	unsigned long cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 178 */;
+	struct hwrm_queue_cos2bw_qcfg_input cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 138 */;
+	struct hwrm_queue_cos2bw_qcfg_output *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c 137 */;
+}

@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	struct device_node *cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 958 */;
+	struct device *cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 957 */;
+	struct s6e8aa0 {
+		struct device *dev;
+		struct drm_panel panel;
+		struct regulator_bulk_data supplies[2];
+		struct gpio_desc *reset_gpio;
+		u32 power_on_delay;
+		u32 reset_delay;
+		u32 init_delay;
+		bool flip_horizontal;
+		bool flip_vertical;
+		struct videomode vm;
+		u32 width_mm;
+		u32 height_mm;
+		u8 version;
+		u8 id;
+		const struct s6e8aa0_variant *variant;
+		int brightness;
+		int error;
+	} cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 95 */;
+	const struct drm_panel_funcs cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 947 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 927 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 925 */;
+	struct s6e8aa0_variant {
+		u8 version;
+		const s6e8aa0_gamma_table *gamma_tables;
+	} cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 90 */;
+	u8 cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 88 */[GAMMA_TABLE_LEN];
+	u8 cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 823 */[3];
+	u16 cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 804 */;
+	const u8 *cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 767 */;
+	const struct s6e8aa0_variant cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 749 */[];
+	const s6e8aa0_gamma_table cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 361 */[GAMMA_LEVEL_NUM];
+	const u8 cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 285 */[];
+	void cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 183 */;
+	struct mipi_dsi_device *cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 155 */;
+	u8 cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 153 */;
+	void *cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 153 */;
+	size_t cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 153 */;
+	ssize_t cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 140 */;
+	const void *cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 137 */;
+	int cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 129 */;
+	struct s6e8aa0 cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 126 */;
+	struct s6e8aa0 *cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 124 */;
+	struct drm_panel *cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 124 */;
+	struct mipi_dsi_driver cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 1050 */;
+	const struct of_device_id cocci_id/* drivers/gpu/drm/panel/panel-samsung-s6e8aa0.c 1044 */[];
+}

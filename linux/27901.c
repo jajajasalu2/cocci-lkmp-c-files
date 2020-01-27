@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	u32 cocci_id/* fs/fscache/page.c 970 */;
+	struct fscache_storage *cocci_id/* fs/fscache/page.c 965 */;
+	loff_t cocci_id/* fs/fscache/page.c 962 */;
+	void *cocci_id/* fs/fscache/page.c 897 */[16];
+	void *cocci_id/* fs/fscache/page.c 796 */[1];
+	unsigned cocci_id/* fs/fscache/page.c 795 */;
+	struct fscache_storage cocci_id/* fs/fscache/page.c 791 */;
+	void cocci_id/* fs/fscache/page.c 765 */;
+	struct fscache_object cocci_id/* fs/fscache/page.c 714 */;
+	bool cocci_id/* fs/fscache/page.c 681 */;
+	struct fscache_object *cocci_id/* fs/fscache/page.c 680 */;
+	struct fscache_retrieval *cocci_id/* fs/fscache/page.c 679 */;
+	gfp_t cocci_id/* fs/fscache/page.c 677 */;
+	struct page *cocci_id/* fs/fscache/page.c 676 */;
+	struct fscache_cookie *cocci_id/* fs/fscache/page.c 675 */;
+	int cocci_id/* fs/fscache/page.c 675 */;
+	unsigned *cocci_id/* fs/fscache/page.c 561 */;
+	struct list_head *cocci_id/* fs/fscache/page.c 560 */;
+	struct address_space *cocci_id/* fs/fscache/page.c 559 */;
+	fscache_rw_complete_t cocci_id/* fs/fscache/page.c 431 */;
+	enum fscache_operation_state cocci_id/* fs/fscache/page.c 409 */;
+	atomic_t *cocci_id/* fs/fscache/page.c 375 */;
+	wait_queue_head_t *cocci_id/* fs/fscache/page.c 37 */;
+	struct fscache_retrieval cocci_id/* fs/fscache/page.c 274 */;
+	struct fscache_operation *cocci_id/* fs/fscache/page.c 215 */;
+	void *cocci_id/* fs/fscache/page.c 21 */;
+	pgoff_t cocci_id/* fs/fscache/page.c 1220 */;
+	struct pagevec cocci_id/* fs/fscache/page.c 1219 */;
+	struct inode *cocci_id/* fs/fscache/page.c 1216 */;
+	unsigned long cocci_id/* fs/fscache/page.c 1202 */;
+	struct pagevec *cocci_id/* fs/fscache/page.c 1200 */;
+	unsigned long long cocci_id/* fs/fscache/page.c 1020 */;
+}

@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* drivers/dma/fsldma.c 979 */;
+	struct fsl_dma_ld_hw *cocci_id/* drivers/dma/fsldma.c 94 */;
+	irqreturn_t cocci_id/* drivers/dma/fsldma.c 912 */;
+	void *cocci_id/* drivers/dma/fsldma.c 912 */;
+	struct dma_tx_state *cocci_id/* drivers/dma/fsldma.c 892 */;
+	enum dma_status cocci_id/* drivers/dma/fsldma.c 890 */;
+	struct dma_slave_config *cocci_id/* drivers/dma/fsldma.c 848 */;
+	size_t cocci_id/* drivers/dma/fsldma.c 761 */;
+	struct dma_async_tx_descriptor *cocci_id/* drivers/dma/fsldma.c 758 */;
+	struct list_head *cocci_id/* drivers/dma/fsldma.c 721 */;
+	struct dma_chan *cocci_id/* drivers/dma/fsldma.c 689 */;
+	struct fsl_desc_sw cocci_id/* drivers/dma/fsldma.c 599 */;
+	dma_addr_t cocci_id/* drivers/dma/fsldma.c 461 */;
+	const char cocci_id/* drivers/dma/fsldma.c 43 */[];
+	dma_cookie_t cocci_id/* drivers/dma/fsldma.c 406 */;
+	struct fsldma_chan *cocci_id/* drivers/dma/fsldma.c 382 */;
+	struct fsl_desc_sw *cocci_id/* drivers/dma/fsldma.c 382 */;
+	void cocci_id/* drivers/dma/fsldma.c 382 */;
+	int cocci_id/* drivers/dma/fsldma.c 209 */;
+	u32 cocci_id/* drivers/dma/fsldma.c 208 */;
+	void __exit cocci_id/* drivers/dma/fsldma.c 1415 */;
+	struct platform_driver cocci_id/* drivers/dma/fsldma.c 1393 */;
+	const struct of_device_id cocci_id/* drivers/dma/fsldma.c 1385 */[];
+	const struct dev_pm_ops cocci_id/* drivers/dma/fsldma.c 1379 */;
+	struct device *cocci_id/* drivers/dma/fsldma.c 1356 */;
+	struct platform_device *cocci_id/* drivers/dma/fsldma.c 1213 */;
+	u64 cocci_id/* drivers/dma/fsldma.c 112 */;
+	struct resource cocci_id/* drivers/dma/fsldma.c 1109 */;
+	const char *cocci_id/* drivers/dma/fsldma.c 1106 */;
+	struct device_node *cocci_id/* drivers/dma/fsldma.c 1106 */;
+	struct fsldma_device *cocci_id/* drivers/dma/fsldma.c 1105 */;
+	unsigned int cocci_id/* drivers/dma/fsldma.c 1002 */;
+}

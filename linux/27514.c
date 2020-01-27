@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	int cocci_id/* fs/fuse/control.c 82 */;
+	unsigned long cocci_id/* fs/fuse/control.c 80 */;
+	unsigned *cocci_id/* fs/fuse/control.c 77 */;
+	char cocci_id/* fs/fuse/control.c 70 */[32];
+	void *cocci_id/* fs/fuse/control.c 60 */;
+	long cocci_id/* fs/fuse/control.c 54 */;
+	void __exit cocci_id/* fs/fuse/control.c 388 */;
+	void cocci_id/* fs/fuse/control.c 388 */;
+	int __init cocci_id/* fs/fuse/control.c 383 */;
+	struct file_system_type cocci_id/* fs/fuse/control.c 375 */;
+	struct fuse_conn *cocci_id/* fs/fuse/control.c 37 */;
+	const struct fs_context_operations cocci_id/* fs/fuse/control.c 352 */;
+	loff_t *cocci_id/* fs/fuse/control.c 35 */;
+	size_t cocci_id/* fs/fuse/control.c 35 */;
+	const char __user *cocci_id/* fs/fuse/control.c 34 */;
+	struct file *cocci_id/* fs/fuse/control.c 34 */;
+	ssize_t cocci_id/* fs/fuse/control.c 34 */;
+	const struct tree_descr cocci_id/* fs/fuse/control.c 323 */;
+	struct fs_context *cocci_id/* fs/fuse/control.c 321 */;
+	struct dentry *cocci_id/* fs/fuse/control.c 265 */;
+	struct inode *cocci_id/* fs/fuse/control.c 228 */;
+	const struct file_operations *cocci_id/* fs/fuse/control.c 225 */;
+	const struct inode_operations *cocci_id/* fs/fuse/control.c 224 */;
+	const char *cocci_id/* fs/fuse/control.c 222 */;
+	const struct file_operations cocci_id/* fs/fuse/control.c 213 */;
+	struct super_block *cocci_id/* fs/fuse/control.c 21 */;
+	unsigned cocci_id/* fs/fuse/control.c 149 */;
+	char __user *cocci_id/* fs/fuse/control.c 145 */;
+}

@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct tomoyo_task *cocci_id/* security/tomoyo/securityfs_if.c 73 */;
+	struct tomoyo_request_info cocci_id/* security/tomoyo/securityfs_if.c 56 */;
+	struct tomoyo_path_info cocci_id/* security/tomoyo/securityfs_if.c 55 */;
+	char *cocci_id/* security/tomoyo/securityfs_if.c 44 */;
+	struct tomoyo_domain_info *cocci_id/* security/tomoyo/securityfs_if.c 237 */;
+	int __init cocci_id/* security/tomoyo/securityfs_if.c 235 */;
+	void cocci_id/* security/tomoyo/securityfs_if.c 235 */;
+	u8 *cocci_id/* security/tomoyo/securityfs_if.c 226 */;
+	const u8 cocci_id/* security/tomoyo/securityfs_if.c 224 */;
+	struct dentry *cocci_id/* security/tomoyo/securityfs_if.c 224 */;
+	const umode_t cocci_id/* security/tomoyo/securityfs_if.c 223 */;
+	const char *cocci_id/* security/tomoyo/securityfs_if.c 223 */;
+	void __init cocci_id/* security/tomoyo/securityfs_if.c 223 */;
+	typeof(*acl) cocci_id/* security/tomoyo/securityfs_if.c 22 */;
+	const struct tomoyo_task_acl *cocci_id/* security/tomoyo/securityfs_if.c 22 */;
+	const struct file_operations cocci_id/* security/tomoyo/securityfs_if.c 204 */;
+	const struct tomoyo_acl_info *cocci_id/* security/tomoyo/securityfs_if.c 20 */;
+	const char __user *cocci_id/* security/tomoyo/securityfs_if.c 191 */;
+	bool cocci_id/* security/tomoyo/securityfs_if.c 19 */;
+	struct tomoyo_request_info *cocci_id/* security/tomoyo/securityfs_if.c 19 */;
+	loff_t *cocci_id/* security/tomoyo/securityfs_if.c 176 */;
+	char __user *cocci_id/* security/tomoyo/securityfs_if.c 175 */;
+	ssize_t cocci_id/* security/tomoyo/securityfs_if.c 175 */;
+	size_t cocci_id/* security/tomoyo/securityfs_if.c 175 */;
+	__poll_t cocci_id/* security/tomoyo/securityfs_if.c 160 */;
+	poll_table *cocci_id/* security/tomoyo/securityfs_if.c 160 */;
+	const int cocci_id/* security/tomoyo/securityfs_if.c 134 */;
+	struct inode *cocci_id/* security/tomoyo/securityfs_if.c 132 */;
+	struct file *cocci_id/* security/tomoyo/securityfs_if.c 132 */;
+	int cocci_id/* security/tomoyo/securityfs_if.c 132 */;
+	loff_t cocci_id/* security/tomoyo/securityfs_if.c 104 */;
+}

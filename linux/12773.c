@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	void cocci_id/* drivers/hv/hv_util.c 93 */(void *context);
+	void cocci_id/* drivers/hv/hv_util.c 84 */(void);
+	int cocci_id/* drivers/hv/hv_util.c 83 */(struct hv_util_service *srv);
+	const int cocci_id/* drivers/hv/hv_util.c 73 */[];
+	int __init cocci_id/* drivers/hv/hv_util.c 556 */;
+	struct hv_util_service *cocci_id/* drivers/hv/hv_util.c 524 */;
+	struct ptp_clock *cocci_id/* drivers/hv/hv_util.c 522 */;
+	struct ptp_clock_info cocci_id/* drivers/hv/hv_util.c 512 */;
+	int cocci_id/* drivers/hv/hv_util.c 51 */;
+	struct timespec64 *cocci_id/* drivers/hv/hv_util.c 505 */;
+	s64 cocci_id/* drivers/hv/hv_util.c 500 */;
+	s32 cocci_id/* drivers/hv/hv_util.c 496 */;
+	struct ptp_clock_info *cocci_id/* drivers/hv/hv_util.c 496 */;
+	const struct timespec64 *cocci_id/* drivers/hv/hv_util.c 491 */;
+	struct ptp_clock_request *cocci_id/* drivers/hv/hv_util.c 486 */;
+	struct hv_driver cocci_id/* drivers/hv/hv_util.c 475 */;
+	const struct hv_vmbus_device_id cocci_id/* drivers/hv/hv_util.c 444 */[];
+	const struct hv_vmbus_device_id *cocci_id/* drivers/hv/hv_util.c 387 */;
+	struct hv_device *cocci_id/* drivers/hv/hv_util.c 386 */;
+	struct icmsg_hdr cocci_id/* drivers/hv/hv_util.c 372 */;
+	struct vmbuspipe_hdr cocci_id/* drivers/hv/hv_util.c 355 */;
+	u8 *cocci_id/* drivers/hv/hv_util.c 344 */;
+	struct heartbeat_msg_data *cocci_id/* drivers/hv/hv_util.c 343 */;
+	struct icmsg_hdr *cocci_id/* drivers/hv/hv_util.c 342 */;
+	u32 cocci_id/* drivers/hv/hv_util.c 340 */;
+	struct vmbus_channel *cocci_id/* drivers/hv/hv_util.c 339 */;
+	void *cocci_id/* drivers/hv/hv_util.c 337 */;
+	struct ictimesync_ref_data *cocci_id/* drivers/hv/hv_util.c 283 */;
+	struct ictimesync_data *cocci_id/* drivers/hv/hv_util.c 282 */;
+	unsigned long cocci_id/* drivers/hv/hv_util.c 244 */;
+	u8 cocci_id/* drivers/hv/hv_util.c 242 */;
+	u64 cocci_id/* drivers/hv/hv_util.c 242 */;
+	void cocci_id/* drivers/hv/hv_util.c 242 */;
+	struct work_struct *cocci_id/* drivers/hv/hv_util.c 222 */;
+	struct timespec64 cocci_id/* drivers/hv/hv_util.c 207 */;
+	struct {
+		u64 host_time;
+		u64 ref_time;
+		spinlock_t lock;
+	} cocci_id/* drivers/hv/hv_util.c 201 */;
+	struct work_struct cocci_id/* drivers/hv/hv_util.c 194 */;
+	struct shutdown_msg_data *cocci_id/* drivers/hv/hv_util.c 134 */;
+	bool cocci_id/* drivers/hv/hv_util.c 131 */;
+	struct hv_util_service cocci_id/* drivers/hv/hv_util.c 110 */;
+}

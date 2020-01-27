@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct inode *cocci_id/* fs/ubifs/journal.c 880 */;
+	struct fscrypt_name cocci_id/* fs/ubifs/journal.c 879 */;
+	bool cocci_id/* fs/ubifs/journal.c 730 */;
+	const union ubifs_key *cocci_id/* fs/ubifs/journal.c 723 */;
+	const void *cocci_id/* fs/ubifs/journal.c 723 */;
+	__le32 cocci_id/* fs/ubifs/journal.c 506 */;
+	struct ubifs_dent_node *cocci_id/* fs/ubifs/journal.c 503 */;
+	struct ubifs_inode *cocci_id/* fs/ubifs/journal.c 496 */;
+	const struct inode *cocci_id/* fs/ubifs/journal.c 447 */;
+	struct ubifs_ino_node *cocci_id/* fs/ubifs/journal.c 446 */;
+	int cocci_id/* fs/ubifs/journal.c 416 */;
+	struct ubifs_info *cocci_id/* fs/ubifs/journal.c 407 */;
+	void cocci_id/* fs/ubifs/journal.c 407 */;
+	const struct ubifs_ch *cocci_id/* fs/ubifs/journal.c 232 */;
+	struct shash_desc *cocci_id/* fs/ubifs/journal.c 226 */;
+	u8 cocci_id/* fs/ubifs/journal.c 1794 */[UBIFS_HASH_ARR_SZ];
+	union ubifs_key cocci_id/* fs/ubifs/journal.c 1792 */;
+	const struct fscrypt_name *cocci_id/* fs/ubifs/journal.c 1666 */;
+	unsigned long cocci_id/* fs/ubifs/journal.c 1518 */;
+	ino_t cocci_id/* fs/ubifs/journal.c 1512 */;
+	struct ubifs_trun_node *cocci_id/* fs/ubifs/journal.c 1508 */;
+	loff_t cocci_id/* fs/ubifs/journal.c 1504 */;
+	void *cocci_id/* fs/ubifs/journal.c 1441 */;
+	int *cocci_id/* fs/ubifs/journal.c 1439 */;
+	struct ubifs_data_node *cocci_id/* fs/ubifs/journal.c 1438 */;
+	unsigned int cocci_id/* fs/ubifs/journal.c 1438 */;
+	const struct ubifs_info *cocci_id/* fs/ubifs/journal.c 1437 */;
+	struct ubifs_wbuf *cocci_id/* fs/ubifs/journal.c 101 */;
+}

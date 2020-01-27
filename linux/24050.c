@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct vport_ops *cocci_id/* net/openvswitch/vport.c 61 */;
+	int cocci_id/* net/openvswitch/vport.c 61 */;
+	unsigned long cocci_id/* net/openvswitch/vport.c 57 */;
+	unsigned int cocci_id/* net/openvswitch/vport.c 57 */;
+	const struct net *cocci_id/* net/openvswitch/vport.c 55 */;
+	const char *cocci_id/* net/openvswitch/vport.c 55 */;
+	u8 cocci_id/* net/openvswitch/vport.c 470 */;
+	struct net_device *cocci_id/* net/openvswitch/vport.c 454 */;
+	const struct sk_buff *cocci_id/* net/openvswitch/vport.c 453 */;
+	struct sw_flow_key cocci_id/* net/openvswitch/vport.c 428 */;
+	const struct ip_tunnel_info *cocci_id/* net/openvswitch/vport.c 426 */;
+	struct vport_portids *cocci_id/* net/openvswitch/vport.c 400 */;
+	u32 cocci_id/* net/openvswitch/vport.c 398 */;
+	const struct vport *cocci_id/* net/openvswitch/vport.c 398 */;
+	struct sk_buff *cocci_id/* net/openvswitch/vport.c 398 */;
+	void *cocci_id/* net/openvswitch/vport.c 382 */;
+	struct hlist_head cocci_id/* net/openvswitch/vport.c 37 */;
+	const struct nlattr *cocci_id/* net/openvswitch/vport.c 334 */;
+	struct nlattr *cocci_id/* net/openvswitch/vport.c 301 */;
+	struct hlist_head *cocci_id/* net/openvswitch/vport.c 27 */;
+	struct rtnl_link_stats64 cocci_id/* net/openvswitch/vport.c 269 */;
+	const struct rtnl_link_stats64 *cocci_id/* net/openvswitch/vport.c 268 */;
+	struct ovs_vport_stats *cocci_id/* net/openvswitch/vport.c 266 */;
+	void cocci_id/* net/openvswitch/vport.c 249 */;
+	const struct vport_parms *cocci_id/* net/openvswitch/vport.c 187 */;
+	struct vport *cocci_id/* net/openvswitch/vport.c 187 */;
+	struct vport cocci_id/* net/openvswitch/vport.c 124 */;
+	size_t cocci_id/* net/openvswitch/vport.c 122 */;
+	const struct vport_ops *cocci_id/* net/openvswitch/vport.c 118 */;
+}

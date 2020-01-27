@@ -1,0 +1,86 @@
+cocci_test_suite() {
+	size_t cocci_id/* sound/pci/rme96.c 960 */;
+	snd_pcm_format_t cocci_id/* sound/pci/rme96.c 942 */;
+	int *cocci_id/* sound/pci/rme96.c 607 */;
+	u16 cocci_id/* sound/pci/rme96.c 499 */;
+	const struct snd_pcm_hardware cocci_id/* sound/pci/rme96.c 462 */;
+	bool cocci_id/* sound/pci/rme96.c 42 */[SNDRV_CARDS];
+	char *cocci_id/* sound/pci/rme96.c 41 */[SNDRV_CARDS];
+	int cocci_id/* sound/pci/rme96.c 40 */[SNDRV_CARDS];
+	void *cocci_id/* sound/pci/rme96.c 362 */;
+	void __user *cocci_id/* sound/pci/rme96.c 350 */;
+	unsigned long cocci_id/* sound/pci/rme96.c 349 */;
+	int cocci_id/* sound/pci/rme96.c 297 */(struct rme96 *rme96);
+	int cocci_id/* sound/pci/rme96.c 293 */(struct snd_card *card,
+						struct rme96 *rme96);
+	void cocci_id/* sound/pci/rme96.c 291 */(struct rme96 *rme96);
+	snd_pcm_uframes_t cocci_id/* sound/pci/rme96.c 288 */(struct snd_pcm_substream *substream);
+	int cocci_id/* sound/pci/rme96.c 281 */(struct snd_pcm_substream *substream,
+						int cmd);
+	int cocci_id/* sound/pci/rme96.c 274 */(struct snd_pcm_substream *substream);
+	struct pci_driver cocci_id/* sound/pci/rme96.c 2521 */;
+	const struct pci_device_id cocci_id/* sound/pci/rme96.c 251 */[];
+	struct rme96 cocci_id/* sound/pci/rme96.c 2458 */;
+	u8 cocci_id/* sound/pci/rme96.c 2448 */;
+	const struct pci_device_id *cocci_id/* sound/pci/rme96.c 2442 */;
+	struct rme96 *cocci_id/* sound/pci/rme96.c 2396 */;
+	struct snd_card *cocci_id/* sound/pci/rme96.c 2395 */;
+	struct device *cocci_id/* sound/pci/rme96.c 2393 */;
+	int cocci_id/* sound/pci/rme96.c 2393 */;
+	struct snd_kcontrol_new cocci_id/* sound/pci/rme96.c 2259 */[];
+	u32 cocci_id/* sound/pci/rme96.c 2150 */;
+	struct snd_kcontrol *cocci_id/* sound/pci/rme96.c 2138 */;
+	struct snd_ctl_elem_value *cocci_id/* sound/pci/rme96.c 2138 */;
+	struct snd_ctl_elem_info *cocci_id/* sound/pci/rme96.c 2131 */;
+	struct rme96 {
+		spinlock_t lock;
+		int irq;
+		unsigned long port;
+		void __iomem *iobase;
+		u32 wcreg;
+		u32 wcreg_spdif;
+		u32 wcreg_spdif_stream;
+		u32 rcreg;
+		u32 areg;
+		u16 vol[2];
+		u8 rev;
+#ifdef CONFIG_PM_SLEEP
+		u32 playback_pointer;
+		u32 capture_pointer;
+		void *playback_suspend_buffer;
+		void *capture_suspend_buffer;
+#endif
+		struct snd_pcm_substream *playback_substream;
+		struct snd_pcm_substream *capture_substream;
+		int playback_frlog;
+		int capture_frlog;
+		size_t playback_periodsize;
+		size_t capture_periodsize;
+		struct snd_card *card;
+		struct snd_pcm *spdif_pcm;
+		struct snd_pcm *adat_pcm;
+		struct pci_dev *pci;
+		struct snd_kcontrol *spdif_ctl;
+	} cocci_id/* sound/pci/rme96.c 213 */;
+	struct snd_aes_iec958 *cocci_id/* sound/pci/rme96.c 2109 */;
+	const char *const cocci_id/* sound/pci/rme96.c 2045 */[4];
+	const char *const cocci_id/* sound/pci/rme96.c 2013 */[3];
+	const char *cocci_id/* sound/pci/rme96.c 1900 */[5];
+	const char *const cocci_id/* sound/pci/rme96.c 1896 */[5];
+	struct snd_info_entry *cocci_id/* sound/pci/rme96.c 1727 */;
+	struct snd_info_buffer *cocci_id/* sound/pci/rme96.c 1727 */;
+	struct pci_dev *cocci_id/* sound/pci/rme96.c 1609 */;
+	struct snd_pcm *cocci_id/* sound/pci/rme96.c 1600 */;
+	const struct snd_pcm_ops cocci_id/* sound/pci/rme96.c 1549 */;
+	snd_pcm_uframes_t cocci_id/* sound/pci/rme96.c 1501 */;
+	bool cocci_id/* sound/pci/rme96.c 1443 */;
+	struct snd_pcm_substream *cocci_id/* sound/pci/rme96.c 1281 */;
+	unsigned int cocci_id/* sound/pci/rme96.c 1164 */;
+	struct snd_pcm_runtime *cocci_id/* sound/pci/rme96.c 1162 */;
+	void cocci_id/* sound/pci/rme96.c 1160 */;
+	const struct snd_pcm_hw_constraint_list cocci_id/* sound/pci/rme96.c 1154 */;
+	const unsigned int cocci_id/* sound/pci/rme96.c 1152 */[];
+	irqreturn_t cocci_id/* sound/pci/rme96.c 1125 */;
+	void __force *cocci_id/* sound/pci/rme96.c 1048 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/pci/rme96.c 1042 */;
+}

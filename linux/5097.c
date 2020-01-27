@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	struct idio_24_gpio {
+		struct gpio_chip chip;
+		raw_spinlock_t lock;
+		struct idio_24_gpio_reg __iomem *reg;
+		unsigned long irq_mask;
+	} cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 92 */;
+	struct idio_24_gpio_reg {
+		u8 out0_7;
+		u8 out8_15;
+		u8 out16_23;
+		u8 ttl_out0_7;
+		u8 in0_7;
+		u8 in8_15;
+		u8 in16_23;
+		u8 ttl_in0_7;
+		u8 cos0_7;
+		u8 cos8_15;
+		u8 cos16_23;
+		u8 cos_ttl0_7;
+		u8 ctl;
+		u8 reserved;
+		u8 cos_enable;
+		u8 soft_reset;
+	} cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 66 */;
+	struct pci_driver cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 528 */;
+	const struct pci_device_id cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 521 */[];
+	const char *constcocci_id/* drivers/gpio/gpio-pcie-idio-24.c 459 */;
+	const size_t cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 458 */;
+	struct idio_24_gpio *cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 456 */;
+	struct device *constcocci_id/* drivers/gpio/gpio-pcie-idio-24.c 455 */;
+	const struct pci_device_id *cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 453 */;
+	struct pci_dev *cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 453 */;
+	const char *cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 443 */[IDIO_24_NGPIO];
+	struct gpio_chip *constcocci_id/* drivers/gpio/gpio-pcie-idio-24.c 410 */;
+	irqreturn_t cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 406 */;
+	void *cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 406 */;
+	struct irq_chip cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 398 */;
+	unsigned char cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 336 */;
+	struct irq_data *cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 326 */;
+	const unsigned int cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 243 */;
+	void __iomem *cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 242 */;
+	void cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 237 */;
+	size_t cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 211 */;
+	void __iomem *cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 206 */[];
+	unsigned long *cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 201 */;
+	const unsigned long cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 127 */;
+	unsigned long cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 125 */;
+	struct idio_24_gpio *constcocci_id/* drivers/gpio/gpio-pcie-idio-24.c 124 */;
+	unsigned int cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 122 */;
+	struct gpio_chip *cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 121 */;
+	int cocci_id/* drivers/gpio/gpio-pcie-idio-24.c 121 */;
+}

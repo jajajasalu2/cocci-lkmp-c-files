@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	struct diag204_x_part_hdr cocci_id/* arch/s390/hypfs/hypfs_diag.c 86 */;
+	struct diag204_part_hdr cocci_id/* arch/s390/hypfs/hypfs_diag.c 84 */;
+	struct diag204_x_info_blk_hdr *cocci_id/* arch/s390/hypfs/hypfs_diag.c 68 */;
+	struct diag204_info_blk_hdr *cocci_id/* arch/s390/hypfs/hypfs_diag.c 66 */;
+	struct x_info_blk_hdr *cocci_id/* arch/s390/hypfs/hypfs_diag.c 585 */;
+	struct diag204_x_info_blk_hdr cocci_id/* arch/s390/hypfs/hypfs_diag.c 52 */;
+	char cocci_id/* arch/s390/hypfs/hypfs_diag.c 506 */[DIAG204_LPAR_NAME_LEN + 1];
+	struct diag204_info_blk_hdr cocci_id/* arch/s390/hypfs/hypfs_diag.c 50 */;
+	char cocci_id/* arch/s390/hypfs/hypfs_diag.c 475 */[TMP_SIZE];
+	struct hypfs_dbfs_file cocci_id/* arch/s390/hypfs/hypfs_diag.c 429 */;
+	struct dbfs_d204_hdr cocci_id/* arch/s390/hypfs/hypfs_diag.c 425 */;
+	struct dbfs_d204 *cocci_id/* arch/s390/hypfs/hypfs_diag.c 406 */;
+	void **cocci_id/* arch/s390/hypfs/hypfs_diag.c 404 */;
+	size_t *cocci_id/* arch/s390/hypfs/hypfs_diag.c 404 */;
+	struct dbfs_d204 {
+		struct dbfs_d204_hdr hdr;
+		char buf[];
+	}__attribute__((packed)) cocci_id/* arch/s390/hypfs/hypfs_diag.c 399 */;
+	struct dbfs_d204_hdr {
+		u64 len;
+		u16 version;
+		u8 sc;
+		char reserved[53];
+	}__attribute__((packed)) cocci_id/* arch/s390/hypfs/hypfs_diag.c 392 */;
+	struct dentry *cocci_id/* arch/s390/hypfs/hypfs_diag.c 35 */;
+	unsigned long cocci_id/* arch/s390/hypfs/hypfs_diag.c 342 */;
+	enum diag204_sc cocci_id/* arch/s390/hypfs/hypfs_diag.c 28 */;
+	char *cocci_id/* arch/s390/hypfs/hypfs_diag.c 27 */;
+	int *cocci_id/* arch/s390/hypfs/hypfs_diag.c 259 */;
+	void cocci_id/* arch/s390/hypfs/hypfs_diag.c 250 */;
+	struct diag204_x_phys_cpu *cocci_id/* arch/s390/hypfs/hypfs_diag.c 194 */;
+	struct diag204_phys_cpu *cocci_id/* arch/s390/hypfs/hypfs_diag.c 192 */;
+	struct diag204_x_phys_cpu cocci_id/* arch/s390/hypfs/hypfs_diag.c 186 */;
+	struct diag204_phys_cpu cocci_id/* arch/s390/hypfs/hypfs_diag.c 184 */;
+	struct diag204_x_phys_hdr *cocci_id/* arch/s390/hypfs/hypfs_diag.c 176 */;
+	struct diag204_phys_hdr *cocci_id/* arch/s390/hypfs/hypfs_diag.c 174 */;
+	struct diag204_x_phys_hdr cocci_id/* arch/s390/hypfs/hypfs_diag.c 168 */;
+	struct diag204_phys_hdr cocci_id/* arch/s390/hypfs/hypfs_diag.c 166 */;
+	struct diag204_x_cpu_info *cocci_id/* arch/s390/hypfs/hypfs_diag.c 142 */;
+	struct diag204_cpu_info *cocci_id/* arch/s390/hypfs/hypfs_diag.c 140 */;
+	__u64 cocci_id/* arch/s390/hypfs/hypfs_diag.c 137 */;
+	enum diag204_format cocci_id/* arch/s390/hypfs/hypfs_diag.c 137 */;
+	void *cocci_id/* arch/s390/hypfs/hypfs_diag.c 137 */;
+	__u16 cocci_id/* arch/s390/hypfs/hypfs_diag.c 129 */;
+	__u8 cocci_id/* arch/s390/hypfs/hypfs_diag.c 121 */;
+	struct diag204_x_cpu_info cocci_id/* arch/s390/hypfs/hypfs_diag.c 118 */;
+	struct diag204_cpu_info cocci_id/* arch/s390/hypfs/hypfs_diag.c 116 */;
+	int cocci_id/* arch/s390/hypfs/hypfs_diag.c 113 */;
+	struct diag204_x_part_hdr *cocci_id/* arch/s390/hypfs/hypfs_diag.c 104 */;
+	struct diag204_part_hdr *cocci_id/* arch/s390/hypfs/hypfs_diag.c 101 */;
+}

@@ -1,0 +1,77 @@
+cocci_test_suite() {
+	struct m10v_clk_mux_factors {
+		const char *name;
+		const char *const*parent_names;
+		u8 num_parents;
+		u32 offset;
+		u8 shift;
+		u8 mask;
+		u32 *table;
+		unsigned long mux_flags;
+		int onecell_idx;
+	} cocci_id/* drivers/clk/clk-milbeaut.c 88 */;
+	struct m10v_clk_div_fixed_data {
+		const char *name;
+		const char *parent_name;
+		u8 div;
+		u8 mult;
+		int onecell_idx;
+	} cocci_id/* drivers/clk/clk-milbeaut.c 80 */;
+	struct m10v_clk_div_factors {
+		const char *name;
+		const char *parent_name;
+		u32 offset;
+		u8 shift;
+		u8 width;
+		const struct clk_div_table *table;
+		unsigned long div_flags;
+		int onecell_idx;
+	} cocci_id/* drivers/clk/clk-milbeaut.c 69 */;
+	struct clk_hw_onecell_data *cocci_id/* drivers/clk/clk-milbeaut.c 65 */;
+	struct m10v_clk_divider cocci_id/* drivers/clk/clk-milbeaut.c 63 */;
+	struct clk_hw *cocci_id/* drivers/clk/clk-milbeaut.c 615 */;
+	const char *cocci_id/* drivers/clk/clk-milbeaut.c 614 */;
+	void __iomem *cocci_id/* drivers/clk/clk-milbeaut.c 613 */;
+	int cocci_id/* drivers/clk/clk-milbeaut.c 612 */;
+	struct device_node *cocci_id/* drivers/clk/clk-milbeaut.c 610 */;
+	void __init cocci_id/* drivers/clk/clk-milbeaut.c 610 */;
+	struct platform_driver cocci_id/* drivers/clk/clk-milbeaut.c 601 */;
+	const struct of_device_id cocci_id/* drivers/clk/clk-milbeaut.c 596 */[];
+	struct resource *cocci_id/* drivers/clk/clk-milbeaut.c 563 */;
+	struct platform_device *cocci_id/* drivers/clk/clk-milbeaut.c 560 */;
+	const struct m10v_clk_mux_factors *cocci_id/* drivers/clk/clk-milbeaut.c 542 */;
+	const struct m10v_clk_div_fixed_data *cocci_id/* drivers/clk/clk-milbeaut.c 527 */;
+	const struct m10v_clk_div_factors *cocci_id/* drivers/clk/clk-milbeaut.c 498 */;
+	void cocci_id/* drivers/clk/clk-milbeaut.c 498 */;
+	struct clk_init_data cocci_id/* drivers/clk/clk-milbeaut.c 465 */;
+	spinlock_t *cocci_id/* drivers/clk/clk-milbeaut.c 461 */;
+	const struct clk_div_table *cocci_id/* drivers/clk/clk-milbeaut.c 460 */;
+	u8 cocci_id/* drivers/clk/clk-milbeaut.c 459 */;
+	struct device *cocci_id/* drivers/clk/clk-milbeaut.c 457 */;
+	const struct clk_ops cocci_id/* drivers/clk/clk-milbeaut.c 451 */;
+	u32 cocci_id/* drivers/clk/clk-milbeaut.c 396 */;
+	unsigned long *cocci_id/* drivers/clk/clk-milbeaut.c 390 */;
+	long cocci_id/* drivers/clk/clk-milbeaut.c 389 */;
+	unsigned int cocci_id/* drivers/clk/clk-milbeaut.c 380 */;
+	struct m10v_clk_divider *cocci_id/* drivers/clk/clk-milbeaut.c 379 */;
+	unsigned long cocci_id/* drivers/clk/clk-milbeaut.c 376 */;
+	struct m10v_clk_divider {
+		struct clk_hw hw;
+		void __iomem *reg;
+		u8 shift;
+		u8 width;
+		u8 flags;
+		const struct clk_div_table *table;
+		spinlock_t *lock;
+		void __iomem *write_valid_reg;
+	} cocci_id/* drivers/clk/clk-milbeaut.c 365 */;
+	struct clk_mux *cocci_id/* drivers/clk/clk-milbeaut.c 331 */;
+	u32 *cocci_id/* drivers/clk/clk-milbeaut.c 328 */;
+	const char *const*cocci_id/* drivers/clk/clk-milbeaut.c 326 */;
+	const struct m10v_clk_mux_factors cocci_id/* drivers/clk/clk-milbeaut.c 269 */[];
+	const struct m10v_clk_div_factors cocci_id/* drivers/clk/clk-milbeaut.c 253 */[];
+	const struct m10v_clk_div_fixed_data cocci_id/* drivers/clk/clk-milbeaut.c 226 */[];
+	const char *constcocci_id/* drivers/clk/clk-milbeaut.c 210 */[];
+	u32 cocci_id/* drivers/clk/clk-milbeaut.c 209 */[];
+	const struct clk_div_table cocci_id/* drivers/clk/clk-milbeaut.c 126 */[];
+}

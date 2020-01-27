@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct i2c_driver cocci_id/* drivers/regulator/act8865-regulator.c 789 */;
+	const struct i2c_device_id cocci_id/* drivers/regulator/act8865-regulator.c 781 */[];
+	struct regulator_config cocci_id/* drivers/regulator/act8865-regulator.c 741 */;
+	struct act8865 cocci_id/* drivers/regulator/act8865-regulator.c 716 */;
+	const struct of_device_id *cocci_id/* drivers/regulator/act8865-regulator.c 668 */;
+	unsigned long cocci_id/* drivers/regulator/act8865-regulator.c 663 */;
+	const struct regmap_config *cocci_id/* drivers/regulator/act8865-regulator.c 662 */;
+	struct act8865 *cocci_id/* drivers/regulator/act8865-regulator.c 661 */;
+	const struct regulator_desc *cocci_id/* drivers/regulator/act8865-regulator.c 657 */;
+	const struct i2c_device_id *cocci_id/* drivers/regulator/act8865-regulator.c 655 */;
+	struct power_supply_config cocci_id/* drivers/regulator/act8865-regulator.c 644 */;
+	struct device *cocci_id/* drivers/regulator/act8865-regulator.c 641 */;
+	const struct power_supply_desc cocci_id/* drivers/regulator/act8865-regulator.c 633 */;
+	enum power_supply_property cocci_id/* drivers/regulator/act8865-regulator.c 629 */[];
+	struct regmap *cocci_id/* drivers/regulator/act8865-regulator.c 611 */;
+	enum power_supply_property cocci_id/* drivers/regulator/act8865-regulator.c 609 */;
+	union power_supply_propval *cocci_id/* drivers/regulator/act8865-regulator.c 609 */;
+	struct power_supply *cocci_id/* drivers/regulator/act8865-regulator.c 608 */;
+	int cocci_id/* drivers/regulator/act8865-regulator.c 608 */;
+	u8 cocci_id/* drivers/regulator/act8865-regulator.c 589 */;
+	unsigned int cocci_id/* drivers/regulator/act8865-regulator.c 587 */;
+	void cocci_id/* drivers/regulator/act8865-regulator.c 576 */;
+	struct i2c_client *cocci_id/* drivers/regulator/act8865-regulator.c 575 */;
+	struct act8865_platform_data *cocci_id/* drivers/regulator/act8865-regulator.c 563 */;
+	struct act8865_regulator_data *cocci_id/* drivers/regulator/act8865-regulator.c 562 */;
+	void *cocci_id/* drivers/regulator/act8865-regulator.c 554 */;
+	const struct of_device_id cocci_id/* drivers/regulator/act8865-regulator.c 553 */[];
+	const struct regulator_desc cocci_id/* drivers/regulator/act8865-regulator.c 465 */[];
+	const struct regulator_ops cocci_id/* drivers/regulator/act8865-regulator.c 431 */;
+	struct regulator_dev *cocci_id/* drivers/regulator/act8865-regulator.c 358 */;
+	bool cocci_id/* drivers/regulator/act8865-regulator.c 237 */;
+	const struct regulator_linear_range cocci_id/* drivers/regulator/act8865-regulator.c 229 */[];
+	const struct regmap_config cocci_id/* drivers/regulator/act8865-regulator.c 209 */;
+	const struct regmap_access_table cocci_id/* drivers/regulator/act8865-regulator.c 199 */;
+	const struct regmap_range cocci_id/* drivers/regulator/act8865-regulator.c 150 */[];
+	struct act8865 {
+		struct regmap *regmap;
+		int off_reg;
+		int off_mask;
+	} cocci_id/* drivers/regulator/act8865-regulator.c 144 */;
+}

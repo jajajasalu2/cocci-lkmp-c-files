@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* net/sched/sch_cbs.c 91 */;
+	struct sk_buff **cocci_id/* net/sched/sch_cbs.c 89 */;
+	struct cbs_sched_data {
+		bool offload;
+		int queue;
+		atomic64_t port_rate;
+		s64 last;
+		s64 credits;
+		s32 locredit;
+		s32 hicredit;
+		s64 sendslope;
+		s64 idleslope;
+		struct qdisc_watchdog watchdog;
+		int (*enqueue)(struct sk_buff *skb, struct Qdisc *sch,
+			       struct sk_buff **to_free);
+		struct sk_buff *(*dequeue)(struct Qdisc *sch);
+		struct Qdisc *qdisc;
+		struct list_head cbs_list;
+	} cocci_id/* net/sched/sch_cbs.c 69 */;
+	void __exit cocci_id/* net/sched/sch_cbs.c 564 */;
+	int __init cocci_id/* net/sched/sch_cbs.c 549 */;
+	struct notifier_block cocci_id/* net/sched/sch_cbs.c 545 */;
+	struct cbs_sched_data cocci_id/* net/sched/sch_cbs.c 533 */;
+	struct Qdisc_ops cocci_id/* net/sched/sch_cbs.c 530 */;
+	const struct Qdisc_class_ops cocci_id/* net/sched/sch_cbs.c 522 */;
+	struct qdisc_walker *cocci_id/* net/sched/sch_cbs.c 509 */;
+	u32 cocci_id/* net/sched/sch_cbs.c 504 */;
+	struct Qdisc **cocci_id/* net/sched/sch_cbs.c 482 */;
+	struct tcmsg *cocci_id/* net/sched/sch_cbs.c 468 */;
+	struct tc_cbs_qopt cocci_id/* net/sched/sch_cbs.c 444 */;
+	void cocci_id/* net/sched/sch_cbs.c 422 */;
+	struct tc_cbs_qopt *cocci_id/* net/sched/sch_cbs.c 356 */;
+	struct nlattr *cocci_id/* net/sched/sch_cbs.c 355 */[TCA_CBS_MAX + 1];
+	struct net_device *cocci_id/* net/sched/sch_cbs.c 354 */;
+	struct cbs_sched_data *cocci_id/* net/sched/sch_cbs.c 353 */;
+	struct netlink_ext_ack *cocci_id/* net/sched/sch_cbs.c 351 */;
+	struct nlattr *cocci_id/* net/sched/sch_cbs.c 350 */;
+	struct Qdisc *cocci_id/* net/sched/sch_cbs.c 350 */;
+	int cocci_id/* net/sched/sch_cbs.c 350 */;
+	bool cocci_id/* net/sched/sch_cbs.c 327 */;
+	void *cocci_id/* net/sched/sch_cbs.c 322 */;
+	struct notifier_block *cocci_id/* net/sched/sch_cbs.c 321 */;
+	unsigned long cocci_id/* net/sched/sch_cbs.c 321 */;
+	long long cocci_id/* net/sched/sch_cbs.c 317 */;
+	struct ethtool_link_ksettings cocci_id/* net/sched/sch_cbs.c 300 */;
+	const struct tc_cbs_qopt *cocci_id/* net/sched/sch_cbs.c 266 */;
+	const struct net_device_ops *cocci_id/* net/sched/sch_cbs.c 243 */;
+	struct tc_cbs_qopt_offload cocci_id/* net/sched/sch_cbs.c 242 */;
+	const struct nla_policy cocci_id/* net/sched/sch_cbs.c 235 */[TCA_CBS_MAX + 1];
+	s64 cocci_id/* net/sched/sch_cbs.c 179 */;
+	struct sk_buff *cocci_id/* net/sched/sch_cbs.c 160 */;
+}

@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct i2c_driver cocci_id/* drivers/hwmon/tmp513.c 759 */;
+	enum tmp51x_ids cocci_id/* drivers/hwmon/tmp513.c 725 */;
+	const struct i2c_device_id *cocci_id/* drivers/hwmon/tmp513.c 713 */;
+	struct i2c_client *cocci_id/* drivers/hwmon/tmp513.c 712 */;
+	struct device *cocci_id/* drivers/hwmon/tmp513.c 698 */;
+	void cocci_id/* drivers/hwmon/tmp513.c 691 */;
+	u32 cocci_id/* drivers/hwmon/tmp513.c 658 */[3];
+	void *cocci_id/* drivers/hwmon/tmp513.c 613 */;
+	const struct of_device_id cocci_id/* drivers/hwmon/tmp513.c 610 */[];
+	const struct i2c_device_id cocci_id/* drivers/hwmon/tmp513.c 603 */[];
+	u32 cocci_id/* drivers/hwmon/tmp513.c 534 */;
+	u64 cocci_id/* drivers/hwmon/tmp513.c 533 */;
+	struct tmp51x_data *cocci_id/* drivers/hwmon/tmp513.c 530 */;
+	int cocci_id/* drivers/hwmon/tmp513.c 530 */;
+	const struct hwmon_chip_info cocci_id/* drivers/hwmon/tmp513.c 522 */;
+	const struct hwmon_ops cocci_id/* drivers/hwmon/tmp513.c 516 */;
+	const struct hwmon_channel_info *cocci_id/* drivers/hwmon/tmp513.c 494 */[];
+	const struct tmp51x_data *cocci_id/* drivers/hwmon/tmp513.c 433 */;
+	umode_t cocci_id/* drivers/hwmon/tmp513.c 429 */;
+	const void *cocci_id/* drivers/hwmon/tmp513.c 429 */;
+	enum hwmon_sensor_types cocci_id/* drivers/hwmon/tmp513.c 298 */;
+	long cocci_id/* drivers/hwmon/tmp513.c 243 */;
+	long *cocci_id/* drivers/hwmon/tmp513.c 183 */;
+	unsigned int cocci_id/* drivers/hwmon/tmp513.c 183 */;
+	u8 cocci_id/* drivers/hwmon/tmp513.c 177 */;
+	struct tmp51x_data {
+		u16 shunt_config;
+		u16 pga_gain;
+		u32 vbus_range_uvolt;
+		u16 temp_config;
+		u32 nfactor[3];
+		u32 shunt_uohms;
+		u32 curr_lsb_ua;
+		u32 pwr_lsb_uw;
+		enum tmp51x_ids id;
+		struct regmap *regmap;
+	} cocci_id/* drivers/hwmon/tmp513.c 159 */;
+	enum tmp51x_ids{tmp512, tmp513,} cocci_id/* drivers/hwmon/tmp513.c 155 */;
+	struct regmap_config cocci_id/* drivers/hwmon/tmp513.c 149 */;
+	const u8 cocci_id/* drivers/hwmon/tmp513.c 144 */[2];
+	const u8 cocci_id/* drivers/hwmon/tmp513.c 123 */[4];
+}

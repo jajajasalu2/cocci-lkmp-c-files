@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct fd cocci_id/* drivers/media/rc/lirc_dev.c 841 */;
+	void __exit cocci_id/* drivers/media/rc/lirc_dev.c 833 */;
+	int __init cocci_id/* drivers/media/rc/lirc_dev.c 809 */;
+	const char *cocci_id/* drivers/media/rc/lirc_dev.c 740 */;
+	struct device *cocci_id/* drivers/media/rc/lirc_dev.c 731 */;
+	const struct file_operations cocci_id/* drivers/media/rc/lirc_dev.c 719 */;
+	loff_t *cocci_id/* drivers/media/rc/lirc_dev.c 702 */;
+	size_t cocci_id/* drivers/media/rc/lirc_dev.c 702 */;
+	char __user *cocci_id/* drivers/media/rc/lirc_dev.c 701 */;
+	ssize_t cocci_id/* drivers/media/rc/lirc_dev.c 701 */;
+	struct lirc_scancode cocci_id/* drivers/media/rc/lirc_dev.c 670 */;
+	__poll_t cocci_id/* drivers/media/rc/lirc_dev.c 601 */;
+	struct poll_table_struct *cocci_id/* drivers/media/rc/lirc_dev.c 601 */;
+	struct ir_raw_event cocci_id/* drivers/media/rc/lirc_dev.c 38 */;
+	void cocci_id/* drivers/media/rc/lirc_dev.c 38 */;
+	u32 cocci_id/* drivers/media/rc/lirc_dev.c 379 */;
+	u32 __user *cocci_id/* drivers/media/rc/lirc_dev.c 378 */;
+	unsigned int cocci_id/* drivers/media/rc/lirc_dev.c 373 */;
+	long cocci_id/* drivers/media/rc/lirc_dev.c 373 */;
+	struct class *cocci_id/* drivers/media/rc/lirc_dev.c 30 */;
+	dev_t cocci_id/* drivers/media/rc/lirc_dev.c 24 */;
+	s64 cocci_id/* drivers/media/rc/lirc_dev.c 236 */;
+	ktime_t cocci_id/* drivers/media/rc/lirc_dev.c 235 */;
+	struct ir_raw_event *cocci_id/* drivers/media/rc/lirc_dev.c 232 */;
+	unsigned int *cocci_id/* drivers/media/rc/lirc_dev.c 231 */;
+	const char __user *cocci_id/* drivers/media/rc/lirc_dev.c 226 */;
+	unsigned long cocci_id/* drivers/media/rc/lirc_dev.c 208 */;
+	struct rc_dev *cocci_id/* drivers/media/rc/lirc_dev.c 207 */;
+	struct lirc_fh *cocci_id/* drivers/media/rc/lirc_dev.c 206 */;
+	struct inode *cocci_id/* drivers/media/rc/lirc_dev.c 204 */;
+	struct file *cocci_id/* drivers/media/rc/lirc_dev.c 204 */;
+	int cocci_id/* drivers/media/rc/lirc_dev.c 204 */;
+	struct rc_dev cocci_id/* drivers/media/rc/lirc_dev.c 138 */;
+	struct lirc_scancode *cocci_id/* drivers/media/rc/lirc_dev.c 120 */;
+}

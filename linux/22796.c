@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	int __init cocci_id/* sound/parisc/harmony.c 998 */;
+	struct parisc_driver cocci_id/* sound/parisc/harmony.c 991 */;
+	int __exit cocci_id/* sound/parisc/harmony.c 984 */;
+	unsigned cocci_id/* sound/parisc/harmony.c 95 */;
+	int __init cocci_id/* sound/parisc/harmony.c 944 */;
+	struct snd_device_ops cocci_id/* sound/parisc/harmony.c 896 */;
+	struct snd_harmony **cocci_id/* sound/parisc/harmony.c 892 */;
+	struct parisc_device *cocci_id/* sound/parisc/harmony.c 891 */;
+	struct snd_card *cocci_id/* sound/parisc/harmony.c 890 */;
+	struct snd_device *cocci_id/* sound/parisc/harmony.c 883 */;
+	const struct snd_pcm_hw_constraint_list cocci_id/* sound/parisc/harmony.c 88 */;
+	struct snd_kcontrol_new cocci_id/* sound/parisc/harmony.c 812 */[];
+	const unsigned int cocci_id/* sound/parisc/harmony.c 80 */[14];
+	struct snd_ctl_elem_value *cocci_id/* sound/parisc/harmony.c 767 */;
+	struct snd_kcontrol *cocci_id/* sound/parisc/harmony.c 766 */;
+	const char *const cocci_id/* sound/parisc/harmony.c 760 */[2];
+	struct snd_ctl_elem_info *cocci_id/* sound/parisc/harmony.c 758 */;
+	const unsigned int cocci_id/* sound/parisc/harmony.c 73 */[];
+	struct snd_pcm *cocci_id/* sound/parisc/harmony.c 611 */;
+	const struct snd_pcm_ops cocci_id/* sound/parisc/harmony.c 597 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/parisc/harmony.c 568 */;
+	const struct parisc_device_id cocci_id/* sound/parisc/harmony.c 56 */[]__initconst;
+	struct snd_pcm_substream *cocci_id/* sound/parisc/harmony.c 559 */;
+	struct snd_pcm_runtime *cocci_id/* sound/parisc/harmony.c 535 */;
+	char *cocci_id/* sound/parisc/harmony.c 49 */;
+	snd_pcm_uframes_t cocci_id/* sound/parisc/harmony.c 483 */;
+	int cocci_id/* sound/parisc/harmony.c 48 */;
+	const struct snd_pcm_hardware cocci_id/* sound/parisc/harmony.c 271 */;
+	unsigned int cocci_id/* sound/parisc/harmony.c 238 */;
+	void *cocci_id/* sound/parisc/harmony.c 182 */;
+	irqreturn_t cocci_id/* sound/parisc/harmony.c 181 */;
+	unsigned long cocci_id/* sound/parisc/harmony.c 143 */;
+	u32 cocci_id/* sound/parisc/harmony.c 123 */;
+	struct snd_harmony *cocci_id/* sound/parisc/harmony.c 121 */;
+	void cocci_id/* sound/parisc/harmony.c 1005 */;
+	void __exit cocci_id/* sound/parisc/harmony.c 1004 */;
+}

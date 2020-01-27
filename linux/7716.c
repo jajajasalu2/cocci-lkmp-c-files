@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	struct uart_port *cocci_id/* drivers/tty/serial/serial_txx9.c 991 */;
+	int __init cocci_id/* drivers/tty/serial/serial_txx9.c 991 */;
+	struct console cocci_id/* drivers/tty/serial/serial_txx9.c 959 */;
+	struct uart_driver cocci_id/* drivers/tty/serial/serial_txx9.c 958 */;
+	struct console *cocci_id/* drivers/tty/serial/serial_txx9.c 929 */;
+	const char *cocci_id/* drivers/tty/serial/serial_txx9.c 901 */;
+	struct device *cocci_id/* drivers/tty/serial/serial_txx9.c 869 */;
+	struct uart_driver *cocci_id/* drivers/tty/serial/serial_txx9.c 868 */;
+	void __init cocci_id/* drivers/tty/serial/serial_txx9.c 868 */;
+	struct uart_txx9_port cocci_id/* drivers/tty/serial/serial_txx9.c 866 */[UART_NR];
+	const struct uart_ops cocci_id/* drivers/tty/serial/serial_txx9.c 844 */;
+	struct uart_txx9_port {
+		struct uart_port port;
+	} cocci_id/* drivers/tty/serial/serial_txx9.c 64 */;
+	struct ktermios *cocci_id/* drivers/tty/serial/serial_txx9.c 625 */;
+	unsigned long cocci_id/* drivers/tty/serial/serial_txx9.c 448 */;
+	irqreturn_t cocci_id/* drivers/tty/serial/serial_txx9.c 375 */;
+	void *cocci_id/* drivers/tty/serial/serial_txx9.c 375 */;
+	struct circ_buf *cocci_id/* drivers/tty/serial/serial_txx9.c 345 */;
+	char *cocci_id/* drivers/tty/serial/serial_txx9.c 34 */;
+	char cocci_id/* drivers/tty/serial/serial_txx9.c 273 */;
+	unsigned int cocci_id/* drivers/tty/serial/serial_txx9.c 271 */;
+	unsigned char cocci_id/* drivers/tty/serial/serial_txx9.c 270 */;
+	unsigned int *cocci_id/* drivers/tty/serial/serial_txx9.c 268 */;
+	struct uart_txx9_port cocci_id/* drivers/tty/serial/serial_txx9.c 222 */;
+	void __exit cocci_id/* drivers/tty/serial/serial_txx9.c 1300 */;
+	struct platform_device *cocci_id/* drivers/tty/serial/serial_txx9.c 1255 */;
+	struct pci_driver cocci_id/* drivers/tty/serial/serial_txx9.c 1241 */;
+	const struct pci_device_id cocci_id/* drivers/tty/serial/serial_txx9.c 1236 */[];
+	pm_message_t cocci_id/* drivers/tty/serial/serial_txx9.c 1213 */;
+	struct uart_txx9_port *cocci_id/* drivers/tty/serial/serial_txx9.c 1204 */;
+	void cocci_id/* drivers/tty/serial/serial_txx9.c 1202 */;
+	struct uart_port cocci_id/* drivers/tty/serial/serial_txx9.c 1175 */;
+	const struct pci_device_id *cocci_id/* drivers/tty/serial/serial_txx9.c 1173 */;
+	struct pci_dev *cocci_id/* drivers/tty/serial/serial_txx9.c 1173 */;
+	int cocci_id/* drivers/tty/serial/serial_txx9.c 1172 */;
+	struct platform_driver cocci_id/* drivers/tty/serial/serial_txx9.c 1155 */;
+	unsigned long long cocci_id/* drivers/tty/serial/serial_txx9.c 1102 */;
+}

@@ -1,0 +1,57 @@
+cocci_test_suite() {
+	const struct usb_ep_ops cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 995 */;
+	struct mv_u3d_req cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 885 */;
+	struct mv_u3d_ep cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 859 */;
+	unsigned long cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 853 */;
+	struct mv_u3d_ep_context *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 850 */;
+	struct mv_u3d_req *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 669 */;
+	gfp_t cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 667 */;
+	struct usb_ep *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 667 */;
+	struct usb_request *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 666 */;
+	u16 cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 526 */;
+	const struct usb_endpoint_descriptor *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 522 */;
+	const struct usb_endpoint_descriptor cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 42 */;
+	void cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 38 */(struct mv_u3d *u3d,
+								   struct usb_gadget_driver *driver);
+	void cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 37 */(struct mv_u3d_ep *ep,
+								   int status);
+	const char cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 35 */[];
+	unsigned cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 342 */;
+	struct mv_u3d *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 338 */;
+	unsigned int cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 337 */;
+	u32 cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 336 */;
+	struct mv_u3d_trb *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 334 */;
+	int *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 334 */;
+	unsigned *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 333 */;
+	int cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 333 */;
+	struct mv_u3d_trb_hw *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 274 */;
+	dma_addr_t *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 269 */;
+	struct platform_driver cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 2049 */;
+	struct device *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 2016 */;
+	struct mv_u3d_trb_hw cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 198 */;
+	dma_addr_t cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 197 */;
+	char *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 1909 */;
+	struct mv_u3d_ep_context cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 1869 */;
+	struct mv_u3d_vuc_regs __iomem *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 1853 */;
+	struct mv_u3d_op_regs __iomem *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 1850 */;
+	struct mv_u3d_cap_regs __iomem *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 1822 */;
+	size_t cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 1788 */;
+	struct resource *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 1787 */;
+	struct platform_device *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 1782 */;
+	struct mv_u3d_ep *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 175 */;
+	irqreturn_t cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 1675 */;
+	void *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 1675 */;
+	u8 *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 1582 */;
+	bool cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 1517 */;
+	u8 cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 1478 */;
+	struct usb_ctrlrequest *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 1467 */;
+	void cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 1466 */;
+	unsigned short cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 1348 */;
+	struct mv_u3d_trb cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 131 */;
+	char cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 1304 */[14];
+	const struct usb_gadget_ops cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 1289 */;
+	struct usb_gadget_driver *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 1227 */;
+	struct mv_u3d cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 1194 */;
+	struct usb_gadget *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 1192 */;
+	struct mv_usb_platform_data *cocci_id/* drivers/usb/gadget/udc/mv_u3d_core.c 1122 */;
+}

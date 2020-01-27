@@ -1,0 +1,66 @@
+cocci_test_suite() {
+	enum r600_td cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 847 */;
+	struct rv7xx_ps *cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 677 */;
+	RV770_SMC_SWSTATE *cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 675 */;
+	RV770_SMC_HW_PERFORMANCE_LEVEL *cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 615 */;
+	struct rv7xx_pl *cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 614 */;
+	struct radeon_device *cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 61 */;
+	struct evergreen_power_info *cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 61 */;
+	u64 cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 499 */;
+	RV770_SMC_SCLK_VALUE *cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 485 */;
+	u8 cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 390 */[];
+	RV7XX_SMC_MCLK_VALUE *cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 387 */;
+	u32 *cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 321 */;
+	struct atom_clock_dividers *cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 320 */;
+	bool cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 319 */;
+	u32 cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 317 */;
+	u8 cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 264 */[RV770_SMC_PERFORMANCE_LEVELS_PER_SWSTATE];
+	struct seq_file *cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 2466 */;
+	struct rv7xx_power_info cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 2349 */;
+	struct atom_clock_dividers cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 2346 */;
+	struct radeon_atom_ss cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 2330 */;
+	struct rv7xx_ps cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 2302 */;
+	u8 *cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 2301 */;
+	struct radeon_ps cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 2285 */;
+	union power_info *cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 2273 */;
+	union pplib_clock_info *cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 2272 */;
+	union pplib_power_state *cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 2270 */;
+	struct _ATOM_PPLIB_NONCLOCK_INFO *cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 2269 */;
+	struct radeon_mode_info *cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 2268 */;
+	union pplib_power_state {
+		struct _ATOM_PPLIB_STATE v1;
+		struct _ATOM_PPLIB_STATE_V2 v2;
+	} cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 2138 */;
+	union pplib_clock_info {
+		struct _ATOM_PPLIB_R600_CLOCK_INFO r600;
+		struct _ATOM_PPLIB_RS780_CLOCK_INFO rs780;
+		struct _ATOM_PPLIB_EVERGREEN_CLOCK_INFO evergreen;
+		struct _ATOM_PPLIB_SUMO_CLOCK_INFO sumo;
+	} cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 2131 */;
+	union power_info {
+		struct _ATOM_POWERPLAY_INFO info;
+		struct _ATOM_POWERPLAY_INFO_V2 info_2;
+		struct _ATOM_POWERPLAY_INFO_V3 info_3;
+		struct _ATOM_PPLIB_POWERPLAYTABLE pplib;
+		struct _ATOM_PPLIB_POWERPLAYTABLE2 pplib2;
+		struct _ATOM_PPLIB_POWERPLAYTABLE3 pplib3;
+	} cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 2122 */;
+	PPSMC_Result cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 1982 */;
+	enum radeon_dpm_auto_throttle_src cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 1850 */;
+	enum radeon_dpm_event_src cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 1816 */;
+	struct atom_memory_info cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 1673 */;
+	PPSMC_Msg cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 1479 */;
+	enum radeon_dpm_forced_level cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 1477 */;
+	RV770_SMC_SWSTATE cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 1387 */;
+	struct radeon_ps *cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 1371 */;
+	void cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 1370 */;
+	struct atom_memory_info *cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 1274 */;
+	u8 cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 1236 */;
+	u16 cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 1234 */;
+	struct rv7xx_power_info *cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 1233 */;
+	int cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 1231 */;
+	const u8 *cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 1226 */;
+	RV770_SMC_STATETABLE cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 1169 */;
+	RV770_SMC_STATETABLE *cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 1166 */;
+	RV770_SMC_VOLTAGE_VALUE *cocci_id/* drivers/gpu/drm/radeon/rv770_dpm.c 1006 */;
+}

@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	struct drm_i915_gem_object *cocci_id/* drivers/gpu/drm/i915/i915_vma.c 993 */;
+	struct intel_gt *cocci_id/* drivers/gpu/drm/i915/i915_vma.c 968 */;
+	struct i915_active *cocci_id/* drivers/gpu/drm/i915/i915_vma.c 89 */;
+	int cocci_id/* drivers/gpu/drm/i915/i915_vma.c 89 */;
+	typeof(struct i915_vma) cocci_id/* drivers/gpu/drm/i915/i915_vma.c 86 */;
+	unsigned int cocci_id/* drivers/gpu/drm/i915/i915_vma.c 810 */;
+	char cocci_id/* drivers/gpu/drm/i915/i915_vma.c 62 */[512];
+	typeof(alignment) cocci_id/* drivers/gpu/drm/i915/i915_vma.c 613 */;
+	typeof(size) cocci_id/* drivers/gpu/drm/i915/i915_vma.c 612 */;
+	unsigned long *cocci_id/* drivers/gpu/drm/i915/i915_vma.c 60 */;
+	u64 cocci_id/* drivers/gpu/drm/i915/i915_vma.c 599 */;
+	const char *cocci_id/* drivers/gpu/drm/i915/i915_vma.c 58 */;
+	const struct drm_i915_gem_object *cocci_id/* drivers/gpu/drm/i915/i915_vma.c 572 */;
+	struct drm_mm_node *cocci_id/* drivers/gpu/drm/i915/i915_vma.c 542 */;
+	unsigned long cocci_id/* drivers/gpu/drm/i915/i915_vma.c 540 */;
+	bool cocci_id/* drivers/gpu/drm/i915/i915_vma.c 524 */;
+	const struct i915_vma *cocci_id/* drivers/gpu/drm/i915/i915_vma.c 492 */;
+	struct i915_vma **cocci_id/* drivers/gpu/drm/i915/i915_vma.c 471 */;
+	void __iomem *cocci_id/* drivers/gpu/drm/i915/i915_vma.c 409 */;
+	struct i915_global_vma {
+		struct i915_global base;
+		struct kmem_cache *slab_vmas;
+	} cocci_id/* drivers/gpu/drm/i915/i915_vma.c 39 */;
+	u32 cocci_id/* drivers/gpu/drm/i915/i915_vma.c 345 */;
+	enum i915_cache_level cocci_id/* drivers/gpu/drm/i915/i915_vma.c 344 */;
+	const struct dma_fence_work_ops cocci_id/* drivers/gpu/drm/i915/i915_vma.c 313 */;
+	typeof(*vw) cocci_id/* drivers/gpu/drm/i915/i915_vma.c 299 */;
+	struct i915_vma_work *cocci_id/* drivers/gpu/drm/i915/i915_vma.c 299 */;
+	struct dma_fence_work *cocci_id/* drivers/gpu/drm/i915/i915_vma.c 297 */;
+	struct i915_vma_work {
+		struct dma_fence_work base;
+		struct i915_vma *vma;
+		enum i915_cache_level cache_level;
+		unsigned int flags;
+	} cocci_id/* drivers/gpu/drm/i915/i915_vma.c 290 */;
+	const struct i915_ggtt_view *cocci_id/* drivers/gpu/drm/i915/i915_vma.c 271 */;
+	struct i915_address_space *cocci_id/* drivers/gpu/drm/i915/i915_vma.c 270 */;
+	struct i915_vma cocci_id/* drivers/gpu/drm/i915/i915_vma.c 188 */;
+	long cocci_id/* drivers/gpu/drm/i915/i915_vma.c 185 */;
+	int __init cocci_id/* drivers/gpu/drm/i915/i915_vma.c 1249 */;
+	struct i915_global_vma cocci_id/* drivers/gpu/drm/i915/i915_vma.c 1244 */;
+	struct intel_frontbuffer *cocci_id/* drivers/gpu/drm/i915/i915_vma.c 1107 */;
+	struct i915_request *cocci_id/* drivers/gpu/drm/i915/i915_vma.c 1079 */;
+	struct rb_node *cocci_id/* drivers/gpu/drm/i915/i915_vma.c 106 */;
+	struct drm_vma_offset_node *cocci_id/* drivers/gpu/drm/i915/i915_vma.c 1057 */;
+	struct i915_vma *cocci_id/* drivers/gpu/drm/i915/i915_vma.c 1044 */;
+	void cocci_id/* drivers/gpu/drm/i915/i915_vma.c 1044 */;
+	typeof(*next) cocci_id/* drivers/gpu/drm/i915/i915_vma.c 1039 */;
+}

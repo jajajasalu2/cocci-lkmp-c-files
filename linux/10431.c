@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* drivers/gpu/drm/radeon/rs600.c 926 */;
+	unsigned cocci_id/* drivers/gpu/drm/radeon/rs600.c 92 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/radeon/rs600.c 895 */;
+	u64 cocci_id/* drivers/gpu/drm/radeon/rs600.c 875 */;
+	u32 cocci_id/* drivers/gpu/drm/radeon/rs600.c 71 */;
+	bool cocci_id/* drivers/gpu/drm/radeon/rs600.c 69 */;
+	struct radeon_device *cocci_id/* drivers/gpu/drm/radeon/rs600.c 69 */;
+	int cocci_id/* drivers/gpu/drm/radeon/rs600.c 69 */;
+	void __iomem *cocci_id/* drivers/gpu/drm/radeon/rs600.c 656 */;
+	void *cocci_id/* drivers/gpu/drm/radeon/rs600.c 656 */;
+	uint64_t cocci_id/* drivers/gpu/drm/radeon/rs600.c 638 */;
+	uint32_t cocci_id/* drivers/gpu/drm/radeon/rs600.c 638 */;
+	unsigned long long cocci_id/* drivers/gpu/drm/radeon/rs600.c 615 */;
+	const u32 cocci_id/* drivers/gpu/drm/radeon/rs600.c 55 */[2];
+	int cocci_id/* drivers/gpu/drm/radeon/rs600.c 53 */(struct radeon_device *rdev);
+	void cocci_id/* drivers/gpu/drm/radeon/rs600.c 52 */(struct radeon_device *rdev);
+	struct rv515_mc_save cocci_id/* drivers/gpu/drm/radeon/rs600.c 458 */;
+	enum radeon_hpd_id cocci_id/* drivers/gpu/drm/radeon/rs600.c 353 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/radeon/rs600.c 337 */;
+	struct radeon_voltage *cocci_id/* drivers/gpu/drm/radeon/rs600.c 226 */;
+	struct radeon_power_state *cocci_id/* drivers/gpu/drm/radeon/rs600.c 225 */;
+	struct radeon_connector *cocci_id/* drivers/gpu/drm/radeon/rs600.c 169 */;
+	enum radeon_connector_dither cocci_id/* drivers/gpu/drm/radeon/rs600.c 166 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/radeon/rs600.c 163 */;
+	struct radeon_encoder *cocci_id/* drivers/gpu/drm/radeon/rs600.c 162 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/radeon/rs600.c 160 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/radeon/rs600.c 158 */;
+	void cocci_id/* drivers/gpu/drm/radeon/rs600.c 158 */;
+	struct radeon_crtc *cocci_id/* drivers/gpu/drm/radeon/rs600.c 120 */;
+}

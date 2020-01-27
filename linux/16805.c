@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	unsigned char cocci_id/* drivers/input/misc/adxl34x.c 699 */;
+	const struct adxl34x_platform_data *cocci_id/* drivers/input/misc/adxl34x.c 697 */;
+	const struct adxl34x_bus_ops *cocci_id/* drivers/input/misc/adxl34x.c 693 */;
+	bool cocci_id/* drivers/input/misc/adxl34x.c 692 */;
+	struct input_dev *cocci_id/* drivers/input/misc/adxl34x.c 677 */;
+	const struct attribute_group cocci_id/* drivers/input/misc/adxl34x.c 657 */;
+	struct attribute *cocci_id/* drivers/input/misc/adxl34x.c 645 */[];
+	int cocci_id/* drivers/input/misc/adxl34x.c 579 */;
+	unsigned int cocci_id/* drivers/input/misc/adxl34x.c 578 */;
+	const char *cocci_id/* drivers/input/misc/adxl34x.c 575 */;
+	size_t cocci_id/* drivers/input/misc/adxl34x.c 575 */;
+	struct device_attribute *cocci_id/* drivers/input/misc/adxl34x.c 565 */;
+	char *cocci_id/* drivers/input/misc/adxl34x.c 565 */;
+	struct device *cocci_id/* drivers/input/misc/adxl34x.c 564 */;
+	ssize_t cocci_id/* drivers/input/misc/adxl34x.c 564 */;
+	s8 cocci_id/* drivers/input/misc/adxl34x.c 519 */;
+	struct adxl34x *cocci_id/* drivers/input/misc/adxl34x.c 401 */;
+	void cocci_id/* drivers/input/misc/adxl34x.c 401 */;
+	irqreturn_t cocci_id/* drivers/input/misc/adxl34x.c 298 */;
+	void *cocci_id/* drivers/input/misc/adxl34x.c 298 */;
+	struct adxl34x_platform_data *cocci_id/* drivers/input/misc/adxl34x.c 291 */;
+	struct axis_triple cocci_id/* drivers/input/misc/adxl34x.c 259 */;
+	s16 cocci_id/* drivers/input/misc/adxl34x.c 245 */;
+	short cocci_id/* drivers/input/misc/adxl34x.c 240 */[3];
+	struct axis_triple *cocci_id/* drivers/input/misc/adxl34x.c 238 */;
+	const struct adxl34x_platform_data cocci_id/* drivers/input/misc/adxl34x.c 212 */;
+	struct adxl34x {
+		struct device *dev;
+		struct input_dev *input;
+		struct mutex mutex;
+		struct adxl34x_platform_data pdata;
+		struct axis_triple swcal;
+		struct axis_triple hwcal;
+		struct axis_triple saved;
+		char phys[32];
+		unsigned orient2d_saved;
+		unsigned orient3d_saved;
+		bool disabled;
+		bool opened;
+		bool suspended;
+		bool fifo_delay;
+		int irq;
+		unsigned model;
+		unsigned int_mask;
+		const struct adxl34x_bus_ops *bops;
+	} cocci_id/* drivers/input/misc/adxl34x.c 190 */;
+	struct axis_triple {
+		int x;
+		int y;
+		int z;
+	} cocci_id/* drivers/input/misc/adxl34x.c 184 */;
+}

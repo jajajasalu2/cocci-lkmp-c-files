@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	bool cocci_id/* sound/soc/codecs/rt1011.c 770 */;
+	const struct reg_default cocci_id/* sound/soc/codecs/rt1011.c 65 */[];
+	const struct reg_sequence cocci_id/* sound/soc/codecs/rt1011.c 37 */[];
+	int cocci_id/* sound/soc/codecs/rt1011.c 34 */(struct rt1011_priv *rt1011,
+						       unsigned char cali_flag);
+	struct i2c_driver cocci_id/* sound/soc/codecs/rt1011.c 2425 */;
+	const struct i2c_device_id *cocci_id/* sound/soc/codecs/rt1011.c 2380 */;
+	struct i2c_client *cocci_id/* sound/soc/codecs/rt1011.c 2379 */;
+	struct rt1011_priv cocci_id/* sound/soc/codecs/rt1011.c 2325 */;
+	struct work_struct *cocci_id/* sound/soc/codecs/rt1011.c 2322 */;
+	void cocci_id/* sound/soc/codecs/rt1011.c 2322 */;
+	struct snd_soc_dapm_context *cocci_id/* sound/soc/codecs/rt1011.c 2169 */;
+	struct device *cocci_id/* sound/soc/codecs/rt1011.c 2168 */;
+	unsigned char cocci_id/* sound/soc/codecs/rt1011.c 2162 */;
+	const struct i2c_device_id cocci_id/* sound/soc/codecs/rt1011.c 2156 */[];
+	struct acpi_device_id cocci_id/* sound/soc/codecs/rt1011.c 2149 */[];
+	const struct of_device_id cocci_id/* sound/soc/codecs/rt1011.c 2141 */[];
+	const struct regmap_config cocci_id/* sound/soc/codecs/rt1011.c 2127 */;
+	const struct snd_soc_component_driver cocci_id/* sound/soc/codecs/rt1011.c 2108 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/codecs/rt1011.c 2094 */[];
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/codecs/rt1011.c 2088 */;
+	enum snd_soc_bias_level cocci_id/* sound/soc/codecs/rt1011.c 2059 */;
+	unsigned long *cocci_id/* sound/soc/codecs/rt1011.c 1853 */;
+	struct rl6231_pll_code cocci_id/* sound/soc/codecs/rt1011.c 1733 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/codecs/rt1011.c 1528 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/codecs/rt1011.c 1528 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/codecs/rt1011.c 1527 */;
+	const int cocci_id/* sound/soc/codecs/rt1011.c 1514 */[];
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/codecs/rt1011.c 1476 */[];
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/codecs/rt1011.c 1411 */[];
+	struct snd_soc_dapm_widget *cocci_id/* sound/soc/codecs/rt1011.c 1372 */;
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/rt1011.c 1319 */[];
+	struct snd_ctl_elem_info *cocci_id/* sound/soc/codecs/rt1011.c 1203 */;
+	struct rt1011_bq_drc_params cocci_id/* sound/soc/codecs/rt1011.c 1181 */;
+	unsigned int cocci_id/* sound/soc/codecs/rt1011.c 1127 */;
+	struct rt1011_bq_drc_params *cocci_id/* sound/soc/codecs/rt1011.c 1124 */;
+	struct rt1011_priv *cocci_id/* sound/soc/codecs/rt1011.c 1122 */;
+	struct snd_soc_component *cocci_id/* sound/soc/codecs/rt1011.c 1120 */;
+	struct snd_ctl_elem_value *cocci_id/* sound/soc/codecs/rt1011.c 1118 */;
+	struct snd_kcontrol *cocci_id/* sound/soc/codecs/rt1011.c 1117 */;
+	int cocci_id/* sound/soc/codecs/rt1011.c 1117 */;
+	unsigned short cocci_id/* sound/soc/codecs/rt1011.c 1091 */;
+	struct regmap *cocci_id/* sound/soc/codecs/rt1011.c 1032 */;
+	const char *const cocci_id/* sound/soc/codecs/rt1011.c 1009 */[];
+}

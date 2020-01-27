@@ -1,0 +1,57 @@
+cocci_test_suite() {
+	struct Qdisc **cocci_id/* net/sched/sch_atm.c 86 */;
+	void __exit cocci_id/* net/sched/sch_atm.c 700 */;
+	void cocci_id/* net/sched/sch_atm.c 700 */;
+	int __init cocci_id/* net/sched/sch_atm.c 695 */;
+	struct atm_qdisc_data cocci_id/* net/sched/sch_atm.c 684 */;
+	struct Qdisc_ops cocci_id/* net/sched/sch_atm.c 681 */;
+	const struct Qdisc_class_ops cocci_id/* net/sched/sch_atm.c 667 */;
+	struct gnet_dump *cocci_id/* net/sched/sch_atm.c 650 */;
+	struct atm_qdisc_data {
+		struct atm_flow_data link;
+		struct list_head flows;
+		struct tasklet_struct task;
+	} cocci_id/* net/sched/sch_atm.c 64 */;
+	struct sockaddr_atmpvc cocci_id/* net/sched/sch_atm.c 621 */;
+	struct tcmsg *cocci_id/* net/sched/sch_atm.c 601 */;
+	struct sk_buff *cocci_id/* net/sched/sch_atm.c 519 */;
+	struct atm_flow_data {
+		struct Qdisc_class_common common;
+		struct Qdisc *q;
+		struct tcf_proto __rcu *filter_list;
+		struct tcf_block *block;
+		struct atm_vcc *vcc;
+		void (*old_pop)(struct atm_vcc *vcc, struct sk_buff *skb);
+		struct atm_qdisc_data *parent;
+		struct socket *sock;
+		int ref;
+		struct gnet_stats_basic_packed bstats;
+		struct gnet_stats_queue qstats;
+		struct list_head list;
+		struct atm_flow_data *excess;
+		int hdr_len;
+		unsigned char hdr[0];
+	} cocci_id/* net/sched/sch_atm.c 44 */;
+	struct tcf_proto *cocci_id/* net/sched/sch_atm.c 391 */;
+	struct tcf_result cocci_id/* net/sched/sch_atm.c 382 */;
+	struct sk_buff **cocci_id/* net/sched/sch_atm.c 378 */;
+	struct tcf_block *cocci_id/* net/sched/sch_atm.c 365 */;
+	struct qdisc_walker *cocci_id/* net/sched/sch_atm.c 347 */;
+	struct atm_flow_data cocci_id/* net/sched/sch_atm.c 281 */;
+	void *cocci_id/* net/sched/sch_atm.c 206 */;
+	struct socket *cocci_id/* net/sched/sch_atm.c 204 */;
+	struct nlattr *cocci_id/* net/sched/sch_atm.c 203 */[TCA_ATM_MAX + 1];
+	struct nlattr *cocci_id/* net/sched/sch_atm.c 202 */;
+	struct netlink_ext_ack *cocci_id/* net/sched/sch_atm.c 197 */;
+	struct nlattr **cocci_id/* net/sched/sch_atm.c 196 */;
+	unsigned long *cocci_id/* net/sched/sch_atm.c 196 */;
+	int cocci_id/* net/sched/sch_atm.c 195 */;
+	const struct nla_policy cocci_id/* net/sched/sch_atm.c 190 */[TCA_ATM_MAX + 1];
+	const u8 cocci_id/* net/sched/sch_atm.c 181 */[];
+	struct atm_vcc *cocci_id/* net/sched/sch_atm.c 172 */;
+	struct atm_flow_data *cocci_id/* net/sched/sch_atm.c 128 */;
+	struct atm_qdisc_data *cocci_id/* net/sched/sch_atm.c 127 */;
+	u32 cocci_id/* net/sched/sch_atm.c 125 */;
+	struct Qdisc *cocci_id/* net/sched/sch_atm.c 124 */;
+	unsigned long cocci_id/* net/sched/sch_atm.c 124 */;
+}

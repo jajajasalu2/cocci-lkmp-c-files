@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	unsigned int *cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 998 */;
+	u16 cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 997 */;
+	const u8 *cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 997 */;
+	const struct hdmi_vendor_infoframe *cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 861 */;
+	const struct hdmi_avi_infoframe *cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 860 */;
+	struct v4l2_hdmi_colorimetry cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 859 */;
+	u8 cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 807 */;
+	struct v4l2_fract cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 807 */;
+	int cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 476 */;
+	struct v4l2_dv_timings *cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 474 */;
+	bool cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 468 */;
+	unsigned cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 468 */;
+	u64 cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 391 */;
+	u32 cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 390 */;
+	unsigned long cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 389 */;
+	const struct v4l2_bt_timings *cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 387 */;
+	const struct v4l2_dv_timings *cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 385 */;
+	const char *cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 275 */;
+	void cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 275 */;
+	const struct v4l2_dv_timings cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 24 */[];
+	unsigned int cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 219 */;
+	void *cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 171 */;
+	v4l2_check_dv_timings_fnc cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 170 */;
+	const struct v4l2_dv_timings_cap *cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 169 */;
+	struct v4l2_enum_dv_timings *cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 168 */;
+	const struct v4l2_bt_timings_cap *cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 146 */;
+	u16 *cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 1110 */;
+	u8 *cocci_id/* drivers/media/v4l2-core/v4l2-dv-timings.c 1022 */;
+}

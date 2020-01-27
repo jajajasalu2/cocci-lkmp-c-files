@@ -1,0 +1,77 @@
+cocci_test_suite() {
+	struct sg_table cocci_id/* drivers/char/agp/intel-gtt.c 927 */;
+	struct page **cocci_id/* drivers/char/agp/intel-gtt.c 883 */;
+	struct scatterlist *cocci_id/* drivers/char/agp/intel-gtt.c 858 */;
+	struct sg_table *cocci_id/* drivers/char/agp/intel-gtt.c 854 */;
+	bool cocci_id/* drivers/char/agp/intel-gtt.c 831 */;
+	struct agp_bridge_data *cocci_id/* drivers/char/agp/intel-gtt.c 805 */;
+	u8 __iomem *cocci_id/* drivers/char/agp/intel-gtt.c 746 */;
+	unsigned long cocci_id/* drivers/char/agp/intel-gtt.c 710 */;
+	void *cocci_id/* drivers/char/agp/intel-gtt.c 685 */;
+	const struct aper_size_info_fixed cocci_id/* drivers/char/agp/intel-gtt.c 666 */[];
+	struct _intel_private {
+		const struct intel_gtt_driver *driver;
+		struct pci_dev *pcidev;
+		struct pci_dev *bridge_dev;
+		u8 __iomem *registers;
+		phys_addr_t gtt_phys_addr;
+		u32 PGETBL_save;
+		u32 __iomem *gtt;
+		bool clear_fake_agp;
+		int num_dcache_entries;
+		void __iomem *i9xx_flush_page;
+		char *i81x_gtt_table;
+		struct resource ifp_resource;
+		int resource_valid;
+		struct page *scratch_page;
+		phys_addr_t scratch_page_dma;
+		int refcount;
+		unsigned int needs_dmar:1;
+		phys_addr_t gma_bus_addr;
+		resource_size_t stolen_size;
+		unsigned int gtt_total_entries;
+		unsigned int gtt_mappable_entries;
+	} cocci_id/* drivers/char/agp/intel-gtt.c 62 */;
+	const unsigned short cocci_id/* drivers/char/agp/intel-gtt.c 574 */;
+	u64 cocci_id/* drivers/char/agp/intel-gtt.c 421 */;
+	struct intel_gtt_driver {
+		unsigned int gen:8;
+		unsigned int is_g33:1;
+		unsigned int is_pineview:1;
+		unsigned int is_ironlake:1;
+		unsigned int has_pgtbl_enable:1;
+		unsigned int dma_mask_size:8;
+		int (*setup)(void);
+		void (*cleanup)(void);
+		void (*write_entry)(dma_addr_t addr, unsigned int entry,
+				    unsigned int flags);
+		bool (*check_flags)(unsigned int flags);
+		void (*chipset_flush)(void);
+	} cocci_id/* drivers/char/agp/intel-gtt.c 42 */;
+	const int cocci_id/* drivers/char/agp/intel-gtt.c 341 */[4];
+	u8 cocci_id/* drivers/char/agp/intel-gtt.c 339 */;
+	resource_size_t cocci_id/* drivers/char/agp/intel-gtt.c 336 */;
+	u32 cocci_id/* drivers/char/agp/intel-gtt.c 322 */;
+	unsigned int cocci_id/* drivers/char/agp/intel-gtt.c 319 */;
+	struct page *cocci_id/* drivers/char/agp/intel-gtt.c 242 */;
+	struct agp_memory *cocci_id/* drivers/char/agp/intel-gtt.c 239 */;
+	int cocci_id/* drivers/char/agp/intel-gtt.c 239 */;
+	size_t cocci_id/* drivers/char/agp/intel-gtt.c 239 */;
+	dma_addr_t cocci_id/* drivers/char/agp/intel-gtt.c 225 */;
+	off_t cocci_id/* drivers/char/agp/intel-gtt.c 212 */;
+	void cocci_id/* drivers/char/agp/intel-gtt.c 205 */;
+	char *cocci_id/* drivers/char/agp/intel-gtt.c 176 */;
+	phys_addr_t cocci_id/* drivers/char/agp/intel-gtt.c 175 */;
+	resource_size_t *cocci_id/* drivers/char/agp/intel-gtt.c 1428 */;
+	phys_addr_t *cocci_id/* drivers/char/agp/intel-gtt.c 1427 */;
+	u64 *cocci_id/* drivers/char/agp/intel-gtt.c 1426 */;
+	struct pci_dev *cocci_id/* drivers/char/agp/intel-gtt.c 1344 */;
+	u16 cocci_id/* drivers/char/agp/intel-gtt.c 1342 */;
+	const struct intel_gtt_driver_description {
+		unsigned int gmch_chip_id;
+		char *name;
+		const struct intel_gtt_driver *gtt_driver;
+	} cocci_id/* drivers/char/agp/intel-gtt.c 1264 */[];
+	const struct intel_gtt_driver cocci_id/* drivers/char/agp/intel-gtt.c 1210 */;
+	const struct agp_bridge_driver cocci_id/* drivers/char/agp/intel-gtt.c 1157 */;
+}

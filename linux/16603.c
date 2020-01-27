@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct raw3270_request *cocci_id/* drivers/s390/char/fs3270.c 64 */;
+	void __exit cocci_id/* drivers/s390/char/fs3270.c 564 */;
+	int __init cocci_id/* drivers/s390/char/fs3270.c 550 */;
+	struct raw3270_notifier cocci_id/* drivers/s390/char/fs3270.c 541 */;
+	const struct file_operations cocci_id/* drivers/s390/char/fs3270.c 517 */;
+	struct inode *cocci_id/* drivers/s390/char/fs3270.c 501 */;
+	struct file *cocci_id/* drivers/s390/char/fs3270.c 501 */;
+	wait_queue_head_t *cocci_id/* drivers/s390/char/fs3270.c 50 */;
+	struct tty_struct *cocci_id/* drivers/s390/char/fs3270.c 441 */;
+	struct idal_buffer *cocci_id/* drivers/s390/char/fs3270.c 433 */;
+	void *cocci_id/* drivers/s390/char/fs3270.c 421 */;
+	struct fs3270 cocci_id/* drivers/s390/char/fs3270.c 378 */;
+	void cocci_id/* drivers/s390/char/fs3270.c 374 */;
+	struct raw3270_iocb cocci_id/* drivers/s390/char/fs3270.c 330 */;
+	char __user *cocci_id/* drivers/s390/char/fs3270.c 328 */;
+	unsigned long cocci_id/* drivers/s390/char/fs3270.c 326 */;
+	unsigned int cocci_id/* drivers/s390/char/fs3270.c 326 */;
+	long cocci_id/* drivers/s390/char/fs3270.c 325 */;
+	struct fs3270 {
+		struct raw3270_view view;
+		struct pid *fs_pid;
+		int read_command;
+		int write_command;
+		int attention;
+		int active;
+		struct raw3270_request *init;
+		wait_queue_head_t wait;
+		struct idal_buffer *rdbuf;
+		size_t rdbuf_size;
+	} cocci_id/* drivers/s390/char/fs3270.c 32 */;
+	struct raw3270_fn cocci_id/* drivers/s390/char/fs3270.c 30 */;
+	const char __user *cocci_id/* drivers/s390/char/fs3270.c 288 */;
+	loff_t *cocci_id/* drivers/s390/char/fs3270.c 243 */;
+	size_t cocci_id/* drivers/s390/char/fs3270.c 243 */;
+	ssize_t cocci_id/* drivers/s390/char/fs3270.c 242 */;
+	struct irb *cocci_id/* drivers/s390/char/fs3270.c 222 */;
+	char *cocci_id/* drivers/s390/char/fs3270.c 122 */;
+	struct fs3270 *cocci_id/* drivers/s390/char/fs3270.c 121 */;
+	struct raw3270_view *cocci_id/* drivers/s390/char/fs3270.c 119 */;
+	int cocci_id/* drivers/s390/char/fs3270.c 118 */;
+}

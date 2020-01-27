@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 514 */;
+	char *cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 504 */;
+	int __init cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 501 */;
+	struct pci_driver cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 470 */;
+	const struct pci_device_id cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 463 */[];
+	void __iomem *cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 446 */;
+	unsigned int cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 369 */;
+	unsigned long cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 366 */;
+	const struct pci_device_id *cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 361 */;
+	pm_message_t cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 326 */;
+	void *cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 313 */;
+	u32 cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 286 */;
+	struct gxfb_par cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 286 */;
+	struct gxfb_par *cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 282 */;
+	struct device *cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 280 */;
+	struct fb_ops cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 268 */;
+	struct pci_dev *cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 215 */;
+	struct fb_info *cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 210 */;
+	int cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 210 */;
+	u32 *cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 189 */;
+	unsigned cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 178 */;
+	u_int cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 171 */;
+	struct fb_bitfield *cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 171 */;
+	struct fb_var_screeninfo *cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 125 */;
+	struct fb_videomode *cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 117 */;
+	struct fb_videomode **cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 114 */;
+	unsigned int *cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 114 */;
+	void cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 114 */;
+	struct fb_videomode cocci_id/* drivers/video/fbdev/geode/gxfb_core.c 107 */[];
+}

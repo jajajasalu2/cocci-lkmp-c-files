@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/mtd/maps/physmap-core.c 651 */;
+	int __init cocci_id/* drivers/mtd/maps/physmap-core.c 635 */;
+	struct platform_device cocci_id/* drivers/mtd/maps/physmap-core.c 624 */;
+	struct resource cocci_id/* drivers/mtd/maps/physmap-core.c 618 */;
+	struct physmap_flash_data cocci_id/* drivers/mtd/maps/physmap-core.c 614 */;
+	struct platform_driver cocci_id/* drivers/mtd/maps/physmap-core.c 603 */;
+	struct resource *cocci_id/* drivers/mtd/maps/physmap-core.c 496 */;
+	struct physmap_flash_info {
+		unsigned int nmaps;
+		struct mtd_info **mtds;
+		struct mtd_info *cmtd;
+		struct map_info *maps;
+		spinlock_t vpp_lock;
+		int vpp_refcnt;
+		const char *probe_type;
+		const char *const *part_types;
+		unsigned int nparts;
+		const struct mtd_partition *parts;
+		struct gpio_descs *gpios;
+		unsigned int gpio_values;
+		unsigned int win_order;
+	} cocci_id/* drivers/mtd/maps/physmap-core.c 47 */;
+	struct physmap_flash_data *cocci_id/* drivers/mtd/maps/physmap-core.c 416 */;
+	u32 cocci_id/* drivers/mtd/maps/physmap-core.c 338 */;
+	bool cocci_id/* drivers/mtd/maps/physmap-core.c 336 */;
+	const struct of_device_id *cocci_id/* drivers/mtd/maps/physmap-core.c 299 */;
+	const char *cocci_id/* drivers/mtd/maps/physmap-core.c 296 */;
+	int cocci_id/* drivers/mtd/maps/physmap-core.c 278 */;
+	const char **cocci_id/* drivers/mtd/maps/physmap-core.c 277 */;
+	struct device_node *cocci_id/* drivers/mtd/maps/physmap-core.c 276 */;
+	const char *const *cocci_id/* drivers/mtd/maps/physmap-core.c 274 */;
+	struct platform_device *cocci_id/* drivers/mtd/maps/physmap-core.c 274 */;
+	const char *const cocci_id/* drivers/mtd/maps/physmap-core.c 270 */[];
+	const struct of_device_id cocci_id/* drivers/mtd/maps/physmap-core.c 236 */[];
+	const void *cocci_id/* drivers/mtd/maps/physmap-core.c 197 */;
+	unsigned int cocci_id/* drivers/mtd/maps/physmap-core.c 169 */;
+	struct physmap_flash_info *cocci_id/* drivers/mtd/maps/physmap-core.c 163 */;
+	unsigned long cocci_id/* drivers/mtd/maps/physmap-core.c 160 */;
+	ssize_t cocci_id/* drivers/mtd/maps/physmap-core.c 160 */;
+	struct map_info *cocci_id/* drivers/mtd/maps/physmap-core.c 159 */;
+	void *cocci_id/* drivers/mtd/maps/physmap-core.c 159 */;
+	void cocci_id/* drivers/mtd/maps/physmap-core.c 159 */;
+	u16 cocci_id/* drivers/mtd/maps/physmap-core.c 148 */;
+	map_word cocci_id/* drivers/mtd/maps/physmap-core.c 142 */;
+}

@@ -1,0 +1,71 @@
+cocci_test_suite() {
+	struct text_poke_loc cocci_id/* arch/x86/kernel/alternative.c 989 */;
+	const unsigned char *constcocci_id/* arch/x86/kernel/alternative.c 96 */[ASM_NOP_MAX + 2];
+	struct text_poke_loc *cocci_id/* arch/x86/kernel/alternative.c 946 */;
+	struct bp_patching_desc {
+		struct text_poke_loc *vec;
+		int nr_entries;
+	} cocci_id/* arch/x86/kernel/alternative.c 939 */;
+	u8 *cocci_id/* arch/x86/kernel/alternative.c 853 */;
+	const unsigned char cocci_id/* arch/x86/kernel/alternative.c 84 */[];
+	pgprot_t cocci_id/* arch/x86/kernel/alternative.c 796 */;
+	spinlock_t *cocci_id/* arch/x86/kernel/alternative.c 795 */;
+	pte_t cocci_id/* arch/x86/kernel/alternative.c 794 */;
+	unsigned long cocci_id/* arch/x86/kernel/alternative.c 793 */;
+	temp_mm_state_t cocci_id/* arch/x86/kernel/alternative.c 792 */;
+	struct page *cocci_id/* arch/x86/kernel/alternative.c 791 */[2];
+	bool cocci_id/* arch/x86/kernel/alternative.c 790 */;
+	const void *cocci_id/* arch/x86/kernel/alternative.c 788 */;
+	void *cocci_id/* arch/x86/kernel/alternative.c 788 */;
+	size_t cocci_id/* arch/x86/kernel/alternative.c 788 */;
+	struct mm_struct *cocci_id/* arch/x86/kernel/alternative.c 785 */;
+	void __init cocci_id/* arch/x86/kernel/alternative.c 701 */;
+	void cocci_id/* arch/x86/kernel/alternative.c 701 */;
+	struct pt_regs *cocci_id/* arch/x86/kernel/alternative.c 652 */;
+	struct die_args *cocci_id/* arch/x86/kernel/alternative.c 651 */;
+	struct notifier_block *cocci_id/* arch/x86/kernel/alternative.c 649 */;
+	int __init cocci_id/* arch/x86/kernel/alternative.c 648 */;
+	void cocci_id/* arch/x86/kernel/alternative.c 634 */(unsigned int *ptr);
+	struct paravirt_patch_site cocci_id/* arch/x86/kernel/alternative.c 614 */[];
+	char cocci_id/* arch/x86/kernel/alternative.c 597 */[MAX_PATCH_LEN];
+	struct paravirt_patch_site *cocci_id/* arch/x86/kernel/alternative.c 593 */;
+	const u8 *cocci_id/* arch/x86/kernel/alternative.c 581 */;
+	int cocci_id/* arch/x86/kernel/alternative.c 568 */;
+	struct smp_alt_module *cocci_id/* arch/x86/kernel/alternative.c 544 */;
+	char *cocci_id/* arch/x86/kernel/alternative.c 491 */;
+	struct module *cocci_id/* arch/x86/kernel/alternative.c 490 */;
+	struct smp_alt_module {
+		struct module *mod;
+		char *name;
+		const s32 *locks;
+		const s32 *locks_end;
+		u8 *text;
+		u8 *text_end;
+		struct list_head next;
+	} cocci_id/* arch/x86/kernel/alternative.c 472 */;
+	unsigned char cocci_id/* arch/x86/kernel/alternative.c 452 */[];
+	const s32 *cocci_id/* arch/x86/kernel/alternative.c 440 */;
+	s32 *cocci_id/* arch/x86/kernel/alternative.c 419 */;
+	u8 cocci_id/* arch/x86/kernel/alternative.c 374 */[MAX_PATCH_LEN];
+	int __init cocci_id/* arch/x86/kernel/alternative.c 37 */;
+	struct alt_instr *cocci_id/* arch/x86/kernel/alternative.c 369 */;
+	void __init_or_module noinline cocci_id/* arch/x86/kernel/alternative.c 369 */;
+	int __initdata_or_module cocci_id/* arch/x86/kernel/alternative.c 35 */;
+	s8 cocci_id/* arch/x86/kernel/alternative.c 317 */;
+	int __read_mostly cocci_id/* arch/x86/kernel/alternative.c 29 */;
+	s32 cocci_id/* arch/x86/kernel/alternative.c 284 */;
+	void __init_or_module cocci_id/* arch/x86/kernel/alternative.c 280 */;
+	const u8 cocci_id/* arch/x86/kernel/alternative.c 275 */;
+	void cocci_id/* arch/x86/kernel/alternative.c 270 */(void *addr,
+							     const void *opcode,
+							     size_t len);
+	s32 cocci_id/* arch/x86/kernel/alternative.c 269 */[];
+	struct alt_instr cocci_id/* arch/x86/kernel/alternative.c 268 */[];
+	unsigned int cocci_id/* arch/x86/kernel/alternative.c 256 */;
+	void __init_or_module cocci_id/* arch/x86/kernel/alternative.c 256 */;
+	const unsigned char *const*cocci_id/* arch/x86/kernel/alternative.c 197 */;
+	struct insn cocci_id/* arch/x86/kernel/alternative.c 1119 */;
+	const char *cocci_id/* arch/x86/kernel/alternative.c 1078 */;
+	unsigned char cocci_id/* arch/x86/kernel/alternative.c 1049 */;
+	long cocci_id/* arch/x86/kernel/alternative.c 1010 */;
+}

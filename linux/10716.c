@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	enum transcoder cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 747 */;
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 674 */;
+	struct intel_digital_port *cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 672 */;
+	struct intel_crtc_state *cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 605 */;
+	const struct intel_crtc_state *cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 537 */;
+	struct intel_dp *cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 454 */;
+	void cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 454 */;
+	const u8 cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 368 */[];
+	struct dp_sdp cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 335 */;
+	ssize_t cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 243 */;
+	u16 cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 240 */;
+	u8 cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 220 */;
+	ktime_t cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 164 */;
+	const u8 cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 1387 */;
+	enum fb_op_origin cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 1314 */;
+	unsigned cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 1314 */;
+	unsigned int cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 1270 */;
+	typeof(*dev_priv) cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 1193 */;
+	struct work_struct *cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 1190 */;
+	struct i915_psr *cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 1182 */;
+	const u32 cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 1148 */;
+	u64 cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 1146 */;
+	struct drm_crtc_state *cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 1111 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 1099 */;
+	struct drm_atomic_state *cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 1098 */;
+	struct drm_modeset_acquire_ctx cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 1097 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 1096 */;
+	int cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 1070 */;
+	u32 cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 1069 */;
+	i915_reg_t cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 1068 */;
+	bool cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 1066 */;
+	struct drm_i915_private *cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 1066 */;
+	struct intel_crtc *cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 1042 */;
+	u32 *cocci_id/* drivers/gpu/drm/i915/display/intel_psr.c 1040 */;
+}

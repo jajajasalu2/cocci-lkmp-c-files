@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	const char *cocci_id/* drivers/ssb/pcmcia.c 744 */;
+	size_t cocci_id/* drivers/ssb/pcmcia.c 744 */;
+	struct pcmcia_device cocci_id/* drivers/ssb/pcmcia.c 731 */;
+	struct pcmcia_device *cocci_id/* drivers/ssb/pcmcia.c 730 */;
+	char *cocci_id/* drivers/ssb/pcmcia.c 728 */;
+	struct device_attribute *cocci_id/* drivers/ssb/pcmcia.c 727 */;
+	struct device *cocci_id/* drivers/ssb/pcmcia.c 726 */;
+	ssize_t cocci_id/* drivers/ssb/pcmcia.c 726 */;
+	u16 cocci_id/* drivers/ssb/pcmcia.c 67 */;
+	struct ssb_boardinfo *cocci_id/* drivers/ssb/pcmcia.c 618 */;
+	struct ssb_sprom *cocci_id/* drivers/ssb/pcmcia.c 617 */;
+	struct ssb_init_invariants *cocci_id/* drivers/ssb/pcmcia.c 616 */;
+	tuple_t *cocci_id/* drivers/ssb/pcmcia.c 613 */;
+	const u16 *cocci_id/* drivers/ssb/pcmcia.c 583 */;
+	bool cocci_id/* drivers/ssb/pcmcia.c 542 */;
+	unsigned int cocci_id/* drivers/ssb/pcmcia.c 444 */;
+	const struct ssb_bus_ops cocci_id/* drivers/ssb/pcmcia.c 429 */;
+	const __le16 *cocci_id/* drivers/ssb/pcmcia.c 397 */;
+	const u8 *cocci_id/* drivers/ssb/pcmcia.c 387 */;
+	const void *cocci_id/* drivers/ssb/pcmcia.c 373 */;
+	u32 cocci_id/* drivers/ssb/pcmcia.c 310 */;
+	__le16 cocci_id/* drivers/ssb/pcmcia.c 304 */;
+	__le16 *cocci_id/* drivers/ssb/pcmcia.c 300 */;
+	u8 *cocci_id/* drivers/ssb/pcmcia.c 290 */;
+	void __iomem *cocci_id/* drivers/ssb/pcmcia.c 279 */;
+	unsigned long cocci_id/* drivers/ssb/pcmcia.c 278 */;
+	void *cocci_id/* drivers/ssb/pcmcia.c 274 */;
+	void cocci_id/* drivers/ssb/pcmcia.c 274 */;
+	u8 cocci_id/* drivers/ssb/pcmcia.c 201 */;
+	struct ssb_bus *cocci_id/* drivers/ssb/pcmcia.c 199 */;
+	u16 *cocci_id/* drivers/ssb/pcmcia.c 197 */;
+	struct ssb_device *cocci_id/* drivers/ssb/pcmcia.c 196 */;
+	int cocci_id/* drivers/ssb/pcmcia.c 196 */;
+}

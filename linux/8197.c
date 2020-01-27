@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	const struct mvpp2_cls_flow *cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 715 */;
+	struct mvpp2_cls_flow_entry cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 579 */;
+	struct mvpp2_cls_c2_entry *cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 524 */;
+	struct mvpp2_cls_lookup_entry cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 476 */;
+	u8 cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 458 */;
+	bool cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 433 */;
+	struct mvpp2_cls_flow_entry *cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 417 */;
+	struct mvpp2_cls_lookup_entry *cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 360 */;
+	const struct mvpp2_cls_flow cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 25 */[MVPP2_N_PRS_FLOWS];
+	unsigned long cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 1656 */;
+	u16 cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 1618 */;
+	struct mvpp2_rss_table *cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 1604 */;
+	const u32 *cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 1583 */;
+	struct ethtool_rxnfc *cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 1548 */;
+	struct mvpp2 *cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 1547 */;
+	u32 cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 1512 */;
+	u32 *cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 1510 */;
+	struct mvpp2_ethtool_fs *cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 1422 */;
+	struct ethtool_rx_flow_rule *cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 1351 */;
+	struct ethtool_rx_flow_spec_input cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 1350 */;
+	struct flow_action_entry *cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 1306 */;
+	struct flow_match_ports cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 1277 */;
+	u64 cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 1249 */;
+	struct flow_match_vlan cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 1243 */;
+	struct flow_rule *cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 1236 */;
+	struct mvpp2_rfs_rule *cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 1234 */;
+	struct mvpp2_cls_c2_entry cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 1051 */;
+	struct mvpp2_port *cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 1049 */;
+	int cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 1049 */;
+	void cocci_id/* drivers/net/ethernet/marvell/mvpp2/mvpp2_cls.c 1049 */;
+}

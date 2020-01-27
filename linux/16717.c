@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	struct pxa27x_keypad {
+		const struct pxa27x_keypad_platform_data *pdata;
+		struct clk *clk;
+		struct input_dev *input_dev;
+		void __iomem *mmio_base;
+		int irq;
+		unsigned short keycodes[MAX_KEYPAD_KEYS];
+		int rotary_rel_code[2];
+		unsigned int row_shift;
+		uint32_t matrix_key_state[MAX_MATRIX_KEY_COLS];
+		uint32_t direct_key_state;
+		unsigned int direct_key_mask;
+	} cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 96 */;
+	struct platform_driver cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 828 */;
+	const struct of_device_id cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 821 */[];
+	struct resource *cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 722 */;
+	struct platform_device *cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 715 */;
+	unsigned long cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 595 */;
+	unsigned int cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 594 */;
+	irqreturn_t cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 575 */;
+	void *cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 575 */;
+	const struct pxa27x_keypad_platform_data *cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 569 */;
+	struct pxa27x_keypad *cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 567 */;
+	void cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 567 */;
+	uint32_t cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 532 */;
+	unsigned char cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 496 */;
+	uint32_t cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 413 */[MAX_MATRIX_KEY_COLS];
+	unsigned short cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 345 */;
+	struct input_dev *cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 344 */;
+	int cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 341 */;
+	struct pxa27x_keypad_platform_data *cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 286 */;
+	struct device_node *cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 285 */;
+	struct device *cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 284 */;
+	const char cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 216 */[];
+	const char *cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 214 */[2];
+	const __be32 *cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 211 */;
+	const __be16 *cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 154 */;
+	u32 cocci_id/* drivers/input/keyboard/pxa27x_keypad.c 123 */;
+}

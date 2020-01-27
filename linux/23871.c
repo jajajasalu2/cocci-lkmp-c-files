@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	struct nlattr *cocci_id/* net/sched/act_simple.c 93 */[TCA_DEF_MAX + 1];
+	u32 cocci_id/* net/sched/act_simple.c 89 */;
+	bool cocci_id/* net/sched/act_simple.c 88 */;
+	struct tc_action **cocci_id/* net/sched/act_simple.c 87 */;
+	struct nlattr *cocci_id/* net/sched/act_simple.c 86 */;
+	struct tc_defact cocci_id/* net/sched/act_simple.c 82 */;
+	const struct nla_policy cocci_id/* net/sched/act_simple.c 81 */[TCA_DEF_MAX + 1];
+	struct tcf_chain *cocci_id/* net/sched/act_simple.c 63 */;
+	struct netlink_ext_ack *cocci_id/* net/sched/act_simple.c 61 */;
+	struct tcf_proto *cocci_id/* net/sched/act_simple.c 60 */;
+	struct tc_defact *cocci_id/* net/sched/act_simple.c 60 */;
+	struct tc_action *cocci_id/* net/sched/act_simple.c 59 */;
+	const struct nlattr *cocci_id/* net/sched/act_simple.c 50 */;
+	struct tcf_defact *cocci_id/* net/sched/act_simple.c 50 */;
+	int cocci_id/* net/sched/act_simple.c 50 */;
+	char *cocci_id/* net/sched/act_simple.c 39 */;
+	void __exit cocci_id/* net/sched/act_simple.c 263 */;
+	void cocci_id/* net/sched/act_simple.c 263 */;
+	struct tcf_result *cocci_id/* net/sched/act_simple.c 26 */;
+	int __init cocci_id/* net/sched/act_simple.c 255 */;
+	const struct tc_action *cocci_id/* net/sched/act_simple.c 25 */;
+	struct sk_buff *cocci_id/* net/sched/act_simple.c 25 */;
+	struct tc_action_net cocci_id/* net/sched/act_simple.c 248 */;
+	struct pernet_operations cocci_id/* net/sched/act_simple.c 244 */;
+	struct list_head *cocci_id/* net/sched/act_simple.c 239 */;
+	void __net_exit cocci_id/* net/sched/act_simple.c 239 */;
+	struct tc_action_net *cocci_id/* net/sched/act_simple.c 234 */;
+	struct net *cocci_id/* net/sched/act_simple.c 232 */;
+	struct tcf_defact cocci_id/* net/sched/act_simple.c 229 */;
+	struct tc_action_ops cocci_id/* net/sched/act_simple.c 22 */;
+	unsigned int cocci_id/* net/sched/act_simple.c 21 */;
+	const struct tc_action_ops *cocci_id/* net/sched/act_simple.c 204 */;
+	struct netlink_callback *cocci_id/* net/sched/act_simple.c 203 */;
+	struct tcf_t cocci_id/* net/sched/act_simple.c 181 */;
+	unsigned char *cocci_id/* net/sched/act_simple.c 174 */;
+}

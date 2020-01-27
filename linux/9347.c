@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	const unsigned int cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 94 */;
+	const size_t cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 89 */;
+	struct completion *cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 82 */;
+	struct urb *cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 80 */;
+	usb_complete_t cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 56 */;
+	void *cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 56 */;
+	gfp_t cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 55 */;
+	struct usb_driver cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 369 */;
+	struct mt7601u_dma_buf *cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 35 */;
+	pm_message_t cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 342 */;
+	bool cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 34 */;
+	size_t cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 34 */;
+	struct usb_device *cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 267 */;
+	const struct usb_device_id *cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 265 */;
+	unsigned cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 232 */;
+	struct usb_host_interface *cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 231 */;
+	struct usb_endpoint_descriptor *cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 230 */;
+	struct usb_interface *cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 227 */;
+	const u8 *cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 221 */;
+	void cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 221 */;
+	const void *cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 213 */;
+	const u32 cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 157 */;
+	const u16 cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 157 */;
+	const u8 cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 156 */;
+	const struct usb_device_id cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 14 */[];
+	int cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 127 */;
+	u32 cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 125 */;
+	struct mt7601u_dev *cocci_id/* drivers/net/wireless/mediatek/mt7601u/usb.c 125 */;
+}

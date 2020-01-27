@@ -1,0 +1,61 @@
+cocci_test_suite() {
+	struct rk_iommu {
+		struct device *dev;
+		void __iomem **bases;
+		int num_mmu;
+		int num_irq;
+		struct clk_bulk_data *clocks;
+		int num_clocks;
+		bool reset_disabled;
+		struct iommu_device iommu;
+		struct list_head node;
+		struct iommu_domain *domain;
+		struct iommu_group *group;
+	} cocci_id/* drivers/iommu/rockchip-iommu.c 99 */;
+	unsigned cocci_id/* drivers/iommu/rockchip-iommu.c 973 */;
+	const char *constcocci_id/* drivers/iommu/rockchip-iommu.c 95 */[];
+	struct iommu_domain *cocci_id/* drivers/iommu/rockchip-iommu.c 929 */;
+	struct rk_iommu_domain {
+		struct list_head iommus;
+		u32 *dt;
+		dma_addr_t dt_dma;
+		spinlock_t iommus_lock;
+		spinlock_t dt_lock;
+		struct iommu_domain domain;
+	} cocci_id/* drivers/iommu/rockchip-iommu.c 84 */;
+	struct iommu_iotlb_gather *cocci_id/* drivers/iommu/rockchip-iommu.c 798 */;
+	gfp_t cocci_id/* drivers/iommu/rockchip-iommu.c 761 */;
+	size_t cocci_id/* drivers/iommu/rockchip-iommu.c 761 */;
+	unsigned int cocci_id/* drivers/iommu/rockchip-iommu.c 719 */;
+	unsigned long cocci_id/* drivers/iommu/rockchip-iommu.c 678 */;
+	struct rk_iommu_domain *cocci_id/* drivers/iommu/rockchip-iommu.c 655 */;
+	struct rk_iommu cocci_id/* drivers/iommu/rockchip-iommu.c 629 */;
+	struct list_head *cocci_id/* drivers/iommu/rockchip-iommu.c 620 */;
+	irqreturn_t cocci_id/* drivers/iommu/rockchip-iommu.c 520 */;
+	void *cocci_id/* drivers/iommu/rockchip-iommu.c 520 */;
+	u32 *cocci_id/* drivers/iommu/rockchip-iommu.c 479 */;
+	phys_addr_t cocci_id/* drivers/iommu/rockchip-iommu.c 478 */;
+	u32 cocci_id/* drivers/iommu/rockchip-iommu.c 476 */;
+	void __iomem *cocci_id/* drivers/iommu/rockchip-iommu.c 475 */;
+	dma_addr_t cocci_id/* drivers/iommu/rockchip-iommu.c 473 */;
+	struct rk_iommu *cocci_id/* drivers/iommu/rockchip-iommu.c 473 */;
+	int cocci_id/* drivers/iommu/rockchip-iommu.c 473 */;
+	void cocci_id/* drivers/iommu/rockchip-iommu.c 473 */;
+	bool cocci_id/* drivers/iommu/rockchip-iommu.c 182 */;
+	int __init cocci_id/* drivers/iommu/rockchip-iommu.c 1311 */;
+	struct platform_driver cocci_id/* drivers/iommu/rockchip-iommu.c 1300 */;
+	struct rk_iommu_domain cocci_id/* drivers/iommu/rockchip-iommu.c 130 */;
+	const struct of_device_id cocci_id/* drivers/iommu/rockchip-iommu.c 1295 */[];
+	int __maybe_unused cocci_id/* drivers/iommu/rockchip-iommu.c 1279 */;
+	struct device *cocci_id/* drivers/iommu/rockchip-iommu.c 118 */;
+	struct resource *cocci_id/* drivers/iommu/rockchip-iommu.c 1141 */;
+	struct rk_iommudata {
+		struct device_link *link;
+		struct rk_iommu *iommu;
+	} cocci_id/* drivers/iommu/rockchip-iommu.c 113 */;
+	const struct iommu_ops cocci_id/* drivers/iommu/rockchip-iommu.c 1122 */;
+	struct platform_device *cocci_id/* drivers/iommu/rockchip-iommu.c 1105 */;
+	struct of_phandle_args *cocci_id/* drivers/iommu/rockchip-iommu.c 1103 */;
+	struct rk_iommudata *cocci_id/* drivers/iommu/rockchip-iommu.c 1061 */;
+	struct iommu_group *cocci_id/* drivers/iommu/rockchip-iommu.c 1059 */;
+}

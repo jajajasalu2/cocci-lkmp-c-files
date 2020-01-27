@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/clocksource/sh_tmu.c 668 */;
+	int __init cocci_id/* drivers/clocksource/sh_tmu.c 663 */;
+	struct platform_driver cocci_id/* drivers/clocksource/sh_tmu.c 653 */;
+	const struct of_device_id cocci_id/* drivers/clocksource/sh_tmu.c 647 */[]__maybe_unused;
+	const struct platform_device_id cocci_id/* drivers/clocksource/sh_tmu.c 640 */[];
+	struct platform_device *cocci_id/* drivers/clocksource/sh_tmu.c 597 */;
+	struct sh_timer_config *cocci_id/* drivers/clocksource/sh_tmu.c 529 */;
+	const struct platform_device_id *cocci_id/* drivers/clocksource/sh_tmu.c 528 */;
+	struct sh_tmu_device {
+		struct platform_device *pdev;
+		void __iomem *mapbase;
+		struct clk *clk;
+		unsigned long rate;
+		enum sh_tmu_model model;
+		raw_spinlock_t lock;
+		struct sh_tmu_channel *channels;
+		unsigned int num_channels;
+		bool has_clockevent;
+		bool has_clocksource;
+	} cocci_id/* drivers/clocksource/sh_tmu.c 52 */;
+	struct device_node *cocci_id/* drivers/clocksource/sh_tmu.c 498 */;
+	struct resource *cocci_id/* drivers/clocksource/sh_tmu.c 481 */;
+	struct sh_tmu_device *cocci_id/* drivers/clocksource/sh_tmu.c 454 */;
+	bool cocci_id/* drivers/clocksource/sh_tmu.c 453 */;
+	unsigned int cocci_id/* drivers/clocksource/sh_tmu.c 452 */;
+	const char *cocci_id/* drivers/clocksource/sh_tmu.c 438 */;
+	unsigned long cocci_id/* drivers/clocksource/sh_tmu.c 383 */;
+	struct sh_tmu_channel {
+		struct sh_tmu_device *tmu;
+		unsigned int index;
+		void __iomem *base;
+		int irq;
+		unsigned long periodic;
+		struct clock_event_device ced;
+		struct clocksource cs;
+		bool cs_enabled;
+		unsigned int enable_count;
+	} cocci_id/* drivers/clocksource/sh_tmu.c 38 */;
+	struct sh_tmu_device cocci_id/* drivers/clocksource/sh_tmu.c 36 */;
+	struct sh_tmu_channel cocci_id/* drivers/clocksource/sh_tmu.c 336 */;
+	struct clock_event_device *cocci_id/* drivers/clocksource/sh_tmu.c 334 */;
+	enum sh_tmu_model{SH_TMU, SH_TMU_SH3,} cocci_id/* drivers/clocksource/sh_tmu.c 31 */;
+	u64 cocci_id/* drivers/clocksource/sh_tmu.c 253 */;
+	struct clocksource *cocci_id/* drivers/clocksource/sh_tmu.c 248 */;
+	irqreturn_t cocci_id/* drivers/clocksource/sh_tmu.c 233 */;
+	void *cocci_id/* drivers/clocksource/sh_tmu.c 233 */;
+	struct sh_tmu_channel *cocci_id/* drivers/clocksource/sh_tmu.c 183 */;
+	void cocci_id/* drivers/clocksource/sh_tmu.c 183 */;
+	int cocci_id/* drivers/clocksource/sh_tmu.c 144 */;
+}

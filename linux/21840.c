@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* lib/rhashtable.c 953 */;
+	struct rhlist_head cocci_id/* lib/rhashtable.c 796 */;
+	int cocci_id/* lib/rhashtable.c 792 */;
+	bool cocci_id/* lib/rhashtable.c 786 */;
+	struct rhash_head *cocci_id/* lib/rhashtable.c 785 */;
+	struct rhashtable *cocci_id/* lib/rhashtable.c 784 */;
+	struct rhlist_head *cocci_id/* lib/rhashtable.c 783 */;
+	struct bucket_table *cocci_id/* lib/rhashtable.c 782 */;
+	struct rhashtable_iter *cocci_id/* lib/rhashtable.c 780 */;
+	void *cocci_id/* lib/rhashtable.c 780 */;
+	const void *cocci_id/* lib/rhashtable.c 622 */;
+	unsigned long *cocci_id/* lib/rhashtable.c 59 */;
+	struct rhash_head __rcu **cocci_id/* lib/rhashtable.c 487 */;
+	struct rhashtable_compare_arg cocci_id/* lib/rhashtable.c 483 */;
+	struct rhashtable cocci_id/* lib/rhashtable.c 404 */;
+	struct work_struct *cocci_id/* lib/rhashtable.c 398 */;
+	const struct rhash_head *cocci_id/* lib/rhashtable.c 39 */;
+	u32 cocci_id/* lib/rhashtable.c 37 */;
+	union nested_table {
+		union nested_table __rcu *table;
+		struct rhash_lock_head *bucket;
+	} cocci_id/* lib/rhashtable.c 32 */;
+	struct rhashtable_walker *cocci_id/* lib/rhashtable.c 307 */;
+	struct bucket_table **cocci_id/* lib/rhashtable.c 296 */;
+	struct lock_class_key cocci_id/* lib/rhashtable.c 173 */;
+	gfp_t cocci_id/* lib/rhashtable.c 168 */;
+	size_t cocci_id/* lib/rhashtable.c 167 */;
+	union nested_table __rcu **cocci_id/* lib/rhashtable.c 155 */;
+	union nested_table **cocci_id/* lib/rhashtable.c 131 */;
+	struct rhash_lock_head *cocci_id/* lib/rhashtable.c 1199 */;
+	union nested_table *cocci_id/* lib/rhashtable.c 1174 */;
+	const unsigned int cocci_id/* lib/rhashtable.c 1170 */;
+	unsigned int cocci_id/* lib/rhashtable.c 1168 */;
+	const struct bucket_table *cocci_id/* lib/rhashtable.c 1167 */;
+	struct rhash_lock_head **cocci_id/* lib/rhashtable.c 1167 */;
+	void (*cocci_id/* lib/rhashtable.c 1124 */)(void *ptr, void *arg);
+	struct bucket_table cocci_id/* lib/rhashtable.c 110 */;
+	struct rcu_head *cocci_id/* lib/rhashtable.c 108 */;
+	struct rhltable *cocci_id/* lib/rhashtable.c 1079 */;
+	const struct rhashtable_params *cocci_id/* lib/rhashtable.c 1009 */;
+	void cocci_id/* lib/rhashtable.c 100 */;
+}

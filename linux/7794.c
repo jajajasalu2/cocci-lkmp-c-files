@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct vcs_poll_data cocci_id/* drivers/tty/vt/vc_screen.c 94 */;
+	struct vc_data *cocci_id/* drivers/tty/vt/vc_screen.c 92 */;
+	struct vt_notifier_param *cocci_id/* drivers/tty/vt/vc_screen.c 91 */;
+	struct notifier_block *cocci_id/* drivers/tty/vt/vc_screen.c 89 */;
+	void *cocci_id/* drivers/tty/vt/vc_screen.c 89 */;
+	unsigned long cocci_id/* drivers/tty/vt/vc_screen.c 89 */;
+	struct vcs_poll_data {
+		struct notifier_block notifier;
+		unsigned int cons_num;
+		int event;
+		wait_queue_head_t waitq;
+		struct fasync_struct *fasync;
+	} cocci_id/* drivers/tty/vt/vc_screen.c 80 */;
+	unsigned int cocci_id/* drivers/tty/vt/vc_screen.c 735 */;
+	int __init cocci_id/* drivers/tty/vt/vc_screen.c 733 */;
+	void cocci_id/* drivers/tty/vt/vc_screen.c 733 */;
+	struct class *cocci_id/* drivers/tty/vt/vc_screen.c 714 */;
+	const struct file_operations cocci_id/* drivers/tty/vt/vc_screen.c 704 */;
+	bool cocci_id/* drivers/tty/vt/vc_screen.c 680 */;
+	struct inode *cocci_id/* drivers/tty/vt/vc_screen.c 677 */;
+	struct vcs_poll_data *cocci_id/* drivers/tty/vt/vc_screen.c 662 */;
+	struct file *cocci_id/* drivers/tty/vt/vc_screen.c 660 */;
+	int cocci_id/* drivers/tty/vt/vc_screen.c 659 */;
+	poll_table *cocci_id/* drivers/tty/vt/vc_screen.c 637 */;
+	__poll_t cocci_id/* drivers/tty/vt/vc_screen.c 636 */;
+	unsigned short cocci_id/* drivers/tty/vt/vc_screen.c 595 */;
+	char cocci_id/* drivers/tty/vt/vc_screen.c 573 */;
+	char cocci_id/* drivers/tty/vt/vc_screen.c 558 */[HEADER_SIZE];
+	unsigned char cocci_id/* drivers/tty/vt/vc_screen.c 544 */;
+	u16 *cocci_id/* drivers/tty/vt/vc_screen.c 455 */;
+	const char __user *cocci_id/* drivers/tty/vt/vc_screen.c 447 */;
+	char *cocci_id/* drivers/tty/vt/vc_screen.c 253 */;
+	unsigned short *cocci_id/* drivers/tty/vt/vc_screen.c 251 */;
+	long cocci_id/* drivers/tty/vt/vc_screen.c 249 */;
+	loff_t *cocci_id/* drivers/tty/vt/vc_screen.c 244 */;
+	char __user *cocci_id/* drivers/tty/vt/vc_screen.c 244 */;
+	size_t cocci_id/* drivers/tty/vt/vc_screen.c 244 */;
+	ssize_t cocci_id/* drivers/tty/vt/vc_screen.c 243 */;
+	loff_t cocci_id/* drivers/tty/vt/vc_screen.c 230 */;
+	int *cocci_id/* drivers/tty/vt/vc_screen.c 185 */;
+}

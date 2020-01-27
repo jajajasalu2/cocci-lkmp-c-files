@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	void __exit cocci_id/* net/ceph/ceph_common.c 793 */;
+	int __init cocci_id/* net/ceph/ceph_common.c 761 */;
+	long cocci_id/* net/ceph/ceph_common.c 698 */;
+	struct ceph_client *cocci_id/* net/ceph/ceph_common.c 695 */;
+	unsigned long cocci_id/* net/ceph/ceph_common.c 695 */;
+	int cocci_id/* net/ceph/ceph_common.c 695 */;
+	const char *cocci_id/* net/ceph/ceph_common.c 61 */;
+	void *cocci_id/* net/ceph/ceph_common.c 602 */;
+	u64 cocci_id/* net/ceph/ceph_common.c 593 */;
+	struct ceph_entity_addr *cocci_id/* net/ceph/ceph_common.c 587 */;
+	const struct kernel_param_ops cocci_id/* net/ceph/ceph_common.c 55 */;
+	bool cocci_id/* net/ceph/ceph_common.c 538 */;
+	struct seq_file *cocci_id/* net/ceph/ceph_common.c 537 */;
+	const struct kernel_param *cocci_id/* net/ceph/ceph_common.c 51 */;
+	char *cocci_id/* net/ceph/ceph_common.c 50 */;
+	struct fs_parse_result cocci_id/* net/ceph/ceph_common.c 405 */;
+	struct fs_parameter *cocci_id/* net/ceph/ceph_common.c 402 */;
+	struct fs_context *cocci_id/* net/ceph/ceph_common.c 386 */;
+	struct key *cocci_id/* net/ceph/ceph_common.c 342 */;
+	struct ceph_crypto_key *cocci_id/* net/ceph/ceph_common.c 339 */;
+	struct ceph_options *cocci_id/* net/ceph/ceph_common.c 298 */;
+	void cocci_id/* net/ceph/ceph_common.c 298 */;
+	const struct fs_parameter_description cocci_id/* net/ceph/ceph_common.c 293 */;
+	const struct fs_parameter_spec cocci_id/* net/ceph/ceph_common.c 272 */[];
+	enum{Opt_osdtimeout, Opt_osdkeepalivetimeout, Opt_mount_timeout, Opt_osd_idle_ttl, Opt_osd_request_timeout, Opt_fsid, Opt_name, Opt_secret, Opt_key, Opt_ip, Opt_share, Opt_crc, Opt_cephx_require_signatures, Opt_cephx_sign_messages, Opt_tcp_nodelay, Opt_abort_on_full,} cocci_id/* net/ceph/ceph_common.c 251 */;
+	char cocci_id/* net/ceph/ceph_common.c 220 */[3];
+	unsigned int cocci_id/* net/ceph/ceph_common.c 205 */;
+	gfp_t cocci_id/* net/ceph/ceph_common.c 198 */;
+	size_t cocci_id/* net/ceph/ceph_common.c 198 */;
+	struct ceph_options cocci_id/* net/ceph/ceph_common.c 136 */;
+	struct ceph_fsid *cocci_id/* net/ceph/ceph_common.c 105 */;
+}

@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	void *cocci_id/* drivers/s390/block/scm_blk.c 76 */;
+	struct scm_request *cocci_id/* drivers/s390/block/scm_blk.c 70 */;
+	struct aob_rq_header *cocci_id/* drivers/s390/block/scm_blk.c 69 */;
+	int cocci_id/* drivers/s390/block/scm_blk.c 67 */;
+	void cocci_id/* drivers/s390/block/scm_blk.c 67 */;
+	void __exit cocci_id/* drivers/s390/block/scm_blk.c 584 */;
+	struct scm_request cocci_id/* drivers/s390/block/scm_blk.c 58 */;
+	int __init cocci_id/* drivers/s390/block/scm_blk.c 543 */;
+	bool __init cocci_id/* drivers/s390/block/scm_blk.c 535 */;
+	struct list_head *cocci_id/* drivers/s390/block/scm_blk.c 53 */;
+	struct scm_blk_dev *cocci_id/* drivers/s390/block/scm_blk.c 515 */;
+	struct aidaw cocci_id/* drivers/s390/block/scm_blk.c 471 */;
+	unsigned long cocci_id/* drivers/s390/block/scm_blk.c 46 */;
+	blk_status_t cocci_id/* drivers/s390/block/scm_blk.c 454 */;
+	struct request_queue *cocci_id/* drivers/s390/block/scm_blk.c 438 */;
+	struct scm_device *cocci_id/* drivers/s390/block/scm_blk.c 435 */;
+	const struct blk_mq_ops cocci_id/* drivers/s390/block/scm_blk.c 428 */;
+	const struct block_device_operations cocci_id/* drivers/s390/block/scm_blk.c 424 */;
+	blk_status_t *cocci_id/* drivers/s390/block/scm_blk.c 419 */;
+	struct aob *cocci_id/* drivers/s390/block/scm_blk.c 356 */;
+	struct scm_queue *cocci_id/* drivers/s390/block/scm_blk.c 347 */;
+	struct blk_mq_hw_ctx *cocci_id/* drivers/s390/block/scm_blk.c 345 */;
+	atomic_t cocci_id/* drivers/s390/block/scm_blk.c 31 */;
+	unsigned int cocci_id/* drivers/s390/block/scm_blk.c 29 */;
+	struct request *cocci_id/* drivers/s390/block/scm_blk.c 288 */;
+	const struct blk_mq_queue_data *cocci_id/* drivers/s390/block/scm_blk.c 283 */;
+	struct scm_queue {
+		struct scm_request *scmrq;
+		spinlock_t lock;
+	} cocci_id/* drivers/s390/block/scm_blk.c 277 */;
+	mempool_t *cocci_id/* drivers/s390/block/scm_blk.c 26 */;
+	debug_info_t *cocci_id/* drivers/s390/block/scm_blk.c 24 */;
+	struct bio_vec cocci_id/* drivers/s390/block/scm_blk.c 188 */;
+	struct req_iterator cocci_id/* drivers/s390/block/scm_blk.c 186 */;
+	struct page *cocci_id/* drivers/s390/block/scm_blk.c 153 */;
+	struct aidaw *cocci_id/* drivers/s390/block/scm_blk.c 151 */;
+	bool cocci_id/* drivers/s390/block/scm_blk.c 146 */;
+	u64 cocci_id/* drivers/s390/block/scm_blk.c 129 */;
+	struct msb *cocci_id/* drivers/s390/block/scm_blk.c 128 */;
+}

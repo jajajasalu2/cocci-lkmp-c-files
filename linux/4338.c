@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	struct mlxreg_hotplug_priv_data {
+		int irq;
+		struct device *dev;
+		struct platform_device *pdev;
+		struct mlxreg_hotplug_platform_data *plat;
+		struct regmap *regmap;
+		struct delayed_work dwork_irq;
+		spinlock_t lock;
+		struct device *hwmon;
+		struct attribute *mlxreg_hotplug_attr[MLXREG_HOTPLUG_ATTRS_MAX + 1];
+		struct sensor_device_attribute_2 mlxreg_hotplug_dev_attr[MLXREG_HOTPLUG_ATTRS_MAX];
+		struct attribute_group group;
+		const struct attribute_group *groups[2];
+		u32 cell;
+		u32 mask;
+		u32 aggr_cache;
+		bool after_probe;
+		u8 not_asserted;
+	} cocci_id/* drivers/platform/mellanox/mlxreg-hotplug.c 79 */;
+	struct platform_driver cocci_id/* drivers/platform/mellanox/mlxreg-hotplug.c 699 */;
+	struct i2c_adapter *cocci_id/* drivers/platform/mellanox/mlxreg-hotplug.c 622 */;
+	struct platform_device *cocci_id/* drivers/platform/mellanox/mlxreg-hotplug.c 618 */;
+	irqreturn_t cocci_id/* drivers/platform/mellanox/mlxreg-hotplug.c 606 */;
+	void *cocci_id/* drivers/platform/mellanox/mlxreg-hotplug.c 606 */;
+	struct mlxreg_hotplug_priv_data cocci_id/* drivers/platform/mellanox/mlxreg-hotplug.c 424 */;
+	unsigned long cocci_id/* drivers/platform/mellanox/mlxreg-hotplug.c 421 */;
+	struct work_struct *cocci_id/* drivers/platform/mellanox/mlxreg-hotplug.c 415 */;
+	struct attribute *cocci_id/* drivers/platform/mellanox/mlxreg-hotplug.c 234 */;
+	struct mlxreg_core_data *cocci_id/* drivers/platform/mellanox/mlxreg-hotplug.c 198 */;
+	struct mlxreg_core_item *cocci_id/* drivers/platform/mellanox/mlxreg-hotplug.c 197 */;
+	struct mlxreg_core_hotplug_platform_data *cocci_id/* drivers/platform/mellanox/mlxreg-hotplug.c 196 */;
+	struct mlxreg_hotplug_priv_data *cocci_id/* drivers/platform/mellanox/mlxreg-hotplug.c 194 */;
+	int cocci_id/* drivers/platform/mellanox/mlxreg-hotplug.c 194 */;
+	u32 cocci_id/* drivers/platform/mellanox/mlxreg-hotplug.c 167 */;
+	char *cocci_id/* drivers/platform/mellanox/mlxreg-hotplug.c 159 */;
+	struct device_attribute *cocci_id/* drivers/platform/mellanox/mlxreg-hotplug.c 158 */;
+	struct device *cocci_id/* drivers/platform/mellanox/mlxreg-hotplug.c 157 */;
+	ssize_t cocci_id/* drivers/platform/mellanox/mlxreg-hotplug.c 157 */;
+	void cocci_id/* drivers/platform/mellanox/mlxreg-hotplug.c 139 */;
+}

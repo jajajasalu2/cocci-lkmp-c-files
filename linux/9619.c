@@ -1,0 +1,242 @@
+cocci_test_suite() {
+	struct msgbuf_tx_msghdr {
+		struct msgbuf_common_hdr msg;
+		u8 txhdr[ETH_HLEN];
+		u8 flags;
+		u8 seg_cnt;
+		struct msgbuf_buf_addr metadata_buf_addr;
+		struct msgbuf_buf_addr data_buf_addr;
+		__le16 metadata_buf_len;
+		__le16 data_len;
+		__le32 rsvd0;
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 93 */;
+	struct msgbuf_rx_bufpost *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 903 */;
+	struct msgbuf_tx_status *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 871 */;
+	s16 cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 855 */;
+	struct msgbuf_ioctl_resp_hdr *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 850 */;
+	struct brcmf_msgbuf *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 841 */;
+	u8 cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 839 */[ETH_ALEN];
+	struct brcmf_pub *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 839 */;
+	int cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 839 */;
+	void cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 838 */;
+	enum proto_addr_mode cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 821 */;
+	struct msgbuf_ioctl_req_hdr {
+		struct msgbuf_common_hdr msg;
+		__le32 cmd;
+		__le16 trans_id;
+		__le16 input_buf_len;
+		__le16 output_buf_len;
+		__le16 rsvd0[3];
+		struct msgbuf_buf_addr req_buf_addr;
+		__le32 rsvd1[2];
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 82 */;
+	struct brcmf_flowring *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 799 */;
+	struct msgbuf_common_hdr {
+		u8 msgtype;
+		u8 ifidx;
+		u8 flags;
+		u8 rsvd0;
+		__le32 request_id;
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 74 */;
+	struct msgbuf_tx_msghdr *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 703 */;
+	struct ethhdr *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 664 */;
+	struct brcmf_msgbuf cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 651 */;
+	struct work_struct *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 646 */;
+	u64 cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 588 */;
+	struct msgbuf_tx_flowring_create_req *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 582 */;
+	struct brcmf_msgbuf_work_item cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 568 */;
+	ulong cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 563 */;
+	struct brcmf_msgbuf_work_item *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 559 */;
+	struct brcmf_if **cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 533 */;
+	bool cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 532 */;
+	uint cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 488 */;
+	int *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 488 */;
+	struct msgbuf_ioctl_req_hdr *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 431 */;
+	u32 cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 323 */;
+	struct brcmf_msgbuf_pktid *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 322 */;
+	u32 *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 320 */;
+	dma_addr_t *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 320 */;
+	u16 cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 319 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 319 */;
+	struct brcmf_msgbuf_pktids *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 318 */;
+	struct device *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 317 */;
+	enum dma_data_direction cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 295 */;
+	void cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 290 */(struct brcmf_msgbuf *msgbuf);
+	struct brcmf_msgbuf_pktids {
+		u32 array_size;
+		u32 last_allocated_idx;
+		enum dma_data_direction direction;
+		struct brcmf_msgbuf_pktid *array;
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 283 */;
+	struct brcmf_msgbuf_pktid {
+		atomic_t allocated;
+		u16 data_offset;
+		struct sk_buff *skb;
+		dma_addr_t physaddr;
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 276 */;
+	struct brcmf_msgbuf {
+		struct brcmf_pub *drvr;
+		struct brcmf_commonring **commonrings;
+		struct brcmf_commonring **flowrings;
+		dma_addr_t *flowring_dma_handle;
+		u16 max_flowrings;
+		u16 max_submissionrings;
+		u16 max_completionrings;
+		u16 rx_dataoffset;
+		u32 max_rxbufpost;
+		u16 rx_metadata_offset;
+		u32 rxbufpost;
+		u32 max_ioctlrespbuf;
+		u32 cur_ioctlrespbuf;
+		u32 max_eventbuf;
+		u32 cur_eventbuf;
+		void *ioctbuf;
+		dma_addr_t ioctbuf_handle;
+		u32 ioctbuf_phys_hi;
+		u32 ioctbuf_phys_lo;
+		int ioctl_resp_status;
+		u32 ioctl_resp_ret_len;
+		u32 ioctl_resp_pktid;
+		u16 data_seq_no;
+		u16 ioctl_seq_no;
+		u32 reqid;
+		wait_queue_head_t ioctl_resp_wait;
+		bool ctl_completed;
+		struct brcmf_msgbuf_pktids *tx_pktids;
+		struct brcmf_msgbuf_pktids *rx_pktids;
+		struct brcmf_flowring *flow;
+		struct workqueue_struct *txflow_wq;
+		struct work_struct txflow_work;
+		unsigned long *flow_map;
+		unsigned long *txstatus_done_map;
+		struct work_struct flowring_work;
+		spinlock_t flowring_work_lock;
+		struct list_head work_queue;
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 227 */;
+	struct brcmf_msgbuf_work_item {
+		struct list_head queue;
+		u32 flowid;
+		int ifidx;
+		u8 sa[ETH_ALEN];
+		u8 da[ETH_ALEN];
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 219 */;
+	struct msgbuf_flowring_flush_resp {
+		struct msgbuf_common_hdr msg;
+		struct msgbuf_completion_hdr compl_hdr;
+		__le32 rsvd0[3];
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 213 */;
+	struct msgbuf_flowring_delete_resp {
+		struct msgbuf_common_hdr msg;
+		struct msgbuf_completion_hdr compl_hdr;
+		__le32 rsvd0[3];
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 207 */;
+	struct msgbuf_flowring_create_resp {
+		struct msgbuf_common_hdr msg;
+		struct msgbuf_completion_hdr compl_hdr;
+		__le32 rsvd0[3];
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 201 */;
+	struct msgbuf_tx_flowring_delete_req {
+		struct msgbuf_common_hdr msg;
+		__le16 flow_ring_id;
+		__le16 reason;
+		__le32 rsvd0[7];
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 194 */;
+	struct msgbuf_tx_flowring_create_req {
+		struct msgbuf_common_hdr msg;
+		u8 da[ETH_ALEN];
+		u8 sa[ETH_ALEN];
+		u8 tid;
+		u8 if_flags;
+		__le16 flow_ring_id;
+		u8 tc;
+		u8 priority;
+		__le16 int_vector;
+		__le16 max_items;
+		__le16 len_item;
+		struct msgbuf_buf_addr flow_ring_addr;
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 179 */;
+	struct msgbuf_rx_complete {
+		struct msgbuf_common_hdr msg;
+		struct msgbuf_completion_hdr compl_hdr;
+		__le16 metadata_len;
+		__le16 data_len;
+		__le16 data_offset;
+		__le16 flags;
+		__le32 rx_status_0;
+		__le32 rx_status_1;
+		__le32 rsvd0;
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 167 */;
+	struct msgbuf_tx_status {
+		struct msgbuf_common_hdr msg;
+		struct msgbuf_completion_hdr compl_hdr;
+		__le16 metadata_len;
+		__le16 tx_status;
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 160 */;
+	struct brcmf_commonring **cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 1560 */;
+	unsigned long cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 1526 */;
+	struct msgbuf_ioctl_resp_hdr {
+		struct msgbuf_common_hdr msg;
+		struct msgbuf_completion_hdr compl_hdr;
+		__le16 resp_len;
+		__le16 trans_id;
+		__le32 cmd;
+		__le32 rsvd0;
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 151 */;
+	struct brcmf_bus_msgbuf *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 1502 */;
+	struct brcmf_flowring_hash *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 1450 */;
+	struct brcmf_flowring_ring *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 1449 */;
+	struct brcmf_bus *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 1444 */;
+	struct seq_file *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 1442 */;
+	struct msgbuf_rx_event {
+		struct msgbuf_common_hdr msg;
+		struct msgbuf_completion_hdr compl_hdr;
+		__le16 event_data_len;
+		__le16 seqnum;
+		__le16 rsvd0[4];
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 143 */;
+	u8 cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 1398 */;
+	void *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 1397 */;
+	struct brcmf_commonring *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 1396 */;
+	struct msgbuf_tx_flowring_delete_req *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 1395 */;
+	struct msgbuf_ring_status {
+		struct msgbuf_common_hdr msg;
+		struct msgbuf_completion_hdr compl_hdr;
+		__le16 write_idx;
+		__le16 rsvd0[5];
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 136 */;
+	struct msgbuf_common_hdr *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 1282 */;
+	struct msgbuf_gen_status {
+		struct msgbuf_common_hdr msg;
+		struct msgbuf_completion_hdr compl_hdr;
+		__le16 write_idx;
+		__le32 rsvd0[3];
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 128 */;
+	struct msgbuf_flowring_delete_resp *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 1257 */;
+	struct msgbuf_flowring_create_resp *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 1228 */;
+	struct msgbuf_completion_hdr {
+		__le16 status;
+		__le16 flow_ring_id;
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 122 */;
+	struct msgbuf_ring_status *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 1210 */;
+	struct msgbuf_gen_status *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 1198 */;
+	struct msgbuf_rx_complete *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 1141 */;
+	struct msgbuf_rx_ioctl_resp_or_event {
+		struct msgbuf_common_hdr msg;
+		__le16 host_buf_len;
+		__le16 rsvd0[3];
+		struct msgbuf_buf_addr host_buf_addr;
+		__le32 rsvd1[4];
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 114 */;
+	struct brcmf_if *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 1101 */;
+	struct msgbuf_rx_event *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 1097 */;
+	struct msgbuf_rx_bufpost {
+		struct msgbuf_common_hdr msg;
+		__le16 metadata_buf_len;
+		__le16 data_buf_len;
+		__le32 rsvd0;
+		struct msgbuf_buf_addr metadata_buf_addr;
+		struct msgbuf_buf_addr data_buf_addr;
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 105 */;
+	struct msgbuf_rx_ioctl_resp_or_event *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 1011 */;
+	dma_addr_t cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.c 1010 */;
+}

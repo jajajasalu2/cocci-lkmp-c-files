@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	int cocci_id/* net/ipv4/tcp_minisocks.c 818 */;
+	unsigned long cocci_id/* net/ipv4/tcp_minisocks.c 628 */;
+	struct tcphdr cocci_id/* net/ipv4/tcp_minisocks.c 580 */;
+	__be32 cocci_id/* net/ipv4/tcp_minisocks.c 575 */;
+	const struct tcphdr *cocci_id/* net/ipv4/tcp_minisocks.c 574 */;
+	struct tcp_options_received cocci_id/* net/ipv4/tcp_minisocks.c 572 */;
+	bool *cocci_id/* net/ipv4/tcp_minisocks.c 570 */;
+	struct sk_buff *cocci_id/* net/ipv4/tcp_minisocks.c 568 */;
+	struct tcp_request_sock *cocci_id/* net/ipv4/tcp_minisocks.c 462 */;
+	const struct inet_request_sock *cocci_id/* net/ipv4/tcp_minisocks.c 461 */;
+	const struct sock *cocci_id/* net/ipv4/tcp_minisocks.c 456 */;
+	struct inet_request_sock *cocci_id/* net/ipv4/tcp_minisocks.c 440 */;
+	const struct sk_buff *cocci_id/* net/ipv4/tcp_minisocks.c 44 */;
+	struct request_sock *cocci_id/* net/ipv4/tcp_minisocks.c 436 */;
+	struct tcp_sock *cocci_id/* net/ipv4/tcp_minisocks.c 435 */;
+	void cocci_id/* net/ipv4/tcp_minisocks.c 435 */;
+	enum tcp_tw_status cocci_id/* net/ipv4/tcp_minisocks.c 42 */;
+	const struct tcp_congestion_ops *cocci_id/* net/ipv4/tcp_minisocks.c 413 */;
+	bool cocci_id/* net/ipv4/tcp_minisocks.c 410 */;
+	u32 cocci_id/* net/ipv4/tcp_minisocks.c 409 */;
+	struct inet_connection_sock *cocci_id/* net/ipv4/tcp_minisocks.c 408 */;
+	const struct dst_entry *cocci_id/* net/ipv4/tcp_minisocks.c 406 */;
+	struct sock *cocci_id/* net/ipv4/tcp_minisocks.c 406 */;
+	const struct request_sock *cocci_id/* net/ipv4/tcp_minisocks.c 401 */;
+	__u8 cocci_id/* net/ipv4/tcp_minisocks.c 368 */;
+	const struct tcp_sock *cocci_id/* net/ipv4/tcp_minisocks.c 365 */;
+	struct tcp_md5sig_key *cocci_id/* net/ipv4/tcp_minisocks.c 302 */;
+	struct ipv6_pinfo *cocci_id/* net/ipv4/tcp_minisocks.c 281 */;
+	struct inet_sock *cocci_id/* net/ipv4/tcp_minisocks.c 265 */;
+	const int cocci_id/* net/ipv4/tcp_minisocks.c 264 */;
+	struct tcp_timewait_sock *cocci_id/* net/ipv4/tcp_minisocks.c 263 */;
+	struct inet_timewait_death_row *cocci_id/* net/ipv4/tcp_minisocks.c 258 */;
+	struct inet_timewait_sock *cocci_id/* net/ipv4/tcp_minisocks.c 257 */;
+	const struct inet_connection_sock *cocci_id/* net/ipv4/tcp_minisocks.c 255 */;
+}

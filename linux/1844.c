@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	struct envelope {
+		spinlock_t comp_lock;
+		int comp;
+		struct mutex read_lock;
+		int comp_irq;
+		u32 comp_irq_trigger;
+		u32 comp_irq_trigger_inv;
+		struct iio_channel *dac;
+		struct delayed_work comp_timeout;
+		unsigned int comp_interval;
+		bool invert;
+		u32 dac_max;
+		int high;
+		int level;
+		int low;
+		struct completion done;
+	} cocci_id/* drivers/iio/adc/envelope-detector.c 46 */;
+	struct platform_driver cocci_id/* drivers/iio/adc/envelope-detector.c 404 */;
+	const struct of_device_id cocci_id/* drivers/iio/adc/envelope-detector.c 398 */[];
+	enum iio_chan_type cocci_id/* drivers/iio/adc/envelope-detector.c 329 */;
+	struct iio_dev *cocci_id/* drivers/iio/adc/envelope-detector.c 327 */;
+	struct device *cocci_id/* drivers/iio/adc/envelope-detector.c 326 */;
+	struct platform_device *cocci_id/* drivers/iio/adc/envelope-detector.c 324 */;
+	const struct iio_info cocci_id/* drivers/iio/adc/envelope-detector.c 320 */;
+	const struct iio_chan_spec cocci_id/* drivers/iio/adc/envelope-detector.c 312 */;
+	const struct iio_chan_spec_ext_info cocci_id/* drivers/iio/adc/envelope-detector.c 302 */[];
+	unsigned long cocci_id/* drivers/iio/adc/envelope-detector.c 286 */;
+	const char *cocci_id/* drivers/iio/adc/envelope-detector.c 283 */;
+	size_t cocci_id/* drivers/iio/adc/envelope-detector.c 283 */;
+	char *cocci_id/* drivers/iio/adc/envelope-detector.c 273 */;
+	uintptr_t cocci_id/* drivers/iio/adc/envelope-detector.c 271 */;
+	ssize_t cocci_id/* drivers/iio/adc/envelope-detector.c 270 */;
+	u32 cocci_id/* drivers/iio/adc/envelope-detector.c 248 */;
+	int *cocci_id/* drivers/iio/adc/envelope-detector.c 189 */;
+	long cocci_id/* drivers/iio/adc/envelope-detector.c 189 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/adc/envelope-detector.c 188 */;
+	struct envelope cocci_id/* drivers/iio/adc/envelope-detector.c 174 */;
+	struct work_struct *cocci_id/* drivers/iio/adc/envelope-detector.c 172 */;
+	void cocci_id/* drivers/iio/adc/envelope-detector.c 128 */;
+	struct envelope *cocci_id/* drivers/iio/adc/envelope-detector.c 118 */;
+	irqreturn_t cocci_id/* drivers/iio/adc/envelope-detector.c 116 */;
+	void *cocci_id/* drivers/iio/adc/envelope-detector.c 116 */;
+	int cocci_id/* drivers/iio/adc/envelope-detector.c 116 */;
+}

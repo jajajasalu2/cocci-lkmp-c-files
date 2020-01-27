@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	char cocci_id/* arch/arm/kernel/process.c 98 */[64];
+	unsigned long cocci_id/* arch/arm/kernel/process.c 97 */;
+	struct pt_regs *cocci_id/* arch/arm/kernel/process.c 95 */;
+	void cocci_id/* arch/arm/kernel/process.c 95 */;
+	void (*cocci_id/* arch/arm/kernel/process.c 62 */)(void);
+	const char *cocci_id/* arch/arm/kernel/process.c 54 */[]__maybe_unused;
+	struct vm_area_struct *cocci_id/* arch/arm/kernel/process.c 420 */;
+	struct mm_struct *cocci_id/* arch/arm/kernel/process.c 419 */;
+	struct linux_binprm *cocci_id/* arch/arm/kernel/process.c 417 */;
+	int cocci_id/* arch/arm/kernel/process.c 417 */;
+	const struct vm_special_mapping cocci_id/* arch/arm/kernel/process.c 411 */;
+	const struct vm_special_mapping *cocci_id/* arch/arm/kernel/process.c 404 */;
+	struct page *cocci_id/* arch/arm/kernel/process.c 402 */(void);
+	struct page *cocci_id/* arch/arm/kernel/process.c 401 */;
+	const struct mm_struct *cocci_id/* arch/arm/kernel/process.c 371 */;
+	int __init cocci_id/* arch/arm/kernel/process.c 333 */;
+	struct vm_area_struct cocci_id/* arch/arm/kernel/process.c 331 */;
+	struct stackframe cocci_id/* arch/arm/kernel/process.c 302 */;
+	struct user_fp *cocci_id/* arch/arm/kernel/process.c 288 */;
+	elf_gregset_t *cocci_id/* arch/arm/kernel/process.c 279 */;
+	struct pt_regs cocci_id/* arch/arm/kernel/process.c 253 */;
+	struct cpu_context_save cocci_id/* arch/arm/kernel/process.c 235 */;
+	struct thread_info *cocci_id/* arch/arm/kernel/process.c 232 */;
+	struct task_struct *cocci_id/* arch/arm/kernel/process.c 230 */;
+	void cocci_id/* arch/arm/kernel/process.c 226 */(void);
+	union fp_state cocci_id/* arch/arm/kernel/process.c 215 */;
+	struct debug_info cocci_id/* arch/arm/kernel/process.c 214 */;
+	const char *cocci_id/* arch/arm/kernel/process.c 147 */;
+	void *cocci_id/* arch/arm/kernel/process.c 122 */;
+	unsigned int cocci_id/* arch/arm/kernel/process.c 100 */;
+}

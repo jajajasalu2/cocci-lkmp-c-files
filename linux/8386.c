@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	void *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 94 */;
+	int cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 88 */;
+	u32 cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 87 */;
+	struct cmsg_req_map_alloc_tbl *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 85 */;
+	struct cmsg_reply_map_alloc_tbl *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 84 */;
+	struct bpf_map *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 82 */;
+	long long int cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 81 */;
+	const int cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 60 */[];
+	struct cmsg_reply_map_simple *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 58 */;
+	struct cmsg_reply_map_op cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 50 */;
+	const struct nfp_ccm_hdr *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 465 */;
+	const void *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 463 */;
+	struct cmsg_reply_map_simple cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 446 */;
+	struct nfp_app *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 442 */;
+	struct bpf_offloaded_map *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 390 */;
+	struct cmsg_req_map_op cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 33 */;
+	struct cmsg_req_map_op *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 300 */;
+	struct cmsg_reply_map_op *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 299 */;
+	struct nfp_bpf_map *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 295 */;
+	u64 cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 293 */;
+	u8 *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 293 */;
+	enum nfp_ccm_type cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 292 */;
+	u32 *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 200 */;
+	const u8 *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 199 */;
+	bool cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 185 */;
+	struct nfp_app_bpf *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 18 */;
+	unsigned int cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 18 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 17 */;
+	struct cmsg_req_map_free_tbl *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 123 */;
+	struct cmsg_reply_map_free_tbl *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 122 */;
+	void cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/cmsg.c 120 */;
+}

@@ -1,0 +1,65 @@
+cocci_test_suite() {
+	struct scsi_host_template *cocci_id/* drivers/scsi/scsi_sysfs.c 985 */;
+	struct bin_attribute cocci_id/* drivers/scsi/scsi_sysfs.c 897 */;
+	loff_t cocci_id/* drivers/scsi/scsi_sysfs.c 885 */;
+	struct file *cocci_id/* drivers/scsi/scsi_sysfs.c 883 */;
+	const struct {
+		unsigned char value;
+		char *name;
+	} cocci_id/* drivers/scsi/scsi_sysfs.c 87 */[];
+	struct kernfs_node *cocci_id/* drivers/scsi/scsi_sysfs.c 741 */;
+	size_t cocci_id/* drivers/scsi/scsi_sysfs.c 739 */;
+	enum scsi_host_state cocci_id/* drivers/scsi/scsi_sysfs.c 72 */;
+	unsigned int cocci_id/* drivers/scsi/scsi_sysfs.c 712 */;
+	const struct {
+		enum scsi_host_state value;
+		char *name;
+	} cocci_id/* drivers/scsi/scsi_sysfs.c 60 */[];
+	struct bus_type cocci_id/* drivers/scsi/scsi_sysfs.c 534 */;
+	struct kobj_uevent_env *cocci_id/* drivers/scsi/scsi_sysfs.c 521 */;
+	struct device_driver *cocci_id/* drivers/scsi/scsi_sysfs.c 508 */;
+	struct class cocci_id/* drivers/scsi/scsi_sysfs.c 502 */;
+	struct scsi_event cocci_id/* drivers/scsi/scsi_sysfs.c 460 */;
+	enum scsi_device_state cocci_id/* drivers/scsi/scsi_sysfs.c 46 */;
+	struct scsi_event *cocci_id/* drivers/scsi/scsi_sysfs.c 458 */;
+	struct scsi_device cocci_id/* drivers/scsi/scsi_sysfs.c 443 */;
+	struct scsi_vpd *cocci_id/* drivers/scsi/scsi_sysfs.c 439 */;
+	struct list_head *cocci_id/* drivers/scsi/scsi_sysfs.c 438 */;
+	struct work_struct *cocci_id/* drivers/scsi/scsi_sysfs.c 434 */;
+	const struct {
+		enum scsi_device_state value;
+		char *name;
+	} cocci_id/* drivers/scsi/scsi_sysfs.c 31 */[];
+	struct device_type cocci_id/* drivers/scsi/scsi_sysfs.c 29 */;
+	const char *cocci_id/* drivers/scsi/scsi_sysfs.c 283 */;
+	struct device_attribute cocci_id/* drivers/scsi/scsi_sysfs.c 234 */;
+	const int cocci_id/* drivers/scsi/scsi_sysfs.c 206 */;
+	struct scsi_transport_template cocci_id/* drivers/scsi/scsi_sysfs.c 1636 */;
+	const struct device *cocci_id/* drivers/scsi/scsi_sysfs.c 1628 */;
+	struct class_interface *cocci_id/* drivers/scsi/scsi_sysfs.c 1548 */;
+	unsigned long cocci_id/* drivers/scsi/scsi_sysfs.c 1475 */;
+	struct Scsi_Host *cocci_id/* drivers/scsi/scsi_sysfs.c 1474 */;
+	struct scsi_target *cocci_id/* drivers/scsi/scsi_sysfs.c 1472 */;
+	int cocci_id/* drivers/scsi/scsi_sysfs.c 1389 */;
+	struct device *cocci_id/* drivers/scsi/scsi_sysfs.c 1388 */;
+	struct scsi_device *cocci_id/* drivers/scsi/scsi_sysfs.c 1386 */;
+	void cocci_id/* drivers/scsi/scsi_sysfs.c 1386 */;
+	unsigned long long cocci_id/* drivers/scsi/scsi_sysfs.c 135 */;
+	char cocci_id/* drivers/scsi/scsi_sysfs.c 134 */[15];
+	struct request_queue *cocci_id/* drivers/scsi/scsi_sysfs.c 1319 */;
+	const struct attribute_group *cocci_id/* drivers/scsi/scsi_sysfs.c 1282 */[];
+	struct attribute_group cocci_id/* drivers/scsi/scsi_sysfs.c 1275 */;
+	struct bin_attribute *cocci_id/* drivers/scsi/scsi_sysfs.c 1267 */[];
+	struct attribute *cocci_id/* drivers/scsi/scsi_sysfs.c 1230 */[];
+	struct bin_attribute *cocci_id/* drivers/scsi/scsi_sysfs.c 1208 */;
+	struct device cocci_id/* drivers/scsi/scsi_sysfs.c 1184 */;
+	struct attribute *cocci_id/* drivers/scsi/scsi_sysfs.c 1182 */;
+	umode_t cocci_id/* drivers/scsi/scsi_sysfs.c 1181 */;
+	struct kobject *cocci_id/* drivers/scsi/scsi_sysfs.c 1181 */;
+	unsigned long long *cocci_id/* drivers/scsi/scsi_sysfs.c 115 */;
+	char *cocci_id/* drivers/scsi/scsi_sysfs.c 115 */;
+	struct device_attribute *cocci_id/* drivers/scsi/scsi_sysfs.c 1115 */;
+	ssize_t cocci_id/* drivers/scsi/scsi_sysfs.c 1113 */;
+	blist_flags_t cocci_id/* drivers/scsi/scsi_sysfs.c 1042 */;
+	unsigned char cocci_id/* drivers/scsi/scsi_sysfs.c 100 */;
+}

@@ -1,0 +1,72 @@
+cocci_test_suite() {
+	const struct iio_info cocci_id/* drivers/iio/accel/mma9553.c 981 */;
+	enum activity_level{ACTIVITY_UNKNOWN, ACTIVITY_REST, ACTIVITY_WALKING, ACTIVITY_JOGGING, ACTIVITY_RUNNING,} cocci_id/* drivers/iio/accel/mma9553.c 95 */;
+	const struct iio_chan_spec cocci_id/* drivers/iio/accel/mma9553.c 944 */[];
+	const struct iio_chan_spec_ext_info cocci_id/* drivers/iio/accel/mma9553.c 918 */[];
+	const struct iio_enum cocci_id/* drivers/iio/accel/mma9553.c 911 */;
+	const char *const cocci_id/* drivers/iio/accel/mma9553.c 909 */[];
+	const struct iio_event_spec cocci_id/* drivers/iio/accel/mma9553.c 892 */[];
+	const struct iio_event_spec cocci_id/* drivers/iio/accel/mma9553.c 886 */;
+	unsigned int cocci_id/* drivers/iio/accel/mma9553.c 869 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/accel/mma9553.c 854 */;
+	int *cocci_id/* drivers/iio/accel/mma9553.c 771 */;
+	enum iio_event_info cocci_id/* drivers/iio/accel/mma9553.c 770 */;
+	enum iio_event_type cocci_id/* drivers/iio/accel/mma9553.c 712 */;
+	long cocci_id/* drivers/iio/accel/mma9553.c 464 */;
+	u16 *cocci_id/* drivers/iio/accel/mma9553.c 394 */;
+	bool cocci_id/* drivers/iio/accel/mma9553.c 338 */;
+	struct mma9553_event *cocci_id/* drivers/iio/accel/mma9553.c 337 */;
+	u8 cocci_id/* drivers/iio/accel/mma9553.c 335 */;
+	struct mma9553_data *cocci_id/* drivers/iio/accel/mma9553.c 333 */;
+	int cocci_id/* drivers/iio/accel/mma9553.c 333 */;
+	u16 cocci_id/* drivers/iio/accel/mma9553.c 315 */[2];
+	u8 *cocci_id/* drivers/iio/accel/mma9553.c 313 */;
+	enum iio_event_direction cocci_id/* drivers/iio/accel/mma9553.c 235 */;
+	enum iio_chan_type cocci_id/* drivers/iio/accel/mma9553.c 233 */;
+	void cocci_id/* drivers/iio/accel/mma9553.c 221 */;
+	enum iio_modifier cocci_id/* drivers/iio/accel/mma9553.c 204 */;
+	enum activity_level cocci_id/* drivers/iio/accel/mma9553.c 204 */;
+	struct mma9553_data {
+		struct i2c_client *client;
+		struct mutex mutex;
+		struct mma9553_conf_regs conf;
+		struct mma9553_event events[MMA9553_EVENTS_INFO_SIZE];
+		int num_events;
+		u8 gpio_bitnum;
+		bool stepcnt_enabled;
+		u16 stepcnt;
+		u8 activity;
+		s64 timestamp;
+	} cocci_id/* drivers/iio/accel/mma9553.c 173 */;
+	struct mma9553_conf_regs {
+		u16 sleepmin;
+		u16 sleepmax;
+		u16 sleepthd;
+		u16 config;
+		u16 height_weight;
+		u16 filter;
+		u16 speed_step;
+		u16 actthd;
+	}__packed cocci_id/* drivers/iio/accel/mma9553.c 162 */;
+	struct mma9553_event {
+		struct mma9553_event_info *info;
+		bool enabled;
+	} cocci_id/* drivers/iio/accel/mma9553.c 157 */;
+	struct i2c_driver cocci_id/* drivers/iio/accel/mma9553.c 1249 */;
+	const struct i2c_device_id cocci_id/* drivers/iio/accel/mma9553.c 1242 */[];
+	const struct acpi_device_id cocci_id/* drivers/iio/accel/mma9553.c 1235 */[];
+	const struct i2c_device_id *cocci_id/* drivers/iio/accel/mma9553.c 1077 */;
+	struct i2c_client *cocci_id/* drivers/iio/accel/mma9553.c 1076 */;
+	const struct acpi_device_id *cocci_id/* drivers/iio/accel/mma9553.c 1067 */;
+	const char *cocci_id/* drivers/iio/accel/mma9553.c 1065 */;
+	struct device *cocci_id/* drivers/iio/accel/mma9553.c 1065 */;
+	struct mma9553_event_info {
+		enum iio_chan_type type;
+		enum iio_modifier mod;
+		enum iio_event_direction dir;
+	} cocci_id/* drivers/iio/accel/mma9553.c 103 */[];
+	u16 cocci_id/* drivers/iio/accel/mma9553.c 1008 */;
+	struct iio_dev *cocci_id/* drivers/iio/accel/mma9553.c 1006 */;
+	irqreturn_t cocci_id/* drivers/iio/accel/mma9553.c 1004 */;
+	void *cocci_id/* drivers/iio/accel/mma9553.c 1004 */;
+}

@@ -1,0 +1,123 @@
+cocci_test_suite() {
+	struct sockaddr cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 978 */;
+	union cvmx_mixx_intena cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 977 */;
+	union cvmx_mixx_orhwm cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 976 */;
+	union cvmx_mixx_irhwm cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 975 */;
+	union cvmx_mixx_iring1 cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 973 */;
+	union cvmx_mixx_oring1 cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 972 */;
+	union cvmx_agl_gmx_inf_mode cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 971 */;
+	union cvmx_mixx_ctl cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 970 */;
+	int cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 910 */;
+	unsigned long cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 909 */;
+	struct phy_device *cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 908 */;
+	struct octeon_mgmt *cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 907 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 905 */;
+	void cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 905 */;
+	union cvmx_agl_gmx_txx_clk cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 888 */;
+	union cvmx_agl_gmx_prtx_cfg cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 801 */;
+	struct ifreq *cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 787 */;
+	bool cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 696 */;
+	union cvmx_agl_gmx_rxx_frm_ctl cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 695 */;
+	union cvmx_mio_ptp_clock_cfg cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 694 */;
+	struct hwtstamp_config cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 693 */;
+	union cvmx_mixx_isr cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 669 */;
+	irqreturn_t cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 665 */;
+	void *cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 665 */;
+	struct netdev_hw_addr *cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 567 */;
+	struct octeon_mgmt_cam_state cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 566 */;
+	union cvmx_agl_gmx_rxx_adr_ctl cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 560 */;
+	u64 cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 552 */;
+	unsigned char *cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 547 */;
+	struct octeon_mgmt_cam_state *cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 546 */;
+	struct octeon_mgmt_cam_state {
+		u64 cam[6];
+		u64 cam_mask;
+		int cam_index;
+	} cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 540 */;
+	unsigned long long cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 532 */;
+	union cvmx_agl_gmx_bist cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 517 */;
+	union cvmx_mixx_bist cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 516 */;
+	unsigned int cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 498 */;
+	struct octeon_mgmt cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 496 */;
+	struct napi_struct *cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 494 */;
+	union mgmt_port_ring_entry {
+		u64 d64;
+		struct {
+#define RING_ENTRY_CODE_DONE 0xf
+#define RING_ENTRY_CODE_MORE 0x10
+#ifdef __BIG_ENDIAN_BITFIELD
+			u64 reserved_62_63:2;
+			u64 len:14;
+			u64 tstamp:1;
+			u64 code:7;
+			u64 addr:40;
+#else
+			u64 addr:40;
+			u64 code:7;
+			u64 tstamp:1;
+			u64 len:14;
+			u64 reserved_62_63:2;
+#endif
+		} s;
+	} cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 46 */;
+	struct skb_shared_hwtstamps *cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 408 */;
+	u64 *cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 407 */;
+	union cvmx_mixx_ircnt cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 390 */;
+	struct sk_buff **cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 366 */;
+	union cvmx_agl_gmx_txx_stat1 cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 346 */;
+	union cvmx_agl_gmx_txx_stat0 cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 345 */;
+	struct skb_shared_hwtstamps cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 291 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 253 */;
+	union mgmt_port_ring_entry cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 252 */;
+	union cvmx_mixx_orcnt cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 251 */;
+	void __exit cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 1568 */;
+	int __init cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 1561 */;
+	void cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 1559 */(void);
+	struct platform_driver cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 1550 */;
+	const struct of_device_id cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 1542 */[];
+	struct resource *cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 1388 */;
+	const u8 *cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 1387 */;
+	const __be32 *cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 1386 */;
+	struct platform_device *cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 1382 */;
+	const struct net_device_ops cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 1369 */;
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 1361 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 1342 */;
+	netdev_tx_t cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 1274 */;
+	struct octeon_mgmt {
+		struct net_device *netdev;
+		u64 mix;
+		u64 agl;
+		u64 agl_prt_ctl;
+		int port;
+		int irq;
+		bool has_rx_tstamp;
+		u64 *tx_ring;
+		dma_addr_t tx_ring_handle;
+		unsigned int tx_next;
+		unsigned int tx_next_clean;
+		unsigned int tx_current_fill;
+		struct sk_buff_head tx_list;
+		u64 *rx_ring;
+		dma_addr_t rx_ring_handle;
+		unsigned int rx_next;
+		unsigned int rx_next_fill;
+		unsigned int rx_current_fill;
+		struct sk_buff_head rx_list;
+		spinlock_t lock;
+		unsigned int last_duplex;
+		unsigned int last_link;
+		unsigned int last_speed;
+		struct device *dev;
+		struct napi_struct napi;
+		struct tasklet_struct tx_clean_tasklet;
+		struct device_node *phy_np;
+		resource_size_t mix_phys;
+		resource_size_t mix_size;
+		resource_size_t agl_phys;
+		resource_size_t agl_size;
+		resource_size_t agl_prt_ctl_phys;
+		resource_size_t agl_prt_ctl_size;
+	} cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 118 */;
+	union cvmx_agl_prtx_ctl cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 1082 */;
+	union cvmx_agl_gmx_drv_ctl cocci_id/* drivers/net/ethernet/cavium/octeon/octeon_mgmt.c 1030 */;
+}

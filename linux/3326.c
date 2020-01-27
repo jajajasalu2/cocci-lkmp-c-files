@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	const u8 cocci_id/* drivers/hwmon/ds1621.c 90 */[3];
+	const unsigned short cocci_id/* drivers/hwmon/ds1621.c 76 */[];
+	struct i2c_driver cocci_id/* drivers/hwmon/ds1621.c 381 */;
+	const struct i2c_device_id cocci_id/* drivers/hwmon/ds1621.c 370 */[];
+	enum chips{ds1621, ds1625, ds1631, ds1721, ds1731,} cocci_id/* drivers/hwmon/ds1621.c 37 */;
+	struct ds1621_data cocci_id/* drivers/hwmon/ds1621.c 351 */;
+	const struct i2c_device_id *cocci_id/* drivers/hwmon/ds1621.c 346 */;
+	const struct attribute_group cocci_id/* drivers/hwmon/ds1621.c 339 */;
+	struct device cocci_id/* drivers/hwmon/ds1621.c 329 */;
+	struct attribute *cocci_id/* drivers/hwmon/ds1621.c 327 */;
+	umode_t cocci_id/* drivers/hwmon/ds1621.c 326 */;
+	struct kobject *cocci_id/* drivers/hwmon/ds1621.c 326 */;
+	struct attribute *cocci_id/* drivers/hwmon/ds1621.c 315 */[];
+	s32 cocci_id/* drivers/hwmon/ds1621.c 282 */;
+	unsigned long cocci_id/* drivers/hwmon/ds1621.c 281 */;
+	struct ds1621_data *cocci_id/* drivers/hwmon/ds1621.c 264 */;
+	struct sensor_device_attribute *cocci_id/* drivers/hwmon/ds1621.c 263 */;
+	char *cocci_id/* drivers/hwmon/ds1621.c 261 */;
+	struct device_attribute *cocci_id/* drivers/hwmon/ds1621.c 260 */;
+	struct device *cocci_id/* drivers/hwmon/ds1621.c 260 */;
+	ssize_t cocci_id/* drivers/hwmon/ds1621.c 260 */;
+	const char *cocci_id/* drivers/hwmon/ds1621.c 234 */;
+	size_t cocci_id/* drivers/hwmon/ds1621.c 234 */;
+	struct i2c_client *cocci_id/* drivers/hwmon/ds1621.c 142 */;
+	void cocci_id/* drivers/hwmon/ds1621.c 141 */;
+	u8 cocci_id/* drivers/hwmon/ds1621.c 134 */;
+	long cocci_id/* drivers/hwmon/ds1621.c 134 */;
+	s16 cocci_id/* drivers/hwmon/ds1621.c 125 */;
+	u16 cocci_id/* drivers/hwmon/ds1621.c 123 */;
+	int cocci_id/* drivers/hwmon/ds1621.c 123 */;
+	struct ds1621_data {
+		struct i2c_client *client;
+		struct mutex update_lock;
+		char valid;
+		unsigned long last_updated;
+		enum chips kind;
+		u16 temp[3];
+		u8 conf;
+		u8 zbits;
+		u16 update_interval;
+	} cocci_id/* drivers/hwmon/ds1621.c 109 */;
+}

@@ -1,0 +1,47 @@
+cocci_test_suite() {
+	struct electra_cf_socket cocci_id/* drivers/pcmcia/electra_cf.c 98 */;
+	struct electra_cf_socket *cocci_id/* drivers/pcmcia/electra_cf.c 93 */;
+	u_int *cocci_id/* drivers/pcmcia/electra_cf.c 91 */;
+	struct pcmcia_socket *cocci_id/* drivers/pcmcia/electra_cf.c 91 */;
+	int cocci_id/* drivers/pcmcia/electra_cf.c 91 */;
+	irqreturn_t cocci_id/* drivers/pcmcia/electra_cf.c 83 */;
+	void *cocci_id/* drivers/pcmcia/electra_cf.c 83 */;
+	struct timer_list *cocci_id/* drivers/pcmcia/electra_cf.c 69 */;
+	void cocci_id/* drivers/pcmcia/electra_cf.c 69 */;
+	unsigned int cocci_id/* drivers/pcmcia/electra_cf.c 57 */;
+	struct platform_driver cocci_id/* drivers/pcmcia/electra_cf.c 352 */;
+	const struct of_device_id cocci_id/* drivers/pcmcia/electra_cf.c 344 */[];
+	struct electra_cf_socket {
+		struct pcmcia_socket socket;
+		struct timer_list timer;
+		unsigned present:1;
+		unsigned active:1;
+		struct platform_device *ofdev;
+		unsigned long mem_phys;
+		void __iomem *mem_base;
+		unsigned long mem_size;
+		void __iomem *io_virt;
+		unsigned int io_base;
+		unsigned int io_size;
+		u_int irq;
+		struct resource iomem;
+		void __iomem *gpio_base;
+		int gpio_detect;
+		int gpio_vsense;
+		int gpio_3v;
+		int gpio_5v;
+	} cocci_id/* drivers/pcmcia/electra_cf.c 29 */;
+	const char cocci_id/* drivers/pcmcia/electra_cf.c 27 */[];
+	unsigned long cocci_id/* drivers/pcmcia/electra_cf.c 227 */;
+	void __iomem *cocci_id/* drivers/pcmcia/electra_cf.c 213 */;
+	struct vm_struct *cocci_id/* drivers/pcmcia/electra_cf.c 184 */;
+	const unsigned int *cocci_id/* drivers/pcmcia/electra_cf.c 182 */;
+	struct resource cocci_id/* drivers/pcmcia/electra_cf.c 180 */;
+	struct device_node *cocci_id/* drivers/pcmcia/electra_cf.c 178 */;
+	struct device *cocci_id/* drivers/pcmcia/electra_cf.c 177 */;
+	struct platform_device *cocci_id/* drivers/pcmcia/electra_cf.c 175 */;
+	struct pccard_operations cocci_id/* drivers/pcmcia/electra_cf.c 167 */;
+	struct pccard_mem_map *cocci_id/* drivers/pcmcia/electra_cf.c 153 */;
+	struct pccard_io_map *cocci_id/* drivers/pcmcia/electra_cf.c 147 */;
+	struct socket_state_t *cocci_id/* drivers/pcmcia/electra_cf.c 111 */;
+}

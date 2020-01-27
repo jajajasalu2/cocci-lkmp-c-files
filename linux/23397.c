@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	struct i2c_driver cocci_id/* sound/soc/codecs/rt1308.c 861 */;
+	struct rt1308_priv cocci_id/* sound/soc/codecs/rt1308.c 824 */;
+	const struct i2c_device_id *cocci_id/* sound/soc/codecs/rt1308.c 818 */;
+	struct i2c_client *cocci_id/* sound/soc/codecs/rt1308.c 817 */;
+	struct rt1308_priv *cocci_id/* sound/soc/codecs/rt1308.c 806 */;
+	void cocci_id/* sound/soc/codecs/rt1308.c 806 */;
+	const struct i2c_device_id cocci_id/* sound/soc/codecs/rt1308.c 800 */[];
+	struct acpi_device_id cocci_id/* sound/soc/codecs/rt1308.c 793 */[];
+	const struct of_device_id cocci_id/* sound/soc/codecs/rt1308.c 785 */[];
+	const struct regmap_config cocci_id/* sound/soc/codecs/rt1308.c 771 */;
+	const struct snd_soc_component_driver cocci_id/* sound/soc/codecs/rt1308.c 753 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/codecs/rt1308.c 739 */[];
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/codecs/rt1308.c 734 */;
+	const struct reg_default cocci_id/* sound/soc/codecs/rt1308.c 64 */[];
+	struct rl6231_pll_code cocci_id/* sound/soc/codecs/rt1308.c 622 */;
+	struct rt1308_priv {
+		struct snd_soc_component *component;
+		struct regmap *regmap;
+		int sysclk;
+		int sysclk_src;
+		int lrck;
+		int bclk;
+		int master;
+		int pll_src;
+		int pll_in;
+		int pll_out;
+	} cocci_id/* sound/soc/codecs/rt1308.c 49 */;
+	unsigned int cocci_id/* sound/soc/codecs/rt1308.c 458 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/codecs/rt1308.c 454 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/codecs/rt1308.c 454 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/codecs/rt1308.c 453 */;
+	const int cocci_id/* sound/soc/codecs/rt1308.c 440 */[];
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/codecs/rt1308.c 404 */[];
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/codecs/rt1308.c 349 */[];
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/rt1308.c 341 */;
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/rt1308.c 335 */[];
+	const char *const cocci_id/* sound/soc/codecs/rt1308.c 325 */[];
+	const struct reg_sequence cocci_id/* sound/soc/codecs/rt1308.c 32 */[];
+	struct snd_soc_component *cocci_id/* sound/soc/codecs/rt1308.c 301 */;
+	struct snd_kcontrol *cocci_id/* sound/soc/codecs/rt1308.c 299 */;
+	struct snd_soc_dapm_widget *cocci_id/* sound/soc/codecs/rt1308.c 298 */;
+	int cocci_id/* sound/soc/codecs/rt1308.c 298 */;
+	bool cocci_id/* sound/soc/codecs/rt1308.c 261 */;
+	struct device *cocci_id/* sound/soc/codecs/rt1308.c 261 */;
+}

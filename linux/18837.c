@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	int __init cocci_id/* arch/arm/mach-pxa/mainstone.c 678 */;
+	u32 cocci_id/* arch/arm/mach-pxa/mainstone.c 673 */;
+	struct mainstone_led cocci_id/* arch/arm/mach-pxa/mainstone.c 672 */;
+	struct mainstone_led *cocci_id/* arch/arm/mach-pxa/mainstone.c 671 */;
+	enum led_brightness cocci_id/* arch/arm/mach-pxa/mainstone.c 669 */;
+	struct led_classdev *cocci_id/* arch/arm/mach-pxa/mainstone.c 669 */;
+	const struct {
+		const char *name;
+		const char *trigger;
+	} cocci_id/* arch/arm/mach-pxa/mainstone.c 640 */[];
+	struct mainstone_led {
+		struct led_classdev cdev;
+		u8 mask;
+	} cocci_id/* arch/arm/mach-pxa/mainstone.c 631 */;
+	struct map_desc cocci_id/* arch/arm/mach-pxa/mainstone.c 605 */[]__initdata;
+	unsigned long cocci_id/* arch/arm/mach-pxa/mainstone.c 60 */[];
+	void __iomem *cocci_id/* arch/arm/mach-pxa/mainstone.c 555 */;
+	struct gpiod_lookup_table cocci_id/* arch/arm/mach-pxa/mainstone.c 519 */;
+	int cocci_id/* arch/arm/mach-pxa/mainstone.c 505 */[11];
+	struct pxa27x_keypad_platform_data cocci_id/* arch/arm/mach-pxa/mainstone.c 485 */;
+	struct matrix_keymap_data cocci_id/* arch/arm/mach-pxa/mainstone.c 480 */;
+	const unsigned int cocci_id/* arch/arm/mach-pxa/mainstone.c 451 */[];
+	struct pxaohci_platform_data cocci_id/* arch/arm/mach-pxa/mainstone.c 445 */;
+	struct platform_device *cocci_id/* arch/arm/mach-pxa/mainstone.c 437 */[]__initdata;
+	struct gpio_keys_platform_data cocci_id/* arch/arm/mach-pxa/mainstone.c 399 */;
+	struct gpio_keys_button cocci_id/* arch/arm/mach-pxa/mainstone.c 389 */[];
+	struct pxaficp_platform_data cocci_id/* arch/arm/mach-pxa/mainstone.c 383 */;
+	unsigned long cocci_id/* arch/arm/mach-pxa/mainstone.c 366 */;
+	struct device *cocci_id/* arch/arm/mach-pxa/mainstone.c 364 */;
+	struct pxamci_platform_data cocci_id/* arch/arm/mach-pxa/mainstone.c 357 */;
+	void *cocci_id/* arch/arm/mach-pxa/mainstone.c 352 */;
+	struct pxamci_platform_data *cocci_id/* arch/arm/mach-pxa/mainstone.c 339 */;
+	unsigned int cocci_id/* arch/arm/mach-pxa/mainstone.c 337 */;
+	irq_handler_t cocci_id/* arch/arm/mach-pxa/mainstone.c 320 */;
+	struct pxafb_mach_info cocci_id/* arch/arm/mach-pxa/mainstone.c 315 */;
+	struct pxafb_mode_info cocci_id/* arch/arm/mach-pxa/mainstone.c 301 */;
+	int cocci_id/* arch/arm/mach-pxa/mainstone.c 272 */;
+	void __init cocci_id/* arch/arm/mach-pxa/mainstone.c 270 */;
+	void cocci_id/* arch/arm/mach-pxa/mainstone.c 270 */;
+	struct platform_device cocci_id/* arch/arm/mach-pxa/mainstone.c 262 */;
+	struct platform_pwm_backlight_data cocci_id/* arch/arm/mach-pxa/mainstone.c 256 */;
+	struct pwm_lookup cocci_id/* arch/arm/mach-pxa/mainstone.c 251 */[];
+	struct platform_device cocci_id/* arch/arm/mach-pxa/mainstone.c 229 */[2];
+	struct flash_platform_data cocci_id/* arch/arm/mach-pxa/mainstone.c 217 */[2];
+	struct mtd_partition cocci_id/* arch/arm/mach-pxa/mainstone.c 200 */[];
+	struct resource cocci_id/* arch/arm/mach-pxa/mainstone.c 187 */[];
+	pxa2xx_audio_ops_t cocci_id/* arch/arm/mach-pxa/mainstone.c 180 */;
+	long cocci_id/* arch/arm/mach-pxa/mainstone.c 167 */;
+	struct snd_pcm_substream *cocci_id/* arch/arm/mach-pxa/mainstone.c 161 */;
+	struct smc91x_platdata cocci_id/* arch/arm/mach-pxa/mainstone.c 138 */;
+	const struct machine_desc cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 397 */;
+}

@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	__be16 cocci_id/* drivers/iio/magnetometer/mag3110.c 95 */[3];
+	struct i2c_driver cocci_id/* drivers/iio/magnetometer/mag3110.c 646 */;
+	const struct of_device_id cocci_id/* drivers/iio/magnetometer/mag3110.c 640 */[];
+	const struct i2c_device_id cocci_id/* drivers/iio/magnetometer/mag3110.c 634 */[];
+	struct device *cocci_id/* drivers/iio/magnetometer/mag3110.c 605 */;
+	struct mag3110_data {
+		struct i2c_client *client;
+		struct mutex lock;
+		u8 ctrl_reg1;
+		int sleep_val;
+		struct regulator *vdd_reg;
+		struct regulator *vddio_reg;
+	} cocci_id/* drivers/iio/magnetometer/mag3110.c 52 */;
+	struct iio_dev *cocci_id/* drivers/iio/magnetometer/mag3110.c 469 */;
+	const struct i2c_device_id *cocci_id/* drivers/iio/magnetometer/mag3110.c 466 */;
+	struct i2c_client *cocci_id/* drivers/iio/magnetometer/mag3110.c 465 */;
+	const unsigned long cocci_id/* drivers/iio/magnetometer/mag3110.c 463 */[];
+	const struct iio_info cocci_id/* drivers/iio/magnetometer/mag3110.c 457 */;
+	const struct attribute_group cocci_id/* drivers/iio/magnetometer/mag3110.c 453 */;
+	struct attribute *cocci_id/* drivers/iio/magnetometer/mag3110.c 448 */[];
+	const struct iio_chan_spec cocci_id/* drivers/iio/magnetometer/mag3110.c 430 */[];
+	__be16 *cocci_id/* drivers/iio/magnetometer/mag3110.c 393 */;
+	u8 cocci_id/* drivers/iio/magnetometer/mag3110.c 390 */[16];
+	struct iio_poll_func *cocci_id/* drivers/iio/magnetometer/mag3110.c 387 */;
+	irqreturn_t cocci_id/* drivers/iio/magnetometer/mag3110.c 385 */;
+	void *cocci_id/* drivers/iio/magnetometer/mag3110.c 385 */;
+	int *cocci_id/* drivers/iio/magnetometer/mag3110.c 270 */;
+	long cocci_id/* drivers/iio/magnetometer/mag3110.c 270 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/magnetometer/mag3110.c 269 */;
+	u8 cocci_id/* drivers/iio/magnetometer/mag3110.c 223 */;
+	struct mag3110_data *cocci_id/* drivers/iio/magnetometer/mag3110.c 205 */;
+	int cocci_id/* drivers/iio/magnetometer/mag3110.c 205 */;
+	struct device_attribute *cocci_id/* drivers/iio/magnetometer/mag3110.c 143 */;
+	const int cocci_id/* drivers/iio/magnetometer/mag3110.c 137 */[8][2];
+	const int *cocci_id/* drivers/iio/magnetometer/mag3110.c 127 */[2];
+	size_t cocci_id/* drivers/iio/magnetometer/mag3110.c 115 */;
+	char *cocci_id/* drivers/iio/magnetometer/mag3110.c 112 */;
+	ssize_t cocci_id/* drivers/iio/magnetometer/mag3110.c 112 */;
+	__be16 cocci_id/* drivers/iio/magnetometer/mag3110.c 106 */;
+	u8 *cocci_id/* drivers/iio/magnetometer/mag3110.c 106 */;
+}

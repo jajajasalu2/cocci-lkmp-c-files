@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	const unsigned char *cocci_id/* lib/string.c 999 */;
+	unsigned char *cocci_id/* lib/string.c 924 */;
+	const void *cocci_id/* lib/string.c 905 */;
+	char *cocci_id/* lib/string.c 829 */;
+	uint64_t cocci_id/* lib/string.c 806 */;
+	uint64_t *cocci_id/* lib/string.c 806 */;
+	uint32_t cocci_id/* lib/string.c 784 */;
+	uint32_t *cocci_id/* lib/string.c 784 */;
+	uint16_t cocci_id/* lib/string.c 762 */;
+	uint16_t *cocci_id/* lib/string.c 762 */;
+	const char *const *cocci_id/* lib/string.c 714 */;
+	const char *cocci_id/* lib/string.c 714 */;
+	int cocci_id/* lib/string.c 714 */;
+	size_t cocci_id/* lib/string.c 714 */;
+	bool cocci_id/* lib/string.c 662 */;
+	char **cocci_id/* lib/string.c 635 */;
+	char cocci_id/* lib/string.c 411 */;
+	unsigned long *cocci_id/* lib/string.c 212 */;
+	long cocci_id/* lib/string.c 184 */;
+	const struct word_at_a_time cocci_id/* lib/string.c 182 */;
+	ssize_t cocci_id/* lib/string.c 180 */;
+	void cocci_id/* lib/string.c 1093 */;
+	u64 *cocci_id/* lib/string.c 1066 */;
+	u8 *cocci_id/* lib/string.c 1053 */;
+	unsigned long cocci_id/* lib/string.c 1051 */;
+	u64 cocci_id/* lib/string.c 1033 */;
+	u8 cocci_id/* lib/string.c 1010 */;
+	const u8 *cocci_id/* lib/string.c 1010 */;
+	void *cocci_id/* lib/string.c 1010 */;
+	unsigned int cocci_id/* lib/string.c 1010 */;
+	unsigned char cocci_id/* lib/string.c 1001 */;
+}

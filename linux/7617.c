@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/video/fbdev/amba-clcd.c 981 */;
+	void cocci_id/* drivers/video/fbdev/amba-clcd.c 981 */;
+	int __init cocci_id/* drivers/video/fbdev/amba-clcd.c 971 */;
+	struct amba_driver cocci_id/* drivers/video/fbdev/amba-clcd.c 962 */;
+	const struct amba_id cocci_id/* drivers/video/fbdev/amba-clcd.c 952 */[];
+	unsigned long long cocci_id/* drivers/video/fbdev/amba-clcd.c 910 */;
+	const struct amba_id *cocci_id/* drivers/video/fbdev/amba-clcd.c 877 */;
+	struct clcd_board *cocci_id/* drivers/video/fbdev/amba-clcd.c 845 */;
+	struct amba_device *cocci_id/* drivers/video/fbdev/amba-clcd.c 845 */;
+	dma_addr_t cocci_id/* drivers/video/fbdev/amba-clcd.c 813 */;
+	u64 cocci_id/* drivers/video/fbdev/amba-clcd.c 766 */;
+	u32 cocci_id/* drivers/video/fbdev/amba-clcd.c 703 */[3];
+	unsigned int cocci_id/* drivers/video/fbdev/amba-clcd.c 701 */;
+	struct {
+		unsigned int part;
+		u32 r0,g0,b0;
+		u32 caps;
+	} cocci_id/* drivers/video/fbdev/amba-clcd.c 652 */[];
+	u32 cocci_id/* drivers/video/fbdev/amba-clcd.c 65 */;
+	char *cocci_id/* drivers/video/fbdev/amba-clcd.c 627 */;
+	struct fb_videomode *cocci_id/* drivers/video/fbdev/amba-clcd.c 626 */;
+	struct device *cocci_id/* drivers/video/fbdev/amba-clcd.c 622 */;
+	struct clcd_panel *cocci_id/* drivers/video/fbdev/amba-clcd.c 606 */;
+	struct device_node *cocci_id/* drivers/video/fbdev/amba-clcd.c 605 */;
+	struct videomode cocci_id/* drivers/video/fbdev/amba-clcd.c 561 */;
+	struct display_timing cocci_id/* drivers/video/fbdev/amba-clcd.c 560 */;
+	struct fb_ops cocci_id/* drivers/video/fbdev/amba-clcd.c 426 */;
+	unsigned long cocci_id/* drivers/video/fbdev/amba-clcd.c 414 */;
+	struct vm_area_struct *cocci_id/* drivers/video/fbdev/amba-clcd.c 411 */;
+	struct clcd_fb *cocci_id/* drivers/video/fbdev/amba-clcd.c 400 */;
+	struct fb_info *cocci_id/* drivers/video/fbdev/amba-clcd.c 398 */;
+	int cocci_id/* drivers/video/fbdev/amba-clcd.c 398 */;
+	const char *cocci_id/* drivers/video/fbdev/amba-clcd.c 36 */;
+	struct fb_bitfield *cocci_id/* drivers/video/fbdev/amba-clcd.c 336 */;
+	struct clcd_fb cocci_id/* drivers/video/fbdev/amba-clcd.c 33 */;
+	struct clcd_regs cocci_id/* drivers/video/fbdev/amba-clcd.c 295 */;
+	struct fb_var_screeninfo *cocci_id/* drivers/video/fbdev/amba-clcd.c 273 */;
+	bool cocci_id/* drivers/video/fbdev/amba-clcd.c 246 */;
+}

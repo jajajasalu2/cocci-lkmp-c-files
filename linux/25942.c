@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* tools/testing/selftests/net/tcp_mmap.c 98 */;
+	const char *cocci_id/* tools/testing/selftests/net/tcp_mmap.c 94 */;
+	const void *cocci_id/* tools/testing/selftests/net/tcp_mmap.c 91 */;
+	size_t cocci_id/* tools/testing/selftests/net/tcp_mmap.c 85 */;
+	socklen_t cocci_id/* tools/testing/selftests/net/tcp_mmap.c 76 */;
+	struct sockaddr_in6 cocci_id/* tools/testing/selftests/net/tcp_mmap.c 76 */;
+	ssize_t cocci_id/* tools/testing/selftests/net/tcp_mmap.c 473 */;
+	const struct sockaddr *cocci_id/* tools/testing/selftests/net/tcp_mmap.c 427 */;
+	struct sockaddr_storage cocci_id/* tools/testing/selftests/net/tcp_mmap.c 342 */;
+	char *cocci_id/* tools/testing/selftests/net/tcp_mmap.c 340 */[];
+	FILE *cocci_id/* tools/testing/selftests/net/tcp_mmap.c 322 */;
+	struct sockaddr *cocci_id/* tools/testing/selftests/net/tcp_mmap.c 301 */;
+	pthread_t cocci_id/* tools/testing/selftests/net/tcp_mmap.c 298 */;
+	struct sockaddr_in cocci_id/* tools/testing/selftests/net/tcp_mmap.c 296 */;
+	pthread_attr_t cocci_id/* tools/testing/selftests/net/tcp_mmap.c 283 */;
+	struct sockaddr_in *cocci_id/* tools/testing/selftests/net/tcp_mmap.c 257 */;
+	struct sockaddr_in6 *cocci_id/* tools/testing/selftests/net/tcp_mmap.c 256 */;
+	struct sockaddr_storage *cocci_id/* tools/testing/selftests/net/tcp_mmap.c 254 */;
+	int cocci_id/* tools/testing/selftests/net/tcp_mmap.c 239 */;
+	void cocci_id/* tools/testing/selftests/net/tcp_mmap.c 239 */;
+	__u64 cocci_id/* tools/testing/selftests/net/tcp_mmap.c 168 */;
+	struct pollfd cocci_id/* tools/testing/selftests/net/tcp_mmap.c 160 */;
+	struct rusage cocci_id/* tools/testing/selftests/net/tcp_mmap.c 137 */;
+	double cocci_id/* tools/testing/selftests/net/tcp_mmap.c 136 */;
+	char *cocci_id/* tools/testing/selftests/net/tcp_mmap.c 133 */;
+	struct timeval cocci_id/* tools/testing/selftests/net/tcp_mmap.c 132 */;
+	struct tcp_zerocopy_receive cocci_id/* tools/testing/selftests/net/tcp_mmap.c 129 */;
+	unsigned long cocci_id/* tools/testing/selftests/net/tcp_mmap.c 128 */;
+	void *cocci_id/* tools/testing/selftests/net/tcp_mmap.c 126 */;
+	typeof(p) cocci_id/* tools/testing/selftests/net/tcp_mmap.c 124 */;
+	unsigned char *cocci_id/* tools/testing/selftests/net/tcp_mmap.c 116 */;
+	unsigned long *cocci_id/* tools/testing/selftests/net/tcp_mmap.c 104 */;
+	long cocci_id/* tools/testing/selftests/net/tcp_mmap.c 102 */;
+}

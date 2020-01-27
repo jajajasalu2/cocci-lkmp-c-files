@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	unsigned int *const cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 64 */;
+	const char *const **cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 63 */;
+	const unsigned int *cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 563 */;
+	enum pin_config_param cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 527 */;
+	u32 cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 483 */;
+	const struct aspeed_pin_config *cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 480 */;
+	const struct aspeed_pinctrl_data *cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 479 */;
+	const struct aspeed_pin_config_map *cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 478 */;
+	const enum pin_config_param cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 477 */;
+	unsigned long *cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 475 */;
+	s64 cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 448 */;
+	enum aspeed_pin_config_map_type cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 447 */;
+	const struct aspeed_pin_config_map cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 437 */[];
+	enum aspeed_pin_config_map_type{MAP_TYPE_ARG, MAP_TYPE_VAL,} cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 430 */;
+	struct aspeed_pin_config_map {
+		enum pin_config_param param;
+		s32 arg;
+		u32 val;
+	} cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 424 */;
+	struct seq_file *cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 41 */;
+	void cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 40 */;
+	struct device *cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 363 */;
+	struct pinctrl_desc *cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 360 */;
+	struct platform_device *cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 359 */;
+	char *cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 333 */;
+	const struct aspeed_sig_expr ***cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 310 */;
+	const struct aspeed_pin_desc *cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 309 */;
+	struct aspeed_pinctrl_data *cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 308 */;
+	unsigned int cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 305 */;
+	struct pinctrl_gpio_range *cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 304 */;
+	struct pinctrl_dev *cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 303 */;
+	unsigned int *cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 30 */;
+	const unsigned int **cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 29 */;
+	bool cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 277 */;
+	const struct aspeed_sig_expr *cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 277 */;
+	const struct aspeed_pin_function *cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 222 */;
+	const struct aspeed_pin_group *cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 221 */;
+	size_t cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 156 */;
+	const char *(*cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 152 */)(const struct aspeed_sig_expr *);
+	const char *cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 140 */;
+	const struct aspeed_sig_expr **cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 113 */;
+	struct aspeed_pinmux_data *cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 112 */;
+	int cocci_id/* drivers/pinctrl/aspeed/pinctrl-aspeed.c 112 */;
+}

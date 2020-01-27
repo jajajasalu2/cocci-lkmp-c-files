@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	void **cocci_id/* fs/udf/file.c 92 */;
+	struct page **cocci_id/* fs/udf/file.c 91 */;
+	unsigned cocci_id/* fs/udf/file.c 91 */;
+	struct address_space *cocci_id/* fs/udf/file.c 90 */;
+	struct writeback_control *cocci_id/* fs/udf/file.c 70 */;
+	struct file *cocci_id/* fs/udf/file.c 60 */;
+	int cocci_id/* fs/udf/file.c 60 */;
+	loff_t cocci_id/* fs/udf/file.c 46 */;
+	struct udf_inode_info *cocci_id/* fs/udf/file.c 45 */;
+	char *cocci_id/* fs/udf/file.c 44 */;
+	struct inode *cocci_id/* fs/udf/file.c 43 */;
+	struct page *cocci_id/* fs/udf/file.c 41 */;
+	void cocci_id/* fs/udf/file.c 41 */;
+	const struct inode_operations cocci_id/* fs/udf/file.c 291 */;
+	struct super_block *cocci_id/* fs/udf/file.c 260 */;
+	struct iattr *cocci_id/* fs/udf/file.c 257 */;
+	struct dentry *cocci_id/* fs/udf/file.c 257 */;
+	const struct file_operations cocci_id/* fs/udf/file.c 245 */;
+	int __user *cocci_id/* fs/udf/file.c 215 */;
+	long __user *cocci_id/* fs/udf/file.c 207 */;
+	char __user *cocci_id/* fs/udf/file.c 200 */;
+	unsigned long cocci_id/* fs/udf/file.c 181 */;
+	unsigned int cocci_id/* fs/udf/file.c 181 */;
+	long cocci_id/* fs/udf/file.c 181 */;
+	const struct address_space_operations cocci_id/* fs/udf/file.c 128 */;
+	void *cocci_id/* fs/udf/file.c 116 */;
+	struct kiocb *cocci_id/* fs/udf/file.c 108 */;
+	struct iov_iter *cocci_id/* fs/udf/file.c 108 */;
+	ssize_t cocci_id/* fs/udf/file.c 108 */;
+}

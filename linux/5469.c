@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	struct spi_engine {
+		struct clk *clk;
+		struct clk *ref_clk;
+		spinlock_t lock;
+		void __iomem *base;
+		struct spi_message *msg;
+		struct spi_engine_program *p;
+		unsigned cmd_length;
+		const uint16_t *cmd_buf;
+		struct spi_transfer *tx_xfer;
+		unsigned int tx_length;
+		const uint8_t *tx_buf;
+		struct spi_transfer *rx_xfer;
+		unsigned int rx_length;
+		uint8_t *rx_buf;
+		unsigned int sync_id;
+		unsigned int completed_id;
+		unsigned int int_enable;
+	} cocci_id/* drivers/spi/spi-axi-spi-engine.c 81 */;
+	struct spi_engine_program {
+		unsigned int length;
+		uint16_t instructions[];
+	} cocci_id/* drivers/spi/spi-axi-spi-engine.c 76 */;
+	struct platform_driver cocci_id/* drivers/spi/spi-axi-spi-engine.c 589 */;
+	const struct of_device_id cocci_id/* drivers/spi/spi-axi-spi-engine.c 583 */[];
+	struct platform_device *cocci_id/* drivers/spi/spi-axi-spi-engine.c 468 */;
+	size_t cocci_id/* drivers/spi/spi-axi-spi-engine.c 426 */;
+	unsigned long cocci_id/* drivers/spi/spi-axi-spi-engine.c 425 */;
+	struct spi_engine_program cocci_id/* drivers/spi/spi-axi-spi-engine.c 422 */;
+	struct spi_master *cocci_id/* drivers/spi/spi-axi-spi-engine.c 363 */;
+	irqreturn_t cocci_id/* drivers/spi/spi-axi-spi-engine.c 361 */;
+	void *cocci_id/* drivers/spi/spi-axi-spi-engine.c 361 */;
+	uint8_t *cocci_id/* drivers/spi/spi-axi-spi-engine.c 343 */;
+	void __iomem *cocci_id/* drivers/spi/spi-axi-spi-engine.c 341 */;
+	const uint8_t *cocci_id/* drivers/spi/spi-axi-spi-engine.c 321 */;
+	const uint16_t *cocci_id/* drivers/spi/spi-axi-spi-engine.c 301 */;
+	struct spi_transfer cocci_id/* drivers/spi/spi-axi-spi-engine.c 253 */;
+	struct spi_transfer **cocci_id/* drivers/spi/spi-axi-spi-engine.c 246 */;
+	struct spi_transfer *cocci_id/* drivers/spi/spi-axi-spi-engine.c 209 */;
+	struct spi_device *cocci_id/* drivers/spi/spi-axi-spi-engine.c 208 */;
+	bool cocci_id/* drivers/spi/spi-axi-spi-engine.c 206 */;
+	struct spi_message *cocci_id/* drivers/spi/spi-axi-spi-engine.c 206 */;
+	struct spi_engine_program *cocci_id/* drivers/spi/spi-axi-spi-engine.c 206 */;
+	struct spi_engine *cocci_id/* drivers/spi/spi-axi-spi-engine.c 205 */;
+	int cocci_id/* drivers/spi/spi-axi-spi-engine.c 205 */;
+	unsigned int cocci_id/* drivers/spi/spi-axi-spi-engine.c 197 */;
+	void cocci_id/* drivers/spi/spi-axi-spi-engine.c 194 */;
+	uint16_t cocci_id/* drivers/spi/spi-axi-spi-engine.c 109 */;
+}

@@ -1,0 +1,68 @@
+cocci_test_suite() {
+	struct i2c_driver cocci_id/* drivers/clk/clk-versaclock5.c 981 */;
+	const struct i2c_device_id cocci_id/* drivers/clk/clk-versaclock5.c 959 */[];
+	const struct vc5_chip_info cocci_id/* drivers/clk/clk-versaclock5.c 924 */;
+	int __maybe_unused cocci_id/* drivers/clk/clk-versaclock5.c 912 */;
+	const char *cocci_id/* drivers/clk/clk-versaclock5.c 698 */[2];
+	struct clk_init_data cocci_id/* drivers/clk/clk-versaclock5.c 697 */;
+	const struct i2c_device_id *cocci_id/* drivers/clk/clk-versaclock5.c 694 */;
+	struct i2c_client *cocci_id/* drivers/clk/clk-versaclock5.c 693 */;
+	const struct of_device_id cocci_id/* drivers/clk/clk-versaclock5.c 691 */[];
+	const unsigned int cocci_id/* drivers/clk/clk-versaclock5.c 677 */;
+	const enum vc5_model cocci_id/* drivers/clk/clk-versaclock5.c 676 */;
+	void *cocci_id/* drivers/clk/clk-versaclock5.c 665 */;
+	struct of_phandle_args *cocci_id/* drivers/clk/clk-versaclock5.c 664 */;
+	const struct clk_ops cocci_id/* drivers/clk/clk-versaclock5.c 657 */;
+	u8 cocci_id/* drivers/clk/clk-versaclock5.c 636 */;
+	unsigned int cocci_id/* drivers/clk/clk-versaclock5.c 617 */;
+	const u8 cocci_id/* drivers/clk/clk-versaclock5.c 610 */;
+	struct vc5_driver_data *cocci_id/* drivers/clk/clk-versaclock5.c 609 */;
+	struct vc5_hw_data cocci_id/* drivers/clk/clk-versaclock5.c 608 */;
+	struct vc5_hw_data *cocci_id/* drivers/clk/clk-versaclock5.c 608 */;
+	struct clk_hw *cocci_id/* drivers/clk/clk-versaclock5.c 606 */;
+	unsigned char cocci_id/* drivers/clk/clk-versaclock5.c 606 */;
+	void cocci_id/* drivers/clk/clk-versaclock5.c 596 */;
+	int cocci_id/* drivers/clk/clk-versaclock5.c 565 */;
+	u8 cocci_id/* drivers/clk/clk-versaclock5.c 533 */[14];
+	u64 cocci_id/* drivers/clk/clk-versaclock5.c 493 */;
+	u8 cocci_id/* drivers/clk/clk-versaclock5.c 477 */[4];
+	u8 cocci_id/* drivers/clk/clk-versaclock5.c 476 */[2];
+	u8 cocci_id/* drivers/clk/clk-versaclock5.c 407 */[5];
+	u32 cocci_id/* drivers/clk/clk-versaclock5.c 298 */;
+	unsigned long *cocci_id/* drivers/clk/clk-versaclock5.c 285 */;
+	long cocci_id/* drivers/clk/clk-versaclock5.c 284 */;
+	unsigned long cocci_id/* drivers/clk/clk-versaclock5.c 270 */;
+	const struct regmap_config cocci_id/* drivers/clk/clk-versaclock5.c 203 */;
+	bool cocci_id/* drivers/clk/clk-versaclock5.c 190 */;
+	struct device *cocci_id/* drivers/clk/clk-versaclock5.c 190 */;
+	const char *const cocci_id/* drivers/clk/clk-versaclock5.c 183 */[];
+	struct vc5_driver_data {
+		struct i2c_client *client;
+		struct regmap *regmap;
+		const struct vc5_chip_info *chip_info;
+		struct clk *pin_xin;
+		struct clk *pin_clkin;
+		unsigned char clk_mux_ins;
+		struct clk_hw clk_mux;
+		struct clk_hw clk_mul;
+		struct clk_hw clk_pfd;
+		struct vc5_hw_data clk_pll;
+		struct vc5_hw_data clk_fod[VC5_MAX_FOD_NUM];
+		struct vc5_hw_data clk_out[VC5_MAX_CLK_OUT_NUM];
+	} cocci_id/* drivers/clk/clk-versaclock5.c 147 */;
+	struct vc5_hw_data {
+		struct clk_hw hw;
+		struct vc5_driver_data *vc5;
+		u32 div_int;
+		u32 div_frc;
+		unsigned int num;
+	} cocci_id/* drivers/clk/clk-versaclock5.c 139 */;
+	struct vc5_driver_data cocci_id/* drivers/clk/clk-versaclock5.c 137 */;
+	struct vc5_chip_info {
+		const enum vc5_model model;
+		const unsigned int clk_fod_cnt;
+		const unsigned int clk_out_cnt;
+		const u32 flags;
+	} cocci_id/* drivers/clk/clk-versaclock5.c 130 */;
+	enum vc5_model{IDT_VC5_5P49V5923, IDT_VC5_5P49V5925, IDT_VC5_5P49V5933, IDT_VC5_5P49V5935, IDT_VC6_5P49V6901,} cocci_id/* drivers/clk/clk-versaclock5.c 121 */;
+}

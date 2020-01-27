@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct fb_fix_screeninfo cocci_id/* drivers/video/fbdev/fb-puv3.c 91 */;
+	void __exit cocci_id/* drivers/video/fbdev/fb-puv3.c 830 */;
+	int __init cocci_id/* drivers/video/fbdev/fb-puv3.c 818 */;
+	struct platform_driver cocci_id/* drivers/video/fbdev/fb-puv3.c 808 */;
+	pm_message_t cocci_id/* drivers/video/fbdev/fb-puv3.c 768 */;
+	const struct fb_var_screeninfo cocci_id/* drivers/video/fbdev/fb-puv3.c 69 */;
+	char __iomem *cocci_id/* drivers/video/fbdev/fb-puv3.c 688 */;
+	void *cocci_id/* drivers/video/fbdev/fb-puv3.c 669 */;
+	struct resource *cocci_id/* drivers/video/fbdev/fb-puv3.c 668 */;
+	u32 cocci_id/* drivers/video/fbdev/fb-puv3.c 666 */[UNIFB_REGS_NUM];
+	struct platform_device *cocci_id/* drivers/video/fbdev/fb-puv3.c 663 */;
+	struct fb_ops cocci_id/* drivers/video/fbdev/fb-puv3.c 647 */;
+	struct vm_area_struct *cocci_id/* drivers/video/fbdev/fb-puv3.c 640 */;
+	u_int cocci_id/* drivers/video/fbdev/fb-puv3.c 554 */;
+	struct clk *cocci_id/* drivers/video/fbdev/fb-puv3.c 471 */;
+	struct fb_info *cocci_id/* drivers/video/fbdev/fb-puv3.c 341 */;
+	struct fb_var_screeninfo *cocci_id/* drivers/video/fbdev/fb-puv3.c 340 */;
+	const struct fb_videomode cocci_id/* drivers/video/fbdev/fb-puv3.c 33 */[];
+	u_long cocci_id/* drivers/video/fbdev/fb-puv3.c 323 */;
+	int cocci_id/* drivers/video/fbdev/fb-puv3.c 323 */;
+	const struct fb_image *cocci_id/* drivers/video/fbdev/fb-puv3.c 318 */;
+	u32 cocci_id/* drivers/video/fbdev/fb-puv3.c 285 */;
+	struct fb_copyarea cocci_id/* drivers/video/fbdev/fb-puv3.c 284 */;
+	const struct fb_copyarea *cocci_id/* drivers/video/fbdev/fb-puv3.c 282 */;
+	void cocci_id/* drivers/video/fbdev/fb-puv3.c 282 */;
+	unsigned int cocci_id/* drivers/video/fbdev/fb-puv3.c 228 */;
+	struct fb_fillrect cocci_id/* drivers/video/fbdev/fb-puv3.c 178 */;
+	const struct fb_fillrect *cocci_id/* drivers/video/fbdev/fb-puv3.c 176 */;
+	u32 *cocci_id/* drivers/video/fbdev/fb-puv3.c 161 */;
+}

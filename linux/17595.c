@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	struct list_head *cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 973 */;
+	pgtable_t cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 971 */;
+	struct mm_struct *cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 970 */;
+	pmd_t cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 941 */;
+	struct vm_area_struct *cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 941 */;
+	void __meminit cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 915 */;
+	struct change_mapping_params cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 754 */;
+	struct change_mapping_params *cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 703 */;
+	struct change_mapping_params {
+		pte_t *pte;
+		unsigned long start;
+		unsigned long end;
+		unsigned long aligned_start;
+		unsigned long aligned_end;
+	} cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 693 */;
+	struct page *cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 585 */;
+	void __init cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 472 */;
+	struct mmu_psize_def *cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 451 */;
+	const __be32 *cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 431 */;
+	const char *cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 425 */;
+	phys_addr_t cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 41 */;
+	void *cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 38 */;
+	struct memblock_region *cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 315 */;
+	bool cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 259 */;
+	int __meminit cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 254 */;
+	char cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 234 */[10];
+	void __meminit cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 231 */;
+	pte_t *cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 119 */;
+	int __init cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 1185 */;
+	void cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 1185 */;
+	pmd_t *cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 118 */;
+	pud_t *cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 117 */;
+	pgd_t *cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 116 */;
+	pte_t cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 1151 */;
+	unsigned int cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 111 */;
+	pgprot_t cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 110 */;
+	p4d_t *cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 1096 */;
+	unsigned long cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 109 */;
+	int cocci_id/* arch/powerpc/mm/book3s64/radix_pgtable.c 109 */;
+}

@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	struct sk_buff *cocci_id/* net/vmw_vsock/virtio_transport_common.c 99 */;
+	void *cocci_id/* net/vmw_vsock/virtio_transport_common.c 99 */;
+	struct virtio_vsock_pkt cocci_id/* net/vmw_vsock/virtio_transport_common.c 912 */;
+	void cocci_id/* net/vmw_vsock/virtio_transport_common.c 806 */;
+	struct sock *cocci_id/* net/vmw_vsock/virtio_transport_common.c 798 */;
+	bool cocci_id/* net/vmw_vsock/virtio_transport_common.c 796 */;
+	struct vsock_sock *cocci_id/* net/vmw_vsock/virtio_transport_common.c 796 */;
+	struct vsock_sock cocci_id/* net/vmw_vsock/virtio_transport_common.c 777 */;
+	struct work_struct *cocci_id/* net/vmw_vsock/virtio_transport_common.c 774 */;
+	long cocci_id/* net/vmw_vsock/virtio_transport_common.c 735 */;
+	struct virtio_vsock_pkt_info cocci_id/* net/vmw_vsock/virtio_transport_common.c 624 */;
+	struct sockaddr_vm *cocci_id/* net/vmw_vsock/virtio_transport_common.c 610 */;
+	u64 cocci_id/* net/vmw_vsock/virtio_transport_common.c 591 */;
+	struct vsock_transport_send_notify_data *cocci_id/* net/vmw_vsock/virtio_transport_common.c 564 */;
+	ssize_t cocci_id/* net/vmw_vsock/virtio_transport_common.c 556 */;
+	struct vsock_transport_recv_notify_data *cocci_id/* net/vmw_vsock/virtio_transport_common.c 535 */;
+	int cocci_id/* net/vmw_vsock/virtio_transport_common.c 52 */;
+	bool *cocci_id/* net/vmw_vsock/virtio_transport_common.c 506 */;
+	u64 *cocci_id/* net/vmw_vsock/virtio_transport_common.c 489 */;
+	u32 cocci_id/* net/vmw_vsock/virtio_transport_common.c 46 */;
+	size_t cocci_id/* net/vmw_vsock/virtio_transport_common.c 45 */;
+	struct virtio_vsock_pkt_info *cocci_id/* net/vmw_vsock/virtio_transport_common.c 44 */;
+	s64 cocci_id/* net/vmw_vsock/virtio_transport_common.c 433 */;
+	struct virtio_vsock_pkt *cocci_id/* net/vmw_vsock/virtio_transport_common.c 43 */;
+	struct msghdr *cocci_id/* net/vmw_vsock/virtio_transport_common.c 413 */;
+	struct virtio_transport cocci_id/* net/vmw_vsock/virtio_transport_common.c 40 */;
+	const struct vsock_transport *cocci_id/* net/vmw_vsock/virtio_transport_common.c 35 */;
+	const struct virtio_transport *cocci_id/* net/vmw_vsock/virtio_transport_common.c 32 */;
+	struct virtio_vsock_hdr *cocci_id/* net/vmw_vsock/virtio_transport_common.c 273 */;
+	struct virtio_vsock_sock *cocci_id/* net/vmw_vsock/virtio_transport_common.c 231 */;
+	struct sockaddr_vm cocci_id/* net/vmw_vsock/virtio_transport_common.c 1094 */;
+	struct virtio_transport *cocci_id/* net/vmw_vsock/virtio_transport_common.c 1029 */;
+	struct af_vsockmon_hdr *cocci_id/* net/vmw_vsock/virtio_transport_common.c 102 */;
+}

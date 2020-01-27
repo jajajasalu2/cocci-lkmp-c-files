@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	struct mtk_afe_i2s_priv cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 994 */;
+	struct mt8183_afe_private *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 98 */;
+	const struct device_node *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 969 */;
+	struct mtk_afe_i2s_priv *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 95 */;
+	const struct mtk_afe_i2s_priv cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 933 */[DAI_I2S_NUM];
+	enum{DAI_I2S0=0, DAI_I2S1, DAI_I2S2, DAI_I2S3, DAI_I2S5, DAI_I2S_NUM,} cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 924 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 860 */[];
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 844 */;
+	const char *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 79 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 782 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 780 */;
+	struct mtk_base_afe *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 78 */;
+	int cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 78 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 704 */;
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 549 */[];
+	snd_pcm_format_t cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 54 */;
+	unsigned int cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 54 */;
+	struct snd_soc_dapm_widget *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 472 */;
+	struct mtk_afe_i2s_priv {
+		int id;
+		int rate;
+		int low_jitter_en;
+		const char *share_property_name;
+		int share_i2s_id;
+		int mclk_id;
+		int mclk_rate;
+		int mclk_apll;
+	} cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 41 */;
+	enum{I2S_IN_PAD_CONNSYS=0, I2S_IN_PAD_IO_MUX=1,} cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 36 */;
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 334 */[];
+	enum{I2S1_SEL_O28_O29=0, I2S1_SEL_O03_O04=1,} cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 31 */;
+	enum{SUPPLY_SEQ_APLL, SUPPLY_SEQ_I2S_MCLK_EN, SUPPLY_SEQ_I2S_HD_EN, SUPPLY_SEQ_I2S_EN,} cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 264 */;
+	enum{I2S_HD_NORMAL=0, I2S_HD_LOW_JITTER=1,} cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 26 */;
+	enum{I2S_WLEN_16_BIT=0, I2S_WLEN_32_BIT=1,} cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 21 */;
+	const struct snd_kcontrol_new cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 165 */[];
+	enum{I2S_FMT_EIAJ=0, I2S_FMT_I2S=1,} cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 16 */;
+	struct soc_enum *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 142 */;
+	struct snd_soc_component *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 120 */;
+	struct snd_ctl_elem_value *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 118 */;
+	struct snd_kcontrol *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 117 */;
+	const struct soc_enum cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 112 */[];
+	const char *const cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 108 */[];
+	struct mtk_base_afe_dai *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-i2s.c 1010 */;
+}

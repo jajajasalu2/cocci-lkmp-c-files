@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	unsigned char cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 79 */[4 * 15 - sizeof(struct iphdr)];
+	const struct iphdr *cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 40 */;
+	struct iphdr cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 39 */;
+	void __exit cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 381 */;
+	int cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 362 */;
+	int __init cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 360 */;
+	struct pernet_operations cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 355 */;
+	void __net_exit cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 350 */;
+	struct net *cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 35 */;
+	int __net_init cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 345 */;
+	struct nf_logger cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 338 */;
+	const char *cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 314 */;
+	const struct net_device *cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 311 */;
+	u_int8_t cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 309 */;
+	const unsigned char *cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 299 */;
+	unsigned int cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 277 */;
+	struct net_device *cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 276 */;
+	const struct sk_buff *cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 274 */;
+	const struct nf_loginfo *cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 273 */;
+	struct nf_log_buf *cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 272 */;
+	void cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 272 */;
+	const struct nf_loginfo cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 24 */;
+	const struct ip_esp_hdr *cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 223 */;
+	struct ip_esp_hdr cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 222 */;
+	const struct ip_auth_hdr *cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 200 */;
+	struct ip_auth_hdr cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 199 */;
+	const size_t cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 114 */[NR_ICMP_TYPES + 1];
+	const struct icmphdr *cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 113 */;
+	struct icmphdr cocci_id/* net/ipv4/netfilter/nf_log_ipv4.c 112 */;
+}

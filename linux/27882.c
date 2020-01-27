@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	struct dentry *cocci_id/* fs/overlayfs/copy_up.c 926 */;
+	void *cocci_id/* fs/overlayfs/copy_up.c 90 */;
+	bool cocci_id/* fs/overlayfs/copy_up.c 852 */;
+	const struct cred *cocci_id/* fs/overlayfs/copy_up.c 851 */;
+	struct ovl_copy_up_ctx cocci_id/* fs/overlayfs/copy_up.c 790 */;
+	ssize_t cocci_id/* fs/overlayfs/copy_up.c 740 */;
+	umode_t cocci_id/* fs/overlayfs/copy_up.c 717 */;
+	struct ovl_fs *cocci_id/* fs/overlayfs/copy_up.c 648 */;
+	struct ovl_cu_creds cocci_id/* fs/overlayfs/copy_up.c 595 */;
+	struct inode *cocci_id/* fs/overlayfs/copy_up.c 593 */;
+	struct ovl_cattr cocci_id/* fs/overlayfs/copy_up.c 531 */;
+	void cocci_id/* fs/overlayfs/copy_up.c 512 */;
+	struct ovl_cu_creds *cocci_id/* fs/overlayfs/copy_up.c 497 */;
+	struct ovl_cu_creds {
+		const struct cred *old;
+		struct cred *new;
+	} cocci_id/* fs/overlayfs/copy_up.c 492 */;
+	struct path cocci_id/* fs/overlayfs/copy_up.c 445 */;
+	struct ovl_copy_up_ctx *cocci_id/* fs/overlayfs/copy_up.c 436 */;
+	struct ovl_copy_up_ctx {
+		struct dentry *parent;
+		struct dentry *dentry;
+		struct path lowerpath;
+		struct kstat stat;
+		struct kstat pstat;
+		const char *link;
+		struct dentry *destdir;
+		struct qstr destname;
+		struct dentry *workdir;
+		bool origin;
+		bool indexed;
+		bool metacopy;
+	} cocci_id/* fs/overlayfs/copy_up.c 382 */;
+	struct qstr cocci_id/* fs/overlayfs/copy_up.c 335 */;
+	const struct kernel_param *cocci_id/* fs/overlayfs/copy_up.c 31 */;
+	char *cocci_id/* fs/overlayfs/copy_up.c 31 */;
+	int cocci_id/* fs/overlayfs/copy_up.c 31 */;
+	const struct ovl_fh *cocci_id/* fs/overlayfs/copy_up.c 283 */;
+	const char *cocci_id/* fs/overlayfs/copy_up.c 25 */;
+	uuid_t *cocci_id/* fs/overlayfs/copy_up.c 232 */;
+	struct ovl_fh *cocci_id/* fs/overlayfs/copy_up.c 227 */;
+	struct iattr cocci_id/* fs/overlayfs/copy_up.c 207 */;
+	struct kstat *cocci_id/* fs/overlayfs/copy_up.c 202 */;
+	long cocci_id/* fs/overlayfs/copy_up.c 150 */;
+	size_t cocci_id/* fs/overlayfs/copy_up.c 149 */;
+	struct file *cocci_id/* fs/overlayfs/copy_up.c 121 */;
+	loff_t cocci_id/* fs/overlayfs/copy_up.c 119 */;
+	struct path *cocci_id/* fs/overlayfs/copy_up.c 119 */;
+}

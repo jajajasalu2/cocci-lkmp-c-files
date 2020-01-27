@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct snd_info_buffer *cocci_id/* sound/pci/hda/hda_proc.c 93 */;
+	void cocci_id/* sound/pci/hda/hda_proc.c 93 */;
+	char cocci_id/* sound/pci/hda/hda_proc.c 907 */[32];
+	struct hda_pcm *cocci_id/* sound/pci/hda/hda_proc.c 78 */;
+	hda_nid_t *cocci_id/* sound/pci/hda/hda_proc.c 774 */;
+	struct snd_info_entry *cocci_id/* sound/pci/hda/hda_proc.c 738 */;
+	struct hdac_device *cocci_id/* sound/pci/hda/hda_proc.c 712 */;
+	u8 cocci_id/* sound/pci/hda/hda_proc.c 686 */[AC_MAX_DEV_LIST_LEN];
+	const hda_nid_t *cocci_id/* sound/pci/hda/hda_proc.c 604 */;
+	bool cocci_id/* sound/pci/hda/hda_proc.c 564 */;
+	struct hda_codec *cocci_id/* sound/pci/hda/hda_proc.c 564 */;
+	struct snd_kcontrol *cocci_id/* sound/pci/hda/hda_proc.c 53 */;
+	struct hda_nid_item *cocci_id/* sound/pci/hda/hda_proc.c 52 */;
+	struct snd_array *cocci_id/* sound/pci/hda/hda_proc.c 49 */;
+	unsigned char cocci_id/* sound/pci/hda/hda_proc.c 473 */;
+	int *cocci_id/* sound/pci/hda/hda_proc.c 306 */;
+	const char *const cocci_id/* sound/pci/hda/hda_proc.c 280 */[4];
+	const char *const cocci_id/* sound/pci/hda/hda_proc.c 257 */[];
+	const unsigned char cocci_id/* sound/pci/hda/hda_proc.c 252 */[];
+	unsigned int cocci_id/* sound/pci/hda/hda_proc.c 25 */;
+	const char *const cocci_id/* sound/pci/hda/hda_proc.c 249 */[7];
+	const char *const cocci_id/* sound/pci/hda/hda_proc.c 230 */[16];
+	u32 cocci_id/* sound/pci/hda/hda_proc.c 228 */;
+	const char *cocci_id/* sound/pci/hda/hda_proc.c 228 */;
+	char cocci_id/* sound/pci/hda/hda_proc.c 179 */[SND_PRINT_BITS_ADVISED_BUFSIZE];
+	int cocci_id/* sound/pci/hda/hda_proc.c 17 */;
+	unsigned int cocci_id/* sound/pci/hda/hda_proc.c 163 */[];
+	hda_nid_t cocci_id/* sound/pci/hda/hda_proc.c 112 */;
+}

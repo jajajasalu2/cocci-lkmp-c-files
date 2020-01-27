@@ -1,0 +1,60 @@
+cocci_test_suite() {
+	addr_type *cocci_id/* drivers/s390/block/dasd_diag.c 87 */;
+	union {
+		struct dasd_diag_init_io init_io;
+		struct dasd_diag_rw_io rw_io;
+	} cocci_id/* drivers/s390/block/dasd_diag.c 73 */;
+	unsigned long cocci_id/* drivers/s390/block/dasd_diag.c 72 */;
+	void *cocci_id/* drivers/s390/block/dasd_diag.c 70 */;
+	int cocci_id/* drivers/s390/block/dasd_diag.c 70 */;
+	void cocci_id/* drivers/s390/block/dasd_diag.c 674 */;
+	void __exit cocci_id/* drivers/s390/block/dasd_diag.c 673 */;
+	int __init cocci_id/* drivers/s390/block/dasd_diag.c 657 */;
+	const u8 cocci_id/* drivers/s390/block/dasd_diag.c 64 */[];
+	struct request_queue *cocci_id/* drivers/s390/block/dasd_diag.c 624 */;
+	struct irb *cocci_id/* drivers/s390/block/dasd_diag.c 612 */;
+	struct dasd_information2_t *cocci_id/* drivers/s390/block/dasd_diag.c 596 */;
+	struct dasd_diag_req {
+		unsigned int block_count;
+		struct dasd_diag_bio bio[0];
+	} cocci_id/* drivers/s390/block/dasd_diag.c 59 */;
+	struct dasd_diag_bio cocci_id/* drivers/s390/block/dasd_diag.c 538 */;
+	struct dasd_diag_req cocci_id/* drivers/s390/block/dasd_diag.c 537 */;
+	unsigned char cocci_id/* drivers/s390/block/dasd_diag.c 512 */;
+	sector_t cocci_id/* drivers/s390/block/dasd_diag.c 510 */;
+	struct dasd_diag_private {
+		struct dasd_diag_characteristics rdc_data;
+		struct dasd_diag_rw_io iob;
+		struct dasd_diag_init_io iib;
+		blocknum_t pt_block;
+		struct ccw_dev_id dev_id;
+	} cocci_id/* drivers/s390/block/dasd_diag.c 51 */;
+	unsigned int cocci_id/* drivers/s390/block/dasd_diag.c 509 */;
+	char *cocci_id/* drivers/s390/block/dasd_diag.c 508 */;
+	struct bio_vec cocci_id/* drivers/s390/block/dasd_diag.c 507 */;
+	struct req_iterator cocci_id/* drivers/s390/block/dasd_diag.c 506 */;
+	struct dasd_diag_bio *cocci_id/* drivers/s390/block/dasd_diag.c 505 */;
+	struct dasd_diag_req *cocci_id/* drivers/s390/block/dasd_diag.c 504 */;
+	struct request *cocci_id/* drivers/s390/block/dasd_diag.c 501 */;
+	struct dasd_block *cocci_id/* drivers/s390/block/dasd_diag.c 500 */;
+	struct dasd_device *cocci_id/* drivers/s390/block/dasd_diag.c 499 */;
+	struct dasd_ccw_req *cocci_id/* drivers/s390/block/dasd_diag.c 499 */;
+	struct dasd_discipline cocci_id/* drivers/s390/block/dasd_diag.c 49 */;
+	dasd_erp_fn_t cocci_id/* drivers/s390/block/dasd_diag.c 485 */;
+	struct hd_geometry *cocci_id/* drivers/s390/block/dasd_diag.c 475 */;
+	long cocci_id/* drivers/s390/block/dasd_diag.c 461 */;
+	struct dasd_diag_rw_io cocci_id/* drivers/s390/block/dasd_diag.c 407 */;
+	struct diag210 *cocci_id/* drivers/s390/block/dasd_diag.c 354 */;
+	struct dasd_diag_characteristics cocci_id/* drivers/s390/block/dasd_diag.c 352 */;
+	blocknum_t cocci_id/* drivers/s390/block/dasd_diag.c 324 */;
+	struct vtoc_cms_label *cocci_id/* drivers/s390/block/dasd_diag.c 320 */;
+	struct dasd_diag_characteristics *cocci_id/* drivers/s390/block/dasd_diag.c 319 */;
+	struct dasd_diag_private *cocci_id/* drivers/s390/block/dasd_diag.c 318 */;
+	struct dasd_ccw_req cocci_id/* drivers/s390/block/dasd_diag.c 289 */;
+	int *cocci_id/* drivers/s390/block/dasd_diag.c 265 */;
+	addr_t cocci_id/* drivers/s390/block/dasd_diag.c 240 */;
+	struct ext_code cocci_id/* drivers/s390/block/dasd_diag.c 233 */;
+	struct dasd_diag_init_io cocci_id/* drivers/s390/block/dasd_diag.c 111 */;
+	struct dasd_diag_init_io *cocci_id/* drivers/s390/block/dasd_diag.c 108 */;
+	blocknum_t *cocci_id/* drivers/s390/block/dasd_diag.c 105 */;
+}

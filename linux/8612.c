@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct ice_aqc_lldp_stop *cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 95 */;
+	struct ice_aqc_get_cee_dcb_cfg_resp cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 918 */;
+	void *cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 768 */;
+	struct ice_aqc_get_cee_dcb_cfg_resp *cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 761 */;
+	struct ice_aqc_lldp_stop_start_specific_agent *cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 726 */;
+	bool *cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 724 */;
+	struct ice_aq_desc cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 68 */;
+	struct ice_aqc_lldp_set_mib_change *cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 67 */;
+	struct ice_sq_cd *cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 65 */;
+	bool cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 64 */;
+	struct ice_hw *cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 64 */;
+	enum ice_status cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 63 */;
+	struct ice_cee_ctrl_tlv cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 564 */;
+	struct ice_cee_app_prio *cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 496 */;
+	struct ice_cee_feat_tlv *cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 493 */;
+	struct ice_aqc_lldp_get_mib *cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 26 */;
+	u16 *cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 23 */;
+	struct ice_aqc_lldp_set_local_mib *cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 151 */;
+	struct ice_aqc_get_elem cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 1365 */;
+	struct ice_sched_node *cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 1364 */;
+	struct ice_aqc_query_port_ets *cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 1339 */;
+	struct ice_aqc_port_ets_elem *cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 1336 */;
+	struct ice_port_info *cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 1335 */;
+	char *cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 1281 */;
+	u16 cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 1232 */;
+	struct ice_lldp_org_tlv *cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 1231 */;
+	struct ice_dcbx_cfg *cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 1231 */;
+	void cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 1230 */;
+	struct ice_aqc_lldp_start *cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 122 */;
+	u32 cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 1185 */;
+	u8 *cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 1184 */;
+	u8 cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 1183 */;
+	int cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 1025 */;
+	struct ice_dcb_ets_cfg *cocci_id/* drivers/net/ethernet/intel/ice/ice_dcb.c 1021 */;
+}

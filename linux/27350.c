@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	void __exit cocci_id/* fs/hfsplus/super.c 687 */;
+	int __init cocci_id/* fs/hfsplus/super.c 661 */;
+	struct file_system_type cocci_id/* fs/hfsplus/super.c 645 */;
+	const char *cocci_id/* fs/hfsplus/super.c 640 */;
+	struct file_system_type *cocci_id/* fs/hfsplus/super.c 639 */;
+	struct dentry *cocci_id/* fs/hfsplus/super.c 639 */;
+	struct hfsplus_inode_info cocci_id/* fs/hfsplus/super.c 637 */;
+	struct hfsplus_inode_info *cocci_id/* fs/hfsplus/super.c 626 */;
+	struct super_block *cocci_id/* fs/hfsplus/super.c 624 */;
+	struct inode *cocci_id/* fs/hfsplus/super.c 624 */;
+	struct kmem_cache *cocci_id/* fs/hfsplus/super.c 622 */;
+	unsigned long cocci_id/* fs/hfsplus/super.c 58 */;
+	u64 cocci_id/* fs/hfsplus/super.c 384 */;
+	struct nls_table *cocci_id/* fs/hfsplus/super.c 383 */;
+	struct qstr cocci_id/* fs/hfsplus/super.c 382 */;
+	struct hfs_find_data cocci_id/* fs/hfsplus/super.c 380 */;
+	hfsplus_cat_entry cocci_id/* fs/hfsplus/super.c 379 */;
+	struct hfsplus_vh *cocci_id/* fs/hfsplus/super.c 377 */;
+	void *cocci_id/* fs/hfsplus/super.c 375 */;
+	const struct super_operations cocci_id/* fs/hfsplus/super.c 363 */;
+	int *cocci_id/* fs/hfsplus/super.c 330 */;
+	char *cocci_id/* fs/hfsplus/super.c 330 */;
+	u32 cocci_id/* fs/hfsplus/super.c 323 */;
+	struct kstatfs *cocci_id/* fs/hfsplus/super.c 310 */;
+	struct hfsplus_sb_info cocci_id/* fs/hfsplus/super.c 252 */;
+	struct hfsplus_sb_info *cocci_id/* fs/hfsplus/super.c 250 */;
+	int cocci_id/* fs/hfsplus/super.c 249 */;
+	struct work_struct *cocci_id/* fs/hfsplus/super.c 247 */;
+	void cocci_id/* fs/hfsplus/super.c 247 */;
+	void cocci_id/* fs/hfsplus/super.c 22 */(struct inode *inode);
+	struct inode *cocci_id/* fs/hfsplus/super.c 21 */(struct super_block *sb);
+	struct writeback_control *cocci_id/* fs/hfsplus/super.c 148 */;
+	struct hfs_btree *cocci_id/* fs/hfsplus/super.c 105 */;
+	struct hfsplus_fork_raw *cocci_id/* fs/hfsplus/super.c 104 */;
+}

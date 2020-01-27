@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct ehv_bc_data cocci_id/* drivers/tty/ehv_bytechan.c 757 */;
+	struct device_node *cocci_id/* drivers/tty/ehv_bytechan.c 739 */;
+	struct platform_driver cocci_id/* drivers/tty/ehv_bytechan.c 723 */;
+	const struct of_device_id cocci_id/* drivers/tty/ehv_bytechan.c 718 */[];
+	const uint32_t *cocci_id/* drivers/tty/ehv_bytechan.c 656 */;
+	struct platform_device *cocci_id/* drivers/tty/ehv_bytechan.c 652 */;
+	const struct tty_port_operations cocci_id/* drivers/tty/ehv_bytechan.c 647 */;
+	struct tty_port *cocci_id/* drivers/tty/ehv_bytechan.c 605 */;
+	struct ehv_bc_data *cocci_id/* drivers/tty/ehv_bytechan.c 60 */;
+	const struct tty_operations cocci_id/* drivers/tty/ehv_bytechan.c 588 */;
+	struct tty_struct *cocci_id/* drivers/tty/ehv_bytechan.c 509 */;
+	struct file *cocci_id/* drivers/tty/ehv_bytechan.c 509 */;
+	unsigned long cocci_id/* drivers/tty/ehv_bytechan.c 458 */;
+	const unsigned char *cocci_id/* drivers/tty/ehv_bytechan.c 454 */;
+	struct ehv_bc_data {
+		struct device *dev;
+		struct tty_port port;
+		uint32_t handle;
+		unsigned int rx_irq;
+		unsigned int tx_irq;
+		spinlock_t lock;
+		unsigned char buf[BUF_SIZE];
+		unsigned int head;
+		unsigned int tail;
+		int tx_irq_enabled;
+	} cocci_id/* drivers/tty/ehv_bytechan.c 44 */;
+	irqreturn_t cocci_id/* drivers/tty/ehv_bytechan.c 332 */;
+	void *cocci_id/* drivers/tty/ehv_bytechan.c 332 */;
+	int __init cocci_id/* drivers/tty/ehv_bytechan.c 295 */;
+	struct console cocci_id/* drivers/tty/ehv_bytechan.c 280 */;
+	struct tty_driver *cocci_id/* drivers/tty/ehv_bytechan.c 273 */;
+	struct console *cocci_id/* drivers/tty/ehv_bytechan.c 273 */;
+	int *cocci_id/* drivers/tty/ehv_bytechan.c 273 */;
+	char cocci_id/* drivers/tty/ehv_bytechan.c 248 */;
+	char cocci_id/* drivers/tty/ehv_bytechan.c 246 */[EV_BYTE_CHANNEL_MAX_BYTES];
+	const char *cocci_id/* drivers/tty/ehv_bytechan.c 215 */;
+	unsigned int cocci_id/* drivers/tty/ehv_bytechan.c 215 */;
+	void __init cocci_id/* drivers/tty/ehv_bytechan.c 185 */;
+	int cocci_id/* drivers/tty/ehv_bytechan.c 153 */;
+	const char cocci_id/* drivers/tty/ehv_bytechan.c 151 */;
+	void cocci_id/* drivers/tty/ehv_bytechan.c 151 */;
+}

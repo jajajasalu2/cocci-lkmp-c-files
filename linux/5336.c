@@ -1,0 +1,64 @@
+cocci_test_suite() {
+	char *__unusedcocci_id/* drivers/base/power/domain.c 902 */;
+	struct gpd_timing_data *cocci_id/* drivers/base/power/domain.c 831 */;
+	bool (*cocci_id/* drivers/base/power/domain.c 756 */)(struct device *__dev);
+	int (*cocci_id/* drivers/base/power/domain.c 728 */)(struct device *__dev);
+	const struct genpd_lock_ops cocci_id/* drivers/base/power/domain.c 72 */;
+	struct generic_pm_domain cocci_id/* drivers/base/power/domain.c 692 */;
+	struct work_struct *cocci_id/* drivers/base/power/domain.c 688 */;
+	struct generic_pm_domain_data cocci_id/* drivers/base/power/domain.c 650 */;
+	unsigned long cocci_id/* drivers/base/power/domain.c 645 */;
+	struct notifier_block *cocci_id/* drivers/base/power/domain.c 644 */;
+	enum pm_qos_flags_status cocci_id/* drivers/base/power/domain.c 520 */;
+	s64 cocci_id/* drivers/base/power/domain.c 445 */;
+	ktime_t cocci_id/* drivers/base/power/domain.c 444 */;
+	struct genpd_lock_ops {
+		void (*lock)(struct generic_pm_domain *genpd);
+		void (*lock_nested)(struct generic_pm_domain *genpd,
+				    int depth);
+		int (*lock_interruptible)(struct generic_pm_domain *genpd);
+		void (*unlock)(struct generic_pm_domain *genpd);
+	} cocci_id/* drivers/base/power/domain.c 44 */;
+	type cocci_id/* drivers/base/power/domain.c 32 */;
+	type (*cocci_id/* drivers/base/power/domain.c 31 */)(struct device *__d);
+	void __exit cocci_id/* drivers/base/power/domain.c 3046 */;
+	struct dentry *cocci_id/* drivers/base/power/domain.c 3014 */;
+	const char *cocci_id/* drivers/base/power/domain.c 2968 */;
+	struct seq_file *cocci_id/* drivers/base/power/domain.c 2916 */;
+	void *cocci_id/* drivers/base/power/domain.c 2916 */;
+	char cocci_id/* drivers/base/power/domain.c 2773 */[16];
+	const char *constcocci_id/* drivers/base/power/domain.c 2766 */[];
+	int __init cocci_id/* drivers/base/power/domain.c 2717 */;
+	void cocci_id/* drivers/base/power/domain.c 2717 */;
+	struct dev_pm_opp *cocci_id/* drivers/base/power/domain.c 2699 */;
+	struct genpd_power_state **cocci_id/* drivers/base/power/domain.c 2653 */;
+	int *cocci_id/* drivers/base/power/domain.c 2653 */;
+	struct of_phandle_iterator cocci_id/* drivers/base/power/domain.c 2612 */;
+	u32 cocci_id/* drivers/base/power/domain.c 2578 */;
+	const struct of_device_id cocci_id/* drivers/base/power/domain.c 2569 */[];
+	struct gpd_link *cocci_id/* drivers/base/power/domain.c 245 */;
+	struct pm_domain_data *cocci_id/* drivers/base/power/domain.c 244 */;
+	struct generic_pm_domain_data *cocci_id/* drivers/base/power/domain.c 243 */;
+	struct generic_pm_domain *cocci_id/* drivers/base/power/domain.c 2408 */;
+	struct of_phandle_args cocci_id/* drivers/base/power/domain.c 2407 */;
+	bool cocci_id/* drivers/base/power/domain.c 2405 */;
+	unsigned int cocci_id/* drivers/base/power/domain.c 2405 */;
+	struct device *cocci_id/* drivers/base/power/domain.c 2404 */;
+	int cocci_id/* drivers/base/power/domain.c 2404 */;
+	struct bus_type cocci_id/* drivers/base/power/domain.c 2346 */;
+	struct of_phandle_args *cocci_id/* drivers/base/power/domain.c 2214 */;
+	struct of_genpd_provider *cocci_id/* drivers/base/power/domain.c 1995 */;
+	genpd_xlate_t cocci_id/* drivers/base/power/domain.c 1992 */;
+	struct device_node *cocci_id/* drivers/base/power/domain.c 1992 */;
+	struct genpd_onecell_data *cocci_id/* drivers/base/power/domain.c 1969 */;
+	struct of_genpd_provider {
+		struct list_head link;
+		struct device_node *node;
+		genpd_xlate_t xlate;
+		void *data;
+	} cocci_id/* drivers/base/power/domain.c 1927 */;
+	struct dev_power_governor *cocci_id/* drivers/base/power/domain.c 1766 */;
+	struct genpd_power_state *cocci_id/* drivers/base/power/domain.c 1725 */;
+	int cocci_id/* drivers/base/power/domain.c 152 */(struct device *dev);
+	const struct generic_pm_domain *cocci_id/* drivers/base/power/domain.c 1198 */;
+}

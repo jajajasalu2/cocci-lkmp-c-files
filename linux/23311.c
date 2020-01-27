@@ -1,0 +1,100 @@
+cocci_test_suite() {
+	struct spi_driver cocci_id/* sound/soc/codecs/wm0010.c 990 */;
+	struct wm0010_priv {
+		struct snd_soc_component *component;
+		struct mutex lock;
+		struct device *dev;
+		struct wm0010_pdata pdata;
+		int gpio_reset;
+		int gpio_reset_value;
+		struct regulator_bulk_data core_supplies[2];
+		struct regulator *dbvdd;
+		int sysclk;
+		enum wm0010_state state;
+		bool boot_failed;
+		bool ready;
+		bool pll_running;
+		int max_spi_freq;
+		int board_max_spi_speed;
+		u32 pll_clkctrl1;
+		spinlock_t irq_lock;
+		int irq;
+		struct completion boot_completion;
+	} cocci_id/* sound/soc/codecs/wm0010.c 89 */;
+	irqreturn_t cocci_id/* sound/soc/codecs/wm0010.c 840 */;
+	enum wm0010_state{WM0010_POWER_OFF, WM0010_OUT_OF_RESET, WM0010_BOOTROM, WM0010_STAGE2, WM0010_FIRMWARE,} cocci_id/* sound/soc/codecs/wm0010.c 81 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/codecs/wm0010.c 803 */[];
+	const struct snd_soc_component_driver cocci_id/* sound/soc/codecs/wm0010.c 785 */;
+	int cocci_id/* sound/soc/codecs/wm0010.c 783 */(struct snd_soc_component *component);
+	unsigned int cocci_id/* sound/soc/codecs/wm0010.c 762 */;
+	enum snd_soc_bias_level cocci_id/* sound/soc/codecs/wm0010.c 736 */;
+	struct pll_clock_map {
+		int max_sysclk;
+		int max_pll_spi_speed;
+		u32 pll_clkctrl1;
+	} cocci_id/* sound/soc/codecs/wm0010.c 68 */[];
+	u8 *cocci_id/* sound/soc/codecs/wm0010.c 581 */;
+	u32 *cocci_id/* sound/soc/codecs/wm0010.c 579 */;
+	struct dfw_pllrec cocci_id/* sound/soc/codecs/wm0010.c 578 */;
+	struct spi_transfer cocci_id/* sound/soc/codecs/wm0010.c 577 */;
+	struct spi_message cocci_id/* sound/soc/codecs/wm0010.c 576 */;
+	unsigned long cocci_id/* sound/soc/codecs/wm0010.c 574 */;
+	struct wm0010_priv *cocci_id/* sound/soc/codecs/wm0010.c 573 */;
+	struct spi_device *cocci_id/* sound/soc/codecs/wm0010.c 572 */;
+	struct snd_soc_component *cocci_id/* sound/soc/codecs/wm0010.c 570 */;
+	struct dfw_pllrec {
+		u8 command;
+		u32 length:24;
+		u32 address;
+		u32 clkctrl1;
+		u32 clkctrl2;
+		u32 clkctrl3;
+		u32 ldetctrl;
+		u32 uart_div;
+		u32 spi_div;
+	}__packed cocci_id/* sound/soc/codecs/wm0010.c 56 */;
+	struct dfw_inforec {
+		u8 info_version;
+		u8 tool_major_version;
+		u8 tool_minor_version;
+		u8 dsp_target;
+	} cocci_id/* sound/soc/codecs/wm0010.c 49 */;
+	struct wm0010_boot_xfer cocci_id/* sound/soc/codecs/wm0010.c 483 */;
+	struct dfw_binrec {
+		u8 command;
+		u32 length:24;
+		u32 address;
+		uint8_t data[0];
+	}__packed cocci_id/* sound/soc/codecs/wm0010.c 42 */;
+	const struct dfw_inforec *cocci_id/* sound/soc/codecs/wm0010.c 352 */;
+	const struct dfw_binrec *cocci_id/* sound/soc/codecs/wm0010.c 351 */;
+	const struct firmware *cocci_id/* sound/soc/codecs/wm0010.c 350 */;
+	struct completion cocci_id/* sound/soc/codecs/wm0010.c 349 */;
+	struct list_head cocci_id/* sound/soc/codecs/wm0010.c 346 */;
+	const char *cocci_id/* sound/soc/codecs/wm0010.c 342 */;
+	enum dfw_cmd{DFW_CMD_FUSE=0x01, DFW_CMD_CODE_HDR, DFW_CMD_CODE_DATA, DFW_CMD_PLL, DFW_CMD_INFO=0xff,} cocci_id/* sound/soc/codecs/wm0010.c 34 */;
+	int cocci_id/* sound/soc/codecs/wm0010.c 336 */;
+	u32 cocci_id/* sound/soc/codecs/wm0010.c 334 */;
+	u64 *cocci_id/* sound/soc/codecs/wm0010.c 334 */;
+	void cocci_id/* sound/soc/codecs/wm0010.c 334 */;
+	struct wm0010_boot_xfer *cocci_id/* sound/soc/codecs/wm0010.c 217 */;
+	void *cocci_id/* sound/soc/codecs/wm0010.c 215 */;
+	struct wm0010_boot_xfer {
+		struct list_head list;
+		struct snd_soc_component *component;
+		struct completion *done;
+		struct spi_message m;
+		struct spi_transfer t;
+	} cocci_id/* sound/soc/codecs/wm0010.c 191 */;
+	enum wm0010_state cocci_id/* sound/soc/codecs/wm0010.c 161 */;
+	const char *const cocci_id/* sound/soc/codecs/wm0010.c 143 */[];
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/codecs/wm0010.c 131 */[];
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/codecs/wm0010.c 127 */[];
+	struct wm0010_spi_msg {
+		struct spi_message m;
+		struct spi_transfer t;
+		u8 *tx_buf;
+		u8 *rx_buf;
+		size_t len;
+	} cocci_id/* sound/soc/codecs/wm0010.c 119 */;
+}

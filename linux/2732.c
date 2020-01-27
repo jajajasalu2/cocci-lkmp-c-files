@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* drivers/i2c/busses/i2c-zx2967.c 75 */;
+	struct platform_driver cocci_id/* drivers/i2c/busses/i2c-zx2967.c 591 */;
+	struct zx2967_i2c {
+		struct i2c_adapter adap;
+		struct clk *clk;
+		struct completion complete;
+		u32 clk_freq;
+		void __iomem *reg_base;
+		size_t residue;
+		int irq;
+		int msg_rd;
+		u8 *cur_trans;
+		u8 access_cnt;
+		int error;
+	} cocci_id/* drivers/i2c/busses/i2c-zx2967.c 55 */;
+	struct clk *cocci_id/* drivers/i2c/busses/i2c-zx2967.c 506 */;
+	struct resource *cocci_id/* drivers/i2c/busses/i2c-zx2967.c 505 */;
+	void __iomem *cocci_id/* drivers/i2c/busses/i2c-zx2967.c 504 */;
+	struct platform_device *cocci_id/* drivers/i2c/busses/i2c-zx2967.c 501 */;
+	const struct of_device_id cocci_id/* drivers/i2c/busses/i2c-zx2967.c 495 */[];
+	const struct i2c_adapter_quirks cocci_id/* drivers/i2c/busses/i2c-zx2967.c 491 */;
+	const struct i2c_algorithm cocci_id/* drivers/i2c/busses/i2c-zx2967.c 485 */;
+	struct device *cocci_id/* drivers/i2c/busses/i2c-zx2967.c 472 */;
+	int __maybe_unused cocci_id/* drivers/i2c/busses/i2c-zx2967.c 472 */;
+	struct i2c_adapter *cocci_id/* drivers/i2c/busses/i2c-zx2967.c 450 */;
+	u8 cocci_id/* drivers/i2c/busses/i2c-zx2967.c 425 */;
+	union i2c_smbus_data *cocci_id/* drivers/i2c/busses/i2c-zx2967.c 425 */;
+	unsigned short cocci_id/* drivers/i2c/busses/i2c-zx2967.c 424 */;
+	char cocci_id/* drivers/i2c/busses/i2c-zx2967.c 424 */;
+	u8 cocci_id/* drivers/i2c/busses/i2c-zx2967.c 362 */[2];
+	struct i2c_msg *cocci_id/* drivers/i2c/busses/i2c-zx2967.c 306 */;
+	u16 cocci_id/* drivers/i2c/busses/i2c-zx2967.c 229 */;
+	irqreturn_t cocci_id/* drivers/i2c/busses/i2c-zx2967.c 207 */;
+	void *cocci_id/* drivers/i2c/busses/i2c-zx2967.c 207 */;
+	u8 *cocci_id/* drivers/i2c/busses/i2c-zx2967.c 153 */;
+	size_t cocci_id/* drivers/i2c/busses/i2c-zx2967.c 152 */;
+	u8 cocci_id/* drivers/i2c/busses/i2c-zx2967.c 130 */[I2C_FIFO_MAX];
+	u32 cocci_id/* drivers/i2c/busses/i2c-zx2967.c 128 */;
+	struct zx2967_i2c *cocci_id/* drivers/i2c/busses/i2c-zx2967.c 128 */;
+	int cocci_id/* drivers/i2c/busses/i2c-zx2967.c 128 */;
+	void cocci_id/* drivers/i2c/busses/i2c-zx2967.c 111 */;
+}

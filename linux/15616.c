@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct whc_std cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 800 */;
+	struct whc_std *cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 800 */;
+	struct whc_qtd *cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 798 */;
+	void cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 797 */;
+	bool cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 751 */;
+	uint32_t cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 750 */;
+	u32 cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 719 */;
+	int cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 719 */;
+	struct wusbhc *cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 702 */;
+	uint16_t cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 70 */;
+	size_t cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 665 */;
+	struct whc_urb cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 640 */;
+	u64 cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 636 */;
+	struct whc_urb *cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 634 */;
+	void *cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 552 */;
+	struct whc_page_list_entry cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 501 */;
+	uint8_t cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 47 */;
+	struct usb_wireless_ep_comp_descriptor *cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 45 */;
+	struct wusb_dev *cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 44 */;
+	dma_addr_t cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 432 */;
+	struct whc_page_list_entry *cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 431 */;
+	struct usb_device *cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 43 */;
+	struct scatterlist *cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 427 */;
+	unsigned long cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 389 */;
+	struct work_struct *cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 384 */;
+	enum whc_update cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 177 */;
+	gfp_t cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 147 */;
+	struct whc_qset *cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 146 */;
+	struct whc *cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 146 */;
+	struct urb *cocci_id/* drivers/staging/wusbcore/host/whci/qset.c 146 */;
+}

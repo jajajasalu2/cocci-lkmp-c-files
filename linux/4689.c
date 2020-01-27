@@ -1,0 +1,56 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/misc/pti.c 967 */;
+	int __init cocci_id/* drivers/misc/pti.c 911 */;
+	struct pci_driver cocci_id/* drivers/misc/pti.c 894 */;
+	struct tty_port *cocci_id/* drivers/misc/pti.c 847 */;
+	u32 cocci_id/* drivers/misc/pti.c 837 */;
+	const struct pci_device_id *cocci_id/* drivers/misc/pti.c 792 */;
+	struct pci_dev *cocci_id/* drivers/misc/pti.c 791 */;
+	unsigned int cocci_id/* drivers/misc/pti.c 79 */;
+	const struct tty_port_operations cocci_id/* drivers/misc/pti.c 770 */;
+	struct pti_dev *cocci_id/* drivers/misc/pti.c 77 */;
+	struct tty_struct *cocci_id/* drivers/misc/pti.c 747 */;
+	struct console cocci_id/* drivers/misc/pti.c 724 */;
+	const struct pci_device_id cocci_id/* drivers/misc/pti.c 71 */[];
+	char *cocci_id/* drivers/misc/pti.c 707 */;
+	struct tty_driver *cocci_id/* drivers/misc/pti.c 692 */;
+	struct console *cocci_id/* drivers/misc/pti.c 692 */;
+	int *cocci_id/* drivers/misc/pti.c 692 */;
+	unsigned cocci_id/* drivers/misc/pti.c 670 */;
+	void cocci_id/* drivers/misc/pti.c 670 */;
+	struct miscdevice cocci_id/* drivers/misc/pti.c 657 */;
+	const struct file_operations cocci_id/* drivers/misc/pti.c 650 */;
+	const struct tty_operations cocci_id/* drivers/misc/pti.c 641 */;
+	void *cocci_id/* drivers/misc/pti.c 605 */;
+	loff_t *cocci_id/* drivers/misc/pti.c 602 */;
+	size_t cocci_id/* drivers/misc/pti.c 602 */;
+	const char __user *cocci_id/* drivers/misc/pti.c 601 */;
+	ssize_t cocci_id/* drivers/misc/pti.c 601 */;
+	struct inode *cocci_id/* drivers/misc/pti.c 546 */;
+	struct file *cocci_id/* drivers/misc/pti.c 546 */;
+	struct pti_dev {
+		struct tty_port port[PTITTY_MINOR_NUM];
+		unsigned long pti_addr;
+		unsigned long aperture_base;
+		void __iomem *pti_ioaddr;
+		u8 ia_app[MAX_APP_IDS];
+		u8 ia_os[MAX_OS_IDS];
+		u8 ia_modem[MAX_MODEM_IDS];
+	} cocci_id/* drivers/misc/pti.c 54 */;
+	const unsigned char *cocci_id/* drivers/misc/pti.c 509 */;
+	struct pti_tty {
+		struct pti_masterchannel *mc;
+	} cocci_id/* drivers/misc/pti.c 50 */;
+	struct pti_tty *cocci_id/* drivers/misc/pti.c 487 */;
+	struct pti_tty cocci_id/* drivers/misc/pti.c 460 */;
+	u8 cocci_id/* drivers/misc/pti.c 338 */;
+	struct pti_masterchannel cocci_id/* drivers/misc/pti.c 241 */;
+	const char *cocci_id/* drivers/misc/pti.c 236 */;
+	int cocci_id/* drivers/misc/pti.c 234 */;
+	u8 *cocci_id/* drivers/misc/pti.c 233 */;
+	struct pti_masterchannel *cocci_id/* drivers/misc/pti.c 233 */;
+	u8 cocci_id/* drivers/misc/pti.c 169 */[CONTROL_FRAME_LEN];
+	char cocci_id/* drivers/misc/pti.c 164 */[TASK_COMM_LEN];
+	u32 *cocci_id/* drivers/misc/pti.c 125 */;
+	u32 __iomem *cocci_id/* drivers/misc/pti.c 107 */;
+}

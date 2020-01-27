@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	struct shrinker cocci_id/* drivers/android/binder_alloc.c 989 */;
+	struct shrinker *cocci_id/* drivers/android/binder_alloc.c 973 */;
+	struct shrink_control *cocci_id/* drivers/android/binder_alloc.c 973 */;
+	struct vm_area_struct *cocci_id/* drivers/android/binder_alloc.c 920 */;
+	uintptr_t cocci_id/* drivers/android/binder_alloc.c 918 */;
+	struct binder_lru_page cocci_id/* drivers/android/binder_alloc.c 915 */;
+	struct binder_lru_page *cocci_id/* drivers/android/binder_alloc.c 914 */;
+	struct mm_struct *cocci_id/* drivers/android/binder_alloc.c 913 */;
+	spinlock_t *cocci_id/* drivers/android/binder_alloc.c 909 */;
+	struct list_lru_one *cocci_id/* drivers/android/binder_alloc.c 908 */;
+	enum lru_status cocci_id/* drivers/android/binder_alloc.c 907 */;
+	struct list_head *cocci_id/* drivers/android/binder_alloc.c 907 */;
+	struct seq_file *cocci_id/* drivers/android/binder_alloc.c 819 */;
+	bool cocci_id/* drivers/android/binder_alloc.c 775 */;
+	void __user *cocci_id/* drivers/android/binder_alloc.c 774 */;
+	struct binder_buffer cocci_id/* drivers/android/binder_alloc.c 750 */;
+	struct rb_node *cocci_id/* drivers/android/binder_alloc.c 741 */;
+	void cocci_id/* drivers/android/binder_alloc.c 739 */;
+	const char *cocci_id/* drivers/android/binder_alloc.c 681 */;
+	struct binder_buffer *cocci_id/* drivers/android/binder_alloc.c 61 */;
+	struct binder_alloc *cocci_id/* drivers/android/binder_alloc.c 60 */;
+	size_t cocci_id/* drivers/android/binder_alloc.c 60 */;
+	u8 __user *cocci_id/* drivers/android/binder_alloc.c 472 */;
+	uint32_t cocci_id/* drivers/android/binder_alloc.c 39 */;
+	enum{BINDER_DEBUG_USER_ERROR=1U << 0, BINDER_DEBUG_OPEN_CLOSE=1U << 1, BINDER_DEBUG_BUFFER_ALLOC=1U << 2, BINDER_DEBUG_BUFFER_ALLOC_ASYNC=1U << 3,} cocci_id/* drivers/android/binder_alloc.c 33 */;
+	struct list_lru cocci_id/* drivers/android/binder_alloc.c 29 */;
+	binder_size_t cocci_id/* drivers/android/binder_alloc.c 1185 */;
+	void *cocci_id/* drivers/android/binder_alloc.c 1183 */;
+	int cocci_id/* drivers/android/binder_alloc.c 1182 */;
+	pgoff_t cocci_id/* drivers/android/binder_alloc.c 1114 */;
+	struct page *cocci_id/* drivers/android/binder_alloc.c 1113 */;
+	const void __user *cocci_id/* drivers/android/binder_alloc.c 1104 */;
+	unsigned long cocci_id/* drivers/android/binder_alloc.c 1100 */;
+	pgoff_t *cocci_id/* drivers/android/binder_alloc.c 1075 */;
+	struct rb_node **cocci_id/* drivers/android/binder_alloc.c 104 */;
+}

@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	char *cocci_id/* block/partitions/efi.c 99 */;
+	int __init cocci_id/* block/partitions/efi.c 98 */;
+	u8 cocci_id/* block/partitions/efi.c 718 */;
+	struct partition_meta_info *cocci_id/* block/partitions/efi.c 694 */;
+	sector_t cocci_id/* block/partitions/efi.c 590 */;
+	legacy_mbr *cocci_id/* block/partitions/efi.c 589 */;
+	gpt_entry **cocci_id/* block/partitions/efi.c 584 */;
+	gpt_header **cocci_id/* block/partitions/efi.c 583 */;
+	unsigned long long cocci_id/* block/partitions/efi.c 491 */;
+	int cocci_id/* block/partitions/efi.c 485 */;
+	void cocci_id/* block/partitions/efi.c 482 */;
+	const u64 cocci_id/* block/partitions/efi.c 463 */;
+	const gpt_entry *cocci_id/* block/partitions/efi.c 463 */;
+	gpt_entry cocci_id/* block/partitions/efi.c 418 */;
+	const unsigned char *cocci_id/* block/partitions/efi.c 377 */;
+	gpt_header cocci_id/* block/partitions/efi.c 367 */;
+	unsigned cocci_id/* block/partitions/efi.c 312 */;
+	u64 cocci_id/* block/partitions/efi.c 309 */;
+	u8 *cocci_id/* block/partitions/efi.c 291 */;
+	size_t cocci_id/* block/partitions/efi.c 276 */;
+	gpt_header *cocci_id/* block/partitions/efi.c 274 */;
+	gpt_entry *cocci_id/* block/partitions/efi.c 273 */;
+	struct parsed_partitions *cocci_id/* block/partitions/efi.c 273 */;
+	unsigned char *cocci_id/* block/partitions/efi.c 250 */;
+	Sector cocci_id/* block/partitions/efi.c 249 */;
+	uint32_t cocci_id/* block/partitions/efi.c 176 */;
+	gpt_mbr_record *cocci_id/* block/partitions/efi.c 142 */;
+	struct block_device *cocci_id/* block/partitions/efi.c 134 */;
+	const void *cocci_id/* block/partitions/efi.c 120 */;
+	unsigned long cocci_id/* block/partitions/efi.c 120 */;
+	u32 cocci_id/* block/partitions/efi.c 119 */;
+}

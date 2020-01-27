@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct physmap_flash_data cocci_id/* arch/arm/mach-omap1/board-osk.c 99 */;
+	struct mtd_partition cocci_id/* arch/arm/mach-omap1/board-osk.c 72 */[];
+	u32 cocci_id/* arch/arm/mach-omap1/board-osk.c 558 */;
+	void __init cocci_id/* arch/arm/mach-omap1/board-osk.c 556 */;
+	irqreturn_t cocci_id/* arch/arm/mach-omap1/board-osk.c 444 */;
+	struct spi_board_info __initdata cocci_id/* arch/arm/mach-omap1/board-osk.c 434 */[];
+	const struct ads7846_platform_data cocci_id/* arch/arm/mach-omap1/board-osk.c 426 */;
+	int cocci_id/* arch/arm/mach-omap1/board-osk.c 421 */;
+	void cocci_id/* arch/arm/mach-omap1/board-osk.c 421 */;
+	struct platform_device *cocci_id/* arch/arm/mach-omap1/board-osk.c 414 */[]__initdata;
+	struct gpio_led_platform_data cocci_id/* arch/arm/mach-omap1/board-osk.c 401 */;
+	const struct gpio_led cocci_id/* arch/arm/mach-omap1/board-osk.c 388 */[];
+	struct platform_device cocci_id/* arch/arm/mach-omap1/board-osk.c 375 */;
+	struct omap_backlight_config cocci_id/* arch/arm/mach-omap1/board-osk.c 371 */;
+	struct omap_kp_platform_data cocci_id/* arch/arm/mach-omap1/board-osk.c 346 */;
+	const struct matrix_keymap_data cocci_id/* arch/arm/mach-omap1/board-osk.c 341 */;
+	const unsigned int cocci_id/* arch/arm/mach-omap1/board-osk.c 328 */[];
+	struct i2c_board_info __initdata cocci_id/* arch/arm/mach-omap1/board-osk.c 317 */[];
+	const struct property_entry cocci_id/* arch/arm/mach-omap1/board-osk.c 312 */[];
+	const struct omap_lcd_config cocci_id/* arch/arm/mach-omap1/board-osk.c 298 */;
+	struct omap_usb_config cocci_id/* arch/arm/mach-omap1/board-osk.c 281 */;
+	struct tps65010_board cocci_id/* arch/arm/mach-omap1/board-osk.c 235 */;
+	struct i2c_client *cocci_id/* arch/arm/mach-omap1/board-osk.c 192 */;
+	void *cocci_id/* arch/arm/mach-omap1/board-osk.c 158 */;
+	struct resource cocci_id/* arch/arm/mach-omap1/board-osk.c 148 */[];
+	struct smc91x_platdata cocci_id/* arch/arm/mach-omap1/board-osk.c 121 */;
+	struct resource cocci_id/* arch/arm/mach-omap1/board-osk.c 106 */;
+	const struct machine_desc cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 397 */;
+}

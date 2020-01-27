@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct of_reconfig_data *cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 998 */;
+	void *cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 996 */;
+	unsigned long cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 996 */;
+	struct notifier_block *cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 995 */;
+	const char *cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 957 */;
+	size_t cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 957 */;
+	struct pseries_hp_errorlog *cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 918 */;
+	struct device *cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 902 */;
+	struct rtas_args cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 88 */;
+	u32 *cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 843 */;
+	struct property *cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 842 */;
+	int cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 658 */;
+	u32 cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 654 */;
+	struct device_node *cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 654 */;
+	char *cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 54 */;
+	ssize_t cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 539 */;
+	bool cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 49 */;
+	struct of_drc_info cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 471 */;
+	enum cpu_state_vals cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 47 */;
+	const __be32 *cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 346 */;
+	unsigned int cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 344 */;
+	cpumask_var_t cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 246 */;
+	u8 cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 106 */;
+	int __init cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 1034 */;
+	void cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 1024 */;
+	char cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 1022 */[CEDE_LATENCY_PARAM_MAX_LENGTH];
+	char cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 1019 */;
+	struct notifier_block cocci_id/* arch/powerpc/platforms/pseries/hotplug-cpu.c 1012 */;
+	__typeof__(enum cpu_state_vals) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	const struct regmap_config cocci_id/* sound/soc/codecs/adav80x.c 866 */;
+	struct adav80x *cocci_id/* sound/soc/codecs/adav80x.c 849 */;
+	struct regmap *cocci_id/* sound/soc/codecs/adav80x.c 847 */;
+	struct device *cocci_id/* sound/soc/codecs/adav80x.c 847 */;
+	int cocci_id/* sound/soc/codecs/adav80x.c 847 */;
+	const struct snd_soc_component_driver cocci_id/* sound/soc/codecs/adav80x.c 828 */;
+	struct snd_soc_dapm_context *cocci_id/* sound/soc/codecs/adav80x.c 804 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/codecs/adav80x.c 761 */[];
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/codecs/adav80x.c 745 */;
+	struct snd_soc_component *cocci_id/* sound/soc/codecs/adav80x.c 738 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/codecs/adav80x.c 736 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/codecs/adav80x.c 735 */;
+	void cocci_id/* sound/soc/codecs/adav80x.c 735 */;
+	enum snd_soc_bias_level cocci_id/* sound/soc/codecs/adav80x.c 698 */;
+	unsigned int cocci_id/* sound/soc/codecs/adav80x.c 518 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/codecs/adav80x.c 514 */;
+	unsigned int cocci_id/* sound/soc/codecs/adav80x.c 360 */[2][2];
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/adav80x.c 342 */[];
+	struct snd_ctl_elem_value *cocci_id/* sound/soc/codecs/adav80x.c 330 */;
+	struct snd_kcontrol *cocci_id/* sound/soc/codecs/adav80x.c 329 */;
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/codecs/adav80x.c 245 */[];
+	struct snd_soc_dapm_widget *cocci_id/* sound/soc/codecs/adav80x.c 235 */;
+	const char *cocci_id/* sound/soc/codecs/adav80x.c 216 */;
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/codecs/adav80x.c 183 */[];
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/adav80x.c 173 */;
+	const unsigned int cocci_id/* sound/soc/codecs/adav80x.c 160 */[];
+	const char *cocci_id/* sound/soc/codecs/adav80x.c 154 */[];
+	struct adav80x {
+		struct regmap *regmap;
+		enum adav80x_clk_src clk_src;
+		unsigned int sysclk;
+		enum adav80x_pll_src pll_src;
+		unsigned int dai_fmt[2];
+		unsigned int rate;
+		bool deemph;
+		bool sysclk_pd[3];
+	} cocci_id/* sound/soc/codecs/adav80x.c 141 */;
+	const struct reg_default cocci_id/* sound/soc/codecs/adav80x.c 115 */[];
+}

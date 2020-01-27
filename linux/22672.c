@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct snd_device_ops cocci_id/* sound/i2c/other/ak4114.c 74 */;
+	struct ak4114 **cocci_id/* sound/i2c/other/ak4114.c 69 */;
+	void *cocci_id/* sound/i2c/other/ak4114.c 69 */;
+	const unsigned char cocci_id/* sound/i2c/other/ak4114.c 68 */[6];
+	const unsigned char cocci_id/* sound/i2c/other/ak4114.c 68 */[5];
+	ak4114_write_t *cocci_id/* sound/i2c/other/ak4114.c 67 */;
+	ak4114_read_t *cocci_id/* sound/i2c/other/ak4114.c 67 */;
+	struct snd_card *cocci_id/* sound/i2c/other/ak4114.c 66 */;
+	struct ak4114 cocci_id/* sound/i2c/other/ak4114.c 603 */;
+	struct work_struct *cocci_id/* sound/i2c/other/ak4114.c 601 */;
+	struct snd_device *cocci_id/* sound/i2c/other/ak4114.c 59 */;
+	unsigned long cocci_id/* sound/i2c/other/ak4114.c 556 */;
+	struct snd_pcm_runtime *cocci_id/* sound/i2c/other/ak4114.c 555 */;
+	struct snd_kcontrol *cocci_id/* sound/i2c/other/ak4114.c 461 */;
+	struct snd_pcm_substream *cocci_id/* sound/i2c/other/ak4114.c 458 */;
+	int cocci_id/* sound/i2c/other/ak4114.c 457 */;
+	struct snd_info_buffer *cocci_id/* sound/i2c/other/ak4114.c 440 */;
+	struct snd_info_entry *cocci_id/* sound/i2c/other/ak4114.c 439 */;
+	struct snd_kcontrol_new cocci_id/* sound/i2c/other/ak4114.c 321 */[];
+	unsigned short cocci_id/* sound/i2c/other/ak4114.c 291 */;
+	void cocci_id/* sound/i2c/other/ak4114.c 25 */(struct ak4114 *chip);
+	void cocci_id/* sound/i2c/other/ak4114.c 24 */(struct work_struct *work);
+	unsigned cocci_id/* sound/i2c/other/ak4114.c 235 */;
+	struct snd_ctl_elem_value *cocci_id/* sound/i2c/other/ak4114.c 194 */;
+	struct snd_ctl_elem_info *cocci_id/* sound/i2c/other/ak4114.c 169 */;
+	unsigned int cocci_id/* sound/i2c/other/ak4114.c 154 */;
+	unsigned char cocci_id/* sound/i2c/other/ak4114.c 125 */;
+	struct ak4114 *cocci_id/* sound/i2c/other/ak4114.c 123 */;
+	void cocci_id/* sound/i2c/other/ak4114.c 123 */;
+}

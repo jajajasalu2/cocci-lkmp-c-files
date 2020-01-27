@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	enum iwl_scan_type cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 923 */;
+	int __must_check cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 921 */;
+	struct cfg80211_scan_info cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 80 */;
+	bool cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 78 */;
+	struct iwl_scan_channel cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 636 */;
+	u32 cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 623 */;
+	struct iwl_scan_cmd *cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 621 */;
+	struct iwl_scan_cmd cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 619 */;
+	u8 *cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 572 */;
+	u8 cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 569 */;
+	u16 cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 567 */;
+	const u8 *cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 567 */;
+	struct ieee80211_mgmt *cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 567 */;
+	struct ieee80211_channel *cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 499 */;
+	__le32 *cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 47 */;
+	const struct ieee80211_supported_band *cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 463 */;
+	struct iwl_scan_channel *cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 461 */;
+	struct ieee80211_vif *cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 459 */;
+	struct iwl_rxon_context *cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 435 */;
+	struct ieee80211_supported_band *cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 434 */;
+	struct iwl_host_cmd cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 43 */;
+	int cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 365 */[NUM_IWL_RXON_CTX];
+	enum nl80211_band cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 352 */;
+	struct iwl_scancomplete_notification *cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 294 */;
+	struct iwl_scanresults_notification *cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 272 */;
+	struct iwl_scanstart_notification *cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 253 */;
+	struct iwl_scanreq_notification *cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 242 */;
+	void *cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 242 */;
+	struct iwl_rx_packet *cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 241 */;
+	struct iwl_rx_cmd_buffer *cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 238 */;
+	unsigned long cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 204 */;
+	int cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 167 */;
+	struct iwl_priv cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 1022 */;
+	struct iwl_priv *cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 1022 */;
+	struct work_struct *cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 1020 */;
+	void cocci_id/* drivers/net/wireless/intel/iwlwifi/dvm/scan.c 1020 */;
+}

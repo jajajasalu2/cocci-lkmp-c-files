@@ -1,0 +1,72 @@
+cocci_test_suite() {
+	const char *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 976 */;
+	long cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 954 */;
+	char cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 953 */[ASCII85_BUFSZ];
+	struct a6xx_gpu_state cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 911 */;
+	struct msm_gpu_state cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 909 */;
+	struct msm_gpu_state *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 908 */;
+	struct a6xx_state_memobj *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 907 */;
+	struct kref *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 905 */;
+	struct a6xx_crashdumper cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 867 */;
+	void *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 83 */;
+	const struct a6xx_indexed_registers *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 811 */;
+	struct a6xx_state_memobj {
+		struct list_head node;
+		unsigned long long data[];
+	} cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 78 */;
+	const void *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 730 */;
+	struct a6xx_gmu *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 724 */;
+	struct a6xx_gpu *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 723 */;
+	struct adreno_gpu *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 722 */;
+	struct a6xx_gpu_state_obj *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 720 */;
+	struct a6xx_crashdumper {
+		void *ptr;
+		struct drm_gem_object *bo;
+		u64 iova;
+	} cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 72 */;
+	const struct a6xx_registers *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 719 */;
+	struct a6xx_gpu_state *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 718 */;
+	struct msm_gpu *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 717 */;
+	void cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 717 */;
+	u64 *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 64 */;
+	int cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 64 */;
+	const struct a6xx_shader_block *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 566 */;
+	u64 cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 56 */;
+	u32 cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 56 */;
+	size_t cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 503 */;
+	const struct a6xx_cluster *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 497 */;
+	const struct a6xx_dbgahb_cluster *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 429 */;
+	struct resource *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 321 */;
+	u32 *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 306 */;
+	const struct a6xx_debugbus_block *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 302 */;
+	void __iomem *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 300 */;
+	void *__iomem cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 183 */;
+	struct a6xx_gpu_state {
+		struct msm_gpu_state base;
+		struct a6xx_gpu_state_obj *gmu_registers;
+		int nr_gmu_registers;
+		struct a6xx_gpu_state_obj *registers;
+		int nr_registers;
+		struct a6xx_gpu_state_obj *shaders;
+		int nr_shaders;
+		struct a6xx_gpu_state_obj *clusters;
+		int nr_clusters;
+		struct a6xx_gpu_state_obj *dbgahb_clusters;
+		int nr_dbgahb_clusters;
+		struct a6xx_gpu_state_obj *indexed_regs;
+		int nr_indexed_regs;
+		struct a6xx_gpu_state_obj *debugbus;
+		int nr_debugbus;
+		struct a6xx_gpu_state_obj *vbif_debugbus;
+		struct a6xx_gpu_state_obj *cx_debugbus;
+		int nr_cx_debugbus;
+		struct list_head objs;
+	} cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 16 */;
+	struct a6xx_crashdumper *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 113 */;
+	struct drm_printer *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 1115 */;
+	struct a6xx_gpu_state_obj {
+		const void *handle;
+		u32 *data;
+	} cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 11 */;
+	const u32 *cocci_id/* drivers/gpu/drm/msm/adreno/a6xx_gpu_state.c 1006 */;
+}

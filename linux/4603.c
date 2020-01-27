@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	void *cocci_id/* drivers/misc/genwqe/card_base.c 900 */;
+	u32 cocci_id/* drivers/misc/genwqe/card_base.c 632 */;
+	u64 cocci_id/* drivers/misc/genwqe/card_base.c 628 */;
+	u64 *cocci_id/* drivers/misc/genwqe/card_base.c 612 */;
+	const struct pci_device_id cocci_id/* drivers/misc/genwqe/card_base.c 51 */[];
+	struct genwqe_dev *cocci_id/* drivers/misc/genwqe/card_base.c 48 */[GENWQE_CARD_NO_MAX];
+	struct dentry *cocci_id/* drivers/misc/genwqe/card_base.c 47 */;
+	struct class *cocci_id/* drivers/misc/genwqe/card_base.c 46 */;
+	char cocci_id/* drivers/misc/genwqe/card_base.c 45 */[];
+	struct genwqe_reg cocci_id/* drivers/misc/genwqe/card_base.c 382 */;
+	const int cocci_id/* drivers/misc/genwqe/card_base.c 295 */[];
+	u16 cocci_id/* drivers/misc/genwqe/card_base.c 294 */;
+	struct genwqe_dev *cocci_id/* drivers/misc/genwqe/card_base.c 292 */;
+	int cocci_id/* drivers/misc/genwqe/card_base.c 292 */;
+	bool cocci_id/* drivers/misc/genwqe/card_base.c 239 */;
+	void __iomem *cocci_id/* drivers/misc/genwqe/card_base.c 178 */;
+	struct pci_dev *cocci_id/* drivers/misc/genwqe/card_base.c 177 */;
+	void __exit cocci_id/* drivers/misc/genwqe/card_base.c 1390 */;
+	int __init cocci_id/* drivers/misc/genwqe/card_base.c 1359 */;
+	umode_t *cocci_id/* drivers/misc/genwqe/card_base.c 1349 */;
+	struct device *cocci_id/* drivers/misc/genwqe/card_base.c 1349 */;
+	char *cocci_id/* drivers/misc/genwqe/card_base.c 1349 */;
+	struct pci_driver cocci_id/* drivers/misc/genwqe/card_base.c 1334 */;
+	struct pci_error_handlers cocci_id/* drivers/misc/genwqe/card_base.c 1327 */;
+	struct genwqe_dev cocci_id/* drivers/misc/genwqe/card_base.c 125 */;
+	enum pci_channel_state cocci_id/* drivers/misc/genwqe/card_base.c 1243 */;
+	pci_ers_result_t cocci_id/* drivers/misc/genwqe/card_base.c 1242 */;
+	const struct pci_device_id *cocci_id/* drivers/misc/genwqe/card_base.c 1164 */;
+	unsigned int cocci_id/* drivers/misc/genwqe/card_base.c 115 */;
+	void cocci_id/* drivers/misc/genwqe/card_base.c 113 */;
+}

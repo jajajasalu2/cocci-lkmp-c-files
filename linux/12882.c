@@ -1,0 +1,65 @@
+cocci_test_suite() {
+	struct dimm_info *cocci_id/* drivers/edac/ghes_edac.c 92 */;
+	u16 cocci_id/* drivers/edac/ghes_edac.c 90 */;
+	struct mem_ctl_info *cocci_id/* drivers/edac/ghes_edac.c 90 */;
+	int cocci_id/* drivers/edac/ghes_edac.c 90 */;
+	int *cocci_id/* drivers/edac/ghes_edac.c 84 */;
+	const struct dmi_header *cocci_id/* drivers/edac/ghes_edac.c 82 */;
+	void *cocci_id/* drivers/edac/ghes_edac.c 82 */;
+	void cocci_id/* drivers/edac/ghes_edac.c 82 */;
+	struct ghes_edac_dimm_fill {
+		struct mem_ctl_info *mci;
+		unsigned int count;
+	} cocci_id/* drivers/edac/ghes_edac.c 77 */;
+	struct memdev_dmi_entry {
+		u8 type;
+		u8 length;
+		u16 handle;
+		u16 phys_mem_array_handle;
+		u16 mem_err_info_handle;
+		u16 total_width;
+		u16 data_width;
+		u16 size;
+		u8 form_factor;
+		u8 device_set;
+		u8 device_locator;
+		u8 bank_locator;
+		u8 memory_type;
+		u16 type_detail;
+		u16 speed;
+		u8 manufacturer;
+		u8 serial_number;
+		u8 asset_tag;
+		u8 part_number;
+		u8 attributes;
+		u32 extended_size;
+		u16 conf_mem_clk_speed;
+	}__attribute__((__packed__)) cocci_id/* drivers/edac/ghes_edac.c 52 */;
+	struct ghes_edac_pvt cocci_id/* drivers/edac/ghes_edac.c 501 */;
+	bool __read_mostly cocci_id/* drivers/edac/ghes_edac.c 48 */;
+	unsigned long cocci_id/* drivers/edac/ghes_edac.c 467 */;
+	struct ghes_edac_dimm_fill cocci_id/* drivers/edac/ghes_edac.c 466 */;
+	struct edac_mc_layer cocci_id/* drivers/edac/ghes_edac.c 465 */[1];
+	struct ghes_edac_pvt *cocci_id/* drivers/edac/ghes_edac.c 464 */;
+	bool cocci_id/* drivers/edac/ghes_edac.c 461 */;
+	struct ghes *cocci_id/* drivers/edac/ghes_edac.c 459 */;
+	struct device *cocci_id/* drivers/edac/ghes_edac.c 459 */;
+	struct acpi_platform_list cocci_id/* drivers/edac/ghes_edac.c 454 */[];
+	u64 cocci_id/* drivers/edac/ghes_edac.c 373 */;
+	const char *cocci_id/* drivers/edac/ghes_edac.c 348 */;
+	refcount_t cocci_id/* drivers/edac/ghes_edac.c 28 */;
+	long long cocci_id/* drivers/edac/ghes_edac.c 257 */;
+	char *cocci_id/* drivers/edac/ghes_edac.c 209 */;
+	struct edac_raw_error_desc *cocci_id/* drivers/edac/ghes_edac.c 205 */;
+	enum hw_event_mc_err_type cocci_id/* drivers/edac/ghes_edac.c 204 */;
+	struct cper_sec_mem_err *cocci_id/* drivers/edac/ghes_edac.c 202 */;
+	struct ghes_edac_pvt {
+		struct list_head list;
+		struct ghes *ghes;
+		struct mem_ctl_info *mci;
+		char other_detail[400];
+		char msg[80];
+	} cocci_id/* drivers/edac/ghes_edac.c 18 */;
+	struct memdev_dmi_entry *cocci_id/* drivers/edac/ghes_edac.c 108 */;
+	struct ghes_edac_dimm_fill *cocci_id/* drivers/edac/ghes_edac.c 104 */;
+}

@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct tegra_mc cocci_id/* drivers/memory/tegra/mc.c 98 */;
+	struct reset_controller_dev *cocci_id/* drivers/memory/tegra/mc.c 96 */;
+	const struct tegra_mc_reset_ops cocci_id/* drivers/memory/tegra/mc.c 89 */;
+	void cocci_id/* drivers/memory/tegra/mc.c 749 */;
+	struct platform_driver cocci_id/* drivers/memory/tegra/mc.c 738 */;
+	const struct dev_pm_ops cocci_id/* drivers/memory/tegra/mc.c 733 */;
+	struct device *cocci_id/* drivers/memory/tegra/mc.c 719 */;
+	bool cocci_id/* drivers/memory/tegra/mc.c 61 */;
+	u64 cocci_id/* drivers/memory/tegra/mc.c 599 */;
+	struct resource *cocci_id/* drivers/memory/tegra/mc.c 596 */;
+	struct platform_device *cocci_id/* drivers/memory/tegra/mc.c 594 */;
+	u8 cocci_id/* drivers/memory/tegra/mc.c 538 */;
+	phys_addr_t cocci_id/* drivers/memory/tegra/mc.c 536 */;
+	const char *cocci_id/* drivers/memory/tegra/mc.c 533 */;
+	unsigned int cocci_id/* drivers/memory/tegra/mc.c 525 */;
+	unsigned long cocci_id/* drivers/memory/tegra/mc.c 524 */;
+	irqreturn_t cocci_id/* drivers/memory/tegra/mc.c 521 */;
+	void *cocci_id/* drivers/memory/tegra/mc.c 521 */;
+	const struct tegra_mc_reset *cocci_id/* drivers/memory/tegra/mc.c 46 */;
+	char cocci_id/* drivers/memory/tegra/mc.c 441 */[7];
+	const char *const cocci_id/* drivers/memory/tegra/mc.c 417 */[8];
+	const char *const cocci_id/* drivers/memory/tegra/mc.c 404 */[32];
+	u32 cocci_id/* drivers/memory/tegra/mc.c 318 */;
+	struct device_node *cocci_id/* drivers/memory/tegra/mc.c 315 */;
+	struct tegra_mc_timing *cocci_id/* drivers/memory/tegra/mc.c 314 */;
+	struct tegra_mc *cocci_id/* drivers/memory/tegra/mc.c 313 */;
+	int cocci_id/* drivers/memory/tegra/mc.c 313 */;
+	const struct tegra_mc_la *cocci_id/* drivers/memory/tegra/mc.c 263 */;
+	unsigned long long cocci_id/* drivers/memory/tegra/mc.c 248 */;
+	const struct reset_control_ops cocci_id/* drivers/memory/tegra/mc.c 223 */;
+	const struct of_device_id cocci_id/* drivers/memory/tegra/mc.c 22 */[];
+	const struct tegra_mc_reset_ops *cocci_id/* drivers/memory/tegra/mc.c 117 */;
+}

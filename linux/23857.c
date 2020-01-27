@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	void __exit cocci_id/* net/sched/sch_mqprio.c 635 */;
+	int __init cocci_id/* net/sched/sch_mqprio.c 630 */;
+	struct mqprio_sched cocci_id/* net/sched/sch_mqprio.c 622 */;
+	struct Qdisc_ops cocci_id/* net/sched/sch_mqprio.c 619 */;
+	const struct Qdisc_class_ops cocci_id/* net/sched/sch_mqprio.c 609 */;
+	struct qdisc_walker *cocci_id/* net/sched/sch_mqprio.c 569 */;
+	struct gnet_stats_queue __percpu *cocci_id/* net/sched/sch_mqprio.c 533 */;
+	struct gnet_stats_basic_cpu __percpu *cocci_id/* net/sched/sch_mqprio.c 532 */;
+	struct netdev_tc_txq cocci_id/* net/sched/sch_mqprio.c 519 */;
+	struct gnet_stats_basic_packed cocci_id/* net/sched/sch_mqprio.c 517 */;
+	struct gnet_stats_queue cocci_id/* net/sched/sch_mqprio.c 516 */;
+	struct gnet_dump *cocci_id/* net/sched/sch_mqprio.c 509 */;
+	struct netdev_queue *cocci_id/* net/sched/sch_mqprio.c 492 */;
+	struct tcmsg *cocci_id/* net/sched/sch_mqprio.c 489 */;
+	unsigned long cocci_id/* net/sched/sch_mqprio.c 488 */;
+	u32 cocci_id/* net/sched/sch_mqprio.c 469 */;
+	struct tc_mqprio_qopt_offload cocci_id/* net/sched/sch_mqprio.c 45 */;
+	__u32 cocci_id/* net/sched/sch_mqprio.c 406 */;
+	struct tc_mqprio_qopt cocci_id/* net/sched/sch_mqprio.c 388 */;
+	struct nlattr *cocci_id/* net/sched/sch_mqprio.c 346 */;
+	struct tc_mqprio_qopt *cocci_id/* net/sched/sch_mqprio.c 344 */;
+	struct sk_buff *cocci_id/* net/sched/sch_mqprio.c 344 */;
+	struct mqprio_sched *cocci_id/* net/sched/sch_mqprio.c 343 */;
+	int cocci_id/* net/sched/sch_mqprio.c 343 */;
+	struct netlink_ext_ack *cocci_id/* net/sched/sch_mqprio.c 321 */;
+	struct Qdisc **cocci_id/* net/sched/sch_mqprio.c 321 */;
+	unsigned int cocci_id/* net/sched/sch_mqprio.c 294 */;
+	struct net_device *cocci_id/* net/sched/sch_mqprio.c 291 */;
+	struct Qdisc *cocci_id/* net/sched/sch_mqprio.c 289 */;
+	void cocci_id/* net/sched/sch_mqprio.c 289 */;
+	struct mqprio_sched {
+		struct Qdisc **qdiscs;
+		u16 mode;
+		u16 shaper;
+		int hw_offload;
+		u32 flags;
+		u64 min_rate[TC_QOPT_MAX_QUEUE];
+		u64 max_rate[TC_QOPT_MAX_QUEUE];
+	} cocci_id/* net/sched/sch_mqprio.c 20 */;
+	u64 *cocci_id/* net/sched/sch_mqprio.c 197 */;
+	u16 *cocci_id/* net/sched/sch_mqprio.c 179 */;
+	struct nlattr *cocci_id/* net/sched/sch_mqprio.c 142 */[TCA_MQPRIO_MAX + 1];
+	const struct nla_policy *cocci_id/* net/sched/sch_mqprio.c 120 */;
+	struct nlattr *cocci_id/* net/sched/sch_mqprio.c 119 */[];
+	u16 cocci_id/* net/sched/sch_mqprio.c 113 */;
+	const struct nla_policy cocci_id/* net/sched/sch_mqprio.c 112 */[TCA_MQPRIO_MAX + 1];
+}

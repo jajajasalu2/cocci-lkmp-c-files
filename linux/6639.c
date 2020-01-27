@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	struct fc_els_rec cocci_id/* drivers/scsi/qedf/qedf_els.c 979 */;
+	struct qedf_rport *cocci_id/* drivers/scsi/qedf/qedf_els.c 9 */;
+	unsigned int cocci_id/* drivers/scsi/qedf/qedf_els.c 9 */;
+	int cocci_id/* drivers/scsi/qedf/qedf_els.c 9 */;
+	bool cocci_id/* drivers/scsi/qedf/qedf_els.c 836 */;
+	struct scsi_cmnd *cocci_id/* drivers/scsi/qedf/qedf_els.c 835 */;
+	struct fc_els_rec_acc *cocci_id/* drivers/scsi/qedf/qedf_els.c 832 */;
+	struct fc_els_ls_rjt *cocci_id/* drivers/scsi/qedf/qedf_els.c 831 */;
+	enum fc_rctl cocci_id/* drivers/scsi/qedf/qedf_els.c 830 */;
+	struct qedf_els_cb_arg cocci_id/* drivers/scsi/qedf/qedf_els.c 696 */;
+	u8 cocci_id/* drivers/scsi/qedf/qedf_els.c 682 */;
+	u32 cocci_id/* drivers/scsi/qedf/qedf_els.c 682 */;
+	void cocci_id/* drivers/scsi/qedf/qedf_els.c 681 */;
+	struct fcp_srr cocci_id/* drivers/scsi/qedf/qedf_els.c 610 */;
+	struct fc_els_adisc *cocci_id/* drivers/scsi/qedf/qedf_els.c 487 */;
+	struct fc_frame_header cocci_id/* drivers/scsi/qedf/qedf_els.c 456 */;
+	struct fc_frame *cocci_id/* drivers/scsi/qedf/qedf_els.c 408 */;
+	struct fc_rport_priv *cocci_id/* drivers/scsi/qedf/qedf_els.c 352 */;
+	u16 cocci_id/* drivers/scsi/qedf/qedf_els.c 25 */;
+	unsigned long cocci_id/* drivers/scsi/qedf/qedf_els.c 24 */;
+	struct fcoe_wqe *cocci_id/* drivers/scsi/qedf/qedf_els.c 23 */;
+	struct fc_els_rrq cocci_id/* drivers/scsi/qedf/qedf_els.c 221 */;
+	uint16_t cocci_id/* drivers/scsi/qedf/qedf_els.c 22 */;
+	struct e4_fcoe_task_context *cocci_id/* drivers/scsi/qedf/qedf_els.c 19 */;
+	struct fc_frame_header *cocci_id/* drivers/scsi/qedf/qedf_els.c 18 */;
+	struct qedf_mp_req *cocci_id/* drivers/scsi/qedf/qedf_els.c 17 */;
+	struct qedf_ioreq *cocci_id/* drivers/scsi/qedf/qedf_els.c 16 */;
+	struct fc_lport *cocci_id/* drivers/scsi/qedf/qedf_els.c 15 */;
+	struct fcoe_cqe_midpath_info *cocci_id/* drivers/scsi/qedf/qedf_els.c 145 */;
+	struct fcoe_cqe *cocci_id/* drivers/scsi/qedf/qedf_els.c 142 */;
+	struct qedf_ctx *cocci_id/* drivers/scsi/qedf/qedf_els.c 14 */;
+	struct fcoe_wqe cocci_id/* drivers/scsi/qedf/qedf_els.c 121 */;
+	struct qedf_els_cb_arg *cocci_id/* drivers/scsi/qedf/qedf_els.c 12 */;
+	void (*cocci_id/* drivers/scsi/qedf/qedf_els.c 11 */)(struct qedf_els_cb_arg *cb_arg);
+	uint32_t cocci_id/* drivers/scsi/qedf/qedf_els.c 10 */;
+	void *cocci_id/* drivers/scsi/qedf/qedf_els.c 10 */;
+}

@@ -1,0 +1,47 @@
+cocci_test_suite() {
+	const struct proto_ops cocci_id/* net/caif/caif_socket.c 970 */;
+	poll_table *cocci_id/* net/caif/caif_socket.c 938 */;
+	__poll_t cocci_id/* net/caif/caif_socket.c 937 */;
+	struct file *cocci_id/* net/caif/caif_socket.c 937 */;
+	struct sockaddr_caif cocci_id/* net/caif/caif_socket.c 808 */;
+	struct sockaddr cocci_id/* net/caif/caif_socket.c 758 */;
+	struct net_device *cocci_id/* net/caif/caif_socket.c 753 */;
+	unsigned int cocci_id/* net/caif/caif_socket.c 752 */;
+	long cocci_id/* net/caif/caif_socket.c 749 */;
+	struct socket *cocci_id/* net/caif/caif_socket.c 744 */;
+	struct sockaddr *cocci_id/* net/caif/caif_socket.c 744 */;
+	int cocci_id/* net/caif/caif_socket.c 744 */;
+	char __user *cocci_id/* net/caif/caif_socket.c 673 */;
+	void *cocci_id/* net/caif/caif_socket.c 59 */;
+	struct caif_payload_info cocci_id/* net/caif/caif_socket.c 506 */;
+	int *cocci_id/* net/caif/caif_socket.c 465 */;
+	struct caifsock {
+		struct sock sk;
+		struct cflayer layer;
+		u32 flow_state;
+		struct caif_connect_request conn_req;
+		struct mutex readlock;
+		struct dentry *debugfs_socket_dir;
+		int headroom,tailroom,maxframe;
+	} cocci_id/* net/caif/caif_socket.c 46 */;
+	enum caif_states{CAIF_CONNECTED=TCP_ESTABLISHED, CAIF_CONNECTING=TCP_SYN_SENT, CAIF_DISCONNECTED=TCP_CLOSE,} cocci_id/* net/caif/caif_socket.c 37 */;
+	size_t cocci_id/* net/caif/caif_socket.c 272 */;
+	struct msghdr *cocci_id/* net/caif/caif_socket.c 271 */;
+	struct caifsock cocci_id/* net/caif/caif_socket.c 256 */;
+	struct caifsock *cocci_id/* net/caif/caif_socket.c 256 */;
+	struct sock *cocci_id/* net/caif/caif_socket.c 254 */;
+	void cocci_id/* net/caif/caif_socket.c 254 */;
+	enum caif_ctrlcmd cocci_id/* net/caif/caif_socket.c 195 */;
+	struct cflayer *cocci_id/* net/caif/caif_socket.c 194 */;
+	struct cfpkt *cocci_id/* net/caif/caif_socket.c 165 */;
+	bool cocci_id/* net/caif/caif_socket.c 130 */;
+	struct sk_buff_head *cocci_id/* net/caif/caif_socket.c 128 */;
+	unsigned long cocci_id/* net/caif/caif_socket.c 127 */;
+	struct sk_buff *cocci_id/* net/caif/caif_socket.c 124 */;
+	void __exit cocci_id/* net/caif/caif_socket.c 1119 */;
+	int __init cocci_id/* net/caif/caif_socket.c 1114 */;
+	const struct net_proto_family cocci_id/* net/caif/caif_socket.c 1108 */;
+	unsigned char cocci_id/* net/caif/caif_socket.c 1068 */;
+	struct proto cocci_id/* net/caif/caif_socket.c 1032 */;
+	struct net *cocci_id/* net/caif/caif_socket.c 1027 */;
+}

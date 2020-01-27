@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 99 */;
+	const struct media_pad *cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 98 */;
+	struct media_entity *cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 97 */;
+	struct fimc_isp_ctrls *cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 690 */;
+	struct v4l2_ctrl_handler *cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 688 */;
+	const struct v4l2_ctrl_ops *cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 687 */;
+	struct fimc_isp *cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 669 */;
+	void cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 669 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 665 */;
+	const u32 *cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 62 */;
+	const u8 cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 565 */[][2];
+	unsigned int cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 501 */;
+	const s64 cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 495 */[];
+	struct isp_param *cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 470 */;
+	bool cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 468 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 466 */;
+	struct fimc_is *cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 465 */;
+	int cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 465 */;
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 430 */;
+	const struct v4l2_subdev_core_ops cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 426 */;
+	const struct v4l2_subdev_video_ops cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 422 */;
+	const struct v4l2_subdev_pad_ops cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 416 */;
+	const struct v4l2_subdev_internal_ops cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 410 */;
+	struct v4l2_mbus_framefmt cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 364 */;
+	struct v4l2_subdev_fh *cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 361 */;
+	const struct fimc_fmt cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 34 */[FIMC_ISP_NUM_FORMATS];
+	struct v4l2_subdev_format cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 214 */;
+	struct v4l2_mbus_framefmt *cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 162 */;
+	struct v4l2_subdev_format *cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 160 */;
+	struct v4l2_subdev_pad_config *cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 159 */;
+	const struct fimc_fmt *cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 112 */;
+	struct v4l2_subdev_mbus_code_enum *cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 110 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 108 */;
+	const struct media_entity_operations cocci_id/* drivers/media/platform/exynos4-is/fimc-isp.c 104 */;
+}

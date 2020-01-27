@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	const unsigned char *cocci_id/* drivers/media/i2c/adv7183.c 88 */;
+	unsigned int cocci_id/* drivers/media/i2c/adv7183.c 88 */;
+	unsigned char cocci_id/* drivers/media/i2c/adv7183.c 72 */;
+	struct adv7183 cocci_id/* drivers/media/i2c/adv7183.c 65 */;
+	struct i2c_driver cocci_id/* drivers/media/i2c/adv7183.c 633 */;
+	const struct i2c_device_id cocci_id/* drivers/media/i2c/adv7183.c 626 */[];
+	const unsigned *cocci_id/* drivers/media/i2c/adv7183.c 534 */;
+	struct v4l2_subdev_format cocci_id/* drivers/media/i2c/adv7183.c 531 */;
+	struct v4l2_ctrl_handler *cocci_id/* drivers/media/i2c/adv7183.c 529 */;
+	const struct i2c_device_id *cocci_id/* drivers/media/i2c/adv7183.c 525 */;
+	struct i2c_client *cocci_id/* drivers/media/i2c/adv7183.c 524 */;
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/i2c/adv7183.c 518 */;
+	const struct v4l2_subdev_pad_ops cocci_id/* drivers/media/i2c/adv7183.c 512 */;
+	const struct v4l2_subdev_video_ops cocci_id/* drivers/media/i2c/adv7183.c 503 */;
+	const struct v4l2_subdev_core_ops cocci_id/* drivers/media/i2c/adv7183.c 494 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/i2c/adv7183.c 490 */;
+	const struct v4l2_dbg_register *cocci_id/* drivers/media/i2c/adv7183.c 483 */;
+	struct v4l2_dbg_register *cocci_id/* drivers/media/i2c/adv7183.c 476 */;
+	struct v4l2_subdev_format *cocci_id/* drivers/media/i2c/adv7183.c 452 */;
+	struct v4l2_mbus_framefmt *cocci_id/* drivers/media/i2c/adv7183.c 427 */;
+	struct v4l2_subdev_mbus_code_enum *cocci_id/* drivers/media/i2c/adv7183.c 413 */;
+	struct v4l2_subdev_pad_config *cocci_id/* drivers/media/i2c/adv7183.c 412 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/i2c/adv7183.c 411 */;
+	int cocci_id/* drivers/media/i2c/adv7183.c 411 */;
+	const unsigned char cocci_id/* drivers/media/i2c/adv7183.c 40 */[];
+	u32 *cocci_id/* drivers/media/i2c/adv7183.c 398 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/i2c/adv7183.c 320 */;
+	struct adv7183 {
+		struct v4l2_subdev sd;
+		struct v4l2_ctrl_handler hdl;
+		v4l2_std_id std;
+		u32 input;
+		u32 output;
+		unsigned reset_pin;
+		unsigned oe_pin;
+		struct v4l2_mbus_framefmt fmt;
+	} cocci_id/* drivers/media/i2c/adv7183.c 24 */;
+	u32 cocci_id/* drivers/media/i2c/adv7183.c 228 */;
+	v4l2_std_id cocci_id/* drivers/media/i2c/adv7183.c 197 */;
+	struct adv7183 *cocci_id/* drivers/media/i2c/adv7183.c 191 */;
+	v4l2_std_id *cocci_id/* drivers/media/i2c/adv7183.c 189 */;
+}

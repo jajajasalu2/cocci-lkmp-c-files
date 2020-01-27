@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	struct hid_driver cocci_id/* drivers/hid/hid-lenovo.c 928 */;
+	const struct hid_device_id cocci_id/* drivers/hid/hid-lenovo.c 912 */[];
+	void *cocci_id/* drivers/hid/hid-lenovo.c 90 */;
+	struct hid_input *cocci_id/* drivers/hid/hid-lenovo.c 893 */;
+	const struct hid_device_id *cocci_id/* drivers/hid/hid-lenovo.c 815 */;
+	struct lenovo_drvdata_tpkbd cocci_id/* drivers/hid/hid-lenovo.c 715 */;
+	unsigned int *cocci_id/* drivers/hid/hid-lenovo.c 65 */;
+	struct led_classdev *cocci_id/* drivers/hid/hid-lenovo.c 646 */;
+	enum led_brightness cocci_id/* drivers/hid/hid-lenovo.c 645 */;
+	__u8 *cocci_id/* drivers/hid/hid-lenovo.c 64 */;
+	struct device_attribute cocci_id/* drivers/hid/hid-lenovo.c 606 */;
+	const __u8 cocci_id/* drivers/hid/hid-lenovo.c 55 */[];
+	int cocci_id/* drivers/hid/hid-lenovo.c 470 */;
+	struct lenovo_drvdata_cptkbd {
+		u8 middlebutton_state;
+		bool fn_lock;
+		int sensitivity;
+	} cocci_id/* drivers/hid/hid-lenovo.c 47 */;
+	size_t cocci_id/* drivers/hid/hid-lenovo.c 466 */;
+	const char *cocci_id/* drivers/hid/hid-lenovo.c 465 */;
+	struct lenovo_drvdata_tpkbd *cocci_id/* drivers/hid/hid-lenovo.c 458 */;
+	struct hid_device *cocci_id/* drivers/hid/hid-lenovo.c 457 */;
+	char *cocci_id/* drivers/hid/hid-lenovo.c 455 */;
+	struct device_attribute *cocci_id/* drivers/hid/hid-lenovo.c 454 */;
+	struct device *cocci_id/* drivers/hid/hid-lenovo.c 453 */;
+	ssize_t cocci_id/* drivers/hid/hid-lenovo.c 453 */;
+	struct hid_report *cocci_id/* drivers/hid/hid-lenovo.c 406 */;
+	__s32 cocci_id/* drivers/hid/hid-lenovo.c 393 */;
+	struct hid_usage *cocci_id/* drivers/hid/hid-lenovo.c 393 */;
+	struct hid_field *cocci_id/* drivers/hid/hid-lenovo.c 392 */;
+	struct lenovo_drvdata_tpkbd {
+		int led_state;
+		struct led_classdev led_mute;
+		struct led_classdev led_micmute;
+		int press_to_select;
+		int dragging;
+		int release_to_select;
+		int select_right;
+		int sensitivity;
+		int press_speed;
+	} cocci_id/* drivers/hid/hid-lenovo.c 35 */;
+	u8 *cocci_id/* drivers/hid/hid-lenovo.c 338 */;
+	const struct attribute_group cocci_id/* drivers/hid/hid-lenovo.c 333 */;
+	struct attribute *cocci_id/* drivers/hid/hid-lenovo.c 327 */[];
+	struct lenovo_drvdata_cptkbd *cocci_id/* drivers/hid/hid-lenovo.c 261 */;
+	void cocci_id/* drivers/hid/hid-lenovo.c 242 */;
+	unsigned char *cocci_id/* drivers/hid/hid-lenovo.c 214 */;
+	unsigned char cocci_id/* drivers/hid/hid-lenovo.c 211 */;
+	unsigned long **cocci_id/* drivers/hid/hid-lenovo.c 184 */;
+	int *cocci_id/* drivers/hid/hid-lenovo.c 184 */;
+}

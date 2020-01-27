@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	char cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 653 */[16];
+	enum v4l2_buf_type cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 651 */;
+	struct xvip_composite_device *cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 650 */;
+	const struct v4l2_file_operations cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 637 */;
+	const struct v4l2_ioctl_ops cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 614 */;
+	struct v4l2_subdev_format cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 60 */;
+	unsigned int cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 540 */;
+	const struct xvip_video_format *cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 539 */;
+	const struct xvip_video_format **cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 537 */;
+	struct xvip_dma *cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 536 */;
+	struct v4l2_pix_format *cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 536 */;
+	void cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 535 */;
+	struct v4l2_format *cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 525 */;
+	struct v4l2_fh *cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 513 */;
+	struct v4l2_fmtdesc *cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 511 */;
+	struct file *cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 511 */;
+	struct v4l2_capability *cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 489 */;
+	const struct vb2_ops cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 474 */;
+	u32 *cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 44 */;
+	struct media_pad *cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 44 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 43 */;
+	u32 cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 350 */;
+	dma_addr_t cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 349 */;
+	struct dma_async_tx_descriptor *cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 348 */;
+	struct xvip_dma_buffer *cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 336 */;
+	struct vb2_v4l2_buffer *cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 334 */;
+	struct vb2_buffer *cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 332 */;
+	int cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 332 */;
+	struct device *cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 318 */[];
+	unsigned int cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 318 */[];
+	unsigned int *cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 317 */;
+	struct vb2_queue *cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 316 */;
+	void *cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 299 */;
+	struct xvip_dma_buffer cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 297 */;
+	struct xvip_dma_buffer {
+		struct vb2_v4l2_buffer buf;
+		struct list_head queue;
+		struct xvip_dma *dma;
+	} cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 291 */;
+	struct xvip_pipeline *cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 224 */;
+	struct media_device *cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 179 */;
+	struct media_graph cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 177 */;
+	bool cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 151 */;
+	struct media_entity *cocci_id/* drivers/media/platform/xilinx/xilinx-dma.c 100 */;
+}

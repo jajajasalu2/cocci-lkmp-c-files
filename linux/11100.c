@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	char cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 94 */;
+	void cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 647 */;
+	struct gpio_service cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 63 */;
+	const struct ddc *cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 627 */;
+	enum gpio_ddc_line cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 626 */;
+	enum gpio_mode cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 596 */;
+	struct ddc *cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 595 */;
+	enum gpio_result cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 594 */;
+	struct dc_context *cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 58 */;
+	enum dce_version cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 56 */;
+	struct hw_gpio *cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 543 */;
+	struct gpio_config_data cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 542 */;
+	enum gpio_ddc_config_type cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 538 */;
+	struct ddc **cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 520 */;
+	struct ddc cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 481 */;
+	enum gpio_id cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 474 */;
+	struct gpio_ddc_hw_info *cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 472 */;
+	uint32_t cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 470 */;
+	struct gpio_service *cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 469 */;
+	struct gpio *cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 427 */;
+	struct gpio_hpd_config *cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 409 */;
+	const struct gpio *cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 394 */;
+	enum dc_irq_source cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 393 */;
+	struct hw_gpio_pin *cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 358 */;
+	struct hw_gpio_pin **cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 356 */;
+	const struct gpio_service *cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 240 */;
+	bool cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 239 */;
+	struct gpio_generic_mux_config *cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 221 */;
+	struct gpio_service **cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 196 */;
+	struct gpio_pin_info cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 178 */;
+	struct gpio **cocci_id/* drivers/gpu/drm/amd/display/dc/gpio/gpio_service.c 165 */;
+}

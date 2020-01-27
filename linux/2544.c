@@ -1,0 +1,72 @@
+cocci_test_suite() {
+	struct dm_arg_set cocci_id/* drivers/md/dm-stats.c 959 */;
+	unsigned long long **cocci_id/* drivers/md/dm-stats.c 907 */;
+	unsigned *cocci_id/* drivers/md/dm-stats.c 906 */;
+	bool cocci_id/* drivers/md/dm-stats.c 81 */;
+	size_t cocci_id/* drivers/md/dm-stats.c 81 */;
+	unsigned cocci_id/* drivers/md/dm-stats.c 745 */;
+	struct dm_stat_percpu *cocci_id/* drivers/md/dm-stats.c 723 */;
+	struct dm_stat_shared *cocci_id/* drivers/md/dm-stats.c 722 */;
+	unsigned long long cocci_id/* drivers/md/dm-stats.c 694 */;
+	struct dm_stats_last_position {
+		sector_t last_sector;
+		unsigned last_rw;
+	} cocci_id/* drivers/md/dm-stats.c 64 */;
+	struct dm_stats_last_position *cocci_id/* drivers/md/dm-stats.c 629 */;
+	struct dm_stats_aux *cocci_id/* drivers/md/dm-stats.c 587 */;
+	unsigned long cocci_id/* drivers/md/dm-stats.c 586 */;
+	sector_t cocci_id/* drivers/md/dm-stats.c 585 */;
+	struct dm_stat *cocci_id/* drivers/md/dm-stats.c 584 */;
+	int cocci_id/* drivers/md/dm-stats.c 584 */;
+	void cocci_id/* drivers/md/dm-stats.c 584 */;
+	char *cocci_id/* drivers/md/dm-stats.c 443 */;
+	struct dm_stat {
+		struct list_head list_entry;
+		int id;
+		unsigned stat_flags;
+		size_t n_entries;
+		sector_t start;
+		sector_t end;
+		sector_t step;
+		unsigned n_histogram_entries;
+		unsigned long long *histogram_boundaries;
+		const char *program_id;
+		const char *aux_data;
+		struct rcu_head rcu_head;
+		size_t shared_alloc_size;
+		size_t percpu_alloc_size;
+		size_t histogram_alloc_size;
+		struct dm_stat_percpu *stat_percpu[NR_CPUS];
+		struct dm_stat_shared stat_shared[0];
+	} cocci_id/* drivers/md/dm-stats.c 42 */;
+	struct dm_stats *cocci_id/* drivers/md/dm-stats.c 393 */;
+	struct dm_stat_shared {
+		atomic_t in_flight[2];
+		unsigned long long stamp;
+		struct dm_stat_percpu tmp;
+	} cocci_id/* drivers/md/dm-stats.c 36 */;
+	struct dm_stat_percpu cocci_id/* drivers/md/dm-stats.c 269 */;
+	struct dm_stat_shared cocci_id/* drivers/md/dm-stats.c 266 */;
+	struct dm_stat_percpu {
+		unsigned long long sectors[2];
+		unsigned long long ios[2];
+		unsigned long long merges[2];
+		unsigned long long ticks[2];
+		unsigned long long io_ticks[2];
+		unsigned long long io_ticks_total;
+		unsigned long long time_in_queue;
+		unsigned long long *histogram;
+	} cocci_id/* drivers/md/dm-stats.c 25 */;
+	struct list_head *cocci_id/* drivers/md/dm-stats.c 243 */;
+	struct mapped_device *cocci_id/* drivers/md/dm-stats.c 241 */;
+	void (*cocci_id/* drivers/md/dm-stats.c 239 */)(struct mapped_device *);
+	const char *cocci_id/* drivers/md/dm-stats.c 238 */;
+	unsigned long long *cocci_id/* drivers/md/dm-stats.c 237 */;
+	struct dm_stats_last_position cocci_id/* drivers/md/dm-stats.c 198 */;
+	struct dm_stat cocci_id/* drivers/md/dm-stats.c 172 */;
+	struct rcu_head *cocci_id/* drivers/md/dm-stats.c 169 */;
+	void *cocci_id/* drivers/md/dm-stats.c 159 */;
+	int __init cocci_id/* drivers/md/dm-stats.c 1193 */;
+	char **cocci_id/* drivers/md/dm-stats.c 1164 */;
+	char cocci_id/* drivers/md/dm-stats.c 1088 */;
+}

@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	const struct cred *cocci_id/* fs/file_table.c 96 */;
+	struct file *cocci_id/* fs/file_table.c 96 */;
+	int cocci_id/* fs/file_table.c 96 */;
+	loff_t *cocci_id/* fs/file_table.c 83 */;
+	size_t *cocci_id/* fs/file_table.c 83 */;
+	void __user *cocci_id/* fs/file_table.c 83 */;
+	struct ctl_table *cocci_id/* fs/file_table.c 82 */;
+	struct rcu_head *cocci_id/* fs/file_table.c 45 */;
+	struct percpu_counter cocci_id/* fs/file_table.c 43 */;
+	struct kmem_cache *cocci_id/* fs/file_table.c 41 */;
+	unsigned long cocci_id/* fs/file_table.c 392 */;
+	void __init cocci_id/* fs/file_table.c 379 */;
+	struct task_struct *cocci_id/* fs/file_table.c 371 */;
+	struct files_stat_struct cocci_id/* fs/file_table.c 36 */;
+	unsigned int cocci_id/* fs/file_table.c 334 */;
+	struct file cocci_id/* fs/file_table.c 313 */;
+	struct callback_head *cocci_id/* fs/file_table.c 311 */;
+	void cocci_id/* fs/file_table.c 311 */;
+	struct llist_node *cocci_id/* fs/file_table.c 304 */;
+	struct work_struct *cocci_id/* fs/file_table.c 302 */;
+	fmode_t cocci_id/* fs/file_table.c 259 */;
+	struct inode *cocci_id/* fs/file_table.c 258 */;
+	struct vfsmount *cocci_id/* fs/file_table.c 257 */;
+	struct dentry *cocci_id/* fs/file_table.c 256 */;
+	struct path cocci_id/* fs/file_table.c 222 */;
+	struct qstr cocci_id/* fs/file_table.c 221 */;
+	const struct dentry_operations cocci_id/* fs/file_table.c 218 */;
+	const char *cocci_id/* fs/file_table.c 215 */;
+	const struct file_operations *cocci_id/* fs/file_table.c 189 */;
+	const struct path *cocci_id/* fs/file_table.c 188 */;
+	long cocci_id/* fs/file_table.c 136 */;
+}

@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	struct nd_msg *cocci_id/* net/bridge/br_device.c 73 */;
+	struct nd_msg cocci_id/* net/bridge/br_device.c 71 */;
+	struct ipv6hdr cocci_id/* net/bridge/br_device.c 70 */;
+	struct device_type cocci_id/* net/bridge/br_device.c 440 */;
+	const struct net_device_ops cocci_id/* net/bridge/br_device.c 410 */;
+	const struct ethtool_ops cocci_id/* net/bridge/br_device.c 404 */;
+	struct net_bridge *cocci_id/* net/bridge/br_device.c 392 */;
+	struct netlink_ext_ack *cocci_id/* net/bridge/br_device.c 389 */;
+	struct net_device *cocci_id/* net/bridge/br_device.c 388 */;
+	u16 cocci_id/* net/bridge/br_device.c 37 */;
+	struct ethhdr *cocci_id/* net/bridge/br_device.c 36 */;
+	struct netpoll_info *cocci_id/* net/bridge/br_device.c 352 */;
+	const unsigned char *cocci_id/* net/bridge/br_device.c 35 */;
+	const struct nf_br_ops *cocci_id/* net/bridge/br_device.c 34 */;
+	struct pcpu_sw_netstats *cocci_id/* net/bridge/br_device.c 33 */;
+	struct netpoll *cocci_id/* net/bridge/br_device.c 327 */;
+	struct net_bridge_port *cocci_id/* net/bridge/br_device.c 325 */;
+	int cocci_id/* net/bridge/br_device.c 325 */;
+	struct net_bridge_mdb_entry *cocci_id/* net/bridge/br_device.c 32 */;
+	struct net_bridge_fdb_entry *cocci_id/* net/bridge/br_device.c 31 */;
+	netdev_features_t cocci_id/* net/bridge/br_device.c 303 */;
+	__u32 cocci_id/* net/bridge/br_device.c 292 */;
+	struct ethtool_link_ksettings cocci_id/* net/bridge/br_device.c 283 */;
+	netdev_tx_t cocci_id/* net/bridge/br_device.c 28 */;
+	struct sk_buff *cocci_id/* net/bridge/br_device.c 28 */;
+	struct ethtool_link_ksettings *cocci_id/* net/bridge/br_device.c 273 */;
+	struct ethtool_drvinfo *cocci_id/* net/bridge/br_device.c 264 */;
+	struct sockaddr *cocci_id/* net/bridge/br_device.c 243 */;
+	void *cocci_id/* net/bridge/br_device.c 240 */;
+	const struct nf_br_ops __rcu *cocci_id/* net/bridge/br_device.c 24 */;
+	const struct pcpu_sw_netstats *cocci_id/* net/bridge/br_device.c 205 */;
+	unsigned int cocci_id/* net/bridge/br_device.c 201 */;
+	struct rtnl_link_stats64 *cocci_id/* net/bridge/br_device.c 197 */;
+	void cocci_id/* net/bridge/br_device.c 178 */;
+	struct pcpu_sw_netstats cocci_id/* net/bridge/br_device.c 114 */;
+}

@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	int __init cocci_id/* drivers/platform/x86/fujitsu-laptop.c 979 */;
+	const struct acpi_device_id cocci_id/* drivers/platform/x86/fujitsu-laptop.c 972 */[]__used;
+	struct acpi_driver cocci_id/* drivers/platform/x86/fujitsu-laptop.c 946 */;
+	const struct acpi_device_id cocci_id/* drivers/platform/x86/fujitsu-laptop.c 941 */[];
+	unsigned int cocci_id/* drivers/platform/x86/fujitsu-laptop.c 899 */;
+	unsigned long cocci_id/* drivers/platform/x86/fujitsu-laptop.c 897 */;
+	unsigned char *cocci_id/* drivers/platform/x86/fujitsu-laptop.c 866 */;
+	struct fujitsu_laptop *cocci_id/* drivers/platform/x86/fujitsu-laptop.c 774 */;
+	struct led_classdev *cocci_id/* drivers/platform/x86/fujitsu-laptop.c 694 */;
+	enum led_brightness cocci_id/* drivers/platform/x86/fujitsu-laptop.c 680 */;
+	void *cocci_id/* drivers/platform/x86/fujitsu-laptop.c 494 */;
+	const struct dmi_system_id cocci_id/* drivers/platform/x86/fujitsu-laptop.c 486 */[];
+	const struct dmi_system_id *cocci_id/* drivers/platform/x86/fujitsu-laptop.c 479 */;
+	const struct key_entry *cocci_id/* drivers/platform/x86/fujitsu-laptop.c 477 */;
+	u32 cocci_id/* drivers/platform/x86/fujitsu-laptop.c 418 */;
+	void cocci_id/* drivers/platform/x86/fujitsu-laptop.c 418 */;
+	struct fujitsu_bl *cocci_id/* drivers/platform/x86/fujitsu-laptop.c 387 */;
+	struct acpi_device *cocci_id/* drivers/platform/x86/fujitsu-laptop.c 385 */;
+	int cocci_id/* drivers/platform/x86/fujitsu-laptop.c 385 */;
+	const struct backlight_properties cocci_id/* drivers/platform/x86/fujitsu-laptop.c 367 */;
+	const struct key_entry cocci_id/* drivers/platform/x86/fujitsu-laptop.c 334 */[];
+	struct platform_driver cocci_id/* drivers/platform/x86/fujitsu-laptop.c 326 */;
+	const struct attribute_group cocci_id/* drivers/platform/x86/fujitsu-laptop.c 322 */;
+	struct attribute *cocci_id/* drivers/platform/x86/fujitsu-laptop.c 315 */[];
+	char *cocci_id/* drivers/platform/x86/fujitsu-laptop.c 286 */;
+	struct device_attribute *cocci_id/* drivers/platform/x86/fujitsu-laptop.c 285 */;
+	struct device *cocci_id/* drivers/platform/x86/fujitsu-laptop.c 285 */;
+	ssize_t cocci_id/* drivers/platform/x86/fujitsu-laptop.c 285 */;
+	const struct backlight_ops cocci_id/* drivers/platform/x86/fujitsu-laptop.c 267 */;
+	struct backlight_device *cocci_id/* drivers/platform/x86/fujitsu-laptop.c 244 */;
+	acpi_status cocci_id/* drivers/platform/x86/fujitsu-laptop.c 152 */;
+	unsigned long long cocci_id/* drivers/platform/x86/fujitsu-laptop.c 151 */;
+	struct acpi_object_list cocci_id/* drivers/platform/x86/fujitsu-laptop.c 150 */;
+	union acpi_object cocci_id/* drivers/platform/x86/fujitsu-laptop.c 144 */[4];
+	struct fujitsu_laptop {
+		struct input_dev *input;
+		char phys[32];
+		struct platform_device *pf_device;
+		struct kfifo fifo;
+		spinlock_t fifo_lock;
+		int flags_supported;
+		int flags_state;
+	} cocci_id/* drivers/platform/x86/fujitsu-laptop.c 127 */;
+	struct fujitsu_bl {
+		struct input_dev *input;
+		char phys[32];
+		struct backlight_device *bl_device;
+		unsigned int max_brightness;
+		unsigned int brightness_level;
+	} cocci_id/* drivers/platform/x86/fujitsu-laptop.c 116 */;
+	bool cocci_id/* drivers/platform/x86/fujitsu-laptop.c 113 */;
+	void __exit cocci_id/* drivers/platform/x86/fujitsu-laptop.c 1011 */;
+}

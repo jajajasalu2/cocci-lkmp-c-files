@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct skcipher_alg cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 840 */[];
+	struct sec_ctx cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 822 */;
+	void cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 80 */;
+	struct crypto_skcipher *cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 784 */;
+	bool cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 782 */;
+	struct sec_req_op cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 726 */;
+	struct skcipher_request *cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 634 */;
+	size_t cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 619 */;
+	struct sec_req *cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 61 */;
+	struct sec_qp_ctx *cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 61 */;
+	int cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 61 */;
+	struct sec_sqe cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 577 */;
+	struct sec_cipher_req *cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 571 */;
+	struct scatterlist *cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 478 */;
+	u32 cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 46 */;
+	struct sec_cipher_res cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 444 */;
+	struct sec_cipher_res *cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 427 */;
+	unsigned int cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 40 */;
+	const enum sec_calg cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 366 */;
+	const u8 *cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 365 */;
+	const enum sec_cmode cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 313 */;
+	const u32 cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 312 */;
+	struct sec_cipher_ctx *cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 311 */;
+	struct sec_qp_ctx cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 258 */;
+	struct sec_req cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 244 */;
+	struct sec_dev *cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 239 */;
+	void *cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 176 */;
+	struct hisi_qp *cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 158 */;
+	struct device *cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 156 */;
+	struct hisi_qm *cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 153 */;
+	struct sec_ctx *cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 130 */;
+	u8 cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 103 */;
+	u16 cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 102 */;
+	struct sec_sqe *cocci_id/* drivers/crypto/hisilicon/sec2/sec_crypto.c 101 */;
+}

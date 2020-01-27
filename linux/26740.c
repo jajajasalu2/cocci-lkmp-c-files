@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	loff_t *cocci_id/* fs/seq_file.c 971 */;
+	struct hlist_node *cocci_id/* fs/seq_file.c 970 */;
+	struct hlist_head *cocci_id/* fs/seq_file.c 970 */;
+	loff_t cocci_id/* fs/seq_file.c 934 */;
+	struct list_head *cocci_id/* fs/seq_file.c 917 */;
+	const u8 *cocci_id/* fs/seq_file.c 861 */;
+	bool cocci_id/* fs/seq_file.c 859 */;
+	const void *cocci_id/* fs/seq_file.c 858 */;
+	long long cocci_id/* fs/seq_file.c 776 */;
+	unsigned long long cocci_id/* fs/seq_file.c 724 */;
+	unsigned int cocci_id/* fs/seq_file.c 692 */;
+	struct seq_file *cocci_id/* fs/seq_file.c 629 */;
+	int cocci_id/* fs/seq_file.c 625 */;
+	const struct seq_operations *cocci_id/* fs/seq_file.c 624 */;
+	struct file *cocci_id/* fs/seq_file.c 624 */;
+	void *cocci_id/* fs/seq_file.c 624 */;
+	struct seq_operations *cocci_id/* fs/seq_file.c 569 */;
+	int (*cocci_id/* fs/seq_file.c 566 */)(struct seq_file *, void *);
+	size_t cocci_id/* fs/seq_file.c 534 */;
+	struct dentry *cocci_id/* fs/seq_file.c 531 */;
+	const struct path *cocci_id/* fs/seq_file.c 464 */;
+	char cocci_id/* fs/seq_file.c 437 */;
+	const char *cocci_id/* fs/seq_file.c 434 */;
+	char *cocci_id/* fs/seq_file.c 434 */;
+	va_list cocci_id/* fs/seq_file.c 415 */;
+	void cocci_id/* fs/seq_file.c 376 */;
+	struct inode *cocci_id/* fs/seq_file.c 357 */;
+	unsigned long cocci_id/* fs/seq_file.c 30 */;
+	struct kmem_cache *cocci_id/* fs/seq_file.c 23 */;
+	char __user *cocci_id/* fs/seq_file.c 153 */;
+	ssize_t cocci_id/* fs/seq_file.c 153 */;
+	void __init cocci_id/* fs/seq_file.c 1108 */;
+	int *cocci_id/* fs/seq_file.c 1088 */;
+	struct hlist_head __percpu *cocci_id/* fs/seq_file.c 1087 */;
+}

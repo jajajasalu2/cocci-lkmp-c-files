@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	const struct firmware *cocci_id/* drivers/remoteproc/qcom_q6v5_pas.c 70 */;
+	struct qcom_adsp {
+		struct device *dev;
+		struct rproc *rproc;
+		struct qcom_q6v5 q6v5;
+		struct clk *xo;
+		struct clk *aggre2_clk;
+		struct regulator *cx_supply;
+		struct regulator *px_supply;
+		int pas_id;
+		int crash_reason_smem;
+		bool has_aggre2_clk;
+		struct completion start_done;
+		struct completion stop_done;
+		phys_addr_t mem_phys;
+		phys_addr_t mem_reloc;
+		void *mem_region;
+		size_t mem_size;
+		struct qcom_rproc_glink glink_subdev;
+		struct qcom_rproc_subdev smd_subdev;
+		struct qcom_rproc_ssr ssr_subdev;
+		struct qcom_sysmon *sysmon;
+	} cocci_id/* drivers/remoteproc/qcom_q6v5_pas.c 40 */;
+	struct platform_driver cocci_id/* drivers/remoteproc/qcom_q6v5_pas.c 390 */;
+	const struct of_device_id cocci_id/* drivers/remoteproc/qcom_q6v5_pas.c 377 */[];
+	const struct adsp_data cocci_id/* drivers/remoteproc/qcom_q6v5_pas.c 338 */;
+	struct adsp_data {
+		int crash_reason_smem;
+		const char *firmware_name;
+		int pas_id;
+		bool has_aggre2_clk;
+		const char *ssr_name;
+		const char *sysmon_name;
+		int ssctl_id;
+	} cocci_id/* drivers/remoteproc/qcom_q6v5_pas.c 29 */;
+	const char *cocci_id/* drivers/remoteproc/qcom_q6v5_pas.c 253 */;
+	const struct adsp_data *cocci_id/* drivers/remoteproc/qcom_q6v5_pas.c 250 */;
+	struct platform_device *cocci_id/* drivers/remoteproc/qcom_q6v5_pas.c 248 */;
+	struct resource cocci_id/* drivers/remoteproc/qcom_q6v5_pas.c 223 */;
+	struct device_node *cocci_id/* drivers/remoteproc/qcom_q6v5_pas.c 222 */;
+	struct qcom_adsp *cocci_id/* drivers/remoteproc/qcom_q6v5_pas.c 220 */;
+	int cocci_id/* drivers/remoteproc/qcom_q6v5_pas.c 220 */;
+	const struct rproc_ops cocci_id/* drivers/remoteproc/qcom_q6v5_pas.c 174 */;
+	u64 cocci_id/* drivers/remoteproc/qcom_q6v5_pas.c 162 */;
+	struct rproc *cocci_id/* drivers/remoteproc/qcom_q6v5_pas.c 162 */;
+	void *cocci_id/* drivers/remoteproc/qcom_q6v5_pas.c 162 */;
+	struct qcom_adsp cocci_id/* drivers/remoteproc/qcom_q6v5_pas.c 133 */;
+	struct qcom_q6v5 *cocci_id/* drivers/remoteproc/qcom_q6v5_pas.c 131 */;
+	void cocci_id/* drivers/remoteproc/qcom_q6v5_pas.c 131 */;
+}

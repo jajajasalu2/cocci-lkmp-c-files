@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* drivers/hid/hid-picolcd_fb.c 586 */;
+	struct picolcd_fb_data *cocci_id/* drivers/hid/hid-picolcd_fb.c 585 */;
+	struct fb_info *cocci_id/* drivers/hid/hid-picolcd_fb.c 584 */;
+	struct picolcd_data *cocci_id/* drivers/hid/hid-picolcd_fb.c 582 */;
+	void cocci_id/* drivers/hid/hid-picolcd_fb.c 582 */;
+	const struct fb_var_screeninfo cocci_id/* drivers/hid/hid-picolcd_fb.c 58 */;
+	char __force __iomem *cocci_id/* drivers/hid/hid-picolcd_fb.c 544 */;
+	struct picolcd_fb_data cocci_id/* drivers/hid/hid-picolcd_fb.c 513 */;
+	struct fb_deferred_io cocci_id/* drivers/hid/hid-picolcd_fb.c 512 */;
+	u32 cocci_id/* drivers/hid/hid-picolcd_fb.c 511 */;
+	u32 *cocci_id/* drivers/hid/hid-picolcd_fb.c 505 */;
+	const char *cocci_id/* drivers/hid/hid-picolcd_fb.c 471 */;
+	const struct fb_fix_screeninfo cocci_id/* drivers/hid/hid-picolcd_fb.c 47 */;
+	size_t cocci_id/* drivers/hid/hid-picolcd_fb.c 456 */;
+	unsigned cocci_id/* drivers/hid/hid-picolcd_fb.c 455 */;
+	struct device_attribute *cocci_id/* drivers/hid/hid-picolcd_fb.c 451 */;
+	char *cocci_id/* drivers/hid/hid-picolcd_fb.c 451 */;
+	struct device *cocci_id/* drivers/hid/hid-picolcd_fb.c 450 */;
+	ssize_t cocci_id/* drivers/hid/hid-picolcd_fb.c 450 */;
+	const struct fb_deferred_io cocci_id/* drivers/hid/hid-picolcd_fb.c 441 */;
+	struct list_head *cocci_id/* drivers/hid/hid-picolcd_fb.c 436 */;
+	struct fb_ops cocci_id/* drivers/hid/hid-picolcd_fb.c 421 */;
+	u8 cocci_id/* drivers/hid/hid-picolcd_fb.c 396 */;
+	__u32 cocci_id/* drivers/hid/hid-picolcd_fb.c 356 */;
+	struct fb_var_screeninfo *cocci_id/* drivers/hid/hid-picolcd_fb.c 354 */;
+	u8 *cocci_id/* drivers/hid/hid-picolcd_fb.c 350 */;
+	int cocci_id/* drivers/hid/hid-picolcd_fb.c 334 */;
+	loff_t *cocci_id/* drivers/hid/hid-picolcd_fb.c 323 */;
+	const char __user *cocci_id/* drivers/hid/hid-picolcd_fb.c 322 */;
+	const struct fb_image *cocci_id/* drivers/hid/hid-picolcd_fb.c 309 */;
+	const struct fb_copyarea *cocci_id/* drivers/hid/hid-picolcd_fb.c 299 */;
+	const struct fb_fillrect *cocci_id/* drivers/hid/hid-picolcd_fb.c 288 */;
+	const u8 cocci_id/* drivers/hid/hid-picolcd_fb.c 191 */[8];
+	struct hid_report *cocci_id/* drivers/hid/hid-picolcd_fb.c 187 */;
+	u8 cocci_id/* drivers/hid/hid-picolcd_fb.c 145 */[64];
+	const u8 *cocci_id/* drivers/hid/hid-picolcd_fb.c 141 */;
+}

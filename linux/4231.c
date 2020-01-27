@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct ec_response_lightbar cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 92 */;
+	struct ec_params_lightbar cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 91 */;
+	int cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 89 */;
+	struct cros_ec_dev *cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 86 */;
+	struct cros_ec_command *cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 86 */;
+	struct platform_driver cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 625 */;
+	int __maybe_unused cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 602 */;
+	long cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 60 */;
+	void cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 56 */;
+	struct cros_ec_platform *cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 559 */;
+	struct platform_device *cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 556 */;
+	struct attribute_group cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 551 */;
+	struct attribute *cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 540 */[];
+	uint8_t cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 362 */;
+	unsigned long cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 35 */;
+	char *cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 33 */;
+	bool cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 30 */;
+	const char *cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 284 */[];
+	unsigned int cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 226 */[4];
+	unsigned int cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 180 */;
+	struct ec_params_lightbar *cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 177 */;
+	const char *cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 175 */;
+	size_t cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 175 */;
+	struct device_attribute *cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 174 */;
+	struct device *cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 173 */;
+	ssize_t cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 173 */;
+	uint32_t cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 158 */;
+	struct ec_response_lightbar *cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 110 */;
+	uint32_t *cocci_id/* drivers/platform/chrome/cros_ec_lightbar.c 107 */;
+}

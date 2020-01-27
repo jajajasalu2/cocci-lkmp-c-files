@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	char *cocci_id/* drivers/gpu/drm/i915/i915_irq.c 910 */[6];
+	typeof(*dev_priv) cocci_id/* drivers/gpu/drm/i915/i915_irq.c 907 */;
+	struct work_struct *cocci_id/* drivers/gpu/drm/i915/i915_irq.c 904 */;
+	ktime_t *cocci_id/* drivers/gpu/drm/i915/i915_irq.c 767 */;
+	int *cocci_id/* drivers/gpu/drm/i915/i915_irq.c 766 */;
+	unsigned int cocci_id/* drivers/gpu/drm/i915/i915_irq.c 765 */;
+	enum pipe cocci_id/* drivers/gpu/drm/i915/i915_irq.c 712 */;
+	struct drm_vblank_crtc *cocci_id/* drivers/gpu/drm/i915/i915_irq.c 711 */;
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/i915/i915_irq.c 710 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/i915/i915_irq.c 708 */;
+	struct intel_crtc *cocci_id/* drivers/gpu/drm/i915/i915_irq.c 706 */;
+	int cocci_id/* drivers/gpu/drm/i915/i915_irq.c 706 */;
+	irq_handler_t cocci_id/* drivers/gpu/drm/i915/i915_irq.c 3942 */;
+	u32 *cocci_id/* drivers/gpu/drm/i915/i915_irq.c 3532 */;
+	u16 *cocci_id/* drivers/gpu/drm/i915/i915_irq.c 3493 */;
+	u32 cocci_id/* drivers/gpu/drm/i915/i915_irq.c 3135 */;
+	struct drm_i915_private *cocci_id/* drivers/gpu/drm/i915/i915_irq.c 3134 */;
+	void cocci_id/* drivers/gpu/drm/i915/i915_irq.c 3134 */;
+	struct intel_encoder *cocci_id/* drivers/gpu/drm/i915/i915_irq.c 2900 */;
+	struct intel_uncore *cocci_id/* drivers/gpu/drm/i915/i915_irq.c 2882 */;
+	u8 cocci_id/* drivers/gpu/drm/i915/i915_irq.c 2836 */;
+	enum intel_display_power_domain cocci_id/* drivers/gpu/drm/i915/i915_irq.c 2806 */;
+	enum transcoder cocci_id/* drivers/gpu/drm/i915/i915_irq.c 2803 */;
+	unsigned long cocci_id/* drivers/gpu/drm/i915/i915_irq.c 2646 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/i915/i915_irq.c 2642 */;
+	const u32 cocci_id/* drivers/gpu/drm/i915/i915_irq.c 2480 */;
+	struct intel_gt *cocci_id/* drivers/gpu/drm/i915/i915_irq.c 2462 */;
+	void __iomem *constcocci_id/* drivers/gpu/drm/i915/i915_irq.c 2461 */;
+	void (*cocci_id/* drivers/gpu/drm/i915/i915_irq.c 2459 */)(void __iomem *const regs);
+	u32 (*cocci_id/* drivers/gpu/drm/i915/i915_irq.c 2458 */)(void __iomem *const regs);
+	struct drm_i915_private *constcocci_id/* drivers/gpu/drm/i915/i915_irq.c 2457 */;
+	irqreturn_t cocci_id/* drivers/gpu/drm/i915/i915_irq.c 2456 */;
+	u16 cocci_id/* drivers/gpu/drm/i915/i915_irq.c 221 */;
+	const u32 *cocci_id/* drivers/gpu/drm/i915/i915_irq.c 2123 */;
+	long_pulse_detect_func cocci_id/* drivers/gpu/drm/i915/i915_irq.c 2122 */;
+	const u32 cocci_id/* drivers/gpu/drm/i915/i915_irq.c 2103 */[HPD_NUM_PINS];
+	i915_reg_t cocci_id/* drivers/gpu/drm/i915/i915_irq.c 204 */;
+	bool (*cocci_id/* drivers/gpu/drm/i915/i915_irq.c 1829 */)(enum hpd_pin pin,
+								   u32 val);
+	u32 cocci_id/* drivers/gpu/drm/i915/i915_irq.c 1606 */[4];
+	u32 cocci_id/* drivers/gpu/drm/i915/i915_irq.c 1604 */[I915_MAX_PIPES];
+	void *cocci_id/* drivers/gpu/drm/i915/i915_irq.c 1591 */;
+	u32 cocci_id/* drivers/gpu/drm/i915/i915_irq.c 1192 */[5];
+	struct intel_pipe_crc *cocci_id/* drivers/gpu/drm/i915/i915_irq.c 1190 */;
+	bool cocci_id/* drivers/gpu/drm/i915/i915_irq.c 1152 */(enum hpd_pin pin,
+								u32 val);
+	bool cocci_id/* drivers/gpu/drm/i915/i915_irq.c 1013 */;
+	enum hpd_pin cocci_id/* drivers/gpu/drm/i915/i915_irq.c 1013 */;
+}

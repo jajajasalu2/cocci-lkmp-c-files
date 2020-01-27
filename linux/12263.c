@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct list_head cocci_id/* drivers/gpu/drm/drm_modes.c 917 */;
+	int *cocci_id/* drivers/gpu/drm/drm_modes.c 818 */;
+	struct videomode cocci_id/* drivers/gpu/drm/drm_modes.c 711 */;
+	struct device_node *cocci_id/* drivers/gpu/drm/drm_modes.c 707 */;
+	const struct videomode *cocci_id/* drivers/gpu/drm/drm_modes.c 672 */;
+	u32 *cocci_id/* drivers/gpu/drm/drm_modes.c 672 */;
+	void cocci_id/* drivers/gpu/drm/drm_modes.c 672 */;
+	struct videomode *cocci_id/* drivers/gpu/drm/drm_modes.c 629 */;
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/drm_modes.c 628 */;
+	const struct drm_display_info *cocci_id/* drivers/gpu/drm/drm_modes.c 2099 */;
+	u8 cocci_id/* drivers/gpu/drm/drm_modes.c 2083 */;
+	const struct drm_mode_modeinfo *cocci_id/* drivers/gpu/drm/drm_modes.c 1986 */;
+	struct drm_mode_modeinfo *cocci_id/* drivers/gpu/drm/drm_modes.c 1921 */;
+	struct drm_cmdline_mode *cocci_id/* drivers/gpu/drm/drm_modes.c 1885 */;
+	u64 cocci_id/* drivers/gpu/drm/drm_modes.c 159 */;
+	char *cocci_id/* drivers/gpu/drm/drm_modes.c 1571 */;
+	size_t cocci_id/* drivers/gpu/drm/drm_modes.c 1571 */;
+	unsigned int cocci_id/* drivers/gpu/drm/drm_modes.c 156 */;
+	const struct drm_connector *cocci_id/* drivers/gpu/drm/drm_modes.c 1458 */;
+	char **cocci_id/* drivers/gpu/drm/drm_modes.c 1418 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/drm_modes.c 140 */;
+	int cocci_id/* drivers/gpu/drm/drm_modes.c 140 */;
+	bool cocci_id/* drivers/gpu/drm/drm_modes.c 1375 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/drm_modes.c 1369 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/drm_modes.c 1367 */;
+	struct drm_display_mode cocci_id/* drivers/gpu/drm/drm_modes.c 1324 */;
+	struct list_head *cocci_id/* drivers/gpu/drm/drm_modes.c 1322 */;
+	void *cocci_id/* drivers/gpu/drm/drm_modes.c 1322 */;
+	enum drm_mode_status cocci_id/* drivers/gpu/drm/drm_modes.c 1268 */;
+	const char *cocci_id/* drivers/gpu/drm/drm_modes.c 1268 */;
+	const char *const cocci_id/* drivers/gpu/drm/drm_modes.c 1223 */[];
+	struct drm_hdmi_info *cocci_id/* drivers/gpu/drm/drm_modes.c 1210 */;
+}

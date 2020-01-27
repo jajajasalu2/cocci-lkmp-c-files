@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* drivers/media/dvb-core/dvb_vb2.c 84 */;
+	struct dvb_buffer cocci_id/* drivers/media/dvb-core/dvb_vb2.c 74 */;
+	struct dvb_buffer *cocci_id/* drivers/media/dvb-core/dvb_vb2.c 74 */;
+	void cocci_id/* drivers/media/dvb-core/dvb_vb2.c 71 */;
+	unsigned long cocci_id/* drivers/media/dvb-core/dvb_vb2.c 57 */;
+	struct dvb_vb2_ctx *cocci_id/* drivers/media/dvb-core/dvb_vb2.c 56 */;
+	struct vb2_buffer *cocci_id/* drivers/media/dvb-core/dvb_vb2.c 54 */;
+	int cocci_id/* drivers/media/dvb-core/dvb_vb2.c 54 */;
+	poll_table *cocci_id/* drivers/media/dvb-core/dvb_vb2.c 437 */;
+	__poll_t cocci_id/* drivers/media/dvb-core/dvb_vb2.c 436 */;
+	struct file *cocci_id/* drivers/media/dvb-core/dvb_vb2.c 436 */;
+	struct vm_area_struct *cocci_id/* drivers/media/dvb-core/dvb_vb2.c 422 */;
+	struct dmx_exportbuffer *cocci_id/* drivers/media/dvb-core/dvb_vb2.c 366 */;
+	struct device *cocci_id/* drivers/media/dvb-core/dvb_vb2.c 35 */[];
+	unsigned int cocci_id/* drivers/media/dvb-core/dvb_vb2.c 35 */[];
+	unsigned int *cocci_id/* drivers/media/dvb-core/dvb_vb2.c 34 */;
+	struct dmx_requestbuffers *cocci_id/* drivers/media/dvb-core/dvb_vb2.c 333 */;
+	unsigned char *cocci_id/* drivers/media/dvb-core/dvb_vb2.c 264 */;
+	enum dmx_buffer_flags *cocci_id/* drivers/media/dvb-core/dvb_vb2.c 259 */;
+	const unsigned char *cocci_id/* drivers/media/dvb-core/dvb_vb2.c 258 */;
+	struct dvb_vb2_ctx cocci_id/* drivers/media/dvb-core/dvb_vb2.c 172 */;
+	const char *cocci_id/* drivers/media/dvb-core/dvb_vb2.c 167 */;
+	const struct vb2_buf_ops cocci_id/* drivers/media/dvb-core/dvb_vb2.c 159 */;
+	struct vb2_plane *cocci_id/* drivers/media/dvb-core/dvb_vb2.c 149 */;
+	struct dmx_buffer *cocci_id/* drivers/media/dvb-core/dvb_vb2.c 140 */;
+	void *cocci_id/* drivers/media/dvb-core/dvb_vb2.c 137 */;
+	const struct vb2_ops cocci_id/* drivers/media/dvb-core/dvb_vb2.c 127 */;
+	struct vb2_queue *cocci_id/* drivers/media/dvb-core/dvb_vb2.c 110 */;
+}

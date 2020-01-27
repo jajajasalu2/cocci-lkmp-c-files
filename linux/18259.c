@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct map_desc cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 93 */[]__initdata;
+	char cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 84 */;
+	long cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 81 */;
+	void __init cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 533 */;
+	struct platform_device *cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 487 */[]__initdata;
+	struct platform_device cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 469 */;
+	struct gpio_keys_platform_data cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 464 */;
+	struct gpio_keys_button cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 447 */[];
+	struct s3c2410_ts_mach_info cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 440 */;
+	struct s3c2410_hcd_info cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 430 */;
+	struct s3c2410_udc_mach_info cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 424 */;
+	struct s3c2410_platform_nand __initdata cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 413 */;
+	struct s3c2410_nand_set __initdata cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 394 */[];
+	struct i2c_board_info cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 383 */[]__initdata;
+	struct resource cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 360 */;
+	struct physmap_flash_data cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 356 */;
+	struct pcf50633_platform_data cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 232 */;
+	struct pcf50633_bl_platform_data cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 226 */;
+	char *cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 222 */[];
+	unsigned int cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 207 */;
+	struct work_struct *cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 168 */;
+	void cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 168 */;
+	struct delayed_work cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 165 */;
+	struct pcf50633 *cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 144 */;
+	void *cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 144 */;
+	int cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 144 */;
+	struct s3c2410_uartcfg cocci_id/* arch/arm/mach-s3c24xx/mach-gta02.c 106 */[];
+	const struct machine_desc cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 397 */;
+}

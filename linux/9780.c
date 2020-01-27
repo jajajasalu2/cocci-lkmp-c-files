@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	dma_addr_t *cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 950 */;
+	struct ce_desc_64 cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 881 */;
+	u16 cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 832 */;
+	struct ce_desc cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 831 */;
+	unsigned int *cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 823 */;
+	void **cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 822 */;
+	struct ce_desc_64 *cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 757 */;
+	u32 cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 728 */;
+	struct ce_desc *cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 726 */;
+	dma_addr_t cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 718 */;
+	void *cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 717 */;
+	unsigned int cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 707 */;
+	struct ath10k_ce_ring *cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 706 */;
+	struct ath10k_ce *cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 705 */;
+	struct ath10k *cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 704 */;
+	struct ath10k_ce_pipe *cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 702 */;
+	int cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 702 */;
+	void cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 638 */;
+	__le32 *cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 559 */;
+	struct ath10k_hw_ce_host_wm_regs *cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 479 */;
+	struct ath10k_hw_ce_misc_regs *cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 465 */;
+	struct ath10k_hw_ce_host_ie *cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 416 */;
+	struct ath10k_hw_ce_dst_src_wm_regs *cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 393 */;
+	u64 cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 326 */;
+	struct ath10k_hw_ce_ctrl1 *cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 287 */;
+	const struct ath10k_ce_ops cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 1902 */;
+	struct ath10k_ce_crash_data cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 1852 */;
+	struct ath10k_fw_crash_data *cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 1849 */;
+	const struct ce_attr *cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 1629 */;
+	bool cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 1364 */;
+	struct ath10k_hw_ce_regs_addr_map *cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 128 */;
+	u32 *cocci_id/* drivers/net/wireless/ath/ath10k/ce.c 1187 */;
+}

@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 75 */;
+	int cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 74 */;
+	u8 *cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 601 */;
+	u32 cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 600 */;
+	const struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 53 */;
+	struct vxge_hw_vpath_stats_sw_info *cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 490 */;
+	struct vxge_hw_vpath_stats_hw_info *cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 299 */;
+	struct vxge_hw_device_stats_hw_info cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 265 */;
+	struct vxge_hw_device_stats_sw_info cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 255 */;
+	struct vxge_hw_xmac_stats cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 247 */;
+	struct vxge_hw_device_stats_hw_info *cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 240 */;
+	struct vxge_hw_device_stats_sw_info *cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 239 */;
+	struct vxge_hw_xmac_stats *cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 238 */;
+	struct vxge_vpath *cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 235 */;
+	struct ethtool_stats *cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 230 */;
+	const char cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 21 */[][ETH_GSTRING_LEN];
+	struct __vxge_hw_device *cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 200 */;
+	struct ethtool_pauseparam *cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 197 */;
+	enum ethtool_phys_id_state cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 166 */;
+	u64 *cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 133 */;
+	u64 cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 132 */;
+	enum vxge_hw_status cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 131 */;
+	struct ethtool_regs *cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 128 */;
+	void *cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 128 */;
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 1135 */;
+	struct ethtool_flash *cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 1116 */;
+	struct vxgedev *cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 110 */;
+	struct vxge_hw_vpath_reg cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 1094 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 108 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 107 */;
+	void cocci_id/* drivers/net/ethernet/neterion/vxge/vxge-ethtool.c 107 */;
+}

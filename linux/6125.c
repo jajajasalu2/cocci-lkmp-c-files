@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	void cocci_id/* drivers/mfd/omap-usb-host.c 871 */;
+	struct usbhs_hcd_omap {
+		int nports;
+		struct clk **utmi_clk;
+		struct clk **hsic60m_clk;
+		struct clk **hsic480m_clk;
+		struct clk *xclk60mhsp1_ck;
+		struct clk *xclk60mhsp2_ck;
+		struct clk *utmi_p1_gfclk;
+		struct clk *utmi_p2_gfclk;
+		struct clk *init_60m_fclk;
+		struct clk *ehci_logic_fck;
+		void __iomem *uhh_base;
+		struct usbhs_omap_platform_data *pdata;
+		u32 usbhs_rev;
+	} cocci_id/* drivers/mfd/omap-usb-host.c 85 */;
+	char *cocci_id/* drivers/mfd/omap-usb-host.c 843 */;
+	struct platform_driver cocci_id/* drivers/mfd/omap-usb-host.c 841 */;
+	const struct dev_pm_ops cocci_id/* drivers/mfd/omap-usb-host.c 828 */;
+	char cocci_id/* drivers/mfd/omap-usb-host.c 702 */[30];
+	struct clk *cocci_id/* drivers/mfd/omap-usb-host.c 616 */;
+	const struct of_device_id cocci_id/* drivers/mfd/omap-usb-host.c 519 */[];
+	char cocci_id/* drivers/mfd/omap-usb-host.c 490 */[11];
+	struct device_node *cocci_id/* drivers/mfd/omap-usb-host.c 476 */;
+	unsigned cocci_id/* drivers/mfd/omap-usb-host.c 438 */;
+	struct usbhs_hcd_omap *cocci_id/* drivers/mfd/omap-usb-host.c 437 */;
+	bool cocci_id/* drivers/mfd/omap-usb-host.c 258 */;
+	enum usbhs_omap_port_mode cocci_id/* drivers/mfd/omap-usb-host.c 258 */;
+	struct resource cocci_id/* drivers/mfd/omap-usb-host.c 197 */[2];
+	struct usbhs_omap_platform_data *cocci_id/* drivers/mfd/omap-usb-host.c 193 */;
+	struct device *cocci_id/* drivers/mfd/omap-usb-host.c 147 */;
+	size_t cocci_id/* drivers/mfd/omap-usb-host.c 147 */;
+	struct resource *cocci_id/* drivers/mfd/omap-usb-host.c 146 */;
+	void *cocci_id/* drivers/mfd/omap-usb-host.c 146 */;
+	int cocci_id/* drivers/mfd/omap-usb-host.c 146 */;
+	const char *cocci_id/* drivers/mfd/omap-usb-host.c 145 */;
+	struct platform_device *cocci_id/* drivers/mfd/omap-usb-host.c 145 */;
+	const char *constcocci_id/* drivers/mfd/omap-usb-host.c 128 */[];
+	u32 cocci_id/* drivers/mfd/omap-usb-host.c 116 */;
+	void __iomem *cocci_id/* drivers/mfd/omap-usb-host.c 116 */;
+	u64 cocci_id/* drivers/mfd/omap-usb-host.c 107 */;
+	const char cocci_id/* drivers/mfd/omap-usb-host.c 106 */[];
+}

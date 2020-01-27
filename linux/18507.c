@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	struct s3c2410_uartcfg cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 79 */[]__initdata;
+	u32 cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 655 */;
+	void __init cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 653 */;
+	struct dwc2_hsotg_plat cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 629 */;
+	struct platform_pwm_backlight_data cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 625 */;
+	struct pwm_lookup cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 620 */[];
+	struct samsung_bl_gpio_info cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 615 */;
+	struct i2c_board_info cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 591 */[]__initdata;
+	struct wm831x_pdata cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 561 */;
+	struct wm831x_status_pdata cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 553 */;
+	struct wm831x_backlight_pdata cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 528 */;
+	struct wm831x *cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 514 */;
+	struct gpio_led_platform_data cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 501 */;
+	struct gpio_led cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 493 */[];
+	struct wm8350_platform_data __initdata cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 485 */;
+	int cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 471 */;
+	struct wm8350 *cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 469 */;
+	int __init cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 469 */;
+	struct {
+		int regulator;
+		struct regulator_init_data *initdata;
+	} cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 455 */[];
+	struct platform_device *cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 261 */[]__initdata;
+	struct map_desc cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 259 */[];
+	struct samsung_keypad_platdata cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 253 */;
+	struct matrix_keymap_data cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 248 */;
+	uint32_t cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 240 */[]__initdata;
+	struct s3c_ide_platdata cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 236 */;
+	struct platform_device cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 227 */;
+	struct fixed_voltage_config cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 221 */;
+	struct regulator_init_data __maybe_unused cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 213 */;
+	struct regulator_consumer_supply cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 208 */[];
+	struct smsc911x_platform_config cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 189 */;
+	struct resource cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 183 */[];
+	struct s3c_fb_platdata cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 165 */;
+	struct fb_videomode cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 153 */;
+	struct s3c_fb_pd_win cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 144 */;
+	struct plat_lcd_data cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 134 */;
+	unsigned int cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 119 */;
+	struct plat_lcd_data *cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 118 */;
+	void cocci_id/* arch/arm/mach-s3c64xx/mach-smdk6410.c 118 */;
+	const struct machine_desc cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 397 */;
+}

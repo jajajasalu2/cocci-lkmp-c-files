@@ -1,0 +1,85 @@
+cocci_test_suite() {
+	char cocci_id/* drivers/dma/bcm2835-dma.c 893 */[BCM2835_DMA_CHAN_NAME_SIZE];
+	uint32_t cocci_id/* drivers/dma/bcm2835-dma.c 892 */;
+	int cocci_id/* drivers/dma/bcm2835-dma.c 890 */[BCM2835_DMA_MAX_DMA_CHAN_SUPPORTED + 1];
+	struct resource *cocci_id/* drivers/dma/bcm2835-dma.c 886 */;
+	struct platform_device *cocci_id/* drivers/dma/bcm2835-dma.c 883 */;
+	struct bcm2835_desc {
+		struct bcm2835_chan *c;
+		struct virt_dma_desc vd;
+		enum dma_transfer_direction dir;
+		unsigned int frames;
+		size_t size;
+		bool cyclic;
+		struct bcm2835_cb_entry cb_list[];
+	} cocci_id/* drivers/dma/bcm2835-dma.c 87 */;
+	struct of_dma *cocci_id/* drivers/dma/bcm2835-dma.c 868 */;
+	struct of_phandle_args *cocci_id/* drivers/dma/bcm2835-dma.c 867 */;
+	const struct of_device_id cocci_id/* drivers/dma/bcm2835-dma.c 861 */[];
+	unsigned int cocci_id/* drivers/dma/bcm2835-dma.c 823 */;
+	struct bcm2835_dmadev *cocci_id/* drivers/dma/bcm2835-dma.c 822 */;
+	struct dma_slave_config *cocci_id/* drivers/dma/bcm2835-dma.c 781 */;
+	struct bcm2835_chan {
+		struct virt_dma_chan vc;
+		struct dma_slave_config cfg;
+		unsigned int dreq;
+		int ch;
+		struct bcm2835_desc *desc;
+		struct dma_pool *cb_pool;
+		void __iomem *chan_base;
+		int irq_number;
+		unsigned int irq_flags;
+		bool is_lite_channel;
+	} cocci_id/* drivers/dma/bcm2835-dma.c 70 */;
+	struct dma_async_tx_descriptor *cocci_id/* drivers/dma/bcm2835-dma.c 694 */;
+	struct bcm2835_cb_entry {
+		struct bcm2835_dma_cb *cb;
+		dma_addr_t paddr;
+	} cocci_id/* drivers/dma/bcm2835-dma.c 65 */;
+	dma_cookie_t cocci_id/* drivers/dma/bcm2835-dma.c 565 */;
+	struct dma_tx_state *cocci_id/* drivers/dma/bcm2835-dma.c 565 */;
+	enum dma_status cocci_id/* drivers/dma/bcm2835-dma.c 564 */;
+	struct bcm2835_dma_cb {
+		uint32_t info;
+		uint32_t src;
+		uint32_t dst;
+		uint32_t length;
+		uint32_t stride;
+		uint32_t next;
+		uint32_t pad[2];
+	} cocci_id/* drivers/dma/bcm2835-dma.c 55 */;
+	struct bcm2835_dma_cb cocci_id/* drivers/dma/bcm2835-dma.c 514 */;
+	struct device *cocci_id/* drivers/dma/bcm2835-dma.c 505 */;
+	struct dma_chan *cocci_id/* drivers/dma/bcm2835-dma.c 502 */;
+	int cocci_id/* drivers/dma/bcm2835-dma.c 502 */;
+	struct bcm2835_dmadev {
+		struct dma_device ddev;
+		void __iomem *base;
+		struct device_dma_parameters dma_parms;
+		dma_addr_t zero_page;
+	} cocci_id/* drivers/dma/bcm2835-dma.c 48 */;
+	unsigned long cocci_id/* drivers/dma/bcm2835-dma.c 462 */;
+	struct bcm2835_desc *cocci_id/* drivers/dma/bcm2835-dma.c 461 */;
+	irqreturn_t cocci_id/* drivers/dma/bcm2835-dma.c 458 */;
+	void *cocci_id/* drivers/dma/bcm2835-dma.c 458 */;
+	long int cocci_id/* drivers/dma/bcm2835-dma.c 415 */;
+	void __iomem *cocci_id/* drivers/dma/bcm2835-dma.c 414 */;
+	struct bcm2835_chan *cocci_id/* drivers/dma/bcm2835-dma.c 412 */;
+	void cocci_id/* drivers/dma/bcm2835-dma.c 412 */;
+	struct bcm2835_dma_cb *cocci_id/* drivers/dma/bcm2835-dma.c 313 */;
+	struct bcm2835_cb_entry *cocci_id/* drivers/dma/bcm2835-dma.c 312 */;
+	gfp_t cocci_id/* drivers/dma/bcm2835-dma.c 306 */;
+	dma_addr_t cocci_id/* drivers/dma/bcm2835-dma.c 305 */;
+	u32 cocci_id/* drivers/dma/bcm2835-dma.c 304 */;
+	bool cocci_id/* drivers/dma/bcm2835-dma.c 304 */;
+	enum dma_transfer_direction cocci_id/* drivers/dma/bcm2835-dma.c 303 */;
+	struct scatterlist *cocci_id/* drivers/dma/bcm2835-dma.c 267 */;
+	size_t cocci_id/* drivers/dma/bcm2835-dma.c 265 */;
+	size_t *cocci_id/* drivers/dma/bcm2835-dma.c 228 */;
+	struct bcm2835_desc cocci_id/* drivers/dma/bcm2835-dma.c 220 */;
+	struct virt_dma_desc *cocci_id/* drivers/dma/bcm2835-dma.c 217 */;
+	struct bcm2835_chan cocci_id/* drivers/dma/bcm2835-dma.c 197 */;
+	struct bcm2835_dmadev cocci_id/* drivers/dma/bcm2835-dma.c 192 */;
+	struct dma_device *cocci_id/* drivers/dma/bcm2835-dma.c 190 */;
+	struct platform_driver cocci_id/* drivers/dma/bcm2835-dma.c 1040 */;
+}

@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct xfs_bmbt_irec cocci_id/* fs/xfs/xfs_refcount_item.c 463 */;
+	xfs_extlen_t cocci_id/* fs/xfs/xfs_refcount_item.c 462 */;
+	enum xfs_refcount_intent_type cocci_id/* fs/xfs/xfs_refcount_item.c 460 */;
+	struct xfs_btree_cur *cocci_id/* fs/xfs/xfs_refcount_item.c 459 */;
+	bool cocci_id/* fs/xfs/xfs_refcount_item.c 456 */;
+	xfs_fsblock_t cocci_id/* fs/xfs/xfs_refcount_item.c 455 */;
+	struct xfs_phys_extent *cocci_id/* fs/xfs/xfs_refcount_item.c 454 */;
+	unsigned int cocci_id/* fs/xfs/xfs_refcount_item.c 453 */;
+	struct xfs_trans *cocci_id/* fs/xfs/xfs_refcount_item.c 448 */;
+	const struct xfs_defer_op_type cocci_id/* fs/xfs/xfs_refcount_item.c 430 */;
+	struct xfs_refcount_intent cocci_id/* fs/xfs/xfs_refcount_item.c 426 */;
+	struct xfs_refcount_intent *cocci_id/* fs/xfs/xfs_refcount_item.c 424 */;
+	struct list_head *cocci_id/* fs/xfs/xfs_refcount_item.c 422 */;
+	struct xfs_btree_cur **cocci_id/* fs/xfs/xfs_refcount_item.c 386 */;
+	void **cocci_id/* fs/xfs/xfs_refcount_item.c 373 */;
+	struct xfs_cui_log_item cocci_id/* fs/xfs/xfs_refcount_item.c 27 */;
+	struct xfs_cui_log_item *cocci_id/* fs/xfs/xfs_refcount_item.c 25 */;
+	xfs_extlen_t *cocci_id/* fs/xfs/xfs_refcount_item.c 249 */;
+	xfs_fsblock_t *cocci_id/* fs/xfs/xfs_refcount_item.c 248 */;
+	kmem_zone_t *cocci_id/* fs/xfs/xfs_refcount_item.c 23 */;
+	const struct xfs_item_ops cocci_id/* fs/xfs/xfs_refcount_item.c 212 */;
+	struct xfs_cud_log_format cocci_id/* fs/xfs/xfs_refcount_item.c 194 */;
+	struct xfs_log_iovec *cocci_id/* fs/xfs/xfs_refcount_item.c 188 */;
+	struct xfs_log_vec *cocci_id/* fs/xfs/xfs_refcount_item.c 185 */;
+	void cocci_id/* fs/xfs/xfs_refcount_item.c 182 */;
+	int *cocci_id/* fs/xfs/xfs_refcount_item.c 168 */;
+	struct xfs_cud_log_item cocci_id/* fs/xfs/xfs_refcount_item.c 162 */;
+	struct xfs_log_item *cocci_id/* fs/xfs/xfs_refcount_item.c 160 */;
+	struct xfs_cud_log_item *cocci_id/* fs/xfs/xfs_refcount_item.c 160 */;
+	uintptr_t cocci_id/* fs/xfs/xfs_refcount_item.c 153 */;
+	void *cocci_id/* fs/xfs/xfs_refcount_item.c 153 */;
+	uint cocci_id/* fs/xfs/xfs_refcount_item.c 139 */;
+	struct xfs_mount *cocci_id/* fs/xfs/xfs_refcount_item.c 138 */;
+	int cocci_id/* fs/xfs/xfs_refcount_item.c 107 */;
+}

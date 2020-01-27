@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/ide/ide-io.c 95 */[2];
+	u8 cocci_id/* drivers/ide/ide-io.c 888 */[4];
+	struct ide_taskfile *cocci_id/* drivers/ide/ide-io.c 87 */;
+	const struct ide_tp_ops *cocci_id/* drivers/ide/ide-io.c 86 */;
+	void cocci_id/* drivers/ide/ide-io.c 84 */;
+	unsigned long cocci_id/* drivers/ide/ide-io.c 782 */;
+	ide_handler_t *cocci_id/* drivers/ide/ide-io.c 781 */;
+	struct ide_host *cocci_id/* drivers/ide/ide-io.c 779 */;
+	irqreturn_t cocci_id/* drivers/ide/ide-io.c 776 */;
+	void *cocci_id/* drivers/ide/ide-io.c 776 */;
+	ide_expiry_t *cocci_id/* drivers/ide/ide-io.c 641 */;
+	struct timer_list *cocci_id/* drivers/ide/ide-io.c 619 */;
+	u8 cocci_id/* drivers/ide/ide-io.c 585 */;
+	ide_hwif_t *cocci_id/* drivers/ide/ide-io.c 584 */;
+	int cocci_id/* drivers/ide/ide-io.c 582 */;
+	const struct blk_mq_queue_data *cocci_id/* drivers/ide/ide-io.c 566 */;
+	struct blk_mq_hw_ctx *cocci_id/* drivers/ide/ide-io.c 565 */;
+	bool cocci_id/* drivers/ide/ide-io.c 457 */;
+	struct request_queue *cocci_id/* drivers/ide/ide-io.c 446 */;
+	struct ide_driver **cocci_id/* drivers/ide/ide-io.c 378 */;
+	struct ide_pm_state *cocci_id/* drivers/ide/ide-io.c 357 */;
+	struct ide_driver *cocci_id/* drivers/ide/ide-io.c 345 */;
+	struct ide_cmd *cocci_id/* drivers/ide/ide-io.c 266 */;
+	struct request *cocci_id/* drivers/ide/ide-io.c 264 */;
+	struct scatterlist *cocci_id/* drivers/ide/ide-io.c 236 */;
+	struct ide_cmd cocci_id/* drivers/ide/ide-io.c 197 */;
+	ide_startstop_t cocci_id/* drivers/ide/ide-io.c 195 */;
+	ide_drive_t *cocci_id/* drivers/ide/ide-io.c 195 */;
+	blk_status_t cocci_id/* drivers/ide/ide-io.c 125 */;
+	unsigned int cocci_id/* drivers/ide/ide-io.c 125 */;
+}

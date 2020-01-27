@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct i2c_driver cocci_id/* drivers/leds/leds-lp5562.c 604 */;
+	const struct of_device_id cocci_id/* drivers/leds/leds-lp5562.c 596 */[];
+	const struct i2c_device_id cocci_id/* drivers/leds/leds-lp5562.c 589 */[];
+	struct device_node *cocci_id/* drivers/leds/leds-lp5562.c 521 */;
+	struct lp55xx_platform_data *cocci_id/* drivers/leds/leds-lp5562.c 520 */;
+	const struct i2c_device_id *cocci_id/* drivers/leds/leds-lp5562.c 515 */;
+	struct i2c_client *cocci_id/* drivers/leds/leds-lp5562.c 514 */;
+	struct lp55xx_device_config cocci_id/* drivers/leds/leds-lp5562.c 496 */;
+	const struct attribute_group cocci_id/* drivers/leds/leds-lp5562.c 491 */;
+	struct attribute *cocci_id/* drivers/leds/leds-lp5562.c 485 */[];
+	const char *cocci_id/* drivers/leds/leds-lp5562.c 435 */;
+	size_t cocci_id/* drivers/leds/leds-lp5562.c 435 */;
+	struct device_attribute *cocci_id/* drivers/leds/leds-lp5562.c 434 */;
+	struct device *cocci_id/* drivers/leds/leds-lp5562.c 433 */;
+	ssize_t cocci_id/* drivers/leds/leds-lp5562.c 433 */;
+	unsigned long cocci_id/* drivers/leds/leds-lp5562.c 413 */;
+	bool cocci_id/* drivers/leds/leds-lp5562.c 349 */;
+	struct lp55xx_predef_pattern *cocci_id/* drivers/leds/leds-lp5562.c 349 */;
+	const u8 cocci_id/* drivers/leds/leds-lp5562.c 318 */[];
+	struct lp55xx_led *cocci_id/* drivers/leds/leds-lp5562.c 315 */;
+	int cocci_id/* drivers/leds/leds-lp5562.c 315 */;
+	u8 cocci_id/* drivers/leds/leds-lp5562.c 286 */;
+	const struct firmware *cocci_id/* drivers/leds/leds-lp5562.c 261 */;
+	struct lp55xx_chip *cocci_id/* drivers/leds/leds-lp5562.c 259 */;
+	void cocci_id/* drivers/leds/leds-lp5562.c 259 */;
+	char cocci_id/* drivers/leds/leds-lp5562.c 217 */[3];
+	unsigned cocci_id/* drivers/leds/leds-lp5562.c 216 */;
+	u8 cocci_id/* drivers/leds/leds-lp5562.c 210 */[LP5562_PROGRAM_LENGTH];
+	const u8 *cocci_id/* drivers/leds/leds-lp5562.c 207 */;
+	enum lp55xx_engine_index cocci_id/* drivers/leds/leds-lp5562.c 129 */;
+}

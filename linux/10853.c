@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	unsigned cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 91 */;
+	u64 cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 90 */;
+	struct amdgpu_ring *cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 90 */;
+	const struct amdgpu_ip_block_version cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 849 */;
+	struct drm_gpu_scheduler *cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 837 */;
+	const struct amdgpu_vm_pte_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 827 */;
+	const struct amdgpu_buffer_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 811 */;
+	uint32_t cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 778 */;
+	uint64_t cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 776 */;
+	struct amdgpu_ib *cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 775 */;
+	void cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 775 */;
+	const struct amdgpu_irq_src_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 752 */;
+	const struct amdgpu_ring_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 719 */;
+	const struct amd_ip_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 702 */;
+	enum amd_powergating_state cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 687 */;
+	enum amd_clockgating_state cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 644 */;
+	struct amdgpu_job *cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 64 */;
+	struct amdgpu_iv_entry *cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 634 */;
+	struct amdgpu_irq_src *cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 633 */;
+	enum amdgpu_interrupt_state cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 589 */;
+	u32 cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 559 */;
+	bool cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 556 */;
+	struct amdgpu_device *cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 468 */;
+	void *cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 466 */;
+	int cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 466 */;
+	void cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 37 */(struct amdgpu_device *adev);
+	const u32 cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 30 */[SDMA_MAX_INSTANCE];
+	struct dma_fence *cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 256 */;
+	struct amdgpu_ib cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 255 */;
+	long cocci_id/* drivers/gpu/drm/amd/amdgpu/si_dma.c 252 */;
+}

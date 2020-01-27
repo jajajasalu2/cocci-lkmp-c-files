@@ -1,0 +1,62 @@
+cocci_test_suite() {
+	struct resource cocci_id/* drivers/pci/controller/pcie-rcar.c 974 */;
+	void *cocci_id/* drivers/pci/controller/pcie-rcar.c 941 */;
+	phys_addr_t cocci_id/* drivers/pci/controller/pcie-rcar.c 898 */;
+	const struct irq_domain_ops cocci_id/* drivers/pci/controller/pcie-rcar.c 876 */;
+	irq_hw_number_t cocci_id/* drivers/pci/controller/pcie-rcar.c 868 */;
+	struct irq_domain *cocci_id/* drivers/pci/controller/pcie-rcar.c 867 */;
+	struct irq_chip cocci_id/* drivers/pci/controller/pcie-rcar.c 859 */;
+	struct irq_data *cocci_id/* drivers/pci/controller/pcie-rcar.c 854 */;
+	struct msi_desc cocci_id/* drivers/pci/controller/pcie-rcar.c 815 */;
+	struct msi_msg cocci_id/* drivers/pci/controller/pcie-rcar.c 774 */;
+	struct rcar_pcie cocci_id/* drivers/pci/controller/pcie-rcar.c 773 */;
+	struct msi_desc *cocci_id/* drivers/pci/controller/pcie-rcar.c 770 */;
+	struct pci_dev *cocci_id/* drivers/pci/controller/pcie-rcar.c 769 */;
+	struct msi_controller *cocci_id/* drivers/pci/controller/pcie-rcar.c 769 */;
+	irqreturn_t cocci_id/* drivers/pci/controller/pcie-rcar.c 731 */;
+	unsigned long cocci_id/* drivers/pci/controller/pcie-rcar.c 724 */;
+	struct rcar_msi *cocci_id/* drivers/pci/controller/pcie-rcar.c 695 */;
+	u32 cocci_id/* drivers/pci/controller/pcie-rcar.c 513 */;
+	void cocci_id/* drivers/pci/controller/pcie-rcar.c 512 */;
+	unsigned int cocci_id/* drivers/pci/controller/pcie-rcar.c 498 */;
+	struct device *cocci_id/* drivers/pci/controller/pcie-rcar.c 497 */;
+	struct rcar_pcie *cocci_id/* drivers/pci/controller/pcie-rcar.c 495 */;
+	int cocci_id/* drivers/pci/controller/pcie-rcar.c 495 */;
+	struct pci_host_bridge *cocci_id/* drivers/pci/controller/pcie-rcar.c 458 */;
+	struct resource *cocci_id/* drivers/pci/controller/pcie-rcar.c 377 */;
+	struct list_head *cocci_id/* drivers/pci/controller/pcie-rcar.c 370 */;
+	resource_size_t cocci_id/* drivers/pci/controller/pcie-rcar.c 339 */;
+	struct pci_ops cocci_id/* drivers/pci/controller/pcie-rcar.c 330 */;
+	u32 *cocci_id/* drivers/pci/controller/pcie-rcar.c 195 */;
+	struct pci_bus *cocci_id/* drivers/pci/controller/pcie-rcar.c 194 */;
+	unsigned char cocci_id/* drivers/pci/controller/pcie-rcar.c 194 */;
+	enum{RCAR_PCI_ACCESS_READ, RCAR_PCI_ACCESS_WRITE,} cocci_id/* drivers/pci/controller/pcie-rcar.c 169 */;
+	struct rcar_pcie {
+		struct device *dev;
+		struct phy *phy;
+		void __iomem *base;
+		struct list_head resources;
+		int root_bus_nr;
+		struct clk *bus_clk;
+		struct rcar_msi msi;
+	} cocci_id/* drivers/pci/controller/pcie-rcar.c 148 */;
+	struct rcar_msi cocci_id/* drivers/pci/controller/pcie-rcar.c 144 */;
+	struct rcar_msi {
+	DECLARE_BITMAP(used,INT_PCI_MSI_NR)
+		;
+		struct irq_domain *domain;
+		struct msi_controller chip;
+		unsigned long pages;
+		struct mutex lock;
+		int irq1;
+		int irq2;
+	} cocci_id/* drivers/pci/controller/pcie-rcar.c 132 */;
+	struct platform_driver cocci_id/* drivers/pci/controller/pcie-rcar.c 1240 */;
+	const struct dev_pm_ops cocci_id/* drivers/pci/controller/pcie-rcar.c 1236 */;
+	int (*cocci_id/* drivers/pci/controller/pcie-rcar.c 1119 */)(struct rcar_pcie *);
+	struct platform_device *cocci_id/* drivers/pci/controller/pcie-rcar.c 1113 */;
+	const struct of_device_id cocci_id/* drivers/pci/controller/pcie-rcar.c 1097 */[];
+	u64 cocci_id/* drivers/pci/controller/pcie-rcar.c 1023 */;
+	int *cocci_id/* drivers/pci/controller/pcie-rcar.c 1021 */;
+	struct resource_entry *cocci_id/* drivers/pci/controller/pcie-rcar.c 1020 */;
+}

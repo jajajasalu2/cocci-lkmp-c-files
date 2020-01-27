@@ -1,0 +1,101 @@
+cocci_test_suite() {
+	struct rtw_backup_info cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 925 */[DACK_REG_8822C];
+	struct rtw_backup_info cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 924 */[DACK_RF_8822C * DACK_PATH_8822C];
+	bool cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 870 */;
+	struct rtw_dev *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 870 */;
+	u32 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 86 */[DACK_REG_8822C];
+	u32 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 85 */[DACK_RF_8822C];
+	struct rtw_backup_info *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 79 */;
+	u32 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 695 */[3];
+	u16 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 636 */;
+	struct rtw_chip_info cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 4063 */;
+	const struct rtw_pwr_track_tbl cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 4040 */;
+	const u8 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 4028 */[RTW_PWR_TRK_TBL_SZ];
+	const u8 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3966 */[RTW_PWR_TRK_5G_NUM][RTW_PWR_TRK_TBL_SZ];
+	const struct coex_rf_para cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3929 */[];
+	const struct coex_5g_afh_map cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3917 */[];
+	const u8 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3916 */[];
+	const struct coex_tdma_para cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3890 */[];
+	const struct coex_table_para cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3831 */[];
+	struct rtw_chip_ops cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3768 */;
+	struct rtw_rqpn cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3750 */[];
+	struct rtw_page_table cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3742 */[];
+	struct rtw_hw_reg cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3737 */[];
+	const struct rtw_rfe_def cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3731 */[];
+	struct rtw_intf_phy_para_table cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3720 */;
+	struct rtw_intf_phy_para cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3706 */[];
+	struct rtw_pwr_seq_cmd *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3686 */[];
+	struct rtw_pwr_seq_cmd cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3554 */[];
+	u32 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 344 */[DACK_SN_8822C];
+	u8 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3366 */;
+	struct rtw_swing_table cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3365 */;
+	struct rtw_swing_table *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3341 */;
+	s8 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3298 */[CCK_PD_LV_MAX];
+	const struct rtw_phy_cck_pd_reg cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3246 */[RTW_CHANNEL_WIDTH_40 + 1][RTW_RF_PATH_MAX];
+	s8 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3219 */[DPK_RF_PATH_NUM];
+	u8 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3218 */[DPK_RF_PATH_NUM];
+	u32 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3175 */[DPK_RF_REG_NUM];
+	u32 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3171 */[DPK_BB_REG_NUM];
+	u32 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3170 */[DPK_RF_REG_NUM][DPK_RF_PATH_NUM];
+	struct rtw_backup_info cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3169 */[DPK_BB_REG_NUM];
+	struct rtw_dpk_info *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 3168 */;
+	struct rtw8822c_efuse *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 31 */;
+	u32 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 2976 */[DPK_RF_PATH_NUM];
+	u16 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 2810 */[DPK_RF_PATH_NUM];
+	const u32 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 2755 */[];
+	u8 (*cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 2711 */)(struct rtw_dev *rtwdev,
+									       struct rtw8822c_dpk_data *data);
+	struct rtw8822c_dpk_data cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 2710 */;
+	u8 (*cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 2701 */[])(struct rtw_dev *rtwdev,
+										 struct rtw8822c_dpk_data *data);
+	u8 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 2661 */[];
+	struct rtw8822c_dpk_data *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 2599 */;
+	struct rtw8822c_dpk_data {
+		u8 txbb;
+		u8 pga;
+		u8 limited_pga;
+		u8 agc_cnt;
+		bool loss_only;
+		bool gain_only;
+		u8 path;
+	} cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 2588 */;
+	u32 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 2517 */[21];
+	u32 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 2241 */[][2];
+	struct dpk_cfg_pair cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 2195 */;
+	const struct dpk_cfg_pair *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 2192 */;
+	const struct rtw_table *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 2190 */;
+	struct dpk_cfg_pair {
+		u32 addr;
+		u32 bitmask;
+		u32 data;
+	} cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 2183 */;
+	struct rtw_bfee *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 2173 */;
+	struct rtw_vif *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 2172 */;
+	u32 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 2137 */;
+	struct rtw_coex_dm *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 2111 */;
+	struct rtw_coex_rfe *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 2077 */;
+	struct rtw_efuse *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 2011 */;
+	struct rtw_coex_stat *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 2010 */;
+	struct rtw_coex *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 2009 */;
+	struct rtw_iqk_para cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 1959 */;
+	void cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 19 */(struct rtw_dev *rtwdev,
+									    u8 tx_path,
+									    u8 rx_path,
+									    bool is_tx2_path);
+	s8 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 1855 */[4];
+	u8 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 1849 */[2];
+	u8 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 1828 */[4];
+	s8 *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 1824 */;
+	u32 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 1807 */[2];
+	struct ieee80211_hdr *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 1765 */;
+	struct ieee80211_rx_status *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 1763 */;
+	struct rtw_rx_pkt_stat *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 1742 */;
+	u8 *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 1741 */;
+	int cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 1647 */;
+	s8 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 1645 */;
+	s8 cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 1644 */[RTW_RF_PATH_MAX];
+	struct rtw_dm_info *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 1641 */;
+	u32 *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 164 */;
+	void cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 164 */;
+	struct rtw_hal *cocci_id/* drivers/net/wireless/realtek/rtw88/rtw8822c.c 1027 */;
+}

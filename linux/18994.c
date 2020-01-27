@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	u32 __user *cocci_id/* arch/arm/kvm/coproc.c 988 */;
+	void __user *cocci_id/* arch/arm/kvm/coproc.c 985 */;
+	const void __user *cocci_id/* arch/arm/kvm/coproc.c 867 */;
+	struct coproc_reg cocci_id/* arch/arm/kvm/coproc.c 836 */[];
+	struct coproc_reg *cocci_id/* arch/arm/kvm/coproc.c 810 */;
+	struct kvm_run *cocci_id/* arch/arm/kvm/coproc.c 81 */;
+	struct coproc_params *cocci_id/* arch/arm/kvm/coproc.c 721 */;
+	struct coproc_params cocci_id/* arch/arm/kvm/coproc.c 672 */;
+	unsigned long *cocci_id/* arch/arm/kvm/coproc.c 655 */;
+	size_t cocci_id/* arch/arm/kvm/coproc.c 575 */;
+	void *cocci_id/* arch/arm/kvm/coproc.c 569 */;
+	unsigned long cocci_id/* arch/arm/kvm/coproc.c 567 */;
+	const unsigned long cocci_id/* arch/arm/kvm/coproc.c 557 */;
+	const void *cocci_id/* arch/arm/kvm/coproc.c 555 */;
+	struct kvm_coproc_target_table *cocci_id/* arch/arm/kvm/coproc.c 537 */;
+	size_t *cocci_id/* arch/arm/kvm/coproc.c 535 */;
+	unsigned cocci_id/* arch/arm/kvm/coproc.c 535 */;
+	struct kvm_coproc_target_table *cocci_id/* arch/arm/kvm/coproc.c 526 */[KVM_ARM_NUM_TARGETS];
+	unsigned int cocci_id/* arch/arm/kvm/coproc.c 511 */;
+	int cocci_id/* arch/arm/kvm/coproc.c 511 */;
+	const struct coproc_reg cocci_id/* arch/arm/kvm/coproc.c 379 */[];
+	u64 cocci_id/* arch/arm/kvm/coproc.c 322 */;
+	u32 cocci_id/* arch/arm/kvm/coproc.c 303 */;
+	void cocci_id/* arch/arm/kvm/coproc.c 1403 */;
+	u64 __user **cocci_id/* arch/arm/kvm/coproc.c 1315 */;
+	long cocci_id/* arch/arm/kvm/coproc.c 1208 */;
+	const struct kvm_one_reg *cocci_id/* arch/arm/kvm/coproc.c 1205 */;
+	const struct coproc_reg *cocci_id/* arch/arm/kvm/coproc.c 118 */;
+	const struct coproc_params *cocci_id/* arch/arm/kvm/coproc.c 117 */;
+	bool cocci_id/* arch/arm/kvm/coproc.c 116 */;
+	struct kvm_vcpu *cocci_id/* arch/arm/kvm/coproc.c 116 */;
+	const struct kvm_vcpu *cocci_id/* arch/arm/kvm/coproc.c 1086 */;
+	const u64 cocci_id/* arch/arm/kvm/coproc.c 1067 */;
+	u64 __user *cocci_id/* arch/arm/kvm/coproc.c 1064 */;
+	const int cocci_id/* arch/arm/kvm/coproc.c 1042 */[];
+}

@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	const u8 *cocci_id/* net/mac80211/agg-rx.c 510 */;
+	unsigned int cocci_id/* net/mac80211/agg-rx.c 510 */;
+	struct ieee80211_vif *cocci_id/* net/mac80211/agg-rx.c 509 */;
+	struct ieee80211_mgmt cocci_id/* net/mac80211/agg-rx.c 494 */;
+	struct tid_ampdu_rx cocci_id/* net/mac80211/agg-rx.c 48 */;
+	struct ieee802_11_elems cocci_id/* net/mac80211/agg-rx.c 479 */;
+	size_t cocci_id/* net/mac80211/agg-rx.c 476 */;
+	struct ieee80211_mgmt *cocci_id/* net/mac80211/agg-rx.c 475 */;
+	struct rcu_head *cocci_id/* net/mac80211/agg-rx.c 45 */;
+	unsigned long cocci_id/* net/mac80211/agg-rx.c 404 */;
+	struct sk_buff_head cocci_id/* net/mac80211/agg-rx.c 402 */;
+	int cocci_id/* net/mac80211/agg-rx.c 284 */;
+	struct ieee80211_ampdu_params cocci_id/* net/mac80211/agg-rx.c 276 */;
+	struct tid_ampdu_rx *cocci_id/* net/mac80211/agg-rx.c 275 */;
+	struct ieee80211_local *cocci_id/* net/mac80211/agg-rx.c 274 */;
+	const struct ieee80211_addba_ext_ie *cocci_id/* net/mac80211/agg-rx.c 272 */;
+	bool cocci_id/* net/mac80211/agg-rx.c 271 */;
+	u8 cocci_id/* net/mac80211/agg-rx.c 269 */;
+	u16 cocci_id/* net/mac80211/agg-rx.c 269 */;
+	struct sta_info *cocci_id/* net/mac80211/agg-rx.c 268 */;
+	void cocci_id/* net/mac80211/agg-rx.c 268 */;
+	struct ieee80211_addba_ext_ie cocci_id/* net/mac80211/agg-rx.c 198 */;
+	u8 *cocci_id/* net/mac80211/agg-rx.c 189 */;
+	const struct ieee80211_sta_he_cap *cocci_id/* net/mac80211/agg-rx.c 187 */;
+	struct ieee80211_addba_ext_ie *cocci_id/* net/mac80211/agg-rx.c 186 */;
+	struct ieee80211_supported_band *cocci_id/* net/mac80211/agg-rx.c 185 */;
+	struct sk_buff *cocci_id/* net/mac80211/agg-rx.c 182 */;
+	struct ieee80211_sub_if_data *cocci_id/* net/mac80211/agg-rx.c 181 */;
+	struct timer_list *cocci_id/* net/mac80211/agg-rx.c 172 */;
+}

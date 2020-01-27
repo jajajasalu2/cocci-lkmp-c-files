@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	struct tape_3590_disc_data *cocci_id/* drivers/s390/char/tape_3590.c 905 */;
+	struct tape390_crypt_info *cocci_id/* drivers/s390/char/tape_3590.c 671 */;
+	struct tape_3590_med_sense *cocci_id/* drivers/s390/char/tape_3590.c 669 */;
+	struct work_handler_data *cocci_id/* drivers/s390/char/tape_3590.c 654 */;
+	enum tape_op cocci_id/* drivers/s390/char/tape_3590.c 652 */;
+	struct work_handler_data cocci_id/* drivers/s390/char/tape_3590.c 628 */;
+	struct work_struct *cocci_id/* drivers/s390/char/tape_3590.c 625 */;
+	struct work_handler_data {
+		struct tape_device *device;
+		enum tape_op op;
+		struct work_struct work;
+	} cocci_id/* drivers/s390/char/tape_3590.c 618 */;
+	__u32 *cocci_id/* drivers/s390/char/tape_3590.c 546 */;
+	__u64 cocci_id/* drivers/s390/char/tape_3590.c 523 */;
+	char __user *cocci_id/* drivers/s390/char/tape_3590.c 472 */;
+	struct display_struct cocci_id/* drivers/s390/char/tape_3590.c 470 */;
+	unsigned long cocci_id/* drivers/s390/char/tape_3590.c 466 */;
+	unsigned int cocci_id/* drivers/s390/char/tape_3590.c 466 */;
+	const char *cocci_id/* drivers/s390/char/tape_3590.c 46 */[TAPE_3590_MAX_MSG];
+	int cocci_id/* drivers/s390/char/tape_3590.c 443 */(struct tape_device *device);
+	struct tape390_crypt_info cocci_id/* drivers/s390/char/tape_3590.c 428 */;
+	char *cocci_id/* drivers/s390/char/tape_3590.c 380 */;
+	struct tape_request *cocci_id/* drivers/s390/char/tape_3590.c 377 */;
+	struct tape_device *cocci_id/* drivers/s390/char/tape_3590.c 377 */;
+	debug_info_t *cocci_id/* drivers/s390/char/tape_3590.c 32 */;
+	struct tape3592_kekl_set_order *cocci_id/* drivers/s390/char/tape_3590.c 278 */;
+	struct workqueue_struct *cocci_id/* drivers/s390/char/tape_3590.c 27 */;
+	int cocci_id/* drivers/s390/char/tape_3590.c 269 */(struct tape_device *device,
+							    int mt_count);
+	struct tape3592_kekl_query_data *cocci_id/* drivers/s390/char/tape_3590.c 206 */;
+	struct tape3592_kekl_query_order *cocci_id/* drivers/s390/char/tape_3590.c 205 */;
+	struct tape390_kekl_pair *cocci_id/* drivers/s390/char/tape_3590.c 186 */;
+	struct tape390_kekl *cocci_id/* drivers/s390/char/tape_3590.c 167 */;
+	int cocci_id/* drivers/s390/char/tape_3590.c 167 */;
+	long cocci_id/* drivers/s390/char/tape_3590.c 1666 */;
+	struct ccw_driver cocci_id/* drivers/s390/char/tape_3590.c 1644 */;
+	struct ccw_device *cocci_id/* drivers/s390/char/tape_3590.c 1638 */;
+	struct ccw_device_id cocci_id/* drivers/s390/char/tape_3590.c 1631 */[];
+	struct tape_discipline cocci_id/* drivers/s390/char/tape_3590.c 1619 */;
+	tape_mtop_fn cocci_id/* drivers/s390/char/tape_3590.c 1581 */[TAPE_NR_MTOPS];
+	struct tape_3590_disc_data cocci_id/* drivers/s390/char/tape_3590.c 1525 */;
+	struct tape_3590_rdc_data *cocci_id/* drivers/s390/char/tape_3590.c 1496 */;
+	struct tape3592_kekl_pair *cocci_id/* drivers/s390/char/tape_3590.c 146 */;
+	u16 *cocci_id/* drivers/s390/char/tape_3590.c 1310 */;
+	struct tape_3590_sense *cocci_id/* drivers/s390/char/tape_3590.c 1308 */;
+	u16 cocci_id/* drivers/s390/char/tape_3590.c 1305 */;
+	u8 cocci_id/* drivers/s390/char/tape_3590.c 1304 */;
+	struct irb *cocci_id/* drivers/s390/char/tape_3590.c 1302 */;
+	struct tape3592_kekl *cocci_id/* drivers/s390/char/tape_3590.c 114 */;
+	void cocci_id/* drivers/s390/char/tape_3590.c 113 */;
+}

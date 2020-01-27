@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	u32 *cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 92 */;
+	islpci_state_t cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 910 */;
+	unsigned long cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 848 */;
+	islpci_private cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 810 */;
+	struct pci_dev *cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 807 */;
+	struct device_type cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 802 */;
+	const u32 *cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 80 */;
+	const struct net_device_ops cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 793 */;
+	long cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 79 */;
+	const struct ethtool_ops cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 789 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 783 */;
+	const struct firmware *cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 78 */;
+	struct islpci_membuf *cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 742 */;
+	void *cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 695 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 678 */;
+	isl38xx_control_block *cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 653 */;
+	isl38xx_fragment *cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 568 */;
+	unsigned cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 543 */;
+	void __iomem *cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 53 */;
+	u32 cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 52 */;
+	islpci_private *cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 50 */;
+	int cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 49 */;
+	const unsigned char cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 47 */[6];
+	struct net_device *cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 397 */;
+	int cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 38 */(islpci_private *);
+	irqreturn_t cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 176 */;
+	void cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 129 */;
+	u32 __iomem *cocci_id/* drivers/net/wireless/intersil/prism54/islpci_dev.c 108 */;
+}

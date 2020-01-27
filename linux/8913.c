@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	unsigned int *cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 76 */;
+	u8 *cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 60 */;
+	unsigned long cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 577 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 441 */;
+	void cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 405 */;
+	struct xlgmac_pdata *cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 363 */;
+	int cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 363 */;
+	u32 cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 331 */[XLGMAC_MAC_HASH_TABLE_SIZE];
+	struct xlgmac_hw_ops *cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 3065 */;
+	struct xlgmac_desc_ops *cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 2989 */;
+	struct netdev_hw_addr *cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 298 */;
+	u32 cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 2973 */;
+	enum xlgmac_int cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 2880 */;
+	struct xlgmac_pkt_info *cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 2645 */;
+	struct xlgmac_dma_desc *cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 2644 */;
+	struct xlgmac_desc_data *cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 2643 */;
+	struct xlgmac_ring *cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 2641 */;
+	const u32 *cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 2367 */;
+	const u8 *cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 2359 */;
+	__le16 cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 220 */;
+	u16 cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 219 */;
+	struct xlgmac_stats *cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 2126 */;
+	unsigned char cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 196 */;
+	unsigned char *cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 195 */;
+	bool cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 1842 */;
+	struct xlgmac_channel *cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 1741 */;
+	unsigned int cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 1604 */;
+	dma_addr_t cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 1089 */;
+	u64 cocci_id/* drivers/net/ethernet/synopsys/dwc-xlgmac-hw.c 1014 */;
+}

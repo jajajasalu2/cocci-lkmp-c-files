@@ -1,0 +1,65 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/pci/controller/pcie-mobiveil.c 945 */;
+	const struct of_device_id cocci_id/* drivers/pci/controller/pcie-mobiveil.c 938 */[];
+	struct device_node *cocci_id/* drivers/pci/controller/pcie-mobiveil.c 836 */;
+	struct mobiveil_msi *cocci_id/* drivers/pci/controller/pcie-mobiveil.c 811 */;
+	struct fwnode_handle *cocci_id/* drivers/pci/controller/pcie-mobiveil.c 810 */;
+	struct device *cocci_id/* drivers/pci/controller/pcie-mobiveil.c 809 */;
+	struct mobiveil_pcie *cocci_id/* drivers/pci/controller/pcie-mobiveil.c 807 */;
+	int cocci_id/* drivers/pci/controller/pcie-mobiveil.c 807 */;
+	unsigned long cocci_id/* drivers/pci/controller/pcie-mobiveil.c 764 */;
+	unsigned int cocci_id/* drivers/pci/controller/pcie-mobiveil.c 759 */;
+	struct irq_domain *cocci_id/* drivers/pci/controller/pcie-mobiveil.c 758 */;
+	bool cocci_id/* drivers/pci/controller/pcie-mobiveil.c 747 */;
+	const struct cpumask *cocci_id/* drivers/pci/controller/pcie-mobiveil.c 747 */;
+	phys_addr_t cocci_id/* drivers/pci/controller/pcie-mobiveil.c 736 */;
+	struct msi_msg *cocci_id/* drivers/pci/controller/pcie-mobiveil.c 733 */;
+	struct irq_data *cocci_id/* drivers/pci/controller/pcie-mobiveil.c 733 */;
+	void cocci_id/* drivers/pci/controller/pcie-mobiveil.c 733 */;
+	struct msi_domain_info cocci_id/* drivers/pci/controller/pcie-mobiveil.c 727 */;
+	const struct irq_domain_ops cocci_id/* drivers/pci/controller/pcie-mobiveil.c 717 */;
+	irq_hw_number_t cocci_id/* drivers/pci/controller/pcie-mobiveil.c 708 */;
+	struct irq_chip cocci_id/* drivers/pci/controller/pcie-mobiveil.c 698 */;
+	struct irq_desc *cocci_id/* drivers/pci/controller/pcie-mobiveil.c 668 */;
+	struct resource_entry *cocci_id/* drivers/pci/controller/pcie-mobiveil.c 584 */;
+	struct pci_host_bridge *cocci_id/* drivers/pci/controller/pcie-mobiveil.c 582 */;
+	u64 cocci_id/* drivers/pci/controller/pcie-mobiveil.c 468 */;
+	struct resource *cocci_id/* drivers/pci/controller/pcie-mobiveil.c 427 */;
+	struct platform_device *cocci_id/* drivers/pci/controller/pcie-mobiveil.c 425 */;
+	struct irq_chip *cocci_id/* drivers/pci/controller/pcie-mobiveil.c 339 */;
+	struct pci_ops cocci_id/* drivers/pci/controller/pcie-mobiveil.c 331 */;
+	struct pci_bus *cocci_id/* drivers/pci/controller/pcie-mobiveil.c 303 */;
+	void __iomem *cocci_id/* drivers/pci/controller/pcie-mobiveil.c 303 */;
+	void *cocci_id/* drivers/pci/controller/pcie-mobiveil.c 239 */;
+	u32 cocci_id/* drivers/pci/controller/pcie-mobiveil.c 237 */;
+	size_t cocci_id/* drivers/pci/controller/pcie-mobiveil.c 237 */;
+	uintptr_t cocci_id/* drivers/pci/controller/pcie-mobiveil.c 192 */;
+	u32 *cocci_id/* drivers/pci/controller/pcie-mobiveil.c 190 */;
+	u8 cocci_id/* drivers/pci/controller/pcie-mobiveil.c 167 */;
+	struct mobiveil_pcie {
+		struct platform_device *pdev;
+		void __iomem *config_axi_slave_base;
+		void __iomem *csr_axi_slave_base;
+		void __iomem *apb_csr_base;
+		phys_addr_t pcie_reg_base;
+		struct irq_domain *intx_domain;
+		raw_spinlock_t intx_mask_lock;
+		int irq;
+		int apio_wins;
+		int ppio_wins;
+		int ob_wins_configured;
+		int ib_wins_configured;
+		struct resource *ob_io_res;
+		char root_bus_nr;
+		struct mobiveil_msi msi;
+	} cocci_id/* drivers/pci/controller/pcie-mobiveil.c 141 */;
+	struct mobiveil_msi {
+		struct mutex lock;
+		struct irq_domain *msi_domain;
+		struct irq_domain *dev_domain;
+		phys_addr_t msi_pages_phys;
+		int num_of_vectors;
+	DECLARE_BITMAP(msi_irq_in_use,PCI_NUM_MSI)
+		;
+	} cocci_id/* drivers/pci/controller/pcie-mobiveil.c 132 */;
+}

@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct nfs42_layouterror_res *cocci_id/* fs/nfs/nfs42xdr.c 972 */;
+	struct nfs42_clone_res *cocci_id/* fs/nfs/nfs42xdr.c 936 */;
+	struct nfs42_layoutstat_res *cocci_id/* fs/nfs/nfs42xdr.c 905 */;
+	struct compound_hdr cocci_id/* fs/nfs/nfs42xdr.c 738 */;
+	void *cocci_id/* fs/nfs/nfs42xdr.c 735 */;
+	struct rpc_rqst *cocci_id/* fs/nfs/nfs42xdr.c 733 */;
+	struct nfs42_seek_res *cocci_id/* fs/nfs/nfs42xdr.c 697 */;
+	__be32 *cocci_id/* fs/nfs/nfs42xdr.c 659 */;
+	struct nfs42_copy_notify_res *cocci_id/* fs/nfs/nfs42xdr.c 657 */;
+	struct nfs42_offload_status_res *cocci_id/* fs/nfs/nfs42xdr.c 651 */;
+	struct nfs42_copy_res *cocci_id/* fs/nfs/nfs42xdr.c 630 */;
+	char *cocci_id/* fs/nfs/nfs42xdr.c 569 */;
+	uint32_t cocci_id/* fs/nfs/nfs42xdr.c 568 */;
+	struct nfs42_netaddr *cocci_id/* fs/nfs/nfs42xdr.c 567 */;
+	struct nl4_server *cocci_id/* fs/nfs/nfs42xdr.c 565 */;
+	struct nfs42_write_res *cocci_id/* fs/nfs/nfs42xdr.c 540 */;
+	struct xdr_stream *cocci_id/* fs/nfs/nfs42xdr.c 534 */;
+	struct nfs42_falloc_res *cocci_id/* fs/nfs/nfs42xdr.c 534 */;
+	int cocci_id/* fs/nfs/nfs42xdr.c 534 */;
+	const struct nfs42_layouterror_args *cocci_id/* fs/nfs/nfs42xdr.c 520 */;
+	const void *cocci_id/* fs/nfs/nfs42xdr.c 341 */;
+	const struct nfs42_layout_error *cocci_id/* fs/nfs/nfs42xdr.c 321 */;
+	const struct nfs42_device_error *cocci_id/* fs/nfs/nfs42xdr.c 309 */;
+	const struct nfs42_clone_args *cocci_id/* fs/nfs/nfs42xdr.c 294 */;
+	struct nfs42_layoutstat_devinfo *cocci_id/* fs/nfs/nfs42xdr.c 267 */;
+	const struct nfs42_layoutstat_args *cocci_id/* fs/nfs/nfs42xdr.c 266 */;
+	const struct nfs42_seek_args *cocci_id/* fs/nfs/nfs42xdr.c 256 */;
+	const struct nfs42_copy_notify_args *cocci_id/* fs/nfs/nfs42xdr.c 239 */;
+	const struct nfs42_offload_status_args *cocci_id/* fs/nfs/nfs42xdr.c 231 */;
+	const struct nfs42_copy_args *cocci_id/* fs/nfs/nfs42xdr.c 209 */;
+	const struct nl4_server *cocci_id/* fs/nfs/nfs42xdr.c 189 */;
+	struct compound_hdr *cocci_id/* fs/nfs/nfs42xdr.c 182 */;
+	const struct nfs42_falloc_args *cocci_id/* fs/nfs/nfs42xdr.c 181 */;
+	void cocci_id/* fs/nfs/nfs42xdr.c 180 */;
+}

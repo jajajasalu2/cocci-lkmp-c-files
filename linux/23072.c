@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	struct mtk_afe_tdm_priv cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 737 */;
+	struct mtk_base_afe_dai *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 721 */;
+	struct mtk_afe_tdm_priv *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 720 */;
+	snd_pcm_format_t cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 72 */;
+	unsigned int cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 72 */;
+	struct mt8183_afe_private *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 719 */;
+	struct mtk_base_afe *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 717 */;
+	int cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 717 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 702 */[];
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 684 */;
+	enum{HDMI_BIT_WIDTH_16_BIT=0, HDMI_BIT_WIDTH_32_BIT=1,} cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 67 */;
+	enum{TDM_CH_START_O30_O31=0, TDM_CH_START_O32_O33, TDM_CH_START_O34_O35, TDM_CH_START_O36_O37, TDM_CH_ZERO,} cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 59 */;
+	enum{TDM_CHANNEL_NUM_2=0, TDM_CHANNEL_NUM_4=1, TDM_CHANNEL_NUM_8=2,} cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 53 */;
+	enum{TDM_CHANNEL_BCK_16=0, TDM_CHANNEL_BCK_24=1, TDM_CHANNEL_BCK_32=2,} cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 47 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 466 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 465 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 464 */;
+	enum{TDM_WLEN_16_BIT=1, TDM_WLEN_32_BIT=2,} cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 42 */;
+	enum{TDM_LCK_NON_INV=0, TDM_LCK_INV=1,} cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 37 */;
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 346 */[];
+	struct snd_soc_component *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 334 */;
+	struct snd_soc_dapm_widget *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 330 */;
+	enum{TDM_BCK_NON_INV=0, TDM_BCK_INV=1,} cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 32 */;
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 299 */[];
+	enum{TDM_OUT_I2S=0, TDM_OUT_TDM=1,} cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 27 */;
+	struct snd_kcontrol *cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 247 */;
+	enum{SUPPLY_SEQ_APLL, SUPPLY_SEQ_TDM_MCK_EN, SUPPLY_SEQ_TDM_BCK_EN,} cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 240 */;
+	const struct snd_kcontrol_new cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 167 */;
+	struct mtk_afe_tdm_priv {
+		int bck_id;
+		int bck_rate;
+		int tdm_out_mode;
+		int bck_invert;
+		int lck_invert;
+		int mclk_id;
+		int mclk_multiple;
+		int mclk_rate;
+		int mclk_apll;
+	} cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 15 */;
+	int cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 149 */[];
+	const char *const cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 144 */[];
+	enum{HDMI_CONN_CH0=0, HDMI_CONN_CH1, HDMI_CONN_CH2, HDMI_CONN_CH3, HDMI_CONN_CH4, HDMI_CONN_CH5, HDMI_CONN_CH6, HDMI_CONN_CH7,} cocci_id/* sound/soc/mediatek/mt8183/mt8183-dai-tdm.c 133 */;
+}

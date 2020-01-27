@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct sctp_strreset_resptsn *cocci_id/* net/sctp/stream.c 986 */;
+	gfp_t cocci_id/* net/sctp/stream.c 97 */;
+	struct sctp_stream_out *cocci_id/* net/sctp/stream.c 945 */;
+	struct sctp_strreset_resp *cocci_id/* net/sctp/stream.c 914 */;
+	int cocci_id/* net/sctp/stream.c 854 */;
+	__u16 cocci_id/* net/sctp/stream.c 853 */;
+	__u32 cocci_id/* net/sctp/stream.c 850 */;
+	struct sctp_stream *cocci_id/* net/sctp/stream.c 849 */;
+	struct sctp_strreset_addstrm *cocci_id/* net/sctp/stream.c 848 */;
+	struct sctp_ulpevent **cocci_id/* net/sctp/stream.c 846 */;
+	struct sctp_transport *cocci_id/* net/sctp/stream.c 819 */;
+	__be16 *cocci_id/* net/sctp/stream.c 610 */;
+	struct sctp_strreset_inreq *cocci_id/* net/sctp/stream.c 604 */;
+	struct sctp_strreset_outreq *cocci_id/* net/sctp/stream.c 515 */;
+	struct sctp_strreset_tsnreq *cocci_id/* net/sctp/stream.c 493 */;
+	union sctp_params cocci_id/* net/sctp/stream.c 482 */;
+	struct sctp_reconf_chunk *cocci_id/* net/sctp/stream.c 481 */;
+	struct sctp_chunk *cocci_id/* net/sctp/stream.c 480 */;
+	__be16 cocci_id/* net/sctp/stream.c 478 */;
+	__be32 cocci_id/* net/sctp/stream.c 477 */;
+	struct sctp_association *cocci_id/* net/sctp/stream.c 477 */;
+	struct sctp_paramhdr *cocci_id/* net/sctp/stream.c 476 */;
+	struct sctp_add_streams *cocci_id/* net/sctp/stream.c 419 */;
+	struct sctp_outq *cocci_id/* net/sctp/stream.c 34 */;
+	struct sctp_reconf_chunk cocci_id/* net/sctp/stream.c 309 */;
+	struct sctp_strreset_inreq cocci_id/* net/sctp/stream.c 305 */;
+	struct sctp_strreset_outreq cocci_id/* net/sctp/stream.c 296 */;
+	bool cocci_id/* net/sctp/stream.c 267 */;
+	struct sctp_reset_streams *cocci_id/* net/sctp/stream.c 260 */;
+	struct sctp_association cocci_id/* net/sctp/stream.c 241 */;
+	struct net *cocci_id/* net/sctp/stream.c 225 */;
+	void cocci_id/* net/sctp/stream.c 188 */;
+	struct sctp_sched_ops *cocci_id/* net/sctp/stream.c 178 */;
+	struct sctp_stream_out_ext *cocci_id/* net/sctp/stream.c 159 */;
+}

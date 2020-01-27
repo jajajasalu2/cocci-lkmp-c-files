@@ -1,0 +1,56 @@
+cocci_test_suite() {
+	struct class cocci_id/* drivers/pci/probe.c 98 */;
+	bool cocci_id/* drivers/pci/probe.c 946 */;
+	const char *cocci_id/* drivers/pci/probe.c 836 */;
+	char cocci_id/* drivers/pci/probe.c 835 */[64];
+	struct resource_entry *cocci_id/* drivers/pci/probe.c 830 */;
+	struct fwnode_handle *cocci_id/* drivers/pci/probe.c 795 */;
+	enum pci_bus_speed cocci_id/* drivers/pci/probe.c 695 */;
+	unsigned char cocci_id/* drivers/pci/probe.c 687 */[];
+	const unsigned char cocci_id/* drivers/pci/probe.c 662 */[];
+	size_t cocci_id/* drivers/pci/probe.c 619 */;
+	struct pci_host_bridge *cocci_id/* drivers/pci/probe.c 618 */;
+	struct device *cocci_id/* drivers/pci/probe.c 618 */;
+	void cocci_id/* drivers/pci/probe.c 568 */;
+	struct pci_domain_busn_res *cocci_id/* drivers/pci/probe.c 48 */;
+	struct pci_domain_busn_res {
+		struct list_head list;
+		struct resource res;
+		int domain_nr;
+	} cocci_id/* drivers/pci/probe.c 40 */;
+	void __init cocci_id/* drivers/pci/probe.c 3186 */;
+	const struct pci_dev *cocci_id/* drivers/pci/probe.c 3171 */;
+	const struct device *cocci_id/* drivers/pci/probe.c 3168 */;
+	int __init cocci_id/* drivers/pci/probe.c 3168 */;
+	struct pci_ops *cocci_id/* drivers/pci/probe.c 2890 */;
+	struct list_head *cocci_id/* drivers/pci/probe.c 2890 */;
+	void __weak cocci_id/* drivers/pci/probe.c 2881 */;
+	int __weak cocci_id/* drivers/pci/probe.c 2876 */;
+	struct resource cocci_id/* drivers/pci/probe.c 27 */;
+	unsigned long long cocci_id/* drivers/pci/probe.c 269 */;
+	resource_size_t cocci_id/* drivers/pci/probe.c 263 */;
+	pci_bus_addr_t cocci_id/* drivers/pci/probe.c 263 */;
+	struct pci_bus *cocci_id/* drivers/pci/probe.c 2449 */;
+	unsigned cocci_id/* drivers/pci/probe.c 2449 */;
+	struct irq_domain *cocci_id/* drivers/pci/probe.c 2344 */;
+	u32 *cocci_id/* drivers/pci/probe.c 2226 */;
+	struct pci_dev cocci_id/* drivers/pci/probe.c 2165 */;
+	void *cocci_id/* drivers/pci/probe.c 1941 */;
+	struct pci_bus_region cocci_id/* drivers/pci/probe.c 182 */;
+	u16 cocci_id/* drivers/pci/probe.c 181 */;
+	u64 cocci_id/* drivers/pci/probe.c 180 */;
+	u32 cocci_id/* drivers/pci/probe.c 179 */;
+	struct resource *cocci_id/* drivers/pci/probe.c 177 */;
+	unsigned int cocci_id/* drivers/pci/probe.c 177 */;
+	enum pci_bar_type cocci_id/* drivers/pci/probe.c 176 */;
+	struct pci_dev *cocci_id/* drivers/pci/probe.c 176 */;
+	int cocci_id/* drivers/pci/probe.c 176 */;
+	u32 cocci_id/* drivers/pci/probe.c 1703 */[256 / 4];
+	u16 *cocci_id/* drivers/pci/probe.c 1630 */;
+	unsigned char cocci_id/* drivers/pci/probe.c 1407 */;
+	unsigned long cocci_id/* drivers/pci/probe.c 132 */;
+	u8 cocci_id/* drivers/pci/probe.c 1105 */;
+	u8 *cocci_id/* drivers/pci/probe.c 1101 */;
+	unsigned int cocci_id/* drivers/pci/probe.c 1088 */(struct pci_bus *bus,
+							    unsigned int available_buses);
+}

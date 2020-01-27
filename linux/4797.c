@@ -1,0 +1,92 @@
+cocci_test_suite() {
+	struct rdma_dev_net *cocci_id/* drivers/infiniband/core/device.c 992 */;
+	struct ib_compat_device *cocci_id/* drivers/infiniband/core/device.c 971 */;
+	struct ib_core_device *cocci_id/* drivers/infiniband/core/device.c 859 */;
+	struct ib_core_device cocci_id/* drivers/infiniband/core/device.c 851 */;
+	struct device *cocci_id/* drivers/infiniband/core/device.c 848 */;
+	struct notifier_block *cocci_id/* drivers/infiniband/core/device.c 836 */;
+	u64 cocci_id/* drivers/infiniband/core/device.c 821 */;
+	struct work_struct *cocci_id/* drivers/infiniband/core/device.c 811 */;
+	char *cocci_id/* drivers/infiniband/core/device.c 802 */;
+	unsigned int cocci_id/* drivers/infiniband/core/device.c 733 */;
+	struct ib_port_data_rcu *cocci_id/* drivers/infiniband/core/device.c 732 */;
+	struct workqueue_struct *cocci_id/* drivers/infiniband/core/device.c 58 */;
+	struct ib_device cocci_id/* drivers/infiniband/core/device.c 574 */;
+	size_t cocci_id/* drivers/infiniband/core/device.c 570 */;
+	struct class cocci_id/* drivers/infiniband/core/device.c 532 */;
+	const void *cocci_id/* drivers/infiniband/core/device.c 524 */;
+	struct kobj_uevent_env *cocci_id/* drivers/infiniband/core/device.c 512 */;
+	struct ib_port_data_rcu cocci_id/* drivers/infiniband/core/device.c 498 */;
+	char cocci_id/* drivers/infiniband/core/device.c 463 */[IB_DEVICE_NAME_MAX];
+	struct ida cocci_id/* drivers/infiniband/core/device.c 456 */;
+	enum rdma_driver_id cocci_id/* drivers/infiniband/core/device.c 362 */;
+	unsigned long cocci_id/* drivers/infiniband/core/device.c 344 */;
+	const char *cocci_id/* drivers/infiniband/core/device.c 341 */;
+	struct ib_device *cocci_id/* drivers/infiniband/core/device.c 341 */;
+	const struct net *cocci_id/* drivers/infiniband/core/device.c 307 */;
+	void **cocci_id/* drivers/infiniband/core/device.c 295 */;
+	void __exit cocci_id/* drivers/infiniband/core/device.c 2793 */;
+	int __init cocci_id/* drivers/infiniband/core/device.c 2706 */;
+	const struct rdma_nl_cbs cocci_id/* drivers/infiniband/core/device.c 2691 */[RDMA_NL_LS_NUM_OPS];
+	const struct {
+		size_t offset;
+		char *name;
+	} cocci_id/* drivers/infiniband/core/device.c 269 */[];
+	struct ib_port_data_rcu {
+		struct rcu_head rcu_head;
+		struct ib_port_data pdata[];
+	} cocci_id/* drivers/infiniband/core/device.c 261 */;
+	int cocci_id/* drivers/infiniband/core/device.c 257 */(struct ib_device *device,
+							       struct net *cur_net,
+							       struct net *net);
+	struct ib_device_ops *cocci_id/* drivers/infiniband/core/device.c 2548 */;
+	const struct ib_device_ops *cocci_id/* drivers/infiniband/core/device.c 2546 */;
+	struct notifier_block cocci_id/* drivers/infiniband/core/device.c 253 */;
+	const struct sockaddr *cocci_id/* drivers/infiniband/core/device.c 2514 */;
+	const union ib_gid *cocci_id/* drivers/infiniband/core/device.c 2513 */;
+	u16 cocci_id/* drivers/infiniband/core/device.c 2468 */;
+	u8 *cocci_id/* drivers/infiniband/core/device.c 2431 */;
+	u16 *cocci_id/* drivers/infiniband/core/device.c 2431 */;
+	union ib_gid *cocci_id/* drivers/infiniband/core/device.c 2430 */;
+	struct ib_port_modify *cocci_id/* drivers/infiniband/core/device.c 2400 */;
+	struct ib_device_modify *cocci_id/* drivers/infiniband/core/device.c 2377 */;
+	struct netlink_callback *cocci_id/* drivers/infiniband/core/device.c 2326 */;
+	nldev_callback cocci_id/* drivers/infiniband/core/device.c 2325 */;
+	roce_netdev_callback cocci_id/* drivers/infiniband/core/device.c 2307 */;
+	roce_netdev_filter cocci_id/* drivers/infiniband/core/device.c 2305 */;
+	struct net_device *cocci_id/* drivers/infiniband/core/device.c 2168 */;
+	va_list cocci_id/* drivers/infiniband/core/device.c 215 */;
+	struct va_format cocci_id/* drivers/infiniband/core/device.c 214 */;
+	uintptr_t cocci_id/* drivers/infiniband/core/device.c 2098 */;
+	struct ib_port_data *cocci_id/* drivers/infiniband/core/device.c 2079 */;
+	union ib_gid cocci_id/* drivers/infiniband/core/device.c 2035 */;
+	struct ib_port_attr *cocci_id/* drivers/infiniband/core/device.c 2033 */;
+	u8 cocci_id/* drivers/infiniband/core/device.c 2032 */;
+	struct in_device *cocci_id/* drivers/infiniband/core/device.c 1991 */;
+	struct ib_event_handler *cocci_id/* drivers/infiniband/core/device.c 1976 */;
+	struct ib_event *cocci_id/* drivers/infiniband/core/device.c 1973 */;
+	struct va_format *cocci_id/* drivers/infiniband/core/device.c 194 */;
+	const struct ib_device *cocci_id/* drivers/infiniband/core/device.c 193 */;
+	void cocci_id/* drivers/infiniband/core/device.c 190 */(struct work_struct *work);
+	int cocci_id/* drivers/infiniband/core/device.c 188 */(struct notifier_block *nb,
+							       unsigned long event,
+							       void *lsm_data);
+	void cocci_id/* drivers/infiniband/core/device.c 187 */(struct ib_device *device);
+	void cocci_id/* drivers/infiniband/core/device.c 185 */(struct ib_device *ib_dev);
+	struct ib_client *cocci_id/* drivers/infiniband/core/device.c 1842 */;
+	void *cocci_id/* drivers/infiniband/core/device.c 1836 */;
+	struct ib_client_nl_info *cocci_id/* drivers/infiniband/core/device.c 1833 */;
+	int cocci_id/* drivers/infiniband/core/device.c 1831 */;
+	struct rdma_dev_net cocci_id/* drivers/infiniband/core/device.c 1686 */;
+	struct pernet_operations cocci_id/* drivers/infiniband/core/device.c 1682 */;
+	struct net *cocci_id/* drivers/infiniband/core/device.c 1641 */;
+	struct sk_buff *cocci_id/* drivers/infiniband/core/device.c 1638 */;
+	xa_mark_t cocci_id/* drivers/infiniband/core/device.c 155 */;
+	struct xarray *cocci_id/* drivers/infiniband/core/device.c 154 */;
+	unsigned long *cocci_id/* drivers/infiniband/core/device.c 154 */;
+	void cocci_id/* drivers/infiniband/core/device.c 1421 */;
+	void (*cocci_id/* drivers/infiniband/core/device.c 1386 */)(struct ib_device *);
+	bool cocci_id/* drivers/infiniband/core/device.c 126 */;
+	struct ib_udata cocci_id/* drivers/infiniband/core/device.c 1223 */;
+	u32 cocci_id/* drivers/infiniband/core/device.c 1138 */;
+}

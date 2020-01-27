@@ -1,0 +1,67 @@
+cocci_test_suite() {
+	int __init cocci_id/* drivers/iommu/qcom_iommu.c 939 */;
+	void cocci_id/* drivers/iommu/qcom_iommu.c 92 */;
+	int __maybe_unused cocci_id/* drivers/iommu/qcom_iommu.c 902 */;
+	struct device_node *cocci_id/* drivers/iommu/qcom_iommu.c 801 */;
+	struct platform_driver cocci_id/* drivers/iommu/qcom_iommu.c 779 */;
+	const struct of_device_id cocci_id/* drivers/iommu/qcom_iommu.c 773 */[];
+	const struct iommu_ops cocci_id/* drivers/iommu/qcom_iommu.c 75 */;
+	struct qcom_iommu_domain cocci_id/* drivers/iommu/qcom_iommu.c 72 */;
+	struct resource *cocci_id/* drivers/iommu/qcom_iommu.c 712 */;
+	struct platform_device *cocci_id/* drivers/iommu/qcom_iommu.c 707 */;
+	u32 cocci_id/* drivers/iommu/qcom_iommu.c 696 */;
+	const struct device_node *cocci_id/* drivers/iommu/qcom_iommu.c 694 */;
+	int cocci_id/* drivers/iommu/qcom_iommu.c 694 */;
+	unsigned int cocci_id/* drivers/iommu/qcom_iommu.c 652 */;
+	struct qcom_iommu_domain {
+		struct io_pgtable_ops *pgtbl_ops;
+		spinlock_t pgtbl_lock;
+		struct mutex init_mutex;
+		struct iommu_domain domain;
+		struct qcom_iommu_dev *iommu;
+	} cocci_id/* drivers/iommu/qcom_iommu.c 62 */;
+	struct of_phandle_args *cocci_id/* drivers/iommu/qcom_iommu.c 563 */;
+	struct qcom_iommu_ctx {
+		struct device *dev;
+		void __iomem *base;
+		bool secure_init;
+		u8 asid;
+		struct iommu_domain *domain;
+	} cocci_id/* drivers/iommu/qcom_iommu.c 54 */;
+	struct device_link *cocci_id/* drivers/iommu/qcom_iommu.c 524 */;
+	struct iommu_group *cocci_id/* drivers/iommu/qcom_iommu.c 523 */;
+	struct qcom_iommu_dev *cocci_id/* drivers/iommu/qcom_iommu.c 522 */;
+	struct device *cocci_id/* drivers/iommu/qcom_iommu.c 520 */;
+	bool cocci_id/* drivers/iommu/qcom_iommu.c 504 */;
+	enum iommu_cap cocci_id/* drivers/iommu/qcom_iommu.c 504 */;
+	unsigned long cocci_id/* drivers/iommu/qcom_iommu.c 490 */;
+	dma_addr_t cocci_id/* drivers/iommu/qcom_iommu.c 487 */;
+	phys_addr_t cocci_id/* drivers/iommu/qcom_iommu.c 486 */;
+	struct iommu_iotlb_gather *cocci_id/* drivers/iommu/qcom_iommu.c 481 */;
+	struct io_pgtable cocci_id/* drivers/iommu/qcom_iommu.c 471 */;
+	struct io_pgtable *cocci_id/* drivers/iommu/qcom_iommu.c 470 */;
+	gfp_t cocci_id/* drivers/iommu/qcom_iommu.c 426 */;
+	size_t cocci_id/* drivers/iommu/qcom_iommu.c 426 */;
+	struct qcom_iommu_dev {
+		struct iommu_device iommu;
+		struct device *dev;
+		struct clk *iface_clk;
+		struct clk *bus_clk;
+		void __iomem *local_base;
+		u32 sec_id;
+		u8 num_ctxs;
+		struct qcom_iommu_ctx *ctxs[0];
+	} cocci_id/* drivers/iommu/qcom_iommu.c 42 */;
+	struct qcom_iommu_ctx cocci_id/* drivers/iommu/qcom_iommu.c 40 */;
+	struct qcom_iommu_domain *cocci_id/* drivers/iommu/qcom_iommu.c 371 */;
+	struct iommu_fwspec *cocci_id/* drivers/iommu/qcom_iommu.c 369 */;
+	struct iommu_domain *cocci_id/* drivers/iommu/qcom_iommu.c 367 */;
+	struct io_pgtable_cfg cocci_id/* drivers/iommu/qcom_iommu.c 229 */;
+	struct io_pgtable_ops *cocci_id/* drivers/iommu/qcom_iommu.c 228 */;
+	irqreturn_t cocci_id/* drivers/iommu/qcom_iommu.c 196 */;
+	void *cocci_id/* drivers/iommu/qcom_iommu.c 196 */;
+	const struct iommu_flush_ops cocci_id/* drivers/iommu/qcom_iommu.c 189 */;
+	u64 cocci_id/* drivers/iommu/qcom_iommu.c 110 */;
+	struct qcom_iommu_ctx *cocci_id/* drivers/iommu/qcom_iommu.c 105 */;
+	unsigned cocci_id/* drivers/iommu/qcom_iommu.c 105 */;
+}

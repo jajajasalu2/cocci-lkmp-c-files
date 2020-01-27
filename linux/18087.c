@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	u32 cocci_id/* arch/arm/mach-davinci/dm365.c 973 */;
+	unsigned int cocci_id/* arch/arm/mach-davinci/dm365.c 970 */;
+	enum vpbe_enc_timings_type cocci_id/* arch/arm/mach-davinci/dm365.c 969 */;
+	struct clk *cocci_id/* arch/arm/mach-davinci/dm365.c 773 */;
+	void __iomem *cocci_id/* arch/arm/mach-davinci/dm365.c 772 */;
+	void __init cocci_id/* arch/arm/mach-davinci/dm365.c 764 */;
+	struct davinci_ks_platform_data *cocci_id/* arch/arm/mach-davinci/dm365.c 752 */;
+	const struct davinci_soc_info cocci_id/* arch/arm/mach-davinci/dm365.c 717 */;
+	struct platform_device cocci_id/* arch/arm/mach-davinci/dm365.c 698 */[];
+	struct plat_serial8250_port cocci_id/* arch/arm/mach-davinci/dm365.c 671 */[];
+	struct davinci_timer_info cocci_id/* arch/arm/mach-davinci/dm365.c 663 */;
+	struct davinci_id cocci_id/* arch/arm/mach-davinci/dm365.c 646 */[];
+	struct map_desc cocci_id/* arch/arm/mach-davinci/dm365.c 614 */[];
+	struct platform_device cocci_id/* arch/arm/mach-davinci/dm365.c 563 */;
+	struct resource cocci_id/* arch/arm/mach-davinci/dm365.c 544 */[];
+	const struct platform_device_info cocci_id/* arch/arm/mach-davinci/dm365.c 534 */;
+	struct edma_soc_info cocci_id/* arch/arm/mach-davinci/dm365.c 483 */;
+	const struct dma_slave_map cocci_id/* arch/arm/mach-davinci/dm365.c 464 */[];
+	s8 cocci_id/* arch/arm/mach-davinci/dm365.c 455 */[][2];
+	u8 cocci_id/* arch/arm/mach-davinci/dm365.c 387 */[DAVINCI_N_AINTC_IRQ];
+	struct emac_platform_data cocci_id/* arch/arm/mach-davinci/dm365.c 326 */;
+	int __init cocci_id/* arch/arm/mach-davinci/dm365.c 319 */;
+	void cocci_id/* arch/arm/mach-davinci/dm365.c 319 */;
+	struct davinci_gpio_platform_data cocci_id/* arch/arm/mach-davinci/dm365.c 312 */;
+	const struct spi_board_info *cocci_id/* arch/arm/mach-davinci/dm365.c 247 */;
+	unsigned cocci_id/* arch/arm/mach-davinci/dm365.c 246 */;
+	struct davinci_spi_platform_data cocci_id/* arch/arm/mach-davinci/dm365.c 215 */;
+	u64 cocci_id/* arch/arm/mach-davinci/dm365.c 213 */;
+	int cocci_id/* arch/arm/mach-davinci/dm365.c 1075 */;
+	struct platform_device *cocci_id/* arch/arm/mach-davinci/dm365.c 1074 */;
+	const struct davinci_aintc_config cocci_id/* arch/arm/mach-davinci/dm365.c 1057 */;
+	struct vpbe_config *cocci_id/* arch/arm/mach-davinci/dm365.c 1036 */;
+	struct vpfe_config *cocci_id/* arch/arm/mach-davinci/dm365.c 1035 */;
+	void *cocci_id/* arch/arm/mach-davinci/dm365.c 1022 */;
+	struct venc_platform_data cocci_id/* arch/arm/mach-davinci/dm365.c 1009 */;
+}

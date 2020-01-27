@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	u8 cocci_id/* net/mac80211/wpa.c 99 */[MICHAEL_MIC_LEN];
+	ieee80211_tx_result cocci_id/* net/mac80211/wpa.c 980 */;
+	size_t cocci_id/* net/mac80211/wpa.c 97 */;
+	const u8 *cocci_id/* net/mac80211/wpa.c 921 */;
+	u64 cocci_id/* net/mac80211/wpa.c 911 */;
+	__le16 *cocci_id/* net/mac80211/wpa.c 905 */;
+	struct ieee80211_hdr *cocci_id/* net/mac80211/wpa.c 896 */;
+	__le16 cocci_id/* net/mac80211/wpa.c 895 */;
+	u8 *cocci_id/* net/mac80211/wpa.c 893 */;
+	struct sk_buff *cocci_id/* net/mac80211/wpa.c 893 */;
+	void cocci_id/* net/mac80211/wpa.c 893 */;
+	const struct ieee80211_cipher_scheme *cocci_id/* net/mac80211/wpa.c 843 */;
+	u8 cocci_id/* net/mac80211/wpa.c 730 */[IEEE80211_GCMP_PN_LEN];
+	u8 cocci_id/* net/mac80211/wpa.c 646 */[GCM_AAD_LEN];
+	u8 cocci_id/* net/mac80211/wpa.c 542 */[2 * AES_BLOCK_SIZE];
+	u8 cocci_id/* net/mac80211/wpa.c 502 */[IEEE80211_CCMP_PN_LEN];
+	u8 cocci_id/* net/mac80211/wpa.c 416 */[AES_BLOCK_SIZE];
+	u8 cocci_id/* net/mac80211/wpa.c 415 */[CCM_AAD_LEN];
+	u8 cocci_id/* net/mac80211/wpa.c 413 */[6];
+	struct ieee80211_tx_info *cocci_id/* net/mac80211/wpa.c 410 */;
+	struct ieee80211_key *cocci_id/* net/mac80211/wpa.c 409 */;
+	unsigned int cocci_id/* net/mac80211/wpa.c 406 */;
+	struct ieee80211_tx_data *cocci_id/* net/mac80211/wpa.c 405 */;
+	int cocci_id/* net/mac80211/wpa.c 405 */;
+	u16 cocci_id/* net/mac80211/wpa.c 319 */;
+	u8 cocci_id/* net/mac80211/wpa.c 318 */;
+	void *cocci_id/* net/mac80211/wpa.c 283 */;
+	u8 cocci_id/* net/mac80211/wpa.c 1179 */[GMAC_AAD_LEN];
+	u8 cocci_id/* net/mac80211/wpa.c 1133 */[GMAC_NONCE_LEN];
+	u8 cocci_id/* net/mac80211/wpa.c 1080 */[20];
+	struct ieee80211_mmie_16 *cocci_id/* net/mac80211/wpa.c 1079 */;
+	struct ieee80211_rx_status *cocci_id/* net/mac80211/wpa.c 1077 */;
+	struct ieee80211_rx_data *cocci_id/* net/mac80211/wpa.c 1074 */;
+	ieee80211_rx_result cocci_id/* net/mac80211/wpa.c 1073 */;
+	struct ieee80211_mmie *cocci_id/* net/mac80211/wpa.c 1029 */;
+}

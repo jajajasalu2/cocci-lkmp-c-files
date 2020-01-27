@@ -1,0 +1,55 @@
+cocci_test_suite() {
+	struct gm12u320_device {
+		struct drm_device dev;
+		struct drm_simple_display_pipe pipe;
+		struct drm_connector conn;
+		struct usb_device *udev;
+		unsigned char *cmd_buf;
+		unsigned char *data_buf[GM12U320_BLOCK_COUNT];
+		bool pipe_enabled;
+		struct {
+			bool run;
+			struct workqueue_struct *workq;
+			struct work_struct work;
+			wait_queue_head_t waitq;
+			struct mutex lock;
+			struct drm_framebuffer *fb;
+			struct drm_rect rect;
+		} fb_update;
+	} cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 84 */;
+	struct usb_driver cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 790 */;
+	const struct usb_device_id cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 784 */[];
+	struct usb_interface *cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 772 */;
+	pm_message_t cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 761 */;
+	const struct usb_device_id *cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 675 */;
+	const struct drm_mode_config_funcs cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 668 */;
+	struct drm_driver cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 654 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 642 */;
+	const uint64_t cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 637 */[];
+	const uint32_t cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 633 */[];
+	const struct drm_simple_display_pipe_funcs cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 627 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 613 */;
+	struct drm_simple_display_pipe *cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 601 */;
+	struct drm_rect cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 594 */;
+	struct drm_plane_state *cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 591 */;
+	struct drm_crtc_state *cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 590 */;
+	struct gm12u320_device *cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 579 */;
+	const struct drm_connector_funcs cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 571 */;
+	const struct drm_connector_helper_funcs cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 567 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 561 */;
+	struct edid cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 504 */;
+	struct drm_rect *cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 430 */;
+	struct gm12u320_device cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 348 */;
+	struct work_struct *cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 345 */;
+	bool cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 27 */;
+	void *cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 267 */;
+	struct drm_framebuffer *cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 266 */;
+	u8 *cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 253 */;
+	int cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 253 */;
+	void cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 253 */;
+	u8 cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 207 */;
+	const char *cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 161 */;
+	const char cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 152 */[DATA_BLOCK_FOOTER_SIZE];
+	const char cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 124 */[DATA_BLOCK_HEADER_SIZE];
+	const char cocci_id/* drivers/gpu/drm/tiny/gm12u320.c 103 */[CMD_SIZE];
+}

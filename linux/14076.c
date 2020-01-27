@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/media/platform/vimc/vimc-capture.c 90 */;
+	struct v4l2_format *cocci_id/* drivers/media/platform/vimc/vimc-capture.c 75 */;
+	struct vimc_cap_device cocci_id/* drivers/media/platform/vimc/vimc-capture.c 68 */;
+	struct v4l2_pix_format *cocci_id/* drivers/media/platform/vimc/vimc-capture.c 66 */;
+	struct v4l2_capability *cocci_id/* drivers/media/platform/vimc/vimc-capture.c 55 */;
+	struct vimc_cap_buffer {
+		struct vb2_v4l2_buffer vb2;
+		struct list_head list;
+	} cocci_id/* drivers/media/platform/vimc/vimc-capture.c 43 */;
+	struct vimc_cap_buffer cocci_id/* drivers/media/platform/vimc/vimc-capture.c 417 */;
+	int cocci_id/* drivers/media/platform/vimc/vimc-capture.c 393 */;
+	struct vb2_queue *cocci_id/* drivers/media/platform/vimc/vimc-capture.c 392 */;
+	struct video_device *cocci_id/* drivers/media/platform/vimc/vimc-capture.c 391 */;
+	struct vimc_cap_device *cocci_id/* drivers/media/platform/vimc/vimc-capture.c 390 */;
+	const struct vimc_pix_map *cocci_id/* drivers/media/platform/vimc/vimc-capture.c 389 */;
+	struct v4l2_device *cocci_id/* drivers/media/platform/vimc/vimc-capture.c 388 */;
+	const char *cocci_id/* drivers/media/platform/vimc/vimc-capture.c 386 */;
+	struct vimc_ent_device *cocci_id/* drivers/media/platform/vimc/vimc-capture.c 385 */;
+	struct vimc_device *cocci_id/* drivers/media/platform/vimc/vimc-capture.c 385 */;
+	typeof(*vimc_buf) cocci_id/* drivers/media/platform/vimc/vimc-capture.c 358 */;
+	const struct v4l2_pix_format cocci_id/* drivers/media/platform/vimc/vimc-capture.c 35 */;
+	const void *cocci_id/* drivers/media/platform/vimc/vimc-capture.c 347 */;
+	const struct media_entity_operations cocci_id/* drivers/media/platform/vimc/vimc-capture.c 324 */;
+	const struct vb2_ops cocci_id/* drivers/media/platform/vimc/vimc-capture.c 310 */;
+	unsigned long cocci_id/* drivers/media/platform/vimc/vimc-capture.c 300 */;
+	struct device *cocci_id/* drivers/media/platform/vimc/vimc-capture.c 284 */[];
+	unsigned int cocci_id/* drivers/media/platform/vimc/vimc-capture.c 283 */[];
+	unsigned int *cocci_id/* drivers/media/platform/vimc/vimc-capture.c 282 */;
+	struct vimc_cap_buffer *cocci_id/* drivers/media/platform/vimc/vimc-capture.c 273 */;
+	struct vb2_buffer *cocci_id/* drivers/media/platform/vimc/vimc-capture.c 270 */;
+	void cocci_id/* drivers/media/platform/vimc/vimc-capture.c 270 */;
+	struct media_entity *cocci_id/* drivers/media/platform/vimc/vimc-capture.c 231 */;
+	unsigned int cocci_id/* drivers/media/platform/vimc/vimc-capture.c 228 */;
+	enum vb2_buffer_state cocci_id/* drivers/media/platform/vimc/vimc-capture.c 214 */;
+	const struct v4l2_ioctl_ops cocci_id/* drivers/media/platform/vimc/vimc-capture.c 193 */;
+	const struct v4l2_file_operations cocci_id/* drivers/media/platform/vimc/vimc-capture.c 183 */;
+	struct v4l2_frmsizeenum *cocci_id/* drivers/media/platform/vimc/vimc-capture.c 160 */;
+	struct vimc_cap_device {
+		struct vimc_ent_device ved;
+		struct video_device vdev;
+		struct v4l2_pix_format format;
+		struct vb2_queue queue;
+		struct list_head buf_list;
+		spinlock_t qlock;
+		struct mutex lock;
+		u32 sequence;
+		struct vimc_stream stream;
+		struct media_pad pad;
+	} cocci_id/* drivers/media/platform/vimc/vimc-capture.c 15 */;
+	struct v4l2_fmtdesc *cocci_id/* drivers/media/platform/vimc/vimc-capture.c 147 */;
+	struct file *cocci_id/* drivers/media/platform/vimc/vimc-capture.c 146 */;
+	void *cocci_id/* drivers/media/platform/vimc/vimc-capture.c 146 */;
+}

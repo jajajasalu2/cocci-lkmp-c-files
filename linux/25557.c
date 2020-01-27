@@ -1,0 +1,92 @@
+cocci_test_suite() {
+	unsigned char cocci_id/* tools/perf/util/sort.c 950 */;
+	const void *cocci_id/* tools/perf/util/sort.c 79 */;
+	struct tep_record cocci_id/* tools/perf/util/sort.c 706 */;
+	char cocci_id/* tools/perf/util/sort.c 681 */[32];
+	const int *cocci_id/* tools/perf/util/sort.c 654 */;
+	va_list cocci_id/* tools/perf/util/sort.c 58 */;
+	char cocci_id/* tools/perf/util/sort.c 499 */[1];
+	double cocci_id/* tools/perf/util/sort.c 452 */;
+	struct annotation *cocci_id/* tools/perf/util/sort.c 451 */;
+	enum sort_mode cocci_id/* tools/perf/util/sort.c 44 */;
+	regex_t cocci_id/* tools/perf/util/sort.c 42 */;
+	struct addr_map_symbol *cocci_id/* tools/perf/util/sort.c 389 */;
+	const char cocci_id/* tools/perf/util/sort.c 35 */[];
+	struct strbuf cocci_id/* tools/perf/util/sort.c 3138 */;
+	struct strbuf *cocci_id/* tools/perf/util/sort.c 3127 */;
+	char *cocci_id/* tools/perf/util/sort.c 3027 */;
+	void cocci_id/* tools/perf/util/sort.c 3025 */;
+	u64 cocci_id/* tools/perf/util/sort.c 291 */;
+	char cocci_id/* tools/perf/util/sort.c 291 */;
+	struct map_symbol *cocci_id/* tools/perf/util/sort.c 290 */;
+	const char *cocci_id/* tools/perf/util/sort.c 2858 */;
+	FILE *cocci_id/* tools/perf/util/sort.c 2858 */;
+	struct strlist *cocci_id/* tools/perf/util/sort.c 2858 */;
+	struct evlist *cocci_id/* tools/perf/util/sort.c 2795 */;
+	const char *cocci_id/* tools/perf/util/sort.c 2702 */[];
+	char cocci_id/* tools/perf/util/sort.c 2572 */[BUFSIZ];
+	struct perf_hpp_fmt *cocci_id/* tools/perf/util/sort.c 2507 */;
+	struct perf_hpp_list *cocci_id/* tools/perf/util/sort.c 2504 */;
+	struct hpp_dimension *cocci_id/* tools/perf/util/sort.c 2503 */;
+	struct sort_dimension *cocci_id/* tools/perf/util/sort.c 2485 */;
+	bool cocci_id/* tools/perf/util/sort.c 2345 */;
+	char **cocci_id/* tools/perf/util/sort.c 2274 */;
+	int cocci_id/* tools/perf/util/sort.c 2210 */;
+	struct tep_format_field *cocci_id/* tools/perf/util/sort.c 2209 */;
+	struct evsel *cocci_id/* tools/perf/util/sort.c 2209 */;
+	struct hpp_dynamic_entry *cocci_id/* tools/perf/util/sort.c 2208 */;
+	unsigned long long cocci_id/* tools/perf/util/sort.c 2164 */;
+	struct hpp_dynamic_entry cocci_id/* tools/perf/util/sort.c 2155 */;
+	unsigned cocci_id/* tools/perf/util/sort.c 2153 */;
+	struct hist_entry *cocci_id/* tools/perf/util/sort.c 2149 */;
+	int64_t cocci_id/* tools/perf/util/sort.c 2148 */;
+	const struct dso *cocci_id/* tools/perf/util/sort.c 214 */;
+	struct trace_seq cocci_id/* tools/perf/util/sort.c 2136 */;
+	size_t cocci_id/* tools/perf/util/sort.c 2090 */;
+	struct perf_hpp *cocci_id/* tools/perf/util/sort.c 2086 */;
+	int *cocci_id/* tools/perf/util/sort.c 2049 */;
+	struct hists *cocci_id/* tools/perf/util/sort.c 2047 */;
+	struct hpp_dynamic_entry {
+		struct perf_hpp_fmt hpp;
+		struct evsel *evsel;
+		struct tep_format_field *field;
+		unsigned dynamic_len;
+		bool raw_trace;
+	} cocci_id/* tools/perf/util/sort.c 1973 */;
+	int64_t (*cocci_id/* tools/perf/util/sort.c 1797 */)(struct hist_entry *,
+							     struct hist_entry *);
+	struct hpp_sort_entry cocci_id/* tools/perf/util/sort.c 1789 */;
+	struct hpp_sort_entry *cocci_id/* tools/perf/util/sort.c 1787 */;
+	struct hpp_sort_entry {
+		struct perf_hpp_fmt hpp;
+		struct sort_entry *se;
+	} cocci_id/* tools/perf/util/sort.c 1724 */;
+	struct hpp_dimension cocci_id/* tools/perf/util/sort.c 1711 */[];
+	struct hpp_dimension {
+		const char *name;
+		struct perf_hpp_fmt *fmt;
+		int taken;
+	} cocci_id/* tools/perf/util/sort.c 1703 */;
+	struct dso *cocci_id/* tools/perf/util/sort.c 170 */;
+	struct sort_dimension cocci_id/* tools/perf/util/sort.c 1671 */[];
+	struct sort_dimension {
+		const char *name;
+		struct sort_entry *entry;
+		int taken;
+	} cocci_id/* tools/perf/util/sort.c 1638 */;
+	unsigned int cocci_id/* tools/perf/util/sort.c 1615 */;
+	struct map *cocci_id/* tools/perf/util/sort.c 1614 */;
+	struct symbol *cocci_id/* tools/perf/util/sort.c 1575 */;
+	char cocci_id/* tools/perf/util/sort.c 1531 */[128];
+	struct txbit {
+		unsigned flag;
+		const char *name;
+		int skip_for_len;
+	} cocci_id/* tools/perf/util/sort.c 1498 */[];
+	struct sort_entry cocci_id/* tools/perf/util/sort.c 1447 */;
+	char cocci_id/* tools/perf/util/sort.c 1158 */[64];
+	char cocci_id/* tools/perf/util/sort.c 1102 */[10];
+	const struct thread *cocci_id/* tools/perf/util/sort.c 109 */;
+	union perf_mem_data_src cocci_id/* tools/perf/util/sort.c 1083 */;
+	uint64_t cocci_id/* tools/perf/util/sort.c 1019 */;
+}

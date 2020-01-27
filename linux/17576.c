@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	void *cocci_id/* arch/powerpc/mm/hugetlbpage.c 666 */;
+	struct page *cocci_id/* arch/powerpc/mm/hugetlbpage.c 663 */;
+	void cocci_id/* arch/powerpc/mm/hugetlbpage.c 663 */;
+	char *cocci_id/* arch/powerpc/mm/hugetlbpage.c 580 */;
+	unsigned long long cocci_id/* arch/powerpc/mm/hugetlbpage.c 555 */;
+	int __init cocci_id/* arch/powerpc/mm/hugetlbpage.c 555 */;
+	struct file *cocci_id/* arch/powerpc/mm/hugetlbpage.c 528 */;
+	hugepd_t cocci_id/* arch/powerpc/mm/hugetlbpage.c 491 */;
+	struct vm_area_struct *cocci_id/* arch/powerpc/mm/hugetlbpage.c 490 */;
+	pte_t *cocci_id/* arch/powerpc/mm/hugetlbpage.c 49 */;
+	struct kmem_cache *cocci_id/* arch/powerpc/mm/hugetlbpage.c 48 */;
+	spinlock_t *cocci_id/* arch/powerpc/mm/hugetlbpage.c 46 */;
+	unsigned long cocci_id/* arch/powerpc/mm/hugetlbpage.c 45 */;
+	unsigned int cocci_id/* arch/powerpc/mm/hugetlbpage.c 45 */;
+	hugepd_t *cocci_id/* arch/powerpc/mm/hugetlbpage.c 44 */;
+	struct mm_struct *cocci_id/* arch/powerpc/mm/hugetlbpage.c 44 */;
+	int cocci_id/* arch/powerpc/mm/hugetlbpage.c 44 */;
+	pte_t cocci_id/* arch/powerpc/mm/hugetlbpage.c 33 */;
+	struct mmu_gather *cocci_id/* arch/powerpc/mm/hugetlbpage.c 295 */;
+	bool cocci_id/* arch/powerpc/mm/hugetlbpage.c 29 */;
+	struct hugepd_freelist *cocci_id/* arch/powerpc/mm/hugetlbpage.c 280 */;
+	struct hugepd_freelist **cocci_id/* arch/powerpc/mm/hugetlbpage.c 268 */;
+	struct hugepd_freelist cocci_id/* arch/powerpc/mm/hugetlbpage.c 257 */;
+	struct rcu_head *cocci_id/* arch/powerpc/mm/hugetlbpage.c 254 */;
+	struct hugepd_freelist {
+		struct rcu_head rcu;
+		unsigned int index;
+		void *ptes[0];
+	} cocci_id/* arch/powerpc/mm/hugetlbpage.c 246 */;
+	struct hstate *cocci_id/* arch/powerpc/mm/hugetlbpage.c 232 */;
+	struct huge_bootmem_page *cocci_id/* arch/powerpc/mm/hugetlbpage.c 220 */;
+	u64 cocci_id/* arch/powerpc/mm/hugetlbpage.c 206 */;
+	void __init cocci_id/* arch/powerpc/mm/hugetlbpage.c 206 */;
+	u64 cocci_id/* arch/powerpc/mm/hugetlbpage.c 199 */[MAX_NUMBER_GPAGES];
+	unsigned cocci_id/* arch/powerpc/mm/hugetlbpage.c 118 */;
+	pmd_t *cocci_id/* arch/powerpc/mm/hugetlbpage.c 116 */;
+	pud_t *cocci_id/* arch/powerpc/mm/hugetlbpage.c 115 */;
+	pgd_t *cocci_id/* arch/powerpc/mm/hugetlbpage.c 114 */;
+	__typeof__(struct hugepd_freelist *) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	void __exit cocci_id/* sound/soc/codecs/wm8988.c 935 */;
+	void cocci_id/* sound/soc/codecs/wm8988.c 935 */;
+	int __init cocci_id/* sound/soc/codecs/wm8988.c 914 */;
+	struct i2c_driver cocci_id/* sound/soc/codecs/wm8988.c 905 */;
+	const struct i2c_device_id cocci_id/* sound/soc/codecs/wm8988.c 899 */[];
+	struct wm8988_priv cocci_id/* sound/soc/codecs/wm8988.c 880 */;
+	struct wm8988_priv *cocci_id/* sound/soc/codecs/wm8988.c 877 */;
+	const struct i2c_device_id *cocci_id/* sound/soc/codecs/wm8988.c 875 */;
+	struct i2c_client *cocci_id/* sound/soc/codecs/wm8988.c 874 */;
+	struct spi_driver cocci_id/* sound/soc/codecs/wm8988.c 865 */;
+	struct spi_device *cocci_id/* sound/soc/codecs/wm8988.c 841 */;
+	const struct regmap_config cocci_id/* sound/soc/codecs/wm8988.c 828 */;
+	const struct snd_soc_component_driver cocci_id/* sound/soc/codecs/wm8988.c 812 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/codecs/wm8988.c 772 */;
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/codecs/wm8988.c 764 */;
+	enum snd_soc_bias_level cocci_id/* sound/soc/codecs/wm8988.c 723 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/codecs/wm8988.c 710 */;
+	bool cocci_id/* sound/soc/codecs/wm8988.c 69 */;
+	struct device *cocci_id/* sound/soc/codecs/wm8988.c 69 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/codecs/wm8988.c 665 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/codecs/wm8988.c 664 */;
+	unsigned int cocci_id/* sound/soc/codecs/wm8988.c 585 */;
+	const struct snd_pcm_hw_constraint_list cocci_id/* sound/soc/codecs/wm8988.c 534 */;
+	const unsigned int cocci_id/* sound/soc/codecs/wm8988.c 530 */[];
+	int cocci_id/* sound/soc/codecs/wm8988.c 507 */;
+	const struct _coeff_div cocci_id/* sound/soc/codecs/wm8988.c 458 */[];
+	struct _coeff_div {
+		u32 mclk;
+		u32 rate;
+		u16 fs;
+		u8 sr:5;
+		u8 usb:1;
+	} cocci_id/* sound/soc/codecs/wm8988.c 449 */;
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/codecs/wm8988.c 382 */[];
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/codecs/wm8988.c 330 */[];
+	const struct reg_default cocci_id/* sound/soc/codecs/wm8988.c 33 */[];
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/wm8988.c 319 */;
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/wm8988.c 279 */[];
+	const struct soc_enum cocci_id/* sound/soc/codecs/wm8988.c 262 */;
+	u16 cocci_id/* sound/soc/codecs/wm8988.c 245 */;
+	struct snd_soc_component *cocci_id/* sound/soc/codecs/wm8988.c 244 */;
+	struct snd_kcontrol *cocci_id/* sound/soc/codecs/wm8988.c 242 */;
+	struct snd_soc_dapm_widget *cocci_id/* sound/soc/codecs/wm8988.c 241 */;
+	const char *cocci_id/* sound/soc/codecs/wm8988.c 162 */[];
+	struct wm8988_priv {
+		struct regmap *regmap;
+		unsigned int sysclk;
+		const struct snd_pcm_hw_constraint_list *sysclk_constraints;
+	} cocci_id/* sound/soc/codecs/wm8988.c 113 */;
+}

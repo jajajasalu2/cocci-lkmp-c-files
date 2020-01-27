@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct work_struct *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 98 */;
+	struct iwl_mvm_session_prot_cmd cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 959 */;
+	struct iwl_mvm_vif *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 957 */;
+	void cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 956 */;
+	struct iwl_mvm_time_event_data cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 939 */;
+	enum ieee80211_roc_type cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 861 */;
+	struct iwl_mvm_session_prot_notif *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 769 */;
+	void *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 769 */;
+	struct iwl_rx_packet *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 768 */;
+	struct iwl_rx_cmd_buffer *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 766 */;
+	u16 cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 687 */;
+	struct iwl_hs20_roc_req cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 686 */;
+	u32 cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 645 */;
+	u32 *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 643 */;
+	struct iwl_mvm_time_event_data *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 642 */;
+	bool cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 641 */;
+	struct iwl_mvm *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 641 */;
+	struct iwl_time_event_cmd cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 574 */;
+	struct iwl_notification_wait cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 573 */;
+	const u16 cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 572 */[];
+	struct iwl_time_event_cmd *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 507 */;
+	struct iwl_time_event_resp *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 481 */;
+	struct iwl_notif_wait_data *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 443 */;
+	struct iwl_time_event_notif *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 371 */;
+	int cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 370 */;
+	struct iwl_fw_dbg_trigger_time_event *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 253 */;
+	struct iwl_fw_dbg_trigger_tlv *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 252 */;
+	const char *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 194 */;
+	struct ieee80211_vif *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 159 */;
+	struct iwl_mvm cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/time-event.c 100 */;
+}

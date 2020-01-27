@@ -1,0 +1,202 @@
+cocci_test_suite() {
+	struct ipw2100_fw cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 986 */;
+	u8 cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 8522 */;
+	struct symbol_alive_response cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 8520 */;
+	struct symbol_alive_response {
+		u8 cmd_id;
+		u8 seq_num;
+		u8 ucode_rev;
+		u8 eeprom_valid;
+		u16 valid_flags;
+		u8 IEEE_addr[6];
+		u16 flags;
+		u16 pcb_rev;
+		u16 clock_settle_time;
+		u16 powerup_settle_time;
+		u16 hop_settle_time;
+		u8 date[3];
+		u8 time[2];
+		u8 ucode_valid;
+	} cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 8495 */;
+	u16 *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 8476 */;
+	u32 *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 8472 */;
+	const unsigned char *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 8468 */;
+	unsigned short cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 8466 */;
+	unsigned int cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 8465 */;
+	struct ipw2100_fw *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 8455 */;
+	char cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 8425 */[MAX_FW_VERSION_LEN];
+	struct ipw2100_fw_header cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 8360 */;
+	struct ipw2100_fw_header *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 8348 */;
+	struct ipw2100_fw_header {
+		short version;
+		short mode;
+		unsigned int fw_size;
+		unsigned int uc_size;
+	}__packed cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 8339 */;
+	struct iw_priv_args *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 8256 */;
+	iw_handler *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 8255 */;
+	enum{POOR=30, FAIR=60, GOOD=80, VERY_GOOD=90, EXCELLENT=95, PERFECT=100,} cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 8114 */;
+	struct iw_statistics *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 8112 */;
+	iw_handler cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 8086 */[];
+	const struct iw_priv_args cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 8052 */[];
+	int *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 7963 */;
+	s32 cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 7880 */;
+	struct iw_mlme *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 7780 */;
+	struct iw_param *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 7704 */;
+	struct lib80211_crypt_data *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 7703 */;
+	union iwreq_data *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 7699 */;
+	struct iw_request_info *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 7698 */;
+	struct host_command *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 716 */;
+	time64_t cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 681 */;
+	struct iw_range *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 6774 */;
+	const s32 cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 6757 */[POWER_MODES];
+	char cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 663 */[81];
+	struct iw_freq *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 6625 */;
+	const u8 *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 661 */;
+	void __exit cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 6588 */;
+	int __init cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 6561 */;
+	struct pci_driver cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 6540 */;
+	const struct pci_device_id cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 6488 */[];
+	pm_message_t cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 6399 */;
+	char cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 630 */;
+	const struct pci_device_id *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 6150 */;
+	unsigned long cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 6140 */;
+	void (*cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 6139 */)(unsigned long);
+	struct ipw2100_priv cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 6028 */;
+	void __iomem *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 6023 */;
+	struct pci_dev *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 6022 */;
+	struct net_device *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 6022 */;
+	const struct net_device_ops cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 6011 */;
+	void cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 6009 */(struct ipw2100_priv *priv);
+	struct work_struct *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 5936 */;
+	const struct ethtool_ops cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 5931 */;
+	char cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 5910 */[64];
+	struct ethtool_drvinfo *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 5907 */;
+	struct libipw_security cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 5864 */;
+	struct libipw_device *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 5863 */;
+	struct sockaddr *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 5756 */;
+	u8 *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 5645 */;
+	struct libipw_security *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 5565 */;
+	struct ipw2100_wep_key *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 5384 */;
+	struct ipw2100_wep_key cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 5382 */;
+	struct ipw2100_wep_key {
+		u8 idx;
+		u8 len;
+		u8 key[13];
+	} cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 5348 */;
+	struct ipw2100_ordinals *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 520 */;
+	void *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 518 */;
+	struct security_info_params *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 5170 */;
+	struct security_info_params cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 5168 */;
+	struct security_info_params {
+		u32 allowed_ciphers;
+		u16 version;
+		u8 auth_mode;
+		u8 replay_counters_number;
+		u8 unicast_using_group;
+	}__packed cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 5151 */;
+	struct ipw2100_wpa_assoc_frame cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 5126 */;
+	struct ipw2100_wpa_assoc_frame *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 5120 */;
+	int cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 5115 */(struct ipw2100_priv *,
+									    struct ipw2100_wpa_assoc_frame *,
+									    int)
+    __attribute__((unused));
+	bool cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 508 */;
+	u8 cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 4680 */[ETH_ALEN];
+	struct ipw2100_rx_packet cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 4578 */;
+	struct ipw2100_data_header *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 4451 */;
+	struct ipw2100_data_header cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 4439 */;
+	struct ipw2100_bd_queue cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 4354 */;
+	const struct attribute_group cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 4313 */;
+	struct attribute *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 4295 */[];
+	const char *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 4156 */;
+	size_t cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 4156 */;
+	struct device_driver *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 4150 */;
+	char *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 4150 */;
+	ssize_t cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 4150 */;
+	char cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 4108 */[IW_ESSID_MAX_SIZE + 1];
+	struct device_attribute *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 4104 */;
+	struct device *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 4104 */;
+	u32 cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 3862 */[4];
+	const struct {
+		u8 index;
+		const char *name;
+		const char *desc;
+	} cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 3575 */[];
+	const struct {
+		u32 addr;
+		const char *name;
+		size_t size;
+	} cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 3567 */[];
+	const struct {
+		u32 addr;
+		const char *name;
+	} cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 3558 */[];
+	struct ipw2100_cmd_header *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 3454 */;
+	struct ipw2100_cmd_header cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 3442 */;
+	dma_addr_t cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 3431 */;
+	netdev_tx_t cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 3380 */;
+	struct libipw_txb *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 3380 */;
+	irqreturn_t cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 3330 */;
+	const struct iw_handler_def cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 329 */;
+	struct iw_statistics *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 328 */(struct net_device *dev);
+	void cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 327 */(struct work_struct *work);
+	void cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 323 */(struct ipw2100_priv *priv,
+									    struct ipw2100_fw *fw);
+	int cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 319 */(struct ipw2100_priv *priv,
+									   char *buf,
+									   size_t max);
+	int cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 315 */(struct ipw2100_priv *priv,
+									   struct ipw2100_fw *fw);
+	int cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 309 */(struct ipw2100_priv *priv);
+	struct libipw_hdr_3addr *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 3074 */;
+	int cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2984 */;
+	struct ieee80211_rate cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 297 */[];
+	struct ipw2100_bd cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2893 */;
+	const long cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 288 */[];
+	struct ipw2100_tx_packet cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2821 */;
+	struct ipw2100_tx_packet *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2811 */;
+	struct list_head *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2810 */;
+	struct ipw2100_bd *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2809 */;
+	struct libipw_hdr_3addr cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2732 */;
+	struct ipw2100_rx cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2692 */;
+	struct libipw_rx_stats cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2669 */;
+	struct ipw2100_rx *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2668 */;
+	u32 cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2667 */;
+	u16 cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2666 */;
+	struct ipw2100_rx_packet *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2665 */;
+	struct ipw2100_status_queue *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2664 */;
+	struct ipw2100_bd_queue *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2663 */;
+	struct ipw2100_priv *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2661 */;
+	void cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2661 */;
+	struct ipw2100_status *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2607 */;
+	struct ipw_rt_hdr *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2570 */;
+	struct ipw_rt_hdr cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2541 */;
+	struct ipw_rt_hdr {
+		struct ieee80211_radiotap_header rt_hdr;
+		s8 rt_dbmsignal;
+	} *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2533 */;
+	struct libipw_rx_stats *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2450 */;
+	struct ipw2100_status cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2413 */;
+	u8 cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2401 */[IPW_RX_NIC_BUFFER_LENGTH];
+	const struct ipw2100_status_indicator cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2214 */[];
+	struct ipw2100_status_indicator {
+		int status;
+		void (*cb)(struct ipw2100_priv *priv, u32 status);
+	} cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2202 */;
+	struct ipw2100_status_indicator {
+		int status;
+		void (*cb)(struct ipw2100_priv *priv, u32 status);
+		char *name;
+	} cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 2195 */;
+	const char *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 214 */[];
+	char cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 1989 */[IW_ESSID_MAX_SIZE];
+	struct ieee80211_channel cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 1905 */;
+	struct ieee80211_supported_band *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 1900 */;
+	struct wireless_dev *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 1893 */;
+	const struct libipw_geo *cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 1892 */;
+	union iwreq_data cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 1839 */;
+	const struct libipw_geo cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 1698 */[];
+	struct pm_qos_request cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 164 */;
+	struct host_command cocci_id/* drivers/net/wireless/intel/ipw2x00/ipw2100.c 1582 */;
+}

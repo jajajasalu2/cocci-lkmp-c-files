@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	struct setup_data cocci_id/* arch/x86/boot/compressed/acpi.c 78 */;
+	u64 cocci_id/* arch/x86/boot/compressed/acpi.c 72 */;
+	struct setup_data *cocci_id/* arch/x86/boot/compressed/acpi.c 71 */;
+	struct efi_setup_data *cocci_id/* arch/x86/boot/compressed/acpi.c 69 */;
+	efi_config_table_32_t *cocci_id/* arch/x86/boot/compressed/acpi.c 52 */;
+	efi_config_table_64_t *cocci_id/* arch/x86/boot/compressed/acpi.c 42 */;
+	struct acpi_srat_mem_affinity *cocci_id/* arch/x86/boot/compressed/acpi.c 398 */;
+	struct acpi_subtable_header cocci_id/* arch/x86/boot/compressed/acpi.c 395 */;
+	struct acpi_table_srat cocci_id/* arch/x86/boot/compressed/acpi.c 393 */;
+	efi_guid_t cocci_id/* arch/x86/boot/compressed/acpi.c 39 */;
+	char cocci_id/* arch/x86/boot/compressed/acpi.c 380 */[MAX_ACPI_ARG_LENGTH];
+	struct acpi_table_header *cocci_id/* arch/x86/boot/compressed/acpi.c 379 */;
+	struct acpi_subtable_header *cocci_id/* arch/x86/boot/compressed/acpi.c 378 */;
+	u64 *cocci_id/* arch/x86/boot/compressed/acpi.c 352 */;
+	u32 *cocci_id/* arch/x86/boot/compressed/acpi.c 350 */;
+	struct acpi_table_header cocci_id/* arch/x86/boot/compressed/acpi.c 342 */;
+	int cocci_id/* arch/x86/boot/compressed/acpi.c 34 */;
+	long cocci_id/* arch/x86/boot/compressed/acpi.c 319 */;
+	char cocci_id/* arch/x86/boot/compressed/acpi.c 308 */[10];
+	struct acpi_table_rsdp *cocci_id/* arch/x86/boot/compressed/acpi.c 306 */;
+	bool cocci_id/* arch/x86/boot/compressed/acpi.c 29 */;
+	char cocci_id/* arch/x86/boot/compressed/acpi.c 288 */[MAX_ADDR_LEN];
+	unsigned long cocci_id/* arch/x86/boot/compressed/acpi.c 28 */;
+	unsigned int cocci_id/* arch/x86/boot/compressed/acpi.c 28 */;
+	acpi_physical_address cocci_id/* arch/x86/boot/compressed/acpi.c 27 */;
+	u16 *cocci_id/* arch/x86/boot/compressed/acpi.c 230 */;
+	u8 *cocci_id/* arch/x86/boot/compressed/acpi.c 227 */;
+	void cocci_id/* arch/x86/boot/compressed/acpi.c 224 */;
+	struct mem_vector cocci_id/* arch/x86/boot/compressed/acpi.c 21 */[MAX_NUMNODES * 2];
+	u8 cocci_id/* arch/x86/boot/compressed/acpi.c 175 */;
+	u32 cocci_id/* arch/x86/boot/compressed/acpi.c 175 */;
+	efi_system_table_32_t *cocci_id/* arch/x86/boot/compressed/acpi.c 160 */;
+	efi_system_table_64_t *cocci_id/* arch/x86/boot/compressed/acpi.c 155 */;
+	__u64 cocci_id/* arch/x86/boot/compressed/acpi.c 142 */;
+	char *cocci_id/* arch/x86/boot/compressed/acpi.c 126 */;
+	struct efi_info *cocci_id/* arch/x86/boot/compressed/acpi.c 124 */;
+}

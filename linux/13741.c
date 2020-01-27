@@ -1,0 +1,68 @@
+cocci_test_suite() {
+	enum saa6752hs_command{SAA6752HS_COMMAND_RESET=0, SAA6752HS_COMMAND_STOP=1, SAA6752HS_COMMAND_START=2, SAA6752HS_COMMAND_PAUSE=3, SAA6752HS_COMMAND_RECONFIGURE=4, SAA6752HS_COMMAND_SLEEP=5, SAA6752HS_COMMAND_RECONFIGURE_FORCE=6, SAA6752HS_COMMAND_MAX,} cocci_id/* drivers/media/i2c/saa6752hs.c 96 */;
+	struct saa6752hs_state {
+		struct v4l2_subdev sd;
+		struct v4l2_ctrl_handler hdl;
+		struct {
+			struct v4l2_ctrl *video_bitrate_mode;
+			struct v4l2_ctrl *video_bitrate;
+			struct v4l2_ctrl *video_bitrate_peak;
+		};
+		u32 revision;
+		int has_ac3;
+		struct saa6752hs_mpeg_params params;
+		enum saa6752hs_videoformat video_format;
+		v4l2_std_id standard;
+	} cocci_id/* drivers/media/i2c/saa6752hs.c 81 */;
+	struct i2c_driver cocci_id/* drivers/media/i2c/saa6752hs.c 782 */;
+	const struct i2c_device_id cocci_id/* drivers/media/i2c/saa6752hs.c 776 */[];
+	const struct v4l2_format cocci_id/* drivers/media/i2c/saa6752hs.c 67 */[];
+	u8 cocci_id/* drivers/media/i2c/saa6752hs.c 669 */[12];
+	u8 cocci_id/* drivers/media/i2c/saa6752hs.c 668 */;
+	struct v4l2_ctrl_handler *cocci_id/* drivers/media/i2c/saa6752hs.c 667 */;
+	const struct i2c_device_id *cocci_id/* drivers/media/i2c/saa6752hs.c 663 */;
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/i2c/saa6752hs.c 656 */;
+	const struct v4l2_subdev_pad_ops cocci_id/* drivers/media/i2c/saa6752hs.c 651 */;
+	const struct v4l2_subdev_video_ops cocci_id/* drivers/media/i2c/saa6752hs.c 647 */;
+	const struct v4l2_subdev_core_ops cocci_id/* drivers/media/i2c/saa6752hs.c 643 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/i2c/saa6752hs.c 638 */;
+	v4l2_std_id cocci_id/* drivers/media/i2c/saa6752hs.c 628 */;
+	struct saa6752hs_state *cocci_id/* drivers/media/i2c/saa6752hs.c 550 */;
+	struct v4l2_mbus_framefmt *cocci_id/* drivers/media/i2c/saa6752hs.c 549 */;
+	struct v4l2_subdev_format *cocci_id/* drivers/media/i2c/saa6752hs.c 547 */;
+	struct v4l2_subdev_pad_config *cocci_id/* drivers/media/i2c/saa6752hs.c 546 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/i2c/saa6752hs.c 545 */;
+	struct saa6752hs_mpeg_params {
+		__u16 ts_pid_pmt;
+		__u16 ts_pid_audio;
+		__u16 ts_pid_video;
+		__u16 ts_pid_pcr;
+		enum v4l2_mpeg_audio_encoding au_encoding;
+		enum v4l2_mpeg_audio_l2_bitrate au_l2_bitrate;
+		enum v4l2_mpeg_audio_ac3_bitrate au_ac3_bitrate;
+		enum v4l2_mpeg_video_aspect vi_aspect;
+		enum v4l2_mpeg_video_bitrate_mode vi_bitrate_mode;
+		__u32 vi_bitrate;
+		__u32 vi_bitrate_peak;
+	} cocci_id/* drivers/media/i2c/saa6752hs.c 48 */;
+	unsigned char cocci_id/* drivers/media/i2c/saa6752hs.c 431 */[256];
+	unsigned cocci_id/* drivers/media/i2c/saa6752hs.c 429 */;
+	unsigned char cocci_id/* drivers/media/i2c/saa6752hs.c 426 */[9];
+	u32 cocci_id/* drivers/media/i2c/saa6752hs.c 424 */;
+	enum saa6752hs_videoformat{SAA6752HS_VF_D1=0, SAA6752HS_VF_2_3_D1=1, SAA6752HS_VF_1_2_D1=2, SAA6752HS_VF_SIF=3, SAA6752HS_VF_UNKNOWN,} cocci_id/* drivers/media/i2c/saa6752hs.c 40 */;
+	struct saa6752hs_mpeg_params *cocci_id/* drivers/media/i2c/saa6752hs.c 378 */;
+	struct saa6752hs_state cocci_id/* drivers/media/i2c/saa6752hs.c 377 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/i2c/saa6752hs.c 374 */;
+	u8 cocci_id/* drivers/media/i2c/saa6752hs.c 300 */[3];
+	uint8_t cocci_id/* drivers/media/i2c/saa6752hs.c 298 */;
+	uint16_t cocci_id/* drivers/media/i2c/saa6752hs.c 298 */;
+	void cocci_id/* drivers/media/i2c/saa6752hs.c 298 */;
+	u8 cocci_id/* drivers/media/i2c/saa6752hs.c 291 */[2];
+	unsigned long cocci_id/* drivers/media/i2c/saa6752hs.c 226 */;
+	unsigned char cocci_id/* drivers/media/i2c/saa6752hs.c 225 */[3];
+	enum saa6752hs_command cocci_id/* drivers/media/i2c/saa6752hs.c 223 */;
+	struct i2c_client *cocci_id/* drivers/media/i2c/saa6752hs.c 222 */;
+	int cocci_id/* drivers/media/i2c/saa6752hs.c 222 */;
+	const struct saa6752hs_mpeg_params cocci_id/* drivers/media/i2c/saa6752hs.c 203 */;
+	const u8 cocci_id/* drivers/media/i2c/saa6752hs.c 115 */[];
+}

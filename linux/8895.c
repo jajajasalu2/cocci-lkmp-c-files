@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 731 */;
+	u8 cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 72 */;
+	u64 cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 71 */;
+	const u8 cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 68 */;
+	u32 cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 64 */;
+	const struct net_device_ops cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 623 */;
+	struct xge_stats *cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 613 */;
+	struct rtnl_link_stats64 *cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 610 */;
+	void *cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 559 */;
+	struct napi_struct *cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 510 */;
+	struct xge_pdata *cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 496 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 494 */;
+	int cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 494 */;
+	u16 cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 408 */;
+	struct device *cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 406 */;
+	struct xge_desc_ring *cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 403 */;
+	dma_addr_t cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 375 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 374 */;
+	void cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 351 */;
+	unsigned int cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 285 */;
+	bool cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 227 */;
+	struct xge_raw_desc *cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 227 */;
+	struct resource *cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 19 */;
+	netdev_tx_t cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 172 */;
+	struct platform_device *cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 16 */;
+	const int cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 129 */;
+	irqreturn_t cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 129 */;
+	const struct acpi_device_id cocci_id/* drivers/net/ethernet/apm/xgene-v2/main.c 12 */[];
+}

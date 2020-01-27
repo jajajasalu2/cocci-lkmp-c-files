@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	int cocci_id/* drivers/ata/sata_svw.c 82 */;
+	u8 cocci_id/* drivers/ata/sata_svw.c 79 */(struct ata_port *ap);
+	struct pci_driver cocci_id/* drivers/ata/sata_svw.c 512 */;
+	const struct pci_device_id cocci_id/* drivers/ata/sata_svw.c 500 */[];
+	struct ata_host *cocci_id/* drivers/ata/sata_svw.c 413 */;
+	const struct ata_port_info *cocci_id/* drivers/ata/sata_svw.c 411 */[];
+	const struct pci_device_id *cocci_id/* drivers/ata/sata_svw.c 409 */;
+	struct pci_dev *cocci_id/* drivers/ata/sata_svw.c 409 */;
+	enum{K2_FLAG_SATA_8_PORTS=(1 << 24), K2_FLAG_NO_ATAPI_DMA=(1 << 25), K2_FLAG_BAR_POS_3=(1 << 26), K2_SATA_TF_CMD_OFFSET=0x00, K2_SATA_TF_DATA_OFFSET=0x00, K2_SATA_TF_ERROR_OFFSET=0x04, K2_SATA_TF_NSECT_OFFSET=0x08, K2_SATA_TF_LBAL_OFFSET=0x0c, K2_SATA_TF_LBAM_OFFSET=0x10, K2_SATA_TF_LBAH_OFFSET=0x14, K2_SATA_TF_DEVICE_OFFSET=0x18, K2_SATA_TF_CMDSTAT_OFFSET=0x1c, K2_SATA_TF_CTL_OFFSET=0x20, K2_SATA_DMA_CMD_OFFSET=0x30, K2_SATA_SCR_STATUS_OFFSET=0x40, K2_SATA_SCR_ERROR_OFFSET=0x44, K2_SATA_SCR_CONTROL_OFFSET=0x48, K2_SATA_SICR1_OFFSET=0x80, K2_SATA_SICR2_OFFSET=0x84, K2_SATA_SIM_OFFSET=0x88, K2_SATA_PORT_OFFSET=0x100, chip_svw4=0, chip_svw8=1, chip_svw42=2, chip_svw43=3,} cocci_id/* drivers/ata/sata_svw.c 39 */;
+	struct ata_ioports *cocci_id/* drivers/ata/sata_svw.c 389 */;
+	const struct ata_port_info cocci_id/* drivers/ata/sata_svw.c 353 */[];
+	struct ata_port_operations cocci_id/* drivers/ata/sata_svw.c 339 */;
+	struct scsi_host_template cocci_id/* drivers/ata/sata_svw.c 333 */;
+	const u32 *cocci_id/* drivers/ata/sata_svw.c 322 */;
+	struct device_node *cocci_id/* drivers/ata/sata_svw.c 306 */;
+	struct seq_file *cocci_id/* drivers/ata/sata_svw.c 303 */;
+	struct Scsi_Host *cocci_id/* drivers/ata/sata_svw.c 303 */;
+	void __iomem *cocci_id/* drivers/ata/sata_svw.c 235 */;
+	u8 cocci_id/* drivers/ata/sata_svw.c 234 */;
+	unsigned int cocci_id/* drivers/ata/sata_svw.c 233 */;
+	struct ata_port *cocci_id/* drivers/ata/sata_svw.c 232 */;
+	struct ata_queued_cmd *cocci_id/* drivers/ata/sata_svw.c 230 */;
+	void cocci_id/* drivers/ata/sata_svw.c 230 */;
+	struct ata_taskfile *cocci_id/* drivers/ata/sata_svw.c 194 */;
+	u16 cocci_id/* drivers/ata/sata_svw.c 169 */;
+	const struct ata_taskfile *cocci_id/* drivers/ata/sata_svw.c 158 */;
+	unsigned int *cocci_id/* drivers/ata/sata_svw.c 142 */;
+	unsigned long cocci_id/* drivers/ata/sata_svw.c 142 */;
+	struct ata_link *cocci_id/* drivers/ata/sata_svw.c 141 */;
+	u32 cocci_id/* drivers/ata/sata_svw.c 116 */;
+	u32 *cocci_id/* drivers/ata/sata_svw.c 106 */;
+}

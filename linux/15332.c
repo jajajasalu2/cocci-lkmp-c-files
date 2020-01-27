@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	struct cpwd {
+		void __iomem *regs;
+		spinlock_t lock;
+		unsigned int irq;
+		unsigned long timeout;
+		bool enabled;
+		bool reboot;
+		bool broken;
+		bool initialized;
+		struct {
+			struct miscdevice misc;
+			void __iomem *regs;
+			u8 intr_mask;
+			u8 runstatus;
+			u16 timeout;
+		} devs[WD_NUMDEVS];
+	} cocci_id/* drivers/watchdog/cpwd.c 73 */;
+	struct platform_driver cocci_id/* drivers/watchdog/cpwd.c 654 */;
+	const struct of_device_id cocci_id/* drivers/watchdog/cpwd.c 646 */[];
+	struct miscdevice *cocci_id/* drivers/watchdog/cpwd.c 574 */;
+	int *cocci_id/* drivers/watchdog/cpwd.c 571 */[];
+	const char *cocci_id/* drivers/watchdog/cpwd.c 570 */[];
+	const void *cocci_id/* drivers/watchdog/cpwd.c 518 */;
+	const char *cocci_id/* drivers/watchdog/cpwd.c 517 */;
+	struct device_node *cocci_id/* drivers/watchdog/cpwd.c 516 */;
+	struct platform_device *cocci_id/* drivers/watchdog/cpwd.c 514 */;
+	const struct file_operations cocci_id/* drivers/watchdog/cpwd.c 503 */;
+	loff_t *cocci_id/* drivers/watchdog/cpwd.c 498 */;
+	size_t cocci_id/* drivers/watchdog/cpwd.c 498 */;
+	char __user *cocci_id/* drivers/watchdog/cpwd.c 497 */;
+	ssize_t cocci_id/* drivers/watchdog/cpwd.c 497 */;
+	const char __user *cocci_id/* drivers/watchdog/cpwd.c 482 */;
+	struct file *cocci_id/* drivers/watchdog/cpwd.c 477 */;
+	unsigned long cocci_id/* drivers/watchdog/cpwd.c 477 */;
+	unsigned int cocci_id/* drivers/watchdog/cpwd.c 477 */;
+	long cocci_id/* drivers/watchdog/cpwd.c 477 */;
+	int __user *cocci_id/* drivers/watchdog/cpwd.c 429 */;
+	struct watchdog_info cocci_id/* drivers/watchdog/cpwd.c 423 */;
+	struct inode *cocci_id/* drivers/watchdog/cpwd.c 415 */;
+	void __user *cocci_id/* drivers/watchdog/cpwd.c 414 */;
+	const struct watchdog_info cocci_id/* drivers/watchdog/cpwd.c 409 */;
+	irqreturn_t cocci_id/* drivers/watchdog/cpwd.c 353 */;
+	void *cocci_id/* drivers/watchdog/cpwd.c 353 */;
+	unsigned char cocci_id/* drivers/watchdog/cpwd.c 305 */;
+	int cocci_id/* drivers/watchdog/cpwd.c 238 */;
+	struct cpwd *cocci_id/* drivers/watchdog/cpwd.c 237 */;
+	struct timer_list *cocci_id/* drivers/watchdog/cpwd.c 235 */;
+	void cocci_id/* drivers/watchdog/cpwd.c 235 */;
+	u8 cocci_id/* drivers/watchdog/cpwd.c 193 */;
+	void __iomem *cocci_id/* drivers/watchdog/cpwd.c 193 */;
+	u16 cocci_id/* drivers/watchdog/cpwd.c 181 */;
+	struct timer_list cocci_id/* drivers/watchdog/cpwd.c 159 */;
+}

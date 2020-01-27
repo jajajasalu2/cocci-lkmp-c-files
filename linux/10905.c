@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	uint32_t cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 99 */;
+	struct kgd_dev *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 99 */;
+	void cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 99 */;
+	const struct kfd2kgd_calls cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 815 */;
+	struct amdgpu_ring *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 720 */;
+	uint16_t cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 714 */;
+	signed long cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 691 */;
+	uint8_t cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 677 */;
+	uint16_t *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 677 */;
+	bool cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 676 */;
+	unsigned long cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 535 */;
+	enum hqd_dequeue_request_type cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 534 */;
+	enum kfd_preempt_type cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 529 */;
+	struct tile_config *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 49 */;
+	uint64_t cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 487 */;
+	int cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 48 */;
+	uint64_t __user *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 394 */;
+	enum hqd_dequeue_request_type{NO_ACTION=0, DRAIN_PIPE, RESET_WAVES, SAVE_WAVES,} cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 38 */;
+	uint32_t **cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 355 */[2];
+	uint32_t *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 355 */;
+	struct mm_struct *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 259 */;
+	uint32_t __user *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 257 */;
+	struct v10_sdma_mqd *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 251 */;
+	struct v10_compute_mqd *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 246 */;
+	void *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 246 */;
+	uint32_t cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 212 */[2];
+	unsigned int cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 113 */;
+	struct amdgpu_device *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c 102 */;
+}

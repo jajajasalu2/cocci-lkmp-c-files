@@ -1,0 +1,66 @@
+cocci_test_suite() {
+	s64 cocci_id/* mm/page-writeback.c 819 */;
+	long long cocci_id/* mm/page-writeback.c 812 */;
+	long cocci_id/* mm/page-writeback.c 769 */;
+	u64 cocci_id/* mm/page-writeback.c 768 */;
+	struct wb_domain *cocci_id/* mm/page-writeback.c 766 */;
+	struct dirty_throttle_control *cocci_id/* mm/page-writeback.c 764 */;
+	unsigned cocci_id/* mm/page-writeback.c 696 */;
+	unsigned int cocci_id/* mm/page-writeback.c 673 */;
+	gfp_t cocci_id/* mm/page-writeback.c 647 */;
+	struct fprop_local_percpu *cocci_id/* mm/page-writeback.c 578 */;
+	loff_t *cocci_id/* mm/page-writeback.c 528 */;
+	size_t *cocci_id/* mm/page-writeback.c 527 */;
+	void __user *cocci_id/* mm/page-writeback.c 527 */;
+	struct ctl_table *cocci_id/* mm/page-writeback.c 526 */;
+	struct pglist_data *cocci_id/* mm/page-writeback.c 477 */;
+	unsigned long *cocci_id/* mm/page-writeback.c 459 */;
+	struct task_struct *cocci_id/* mm/page-writeback.c 404 */;
+	const unsigned long cocci_id/* mm/page-writeback.c 395 */;
+	struct zone *cocci_id/* mm/page-writeback.c 313 */;
+	struct backing_dev_info *cocci_id/* mm/page-writeback.c 2773 */;
+	bool cocci_id/* mm/page-writeback.c 2764 */;
+	struct lruvec *cocci_id/* mm/page-writeback.c 2718 */;
+	struct mem_cgroup *cocci_id/* mm/page-writeback.c 2717 */;
+	struct wb_lock_cookie cocci_id/* mm/page-writeback.c 2623 */;
+	struct bdi_writeback *cocci_id/* mm/page-writeback.c 2622 */;
+	struct inode *cocci_id/* mm/page-writeback.c 2621 */;
+	struct address_space *cocci_id/* mm/page-writeback.c 2618 */;
+	struct page *cocci_id/* mm/page-writeback.c 2616 */;
+	void cocci_id/* mm/page-writeback.c 2616 */;
+	int (*cocci_id/* mm/page-writeback.c 2555 */)(struct page *);
+	unsigned long cocci_id/* mm/page-writeback.c 2470 */;
+	int cocci_id/* mm/page-writeback.c 2398 */;
+	struct writeback_control cocci_id/* mm/page-writeback.c 2370 */;
+	struct blk_plug cocci_id/* mm/page-writeback.c 2321 */;
+	void *cocci_id/* mm/page-writeback.c 2300 */;
+	struct writeback_control *cocci_id/* mm/page-writeback.c 2299 */;
+	xa_mark_t cocci_id/* mm/page-writeback.c 2172 */;
+	struct pagevec cocci_id/* mm/page-writeback.c 2165 */;
+	writepage_t cocci_id/* mm/page-writeback.c 2159 */;
+	pgoff_t cocci_id/* mm/page-writeback.c 2106 */;
+	void __init cocci_id/* mm/page-writeback.c 2081 */;
+	struct timer_list *cocci_id/* mm/page-writeback.c 1997 */;
+	unsigned long long cocci_id/* mm/page-writeback.c 194 */;
+	int *cocci_id/* mm/page-writeback.c 1870 */;
+	struct dirty_throttle_control *const cocci_id/* mm/page-writeback.c 1566 */;
+	struct dirty_throttle_control cocci_id/* mm/page-writeback.c 1564 */;
+	struct dirty_throttle_control {
+#ifdef CONFIG_CGROUP_WRITEBACK
+		struct wb_domain *dom;
+		struct dirty_throttle_control *gdtc;
+#endif
+		struct bdi_writeback *wb;
+		struct fprop_local_percpu *wb_completions;
+		unsigned long avail;
+		unsigned long dirty;
+		unsigned long thresh;
+		unsigned long bg_thresh;
+		unsigned long wb_dirty;
+		unsigned long wb_thresh;
+		unsigned long wb_bg_thresh;
+		unsigned long pos_ratio;
+	} cocci_id/* mm/page-writeback.c 129 */;
+	struct wb_domain cocci_id/* mm/page-writeback.c 126 */;
+	__typeof__(int) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

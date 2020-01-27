@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	const struct of_device_id cocci_id/* sound/soc/sti/sti_uniperif.c 79 */[];
+	struct platform_driver cocci_id/* sound/soc/sti/sti_uniperif.c 500 */;
+	struct platform_device *cocci_id/* sound/soc/sti/sti_uniperif.c 470 */;
+	const struct sti_uniperiph_dev_data cocci_id/* sound/soc/sti/sti_uniperif.c 47 */;
+	const struct snd_dmaengine_pcm_config cocci_id/* sound/soc/sti/sti_uniperif.c 466 */;
+	struct sti_uniperiph_dev_data *cocci_id/* sound/soc/sti/sti_uniperif.c 400 */;
+	const char *cocci_id/* sound/soc/sti/sti_uniperif.c 391 */;
+	const struct sti_uniperiph_dev_data *cocci_id/* sound/soc/sti/sti_uniperif.c 390 */;
+	const struct of_device_id *cocci_id/* sound/soc/sti/sti_uniperif.c 389 */;
+	struct uniperif *cocci_id/* sound/soc/sti/sti_uniperif.c 388 */;
+	struct snd_soc_pcm_stream *cocci_id/* sound/soc/sti/sti_uniperif.c 387 */;
+	struct snd_soc_dai_driver *cocci_id/* sound/soc/sti/sti_uniperif.c 386 */;
+	struct sti_uniperiph_dai *cocci_id/* sound/soc/sti/sti_uniperif.c 385 */;
+	struct device *cocci_id/* sound/soc/sti/sti_uniperif.c 384 */;
+	struct sti_uniperiph_data *cocci_id/* sound/soc/sti/sti_uniperif.c 382 */;
+	struct device_node *cocci_id/* sound/soc/sti/sti_uniperif.c 381 */;
+	int cocci_id/* sound/soc/sti/sti_uniperif.c 381 */;
+	const struct snd_soc_component_driver cocci_id/* sound/soc/sti/sti_uniperif.c 377 */;
+	const struct snd_soc_dai_driver cocci_id/* sound/soc/sti/sti_uniperif.c 371 */;
+	unsigned int cocci_id/* sound/soc/sti/sti_uniperif.c 302 */;
+	struct snd_dmaengine_dai_dma_data *cocci_id/* sound/soc/sti/sti_uniperif.c 287 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/sti/sti_uniperif.c 282 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/sti/sti_uniperif.c 281 */;
+	struct snd_kcontrol_new *cocci_id/* sound/soc/sti/sti_uniperif.c 259 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/sti/sti_uniperif.c 255 */;
+	struct sti_uniperiph_dev_data {
+		unsigned int id;
+		unsigned int version;
+		unsigned int stream;
+		const char *dai_names;
+		enum uniperif_type type;
+	} cocci_id/* sound/soc/sti/sti_uniperif.c 23 */;
+	unsigned int cocci_id/* sound/soc/sti/sti_uniperif.c 216 */[4];
+	unsigned int *cocci_id/* sound/soc/sti/sti_uniperif.c 210 */;
+	u_int32_t cocci_id/* sound/soc/sti/sti_uniperif.c 198 */;
+	u64 cocci_id/* sound/soc/sti/sti_uniperif.c 183 */;
+	struct snd_mask *cocci_id/* sound/soc/sti/sti_uniperif.c 182 */;
+	struct snd_interval cocci_id/* sound/soc/sti/sti_uniperif.c 167 */;
+	struct snd_pcm_hw_rule *cocci_id/* sound/soc/sti/sti_uniperif.c 164 */;
+}

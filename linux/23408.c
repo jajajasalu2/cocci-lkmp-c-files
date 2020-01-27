@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	const struct regmap_config cocci_id/* sound/soc/codecs/adau1977.c 995 */;
+	void (*cocci_id/* sound/soc/codecs/adau1977.c 904 */)(struct device *dev);
+	enum adau1977_type cocci_id/* sound/soc/codecs/adau1977.c 904 */;
+	struct regmap *cocci_id/* sound/soc/codecs/adau1977.c 903 */;
+	struct device *cocci_id/* sound/soc/codecs/adau1977.c 903 */;
+	struct adau1977_platform_data *cocci_id/* sound/soc/codecs/adau1977.c 884 */;
+	const struct snd_soc_component_driver cocci_id/* sound/soc/codecs/adau1977.c 867 */;
+	struct adau1977 *cocci_id/* sound/soc/codecs/adau1977.c 849 */;
+	struct snd_soc_dapm_context *cocci_id/* sound/soc/codecs/adau1977.c 848 */;
+	struct snd_soc_component *cocci_id/* sound/soc/codecs/adau1977.c 846 */;
+	int cocci_id/* sound/soc/codecs/adau1977.c 846 */;
+	bool cocci_id/* sound/soc/codecs/adau1977.c 778 */;
+	unsigned int cocci_id/* sound/soc/codecs/adau1977.c 778 */;
+	const unsigned int cocci_id/* sound/soc/codecs/adau1977.c 766 */[];
+	struct snd_soc_dai_driver cocci_id/* sound/soc/codecs/adau1977.c 752 */;
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/codecs/adau1977.c 743 */;
+	u64 cocci_id/* sound/soc/codecs/adau1977.c 707 */;
+	unsigned int cocci_id/* sound/soc/codecs/adau1977.c 501 */[4];
+	enum snd_soc_bias_level cocci_id/* sound/soc/codecs/adau1977.c 474 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/codecs/adau1977.c 294 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/codecs/adau1977.c 294 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/codecs/adau1977.c 293 */;
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/adau1977.c 207 */[];
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/codecs/adau1977.c 180 */[];
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/codecs/adau1977.c 163 */[];
+	const struct reg_default cocci_id/* sound/soc/codecs/adau1977.c 132 */[];
+	struct adau1977 {
+		struct regmap *regmap;
+		bool right_j;
+		unsigned int sysclk;
+		enum adau1977_sysclk_src sysclk_src;
+		struct gpio_desc *reset_gpio;
+		enum adau1977_type type;
+		struct regulator *avdd_reg;
+		struct regulator *dvdd_reg;
+		struct snd_pcm_hw_constraint_list constraints;
+		struct device *dev;
+		void (*switch_mode)(struct device *dev);
+		unsigned int max_master_fs;
+		unsigned int slot_width;
+		bool enabled;
+		bool master;
+	} cocci_id/* sound/soc/codecs/adau1977.c 110 */;
+}

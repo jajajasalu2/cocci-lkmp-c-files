@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct seq_file *cocci_id/* fs/proc/proc_net.c 86 */;
+	struct seq_net_private *cocci_id/* fs/proc/proc_net.c 61 */;
+	void cocci_id/* fs/proc/proc_net.c 52 */;
+	const struct dentry_operations cocci_id/* fs/proc/proc_net.c 47 */;
+	struct dentry *cocci_id/* fs/proc/proc_net.c 42 */;
+	int cocci_id/* fs/proc/proc_net.c 42 */;
+	int __init cocci_id/* fs/proc/proc_net.c 388 */;
+	struct pernet_operations __net_initdata cocci_id/* fs/proc/proc_net.c 383 */;
+	const struct inode *cocci_id/* fs/proc/proc_net.c 37 */;
+	kgid_t cocci_id/* fs/proc/proc_net.c 336 */;
+	kuid_t cocci_id/* fs/proc/proc_net.c 335 */;
+	const struct file_operations cocci_id/* fs/proc/proc_net.c 326 */;
+	struct proc_dir_entry *cocci_id/* fs/proc/proc_net.c 32 */;
+	struct net *cocci_id/* fs/proc/proc_net.c 32 */;
+	struct file *cocci_id/* fs/proc/proc_net.c 312 */;
+	struct dir_context *cocci_id/* fs/proc/proc_net.c 312 */;
+	const struct inode_operations cocci_id/* fs/proc/proc_net.c 307 */;
+	u32 cocci_id/* fs/proc/proc_net.c 290 */;
+	const struct path *cocci_id/* fs/proc/proc_net.c 289 */;
+	struct kstat *cocci_id/* fs/proc/proc_net.c 289 */;
+	struct nsproxy *cocci_id/* fs/proc/proc_net.c 257 */;
+	struct task_struct *cocci_id/* fs/proc/proc_net.c 256 */;
+	struct inode *cocci_id/* fs/proc/proc_net.c 254 */;
+	int (*cocci_id/* fs/proc/proc_net.c 196 */)(struct seq_file *, void *);
+	proc_write_t cocci_id/* fs/proc/proc_net.c 146 */;
+	void *cocci_id/* fs/proc/proc_net.c 103 */;
+	unsigned int cocci_id/* fs/proc/proc_net.c 103 */;
+	const struct seq_operations *cocci_id/* fs/proc/proc_net.c 102 */;
+	umode_t cocci_id/* fs/proc/proc_net.c 101 */;
+	const char *cocci_id/* fs/proc/proc_net.c 101 */;
+}

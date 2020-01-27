@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	unsigned long *cocci_id/* arch/mips/kvm/vz.c 822 */;
+	s32 cocci_id/* arch/mips/kvm/vz.c 664 */;
+	int cocci_id/* arch/mips/kvm/vz.c 645 */;
+	unsigned int cocci_id/* arch/mips/kvm/vz.c 642 */;
+	bool cocci_id/* arch/mips/kvm/vz.c 602 */;
+	union mips_instruction cocci_id/* arch/mips/kvm/vz.c 602 */;
+	u32 *cocci_id/* arch/mips/kvm/vz.c 494 */;
+	unsigned long cocci_id/* arch/mips/kvm/vz.c 416 */;
+	ktime_t cocci_id/* arch/mips/kvm/vz.c 415 */;
+	u32 cocci_id/* arch/mips/kvm/vz.c 412 */;
+	struct kvm_vcpu *cocci_id/* arch/mips/kvm/vz.c 411 */;
+	void cocci_id/* arch/mips/kvm/vz.c 411 */;
+	struct kvm_vcpu *cocci_id/* arch/mips/kvm/vz.c 38 */[NR_CPUS];
+	struct kvm_mips_callbacks **cocci_id/* arch/mips/kvm/vz.c 3206 */;
+	struct kvm_mips_callbacks cocci_id/* arch/mips/kvm/vz.c 3168 */;
+	const struct kvm_memory_slot *cocci_id/* arch/mips/kvm/vz.c 3127 */;
+	struct kvm *cocci_id/* arch/mips/kvm/vz.c 2915 */;
+	u32 cocci_id/* arch/mips/kvm/vz.c 275 */[MIPS_EXC_MAX];
+	struct kvm_mips_interrupt *cocci_id/* arch/mips/kvm/vz.c 248 */;
+	struct mm_struct *cocci_id/* arch/mips/kvm/vz.c 2406 */;
+	struct kvm_mips_tlb *cocci_id/* arch/mips/kvm/vz.c 2365 */;
+	gva_t cocci_id/* arch/mips/kvm/vz.c 183 */;
+	gpa_t cocci_id/* arch/mips/kvm/vz.c 183 */;
+	struct mips_coproc *cocci_id/* arch/mips/kvm/vz.c 1826 */;
+	s64 *cocci_id/* arch/mips/kvm/vz.c 1824 */;
+	const struct kvm_one_reg *cocci_id/* arch/mips/kvm/vz.c 1823 */;
+	s64 cocci_id/* arch/mips/kvm/vz.c 1790 */;
+	u64 cocci_id/* arch/mips/kvm/vz.c 1720 */;
+	u64 __user *cocci_id/* arch/mips/kvm/vz.c 1718 */;
+	u64 cocci_id/* arch/mips/kvm/vz.c 1630 */[];
+	ulong cocci_id/* arch/mips/kvm/vz.c 1541 */;
+	enum emulation_result cocci_id/* arch/mips/kvm/vz.c 1470 */;
+	struct kvm_run *cocci_id/* arch/mips/kvm/vz.c 1468 */;
+	long cocci_id/* arch/mips/kvm/vz.c 1180 */;
+	struct kvm_vcpu_arch *cocci_id/* arch/mips/kvm/vz.c 1136 */;
+	s16 cocci_id/* arch/mips/kvm/vz.c 1070 */;
+}

@@ -1,0 +1,62 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/regulator/ti-abb-regulator.c 881 */;
+	struct ti_abb cocci_id/* drivers/regulator/ti-abb-regulator.c 711 */;
+	struct regulator_config cocci_id/* drivers/regulator/ti-abb-regulator.c 696 */;
+	struct regulator_desc *cocci_id/* drivers/regulator/ti-abb-regulator.c 694 */;
+	struct resource *cocci_id/* drivers/regulator/ti-abb-regulator.c 690 */;
+	const struct of_device_id *cocci_id/* drivers/regulator/ti-abb-regulator.c 689 */;
+	struct platform_device *cocci_id/* drivers/regulator/ti-abb-regulator.c 686 */;
+	const struct of_device_id cocci_id/* drivers/regulator/ti-abb-regulator.c 667 */[];
+	struct ti_abb_reg {
+		u32 setup_off;
+		u32 control_off;
+		u32 sr2_wtcnt_value_mask;
+		u32 fbb_sel_mask;
+		u32 rbb_sel_mask;
+		u32 sr2_en_mask;
+		u32 opp_change_mask;
+		u32 opp_sel_mask;
+	} cocci_id/* drivers/regulator/ti-abb-regulator.c 66 */;
+	const struct ti_abb_reg cocci_id/* drivers/regulator/ti-abb-regulator.c 657 */;
+	struct regulator_ops cocci_id/* drivers/regulator/ti-abb-regulator.c 622 */;
+	unsigned int cocci_id/* drivers/regulator/ti-abb-regulator.c 531 */;
+	struct regulation_constraints *cocci_id/* drivers/regulator/ti-abb-regulator.c 505 */;
+	unsigned int *cocci_id/* drivers/regulator/ti-abb-regulator.c 503 */;
+	u32 cocci_id/* drivers/regulator/ti-abb-regulator.c 502 */;
+	char *cocci_id/* drivers/regulator/ti-abb-regulator.c 501 */;
+	const u32 cocci_id/* drivers/regulator/ti-abb-regulator.c 500 */;
+	struct ti_abb_info {
+		u32 opp_sel;
+		u32 vset;
+	} cocci_id/* drivers/regulator/ti-abb-regulator.c 50 */;
+	struct ti_abb_info *cocci_id/* drivers/regulator/ti-abb-regulator.c 499 */;
+	struct regulator_init_data *cocci_id/* drivers/regulator/ti-abb-regulator.c 497 */;
+	const struct ti_abb_reg *cocci_id/* drivers/regulator/ti-abb-regulator.c 412 */;
+	struct ti_abb *cocci_id/* drivers/regulator/ti-abb-regulator.c 376 */;
+	const struct regulator_desc *cocci_id/* drivers/regulator/ti-abb-regulator.c 375 */;
+	struct regulator_dev *cocci_id/* drivers/regulator/ti-abb-regulator.c 373 */;
+	unsigned cocci_id/* drivers/regulator/ti-abb-regulator.c 312 */;
+	struct device *cocci_id/* drivers/regulator/ti-abb-regulator.c 193 */;
+	int cocci_id/* drivers/regulator/ti-abb-regulator.c 193 */;
+	void cocci_id/* drivers/regulator/ti-abb-regulator.c 156 */;
+	bool cocci_id/* drivers/regulator/ti-abb-regulator.c 147 */;
+	const struct ti_abb *cocci_id/* drivers/regulator/ti-abb-regulator.c 147 */;
+	void __iomem *cocci_id/* drivers/regulator/ti-abb-regulator.c 129 */;
+	struct ti_abb {
+		struct regulator_desc rdesc;
+		struct clk *clk;
+		void __iomem *base;
+		void __iomem *setup_reg;
+		void __iomem *control_reg;
+		void __iomem *int_base;
+		void __iomem *efuse_base;
+		void __iomem *ldo_base;
+		const struct ti_abb_reg *regs;
+		u32 txdone_mask;
+		u32 ldovbb_override_mask;
+		u32 ldovbb_vset_mask;
+		struct ti_abb_info *info;
+		int current_info_idx;
+		u32 settling_time;
+	} cocci_id/* drivers/regulator/ti-abb-regulator.c 100 */;
+}

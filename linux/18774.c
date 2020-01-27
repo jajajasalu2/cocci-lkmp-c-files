@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	struct max1586_platform_data cocci_id/* arch/arm/mach-pxa/vpac270.c 674 */;
+	struct max1586_subdev_data cocci_id/* arch/arm/mach-pxa/vpac270.c 666 */[];
+	struct regulator_init_data cocci_id/* arch/arm/mach-pxa/vpac270.c 654 */;
+	struct regulator_consumer_supply cocci_id/* arch/arm/mach-pxa/vpac270.c 650 */[];
+	struct pata_pxa_pdata cocci_id/* arch/arm/mach-pxa/vpac270.c 598 */;
+	int cocci_id/* arch/arm/mach-pxa/vpac270.c 567 */;
+	struct fb_var_screeninfo *cocci_id/* arch/arm/mach-pxa/vpac270.c 560 */;
+	struct pxafb_mach_info cocci_id/* arch/arm/mach-pxa/vpac270.c 554 */;
+	struct pxafb_mode_info cocci_id/* arch/arm/mach-pxa/vpac270.c 486 */[];
+	unsigned long cocci_id/* arch/arm/mach-pxa/vpac270.c 48 */[]__initdata;
+	struct i2c_board_info __initdata cocci_id/* arch/arm/mach-pxa/vpac270.c 468 */[];
+	struct ucb1400_pdata cocci_id/* arch/arm/mach-pxa/vpac270.c 443 */;
+	pxa2xx_audio_ops_t cocci_id/* arch/arm/mach-pxa/vpac270.c 439 */;
+	void __init cocci_id/* arch/arm/mach-pxa/vpac270.c 426 */;
+	void cocci_id/* arch/arm/mach-pxa/vpac270.c 426 */;
+	struct platform_device cocci_id/* arch/arm/mach-pxa/vpac270.c 416 */;
+	struct dm9000_plat_data cocci_id/* arch/arm/mach-pxa/vpac270.c 412 */;
+	struct resource cocci_id/* arch/arm/mach-pxa/vpac270.c 394 */[];
+	struct pxa2xx_udc_mach_info cocci_id/* arch/arm/mach-pxa/vpac270.c 376 */;
+	struct gpio_vbus_mach_info cocci_id/* arch/arm/mach-pxa/vpac270.c 355 */;
+	struct pxaohci_platform_data cocci_id/* arch/arm/mach-pxa/vpac270.c 336 */;
+	struct device *cocci_id/* arch/arm/mach-pxa/vpac270.c 330 */;
+	struct gpio_led_platform_data cocci_id/* arch/arm/mach-pxa/vpac270.c 305 */;
+	struct gpio_led cocci_id/* arch/arm/mach-pxa/vpac270.c 296 */[];
+	struct gpio_keys_platform_data cocci_id/* arch/arm/mach-pxa/vpac270.c 271 */;
+	struct gpio_keys_button cocci_id/* arch/arm/mach-pxa/vpac270.c 267 */[];
+	struct gpiod_lookup_table cocci_id/* arch/arm/mach-pxa/vpac270.c 243 */;
+	struct pxamci_platform_data cocci_id/* arch/arm/mach-pxa/vpac270.c 238 */;
+	struct onenand_platform_data cocci_id/* arch/arm/mach-pxa/vpac270.c 203 */;
+	struct resource cocci_id/* arch/arm/mach-pxa/vpac270.c 168 */;
+	struct physmap_flash_data cocci_id/* arch/arm/mach-pxa/vpac270.c 160 */[];
+	struct mtd_partition cocci_id/* arch/arm/mach-pxa/vpac270.c 152 */[];
+	const struct machine_desc cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 397 */;
+}

@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	enum c_can_lec_type cocci_id/* drivers/net/can/c_can/c_can.c 996 */;
+	struct can_berr_counter cocci_id/* drivers/net/can/c_can/c_can.c 915 */;
+	enum c_can_bus_error_types cocci_id/* drivers/net/can/c_can/c_can.c 907 */;
+	u32 cocci_id/* drivers/net/can/c_can/c_can.c 768 */;
+	struct net_device_stats *cocci_id/* drivers/net/can/c_can/c_can.c 735 */;
+	struct c_can_priv *cocci_id/* drivers/net/can/c_can/c_can.c 709 */;
+	unsigned int cocci_id/* drivers/net/can/c_can/c_can.c 708 */;
+	struct can_berr_counter *cocci_id/* drivers/net/can/c_can/c_can.c 706 */;
+	const struct net_device *cocci_id/* drivers/net/can/c_can/c_can.c 705 */;
+	int cocci_id/* drivers/net/can/c_can/c_can.c 705 */;
+	enum can_mode cocci_id/* drivers/net/can/c_can/c_can.c 685 */;
+	struct pinctrl *cocci_id/* drivers/net/can/c_can/c_can.c 648 */;
+	const struct can_bittiming *cocci_id/* drivers/net/can/c_can/c_can.c 519 */;
+	u8 cocci_id/* drivers/net/can/c_can/c_can.c 516 */;
+	netdev_tx_t cocci_id/* drivers/net/can/c_can/c_can.c 462 */;
+	bool cocci_id/* drivers/net/can/c_can/c_can.c 245 */;
+	const struct c_can_priv *cocci_id/* drivers/net/can/c_can/c_can.c 221 */;
+	const struct can_bittiming_const cocci_id/* drivers/net/can/c_can/c_can.c 203 */;
+	enum c_can_bus_error_types{C_CAN_NO_ERROR=0, C_CAN_BUS_OFF, C_CAN_ERROR_WARNING, C_CAN_ERROR_PASSIVE,} cocci_id/* drivers/net/can/c_can/c_can.c 196 */;
+	enum c_can_lec_type{LEC_NO_ERROR=0, LEC_STUFF_ERROR, LEC_FORM_ERROR, LEC_ACK_ERROR, LEC_BIT1_ERROR, LEC_BIT0_ERROR, LEC_CRC_ERROR, LEC_UNUSED, LEC_MASK=LEC_UNUSED,} cocci_id/* drivers/net/can/c_can/c_can.c 180 */;
+	const struct net_device_ops cocci_id/* drivers/net/can/c_can/c_can.c 1328 */;
+	unsigned long cocci_id/* drivers/net/can/c_can/c_can.c 1247 */;
+	struct c_can_priv cocci_id/* drivers/net/can/c_can/c_can.c 1224 */;
+	struct net_device *cocci_id/* drivers/net/can/c_can/c_can.c 1219 */;
+	void cocci_id/* drivers/net/can/c_can/c_can.c 1219 */;
+	irqreturn_t cocci_id/* drivers/net/can/c_can/c_can.c 1133 */;
+	void *cocci_id/* drivers/net/can/c_can/c_can.c 1133 */;
+	u16 cocci_id/* drivers/net/can/c_can/c_can.c 1068 */;
+	struct napi_struct *cocci_id/* drivers/net/can/c_can/c_can.c 1064 */;
+	struct sk_buff *cocci_id/* drivers/net/can/c_can/c_can.c 1001 */;
+	struct can_frame *cocci_id/* drivers/net/can/c_can/c_can.c 1000 */;
+}

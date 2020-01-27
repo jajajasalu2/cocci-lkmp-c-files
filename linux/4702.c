@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	u32 *cocci_id/* drivers/misc/mei/hw-txe.c 821 */;
+	unsigned char *cocci_id/* drivers/misc/mei/hw-txe.c 817 */;
+	const struct mei_device *cocci_id/* drivers/misc/mei/hw-txe.c 763 */;
+	const u8 *cocci_id/* drivers/misc/mei/hw-txe.c 743 */;
+	char cocci_id/* drivers/misc/mei/hw-txe.c 724 */[MEI_FW_STATUS_STR_SZ];
+	struct mei_msg_hdr *cocci_id/* drivers/misc/mei/hw-txe.c 711 */;
+	const u32 *cocci_id/* drivers/misc/mei/hw-txe.c 703 */;
+	const void *cocci_id/* drivers/misc/mei/hw-txe.c 698 */;
+	size_t cocci_id/* drivers/misc/mei/hw-txe.c 698 */;
+	const struct mei_fw_status *cocci_id/* drivers/misc/mei/hw-txe.c 640 */;
+	struct mei_fw_status *cocci_id/* drivers/misc/mei/hw-txe.c 638 */;
+	const struct mei_fw_status cocci_id/* drivers/misc/mei/hw-txe.c 623 */;
+	void __iomem *cocci_id/* drivers/misc/mei/hw-txe.c 34 */;
+	enum mei_pg_state cocci_id/* drivers/misc/mei/hw-txe.c 331 */;
+	long cocci_id/* drivers/misc/mei/hw-txe.c 257 */;
+	const unsigned long cocci_id/* drivers/misc/mei/hw-txe.c 255 */;
+	ktime_t cocci_id/* drivers/misc/mei/hw-txe.c 222 */;
+	int cocci_id/* drivers/misc/mei/hw-txe.c 219 */;
+	struct mei_txe_hw *cocci_id/* drivers/misc/mei/hw-txe.c 202 */;
+	u32 cocci_id/* drivers/misc/mei/hw-txe.c 200 */;
+	struct mei_device *cocci_id/* drivers/misc/mei/hw-txe.c 200 */;
+	bool cocci_id/* drivers/misc/mei/hw-txe.c 157 */;
+	void cocci_id/* drivers/misc/mei/hw-txe.c 137 */;
+	unsigned long cocci_id/* drivers/misc/mei/hw-txe.c 125 */;
+	phys_addr_t cocci_id/* drivers/misc/mei/hw-txe.c 1227 */;
+	struct mei_txe_hw cocci_id/* drivers/misc/mei/hw-txe.c 1205 */;
+	struct mei_device cocci_id/* drivers/misc/mei/hw-txe.c 1204 */;
+	struct pci_dev *cocci_id/* drivers/misc/mei/hw-txe.c 1199 */;
+	const struct mei_hw_ops cocci_id/* drivers/misc/mei/hw-txe.c 1159 */;
+	s32 cocci_id/* drivers/misc/mei/hw-txe.c 1053 */;
+	struct list_head cocci_id/* drivers/misc/mei/hw-txe.c 1052 */;
+	irqreturn_t cocci_id/* drivers/misc/mei/hw-txe.c 1030 */;
+	void *cocci_id/* drivers/misc/mei/hw-txe.c 1030 */;
+}

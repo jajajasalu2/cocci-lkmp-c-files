@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	u16 cocci_id/* drivers/spi/spi-mpc52xx-psc.c 77 */;
+	u32 cocci_id/* drivers/spi/spi-mpc52xx-psc.c 76 */;
+	struct mpc52xx_psc __iomem *cocci_id/* drivers/spi/spi-mpc52xx-psc.c 75 */;
+	struct mpc52xx_psc_spi *cocci_id/* drivers/spi/spi-mpc52xx-psc.c 74 */;
+	struct mpc52xx_psc_spi_cs *cocci_id/* drivers/spi/spi-mpc52xx-psc.c 73 */;
+	struct spi_device *cocci_id/* drivers/spi/spi-mpc52xx-psc.c 71 */;
+	void cocci_id/* drivers/spi/spi-mpc52xx-psc.c 71 */;
+	struct mpc52xx_psc_spi_cs {
+		int bits_per_word;
+		int speed_hz;
+	} cocci_id/* drivers/spi/spi-mpc52xx-psc.c 50 */;
+	struct platform_driver cocci_id/* drivers/spi/spi-mpc52xx-psc.c 490 */;
+	const struct of_device_id cocci_id/* drivers/spi/spi-mpc52xx-psc.c 482 */[];
+	u64 cocci_id/* drivers/spi/spi-mpc52xx-psc.c 441 */;
+	const u32 *cocci_id/* drivers/spi/spi-mpc52xx-psc.c 440 */;
+	struct platform_device *cocci_id/* drivers/spi/spi-mpc52xx-psc.c 438 */;
+	struct mpc52xx_psc cocci_id/* drivers/spi/spi-mpc52xx-psc.c 404 */;
+	void __iomem *cocci_id/* drivers/spi/spi-mpc52xx-psc.c 404 */;
+	struct spi_master *cocci_id/* drivers/spi/spi-mpc52xx-psc.c 365 */;
+	struct fsl_spi_platform_data *cocci_id/* drivers/spi/spi-mpc52xx-psc.c 363 */;
+	s16 cocci_id/* drivers/spi/spi-mpc52xx-psc.c 361 */;
+	unsigned int cocci_id/* drivers/spi/spi-mpc52xx-psc.c 361 */;
+	struct device *cocci_id/* drivers/spi/spi-mpc52xx-psc.c 360 */;
+	int cocci_id/* drivers/spi/spi-mpc52xx-psc.c 360 */;
+	irqreturn_t cocci_id/* drivers/spi/spi-mpc52xx-psc.c 345 */;
+	void *cocci_id/* drivers/spi/spi-mpc52xx-psc.c 345 */;
+	struct mpc52xx_psc_fifo __iomem *cocci_id/* drivers/spi/spi-mpc52xx-psc.c 310 */;
+	struct mpc52xx_psc_spi {
+		void (*cs_control)(struct spi_device *spi, bool on);
+		u32 sysclk;
+		struct mpc52xx_psc __iomem *psc;
+		struct mpc52xx_psc_fifo __iomem *fifo;
+		unsigned int irq;
+		u8 bits_per_word;
+		u8 busy;
+		struct work_struct work;
+		struct list_head queue;
+		spinlock_t lock;
+		struct completion done;
+	} cocci_id/* drivers/spi/spi-mpc52xx-psc.c 29 */;
+	struct spi_message *cocci_id/* drivers/spi/spi-mpc52xx-psc.c 286 */;
+	unsigned long cocci_id/* drivers/spi/spi-mpc52xx-psc.c 262 */;
+	struct spi_message cocci_id/* drivers/spi/spi-mpc52xx-psc.c 214 */;
+	struct mpc52xx_psc_spi cocci_id/* drivers/spi/spi-mpc52xx-psc.c 203 */;
+	struct work_struct *cocci_id/* drivers/spi/spi-mpc52xx-psc.c 200 */;
+	unsigned char *cocci_id/* drivers/spi/spi-mpc52xx-psc.c 134 */;
+	unsigned cocci_id/* drivers/spi/spi-mpc52xx-psc.c 132 */;
+	struct spi_transfer *cocci_id/* drivers/spi/spi-mpc52xx-psc.c 127 */;
+	u16 __iomem *cocci_id/* drivers/spi/spi-mpc52xx-psc.c 101 */;
+}

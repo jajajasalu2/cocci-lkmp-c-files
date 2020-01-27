@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	char cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 95 */[MLXSW_REG_PBMC_LEN];
+	u8 *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 81 */;
+	char cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 70 */[MLXSW_REG_PPTB_LEN];
+	const struct dcbnl_rtnl_ops cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 623 */;
+	char cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 574 */[MLXSW_REG_PFCC_LEN];
+	struct ieee_pfc *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 552 */;
+	char cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 536 */[MLXSW_REG_PPCNT_LEN];
+	struct ieee_maxrate *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 492 */;
+	struct dcb_ieee_app_dscp_map cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 402 */;
+	struct dcb_ieee_app_prio_map cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 401 */;
+	char cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 390 */[MLXSW_REG_QPDSM_LEN];
+	short int cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 377 */;
+	char cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 376 */[MLXSW_REG_QPDPM_LEN];
+	struct mlxsw_sp *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 375 */;
+	char cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 337 */[MLXSW_REG_QRWE_LEN];
+	char cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 326 */[MLXSW_REG_QPTS_LEN];
+	enum mlxsw_reg_qpts_trust_state cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 323 */;
+	struct dcb_ieee_app_prio_map *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 305 */;
+	struct dcb_ieee_app_dscp_map *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 290 */;
+	void cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 287 */;
+	struct dcb_app *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 228 */;
+	u8 cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 160 */;
+	bool cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 159 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 154 */;
+	struct ieee_ets *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 151 */;
+	struct mlxsw_sp_port *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 150 */;
+	int cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 150 */;
+	struct net_device __always_unused *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/spectrum_dcb.c 12 */;
+}

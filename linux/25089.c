@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	const u8 cocci_id/* net/mac80211/mesh_hwmp.c 98 */[ETH_ALEN];
+	enum mpath_frame_type{MPATH_PREQ=0, MPATH_PREP, MPATH_PERR, MPATH_RANN,} cocci_id/* net/mac80211/mesh_hwmp.c 91 */;
+	struct ieee802_11_elems cocci_id/* net/mac80211/mesh_hwmp.c 908 */;
+	size_t cocci_id/* net/mac80211/mesh_hwmp.c 906 */;
+	const struct ieee80211_rann_ie *cocci_id/* net/mac80211/mesh_hwmp.c 808 */;
+	u16 cocci_id/* net/mac80211/mesh_hwmp.c 763 */;
+	u8 cocci_id/* net/mac80211/mesh_hwmp.c 760 */;
+	struct mesh_path *cocci_id/* net/mac80211/mesh_hwmp.c 759 */;
+	struct ieee80211_if_mesh *cocci_id/* net/mac80211/mesh_hwmp.c 758 */;
+	const u8 *cocci_id/* net/mac80211/mesh_hwmp.c 756 */;
+	struct ieee80211_mgmt *cocci_id/* net/mac80211/mesh_hwmp.c 755 */;
+	struct ieee80211_sub_if_data *cocci_id/* net/mac80211/mesh_hwmp.c 754 */;
+	void cocci_id/* net/mac80211/mesh_hwmp.c 754 */;
+	u32 cocci_id/* net/mac80211/mesh_hwmp.c 74 */;
+	u8 cocci_id/* net/mac80211/mesh_hwmp.c 700 */[ETH_ALEN];
+	bool cocci_id/* net/mac80211/mesh_hwmp.c 566 */;
+	enum mpath_frame_type cocci_id/* net/mac80211/mesh_hwmp.c 379 */;
+	unsigned long cocci_id/* net/mac80211/mesh_hwmp.c 328 */;
+	u64 cocci_id/* net/mac80211/mesh_hwmp.c 327 */;
+	int cocci_id/* net/mac80211/mesh_hwmp.c 322 */;
+	struct sta_info *cocci_id/* net/mac80211/mesh_hwmp.c 319 */;
+	struct ieee80211_local *cocci_id/* net/mac80211/mesh_hwmp.c 318 */;
+	struct rate_info cocci_id/* net/mac80211/mesh_hwmp.c 301 */;
+	struct ieee80211_tx_info *cocci_id/* net/mac80211/mesh_hwmp.c 299 */;
+	struct ieee80211_tx_status *cocci_id/* net/mac80211/mesh_hwmp.c 297 */;
+	struct ieee80211_mgmt cocci_id/* net/mac80211/mesh_hwmp.c 243 */;
+	void cocci_id/* net/mac80211/mesh_hwmp.c 21 */(struct mesh_path *, u8);
+	struct ieee80211_rann_ie cocci_id/* net/mac80211/mesh_hwmp.c 148 */;
+	struct timer_list *cocci_id/* net/mac80211/mesh_hwmp.c 1208 */;
+	u8 *cocci_id/* net/mac80211/mesh_hwmp.c 1183 */;
+	struct ieee80211_hdr *cocci_id/* net/mac80211/mesh_hwmp.c 1182 */;
+	struct sk_buff *cocci_id/* net/mac80211/mesh_hwmp.c 1178 */;
+	struct mesh_preq_queue cocci_id/* net/mac80211/mesh_hwmp.c 1044 */;
+	struct mesh_preq_queue *cocci_id/* net/mac80211/mesh_hwmp.c 1029 */;
+}

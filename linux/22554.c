@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	struct snd_emu10k1 cocci_id/* sound/pci/emu10k1/emu10k1_main.c 736 */;
+	u32 cocci_id/* sound/pci/emu10k1/emu10k1_main.c 733 */;
+	struct work_struct *cocci_id/* sound/pci/emu10k1/emu10k1_main.c 730 */;
+	void cocci_id/* sound/pci/emu10k1/emu10k1_main.c 730 */;
+	const char *cocci_id/* sound/pci/emu10k1/emu10k1_main.c 715 */;
+	const struct firmware **cocci_id/* sound/pci/emu10k1/emu10k1_main.c 713 */;
+	const char *const cocci_id/* sound/pci/emu10k1/emu10k1_main.c 697 */[5][2];
+	unsigned long cocci_id/* sound/pci/emu10k1/emu10k1_main.c 657 */;
+	unsigned int cocci_id/* sound/pci/emu10k1/emu10k1_main.c 656 */;
+	const struct firmware *cocci_id/* sound/pci/emu10k1/emu10k1_main.c 651 */;
+	unsigned int *cocci_id/* sound/pci/emu10k1/emu10k1_main.c 2130 */;
+	unsigned char *cocci_id/* sound/pci/emu10k1/emu10k1_main.c 2129 */;
+	struct snd_emu10k1 *cocci_id/* sound/pci/emu10k1/emu10k1_main.c 2067 */;
+	int cocci_id/* sound/pci/emu10k1/emu10k1_main.c 2067 */;
+	unsigned char cocci_id/* sound/pci/emu10k1/emu10k1_main.c 2052 */[];
+	u32 *cocci_id/* sound/pci/emu10k1/emu10k1_main.c 2012 */;
+	struct snd_util_memblk cocci_id/* sound/pci/emu10k1/emu10k1_main.c 1940 */;
+	struct snd_emu10k1_memblk cocci_id/* sound/pci/emu10k1/emu10k1_main.c 1939 */;
+	void *cocci_id/* sound/pci/emu10k1/emu10k1_main.c 1915 */;
+	struct snd_device_ops cocci_id/* sound/pci/emu10k1/emu10k1_main.c 1794 */;
+	const struct snd_emu_chip_details *cocci_id/* sound/pci/emu10k1/emu10k1_main.c 1793 */;
+	size_t cocci_id/* sound/pci/emu10k1/emu10k1_main.c 1791 */;
+	struct snd_emu10k1 **cocci_id/* sound/pci/emu10k1/emu10k1_main.c 1786 */;
+	uint cocci_id/* sound/pci/emu10k1/emu10k1_main.c 1785 */;
+	long cocci_id/* sound/pci/emu10k1/emu10k1_main.c 1783 */;
+	unsigned short cocci_id/* sound/pci/emu10k1/emu10k1_main.c 1781 */;
+	struct pci_dev *cocci_id/* sound/pci/emu10k1/emu10k1_main.c 1780 */;
+	struct snd_card *cocci_id/* sound/pci/emu10k1/emu10k1_main.c 1779 */;
+	struct iommu_domain *cocci_id/* sound/pci/emu10k1/emu10k1_main.c 1763 */;
+	struct snd_emu_chip_details cocci_id/* sound/pci/emu10k1/emu10k1_main.c 1286 */[];
+	struct snd_device *cocci_id/* sound/pci/emu10k1/emu10k1_main.c 1280 */;
+	unsigned int cocci_id/* sound/pci/emu10k1/emu10k1_main.c 127 */[][2];
+	void cocci_id/* sound/pci/emu10k1/emu10k1_main.c 1242 */(struct snd_emu10k1 *emu);
+	int cocci_id/* sound/pci/emu10k1/emu10k1_main.c 1241 */(struct snd_emu10k1 *emu);
+	unsigned int cocci_id/* sound/pci/emu10k1/emu10k1_main.c 103 */[];
+}

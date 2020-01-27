@@ -1,0 +1,68 @@
+cocci_test_suite() {
+	u16 cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 996 */;
+	size_t cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 995 */;
+	struct omap_dss_device *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 928 */;
+	bool cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 926 */;
+	struct panel_drv_data *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 926 */;
+	int cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 926 */;
+	int cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 86 */(struct panel_drv_data *ddata);
+	struct panel_drv_data cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 851 */;
+	struct work_struct *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 849 */;
+	int cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 84 */(struct panel_drv_data *ddata,
+										      bool enable);
+	void cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 83 */(struct work_struct *work);
+	irqreturn_t cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 824 */;
+	irqreturn_t cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 82 */(int irq,
+											      void *data);
+	void *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 815 */;
+	struct device *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 703 */;
+	struct omap_dss_dsi_config cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 578 */;
+	const struct attribute_group cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 553 */;
+	struct attribute *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 545 */[];
+	unsigned long cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 451 */;
+	const char *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 447 */;
+	struct device_attribute *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 416 */;
+	char *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 416 */;
+	ssize_t cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 415 */;
+	struct panel_drv_data {
+		struct omap_dss_device dssdev;
+		struct omap_dss_device *in;
+		struct omap_video_timings timings;
+		struct platform_device *pdev;
+		struct mutex lock;
+		struct backlight_device *bldev;
+		unsigned long hw_guard_end;
+		unsigned long hw_guard_wait;
+		int reset_gpio;
+		int ext_te_gpio;
+		bool use_dsi_backlight;
+		struct omap_dsi_pin_config pin_config;
+		bool enabled;
+		bool te_enabled;
+		atomic_t do_update;
+		int channel;
+		struct delayed_work te_timeout_work;
+		bool intro_printed;
+		bool ulps_enabled;
+		unsigned ulps_timeout;
+		struct delayed_work ulps_work;
+	} cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 38 */;
+	u16 *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 378 */;
+	const struct backlight_ops cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 372 */;
+	struct backlight_device *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 363 */;
+	void cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 234 */;
+	u8 cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 201 */[5];
+	struct platform_driver cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 1315 */;
+	u8 cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 131 */[2];
+	const struct of_device_id cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 1308 */[];
+	int __exit cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 1276 */;
+	struct backlight_properties cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 1155 */;
+	struct platform_device *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 1153 */;
+	struct device_node *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 1120 */;
+	u8 cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 110 */[1];
+	struct omap_dss_driver cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 1099 */;
+	u8 cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 106 */;
+	u8 *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 106 */;
+	unsigned cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 1003 */;
+	long cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-dsi-cm.c 100 */;
+}

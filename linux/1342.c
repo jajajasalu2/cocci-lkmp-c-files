@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	struct kref *cocci_id/* drivers/usb/misc/yurex.c 90 */;
+	int cocci_id/* drivers/usb/misc/yurex.c 79 */;
+	struct usb_yurex *cocci_id/* drivers/usb/misc/yurex.c 78 */;
+	struct urb *cocci_id/* drivers/usb/misc/yurex.c 76 */;
+	void cocci_id/* drivers/usb/misc/yurex.c 76 */;
+	const struct file_operations cocci_id/* drivers/usb/misc/yurex.c 73 */;
+	struct usb_driver cocci_id/* drivers/usb/misc/yurex.c 72 */;
+	struct usb_yurex cocci_id/* drivers/usb/misc/yurex.c 70 */;
+	struct usb_yurex {
+		struct usb_device *udev;
+		struct usb_interface *interface;
+		__u8 int_in_endpointAddr;
+		struct urb *urb;
+		unsigned char *int_buffer;
+		struct urb *cntl_urb;
+		struct usb_ctrlrequest *cntl_req;
+		unsigned char *cntl_buffer;
+		struct kref kref;
+		struct mutex io_mutex;
+		unsigned long disconnected:1;
+		struct fasync_struct *async_queue;
+		wait_queue_head_t waitq;
+		spinlock_t lock;
+		__s64 bbu;
+	} cocci_id/* drivers/usb/misc/yurex.c 51 */;
+	signed long cocci_id/* drivers/usb/misc/yurex.c 435 */;
+	unsigned long long cocci_id/* drivers/usb/misc/yurex.c 434 */;
+	char *cocci_id/* drivers/usb/misc/yurex.c 433 */;
+	char cocci_id/* drivers/usb/misc/yurex.c 432 */[16 + 1];
+	const char __user *cocci_id/* drivers/usb/misc/yurex.c 427 */;
+	char cocci_id/* drivers/usb/misc/yurex.c 405 */[20];
+	loff_t *cocci_id/* drivers/usb/misc/yurex.c 401 */;
+	char __user *cocci_id/* drivers/usb/misc/yurex.c 400 */;
+	ssize_t cocci_id/* drivers/usb/misc/yurex.c 400 */;
+	size_t cocci_id/* drivers/usb/misc/yurex.c 400 */;
+	struct usb_device_id cocci_id/* drivers/usb/misc/yurex.c 38 */[];
+	struct inode *cocci_id/* drivers/usb/misc/yurex.c 352 */;
+	struct file *cocci_id/* drivers/usb/misc/yurex.c 344 */;
+	struct usb_interface *cocci_id/* drivers/usb/misc/yurex.c 308 */;
+	void *cocci_id/* drivers/usb/misc/yurex.c 252 */;
+	struct usb_endpoint_descriptor *cocci_id/* drivers/usb/misc/yurex.c 195 */;
+	struct usb_host_interface *cocci_id/* drivers/usb/misc/yurex.c 194 */;
+	const struct usb_device_id *cocci_id/* drivers/usb/misc/yurex.c 191 */;
+	unsigned long cocci_id/* drivers/usb/misc/yurex.c 131 */;
+	unsigned char *cocci_id/* drivers/usb/misc/yurex.c 129 */;
+	struct usb_class_driver cocci_id/* drivers/usb/misc/yurex.c 120 */;
+}

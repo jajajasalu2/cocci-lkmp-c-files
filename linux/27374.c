@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct coda_in_hdr cocci_id/* fs/coda/psdev.c 98 */;
+	struct list_head *cocci_id/* fs/coda/psdev.c 97 */;
+	const char __user *cocci_id/* fs/coda/psdev.c 91 */;
+	int __user *cocci_id/* fs/coda/psdev.c 79 */;
+	struct file *cocci_id/* fs/coda/psdev.c 72 */;
+	unsigned long cocci_id/* fs/coda/psdev.c 72 */;
+	unsigned int cocci_id/* fs/coda/psdev.c 72 */;
+	long cocci_id/* fs/coda/psdev.c 72 */;
+	__poll_t cocci_id/* fs/coda/psdev.c 58 */;
+	poll_table *cocci_id/* fs/coda/psdev.c 58 */;
+	struct class *cocci_id/* fs/coda/psdev.c 52 */;
+	struct venus_comm cocci_id/* fs/coda/psdev.c 51 */[MAX_CODADEVS];
+	int cocci_id/* fs/coda/psdev.c 47 */;
+	void __exit cocci_id/* fs/coda/psdev.c 425 */;
+	void cocci_id/* fs/coda/psdev.c 425 */;
+	int __init cocci_id/* fs/coda/psdev.c 393 */;
+	const struct file_operations cocci_id/* fs/coda/psdev.c 349 */;
+	struct venus_comm *cocci_id/* fs/coda/psdev.c 274 */;
+	struct inode *cocci_id/* fs/coda/psdev.c 272 */;
+	struct upc_req cocci_id/* fs/coda/psdev.c 244 */;
+	struct upc_req *cocci_id/* fs/coda/psdev.c 213 */;
+	loff_t *cocci_id/* fs/coda/psdev.c 209 */;
+	size_t cocci_id/* fs/coda/psdev.c 209 */;
+	char __user *cocci_id/* fs/coda/psdev.c 208 */;
+	ssize_t cocci_id/* fs/coda/psdev.c 208 */;
+	struct coda_open_by_fd_out *cocci_id/* fs/coda/psdev.c 190 */;
+	struct coda_out_hdr cocci_id/* fs/coda/psdev.c 114 */;
+	union outputArgs *cocci_id/* fs/coda/psdev.c 111 */;
+}

@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	u32 cocci_id/* net/rds/af_rds.c 897 */;
+	struct rds6_info_socket cocci_id/* net/rds/af_rds.c 847 */;
+	struct rds_info_socket cocci_id/* net/rds/af_rds.c 806 */;
+	struct rds6_info_message cocci_id/* net/rds/af_rds.c 778 */;
+	struct rds_incoming *cocci_id/* net/rds/af_rds.c 774 */;
+	struct rds_info_lengths *cocci_id/* net/rds/af_rds.c 772 */;
+	struct rds_info_iterator *cocci_id/* net/rds/af_rds.c 771 */;
+	unsigned int cocci_id/* net/rds/af_rds.c 770 */;
+	void cocci_id/* net/rds/af_rds.c 770 */;
+	struct rds_info_message cocci_id/* net/rds/af_rds.c 739 */;
+	const struct net_proto_family cocci_id/* net/rds/af_rds.c 725 */;
+	struct net *cocci_id/* net/rds/af_rds.c 700 */;
+	struct rds_sock *cocci_id/* net/rds/af_rds.c 671 */;
+	struct socket *cocci_id/* net/rds/af_rds.c 669 */;
+	struct sock *cocci_id/* net/rds/af_rds.c 669 */;
+	int cocci_id/* net/rds/af_rds.c 669 */;
+	const struct proto_ops cocci_id/* net/rds/af_rds.c 640 */;
+	struct rds_sock cocci_id/* net/rds/af_rds.c 637 */;
+	struct proto cocci_id/* net/rds/af_rds.c 634 */;
+	__be32 cocci_id/* net/rds/af_rds.c 583 */;
+	struct sockaddr_in6 *cocci_id/* net/rds/af_rds.c 573 */;
+	struct sockaddr cocci_id/* net/rds/af_rds.c 546 */;
+	struct sockaddr_in *cocci_id/* net/rds/af_rds.c 542 */;
+	struct sockaddr *cocci_id/* net/rds/af_rds.c 538 */;
+	struct rds_rx_trace_so cocci_id/* net/rds/af_rds.c 410 */;
+	int __user *cocci_id/* net/rds/af_rds.c 391 */;
+	unsigned char *cocci_id/* net/rds/af_rds.c 330 */;
+	struct sockaddr_in cocci_id/* net/rds/af_rds.c 297 */;
+	struct sockaddr_in6 cocci_id/* net/rds/af_rds.c 296 */;
+	char __user *cocci_id/* net/rds/af_rds.c 293 */;
+	rds_tos_t __user *cocci_id/* net/rds/af_rds.c 262 */;
+	rds_tos_t cocci_id/* net/rds/af_rds.c 258 */;
+	unsigned long cocci_id/* net/rds/af_rds.c 255 */;
+	poll_table *cocci_id/* net/rds/af_rds.c 213 */;
+	__poll_t cocci_id/* net/rds/af_rds.c 212 */;
+	struct file *cocci_id/* net/rds/af_rds.c 212 */;
+}

@@ -1,0 +1,62 @@
+cocci_test_suite() {
+	const struct ns_pinctrl_group cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 96 */[];
+	const unsigned int cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 77 */[];
+	struct ns_pinctrl_group {
+		const char *name;
+		const unsigned int *pins;
+		const unsigned int num_pins;
+		unsigned int chipsets;
+	} cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 69 */;
+	const struct pinctrl_pin_desc cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 41 */[];
+	struct platform_driver cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 369 */;
+	const struct ns_pinctrl_function *cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 350 */;
+	struct ns_pinctrl_function cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 344 */;
+	const struct ns_pinctrl_group *cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 334 */;
+	struct ns_pinctrl_group cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 328 */;
+	const struct pinctrl_pin_desc *cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 318 */;
+	struct pinctrl_pin_desc cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 312 */;
+	uintptr_t cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 291 */;
+	struct ns_pinctrl_function *cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 275 */;
+	struct ns_pinctrl_group *cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 274 */;
+	struct pinctrl_pin_desc *cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 273 */;
+	struct pinctrl_desc *cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 272 */;
+	const struct of_device_id *cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 270 */;
+	struct device_node *cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 269 */;
+	struct device *cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 268 */;
+	struct platform_device *cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 266 */;
+	void *cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 260 */;
+	const struct of_device_id cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 259 */[];
+	struct pinctrl_desc cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 253 */;
+	const struct pinmux_ops cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 242 */;
+	struct ns_pinctrl {
+		struct device *dev;
+		unsigned int chipset_flag;
+		struct pinctrl_dev *pctldev;
+		struct regmap *regmap;
+		u32 offset;
+		struct pinctrl_desc pctldesc;
+		struct ns_pinctrl_group *groups;
+		unsigned int num_groups;
+		struct ns_pinctrl_function *functions;
+		unsigned int num_functions;
+	} cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 23 */;
+	u32 cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 225 */;
+	struct ns_pinctrl *cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 212 */;
+	unsigned *constcocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 210 */;
+	const char *const**cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 209 */;
+	unsigned int cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 208 */;
+	struct pinctrl_dev *cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 207 */;
+	int cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 207 */;
+	const char *cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 199 */;
+	const struct pinctrl_ops cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 180 */;
+	unsigned int *cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 170 */;
+	const unsigned int **cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 169 */;
+	const struct ns_pinctrl_function cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 138 */[];
+	const char *constcocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 122 */[];
+	struct ns_pinctrl_function {
+		const char *name;
+		const char *const*groups;
+		const unsigned int num_groups;
+		unsigned int chipsets;
+	} cocci_id/* drivers/pinctrl/bcm/pinctrl-ns.c 114 */;
+}

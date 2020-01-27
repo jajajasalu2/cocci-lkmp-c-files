@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	const struct snd_kcontrol_new cocci_id/* sound/soc/fsl/fsl_micfil.c 88 */[];
+	struct platform_driver cocci_id/* sound/soc/fsl/fsl_micfil.c 811 */;
+	const struct soc_enum cocci_id/* sound/soc/fsl/fsl_micfil.c 80 */;
+	int __maybe_unused cocci_id/* sound/soc/fsl/fsl_micfil.c 795 */;
+	const char *const cocci_id/* sound/soc/fsl/fsl_micfil.c 73 */[];
+	unsigned long cocci_id/* sound/soc/fsl/fsl_micfil.c 646 */;
+	void __iomem *cocci_id/* sound/soc/fsl/fsl_micfil.c 644 */;
+	struct resource *cocci_id/* sound/soc/fsl/fsl_micfil.c 643 */;
+	const struct of_device_id *cocci_id/* sound/soc/fsl/fsl_micfil.c 641 */;
+	struct device_node *cocci_id/* sound/soc/fsl/fsl_micfil.c 640 */;
+	struct platform_device *cocci_id/* sound/soc/fsl/fsl_micfil.c 638 */;
+	irqreturn_t cocci_id/* sound/soc/fsl/fsl_micfil.c 615 */;
+	void *cocci_id/* sound/soc/fsl/fsl_micfil.c 615 */;
+	const struct of_device_id cocci_id/* sound/soc/fsl/fsl_micfil.c 59 */[];
+	const struct regmap_config cocci_id/* sound/soc/fsl/fsl_micfil.c 553 */;
+	struct fsl_micfil_soc_data cocci_id/* sound/soc/fsl/fsl_micfil.c 52 */;
+	bool cocci_id/* sound/soc/fsl/fsl_micfil.c 478 */;
+	const struct reg_default cocci_id/* sound/soc/fsl/fsl_micfil.c 452 */[];
+	struct fsl_micfil_soc_data {
+		unsigned int fifos;
+		unsigned int fifo_depth;
+		unsigned int dataline;
+		bool imx;
+	} cocci_id/* sound/soc/fsl/fsl_micfil.c 45 */;
+	const struct snd_soc_component_driver cocci_id/* sound/soc/fsl/fsl_micfil.c 444 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/fsl/fsl_micfil.c 432 */;
+	unsigned int cocci_id/* sound/soc/fsl/fsl_micfil.c 396 */;
+	struct device *cocci_id/* sound/soc/fsl/fsl_micfil.c 395 */;
+	struct fsl_micfil *cocci_id/* sound/soc/fsl/fsl_micfil.c 394 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/fsl/fsl_micfil.c 392 */;
+	int cocci_id/* sound/soc/fsl/fsl_micfil.c 392 */;
+	struct snd_soc_dai_ops cocci_id/* sound/soc/fsl/fsl_micfil.c 385 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/fsl/fsl_micfil.c 329 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/fsl/fsl_micfil.c 328 */;
+	struct fsl_micfil {
+		struct platform_device *pdev;
+		struct regmap *regmap;
+		const struct fsl_micfil_soc_data *soc;
+		struct clk *mclk;
+		struct snd_dmaengine_dai_dma_data dma_params_rx;
+		unsigned int dataline;
+		char name[32];
+		int irq[MICFIL_IRQ_LINES];
+		unsigned int mclk_streams;
+		int quality;
+		bool slave_mode;
+		int channel_gain[8];
+	} cocci_id/* sound/soc/fsl/fsl_micfil.c 30 */;
+	long cocci_id/* sound/soc/fsl/fsl_micfil.c 153 */;
+	u32 cocci_id/* sound/soc/fsl/fsl_micfil.c 152 */;
+}

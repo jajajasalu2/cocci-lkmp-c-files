@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct resource *cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 984 */;
+	struct fb_var_screeninfo cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 91 */;
+	struct fb_fix_screeninfo cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 85 */;
+	char *cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 83 */;
+	int cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 78 */;
+	struct fb_var_screeninfo *cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 761 */;
+	bool cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 76 */;
+	unsigned cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 697 */;
+	const struct pci_device_id cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 58 */[];
+	u16 cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 534 */;
+	u8 cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 532 */[MAX_CURS * MAX_CURS / 8];
+	struct fb_cursor *cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 529 */;
+	void cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 494 */;
+	volatile u32 __iomem *cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 402 */;
+	struct _riva_hw_state *cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 300 */;
+	struct nvidia_par *cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 299 */;
+	struct fb_info *cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 297 */;
+	unsigned char cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 196 */;
+	u8 cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 157 */;
+	u8 *cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 157 */;
+	void __exit cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 1526 */;
+	struct pci_driver cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 1497 */;
+	struct nvidia_par cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 1280 */;
+	unsigned short cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 1274 */;
+	const struct pci_device_id *cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 1270 */;
+	struct pci_dev *cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 1270 */;
+	u32 cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 1218 */;
+	u32 *cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 117 */;
+	char cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 1136 */[16];
+	const struct fb_videomode *cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 1130 */;
+	struct fb_videomode cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 1102 */;
+	struct fb_monspecs *cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 1101 */;
+	pm_message_t cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 1044 */;
+	struct fb_ops cocci_id/* drivers/video/fbdev/nvidia/nvidia.c 1027 */;
+}

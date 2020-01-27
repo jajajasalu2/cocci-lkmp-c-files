@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct device_node *cocci_id/* drivers/mmc/host/cavium.c 954 */;
+	u32 cocci_id/* drivers/mmc/host/cavium.c 953 */;
+	struct device *cocci_id/* drivers/mmc/host/cavium.c 951 */;
+	const struct mmc_host_ops cocci_id/* drivers/mmc/host/cavium.c 899 */;
+	struct mmc_ios *cocci_id/* drivers/mmc/host/cavium.c 824 */;
+	struct mmc_data *cocci_id/* drivers/mmc/host/cavium.c 655 */;
+	struct cvm_mmc_slot *cocci_id/* drivers/mmc/host/cavium.c 653 */;
+	struct mmc_request *cocci_id/* drivers/mmc/host/cavium.c 651 */;
+	struct mmc_host *cocci_id/* drivers/mmc/host/cavium.c 650 */;
+	struct scatterlist *cocci_id/* drivers/mmc/host/cavium.c 555 */;
+	struct cvm_mmc_cr_type cocci_id/* drivers/mmc/host/cavium.c 54 */[];
+	unsigned int cocci_id/* drivers/mmc/host/cavium.c 470 */;
+	bool cocci_id/* drivers/mmc/host/cavium.c 441 */;
+	unsigned long cocci_id/* drivers/mmc/host/cavium.c 439 */;
+	irqreturn_t cocci_id/* drivers/mmc/host/cavium.c 435 */;
+	void *cocci_id/* drivers/mmc/host/cavium.c 435 */;
+	u64 cocci_id/* drivers/mmc/host/cavium.c 409 */;
+	int cocci_id/* drivers/mmc/host/cavium.c 409 */;
+	u8 *cocci_id/* drivers/mmc/host/cavium.c 322 */;
+	const char *cocci_id/* drivers/mmc/host/cavium.c 31 */[];
+	struct sg_mapping_iter *cocci_id/* drivers/mmc/host/cavium.c 301 */;
+	u64 *cocci_id/* drivers/mmc/host/cavium.c 178 */;
+	struct cvm_mmc_host *cocci_id/* drivers/mmc/host/cavium.c 165 */;
+	void cocci_id/* drivers/mmc/host/cavium.c 165 */;
+	u8 cocci_id/* drivers/mmc/host/cavium.c 124 */;
+	struct cvm_mmc_cr_type *cocci_id/* drivers/mmc/host/cavium.c 123 */;
+	struct cvm_mmc_cr_mods cocci_id/* drivers/mmc/host/cavium.c 121 */;
+	struct mmc_command *cocci_id/* drivers/mmc/host/cavium.c 121 */;
+	struct cvm_mmc_slot cocci_id/* drivers/mmc/host/cavium.c 1017 */;
+}

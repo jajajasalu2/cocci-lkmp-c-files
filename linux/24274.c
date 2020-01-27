@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	const __be32 *cocci_id/* net/bridge/netfilter/ebt_among.c 84 */;
+	struct arphdr cocci_id/* net/bridge/netfilter/ebt_among.c 83 */;
+	const struct arphdr *cocci_id/* net/bridge/netfilter/ebt_among.c 82 */;
+	struct iphdr cocci_id/* net/bridge/netfilter/ebt_among.c 75 */;
+	const struct iphdr *cocci_id/* net/bridge/netfilter/ebt_among.c 74 */;
+	__be32 *cocci_id/* net/bridge/netfilter/ebt_among.c 71 */;
+	char *cocci_id/* net/bridge/netfilter/ebt_among.c 32 */;
+	const unsigned char *cocci_id/* net/bridge/netfilter/ebt_among.c 30 */;
+	uint32_t cocci_id/* net/bridge/netfilter/ebt_among.c 29 */[2];
+	void __exit cocci_id/* net/bridge/netfilter/ebt_among.c 273 */;
+	void cocci_id/* net/bridge/netfilter/ebt_among.c 273 */;
+	const struct ebt_mac_wormhash_tuple *cocci_id/* net/bridge/netfilter/ebt_among.c 27 */;
+	int __init cocci_id/* net/bridge/netfilter/ebt_among.c 268 */;
+	struct xt_match cocci_id/* net/bridge/netfilter/ebt_among.c 258 */;
+	struct ebt_among_info cocci_id/* net/bridge/netfilter/ebt_among.c 208 */;
+	unsigned int cocci_id/* net/bridge/netfilter/ebt_among.c 208 */;
+	const struct ebt_entry_match cocci_id/* net/bridge/netfilter/ebt_among.c 207 */;
+	const struct ebt_entry_match *cocci_id/* net/bridge/netfilter/ebt_among.c 206 */;
+	const struct xt_mtchk_param *cocci_id/* net/bridge/netfilter/ebt_among.c 203 */;
+	int cocci_id/* net/bridge/netfilter/ebt_among.c 203 */;
+	struct ebt_mac_wormhash cocci_id/* net/bridge/netfilter/ebt_among.c 187 */;
+	struct ebt_mac_wormhash_tuple cocci_id/* net/bridge/netfilter/ebt_among.c 178 */;
+	__be32 cocci_id/* net/bridge/netfilter/ebt_among.c 138 */;
+	const struct ebt_mac_wormhash *cocci_id/* net/bridge/netfilter/ebt_among.c 137 */;
+	const char *cocci_id/* net/bridge/netfilter/ebt_among.c 136 */;
+	const struct ebt_among_info *cocci_id/* net/bridge/netfilter/ebt_among.c 135 */;
+	const struct sk_buff *cocci_id/* net/bridge/netfilter/ebt_among.c 133 */;
+	struct xt_action_param *cocci_id/* net/bridge/netfilter/ebt_among.c 133 */;
+	bool cocci_id/* net/bridge/netfilter/ebt_among.c 132 */;
+}

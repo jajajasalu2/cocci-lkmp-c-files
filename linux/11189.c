@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	uint16_t cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 920 */[6];
+	enum test_pattern_mode cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 907 */;
+	enum test_pattern_dyn_range cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 906 */;
+	enum test_pattern_color_format cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 905 */;
+	enum dc_color_depth cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 902 */;
+	enum controller_dp_test_pattern cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 901 */;
+	uint8_t cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 861 */;
+	const struct drr_params *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 845 */;
+	enum crtc_state cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 753 */;
+	struct crtc_trigger_info *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 710 */;
+	int cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 709 */;
+	uint32_t cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 649 */;
+	struct crtc_position *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 619 */;
+	const struct tg_color *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 494 */;
+	struct dc_crtc_timing *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 49 */;
+	void cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 49 */;
+	struct timing_generator *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 374 */;
+	int32_t cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 302 */;
+	enum h_timing_div_mode cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 157 */;
+	struct dc_crtc_timing cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 149 */;
+	struct optc *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 1486 */;
+	const enum signal_type cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 146 */;
+	const struct timing_generator_funcs cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 1440 */;
+	uint32_t *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 1419 */;
+	const struct crc_params *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 1375 */;
+	bool cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 1374 */;
+	struct dcn_otg_state *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 1258 */;
+	struct dcn_otg_state cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 1236 */;
+	const struct dc_crtc_timing *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 1176 */;
+	struct crtc_stereo_flags *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 1176 */;
+	struct crtc_position cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.c 1163 */;
+}

@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	char cocci_id/* drivers/dax/bus.c 70 */[DAX_NAME_LEN];
+	enum id_action cocci_id/* drivers/dax/bus.c 66 */;
+	size_t cocci_id/* drivers/dax/bus.c 66 */;
+	enum id_action{ID_REMOVE, ID_ADD,} cocci_id/* drivers/dax/bus.c 60 */;
+	void __exit cocci_id/* drivers/dax/bus.c 530 */;
+	void cocci_id/* drivers/dax/bus.c 530 */;
+	int __init cocci_id/* drivers/dax/bus.c 514 */;
+	struct device_driver *cocci_id/* drivers/dax/bus.c 474 */;
+	const char *cocci_id/* drivers/dax/bus.c 472 */;
+	struct module *cocci_id/* drivers/dax/bus.c 472 */;
+	struct dax_device_driver *cocci_id/* drivers/dax/bus.c 471 */;
+	int cocci_id/* drivers/dax/bus.c 471 */;
+	struct inode *cocci_id/* drivers/dax/bus.c 406 */;
+	struct dax_device *cocci_id/* drivers/dax/bus.c 404 */;
+	struct device *cocci_id/* drivers/dax/bus.c 403 */;
+	enum dev_dax_subsys cocci_id/* drivers/dax/bus.c 401 */;
+	struct dev_pagemap *cocci_id/* drivers/dax/bus.c 401 */;
+	struct dev_dax *cocci_id/* drivers/dax/bus.c 400 */;
+	struct dax_region *cocci_id/* drivers/dax/bus.c 400 */;
+	const struct device_type cocci_id/* drivers/dax/bus.c 384 */;
+	struct dax_id *cocci_id/* drivers/dax/bus.c 36 */;
+	const struct attribute_group *cocci_id/* drivers/dax/bus.c 358 */[];
+	struct device cocci_id/* drivers/dax/bus.c 334 */;
+	umode_t cocci_id/* drivers/dax/bus.c 332 */;
+	struct kobject *cocci_id/* drivers/dax/bus.c 332 */;
+	struct attribute *cocci_id/* drivers/dax/bus.c 332 */;
+	struct dax_device_driver cocci_id/* drivers/dax/bus.c 33 */;
+	unsigned long long cocci_id/* drivers/dax/bus.c 230 */;
+	struct resource *cocci_id/* drivers/dax/bus.c 229 */;
+	unsigned int cocci_id/* drivers/dax/bus.c 229 */;
+	struct kobj_uevent_env *cocci_id/* drivers/dax/bus.c 22 */;
+	void *cocci_id/* drivers/dax/bus.c 219 */;
+	struct dax_region cocci_id/* drivers/dax/bus.c 209 */;
+	struct kref *cocci_id/* drivers/dax/bus.c 205 */;
+	const struct attribute_group cocci_id/* drivers/dax/bus.c 195 */;
+	struct device_attribute *cocci_id/* drivers/dax/bus.c 180 */;
+	char *cocci_id/* drivers/dax/bus.c 180 */;
+	ssize_t cocci_id/* drivers/dax/bus.c 179 */;
+	struct device_attribute cocci_id/* drivers/dax/bus.c 176 */;
+	struct dax_id {
+		struct list_head list;
+		char dev_name[DAX_NAME_LEN];
+	} cocci_id/* drivers/dax/bus.c 17 */;
+	struct bus_type cocci_id/* drivers/dax/bus.c 133 */;
+	int cocci_id/* drivers/dax/bus.c 131 */(struct device *dev,
+						struct device_driver *drv);
+	struct attribute *cocci_id/* drivers/dax/bus.c 124 */[];
+	struct class *cocci_id/* drivers/dax/bus.c 12 */;
+}

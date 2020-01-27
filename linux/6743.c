@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	const char *cocci_id/* drivers/scsi/scsi_scan.c 84 */;
+	char *cocci_id/* drivers/scsi/scsi_scan.c 795 */;
+	size_t cocci_id/* drivers/scsi/scsi_scan.c 790 */;
+	blist_flags_t *cocci_id/* drivers/scsi/scsi_scan.c 765 */;
+	unsigned char *cocci_id/* drivers/scsi/scsi_scan.c 764 */;
+	unsigned char cocci_id/* drivers/scsi/scsi_scan.c 589 */;
+	struct scsi_sense_hdr cocci_id/* drivers/scsi/scsi_scan.c 567 */;
+	unsigned char cocci_id/* drivers/scsi/scsi_scan.c 563 */[MAX_COMMAND_SIZE];
+	const int cocci_id/* drivers/scsi/scsi_scan.c 416 */;
+	struct scsi_target cocci_id/* drivers/scsi/scsi_scan.c 416 */;
+	struct kref *cocci_id/* drivers/scsi/scsi_scan.c 375 */;
+	int cocci_id/* drivers/scsi/scsi_scan.c 346 */;
+	const struct device *cocci_id/* drivers/scsi/scsi_scan.c 339 */;
+	struct device_type cocci_id/* drivers/scsi/scsi_scan.c 334 */;
+	struct async_scan_data *cocci_id/* drivers/scsi/scsi_scan.c 1824 */;
+	async_cookie_t cocci_id/* drivers/scsi/scsi_scan.c 1822 */;
+	unsigned long cocci_id/* drivers/scsi/scsi_scan.c 1810 */;
+	struct async_scan_data cocci_id/* drivers/scsi/scsi_scan.c 166 */;
+	blist_flags_t cocci_id/* drivers/scsi/scsi_scan.c 1535 */;
+	enum scsi_scan_mode cocci_id/* drivers/scsi/scsi_scan.c 1532 */;
+	unsigned int cocci_id/* drivers/scsi/scsi_scan.c 1531 */;
+	void cocci_id/* drivers/scsi/scsi_scan.c 1531 */;
+	struct scsi_driver *cocci_id/* drivers/scsi/scsi_scan.c 1521 */;
+	struct scsi_target *cocci_id/* drivers/scsi/scsi_scan.c 1465 */;
+	struct device *cocci_id/* drivers/scsi/scsi_scan.c 1464 */;
+	u64 cocci_id/* drivers/scsi/scsi_scan.c 1461 */;
+	void *cocci_id/* drivers/scsi/scsi_scan.c 1461 */;
+	uint cocci_id/* drivers/scsi/scsi_scan.c 1460 */;
+	struct scsi_device *cocci_id/* drivers/scsi/scsi_scan.c 1460 */;
+	struct Scsi_Host *cocci_id/* drivers/scsi/scsi_scan.c 1460 */;
+	unsigned long long cocci_id/* drivers/scsi/scsi_scan.c 1442 */;
+	struct scsi_lun cocci_id/* drivers/scsi/scsi_scan.c 1338 */;
+	struct scsi_lun *cocci_id/* drivers/scsi/scsi_scan.c 1298 */;
+	struct async_scan_data {
+		struct list_head list;
+		struct Scsi_Host *shost;
+		struct completion prev_finished;
+	} cocci_id/* drivers/scsi/scsi_scan.c 119 */;
+	struct scsi_device **cocci_id/* drivers/scsi/scsi_scan.c 1045 */;
+	unsigned cocci_id/* drivers/scsi/scsi_scan.c 1005 */;
+	char cocci_id/* drivers/scsi/scsi_scan.c 100 */[7];
+}

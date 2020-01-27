@@ -1,0 +1,47 @@
+cocci_test_suite() {
+	size_t cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 891 */;
+	struct octeon_instr_queue cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 886 */;
+	union oct_txpciq cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 869 */;
+	struct octeon_ioq_vector cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 834 */;
+	struct octeon_ioq_vector *cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 829 */;
+	struct octeon_dispatch *cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 712 */;
+	struct octeon_dispatch cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 703 */;
+	struct octeon_device cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 695 */;
+	struct octeon_cn23xx_vf cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 683 */;
+	struct octeon_cn23xx_pf cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 680 */;
+	struct octeon_cn6xxx cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 676 */;
+	u8 *cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 670 */;
+	char *cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 638 */;
+	s32 cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 631 */;
+	atomic_t *cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 629 */;
+	int cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 597 */;
+	u32 cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 572 */;
+	u16 cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 570 */;
+	struct octeon_device *cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 569 */;
+	void *cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 569 */;
+	struct octeon_core_setup cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 550 */[MAX_OCTEON_DEVICES];
+	spinlock_t cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 548 */;
+	atomic_t cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 544 */[MAX_OCTEON_DEVICES];
+	struct octeon_device *cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 542 */[MAX_OCTEON_DEVICES];
+	char cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 539 */[CVM_DRV_APP_COUNT + 1][32];
+	char cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 530 */[OCT_DEV_STATES + 1][32];
+	struct octeon_config_ptr {
+		u32 conf_type;
+	} cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 516 */[MAX_OCTEON_DEVICES];
+	struct octeon_config cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 415 */;
+	u64 cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 1435 */;
+	struct octeon_instr_queue *cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 1433 */;
+	struct octeon_droq *cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 1433 */;
+	void cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 1433 */;
+	u32 *cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 1397 */;
+	unsigned long cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 1329 */;
+	struct octeon_config *cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 1289 */;
+	u64 *cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 1254 */;
+	struct octeon_core_setup *cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 1194 */;
+	struct octeon_recv_pkt *cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 1193 */;
+	char cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 1191 */[16];
+	struct octeon_recv_info *cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 1188 */;
+	octeon_dispatch_fn_t cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 1063 */;
+	struct list_head *cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 1042 */;
+	struct list_head cocci_id/* drivers/net/ethernet/cavium/liquidio/octeon_device.c 1035 */;
+}

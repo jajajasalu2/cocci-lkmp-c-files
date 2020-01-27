@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	const struct net_device_ops cocci_id/* drivers/net/usb/cdc_mbim.c 96 */;
+	struct net_device *cocci_id/* drivers/net/usb/cdc_mbim.c 71 */;
+	struct usb_driver cocci_id/* drivers/net/usb/cdc_mbim.c 665 */;
+	unsigned long cocci_id/* drivers/net/usb/cdc_mbim.c 628 */;
+	const struct usb_device_id cocci_id/* drivers/net/usb/cdc_mbim.c 619 */[];
+	const struct driver_info cocci_id/* drivers/net/usb/cdc_mbim.c 550 */;
+	bool cocci_id/* drivers/net/usb/cdc_mbim.c 537 */;
+	pm_message_t cocci_id/* drivers/net/usb/cdc_mbim.c 503 */;
+	u32 cocci_id/* drivers/net/usb/cdc_mbim.c 422 */;
+	struct usb_cdc_ncm_dpe16 *cocci_id/* drivers/net/usb/cdc_mbim.c 419 */;
+	struct usb_cdc_ncm_ndp16 *cocci_id/* drivers/net/usb/cdc_mbim.c 418 */;
+	enum cdc_mbim_flags{FLAG_IPS0_VLAN=1 << 0,} cocci_id/* drivers/net/usb/cdc_mbim.c 38 */;
+	struct iphdr cocci_id/* drivers/net/usb/cdc_mbim.c 371 */;
+	__be16 cocci_id/* drivers/net/usb/cdc_mbim.c 367 */;
+	u16 cocci_id/* drivers/net/usb/cdc_mbim.c 365 */;
+	u8 *cocci_id/* drivers/net/usb/cdc_mbim.c 365 */;
+	struct sk_buff *cocci_id/* drivers/net/usb/cdc_mbim.c 365 */;
+	size_t cocci_id/* drivers/net/usb/cdc_mbim.c 365 */;
+	struct nd_msg cocci_id/* drivers/net/usb/cdc_mbim.c 358 */;
+	struct ipv6hdr cocci_id/* drivers/net/usb/cdc_mbim.c 358 */;
+	struct inet6_dev *cocci_id/* drivers/net/usb/cdc_mbim.c 312 */;
+	struct nd_msg *cocci_id/* drivers/net/usb/cdc_mbim.c 310 */;
+	struct ipv6hdr *cocci_id/* drivers/net/usb/cdc_mbim.c 309 */;
+	struct cdc_mbim_state {
+		struct cdc_ncm_ctx *ctx;
+		atomic_t pmcount;
+		struct usb_driver *subdriver;
+		unsigned long _unused;
+		unsigned long flags;
+	} cocci_id/* drivers/net/usb/cdc_mbim.c 29 */;
+	__le32 cocci_id/* drivers/net/usb/cdc_mbim.c 224 */;
+	gfp_t cocci_id/* drivers/net/usb/cdc_mbim.c 219 */;
+	void cocci_id/* drivers/net/usb/cdc_mbim.c 194 */;
+	struct cdc_mbim_state *cocci_id/* drivers/net/usb/cdc_mbim.c 145 */;
+	void *cocci_id/* drivers/net/usb/cdc_mbim.c 145 */;
+	u8 cocci_id/* drivers/net/usb/cdc_mbim.c 144 */;
+	struct usb_driver *cocci_id/* drivers/net/usb/cdc_mbim.c 142 */;
+	struct cdc_ncm_ctx *cocci_id/* drivers/net/usb/cdc_mbim.c 141 */;
+	struct usbnet *cocci_id/* drivers/net/usb/cdc_mbim.c 139 */;
+	struct usb_interface *cocci_id/* drivers/net/usb/cdc_mbim.c 139 */;
+	int cocci_id/* drivers/net/usb/cdc_mbim.c 139 */;
+	struct driver_info *cocci_id/* drivers/net/usb/cdc_mbim.c 117 */;
+	const struct usb_device_id *cocci_id/* drivers/net/usb/cdc_mbim.c 116 */;
+}

@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 850 */;
+	struct platform_driver cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 823 */;
+	struct resource *cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 792 */;
+	struct platform_device *cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 790 */;
+	pm_message_t cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 776 */;
+	int __init cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 753 */;
+	struct console cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 743 */;
+	struct uart_driver cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 742 */;
+	struct console *cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 719 */;
+	char *cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 719 */;
+	int __init cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 718 */;
+	const char *cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 688 */;
+	void __init cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 655 */;
+	const struct uart_ops cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 630 */;
+	struct pnx8xxx_port cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 63 */[];
+	struct serial_struct *cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 607 */;
+	struct ktermios *cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 439 */;
+	unsigned int cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 355 */;
+	unsigned long cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 354 */;
+	struct pnx8xxx_port cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 353 */;
+	struct pnx8xxx_port *cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 352 */;
+	struct uart_port *cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 350 */;
+	int cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 350 */;
+	void cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 350 */;
+	irqreturn_t cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 287 */;
+	void *cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 287 */;
+	struct circ_buf *cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 248 */;
+	u32 cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 144 */;
+	struct timer_list *cocci_id/* drivers/tty/serial/pnx8xxx_uart.c 106 */;
+}

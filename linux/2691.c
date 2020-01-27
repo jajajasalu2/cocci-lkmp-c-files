@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	enum bcm_iproc_i2c_type cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 902 */;
+	struct resource *cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 892 */;
+	struct platform_device *cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 887 */;
+	u32 cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 855 */;
+	unsigned int cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 854 */;
+	struct bcm_iproc_i2c_dev *cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 852 */;
+	int cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 852 */;
+	const struct i2c_adapter_quirks cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 846 */;
+	struct i2c_algorithm cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 839 */;
+	uint32_t cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 826 */;
+	struct i2c_adapter *cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 826 */;
+	struct i2c_msg cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 802 */[];
+	unsigned long cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 624 */;
+	struct i2c_msg *cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 573 */;
+	bool cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 560 */;
+	irqreturn_t cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 501 */;
+	void *cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 501 */;
+	u8 cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 327 */;
+	void cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 302 */;
+	void cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 221 */(struct bcm_iproc_i2c_dev *iproc_i2c,
+								  bool enable);
+	int cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 219 */(struct i2c_client *slave);
+	struct bcm_iproc_i2c_dev {
+		struct device *device;
+		enum bcm_iproc_i2c_type type;
+		int irq;
+		void __iomem *base;
+		void __iomem *idm_base;
+		u32 ape_addr_mask;
+		spinlock_t idm_lock;
+		struct i2c_adapter adapter;
+		unsigned int bus_speed;
+		struct completion done;
+		int xfer_is_done;
+		struct i2c_msg *msg;
+		struct i2c_client *slave;
+		unsigned int tx_bytes;
+		unsigned int rx_bytes;
+		unsigned int thld_bytes;
+	} cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 179 */;
+	enum bcm_iproc_i2c_type{IPROC_I2C, IPROC_I2C_NIC,} cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 174 */;
+	enum bus_speed_index{I2C_SPD_100K=0, I2C_SPD_400K,} cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 169 */;
+	enum i2c_slave_read_status{I2C_SLAVE_RX_FIFO_EMPTY=0, I2C_SLAVE_RX_START, I2C_SLAVE_RX_DATA, I2C_SLAVE_RX_END,} cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 162 */;
+	struct platform_driver cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 1102 */;
+	int *cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 1093 */;
+	const struct of_device_id cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 1090 */[];
+	struct i2c_client *cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 1051 */;
+	const struct dev_pm_ops cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 1040 */;
+	struct device *cocci_id/* drivers/i2c/busses/i2c-bcm-iproc.c 1015 */;
+}

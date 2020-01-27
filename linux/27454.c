@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* fs/pstore/platform.c 98 */;
+	size_t cocci_id/* fs/pstore/platform.c 95 */;
+	struct pstore_zbackend {
+		int (*zbufsize)(size_t size);
+		const char *name;
+	} cocci_id/* fs/pstore/platform.c 89 */;
+	void __exit cocci_id/* fs/pstore/platform.c 832 */;
+	int __init cocci_id/* fs/pstore/platform.c 811 */;
+	const struct pstore_zbackend *cocci_id/* fs/pstore/platform.c 798 */;
+	void __init cocci_id/* fs/pstore/platform.c 796 */;
+	struct timer_list *cocci_id/* fs/pstore/platform.c 784 */;
+	struct work_struct *cocci_id/* fs/pstore/platform.c 779 */;
+	struct pstore_info *cocci_id/* fs/pstore/platform.c 76 */;
+	struct dentry *cocci_id/* fs/pstore/platform.c 720 */;
+	void cocci_id/* fs/pstore/platform.c 68 */(struct work_struct *);
+	struct pstore_record *cocci_id/* fs/pstore/platform.c 658 */;
+	void cocci_id/* fs/pstore/platform.c 65 */(struct timer_list *);
+	struct module *cocci_id/* fs/pstore/platform.c 558 */;
+	const char __user *cocci_id/* fs/pstore/platform.c 527 */;
+	const char *const cocci_id/* fs/pstore/platform.c 51 */[];
+	struct console cocci_id/* fs/pstore/platform.c 505 */;
+	struct pstore_record cocci_id/* fs/pstore/platform.c 492 */;
+	struct console *cocci_id/* fs/pstore/platform.c 490 */;
+	unsigned cocci_id/* fs/pstore/platform.c 490 */;
+	struct kmsg_dumper cocci_id/* fs/pstore/platform.c 472 */;
+	struct kmsg_dumper *cocci_id/* fs/pstore/platform.c 388 */;
+	char *cocci_id/* fs/pstore/platform.c 291 */;
+	int cocci_id/* fs/pstore/platform.c 290 */;
+	struct crypto_comp *cocci_id/* fs/pstore/platform.c 289 */;
+	void cocci_id/* fs/pstore/platform.c 287 */;
+	unsigned int cocci_id/* fs/pstore/platform.c 274 */;
+	const void *cocci_id/* fs/pstore/platform.c 273 */;
+	void *cocci_id/* fs/pstore/platform.c 273 */;
+	const struct pstore_zbackend cocci_id/* fs/pstore/platform.c 233 */[];
+	bool cocci_id/* fs/pstore/platform.c 157 */;
+	enum kmsg_dump_reason cocci_id/* fs/pstore/platform.c 132 */;
+	const char *cocci_id/* fs/pstore/platform.c 132 */;
+	enum pstore_type_id cocci_id/* fs/pstore/platform.c 119 */;
+}

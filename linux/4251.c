@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	struct backlight_properties cocci_id/* drivers/platform/x86/classmate-laptop.c 937 */;
+	struct ipml200_dev *cocci_id/* drivers/platform/x86/classmate-laptop.c 936 */;
+	struct ipml200_dev {
+		struct backlight_device *bd;
+		struct rfkill *rf;
+	} cocci_id/* drivers/platform/x86/classmate-laptop.c 928 */;
+	const struct rfkill_ops cocci_id/* drivers/platform/x86/classmate-laptop.c 919 */;
+	bool cocci_id/* drivers/platform/x86/classmate-laptop.c 897 */;
+	void *cocci_id/* drivers/platform/x86/classmate-laptop.c 897 */;
+	struct rfkill *cocci_id/* drivers/platform/x86/classmate-laptop.c 882 */;
+	const struct backlight_ops cocci_id/* drivers/platform/x86/classmate-laptop.c 837 */;
+	unsigned long long cocci_id/* drivers/platform/x86/classmate-laptop.c 814 */;
+	struct backlight_device *cocci_id/* drivers/platform/x86/classmate-laptop.c 810 */;
+	union acpi_object cocci_id/* drivers/platform/x86/classmate-laptop.c 777 */;
+	unsigned long long *cocci_id/* drivers/platform/x86/classmate-laptop.c 775 */;
+	struct acpi_driver cocci_id/* drivers/platform/x86/classmate-laptop.c 662 */;
+	const struct acpi_device_id cocci_id/* drivers/platform/x86/classmate-laptop.c 657 */[];
+	struct cmpc_accel *cocci_id/* drivers/platform/x86/classmate-laptop.c 621 */;
+	struct input_dev *cocci_id/* drivers/platform/x86/classmate-laptop.c 620 */;
+	struct acpi_device *cocci_id/* drivers/platform/x86/classmate-laptop.c 617 */;
+	int cocci_id/* drivers/platform/x86/classmate-laptop.c 617 */;
+	void cocci_id/* drivers/platform/x86/classmate-laptop.c 599 */;
+	acpi_status cocci_id/* drivers/platform/x86/classmate-laptop.c 530 */;
+	unsigned char cocci_id/* drivers/platform/x86/classmate-laptop.c 529 */;
+	u32 cocci_id/* drivers/platform/x86/classmate-laptop.c 526 */;
+	union acpi_object *cocci_id/* drivers/platform/x86/classmate-laptop.c 515 */;
+	struct acpi_buffer cocci_id/* drivers/platform/x86/classmate-laptop.c 504 */;
+	unsigned char *cocci_id/* drivers/platform/x86/classmate-laptop.c 498 */;
+	union acpi_object cocci_id/* drivers/platform/x86/classmate-laptop.c 485 */[2];
+	input_device_init cocci_id/* drivers/platform/x86/classmate-laptop.c 43 */;
+	void (*cocci_id/* drivers/platform/x86/classmate-laptop.c 40 */)(struct input_dev *dev);
+	struct device_attribute cocci_id/* drivers/platform/x86/classmate-laptop.c 293 */;
+	unsigned long cocci_id/* drivers/platform/x86/classmate-laptop.c 272 */;
+	const char *cocci_id/* drivers/platform/x86/classmate-laptop.c 267 */;
+	size_t cocci_id/* drivers/platform/x86/classmate-laptop.c 267 */;
+	char *cocci_id/* drivers/platform/x86/classmate-laptop.c 252 */;
+	struct device_attribute *cocci_id/* drivers/platform/x86/classmate-laptop.c 251 */;
+	struct device *cocci_id/* drivers/platform/x86/classmate-laptop.c 250 */;
+	ssize_t cocci_id/* drivers/platform/x86/classmate-laptop.c 250 */;
+	int16_t cocci_id/* drivers/platform/x86/classmate-laptop.c 186 */;
+	struct cmpc_accel {
+		int sensitivity;
+		int g_select;
+		int inputdev_state;
+	} cocci_id/* drivers/platform/x86/classmate-laptop.c 18 */;
+	int16_t *cocci_id/* drivers/platform/x86/classmate-laptop.c 150 */;
+	struct acpi_object_list cocci_id/* drivers/platform/x86/classmate-laptop.c 134 */;
+	union acpi_object cocci_id/* drivers/platform/x86/classmate-laptop.c 133 */[4];
+	acpi_handle cocci_id/* drivers/platform/x86/classmate-laptop.c 131 */;
+	int cocci_id/* drivers/platform/x86/classmate-laptop.c 1015 */[];
+}

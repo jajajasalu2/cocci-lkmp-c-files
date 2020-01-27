@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct rose_sock *cocci_id/* net/rose/rose_route.c 918 */;
+	unsigned char cocci_id/* net/rose/rose_route.c 861 */;
+	unsigned short cocci_id/* net/rose/rose_route.c 859 */;
+	struct sock *cocci_id/* net/rose/rose_route.c 858 */;
+	struct rose_facilities_struct cocci_id/* net/rose/rose_route.c 856 */;
+	struct sk_buff *cocci_id/* net/rose/rose_route.c 852 */;
+	ax25_cb *cocci_id/* net/rose/rose_route.c 810 */;
+	struct rose_route *cocci_id/* net/rose/rose_route.c 765 */;
+	struct rose_route_struct cocci_id/* net/rose/rose_route.c 726 */;
+	void __user *cocci_id/* net/rose/rose_route.c 724 */;
+	unsigned char *cocci_id/* net/rose/rose_route.c 674 */;
+	char *cocci_id/* net/rose/rose_route.c 590 */;
+	struct net_device *cocci_id/* net/rose/rose_route.c 52 */;
+	struct rose_route_struct *cocci_id/* net/rose/rose_route.c 51 */;
+	int __must_check cocci_id/* net/rose/rose_route.c 51 */;
+	struct rose_node *cocci_id/* net/rose/rose_route.c 405 */;
+	rose_address *cocci_id/* net/rose/rose_route.c 403 */;
+	int cocci_id/* net/rose/rose_route.c 403 */;
+	struct rose_neigh cocci_id/* net/rose/rose_route.c 373 */;
+	struct rose_neigh *cocci_id/* net/rose/rose_route.c 371 */;
+	void cocci_id/* net/rose/rose_route.c 369 */;
+	unsigned int cocci_id/* net/rose/rose_route.c 36 */;
+	void __exit cocci_id/* net/rose/rose_route.c 1302 */;
+	struct seq_operations cocci_id/* net/rose/rose_route.c 1291 */;
+	const struct seq_operations cocci_id/* net/rose/rose_route.c 1219 */;
+	char cocci_id/* net/rose/rose_route.c 1187 */[11];
+	loff_t *cocci_id/* net/rose/rose_route.c 1171 */;
+	struct seq_file *cocci_id/* net/rose/rose_route.c 1171 */;
+	void *cocci_id/* net/rose/rose_route.c 1171 */;
+	const struct rose_node *cocci_id/* net/rose/rose_route.c 1127 */;
+}

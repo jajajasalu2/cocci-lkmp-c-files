@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	const struct cred *cocci_id/* security/apparmor/file.c 692 */;
+	struct files_struct *cocci_id/* security/apparmor/file.c 692 */;
+	void cocci_id/* security/apparmor/file.c 692 */;
+	const void *cocci_id/* security/apparmor/file.c 680 */;
+	struct tty_file_private cocci_id/* security/apparmor/file.c 666 */;
+	struct tty_file_private *cocci_id/* security/apparmor/file.c 662 */;
+	struct tty_struct *cocci_id/* security/apparmor/file.c 653 */;
+	struct aa_file_ctx *cocci_id/* security/apparmor/file.c 610 */;
+	struct common_audit_data *cocci_id/* security/apparmor/file.c 58 */;
+	struct socket *cocci_id/* security/apparmor/file.c 575 */;
+	void *cocci_id/* security/apparmor/file.c 56 */;
+	char *cocci_id/* security/apparmor/file.c 526 */;
+	struct path_cond cocci_id/* security/apparmor/file.c 522 */;
+	struct aa_perms cocci_id/* security/apparmor/file.c 521 */;
+	bool cocci_id/* security/apparmor/file.c 518 */;
+	struct file *cocci_id/* security/apparmor/file.c 517 */;
+	struct aa_label *cocci_id/* security/apparmor/file.c 516 */;
+	struct path cocci_id/* security/apparmor/file.c 469 */;
+	const struct path *cocci_id/* security/apparmor/file.c 467 */;
+	struct dentry *cocci_id/* security/apparmor/file.c 466 */;
+	char cocci_id/* security/apparmor/file.c 44 */[10];
+	struct audit_buffer *cocci_id/* security/apparmor/file.c 42 */;
+	struct aa_perms *cocci_id/* security/apparmor/file.c 279 */;
+	u32 cocci_id/* security/apparmor/file.c 278 */;
+	struct path_cond *cocci_id/* security/apparmor/file.c 278 */;
+	const char *cocci_id/* security/apparmor/file.c 277 */;
+	struct aa_profile *cocci_id/* security/apparmor/file.c 277 */;
+	int cocci_id/* security/apparmor/file.c 277 */;
+	struct aa_dfa *cocci_id/* security/apparmor/file.c 224 */;
+	unsigned int cocci_id/* security/apparmor/file.c 224 */;
+	const char **cocci_id/* security/apparmor/file.c 168 */;
+	kuid_t cocci_id/* security/apparmor/file.c 104 */;
+}

@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	unsigned char cocci_id/* drivers/pnp/resource.c 80 */;
+	char *cocci_id/* drivers/pnp/resource.c 718 */;
+	int __init cocci_id/* drivers/pnp/resource.c 718 */;
+	struct pnp_dma *cocci_id/* drivers/pnp/resource.c 651 */;
+	struct pnp_irq *cocci_id/* drivers/pnp/resource.c 650 */;
+	struct pnp_mem *cocci_id/* drivers/pnp/resource.c 649 */;
+	struct pnp_port *cocci_id/* drivers/pnp/resource.c 648 */;
+	unsigned long long cocci_id/* drivers/pnp/resource.c 626 */;
+	struct resource *cocci_id/* drivers/pnp/resource.c 621 */;
+	resource_size_t cocci_id/* drivers/pnp/resource.c 617 */;
+	struct pnp_resource *cocci_id/* drivers/pnp/resource.c 616 */;
+	pnp_irq_mask_t *cocci_id/* drivers/pnp/resource.c 52 */;
+	struct pnp_resource cocci_id/* drivers/pnp/resource.c 501 */;
+	resource_size_t *cocci_id/* drivers/pnp/resource.c 421 */;
+	struct pnp_option cocci_id/* drivers/pnp/resource.c 40 */;
+	struct pnp_option *cocci_id/* drivers/pnp/resource.c 35 */;
+	unsigned long cocci_id/* drivers/pnp/resource.c 35 */;
+	u8 cocci_id/* drivers/pnp/resource.c 302 */;
+	u32 cocci_id/* drivers/pnp/resource.c 301 */;
+	unsigned int cocci_id/* drivers/pnp/resource.c 299 */;
+	struct pnp_dev *cocci_id/* drivers/pnp/resource.c 298 */;
+	struct pci_dev *cocci_id/* drivers/pnp/resource.c 298 */;
+	int cocci_id/* drivers/pnp/resource.c 298 */;
+	irqreturn_t cocci_id/* drivers/pnp/resource.c 292 */;
+	void *cocci_id/* drivers/pnp/resource.c 292 */;
+	int cocci_id/* drivers/pnp/resource.c 28 */[16];
+	int cocci_id/* drivers/pnp/resource.c 27 */[8];
+	void cocci_id/* drivers/pnp/resource.c 143 */;
+}

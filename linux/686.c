@@ -1,0 +1,64 @@
+cocci_test_suite() {
+	char cocci_id/* drivers/pci/xen-pcifront.c 953 */[64];
+	unsigned int cocci_id/* drivers/pci/xen-pcifront.c 952 */;
+	grant_ref_t cocci_id/* drivers/pci/xen-pcifront.c 790 */;
+	struct xenbus_transaction cocci_id/* drivers/pci/xen-pcifront.c 789 */;
+	void cocci_id/* drivers/pci/xen-pcifront.c 761 */;
+	void *cocci_id/* drivers/pci/xen-pcifront.c 740 */;
+	struct xen_pci_sharedinfo *cocci_id/* drivers/pci/xen-pcifront.c 731 */;
+	struct pcifront_device cocci_id/* drivers/pci/xen-pcifront.c 726 */;
+	struct xenbus_device *cocci_id/* drivers/pci/xen-pcifront.c 722 */;
+	struct pcifront_device *cocci_id/* drivers/pci/xen-pcifront.c 722 */;
+	irqreturn_t cocci_id/* drivers/pci/xen-pcifront.c 682 */;
+	struct work_struct *cocci_id/* drivers/pci/xen-pcifront.c 652 */;
+	struct pci_driver *cocci_id/* drivers/pci/xen-pcifront.c 595 */;
+	pci_channel_state_t cocci_id/* drivers/pci/xen-pcifront.c 592 */;
+	pci_ers_result_t cocci_id/* drivers/pci/xen-pcifront.c 590 */;
+	struct pci_bus_entry *cocci_id/* drivers/pci/xen-pcifront.c 570 */;
+	struct pci_dev cocci_id/* drivers/pci/xen-pcifront.c 561 */;
+	struct pcifront_sd {
+		struct pci_sysdata sd;
+		struct pcifront_device *pdev;
+	} cocci_id/* drivers/pci/xen-pcifront.c 56 */;
+	struct pci_dev *cocci_id/* drivers/pci/xen-pcifront.c 558 */;
+	struct pci_bus *cocci_id/* drivers/pci/xen-pcifront.c 556 */;
+	struct resource cocci_id/* drivers/pci/xen-pcifront.c 453 */;
+	struct resource *cocci_id/* drivers/pci/xen-pcifront.c 397 */;
+	struct pcifront_device {
+		struct xenbus_device *xdev;
+		struct list_head root_buses;
+		int evtchn;
+		int gnt_ref;
+		int irq;
+		spinlock_t sh_info_lock;
+		struct xen_pci_sharedinfo *sh_info;
+		struct work_struct op_work;
+		unsigned long flags;
+	} cocci_id/* drivers/pci/xen-pcifront.c 39 */;
+	struct xen_pci_frontend_ops cocci_id/* drivers/pci/xen-pcifront.c 374 */;
+	struct pcifront_sd *cocci_id/* drivers/pci/xen-pcifront.c 360 */;
+	int cocci_id/* drivers/pci/xen-pcifront.c 322 */[];
+	struct pci_bus_entry {
+		struct list_head list;
+		struct pci_bus *bus;
+	} cocci_id/* drivers/pci/xen-pcifront.c 31 */;
+	struct msi_desc *cocci_id/* drivers/pci/xen-pcifront.c 262 */;
+	struct pci_ops cocci_id/* drivers/pci/xen-pcifront.c 242 */;
+	u32 cocci_id/* drivers/pci/xen-pcifront.c 218 */;
+	u32 *cocci_id/* drivers/pci/xen-pcifront.c 179 */;
+	unsigned long *cocci_id/* drivers/pci/xen-pcifront.c 129 */;
+	struct xen_pci_op cocci_id/* drivers/pci/xen-pcifront.c 125 */;
+	s64 cocci_id/* drivers/pci/xen-pcifront.c 121 */;
+	unsigned cocci_id/* drivers/pci/xen-pcifront.c 120 */;
+	evtchn_port_t cocci_id/* drivers/pci/xen-pcifront.c 119 */;
+	unsigned long cocci_id/* drivers/pci/xen-pcifront.c 118 */;
+	void __exit cocci_id/* drivers/pci/xen-pcifront.c 1178 */;
+	int __init cocci_id/* drivers/pci/xen-pcifront.c 1165 */;
+	struct xenbus_driver cocci_id/* drivers/pci/xen-pcifront.c 1157 */;
+	const struct xenbus_device_id cocci_id/* drivers/pci/xen-pcifront.c 1152 */[];
+	struct xen_pci_op *cocci_id/* drivers/pci/xen-pcifront.c 114 */;
+	int cocci_id/* drivers/pci/xen-pcifront.c 114 */;
+	const struct xenbus_device_id *cocci_id/* drivers/pci/xen-pcifront.c 1123 */;
+	enum xenbus_state cocci_id/* drivers/pci/xen-pcifront.c 1088 */;
+	void __ref cocci_id/* drivers/pci/xen-pcifront.c 1087 */;
+}

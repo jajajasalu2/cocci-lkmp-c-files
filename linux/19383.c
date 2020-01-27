@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* arch/xtensa/platforms/iss/simdisk.c 71 */;
+	const struct kernel_param_ops cocci_id/* arch/xtensa/platforms/iss/simdisk.c 63 */;
+	const struct kernel_param *cocci_id/* arch/xtensa/platforms/iss/simdisk.c 54 */;
+	const char *cocci_id/* arch/xtensa/platforms/iss/simdisk.c 44 */[MAX_SIMDISK_COUNT];
+	int cocci_id/* arch/xtensa/platforms/iss/simdisk.c 43 */;
+	void __exit cocci_id/* arch/xtensa/platforms/iss/simdisk.c 357 */;
+	void cocci_id/* arch/xtensa/platforms/iss/simdisk.c 357 */;
+	int __init cocci_id/* arch/xtensa/platforms/iss/simdisk.c 303 */;
+	struct simdisk {
+		const char *filename;
+		spinlock_t lock;
+		struct request_queue *queue;
+		struct gendisk *gd;
+		struct proc_dir_entry *procfile;
+		int users;
+		unsigned long size;
+		int fd;
+	} cocci_id/* arch/xtensa/platforms/iss/simdisk.c 27 */;
+	char cocci_id/* arch/xtensa/platforms/iss/simdisk.c 263 */[2];
+	const struct file_operations cocci_id/* arch/xtensa/platforms/iss/simdisk.c 254 */;
+	char *cocci_id/* arch/xtensa/platforms/iss/simdisk.c 230 */;
+	const char __user *cocci_id/* arch/xtensa/platforms/iss/simdisk.c 227 */;
+	const char *cocci_id/* arch/xtensa/platforms/iss/simdisk.c 215 */;
+	struct simdisk *cocci_id/* arch/xtensa/platforms/iss/simdisk.c 214 */;
+	loff_t *cocci_id/* arch/xtensa/platforms/iss/simdisk.c 212 */;
+	size_t cocci_id/* arch/xtensa/platforms/iss/simdisk.c 212 */;
+	struct file *cocci_id/* arch/xtensa/platforms/iss/simdisk.c 211 */;
+	char __user *cocci_id/* arch/xtensa/platforms/iss/simdisk.c 211 */;
+	ssize_t cocci_id/* arch/xtensa/platforms/iss/simdisk.c 211 */;
+	struct proc_dir_entry *cocci_id/* arch/xtensa/platforms/iss/simdisk.c 152 */;
+	const struct block_device_operations cocci_id/* arch/xtensa/platforms/iss/simdisk.c 145 */;
+	struct gendisk *cocci_id/* arch/xtensa/platforms/iss/simdisk.c 137 */;
+	fmode_t cocci_id/* arch/xtensa/platforms/iss/simdisk.c 125 */;
+	struct block_device *cocci_id/* arch/xtensa/platforms/iss/simdisk.c 125 */;
+	unsigned cocci_id/* arch/xtensa/platforms/iss/simdisk.c 113 */;
+	sector_t cocci_id/* arch/xtensa/platforms/iss/simdisk.c 109 */;
+	struct bvec_iter cocci_id/* arch/xtensa/platforms/iss/simdisk.c 108 */;
+	struct bio_vec cocci_id/* arch/xtensa/platforms/iss/simdisk.c 107 */;
+	blk_qc_t cocci_id/* arch/xtensa/platforms/iss/simdisk.c 104 */;
+	struct request_queue *cocci_id/* arch/xtensa/platforms/iss/simdisk.c 104 */;
+	struct bio *cocci_id/* arch/xtensa/platforms/iss/simdisk.c 104 */;
+}

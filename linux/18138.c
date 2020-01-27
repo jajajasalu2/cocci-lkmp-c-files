@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	bool cocci_id/* arch/arm/kernel/vdso.c 87 */;
+	struct device_node *cocci_id/* arch/arm/kernel/vdso.c 86 */;
+	bool __init cocci_id/* arch/arm/kernel/vdso.c 84 */;
+	struct elfinfo {
+		Elf32_Ehdr *hdr;
+		Elf32_Sym *dynsym;
+		unsigned long dynsymsize;
+		char *dynstr;
+	} cocci_id/* arch/arm/kernel/vdso.c 72 */;
+	struct vm_special_mapping cocci_id/* arch/arm/kernel/vdso.c 67 */;
+	const struct vm_special_mapping *cocci_id/* arch/arm/kernel/vdso.c 50 */;
+	const struct vm_special_mapping cocci_id/* arch/arm/kernel/vdso.c 45 */;
+	struct page *cocci_id/* arch/arm/kernel/vdso.c 44 */;
+	struct vdso_data *cocci_id/* arch/arm/kernel/vdso.c 42 */;
+	union vdso_data_store cocci_id/* arch/arm/kernel/vdso.c 41 */;
+	char cocci_id/* arch/arm/kernel/vdso.c 33 */[];
+	struct page **cocci_id/* arch/arm/kernel/vdso.c 31 */;
+	struct vm_area_struct *cocci_id/* arch/arm/kernel/vdso.c 244 */;
+	struct mm_struct *cocci_id/* arch/arm/kernel/vdso.c 242 */;
+	unsigned long cocci_id/* arch/arm/kernel/vdso.c 242 */;
+	void cocci_id/* arch/arm/kernel/vdso.c 242 */;
+	int cocci_id/* arch/arm/kernel/vdso.c 230 */;
+	int __init cocci_id/* arch/arm/kernel/vdso.c 188 */;
+	struct elfinfo cocci_id/* arch/arm/kernel/vdso.c 169 */;
+	void __init cocci_id/* arch/arm/kernel/vdso.c 167 */;
+	Elf32_Sym *cocci_id/* arch/arm/kernel/vdso.c 158 */;
+	char cocci_id/* arch/arm/kernel/vdso.c 141 */[MAX_SYMNAME];
+	Elf32_Sym cocci_id/* arch/arm/kernel/vdso.c 140 */;
+	Elf32_Sym *__init cocci_id/* arch/arm/kernel/vdso.c 136 */;
+	struct elfinfo *cocci_id/* arch/arm/kernel/vdso.c 136 */;
+	void *cocci_id/* arch/arm/kernel/vdso.c 119 */;
+	char *cocci_id/* arch/arm/kernel/vdso.c 116 */;
+	unsigned int cocci_id/* arch/arm/kernel/vdso.c 115 */;
+	Elf32_Shdr *cocci_id/* arch/arm/kernel/vdso.c 114 */;
+	unsigned long *cocci_id/* arch/arm/kernel/vdso.c 112 */;
+	const char *cocci_id/* arch/arm/kernel/vdso.c 111 */;
+	Elf32_Ehdr *cocci_id/* arch/arm/kernel/vdso.c 111 */;
+	void *__init cocci_id/* arch/arm/kernel/vdso.c 111 */;
+}

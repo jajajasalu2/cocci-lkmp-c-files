@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	efx_qword_t *cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 88 */;
+	char *cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 82 */;
+	struct tso_state {
+		unsigned int out_len;
+		unsigned int seqnum;
+		u16 ipv4_id;
+		unsigned int packet_space;
+		dma_addr_t dma_addr;
+		unsigned int in_len;
+		unsigned int unmap_len;
+		dma_addr_t unmap_addr;
+		__be16 protocol;
+		unsigned int ip_off;
+		unsigned int tcp_off;
+		unsigned int header_len;
+		unsigned int ip_base_len;
+		dma_addr_t header_dma_addr;
+		unsigned int header_unmap_len;
+	} cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 57 */;
+	struct tso_state cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 368 */;
+	struct efx_nic *cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 366 */;
+	bool *cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 364 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 363 */;
+	struct efx_tx_queue *cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 362 */;
+	int cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 362 */;
+	u8 *cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 34 */;
+	u8 cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 292 */;
+	bool cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 291 */;
+	struct tso_state *cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 234 */;
+	const struct sk_buff *cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 233 */;
+	skb_frag_t *cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 209 */;
+	struct device *cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 173 */;
+	struct vlan_ethhdr *cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 150 */;
+	struct ethhdr *cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 147 */;
+	__be16 cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 143 */;
+	struct efx_tx_buffer *cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 106 */;
+	struct efx_tx_buffer **cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 104 */;
+	dma_addr_t cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 103 */;
+	unsigned int cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 103 */;
+	void cocci_id/* drivers/net/ethernet/sfc/tx_tso.c 102 */;
+}

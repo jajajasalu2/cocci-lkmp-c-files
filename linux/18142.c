@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct iwmmxt_sigframe cocci_id/* arch/arm/kernel/signal.c 84 */;
+	struct pt_regs *cocci_id/* arch/arm/kernel/signal.c 720 */;
+	void cocci_id/* arch/arm/kernel/signal.c 714 */;
+	void *cocci_id/* arch/arm/kernel/signal.c 688 */;
+	unsigned cocci_id/* arch/arm/kernel/signal.c 686 */;
+	struct page *cocci_id/* arch/arm/kernel/signal.c 683 */;
+	struct iwmmxt_sigframe *cocci_id/* arch/arm/kernel/signal.c 67 */;
+	struct iwmmxt_sigframe __user *cocci_id/* arch/arm/kernel/signal.c 64 */;
+	struct ksignal cocci_id/* arch/arm/kernel/signal.c 581 */;
+	unsigned int cocci_id/* arch/arm/kernel/signal.c 580 */;
+	int cocci_id/* arch/arm/kernel/signal.c 578 */;
+	sigset_t *cocci_id/* arch/arm/kernel/signal.c 545 */;
+	struct rt_sigframe __user *cocci_id/* arch/arm/kernel/signal.c 511 */;
+	struct mm_struct *cocci_id/* arch/arm/kernel/signal.c 453 */;
+	char __user **cocci_id/* arch/arm/kernel/signal.c 42 */;
+	bool cocci_id/* arch/arm/kernel/signal.c 370 */;
+	unsigned long __user *cocci_id/* arch/arm/kernel/signal.c 363 */;
+	unsigned long cocci_id/* arch/arm/kernel/signal.c 344 */;
+	struct ksignal *cocci_id/* arch/arm/kernel/signal.c 342 */;
+	void __user *cocci_id/* arch/arm/kernel/signal.c 341 */;
+	struct crunch_sigframe *cocci_id/* arch/arm/kernel/signal.c 32 */;
+	char cocci_id/* arch/arm/kernel/signal.c 31 */[sizeof(*frame) + 8];
+	struct aux_sigframe __user *cocci_id/* arch/arm/kernel/signal.c 290 */;
+	struct crunch_sigframe __user *cocci_id/* arch/arm/kernel/signal.c 29 */;
+	const unsigned long cocci_id/* arch/arm/kernel/signal.c 24 */[17];
+	sigset_t cocci_id/* arch/arm/kernel/signal.c 177 */;
+	char __user *cocci_id/* arch/arm/kernel/signal.c 176 */;
+	struct sigcontext cocci_id/* arch/arm/kernel/signal.c 175 */;
+	struct sigframe __user *cocci_id/* arch/arm/kernel/signal.c 173 */;
+	struct vfp_sigframe cocci_id/* arch/arm/kernel/signal.c 137 */;
+	struct vfp_sigframe __user *cocci_id/* arch/arm/kernel/signal.c 135 */;
+}

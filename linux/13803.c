@@ -1,0 +1,81 @@
+cocci_test_suite() {
+	struct ov8856 *cocci_id/* drivers/media/i2c/ov8856.c 994 */;
+	struct v4l2_subdev_format *cocci_id/* drivers/media/i2c/ov8856.c 992 */;
+	s32 cocci_id/* drivers/media/i2c/ov8856.c 955 */;
+	const struct ov8856_mode *cocci_id/* drivers/media/i2c/ov8856.c 954 */;
+	int __maybe_unused cocci_id/* drivers/media/i2c/ov8856.c 926 */;
+	void cocci_id/* drivers/media/i2c/ov8856.c 867 */;
+	struct ov8856_mode {
+		u32 width;
+		u32 height;
+		u32 hts;
+		u32 vts_def;
+		u32 vts_min;
+		u32 link_freq_index;
+		const struct ov8856_reg_list reg_list;
+	} cocci_id/* drivers/media/i2c/ov8856.c 86 */;
+	const struct ov8856_reg_list *cocci_id/* drivers/media/i2c/ov8856.c 835 */;
+	struct v4l2_mbus_framefmt *cocci_id/* drivers/media/i2c/ov8856.c 824 */;
+	struct ov8856_link_freq_config {
+		const struct ov8856_reg_list reg_list;
+	} cocci_id/* drivers/media/i2c/ov8856.c 82 */;
+	struct ov8856_reg_list {
+		u32 num_of_regs;
+		const struct ov8856_reg *regs;
+	} cocci_id/* drivers/media/i2c/ov8856.c 77 */;
+	s64 cocci_id/* drivers/media/i2c/ov8856.c 765 */;
+	struct v4l2_ctrl_handler *cocci_id/* drivers/media/i2c/ov8856.c 764 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/i2c/ov8856.c 758 */;
+	struct ov8856_reg {
+		u16 address;
+		u8 val;
+	} cocci_id/* drivers/media/i2c/ov8856.c 72 */;
+	struct ov8856 cocci_id/* drivers/media/i2c/ov8856.c 702 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/i2c/ov8856.c 699 */;
+	enum{OV8856_LINK_FREQ_720MBPS, OV8856_LINK_FREQ_360MBPS,} cocci_id/* drivers/media/i2c/ov8856.c 67 */;
+	u8 cocci_id/* drivers/media/i2c/ov8856.c 637 */[6];
+	u8 cocci_id/* drivers/media/i2c/ov8856.c 609 */[4];
+	u8 cocci_id/* drivers/media/i2c/ov8856.c 608 */[2];
+	struct i2c_msg cocci_id/* drivers/media/i2c/ov8856.c 607 */[2];
+	u16 cocci_id/* drivers/media/i2c/ov8856.c 604 */;
+	u32 *cocci_id/* drivers/media/i2c/ov8856.c 604 */;
+	u64 cocci_id/* drivers/media/i2c/ov8856.c 586 */;
+	struct ov8856 {
+		struct v4l2_subdev sd;
+		struct media_pad pad;
+		struct v4l2_ctrl_handler ctrl_handler;
+		struct v4l2_ctrl *link_freq;
+		struct v4l2_ctrl *pixel_rate;
+		struct v4l2_ctrl *vblank;
+		struct v4l2_ctrl *hblank;
+		struct v4l2_ctrl *exposure;
+		const struct ov8856_mode *cur_mode;
+		struct mutex mutex;
+		bool streaming;
+	} cocci_id/* drivers/media/i2c/ov8856.c 564 */;
+	const struct ov8856_mode cocci_id/* drivers/media/i2c/ov8856.c 537 */[];
+	const struct ov8856_link_freq_config cocci_id/* drivers/media/i2c/ov8856.c 522 */[];
+	const s64 cocci_id/* drivers/media/i2c/ov8856.c 517 */[];
+	const char *const cocci_id/* drivers/media/i2c/ov8856.c 509 */[];
+	struct i2c_driver cocci_id/* drivers/media/i2c/ov8856.c 1257 */;
+	const struct acpi_device_id cocci_id/* drivers/media/i2c/ov8856.c 1249 */[];
+	const struct dev_pm_ops cocci_id/* drivers/media/i2c/ov8856.c 1244 */;
+	const struct ov8856_reg cocci_id/* drivers/media/i2c/ov8856.c 119 */[];
+	unsigned int cocci_id/* drivers/media/i2c/ov8856.c 1104 */;
+	u32 cocci_id/* drivers/media/i2c/ov8856.c 1102 */;
+	struct v4l2_fwnode_endpoint cocci_id/* drivers/media/i2c/ov8856.c 1099 */;
+	struct fwnode_handle *cocci_id/* drivers/media/i2c/ov8856.c 1097 */;
+	struct device *cocci_id/* drivers/media/i2c/ov8856.c 1095 */;
+	int cocci_id/* drivers/media/i2c/ov8856.c 1095 */;
+	struct i2c_client *cocci_id/* drivers/media/i2c/ov8856.c 1077 */;
+	const struct v4l2_subdev_internal_ops cocci_id/* drivers/media/i2c/ov8856.c 1071 */;
+	const struct media_entity_operations cocci_id/* drivers/media/i2c/ov8856.c 1067 */;
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/i2c/ov8856.c 1062 */;
+	const struct v4l2_subdev_pad_ops cocci_id/* drivers/media/i2c/ov8856.c 1055 */;
+	const struct v4l2_subdev_video_ops cocci_id/* drivers/media/i2c/ov8856.c 1051 */;
+	struct v4l2_subdev_fh *cocci_id/* drivers/media/i2c/ov8856.c 1039 */;
+	struct v4l2_subdev_frame_size_enum *cocci_id/* drivers/media/i2c/ov8856.c 1023 */;
+	struct v4l2_subdev_pad_config *cocci_id/* drivers/media/i2c/ov8856.c 1022 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/i2c/ov8856.c 1021 */;
+	struct v4l2_subdev_mbus_code_enum *cocci_id/* drivers/media/i2c/ov8856.c 1010 */;
+}

@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	unsigned long *cocci_id/* net/atm/resources.c 80 */;
+	const struct atmdev_ops *cocci_id/* net/atm/resources.c 79 */;
+	struct device *cocci_id/* net/atm/resources.c 78 */;
+	struct atm_dev cocci_id/* net/atm/resources.c 58 */;
+	struct list_head *cocci_id/* net/atm/resources.c 55 */;
+	int cocci_id/* net/atm/resources.c 52 */;
+	loff_t *cocci_id/* net/atm/resources.c 457 */;
+	struct seq_file *cocci_id/* net/atm/resources.c 457 */;
+	void *cocci_id/* net/atm/resources.c 457 */;
+	unsigned long cocci_id/* net/atm/resources.c 398 */;
+	struct sockaddr_atmsvc cocci_id/* net/atm/resources.c 364 */;
+	const char *cocci_id/* net/atm/resources.c 35 */;
+	struct atm_dev *cocci_id/* net/atm/resources.c 35 */;
+	struct atm_cirange cocci_id/* net/atm/resources.c 339 */;
+	struct atm_dev_stats cocci_id/* net/atm/resources.c 333 */;
+	unsigned char cocci_id/* net/atm/resources.c 312 */[ESI_LEN];
+	struct atmif_sioc __user *cocci_id/* net/atm/resources.c 268 */;
+	struct compat_atmif_sioc __user *cocci_id/* net/atm/resources.c 254 */;
+	struct atm_iobuf __user *cocci_id/* net/atm/resources.c 218 */;
+	compat_uptr_t cocci_id/* net/atm/resources.c 211 */;
+	struct compat_atm_iobuf __user *cocci_id/* net/atm/resources.c 210 */;
+	int __user *cocci_id/* net/atm/resources.c 203 */;
+	int *cocci_id/* net/atm/resources.c 202 */;
+	void __user *cocci_id/* net/atm/resources.c 196 */;
+	unsigned int cocci_id/* net/atm/resources.c 196 */;
+	struct atm_dev_stats __user *cocci_id/* net/atm/resources.c 177 */;
+	struct atm_aal_stats *cocci_id/* net/atm/resources.c 162 */;
+	struct k_atm_aal_stats *cocci_id/* net/atm/resources.c 161 */;
+	void cocci_id/* net/atm/resources.c 139 */;
+}

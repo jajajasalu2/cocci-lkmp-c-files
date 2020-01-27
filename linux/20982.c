@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	void __init cocci_id/* arch/parisc/kernel/inventory.c 613 */;
+	void cocci_id/* arch/parisc/kernel/inventory.c 613 */;
+	unsigned long cocci_id/* arch/parisc/kernel/inventory.c 536 */;
+	struct pdc_system_map_addr_info cocci_id/* arch/parisc/kernel/inventory.c 523 */;
+	long cocci_id/* arch/parisc/kernel/inventory.c 522 */;
+	struct pdc_model cocci_id/* arch/parisc/kernel/inventory.c 52 */;
+	struct parisc_device *cocci_id/* arch/parisc/kernel/inventory.c 518 */;
+	int cocci_id/* arch/parisc/kernel/inventory.c 518 */;
+	void __init cocci_id/* arch/parisc/kernel/inventory.c 517 */;
+	struct pdc_module_path cocci_id/* arch/parisc/kernel/inventory.c 51 */;
+	struct pdc_system_map_mod_info cocci_id/* arch/parisc/kernel/inventory.c 50 */;
+	unsigned int cocci_id/* arch/parisc/kernel/inventory.c 49 */;
+	struct pdc_memory_map cocci_id/* arch/parisc/kernel/inventory.c 482 */;
+	struct pdc_module_path *cocci_id/* arch/parisc/kernel/inventory.c 452 */;
+	struct pdc_memory_map *cocci_id/* arch/parisc/kernel/inventory.c 451 */;
+	struct parisc_device *__init cocci_id/* arch/parisc/kernel/inventory.c 450 */;
+	struct pdc_memory_table *cocci_id/* arch/parisc/kernel/inventory.c 400 */;
+	struct pdc_memory_table cocci_id/* arch/parisc/kernel/inventory.c 399 */[MAX_PHYSMEM_RANGES];
+	struct pdc_memory_table_raddr cocci_id/* arch/parisc/kernel/inventory.c 398 */;
+	struct pdc_pat_cell_num cocci_id/* arch/parisc/kernel/inventory.c 372 */;
+	ulong cocci_id/* arch/parisc/kernel/inventory.c 371 */;
+	int __init cocci_id/* arch/parisc/kernel/inventory.c 368 */;
+	struct pdc_pat_pd_addr_map_entry cocci_id/* arch/parisc/kernel/inventory.c 313 */;
+	physmem_range_t *cocci_id/* arch/parisc/kernel/inventory.c 307 */;
+	struct pdc_pat_pd_addr_map_entry *cocci_id/* arch/parisc/kernel/inventory.c 306 */;
+	struct pdc_pat_pd_addr_map_entry cocci_id/* arch/parisc/kernel/inventory.c 305 */[PAT_MAX_RANGES + 1];
+	pdc_pat_cell_mod_maddr_block_t cocci_id/* arch/parisc/kernel/inventory.c 237 */;
+	pdc_pat_cell_mod_maddr_block_t *cocci_id/* arch/parisc/kernel/inventory.c 189 */;
+}

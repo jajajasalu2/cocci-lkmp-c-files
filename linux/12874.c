@@ -1,0 +1,67 @@
+cocci_test_suite() {
+	bool cocci_id/* drivers/edac/altera_edac.c 951 */;
+	int __maybe_unused cocci_id/* drivers/edac/altera_edac.c 917 */;
+	const u32 *cocci_id/* drivers/edac/altera_edac.c 882 */;
+	struct device_node *cocci_id/* drivers/edac/altera_edac.c 879 */;
+	irqreturn_t __maybe_unused cocci_id/* drivers/edac/altera_edac.c 851 */;
+	void *cocci_id/* drivers/edac/altera_edac.c 851 */;
+	const struct edac_device_prv_data *cocci_id/* drivers/edac/altera_edac.c 840 */;
+	struct altr_edac_device_dev *cocci_id/* drivers/edac/altera_edac.c 837 */;
+	int __maybe_unused cocci_id/* drivers/edac/altera_edac.c 836 */;
+	struct resource *cocci_id/* drivers/edac/altera_edac.c 709 */;
+	struct edac_device_ctl_info *cocci_id/* drivers/edac/altera_edac.c 668 */;
+	const struct file_operations cocci_id/* drivers/edac/altera_edac.c 662 */;
+	ssize_t cocci_id/* drivers/edac/altera_edac.c 648 */(struct file *file,
+							     const char __user *user_buf,
+							     size_t count,
+							     loff_t *ppos);
+	u32 *cocci_id/* drivers/edac/altera_edac.c 576 */;
+	const struct altr_sdram_prv_data cocci_id/* drivers/edac/altera_edac.c 56 */;
+	const struct dev_pm_ops cocci_id/* drivers/edac/altera_edac.c 484 */;
+	struct device *cocci_id/* drivers/edac/altera_edac.c 477 */;
+	struct altr_sdram_mc_data cocci_id/* drivers/edac/altera_edac.c 365 */;
+	struct dimm_info *cocci_id/* drivers/edac/altera_edac.c 287 */;
+	struct edac_mc_layer cocci_id/* drivers/edac/altera_edac.c 282 */[2];
+	void __iomem *cocci_id/* drivers/edac/altera_edac.c 250 */;
+	u32 cocci_id/* drivers/edac/altera_edac.c 248 */;
+	struct platform_device *cocci_id/* drivers/edac/altera_edac.c 248 */;
+	struct regmap *cocci_id/* drivers/edac/altera_edac.c 230 */;
+	struct platform_driver cocci_id/* drivers/edac/altera_edac.c 2171 */;
+	struct altr_edac_device_dev cocci_id/* drivers/edac/altera_edac.c 2043 */;
+	struct arm_smccc_res cocci_id/* drivers/edac/altera_edac.c 2039 */;
+	struct list_head *cocci_id/* drivers/edac/altera_edac.c 2037 */;
+	struct notifier_block *cocci_id/* drivers/edac/altera_edac.c 2027 */;
+	struct altr_arria10_edac cocci_id/* drivers/edac/altera_edac.c 2017 */;
+	const struct irq_domain_ops cocci_id/* drivers/edac/altera_edac.c 2011 */;
+	irq_hw_number_t cocci_id/* drivers/edac/altera_edac.c 2000 */;
+	struct irq_domain *cocci_id/* drivers/edac/altera_edac.c 1999 */;
+	unsigned int cocci_id/* drivers/edac/altera_edac.c 1999 */;
+	int cocci_id/* drivers/edac/altera_edac.c 1999 */;
+	struct altr_arria10_edac *cocci_id/* drivers/edac/altera_edac.c 1985 */;
+	struct irq_data *cocci_id/* drivers/edac/altera_edac.c 1983 */;
+	void cocci_id/* drivers/edac/altera_edac.c 1983 */;
+	struct mem_ctl_info *cocci_id/* drivers/edac/altera_edac.c 192 */;
+	const struct of_device_id *cocci_id/* drivers/edac/altera_edac.c 1855 */;
+	struct resource cocci_id/* drivers/edac/altera_edac.c 1850 */;
+	char *cocci_id/* drivers/edac/altera_edac.c 1849 */;
+	struct irq_chip *cocci_id/* drivers/edac/altera_edac.c 1788 */;
+	struct irq_desc *cocci_id/* drivers/edac/altera_edac.c 1784 */;
+	u8 cocci_id/* drivers/edac/altera_edac.c 1703 */;
+	unsigned long cocci_id/* drivers/edac/altera_edac.c 1702 */;
+	loff_t *cocci_id/* drivers/edac/altera_edac.c 1696 */;
+	size_t cocci_id/* drivers/edac/altera_edac.c 1696 */;
+	const char __user *cocci_id/* drivers/edac/altera_edac.c 1695 */;
+	struct file *cocci_id/* drivers/edac/altera_edac.c 1694 */;
+	ssize_t cocci_id/* drivers/edac/altera_edac.c 1694 */;
+	irqreturn_t cocci_id/* drivers/edac/altera_edac.c 1601 */;
+	const struct edac_device_prv_data cocci_id/* drivers/edac/altera_edac.c 1377 */;
+	int __init cocci_id/* drivers/edac/altera_edac.c 1366 */;
+	dma_addr_t cocci_id/* drivers/edac/altera_edac.c 124 */;
+	const struct altr_sdram_prv_data *cocci_id/* drivers/edac/altera_edac.c 122 */;
+	struct altr_sdram_mc_data *cocci_id/* drivers/edac/altera_edac.c 121 */;
+	void **cocci_id/* drivers/edac/altera_edac.c 1193 */;
+	struct gen_pool *cocci_id/* drivers/edac/altera_edac.c 1098 */;
+	int __init __maybe_unused cocci_id/* drivers/edac/altera_edac.c 1027 */;
+	const struct of_device_id cocci_id/* drivers/edac/altera_edac.c 1026 */[];
+	int cocci_id/* drivers/edac/altera_edac.c 1025 */(struct device_node *np);
+}

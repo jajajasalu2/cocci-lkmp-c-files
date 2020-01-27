@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/ide/tx4939ide.c 616 */;
+	int __exit cocci_id/* drivers/ide/tx4939ide.c 595 */;
+	struct resource *cocci_id/* drivers/ide/tx4939ide.c 540 */;
+	struct ide_host *cocci_id/* drivers/ide/tx4939ide.c 539 */;
+	struct ide_hw cocci_id/* drivers/ide/tx4939ide.c 538 */;
+	struct platform_device *cocci_id/* drivers/ide/tx4939ide.c 536 */;
+	int __init cocci_id/* drivers/ide/tx4939ide.c 536 */;
+	const struct ide_port_info cocci_id/* drivers/ide/tx4939ide.c 523 */;
+	const struct ide_dma_ops cocci_id/* drivers/ide/tx4939ide.c 512 */;
+	const struct ide_port_ops cocci_id/* drivers/ide/tx4939ide.c 505 */;
+	const struct ide_tp_ops cocci_id/* drivers/ide/tx4939ide.c 473 */;
+	unsigned short *cocci_id/* drivers/ide/tx4939ide.c 451 */;
+	unsigned long cocci_id/* drivers/ide/tx4939ide.c 450 */;
+	void *cocci_id/* drivers/ide/tx4939ide.c 448 */;
+	struct ide_taskfile *cocci_id/* drivers/ide/tx4939ide.c 435 */;
+	const struct ide_port_info *cocci_id/* drivers/ide/tx4939ide.c 409 */;
+	u32 cocci_id/* drivers/ide/tx4939ide.c 243 */;
+	struct scatterlist *cocci_id/* drivers/ide/tx4939ide.c 240 */;
+	unsigned int cocci_id/* drivers/ide/tx4939ide.c 238 */;
+	u32 *cocci_id/* drivers/ide/tx4939ide.c 237 */;
+	ide_hwif_t *cocci_id/* drivers/ide/tx4939ide.c 236 */;
+	ide_drive_t *cocci_id/* drivers/ide/tx4939ide.c 234 */;
+	struct ide_cmd *cocci_id/* drivers/ide/tx4939ide.c 234 */;
+	int cocci_id/* drivers/ide/tx4939ide.c 234 */;
+	u8 cocci_id/* drivers/ide/tx4939ide.c 191 */;
+	void cocci_id/* drivers/ide/tx4939ide.c 173 */;
+	u16 cocci_id/* drivers/ide/tx4939ide.c 149 */;
+	const u8 cocci_id/* drivers/ide/tx4939ide.c 131 */;
+	void __iomem *cocci_id/* drivers/ide/tx4939ide.c 105 */;
+}

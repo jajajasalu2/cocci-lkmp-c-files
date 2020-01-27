@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/mfd/aat2870-core.c 92 */;
+	u8 *cocci_id/* drivers/mfd/aat2870-core.c 92 */;
+	struct aat2870_data *cocci_id/* drivers/mfd/aat2870-core.c 92 */;
+	int cocci_id/* drivers/mfd/aat2870-core.c 92 */;
+	struct regulator_init_data cocci_id/* drivers/mfd/aat2870-core.c 73 */;
+	struct aat2870_bl_platform_data cocci_id/* drivers/mfd/aat2870-core.c 68 */;
+	struct mfd_cell cocci_id/* drivers/mfd/aat2870-core.c 64 */[];
+	int __init cocci_id/* drivers/mfd/aat2870-core.c 461 */;
+	struct i2c_driver cocci_id/* drivers/mfd/aat2870-core.c 451 */;
+	const struct i2c_device_id cocci_id/* drivers/mfd/aat2870-core.c 446 */[];
+	struct aat2870_register *cocci_id/* drivers/mfd/aat2870-core.c 427 */;
+	struct device *cocci_id/* drivers/mfd/aat2870-core.c 423 */;
+	struct aat2870_data cocci_id/* drivers/mfd/aat2870-core.c 343 */;
+	struct aat2870_platform_data *cocci_id/* drivers/mfd/aat2870-core.c 338 */;
+	const struct i2c_device_id *cocci_id/* drivers/mfd/aat2870-core.c 336 */;
+	struct i2c_client *cocci_id/* drivers/mfd/aat2870-core.c 335 */;
+	const struct file_operations cocci_id/* drivers/mfd/aat2870-core.c 315 */;
+	unsigned long cocci_id/* drivers/mfd/aat2870-core.c 279 */;
+	char cocci_id/* drivers/mfd/aat2870-core.c 276 */[32];
+	const char __user *cocci_id/* drivers/mfd/aat2870-core.c 272 */;
+	loff_t *cocci_id/* drivers/mfd/aat2870-core.c 252 */;
+	size_t cocci_id/* drivers/mfd/aat2870-core.c 252 */;
+	struct file *cocci_id/* drivers/mfd/aat2870-core.c 251 */;
+	char __user *cocci_id/* drivers/mfd/aat2870-core.c 251 */;
+	char *cocci_id/* drivers/mfd/aat2870-core.c 216 */;
+	ssize_t cocci_id/* drivers/mfd/aat2870-core.c 216 */;
+	struct aat2870_register cocci_id/* drivers/mfd/aat2870-core.c 21 */[AAT2870_REG_NUM];
+	void cocci_id/* drivers/mfd/aat2870-core.c 207 */;
+	u8 cocci_id/* drivers/mfd/aat2870-core.c 125 */[2];
+}

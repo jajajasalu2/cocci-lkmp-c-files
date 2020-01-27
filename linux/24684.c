@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct ip_vs_protocol *cocci_id/* net/netfilter/ipvs/ip_vs_app.c 76 */;
+	__u16 cocci_id/* net/netfilter/ipvs/ip_vs_app.c 73 */;
+	struct ip_vs_app cocci_id/* net/netfilter/ipvs/ip_vs_app.c 64 */;
+	struct rcu_head *cocci_id/* net/netfilter/ipvs/ip_vs_app.c 62 */;
+	void __net_exit cocci_id/* net/netfilter/ipvs/ip_vs_app.c 607 */;
+	struct seq_net_private cocci_id/* net/netfilter/ipvs/ip_vs_app.c 603 */;
+	int __net_init cocci_id/* net/netfilter/ipvs/ip_vs_app.c 599 */;
+	const struct seq_operations cocci_id/* net/netfilter/ipvs/ip_vs_app.c 591 */;
+	const struct ip_vs_app *cocci_id/* net/netfilter/ipvs/ip_vs_app.c 580 */;
+	void cocci_id/* net/netfilter/ipvs/ip_vs_app.c 56 */;
+	struct net *cocci_id/* net/netfilter/ipvs/ip_vs_app.c 547 */;
+	struct list_head *cocci_id/* net/netfilter/ipvs/ip_vs_app.c 546 */;
+	loff_t *cocci_id/* net/netfilter/ipvs/ip_vs_app.c 543 */;
+	struct seq_file *cocci_id/* net/netfilter/ipvs/ip_vs_app.c 543 */;
+	void *cocci_id/* net/netfilter/ipvs/ip_vs_app.c 543 */;
+	loff_t cocci_id/* net/netfilter/ipvs/ip_vs_app.c 519 */;
+	struct netns_ipvs *cocci_id/* net/netfilter/ipvs/ip_vs_app.c 519 */;
+	__u32 cocci_id/* net/netfilter/ipvs/ip_vs_app.c 444 */;
+	struct tcphdr *cocci_id/* net/netfilter/ipvs/ip_vs_app.c 443 */;
+	const unsigned int cocci_id/* net/netfilter/ipvs/ip_vs_app.c 442 */;
+	struct ip_vs_iphdr *cocci_id/* net/netfilter/ipvs/ip_vs_app.c 439 */;
+	struct ip_vs_app *cocci_id/* net/netfilter/ipvs/ip_vs_app.c 438 */;
+	struct sk_buff *cocci_id/* net/netfilter/ipvs/ip_vs_app.c 437 */;
+	struct ip_vs_conn *cocci_id/* net/netfilter/ipvs/ip_vs_app.c 437 */;
+	int cocci_id/* net/netfilter/ipvs/ip_vs_app.c 437 */;
+	unsigned int cocci_id/* net/netfilter/ipvs/ip_vs_app.c 347 */;
+	struct ip_vs_seq *cocci_id/* net/netfilter/ipvs/ip_vs_app.c 346 */;
+	const struct ip_vs_seq *cocci_id/* net/netfilter/ipvs/ip_vs_app.c 315 */;
+}

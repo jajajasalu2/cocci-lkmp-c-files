@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	char *cocci_id/* drivers/net/wan/dlci.c 71 */;
+	unsigned int cocci_id/* drivers/net/wan/dlci.c 70 */;
+	struct frhdr cocci_id/* drivers/net/wan/dlci.c 69 */;
+	unsigned cocci_id/* drivers/net/wan/dlci.c 67 */;
+	const void *cocci_id/* drivers/net/wan/dlci.c 66 */;
+	unsigned short cocci_id/* drivers/net/wan/dlci.c 66 */;
+	struct sk_buff *cocci_id/* drivers/net/wan/dlci.c 65 */;
+	void cocci_id/* drivers/net/wan/dlci.c 57 */(struct net_device *);
+	const char cocci_id/* drivers/net/wan/dlci.c 53 */[];
+	void __exit cocci_id/* drivers/net/wan/dlci.c 522 */;
+	void cocci_id/* drivers/net/wan/dlci.c 522 */;
+	int __init cocci_id/* drivers/net/wan/dlci.c 512 */;
+	struct notifier_block cocci_id/* drivers/net/wan/dlci.c 508 */;
+	void *cocci_id/* drivers/net/wan/dlci.c 486 */;
+	unsigned long cocci_id/* drivers/net/wan/dlci.c 486 */;
+	struct notifier_block *cocci_id/* drivers/net/wan/dlci.c 485 */;
+	short cocci_id/* drivers/net/wan/dlci.c 480 */;
+	const struct net_device_ops cocci_id/* drivers/net/wan/dlci.c 459 */;
+	const struct header_ops cocci_id/* drivers/net/wan/dlci.c 455 */;
+	struct dlci_add cocci_id/* drivers/net/wan/dlci.c 425 */;
+	void __user *cocci_id/* drivers/net/wan/dlci.c 423 */;
+	bool cocci_id/* drivers/net/wan/dlci.c 379 */;
+	short *cocci_id/* drivers/net/wan/dlci.c 343 */;
+	struct dlci_local cocci_id/* drivers/net/wan/dlci.c 327 */;
+	struct frad_local *cocci_id/* drivers/net/wan/dlci.c 314 */;
+	struct dlci_local *cocci_id/* drivers/net/wan/dlci.c 313 */;
+	struct net_device *cocci_id/* drivers/net/wan/dlci.c 312 */;
+	struct dlci_add *cocci_id/* drivers/net/wan/dlci.c 310 */;
+	int cocci_id/* drivers/net/wan/dlci.c 310 */;
+	struct ifreq *cocci_id/* drivers/net/wan/dlci.c 232 */;
+	struct dlci_conf cocci_id/* drivers/net/wan/dlci.c 200 */;
+	struct dlci_conf __user *cocci_id/* drivers/net/wan/dlci.c 198 */;
+	struct netdev_queue *cocci_id/* drivers/net/wan/dlci.c 192 */;
+	netdev_tx_t cocci_id/* drivers/net/wan/dlci.c 187 */;
+	struct frhdr *cocci_id/* drivers/net/wan/dlci.c 103 */;
+}

@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	struct inode *cocci_id/* drivers/xen/mcelog.c 74 */;
+	struct xen_mce_log cocci_id/* drivers/xen/mcelog.c 62 */;
+	struct mcinfo_logical_cpu *cocci_id/* drivers/xen/mcelog.c 57 */;
+	struct mc_info cocci_id/* drivers/xen/mcelog.c 56 */;
+	int __init cocci_id/* drivers/xen/mcelog.c 402 */;
+	struct mcinfo_logical_cpu cocci_id/* drivers/xen/mcelog.c 379 */;
+	struct xen_mc cocci_id/* drivers/xen/mcelog.c 364 */;
+	int cocci_id/* drivers/xen/mcelog.c 361 */;
+	void cocci_id/* drivers/xen/mcelog.c 361 */;
+	irqreturn_t cocci_id/* drivers/xen/mcelog.c 355 */;
+	void *cocci_id/* drivers/xen/mcelog.c 355 */;
+	struct work_struct *cocci_id/* drivers/xen/mcelog.c 332 */;
+	uint32_t cocci_id/* drivers/xen/mcelog.c 295 */;
+	__u8 cocci_id/* drivers/xen/mcelog.c 250 */;
+	unsigned int cocci_id/* drivers/xen/mcelog.c 225 */;
+	struct xen_mce cocci_id/* drivers/xen/mcelog.c 224 */;
+	struct mcinfo_bank *cocci_id/* drivers/xen/mcelog.c 223 */;
+	struct mcinfo_global *cocci_id/* drivers/xen/mcelog.c 222 */;
+	struct mcinfo_common *cocci_id/* drivers/xen/mcelog.c 221 */;
+	struct mc_info *cocci_id/* drivers/xen/mcelog.c 219 */;
+	unsigned long *cocci_id/* drivers/xen/mcelog.c 210 */;
+	struct miscdevice cocci_id/* drivers/xen/mcelog.c 188 */;
+	const struct file_operations cocci_id/* drivers/xen/mcelog.c 179 */;
+	unsigned cocci_id/* drivers/xen/mcelog.c 166 */;
+	int __user *cocci_id/* drivers/xen/mcelog.c 155 */;
+	unsigned long cocci_id/* drivers/xen/mcelog.c 153 */;
+	struct file *cocci_id/* drivers/xen/mcelog.c 152 */;
+	long cocci_id/* drivers/xen/mcelog.c 152 */;
+	__poll_t cocci_id/* drivers/xen/mcelog.c 142 */;
+	poll_table *cocci_id/* drivers/xen/mcelog.c 142 */;
+	struct xen_mce *cocci_id/* drivers/xen/mcelog.c 124 */;
+	loff_t *cocci_id/* drivers/xen/mcelog.c 107 */;
+	size_t cocci_id/* drivers/xen/mcelog.c 107 */;
+	char __user *cocci_id/* drivers/xen/mcelog.c 106 */;
+	ssize_t cocci_id/* drivers/xen/mcelog.c 106 */;
+}

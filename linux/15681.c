@@ -1,0 +1,57 @@
+cocci_test_suite() {
+	struct gb_gpio_deactivate_request cocci_id/* drivers/staging/greybus/gpio.c 88 */;
+	struct gbphy_device *cocci_id/* drivers/staging/greybus/gpio.c 63 */;
+	struct gbphy_driver cocci_id/* drivers/staging/greybus/gpio.c 624 */;
+	struct gb_gpio_activate_request cocci_id/* drivers/staging/greybus/gpio.c 62 */;
+	const struct gbphy_device_id cocci_id/* drivers/staging/greybus/gpio.c 618 */[];
+	struct irq_chip *cocci_id/* drivers/staging/greybus/gpio.c 510 */;
+	struct gb_connection *cocci_id/* drivers/staging/greybus/gpio.c 507 */;
+	const struct gbphy_device_id *cocci_id/* drivers/staging/greybus/gpio.c 505 */;
+	struct gb_gpio_line_count_response cocci_id/* drivers/staging/greybus/gpio.c 50 */;
+	u16 cocci_id/* drivers/staging/greybus/gpio.c 484 */;
+	u32 cocci_id/* drivers/staging/greybus/gpio.c 475 */;
+	unsigned long cocci_id/* drivers/staging/greybus/gpio.c 472 */;
+	struct gb_gpio_controller cocci_id/* drivers/staging/greybus/gpio.c 45 */;
+	struct gpio_chip *cocci_id/* drivers/staging/greybus/gpio.c 435 */;
+	unsigned int cocci_id/* drivers/staging/greybus/gpio.c 435 */;
+	struct irq_desc *cocci_id/* drivers/staging/greybus/gpio.c 368 */;
+	struct gb_gpio_irq_event_request *cocci_id/* drivers/staging/greybus/gpio.c 365 */;
+	struct gb_message *cocci_id/* drivers/staging/greybus/gpio.c 364 */;
+	struct gb_operation *cocci_id/* drivers/staging/greybus/gpio.c 359 */;
+	struct gb_gpio_line *cocci_id/* drivers/staging/greybus/gpio.c 341 */;
+	struct gb_gpio_controller {
+		struct gbphy_device *gbphy_dev;
+		struct gb_connection *connection;
+		u8 line_max;
+		struct gb_gpio_line *lines;
+		struct gpio_chip chip;
+		struct irq_chip irqc;
+		struct mutex irq_lock;
+	} cocci_id/* drivers/staging/greybus/gpio.c 34 */;
+	struct irq_data *cocci_id/* drivers/staging/greybus/gpio.c 329 */;
+	struct gb_gpio_irq_type_request cocci_id/* drivers/staging/greybus/gpio.c 258 */;
+	struct gb_gpio_irq_unmask_request cocci_id/* drivers/staging/greybus/gpio.c 243 */;
+	int cocci_id/* drivers/staging/greybus/gpio.c 230 */;
+	struct gb_gpio_irq_mask_request cocci_id/* drivers/staging/greybus/gpio.c 229 */;
+	struct device *cocci_id/* drivers/staging/greybus/gpio.c 228 */;
+	u8 cocci_id/* drivers/staging/greybus/gpio.c 226 */;
+	struct gb_gpio_controller *cocci_id/* drivers/staging/greybus/gpio.c 226 */;
+	void cocci_id/* drivers/staging/greybus/gpio.c 226 */;
+	struct gb_gpio_set_debounce_request cocci_id/* drivers/staging/greybus/gpio.c 214 */;
+	struct gb_gpio_line {
+		u8 active:1,direction:1,value:1;
+		u16 debounce_usec;
+		u8 irq_type;
+		bool irq_type_pending;
+		bool masked;
+		bool masked_pending;
+	} cocci_id/* drivers/staging/greybus/gpio.c 20 */;
+	struct gb_gpio_set_value_request cocci_id/* drivers/staging/greybus/gpio.c 190 */;
+	struct gb_gpio_get_value_response cocci_id/* drivers/staging/greybus/gpio.c 164 */;
+	struct gb_gpio_get_value_request cocci_id/* drivers/staging/greybus/gpio.c 163 */;
+	struct gb_gpio_direction_out_request cocci_id/* drivers/staging/greybus/gpio.c 147 */;
+	bool cocci_id/* drivers/staging/greybus/gpio.c 145 */;
+	struct gb_gpio_direction_in_request cocci_id/* drivers/staging/greybus/gpio.c 133 */;
+	struct gb_gpio_get_direction_response cocci_id/* drivers/staging/greybus/gpio.c 110 */;
+	struct gb_gpio_get_direction_request cocci_id/* drivers/staging/greybus/gpio.c 109 */;
+}

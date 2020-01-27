@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	iopte_t cocci_id/* arch/sparc/mm/io-unit.c 99 */;
+	int cocci_id/* arch/sparc/mm/io-unit.c 95 */;
+	struct platform_device *cocci_id/* arch/sparc/mm/io-unit.c 81 */;
+	struct device_node *cocci_id/* arch/sparc/mm/io-unit.c 78 */;
+	void cocci_id/* arch/sparc/mm/io-unit.c 77 */(void);
+	int __init cocci_id/* arch/sparc/mm/io-unit.c 75 */;
+	struct iounit_struct cocci_id/* arch/sparc/mm/io-unit.c 47 */;
+	void __init cocci_id/* arch/sparc/mm/io-unit.c 41 */;
+	const struct dma_map_ops cocci_id/* arch/sparc/mm/io-unit.c 281 */;
+	dma_addr_t cocci_id/* arch/sparc/mm/io-unit.c 275 */;
+	void cocci_id/* arch/sparc/mm/io-unit.c 274 */;
+	long cocci_id/* arch/sparc/mm/io-unit.c 246 */;
+	pte_t *cocci_id/* arch/sparc/mm/io-unit.c 245 */;
+	pmd_t *cocci_id/* arch/sparc/mm/io-unit.c 244 */;
+	pud_t *cocci_id/* arch/sparc/mm/io-unit.c 243 */;
+	p4d_t *cocci_id/* arch/sparc/mm/io-unit.c 242 */;
+	pgd_t *cocci_id/* arch/sparc/mm/io-unit.c 241 */;
+	iopte_t __iomem *cocci_id/* arch/sparc/mm/io-unit.c 220 */;
+	pgprot_t cocci_id/* arch/sparc/mm/io-unit.c 219 */;
+	struct iounit_struct *cocci_id/* arch/sparc/mm/io-unit.c 217 */;
+	gfp_t cocci_id/* arch/sparc/mm/io-unit.c 215 */;
+	dma_addr_t *cocci_id/* arch/sparc/mm/io-unit.c 215 */;
+	unsigned long cocci_id/* arch/sparc/mm/io-unit.c 215 */;
+	struct device *cocci_id/* arch/sparc/mm/io-unit.c 214 */;
+	void *cocci_id/* arch/sparc/mm/io-unit.c 214 */;
+	size_t cocci_id/* arch/sparc/mm/io-unit.c 214 */;
+	struct scatterlist *cocci_id/* arch/sparc/mm/io-unit.c 161 */;
+	enum dma_data_direction cocci_id/* arch/sparc/mm/io-unit.c 144 */;
+	struct page *cocci_id/* arch/sparc/mm/io-unit.c 143 */;
+}

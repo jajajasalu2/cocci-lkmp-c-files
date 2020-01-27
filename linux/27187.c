@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	struct rb_node *cocci_id/* fs/dlm/lockspace.c 768 */;
+	struct dlm_rsb *cocci_id/* fs/dlm/lockspace.c 767 */;
+	struct dlm_lkb *cocci_id/* fs/dlm/lockspace.c 736 */;
+	dlm_lockspace_t **cocci_id/* fs/dlm/lockspace.c 699 */;
+	int *cocci_id/* fs/dlm/lockspace.c 699 */;
+	const struct dlm_lockspace_ops *cocci_id/* fs/dlm/lockspace.c 698 */;
+	void *cocci_id/* fs/dlm/lockspace.c 698 */;
+	struct dlm_rsb cocci_id/* fs/dlm/lockspace.c 557 */;
+	struct dlm_rsbtable cocci_id/* fs/dlm/lockspace.c 519 */;
+	int cocci_id/* fs/dlm/lockspace.c 38 */;
+	dlm_lockspace_t *cocci_id/* fs/dlm/lockspace.c 336 */;
+	uint32_t cocci_id/* fs/dlm/lockspace.c 318 */;
+	spinlock_t cocci_id/* fs/dlm/lockspace.c 31 */;
+	struct task_struct *cocci_id/* fs/dlm/lockspace.c 302 */;
+	struct list_head cocci_id/* fs/dlm/lockspace.c 30 */;
+	struct mutex cocci_id/* fs/dlm/lockspace.c 29 */;
+	void cocci_id/* fs/dlm/lockspace.c 256 */;
+	int __init cocci_id/* fs/dlm/lockspace.c 241 */;
+	const struct kset_uevent_ops cocci_id/* fs/dlm/lockspace.c 237 */;
+	struct kobj_uevent_env *cocci_id/* fs/dlm/lockspace.c 229 */;
+	struct kset *cocci_id/* fs/dlm/lockspace.c 196 */;
+	struct kobj_type cocci_id/* fs/dlm/lockspace.c 190 */;
+	const struct sysfs_ops cocci_id/* fs/dlm/lockspace.c 185 */;
+	const char *cocci_id/* fs/dlm/lockspace.c 172 */;
+	size_t cocci_id/* fs/dlm/lockspace.c 172 */;
+	struct dlm_attr *cocci_id/* fs/dlm/lockspace.c 167 */;
+	struct dlm_ls cocci_id/* fs/dlm/lockspace.c 166 */;
+	struct dlm_ls *cocci_id/* fs/dlm/lockspace.c 166 */;
+	char *cocci_id/* fs/dlm/lockspace.c 164 */;
+	struct kobject *cocci_id/* fs/dlm/lockspace.c 163 */;
+	struct attribute *cocci_id/* fs/dlm/lockspace.c 163 */;
+	ssize_t cocci_id/* fs/dlm/lockspace.c 163 */;
+	struct attribute *cocci_id/* fs/dlm/lockspace.c 152 */[];
+	struct dlm_attr cocci_id/* fs/dlm/lockspace.c 120 */;
+	struct dlm_attr {
+		struct attribute attr;
+		ssize_t (*show)(struct dlm_ls *, char *);
+		ssize_t (*store)(struct dlm_ls *, const char *, size_t);
+	} cocci_id/* fs/dlm/lockspace.c 114 */;
+}

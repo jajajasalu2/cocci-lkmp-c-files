@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	uint cocci_id/* drivers/infiniband/hw/hfi1/init.c 97 */[RXE_NUM_DATA_VL];
+	u32 cocci_id/* drivers/infiniband/hw/hfi1/init.c 762 */;
+	u8 cocci_id/* drivers/infiniband/hw/hfi1/init.c 644 */;
+	struct cca_timer cocci_id/* drivers/infiniband/hw/hfi1/init.c 599 */;
+	struct cc_state *cocci_id/* drivers/infiniband/hw/hfi1/init.c 595 */;
+	struct hfi1_pportdata *cocci_id/* drivers/infiniband/hw/hfi1/init.c 592 */;
+	struct cca_timer *cocci_id/* drivers/infiniband/hw/hfi1/init.c 591 */;
+	enum hrtimer_restart cocci_id/* drivers/infiniband/hw/hfi1/init.c 589 */;
+	struct hrtimer *cocci_id/* drivers/infiniband/hw/hfi1/init.c 589 */;
+	unsigned cocci_id/* drivers/infiniband/hw/hfi1/init.c 349 */;
+	struct hfi1_ctxtdata **cocci_id/* drivers/infiniband/hw/hfi1/init.c 345 */;
+	u16 cocci_id/* drivers/infiniband/hw/hfi1/init.c 269 */;
+	unsigned long cocci_id/* drivers/infiniband/hw/hfi1/init.c 268 */;
+	u16 *cocci_id/* drivers/infiniband/hw/hfi1/init.c 266 */;
+	struct hfi1_ctxtdata *cocci_id/* drivers/infiniband/hw/hfi1/init.c 266 */;
+	int cocci_id/* drivers/infiniband/hw/hfi1/init.c 265 */;
+	struct hfi1_ctxtdata cocci_id/* drivers/infiniband/hw/hfi1/init.c 216 */;
+	struct kref *cocci_id/* drivers/infiniband/hw/hfi1/init.c 212 */;
+	gfp_t cocci_id/* drivers/infiniband/hw/hfi1/init.c 1848 */;
+	const struct pci_device_id *cocci_id/* drivers/infiniband/hw/hfi1/init.c 1637 */;
+	void *cocci_id/* drivers/infiniband/hw/hfi1/init.c 1561 */;
+	u64 cocci_id/* drivers/infiniband/hw/hfi1/init.c 1560 */;
+	void __exit cocci_id/* drivers/infiniband/hw/hfi1/init.c 1516 */;
+	int __init cocci_id/* drivers/infiniband/hw/hfi1/init.c 1429 */;
+	void __init cocci_id/* drivers/infiniband/hw/hfi1/init.c 1417 */;
+	struct pci_driver cocci_id/* drivers/infiniband/hw/hfi1/init.c 1408 */;
+	const struct pci_device_id cocci_id/* drivers/infiniband/hw/hfi1/init.c 1400 */[];
+	int cocci_id/* drivers/infiniband/hw/hfi1/init.c 1394 */(struct pci_dev *,
+								 const struct pci_device_id *);
+	void cocci_id/* drivers/infiniband/hw/hfi1/init.c 1393 */(struct pci_dev *);
+	struct hfi1_opcode_stats_perctx cocci_id/* drivers/infiniband/hw/hfi1/init.c 1340 */;
+	struct hfi1_pportdata cocci_id/* drivers/infiniband/hw/hfi1/init.c 1283 */;
+	size_t cocci_id/* drivers/infiniband/hw/hfi1/init.c 1277 */;
+	struct pci_dev *cocci_id/* drivers/infiniband/hw/hfi1/init.c 1276 */;
+	struct kobj_type cocci_id/* drivers/infiniband/hw/hfi1/init.c 1258 */;
+	struct hfi1_devdata cocci_id/* drivers/infiniband/hw/hfi1/init.c 1253 */;
+	struct hfi1_devdata *cocci_id/* drivers/infiniband/hw/hfi1/init.c 1252 */;
+	struct kobject *cocci_id/* drivers/infiniband/hw/hfi1/init.c 1250 */;
+	void cocci_id/* drivers/infiniband/hw/hfi1/init.c 1250 */;
+	u64 cocci_id/* drivers/infiniband/hw/hfi1/init.c 125 */(u16 size);
+	struct hfi1_asic_data *cocci_id/* drivers/infiniband/hw/hfi1/init.c 1210 */;
+	unsigned int cocci_id/* drivers/infiniband/hw/hfi1/init.c 121 */;
+	uint cocci_id/* drivers/infiniband/hw/hfi1/init.c 109 */;
+}

@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/pci/controller/dwc/pcie-spear13xx.c 77 */;
+	struct pcie_app_reg {
+		u32 app_ctrl_0;
+		u32 app_ctrl_1;
+		u32 app_status_0;
+		u32 app_status_1;
+		u32 msg_status;
+		u32 msg_payload;
+		u32 int_sts;
+		u32 int_clr;
+		u32 int_mask;
+		u32 mst_bmisc;
+		u32 phy_ctrl;
+		u32 phy_status;
+		u32 cxpl_debug_info_0;
+		u32 cxpl_debug_info_1;
+		u32 ven_msg_ctrl_0;
+		u32 ven_msg_ctrl_1;
+		u32 ven_msg_data_0;
+		u32 ven_msg_data_1;
+		u32 ven_msi_0;
+		u32 ven_msi_1;
+		u32 mst_rmisc;
+	} cocci_id/* drivers/pci/controller/dwc/pcie-spear13xx.c 32 */;
+	struct platform_driver cocci_id/* drivers/pci/controller/dwc/pcie-spear13xx.c 304 */;
+	const struct of_device_id cocci_id/* drivers/pci/controller/dwc/pcie-spear13xx.c 299 */[];
+	struct spear13xx_pcie {
+		struct dw_pcie *pci;
+		void __iomem *app_base;
+		struct phy *phy;
+		struct clk *clk;
+		bool is_gen1;
+	} cocci_id/* drivers/pci/controller/dwc/pcie-spear13xx.c 24 */;
+	struct resource *cocci_id/* drivers/pci/controller/dwc/pcie-spear13xx.c 234 */;
+	struct device_node *cocci_id/* drivers/pci/controller/dwc/pcie-spear13xx.c 233 */;
+	const struct dw_pcie_ops cocci_id/* drivers/pci/controller/dwc/pcie-spear13xx.c 224 */;
+	struct device *cocci_id/* drivers/pci/controller/dwc/pcie-spear13xx.c 197 */;
+	struct pcie_port *cocci_id/* drivers/pci/controller/dwc/pcie-spear13xx.c 196 */;
+	struct dw_pcie *cocci_id/* drivers/pci/controller/dwc/pcie-spear13xx.c 195 */;
+	struct platform_device *cocci_id/* drivers/pci/controller/dwc/pcie-spear13xx.c 193 */;
+	struct spear13xx_pcie *cocci_id/* drivers/pci/controller/dwc/pcie-spear13xx.c 192 */;
+	int cocci_id/* drivers/pci/controller/dwc/pcie-spear13xx.c 192 */;
+	const struct dw_pcie_host_ops cocci_id/* drivers/pci/controller/dwc/pcie-spear13xx.c 188 */;
+	struct pcie_app_reg *cocci_id/* drivers/pci/controller/dwc/pcie-spear13xx.c 156 */;
+	void cocci_id/* drivers/pci/controller/dwc/pcie-spear13xx.c 152 */;
+	unsigned int cocci_id/* drivers/pci/controller/dwc/pcie-spear13xx.c 138 */;
+	irqreturn_t cocci_id/* drivers/pci/controller/dwc/pcie-spear13xx.c 132 */;
+	void *cocci_id/* drivers/pci/controller/dwc/pcie-spear13xx.c 132 */;
+}

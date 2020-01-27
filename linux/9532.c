@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	const struct rate_control_ops cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 298 */;
+	struct rtl_rate_priv *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 279 */;
+	gfp_t cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 276 */;
+	struct ieee80211_hw *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 264 */;
+	struct dentry *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 264 */;
+	u32 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 260 */;
+	struct cfg80211_chan_def *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 251 */;
+	struct ieee80211_supported_band *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 250 */;
+	struct ieee80211_tx_rate cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 24 */;
+	u16 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 22 */;
+	struct ieee80211_hdr *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 215 */;
+	struct rtl_sta_info *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 21 */;
+	struct rtl_phy *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 20 */;
+	struct rtl_hal *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 19 */;
+	__le16 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 172 */;
+	struct ieee80211_tx_info *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 170 */;
+	bool cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 17 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 17 */;
+	void *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 164 */;
+	struct ieee80211_sta *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 16 */;
+	u8 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 15 */;
+	struct rtl_priv *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 15 */;
+	struct rtl_mac *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 118 */;
+	s8 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 115 */;
+	int cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 115 */;
+	struct ieee80211_tx_rate_control *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 114 */;
+	struct ieee80211_tx_rate *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 113 */;
+	void cocci_id/* drivers/net/wireless/realtek/rtlwifi/rc.c 111 */;
+}

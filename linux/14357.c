@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	struct tc90522_state cocci_id/* drivers/media/dvb-frontends/tc90522.c 94 */;
+	struct tc90522_state *cocci_id/* drivers/media/dvb-frontends/tc90522.c 92 */;
+	struct tc90522_config *cocci_id/* drivers/media/dvb-frontends/tc90522.c 92 */;
+	struct i2c_driver cocci_id/* drivers/media/dvb-frontends/tc90522.c 840 */;
+	const struct i2c_device_id cocci_id/* drivers/media/dvb-frontends/tc90522.c 833 */[];
+	const struct dvb_frontend_ops *cocci_id/* drivers/media/dvb-frontends/tc90522.c 787 */;
+	const struct i2c_device_id *cocci_id/* drivers/media/dvb-frontends/tc90522.c 783 */;
+	struct i2c_client *cocci_id/* drivers/media/dvb-frontends/tc90522.c 782 */;
+	const struct dvb_frontend_ops cocci_id/* drivers/media/dvb-frontends/tc90522.c 736 */;
+	const struct i2c_algorithm cocci_id/* drivers/media/dvb-frontends/tc90522.c 726 */;
+	u32 cocci_id/* drivers/media/dvb-frontends/tc90522.c 721 */;
+	struct i2c_adapter *cocci_id/* drivers/media/dvb-frontends/tc90522.c 721 */;
+	struct i2c_msg cocci_id/* drivers/media/dvb-frontends/tc90522.c 68 */[2];
+	u8 cocci_id/* drivers/media/dvb-frontends/tc90522.c 66 */;
+	u8 *cocci_id/* drivers/media/dvb-frontends/tc90522.c 66 */;
+	int cocci_id/* drivers/media/dvb-frontends/tc90522.c 66 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/tc90522.c 640 */[256];
+	struct i2c_msg *cocci_id/* drivers/media/dvb-frontends/tc90522.c 634 */;
+	struct reg_val *cocci_id/* drivers/media/dvb-frontends/tc90522.c 542 */;
+	struct reg_val cocci_id/* drivers/media/dvb-frontends/tc90522.c 530 */[];
+	bool cocci_id/* drivers/media/dvb-frontends/tc90522.c 528 */;
+	struct dvb_frontend_tune_settings *cocci_id/* drivers/media/dvb-frontends/tc90522.c 514 */;
+	struct dvb_frontend *cocci_id/* drivers/media/dvb-frontends/tc90522.c 513 */;
+	struct i2c_msg cocci_id/* drivers/media/dvb-frontends/tc90522.c 49 */;
+	const struct reg_val cocci_id/* drivers/media/dvb-frontends/tc90522.c 474 */;
+	const struct reg_val *cocci_id/* drivers/media/dvb-frontends/tc90522.c 46 */;
+	struct reg_val {
+		u8 reg;
+		u8 val;
+	} cocci_id/* drivers/media/dvb-frontends/tc90522.c 40 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/tc90522.c 337 */[15];
+	const enum fe_modulation cocci_id/* drivers/media/dvb-frontends/tc90522.c 326 */[];
+	const enum fe_transmit_mode cocci_id/* drivers/media/dvb-frontends/tc90522.c 315 */[];
+	struct tc90522_state {
+		struct tc90522_config cfg;
+		struct dvb_frontend fe;
+		struct i2c_client *i2c_client;
+		struct i2c_adapter tuner_i2c;
+		bool lna;
+	} cocci_id/* drivers/media/dvb-frontends/tc90522.c 31 */;
+	s64 cocci_id/* drivers/media/dvb-frontends/tc90522.c 259 */;
+	u16 cocci_id/* drivers/media/dvb-frontends/tc90522.c 245 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/tc90522.c 202 */[10];
+	struct dtv_fe_stats *cocci_id/* drivers/media/dvb-frontends/tc90522.c 199 */;
+	struct dtv_frontend_properties *cocci_id/* drivers/media/dvb-frontends/tc90522.c 196 */;
+	const enum fe_code_rate cocci_id/* drivers/media/dvb-frontends/tc90522.c 188 */[];
+	enum fe_status *cocci_id/* drivers/media/dvb-frontends/tc90522.c 124 */;
+	struct reg_val cocci_id/* drivers/media/dvb-frontends/tc90522.c 112 */;
+}

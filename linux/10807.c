@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	const struct amdgpu_asic_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 983 */;
+	uint64_t cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 971 */;
+	uint32_t cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 855 */;
+	uint64_t *cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 852 */;
+	const struct amdgpu_ip_block_version cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 662 */;
+	struct amdgpu_hive_info *cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 568 */;
+	bool cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 552 */;
+	enum amd_reset_method cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 549 */;
+	const struct amd_pm_funcs *cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 517 */;
+	void *cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 516 */;
+	struct smu_context *cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 511 */;
+	struct amdgpu_ras *cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 502 */;
+	struct amdgpu_device *cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 500 */;
+	int cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 500 */;
+	bool *cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 480 */;
+	u32 cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 448 */;
+	const u32 cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 416 */;
+	const struct soc15_reg_golden *cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 415 */;
+	struct soc15_allowed_register_entry *cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 385 */;
+	struct soc15_allowed_register_entry cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 326 */[];
+	u8 *cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 301 */;
+	unsigned long cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 196 */;
+	const struct amd_ip_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 1574 */;
+	enum amd_powergating_state cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 1568 */;
+	u32 *cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 1534 */;
+	void cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 1534 */;
+	enum amd_clockgating_state cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 1483 */;
+	struct amdgpu_ring *cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 1292 */;
+	u64 cocci_id/* drivers/gpu/drm/amd/amdgpu/soc15.c 123 */;
+}

@@ -1,0 +1,47 @@
+cocci_test_suite() {
+	u16 cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 98 */;
+	struct spi_transfer cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 97 */;
+	struct spi_message cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 96 */;
+	u8 cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 94 */;
+	struct panel_drv_data cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 92 */;
+	const struct omap_video_timings cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 71 */;
+	struct spi_driver cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 634 */;
+	const struct of_device_id cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 627 */[];
+	struct panel_drv_data {
+		struct omap_dss_device dssdev;
+		struct omap_dss_device *in;
+		struct omap_video_timings videomode;
+		int data_lines;
+		struct spi_device *spi;
+		struct regulator *vcc_reg;
+		int nreset_gpio;
+		u16 gamma[12];
+		u32 mode;
+		u32 hmirror:1;
+		u32 vmirror:1;
+		u32 powered_on:1;
+		u32 spi_suspended:1;
+		u32 power_on_resume:1;
+	} cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 51 */;
+	struct spi_device *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 488 */;
+	const u16 cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 47 */[12];
+	struct device_node *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 465 */;
+	struct omap_dss_driver cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 445 */;
+	struct panel_drv_data *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 439 */;
+	struct omap_video_timings *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 437 */;
+	struct omap_dss_device *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 436 */;
+	int cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 436 */;
+	void cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 400 */;
+	const struct attribute_group cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 281 */;
+	struct attribute *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 274 */[];
+	unsigned int cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 248 */[12];
+	const char *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 245 */;
+	size_t cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 245 */;
+	struct device_attribute *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 225 */;
+	char *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 225 */;
+	struct device *cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 224 */;
+	ssize_t cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 224 */;
+	long cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 209 */;
+	bool cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 160 */;
+	u16 cocci_id/* drivers/video/fbdev/omap2/omapfb/displays/panel-tpo-td043mtea1.c 117 */[12];
+}

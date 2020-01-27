@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct ib_pma_portcounters_ext *cocci_id/* drivers/infiniband/hw/mlx5/mad.c 77 */;
+	void *cocci_id/* drivers/infiniband/hw/mlx5/mad.c 58 */;
+	const struct ib_grh *cocci_id/* drivers/infiniband/hw/mlx5/mad.c 57 */;
+	const void *cocci_id/* drivers/infiniband/hw/mlx5/mad.c 57 */;
+	const struct ib_wc *cocci_id/* drivers/infiniband/hw/mlx5/mad.c 56 */;
+	__be32 *cocci_id/* drivers/infiniband/hw/mlx5/mad.c 551 */;
+	int cocci_id/* drivers/infiniband/hw/mlx5/mad.c 55 */;
+	struct mlx5_core_dev *cocci_id/* drivers/infiniband/hw/mlx5/mad.c 522 */;
+	struct ib_port_attr *cocci_id/* drivers/infiniband/hw/mlx5/mad.c 519 */;
+	union ib_gid *cocci_id/* drivers/infiniband/hw/mlx5/mad.c 479 */;
+	struct ib_mad *cocci_id/* drivers/infiniband/hw/mlx5/mad.c 47 */;
+	u8 cocci_id/* drivers/infiniband/hw/mlx5/mad.c 46 */;
+	bool cocci_id/* drivers/infiniband/hw/mlx5/mad.c 46 */;
+	struct mlx5_ib_dev *cocci_id/* drivers/infiniband/hw/mlx5/mad.c 46 */;
+	__be64 *cocci_id/* drivers/infiniband/hw/mlx5/mad.c 424 */;
+	enum{MLX5_IB_VENDOR_CLASS1=0x9, MLX5_IB_VENDOR_CLASS2=0xa,} cocci_id/* drivers/infiniband/hw/mlx5/mad.c 41 */;
+	char *cocci_id/* drivers/infiniband/hw/mlx5/mad.c 399 */;
+	u32 *cocci_id/* drivers/infiniband/hw/mlx5/mad.c 378 */;
+	__be16 *cocci_id/* drivers/infiniband/hw/mlx5/mad.c 369 */;
+	struct ib_smp *cocci_id/* drivers/infiniband/hw/mlx5/mad.c 286 */;
+	u16 cocci_id/* drivers/infiniband/hw/mlx5/mad.c 228 */;
+	u16 *cocci_id/* drivers/infiniband/hw/mlx5/mad.c 223 */;
+	size_t *cocci_id/* drivers/infiniband/hw/mlx5/mad.c 223 */;
+	const struct ib_mad *cocci_id/* drivers/infiniband/hw/mlx5/mad.c 222 */;
+	struct ib_device *cocci_id/* drivers/infiniband/hw/mlx5/mad.c 220 */;
+	struct ib_class_port_info cocci_id/* drivers/infiniband/hw/mlx5/mad.c 172 */;
+	struct ib_pma_portcounters *cocci_id/* drivers/infiniband/hw/mlx5/mad.c 110 */;
+	void cocci_id/* drivers/infiniband/hw/mlx5/mad.c 110 */;
+}

@@ -1,0 +1,67 @@
+cocci_test_suite() {
+	char *cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 976 */;
+	const struct usb_ep_ops cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 954 */;
+	unsigned long cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 930 */;
+	const char *constcocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 90 */[];
+	gfp_t cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 827 */;
+	const struct usb_endpoint_descriptor *cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 749 */;
+	u16 *cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 632 */;
+	struct usb_ctrlrequest cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 628 */;
+	__le16 cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 591 */;
+	u8 cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 563 */;
+	bool cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 562 */;
+	struct usb_ctrlrequest *cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 559 */;
+	u16 cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 400 */;
+	struct s3c_hsudc *cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 246 */;
+	unsigned int cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 245 */;
+	int cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 243 */;
+	u32 cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 184 */;
+	void __iomem *cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 184 */;
+	void cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 184 */;
+	struct s3c_hsudc_ep cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 170 */;
+	struct usb_ep *cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 168 */;
+	struct s3c_hsudc_ep *cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 168 */;
+	struct s3c_hsudc_req cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 165 */;
+	struct usb_request *cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 163 */;
+	struct s3c_hsudc_req *cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 163 */;
+	const char cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 160 */[];
+	struct s3c_hsudc {
+		struct usb_gadget gadget;
+		struct usb_gadget_driver *driver;
+		struct device *dev;
+		struct s3c24xx_hsudc_platdata *pd;
+		struct usb_phy *transceiver;
+		struct regulator_bulk_data supplies[ARRAY_SIZE(s3c_hsudc_supply_names)];
+		spinlock_t lock;
+		void __iomem *regs;
+		int irq;
+		struct clk *uclk;
+		int ep0state;
+		struct s3c_hsudc_ep ep[];
+	} cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 140 */;
+	struct platform_driver cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 1352 */;
+	struct s3c_hsudc cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 1270 */;
+	struct s3c24xx_hsudc_platdata *cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 1267 */;
+	struct device *cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 1265 */;
+	struct platform_device *cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 1263 */;
+	const struct usb_gadget_ops cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 1256 */;
+	unsigned cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 1243 */;
+	struct usb_gadget *cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 1238 */;
+	struct s3c_hsudc_req {
+		struct usb_request req;
+		struct list_head queue;
+	} cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 123 */;
+	struct usb_gadget_driver *cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 1150 */;
+	struct s3c_hsudc_ep {
+		struct usb_ep ep;
+		char name[20];
+		struct s3c_hsudc *dev;
+		struct list_head queue;
+		u8 stopped;
+		u8 wedge;
+		u8 bEndpointAddress;
+		void __iomem *fifo;
+	} cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 107 */;
+	irqreturn_t cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 1066 */;
+	void *cocci_id/* drivers/usb/gadget/udc/s3c-hsudc.c 1066 */;
+}

@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	u8 __iomem *cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 996 */;
+	u32 cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 856 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 856 */;
+	struct sram_channel cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 85 */[];
+	unsigned int cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 61 */;
+	uint32_t cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 609 */;
+	struct sram_channel *cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 527 */;
+	unsigned int cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 51 */[];
+	char *cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 407 */[];
+	int cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 398 */[16];
+	char *cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 386 */[16];
+	void __exit cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 2250 */;
+	int __init cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 2243 */;
+	struct pci_driver cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 2233 */;
+	const struct pci_device_id cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 2214 */[];
+	struct v4l2_device *cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 2195 */;
+	unsigned long long cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 2147 */;
+	struct v4l2_ctrl_handler *cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 2104 */;
+	const struct pci_device_id *cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 2101 */;
+	struct pci_dev *cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 2082 */;
+	bool cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 2079 */;
+	const struct {
+		int vendor,dev;
+	} cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 2069 */[];
+	u32 *cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 1954 */;
+	irqreturn_t cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 1776 */;
+	void *cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 1776 */;
+	char *cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 1643 */;
+	struct cx23885_buffer cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 1631 */;
+	unsigned long cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 1617 */;
+	struct cx23885_dmaqueue *cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 1616 */;
+	void cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 1612 */;
+	struct sg_table *cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 1578 */;
+	struct cx23885_dev *cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 1576 */;
+	struct cx23885_tsport *cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 1574 */;
+	struct cx23885_buffer *cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 1574 */;
+	int cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 1574 */;
+	struct cx23885_riscmem *cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 1323 */;
+	__le32 *cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 1204 */;
+	struct scatterlist *cocci_id/* drivers/media/pci/cx23885/cx23885-core.c 1199 */;
+}

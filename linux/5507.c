@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* drivers/spi/spi-fsl-spi.c 95 */;
+	__be32 __iomem *cocci_id/* drivers/spi/spi-fsl-spi.c 94 */;
+	struct spi_mpc8xxx_cs *cocci_id/* drivers/spi/spi-fsl-spi.c 92 */;
+	void cocci_id/* drivers/spi/spi-fsl-spi.c 89 */;
+	void __exit cocci_id/* drivers/spi/spi-fsl-spi.c 858 */;
+	int __init cocci_id/* drivers/spi/spi-fsl-spi.c 851 */;
+	struct fsl_spi_match_data *cocci_id/* drivers/spi/spi-fsl-spi.c 84 */;
+	void __init cocci_id/* drivers/spi/spi-fsl-spi.c 835 */;
+	struct platform_driver cocci_id/* drivers/spi/spi-fsl-spi.c 825 */;
+	const struct of_device_id *cocci_id/* drivers/spi/spi-fsl-spi.c 79 */;
+	struct resource cocci_id/* drivers/spi/spi-fsl-spi.c 708 */;
+	struct device_node *cocci_id/* drivers/spi/spi-fsl-spi.c 706 */;
+	struct platform_device *cocci_id/* drivers/spi/spi-fsl-spi.c 703 */;
+	struct mpc8xxx_spi_probe_info *cocci_id/* drivers/spi/spi-fsl-spi.c 695 */;
+	struct device *cocci_id/* drivers/spi/spi-fsl-spi.c 693 */;
+	const struct of_device_id cocci_id/* drivers/spi/spi-fsl-spi.c 64 */[];
+	struct mpc8xxx_spi cocci_id/* drivers/spi/spi-fsl-spi.c 601 */;
+	struct resource *cocci_id/* drivers/spi/spi-fsl-spi.c 592 */;
+	struct fsl_spi_match_data cocci_id/* drivers/spi/spi-fsl-spi.c 56 */;
+	u16 cocci_id/* drivers/spi/spi-fsl-spi.c 555 */;
+	s32 cocci_id/* drivers/spi/spi-fsl-spi.c 528 */;
+	irqreturn_t cocci_id/* drivers/spi/spi-fsl-spi.c 528 */;
+	void *cocci_id/* drivers/spi/spi-fsl-spi.c 528 */;
+	struct fsl_spi_match_data {
+		int type;
+	} cocci_id/* drivers/spi/spi-fsl-spi.c 52 */;
+	const int cocci_id/* drivers/spi/spi-fsl-spi.c 365 */;
+	struct spi_message *cocci_id/* drivers/spi/spi-fsl-spi.c 359 */;
+	struct spi_master *cocci_id/* drivers/spi/spi-fsl-spi.c 358 */;
+	u8 cocci_id/* drivers/spi/spi-fsl-spi.c 314 */;
+	unsigned int cocci_id/* drivers/spi/spi-fsl-spi.c 313 */;
+	struct fsl_spi_reg *cocci_id/* drivers/spi/spi-fsl-spi.c 312 */;
+	struct mpc8xxx_spi *cocci_id/* drivers/spi/spi-fsl-spi.c 311 */;
+	bool cocci_id/* drivers/spi/spi-fsl-spi.c 309 */;
+	struct spi_transfer *cocci_id/* drivers/spi/spi-fsl-spi.c 308 */;
+	struct spi_device *cocci_id/* drivers/spi/spi-fsl-spi.c 308 */;
+	int cocci_id/* drivers/spi/spi-fsl-spi.c 308 */;
+	u32 cocci_id/* drivers/spi/spi-fsl-spi.c 293 */;
+	u32 *cocci_id/* drivers/spi/spi-fsl-spi.c 160 */;
+	struct fsl_spi_platform_data *cocci_id/* drivers/spi/spi-fsl-spi.c 117 */;
+}

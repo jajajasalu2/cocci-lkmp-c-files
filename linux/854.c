@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	struct mtd_info *cocci_id/* drivers/mtd/nand/spi/core.c 957 */;
+	const struct mtd_ooblayout_ops cocci_id/* drivers/mtd/nand/spi/core.c 949 */;
+	struct mtd_oob_region *cocci_id/* drivers/mtd/nand/spi/core.c 931 */;
+	struct device *cocci_id/* drivers/mtd/nand/spi/core.c 893 */;
+	const struct spi_mem_op *cocci_id/* drivers/mtd/nand/spi/core.c 856 */;
+	u16 cocci_id/* drivers/mtd/nand/spi/core.c 849 */;
+	const struct spinand_info *cocci_id/* drivers/mtd/nand/spi/core.c 848 */;
+	const struct spinand_op_variants *cocci_id/* drivers/mtd/nand/spi/core.c 800 */;
+	const struct spinand_manufacturer *cocci_id/* drivers/mtd/nand/spi/core.c 756 */[];
+	const struct nand_ops cocci_id/* drivers/mtd/nand/spi/core.c 750 */;
+	struct spi_mem_dirmap_desc *cocci_id/* drivers/mtd/nand/spi/core.c 705 */;
+	struct spi_mem_dirmap_info cocci_id/* drivers/mtd/nand/spi/core.c 701 */;
+	unsigned int cocci_id/* drivers/mtd/nand/spi/core.c 698 */;
+	struct erase_info *cocci_id/* drivers/mtd/nand/spi/core.c 670 */;
+	const struct nand_pos *cocci_id/* drivers/mtd/nand/spi/core.c 644 */;
+	struct nand_pos cocci_id/* drivers/mtd/nand/spi/core.c 592 */;
+	loff_t cocci_id/* drivers/mtd/nand/spi/core.c 588 */;
+	struct nand_page_io_req cocci_id/* drivers/mtd/nand/spi/core.c 571 */;
+	u8 *cocci_id/* drivers/mtd/nand/spi/core.c 50 */;
+	struct nand_io_iter cocci_id/* drivers/mtd/nand/spi/core.c 488 */;
+	struct mtd_oob_ops *cocci_id/* drivers/mtd/nand/spi/core.c 483 */;
+	struct nand_device *cocci_id/* drivers/mtd/nand/spi/core.c 405 */;
+	u8 cocci_id/* drivers/mtd/nand/spi/core.c 403 */;
+	struct spinand_device *cocci_id/* drivers/mtd/nand/spi/core.c 403 */;
+	int cocci_id/* drivers/mtd/nand/spi/core.c 403 */;
+	unsigned long cocci_id/* drivers/mtd/nand/spi/core.c 345 */;
+	struct spi_mem_op cocci_id/* drivers/mtd/nand/spi/core.c 338 */;
+	ssize_t cocci_id/* drivers/mtd/nand/spi/core.c 221 */;
+	void *cocci_id/* drivers/mtd/nand/spi/core.c 219 */;
+	const struct nand_page_io_req *cocci_id/* drivers/mtd/nand/spi/core.c 203 */;
+	bool cocci_id/* drivers/mtd/nand/spi/core.c 189 */;
+	struct spi_mem_driver cocci_id/* drivers/mtd/nand/spi/core.c 1142 */;
+	const struct of_device_id cocci_id/* drivers/mtd/nand/spi/core.c 1136 */[];
+	const struct spi_device_id cocci_id/* drivers/mtd/nand/spi/core.c 1130 */[];
+	struct spi_mem *cocci_id/* drivers/mtd/nand/spi/core.c 1078 */;
+	void cocci_id/* drivers/mtd/nand/spi/core.c 1068 */;
+}

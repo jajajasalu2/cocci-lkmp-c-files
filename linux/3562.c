@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* drivers/mmc/host/cb710-mmc.c 85 */;
+	struct platform_driver cocci_id/* drivers/mmc/host/cb710-mmc.c 764 */;
+	struct platform_device *cocci_id/* drivers/mmc/host/cb710-mmc.c 740 */;
+	struct cb710_chip *cocci_id/* drivers/mmc/host/cb710-mmc.c 687 */;
+	pm_message_t cocci_id/* drivers/mmc/host/cb710-mmc.c 666 */;
+	const struct mmc_host_ops cocci_id/* drivers/mmc/host/cb710-mmc.c 657 */;
+	struct mmc_request *cocci_id/* drivers/mmc/host/cb710-mmc.c 651 */;
+	void *cocci_id/* drivers/mmc/host/cb710-mmc.c 649 */;
+	unsigned short cocci_id/* drivers/mmc/host/cb710-mmc.c 61 */;
+	struct cb710_slot *cocci_id/* drivers/mmc/host/cb710-mmc.c 60 */;
+	void cocci_id/* drivers/mmc/host/cb710-mmc.c 60 */;
+	struct mmc_ios *cocci_id/* drivers/mmc/host/cb710-mmc.c 558 */;
+	struct mmc_host *cocci_id/* drivers/mmc/host/cb710-mmc.c 441 */;
+	u32 cocci_id/* drivers/mmc/host/cb710-mmc.c 400 */[4];
+	unsigned cocci_id/* drivers/mmc/host/cb710-mmc.c 396 */;
+	unsigned int cocci_id/* drivers/mmc/host/cb710-mmc.c 345 */;
+	struct mmc_command *cocci_id/* drivers/mmc/host/cb710-mmc.c 343 */;
+	struct cb710_mmc_reader *cocci_id/* drivers/mmc/host/cb710-mmc.c 342 */;
+	struct pci_dev *cocci_id/* drivers/mmc/host/cb710-mmc.c 28 */;
+	size_t cocci_id/* drivers/mmc/host/cb710-mmc.c 266 */;
+	struct sg_mapping_iter cocci_id/* drivers/mmc/host/cb710-mmc.c 265 */;
+	bool cocci_id/* drivers/mmc/host/cb710-mmc.c 258 */;
+	struct mmc_data *cocci_id/* drivers/mmc/host/cb710-mmc.c 258 */;
+	struct sg_mapping_iter *cocci_id/* drivers/mmc/host/cb710-mmc.c 243 */;
+	u32 cocci_id/* drivers/mmc/host/cb710-mmc.c 222 */;
+	const u8 cocci_id/* drivers/mmc/host/cb710-mmc.c 20 */[16];
+	uint8_t cocci_id/* drivers/mmc/host/cb710-mmc.c 176 */;
+	const u8 cocci_id/* drivers/mmc/host/cb710-mmc.c 13 */[8];
+	u16 cocci_id/* drivers/mmc/host/cb710-mmc.c 112 */;
+	u8 cocci_id/* drivers/mmc/host/cb710-mmc.c 110 */;
+	int cocci_id/* drivers/mmc/host/cb710-mmc.c 110 */;
+}

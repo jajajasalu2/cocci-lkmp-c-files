@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	struct rio_mport *cocci_id/* drivers/rapidio/devices/tsi721_dma.c 967 */;
+	enum dma_rtype cocci_id/* drivers/rapidio/devices/tsi721_dma.c 832 */;
+	struct rio_dma_ext *cocci_id/* drivers/rapidio/devices/tsi721_dma.c 831 */;
+	enum dma_transfer_direction cocci_id/* drivers/rapidio/devices/tsi721_dma.c 826 */;
+	struct dma_tx_state *cocci_id/* drivers/rapidio/devices/tsi721_dma.c 799 */;
+	dma_cookie_t cocci_id/* drivers/rapidio/devices/tsi721_dma.c 798 */;
+	enum dma_status cocci_id/* drivers/rapidio/devices/tsi721_dma.c 798 */;
+	dma_addr_t cocci_id/* drivers/rapidio/devices/tsi721_dma.c 68 */;
+	u64 *cocci_id/* drivers/rapidio/devices/tsi721_dma.c 67 */;
+	dma_async_tx_callback cocci_id/* drivers/rapidio/devices/tsi721_dma.c 663 */;
+	struct device *cocci_id/* drivers/rapidio/devices/tsi721_dma.c 66 */;
+	struct tsi721_dma_desc *cocci_id/* drivers/rapidio/devices/tsi721_dma.c 65 */;
+	struct tsi721_tx_desc cocci_id/* drivers/rapidio/devices/tsi721_dma.c 60 */;
+	struct tsi721_tx_desc *cocci_id/* drivers/rapidio/devices/tsi721_dma.c 58 */;
+	struct dma_async_tx_descriptor *cocci_id/* drivers/rapidio/devices/tsi721_dma.c 58 */;
+	unsigned long cocci_id/* drivers/rapidio/devices/tsi721_dma.c 569 */;
+	struct rio_mport cocci_id/* drivers/rapidio/devices/tsi721_dma.c 54 */;
+	int cocci_id/* drivers/rapidio/devices/tsi721_dma.c 535 */;
+	void cocci_id/* drivers/rapidio/devices/tsi721_dma.c 532 */;
+	struct tsi721_device *cocci_id/* drivers/rapidio/devices/tsi721_dma.c 52 */;
+	struct dma_device *cocci_id/* drivers/rapidio/devices/tsi721_dma.c 52 */;
+	struct tsi721_bdma_chan cocci_id/* drivers/rapidio/devices/tsi721_dma.c 49 */;
+	struct tsi721_bdma_chan *cocci_id/* drivers/rapidio/devices/tsi721_dma.c 47 */;
+	struct dma_chan *cocci_id/* drivers/rapidio/devices/tsi721_dma.c 47 */;
+	unsigned long long cocci_id/* drivers/rapidio/devices/tsi721_dma.c 457 */;
+	u8 cocci_id/* drivers/rapidio/devices/tsi721_dma.c 42 */;
+	bool cocci_id/* drivers/rapidio/devices/tsi721_dma.c 359 */;
+	struct scatterlist *cocci_id/* drivers/rapidio/devices/tsi721_dma.c 333 */;
+	unsigned int cocci_id/* drivers/rapidio/devices/tsi721_dma.c 32 */;
+	int cocci_id/* drivers/rapidio/devices/tsi721_dma.c 30 */(struct tsi721_tx_desc *desc);
+	irqreturn_t cocci_id/* drivers/rapidio/devices/tsi721_dma.c 292 */;
+	irqreturn_t cocci_id/* drivers/rapidio/devices/tsi721_dma.c 28 */(int irq,
+									  void *ptr);
+	struct tsi721_dma_sts cocci_id/* drivers/rapidio/devices/tsi721_dma.c 241 */;
+	struct tsi721_dma_desc cocci_id/* drivers/rapidio/devices/tsi721_dma.c 235 */;
+	void *cocci_id/* drivers/rapidio/devices/tsi721_dma.c 227 */;
+	u32 cocci_id/* drivers/rapidio/devices/tsi721_dma.c 208 */;
+	u64 cocci_id/* drivers/rapidio/devices/tsi721_dma.c 121 */;
+}

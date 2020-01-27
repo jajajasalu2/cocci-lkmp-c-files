@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	struct mtd_info *cocci_id/* drivers/mtd/nand/raw/denali.c 993 */;
+	struct denali_controller *cocci_id/* drivers/mtd/nand/raw/denali.c 992 */;
+	struct nand_chip *cocci_id/* drivers/mtd/nand/raw/denali.c 990 */;
+	int cocci_id/* drivers/mtd/nand/raw/denali.c 990 */;
+	struct nand_memory_organization *cocci_id/* drivers/mtd/nand/raw/denali.c 939 */;
+	const struct mtd_ooblayout_ops cocci_id/* drivers/mtd/nand/raw/denali.c 930 */;
+	struct mtd_oob_region *cocci_id/* drivers/mtd/nand/raw/denali.c 901 */;
+	const struct nand_sdr_timings *cocci_id/* drivers/mtd/nand/raw/denali.c 770 */;
+	const struct nand_data_interface *cocci_id/* drivers/mtd/nand/raw/denali.c 766 */;
+	enum dma_data_direction cocci_id/* drivers/mtd/nand/raw/denali.c 659 */;
+	dma_addr_t cocci_id/* drivers/mtd/nand/raw/denali.c 657 */;
+	size_t cocci_id/* drivers/mtd/nand/raw/denali.c 655 */;
+	const u32 *cocci_id/* drivers/mtd/nand/raw/denali.c 624 */;
+	u32 *cocci_id/* drivers/mtd/nand/raw/denali.c 597 */;
+	const int cocci_id/* drivers/mtd/nand/raw/denali.c 577 */;
+	struct denali_controller cocci_id/* drivers/mtd/nand/raw/denali.c 51 */;
+	u8 cocci_id/* drivers/mtd/nand/raw/denali.c 484 */;
+	struct denali_chip cocci_id/* drivers/mtd/nand/raw/denali.c 46 */;
+	unsigned long *cocci_id/* drivers/mtd/nand/raw/denali.c 440 */;
+	struct nand_ecc_ctrl *cocci_id/* drivers/mtd/nand/raw/denali.c 414 */;
+	struct mtd_ecc_stats *cocci_id/* drivers/mtd/nand/raw/denali.c 413 */;
+	unsigned long cocci_id/* drivers/mtd/nand/raw/denali.c 409 */;
+	u8 *cocci_id/* drivers/mtd/nand/raw/denali.c 408 */;
+	const void *cocci_id/* drivers/mtd/nand/raw/denali.c 357 */;
+	bool cocci_id/* drivers/mtd/nand/raw/denali.c 233 */;
+	void *cocci_id/* drivers/mtd/nand/raw/denali.c 233 */;
+	unsigned int cocci_id/* drivers/mtd/nand/raw/denali.c 232 */;
+	struct denali_chip_sel *cocci_id/* drivers/mtd/nand/raw/denali.c 196 */;
+	irqreturn_t cocci_id/* drivers/mtd/nand/raw/denali.c 123 */;
+	struct denali_chip *cocci_id/* drivers/mtd/nand/raw/denali.c 1158 */;
+	const struct nand_controller_ops cocci_id/* drivers/mtd/nand/raw/denali.c 1151 */;
+	const struct nand_operation *cocci_id/* drivers/mtd/nand/raw/denali.c 1127 */;
+	u32 cocci_id/* drivers/mtd/nand/raw/denali.c 109 */;
+	const struct nand_op_instr *cocci_id/* drivers/mtd/nand/raw/denali.c 1088 */;
+	void cocci_id/* drivers/mtd/nand/raw/denali.c 108 */;
+	const u8 *cocci_id/* drivers/mtd/nand/raw/denali.c 1066 */;
+}

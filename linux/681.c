@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/nvdimm/blk.c 69 */;
+	resource_size_t cocci_id/* drivers/nvdimm/blk.c 68 */;
+	struct nd_blk_region *cocci_id/* drivers/nvdimm/blk.c 66 */;
+	u64 cocci_id/* drivers/nvdimm/blk.c 64 */;
+	struct nd_blk_region cocci_id/* drivers/nvdimm/blk.c 59 */;
+	struct nd_region cocci_id/* drivers/nvdimm/blk.c 58 */;
+	struct nd_region *cocci_id/* drivers/nvdimm/blk.c 54 */;
+	void __exit cocci_id/* drivers/nvdimm/blk.c 334 */;
+	void cocci_id/* drivers/nvdimm/blk.c 334 */;
+	int __init cocci_id/* drivers/nvdimm/blk.c 329 */;
+	struct nd_device_driver cocci_id/* drivers/nvdimm/blk.c 320 */;
+	struct nd_namespace_common *cocci_id/* drivers/nvdimm/blk.c 292 */;
+	struct device *cocci_id/* drivers/nvdimm/blk.c 290 */;
+	struct gendisk *cocci_id/* drivers/nvdimm/blk.c 246 */;
+	void *cocci_id/* drivers/nvdimm/blk.c 235 */;
+	const struct block_device_operations cocci_id/* drivers/nvdimm/blk.c 225 */;
+	size_t cocci_id/* drivers/nvdimm/blk.c 205 */;
+	unsigned long long cocci_id/* drivers/nvdimm/blk.c 192 */;
+	unsigned int cocci_id/* drivers/nvdimm/blk.c 183 */;
+	bool cocci_id/* drivers/nvdimm/blk.c 173 */;
+	int cocci_id/* drivers/nvdimm/blk.c 172 */;
+	struct bio_vec cocci_id/* drivers/nvdimm/blk.c 171 */;
+	unsigned long cocci_id/* drivers/nvdimm/blk.c 170 */;
+	struct bvec_iter cocci_id/* drivers/nvdimm/blk.c 169 */;
+	struct nd_namespace_blk *cocci_id/* drivers/nvdimm/blk.c 168 */;
+	struct bio_integrity_payload *cocci_id/* drivers/nvdimm/blk.c 167 */;
+	blk_qc_t cocci_id/* drivers/nvdimm/blk.c 165 */;
+	struct request_queue *cocci_id/* drivers/nvdimm/blk.c 165 */;
+	struct bio *cocci_id/* drivers/nvdimm/blk.c 165 */;
+	sector_t cocci_id/* drivers/nvdimm/blk.c 118 */;
+	struct page *cocci_id/* drivers/nvdimm/blk.c 117 */;
+}

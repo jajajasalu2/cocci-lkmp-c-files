@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	struct snd_soc_component *cocci_id/* sound/soc/ti/ams-delta.c 98 */;
+	unsigned short cocci_id/* sound/soc/ti/ams-delta.c 92 */;
+	const unsigned short cocci_id/* sound/soc/ti/ams-delta.c 85 */[];
+	const char *cocci_id/* sound/soc/ti/ams-delta.c 67 */[];
+	struct platform_driver cocci_id/* sound/soc/ti/ams-delta.c 596 */;
+	struct platform_device *cocci_id/* sound/soc/ti/ams-delta.c 555 */;
+	struct snd_soc_card cocci_id/* sound/soc/ti/ams-delta.c 540 */;
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/ti/ams-delta.c 54 */[];
+	struct snd_soc_dai_link cocci_id/* sound/soc/ti/ams-delta.c 529 */;
+	struct snd_soc_dapm_context *cocci_id/* sound/soc/ti/ams-delta.c 465 */;
+	struct snd_soc_card *cocci_id/* sound/soc/ti/ams-delta.c 464 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/ti/ams-delta.c 463 */;
+	struct snd_soc_pcm_runtime *cocci_id/* sound/soc/ti/ams-delta.c 461 */;
+	int cocci_id/* sound/soc/ti/ams-delta.c 461 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/ti/ams-delta.c 451 */;
+	void cocci_id/* sound/soc/ti/ams-delta.c 451 */;
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/ti/ams-delta.c 441 */;
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/ti/ams-delta.c 44 */[];
+	struct snd_soc_ops cocci_id/* sound/soc/ti/ams-delta.c 416 */;
+	struct tty_ldisc_ops cocci_id/* sound/soc/ti/ams-delta.c 397 */;
+	const unsigned char *cocci_id/* sound/soc/ti/ams-delta.c 341 */;
+	char *cocci_id/* sound/soc/ti/ams-delta.c 341 */;
+	struct tty_struct *cocci_id/* sound/soc/ti/ams-delta.c 303 */;
+	struct snd_kcontrol *cocci_id/* sound/soc/ti/ams-delta.c 30 */;
+	struct snd_soc_dapm_widget *cocci_id/* sound/soc/ti/ams-delta.c 29 */;
+	struct timer_list *cocci_id/* sound/soc/ti/ams-delta.c 265 */;
+	struct gpio_desc *cocci_id/* sound/soc/ti/ams-delta.c 263 */;
+	bool cocci_id/* sound/soc/ti/ams-delta.c 261 */;
+	struct timer_list cocci_id/* sound/soc/ti/ams-delta.c 259 */;
+	struct snd_soc_jack_pin cocci_id/* sound/soc/ti/ams-delta.c 227 */[];
+	struct snd_soc_jack_gpio cocci_id/* sound/soc/ti/ams-delta.c 216 */[];
+	struct snd_soc_jack cocci_id/* sound/soc/ti/ams-delta.c 215 */;
+	const struct snd_kcontrol_new cocci_id/* sound/soc/ti/ams-delta.c 209 */[];
+	struct snd_ctl_elem_value *cocci_id/* sound/soc/ti/ams-delta.c 174 */;
+	struct soc_enum *cocci_id/* sound/soc/ti/ams-delta.c 105 */;
+}

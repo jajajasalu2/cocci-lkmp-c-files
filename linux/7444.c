@@ -1,0 +1,62 @@
+cocci_test_suite() {
+	u32 *cocci_id/* drivers/video/fbdev/s3fb.c 951 */;
+	u_int cocci_id/* drivers/video/fbdev/s3fb.c 915 */;
+	const char *const cocci_id/* drivers/video/fbdev/s3fb.c 77 */[];
+	const int cocci_id/* drivers/video/fbdev/s3fb.c 75 */[];
+	const struct svga_pll cocci_id/* drivers/video/fbdev/s3fb.c 70 */;
+	unsigned int cocci_id/* drivers/video/fbdev/s3fb.c 580 */;
+	struct fb_var_screeninfo *cocci_id/* drivers/video/fbdev/s3fb.c 546 */;
+	struct vgastate cocci_id/* drivers/video/fbdev/s3fb.c 509 */;
+	const struct svga_fb_format cocci_id/* drivers/video/fbdev/s3fb.c 49 */[];
+	u16 cocci_id/* drivers/video/fbdev/s3fb.c 461 */;
+	const struct fb_fillrect *cocci_id/* drivers/video/fbdev/s3fb.c 443 */;
+	u32 __iomem *cocci_id/* drivers/video/fbdev/s3fb.c 410 */;
+	u8 __iomem *cocci_id/* drivers/video/fbdev/s3fb.c 409 */;
+	const u8 *cocci_id/* drivers/video/fbdev/s3fb.c 408 */;
+	const struct fb_image *cocci_id/* drivers/video/fbdev/s3fb.c 404 */;
+	u32 cocci_id/* drivers/video/fbdev/s3fb.c 341 */;
+	struct fb_tile_ops cocci_id/* drivers/video/fbdev/s3fb.c 328 */;
+	struct fb_tilecursor *cocci_id/* drivers/video/fbdev/s3fb.c 312 */;
+	struct s3fb_info {
+		int chip,rev,mclk_freq;
+		int wc_cookie;
+		struct vgastate state;
+		struct mutex open_lock;
+		unsigned int ref_count;
+		u32 pseudo_palette[16];
+#ifdef CONFIG_FB_S3_DDC
+		u8 __iomem *mmio;
+		bool ddc_registered;
+		struct i2c_adapter ddc_adapter;
+		struct i2c_algo_bit_data ddc_algo;
+#endif
+	} cocci_id/* drivers/video/fbdev/s3fb.c 31 */;
+	struct fb_tilemap *cocci_id/* drivers/video/fbdev/s3fb.c 290 */;
+	unsigned char cocci_id/* drivers/video/fbdev/s3fb.c 210 */;
+	int __init cocci_id/* drivers/video/fbdev/s3fb.c 1553 */;
+	void __exit cocci_id/* drivers/video/fbdev/s3fb.c 1545 */;
+	int cocci_id/* drivers/video/fbdev/s3fb.c 154 */;
+	char *cocci_id/* drivers/video/fbdev/s3fb.c 152 */;
+	struct pci_driver cocci_id/* drivers/video/fbdev/s3fb.c 1508 */;
+	const struct pci_device_id cocci_id/* drivers/video/fbdev/s3fb.c 1484 */[];
+	pm_message_t cocci_id/* drivers/video/fbdev/s3fb.c 1413 */;
+	const struct svga_timing_regs cocci_id/* drivers/video/fbdev/s3fb.c 139 */;
+	struct s3fb_info __maybe_unused *cocci_id/* drivers/video/fbdev/s3fb.c 1388 */;
+	void cocci_id/* drivers/video/fbdev/s3fb.c 1385 */;
+	const struct vga_regset cocci_id/* drivers/video/fbdev/s3fb.c 137 */[];
+	const struct fb_videomode *cocci_id/* drivers/video/fbdev/s3fb.c 1284 */;
+	u8 *cocci_id/* drivers/video/fbdev/s3fb.c 1276 */;
+	void *cocci_id/* drivers/video/fbdev/s3fb.c 1261 */;
+	void __iomem *cocci_id/* drivers/video/fbdev/s3fb.c 1172 */;
+	unsigned long cocci_id/* drivers/video/fbdev/s3fb.c 1172 */;
+	struct s3fb_info cocci_id/* drivers/video/fbdev/s3fb.c 1130 */;
+	bool cocci_id/* drivers/video/fbdev/s3fb.c 1121 */;
+	struct fb_info *cocci_id/* drivers/video/fbdev/s3fb.c 1117 */;
+	struct resource cocci_id/* drivers/video/fbdev/s3fb.c 1116 */;
+	struct pci_bus_region cocci_id/* drivers/video/fbdev/s3fb.c 1115 */;
+	const struct pci_device_id *cocci_id/* drivers/video/fbdev/s3fb.c 1113 */;
+	struct pci_dev *cocci_id/* drivers/video/fbdev/s3fb.c 1113 */;
+	u8 cocci_id/* drivers/video/fbdev/s3fb.c 1062 */;
+	struct s3fb_info *cocci_id/* drivers/video/fbdev/s3fb.c 1057 */;
+	struct fb_ops cocci_id/* drivers/video/fbdev/s3fb.c 1040 */;
+}

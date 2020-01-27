@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	struct trace_probe_event cocci_id/* kernel/trace/trace_probe.c 995 */;
+	struct trace_event_call *cocci_id/* kernel/trace/trace_probe.c 989 */;
+	symbol cocci_id/* kernel/trace/trace_probe.c 96 */;
+	struct trace_probe_event *cocci_id/* kernel/trace/trace_probe.c 945 */;
+	struct probe_arg *cocci_id/* kernel/trace/trace_probe.c 844 */;
+	bool cocci_id/* kernel/trace/trace_probe.c 842 */;
+	struct trace_probe *cocci_id/* kernel/trace/trace_probe.c 841 */;
+	char cocci_id/* kernel/trace/trace_probe.c 810 */;
+	string cocci_id/* kernel/trace/trace_probe.c 79 */;
+	const struct fetch_type cocci_id/* kernel/trace/trace_probe.c 77 */[];
+	const char cocci_id/* kernel/trace/trace_probe.c 74 */(string);
+	const char cocci_id/* kernel/trace/trace_probe.c 59 */(symbol);
+	ssize_t *cocci_id/* kernel/trace/trace_probe.c 543 */;
+	char *cocci_id/* kernel/trace/trace_probe.c 514 */;
+	unsigned long cocci_id/* kernel/trace/trace_probe.c 513 */;
+	struct fetch_insn *cocci_id/* kernel/trace/trace_probe.c 512 */;
+	struct fetch_insn **cocci_id/* kernel/trace/trace_probe.c 510 */;
+	const struct fetch_type *cocci_id/* kernel/trace/trace_probe.c 509 */;
+	const char *cocci_id/* kernel/trace/trace_probe.c 508 */;
+	int cocci_id/* kernel/trace/trace_probe.c 508 */;
+	long cocci_id/* kernel/trace/trace_probe.c 361 */;
+	unsigned int cocci_id/* kernel/trace/trace_probe.c 356 */;
+	size_t cocci_id/* kernel/trace/trace_probe.c 342 */;
+	char **cocci_id/* kernel/trace/trace_probe.c 340 */;
+	long *cocci_id/* kernel/trace/trace_probe.c 334 */;
+	unsigned long *cocci_id/* kernel/trace/trace_probe.c 329 */;
+	const char *cocci_id/* kernel/trace/trace_probe.c 21 */[];
+	void cocci_id/* kernel/trace/trace_probe.c 163 */;
+	const char **cocci_id/* kernel/trace/trace_probe.c 145 */;
+	struct trace_probe_log cocci_id/* kernel/trace/trace_probe.c 143 */;
+	char cocci_id/* kernel/trace/trace_probe.c 1117 */[MAX_ARGSTR_LEN + 1];
+	struct event_file_link *cocci_id/* kernel/trace/trace_probe.c 1044 */;
+	struct trace_event_file *cocci_id/* kernel/trace/trace_probe.c 1042 */;
+}

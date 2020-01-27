@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	u64 *cocci_id/* arch/powerpc/kernel/setup_64.c 953 */;
+	struct tlb_core_data cocci_id/* arch/powerpc/kernel/setup_64.c 92 */;
+	struct paca_struct *cocci_id/* arch/powerpc/kernel/setup_64.c 909 */;
+	void __ref cocci_id/* arch/powerpc/kernel/setup_64.c 872 */;
+	bool cocci_id/* arch/powerpc/kernel/setup_64.c 830 */;
+	enum l1d_flush_type cocci_id/* arch/powerpc/kernel/setup_64.c 828 */;
+	int __init cocci_id/* arch/powerpc/kernel/setup_64.c 814 */;
+	struct ppc_pci_io cocci_id/* arch/powerpc/kernel/setup_64.c 795 */;
+	const size_t cocci_id/* arch/powerpc/kernel/setup_64.c 755 */;
+	unsigned long cocci_id/* arch/powerpc/kernel/setup_64.c 750 */[NR_CPUS]__read_mostly;
+	struct ppc64_caches cocci_id/* arch/powerpc/kernel/setup_64.c 75 */;
+	size_t cocci_id/* arch/powerpc/kernel/setup_64.c 729 */;
+	unsigned int cocci_id/* arch/powerpc/kernel/setup_64.c 695 */;
+	u64 cocci_id/* arch/powerpc/kernel/setup_64.c 694 */;
+	void *cocci_id/* arch/powerpc/kernel/setup_64.c 632 */;
+	void *__init cocci_id/* arch/powerpc/kernel/setup_64.c 630 */;
+	unsigned long cocci_id/* arch/powerpc/kernel/setup_64.c 630 */;
+	int cocci_id/* arch/powerpc/kernel/setup_64.c 630 */;
+	const __be32 *cocci_id/* arch/powerpc/kernel/setup_64.c 502 */;
+	const char **cocci_id/* arch/powerpc/kernel/setup_64.c 501 */;
+	const char *cocci_id/* arch/powerpc/kernel/setup_64.c 489 */[]__initdata;
+	bool __init cocci_id/* arch/powerpc/kernel/setup_64.c 485 */;
+	u32 cocci_id/* arch/powerpc/kernel/setup_64.c 466 */;
+	struct ppc_cache_info *cocci_id/* arch/powerpc/kernel/setup_64.c 466 */;
+	unsigned long *cocci_id/* arch/powerpc/kernel/setup_64.c 430 */;
+	struct paca_struct cocci_id/* arch/powerpc/kernel/setup_64.c 284 */;
+	char *cocci_id/* arch/powerpc/kernel/setup_64.c 168 */;
+	const char *cocci_id/* arch/powerpc/kernel/setup_64.c 129 */;
+	struct device_node *cocci_id/* arch/powerpc/kernel/setup_64.c 128 */;
+	void __init cocci_id/* arch/powerpc/kernel/setup_64.c 126 */;
+	void cocci_id/* arch/powerpc/kernel/setup_64.c 126 */;
+}

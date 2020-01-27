@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	const struct mtk_base_memif_data cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 987 */[MT2701_MEMIF_NUM];
+	const struct snd_soc_component_driver cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 978 */;
+	unsigned int cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 97 */;
+	int cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 97 */;
+	struct snd_soc_component *cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 969 */;
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 909 */[];
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 848 */[];
+	const struct snd_kcontrol_new cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 824 */[];
+	const unsigned int cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 63 */[];
+	struct snd_soc_dai_driver cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 547 */[];
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 533 */;
+	struct snd_soc_pcm_runtime *cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 497 */;
+	const struct mtk_base_memif_data *cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 431 */;
+	const struct mt2701_afe_rate cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 42 */[];
+	struct mt2701_afe_rate {
+		unsigned int rate;
+		unsigned int regvalue;
+	} cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 37 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 304 */;
+	const struct snd_pcm_hardware cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 24 */;
+	bool cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 238 */;
+	struct mt2701_afe_private *cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 235 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 232 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 231 */;
+	struct platform_driver cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 1483 */;
+	const struct dev_pm_ops cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 1478 */;
+	const struct of_device_id cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 1471 */[];
+	const struct mt2701_soc_variants cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 1462 */;
+	void cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 143 */;
+	void *cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 1357 */;
+	struct mt2701_i2s_path cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 1347 */;
+	struct device *cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 1328 */;
+	struct platform_device *cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 1324 */;
+	u32 cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 1292 */;
+	struct mtk_base_afe_irq *cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 1291 */;
+	struct mtk_base_afe_memif *cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 1290 */;
+	irqreturn_t cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 1286 */;
+	const struct mt2701_i2s_data cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 1266 */[][2];
+	const struct mt2701_i2s_data *cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 126 */;
+	struct mt2701_i2s_path *cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 123 */;
+	const struct mtk_base_irq_data cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 1224 */[MT2701_IRQ_ASYS_END];
+	struct mtk_base_afe *cocci_id/* sound/soc/mediatek/mt2701/mt2701-afe-pcm.c 122 */;
+}

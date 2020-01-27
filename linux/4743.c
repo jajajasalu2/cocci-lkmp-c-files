@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	int cocci_id/* drivers/infiniband/sw/siw/siw_main.c 90 */;
+	void cocci_id/* drivers/infiniband/sw/siw/siw_main.c 90 */;
+	struct siw_device *cocci_id/* drivers/infiniband/sw/siw/siw_main.c 84 */;
+	struct ib_device *cocci_id/* drivers/infiniband/sw/siw/siw_main.c 82 */;
+	void __exit cocci_id/* drivers/infiniband/sw/siw/siw_main.c 646 */;
+	const char *cocci_id/* drivers/infiniband/sw/siw/siw_main.c 64 */;
+	struct crypto_shash *cocci_id/* drivers/infiniband/sw/siw/siw_main.c 62 */;
+	struct task_struct *cocci_id/* drivers/infiniband/sw/siw/siw_main.c 61 */[NR_CPUS];
+	struct rdma_link_ops cocci_id/* drivers/infiniband/sw/siw/siw_main.c 572 */;
+	u_char cocci_id/* drivers/infiniband/sw/siw/siw_main.c 54 */;
+	struct notifier_block cocci_id/* drivers/infiniband/sw/siw/siw_main.c 538 */;
+	void *cocci_id/* drivers/infiniband/sw/siw/siw_main.c 475 */;
+	struct notifier_block *cocci_id/* drivers/infiniband/sw/siw/siw_main.c 474 */;
+	unsigned long cocci_id/* drivers/infiniband/sw/siw/siw_main.c 474 */;
+	struct siw_qp cocci_id/* drivers/infiniband/sw/siw/siw_main.c 457 */;
+	struct list_head *cocci_id/* drivers/infiniband/sw/siw/siw_main.c 451 */;
+	struct siw_qp_attrs cocci_id/* drivers/infiniband/sw/siw/siw_main.c 450 */;
+	struct siw_device cocci_id/* drivers/infiniband/sw/siw/siw_main.c 448 */;
+	struct work_struct *cocci_id/* drivers/infiniband/sw/siw/siw_main.c 445 */;
+	const bool cocci_id/* drivers/infiniband/sw/siw/siw_main.c 42 */;
+	struct device_dma_parameters cocci_id/* drivers/infiniband/sw/siw/siw_main.c 387 */;
+	char cocci_id/* drivers/infiniband/sw/siw/siw_main.c 343 */[6];
+	size_t cocci_id/* drivers/infiniband/sw/siw/siw_main.c 342 */;
+	unsigned char *cocci_id/* drivers/infiniband/sw/siw/siw_main.c 335 */;
+	struct device *cocci_id/* drivers/infiniband/sw/siw/siw_main.c 308 */;
+	const struct ib_device_ops cocci_id/* drivers/infiniband/sw/siw/siw_main.c 252 */;
+	struct siw_qp *cocci_id/* drivers/infiniband/sw/siw/siw_main.c 240 */;
+	struct ib_qp *cocci_id/* drivers/infiniband/sw/siw/siw_main.c 238 */;
+	const struct cpumask *cocci_id/* drivers/infiniband/sw/siw/siw_main.c 188 */;
+	struct cpumask cocci_id/* drivers/infiniband/sw/siw/siw_main.c 151 */;
+	struct cpumask *cocci_id/* drivers/infiniband/sw/siw/siw_main.c 144 */;
+	struct {
+		struct cpumask **tx_valid_cpus;
+		int num_nodes;
+	} cocci_id/* drivers/infiniband/sw/siw/siw_main.c 130 */;
+	struct net_device *cocci_id/* drivers/infiniband/sw/siw/siw_main.c 114 */;
+	unsigned long *cocci_id/* drivers/infiniband/sw/siw/siw_main.c 100 */;
+	long cocci_id/* drivers/infiniband/sw/siw/siw_main.c 100 */;
+	__typeof__(atomic_t) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

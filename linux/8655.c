@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 831 */[4];
+	struct vf_data_storage cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 66 */;
+	struct list_head *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 640 */;
+	u32 cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 586 */[2];
+	u32 cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 575 */;
+	struct ixgbe_hw *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 53 */;
+	unsigned int cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 51 */;
+	struct ixgbe_adapter *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 50 */;
+	int cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 50 */;
+	struct vf_data_storage *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 407 */;
+	u16 *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 363 */;
+	struct vf_macvlans cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 36 */;
+	struct vf_macvlans *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 28 */;
+	void cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 24 */;
+	struct pci_dev *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 214 */;
+	struct ifla_vf_info *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 1704 */;
+	bool cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 1662 */;
+	__be16 cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 1471 */;
+	u8 cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 1413 */;
+	u16 cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 1413 */;
+	unsigned char *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 1389 */;
+	s32 cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 1367 */;
+	u8 *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 1364 */;
+	u32 cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 1210 */[IXGBE_VFMAILBOX_SIZE];
+	const u8 *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 1076 */;
+	struct ixgbe_ring_feature *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 1034 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 1033 */;
+	u32 *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c 1031 */;
+}

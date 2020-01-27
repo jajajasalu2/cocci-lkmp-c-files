@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	const char *const cocci_id/* sound/pci/hda/hda_eld.c 71 */[];
+	bool cocci_id/* sound/pci/hda/hda_eld.c 633 */;
+	enum cea_audio_coding_xtypes{AUDIO_CODING_XTYPE_HE_REF_CT=0, AUDIO_CODING_XTYPE_HE_AAC=1, AUDIO_CODING_XTYPE_HE_AAC2=2, AUDIO_CODING_XTYPE_MPEG_SURROUND=3, AUDIO_CODING_XTYPE_FIRST_RESERVED=4,} cocci_id/* sound/pci/hda/hda_eld.c 63 */;
+	enum ati_sink_info_idx{ATI_INFO_IDX_MANUFACTURER_ID=0, ATI_INFO_IDX_PRODUCT_ID=1, ATI_INFO_IDX_SINK_DESC_LEN=2, ATI_INFO_IDX_PORT_ID_LOW=3, ATI_INFO_IDX_PORT_ID_HIGH=4, ATI_INFO_IDX_SINK_DESC_FIRST=5, ATI_INFO_IDX_SINK_DESC_LAST=22,} cocci_id/* sound/pci/hda/hda_eld.c 622 */;
+	u64 cocci_id/* sound/pci/hda/hda_eld.c 559 */;
+	u32 cocci_id/* sound/pci/hda/hda_eld.c 558 */;
+	struct hda_pcm_stream *cocci_id/* sound/pci/hda/hda_eld.c 556 */;
+	struct parsed_hdmi_eld *cocci_id/* sound/pci/hda/hda_eld.c 555 */;
+	char cocci_id/* sound/pci/hda/hda_eld.c 494 */[64];
+	long long cocci_id/* sound/pci/hda/hda_eld.c 476 */;
+	const char *const cocci_id/* sound/pci/hda/hda_eld.c 455 */[8];
+	const char *const cocci_id/* sound/pci/hda/hda_eld.c 448 */[32];
+	char cocci_id/* sound/pci/hda/hda_eld.c 446 */[SND_PRINT_CHANNEL_ALLOCATION_ADVISED_BUFSIZE];
+	struct hdmi_eld *cocci_id/* sound/pci/hda/hda_eld.c 442 */;
+	char cocci_id/* sound/pci/hda/hda_eld.c 419 */[SND_PRINT_RATES_ADVISED_BUFSIZE];
+	struct snd_info_buffer *cocci_id/* sound/pci/hda/hda_eld.c 417 */;
+	struct cea_sad *cocci_id/* sound/pci/hda/hda_eld.c 416 */;
+	enum cea_audio_coding_types{AUDIO_CODING_TYPE_REF_STREAM_HEADER=0, AUDIO_CODING_TYPE_LPCM=1, AUDIO_CODING_TYPE_AC3=2, AUDIO_CODING_TYPE_MPEG1=3, AUDIO_CODING_TYPE_MP3=4, AUDIO_CODING_TYPE_MPEG2=5, AUDIO_CODING_TYPE_AACLC=6, AUDIO_CODING_TYPE_DTS=7, AUDIO_CODING_TYPE_ATRAC=8, AUDIO_CODING_TYPE_SACD=9, AUDIO_CODING_TYPE_EAC3=10, AUDIO_CODING_TYPE_DTS_HD=11, AUDIO_CODING_TYPE_MLP=12, AUDIO_CODING_TYPE_DST=13, AUDIO_CODING_TYPE_WMAPRO=14, AUDIO_CODING_TYPE_REF_CXT=15, AUDIO_CODING_TYPE_HE_AAC=15, AUDIO_CODING_TYPE_HE_AAC2=16, AUDIO_CODING_TYPE_MPEG_SURROUND=17,} cocci_id/* sound/pci/hda/hda_eld.c 40 */;
+	char cocci_id/* sound/pci/hda/hda_eld.c 375 */[8 + SND_PRINT_BITS_ADVISED_BUFSIZE];
+	unsigned int cocci_id/* sound/pci/hda/hda_eld.c 355 */[];
+	char *cocci_id/* sound/pci/hda/hda_eld.c 353 */;
+	void cocci_id/* sound/pci/hda/hda_eld.c 353 */;
+	const char *const cocci_id/* sound/pci/hda/hda_eld.c 33 */[4];
+	unsigned char *cocci_id/* sound/pci/hda/hda_eld.c 295 */;
+	int *cocci_id/* sound/pci/hda/hda_eld.c 295 */;
+	enum cea_edid_versions{CEA_EDID_VER_NONE=0, CEA_EDID_VER_CEA861=1, CEA_EDID_VER_CEA861A=2, CEA_EDID_VER_CEA861BCD=3, CEA_EDID_VER_RESERVED=4,} cocci_id/* sound/pci/hda/hda_eld.c 25 */;
+	enum eld_versions{ELD_VER_CEA_861D=2, ELD_VER_PARTIAL=31,} cocci_id/* sound/pci/hda/hda_eld.c 20 */;
+	const unsigned char *cocci_id/* sound/pci/hda/hda_eld.c 146 */;
+	int cocci_id/* sound/pci/hda/hda_eld.c 123 */;
+	hda_nid_t cocci_id/* sound/pci/hda/hda_eld.c 122 */;
+	struct hda_codec *cocci_id/* sound/pci/hda/hda_eld.c 122 */;
+	unsigned int cocci_id/* sound/pci/hda/hda_eld.c 122 */;
+	int cocci_id/* sound/pci/hda/hda_eld.c 111 */[8];
+	int cocci_id/* sound/pci/hda/hda_eld.c 101 */[4];
+}

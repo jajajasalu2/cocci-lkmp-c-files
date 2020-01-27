@@ -1,0 +1,90 @@
+cocci_test_suite() {
+	const struct jz4780_dma_soc_data cocci_id/* drivers/dma/dma-jz4780.c 999 */;
+	struct resource *cocci_id/* drivers/dma/dma-jz4780.c 841 */;
+	struct dma_device *cocci_id/* drivers/dma/dma-jz4780.c 840 */;
+	const struct jz4780_dma_soc_data *cocci_id/* drivers/dma/dma-jz4780.c 837 */;
+	struct device *cocci_id/* drivers/dma/dma-jz4780.c 836 */;
+	struct platform_device *cocci_id/* drivers/dma/dma-jz4780.c 834 */;
+	struct jz4780_dma_filter_data cocci_id/* drivers/dma/dma-jz4780.c 800 */;
+	dma_cap_mask_t cocci_id/* drivers/dma/dma-jz4780.c 799 */;
+	struct of_dma *cocci_id/* drivers/dma/dma-jz4780.c 796 */;
+	struct of_phandle_args *cocci_id/* drivers/dma/dma-jz4780.c 795 */;
+	struct jz4780_dma_filter_data *cocci_id/* drivers/dma/dma-jz4780.c 780 */;
+	void *cocci_id/* drivers/dma/dma-jz4780.c 776 */;
+	struct jz4780_dma_chan *cocci_id/* drivers/dma/dma-jz4780.c 752 */;
+	struct dma_chan *cocci_id/* drivers/dma/dma-jz4780.c 750 */;
+	int cocci_id/* drivers/dma/dma-jz4780.c 750 */;
+	unsigned long cocci_id/* drivers/dma/dma-jz4780.c 728 */;
+	irqreturn_t cocci_id/* drivers/dma/dma-jz4780.c 724 */;
+	uint32_t cocci_id/* drivers/dma/dma-jz4780.c 672 */;
+	struct jz4780_dma_desc *cocci_id/* drivers/dma/dma-jz4780.c 671 */;
+	const unsigned int cocci_id/* drivers/dma/dma-jz4780.c 670 */;
+	bool cocci_id/* drivers/dma/dma-jz4780.c 667 */;
+	dma_cookie_t cocci_id/* drivers/dma/dma-jz4780.c 634 */;
+	struct dma_tx_state *cocci_id/* drivers/dma/dma-jz4780.c 634 */;
+	enum dma_status cocci_id/* drivers/dma/dma-jz4780.c 633 */;
+	size_t cocci_id/* drivers/dma/dma-jz4780.c 616 */;
+	struct dma_slave_config *cocci_id/* drivers/dma/dma-jz4780.c 602 */;
+	dma_addr_t cocci_id/* drivers/dma/dma-jz4780.c 483 */;
+	unsigned int cocci_id/* drivers/dma/dma-jz4780.c 482 */;
+	struct virt_dma_desc *cocci_id/* drivers/dma/dma-jz4780.c 481 */;
+	struct jz4780_dma_dev *cocci_id/* drivers/dma/dma-jz4780.c 480 */;
+	void cocci_id/* drivers/dma/dma-jz4780.c 478 */;
+	enum dma_transfer_direction cocci_id/* drivers/dma/dma-jz4780.c 400 */;
+	struct dma_async_tx_descriptor *cocci_id/* drivers/dma/dma-jz4780.c 398 */;
+	struct scatterlist *cocci_id/* drivers/dma/dma-jz4780.c 354 */;
+	struct jz4780_dma_hwdesc *cocci_id/* drivers/dma/dma-jz4780.c 302 */;
+	uint32_t *cocci_id/* drivers/dma/dma-jz4780.c 264 */;
+	enum dma_transaction_type cocci_id/* drivers/dma/dma-jz4780.c 231 */;
+	struct jz4780_dma_dev cocci_id/* drivers/dma/dma-jz4780.c 178 */;
+	struct jz4780_dma_desc cocci_id/* drivers/dma/dma-jz4780.c 172 */;
+	struct jz4780_dma_chan cocci_id/* drivers/dma/dma-jz4780.c 166 */;
+	struct jz4780_dma_filter_data {
+		uint32_t transfer_type;
+		int channel;
+	} cocci_id/* drivers/dma/dma-jz4780.c 159 */;
+	struct jz4780_dma_dev {
+		struct dma_device dma_device;
+		void __iomem *chn_base;
+		void __iomem *ctrl_base;
+		struct clk *clk;
+		unsigned int irq;
+		const struct jz4780_dma_soc_data *soc_data;
+		uint32_t chan_reserved;
+		struct jz4780_dma_chan chan[];
+	} cocci_id/* drivers/dma/dma-jz4780.c 147 */;
+	struct jz4780_dma_soc_data {
+		unsigned int nb_channels;
+		unsigned int transfer_ord_max;
+		unsigned long flags;
+	} cocci_id/* drivers/dma/dma-jz4780.c 141 */;
+	struct jz4780_dma_chan {
+		struct virt_dma_chan vchan;
+		unsigned int id;
+		struct dma_pool *desc_pool;
+		uint32_t transfer_type;
+		uint32_t transfer_shift;
+		struct dma_slave_config config;
+		struct jz4780_dma_desc *desc;
+		unsigned int curr_hwdesc;
+	} cocci_id/* drivers/dma/dma-jz4780.c 128 */;
+	struct jz4780_dma_desc {
+		struct virt_dma_desc vdesc;
+		struct jz4780_dma_hwdesc *desc;
+		dma_addr_t desc_phys;
+		unsigned int count;
+		enum dma_transaction_type type;
+		uint32_t status;
+	} cocci_id/* drivers/dma/dma-jz4780.c 118 */;
+	struct jz4780_dma_hwdesc cocci_id/* drivers/dma/dma-jz4780.c 116 */;
+	struct jz4780_dma_hwdesc {
+		uint32_t dcm;
+		uint32_t dsa;
+		uint32_t dta;
+		uint32_t dtc;
+	} cocci_id/* drivers/dma/dma-jz4780.c 106 */;
+	void __exit cocci_id/* drivers/dma/dma-jz4780.c 1048 */;
+	int __init cocci_id/* drivers/dma/dma-jz4780.c 1042 */;
+	struct platform_driver cocci_id/* drivers/dma/dma-jz4780.c 1033 */;
+	const struct of_device_id cocci_id/* drivers/dma/dma-jz4780.c 1023 */[];
+}

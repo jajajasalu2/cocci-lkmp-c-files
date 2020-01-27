@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	unsigned char *cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 981 */;
+	u8 *cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 951 */;
+	struct sk_buff **cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 947 */;
+	enum b43legacy_dmatype cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 780 */;
+	struct b43legacy_dma *cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 751 */;
+	struct b43legacy_wldev *cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 749 */;
+	unsigned int cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 734 */;
+	void cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 728 */;
+	struct b43legacy_dmadesc_meta cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 644 */;
+	struct b43legacy_dmadesc_meta *cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 495 */;
+	struct b43legacy_dmadesc32 *cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 494 */;
+	struct b43legacy_dmaring *cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 490 */;
+	int cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 490 */;
+	gfp_t cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 443 */;
+	u64 cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 421 */;
+	size_t cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 413 */;
+	dma_addr_t cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 412 */;
+	bool cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 411 */;
+	u32 cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 342 */;
+	struct b43legacy_dmadesc_meta **cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 34 */;
+	const u16 cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 232 */[];
+	u16 cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 229 */;
+	const u8 cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 219 */[];
+	s32 cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 1301 */;
+	struct b43legacy_hwtxstatus *cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 1259 */;
+	struct b43legacy_rxhdr_fw3 *cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 1246 */;
+	int *cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 1242 */;
+	struct ieee80211_tx_info *cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 1165 */;
+	struct b43legacy_txhdr_fw3 cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 1161 */;
+	const struct b43legacy_txstatus *cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 1123 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 1070 */;
+	struct b43legacy_dmadesc32 cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 107 */;
+	unsigned long cocci_id/* drivers/net/wireless/broadcom/b43legacy/dma.c 1054 */;
+}

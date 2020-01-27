@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	xfs_agblock_t cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 80 */;
+	xfs_alloc_arg_t cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 78 */;
+	enum xfs_ag_resv_type cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 76 */;
+	int *cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 75 */;
+	union xfs_btree_ptr *cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 73 */;
+	struct xfs_btree_cur *cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 72 */;
+	int cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 70 */;
+	unsigned long long cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 648 */;
+	xfs_extlen_t cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 629 */;
+	xfs_extlen_t *cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 626 */;
+	xfs_agnumber_t cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 625 */;
+	struct xfs_trans *cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 624 */;
+	struct xfs_mount *cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 623 */;
+	xfs_btnum_t cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 600 */;
+	struct xfs_buf **cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 573 */;
+	struct xfs_btree_cur **cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 572 */;
+	uint *cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 526 */;
+	unsigned int cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 523 */;
+	uint cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 473 */;
+	struct xfs_inobt_rec_incore *cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 468 */;
+	uint64_t cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 466 */;
+	const struct xfs_btree_ops cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 381 */;
+	const struct xfs_buf_ops cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 331 */;
+	xfs_failaddr_t cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 293 */;
+	struct xfs_btree_block *cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 257 */;
+	union xfs_btree_key *cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 245 */;
+	int64_t cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 242 */;
+	struct xfs_agi *cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 227 */;
+	void cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 222 */;
+	__u32 cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 181 */;
+	union xfs_btree_rec *cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 179 */;
+	struct xfs_buf *cocci_id/* fs/xfs/libxfs/xfs_ialloc_btree.c 134 */;
+}

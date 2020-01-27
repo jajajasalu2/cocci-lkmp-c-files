@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct elevator_type *cocci_id/* block/blk-mq-debugfs.c 919 */;
+	char cocci_id/* block/blk-mq-debugfs.c 868 */[20];
+	struct dentry *cocci_id/* block/blk-mq-debugfs.c 867 */;
+	struct blk_mq_ctx *cocci_id/* block/blk-mq-debugfs.c 865 */;
+	struct rq_qos *cocci_id/* block/blk-mq-debugfs.c 848 */;
+	struct blk_mq_hw_ctx *cocci_id/* block/blk-mq-debugfs.c 823 */;
+	struct request_queue *cocci_id/* block/blk-mq-debugfs.c 821 */;
+	void cocci_id/* block/blk-mq-debugfs.c 821 */;
+	const struct blk_mq_debugfs_attr cocci_id/* block/blk-mq-debugfs.c 798 */[];
+	bool cocci_id/* block/blk-mq-debugfs.c 78 */;
+	const struct file_operations cocci_id/* block/blk-mq-debugfs.c 770 */;
+	const char *const *cocci_id/* block/blk-mq-debugfs.c 76 */;
+	const unsigned long cocci_id/* block/blk-mq-debugfs.c 75 */;
+	void *cocci_id/* block/blk-mq-debugfs.c 741 */;
+	const struct blk_mq_debugfs_attr *cocci_id/* block/blk-mq-debugfs.c 740 */;
+	struct inode *cocci_id/* block/blk-mq-debugfs.c 738 */;
+	struct file *cocci_id/* block/blk-mq-debugfs.c 738 */;
+	loff_t *cocci_id/* block/blk-mq-debugfs.c 722 */;
+	size_t cocci_id/* block/blk-mq-debugfs.c 722 */;
+	const char __user *cocci_id/* block/blk-mq-debugfs.c 721 */;
+	ssize_t cocci_id/* block/blk-mq-debugfs.c 721 */;
+	const struct seq_operations cocci_id/* block/blk-mq-debugfs.c 651 */;
+	struct blk_mq_tags *cocci_id/* block/blk-mq-debugfs.c 444 */;
+	struct show_busy_params cocci_id/* block/blk-mq-debugfs.c 412 */;
+	const struct show_busy_params *cocci_id/* block/blk-mq-debugfs.c 400 */;
+	struct show_busy_params {
+		struct seq_file *m;
+		struct blk_mq_hw_ctx *hctx;
+	} cocci_id/* block/blk-mq-debugfs.c 388 */;
+	unsigned int cocci_id/* block/blk-mq-debugfs.c 339 */;
+	const char *cocci_id/* block/blk-mq-debugfs.c 328 */;
+	const unsigned int cocci_id/* block/blk-mq-debugfs.c 327 */;
+	const struct blk_mq_ops *const cocci_id/* block/blk-mq-debugfs.c 326 */;
+	struct seq_file *cocci_id/* block/blk-mq-debugfs.c 324 */;
+	struct request *cocci_id/* block/blk-mq-debugfs.c 324 */;
+	int cocci_id/* block/blk-mq-debugfs.c 324 */;
+	enum mq_rq_state cocci_id/* block/blk-mq-debugfs.c 316 */;
+	const int cocci_id/* block/blk-mq-debugfs.c 248 */;
+	const char *const cocci_id/* block/blk-mq-debugfs.c 230 */[];
+	struct blk_rq_stat *cocci_id/* block/blk-mq-debugfs.c 17 */;
+	char cocci_id/* block/blk-mq-debugfs.c 145 */[16];
+}

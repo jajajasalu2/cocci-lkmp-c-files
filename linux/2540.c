@@ -1,0 +1,88 @@
+cocci_test_suite() {
+	pgoff_t cocci_id/* drivers/md/dm-log-writes.c 962 */;
+	void *cocci_id/* drivers/md/dm-log-writes.c 962 */;
+	struct log_write_entry {
+		__le64 sector;
+		__le64 nr_sectors;
+		__le64 flags;
+		__le64 data_len;
+	} cocci_id/* drivers/md/dm-log-writes.c 95 */;
+	pfn_t *cocci_id/* drivers/md/dm-log-writes.c 949 */;
+	void **cocci_id/* drivers/md/dm-log-writes.c 949 */;
+	long cocci_id/* drivers/md/dm-log-writes.c 948 */;
+	struct pending_block cocci_id/* drivers/md/dm-log-writes.c 911 */;
+	struct iov_iter *cocci_id/* drivers/md/dm-log-writes.c 904 */;
+	size_t cocci_id/* drivers/md/dm-log-writes.c 903 */;
+	struct request_queue *cocci_id/* drivers/md/dm-log-writes.c 890 */;
+	struct queue_limits *cocci_id/* drivers/md/dm-log-writes.c 887 */;
+	unsigned cocci_id/* drivers/md/dm-log-writes.c 868 */;
+	iterate_devices_callout_fn cocci_id/* drivers/md/dm-log-writes.c 856 */;
+	struct dm_dev *cocci_id/* drivers/md/dm-log-writes.c 844 */;
+	struct block_device **cocci_id/* drivers/md/dm-log-writes.c 841 */;
+	unsigned long long cocci_id/* drivers/md/dm-log-writes.c 829 */;
+	status_type_t cocci_id/* drivers/md/dm-log-writes.c 819 */;
+	struct log_write_super {
+		__le64 magic;
+		__le64 version;
+		__le64 nr_entries;
+		__le32 sectorsize;
+	} cocci_id/* drivers/md/dm-log-writes.c 81 */;
+	blk_status_t *cocci_id/* drivers/md/dm-log-writes.c 791 */;
+	struct page *cocci_id/* drivers/md/dm-log-writes.c 755 */;
+	struct bio_vec cocci_id/* drivers/md/dm-log-writes.c 671 */;
+	struct bvec_iter cocci_id/* drivers/md/dm-log-writes.c 670 */;
+	struct per_bio_data *cocci_id/* drivers/md/dm-log-writes.c 668 */;
+	struct log_write_entry cocci_id/* drivers/md/dm-log-writes.c 609 */;
+	char *cocci_id/* drivers/md/dm-log-writes.c 606 */;
+	struct per_bio_data cocci_id/* drivers/md/dm-log-writes.c 597 */;
+	struct log_writes_c cocci_id/* drivers/md/dm-log-writes.c 543 */;
+	const char *cocci_id/* drivers/md/dm-log-writes.c 532 */;
+	struct dm_arg_set cocci_id/* drivers/md/dm-log-writes.c 531 */;
+	struct dm_target *cocci_id/* drivers/md/dm-log-writes.c 528 */;
+	char **cocci_id/* drivers/md/dm-log-writes.c 528 */;
+	unsigned int cocci_id/* drivers/md/dm-log-writes.c 528 */;
+	bool cocci_id/* drivers/md/dm-log-writes.c 458 */;
+	struct log_write_super cocci_id/* drivers/md/dm-log-writes.c 425 */;
+	struct pending_block *cocci_id/* drivers/md/dm-log-writes.c 198 */;
+	unsigned long cocci_id/* drivers/md/dm-log-writes.c 172 */;
+	struct bio *cocci_id/* drivers/md/dm-log-writes.c 167 */;
+	sector_t cocci_id/* drivers/md/dm-log-writes.c 137 */;
+	struct log_writes_c *cocci_id/* drivers/md/dm-log-writes.c 137 */;
+	struct per_bio_data {
+		struct pending_block *block;
+	} cocci_id/* drivers/md/dm-log-writes.c 133 */;
+	struct pending_block {
+		int vec_cnt;
+		u64 flags;
+		sector_t sector;
+		sector_t nr_sectors;
+		char *data;
+		u32 datalen;
+		struct list_head list;
+		struct bio_vec vecs[0];
+	} cocci_id/* drivers/md/dm-log-writes.c 122 */;
+	void __exit cocci_id/* drivers/md/dm-log-writes.c 1031 */;
+	void cocci_id/* drivers/md/dm-log-writes.c 1031 */;
+	int cocci_id/* drivers/md/dm-log-writes.c 1023 */;
+	int __init cocci_id/* drivers/md/dm-log-writes.c 1021 */;
+	struct log_writes_c {
+		struct dm_dev *dev;
+		struct dm_dev *logdev;
+		u64 logged_entries;
+		u32 sectorsize;
+		u32 sectorshift;
+		atomic_t io_blocks;
+		atomic_t pending_blocks;
+		sector_t next_sector;
+		sector_t end_sector;
+		bool logging_enabled;
+		bool device_supports_discard;
+		spinlock_t blocks_lock;
+		struct list_head unflushed_blocks;
+		struct list_head logging_blocks;
+		wait_queue_head_t wait;
+		struct task_struct *log_kthread;
+		struct completion super_done;
+	} cocci_id/* drivers/md/dm-log-writes.c 102 */;
+	struct target_type cocci_id/* drivers/md/dm-log-writes.c 1003 */;
+}

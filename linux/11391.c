@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	typeof(*vbo) cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 896 */;
+	unsigned int cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 894 */;
+	void cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 884 */;
+	struct vmw_validation_res_node cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 866 */;
+	struct vmw_validation_bo_node cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 842 */;
+	struct vmw_fence_obj *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 820 */;
+	struct mutex *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 749 */;
+	struct vmw_validation_res_node {
+		struct list_head head;
+		struct drm_hash_item hash;
+		struct vmw_resource *res;
+		struct vmw_buffer_object *new_backup;
+		unsigned long new_backup_offset;
+		u32 no_buffer_needed:1;
+		u32 switching_backup:1;
+		u32 first_usage:1;
+		u32 reserved:1;
+		u32 dirty:1;
+		u32 dirty_set:1;
+		unsigned long private[0];
+	} cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 72 */;
+	struct ttm_operation_ctx cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 588 */;
+	struct vmw_buffer_object cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 533 */;
+	struct ttm_buffer_object *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 528 */;
+	struct vmw_validation_bo_node {
+		struct ttm_validate_buffer base;
+		struct drm_hash_item hash;
+		unsigned int coherent_count;
+		u32 as_mob:1;
+		u32 cpu_blit:1;
+	} cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 44 */;
+	typeof(*val) cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 397 */;
+	struct vmw_validation_res_node *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 320 */;
+	bool *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 318 */;
+	void **cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 317 */;
+	u32 cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 316 */;
+	size_t cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 315 */;
+	struct vmw_resource *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 314 */;
+	unsigned long cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 281 */;
+	struct ttm_validate_buffer *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 273 */;
+	struct vmw_validation_bo_node *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 263 */;
+	bool cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 260 */;
+	struct vmw_buffer_object *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 259 */;
+	struct vmw_validation_context *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 258 */;
+	int cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 258 */;
+	typeof(*res_node) cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 226 */;
+	typeof(*bo_node) cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 189 */;
+	struct drm_hash_item *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 186 */;
+	struct page *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 112 */;
+	void *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_validation.c 102 */;
+}

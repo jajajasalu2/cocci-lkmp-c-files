@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct platform_device *cocci_id/* arch/arm/mach-pxa/eseries.c 86 */;
+	int cocci_id/* arch/arm/mach-pxa/eseries.c 86 */;
+	struct w100_tg_info cocci_id/* arch/arm/mach-pxa/eseries.c 857 */;
+	unsigned long cocci_id/* arch/arm/mach-pxa/eseries.c 847 */;
+	struct w100fb_par *cocci_id/* arch/arm/mach-pxa/eseries.c 845 */;
+	struct w100_mem_info cocci_id/* arch/arm/mach-pxa/eseries.c 837 */;
+	struct w100_mode cocci_id/* arch/arm/mach-pxa/eseries.c 778 */[2];
+	struct tc6393xb_platform_data cocci_id/* arch/arm/mach-pxa/eseries.c 692 */;
+	struct pxaficp_platform_data cocci_id/* arch/arm/mach-pxa/eseries.c 68 */;
+	struct gpio_vbus_mach_info cocci_id/* arch/arm/mach-pxa/eseries.c 54 */;
+	struct tag *cocci_id/* arch/arm/mach-pxa/eseries.c 46 */;
+	char **cocci_id/* arch/arm/mach-pxa/eseries.c 46 */;
+	struct resource cocci_id/* arch/arm/mach-pxa/eseries.c 414 */[];
+	struct w100fb_mach_info cocci_id/* arch/arm/mach-pxa/eseries.c 405 */;
+	struct w100_gpio_regs cocci_id/* arch/arm/mach-pxa/eseries.c 396 */;
+	struct w100_mode cocci_id/* arch/arm/mach-pxa/eseries.c 372 */;
+	struct w100_gen_regs cocci_id/* arch/arm/mach-pxa/eseries.c 363 */;
+	struct tmio_nand_data cocci_id/* arch/arm/mach-pxa/eseries.c 301 */;
+	struct nand_bbt_descr cocci_id/* arch/arm/mach-pxa/eseries.c 294 */;
+	uint8_t cocci_id/* arch/arm/mach-pxa/eseries.c 292 */[];
+	struct mtd_partition cocci_id/* arch/arm/mach-pxa/eseries.c 286 */;
+	unsigned long cocci_id/* arch/arm/mach-pxa/eseries.c 263 */[]__initdata;
+	struct pxafb_mach_info cocci_id/* arch/arm/mach-pxa/eseries.c 253 */;
+	struct pxafb_mode_info cocci_id/* arch/arm/mach-pxa/eseries.c 239 */;
+	struct t7l66xb_platform_data cocci_id/* arch/arm/mach-pxa/eseries.c 188 */;
+	void __init cocci_id/* arch/arm/mach-pxa/eseries.c 161 */;
+	void cocci_id/* arch/arm/mach-pxa/eseries.c 161 */;
+	struct platform_device *cocci_id/* arch/arm/mach-pxa/eseries.c 156 */[]__initdata;
+	struct platform_device cocci_id/* arch/arm/mach-pxa/eseries.c 144 */;
+	struct tc6387xb_platform_data cocci_id/* arch/arm/mach-pxa/eseries.c 137 */;
+	void __init __maybe_unused cocci_id/* arch/arm/mach-pxa/eseries.c 129 */;
+	const struct machine_desc cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 397 */;
+}

@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct dentry *cocci_id/* fs/nfs/nfs4namespace.c 84 */;
+	char *cocci_id/* fs/nfs/nfs4namespace.c 84 */;
+	ssize_t cocci_id/* fs/nfs/nfs4namespace.c 84 */;
+	unsigned long cocci_id/* fs/nfs/nfs4namespace.c 515 */;
+	const struct nfs4_fs_location *cocci_id/* fs/nfs/nfs4namespace.c 501 */;
+	const struct nfs4_fs_locations *cocci_id/* fs/nfs/nfs4namespace.c 483 */;
+	struct nfs_server *cocci_id/* fs/nfs/nfs4namespace.c 482 */;
+	const struct nfs4_string *cocci_id/* fs/nfs/nfs4namespace.c 44 */;
+	size_t cocci_id/* fs/nfs/nfs4namespace.c 431 */;
+	unsigned int cocci_id/* fs/nfs/nfs4namespace.c 430 */;
+	struct sockaddr *cocci_id/* fs/nfs/nfs4namespace.c 429 */;
+	struct net *cocci_id/* fs/nfs/nfs4namespace.c 428 */;
+	const size_t cocci_id/* fs/nfs/nfs4namespace.c 427 */;
+	struct sockaddr_storage cocci_id/* fs/nfs/nfs4namespace.c 427 */;
+	rpc_authflavor_t cocci_id/* fs/nfs/nfs4namespace.c 392 */;
+	struct nfs_fh *cocci_id/* fs/nfs/nfs4namespace.c 390 */;
+	struct nfs_fattr *cocci_id/* fs/nfs/nfs4namespace.c 390 */;
+	struct vfsmount *cocci_id/* fs/nfs/nfs4namespace.c 389 */;
+	struct nfs4_fs_locations cocci_id/* fs/nfs/nfs4namespace.c 364 */;
+	struct nfs4_fs_locations *cocci_id/* fs/nfs/nfs4namespace.c 355 */;
+	const struct nfs4_pathname *cocci_id/* fs/nfs/nfs4namespace.c 33 */;
+	struct nfs_clone_mount cocci_id/* fs/nfs/nfs4namespace.c 300 */;
+	struct nfs_clone_mount *cocci_id/* fs/nfs/nfs4namespace.c 239 */;
+	int cocci_id/* fs/nfs/nfs4namespace.c 218 */;
+	struct nfs4_secinfo_flavors *cocci_id/* fs/nfs/nfs4namespace.c 216 */;
+	struct page *cocci_id/* fs/nfs/nfs4namespace.c 215 */;
+	const struct qstr *cocci_id/* fs/nfs/nfs4namespace.c 213 */;
+	struct inode *cocci_id/* fs/nfs/nfs4namespace.c 212 */;
+	struct rpc_clnt *cocci_id/* fs/nfs/nfs4namespace.c 211 */;
+	struct rpc_cred *cocci_id/* fs/nfs/nfs4namespace.c 176 */;
+	struct nfs4_secinfo4 *cocci_id/* fs/nfs/nfs4namespace.c 160 */;
+	const char *cocci_id/* fs/nfs/nfs4namespace.c 105 */;
+}

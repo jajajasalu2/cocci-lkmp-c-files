@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct ta_ras_shared_memory cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 741 */;
+	struct ta_ras_shared_memory *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 734 */;
+	union ta_ras_cmd_input *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 732 */;
+	struct ta_xgmi_shared_memory cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 588 */;
+	struct ta_xgmi_shared_memory *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 567 */;
+	void *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 41 */;
+	enum psp_reg_prog_id cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 390 */;
+	void cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 39 */(struct amdgpu_device *adev);
+	struct psp_gfx_cmd_resp cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 364 */;
+	struct psp_gfx_cmd_resp *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 355 */;
+	struct psp_context *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 335 */;
+	int cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 335 */;
+	void cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 321 */;
+	uint32_t *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 239 */;
+	const struct amdgpu_ip_block_version cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 1825 */;
+	const struct amdgpu_psp_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 1806 */;
+	const struct amd_ip_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 1788 */;
+	enum amd_powergating_state cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 1783 */;
+	enum amd_clockgating_state cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 1777 */;
+	struct amdgpu_firmware_info *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 1764 */;
+	enum AMDGPU_UCODE_ID cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 1762 */;
+	bool cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 1761 */;
+	struct amdgpu_device *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 1761 */;
+	struct amdgpu_firmware_info cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 1751 */;
+	unsigned int *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 169 */;
+	void **cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 1610 */;
+	uint64_t cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 148 */;
+	struct common_firmware_header *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 1356 */;
+	enum psp_gfx_fw_type *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 1257 */;
+	uint32_t cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_psp.c 1115 */;
+}

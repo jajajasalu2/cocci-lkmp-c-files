@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	size_t cocci_id/* drivers/iio/dac/ad5380.c 91 */;
+	uintptr_t cocci_id/* drivers/iio/dac/ad5380.c 82 */;
+	char *cocci_id/* drivers/iio/dac/ad5380.c 82 */;
+	ssize_t cocci_id/* drivers/iio/dac/ad5380.c 81 */;
+	void __exit cocci_id/* drivers/iio/dac/ad5380.c 640 */;
+	enum ad5380_type{ID_AD5380_3, ID_AD5380_5, ID_AD5381_3, ID_AD5381_5, ID_AD5382_3, ID_AD5382_5, ID_AD5383_3, ID_AD5383_5, ID_AD5390_3, ID_AD5390_5, ID_AD5391_3, ID_AD5391_5, ID_AD5392_3, ID_AD5392_5,} cocci_id/* drivers/iio/dac/ad5380.c 64 */;
+	int __init cocci_id/* drivers/iio/dac/ad5380.c 622 */;
+	void cocci_id/* drivers/iio/dac/ad5380.c 599 */;
+	struct i2c_driver cocci_id/* drivers/iio/dac/ad5380.c 590 */;
+	const struct i2c_device_id cocci_id/* drivers/iio/dac/ad5380.c 569 */[];
+	struct ad5380_state {
+		struct regmap *regmap;
+		const struct ad5380_chip_info *chip_info;
+		struct regulator *vref_reg;
+		int vref;
+		bool pwr_down;
+	} cocci_id/* drivers/iio/dac/ad5380.c 56 */;
+	struct regmap *cocci_id/* drivers/iio/dac/ad5380.c 554 */;
+	const struct i2c_device_id *cocci_id/* drivers/iio/dac/ad5380.c 552 */;
+	struct i2c_client *cocci_id/* drivers/iio/dac/ad5380.c 551 */;
+	struct spi_driver cocci_id/* drivers/iio/dac/ad5380.c 517 */;
+	const struct spi_device_id cocci_id/* drivers/iio/dac/ad5380.c 496 */[];
+	const struct spi_device_id *cocci_id/* drivers/iio/dac/ad5380.c 480 */;
+	struct spi_device *cocci_id/* drivers/iio/dac/ad5380.c 478 */;
+	const struct regmap_config cocci_id/* drivers/iio/dac/ad5380.c 465 */;
+	bool cocci_id/* drivers/iio/dac/ad5380.c 460 */;
+	struct ad5380_chip_info {
+		struct iio_chan_spec channel_template;
+		unsigned int num_channels;
+		unsigned int int_vref;
+	} cocci_id/* drivers/iio/dac/ad5380.c 41 */;
+	enum ad5380_type cocci_id/* drivers/iio/dac/ad5380.c 368 */;
+	const char *cocci_id/* drivers/iio/dac/ad5380.c 368 */;
+	struct device *cocci_id/* drivers/iio/dac/ad5380.c 367 */;
+	struct iio_chan_spec cocci_id/* drivers/iio/dac/ad5380.c 351 */;
+	unsigned int cocci_id/* drivers/iio/dac/ad5380.c 348 */;
+	struct iio_chan_spec *cocci_id/* drivers/iio/dac/ad5380.c 347 */;
+	struct ad5380_state *cocci_id/* drivers/iio/dac/ad5380.c 346 */;
+	struct iio_dev *cocci_id/* drivers/iio/dac/ad5380.c 344 */;
+	int cocci_id/* drivers/iio/dac/ad5380.c 344 */;
+	const struct ad5380_chip_info cocci_id/* drivers/iio/dac/ad5380.c 271 */[];
+	struct iio_chan_spec_ext_info cocci_id/* drivers/iio/dac/ad5380.c 241 */[];
+	const struct iio_info cocci_id/* drivers/iio/dac/ad5380.c 236 */;
+	int *cocci_id/* drivers/iio/dac/ad5380.c 203 */;
+	const unsigned int cocci_id/* drivers/iio/dac/ad5380.c 176 */;
+	long cocci_id/* drivers/iio/dac/ad5380.c 157 */;
+	const struct iio_enum cocci_id/* drivers/iio/dac/ad5380.c 149 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/dac/ad5380.c 121 */;
+	const char *const cocci_id/* drivers/iio/dac/ad5380.c 115 */[];
+}

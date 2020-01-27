@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct fs_platform_info *cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 89 */;
+	struct platform_device *cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 88 */;
+	const struct fs_ops cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 564 */;
+	cbd_t __iomem *cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 522 */;
+	char *cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 491 */;
+	fcc_t cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 487 */;
+	fcc_enet_t cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 487 */;
+	int *cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 483 */;
+	void *cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 483 */;
+	fcc_t __iomem *cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 471 */;
+	u32 cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 468 */;
+	u8 __iomem *cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 260 */;
+	const unsigned char *cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 253 */;
+	u16 cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 252 */;
+	dma_addr_t cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 251 */;
+	fcc_enet_t __iomem *cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 250 */;
+	fcc_c_t __iomem *cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 249 */;
+	struct netdev_hw_addr *cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 233 */;
+	const u8 *cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 193 */;
+	void cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 171 */;
+	void __force *cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 168 */;
+	cbd_t cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 152 */;
+	void __iomem __force *cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 150 */;
+	const struct fs_platform_info *cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 148 */;
+	struct fs_enet_private *cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 147 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 145 */;
+	int cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 145 */;
+	void __iomem *cocci_id/* drivers/net/ethernet/freescale/fs_enet/mac-fcc.c 108 */;
+}

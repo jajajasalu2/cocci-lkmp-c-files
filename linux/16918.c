@@ -1,0 +1,65 @@
+cocci_test_suite() {
+	struct tsc200x {
+		struct device *dev;
+		struct regmap *regmap;
+		__u16 bustype;
+		struct input_dev *idev;
+		char phys[32];
+		struct mutex mutex;
+		int in_x;
+		int in_y;
+		int in_z1;
+		int in_z2;
+		spinlock_t lock;
+		struct timer_list penup_timer;
+		unsigned int esd_timeout;
+		struct delayed_work esd_work;
+		unsigned long last_valid_interrupt;
+		unsigned int x_plate_ohm;
+		bool opened;
+		bool suspended;
+		bool pen_down;
+		struct regulator *vio;
+		struct gpio_desc *reset_gpio;
+		int (*tsc200x_cmd)(struct device *dev, u8 cmd);
+		int irq;
+	} cocci_id/* drivers/input/touchscreen/tsc200x-core.c 75 */;
+	struct tsc200x_data {
+		u16 x;
+		u16 y;
+		u16 z1;
+		u16 z2;
+	}__packed cocci_id/* drivers/input/touchscreen/tsc200x-core.c 67 */;
+	int __maybe_unused cocci_id/* drivers/input/touchscreen/tsc200x-core.c 608 */;
+	const struct regmap_config cocci_id/* drivers/input/touchscreen/tsc200x-core.c 54 */;
+	const struct regmap_access_table cocci_id/* drivers/input/touchscreen/tsc200x-core.c 49 */;
+	const struct regmap_range cocci_id/* drivers/input/touchscreen/tsc200x-core.c 45 */[];
+	u32 cocci_id/* drivers/input/touchscreen/tsc200x-core.c 446 */;
+	int (*cocci_id/* drivers/input/touchscreen/tsc200x-core.c 442 */)(struct device *dev,
+									  u8 cmd);
+	struct regmap *cocci_id/* drivers/input/touchscreen/tsc200x-core.c 441 */;
+	const struct input_id *cocci_id/* drivers/input/touchscreen/tsc200x-core.c 440 */;
+	struct input_dev *cocci_id/* drivers/input/touchscreen/tsc200x-core.c 426 */;
+	unsigned int cocci_id/* drivers/input/touchscreen/tsc200x-core.c 362 */;
+	struct tsc200x cocci_id/* drivers/input/touchscreen/tsc200x-core.c 360 */;
+	struct work_struct *cocci_id/* drivers/input/touchscreen/tsc200x-core.c 358 */;
+	const struct attribute_group cocci_id/* drivers/input/touchscreen/tsc200x-core.c 353 */;
+	struct device cocci_id/* drivers/input/touchscreen/tsc200x-core.c 341 */;
+	struct device *cocci_id/* drivers/input/touchscreen/tsc200x-core.c 341 */;
+	struct attribute *cocci_id/* drivers/input/touchscreen/tsc200x-core.c 339 */;
+	int cocci_id/* drivers/input/touchscreen/tsc200x-core.c 339 */;
+	umode_t cocci_id/* drivers/input/touchscreen/tsc200x-core.c 338 */;
+	struct kobject *cocci_id/* drivers/input/touchscreen/tsc200x-core.c 338 */;
+	struct attribute *cocci_id/* drivers/input/touchscreen/tsc200x-core.c 333 */[];
+	bool cocci_id/* drivers/input/touchscreen/tsc200x-core.c 263 */;
+	char *cocci_id/* drivers/input/touchscreen/tsc200x-core.c 257 */;
+	struct device_attribute *cocci_id/* drivers/input/touchscreen/tsc200x-core.c 256 */;
+	ssize_t cocci_id/* drivers/input/touchscreen/tsc200x-core.c 255 */;
+	struct tsc200x *cocci_id/* drivers/input/touchscreen/tsc200x-core.c 230 */;
+	void cocci_id/* drivers/input/touchscreen/tsc200x-core.c 230 */;
+	struct timer_list *cocci_id/* drivers/input/touchscreen/tsc200x-core.c 197 */;
+	struct tsc200x_data cocci_id/* drivers/input/touchscreen/tsc200x-core.c 140 */;
+	unsigned long cocci_id/* drivers/input/touchscreen/tsc200x-core.c 138 */;
+	irqreturn_t cocci_id/* drivers/input/touchscreen/tsc200x-core.c 135 */;
+	void *cocci_id/* drivers/input/touchscreen/tsc200x-core.c 135 */;
+}

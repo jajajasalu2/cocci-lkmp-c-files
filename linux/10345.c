@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	void *cocci_id/* drivers/gpu/drm/tiny/ili9225.c 90 */;
+	bool cocci_id/* drivers/gpu/drm/tiny/ili9225.c 85 */;
+	struct mipi_dbi_dev *cocci_id/* drivers/gpu/drm/tiny/ili9225.c 81 */;
+	struct drm_gem_cma_object *cocci_id/* drivers/gpu/drm/tiny/ili9225.c 80 */;
+	struct drm_rect *cocci_id/* drivers/gpu/drm/tiny/ili9225.c 78 */;
+	struct drm_framebuffer *cocci_id/* drivers/gpu/drm/tiny/ili9225.c 78 */;
+	void cocci_id/* drivers/gpu/drm/tiny/ili9225.c 78 */;
+	u8 cocci_id/* drivers/gpu/drm/tiny/ili9225.c 73 */[2];
+	u8 cocci_id/* drivers/gpu/drm/tiny/ili9225.c 71 */;
+	u16 cocci_id/* drivers/gpu/drm/tiny/ili9225.c 71 */;
+	struct mipi_dbi *cocci_id/* drivers/gpu/drm/tiny/ili9225.c 71 */;
+	int cocci_id/* drivers/gpu/drm/tiny/ili9225.c 71 */;
+	struct spi_driver cocci_id/* drivers/gpu/drm/tiny/ili9225.c 455 */;
+	struct gpio_desc *cocci_id/* drivers/gpu/drm/tiny/ili9225.c 384 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/tiny/ili9225.c 382 */;
+	const struct spi_device_id cocci_id/* drivers/gpu/drm/tiny/ili9225.c 372 */[];
+	const struct of_device_id cocci_id/* drivers/gpu/drm/tiny/ili9225.c 366 */[];
+	struct drm_driver cocci_id/* drivers/gpu/drm/tiny/ili9225.c 354 */;
+	const struct drm_display_mode cocci_id/* drivers/gpu/drm/tiny/ili9225.c 348 */;
+	const struct drm_simple_display_pipe_funcs cocci_id/* drivers/gpu/drm/tiny/ili9225.c 341 */;
+	u32 cocci_id/* drivers/gpu/drm/tiny/ili9225.c 323 */;
+	unsigned int cocci_id/* drivers/gpu/drm/tiny/ili9225.c 322 */;
+	struct spi_device *cocci_id/* drivers/gpu/drm/tiny/ili9225.c 321 */;
+	size_t cocci_id/* drivers/gpu/drm/tiny/ili9225.c 319 */;
+	u8 *cocci_id/* drivers/gpu/drm/tiny/ili9225.c 318 */;
+	struct drm_simple_display_pipe *cocci_id/* drivers/gpu/drm/tiny/ili9225.c 292 */;
+	struct drm_rect cocci_id/* drivers/gpu/drm/tiny/ili9225.c 190 */;
+	struct device *cocci_id/* drivers/gpu/drm/tiny/ili9225.c 188 */;
+	struct drm_plane_state *cocci_id/* drivers/gpu/drm/tiny/ili9225.c 184 */;
+	struct drm_crtc_state *cocci_id/* drivers/gpu/drm/tiny/ili9225.c 183 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/tiny/ili9225.c 168 */;
+}

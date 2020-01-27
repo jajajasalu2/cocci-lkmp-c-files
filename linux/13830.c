@@ -1,0 +1,91 @@
+cocci_test_suite() {
+	struct v4l2_subdev_frame_size_enum *cocci_id/* drivers/media/i2c/ov2659.c 999 */;
+	struct v4l2_subdev_pad_config *cocci_id/* drivers/media/i2c/ov2659.c 998 */;
+	struct v4l2_subdev_mbus_code_enum *cocci_id/* drivers/media/i2c/ov2659.c 983 */;
+	u32 cocci_id/* drivers/media/i2c/ov2659.c 970 */;
+	const struct ov2659_platform_data *cocci_id/* drivers/media/i2c/ov2659.c 892 */;
+	const struct sensor_register *cocci_id/* drivers/media/i2c/ov2659.c 880 */;
+	u8 cocci_id/* drivers/media/i2c/ov2659.c 851 */[2];
+	struct i2c_msg cocci_id/* drivers/media/i2c/ov2659.c 850 */[2];
+	u16 cocci_id/* drivers/media/i2c/ov2659.c 848 */;
+	u8 *cocci_id/* drivers/media/i2c/ov2659.c 848 */;
+	u8 cocci_id/* drivers/media/i2c/ov2659.c 825 */[3];
+	struct i2c_msg cocci_id/* drivers/media/i2c/ov2659.c 824 */;
+	const struct ov2659_pixfmt cocci_id/* drivers/media/i2c/ov2659.c 800 */[];
+	const struct ov2659_framesize cocci_id/* drivers/media/i2c/ov2659.c 737 */[];
+	const struct pll_ctrl_reg cocci_id/* drivers/media/i2c/ov2659.c 718 */[];
+	struct sensor_register cocci_id/* drivers/media/i2c/ov2659.c 379 */[];
+	const struct sensor_register cocci_id/* drivers/media/i2c/ov2659.c 217 */[];
+	struct ov2659 {
+		struct v4l2_subdev sd;
+		struct media_pad pad;
+		struct v4l2_mbus_framefmt format;
+		unsigned int xvclk_frequency;
+		const struct ov2659_platform_data *pdata;
+		struct mutex lock;
+		struct i2c_client *client;
+		struct v4l2_ctrl_handler ctrls;
+		struct v4l2_ctrl *link_frequency;
+		const struct ov2659_framesize *frame_size;
+		struct sensor_register *format_ctrl_regs;
+		struct ov2659_pll_ctrl pll;
+		int streaming;
+		struct gpio_desc *pwdn_gpio;
+		struct gpio_desc *resetb_gpio;
+	} cocci_id/* drivers/media/i2c/ov2659.c 197 */;
+	struct pll_ctrl_reg {
+		unsigned int div;
+		unsigned char reg;
+	} cocci_id/* drivers/media/i2c/ov2659.c 192 */;
+	struct ov2659_pixfmt {
+		u32 code;
+		struct sensor_register *format_ctrl_regs;
+	} cocci_id/* drivers/media/i2c/ov2659.c 186 */;
+	struct ov2659_pll_ctrl {
+		u8 ctrl1;
+		u8 ctrl2;
+		u8 ctrl3;
+	} cocci_id/* drivers/media/i2c/ov2659.c 180 */;
+	struct ov2659_framesize {
+		u16 width;
+		u16 height;
+		u16 max_exp_lines;
+		const struct sensor_register *regs;
+	} cocci_id/* drivers/media/i2c/ov2659.c 173 */;
+	struct sensor_register {
+		u16 addr;
+		u8 value;
+	} cocci_id/* drivers/media/i2c/ov2659.c 168 */;
+	struct i2c_driver cocci_id/* drivers/media/i2c/ov2659.c 1574 */;
+	const struct of_device_id cocci_id/* drivers/media/i2c/ov2659.c 1567 */[];
+	const struct i2c_device_id cocci_id/* drivers/media/i2c/ov2659.c 1560 */[];
+	const struct dev_pm_ops cocci_id/* drivers/media/i2c/ov2659.c 1556 */;
+	struct clk *cocci_id/* drivers/media/i2c/ov2659.c 1428 */;
+	struct device_node *cocci_id/* drivers/media/i2c/ov2659.c 1387 */;
+	struct v4l2_fwnode_endpoint cocci_id/* drivers/media/i2c/ov2659.c 1386 */;
+	struct ov2659_platform_data *cocci_id/* drivers/media/i2c/ov2659.c 1382 */;
+	unsigned short cocci_id/* drivers/media/i2c/ov2659.c 1366 */;
+	u8 cocci_id/* drivers/media/i2c/ov2659.c 1347 */;
+	struct i2c_client *cocci_id/* drivers/media/i2c/ov2659.c 1346 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/i2c/ov2659.c 1344 */;
+	const struct v4l2_subdev_internal_ops cocci_id/* drivers/media/i2c/ov2659.c 1339 */;
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/i2c/ov2659.c 1333 */;
+	const struct v4l2_subdev_pad_ops cocci_id/* drivers/media/i2c/ov2659.c 1325 */;
+	const struct v4l2_subdev_video_ops cocci_id/* drivers/media/i2c/ov2659.c 1321 */;
+	const struct v4l2_subdev_core_ops cocci_id/* drivers/media/i2c/ov2659.c 1315 */;
+	struct v4l2_subdev_fh *cocci_id/* drivers/media/i2c/ov2659.c 1301 */;
+	struct device *cocci_id/* drivers/media/i2c/ov2659.c 1263 */;
+	const char *const cocci_id/* drivers/media/i2c/ov2659.c 1258 */[];
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/i2c/ov2659.c 1254 */;
+	struct ov2659 cocci_id/* drivers/media/i2c/ov2659.c 1238 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/i2c/ov2659.c 1235 */;
+	s64 cocci_id/* drivers/media/i2c/ov2659.c 1120 */;
+	unsigned int cocci_id/* drivers/media/i2c/ov2659.c 1063 */;
+	int cocci_id/* drivers/media/i2c/ov2659.c 1062 */;
+	const struct ov2659_framesize *cocci_id/* drivers/media/i2c/ov2659.c 1060 */;
+	const struct ov2659_framesize **cocci_id/* drivers/media/i2c/ov2659.c 1058 */;
+	struct v4l2_mbus_framefmt *cocci_id/* drivers/media/i2c/ov2659.c 1057 */;
+	void cocci_id/* drivers/media/i2c/ov2659.c 1057 */;
+	struct ov2659 *cocci_id/* drivers/media/i2c/ov2659.c 1028 */;
+	struct v4l2_subdev_format *cocci_id/* drivers/media/i2c/ov2659.c 1025 */;
+}

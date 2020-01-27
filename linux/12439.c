@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct task_struct *cocci_id/* drivers/gpu/drm/drm_debugfs.c 93 */;
+	kuid_t cocci_id/* drivers/gpu/drm/drm_debugfs.c 78 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/drm_debugfs.c 77 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/drm_debugfs.c 76 */;
+	struct drm_info_node *cocci_id/* drivers/gpu/drm/drm_debugfs.c 75 */;
+	struct drm_master *cocci_id/* drivers/gpu/drm/drm_debugfs.c 56 */;
+	char *cocci_id/* drivers/gpu/drm/drm_debugfs.c 458 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/drm_debugfs.c 454 */;
+	struct dentry *cocci_id/* drivers/gpu/drm/drm_debugfs.c 427 */;
+	const struct file_operations cocci_id/* drivers/gpu/drm/drm_debugfs.c 415 */;
+	struct edid *cocci_id/* drivers/gpu/drm/drm_debugfs.c 378 */;
+	struct drm_property_blob *cocci_id/* drivers/gpu/drm/drm_debugfs.c 357 */;
+	char cocci_id/* drivers/gpu/drm/drm_debugfs.c 330 */[12];
+	loff_t *cocci_id/* drivers/gpu/drm/drm_debugfs.c 326 */;
+	size_t cocci_id/* drivers/gpu/drm/drm_debugfs.c 326 */;
+	const char __user *cocci_id/* drivers/gpu/drm/drm_debugfs.c 325 */;
+	ssize_t cocci_id/* drivers/gpu/drm/drm_debugfs.c 325 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/drm_debugfs.c 320 */;
+	struct inode *cocci_id/* drivers/gpu/drm/drm_debugfs.c 318 */;
+	struct file *cocci_id/* drivers/gpu/drm/drm_debugfs.c 318 */;
+	int cocci_id/* drivers/gpu/drm/drm_debugfs.c 318 */;
+	struct seq_file *cocci_id/* drivers/gpu/drm/drm_debugfs.c 309 */;
+	void *cocci_id/* drivers/gpu/drm/drm_debugfs.c 309 */;
+	struct drm_minor *cocci_id/* drivers/gpu/drm/drm_debugfs.c 298 */;
+	void cocci_id/* drivers/gpu/drm/drm_debugfs.c 298 */;
+	struct list_head *cocci_id/* drivers/gpu/drm/drm_debugfs.c 265 */;
+	char cocci_id/* drivers/gpu/drm/drm_debugfs.c 211 */[64];
+	struct drm_info_node cocci_id/* drivers/gpu/drm/drm_debugfs.c 189 */;
+	u32 cocci_id/* drivers/gpu/drm/drm_debugfs.c 183 */;
+	const struct drm_info_list *cocci_id/* drivers/gpu/drm/drm_debugfs.c 175 */;
+	const struct drm_info_list cocci_id/* drivers/gpu/drm/drm_debugfs.c 138 */[];
+	struct drm_gem_object *cocci_id/* drivers/gpu/drm/drm_debugfs.c 114 */;
+}

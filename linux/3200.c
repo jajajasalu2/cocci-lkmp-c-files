@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	bool cocci_id/* drivers/hwmon/adm1021.c 89 */;
+	struct adm1021_data {
+		struct i2c_client *client;
+		enum chips type;
+		const struct attribute_group *groups[3];
+		struct mutex update_lock;
+		char valid;
+		char low_power;
+		unsigned long last_updated;
+		int temp_max[2];
+		int temp_min[2];
+		int temp[2];
+		u8 alarms;
+		u8 remote_temp_offset;
+		u8 remote_temp_offset_prec;
+	} cocci_id/* drivers/hwmon/adm1021.c 68 */;
+	struct i2c_driver cocci_id/* drivers/hwmon/adm1021.c 470 */;
+	const struct i2c_device_id cocci_id/* drivers/hwmon/adm1021.c 457 */[];
+	struct adm1021_data cocci_id/* drivers/hwmon/adm1021.c 435 */;
+	struct adm1021_data *cocci_id/* drivers/hwmon/adm1021.c 432 */;
+	struct device *cocci_id/* drivers/hwmon/adm1021.c 431 */;
+	const struct i2c_device_id *cocci_id/* drivers/hwmon/adm1021.c 429 */;
+	void cocci_id/* drivers/hwmon/adm1021.c 419 */;
+	s8 cocci_id/* drivers/hwmon/adm1021.c 388 */;
+	const char *cocci_id/* drivers/hwmon/adm1021.c 326 */;
+	struct i2c_adapter *cocci_id/* drivers/hwmon/adm1021.c 325 */;
+	struct i2c_board_info *cocci_id/* drivers/hwmon/adm1021.c 323 */;
+	struct i2c_client *cocci_id/* drivers/hwmon/adm1021.c 322 */;
+	int cocci_id/* drivers/hwmon/adm1021.c 322 */;
+	const struct attribute_group cocci_id/* drivers/hwmon/adm1021.c 305 */;
+	struct attribute *cocci_id/* drivers/hwmon/adm1021.c 292 */[];
+	unsigned long cocci_id/* drivers/hwmon/adm1021.c 255 */;
+	char cocci_id/* drivers/hwmon/adm1021.c 254 */;
+	size_t cocci_id/* drivers/hwmon/adm1021.c 250 */;
+	enum chips{adm1021, adm1023, max1617, max1617a, thmc10, lm84, gl523sm, mc1066,} cocci_id/* drivers/hwmon/adm1021.c 24 */;
+	const unsigned short cocci_id/* drivers/hwmon/adm1021.c 21 */[];
+	long cocci_id/* drivers/hwmon/adm1021.c 196 */;
+	char *cocci_id/* drivers/hwmon/adm1021.c 174 */;
+	struct device_attribute *cocci_id/* drivers/hwmon/adm1021.c 173 */;
+	ssize_t cocci_id/* drivers/hwmon/adm1021.c 173 */;
+}

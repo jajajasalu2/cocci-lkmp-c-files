@@ -1,0 +1,67 @@
+cocci_test_suite() {
+	dm_block_t *cocci_id/* drivers/md/dm-clone-metadata.c 994 */;
+	unsigned long *cocci_id/* drivers/md/dm-clone-metadata.c 671 */;
+	sector_t cocci_id/* drivers/md/dm-clone-metadata.c 564 */;
+	struct block_device *cocci_id/* drivers/md/dm-clone-metadata.c 563 */;
+	struct dm_bitset_cursor cocci_id/* drivers/md/dm-clone-metadata.c 532 */;
+	struct dirty_map *cocci_id/* drivers/md/dm-clone-metadata.c 497 */;
+	unsigned long cocci_id/* drivers/md/dm-clone-metadata.c 479 */;
+	long cocci_id/* drivers/md/dm-clone-metadata.c 476 */;
+	void cocci_id/* drivers/md/dm-clone-metadata.c 465 */;
+	bool cocci_id/* drivers/md/dm-clone-metadata.c 445 */;
+	struct superblock_disk {
+		__le32 csum;
+		__le32 flags;
+		__le64 blocknr;
+		__u8 uuid[UUID_LEN];
+		__le64 magic;
+		__le32 version;
+		__u8 metadata_space_map_root[SPACE_MAP_ROOT_SIZE];
+		__le64 region_size;
+		__le64 target_size;
+		__le64 bitset_root;
+	}__packed cocci_id/* drivers/md/dm-clone-metadata.c 38 */;
+	struct superblock_disk *cocci_id/* drivers/md/dm-clone-metadata.c 370 */;
+	struct dm_block *cocci_id/* drivers/md/dm-clone-metadata.c 369 */;
+	size_t cocci_id/* drivers/md/dm-clone-metadata.c 294 */;
+	struct dm_clone_metadata *cocci_id/* drivers/md/dm-clone-metadata.c 291 */;
+	int cocci_id/* drivers/md/dm-clone-metadata.c 291 */;
+	struct dm_block **cocci_id/* drivers/md/dm-clone-metadata.c 274 */;
+	__le64 cocci_id/* drivers/md/dm-clone-metadata.c 254 */;
+	__le64 *cocci_id/* drivers/md/dm-clone-metadata.c 238 */;
+	unsigned int cocci_id/* drivers/md/dm-clone-metadata.c 236 */;
+	bool *cocci_id/* drivers/md/dm-clone-metadata.c 233 */;
+	struct dm_block_manager *cocci_id/* drivers/md/dm-clone-metadata.c 233 */;
+	struct dm_block_validator cocci_id/* drivers/md/dm-clone-metadata.c 223 */;
+	__le32 cocci_id/* drivers/md/dm-clone-metadata.c 202 */;
+	unsigned long long cocci_id/* drivers/md/dm-clone-metadata.c 191 */;
+	u32 cocci_id/* drivers/md/dm-clone-metadata.c 184 */;
+	struct dm_block_validator *cocci_id/* drivers/md/dm-clone-metadata.c 180 */;
+	struct dm_clone_metadata {
+		struct block_device *bdev;
+		sector_t target_size;
+		sector_t region_size;
+		unsigned long nr_regions;
+		unsigned long nr_words;
+		spinlock_t bitmap_lock;
+		struct dirty_map dmap[2];
+		struct dirty_map *current_dmap;
+		struct dirty_map *committing_dmap;
+		unsigned long *region_map;
+		unsigned int read_only;
+		struct dm_block_manager *bm;
+		struct dm_space_map *sm;
+		struct dm_transaction_manager *tm;
+		struct rw_semaphore lock;
+		struct dm_disk_bitset bitset_info;
+		dm_block_t bitset_root;
+		__u8 metadata_space_map_root[SPACE_MAP_ROOT_SIZE];
+		bool hydration_done:1;
+		bool fail_io:1;
+	} cocci_id/* drivers/md/dm-clone-metadata.c 116 */;
+	struct dirty_map {
+		unsigned long *dirty_words;
+		unsigned long *dirty_regions;
+		unsigned int changed;
+	} cocci_id/* drivers/md/dm-clone-metadata.c 110 */;
+}

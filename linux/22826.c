@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct codec_info_item cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 932 */;
+	struct codec_info_item *cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 886 */;
+	struct transfer_info *cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 884 */;
+	struct codec_info *cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 881 */;
+	void *cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 881 */;
+	struct soundbus_dev *cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 880 */;
+	struct snd_card *cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 880 */;
+	struct snd_pcm *cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 861 */;
+	struct transfer_info cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 81 */;
+	unsigned int cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 80 */;
+	u64 cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 79 */;
+	const struct snd_pcm_ops cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 780 */;
+	struct snd_pcm_hardware *cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 78 */;
+	irqreturn_t cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 715 */;
+	struct snd_pcm_runtime *cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 641 */;
+	u32 cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 637 */;
+	struct pcm_info *cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 636 */;
+	snd_pcm_uframes_t cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 619 */;
+	unsigned long cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 543 */;
+	struct dbdma_cmd cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 378 */;
+	int *cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 34 */;
+	int cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 34 */;
+	struct bus_info cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 334 */;
+	dma_addr_t cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 333 */;
+	struct dbdma_cmd *cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 331 */;
+	struct snd_pcm_substream *cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 303 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 298 */;
+	long cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 258 */;
+	struct completion cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 257 */;
+	struct pcm_info **cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 19 */;
+	struct i2sbus_dev *cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 18 */;
+	void cocci_id/* sound/aoa/soundbus/i2sbus/pcm.c 18 */;
+}

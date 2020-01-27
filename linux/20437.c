@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct work_struct *cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 78 */;
+	struct notifier_block cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 73 */;
+	unsigned long *cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 55 */;
+	unsigned int cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 44 */;
+	struct mce *cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 43 */;
+	void *cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 41 */;
+	struct notifier_block *cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 40 */;
+	unsigned long cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 40 */;
+	void cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 340 */;
+	struct miscdevice cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 334 */;
+	const struct file_operations cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 324 */;
+	struct mce_log_buffer cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 32 */;
+	const char __user *cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 291 */;
+	unsigned cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 266 */;
+	int __user *cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 255 */;
+	struct file *cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 252 */;
+	long cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 252 */;
+	__poll_t cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 242 */;
+	poll_table *cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 242 */;
+	char *cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 24 */[2];
+	char cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 23 */[128];
+	loff_t *cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 201 */;
+	char __user *cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 200 */;
+	ssize_t cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 200 */;
+	struct mce cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 164 */;
+	u64 cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 163 */;
+	char __user **cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 160 */;
+	int cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 160 */;
+	size_t cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 160 */;
+	struct inode *cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 125 */;
+	char *cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 103 */;
+	const char *cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 101 */;
+	struct device_attribute *cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 100 */;
+	struct device *cocci_id/* arch/x86/kernel/cpu/mce/dev-mcelog.c 100 */;
+}

@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	void cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 68 */;
+	struct amba_driver cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 552 */;
+	const struct amba_id cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 541 */[];
+	struct coresight_dev_list *cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 444 */;
+	struct coresight_desc cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 443 */;
+	struct resource *cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 442 */;
+	struct coresight_platform_data *cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 440 */;
+	void __iomem *cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 438 */;
+	const struct amba_id *cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 434 */;
+	struct amba_device *cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 434 */;
+	u32 cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 425 */;
+	void *cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 383 */;
+	bool cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 370 */;
+	const struct attribute_group *cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 364 */[];
+	const struct attribute_group cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 355 */;
+	struct attribute *cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 349 */[];
+	unsigned long cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 330 */;
+	int cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 329 */;
+	const char *cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 327 */;
+	size_t cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 327 */;
+	struct tmc_drvdata *cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 320 */;
+	struct device_attribute *cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 318 */;
+	char *cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 318 */;
+	struct device *cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 317 */;
+	ssize_t cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 317 */;
+	struct tmc_drvdata cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 254 */;
+	enum tmc_mem_intf_width cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 220 */;
+	const struct file_operations cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 212 */;
+	loff_t *cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 176 */;
+	char __user *cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 175 */;
+	loff_t cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 162 */;
+	char **cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 162 */;
+	struct inode *cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 145 */;
+	struct file *cocci_id/* drivers/hwtracing/coresight/coresight-tmc.c 145 */;
+}

@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	struct iwl_mvm_loc_entry {
+		struct list_head list;
+		u8 addr[ETH_ALEN];
+		u8 lci_len,civic_len;
+		u8 buf[];
+	} cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 70 */;
+	const u8 cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 637 */;
+	size_t cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 631 */;
+	const struct ieee80211_mgmt *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 630 */;
+	void *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 630 */;
+	struct iwl_rx_packet *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 629 */;
+	struct iwl_rx_cmd_buffer *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 627 */;
+	s32 cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 598 */;
+	struct iwl_tof_range_rsp_ap_entry_ntfy *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 531 */;
+	struct cfg80211_pmsr_result cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 530 */;
+	bool cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 498 */;
+	struct iwl_tof_range_rsp_ntfy *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 496 */;
+	struct iwl_tof_range_rsp_ntfy_v6 *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 495 */;
+	struct iwl_tof_range_rsp_ntfy_v5 *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 494 */;
+	s64 cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 475 */;
+	struct cfg80211_pmsr_result *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 473 */;
+	u8 cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 472 */;
+	struct iwl_mvm *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 472 */;
+	void cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 472 */;
+	struct iwl_mvm_loc_entry *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 432 */;
+	u32 cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 415 */;
+	u64 cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 413 */;
+	__le32 cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 413 */;
+	struct cfg80211_pmsr_request_peer *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 404 */;
+	const u8 *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 399 */;
+	struct iwl_tof_range_abort_cmd cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 383 */;
+	struct cfg80211_pmsr_request *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 381 */;
+	struct iwl_host_cmd cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 329 */;
+	struct iwl_tof_range_req_cmd cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 325 */;
+	struct iwl_tof_range_req_cmd_v5 cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 324 */;
+	struct iwl_tof_range_req_ap_entry *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 283 */;
+	struct iwl_tof_range_req_ap_entry_v2 *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 248 */;
+	u8 *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 213 */;
+	struct iwl_mvm_vif *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 196 */;
+	struct iwl_tof_range_req_cmd *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 166 */;
+	struct ieee80211_vif *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 165 */;
+	struct iwl_tof_range_req_cmd_v5 *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 136 */;
+	enum iwl_tof_range_request_status cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 122 */;
+	int cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c 121 */;
+}

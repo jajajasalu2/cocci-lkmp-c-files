@@ -1,0 +1,55 @@
+cocci_test_suite() {
+	u16 cocci_id/* drivers/scsi/initio.c 867 */;
+	u16 *cocci_id/* drivers/scsi/initio.c 421 */;
+	void __exit cocci_id/* drivers/scsi/initio.c 2971 */;
+	int __init cocci_id/* drivers/scsi/initio.c 2966 */;
+	struct pci_driver cocci_id/* drivers/scsi/initio.c 2959 */;
+	struct pci_device_id cocci_id/* drivers/scsi/initio.c 2949 */[];
+	struct scsi_ctrl_blk cocci_id/* drivers/scsi/initio.c 2856 */;
+	struct initio_host cocci_id/* drivers/scsi/initio.c 2833 */;
+	u32 *cocci_id/* drivers/scsi/initio.c 2822 */;
+	const struct pci_device_id *cocci_id/* drivers/scsi/initio.c 2809 */;
+	struct scsi_host_template cocci_id/* drivers/scsi/initio.c 2797 */;
+	struct scsi_ctrl_blk *cocci_id/* drivers/scsi/initio.c 2742 */;
+	struct initio_host *cocci_id/* drivers/scsi/initio.c 2741 */;
+	struct scsi_cmnd *cocci_id/* drivers/scsi/initio.c 2740 */;
+	u8 *cocci_id/* drivers/scsi/initio.c 2738 */;
+	void cocci_id/* drivers/scsi/initio.c 2738 */;
+	struct sg_entry cocci_id/* drivers/scsi/initio.c 2722 */;
+	dma_addr_t cocci_id/* drivers/scsi/initio.c 2714 */;
+	struct pci_dev *cocci_id/* drivers/scsi/initio.c 2709 */;
+	unsigned long cocci_id/* drivers/scsi/initio.c 2676 */;
+	struct target_control *cocci_id/* drivers/scsi/initio.c 2668 */;
+	sector_t cocci_id/* drivers/scsi/initio.c 2665 */;
+	int *cocci_id/* drivers/scsi/initio.c 2665 */;
+	struct scsi_device *cocci_id/* drivers/scsi/initio.c 2664 */;
+	struct block_device *cocci_id/* drivers/scsi/initio.c 2664 */;
+	int cocci_id/* drivers/scsi/initio.c 2664 */;
+	void (*cocci_id/* drivers/scsi/initio.c 2613 */)(struct scsi_cmnd *);
+	char *cocci_id/* drivers/scsi/initio.c 2556 */;
+	u32 cocci_id/* drivers/scsi/initio.c 2554 */;
+	long cocci_id/* drivers/scsi/initio.c 2537 */;
+	struct sg_entry *cocci_id/* drivers/scsi/initio.c 2535 */;
+	struct scatterlist *cocci_id/* drivers/scsi/initio.c 2534 */;
+	struct Scsi_Host *cocci_id/* drivers/scsi/initio.c 2507 */;
+	irqreturn_t cocci_id/* drivers/scsi/initio.c 2505 */;
+	void *cocci_id/* drivers/scsi/initio.c 2505 */;
+	u8 cocci_id/* drivers/scsi/initio.c 2359 */;
+	unsigned cocci_id/* drivers/scsi/initio.c 226 */;
+	char cocci_id/* drivers/scsi/initio.c 2212 */;
+	u8 cocci_id/* drivers/scsi/initio.c 213 */[8];
+	u8 cocci_id/* drivers/scsi/initio.c 173 */[64];
+	NVRAM *cocci_id/* drivers/scsi/initio.c 171 */;
+	NVRAM cocci_id/* drivers/scsi/initio.c 170 */;
+	void cocci_id/* drivers/scsi/initio.c 166 */(unsigned long base);
+	int cocci_id/* drivers/scsi/initio.c 164 */(unsigned long base);
+	void cocci_id/* drivers/scsi/initio.c 159 */(struct initio_host *host);
+	void cocci_id/* drivers/scsi/initio.c 147 */(struct initio_host *host,
+						     struct scsi_ctrl_blk *scb);
+	int cocci_id/* drivers/scsi/initio.c 146 */(struct initio_host *host);
+	struct scsi_ctrl_blk *cocci_id/* drivers/scsi/initio.c 118 */(struct initio_host *host);
+	struct scsi_ctrl_blk *cocci_id/* drivers/scsi/initio.c 117 */(struct initio_host *host,
+								      u16 tarlun);
+	void cocci_id/* drivers/scsi/initio.c 109 */(u8 *pHcb, u8 *pScb);
+	unsigned int cocci_id/* drivers/scsi/initio.c 100 */;
+}

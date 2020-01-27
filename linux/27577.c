@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	const u64 cocci_id/* fs/btrfs/tree-checker.c 899 */;
+	struct btrfs_root_item cocci_id/* fs/btrfs/tree-checker.c 898 */;
+	struct btrfs_inode_item cocci_id/* fs/btrfs/tree-checker.c 834 */;
+	struct btrfs_inode_item *cocci_id/* fs/btrfs/tree-checker.c 811 */;
+	struct btrfs_dev_item cocci_id/* fs/btrfs/tree-checker.c 775 */;
+	struct btrfs_dev_item *cocci_id/* fs/btrfs/tree-checker.c 767 */;
+	bool cocci_id/* fs/btrfs/tree-checker.c 643 */;
+	u16 cocci_id/* fs/btrfs/tree-checker.c 639 */;
+	struct btrfs_fs_info *cocci_id/* fs/btrfs/tree-checker.c 636 */;
+	u64 cocci_id/* fs/btrfs/tree-checker.c 634 */;
+	struct btrfs_chunk *cocci_id/* fs/btrfs/tree-checker.c 634 */;
+	struct extent_buffer *cocci_id/* fs/btrfs/tree-checker.c 633 */;
+	int cocci_id/* fs/btrfs/tree-checker.c 633 */;
+	u32 cocci_id/* fs/btrfs/tree-checker.c 517 */;
+	struct btrfs_block_group_item cocci_id/* fs/btrfs/tree-checker.c 516 */;
+	struct btrfs_key *cocci_id/* fs/btrfs/tree-checker.c 514 */;
+	void *cocci_id/* fs/btrfs/tree-checker.c 484 */;
+	char cocci_id/* fs/btrfs/tree-checker.c 471 */[max(BTRFS_NAME_LEN,
+							   XATTR_NAME_MAX)];
+	u8 cocci_id/* fs/btrfs/tree-checker.c 394 */;
+	struct btrfs_dir_item cocci_id/* fs/btrfs/tree-checker.c 387 */;
+	struct btrfs_dir_item *cocci_id/* fs/btrfs/tree-checker.c 381 */;
+	struct btrfs_file_extent_item cocci_id/* fs/btrfs/tree-checker.c 222 */;
+	struct btrfs_file_extent_item *cocci_id/* fs/btrfs/tree-checker.c 201 */;
+	struct btrfs_key cocci_id/* fs/btrfs/tree-checker.c 1568 */;
+	unsigned long cocci_id/* fs/btrfs/tree-checker.c 1567 */;
+	struct btrfs_item cocci_id/* fs/btrfs/tree-checker.c 1525 */;
+	struct btrfs_chunk cocci_id/* fs/btrfs/tree-checker.c 1386 */;
+	struct btrfs_inode_ref *cocci_id/* fs/btrfs/tree-checker.c 1311 */;
+	const unsigned long cocci_id/* fs/btrfs/tree-checker.c 1265 */;
+	struct btrfs_extent_data_ref *cocci_id/* fs/btrfs/tree-checker.c 1263 */;
+	struct btrfs_shared_data_ref cocci_id/* fs/btrfs/tree-checker.c 1235 */;
+	struct btrfs_shared_data_ref *cocci_id/* fs/btrfs/tree-checker.c 1143 */;
+	struct btrfs_extent_inline_ref *cocci_id/* fs/btrfs/tree-checker.c 1141 */;
+	struct btrfs_tree_block_info *cocci_id/* fs/btrfs/tree-checker.c 1126 */;
+	struct btrfs_extent_item cocci_id/* fs/btrfs/tree-checker.c 1080 */;
+	const u32 cocci_id/* fs/btrfs/tree-checker.c 1022 */;
+	struct btrfs_extent_item *cocci_id/* fs/btrfs/tree-checker.c 1018 */;
+}

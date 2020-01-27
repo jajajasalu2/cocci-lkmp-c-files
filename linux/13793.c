@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	struct cx25840_ir_state {
+		struct i2c_client *c;
+		struct v4l2_subdev_ir_parameters rx_params;
+		struct mutex rx_params_lock;
+		atomic_t rxclk_divider;
+		atomic_t rx_invert;
+		struct kfifo rx_kfifo;
+		spinlock_t rx_kfifo_lock;
+		struct v4l2_subdev_ir_parameters tx_params;
+		struct mutex tx_params_lock;
+		atomic_t txclk_divider;
+	} cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 98 */;
+	union cx25840_ir_fifo_rec {
+		u32 hw_fifo_data;
+		struct ir_raw_event ir_core_data;
+	} cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 90 */;
+	struct v4l2_subdev_ir_parameters *cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 707 */;
+	struct ir_raw_event cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 695 */;
+	unsigned cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 656 */;
+	union cx25840_ir_fifo_rec *cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 655 */;
+	ssize_t *cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 649 */;
+	u8 *cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 648 */;
+	size_t cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 648 */;
+	unsigned char *cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 600 */;
+	union cx25840_ir_fifo_rec cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 598 */;
+	union cx25840_ir_fifo_rec cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 515 */[FIFO_RX_DEPTH];
+	unsigned long cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 513 */;
+	struct cx25840_ir_state *cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 511 */;
+	struct cx25840_state *cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 510 */;
+	bool *cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 508 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 508 */;
+	int cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 508 */;
+	u32 cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 461 */;
+	struct i2c_client *cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 458 */;
+	u16 *cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 422 */;
+	unsigned int *cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 377 */;
+	bool cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 362 */;
+	void cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 361 */;
+	enum rx_fifo_watermark cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 337 */;
+	enum tx_fifo_watermark cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 331 */;
+	enum rx_fifo_watermark{RX_FIFO_HALF_FULL=0, RX_FIFO_NOT_EMPTY=CNTRL_RIC,} cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 325 */;
+	enum tx_fifo_watermark{TX_FIFO_HALF_EMPTY=0, TX_FIFO_EMPTY=CNTRL_TIC,} cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 320 */;
+	u64 cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 292 */;
+	u16 cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 152 */;
+	unsigned int cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 152 */;
+	struct v4l2_subdev_ir_parameters cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 1210 */;
+	const struct v4l2_subdev_ir_parameters cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 1172 */;
+	const struct v4l2_subdev_ir_ops cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 1161 */;
+	char *cocci_id/* drivers/media/i2c/cx25840/cx25840-ir.c 1026 */;
+}

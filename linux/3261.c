@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	const struct i2c_device_id *cocci_id/* drivers/hwmon/nct7802.c 998 */;
+	const struct regmap_config cocci_id/* drivers/hwmon/nct7802.c 972 */;
+	bool cocci_id/* drivers/hwmon/nct7802.c 966 */;
+	struct i2c_board_info *cocci_id/* drivers/hwmon/nct7802.c 925 */;
+	struct i2c_client *cocci_id/* drivers/hwmon/nct7802.c 924 */;
+	const struct attribute_group *cocci_id/* drivers/hwmon/nct7802.c 915 */[];
+	const struct attribute_group cocci_id/* drivers/hwmon/nct7802.c 911 */;
+	struct attribute *cocci_id/* drivers/hwmon/nct7802.c 871 */[];
+	struct device cocci_id/* drivers/hwmon/nct7802.c 794 */;
+	struct attribute *cocci_id/* drivers/hwmon/nct7802.c 792 */;
+	umode_t cocci_id/* drivers/hwmon/nct7802.c 791 */;
+	struct kobject *cocci_id/* drivers/hwmon/nct7802.c 791 */;
+	struct nct7802_data {
+		struct regmap *regmap;
+		struct mutex access_lock;
+	} cocci_id/* drivers/hwmon/nct7802.c 58 */;
+	unsigned long cocci_id/* drivers/hwmon/nct7802.c 486 */;
+	size_t cocci_id/* drivers/hwmon/nct7802.c 482 */;
+	const char *cocci_id/* drivers/hwmon/nct7802.c 481 */;
+	unsigned int cocci_id/* drivers/hwmon/nct7802.c 455 */;
+	int cocci_id/* drivers/hwmon/nct7802.c 454 */;
+	struct sensor_device_attribute_2 *cocci_id/* drivers/hwmon/nct7802.c 453 */;
+	struct nct7802_data *cocci_id/* drivers/hwmon/nct7802.c 452 */;
+	char *cocci_id/* drivers/hwmon/nct7802.c 450 */;
+	struct device_attribute *cocci_id/* drivers/hwmon/nct7802.c 449 */;
+	struct device *cocci_id/* drivers/hwmon/nct7802.c 449 */;
+	ssize_t cocci_id/* drivers/hwmon/nct7802.c 449 */;
+	struct sensor_device_attribute *cocci_id/* drivers/hwmon/nct7802.c 407 */;
+	long cocci_id/* drivers/hwmon/nct7802.c 391 */;
+	u8 cocci_id/* drivers/hwmon/nct7802.c 282 */[];
+	const u8 cocci_id/* drivers/hwmon/nct7802.c 25 */[2][5];
+	const u8 cocci_id/* drivers/hwmon/nct7802.c 23 */[5];
+	u8 cocci_id/* drivers/hwmon/nct7802.c 211 */;
+	s16 cocci_id/* drivers/hwmon/nct7802.c 205 */;
+	int *cocci_id/* drivers/hwmon/nct7802.c 187 */;
+	struct i2c_driver cocci_id/* drivers/hwmon/nct7802.c 1035 */;
+	const struct i2c_device_id cocci_id/* drivers/hwmon/nct7802.c 1029 */[];
+	const unsigned short cocci_id/* drivers/hwmon/nct7802.c 1025 */[];
+}

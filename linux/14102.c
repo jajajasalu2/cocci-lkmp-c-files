@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct v4l2_rect *cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 99 */;
+	struct v4l2_subdev_frame_size_enum *cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 82 */;
+	struct v4l2_subdev_pad_config *cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 81 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 80 */;
+	int cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 80 */;
+	const unsigned int cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 71 */[];
+	struct v4l2_subdev_mbus_code_enum *cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 69 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 53 */;
+	struct vsp1_brx cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 42 */;
+	const char *cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 412 */;
+	enum vsp1_entity_type cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 408 */;
+	struct vsp1_device *cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 407 */;
+	const struct vsp1_entity_operations cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 399 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 39 */;
+	u32 cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 339 */;
+	bool cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 338 */;
+	unsigned int cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 291 */;
+	struct v4l2_mbus_framefmt *cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 290 */;
+	struct vsp1_brx *cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 289 */;
+	struct vsp1_dl_body *cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 287 */;
+	struct vsp1_dl_list *cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 286 */;
+	struct vsp1_pipeline *cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 285 */;
+	struct vsp1_entity *cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 284 */;
+	void cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 284 */;
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 276 */;
+	const struct v4l2_subdev_pad_ops cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 266 */;
+	struct v4l2_subdev_selection *cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 185 */;
+	struct v4l2_subdev_format *cocci_id/* drivers/media/platform/vsp1/vsp1_brx.c 136 */;
+}

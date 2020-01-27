@@ -1,0 +1,57 @@
+cocci_test_suite() {
+	struct drm_nouveau_gem_cpu_fini *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 911 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 908 */;
+	void *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 908 */;
+	struct nouveau_gem_object_unmap {
+		struct nouveau_cli_work work;
+		struct nouveau_vma *vma;
+	} cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 90 */;
+	long cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 884 */;
+	bool cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 882 */;
+	struct drm_nouveau_gem_cpu_prep *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 879 */;
+	uint32_t cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 814 */;
+	unsigned long cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 783 */;
+	struct nouveau_fence *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 699 */;
+	struct validate_op cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 698 */;
+	struct nouveau_channel *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 697 */;
+	struct drm_nouveau_gem_pushbuf_bo *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 696 */;
+	struct drm_nouveau_gem_pushbuf_push *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 695 */;
+	struct drm_nouveau_gem_pushbuf *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 694 */;
+	struct nouveau_drm *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 693 */;
+	struct nouveau_abi16_chan *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 692 */;
+	struct nouveau_abi16 *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 690 */;
+	unsigned cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 612 */;
+	struct drm_nouveau_gem_pushbuf_reloc *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 610 */;
+	uintptr_t cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 589 */;
+	void __user *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 589 */;
+	void __force __user *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 589 */;
+	struct validate_op *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 551 */;
+	int *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 551 */;
+	uint64_t cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 550 */;
+	struct drm_nouveau_gem_pushbuf_bo __user *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 491 */;
+	struct list_head *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 487 */;
+	struct nouveau_bo cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 338 */;
+	struct validate_op {
+		struct list_head list;
+		struct ww_acquire_ctx ticket;
+	} cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 324 */;
+	struct ttm_buffer_object *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 291 */;
+	struct drm_nouveau_gem_new *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 263 */;
+	struct nouveau_vma *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 227 */;
+	struct nouveau_vmm *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 226 */;
+	struct nouveau_bo *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 225 */;
+	struct nouveau_cli *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 224 */;
+	struct drm_nouveau_gem_info *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 222 */;
+	struct drm_gem_object *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 221 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 221 */;
+	int cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 220 */;
+	u32 cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 174 */;
+	struct nouveau_bo **cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 170 */;
+	u64 cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 168 */;
+	struct device *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 141 */;
+	void cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 135 */;
+	struct dma_fence *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 114 */;
+	typeof(*work) cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 106 */;
+	struct nouveau_gem_object_unmap *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 105 */;
+	struct nouveau_cli_work *cocci_id/* drivers/gpu/drm/nouveau/nouveau_gem.c 103 */;
+}

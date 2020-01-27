@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	int *cocci_id/* arch/sparc/kernel/of_device_64.c 95 */;
+	void cocci_id/* arch/sparc/kernel/of_device_64.c 94 */;
+	char *cocci_id/* arch/sparc/kernel/of_device_64.c 716 */;
+	struct dev_archdata *cocci_id/* arch/sparc/kernel/of_device_64.c 641 */;
+	const unsigned int *cocci_id/* arch/sparc/kernel/of_device_64.c 640 */;
+	struct platform_device *__init cocci_id/* arch/sparc/kernel/of_device_64.c 636 */;
+	cpumask_t cocci_id/* arch/sparc/kernel/of_device_64.c 627 */;
+	unsigned int __init cocci_id/* arch/sparc/kernel/of_device_64.c 534 */;
+	const char *cocci_id/* arch/sparc/kernel/of_device_64.c 50 */;
+	const struct linux_prom_pci_registers *cocci_id/* arch/sparc/kernel/of_device_64.c 484 */;
+	phandle cocci_id/* arch/sparc/kernel/of_device_64.c 428 */;
+	struct of_bus *cocci_id/* arch/sparc/kernel/of_device_64.c 427 */;
+	unsigned int cocci_id/* arch/sparc/kernel/of_device_64.c 426 */;
+	unsigned int *cocci_id/* arch/sparc/kernel/of_device_64.c 423 */;
+	const u32 *cocci_id/* arch/sparc/kernel/of_device_64.c 422 */;
+	int cocci_id/* arch/sparc/kernel/of_device_64.c 422 */;
+	struct device_node *cocci_id/* arch/sparc/kernel/of_device_64.c 421 */;
+	struct device_node *__init cocci_id/* arch/sparc/kernel/of_device_64.c 420 */;
+	unsigned long cocci_id/* arch/sparc/kernel/of_device_64.c 360 */;
+	u64 cocci_id/* arch/sparc/kernel/of_device_64.c 359 */;
+	u32 cocci_id/* arch/sparc/kernel/of_device_64.c 354 */[OF_MAX_ADDR_CELLS];
+	struct resource *cocci_id/* arch/sparc/kernel/of_device_64.c 353 */;
+	const void *cocci_id/* arch/sparc/kernel/of_device_64.c 323 */;
+	struct device *cocci_id/* arch/sparc/kernel/of_device_64.c 317 */;
+	struct platform_device *cocci_id/* arch/sparc/kernel/of_device_64.c 316 */;
+	void __init cocci_id/* arch/sparc/kernel/of_device_64.c 316 */;
+	u32 *cocci_id/* arch/sparc/kernel/of_device_64.c 245 */;
+	int __init cocci_id/* arch/sparc/kernel/of_device_64.c 242 */;
+	struct of_bus cocci_id/* arch/sparc/kernel/of_device_64.c 183 */[];
+	void __iomem *cocci_id/* arch/sparc/kernel/of_device_64.c 18 */;
+	u32 cocci_id/* arch/sparc/kernel/of_device_64.c 143 */;
+}

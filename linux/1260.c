@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	u32 *cocci_id/* drivers/usb/host/xhci-hub.c 969 */;
+	unsigned long *cocci_id/* drivers/usb/host/xhci-hub.c 610 */;
+	char *cocci_id/* drivers/usb/host/xhci-hub.c 497 */;
+	__le32 __iomem *cocci_id/* drivers/usb/host/xhci-hub.c 495 */;
+	u16 cocci_id/* drivers/usb/host/xhci-hub.c 494 */;
+	struct xhci_virt_ep *cocci_id/* drivers/usb/host/xhci-hub.c 455 */;
+	struct xhci_ep_ctx *cocci_id/* drivers/usb/host/xhci-hub.c 401 */;
+	struct xhci_command *cocci_id/* drivers/usb/host/xhci-hub.c 382 */;
+	struct xhci_virt_device *cocci_id/* drivers/usb/host/xhci-hub.c 381 */;
+	enum usb_device_speed cocci_id/* drivers/usb/host/xhci-hub.c 356 */;
+	unsigned int cocci_id/* drivers/usb/host/xhci-hub.c 281 */;
+	u8 cocci_id/* drivers/usb/host/xhci-hub.c 25 */[];
+	__u8 cocci_id/* drivers/usb/host/xhci-hub.c 234 */;
+	__u8 cocci_id/* drivers/usb/host/xhci-hub.c 189 */[(USB_MAXCHILDREN + 1 + 7) / 8];
+	void cocci_id/* drivers/usb/host/xhci-hub.c 1781 */;
+	struct xhci_port **cocci_id/* drivers/usb/host/xhci-hub.c 1690 */;
+	struct xhci_hub *cocci_id/* drivers/usb/host/xhci-hub.c 1689 */;
+	u32 cocci_id/* drivers/usb/host/xhci-hub.c 1687 */;
+	unsigned long cocci_id/* drivers/usb/host/xhci-hub.c 1683 */;
+	struct xhci_bus_state *cocci_id/* drivers/usb/host/xhci-hub.c 1682 */;
+	struct xhci_hcd *cocci_id/* drivers/usb/host/xhci-hub.c 1681 */;
+	struct usb_hcd *cocci_id/* drivers/usb/host/xhci-hub.c 1679 */;
+	int cocci_id/* drivers/usb/host/xhci-hub.c 1679 */;
+	struct usb_hub_descriptor *cocci_id/* drivers/usb/host/xhci-hub.c 161 */;
+	bool cocci_id/* drivers/usb/host/xhci-hub.c 1542 */;
+	u32 cocci_id/* drivers/usb/host/xhci-hub.c 1541 */[USB_MAXCHILDREN];
+	__le32 *cocci_id/* drivers/usb/host/xhci-hub.c 1150 */;
+	struct xhci_port *cocci_id/* drivers/usb/host/xhci-hub.c 1026 */;
+}

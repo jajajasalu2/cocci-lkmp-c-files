@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	struct rpmsg_eptdev {
+		struct device dev;
+		struct cdev cdev;
+		struct rpmsg_device *rpdev;
+		struct rpmsg_channel_info chinfo;
+		struct mutex ept_lock;
+		struct rpmsg_endpoint *ept;
+		spinlock_t queue_lock;
+		struct sk_buff_head queue;
+		wait_queue_head_t readq;
+	} cocci_id/* drivers/rpmsg/rpmsg_char.c 66 */;
+	int cocci_id/* drivers/rpmsg/rpmsg_char.c 546 */;
+	void cocci_id/* drivers/rpmsg/rpmsg_char.c 546 */;
+	struct rpmsg_driver cocci_id/* drivers/rpmsg/rpmsg_char.c 538 */;
+	struct rpmsg_ctrldev {
+		struct rpmsg_device *rpdev;
+		struct cdev cdev;
+		struct device dev;
+	} cocci_id/* drivers/rpmsg/rpmsg_char.c 48 */;
+	struct rpmsg_ctrldev *cocci_id/* drivers/rpmsg/rpmsg_char.c 467 */;
+	struct rpmsg_device *cocci_id/* drivers/rpmsg/rpmsg_char.c 465 */;
+	const struct file_operations cocci_id/* drivers/rpmsg/rpmsg_char.c 447 */;
+	struct rpmsg_channel_info cocci_id/* drivers/rpmsg/rpmsg_char.c 431 */;
+	struct rpmsg_endpoint_info cocci_id/* drivers/rpmsg/rpmsg_char.c 430 */;
+	void __user *cocci_id/* drivers/rpmsg/rpmsg_char.c 429 */;
+	unsigned long cocci_id/* drivers/rpmsg/rpmsg_char.c 426 */;
+	struct file *cocci_id/* drivers/rpmsg/rpmsg_char.c 425 */;
+	unsigned int cocci_id/* drivers/rpmsg/rpmsg_char.c 425 */;
+	long cocci_id/* drivers/rpmsg/rpmsg_char.c 425 */;
+	struct inode *cocci_id/* drivers/rpmsg/rpmsg_char.c 406 */;
+	struct rpmsg_ctrldev cocci_id/* drivers/rpmsg/rpmsg_char.c 39 */;
+	struct rpmsg_eptdev cocci_id/* drivers/rpmsg/rpmsg_char.c 36 */;
+	struct attribute *cocci_id/* drivers/rpmsg/rpmsg_char.c 321 */[];
+	struct rpmsg_eptdev *cocci_id/* drivers/rpmsg/rpmsg_char.c 315 */;
+	char *cocci_id/* drivers/rpmsg/rpmsg_char.c 313 */;
+	struct device_attribute *cocci_id/* drivers/rpmsg/rpmsg_char.c 312 */;
+	struct device *cocci_id/* drivers/rpmsg/rpmsg_char.c 312 */;
+	ssize_t cocci_id/* drivers/rpmsg/rpmsg_char.c 312 */;
+	struct class *cocci_id/* drivers/rpmsg/rpmsg_char.c 30 */;
+	dev_t cocci_id/* drivers/rpmsg/rpmsg_char.c 29 */;
+	__poll_t cocci_id/* drivers/rpmsg/rpmsg_char.c 254 */;
+	poll_table *cocci_id/* drivers/rpmsg/rpmsg_char.c 254 */;
+	size_t cocci_id/* drivers/rpmsg/rpmsg_char.c 204 */;
+	struct kiocb *cocci_id/* drivers/rpmsg/rpmsg_char.c 166 */;
+	struct iov_iter *cocci_id/* drivers/rpmsg/rpmsg_char.c 166 */;
+	struct rpmsg_endpoint *cocci_id/* drivers/rpmsg/rpmsg_char.c 126 */;
+	struct sk_buff *cocci_id/* drivers/rpmsg/rpmsg_char.c 105 */;
+	u32 cocci_id/* drivers/rpmsg/rpmsg_char.c 102 */;
+	void *cocci_id/* drivers/rpmsg/rpmsg_char.c 101 */;
+}

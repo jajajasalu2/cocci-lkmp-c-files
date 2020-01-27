@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct ta_metadata *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 890 */;
+	const struct firmware *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 887 */;
+	u32 *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 762 */;
+	u8 cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 750 */;
+	u32 cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 748 */;
+	u8 *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 747 */;
+	struct rsi_hw *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 747 */;
+	int cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 747 */;
+	struct bl_header cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 656 */;
+	struct rsi_mgmt_desc *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 65 */;
+	struct bl_header *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 641 */;
+	u16 cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 613 */;
+	char *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 611 */;
+	struct rsi_host_intf_ops *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 518 */;
+	u16 *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 516 */;
+	struct timer_list *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 487 */;
+	void cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 487 */;
+	struct ieee80211_vif *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 427 */;
+	struct ieee80211_conf *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 426 */;
+	struct ieee80211_hw *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 425 */;
+	struct rsi_data_desc *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 424 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 421 */;
+	struct rsi_bt_desc *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 388 */;
+	struct ta_metadata cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 34 */[];
+	struct ieee80211_bss_conf *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 295 */;
+	unsigned long cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 177 */;
+	struct rsi_xtended_desc cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 171 */;
+	struct rsi_xtended_desc *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 160 */;
+	struct skb_info *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 158 */;
+	struct ieee80211_tx_info *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 157 */;
+	struct ieee80211_hdr *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 156 */;
+	struct rsi_sta *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 137 */;
+	struct rsi_common *cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 1128 */;
+	struct bootload_ds cocci_id/* drivers/net/wireless/rsi/rsi_91x_hal.c 1006 */;
+}

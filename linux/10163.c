@@ -1,0 +1,100 @@
+cocci_test_suite() {
+	struct inode *cocci_id/* drivers/isdn/capi/capi.c 981 */;
+	struct {
+		compat_ulong_t cmd;
+		compat_uptr_t data;
+	} cocci_id/* drivers/isdn/capi/capi.c 960 */;
+	int cocci_id/* drivers/isdn/capi/capi.c 957 */;
+	struct file *cocci_id/* drivers/isdn/capi/capi.c 955 */;
+	unsigned long cocci_id/* drivers/isdn/capi/capi.c 955 */;
+	unsigned int cocci_id/* drivers/isdn/capi/capi.c 955 */;
+	long cocci_id/* drivers/isdn/capi/capi.c 954 */;
+	struct capiminor *cocci_id/* drivers/isdn/capi/capi.c 917 */;
+	u32 cocci_id/* drivers/isdn/capi/capi.c 908 */;
+	unsigned cocci_id/* drivers/isdn/capi/capi.c 875 */;
+	struct capi_manufacturer_cmd cocci_id/* drivers/isdn/capi/capi.c 866 */;
+	struct capiminor {
+		unsigned int minor;
+		struct capi20_appl *ap;
+		u32 ncci;
+		atomic_t datahandle;
+		atomic_t msgid;
+		struct tty_port port;
+		int ttyinstop;
+		int ttyoutstop;
+		struct sk_buff_head inqueue;
+		struct sk_buff_head outqueue;
+		int outbytes;
+		struct sk_buff *outskb;
+		spinlock_t outlock;
+		struct list_head ackqueue;
+		int nack;
+		spinlock_t ackqlock;
+	} cocci_id/* drivers/isdn/capi/capi.c 80 */;
+	struct capi_register_params cocci_id/* drivers/isdn/capi/capi.c 769 */;
+	void __user *cocci_id/* drivers/isdn/capi/capi.c 758 */;
+	capi_ioctl_struct cocci_id/* drivers/isdn/capi/capi.c 756 */;
+	struct ackqueue_entry {
+		struct list_head list;
+		u16 datahandle;
+	} cocci_id/* drivers/isdn/capi/capi.c 75 */;
+	poll_table *cocci_id/* drivers/isdn/capi/capi.c 737 */;
+	__poll_t cocci_id/* drivers/isdn/capi/capi.c 736 */;
+	struct capincci cocci_id/* drivers/isdn/capi/capi.c 72 */;
+	const char __user *cocci_id/* drivers/isdn/capi/capi.c 682 */;
+	struct sk_buff *cocci_id/* drivers/isdn/capi/capi.c 650 */;
+	loff_t *cocci_id/* drivers/isdn/capi/capi.c 647 */;
+	char __user *cocci_id/* drivers/isdn/capi/capi.c 647 */;
+	size_t cocci_id/* drivers/isdn/capi/capi.c 647 */;
+	ssize_t cocci_id/* drivers/isdn/capi/capi.c 646 */;
+	u16 cocci_id/* drivers/isdn/capi/capi.c 574 */;
+	struct capi20_appl *cocci_id/* drivers/isdn/capi/capi.c 569 */;
+	struct class *cocci_id/* drivers/isdn/capi/capi.c 49 */;
+	struct tty_ldisc *cocci_id/* drivers/isdn/capi/capi.c 408 */;
+	unsigned char *cocci_id/* drivers/isdn/capi/capi.c 390 */;
+	struct device *cocci_id/* drivers/isdn/capi/capi.c 210 */;
+	const struct tty_port_operations cocci_id/* drivers/isdn/capi/capi.c 203 */;
+	struct capiminor cocci_id/* drivers/isdn/capi/capi.c 194 */;
+	struct tty_port *cocci_id/* drivers/isdn/capi/capi.c 192 */;
+	void __exit cocci_id/* drivers/isdn/capi/capi.c 1449 */;
+	void cocci_id/* drivers/isdn/capi/capi.c 1449 */;
+	struct ackqueue_entry *cocci_id/* drivers/isdn/capi/capi.c 144 */;
+	const char *cocci_id/* drivers/isdn/capi/capi.c 1413 */;
+	int __init cocci_id/* drivers/isdn/capi/capi.c 1411 */;
+	void __init cocci_id/* drivers/isdn/capi/capi.c 1396 */;
+	struct capincci *cocci_id/* drivers/isdn/capi/capi.c 1383 */;
+	struct tty_driver *cocci_id/* drivers/isdn/capi/capi.c 138 */;
+	struct capidev cocci_id/* drivers/isdn/capi/capi.c 1364 */;
+	struct list_head *cocci_id/* drivers/isdn/capi/capi.c 1360 */;
+	struct capiminor **cocci_id/* drivers/isdn/capi/capi.c 136 */;
+	struct capidev *cocci_id/* drivers/isdn/capi/capi.c 1359 */;
+	struct seq_file *cocci_id/* drivers/isdn/capi/capi.c 1357 */;
+	void *cocci_id/* drivers/isdn/capi/capi.c 1357 */;
+	int __maybe_unused cocci_id/* drivers/isdn/capi/capi.c 1357 */;
+	const struct tty_operations cocci_id/* drivers/isdn/capi/capi.c 1264 */;
+	char cocci_id/* drivers/isdn/capi/capi.c 1259 */;
+	struct tty_struct *cocci_id/* drivers/isdn/capi/capi.c 1243 */;
+	struct ktermios *cocci_id/* drivers/isdn/capi/capi.c 1197 */;
+	struct capidev {
+		struct list_head list;
+		struct capi20_appl ap;
+		u16 errcode;
+		unsigned userflags;
+		struct sk_buff_head recvqueue;
+		wait_queue_head_t recvwait;
+		struct list_head nccis;
+		struct mutex lock;
+	} cocci_id/* drivers/isdn/capi/capi.c 114 */;
+	bool cocci_id/* drivers/isdn/capi/capi.c 1115 */;
+	unsigned char cocci_id/* drivers/isdn/capi/capi.c 1112 */;
+	const unsigned char *cocci_id/* drivers/isdn/capi/capi.c 1078 */;
+	struct capincci {
+		struct list_head list;
+		u32 ncci;
+		struct capidev *cdev;
+#ifdef CONFIG_ISDN_CAPI_MIDDLEWARE
+		struct capiminor *minorp;
+#endif
+	} cocci_id/* drivers/isdn/capi/capi.c 105 */;
+	const struct file_operations cocci_id/* drivers/isdn/capi/capi.c 1019 */;
+}

@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	const struct svc_version *cocci_id/* net/sunrpc/stats.c 86 */;
+	const struct svc_program *cocci_id/* net/sunrpc/stats.c 85 */;
+	const struct svc_stat *cocci_id/* net/sunrpc/stats.c 83 */;
+	const struct file_operations cocci_id/* net/sunrpc/stats.c 72 */;
+	struct inode *cocci_id/* net/sunrpc/stats.c 67 */;
+	struct file *cocci_id/* net/sunrpc/stats.c 67 */;
+	const struct rpc_version *cocci_id/* net/sunrpc/stats.c 55 */;
+	const struct rpc_program *cocci_id/* net/sunrpc/stats.c 39 */;
+	const struct rpc_stat *cocci_id/* net/sunrpc/stats.c 38 */;
+	struct svc_stat *cocci_id/* net/sunrpc/stats.c 311 */;
+	struct rpc_stat *cocci_id/* net/sunrpc/stats.c 294 */;
+	struct sunrpc_net *cocci_id/* net/sunrpc/stats.c 286 */;
+	const struct file_operations *cocci_id/* net/sunrpc/stats.c 284 */;
+	const char *cocci_id/* net/sunrpc/stats.c 283 */;
+	struct net *cocci_id/* net/sunrpc/stats.c 283 */;
+	struct proc_dir_entry *cocci_id/* net/sunrpc/stats.c 282 */;
+	struct rpc_iostats cocci_id/* net/sunrpc/stats.c 266 */;
+	struct rpc_xprt *cocci_id/* net/sunrpc/stats.c 243 */;
+	struct rpc_clnt *cocci_id/* net/sunrpc/stats.c 243 */;
+	void *cocci_id/* net/sunrpc/stats.c 243 */;
+	int cocci_id/* net/sunrpc/stats.c 228 */;
+	struct rpc_iostats *cocci_id/* net/sunrpc/stats.c 214 */;
+	void cocci_id/* net/sunrpc/stats.c 214 */;
+	const struct rpc_procinfo *cocci_id/* net/sunrpc/stats.c 204 */;
+	struct seq_file *cocci_id/* net/sunrpc/stats.c 203 */;
+	unsigned int cocci_id/* net/sunrpc/stats.c 203 */;
+	const struct rpc_task *cocci_id/* net/sunrpc/stats.c 196 */;
+	ktime_t cocci_id/* net/sunrpc/stats.c 154 */;
+	struct rpc_rqst *cocci_id/* net/sunrpc/stats.c 153 */;
+}

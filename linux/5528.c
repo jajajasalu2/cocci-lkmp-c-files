@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/rtc/rtc-ds1374.c 88 */[4];
+	u32 *cocci_id/* drivers/rtc/rtc-ds1374.c 85 */;
+	struct i2c_driver cocci_id/* drivers/rtc/rtc-ds1374.c 83 */;
+	struct ds1374 {
+		struct i2c_client *client;
+		struct rtc_device *rtc;
+		struct work_struct work;
+		struct mutex mutex;
+		int exiting;
+	} cocci_id/* drivers/rtc/rtc-ds1374.c 70 */;
+	const struct of_device_id cocci_id/* drivers/rtc/rtc-ds1374.c 63 */[];
+	struct ds1374 cocci_id/* drivers/rtc/rtc-ds1374.c 619 */;
+	const struct i2c_device_id *cocci_id/* drivers/rtc/rtc-ds1374.c 614 */;
+	struct notifier_block cocci_id/* drivers/rtc/rtc-ds1374.c 601 */;
+	struct miscdevice cocci_id/* drivers/rtc/rtc-ds1374.c 595 */;
+	const struct file_operations cocci_id/* drivers/rtc/rtc-ds1374.c 584 */;
+	struct notifier_block *cocci_id/* drivers/rtc/rtc-ds1374.c 575 */;
+	const struct i2c_device_id cocci_id/* drivers/rtc/rtc-ds1374.c 56 */[];
+	int __user *cocci_id/* drivers/rtc/rtc-ds1374.c 519 */;
+	struct watchdog_info __user *cocci_id/* drivers/rtc/rtc-ds1374.c 514 */;
+	struct file *cocci_id/* drivers/rtc/rtc-ds1374.c 507 */;
+	long cocci_id/* drivers/rtc/rtc-ds1374.c 507 */;
+	loff_t *cocci_id/* drivers/rtc/rtc-ds1374.c 499 */;
+	size_t cocci_id/* drivers/rtc/rtc-ds1374.c 499 */;
+	char __user *cocci_id/* drivers/rtc/rtc-ds1374.c 498 */;
+	ssize_t cocci_id/* drivers/rtc/rtc-ds1374.c 498 */;
+	const char __user *cocci_id/* drivers/rtc/rtc-ds1374.c 488 */;
+	struct inode *cocci_id/* drivers/rtc/rtc-ds1374.c 454 */;
+	void cocci_id/* drivers/rtc/rtc-ds1374.c 440 */;
+	const struct watchdog_info cocci_id/* drivers/rtc/rtc-ds1374.c 384 */;
+	const struct rtc_class_ops cocci_id/* drivers/rtc/rtc-ds1374.c 355 */;
+	struct ds1374 *cocci_id/* drivers/rtc/rtc-ds1374.c 332 */;
+	struct i2c_client *cocci_id/* drivers/rtc/rtc-ds1374.c 331 */;
+	struct device *cocci_id/* drivers/rtc/rtc-ds1374.c 329 */;
+	unsigned int cocci_id/* drivers/rtc/rtc-ds1374.c 329 */;
+	int cocci_id/* drivers/rtc/rtc-ds1374.c 329 */;
+	struct work_struct *cocci_id/* drivers/rtc/rtc-ds1374.c 295 */;
+	irqreturn_t cocci_id/* drivers/rtc/rtc-ds1374.c 285 */;
+	void *cocci_id/* drivers/rtc/rtc-ds1374.c 285 */;
+	unsigned long cocci_id/* drivers/rtc/rtc-ds1374.c 229 */;
+	struct rtc_time cocci_id/* drivers/rtc/rtc-ds1374.c 228 */;
+	u32 cocci_id/* drivers/rtc/rtc-ds1374.c 190 */;
+	struct rtc_wkalrm *cocci_id/* drivers/rtc/rtc-ds1374.c 186 */;
+	struct rtc_time *cocci_id/* drivers/rtc/rtc-ds1374.c 159 */;
+}

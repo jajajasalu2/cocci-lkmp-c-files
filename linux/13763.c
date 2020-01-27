@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/media/i2c/vpx3220.c 92 */;
+	unsigned int cocci_id/* drivers/media/i2c/vpx3220.c 75 */;
+	unsigned char cocci_id/* drivers/media/i2c/vpx3220.c 74 */;
+	struct i2c_driver cocci_id/* drivers/media/i2c/vpx3220.c 548 */;
+	const struct i2c_device_id cocci_id/* drivers/media/i2c/vpx3220.c 540 */[];
+	char *cocci_id/* drivers/media/i2c/vpx3220.c 52 */[];
+	struct vpx3220 cocci_id/* drivers/media/i2c/vpx3220.c 49 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/i2c/vpx3220.c 47 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/i2c/vpx3220.c 47 */;
+	const char *cocci_id/* drivers/media/i2c/vpx3220.c 464 */;
+	const struct i2c_device_id *cocci_id/* drivers/media/i2c/vpx3220.c 460 */;
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/i2c/vpx3220.c 450 */;
+	const struct v4l2_subdev_video_ops cocci_id/* drivers/media/i2c/vpx3220.c 442 */;
+	const struct v4l2_subdev_core_ops cocci_id/* drivers/media/i2c/vpx3220.c 438 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/i2c/vpx3220.c 434 */;
+	struct vpx3220 *cocci_id/* drivers/media/i2c/vpx3220.c 42 */;
+	const int cocci_id/* drivers/media/i2c/vpx3220.c 378 */[3][2];
+	unsigned long long cocci_id/* drivers/media/i2c/vpx3220.c 347 */;
+	v4l2_std_id cocci_id/* drivers/media/i2c/vpx3220.c 337 */;
+	u32 *cocci_id/* drivers/media/i2c/vpx3220.c 331 */;
+	v4l2_std_id *cocci_id/* drivers/media/i2c/vpx3220.c 325 */;
+	struct vpx3220 {
+		struct v4l2_subdev sd;
+		struct v4l2_ctrl_handler hdl;
+		unsigned char reg[255];
+		v4l2_std_id norm;
+		int input;
+		int enable;
+	} cocci_id/* drivers/media/i2c/vpx3220.c 32 */;
+	u32 cocci_id/* drivers/media/i2c/vpx3220.c 265 */;
+	const unsigned short cocci_id/* drivers/media/i2c/vpx3220.c 251 */[];
+	int cocci_id/* drivers/media/i2c/vpx3220.c 23 */;
+	const unsigned char cocci_id/* drivers/media/i2c/vpx3220.c 221 */[];
+	const u16 *cocci_id/* drivers/media/i2c/vpx3220.c 155 */;
+	const u8 *cocci_id/* drivers/media/i2c/vpx3220.c 138 */;
+	s16 cocci_id/* drivers/media/i2c/vpx3220.c 117 */;
+	struct i2c_client *cocci_id/* drivers/media/i2c/vpx3220.c 116 */;
+	u16 cocci_id/* drivers/media/i2c/vpx3220.c 114 */;
+}

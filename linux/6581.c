@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	uint8_t *cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 743 */;
+	__le32 __iomem *cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 664 */;
+	uint32_t cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 663 */[MBOX_AEN_REG_COUNT];
+	uint32_t *cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 639 */;
+	struct response *cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 561 */;
+	struct status_cont_entry *cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 514 */;
+	struct mbox_status_iocb *cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 424 */;
+	struct mrb *cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 403 */;
+	struct passthru_status cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 398 */;
+	itt_t cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 372 */;
+	struct iscsi_conn *cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 371 */;
+	struct iscsi_cls_conn *cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 370 */;
+	struct ql4_task_data *cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 369 */;
+	struct ddb_entry *cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 368 */;
+	struct iscsi_task *cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 367 */;
+	struct passthru_status *cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 365 */;
+	uint16_t cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 24 */;
+	struct scsi_cmnd *cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 23 */;
+	struct srb *cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 21 */;
+	struct status_entry *cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 20 */;
+	struct aen *cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 1477 */;
+	uint8_t cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 1224 */;
+	unsigned long cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 1223 */;
+	irqreturn_t cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 1218 */;
+	void *cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 1218 */;
+	int cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 1218 */;
+	uint32_t cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 1052 */;
+	struct scsi_qla_host *cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 1051 */;
+	void cocci_id/* drivers/scsi/qla4xxx/ql4_isr.c 1051 */;
+}

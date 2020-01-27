@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct pci_dev *cocci_id/* drivers/misc/genwqe/card_utils.c 97 */;
+	int cocci_id/* drivers/misc/genwqe/card_utils.c 95 */;
+	struct genwqe_reg *cocci_id/* drivers/misc/genwqe/card_utils.c 900 */;
+	unsigned int cocci_id/* drivers/misc/genwqe/card_utils.c 900 */;
+	__be64 cocci_id/* drivers/misc/genwqe/card_utils.c 84 */;
+	unsigned int *cocci_id/* drivers/misc/genwqe/card_utils.c 783 */;
+	u8 cocci_id/* drivers/misc/genwqe/card_utils.c 674 */;
+	struct page *cocci_id/* drivers/misc/genwqe/card_utils.c 588 */;
+	struct dma_mapping *cocci_id/* drivers/misc/genwqe/card_utils.c 564 */;
+	struct page **cocci_id/* drivers/misc/genwqe/card_utils.c 526 */;
+	struct sg_entry *cocci_id/* drivers/misc/genwqe/card_utils.c 377 */;
+	unsigned long cocci_id/* drivers/misc/genwqe/card_utils.c 294 */;
+	void __user *cocci_id/* drivers/misc/genwqe/card_utils.c 289 */;
+	struct genwqe_sgl *cocci_id/* drivers/misc/genwqe/card_utils.c 288 */;
+	struct sg_entry cocci_id/* drivers/misc/genwqe/card_utils.c 276 */;
+	long long cocci_id/* drivers/misc/genwqe/card_utils.c 259 */;
+	dma_addr_t cocci_id/* drivers/misc/genwqe/card_utils.c 218 */;
+	void cocci_id/* drivers/misc/genwqe/card_utils.c 217 */;
+	dma_addr_t *cocci_id/* drivers/misc/genwqe/card_utils.c 208 */;
+	struct genwqe_dev *cocci_id/* drivers/misc/genwqe/card_utils.c 207 */;
+	void *cocci_id/* drivers/misc/genwqe/card_utils.c 207 */;
+	size_t cocci_id/* drivers/misc/genwqe/card_utils.c 207 */;
+	u8 *cocci_id/* drivers/misc/genwqe/card_utils.c 194 */;
+	u32 cocci_id/* drivers/misc/genwqe/card_utils.c 160 */[256];
+	char cocci_id/* drivers/misc/genwqe/card_utils.c 142 */;
+	char *cocci_id/* drivers/misc/genwqe/card_utils.c 135 */;
+	__be32 cocci_id/* drivers/misc/genwqe/card_utils.c 127 */;
+	u64 cocci_id/* drivers/misc/genwqe/card_utils.c 119 */;
+	u32 cocci_id/* drivers/misc/genwqe/card_utils.c 119 */;
+	const int cocci_id/* drivers/misc/genwqe/card_utils.c 1021 */[];
+	u16 cocci_id/* drivers/misc/genwqe/card_utils.c 1020 */;
+}

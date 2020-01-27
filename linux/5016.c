@@ -1,0 +1,62 @@
+cocci_test_suite() {
+	const struct kernel_param_ops cocci_id/* drivers/infiniband/hw/hfi1/driver.c 89 */;
+	int cocci_id/* drivers/infiniband/hw/hfi1/driver.c 88 */(char *buffer,
+								 const struct kernel_param *kp);
+	int cocci_id/* drivers/infiniband/hw/hfi1/driver.c 87 */(const char *val,
+								 const struct kernel_param *kp);
+	unsigned long cocci_id/* drivers/infiniband/hw/hfi1/driver.c 86 */;
+	unsigned int cocci_id/* drivers/infiniband/hw/hfi1/driver.c 82 */;
+	const char cocci_id/* drivers/infiniband/hw/hfi1/driver.c 73 */[];
+	int cocci_id/* drivers/infiniband/hw/hfi1/driver.c 724 */;
+	u8 cocci_id/* drivers/infiniband/hw/hfi1/driver.c 631 */;
+	u32 cocci_id/* drivers/infiniband/hw/hfi1/driver.c 630 */;
+	u64 cocci_id/* drivers/infiniband/hw/hfi1/driver.c 629 */;
+	struct rvt_dev_info *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 628 */;
+	struct ib_header *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 627 */;
+	struct rvt_qp *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 626 */;
+	__le32 *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 624 */;
+	struct hfi1_ibport *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 623 */;
+	struct ps_mdata cocci_id/* drivers/infiniband/hw/hfi1/driver.c 618 */;
+	struct hfi1_ctxtdata *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 617 */;
+	struct hfi1_packet *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 615 */;
+	void cocci_id/* drivers/infiniband/hw/hfi1/driver.c 615 */;
+	struct ps_mdata *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 544 */;
+	struct ps_mdata {
+		struct hfi1_ctxtdata *rcd;
+		u32 rsize;
+		u32 maxcnt;
+		u32 ps_head;
+		u32 ps_tail;
+		u32 ps_seq;
+	} cocci_id/* drivers/infiniband/hw/hfi1/driver.c 535 */;
+	struct ib_grh *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 450 */;
+	struct ib_other_headers *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 449 */;
+	const hfi1_handle_cnp cocci_id/* drivers/infiniband/hw/hfi1/driver.c 426 */[2];
+	u16 *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 236 */;
+	struct hfi1_16b_header *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 223 */;
+	u8 *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 200 */;
+	const struct hfi1_ctxtdata *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 199 */;
+	void *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 199 */;
+	const rhf_rcv_function_ptr cocci_id/* drivers/infiniband/hw/hfi1/driver.c 1803 */[];
+	struct seq_file *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 1745 */;
+	u64 *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 1668 */;
+	struct hfi1_devdata cocci_id/* drivers/infiniband/hw/hfi1/driver.c 165 */;
+	struct hfi1_devdata *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 164 */;
+	struct hfi1_ibdev cocci_id/* drivers/infiniband/hw/hfi1/driver.c 163 */;
+	struct hfi1_ibdev *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 163 */;
+	bool cocci_id/* drivers/infiniband/hw/hfi1/driver.c 1628 */;
+	struct pci_dev *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 161 */;
+	unsigned long *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 153 */;
+	struct ib_grh cocci_id/* drivers/infiniband/hw/hfi1/driver.c 1527 */;
+	const struct kernel_param *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 151 */;
+	char *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 151 */;
+	struct hfi1_pportdata *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 1419 */;
+	struct hfi1_ib_message_header *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 1411 */;
+	struct timer_list *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 1289 */;
+	u16 cocci_id/* drivers/infiniband/hw/hfi1/driver.c 1188 */;
+	struct hfi1_pportdata cocci_id/* drivers/infiniband/hw/hfi1/driver.c 1147 */;
+	struct work_struct *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 1145 */;
+	const char *cocci_id/* drivers/infiniband/hw/hfi1/driver.c 112 */;
+	struct hfi1_ib_stats cocci_id/* drivers/infiniband/hw/hfi1/driver.c 110 */;
+	struct hfi1_packet cocci_id/* drivers/infiniband/hw/hfi1/driver.c 1014 */;
+}

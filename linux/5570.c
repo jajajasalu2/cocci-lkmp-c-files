@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	void cocci_id/* drivers/rtc/rtc-ds1685.c 88 */;
+	u8 *cocci_id/* drivers/rtc/rtc-ds1685.c 848 */;
+	ssize_t cocci_id/* drivers/rtc/rtc-ds1685.c 847 */;
+	struct mutex *cocci_id/* drivers/rtc/rtc-ds1685.c 846 */;
+	size_t cocci_id/* drivers/rtc/rtc-ds1685.c 843 */;
+	void *cocci_id/* drivers/rtc/rtc-ds1685.c 842 */;
+	unsigned int cocci_id/* drivers/rtc/rtc-ds1685.c 842 */;
+	const struct rtc_class_ops cocci_id/* drivers/rtc/rtc-ds1685.c 831 */;
+	struct ds1685_priv *cocci_id/* drivers/rtc/rtc-ds1685.c 76 */;
+	int cocci_id/* drivers/rtc/rtc-ds1685.c 76 */;
+	char *cocci_id/* drivers/rtc/rtc-ds1685.c 758 */;
+	struct seq_file *cocci_id/* drivers/rtc/rtc-ds1685.c 754 */;
+	u8 cocci_id/* drivers/rtc/rtc-ds1685.c 75 */;
+	const char *cocci_id/* drivers/rtc/rtc-ds1685.c 734 */[16];
+	unsigned long cocci_id/* drivers/rtc/rtc-ds1685.c 663 */;
+	irqreturn_t cocci_id/* drivers/rtc/rtc-ds1685.c 656 */;
+	struct platform_device *cocci_id/* drivers/rtc/rtc-ds1685.c 567 */;
+	struct device *cocci_id/* drivers/rtc/rtc-ds1685.c 538 */;
+	u8 __iomem *cocci_id/* drivers/rtc/rtc-ds1685.c 47 */;
+	struct rtc_wkalrm *cocci_id/* drivers/rtc/rtc-ds1685.c 385 */;
+	struct rtc_time *cocci_id/* drivers/rtc/rtc-ds1685.c 261 */;
+	void __noreturn cocci_id/* drivers/rtc/rtc-ds1685.c 1379 */;
+	struct platform_driver cocci_id/* drivers/rtc/rtc-ds1685.c 1361 */;
+	struct nvmem_config cocci_id/* drivers/rtc/rtc-ds1685.c 1078 */;
+	unsigned char cocci_id/* drivers/rtc/rtc-ds1685.c 1076 */;
+	struct ds1685_rtc_platform_data *cocci_id/* drivers/rtc/rtc-ds1685.c 1074 */;
+	struct rtc_device *cocci_id/* drivers/rtc/rtc-ds1685.c 1072 */;
+	const struct attribute_group cocci_id/* drivers/rtc/rtc-ds1685.c 1056 */;
+	struct attribute *cocci_id/* drivers/rtc/rtc-ds1685.c 1045 */[];
+	u8 cocci_id/* drivers/rtc/rtc-ds1685.c 1032 */[8];
+	struct device_attribute *cocci_id/* drivers/rtc/rtc-ds1685.c 1007 */;
+}

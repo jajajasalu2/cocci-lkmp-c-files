@@ -1,0 +1,70 @@
+cocci_test_suite() {
+	struct i2c_driver cocci_id/* drivers/clk/clk-cdce925.c 835 */;
+	const struct of_device_id cocci_id/* drivers/clk/clk-cdce925.c 826 */[];
+	struct clk_cdce925_chip {
+		struct regmap *regmap;
+		struct i2c_client *i2c_client;
+		const struct clk_cdce925_chip_info *chip_info;
+		struct clk_cdce925_pll pll[MAX_NUMBER_OF_PLLS];
+		struct clk_cdce925_output clk[MAX_NUMBER_OF_OUTPUTS];
+	} cocci_id/* drivers/clk/clk-cdce925.c 82 */;
+	const struct i2c_device_id cocci_id/* drivers/clk/clk-cdce925.c 817 */[];
+	struct clk_cdce925_pll cocci_id/* drivers/clk/clk-cdce925.c 80 */;
+	struct clk_cdce925_pll {
+		struct clk_hw hw;
+		struct clk_cdce925_chip *chip;
+		u8 index;
+		u16 m;
+		u16 n;
+	} cocci_id/* drivers/clk/clk-cdce925.c 73 */;
+	struct clk_cdce925_output cocci_id/* drivers/clk/clk-cdce925.c 71 */;
+	struct regmap_config cocci_id/* drivers/clk/clk-cdce925.c 650 */;
+	char cocci_id/* drivers/clk/clk-cdce925.c 649 */[6];
+	u32 cocci_id/* drivers/clk/clk-cdce925.c 645 */;
+	struct clk_init_data cocci_id/* drivers/clk/clk-cdce925.c 644 */;
+	const char *cocci_id/* drivers/clk/clk-cdce925.c 643 */[MAX_NUMBER_OF_PLLS];
+	const char *cocci_id/* drivers/clk/clk-cdce925.c 642 */;
+	struct device_node *cocci_id/* drivers/clk/clk-cdce925.c 641 */;
+	struct clk_cdce925_chip *cocci_id/* drivers/clk/clk-cdce925.c 640 */;
+	struct clk_cdce925_output {
+		struct clk_hw hw;
+		struct clk_cdce925_chip *chip;
+		u8 index;
+		u16 pdiv;
+	} cocci_id/* drivers/clk/clk-cdce925.c 64 */;
+	const struct i2c_device_id *cocci_id/* drivers/clk/clk-cdce925.c 638 */;
+	struct i2c_client *cocci_id/* drivers/clk/clk-cdce925.c 637 */;
+	struct regmap_bus cocci_id/* drivers/clk/clk-cdce925.c 632 */;
+	struct clk_cdce925_chip cocci_id/* drivers/clk/clk-cdce925.c 62 */;
+	struct regulator *cocci_id/* drivers/clk/clk-cdce925.c 613 */;
+	unsigned int cocci_id/* drivers/clk/clk-cdce925.c 596 */;
+	struct of_phandle_args *cocci_id/* drivers/clk/clk-cdce925.c 593 */;
+	u8 *cocci_id/* drivers/clk/clk-cdce925.c 567 */;
+	u8 cocci_id/* drivers/clk/clk-cdce925.c 557 */[2];
+	struct i2c_msg cocci_id/* drivers/clk/clk-cdce925.c 555 */[2];
+	struct device *cocci_id/* drivers/clk/clk-cdce925.c 553 */;
+	const void *cocci_id/* drivers/clk/clk-cdce925.c 551 */;
+	size_t cocci_id/* drivers/clk/clk-cdce925.c 551 */;
+	void *cocci_id/* drivers/clk/clk-cdce925.c 550 */;
+	const struct clk_ops cocci_id/* drivers/clk/clk-cdce925.c 465 */;
+	unsigned long *cocci_id/* drivers/clk/clk-cdce925.c 439 */;
+	long cocci_id/* drivers/clk/clk-cdce925.c 419 */;
+	const struct clk_cdce925_chip_info cocci_id/* drivers/clk/clk-cdce925.c 40 */[];
+	struct clk *cocci_id/* drivers/clk/clk-cdce925.c 398 */;
+	struct clk_hw *cocci_id/* drivers/clk/clk-cdce925.c 396 */;
+	u16 cocci_id/* drivers/clk/clk-cdce925.c 378 */;
+	unsigned long cocci_id/* drivers/clk/clk-cdce925.c 378 */;
+	int cocci_id/* drivers/clk/clk-cdce925.c 351 */;
+	struct clk_cdce925_chip_info {
+		int num_plls;
+		int num_outputs;
+	} cocci_id/* drivers/clk/clk-cdce925.c 35 */;
+	struct clk_cdce925_output *cocci_id/* drivers/clk/clk-cdce925.c 325 */;
+	void cocci_id/* drivers/clk/clk-cdce925.c 325 */;
+	enum{CDCE913, CDCE925, CDCE937, CDCE949,} cocci_id/* drivers/clk/clk-cdce925.c 28 */;
+	unsigned cocci_id/* drivers/clk/clk-cdce925.c 228 */;
+	u8 cocci_id/* drivers/clk/clk-cdce925.c 226 */[4];
+	struct clk_cdce925_pll *cocci_id/* drivers/clk/clk-cdce925.c 219 */;
+	u8 cocci_id/* drivers/clk/clk-cdce925.c 184 */;
+	u16 *cocci_id/* drivers/clk/clk-cdce925.c 110 */;
+}

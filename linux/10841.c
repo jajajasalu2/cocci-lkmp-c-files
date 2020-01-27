@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	int cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 998 */;
+	char cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 984 */[5];
+	unsigned long long cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 919 */;
+	struct amdgpu_bo_va_mapping *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 696 */;
+	uint64_t *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 690 */;
+	unsigned cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 646 */;
+	uint64_t cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 645 */;
+	struct amdgpu_ring *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 645 */;
+	u64 cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 587 */;
+	int cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 56 */(void *handle);
+	void cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 54 */(struct amdgpu_device *adev);
+	struct amdgpu_gmc *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 431 */;
+	const __le32 *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 370 */;
+	const struct mc_firmware_header_v1_0 *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 369 */;
+	char cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 223 */[30];
+	const char *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 222 */;
+	const struct amdgpu_ip_block_version cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 1726 */;
+	const struct amdgpu_irq_src_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 1710 */;
+	const struct amdgpu_gmc_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 1701 */;
+	const struct amd_ip_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 1680 */;
+	u32 *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 1662 */;
+	enum amd_powergating_state cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 1657 */;
+	enum amd_clockgating_state cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 1636 */;
+	uint32_t cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 1558 */;
+	bool cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 1556 */;
+	struct amdgpu_device *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 1555 */;
+	void cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 1555 */;
+	struct kfd_vm_fault_info *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 1453 */;
+	struct amdgpu_task_info cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 1433 */;
+	struct amdgpu_iv_entry *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 1409 */;
+	struct amdgpu_irq_src *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 1408 */;
+	enum amdgpu_interrupt_state cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 1368 */;
+	u32 cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 1285 */;
+	void *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 1283 */;
+	struct kfd_vm_fault_info cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 1159 */;
+	const u32 cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v8_0.c 112 */[];
+}

@@ -1,0 +1,63 @@
+cocci_test_suite() {
+	pm_message_t cocci_id/* drivers/usb/serial/sierra.c 953 */;
+	u8 cocci_id/* drivers/usb/serial/sierra.c 89 */;
+	struct usb_serial_endpoints *cocci_id/* drivers/usb/serial/sierra.c 86 */;
+	struct usb_serial *cocci_id/* drivers/usb/serial/sierra.c 85 */;
+	struct urb *cocci_id/* drivers/usb/serial/sierra.c 754 */;
+	struct sierra_intf_private *cocci_id/* drivers/usb/serial/sierra.c 753 */;
+	void cocci_id/* drivers/usb/serial/sierra.c 748 */;
+	u8 *cocci_id/* drivers/usb/serial/sierra.c 725 */;
+	usb_complete_t cocci_id/* drivers/usb/serial/sierra.c 722 */;
+	gfp_t cocci_id/* drivers/usb/serial/sierra.c 721 */;
+	void *cocci_id/* drivers/usb/serial/sierra.c 720 */;
+	unsigned long cocci_id/* drivers/usb/serial/sierra.c 659 */;
+	struct sierra_port_private *cocci_id/* drivers/usb/serial/sierra.c 658 */;
+	struct usb_serial_port *cocci_id/* drivers/usb/serial/sierra.c 657 */;
+	struct tty_struct *cocci_id/* drivers/usb/serial/sierra.c 655 */;
+	struct usb_ctrlrequest cocci_id/* drivers/usb/serial/sierra.c 605 */;
+	unsigned char cocci_id/* drivers/usb/serial/sierra.c 603 */;
+	struct usb_ctrlrequest *cocci_id/* drivers/usb/serial/sierra.c 592 */;
+	unsigned char *cocci_id/* drivers/usb/serial/sierra.c 547 */;
+	struct sierra_intf_private {
+		spinlock_t susp_lock;
+		unsigned int suspended:1;
+		int in_flight;
+		unsigned int open_ports;
+	} cocci_id/* drivers/usb/serial/sierra.c 54 */;
+	struct sierra_iface_info {
+		const u32 infolen;
+		const u8 *ifaceinfo;
+	} cocci_id/* drivers/usb/serial/sierra.c 49 */;
+	bool cocci_id/* drivers/usb/serial/sierra.c 46 */;
+	size_t cocci_id/* drivers/usb/serial/sierra.c 443 */;
+	const unsigned char *cocci_id/* drivers/usb/serial/sierra.c 435 */;
+	unsigned int cocci_id/* drivers/usb/serial/sierra.c 363 */;
+	__u16 cocci_id/* drivers/usb/serial/sierra.c 311 */;
+	struct sierra_port_private {
+		spinlock_t lock;
+		int outstanding_urbs;
+		struct usb_anchor active;
+		struct usb_anchor delayed;
+		int num_out_urbs;
+		int num_in_urbs;
+		struct urb *in_urbs[N_IN_URB_HM];
+		int rts_state;
+		int dtr_state;
+		int cts_state;
+		int dsr_state;
+		int dcd_state;
+		int ri_state;
+	} cocci_id/* drivers/usb/serial/sierra.c 287 */;
+	const struct usb_device_id cocci_id/* drivers/usb/serial/sierra.c 194 */[];
+	const struct sierra_iface_info cocci_id/* drivers/usb/serial/sierra.c 189 */;
+	const u8 cocci_id/* drivers/usb/serial/sierra.c 188 */[];
+	struct sierra_iface_info *cocci_id/* drivers/usb/serial/sierra.c 165 */;
+	struct usb_device *cocci_id/* drivers/usb/serial/sierra.c 147 */;
+	const struct usb_device_id *cocci_id/* drivers/usb/serial/sierra.c 144 */;
+	struct usb_serial_driver *const cocci_id/* drivers/usb/serial/sierra.c 1071 */[];
+	const u8 *cocci_id/* drivers/usb/serial/sierra.c 107 */;
+	const struct sierra_iface_info *cocci_id/* drivers/usb/serial/sierra.c 105 */;
+	struct usb_serial_driver cocci_id/* drivers/usb/serial/sierra.c 1045 */;
+	const u8 cocci_id/* drivers/usb/serial/sierra.c 104 */;
+	int cocci_id/* drivers/usb/serial/sierra.c 104 */;
+}

@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	irqreturn_t cocci_id/* sound/soc/fsl/mpc5200_dma.c 76 */;
+	void *cocci_id/* sound/soc/fsl/mpc5200_dma.c 76 */;
+	struct bcom_bd *cocci_id/* sound/soc/fsl/mpc5200_dma.c 63 */;
+	struct psc_dma_stream *cocci_id/* sound/soc/fsl/mpc5200_dma.c 61 */;
+	void cocci_id/* sound/soc/fsl/mpc5200_dma.c 61 */;
+	struct mpc52xx_psc cocci_id/* sound/soc/fsl/mpc5200_dma.c 420 */;
+	void __iomem *cocci_id/* sound/soc/fsl/mpc5200_dma.c 378 */;
+	const __be32 *cocci_id/* sound/soc/fsl/mpc5200_dma.c 377 */;
+	struct resource cocci_id/* sound/soc/fsl/mpc5200_dma.c 375 */;
+	struct psc_dma *cocci_id/* sound/soc/fsl/mpc5200_dma.c 374 */;
+	phys_addr_t cocci_id/* sound/soc/fsl/mpc5200_dma.c 373 */;
+	struct platform_device *cocci_id/* sound/soc/fsl/mpc5200_dma.c 371 */;
+	int cocci_id/* sound/soc/fsl/mpc5200_dma.c 371 */;
+	const struct snd_soc_component_driver cocci_id/* sound/soc/fsl/mpc5200_dma.c 358 */;
+	struct snd_pcm *cocci_id/* sound/soc/fsl/mpc5200_dma.c 340 */;
+	u16 cocci_id/* sound/soc/fsl/mpc5200_dma.c 34 */;
+	struct mpc52xx_psc __iomem *cocci_id/* sound/soc/fsl/mpc5200_dma.c 33 */;
+	size_t cocci_id/* sound/soc/fsl/mpc5200_dma.c 303 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/fsl/mpc5200_dma.c 301 */;
+	struct snd_card *cocci_id/* sound/soc/fsl/mpc5200_dma.c 300 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/fsl/mpc5200_dma.c 290 */;
+	dma_addr_t cocci_id/* sound/soc/fsl/mpc5200_dma.c 276 */;
+	snd_pcm_uframes_t cocci_id/* sound/soc/fsl/mpc5200_dma.c 269 */;
+	struct snd_soc_pcm_runtime *cocci_id/* sound/soc/fsl/mpc5200_dma.c 247 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/fsl/mpc5200_dma.c 245 */;
+	struct snd_soc_component *cocci_id/* sound/soc/fsl/mpc5200_dma.c 244 */;
+	struct snd_pcm_runtime *cocci_id/* sound/soc/fsl/mpc5200_dma.c 218 */;
+	const struct snd_pcm_hardware cocci_id/* sound/soc/fsl/mpc5200_dma.c 201 */;
+	unsigned long cocci_id/* sound/soc/fsl/mpc5200_dma.c 123 */;
+}

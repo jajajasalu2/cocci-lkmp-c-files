@@ -1,0 +1,81 @@
+cocci_test_suite() {
+	bool cocci_id/* drivers/net/wireless/st/cw1200/sta.c 891 */;
+	struct cw1200_queue *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 846 */;
+	u8 cocci_id/* drivers/net/wireless/st/cw1200/sta.c 845 */;
+	struct wsm_remove_key cocci_id/* drivers/net/wireless/st/cw1200/sta.c 821 */;
+	size_t cocci_id/* drivers/net/wireless/st/cw1200/sta.c 745 */;
+	struct wsm_add_key *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 695 */;
+	u8 *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 691 */;
+	struct ieee80211_key_seq cocci_id/* drivers/net/wireless/st/cw1200/sta.c 686 */;
+	struct ieee80211_key_conf *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 682 */;
+	enum set_key_cmd cocci_id/* drivers/net/wireless/st/cw1200/sta.c 680 */;
+	struct wsm_set_pm cocci_id/* drivers/net/wireless/st/cw1200/sta.c 666 */;
+	const struct wsm_set_pm *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 664 */;
+	struct ieee80211_low_level_stats *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 656 */;
+	u16 cocci_id/* drivers/net/wireless/st/cw1200/sta.c 609 */;
+	const struct ieee80211_tx_queue_params *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 609 */;
+	u64 cocci_id/* drivers/net/wireless/st/cw1200/sta.c 574 */;
+	unsigned int *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 573 */;
+	unsigned int cocci_id/* drivers/net/wireless/st/cw1200/sta.c 572 */;
+	struct netdev_hw_addr *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 542 */;
+	u8 cocci_id/* drivers/net/wireless/st/cw1200/sta.c 535 */[ETH_ALEN];
+	struct netdev_hw_addr_list *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 533 */;
+	struct wsm_mib_beacon_filter_table cocci_id/* drivers/net/wireless/st/cw1200/sta.c 447 */;
+	struct wsm_beacon_filter_control cocci_id/* drivers/net/wireless/st/cw1200/sta.c 446 */;
+	struct cw1200_wsm_event *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 44 */;
+	struct list_head *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 42 */;
+	struct wsm_operational_mode cocci_id/* drivers/net/wireless/st/cw1200/sta.c 405 */;
+	int cocci_id/* drivers/net/wireless/st/cw1200/sta.c 40 */(struct cw1200_common *priv,
+								  bool drop);
+	void cocci_id/* drivers/net/wireless/st/cw1200/sta.c 36 */(struct ieee80211_hw *dev,
+								   struct ieee80211_vif *vif,
+								   enum sta_notify_cmd notify_cmd,
+								   int link_id);
+	struct wsm_switch_channel cocci_id/* drivers/net/wireless/st/cw1200/sta.c 346 */;
+	struct ieee80211_channel *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 345 */;
+	int cocci_id/* drivers/net/wireless/st/cw1200/sta.c 34 */(struct cw1200_common *priv,
+								  bool enable);
+	struct ieee80211_conf *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 328 */;
+	int cocci_id/* drivers/net/wireless/st/cw1200/sta.c 32 */(struct cw1200_common *priv);
+	enum nl80211_iftype cocci_id/* drivers/net/wireless/st/cw1200/sta.c 307 */;
+	void cocci_id/* drivers/net/wireless/st/cw1200/sta.c 25 */(struct cw1200_common *priv);
+	struct wsm_beacon_transmit cocci_id/* drivers/net/wireless/st/cw1200/sta.c 2300 */;
+	void *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 2218 */;
+	struct wsm_template_frame cocci_id/* drivers/net/wireless/st/cw1200/sta.c 2190 */;
+	struct ieee80211_mgmt *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 2189 */;
+	struct wsm_suspend_resume *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 2143 */;
+	struct ieee80211_ampdu_params *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 2128 */;
+	struct timer_list *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 2112 */;
+	long cocci_id/* drivers/net/wireless/st/cw1200/sta.c 2084 */;
+	struct wsm_rcpi_rssi_threshold cocci_id/* drivers/net/wireless/st/cw1200/sta.c 2029 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 194 */;
+	__le32 cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1899 */;
+	struct ieee80211_sta *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1898 */;
+	struct wsm_mib_arp_ipv4_filter cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1812 */;
+	struct ieee80211_bss_conf *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1798 */;
+	struct wsm_override_internal_txrate cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1752 */;
+	struct wsm_update_ie cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1724 */;
+	u8 cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1723 */[3];
+	u32 cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1599 */;
+	enum sta_notify_cmd cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1595 */;
+	struct ieee80211_vif *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1594 */;
+	struct ieee80211_hw *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1593 */;
+	struct cw1200_link_entry *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1545 */;
+	struct cw1200_sta_priv *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1543 */;
+	const struct wsm_edca_params *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1501 */;
+	int cocci_id/* drivers/net/wireless/st/cw1200/sta.c 149 */;
+	struct cw1200_common *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 148 */;
+	void cocci_id/* drivers/net/wireless/st/cw1200/sta.c 148 */;
+	struct wsm_reset cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1476 */;
+	struct wsm_start cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1452 */;
+	struct wsm_join cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1210 */;
+	struct wsm_protected_mgmt_policy cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1209 */;
+	struct cfg80211_bss *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1208 */;
+	const u8 *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1206 */;
+	struct wsm_join_complete *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1192 */;
+	struct wsm_configuration cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1132 */;
+	__le16 *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1083 */;
+	struct cw1200_common cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1037 */;
+	struct work_struct *cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1034 */;
+	s8 cocci_id/* drivers/net/wireless/st/cw1200/sta.c 1011 */;
+}

@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	struct rb_node **cocci_id/* net/sunrpc/xprt.c 932 */;
+	struct rb_node *cocci_id/* net/sunrpc/xprt.c 910 */;
+	u32 cocci_id/* net/sunrpc/xprt.c 902 */;
+	enum xprt_xid_rb_cmp cocci_id/* net/sunrpc/xprt.c 897 */;
+	enum xprt_xid_rb_cmp{XID_RB_EQUAL, XID_RB_LEFT, XID_RB_RIGHT,} cocci_id/* net/sunrpc/xprt.c 892 */;
+	struct timer_list *cocci_id/* net/sunrpc/xprt.c 770 */;
+	const struct rpc_rqst *cocci_id/* net/sunrpc/xprt.c 77 */;
+	const struct rpc_xprt *cocci_id/* net/sunrpc/xprt.c 755 */;
+	void cocci_id/* net/sunrpc/xprt.c 72 */(struct rpc_xprt *xprt);
+	__be32 cocci_id/* net/sunrpc/xprt.c 71 */(struct rpc_xprt *xprt);
+	void cocci_id/* net/sunrpc/xprt.c 70 */(struct rpc_xprt *xprt,
+						struct net *net);
+	struct rpc_xprt cocci_id/* net/sunrpc/xprt.c 663 */;
+	struct work_struct *cocci_id/* net/sunrpc/xprt.c 660 */;
+	const struct rpc_timeout *cocci_id/* net/sunrpc/xprt.c 631 */;
+	s64 cocci_id/* net/sunrpc/xprt.c 585 */;
+	ktime_t cocci_id/* net/sunrpc/xprt.c 583 */;
+	unsigned long cocci_id/* net/sunrpc/xprt.c 583 */;
+	struct rpc_xprt *cocci_id/* net/sunrpc/xprt.c 398 */;
+	struct rpc_rqst *cocci_id/* net/sunrpc/xprt.c 398 */;
+	int cocci_id/* net/sunrpc/xprt.c 397 */;
+	void cocci_id/* net/sunrpc/xprt.c 321 */;
+	bool cocci_id/* net/sunrpc/xprt.c 313 */;
+	struct rpc_task *cocci_id/* net/sunrpc/xprt.c 313 */;
+	void *cocci_id/* net/sunrpc/xprt.c 313 */;
+	struct kref *cocci_id/* net/sunrpc/xprt.c 1984 */;
+	struct xprt_class *cocci_id/* net/sunrpc/xprt.c 1892 */;
+	struct xprt_create *cocci_id/* net/sunrpc/xprt.c 1889 */;
+	struct xdr_buf *cocci_id/* net/sunrpc/xprt.c 1839 */;
+	__be32 cocci_id/* net/sunrpc/xprt.c 1701 */;
+	struct rpc_rqst cocci_id/* net/sunrpc/xprt.c 1666 */;
+	unsigned int cocci_id/* net/sunrpc/xprt.c 1652 */;
+	struct net *cocci_id/* net/sunrpc/xprt.c 1651 */;
+	size_t cocci_id/* net/sunrpc/xprt.c 1651 */;
+	const char *cocci_id/* net/sunrpc/xprt.c 162 */;
+	struct rpc_clnt *cocci_id/* net/sunrpc/xprt.c 1180 */;
+	long cocci_id/* net/sunrpc/xprt.c 1098 */;
+	struct rpc_rtt *cocci_id/* net/sunrpc/xprt.c 1096 */;
+}

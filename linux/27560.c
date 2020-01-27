@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct btrfs_fs_info *cocci_id/* fs/btrfs/xattr.c 84 */;
+	const void *cocci_id/* fs/btrfs/xattr.c 80 */;
+	char *cocci_id/* fs/btrfs/xattr.c 68 */;
+	const struct qstr *cocci_id/* fs/btrfs/xattr.c 473 */;
+	unsigned int cocci_id/* fs/btrfs/xattr.c 443 */;
+	struct btrfs_trans_handle *cocci_id/* fs/btrfs/xattr.c 441 */;
+	const struct xattr *cocci_id/* fs/btrfs/xattr.c 439 */;
+	const struct xattr_handler *cocci_id/* fs/btrfs/xattr.c 426 */[];
+	const struct xattr_handler cocci_id/* fs/btrfs/xattr.c 420 */;
+	const struct xattr_handler *cocci_id/* fs/btrfs/xattr.c 354 */;
+	u16 cocci_id/* fs/btrfs/xattr.c 316 */;
+	struct btrfs_dir_item cocci_id/* fs/btrfs/xattr.c 312 */;
+	unsigned long cocci_id/* fs/btrfs/xattr.c 31 */;
+	struct extent_buffer *cocci_id/* fs/btrfs/xattr.c 29 */;
+	u32 cocci_id/* fs/btrfs/xattr.c 282 */;
+	struct btrfs_path *cocci_id/* fs/btrfs/xattr.c 28 */;
+	struct btrfs_root *cocci_id/* fs/btrfs/xattr.c 27 */;
+	struct btrfs_dir_item *cocci_id/* fs/btrfs/xattr.c 26 */;
+	struct btrfs_key cocci_id/* fs/btrfs/xattr.c 251 */;
+	struct dentry *cocci_id/* fs/btrfs/xattr.c 249 */;
+	ssize_t cocci_id/* fs/btrfs/xattr.c 249 */;
+	void *cocci_id/* fs/btrfs/xattr.c 24 */;
+	size_t cocci_id/* fs/btrfs/xattr.c 24 */;
+	const char *cocci_id/* fs/btrfs/xattr.c 23 */;
+	struct inode *cocci_id/* fs/btrfs/xattr.c 23 */;
+	int cocci_id/* fs/btrfs/xattr.c 23 */;
+	char cocci_id/* fs/btrfs/xattr.c 200 */;
+	struct btrfs_item *cocci_id/* fs/btrfs/xattr.c 173 */;
+	const u32 cocci_id/* fs/btrfs/xattr.c 171 */;
+	const u16 cocci_id/* fs/btrfs/xattr.c 170 */;
+	const int cocci_id/* fs/btrfs/xattr.c 168 */;
+}

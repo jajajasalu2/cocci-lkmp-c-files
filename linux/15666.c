@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* drivers/staging/greybus/bootrom.c 90 */;
+	const char *cocci_id/* drivers/staging/greybus/bootrom.c 58 */;
+	struct gb_bootrom cocci_id/* drivers/staging/greybus/bootrom.c 56 */;
+	struct delayed_work *cocci_id/* drivers/staging/greybus/bootrom.c 54 */;
+	struct work_struct *cocci_id/* drivers/staging/greybus/bootrom.c 52 */;
+	struct greybus_driver cocci_id/* drivers/staging/greybus/bootrom.c 518 */;
+	const struct greybus_bundle_id cocci_id/* drivers/staging/greybus/bootrom.c 513 */[];
+	struct gb_bundle *cocci_id/* drivers/staging/greybus/bootrom.c 490 */;
+	struct greybus_descriptor_cport *cocci_id/* drivers/staging/greybus/bootrom.c 415 */;
+	const struct greybus_bundle_id *cocci_id/* drivers/staging/greybus/bootrom.c 413 */;
+	struct gb_bootrom_version_response cocci_id/* drivers/staging/greybus/bootrom.c 379 */;
+	struct gb_bootrom_version_request cocci_id/* drivers/staging/greybus/bootrom.c 378 */;
+	struct gb_bootrom {
+		struct gb_connection *connection;
+		const struct firmware *fw;
+		u8 protocol_major;
+		u8 protocol_minor;
+		enum next_request_type next_request;
+		struct delayed_work dwork;
+		struct mutex mutex;
+	} cocci_id/* drivers/staging/greybus/bootrom.c 33 */;
+	struct gb_bootrom_ready_to_boot_request *cocci_id/* drivers/staging/greybus/bootrom.c 315 */;
+	enum next_request_type{NEXT_REQ_FIRMWARE_SIZE, NEXT_REQ_GET_FIRMWARE, NEXT_REQ_READY_TO_BOOT, NEXT_REQ_MODE_SWITCH,} cocci_id/* drivers/staging/greybus/bootrom.c 26 */;
+	enum next_request_type cocci_id/* drivers/staging/greybus/bootrom.c 249 */;
+	unsigned int cocci_id/* drivers/staging/greybus/bootrom.c 248 */;
+	struct gb_bootrom_get_firmware_response *cocci_id/* drivers/staging/greybus/bootrom.c 246 */;
+	struct gb_bootrom_get_firmware_request *cocci_id/* drivers/staging/greybus/bootrom.c 245 */;
+	const struct firmware *cocci_id/* drivers/staging/greybus/bootrom.c 244 */;
+	struct device *cocci_id/* drivers/staging/greybus/bootrom.c 194 */;
+	struct gb_bootrom_firmware_size_response *cocci_id/* drivers/staging/greybus/bootrom.c 193 */;
+	struct gb_bootrom_firmware_size_request *cocci_id/* drivers/staging/greybus/bootrom.c 191 */;
+	struct gb_operation *cocci_id/* drivers/staging/greybus/bootrom.c 188 */;
+	char cocci_id/* drivers/staging/greybus/bootrom.c 148 */[49];
+	u8 cocci_id/* drivers/staging/greybus/bootrom.c 144 */;
+	int cocci_id/* drivers/staging/greybus/bootrom.c 116 */;
+	struct gb_interface *cocci_id/* drivers/staging/greybus/bootrom.c 115 */;
+	struct gb_connection *cocci_id/* drivers/staging/greybus/bootrom.c 114 */;
+	struct gb_bootrom_get_vid_pid_response cocci_id/* drivers/staging/greybus/bootrom.c 113 */;
+	struct gb_bootrom *cocci_id/* drivers/staging/greybus/bootrom.c 111 */;
+	void cocci_id/* drivers/staging/greybus/bootrom.c 111 */;
+}

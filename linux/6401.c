@@ -1,0 +1,73 @@
+cocci_test_suite() {
+	int __init cocci_id/* drivers/regulator/qcom_rpm-regulator.c 999 */;
+	struct platform_driver cocci_id/* drivers/regulator/qcom_rpm-regulator.c 991 */;
+	struct qcom_rpm *cocci_id/* drivers/regulator/qcom_rpm-regulator.c 945 */;
+	struct regulator_config cocci_id/* drivers/regulator/qcom_rpm-regulator.c 942 */;
+	const struct of_device_id *cocci_id/* drivers/regulator/qcom_rpm-regulator.c 941 */;
+	const struct rpm_regulator_data *cocci_id/* drivers/regulator/qcom_rpm-regulator.c 940 */;
+	struct platform_device *cocci_id/* drivers/regulator/qcom_rpm-regulator.c 938 */;
+	const struct of_device_id cocci_id/* drivers/regulator/qcom_rpm-regulator.c 928 */[];
+	const struct rpm_regulator_data cocci_id/* drivers/regulator/qcom_rpm-regulator.c 788 */[];
+	struct rpm_regulator_data {
+		const char *name;
+		int resource;
+		const struct qcom_rpm_reg *template;
+		const char *supply;
+	} cocci_id/* drivers/regulator/qcom_rpm-regulator.c 781 */;
+	bool cocci_id/* drivers/regulator/qcom_rpm-regulator.c 694 */;
+	u32 cocci_id/* drivers/regulator/qcom_rpm-regulator.c 693 */;
+	const char *cocci_id/* drivers/regulator/qcom_rpm-regulator.c 692 */;
+	struct device *cocci_id/* drivers/regulator/qcom_rpm-regulator.c 691 */;
+	struct regulator_config *cocci_id/* drivers/regulator/qcom_rpm-regulator.c 688 */;
+	const struct regulator_desc *cocci_id/* drivers/regulator/qcom_rpm-regulator.c 687 */;
+	struct device_node *cocci_id/* drivers/regulator/qcom_rpm-regulator.c 686 */;
+	const int cocci_id/* drivers/regulator/qcom_rpm-regulator.c 657 */[];
+	const struct rpm_reg_parts cocci_id/* drivers/regulator/qcom_rpm-regulator.c 65 */;
+	const int cocci_id/* drivers/regulator/qcom_rpm-regulator.c 642 */;
+	struct qcom_rpm_reg {
+		struct qcom_rpm *rpm;
+		struct mutex lock;
+		struct device *dev;
+		struct regulator_desc desc;
+		const struct rpm_reg_parts *parts;
+		int resource;
+		u32 val[MAX_REQUEST_LEN];
+		int uV;
+		int is_enabled;
+		bool supports_force_mode_auto;
+		bool supports_force_mode_bypass;
+	} cocci_id/* drivers/regulator/qcom_rpm-regulator.c 47 */;
+	const struct qcom_rpm_reg cocci_id/* drivers/regulator/qcom_rpm-regulator.c 455 */;
+	struct regulator_ops cocci_id/* drivers/regulator/qcom_rpm-regulator.c 423 */;
+	const struct request_member *cocci_id/* drivers/regulator/qcom_rpm-regulator.c 328 */;
+	const struct rpm_reg_parts *cocci_id/* drivers/regulator/qcom_rpm-regulator.c 327 */;
+	struct qcom_rpm_reg *cocci_id/* drivers/regulator/qcom_rpm-regulator.c 262 */;
+	struct regulator_dev *cocci_id/* drivers/regulator/qcom_rpm-regulator.c 260 */;
+	int cocci_id/* drivers/regulator/qcom_rpm-regulator.c 260 */;
+	struct rpm_reg_parts {
+		struct request_member mV;
+		struct request_member uV;
+		struct request_member ip;
+		struct request_member pd;
+		struct request_member ia;
+		struct request_member fm;
+		struct request_member pm;
+		struct request_member pc;
+		struct request_member pf;
+		struct request_member enable_state;
+		struct request_member comp_mode;
+		struct request_member freq;
+		struct request_member freq_clk_src;
+		struct request_member hpm;
+		int request_len;
+	} cocci_id/* drivers/regulator/qcom_rpm-regulator.c 26 */;
+	unsigned cocci_id/* drivers/regulator/qcom_rpm-regulator.c 207 */;
+	struct request_member {
+		int word;
+		unsigned int mask;
+		int shift;
+	} cocci_id/* drivers/regulator/qcom_rpm-regulator.c 20 */;
+	const struct regulator_linear_range cocci_id/* drivers/regulator/qcom_rpm-regulator.c 172 */[];
+	void __exit cocci_id/* drivers/regulator/qcom_rpm-regulator.c 1005 */;
+	void cocci_id/* drivers/regulator/qcom_rpm-regulator.c 1005 */;
+}

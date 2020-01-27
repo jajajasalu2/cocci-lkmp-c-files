@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	const struct dc_link *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 777 */;
+	struct amdgpu_dm_connector *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 775 */;
+	struct drm_connector_list_iter cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 771 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 770 */;
+	struct amdgpu_dm_irq_handler_data {
+		struct list_head list;
+		interrupt_handler handler;
+		void *handler_arg;
+		struct amdgpu_display_manager *dm;
+		enum dc_irq_source irq_source;
+	} cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 77 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 769 */;
+	struct amdgpu_device *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 767 */;
+	void cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 767 */;
+	const struct amdgpu_irq_src_funcs cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 687 */;
+	unsigned int cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 675 */;
+	enum amdgpu_interrupt_state cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 662 */;
+	struct amdgpu_crtc *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 624 */;
+	const char *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 619 */;
+	const enum irq_type cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 618 */;
+	bool cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 608 */;
+	enum dc_irq_source cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 582 */;
+	unsigned cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 582 */;
+	struct amdgpu_iv_entry *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 563 */;
+	struct amdgpu_irq_src *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 562 */;
+	struct amdgpu_dm_irq_handler_data cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 541 */;
+	struct list_head *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 531 */;
+	struct amdgpu_dm_irq_handler_data *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 530 */;
+	struct work_struct *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 506 */;
+	unsigned long cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 406 */;
+	struct irq_list_head *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 405 */;
+	int cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 404 */;
+	struct dc_interrupt_params cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 331 */;
+	void (*cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 263 */)(void *);
+	struct dc_interrupt_params *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 262 */;
+	void *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 261 */;
+	irq_handler_idx cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 223 */;
+	const struct dc_interrupt_params *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 145 */;
+	struct irq_list_head cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 116 */;
+	struct amdgpu_display_manager *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_irq.c 100 */;
+}

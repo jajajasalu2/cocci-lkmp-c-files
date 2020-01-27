@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* sound/soc/codecs/rt5660.c 840 */;
+	struct rt5660_priv *cocci_id/* sound/soc/codecs/rt5660.c 839 */;
+	struct snd_soc_component *cocci_id/* sound/soc/codecs/rt5660.c 838 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/codecs/rt5660.c 836 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/codecs/rt5660.c 836 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/codecs/rt5660.c 835 */;
+	int cocci_id/* sound/soc/codecs/rt5660.c 835 */;
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/codecs/rt5660.c 706 */[];
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/codecs/rt5660.c 563 */[];
+	const struct reg_default cocci_id/* sound/soc/codecs/rt5660.c 55 */[];
+	struct snd_kcontrol *cocci_id/* sound/soc/codecs/rt5660.c 539 */;
+	const char *const cocci_id/* sound/soc/codecs/rt5660.c 522 */[];
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/rt5660.c 513 */;
+	const struct reg_sequence cocci_id/* sound/soc/codecs/rt5660.c 50 */[];
+	const struct regmap_range_cfg cocci_id/* sound/soc/codecs/rt5660.c 40 */[];
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/rt5660.c 399 */[];
+	struct snd_soc_dapm_widget *cocci_id/* sound/soc/codecs/rt5660.c 370 */;
+	bool cocci_id/* sound/soc/codecs/rt5660.c 180 */;
+	struct i2c_driver cocci_id/* sound/soc/codecs/rt5660.c 1336 */;
+	struct rt5660_priv cocci_id/* sound/soc/codecs/rt5660.c 1273 */;
+	struct rt5660_platform_data *cocci_id/* sound/soc/codecs/rt5660.c 1268 */;
+	const struct i2c_device_id *cocci_id/* sound/soc/codecs/rt5660.c 1266 */;
+	struct i2c_client *cocci_id/* sound/soc/codecs/rt5660.c 1265 */;
+	struct device *cocci_id/* sound/soc/codecs/rt5660.c 1251 */;
+	const struct acpi_device_id cocci_id/* sound/soc/codecs/rt5660.c 1244 */[];
+	const struct of_device_id cocci_id/* sound/soc/codecs/rt5660.c 1238 */[];
+	const struct i2c_device_id cocci_id/* sound/soc/codecs/rt5660.c 1232 */[];
+	const struct regmap_config cocci_id/* sound/soc/codecs/rt5660.c 1214 */;
+	const struct snd_soc_component_driver cocci_id/* sound/soc/codecs/rt5660.c 1197 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/codecs/rt5660.c 1175 */[];
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/codecs/rt5660.c 1168 */;
+	void cocci_id/* sound/soc/codecs/rt5660.c 1131 */;
+	enum snd_soc_bias_level cocci_id/* sound/soc/codecs/rt5660.c 1071 */;
+	struct rl6231_pll_code cocci_id/* sound/soc/codecs/rt5660.c 1014 */;
+}

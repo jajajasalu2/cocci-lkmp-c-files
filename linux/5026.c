@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct hfi1_pportdata *cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 987 */;
+	u32 cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 985 */;
+	struct inode *cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 985 */;
+	struct file *cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 985 */;
+	int cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 985 */;
+	char *cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 825 */;
+	loff_t *cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 822 */;
+	size_t cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 822 */;
+	char __user *cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 821 */;
+	ssize_t cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 821 */;
+	const char __user *cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 767 */;
+	unsigned long __user *cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 704 */;
+	unsigned long long cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 598 */;
+	const char *cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 529 */;
+	int *cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 528 */;
+	struct counter_info {
+		char *name;
+		const struct file_operations ops;
+	} cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 488 */;
+	unsigned long cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 444 */;
+	struct send_context_info *cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 441 */;
+	struct rvt_qp_iter *cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 288 */;
+	struct hfi1_ctxtdata *cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 230 */;
+	u64 cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 227 */;
+	loff_t cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 226 */;
+	void cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 218 */;
+	struct hfi1_devdata *cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 207 */;
+	struct hfi1_ibdev *cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 206 */;
+	struct seq_file *cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 204 */;
+	void *cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 204 */;
+	u64 *cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 1394 */;
+	const char *const cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 1309 */[];
+	struct dentry *cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 1243 */;
+	char cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 1240 */[10];
+	char cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 1239 */[sizeof("port0counters") + 1];
+	u8 cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 121 */;
+	const struct counter_info cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 1175 */[];
+	char cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 1114 */;
+	struct hfi1_opcode_stats_perctx *cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 109 */;
+	bool cocci_id/* drivers/infiniband/hw/hfi1/debugfs.c 1082 */;
+}

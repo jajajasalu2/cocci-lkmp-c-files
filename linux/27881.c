@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct ovl_entry cocci_id/* fs/overlayfs/util.c 96 */;
+	size_t cocci_id/* fs/overlayfs/util.c 96 */;
+	struct ovl_entry *cocci_id/* fs/overlayfs/util.c 94 */;
+	unsigned int cocci_id/* fs/overlayfs/util.c 94 */;
+	char *cocci_id/* fs/overlayfs/util.c 908 */;
+	char **cocci_id/* fs/overlayfs/util.c 875 */;
+	ssize_t cocci_id/* fs/overlayfs/util.c 875 */;
+	const struct cred *cocci_id/* fs/overlayfs/util.c 808 */;
+	struct qstr cocci_id/* fs/overlayfs/util.c 694 */;
+	struct inode *cocci_id/* fs/overlayfs/util.c 689 */;
+	void cocci_id/* fs/overlayfs/util.c 686 */;
+	struct super_block *cocci_id/* fs/overlayfs/util.c 63 */;
+	unsigned long cocci_id/* fs/overlayfs/util.c 611 */;
+	struct ovl_fs *cocci_id/* fs/overlayfs/util.c 571 */;
+	const void *cocci_id/* fs/overlayfs/util.c 567 */;
+	char cocci_id/* fs/overlayfs/util.c 554 */;
+	const char *cocci_id/* fs/overlayfs/util.c 551 */;
+	bool cocci_id/* fs/overlayfs/util.c 494 */;
+	struct dentry *cocci_id/* fs/overlayfs/util.c 494 */;
+	int cocci_id/* fs/overlayfs/util.c 494 */;
+	struct file *cocci_id/* fs/overlayfs/util.c 476 */;
+	u64 cocci_id/* fs/overlayfs/util.c 461 */;
+	struct ovl_inode *cocci_id/* fs/overlayfs/util.c 395 */;
+	struct ovl_dir_cache *cocci_id/* fs/overlayfs/util.c 269 */;
+	struct ovl_layer *cocci_id/* fs/overlayfs/util.c 201 */;
+	enum ovl_path_type cocci_id/* fs/overlayfs/util.c 177 */;
+	struct path cocci_id/* fs/overlayfs/util.c 161 */;
+	struct path *cocci_id/* fs/overlayfs/util.c 153 */;
+}

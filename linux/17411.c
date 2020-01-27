@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct device_node *cocci_id/* arch/powerpc/platforms/powermac/smp.c 996 */;
+	void __init cocci_id/* arch/powerpc/platforms/powermac/smp.c 994 */;
+	struct smp_ops_t cocci_id/* arch/powerpc/platforms/powermac/smp.c 978 */;
+	unsigned int *cocci_id/* arch/powerpc/platforms/powermac/smp.c 801 */;
+	const u32 *cocci_id/* arch/powerpc/platforms/powermac/smp.c 725 */;
+	int cocci_id/* arch/powerpc/platforms/powermac/smp.c 667 */;
+	void cocci_id/* arch/powerpc/platforms/powermac/smp.c 667 */;
+	volatile long int cocci_id/* arch/powerpc/platforms/powermac/smp.c 664 */;
+	u64 cocci_id/* arch/powerpc/platforms/powermac/smp.c 66 */;
+	void (*cocci_id/* arch/powerpc/platforms/powermac/smp.c 65 */)(int freeze);
+	unsigned int cocci_id/* arch/powerpc/platforms/powermac/smp.c 649 */;
+	struct pmf_args cocci_id/* arch/powerpc/platforms/powermac/smp.c 633 */;
+	void cocci_id/* arch/powerpc/platforms/powermac/smp.c 63 */(void);
+	const char *cocci_id/* arch/powerpc/platforms/powermac/smp.c 570 */;
+	u8 cocci_id/* arch/powerpc/platforms/powermac/smp.c 505 */;
+	struct pmac_i2c_bus *cocci_id/* arch/powerpc/platforms/powermac/smp.c 504 */;
+	unsigned long cocci_id/* arch/powerpc/platforms/powermac/smp.c 461 */;
+	struct irqaction cocci_id/* arch/powerpc/platforms/powermac/smp.c 402 */;
+	volatile unsigned int cocci_id/* arch/powerpc/platforms/powermac/smp.c 343 */[NR_CPUS];
+	volatile u32 cocci_id/* arch/powerpc/platforms/powermac/smp.c 225 */[8];
+	int __init cocci_id/* arch/powerpc/platforms/powermac/smp.c 211 */;
+	const struct irq_domain_ops cocci_id/* arch/powerpc/platforms/powermac/smp.c 183 */;
+	irq_hw_number_t cocci_id/* arch/powerpc/platforms/powermac/smp.c 176 */;
+	irqreturn_t cocci_id/* arch/powerpc/platforms/powermac/smp.c 162 */;
+	void *cocci_id/* arch/powerpc/platforms/powermac/smp.c 162 */;
+	struct irq_domain *cocci_id/* arch/powerpc/platforms/powermac/smp.c 124 */;
+	volatile u32 __iomem *cocci_id/* arch/powerpc/platforms/powermac/smp.c 109 */;
+	volatile u8 __iomem *cocci_id/* arch/powerpc/platforms/powermac/smp.c 107 */;
+}

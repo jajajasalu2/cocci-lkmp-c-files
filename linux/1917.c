@@ -1,0 +1,57 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 825 */;
+	const char **cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 698 */;
+	u64 cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 697 */;
+	struct resource *cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 695 */;
+	struct device *cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 691 */;
+	struct platform_device *cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 689 */;
+	void cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 666 */;
+	const u32 cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 64 */[][LRADC_MAX_TOTAL_CHANS];
+	const struct iio_chan_spec cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 594 */[];
+	const struct iio_buffer_setup_ops cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 569 */;
+	const int cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 542 */;
+	const unsigned long *cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 538 */;
+	struct mxs_lradc *cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 523 */;
+	struct mxs_lradc_adc *cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 522 */;
+	struct iio_dev *cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 520 */;
+	int cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 520 */;
+	const u32 cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 491 */;
+	u32 cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 488 */;
+	unsigned long cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 487 */;
+	const struct iio_trigger_ops cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 447 */;
+	bool cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 436 */;
+	struct iio_trigger *cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 436 */;
+	const char *cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 42 */[];
+	unsigned int cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 419 */;
+	struct iio_poll_func *cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 414 */;
+	irqreturn_t cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 383 */;
+	void *cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 383 */;
+	const struct iio_info cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 375 */;
+	const struct attribute_group cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 371 */;
+	struct attribute *cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 353 */[];
+	struct iio_dev_attr *cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 320 */;
+	char *cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 316 */;
+	struct device_attribute *cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 315 */;
+	ssize_t cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 314 */;
+	struct mxs_lradc_scale *cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 273 */;
+	int *cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 218 */;
+	long cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 218 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 217 */;
+	struct mxs_lradc_adc {
+		struct mxs_lradc *lradc;
+		struct device *dev;
+		void __iomem *base;
+		u32 buffer[10];
+		struct iio_trigger *trig;
+		struct completion completion;
+		spinlock_t lock;
+		const u32 *vref_mv;
+		struct mxs_lradc_scale scale_avail[LRADC_MAX_TOTAL_CHANS][2];
+		unsigned long is_divided;
+	} cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 113 */;
+	struct mxs_lradc_scale {
+		unsigned int integer;
+		unsigned int nano;
+	} cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 108 */;
+	enum mxs_lradc_divbytwo{MXS_LRADC_DIV_DISABLED=0, MXS_LRADC_DIV_ENABLED,} cocci_id/* drivers/iio/adc/mxs-lradc-adc.c 103 */;
+}

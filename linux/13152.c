@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct dvb_device *cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 657 */;
+	struct dvb_adapter *cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 657 */;
+	struct dvb_device cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 649 */;
+	const struct file_operations cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 639 */;
+	const char __user *cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 632 */;
+	loff_t *cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 625 */;
+	char __user *cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 625 */;
+	ssize_t cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 625 */;
+	size_t cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 625 */;
+	struct inode *cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 611 */;
+	void cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 56 */;
+	struct file *cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 525 */;
+	unsigned long cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 525 */;
+	unsigned int cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 525 */;
+	long cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 525 */;
+	u8 cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 366 */;
+	u32 cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 364 */;
+	u8 *cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 364 */;
+	struct ca_msg cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 294 */;
+	struct ca_msg *cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 289 */;
+	void __user *cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 289 */;
+	struct ca_slot_info cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 282 */;
+	struct ca_slot_info *cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 249 */;
+	struct ca_caps cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 236 */;
+	u8 cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 213 */[256];
+	struct ca_caps *cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 210 */;
+	const int cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 170 */;
+	char *cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 142 */;
+	u8 cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 131 */[8];
+	struct dst_state *cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 128 */;
+	int cocci_id/* drivers/media/pci/bt8xx/dst_ca.c 128 */;
+}

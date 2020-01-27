@@ -1,0 +1,61 @@
+cocci_test_suite() {
+	void cocci_id/* drivers/gpio/gpio-pch.c 97 */;
+	struct pch_gpio {
+		void __iomem *base;
+		struct pch_regs __iomem *reg;
+		struct device *dev;
+		struct gpio_chip gpio;
+		struct pch_gpio_reg_data pch_gpio_reg;
+		int irq_base;
+		enum pch_type_t ioh;
+		spinlock_t spinlock;
+	} cocci_id/* drivers/gpio/gpio-pch.c 86 */;
+	struct pch_gpio_reg_data {
+		u32 ien_reg;
+		u32 imask_reg;
+		u32 po_reg;
+		u32 pm_reg;
+		u32 im0_reg;
+		u32 im1_reg;
+		u32 gpio_use_sel_reg;
+	} cocci_id/* drivers/gpio/gpio-pch.c 63 */;
+	int cocci_id/* drivers/gpio/gpio-pch.c 46 */[];
+	struct pci_driver cocci_id/* drivers/gpio/gpio-pch.c 447 */;
+	const struct pci_device_id cocci_id/* drivers/gpio/gpio-pch.c 438 */[];
+	struct device *cocci_id/* drivers/gpio/gpio-pch.c 422 */;
+	int __maybe_unused cocci_id/* drivers/gpio/gpio-pch.c 422 */;
+	enum pch_type_t{INTEL_EG20T_PCH, OKISEMI_ML7223m_IOH, OKISEMI_ML7223n_IOH,} cocci_id/* drivers/gpio/gpio-pch.c 39 */;
+	s32 cocci_id/* drivers/gpio/gpio-pch.c 344 */;
+	const struct pci_device_id *cocci_id/* drivers/gpio/gpio-pch.c 342 */;
+	struct pci_dev *cocci_id/* drivers/gpio/gpio-pch.c 341 */;
+	struct irq_chip_type *cocci_id/* drivers/gpio/gpio-pch.c 318 */;
+	struct irq_chip_generic *cocci_id/* drivers/gpio/gpio-pch.c 317 */;
+	unsigned int cocci_id/* drivers/gpio/gpio-pch.c 314 */;
+	struct pch_gpio *cocci_id/* drivers/gpio/gpio-pch.c 313 */;
+	int cocci_id/* drivers/gpio/gpio-pch.c 313 */;
+	irqreturn_t cocci_id/* drivers/gpio/gpio-pch.c 299 */;
+	void *cocci_id/* drivers/gpio/gpio-pch.c 299 */;
+	struct irq_data *cocci_id/* drivers/gpio/gpio-pch.c 291 */;
+	u32 __iomem *cocci_id/* drivers/gpio/gpio-pch.c 224 */;
+	struct pch_regs {
+		u32 ien;
+		u32 istatus;
+		u32 idisp;
+		u32 iclr;
+		u32 imask;
+		u32 imaskclr;
+		u32 po;
+		u32 pi;
+		u32 pm;
+		u32 im0;
+		u32 im1;
+		u32 reserved[3];
+		u32 gpio_use_sel;
+		u32 reset;
+	} cocci_id/* drivers/gpio/gpio-pch.c 22 */;
+	void __maybe_unused cocci_id/* drivers/gpio/gpio-pch.c 181 */;
+	unsigned long cocci_id/* drivers/gpio/gpio-pch.c 151 */;
+	u32 cocci_id/* drivers/gpio/gpio-pch.c 150 */;
+	struct gpio_chip *cocci_id/* drivers/gpio/gpio-pch.c 147 */;
+	unsigned cocci_id/* drivers/gpio/gpio-pch.c 147 */;
+}

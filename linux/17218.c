@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	enum soc_type{MPC512x_SOC_MPC5121, MPC512x_SOC_MPC5123, MPC512x_SOC_MPC5125,} cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 94 */;
+	char cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 822 */[12];
+	struct mpc512x_ccm __iomem *cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 74 */;
+	struct clk_onecell_data cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 71 */;
+	struct clk *cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 70 */[MPC512x_CLK_LAST_PRIVATE];
+	struct mclk_setup_data *cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 595 */;
+	struct mclk_setup_data cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 576 */[];
+	struct mclk_setup_data {
+		enum mclk_type type;
+		bool has_mclk1;
+		const char *name_mux0;
+		const char *name_en0;
+		const char *name_div0;
+		const char *parent_names_mux1[2];
+		const char *name_mclk;
+	} cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 515 */;
+	enum mclk_type{MCLK_TYPE_PSC, MCLK_TYPE_MSCAN, MCLK_TYPE_SPDIF, MCLK_TYPE_OUTCLK,} cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 508 */;
+	const char *cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 504 */[];
+	size_t cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 401 */;
+	enum{MPC512x_CLK_START_PRIVATE=MPC512x_CLK_LAST_PUBLIC, MPC512x_CLK_DDR, MPC512x_CLK_MEM, MPC512x_CLK_IIM, MPC512x_CLK_DDR_UG, MPC512x_CLK_SDHC_x4, MPC512x_CLK_SDHC_UG, MPC512x_CLK_SDHC2_UG, MPC512x_CLK_DIU_x4, MPC512x_CLK_DIU_UG, MPC512x_CLK_MBX_BUS_UG, MPC512x_CLK_MBX_UG, MPC512x_CLK_MBX_3D_UG, MPC512x_CLK_PCI_UG, MPC512x_CLK_NFC_UG, MPC512x_CLK_LPC_UG, MPC512x_CLK_SPDIF_TX_IN, MPC512x_CLK_MCLKS_FIRST, MPC512x_CLK_MCLKS_LAST=MPC512x_CLK_MCLKS_FIRST + NR_MCLKS * MCLK_MAX_IDX, MPC512x_CLK_LAST_PRIVATE,} cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 40 */;
+	const unsigned int *cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 385 */;
+	struct device_node *cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 384 */;
+	char *cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 382 */;
+	const struct clk_div_table cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 374 */[];
+	int *cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 347 */;
+	int cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 338 */[];
+	void cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 336 */;
+	uint32_t cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 288 */;
+	uint8_t cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 286 */;
+	uint32_t __iomem *cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 286 */;
+	int cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 286 */;
+	const char **cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 270 */;
+	enum{MCLK_IDX_MUX0, MCLK_IDX_EN0, MCLK_IDX_DIV0, MCLK_MAX_IDX,} cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 26 */;
+	const struct clk_div_table *cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 246 */;
+	u32 __iomem *cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 236 */;
+	u8 cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 235 */;
+	const char *cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 235 */;
+	struct clk *cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 234 */;
+	bool cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 123 */;
+	int __init cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 1176 */;
+	char cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 1031 */[32];
+	struct resource cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 1029 */;
+	enum did_reg_flags{DID_REG_PSC=BIT(0), DID_REG_PSCFIFO=BIT(1), DID_REG_NFC=BIT(2), DID_REG_CAN=BIT(3), DID_REG_I2C=BIT(4), DID_REG_DIU=BIT(5), DID_REG_VIU=BIT(6), DID_REG_FEC=BIT(7), DID_REG_USB=BIT(8), DID_REG_PATA=BIT(9),} cocci_id/* arch/powerpc/platforms/512x/clock-commonclk.c 1014 */;
+}

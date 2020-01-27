@@ -1,0 +1,56 @@
+cocci_test_suite() {
+	struct pxa3xx_gcu_priv {
+		struct device *dev;
+		void __iomem *mmio_base;
+		struct clk *clk;
+		struct pxa3xx_gcu_shared *shared;
+		dma_addr_t shared_phys;
+		struct resource *resource_mem;
+		struct miscdevice misc_dev;
+		wait_queue_head_t wait_idle;
+		wait_queue_head_t wait_free;
+		spinlock_t spinlock;
+		struct timespec64 base_time;
+		struct pxa3xx_gcu_batch *free;
+		struct pxa3xx_gcu_batch *ready;
+		struct pxa3xx_gcu_batch *ready_last;
+		struct pxa3xx_gcu_batch *running;
+	} cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 85 */;
+	struct pxa3xx_gcu_batch {
+		struct pxa3xx_gcu_batch *next;
+		u32 *ptr;
+		dma_addr_t phys;
+		unsigned long length;
+	} cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 78 */;
+	struct platform_driver cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 704 */;
+	const struct of_device_id cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 697 */[];
+	struct pxa3xx_gcu_shared cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 59 */;
+	struct pxa3xx_gcu_priv cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 585 */;
+	struct resource *cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 581 */;
+	struct platform_device *cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 578 */;
+	const struct file_operations cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 570 */;
+	struct pxa3xx_gcu_batch cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 534 */;
+	struct device *cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 529 */;
+	int cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 528 */;
+	struct timer_list *cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 508 */;
+	struct pxa3xx_gcu_priv *cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 506 */;
+	struct timer_list cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 505 */;
+	struct vm_area_struct *cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 473 */;
+	struct file *cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 453 */;
+	long cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 452 */;
+	loff_t *cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 378 */;
+	size_t cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 378 */;
+	const char *cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 377 */;
+	ssize_t cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 376 */;
+	struct inode *cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 371 */;
+	struct miscdevice *cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 363 */;
+	void *cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 240 */;
+	irqreturn_t cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 239 */;
+	struct pxa3xx_gcu_batch *cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 191 */;
+	u32 cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 173 */;
+	struct pxa3xx_gcu_shared *cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 172 */;
+	void cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 169 */;
+	struct timespec64 cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 118 */;
+	unsigned int cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 105 */;
+	unsigned long cocci_id/* drivers/video/fbdev/pxa3xx-gcu.c 104 */;
+}

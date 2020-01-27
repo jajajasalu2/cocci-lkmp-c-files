@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	struct service_range cocci_id/* net/tipc/name_table.c 996 */;
+	struct rb_node *cocci_id/* net/tipc/name_table.c 992 */;
+	struct publication cocci_id/* net/tipc/name_table.c 933 */;
+	void *cocci_id/* net/tipc/name_table.c 923 */;
+	struct nlattr *cocci_id/* net/tipc/name_table.c 921 */;
+	struct publication *cocci_id/* net/tipc/name_table.c 920 */;
+	u32 *cocci_id/* net/tipc/name_table.c 918 */;
+	struct service_range *cocci_id/* net/tipc/name_table.c 917 */;
+	struct tipc_service *cocci_id/* net/tipc/name_table.c 916 */;
+	struct tipc_nl_msg *cocci_id/* net/tipc/name_table.c 915 */;
+	int cocci_id/* net/tipc/name_table.c 915 */;
+	struct hlist_head *cocci_id/* net/tipc/name_table.c 893 */;
+	struct name_table *cocci_id/* net/tipc/name_table.c 849 */;
+	struct tipc_net *cocci_id/* net/tipc/name_table.c 848 */;
+	struct tipc_service {
+		u32 type;
+		u32 publ_cnt;
+		struct rb_root ranges;
+		struct hlist_node service_list;
+		struct list_head subscriptions;
+		spinlock_t lock;
+		struct rcu_head rcu;
+	} cocci_id/* net/tipc/name_table.c 80 */;
+	struct tipc_subscr *cocci_id/* net/tipc/name_table.c 794 */;
+	struct sk_buff *cocci_id/* net/tipc/name_table.c 731 */;
+	struct tipc_group *cocci_id/* net/tipc/name_table.c 695 */;
+	struct net *cocci_id/* net/tipc/name_table.c 695 */;
+	struct tipc_nlist *cocci_id/* net/tipc/name_table.c 671 */;
+	struct service_range {
+		u32 lower;
+		u32 upper;
+		struct rb_node tree_node;
+		u32 max;
+		struct list_head local_publ;
+		struct list_head all_publ;
+	} cocci_id/* net/tipc/name_table.c 61 */;
+	int *cocci_id/* net/tipc/name_table.c 602 */;
+	struct tipc_subscription *cocci_id/* net/tipc/name_table.c 490 */;
+	struct tipc_name_seq cocci_id/* net/tipc/name_table.c 406 */;
+	struct list_head cocci_id/* net/tipc/name_table.c 404 */;
+	struct rb_node **cocci_id/* net/tipc/name_table.c 288 */;
+	u32 cocci_id/* net/tipc/name_table.c 126 */;
+	void cocci_id/* net/tipc/name_table.c 1152 */;
+	struct tipc_dest *cocci_id/* net/tipc/name_table.c 1142 */;
+	bool cocci_id/* net/tipc/name_table.c 1140 */;
+	struct list_head *cocci_id/* net/tipc/name_table.c 1140 */;
+	typeof(*dst) cocci_id/* net/tipc/name_table.c 1130 */;
+	struct tipc_nl_msg cocci_id/* net/tipc/name_table.c 1063 */;
+	struct netlink_callback *cocci_id/* net/tipc/name_table.c 1056 */;
+}

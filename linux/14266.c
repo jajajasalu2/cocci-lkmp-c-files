@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 96 */;
+	struct platform_driver cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 670 */;
+	struct venc_state cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 67 */;
+	struct venc_state *cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 65 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 65 */;
+	struct resource *cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 626 */;
+	const struct platform_device_id *cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 624 */;
+	const char *cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 595 */;
+	struct v4l2_device *cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 594 */;
+	struct venc_state **cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 586 */;
+	struct platform_device *cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 585 */;
+	struct device *cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 583 */;
+	void *cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 583 */;
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 554 */;
+	const struct v4l2_subdev_video_ops cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 548 */;
+	const struct v4l2_subdev_core_ops cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 544 */;
+	int *cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 533 */;
+	long cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 524 */;
+	struct venc_state {
+		struct v4l2_subdev sd;
+		struct venc_callback *callback;
+		struct venc_platform_data *pdata;
+		struct device *pdev;
+		u32 output;
+		v4l2_std_id std;
+		spinlock_t lock;
+		void __iomem *venc_base;
+		void __iomem *vdaccfg_reg;
+		enum vpbe_version venc_type;
+	} cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 52 */;
+	int cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 48 */;
+	struct v4l2_dv_timings *cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 479 */;
+	v4l2_std_id cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 466 */;
+	struct venc_platform_data *cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 442 */;
+	const struct platform_device_id cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 30 */[];
+	unsigned int cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 195 */;
+	enum vpbe_enc_timings_type cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 194 */;
+	void cocci_id/* drivers/media/platform/davinci/vpbe_venc.c 192 */;
+}

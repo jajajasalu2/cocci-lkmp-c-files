@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	ulong cocci_id/* arch/m68k/kernel/signal.c 951 */;
+	const struct exception_table_entry *cocci_id/* arch/m68k/kernel/signal.c 93 */;
+	void *cocci_id/* arch/m68k/kernel/signal.c 924 */;
+	struct ksignal *cocci_id/* arch/m68k/kernel/signal.c 879 */;
+	size_t cocci_id/* arch/m68k/kernel/signal.c 879 */;
+	void __user *cocci_id/* arch/m68k/kernel/signal.c 878 */;
+	sigset_t cocci_id/* arch/m68k/kernel/signal.c 814 */;
+	struct rt_sigframe __user *cocci_id/* arch/m68k/kernel/signal.c 813 */;
+	unsigned long cocci_id/* arch/m68k/kernel/signal.c 812 */;
+	struct switch_stack *cocci_id/* arch/m68k/kernel/signal.c 810 */;
+	int cocci_id/* arch/m68k/kernel/signal.c 810 */;
+	struct sigframe __user *cocci_id/* arch/m68k/kernel/signal.c 788 */;
+	greg_t __user *cocci_id/* arch/m68k/kernel/signal.c 736 */;
+	struct frame *cocci_id/* arch/m68k/kernel/signal.c 70 */;
+	struct sigcontext cocci_id/* arch/m68k/kernel/signal.c 697 */;
+	struct sigcontext __user *cocci_id/* arch/m68k/kernel/signal.c 694 */;
+	const int cocci_id/* arch/m68k/kernel/signal.c 68 */[16];
+	unsigned long cocci_id/* arch/m68k/kernel/signal.c 655 */[sizeof(((struct frame *)0)->un) / 2];
+	unsigned short *cocci_id/* arch/m68k/kernel/signal.c 518 */;
+	long __user *cocci_id/* arch/m68k/kernel/signal.c 351 */;
+	long *cocci_id/* arch/m68k/kernel/signal.c 351 */;
+	fpregset_t cocci_id/* arch/m68k/kernel/signal.c 336 */;
+	unsigned char cocci_id/* arch/m68k/kernel/signal.c 334 */[FPCONTEXT_SIZE];
+	struct ucontext __user *cocci_id/* arch/m68k/kernel/signal.c 332 */;
+	struct sigcontext *cocci_id/* arch/m68k/kernel/signal.c 256 */;
+	unsigned char cocci_id/* arch/m68k/kernel/signal.c 254 */;
+	struct rt_sigframe {
+		char __user *pretcode;
+		int sig;
+		struct siginfo __user *pinfo;
+		void __user *puc;
+		char retcode[8];
+		struct siginfo info;
+		struct ucontext uc;
+	} cocci_id/* arch/m68k/kernel/signal.c 236 */;
+	struct sigframe {
+		char __user *pretcode;
+		int sig;
+		int code;
+		struct sigcontext __user *psc;
+		char retcode[8];
+		unsigned long extramask[_NSIG_WORDS - 1];
+		struct sigcontext sc;
+	} cocci_id/* arch/m68k/kernel/signal.c 225 */;
+	void cocci_id/* arch/m68k/kernel/signal.c 190 */(void);
+	struct pt_regs *cocci_id/* arch/m68k/kernel/signal.c 179 */;
+	void cocci_id/* arch/m68k/kernel/signal.c 179 */;
+	struct ksignal cocci_id/* arch/m68k/kernel/signal.c 1114 */;
+	sigset_t *cocci_id/* arch/m68k/kernel/signal.c 1086 */;
+	struct k_sigaction *cocci_id/* arch/m68k/kernel/signal.c 1048 */;
+	long cocci_id/* arch/m68k/kernel/signal.c 103 */;
+	short __user *cocci_id/* arch/m68k/kernel/signal.c 1005 */;
+}

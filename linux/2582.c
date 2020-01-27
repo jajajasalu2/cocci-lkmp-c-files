@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	void *cocci_id/* drivers/md/bcache/journal.c 934 */;
+	struct journal *cocci_id/* drivers/md/bcache/journal.c 922 */;
+	int cocci_id/* drivers/md/bcache/journal.c 920 */;
+	unsigned long cocci_id/* drivers/md/bcache/journal.c 915 */;
+	void cocci_id/* drivers/md/bcache/journal.c 913 */;
+	struct keylist cocci_id/* drivers/md/bcache/journal.c 903 */;
+	struct journal_write *cocci_id/* drivers/md/bcache/journal.c 867 */;
+	struct closure *cocci_id/* drivers/md/bcache/journal.c 865 */;
+	struct keylist *cocci_id/* drivers/md/bcache/journal.c 864 */;
+	atomic_t *cocci_id/* drivers/md/bcache/journal.c 863 */;
+	struct cache_set *cocci_id/* drivers/md/bcache/journal.c 863 */;
+	size_t cocci_id/* drivers/md/bcache/journal.c 78 */;
+	struct cache_set cocci_id/* drivers/md/bcache/journal.c 768 */;
+	struct bio_list cocci_id/* drivers/md/bcache/journal.c 695 */;
+	struct journal cocci_id/* drivers/md/bcache/journal.c 666 */;
+	void cocci_id/* drivers/md/bcache/journal.c 662 */(struct closure *cl);
+	struct bio *cocci_id/* drivers/md/bcache/journal.c 530 */;
+	struct work_struct *cocci_id/* drivers/md/bcache/journal.c 519 */;
+	struct cache cocci_id/* drivers/md/bcache/journal.c 511 */;
+	struct journal_device cocci_id/* drivers/md/bcache/journal.c 510 */;
+	sector_t cocci_id/* drivers/md/bcache/journal.c 46 */;
+	struct closure cocci_id/* drivers/md/bcache/journal.c 43 */;
+	struct btree *cocci_id/* drivers/md/bcache/journal.c 422 */;
+	struct jset *cocci_id/* drivers/md/bcache/journal.c 42 */;
+	bool cocci_id/* drivers/md/bcache/journal.c 346 */;
+	unsigned int cocci_id/* drivers/md/bcache/journal.c 335 */;
+	uint64_t cocci_id/* drivers/md/bcache/journal.c 306 */;
+	struct journal_replay *cocci_id/* drivers/md/bcache/journal.c 304 */;
+	struct bkey *cocci_id/* drivers/md/bcache/journal.c 303 */;
+	atomic_t cocci_id/* drivers/md/bcache/journal.c 302 */;
+	struct list_head *cocci_id/* drivers/md/bcache/journal.c 300 */;
+	struct journal_replay cocci_id/* drivers/md/bcache/journal.c 239 */;
+	struct journal_device *cocci_id/* drivers/md/bcache/journal.c 187 */;
+	struct cache *cocci_id/* drivers/md/bcache/journal.c 182 */;
+}

@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct snd_kcontrol_new cocci_id/* sound/usb/mixer_us16x08.c 813 */;
+	const char cocci_id/* sound/usb/mixer_us16x08.c 81 */[];
+	char cocci_id/* sound/usb/mixer_us16x08.c 714 */[sizeof(mix_init_msg2)];
+	char cocci_id/* sound/usb/mixer_us16x08.c 694 */[sizeof(mix_init_msg1)];
+	u8 cocci_id/* sound/usb/mixer_us16x08.c 690 */[64];
+	u8 *cocci_id/* sound/usb/mixer_us16x08.c 656 */;
+	struct snd_us16x08_meter_store *cocci_id/* sound/usb/mixer_us16x08.c 655 */;
+	char cocci_id/* sound/usb/mixer_us16x08.c 567 */[sizeof(eqs_msq)];
+	char cocci_id/* sound/usb/mixer_us16x08.c 437 */[sizeof(comp_msg)];
+	struct snd_us16x08_comp_store *cocci_id/* sound/usb/mixer_us16x08.c 421 */;
+	char cocci_id/* sound/usb/mixer_us16x08.c 375 */[sizeof(mix_msg_in)];
+	struct snd_ctl_elem_value *cocci_id/* sound/usb/mixer_us16x08.c 339 */;
+	char cocci_id/* sound/usb/mixer_us16x08.c 302 */[sizeof(mix_msg_out)];
+	struct snd_usb_audio *cocci_id/* sound/usb/mixer_us16x08.c 301 */;
+	struct snd_ctl_elem_info *cocci_id/* sound/usb/mixer_us16x08.c 239 */;
+	unsigned char cocci_id/* sound/usb/mixer_us16x08.c 222 */;
+	char cocci_id/* sound/usb/mixer_us16x08.c 198 */[sizeof(route_msg)];
+	char *cocci_id/* sound/usb/mixer_us16x08.c 167 */;
+	unsigned char *cocci_id/* sound/usb/mixer_us16x08.c 152 */;
+	const char *const cocci_id/* sound/usb/mixer_us16x08.c 146 */[];
+	struct snd_us16x08_eq_store *cocci_id/* sound/usb/mixer_us16x08.c 1298 */;
+	const struct snd_us16x08_control_params cocci_id/* sound/usb/mixer_us16x08.c 1219 */[];
+	struct usb_mixer_elem_info *cocci_id/* sound/usb/mixer_us16x08.c 1050 */;
+	struct snd_kcontrol *cocci_id/* sound/usb/mixer_us16x08.c 1049 */;
+	struct usb_mixer_elem_info **cocci_id/* sound/usb/mixer_us16x08.c 1047 */;
+	bool cocci_id/* sound/usb/mixer_us16x08.c 1046 */;
+	const char *cocci_id/* sound/usb/mixer_us16x08.c 1045 */;
+	void *cocci_id/* sound/usb/mixer_us16x08.c 1045 */;
+	const struct snd_kcontrol_new *cocci_id/* sound/usb/mixer_us16x08.c 1043 */;
+	struct usb_mixer_interface *cocci_id/* sound/usb/mixer_us16x08.c 1042 */;
+	int cocci_id/* sound/usb/mixer_us16x08.c 1042 */;
+	void cocci_id/* sound/usb/mixer_us16x08.c 1032 */;
+}

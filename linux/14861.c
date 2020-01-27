@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	const char *const cocci_id/* drivers/clk/clk-aspeed.c 75 */[];
+	struct device_node *cocci_id/* drivers/clk/clk-aspeed.c 688 */;
+	int cocci_id/* drivers/clk/clk-aspeed.c 591 */;
+	const u16 cocci_id/* drivers/clk/clk-aspeed.c 587 */[][4];
+	struct regmap *cocci_id/* drivers/clk/clk-aspeed.c 583 */;
+	void __init cocci_id/* drivers/clk/clk-aspeed.c 583 */;
+	struct platform_driver cocci_id/* drivers/clk/clk-aspeed.c 573 */;
+	const struct of_device_id cocci_id/* drivers/clk/clk-aspeed.c 567 */[];
+	const struct aspeed_gate_data *cocci_id/* drivers/clk/clk-aspeed.c 543 */;
+	const struct aspeed_gate_data cocci_id/* drivers/clk/clk-aspeed.c 47 */[];
+	void __iomem *cocci_id/* drivers/clk/clk-aspeed.c 44 */;
+	struct clk_hw_onecell_data *cocci_id/* drivers/clk/clk-aspeed.c 42 */;
+	struct aspeed_reset *cocci_id/* drivers/clk/clk-aspeed.c 386 */;
+	const struct aspeed_clk_soc_data *cocci_id/* drivers/clk/clk-aspeed.c 384 */;
+	struct platform_device *cocci_id/* drivers/clk/clk-aspeed.c 382 */;
+	struct clk_init_data cocci_id/* drivers/clk/clk-aspeed.c 351 */;
+	spinlock_t *cocci_id/* drivers/clk/clk-aspeed.c 348 */;
+	u8 cocci_id/* drivers/clk/clk-aspeed.c 347 */;
+	struct device *cocci_id/* drivers/clk/clk-aspeed.c 345 */;
+	const struct reset_control_ops cocci_id/* drivers/clk/clk-aspeed.c 339 */;
+	struct reset_controller_dev *cocci_id/* drivers/clk/clk-aspeed.c 304 */;
+	const u8 cocci_id/* drivers/clk/clk-aspeed.c 270 */[];
+	const struct clk_ops cocci_id/* drivers/clk/clk-aspeed.c 264 */;
+	unsigned long cocci_id/* drivers/clk/clk-aspeed.c 252 */;
+	struct aspeed_clk_gate *cocci_id/* drivers/clk/clk-aspeed.c 251 */;
+	void cocci_id/* drivers/clk/clk-aspeed.c 249 */;
+	const struct aspeed_clk_soc_data cocci_id/* drivers/clk/clk-aspeed.c 177 */;
+	unsigned int cocci_id/* drivers/clk/clk-aspeed.c 131 */;
+	u32 cocci_id/* drivers/clk/clk-aspeed.c 129 */;
+	const char *cocci_id/* drivers/clk/clk-aspeed.c 129 */;
+	struct clk_hw *cocci_id/* drivers/clk/clk-aspeed.c 129 */;
+	const struct clk_div_table cocci_id/* drivers/clk/clk-aspeed.c 105 */[];
+}

@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 84 */[8];
+	int cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 661 */;
+	struct cal_data_per_freq_ar9287 *cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 484 */;
+	struct cal_data_per_freq_4k *cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 483 */;
+	struct cal_data_per_freq *cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 482 */;
+	struct chan_centers cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 480 */;
+	bool cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 478 */;
+	u8 cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 473 */[AR5416_NUM_PD_GAINS];
+	u8 cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 465 */[AR5416_NUM_PD_GAINS][AR5416_MAX_PWR_RANGE_IN_HALF_DB];
+	int16_t cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 463 */;
+	u16 *cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 459 */;
+	void *cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 456 */;
+	struct ath9k_channel *cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 455 */;
+	struct ath_regulatory *cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 437 */;
+	struct cal_ctl_edges *cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 379 */;
+	struct cal_target_power_ht *cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 326 */;
+	struct cal_target_power_leg *cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 271 */;
+	u16 cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 243 */;
+	u8 cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 242 */;
+	u8 *cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 242 */;
+	struct ath_common *cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 229 */;
+	u32 cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 20 */;
+	struct ath_hw *cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 20 */;
+	void cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 20 */;
+	bool *cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 158 */;
+	struct ath9k_platform_data *cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 141 */;
+	const struct firmware *cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 130 */;
+	off_t cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 113 */;
+	size_t cocci_id/* drivers/net/wireless/ath/ath9k/eeprom.c 112 */;
+}

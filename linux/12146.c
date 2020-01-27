@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct nv04_crtc_reg *cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 95 */;
+	uint8_t cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 79 */;
+	void cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 68 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 677 */;
+	const struct drm_encoder_funcs cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 672 */;
+	const struct drm_encoder_helper_funcs cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 654 */;
+	struct sil164_encoder_params cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 634 */;
+	struct nvkm_i2c_bus_probe cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 629 */[];
+	struct nvkm_i2c_bus *cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 628 */;
+	struct nvkm_i2c *cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 627 */;
+	int cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 507 */;
+	uint32_t cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 49 */;
+	bool cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 49 */;
+	struct nouveau_encoder *cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 451 */;
+	struct nouveau_crtc *cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 450 */;
+	const struct drm_encoder_helper_funcs *cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 449 */;
+	struct nouveau_drm *cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 448 */;
+	u8 *cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 348 */;
+	const struct drm_framebuffer *cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 293 */;
+	struct nvif_object *cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 284 */;
+	uint8_t *cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 251 */;
+	struct nv04_mode_state *cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 206 */;
+	struct nouveau_connector *cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 187 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 184 */;
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 183 */;
+	struct dcb_output *cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 155 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 154 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 152 */;
+	uint32_t *cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 118 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/nouveau/dispnv04/dfp.c 116 */;
+}

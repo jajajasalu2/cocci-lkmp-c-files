@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct siu_stream *cocci_id/* sound/soc/sh/siu_pcm.c 80 */;
+	void cocci_id/* sound/soc/sh/siu_pcm.c 78 */;
+	struct platform_device *cocci_id/* sound/soc/sh/siu_pcm.c 571 */;
+	struct snd_pcm *cocci_id/* sound/soc/sh/siu_pcm.c 569 */;
+	struct siu_port **cocci_id/* sound/soc/sh/siu_pcm.c 545 */;
+	struct snd_card *cocci_id/* sound/soc/sh/siu_pcm.c 525 */;
+	struct snd_soc_pcm_runtime *cocci_id/* sound/soc/sh/siu_pcm.c 522 */;
+	u32 __iomem *cocci_id/* sound/soc/sh/siu_pcm.c 490 */;
+	snd_pcm_uframes_t cocci_id/* sound/soc/sh/siu_pcm.c 484 */;
+	snd_pcm_sframes_t cocci_id/* sound/soc/sh/siu_pcm.c 402 */;
+	struct siu_info *cocci_id/* sound/soc/sh/siu_pcm.c 374 */;
+	struct snd_soc_component *cocci_id/* sound/soc/sh/siu_pcm.c 371 */;
+	int cocci_id/* sound/soc/sh/siu_pcm.c 371 */;
+	struct siu_port *cocci_id/* sound/soc/sh/siu_pcm.c 34 */[SIU_PORT_NUM];
+	dma_cap_mask_t cocci_id/* sound/soc/sh/siu_pcm.c 339 */;
+	u32 cocci_id/* sound/soc/sh/siu_pcm.c 337 */;
+	struct siu_platform *cocci_id/* sound/soc/sh/siu_pcm.c 333 */;
+	struct sh_dmae_slave *cocci_id/* sound/soc/sh/siu_pcm.c 321 */;
+	bool cocci_id/* sound/soc/sh/siu_pcm.c 319 */;
+	struct dma_chan *cocci_id/* sound/soc/sh/siu_pcm.c 319 */;
+	void *cocci_id/* sound/soc/sh/siu_pcm.c 319 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/sh/siu_pcm.c 286 */;
+	u8 *cocci_id/* sound/soc/sh/siu_pcm.c 219 */;
+	size_t cocci_id/* sound/soc/sh/siu_pcm.c 218 */;
+	dma_addr_t cocci_id/* sound/soc/sh/siu_pcm.c 217 */;
+	struct siu_port *cocci_id/* sound/soc/sh/siu_pcm.c 207 */;
+	struct snd_pcm_runtime *cocci_id/* sound/soc/sh/siu_pcm.c 206 */;
+	struct device *cocci_id/* sound/soc/sh/siu_pcm.c 205 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/sh/siu_pcm.c 204 */;
+	unsigned long cocci_id/* sound/soc/sh/siu_pcm.c 201 */;
+	unsigned long long cocci_id/* sound/soc/sh/siu_pcm.c 163 */;
+	struct scatterlist cocci_id/* sound/soc/sh/siu_pcm.c 160 */;
+	dma_cookie_t cocci_id/* sound/soc/sh/siu_pcm.c 159 */;
+	struct dma_async_tx_descriptor *cocci_id/* sound/soc/sh/siu_pcm.c 158 */;
+}

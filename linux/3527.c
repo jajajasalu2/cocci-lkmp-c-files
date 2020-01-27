@@ -1,0 +1,60 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/mmc/host/wmt-sdmmc.c 988 */;
+	const struct dev_pm_ops cocci_id/* drivers/mmc/host/wmt-sdmmc.c 975 */;
+	struct device *cocci_id/* drivers/mmc/host/wmt-sdmmc.c 948 */;
+	struct resource *cocci_id/* drivers/mmc/host/wmt-sdmmc.c 885 */;
+	struct wmt_mci_priv cocci_id/* drivers/mmc/host/wmt-sdmmc.c 781 */;
+	const struct wmt_mci_caps *cocci_id/* drivers/mmc/host/wmt-sdmmc.c 756 */;
+	const struct of_device_id *cocci_id/* drivers/mmc/host/wmt-sdmmc.c 754 */;
+	struct device_node *cocci_id/* drivers/mmc/host/wmt-sdmmc.c 753 */;
+	struct platform_device *cocci_id/* drivers/mmc/host/wmt-sdmmc.c 749 */;
+	const struct of_device_id cocci_id/* drivers/mmc/host/wmt-sdmmc.c 744 */[];
+	struct wmt_mci_caps cocci_id/* drivers/mmc/host/wmt-sdmmc.c 733 */;
+	const struct mmc_host_ops cocci_id/* drivers/mmc/host/wmt-sdmmc.c 725 */;
+	struct mmc_ios *cocci_id/* drivers/mmc/host/wmt-sdmmc.c 670 */;
+	struct scatterlist *cocci_id/* drivers/mmc/host/wmt-sdmmc.c 569 */;
+	u8 cocci_id/* drivers/mmc/host/wmt-sdmmc.c 525 */;
+	u32 cocci_id/* drivers/mmc/host/wmt-sdmmc.c 525 */;
+	struct mmc_host *cocci_id/* drivers/mmc/host/wmt-sdmmc.c 525 */;
+	u16 cocci_id/* drivers/mmc/host/wmt-sdmmc.c 516 */;
+	struct wmt_dma_descriptor *cocci_id/* drivers/mmc/host/wmt-sdmmc.c 515 */;
+	int cocci_id/* drivers/mmc/host/wmt-sdmmc.c 501 */;
+	irqreturn_t cocci_id/* drivers/mmc/host/wmt-sdmmc.c 333 */;
+	void *cocci_id/* drivers/mmc/host/wmt-sdmmc.c 333 */;
+	struct mmc_request *cocci_id/* drivers/mmc/host/wmt-sdmmc.c 296 */;
+	struct wmt_mci_priv *cocci_id/* drivers/mmc/host/wmt-sdmmc.c 294 */;
+	void cocci_id/* drivers/mmc/host/wmt-sdmmc.c 294 */;
+	struct wmt_mci_priv {
+		struct mmc_host *mmc;
+		void __iomem *sdmmc_base;
+		int irq_regular;
+		int irq_dma;
+		void *dma_desc_buffer;
+		dma_addr_t dma_desc_device_addr;
+		struct completion cmdcomp;
+		struct completion datacomp;
+		struct completion *comp_cmd;
+		struct completion *comp_dma;
+		struct mmc_request *req;
+		struct mmc_command *cmd;
+		struct clk *clk_sdmmc;
+		struct device *dev;
+		u8 power_inverted;
+		u8 cd_inverted;
+	} cocci_id/* drivers/mmc/host/wmt-sdmmc.c 185 */;
+	struct wmt_mci_caps {
+		unsigned int f_min;
+		unsigned int f_max;
+		u32 ocr_avail;
+		u32 caps;
+		u32 max_seg_size;
+		u32 max_segs;
+		u32 max_blk_size;
+	} cocci_id/* drivers/mmc/host/wmt-sdmmc.c 175 */;
+	struct wmt_dma_descriptor {
+		u32 flags;
+		u32 data_buffer_addr;
+		u32 branch_addr;
+		u32 reserved1;
+	} cocci_id/* drivers/mmc/host/wmt-sdmmc.c 168 */;
+}

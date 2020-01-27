@@ -1,0 +1,75 @@
+cocci_test_suite() {
+	struct __kernel_sockaddr_storage cocci_id/* drivers/infiniband/core/nldev.c 96 */;
+	struct nlmsghdr *cocci_id/* drivers/infiniband/core/nldev.c 952 */;
+	unsigned int cocci_id/* drivers/infiniband/core/nldev.c 949 */;
+	struct netlink_callback *cocci_id/* drivers/infiniband/core/nldev.c 948 */;
+	struct sk_buff *cocci_id/* drivers/infiniband/core/nldev.c 947 */;
+	struct ib_device *cocci_id/* drivers/infiniband/core/nldev.c 946 */;
+	int cocci_id/* drivers/infiniband/core/nldev.c 946 */;
+	struct rdma_counter cocci_id/* drivers/infiniband/core/nldev.c 832 */;
+	struct rdma_counter *cocci_id/* drivers/infiniband/core/nldev.c 831 */;
+	struct rdma_hw_stats *cocci_id/* drivers/infiniband/core/nldev.c 807 */;
+	unsigned long cocci_id/* drivers/infiniband/core/nldev.c 731 */;
+	struct rdma_restrack_root *cocci_id/* drivers/infiniband/core/nldev.c 728 */;
+	struct rdma_counter_mode *cocci_id/* drivers/infiniband/core/nldev.c 692 */;
+	struct ib_pd cocci_id/* drivers/infiniband/core/nldev.c 654 */;
+	struct ib_pd *cocci_id/* drivers/infiniband/core/nldev.c 654 */;
+	struct ib_mr cocci_id/* drivers/infiniband/core/nldev.c 619 */;
+	struct ib_mr *cocci_id/* drivers/infiniband/core/nldev.c 619 */;
+	struct ib_cq cocci_id/* drivers/infiniband/core/nldev.c 581 */;
+	struct ib_cq *cocci_id/* drivers/infiniband/core/nldev.c 581 */;
+	struct rdma_cm_id *cocci_id/* drivers/infiniband/core/nldev.c 531 */;
+	struct rdma_id_private cocci_id/* drivers/infiniband/core/nldev.c 529 */;
+	struct rdma_id_private *cocci_id/* drivers/infiniband/core/nldev.c 528 */;
+	uint32_t cocci_id/* drivers/infiniband/core/nldev.c 526 */;
+	struct rdma_restrack_entry *cocci_id/* drivers/infiniband/core/nldev.c 526 */;
+	bool cocci_id/* drivers/infiniband/core/nldev.c 525 */;
+	const struct nla_policy cocci_id/* drivers/infiniband/core/nldev.c 51 */[RDMA_NLDEV_ATTR_MAX];
+	struct ib_qp_attr cocci_id/* drivers/infiniband/core/nldev.c 470 */;
+	struct ib_qp_init_attr cocci_id/* drivers/infiniband/core/nldev.c 469 */;
+	struct ib_qp cocci_id/* drivers/infiniband/core/nldev.c 467 */;
+	struct ib_qp *cocci_id/* drivers/infiniband/core/nldev.c 467 */;
+	int (*cocci_id/* drivers/infiniband/core/nldev.c 45 */)(struct sk_buff *,
+								bool,
+								struct rdma_restrack_entry *,
+								uint32_t);
+	pid_t cocci_id/* drivers/infiniband/core/nldev.c 428 */;
+	struct nlattr *cocci_id/* drivers/infiniband/core/nldev.c 388 */;
+	const char *constcocci_id/* drivers/infiniband/core/nldev.c 379 */[RDMA_RESTRACK_MAX];
+	struct ib_port_attr cocci_id/* drivers/infiniband/core/nldev.c 300 */;
+	struct net_device *cocci_id/* drivers/infiniband/core/nldev.c 299 */;
+	const struct net *cocci_id/* drivers/infiniband/core/nldev.c 297 */;
+	u8 cocci_id/* drivers/infiniband/core/nldev.c 243 */;
+	char cocci_id/* drivers/infiniband/core/nldev.c 241 */[IB_FW_VERSION_NAME_MAX];
+	void __exit cocci_id/* drivers/infiniband/core/nldev.c 2149 */;
+	void cocci_id/* drivers/infiniband/core/nldev.c 2149 */;
+	void __init cocci_id/* drivers/infiniband/core/nldev.c 2144 */;
+	const struct rdma_nl_cbs cocci_id/* drivers/infiniband/core/nldev.c 2076 */[RDMA_NLDEV_NUM_OPS];
+	enum rdma_nl_counter_mask cocci_id/* drivers/infiniband/core/nldev.c 1956 */;
+	enum rdma_nl_counter_mode cocci_id/* drivers/infiniband/core/nldev.c 1955 */;
+	struct nlattr *cocci_id/* drivers/infiniband/core/nldev.c 1861 */[];
+	u64 cocci_id/* drivers/infiniband/core/nldev.c 175 */;
+	u32 cocci_id/* drivers/infiniband/core/nldev.c 163 */;
+	enum rdma_nldev_print_type cocci_id/* drivers/infiniband/core/nldev.c 162 */;
+	const char *cocci_id/* drivers/infiniband/core/nldev.c 161 */;
+	struct ib_client_nl_info cocci_id/* drivers/infiniband/core/nldev.c 1576 */;
+	char cocci_id/* drivers/infiniband/core/nldev.c 1575 */[RDMA_NLDEV_ATTR_CHARDEV_TYPE_SIZE];
+	struct nlattr *cocci_id/* drivers/infiniband/core/nldev.c 1547 */[RDMA_NLDEV_ATTR_MAX];
+	struct netlink_ext_ack *cocci_id/* drivers/infiniband/core/nldev.c 1545 */;
+	char cocci_id/* drivers/infiniband/core/nldev.c 1503 */[IFNAMSIZ];
+	char cocci_id/* drivers/infiniband/core/nldev.c 1501 */[IB_DEVICE_NAME_MAX];
+	struct rdma_link_ops *cocci_id/* drivers/infiniband/core/nldev.c 1478 */;
+	const struct rdma_link_ops *cocci_id/* drivers/infiniband/core/nldev.c 1465 */;
+	const struct nldev_fill_res_entry *cocci_id/* drivers/infiniband/core/nldev.c 1232 */;
+	res_fill_func_t cocci_id/* drivers/infiniband/core/nldev.c 1230 */;
+	enum rdma_restrack_type cocci_id/* drivers/infiniband/core/nldev.c 1229 */;
+	const struct nldev_fill_res_entry cocci_id/* drivers/infiniband/core/nldev.c 1185 */[RDMA_RESTRACK_MAX];
+	enum nldev_res_flags{NLDEV_PER_DEV=1 << 0,} cocci_id/* drivers/infiniband/core/nldev.c 1181 */;
+	struct nldev_fill_res_entry {
+		enum rdma_nldev_attr nldev_attr;
+		enum rdma_nldev_command nldev_cmd;
+		u8 flags;
+		u32 entry;
+		u32 id;
+	} cocci_id/* drivers/infiniband/core/nldev.c 1173 */;
+}

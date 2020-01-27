@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	bool cocci_id/* sound/soc/codecs/rt274.c 952 */;
+	irqreturn_t cocci_id/* sound/soc/codecs/rt274.c 949 */;
+	void *cocci_id/* sound/soc/codecs/rt274.c 949 */;
+	enum snd_soc_bias_level cocci_id/* sound/soc/codecs/rt274.c 926 */;
+	unsigned int cocci_id/* sound/soc/codecs/rt274.c 619 */;
+	struct rt274_priv *cocci_id/* sound/soc/codecs/rt274.c 618 */;
+	struct snd_soc_component *cocci_id/* sound/soc/codecs/rt274.c 617 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/codecs/rt274.c 615 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/codecs/rt274.c 614 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/codecs/rt274.c 613 */;
+	int cocci_id/* sound/soc/codecs/rt274.c 613 */;
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/codecs/rt274.c 560 */[];
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/codecs/rt274.c 492 */[];
+	const struct reg_default cocci_id/* sound/soc/codecs/rt274.c 48 */[];
+	const char *const cocci_id/* sound/soc/codecs/rt274.c 457 */[];
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/rt274.c 440 */;
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/rt274.c 427 */[];
+	struct snd_soc_jack *cocci_id/* sound/soc/codecs/rt274.c 401 */;
+	irqreturn_t cocci_id/* sound/soc/codecs/rt274.c 398 */(int irq,
+							       void *data);
+	struct rt274_priv cocci_id/* sound/soc/codecs/rt274.c 380 */;
+	struct work_struct *cocci_id/* sound/soc/codecs/rt274.c 377 */;
+	bool *cocci_id/* sound/soc/codecs/rt274.c 350 */;
+	struct rt274_priv {
+		struct reg_default *index_cache;
+		int index_cache_size;
+		struct regmap *regmap;
+		struct snd_soc_component *component;
+		struct i2c_client *i2c;
+		struct snd_soc_jack *jack;
+		struct delayed_work jack_detect_work;
+		int sys_clk;
+		int clk_id;
+		int fs;
+		bool master;
+	} cocci_id/* sound/soc/codecs/rt274.c 34 */;
+	void cocci_id/* sound/soc/codecs/rt274.c 338 */;
+	struct device *cocci_id/* sound/soc/codecs/rt274.c 260 */;
+	struct i2c_driver cocci_id/* sound/soc/codecs/rt274.c 1220 */;
+	const struct i2c_device_id *cocci_id/* sound/soc/codecs/rt274.c 1116 */;
+	struct i2c_client *cocci_id/* sound/soc/codecs/rt274.c 1115 */;
+	const struct acpi_device_id cocci_id/* sound/soc/codecs/rt274.c 1108 */[];
+	const struct i2c_device_id cocci_id/* sound/soc/codecs/rt274.c 1102 */[];
+	const struct of_device_id cocci_id/* sound/soc/codecs/rt274.c 1095 */[];
+	const struct regmap_config cocci_id/* sound/soc/codecs/rt274.c 1081 */;
+	const struct snd_soc_component_driver cocci_id/* sound/soc/codecs/rt274.c 1063 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/codecs/rt274.c 1040 */[];
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/codecs/rt274.c 1031 */;
+}

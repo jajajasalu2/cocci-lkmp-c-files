@@ -1,0 +1,81 @@
+cocci_test_suite() {
+	const char *const cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 910 */[];
+	unsigned int cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 903 */;
+	struct wireless_dev *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 902 */;
+	gro_result_t cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 899 */;
+	struct wil_net_stats *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 897 */;
+	struct net_device *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 896 */;
+	struct wil6210_vif cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 807 */;
+	struct work_struct *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 804 */;
+	u32 *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 785 */;
+	struct wil_eapol_key cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 739 */;
+	struct wil_1x_hdr cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 738 */;
+	struct ethhdr cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 738 */;
+	u16 cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 728 */;
+	const struct wil_1x_hdr *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 726 */;
+	u8 *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 725 */;
+	struct wil_eapol_key *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 722 */;
+	struct vring_rx_desc *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 710 */;
+	int *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 707 */;
+	struct wil_tid_crypto_rx_single *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 671 */;
+	struct wil_tid_crypto_rx *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 669 */;
+	struct wil_sta_info *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 668 */;
+	unsigned long cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 66 */;
+	const unsigned char *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 649 */;
+	size_t cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 647 */;
+	struct skb_rx_info cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 459 */;
+	void *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 399 */;
+	struct ieee80211_hdr_3addr cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 394 */;
+	unsigned char *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 377 */;
+	struct ieee80211_hdr_3addr *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 375 */;
+	struct ieee80211_channel *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 325 */;
+	struct wil6210_rtap cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 324 */;
+	struct wil6210_rtap *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 323 */;
+	struct wil6210_rtap {
+		struct ieee80211_radiotap_header rthdr;
+		u8 flags;
+		__le16 chnl_freq __aligned(2);
+		__le16 chnl_flags;
+		u8 mcs_present;
+		u8 mcs_flags;
+		u8 mcs_index;
+	}__packed cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 309 */;
+	volatile struct vring_rx_desc *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 262 */;
+	struct vring_rx_desc cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 261 */;
+	u16 *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 2552 */;
+	netdev_tx_t cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 2305 */;
+	void cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 2223 */;
+	struct wil_ctx *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 2163 */;
+	ktime_t cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 2154 */;
+	ktime_t *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 2152 */;
+	const void *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 2090 */;
+	const skb_frag_t *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 2084 */;
+	union wil_tx_desc *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 2065 */;
+	bool cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 2037 */;
+	dma_addr_t cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 2035 */;
+	struct wil_ring_tx_data *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 2033 */;
+	uint cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 2031 */;
+	u32 cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 2028 */;
+	volatile struct vring_tx_desc *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 2027 */;
+	struct vring_tx_desc cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 2026 */;
+	struct device *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 2025 */;
+	struct wil_ring *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 2023 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 2023 */;
+	struct wil6210_vif *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 2022 */;
+	struct wil6210_priv *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 2022 */;
+	int cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 2022 */;
+	struct vring_tx_desc *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 2009 */;
+	struct udphdr cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 1691 */;
+	const u8 *cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 1549 */;
+	u8 cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 1548 */;
+	int cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 1459 */(struct wil6210_priv *wil,
+								       struct wil6210_vif *vif,
+								       struct wil_ring *ring,
+								       struct sk_buff *skb);
+	struct wmi_bcast_vring_cfg_cmd cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 1344 */;
+	struct {
+		struct wmi_cmd_hdr wmi;
+		struct wmi_vring_cfg_done_event cmd;
+	}__packed cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 1282 */;
+	struct wmi_vring_cfg_cmd cocci_id/* drivers/net/wireless/ath/wil6210/txrx.c 1262 */;
+}

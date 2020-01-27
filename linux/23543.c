@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	const struct dev_pm_ops cocci_id/* sound/soc/intel/atom/sst/sst.c 572 */;
+	struct stream_info *cocci_id/* sound/soc/intel/atom/sst/sst.c 555 */;
+	unsigned int cocci_id/* sound/soc/intel/atom/sst/sst.c 52 */;
+	struct sst_block *cocci_id/* sound/soc/intel/atom/sst/sst.c 512 */;
+	struct sst_fw_save *cocci_id/* sound/soc/intel/atom/sst/sst.c 511 */;
+	struct ipc_post *cocci_id/* sound/soc/intel/atom/sst/sst.c 51 */;
+	union sst_imr_reg_mrfld cocci_id/* sound/soc/intel/atom/sst/sst.c 50 */;
+	union ipc_header_mrfld cocci_id/* sound/soc/intel/atom/sst/sst.c 49 */;
+	union interrupt_reg_mrfld cocci_id/* sound/soc/intel/atom/sst/sst.c 48 */;
+	irqreturn_t cocci_id/* sound/soc/intel/atom/sst/sst.c 46 */;
+	void *cocci_id/* sound/soc/intel/atom/sst/sst.c 46 */;
+	int cocci_id/* sound/soc/intel/atom/sst/sst.c 46 */;
+	void cocci_id/* sound/soc/intel/atom/sst/sst.c 378 */;
+	u32 cocci_id/* sound/soc/intel/atom/sst/sst.c 36 */;
+	bool cocci_id/* sound/soc/intel/atom/sst/sst.c 36 */;
+	struct pm_qos_request cocci_id/* sound/soc/intel/atom/sst/sst.c 323 */;
+	struct attribute **cocci_id/* sound/soc/intel/atom/sst/sst.c 262 */;
+	const struct attribute_group cocci_id/* sound/soc/intel/atom/sst/sst.c 261 */;
+	const struct attribute *cocci_id/* sound/soc/intel/atom/sst/sst.c 256 */[];
+	struct intel_sst_drv *cocci_id/* sound/soc/intel/atom/sst/sst.c 242 */;
+	struct device_attribute *cocci_id/* sound/soc/intel/atom/sst/sst.c 240 */;
+	char *cocci_id/* sound/soc/intel/atom/sst/sst.c 240 */;
+	struct device *cocci_id/* sound/soc/intel/atom/sst/sst.c 239 */;
+	ssize_t cocci_id/* sound/soc/intel/atom/sst/sst.c 239 */;
+	struct intel_sst_drv cocci_id/* sound/soc/intel/atom/sst/sst.c 228 */;
+	struct intel_sst_drv **cocci_id/* sound/soc/intel/atom/sst/sst.c 225 */;
+	struct work_struct *cocci_id/* sound/soc/intel/atom/sst/sst.c 193 */;
+	struct intel_sst_ops cocci_id/* sound/soc/intel/atom/sst/sst.c 161 */;
+	unsigned long cocci_id/* sound/soc/intel/atom/sst/sst.c 119 */;
+}

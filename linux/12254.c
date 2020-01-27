@@ -1,0 +1,75 @@
+cocci_test_suite() {
+	void cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 99 */;
+	struct imx_ldb {
+		struct regmap *regmap;
+		struct device *dev;
+		struct imx_ldb_channel channel[2];
+		struct clk *clk[2];
+		struct clk *clk_sel[4];
+		struct clk *clk_parent[4];
+		struct clk *clk_pll[2];
+		u32 ldb_ctrl;
+		const struct bus_mux *lvds_mux;
+	} cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 87 */;
+	struct bus_mux {
+		int reg;
+		int shift;
+		int mask;
+	} cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 81 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 76 */;
+	struct platform_driver cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 749 */;
+	struct platform_device *cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 738 */;
+	const struct component_ops cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 733 */;
+	struct imx_ldb_channel cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 73 */;
+	struct imx_ldb_channel *cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 71 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 71 */;
+	char cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 627 */[16];
+	struct imx_ldb *cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 592 */;
+	const struct of_device_id *cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 589 */;
+	struct device_node *cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 588 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 587 */;
+	struct device *cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 585 */;
+	void *cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 585 */;
+	int cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 585 */;
+	const u8 *cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 549 */;
+	const struct of_device_id cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 538 */[];
+	struct bus_mux cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 520 */[2];
+	struct imx_ldb_channel {
+		struct imx_ldb *ldb;
+		struct drm_connector connector;
+		struct drm_encoder encoder;
+		struct drm_panel *panel;
+		struct drm_bridge *bridge;
+		struct device_node *child;
+		struct i2c_adapter *ddc;
+		int chno;
+		void *edid;
+		int edid_len;
+		struct drm_display_mode mode;
+		int mode_valid;
+		u32 bus_format;
+		u32 bus_flags;
+	} cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 51 */;
+	const char *cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 499 */;
+	const struct imx_ldb_bit_mapping cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 491 */[];
+	struct imx_ldb cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 49 */;
+	struct imx_ldb_bit_mapping {
+		u32 bus_format;
+		u32 datawidth;
+		const char *const mapping;
+	} cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 485 */;
+	enum{LVDS_BIT_MAP_SPWG, LVDS_BIT_MAP_JEIDA,} cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 480 */;
+	const struct drm_encoder_helper_funcs cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 400 */;
+	const struct drm_encoder_funcs cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 396 */;
+	const struct drm_connector_helper_funcs cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 391 */;
+	const struct drm_connector_funcs cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 383 */;
+	struct drm_display_info *cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 353 */;
+	struct imx_crtc_state *cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 351 */;
+	struct drm_connector_state *cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 349 */;
+	struct drm_crtc_state *cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 348 */;
+	const struct bus_mux *cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 323 */;
+	unsigned long cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 254 */;
+	long int cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 180 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 144 */;
+	u32 cocci_id/* drivers/gpu/drm/imx/imx-ldb.c 100 */;
+}

@@ -1,0 +1,84 @@
+cocci_test_suite() {
+	struct hw *cocci_id/* sound/pci/ctxfi/ctatc.c 984 */;
+	struct capabilities cocci_id/* sound/pci/ctxfi/ctatc.c 982 */;
+	struct ct_atc *cocci_id/* sound/pci/ctxfi/ctatc.c 982 */;
+	struct {
+		int (*create)(struct ct_atc *atc, enum CTALSADEVS device,
+			      const char *device_name);
+		int (*destroy)(void *alsa_dev);
+		const char *public_name;
+	} cocci_id/* sound/pci/ctxfi/ctatc.c 79 */[NUM_CTALSADEVS];
+	struct rsc *cocci_id/* sound/pci/ctxfi/ctatc.c 651 */[8];
+	const char *cocci_id/* sound/pci/ctxfi/ctatc.c 65 */[NUM_CTCARDS];
+	struct amixer *cocci_id/* sound/pci/ctxfi/ctatc.c 647 */;
+	struct amixer **cocci_id/* sound/pci/ctxfi/ctatc.c 589 */;
+	struct src_node_conf_t cocci_id/* sound/pci/ctxfi/ctatc.c 515 */[2];
+	struct amixer_desc cocci_id/* sound/pci/ctxfi/ctatc.c 510 */;
+	struct amixer_mgr *cocci_id/* sound/pci/ctxfi/ctatc.c 504 */;
+	struct ct_atc_pcm *cocci_id/* sound/pci/ctxfi/ctatc.c 500 */;
+	struct src_node_conf_t *cocci_id/* sound/pci/ctxfi/ctatc.c 460 */;
+	int *cocci_id/* sound/pci/ctxfi/ctatc.c 460 */;
+	struct src_node_conf_t {
+		unsigned int pitch;
+		unsigned int msr:8;
+		unsigned int mix_msr:8;
+		unsigned int imp_msr:8;
+		unsigned int vo:1;
+	} cocci_id/* sound/pci/ctxfi/ctatc.c 451 */;
+	u32 cocci_id/* sound/pci/ctxfi/ctatc.c 430 */;
+	struct snd_pci_quirk cocci_id/* sound/pci/ctxfi/ctatc.c 38 */[];
+	struct snd_card *cocci_id/* sound/pci/ctxfi/ctatc.c 172 */;
+	struct ct_mixer **cocci_id/* sound/pci/ctxfi/ctatc.c 1711 */;
+	snd_pcm_format_t cocci_id/* sound/pci/ctxfi/ctatc.c 171 */;
+	struct snd_device_ops cocci_id/* sound/pci/ctxfi/ctatc.c 1672 */;
+	struct ct_atc **cocci_id/* sound/pci/ctxfi/ctatc.c 1669 */;
+	struct pci_dev *cocci_id/* sound/pci/ctxfi/ctatc.c 1666 */;
+	unsigned long cocci_id/* sound/pci/ctxfi/ctatc.c 166 */;
+	const struct ct_atc cocci_id/* sound/pci/ctxfi/ctatc.c 1615 */;
+	struct dai cocci_id/* sound/pci/ctxfi/ctatc.c 1506 */;
+	struct dao cocci_id/* sound/pci/ctxfi/ctatc.c 1501 */;
+	struct ct_mixer *cocci_id/* sound/pci/ctxfi/ctatc.c 1493 */;
+	struct sum *cocci_id/* sound/pci/ctxfi/ctatc.c 1492 */;
+	struct dao *cocci_id/* sound/pci/ctxfi/ctatc.c 1490 */;
+	int cocci_id/* sound/pci/ctxfi/ctatc.c 1455 */;
+	struct srcimp *cocci_id/* sound/pci/ctxfi/ctatc.c 1454 */;
+	struct src *cocci_id/* sound/pci/ctxfi/ctatc.c 1453 */;
+	struct rsc *cocci_id/* sound/pci/ctxfi/ctatc.c 1452 */[2];
+	struct srcimp **cocci_id/* sound/pci/ctxfi/ctatc.c 1450 */;
+	struct src **cocci_id/* sound/pci/ctxfi/ctatc.c 1450 */;
+	struct src_mgr *cocci_id/* sound/pci/ctxfi/ctatc.c 1449 */;
+	struct dai *cocci_id/* sound/pci/ctxfi/ctatc.c 1449 */;
+	void cocci_id/* sound/pci/ctxfi/ctatc.c 1448 */;
+	struct sum **cocci_id/* sound/pci/ctxfi/ctatc.c 1438 */;
+	struct daio **cocci_id/* sound/pci/ctxfi/ctatc.c 1400 */;
+	void *cocci_id/* sound/pci/ctxfi/ctatc.c 1378 */;
+	struct sum_mgr *cocci_id/* sound/pci/ctxfi/ctatc.c 1372 */;
+	struct sum_desc cocci_id/* sound/pci/ctxfi/ctatc.c 1371 */;
+	struct srcimp_mgr *cocci_id/* sound/pci/ctxfi/ctatc.c 1370 */;
+	struct srcimp_desc cocci_id/* sound/pci/ctxfi/ctatc.c 1369 */;
+	struct src_desc cocci_id/* sound/pci/ctxfi/ctatc.c 1367 */;
+	struct daio_desc cocci_id/* sound/pci/ctxfi/ctatc.c 1365 */;
+	struct ct_vm *cocci_id/* sound/pci/ctxfi/ctatc.c 136 */;
+	struct snd_pcm_runtime *cocci_id/* sound/pci/ctxfi/ctatc.c 135 */;
+	struct card_conf cocci_id/* sound/pci/ctxfi/ctatc.c 1329 */;
+	enum CTALSADEVS cocci_id/* sound/pci/ctxfi/ctatc.c 1305 */;
+	u16 cocci_id/* sound/pci/ctxfi/ctatc.c 1260 */;
+	const struct snd_pci_quirk *cocci_id/* sound/pci/ctxfi/ctatc.c 1258 */;
+	struct snd_device *cocci_id/* sound/pci/ctxfi/ctatc.c 1250 */;
+	int cocci_id/* sound/pci/ctxfi/ctatc.c 125 */(struct ct_atc *atc,
+						      struct ct_atc_pcm *apcm);
+	struct daio *cocci_id/* sound/pci/ctxfi/ctatc.c 1147 */;
+	destroy_t cocci_id/* sound/pci/ctxfi/ctatc.c 114 */;
+	create_t cocci_id/* sound/pci/ctxfi/ctatc.c 113 */;
+	struct dao_desc cocci_id/* sound/pci/ctxfi/ctatc.c 1112 */;
+	struct {
+		int (*create)(struct hw *hw, void **rmgr);
+		int (*destroy)(void *mgr);
+	} cocci_id/* sound/pci/ctxfi/ctatc.c 109 */[NUM_RSCTYP];
+	int (*cocci_id/* sound/pci/ctxfi/ctatc.c 107 */)(void *);
+	int (*cocci_id/* sound/pci/ctxfi/ctatc.c 106 */)(struct hw *, void **);
+	unsigned int cocci_id/* sound/pci/ctxfi/ctatc.c 1051 */;
+	unsigned int *cocci_id/* sound/pci/ctxfi/ctatc.c 1044 */;
+	struct daio_mgr *cocci_id/* sound/pci/ctxfi/ctatc.c 1031 */;
+	unsigned char cocci_id/* sound/pci/ctxfi/ctatc.c 1029 */;
+}

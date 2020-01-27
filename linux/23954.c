@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct inet_request_sock *cocci_id/* net/ipv4/syncookies.c 67 */;
+	u64 cocci_id/* net/ipv4/syncookies.c 65 */;
+	struct request_sock *cocci_id/* net/ipv4/syncookies.c 65 */;
+	struct flowi4 cocci_id/* net/ipv4/syncookies.c 297 */;
+	__u8 cocci_id/* net/ipv4/syncookies.c 296 */;
+	struct rtable *cocci_id/* net/ipv4/syncookies.c 295 */;
+	struct tcp_sock *cocci_id/* net/ipv4/syncookies.c 289 */;
+	struct tcp_request_sock *cocci_id/* net/ipv4/syncookies.c 288 */;
+	struct tcp_options_received cocci_id/* net/ipv4/syncookies.c 286 */;
+	struct ip_options *cocci_id/* net/ipv4/syncookies.c 285 */;
+	struct sock *cocci_id/* net/ipv4/syncookies.c 283 */;
+	struct sk_buff *cocci_id/* net/ipv4/syncookies.c 283 */;
+	const struct net *cocci_id/* net/ipv4/syncookies.c 265 */;
+	const struct dst_entry *cocci_id/* net/ipv4/syncookies.c 265 */;
+	bool cocci_id/* net/ipv4/syncookies.c 264 */;
+	const struct tcp_options_received *cocci_id/* net/ipv4/syncookies.c 264 */;
+	struct tcp_options_received *cocci_id/* net/ipv4/syncookies.c 236 */;
+	struct inet_connection_sock *cocci_id/* net/ipv4/syncookies.c 205 */;
+	struct dst_entry *cocci_id/* net/ipv4/syncookies.c 203 */;
+	__u32 cocci_id/* net/ipv4/syncookies.c 193 */;
+	u32 cocci_id/* net/ipv4/syncookies.c 191 */;
+	const struct tcphdr *cocci_id/* net/ipv4/syncookies.c 190 */;
+	const struct iphdr *cocci_id/* net/ipv4/syncookies.c 190 */;
+	int cocci_id/* net/ipv4/syncookies.c 190 */;
+	siphash_key_t cocci_id/* net/ipv4/syncookies.c 19 */[2]__read_mostly;
+	const struct sk_buff *cocci_id/* net/ipv4/syncookies.c 178 */;
+	__u16 *cocci_id/* net/ipv4/syncookies.c 178 */;
+	const __u16 cocci_id/* net/ipv4/syncookies.c 165 */;
+	u16 *cocci_id/* net/ipv4/syncookies.c 162 */;
+	const __u16 cocci_id/* net/ipv4/syncookies.c 150 */[];
+	__be16 cocci_id/* net/ipv4/syncookies.c 121 */;
+	__be32 cocci_id/* net/ipv4/syncookies.c 120 */;
+}

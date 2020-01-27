@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/i2c/busses/i2c-jz4780.c 812 */;
+	const char *constcocci_id/* drivers/i2c/busses/i2c-jz4780.c 76 */[];
+	struct jz4780_i2c cocci_id/* drivers/i2c/busses/i2c-jz4780.c 733 */;
+	struct resource *cocci_id/* drivers/i2c/busses/i2c-jz4780.c 730 */;
+	unsigned int cocci_id/* drivers/i2c/busses/i2c-jz4780.c 728 */;
+	struct platform_device *cocci_id/* drivers/i2c/busses/i2c-jz4780.c 725 */;
+	const struct of_device_id cocci_id/* drivers/i2c/busses/i2c-jz4780.c 719 */[];
+	const struct i2c_algorithm cocci_id/* drivers/i2c/busses/i2c-jz4780.c 714 */;
+	u32 cocci_id/* drivers/i2c/busses/i2c-jz4780.c 709 */;
+	struct i2c_adapter *cocci_id/* drivers/i2c/busses/i2c-jz4780.c 709 */;
+	struct i2c_msg *cocci_id/* drivers/i2c/busses/i2c-jz4780.c 672 */;
+	long cocci_id/* drivers/i2c/busses/i2c-jz4780.c 554 */;
+	unsigned char *cocci_id/* drivers/i2c/busses/i2c-jz4780.c 550 */;
+	irqreturn_t cocci_id/* drivers/i2c/busses/i2c-jz4780.c 416 */;
+	void *cocci_id/* drivers/i2c/busses/i2c-jz4780.c 416 */;
+	void cocci_id/* drivers/i2c/busses/i2c-jz4780.c 402 */;
+	unsigned short cocci_id/* drivers/i2c/busses/i2c-jz4780.c 357 */;
+	unsigned long cocci_id/* drivers/i2c/busses/i2c-jz4780.c 356 */;
+	struct jz4780_i2c *cocci_id/* drivers/i2c/busses/i2c-jz4780.c 353 */;
+	int cocci_id/* drivers/i2c/busses/i2c-jz4780.c 353 */;
+	unsigned char cocci_id/* drivers/i2c/busses/i2c-jz4780.c 220 */;
+	struct jz4780_i2c {
+		void __iomem *iomem;
+		int irq;
+		struct clk *clk;
+		struct i2c_adapter adap;
+		spinlock_t lock;
+		unsigned char *rbuf;
+		int rd_total_len;
+		int rd_data_xfered;
+		int rd_cmd_xfered;
+		unsigned char *wbuf;
+		int wt_len;
+		int is_write;
+		int stop_hold;
+		int speed;
+		int data_buf[BUFSIZE];
+		int cmd_buf[BUFSIZE];
+		int cmd;
+		struct completion trans_waitq;
+	} cocci_id/* drivers/i2c/busses/i2c-jz4780.c 140 */;
+}

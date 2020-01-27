@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* sound/atmel/ac97c.c 881 */;
+	struct atmel_ac97c cocci_id/* sound/atmel/ac97c.c 751 */;
+	struct snd_ac97_bus_ops cocci_id/* sound/atmel/ac97c.c 721 */;
+	struct clk *cocci_id/* sound/atmel/ac97c.c 720 */;
+	struct resource *cocci_id/* sound/atmel/ac97c.c 719 */;
+	struct snd_card *cocci_id/* sound/atmel/ac97c.c 717 */;
+	struct device *cocci_id/* sound/atmel/ac97c.c 716 */;
+	struct platform_device *cocci_id/* sound/atmel/ac97c.c 714 */;
+	const struct of_device_id cocci_id/* sound/atmel/ac97c.c 708 */[];
+	void cocci_id/* sound/atmel/ac97c.c 689 */;
+	struct snd_ac97 *cocci_id/* sound/atmel/ac97c.c 643 */;
+	unsigned short cocci_id/* sound/atmel/ac97c.c 643 */;
+	const struct snd_pcm_hardware cocci_id/* sound/atmel/ac97c.c 64 */;
+	struct snd_ac97_template cocci_id/* sound/atmel/ac97c.c 617 */;
+	struct snd_pcm_hardware cocci_id/* sound/atmel/ac97c.c 587 */;
+	struct snd_pcm *cocci_id/* sound/atmel/ac97c.c 586 */;
+	const struct ac97_pcm cocci_id/* sound/atmel/ac97c.c 556 */[];
+	u32 cocci_id/* sound/atmel/ac97c.c 485 */;
+	irqreturn_t cocci_id/* sound/atmel/ac97c.c 481 */;
+	void *cocci_id/* sound/atmel/ac97c.c 481 */;
+	const struct snd_pcm_ops cocci_id/* sound/atmel/ac97c.c 470 */;
+	unsigned long cocci_id/* sound/atmel/ac97c.c 448 */;
+	snd_pcm_uframes_t cocci_id/* sound/atmel/ac97c.c 442 */;
+	struct atmel_ac97c {
+		struct clk *pclk;
+		struct platform_device *pdev;
+		struct snd_pcm_substream *playback_substream;
+		struct snd_pcm_substream *capture_substream;
+		struct snd_card *card;
+		struct snd_pcm *pcm;
+		struct snd_ac97 *ac97;
+		struct snd_ac97_bus *ac97_bus;
+		u64 cur_format;
+		unsigned int cur_rate;
+		int playback_period,capture_period;
+		spinlock_t lock;
+		void __iomem *regs;
+		int irq;
+		int opened;
+		struct gpio_desc *reset_pin;
+	} cocci_id/* sound/atmel/ac97c.c 35 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/atmel/ac97c.c 179 */;
+	struct atmel_ac97c *cocci_id/* sound/atmel/ac97c.c 143 */;
+	struct snd_pcm_substream *cocci_id/* sound/atmel/ac97c.c 141 */;
+	int cocci_id/* sound/atmel/ac97c.c 141 */;
+	struct snd_pcm_runtime *cocci_id/* sound/atmel/ac97c.c 108 */;
+}

@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	const u8 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 97 */[CCK_TABLE_SIZE][8];
+	u8 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 877 */[2][15];
+	s8 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 873 */[2][15];
+	enum _power_dec_inc{power_dec, power_inc,} cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 868 */;
+	int cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 863 */;
+	s8 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 861 */[2];
+	long cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 860 */;
+	u32 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 859 */;
+	struct rtl_hal *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 856 */;
+	struct rtl_efuse *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 854 */;
+	bool cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 787 */;
+	u64 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 779 */;
+	struct dig_t *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 433 */;
+	struct false_alarm_statistics *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 354 */;
+	struct rtl_dm *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 254 */;
+	struct rtl_phy *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 253 */;
+	struct rtl_priv *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 252 */;
+	u8 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 250 */;
+	enum pwr_track_control_method cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 249 */;
+	struct ieee80211_hw *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 248 */;
+	void cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 248 */;
+	u32 *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 213 */;
+	struct rtl_ps_ctl *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 1758 */;
+	struct rtl_mac *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 1696 */;
+	struct timer_list *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 1684 */;
+	const u32 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 15 */[OFDM_TABLE_SIZE];
+	struct rtl_sta_info *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 1450 */;
+	struct fast_ant_training *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 1424 */;
+	__le32 *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 1408 */;
+	u8 *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 1403 */;
+	struct ps_t *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 1208 */;
+	struct ieee80211_sta *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 1138 */;
+	struct rate_adaptive *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8188ee/dm.c 1120 */;
+}

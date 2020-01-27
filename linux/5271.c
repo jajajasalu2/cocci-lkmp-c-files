@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct pci_driver cocci_id/* drivers/ata/pata_it821x.c 963 */;
+	const struct pci_device_id cocci_id/* drivers/ata/pata_it821x.c 955 */[];
+	struct ata_host *cocci_id/* drivers/ata/pata_it821x.c 941 */;
+	const char *cocci_id/* drivers/ata/pata_it821x.c 906 */[2];
+	const struct ata_port_info *cocci_id/* drivers/ata/pata_it821x.c 905 */[];
+	const struct ata_port_info cocci_id/* drivers/ata/pata_it821x.c 876 */;
+	const struct pci_device_id *cocci_id/* drivers/ata/pata_it821x.c 872 */;
+	struct it821x_dev {
+		unsigned int smart:1,timing10:1;
+		u8 clock_mode;
+		u8 want[2][2];
+		u16 pio[2];
+		u16 mwdma[2];
+		u16 udma[2];
+		u16 last_device;
+	} cocci_id/* drivers/ata/pata_it821x.c 85 */;
+	struct ata_port_operations cocci_id/* drivers/ata/pata_it821x.c 817 */;
+	struct scsi_host_template cocci_id/* drivers/ata/pata_it821x.c 799 */;
+	struct it821x_dev cocci_id/* drivers/ata/pata_it821x.c 745 */;
+	u16 *cocci_id/* drivers/ata/pata_it821x.c 618 */;
+	const char *cocci_id/* drivers/ata/pata_it821x.c 611 */[5];
+	char cocci_id/* drivers/ata/pata_it821x.c 608 */[8];
+	const char *cocci_id/* drivers/ata/pata_it821x.c 607 */;
+	unsigned char cocci_id/* drivers/ata/pata_it821x.c 605 */[41];
+	u8 *cocci_id/* drivers/ata/pata_it821x.c 603 */;
+	struct it821x_dev *cocci_id/* drivers/ata/pata_it821x.c 578 */;
+	struct ata_port *cocci_id/* drivers/ata/pata_it821x.c 577 */;
+	struct ata_queued_cmd *cocci_id/* drivers/ata/pata_it821x.c 575 */;
+	struct ata_taskfile *cocci_id/* drivers/ata/pata_it821x.c 537 */;
+	unsigned char cocci_id/* drivers/ata/pata_it821x.c 501 */[ATA_ID_PROD_LEN + 1];
+	struct ata_link *cocci_id/* drivers/ata/pata_it821x.c 464 */;
+	struct ata_device **cocci_id/* drivers/ata/pata_it821x.c 464 */;
+	unsigned int cocci_id/* drivers/ata/pata_it821x.c 390 */;
+	const u8 cocci_id/* drivers/ata/pata_it821x.c 288 */[];
+	const u16 cocci_id/* drivers/ata/pata_it821x.c 287 */[];
+	u8 cocci_id/* drivers/ata/pata_it821x.c 189 */;
+	struct pci_dev *cocci_id/* drivers/ata/pata_it821x.c 187 */;
+	struct ata_device *cocci_id/* drivers/ata/pata_it821x.c 185 */;
+	void cocci_id/* drivers/ata/pata_it821x.c 185 */;
+	u16 cocci_id/* drivers/ata/pata_it821x.c 126 */;
+	int cocci_id/* drivers/ata/pata_it821x.c 113 */;
+}

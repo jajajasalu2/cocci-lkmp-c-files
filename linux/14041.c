@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct v4l2_device *cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 99 */;
+	dma_cap_mask_t cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 96 */;
+	struct video_device *cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 95 */;
+	struct platform_device *cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 90 */;
+	struct vid_vrfb_dma *cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 67 */;
+	void *cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 56 */;
+	long cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 56 */;
+	int *cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 324 */;
+	struct v4l2_pix_format *cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 323 */;
+	struct v4l2_rect *cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 322 */;
+	bool cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 321 */;
+	enum dss_rotation cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 320 */;
+	void cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 318 */;
+	unsigned int *cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 31 */;
+	u8 *cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 308 */;
+	struct omap_vout_device *cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 30 */;
+	int cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 30 */;
+	u32 cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 242 */;
+	size_t cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 241 */;
+	enum dma_status cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 239 */;
+	dma_addr_t cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 238 */;
+	dma_cookie_t cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 237 */;
+	struct dma_interleaved_template *cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 236 */;
+	struct dma_chan *cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 235 */;
+	enum dma_ctrl_flags cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 234 */;
+	struct dma_async_tx_descriptor *cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 233 */;
+	struct vb2_buffer *cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 231 */;
+	unsigned int cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 198 */;
+	struct data_chunk cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 140 */;
+	struct dma_interleaved_template cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 139 */;
+	struct omap2video_device cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 101 */;
+	struct omap2video_device *cocci_id/* drivers/media/platform/omap/omap_vout_vrfb.c 100 */;
+}

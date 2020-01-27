@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	poll_table *cocci_id/* net/vmw_vsock/af_vsock.c 932 */;
+	__poll_t cocci_id/* net/vmw_vsock/af_vsock.c 931 */;
+	struct sockaddr *cocci_id/* net/vmw_vsock/af_vsock.c 821 */;
+	s64 cocci_id/* net/vmw_vsock/af_vsock.c 799 */;
+	struct sk_buff *cocci_id/* net/vmw_vsock/af_vsock.c 781 */;
+	unsigned short cocci_id/* net/vmw_vsock/af_vsock.c 667 */;
+	gfp_t cocci_id/* net/vmw_vsock/af_vsock.c 666 */;
+	struct socket *cocci_id/* net/vmw_vsock/af_vsock.c 664 */;
+	struct net *cocci_id/* net/vmw_vsock/af_vsock.c 663 */;
+	void cocci_id/* net/vmw_vsock/af_vsock.c 661 */(struct work_struct *work);
+	struct vsock_sock *cocci_id/* net/vmw_vsock/af_vsock.c 627 */;
+	struct sockaddr_vm *cocci_id/* net/vmw_vsock/af_vsock.c 625 */;
+	struct sock *cocci_id/* net/vmw_vsock/af_vsock.c 625 */;
+	int cocci_id/* net/vmw_vsock/af_vsock.c 625 */;
+	unsigned int cocci_id/* net/vmw_vsock/af_vsock.c 578 */;
+	bool cocci_id/* net/vmw_vsock/af_vsock.c 577 */;
+	struct sockaddr_vm cocci_id/* net/vmw_vsock/af_vsock.c 568 */;
+	u32 cocci_id/* net/vmw_vsock/af_vsock.c 567 */;
+	void (*cocci_id/* net/vmw_vsock/af_vsock.c 334 */)(struct sock *sk);
+	void __exit cocci_id/* net/vmw_vsock/af_vsock.c 2125 */;
+	int __init cocci_id/* net/vmw_vsock/af_vsock.c 2088 */;
+	struct miscdevice cocci_id/* net/vmw_vsock/af_vsock.c 2083 */;
+	const struct file_operations cocci_id/* net/vmw_vsock/af_vsock.c 2074 */;
+	unsigned long cocci_id/* net/vmw_vsock/af_vsock.c 2068 */;
+	struct file *cocci_id/* net/vmw_vsock/af_vsock.c 2067 */;
+	u32 __user *cocci_id/* net/vmw_vsock/af_vsock.c 2034 */;
+	void __user *cocci_id/* net/vmw_vsock/af_vsock.c 2032 */;
+	const struct net_proto_family cocci_id/* net/vmw_vsock/af_vsock.c 2025 */;
+	struct list_head *cocci_id/* net/vmw_vsock/af_vsock.c 201 */;
+	void cocci_id/* net/vmw_vsock/af_vsock.c 201 */;
+	struct vsock_transport_recv_notify_data cocci_id/* net/vmw_vsock/af_vsock.c 1798 */;
+	ssize_t cocci_id/* net/vmw_vsock/af_vsock.c 1796 */;
+	struct list_head cocci_id/* net/vmw_vsock/af_vsock.c 173 */[VSOCK_HASH_SIZE];
+	struct list_head cocci_id/* net/vmw_vsock/af_vsock.c 171 */[VSOCK_HASH_SIZE + 1];
+	struct vsock_transport_send_notify_data cocci_id/* net/vmw_vsock/af_vsock.c 1656 */;
+	struct __kernel_old_timeval cocci_id/* net/vmw_vsock/af_vsock.c 1626 */;
+	u64 cocci_id/* net/vmw_vsock/af_vsock.c 1585 */;
+	int __user *cocci_id/* net/vmw_vsock/af_vsock.c 1579 */;
+	char __user *cocci_id/* net/vmw_vsock/af_vsock.c 1578 */;
+	const struct vsock_transport *cocci_id/* net/vmw_vsock/af_vsock.c 138 */;
+	long cocci_id/* net/vmw_vsock/af_vsock.c 1366 */;
+	struct vsock_sock cocci_id/* net/vmw_vsock/af_vsock.c 1205 */;
+	struct work_struct *cocci_id/* net/vmw_vsock/af_vsock.c 1199 */;
+	struct proto cocci_id/* net/vmw_vsock/af_vsock.c 118 */;
+	const struct proto_ops cocci_id/* net/vmw_vsock/af_vsock.c 1168 */;
+	size_t cocci_id/* net/vmw_vsock/af_vsock.c 1161 */;
+	struct msghdr *cocci_id/* net/vmw_vsock/af_vsock.c 1160 */;
+	int cocci_id/* net/vmw_vsock/af_vsock.c 115 */(struct sock *sk,
+						       struct sk_buff *skb);
+	void cocci_id/* net/vmw_vsock/af_vsock.c 114 */(struct sock *sk);
+	int cocci_id/* net/vmw_vsock/af_vsock.c 113 */(struct sock *sk,
+						       struct sockaddr_vm *addr);
+}

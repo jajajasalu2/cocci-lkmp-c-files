@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	const char *cocci_id/* sound/soc/generic/simple-card-utils.c 99 */;
+	unsigned int *cocci_id/* sound/soc/generic/simple-card-utils.c 59 */;
+	struct snd_soc_codec_conf *cocci_id/* sound/soc/generic/simple-card-utils.c 556 */;
+	struct link_info *cocci_id/* sound/soc/generic/simple-card-utils.c 549 */;
+	char cocci_id/* sound/soc/generic/simple-card-utils.c 499 */[128];
+	enum of_gpio_flags cocci_id/* sound/soc/generic/simple-card-utils.c 498 */;
+	struct device *cocci_id/* sound/soc/generic/simple-card-utils.c 497 */;
+	char *cocci_id/* sound/soc/generic/simple-card-utils.c 495 */;
+	struct asoc_simple_jack *cocci_id/* sound/soc/generic/simple-card-utils.c 494 */;
+	unsigned long cocci_id/* sound/soc/generic/simple-card-utils.c 483 */;
+	struct snd_kcontrol_new *cocci_id/* sound/soc/generic/simple-card-utils.c 441 */;
+	const char **cocci_id/* sound/soc/generic/simple-card-utils.c 440 */;
+	const unsigned int cocci_id/* sound/soc/generic/simple-card-utils.c 439 */;
+	struct snd_soc_card *cocci_id/* sound/soc/generic/simple-card-utils.c 386 */;
+	struct snd_soc_dai_link *cocci_id/* sound/soc/generic/simple-card-utils.c 369 */;
+	void cocci_id/* sound/soc/generic/simple-card-utils.c 369 */;
+	struct simple_dai_props *cocci_id/* sound/soc/generic/simple-card-utils.c 294 */;
+	struct asoc_simple_priv *cocci_id/* sound/soc/generic/simple-card-utils.c 293 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/generic/simple-card-utils.c 291 */;
+	struct snd_soc_pcm_runtime *cocci_id/* sound/soc/generic/simple-card-utils.c 290 */;
+	int cocci_id/* sound/soc/generic/simple-card-utils.c 290 */;
+	unsigned int cocci_id/* sound/soc/generic/simple-card-utils.c 257 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/generic/simple-card-utils.c 252 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/generic/simple-card-utils.c 248 */;
+	struct snd_interval *cocci_id/* sound/soc/generic/simple-card-utils.c 20 */;
+	struct asoc_simple_data *cocci_id/* sound/soc/generic/simple-card-utils.c 17 */;
+	u32 cocci_id/* sound/soc/generic/simple-card-utils.c 166 */;
+	struct clk *cocci_id/* sound/soc/generic/simple-card-utils.c 165 */;
+	struct snd_soc_dai_link_component *cocci_id/* sound/soc/generic/simple-card-utils.c 163 */;
+	struct device_node *cocci_id/* sound/soc/generic/simple-card-utils.c 161 */;
+	struct asoc_simple_dai *cocci_id/* sound/soc/generic/simple-card-utils.c 154 */;
+	va_list cocci_id/* sound/soc/generic/simple-card-utils.c 101 */;
+}

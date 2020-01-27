@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/macintosh/windfarm_rm31.c 727 */;
+	struct wf_pid_state cocci_id/* drivers/macintosh/windfarm_rm31.c 70 */;
+	struct device_node *cocci_id/* drivers/macintosh/windfarm_rm31.c 689 */;
+	int __init cocci_id/* drivers/macintosh/windfarm_rm31.c 687 */;
+	s64 cocci_id/* drivers/macintosh/windfarm_rm31.c 68 */;
+	struct platform_driver cocci_id/* drivers/macintosh/windfarm_rm31.c 679 */;
+	struct platform_device *cocci_id/* drivers/macintosh/windfarm_rm31.c 665 */;
+	struct notifier_block cocci_id/* drivers/macintosh/windfarm_rm31.c 661 */;
+	u32 cocci_id/* drivers/macintosh/windfarm_rm31.c 66 */[CPU_TEMP_HIST_SIZE];
+	struct wf_cpu_pid_state cocci_id/* drivers/macintosh/windfarm_rm31.c 65 */[NR_CHIPS];
+	void *cocci_id/* drivers/macintosh/windfarm_rm31.c 645 */;
+	unsigned long cocci_id/* drivers/macintosh/windfarm_rm31.c 645 */;
+	struct notifier_block *cocci_id/* drivers/macintosh/windfarm_rm31.c 644 */;
+	const struct mpu_data *cocci_id/* drivers/macintosh/windfarm_rm31.c 64 */[NR_CHIPS];
+	struct wf_control *cocci_id/* drivers/macintosh/windfarm_rm31.c 56 */;
+	struct wf_control *cocci_id/* drivers/macintosh/windfarm_rm31.c 55 */[NR_CHIPS][3];
+	struct wf_sensor *cocci_id/* drivers/macintosh/windfarm_rm31.c 51 */;
+	struct wf_sensor *cocci_id/* drivers/macintosh/windfarm_rm31.c 50 */[NR_CHIPS];
+	struct wf_pid_param cocci_id/* drivers/macintosh/windfarm_rm31.c 424 */;
+	int cocci_id/* drivers/macintosh/windfarm_rm31.c 368 */;
+	s32 cocci_id/* drivers/macintosh/windfarm_rm31.c 367 */;
+	void cocci_id/* drivers/macintosh/windfarm_rm31.c 365 */;
+	const struct wf_pid_param cocci_id/* drivers/macintosh/windfarm_rm31.c 340 */;
+	const struct mpu_data *cocci_id/* drivers/macintosh/windfarm_rm31.c 296 */;
+	struct wf_cpu_pid_param cocci_id/* drivers/macintosh/windfarm_rm31.c 295 */;
+	struct wf_cpu_pid_state *cocci_id/* drivers/macintosh/windfarm_rm31.c 253 */;
+	u64 cocci_id/* drivers/macintosh/windfarm_rm31.c 237 */;
+	s32 *cocci_id/* drivers/macintosh/windfarm_rm31.c 202 */;
+	bool cocci_id/* drivers/macintosh/windfarm_rm31.c 123 */;
+}

@@ -1,0 +1,62 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/hwmon/sis5595.c 899 */;
+	int __init cocci_id/* drivers/hwmon/sis5595.c 894 */;
+	struct pci_driver cocci_id/* drivers/hwmon/sis5595.c 888 */;
+	int *cocci_id/* drivers/hwmon/sis5595.c 808 */;
+	const struct pci_device_id *cocci_id/* drivers/hwmon/sis5595.c 804 */;
+	struct resource cocci_id/* drivers/hwmon/sis5595.c 764 */;
+	unsigned short cocci_id/* drivers/hwmon/sis5595.c 762 */;
+	int cocci_id/* drivers/hwmon/sis5595.c 746 */[];
+	const struct pci_device_id cocci_id/* drivers/hwmon/sis5595.c 739 */[];
+	void cocci_id/* drivers/hwmon/sis5595.c 681 */;
+	struct platform_device *cocci_id/* drivers/hwmon/sis5595.c 66 */;
+	u16 cocci_id/* drivers/hwmon/sis5595.c 61 */;
+	struct sis5595_data cocci_id/* drivers/hwmon/sis5595.c 586 */;
+	char cocci_id/* drivers/hwmon/sis5595.c 578 */;
+	struct resource *cocci_id/* drivers/hwmon/sis5595.c 577 */;
+	const struct attribute_group cocci_id/* drivers/hwmon/sis5595.c 543 */;
+	struct attribute *cocci_id/* drivers/hwmon/sis5595.c 511 */[];
+	struct sis5595_data *cocci_id/* drivers/hwmon/sis5595.c 490 */;
+	char *cocci_id/* drivers/hwmon/sis5595.c 488 */;
+	struct device_attribute *cocci_id/* drivers/hwmon/sis5595.c 487 */;
+	struct device *cocci_id/* drivers/hwmon/sis5595.c 487 */;
+	ssize_t cocci_id/* drivers/hwmon/sis5595.c 487 */;
+	const char *cocci_id/* drivers/hwmon/sis5595.c 415 */;
+	size_t cocci_id/* drivers/hwmon/sis5595.c 415 */;
+	struct sensor_device_attribute *cocci_id/* drivers/hwmon/sis5595.c 403 */;
+	struct platform_driver cocci_id/* drivers/hwmon/sis5595.c 202 */;
+	void cocci_id/* drivers/hwmon/sis5595.c 200 */(struct sis5595_data *data);
+	struct sis5595_data *cocci_id/* drivers/hwmon/sis5595.c 199 */(struct device *dev);
+	void cocci_id/* drivers/hwmon/sis5595.c 198 */(struct sis5595_data *data,
+						       u8 reg, u8 value);
+	int cocci_id/* drivers/hwmon/sis5595.c 197 */(struct sis5595_data *data,
+						      u8 reg);
+	int cocci_id/* drivers/hwmon/sis5595.c 194 */(struct platform_device *pdev);
+	struct pci_dev *cocci_id/* drivers/hwmon/sis5595.c 192 */;
+	struct sis5595_data {
+		unsigned short addr;
+		const char *name;
+		struct device *hwmon_dev;
+		struct mutex lock;
+		struct mutex update_lock;
+		char valid;
+		unsigned long last_updated;
+		char maxins;
+		u8 revision;
+		u8 in[5];
+		u8 in_max[5];
+		u8 in_min[5];
+		u8 fan[2];
+		u8 fan_min[2];
+		s8 temp;
+		s8 temp_over;
+		s8 temp_hyst;
+		u8 fan_div[2];
+		u16 alarms;
+	} cocci_id/* drivers/hwmon/sis5595.c 168 */;
+	u8 cocci_id/* drivers/hwmon/sis5595.c 158 */;
+	int cocci_id/* drivers/hwmon/sis5595.c 158 */;
+	s8 cocci_id/* drivers/hwmon/sis5595.c 144 */;
+	long cocci_id/* drivers/hwmon/sis5595.c 126 */;
+	unsigned long cocci_id/* drivers/hwmon/sis5595.c 119 */;
+}

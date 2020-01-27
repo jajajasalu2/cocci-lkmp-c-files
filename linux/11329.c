@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	uint64_t *cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 93 */;
+	void *cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 90 */;
+	struct qxl_reloc_info *cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 88 */;
+	struct qxl_device *cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 88 */;
+	void cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 87 */;
+	struct qxl_reloc_info {
+		int type;
+		struct qxl_bo *dst_bo;
+		uint32_t dst_offset;
+		struct qxl_bo *src_bo;
+		int src_offset;
+	} cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 74 */;
+	struct drm_qxl_map *cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 68 */;
+	u32 cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 44 */;
+	const struct drm_ioctl_desc cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 429 */[];
+	struct qxl_bo *cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 42 */;
+	struct qxl_surface cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 403 */;
+	struct drm_qxl_alloc *cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 40 */;
+	struct drm_qxl_alloc_surf *cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 398 */;
+	struct drm_qxl_clientcap *cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 377 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 37 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 36 */;
+	int cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 36 */;
+	struct drm_qxl_getparam *cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 358 */;
+	struct ttm_operation_ctx cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 316 */;
+	struct drm_gem_object *cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 314 */;
+	struct qxl_rect cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 309 */;
+	struct drm_qxl_update_area *cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 308 */;
+	struct drm_qxl_command __user *cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 290 */;
+	struct drm_qxl_command cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 284 */;
+	struct drm_qxl_execbuffer *cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 283 */;
+	struct drm_qxl_reloc __user *cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 210 */;
+	struct drm_qxl_reloc cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 209 */;
+	struct qxl_drawable *cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 194 */;
+	struct qxl_reloc_info cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 174 */;
+	union qxl_release_info cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 166 */;
+	struct qxl_release *cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 148 */;
+	struct drm_qxl_command *cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 143 */;
+	struct qxl_bo **cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 115 */;
+	uint64_t cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 114 */;
+	uint32_t *cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 109 */;
+	uint32_t cocci_id/* drivers/gpu/drm/qxl/qxl_ioctl.c 102 */;
+}

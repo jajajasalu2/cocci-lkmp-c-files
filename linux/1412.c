@@ -1,0 +1,63 @@
+cocci_test_suite() {
+	struct net2272_ep cocci_id/* drivers/usb/gadget/udc/net2272.c 933 */;
+	unsigned long cocci_id/* drivers/usb/gadget/udc/net2272.c 930 */;
+	int cocci_id/* drivers/usb/gadget/udc/net2272.c 925 */;
+	struct net2272_request cocci_id/* drivers/usb/gadget/udc/net2272.c 918 */;
+	struct net2272 *cocci_id/* drivers/usb/gadget/udc/net2272.c 784 */;
+	unsigned long long cocci_id/* drivers/usb/gadget/udc/net2272.c 717 */;
+	ushort cocci_id/* drivers/usb/gadget/udc/net2272.c 71 */;
+	u8 *cocci_id/* drivers/usb/gadget/udc/net2272.c 538 */;
+	u16 *cocci_id/* drivers/usb/gadget/udc/net2272.c 499 */;
+	u16 __iomem *cocci_id/* drivers/usb/gadget/udc/net2272.c 497 */;
+	const char *const cocci_id/* drivers/usb/gadget/udc/net2272.c 43 */[];
+	const char cocci_id/* drivers/usb/gadget/udc/net2272.c 40 */[];
+	struct net2272_request *cocci_id/* drivers/usb/gadget/udc/net2272.c 319 */;
+	gfp_t cocci_id/* drivers/usb/gadget/udc/net2272.c 317 */;
+	struct usb_ep *cocci_id/* drivers/usb/gadget/udc/net2272.c 317 */;
+	struct usb_request *cocci_id/* drivers/usb/gadget/udc/net2272.c 316 */;
+	void __exit cocci_id/* drivers/usb/gadget/udc/net2272.c 2696 */;
+	int __init cocci_id/* drivers/usb/gadget/udc/net2272.c 2678 */;
+	struct platform_driver cocci_id/* drivers/usb/gadget/udc/net2272.c 2668 */;
+	struct resource *cocci_id/* drivers/usb/gadget/udc/net2272.c 2594 */;
+	resource_size_t cocci_id/* drivers/usb/gadget/udc/net2272.c 2593 */;
+	unsigned int cocci_id/* drivers/usb/gadget/udc/net2272.c 2592 */;
+	struct platform_device *cocci_id/* drivers/usb/gadget/udc/net2272.c 2588 */;
+	struct pci_driver cocci_id/* drivers/usb/gadget/udc/net2272.c 2562 */;
+	struct pci_device_id cocci_id/* drivers/usb/gadget/udc/net2272.c 2541 */[];
+	const struct pci_device_id *cocci_id/* drivers/usb/gadget/udc/net2272.c 2440 */;
+	struct pci_dev *cocci_id/* drivers/usb/gadget/udc/net2272.c 2440 */;
+	void __iomem *cocci_id/* drivers/usb/gadget/udc/net2272.c 2385 */[2];
+	void __iomem *cocci_id/* drivers/usb/gadget/udc/net2272.c 2302 */[4];
+	struct device *cocci_id/* drivers/usb/gadget/udc/net2272.c 2197 */;
+	irqreturn_t cocci_id/* drivers/usb/gadget/udc/net2272.c 2045 */;
+	void *cocci_id/* drivers/usb/gadget/udc/net2272.c 2045 */;
+	bool cocci_id/* drivers/usb/gadget/udc/net2272.c 1971 */;
+	u32 cocci_id/* drivers/usb/gadget/udc/net2272.c 180 */;
+	const struct usb_endpoint_descriptor *cocci_id/* drivers/usb/gadget/udc/net2272.c 176 */;
+	union {
+		u8 raw[8];
+		struct usb_ctrlrequest r;
+	} cocci_id/* drivers/usb/gadget/udc/net2272.c 1712 */;
+	const struct usb_ep_ops cocci_id/* drivers/usb/gadget/udc/net2272.c 171 */;
+	int cocci_id/* drivers/usb/gadget/udc/net2272.c 169 */(struct usb_ep *);
+	int cocci_id/* drivers/usb/gadget/udc/net2272.c 168 */(struct net2272_ep *,
+							       struct net2272_request *);
+	void cocci_id/* drivers/usb/gadget/udc/net2272.c 167 */(struct net2272_ep *);
+	const u8 cocci_id/* drivers/usb/gadget/udc/net2272.c 1651 */[];
+	char *cocci_id/* drivers/usb/gadget/udc/net2272.c 144 */;
+	unsigned cocci_id/* drivers/usb/gadget/udc/net2272.c 144 */;
+	struct usb_gadget_driver *cocci_id/* drivers/usb/gadget/udc/net2272.c 1436 */;
+	struct device_attribute *cocci_id/* drivers/usb/gadget/udc/net2272.c 1166 */;
+	ssize_t cocci_id/* drivers/usb/gadget/udc/net2272.c 1165 */;
+	const struct usb_gadget_ops cocci_id/* drivers/usb/gadget/udc/net2272.c 1154 */;
+	int cocci_id/* drivers/usb/gadget/udc/net2272.c 1152 */(struct usb_gadget *_gadget);
+	int cocci_id/* drivers/usb/gadget/udc/net2272.c 1150 */(struct usb_gadget *_gadget,
+								struct usb_gadget_driver *driver);
+	u8 cocci_id/* drivers/usb/gadget/udc/net2272.c 109 */;
+	struct net2272 cocci_id/* drivers/usb/gadget/udc/net2272.c 1084 */;
+	struct usb_gadget *cocci_id/* drivers/usb/gadget/udc/net2272.c 1076 */;
+	const char *cocci_id/* drivers/usb/gadget/udc/net2272.c 107 */;
+	struct net2272_ep *cocci_id/* drivers/usb/gadget/udc/net2272.c 107 */;
+	void cocci_id/* drivers/usb/gadget/udc/net2272.c 107 */;
+	u16 cocci_id/* drivers/usb/gadget/udc/net2272.c 1026 */;
+}

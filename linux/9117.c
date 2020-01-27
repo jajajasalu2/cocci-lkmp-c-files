@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	enum mlx5dr_ste_entry_type cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 981 */;
+	enum mlx5dr_domain_type cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 980 */;
+	enum mlx5dr_ipv cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 972 */;
+	struct mlx5dr_match_spec *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 972 */;
+	u32 cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 851 */;
+	bool cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 850 */;
+	u8 *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 850 */;
+	struct mlx5dr_rule_action_member {
+		struct mlx5dr_action *action;
+		struct list_head list;
+	} cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 8 */;
+	struct mlx5dr_ste_htbl **cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 771 */;
+	struct mlx5dr_matcher_rx_tx *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 68 */;
+	struct mlx5dr_matcher *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 67 */;
+	u8 cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 658 */;
+	struct mlx5dr_ste_send_info *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 657 */[DR_ACTION_MAX_STES];
+	struct mlx5dr_rule_member *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 635 */;
+	struct mlx5dr_ste *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 633 */;
+	struct mlx5dr_rule_rx_tx *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 632 */;
+	struct mlx5dr_ste_htbl_ctrl *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 614 */;
+	u16 cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 598 */;
+	void cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 582 */;
+	struct mlx5dr_rule_action_member *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 546 */;
+	struct mlx5dr_action *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 544 */[];
+	size_t cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 543 */;
+	struct mlx5dr_rule *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 542 */;
+	int cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 542 */;
+	enum mlx5dr_icm_chunk_size cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 479 */;
+	struct mlx5dr_ste_htbl *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 45 */;
+	struct mlx5dr_domain *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 44 */;
+	struct mlx5dr_htbl_connect_info cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 367 */;
+	u8 cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 229 */[DR_STE_SIZE];
+	struct mlx5dr_ste cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 21 */;
+	struct mlx5dr_ste_send_info *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 17 */;
+	struct list_head *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 14 */;
+	struct mlx5dr_table *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 1247 */;
+	struct mlx5dr_match_param cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 1172 */;
+	struct mlx5dr_match_parameters *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 1167 */;
+	struct mlx5dr_match_param *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 1136 */;
+	struct mlx5dr_domain_rx_tx *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/steering/dr_rule.c 1022 */;
+}

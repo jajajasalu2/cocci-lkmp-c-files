@@ -1,0 +1,47 @@
+cocci_test_suite() {
+	bool cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 99 */;
+	struct drm_atomic_state *cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 74 */;
+	const struct drm_mode_fb_cmd2 *cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 68 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 68 */;
+	struct drm_framebuffer *cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 67 */;
+	void __exit cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 657 */;
+	struct of_device_id cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 65 */[];
+	int __init cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 649 */;
+	struct platform_driver cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 639 */;
+	struct component_match *cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 597 */;
+	const struct component_master_ops cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 590 */;
+	struct device *cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 574 */;
+	const struct dev_pm_ops cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 567 */;
+	const struct tilcdc_module_ops *cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 52 */;
+	struct drm_driver cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 513 */;
+	struct drm_minor *cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 488 */;
+	struct drm_info_list cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 483 */[];
+	struct drm_printer cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 478 */;
+	struct drm_info_node *cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 476 */;
+	struct seq_file *cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 474 */;
+	unsigned cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 458 */;
+	const u32 cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 43 */[];
+	const struct {
+		const char *name;
+		uint8_t rev;
+		uint8_t save;
+		uint32_t reg;
+	} cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 420 */[];
+	irqreturn_t cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 412 */;
+	const char *cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 317 */;
+	u32 cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 228 */;
+	struct resource *cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 227 */;
+	struct device_node *cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 225 */;
+	struct platform_device *cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 224 */;
+	struct drm_driver *cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 221 */;
+	struct tilcdc_drm_private cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 170 */;
+	struct tilcdc_drm_private *cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 169 */;
+	void *cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 167 */;
+	unsigned long cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 167 */;
+	struct notifier_block *cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 166 */;
+	int cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 166 */;
+	struct tilcdc_module *cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 151 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 148 */;
+	void cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 148 */;
+	const struct drm_mode_config_funcs cocci_id/* drivers/gpu/drm/tilcdc/tilcdc_drv.c 142 */;
+}

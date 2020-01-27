@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct ieee80211_tx_rate *cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 69 */;
+	struct mt76_tx_status *cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 67 */;
+	struct ieee80211_tx_info *cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 66 */;
+	u8 cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 575 */[32];
+	u8 cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 535 */[8];
+	struct ieee80211_key_conf *cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 505 */;
+	enum mt76_cipher_type cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 504 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 460 */;
+	struct ieee80211_hdr *cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 454 */;
+	u16 cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 444 */;
+	struct mt7601u_rxwi *cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 443 */;
+	struct ieee80211_rx_status *cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 397 */;
+	struct ieee80211_sta cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 386 */;
+	struct mt76_sta cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 385 */;
+	u8 cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 376 */;
+	void *cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 375 */;
+	struct mt76_wcid *cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 374 */;
+	struct ieee80211_sta *cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 373 */;
+	u8 cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 357 */[ETH_ALEN];
+	u8 *cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 355 */;
+	struct {
+		u32 addr_base;
+		u32 span;
+		u64 *stat_base;
+	} cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 305 */[];
+	struct mt7601u_dev cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 303 */;
+	struct work_struct *cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 301 */;
+	u32 cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 289 */;
+	struct mt7601u_dev *cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 287 */;
+	void cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 287 */;
+	bool cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 267 */;
+	int cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 267 */;
+	bool cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 206 */[4];
+	u32 cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 205 */[6];
+	struct ieee80211_tx_info cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 176 */;
+	struct mt76_tx_status cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 157 */;
+	unsigned long cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 149 */;
+	const struct ieee80211_rate *cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 121 */;
+	const u8 *cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 11 */;
+	const struct ieee80211_tx_rate *cocci_id/* drivers/net/wireless/mediatek/mt7601u/mac.c 105 */;
+}

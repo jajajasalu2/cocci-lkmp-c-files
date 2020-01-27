@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/staging/isdn/avm/b1dma.c 976 */;
+	char cocci_id/* drivers/staging/isdn/avm/b1dma.c 962 */[32];
+	char *cocci_id/* drivers/staging/isdn/avm/b1dma.c 961 */;
+	int __init cocci_id/* drivers/staging/isdn/avm/b1dma.c 959 */;
+	dma_addr_t cocci_id/* drivers/staging/isdn/avm/b1dma.c 925 */;
+	struct seq_file *cocci_id/* drivers/staging/isdn/avm/b1dma.c 861 */;
+	capi_register_params *cocci_id/* drivers/staging/isdn/avm/b1dma.c 772 */;
+	capiloaddata *cocci_id/* drivers/staging/isdn/avm/b1dma.c 704 */;
+	unsigned char cocci_id/* drivers/staging/isdn/avm/b1dma.c 652 */;
+	irqreturn_t cocci_id/* drivers/staging/isdn/avm/b1dma.c 639 */;
+	u32 *cocci_id/* drivers/staging/isdn/avm/b1dma.c 608 */;
+	struct avmcard_dmainfo *cocci_id/* drivers/staging/isdn/avm/b1dma.c 603 */;
+	void cocci_id/* drivers/staging/isdn/avm/b1dma.c 48 */(avmcard *card);
+	struct capi_ctr *cocci_id/* drivers/staging/isdn/avm/b1dma.c 451 */;
+	avmctrl_info *cocci_id/* drivers/staging/isdn/avm/b1dma.c 449 */;
+	bool cocci_id/* drivers/staging/isdn/avm/b1dma.c 44 */;
+	void *cocci_id/* drivers/staging/isdn/avm/b1dma.c 375 */;
+	u16 cocci_id/* drivers/staging/isdn/avm/b1dma.c 373 */;
+	struct sk_buff *cocci_id/* drivers/staging/isdn/avm/b1dma.c 371 */;
+	avmcard_dmainfo *cocci_id/* drivers/staging/isdn/avm/b1dma.c 370 */;
+	unsigned int cocci_id/* drivers/staging/isdn/avm/b1dma.c 209 */;
+	unsigned char *cocci_id/* drivers/staging/isdn/avm/b1dma.c 207 */;
+	u8 *cocci_id/* drivers/staging/isdn/avm/b1dma.c 188 */;
+	void **cocci_id/* drivers/staging/isdn/avm/b1dma.c 186 */;
+	unsigned cocci_id/* drivers/staging/isdn/avm/b1dma.c 180 */;
+	void cocci_id/* drivers/staging/isdn/avm/b1dma.c 161 */;
+	u8 cocci_id/* drivers/staging/isdn/avm/b1dma.c 147 */;
+	u32 cocci_id/* drivers/staging/isdn/avm/b1dma.c 147 */;
+	avmcard *cocci_id/* drivers/staging/isdn/avm/b1dma.c 147 */;
+	int cocci_id/* drivers/staging/isdn/avm/b1dma.c 136 */;
+	unsigned long cocci_id/* drivers/staging/isdn/avm/b1dma.c 124 */;
+}

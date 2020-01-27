@@ -1,0 +1,82 @@
+cocci_test_suite() {
+	u32 *cocci_id/* drivers/bus/mvebu-mbus.c 980 */;
+	const struct mbus_dram_window *cocci_id/* drivers/bus/mvebu-mbus.c 965 */;
+	u8 *cocci_id/* drivers/bus/mvebu-mbus.c 951 */;
+	struct resource *cocci_id/* drivers/bus/mvebu-mbus.c 944 */;
+	phys_addr_t cocci_id/* drivers/bus/mvebu-mbus.c 919 */;
+	size_t cocci_id/* drivers/bus/mvebu-mbus.c 919 */;
+	const struct of_device_id cocci_id/* drivers/bus/mvebu-mbus.c 873 */[];
+	const struct mvebu_mbus_soc_data cocci_id/* drivers/bus/mvebu-mbus.c 804 */;
+	u32 __iomem *cocci_id/* drivers/bus/mvebu-mbus.c 731 */;
+	struct mbus_dram_window *cocci_id/* drivers/bus/mvebu-mbus.c 715 */;
+	void __init cocci_id/* drivers/bus/mvebu-mbus.c 695 */;
+	uint64_t cocci_id/* drivers/bus/mvebu-mbus.c 614 */;
+	struct memblock_region *cocci_id/* drivers/bus/mvebu-mbus.c 613 */;
+	uint64_t *cocci_id/* drivers/bus/mvebu-mbus.c 611 */;
+	unsigned int cocci_id/* drivers/bus/mvebu-mbus.c 544 */;
+	int cocci_id/* drivers/bus/mvebu-mbus.c 544 */;
+	const struct file_operations cocci_id/* drivers/bus/mvebu-mbus.c 528 */;
+	struct inode *cocci_id/* drivers/bus/mvebu-mbus.c 523 */;
+	struct file *cocci_id/* drivers/bus/mvebu-mbus.c 523 */;
+	unsigned long long cocci_id/* drivers/bus/mvebu-mbus.c 506 */;
+	u64 cocci_id/* drivers/bus/mvebu-mbus.c 491 */;
+	struct seq_file *cocci_id/* drivers/bus/mvebu-mbus.c 485 */;
+	void *cocci_id/* drivers/bus/mvebu-mbus.c 485 */;
+	const int cocci_id/* drivers/bus/mvebu-mbus.c 258 */;
+	void __iomem *cocci_id/* drivers/bus/mvebu-mbus.c 242 */;
+	u64 *cocci_id/* drivers/bus/mvebu-mbus.c 201 */;
+	const struct mbus_dram_target_info *cocci_id/* drivers/bus/mvebu-mbus.c 177 */;
+	void cocci_id/* drivers/bus/mvebu-mbus.c 177 */;
+	struct mbus_dram_target_info cocci_id/* drivers/bus/mvebu-mbus.c 174 */;
+	struct mvebu_mbus_state cocci_id/* drivers/bus/mvebu-mbus.c 154 */;
+	struct mvebu_mbus_state {
+		void __iomem *mbuswins_base;
+		void __iomem *sdramwins_base;
+		void __iomem *mbusbridge_base;
+		phys_addr_t sdramwins_phys_base;
+		struct dentry *debugfs_root;
+		struct dentry *debugfs_sdram;
+		struct dentry *debugfs_devs;
+		struct resource pcie_mem_aperture;
+		struct resource pcie_io_aperture;
+		const struct mvebu_mbus_soc_data *soc;
+		int hw_io_coherency;
+		u32 mbus_bridge_ctrl;
+		u32 mbus_bridge_base;
+		struct mvebu_mbus_win_data wins[MBUS_WINS_MAX];
+	} cocci_id/* drivers/bus/mvebu-mbus.c 135 */;
+	const struct of_device_id *cocci_id/* drivers/bus/mvebu-mbus.c 1311 */;
+	struct resource cocci_id/* drivers/bus/mvebu-mbus.c 1309 */;
+	u32 cocci_id/* drivers/bus/mvebu-mbus.c 1280 */[2];
+	struct mvebu_mbus_win_data {
+		u32 ctrl;
+		u32 base;
+		u32 remap_lo;
+		u32 remap_hi;
+	} cocci_id/* drivers/bus/mvebu-mbus.c 128 */;
+	void __init cocci_id/* drivers/bus/mvebu-mbus.c 1276 */;
+	u8 cocci_id/* drivers/bus/mvebu-mbus.c 1253 */;
+	u32 cocci_id/* drivers/bus/mvebu-mbus.c 1252 */;
+	const __be32 *cocci_id/* drivers/bus/mvebu-mbus.c 1243 */;
+	struct device_node *cocci_id/* drivers/bus/mvebu-mbus.c 1239 */;
+	struct mvebu_mbus_state *cocci_id/* drivers/bus/mvebu-mbus.c 1238 */;
+	int __init cocci_id/* drivers/bus/mvebu-mbus.c 1238 */;
+	__be32 cocci_id/* drivers/bus/mvebu-mbus.c 1218 */;
+	const __be32 **cocci_id/* drivers/bus/mvebu-mbus.c 1205 */;
+	int *cocci_id/* drivers/bus/mvebu-mbus.c 1204 */;
+	int __init cocci_id/* drivers/bus/mvebu-mbus.c 1202 */;
+	const char *cocci_id/* drivers/bus/mvebu-mbus.c 1146 */;
+	struct mvebu_mbus_soc_data {
+		unsigned int num_wins;
+		bool has_mbus_bridge;
+		unsigned int (*win_cfg_offset)(const int win);
+		unsigned int (*win_remap_offset)(const int win);
+		void (*setup_cpu_target)(struct mvebu_mbus_state *s);
+		int (*save_cpu_target)(struct mvebu_mbus_state *s,
+				       u32 __iomem *store_addr);
+		int (*show_cpu_target)(struct mvebu_mbus_state *s,
+				       struct seq_file *seq, void *v);
+	} cocci_id/* drivers/bus/mvebu-mbus.c 113 */;
+	bool cocci_id/* drivers/bus/mvebu-mbus.c 1104 */;
+	struct syscore_ops cocci_id/* drivers/bus/mvebu-mbus.c 1092 */;
+}

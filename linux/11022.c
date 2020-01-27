@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	const struct sysfs_ops cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 99 */;
+	struct kobject *cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 94 */;
+	bool cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 872 */;
+	struct kfd_process_device cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 859 */;
+	struct kfd_process_device *cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 832 */;
+	char *cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 78 */;
+	struct attribute *cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 77 */;
+	ssize_t cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 77 */;
+	struct kfd_procfs_tree cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 75 */;
+	struct kfd_procfs_tree {
+		struct kobject *kobj;
+	} cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 71 */;
+	unsigned int cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 689 */;
+	struct kfd_dev *cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 687 */;
+	struct qcm_process_device *cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 686 */;
+	void cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 68 */(struct work_struct *work);
+	uintptr_t cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 666 */;
+	int cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 66 */(struct kfd_process *p,
+								      struct file *filep);
+	struct kfd_process *cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 65 */(const struct task_struct *thread);
+	void cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 64 */(struct kref *ref);
+	int cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 625 */;
+	const struct task_struct *cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 622 */;
+	struct kfd_process *cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 622 */;
+	int64_t cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 565 */;
+	const struct mmu_notifier_ops cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 546 */;
+	struct workqueue_struct *cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 53 */;
+	struct mm_struct *cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 495 */;
+	struct mmu_notifier *cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 489 */;
+	struct kref *cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 481 */;
+	unsigned long cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 434 */;
+	struct mm_struct cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 36 */;
+	const struct mm_struct *cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 350 */;
+	struct task_struct *cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 270 */;
+	struct file *cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 267 */;
+	struct kgd_mem *cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 181 */;
+	void **cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 178 */;
+	uint64_t cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 177 */;
+	uint32_t cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 177 */;
+	struct seq_file *cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 1169 */;
+	void *cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 1169 */;
+	const struct kfd2kgd_calls *cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 1154 */;
+	struct vm_area_struct *cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 1121 */;
+	struct kobj_type cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 103 */;
+	struct kfd_process cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 1015 */;
+	struct delayed_work *cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 1008 */;
+	struct work_struct *cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 1004 */;
+	void cocci_id/* drivers/gpu/drm/amd/amdkfd/kfd_process.c 1004 */;
+}

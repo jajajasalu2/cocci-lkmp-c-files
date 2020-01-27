@@ -1,0 +1,76 @@
+cocci_test_suite() {
+	const unsigned char *cocci_id/* drivers/tty/isicom.c 932 */;
+	struct file *cocci_id/* drivers/tty/isicom.c 917 */;
+	struct isi_port cocci_id/* drivers/tty/isicom.c 799 */;
+	struct tty_struct *cocci_id/* drivers/tty/isicom.c 797 */;
+	struct tty_port *cocci_id/* drivers/tty/isicom.c 797 */;
+	unsigned char cocci_id/* drivers/tty/isicom.c 682 */;
+	unsigned char *cocci_id/* drivers/tty/isicom.c 515 */;
+	short cocci_id/* drivers/tty/isicom.c 514 */;
+	irqreturn_t cocci_id/* drivers/tty/isicom.c 507 */;
+	void *cocci_id/* drivers/tty/isicom.c 507 */;
+	struct timer_list *cocci_id/* drivers/tty/isicom.c 393 */;
+	const char *cocci_id/* drivers/tty/isicom.c 370 */;
+	char *cocci_id/* drivers/tty/isicom.c 370 */;
+	const struct isi_port *cocci_id/* drivers/tty/isicom.c 369 */;
+	u16 cocci_id/* drivers/tty/isicom.c 279 */;
+	struct isi_board *cocci_id/* drivers/tty/isicom.c 277 */;
+	struct isi_port *cocci_id/* drivers/tty/isicom.c 275 */;
+	void cocci_id/* drivers/tty/isicom.c 275 */;
+	unsigned int cocci_id/* drivers/tty/isicom.c 221 */;
+	unsigned long cocci_id/* drivers/tty/isicom.c 219 */;
+	int cocci_id/* drivers/tty/isicom.c 219 */;
+	struct isi_port cocci_id/* drivers/tty/isicom.c 211 */[PORT_COUNT];
+	struct isi_board cocci_id/* drivers/tty/isicom.c 210 */[BOARD_COUNT];
+	struct isi_port {
+		unsigned short magic;
+		struct tty_port port;
+		u16 channel;
+		u16 status;
+		struct isi_board *card;
+		unsigned char *xmit_buf;
+		int xmit_head;
+		int xmit_tail;
+		int xmit_cnt;
+	} cocci_id/* drivers/tty/isicom.c 198 */;
+	struct isi_board {
+		unsigned long base;
+		int irq;
+		unsigned char port_count;
+		unsigned short status;
+		unsigned short port_status;
+		unsigned short shift_count;
+		struct isi_port *ports;
+		signed char count;
+		spinlock_t card_lock;
+		unsigned long flags;
+		unsigned int index;
+	} cocci_id/* drivers/tty/isicom.c 184 */;
+	signed char cocci_id/* drivers/tty/isicom.c 180 */[];
+	void cocci_id/* drivers/tty/isicom.c 174 */(struct tty_struct *tty);
+	void cocci_id/* drivers/tty/isicom.c 173 */(struct timer_list *unused);
+	struct tty_driver *cocci_id/* drivers/tty/isicom.c 171 */;
+	void __exit cocci_id/* drivers/tty/isicom.c 1680 */;
+	struct pci_driver cocci_id/* drivers/tty/isicom.c 163 */;
+	int __init cocci_id/* drivers/tty/isicom.c 1618 */;
+	const struct pci_device_id *cocci_id/* drivers/tty/isicom.c 1515 */;
+	struct pci_dev *cocci_id/* drivers/tty/isicom.c 1514 */;
+	const struct pci_device_id cocci_id/* drivers/tty/isicom.c 149 */[];
+	void cocci_id/* drivers/tty/isicom.c 147 */(struct pci_dev *);
+	int cocci_id/* drivers/tty/isicom.c 146 */(struct pci_dev *,
+						   const struct pci_device_id *);
+	struct stframe *cocci_id/* drivers/tty/isicom.c 1379 */;
+	struct stframe {
+		u16 addr;
+		u16 count;
+		u8 data[0];
+	} *cocci_id/* drivers/tty/isicom.c 1346 */;
+	u8 *cocci_id/* drivers/tty/isicom.c 1344 */;
+	const struct firmware *cocci_id/* drivers/tty/isicom.c 1338 */;
+	const unsigned int cocci_id/* drivers/tty/isicom.c 1335 */;
+	unsigned int *cocci_id/* drivers/tty/isicom.c 1274 */;
+	const struct tty_port_operations cocci_id/* drivers/tty/isicom.c 1266 */;
+	const struct tty_operations cocci_id/* drivers/tty/isicom.c 1244 */;
+	struct ktermios *cocci_id/* drivers/tty/isicom.c 1154 */;
+	struct serial_struct *cocci_id/* drivers/tty/isicom.c 1132 */;
+}

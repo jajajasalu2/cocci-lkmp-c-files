@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	struct clk_iomap *cocci_id/* drivers/clk/ti/clk.c 86 */;
+	const struct clk_omap_reg *cocci_id/* drivers/clk/ti/clk.c 83 */;
+	u32 cocci_id/* drivers/clk/ti/clk.c 60 */;
+	void __iomem *cocci_id/* drivers/clk/ti/clk.c 60 */;
+	void cocci_id/* drivers/clk/ti/clk.c 60 */;
+	bool cocci_id/* drivers/clk/ti/clk.c 589 */;
+	struct clk_hw *cocci_id/* drivers/clk/ti/clk.c 589 */;
+	struct clk_hw_omap *cocci_id/* drivers/clk/ti/clk.c 571 */;
+	int (*cocci_id/* drivers/clk/ti/clk.c 568 */)(struct clk_hw_omap *hw);
+	struct clk_lookup *cocci_id/* drivers/clk/ti/clk.c 479 */;
+	const char *cocci_id/* drivers/clk/ti/clk.c 477 */;
+	struct device *cocci_id/* drivers/clk/ti/clk.c 477 */;
+	struct clk_iomap *cocci_id/* drivers/clk/ti/clk.c 46 */[CLK_MAX_MEMMAPS];
+	int cocci_id/* drivers/clk/ti/clk.c 456 */;
+	struct clk *cocci_id/* drivers/clk/ti/clk.c 455 */;
+	u8 cocci_id/* drivers/clk/ti/clk.c 453 */;
+	const char **cocci_id/* drivers/clk/ti/clk.c 453 */;
+	const struct ti_clk_features *cocci_id/* drivers/clk/ti/clk.c 438 */;
+	struct ti_clk_features *cocci_id/* drivers/clk/ti/clk.c 427 */;
+	struct of_phandle_args cocci_id/* drivers/clk/ti/clk.c 411 */;
+	struct clk_iomap {
+		struct regmap *regmap;
+		void __iomem *mem;
+	} cocci_id/* drivers/clk/ti/clk.c 41 */;
+	const struct of_device_id cocci_id/* drivers/clk/ti/clk.c 394 */[]__initconst;
+	struct ti_clk_features cocci_id/* drivers/clk/ti/clk.c 39 */;
+	struct device_node *cocci_id/* drivers/clk/ti/clk.c 37 */[CLK_MAX_MEMMAPS];
+	struct ti_clk_ll_ops *cocci_id/* drivers/clk/ti/clk.c 36 */;
+	void __init cocci_id/* drivers/clk/ti/clk.c 355 */;
+	struct regmap *cocci_id/* drivers/clk/ti/clk.c 321 */;
+	struct device_node *cocci_id/* drivers/clk/ti/clk.c 320 */;
+	int __init cocci_id/* drivers/clk/ti/clk.c 320 */;
+	s8 cocci_id/* drivers/clk/ti/clk.c 292 */;
+	struct clk_omap_reg *cocci_id/* drivers/clk/ti/clk.c 264 */;
+	struct clk_init_item *cocci_id/* drivers/clk/ti/clk.c 238 */;
+	ti_of_clk_init_cb_t cocci_id/* drivers/clk/ti/clk.c 236 */;
+	void *cocci_id/* drivers/clk/ti/clk.c 235 */;
+	struct clk_init_item {
+		struct device_node *node;
+		void *user;
+		ti_of_clk_init_cb_t func;
+		struct list_head link;
+	} cocci_id/* drivers/clk/ti/clk.c 217 */;
+	char *cocci_id/* drivers/clk/ti/clk.c 139 */[2];
+	char *cocci_id/* drivers/clk/ti/clk.c 138 */;
+	char cocci_id/* drivers/clk/ti/clk.c 137 */[64];
+	struct ti_dt_clk *cocci_id/* drivers/clk/ti/clk.c 133 */;
+	struct ti_dt_clk cocci_id/* drivers/clk/ti/clk.c 131 */[];
+}

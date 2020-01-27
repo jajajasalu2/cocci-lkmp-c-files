@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct cachefiles_object cocci_id/* fs/cachefiles/namei.c 904 */;
+	unsigned long cocci_id/* fs/cachefiles/namei.c 870 */;
+	struct rb_node *cocci_id/* fs/cachefiles/namei.c 868 */;
+	char *cocci_id/* fs/cachefiles/namei.c 865 */;
+	const struct address_space_operations *cocci_id/* fs/cachefiles/namei.c 689 */;
+	struct cachefiles_cache cocci_id/* fs/cachefiles/namei.c 500 */;
+	struct cachefiles_xattr *cocci_id/* fs/cachefiles/namei.c 485 */;
+	uint32_t cocci_id/* fs/cachefiles/namei.c 336 */;
+	unsigned cocci_id/* fs/cachefiles/namei.c 32 */;
+	const u8 *cocci_id/* fs/cachefiles/namei.c 31 */;
+	struct fscache_cookie *cocci_id/* fs/cachefiles/namei.c 30 */;
+	char cocci_id/* fs/cachefiles/namei.c 296 */[8 + 8 + 1];
+	struct path cocci_id/* fs/cachefiles/namei.c 295 */;
+	enum fscache_why_object_killed cocci_id/* fs/cachefiles/namei.c 292 */;
+	bool cocci_id/* fs/cachefiles/namei.c 291 */;
+	struct dentry *cocci_id/* fs/cachefiles/namei.c 289 */;
+	struct cachefiles_cache *cocci_id/* fs/cachefiles/namei.c 287 */;
+	int cocci_id/* fs/cachefiles/namei.c 287 */;
+	const char *cocci_id/* fs/cachefiles/namei.c 28 */;
+	struct cachefiles_object *cocci_id/* fs/cachefiles/namei.c 27 */;
+	void cocci_id/* fs/cachefiles/namei.c 27 */;
+	struct inode *cocci_id/* fs/cachefiles/namei.c 261 */;
+	blkcnt_t cocci_id/* fs/cachefiles/namei.c 258 */;
+	enum fscache_obj_ref_trace cocci_id/* fs/cachefiles/namei.c 243 */;
+	wait_queue_entry_t cocci_id/* fs/cachefiles/namei.c 198 */;
+	signed long cocci_id/* fs/cachefiles/namei.c 197 */;
+	wait_queue_head_t *cocci_id/* fs/cachefiles/namei.c 195 */;
+	struct rb_node **cocci_id/* fs/cachefiles/namei.c 140 */;
+}

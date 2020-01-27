@@ -1,0 +1,58 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* net/wireless/lib80211_crypt_tkip.c 84 */;
+	void __exit cocci_id/* net/wireless/lib80211_crypt_tkip.c 732 */;
+	void cocci_id/* net/wireless/lib80211_crypt_tkip.c 732 */;
+	int __init cocci_id/* net/wireless/lib80211_crypt_tkip.c 727 */;
+	struct lib80211_crypto_ops cocci_id/* net/wireless/lib80211_crypt_tkip.c 708 */;
+	struct seq_file *cocci_id/* net/wireless/lib80211_crypt_tkip.c 682 */;
+	struct arc4_ctx *cocci_id/* net/wireless/lib80211_crypt_tkip.c 625 */;
+	struct crypto_shash *cocci_id/* net/wireless/lib80211_crypt_tkip.c 624 */;
+	u8 cocci_id/* net/wireless/lib80211_crypt_tkip.c 588 */[8];
+	char *cocci_id/* net/wireless/lib80211_crypt_tkip.c 581 */;
+	struct iw_michaelmicfailure cocci_id/* net/wireless/lib80211_crypt_tkip.c 568 */;
+	union iwreq_data cocci_id/* net/wireless/lib80211_crypt_tkip.c 567 */;
+	struct ieee80211_hdr *cocci_id/* net/wireless/lib80211_crypt_tkip.c 564 */;
+	struct net_device *cocci_id/* net/wireless/lib80211_crypt_tkip.c 563 */;
+	u8 *cocci_id/* net/wireless/lib80211_crypt_tkip.c 545 */;
+	struct lib80211_tkip_data *cocci_id/* net/wireless/lib80211_crypt_tkip.c 544 */;
+	void *cocci_id/* net/wireless/lib80211_crypt_tkip.c 542 */;
+	struct sk_buff *cocci_id/* net/wireless/lib80211_crypt_tkip.c 541 */;
+	int cocci_id/* net/wireless/lib80211_crypt_tkip.c 541 */;
+	size_t cocci_id/* net/wireless/lib80211_crypt_tkip.c 475 */;
+	struct lib80211_tkip_data {
+#define TKIP_KEY_LEN 32
+		u8 key[TKIP_KEY_LEN];
+		int key_set;
+		u32 tx_iv32;
+		u16 tx_iv16;
+		u16 tx_ttak[5];
+		int tx_phase1_done;
+		u32 rx_iv32;
+		u16 rx_iv16;
+		u16 rx_ttak[5];
+		int rx_phase1_done;
+		u32 rx_iv32_new;
+		u16 rx_iv16_new;
+		u32 dot11RSNAStatsTKIPReplays;
+		u32 dot11RSNAStatsTKIPICVErrors;
+		u32 dot11RSNAStatsTKIPLocalMICFailures;
+		int key_idx;
+		struct arc4_ctx rx_ctx_arc4;
+		struct arc4_ctx tx_ctx_arc4;
+		struct crypto_shash *rx_tfm_michael;
+		struct crypto_shash *tx_tfm_michael;
+		u8 rx_hdr[16],tx_hdr[16];
+		unsigned long flags;
+	} cocci_id/* net/wireless/lib80211_crypt_tkip.c 42 */;
+	u8 cocci_id/* net/wireless/lib80211_crypt_tkip.c 384 */[4];
+	u8 cocci_id/* net/wireless/lib80211_crypt_tkip.c 379 */[16];
+	s32 cocci_id/* net/wireless/lib80211_crypt_tkip.c 370 */;
+	const u16 *cocci_id/* net/wireless/lib80211_crypt_tkip.c 237 */;
+	const u8 *cocci_id/* net/wireless/lib80211_crypt_tkip.c 215 */;
+	u16 *cocci_id/* net/wireless/lib80211_crypt_tkip.c 215 */;
+	const u16 cocci_id/* net/wireless/lib80211_crypt_tkip.c 172 */[256];
+	__le16 *cocci_id/* net/wireless/lib80211_crypt_tkip.c 167 */;
+	u32 cocci_id/* net/wireless/lib80211_crypt_tkip.c 157 */;
+	u16 cocci_id/* net/wireless/lib80211_crypt_tkip.c 157 */;
+	u8 cocci_id/* net/wireless/lib80211_crypt_tkip.c 147 */;
+}

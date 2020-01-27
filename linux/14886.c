@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* drivers/clk/tegra/clk.c 97 */;
+	struct reset_controller_dev *cocci_id/* drivers/clk/tegra/clk.c 96 */;
+	void __iomem *cocci_id/* drivers/clk/tegra/clk.c 94 */;
+	int __init cocci_id/* drivers/clk/tegra/clk.c 375 */;
+	tegra_clk_apply_init_table_func cocci_id/* drivers/clk/tegra/clk.c 373 */;
+	struct tegra_clk *cocci_id/* drivers/clk/tegra/clk.c 365 */;
+	const struct tegra_clk_periph_regs cocci_id/* drivers/clk/tegra/clk.c 35 */[];
+	struct tegra_devclk *cocci_id/* drivers/clk/tegra/clk.c 349 */;
+	unsigned int cocci_id/* drivers/clk/tegra/clk.c 33 */;
+	void *cocci_id/* drivers/clk/tegra/clk.c 317 */;
+	struct device_node *cocci_id/* drivers/clk/tegra/clk.c 316 */;
+	void __init cocci_id/* drivers/clk/tegra/clk.c 316 */;
+	struct reset_controller_dev cocci_id/* drivers/clk/tegra/clk.c 310 */;
+	int (*cocci_id/* drivers/clk/tegra/clk.c 31 */)(unsigned long);
+	const struct reset_control_ops cocci_id/* drivers/clk/tegra/clk.c 304 */;
+	struct clk_onecell_data cocci_id/* drivers/clk/tegra/clk.c 28 */;
+	int cocci_id/* drivers/clk/tegra/clk.c 27 */;
+	struct tegra_clk_init_table *cocci_id/* drivers/clk/tegra/clk.c 262 */;
+	struct clk **cocci_id/* drivers/clk/tegra/clk.c 26 */;
+	struct clk *cocci_id/* drivers/clk/tegra/clk.c 251 */[];
+	struct tegra_clk_duplicate *cocci_id/* drivers/clk/tegra/clk.c 250 */;
+	u32 *cocci_id/* drivers/clk/tegra/clk.c 25 */;
+	struct clk *cocci_id/* drivers/clk/tegra/clk.c 233 */;
+	int *cocci_id/* drivers/clk/tegra/clk.c 23 */;
+	struct clk **__init cocci_id/* drivers/clk/tegra/clk.c 218 */;
+	struct tegra_cpu_car_ops *cocci_id/* drivers/clk/tegra/clk.c 21 */;
+	struct tegra_cpu_car_ops cocci_id/* drivers/clk/tegra/clk.c 20 */;
+	void cocci_id/* drivers/clk/tegra/clk.c 186 */;
+	u32 cocci_id/* drivers/clk/tegra/clk.c 161 */;
+	bool cocci_id/* drivers/clk/tegra/clk.c 159 */;
+	const struct tegra_clk_periph_regs *cocci_id/* drivers/clk/tegra/clk.c 147 */;
+}

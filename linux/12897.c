@@ -1,0 +1,60 @@
+cocci_test_suite() {
+	struct dimm_info *cocci_id/* drivers/edac/ppc4xx_edac.c 972 */;
+	struct csrow_info *cocci_id/* drivers/edac/ppc4xx_edac.c 919 */;
+	enum edac_type cocci_id/* drivers/edac/ppc4xx_edac.c 895 */;
+	enum mem_type cocci_id/* drivers/edac/ppc4xx_edac.c 859 */;
+	enum dev_type cocci_id/* drivers/edac/ppc4xx_edac.c 836 */;
+	void *cocci_id/* drivers/edac/ppc4xx_edac.c 810 */;
+	irqreturn_t cocci_id/* drivers/edac/ppc4xx_edac.c 809 */;
+	struct ppc4xx_ecc_status cocci_id/* drivers/edac/ppc4xx_edac.c 778 */;
+	struct mem_ctl_info *cocci_id/* drivers/edac/ppc4xx_edac.c 773 */;
+	const unsigned long cocci_id/* drivers/edac/ppc4xx_edac.c 747 */;
+	const u64 cocci_id/* drivers/edac/ppc4xx_edac.c 746 */;
+	u64 cocci_id/* drivers/edac/ppc4xx_edac.c 746 */;
+	const struct ppc4xx_edac_pdata *cocci_id/* drivers/edac/ppc4xx_edac.c 691 */;
+	const struct ppc4xx_ecc_status *cocci_id/* drivers/edac/ppc4xx_edac.c 689 */;
+	const struct mem_ctl_info *cocci_id/* drivers/edac/ppc4xx_edac.c 688 */;
+	struct ppc4xx_ecc_status *cocci_id/* drivers/edac/ppc4xx_edac.c 664 */;
+	char cocci_id/* drivers/edac/ppc4xx_edac.c 629 */[PPC4XX_EDAC_MESSAGE_SIZE];
+	const unsigned int cocci_id/* drivers/edac/ppc4xx_edac.c 438 */;
+	const char *cocci_id/* drivers/edac/ppc4xx_edac.c 379 */;
+	size_t cocci_id/* drivers/edac/ppc4xx_edac.c 314 */;
+	char *cocci_id/* drivers/edac/ppc4xx_edac.c 313 */;
+	int cocci_id/* drivers/edac/ppc4xx_edac.c 310 */;
+	bool cocci_id/* drivers/edac/ppc4xx_edac.c 279 */;
+	void cocci_id/* drivers/edac/ppc4xx_edac.c 258 */;
+	const dcr_host_t *cocci_id/* drivers/edac/ppc4xx_edac.c 242 */;
+	unsigned int cocci_id/* drivers/edac/ppc4xx_edac.c 242 */;
+	u32 cocci_id/* drivers/edac/ppc4xx_edac.c 241 */;
+	const char *const cocci_id/* drivers/edac/ppc4xx_edac.c 219 */[9];
+	const unsigned cocci_id/* drivers/edac/ppc4xx_edac.c 213 */;
+	struct platform_driver cocci_id/* drivers/edac/ppc4xx_edac.c 199 */;
+	const struct of_device_id cocci_id/* drivers/edac/ppc4xx_edac.c 191 */[];
+	int cocci_id/* drivers/edac/ppc4xx_edac.c 182 */(struct platform_device *device);
+	struct ppc4xx_ecc_status {
+		u32 ecces;
+		u32 besr;
+		u32 bearh;
+		u32 bearl;
+		u32 wmirq;
+	} cocci_id/* drivers/edac/ppc4xx_edac.c 172 */;
+	struct ppc4xx_edac_pdata {
+		dcr_host_t dcr_host;
+		struct {
+			int sec;
+			int ded;
+		} irqs;
+	} cocci_id/* drivers/edac/ppc4xx_edac.c 160 */;
+	void __exit cocci_id/* drivers/edac/ppc4xx_edac.c 1418 */;
+	int __init cocci_id/* drivers/edac/ppc4xx_edac.c 1401 */;
+	void __init cocci_id/* drivers/edac/ppc4xx_edac.c 1373 */;
+	struct ppc4xx_edac_pdata cocci_id/* drivers/edac/ppc4xx_edac.c 1282 */;
+	struct edac_mc_layer cocci_id/* drivers/edac/ppc4xx_edac.c 1229 */[2];
+	dcr_host_t cocci_id/* drivers/edac/ppc4xx_edac.c 1226 */;
+	dcr_host_t *cocci_id/* drivers/edac/ppc4xx_edac.c 1174 */;
+	const struct device_node *cocci_id/* drivers/edac/ppc4xx_edac.c 1173 */;
+	struct device_node *cocci_id/* drivers/edac/ppc4xx_edac.c 1101 */;
+	struct ppc4xx_edac_pdata *cocci_id/* drivers/edac/ppc4xx_edac.c 1012 */;
+	const u32 cocci_id/* drivers/edac/ppc4xx_edac.c 1011 */;
+	struct platform_device *cocci_id/* drivers/edac/ppc4xx_edac.c 1007 */;
+}

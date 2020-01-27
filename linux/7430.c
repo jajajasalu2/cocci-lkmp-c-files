@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	int cocci_id/* drivers/video/fbdev/vt8623fb.c 98 */;
+	char *cocci_id/* drivers/video/fbdev/vt8623fb.c 97 */;
+	int __init cocci_id/* drivers/video/fbdev/vt8623fb.c 915 */;
+	void __exit cocci_id/* drivers/video/fbdev/vt8623fb.c 907 */;
+	struct pci_driver cocci_id/* drivers/video/fbdev/vt8623fb.c 896 */;
+	const struct pci_device_id cocci_id/* drivers/video/fbdev/vt8623fb.c 889 */[];
+	const struct svga_timing_regs cocci_id/* drivers/video/fbdev/vt8623fb.c 84 */;
+	pm_message_t cocci_id/* drivers/video/fbdev/vt8623fb.c 821 */;
+	struct vga_regset cocci_id/* drivers/video/fbdev/vt8623fb.c 81 */[];
+	void cocci_id/* drivers/video/fbdev/vt8623fb.c 797 */;
+	void *cocci_id/* drivers/video/fbdev/vt8623fb.c 741 */;
+	void __iomem *cocci_id/* drivers/video/fbdev/vt8623fb.c 722 */;
+	unsigned long cocci_id/* drivers/video/fbdev/vt8623fb.c 722 */;
+	struct vt8623fb_info cocci_id/* drivers/video/fbdev/vt8623fb.c 671 */;
+	unsigned int cocci_id/* drivers/video/fbdev/vt8623fb.c 661 */;
+	struct vt8623fb_info *cocci_id/* drivers/video/fbdev/vt8623fb.c 660 */;
+	struct fb_info *cocci_id/* drivers/video/fbdev/vt8623fb.c 659 */;
+	struct resource cocci_id/* drivers/video/fbdev/vt8623fb.c 658 */;
+	struct pci_bus_region cocci_id/* drivers/video/fbdev/vt8623fb.c 657 */;
+	const struct pci_device_id *cocci_id/* drivers/video/fbdev/vt8623fb.c 655 */;
+	struct pci_dev *cocci_id/* drivers/video/fbdev/vt8623fb.c 655 */;
+	struct fb_ops cocci_id/* drivers/video/fbdev/vt8623fb.c 637 */;
+	const struct svga_pll cocci_id/* drivers/video/fbdev/vt8623fb.c 60 */;
+	u32 *cocci_id/* drivers/video/fbdev/vt8623fb.c 548 */;
+	u_int cocci_id/* drivers/video/fbdev/vt8623fb.c 518 */;
+	const struct svga_fb_format cocci_id/* drivers/video/fbdev/vt8623fb.c 42 */[];
+	struct fb_var_screeninfo *cocci_id/* drivers/video/fbdev/vt8623fb.c 320 */;
+	struct vt8623fb_info {
+		char __iomem *mmio_base;
+		int wc_cookie;
+		struct vgastate state;
+		struct mutex open_lock;
+		unsigned int ref_count;
+		u32 pseudo_palette[16];
+	} cocci_id/* drivers/video/fbdev/vt8623fb.c 29 */;
+	struct vgastate cocci_id/* drivers/video/fbdev/vt8623fb.c 287 */;
+	u8 cocci_id/* drivers/video/fbdev/vt8623fb.c 254 */;
+	u16 cocci_id/* drivers/video/fbdev/vt8623fb.c 253 */;
+	const struct fb_fillrect *cocci_id/* drivers/video/fbdev/vt8623fb.c 236 */;
+	u32 __iomem *cocci_id/* drivers/video/fbdev/vt8623fb.c 203 */;
+	u8 __iomem *cocci_id/* drivers/video/fbdev/vt8623fb.c 202 */;
+	const u8 *cocci_id/* drivers/video/fbdev/vt8623fb.c 201 */;
+	const struct fb_image *cocci_id/* drivers/video/fbdev/vt8623fb.c 197 */;
+	u32 cocci_id/* drivers/video/fbdev/vt8623fb.c 135 */;
+	struct fb_tile_ops cocci_id/* drivers/video/fbdev/vt8623fb.c 121 */;
+	struct fb_tilecursor *cocci_id/* drivers/video/fbdev/vt8623fb.c 114 */;
+}

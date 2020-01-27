@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* sound/isa/sb/emu8000_pcm.c 79 */;
+	struct snd_card *cocci_id/* sound/isa/sb/emu8000_pcm.c 681 */;
+	struct snd_pcm *cocci_id/* sound/isa/sb/emu8000_pcm.c 675 */;
+	const struct snd_pcm_ops cocci_id/* sound/isa/sb/emu8000_pcm.c 660 */;
+	snd_pcm_uframes_t cocci_id/* sound/isa/sb/emu8000_pcm.c 651 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/isa/sb/emu8000_pcm.c 563 */;
+	void *cocci_id/* sound/isa/sb/emu8000_pcm.c 466 */;
+	void __user *cocci_id/* sound/isa/sb/emu8000_pcm.c 453 */;
+	unsigned long cocci_id/* sound/isa/sb/emu8000_pcm.c 452 */;
+	unsigned short cocci_id/* sound/isa/sb/emu8000_pcm.c 442 */;
+	unsigned short *cocci_id/* sound/isa/sb/emu8000_pcm.c 438 */;
+	enum{COPY_USER, COPY_KERNEL, FILL_SILENCE,} cocci_id/* sound/isa/sb/emu8000_pcm.c 412 */;
+	struct snd_emu8k_pcm {
+		struct snd_emu8000 *emu;
+		struct snd_pcm_substream *substream;
+		unsigned int allocated_bytes;
+		struct snd_util_memblk *block;
+		unsigned int offset;
+		unsigned int buf_size;
+		unsigned int period_size;
+		unsigned int loop_start[2];
+		unsigned int pitch;
+		int panning[2];
+		int last_ptr;
+		int period_pos;
+		int voices;
+		unsigned int dram_opened:1;
+		unsigned int running:1;
+		unsigned int timer_running:1;
+		struct timer_list timer;
+		spinlock_t timer_lock;
+	} cocci_id/* sound/isa/sb/emu8000_pcm.c 39 */;
+	int cocci_id/* sound/isa/sb/emu8000_pcm.c 255 */;
+	struct snd_pcm_substream *cocci_id/* sound/isa/sb/emu8000_pcm.c 244 */;
+	struct snd_pcm_runtime *cocci_id/* sound/isa/sb/emu8000_pcm.c 220 */;
+	struct timer_list *cocci_id/* sound/isa/sb/emu8000_pcm.c 183 */;
+	struct snd_emu8k_pcm *cocci_id/* sound/isa/sb/emu8000_pcm.c 171 */;
+	const struct snd_pcm_hardware cocci_id/* sound/isa/sb/emu8000_pcm.c 147 */;
+	struct snd_emu8000 *cocci_id/* sound/isa/sb/emu8000_pcm.c 119 */;
+	void cocci_id/* sound/isa/sb/emu8000_pcm.c 118 */;
+}

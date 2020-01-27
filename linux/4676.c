@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	const struct file_operations *cocci_id/* drivers/misc/cxl/api.c 57 */;
+	const char *cocci_id/* drivers/misc/cxl/api.c 56 */;
+	bool cocci_id/* drivers/misc/cxl/api.c 517 */;
+	struct cxl_afu *cocci_id/* drivers/misc/cxl/api.c 505 */;
+	struct cxl_context *cocci_id/* drivers/misc/cxl/api.c 503 */;
+	int cocci_id/* drivers/misc/cxl/api.c 503 */;
+	void __iomem *cocci_id/* drivers/misc/cxl/api.c 486 */;
+	struct cxl_ioctl_start_work *cocci_id/* drivers/misc/cxl/api.c 460 */;
+	unsigned int cocci_id/* drivers/misc/cxl/api.c 452 */;
+	void cocci_id/* drivers/misc/cxl/api.c 451 */;
+	struct cxl_afu_driver_ops *cocci_id/* drivers/misc/cxl/api.c 443 */;
+	struct file_system_type cocci_id/* drivers/misc/cxl/api.c 42 */;
+	char *cocci_id/* drivers/misc/cxl/api.c 392 */;
+	int *cocci_id/* drivers/misc/cxl/api.c 388 */;
+	struct file_operations *cocci_id/* drivers/misc/cxl/api.c 387 */;
+	loff_t *cocci_id/* drivers/misc/cxl/api.c 378 */;
+	char __user *cocci_id/* drivers/misc/cxl/api.c 377 */;
+	ssize_t cocci_id/* drivers/misc/cxl/api.c 377 */;
+	size_t cocci_id/* drivers/misc/cxl/api.c 377 */;
+	__poll_t cocci_id/* drivers/misc/cxl/api.c 372 */;
+	struct poll_table_struct *cocci_id/* drivers/misc/cxl/api.c 372 */;
+	struct fs_context *cocci_id/* drivers/misc/cxl/api.c 37 */;
+	struct vm_area_struct *cocci_id/* drivers/misc/cxl/api.c 367 */;
+	struct file *cocci_id/* drivers/misc/cxl/api.c 362 */;
+	unsigned long cocci_id/* drivers/misc/cxl/api.c 362 */;
+	long cocci_id/* drivers/misc/cxl/api.c 362 */;
+	struct inode *cocci_id/* drivers/misc/cxl/api.c 352 */;
+	struct vfsmount *cocci_id/* drivers/misc/cxl/api.c 35 */;
+	struct task_struct *cocci_id/* drivers/misc/cxl/api.c 266 */;
+	u64 cocci_id/* drivers/misc/cxl/api.c 265 */;
+	irq_handler_t cocci_id/* drivers/misc/cxl/api.c 231 */;
+	irq_hw_number_t cocci_id/* drivers/misc/cxl/api.c 185 */;
+	void *cocci_id/* drivers/misc/cxl/api.c 173 */;
+	__u16 cocci_id/* drivers/misc/cxl/api.c 148 */;
+	struct pci_dev *cocci_id/* drivers/misc/cxl/api.c 100 */;
+}

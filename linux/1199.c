@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct device_connection *cocci_id/* drivers/usb/roles/class.c 88 */;
+	void *cocci_id/* drivers/usb/roles/class.c 88 */;
+	void __exit cocci_id/* drivers/usb/roles/class.c 366 */;
+	int __init cocci_id/* drivers/usb/roles/class.c 359 */;
+	struct usb_role_switch cocci_id/* drivers/usb/roles/class.c 33 */;
+	const struct usb_role_switch_desc *cocci_id/* drivers/usb/roles/class.c 307 */;
+	const struct device_type cocci_id/* drivers/usb/roles/class.c 284 */;
+	struct kobj_uevent_env *cocci_id/* drivers/usb/roles/class.c 266 */;
+	const struct attribute_group *cocci_id/* drivers/usb/roles/class.c 260 */[];
+	const struct attribute_group cocci_id/* drivers/usb/roles/class.c 255 */;
+	struct attribute *cocci_id/* drivers/usb/roles/class.c 250 */[];
+	bool cocci_id/* drivers/usb/roles/class.c 234 */;
+	int cocci_id/* drivers/usb/roles/class.c 230 */;
+	const char *cocci_id/* drivers/usb/roles/class.c 227 */;
+	size_t cocci_id/* drivers/usb/roles/class.c 227 */;
+	enum usb_role cocci_id/* drivers/usb/roles/class.c 221 */;
+	struct device_attribute *cocci_id/* drivers/usb/roles/class.c 218 */;
+	struct device *cocci_id/* drivers/usb/roles/class.c 218 */;
+	char *cocci_id/* drivers/usb/roles/class.c 218 */;
+	ssize_t cocci_id/* drivers/usb/roles/class.c 217 */;
+	const char *const cocci_id/* drivers/usb/roles/class.c 211 */[];
+	typeof(*dev) cocci_id/* drivers/usb/roles/class.c 202 */;
+	struct kobject *cocci_id/* drivers/usb/roles/class.c 200 */;
+	struct attribute *cocci_id/* drivers/usb/roles/class.c 200 */;
+	umode_t cocci_id/* drivers/usb/roles/class.c 199 */;
+	struct usb_role_switch {
+		struct device dev;
+		struct mutex lock;
+		enum usb_role role;
+		struct device *usb2_port;
+		struct device *usb3_port;
+		struct device *udc;
+		usb_role_switch_set_t set;
+		usb_role_switch_get_t get;
+		bool allow_userspace_control;
+	} cocci_id/* drivers/usb/roles/class.c 19 */;
+	const struct fwnode_handle *cocci_id/* drivers/usb/roles/class.c 186 */;
+	struct class *cocci_id/* drivers/usb/roles/class.c 17 */;
+	void cocci_id/* drivers/usb/roles/class.c 169 */;
+	struct usb_role_switch *cocci_id/* drivers/usb/roles/class.c 148 */;
+	struct fwnode_handle *cocci_id/* drivers/usb/roles/class.c 148 */;
+}

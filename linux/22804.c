@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	struct ps3_system_bus_device *cocci_id/* sound/ppc/snd_ps3.c 912 */;
+	struct snd_ps3_card_info *cocci_id/* sound/ppc/snd_ps3.c 866 */;
+	uint64_t cocci_id/* sound/ppc/snd_ps3.c 850 */;
+	u64 __iomem *cocci_id/* sound/ppc/snd_ps3.c 796 */;
+	u64 cocci_id/* sound/ppc/snd_ps3.c 795 */;
+	void cocci_id/* sound/ppc/snd_ps3.c 792 */;
+	const struct snd_pcm_hardware cocci_id/* sound/ppc/snd_ps3.c 79 */;
+	const struct snd_pcm_ops cocci_id/* sound/ppc/snd_ps3.c 758 */;
+	struct snd_kcontrol_new cocci_id/* sound/ppc/snd_ps3.c 734 */[];
+	struct snd_ctl_elem_value *cocci_id/* sound/ppc/snd_ps3.c 705 */;
+	struct snd_kcontrol *cocci_id/* sound/ppc/snd_ps3.c 704 */;
+	struct snd_ctl_elem_info *cocci_id/* sound/ppc/snd_ps3.c 696 */;
+	snd_pcm_uframes_t cocci_id/* sound/ppc/snd_ps3.c 673 */;
+	unsigned long cocci_id/* sound/ppc/snd_ps3.c 580 */;
+	u32 cocci_id/* sound/ppc/snd_ps3.c 57 */;
+	unsigned int cocci_id/* sound/ppc/snd_ps3.c 57 */;
+	struct snd_pcm_substream *cocci_id/* sound/ppc/snd_ps3.c 554 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/ppc/snd_ps3.c 539 */;
+	struct snd_pcm_runtime *cocci_id/* sound/ppc/snd_ps3.c 513 */;
+	char *cocci_id/* sound/ppc/snd_ps3.c 46 */;
+	int cocci_id/* sound/ppc/snd_ps3.c 45 */;
+	struct snd_ps3_avsetting_info cocci_id/* sound/ppc/snd_ps3.c 441 */;
+	struct snd_ps3_card_info cocci_id/* sound/ppc/snd_ps3.c 38 */;
+	uint32_t cocci_id/* sound/ppc/snd_ps3.c 303 */;
+	irqreturn_t cocci_id/* sound/ppc/snd_ps3.c 300 */;
+	void *cocci_id/* sound/ppc/snd_ps3.c 300 */;
+	enum snd_ps3_dma_filltype cocci_id/* sound/ppc/snd_ps3.c 217 */;
+	enum snd_ps3_ch cocci_id/* sound/ppc/snd_ps3.c 201 */;
+	size_t cocci_id/* sound/ppc/snd_ps3.c 201 */;
+	dma_addr_t cocci_id/* sound/ppc/snd_ps3.c 189 */;
+	void __exit cocci_id/* sound/ppc/snd_ps3.c 1134 */;
+	int __init cocci_id/* sound/ppc/snd_ps3.c 1117 */;
+	struct ps3_system_bus_driver cocci_id/* sound/ppc/snd_ps3.c 1102 */;
+}

@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	struct dvb_tuner_ops cocci_id/* drivers/media/tuners/mxl5007t.c 910 */;
+	struct mxl5007t_state cocci_id/* drivers/media/tuners/mxl5007t.c 853 */;
+	int cocci_id/* drivers/media/tuners/mxl5007t.c 850 */;
+	struct mxl5007t_state *cocci_id/* drivers/media/tuners/mxl5007t.c 849 */;
+	struct mxl5007t_config *cocci_id/* drivers/media/tuners/mxl5007t.c 847 */;
+	u8 cocci_id/* drivers/media/tuners/mxl5007t.c 846 */;
+	struct i2c_adapter *cocci_id/* drivers/media/tuners/mxl5007t.c 846 */;
+	struct dvb_frontend *cocci_id/* drivers/media/tuners/mxl5007t.c 845 */;
+	char *cocci_id/* drivers/media/tuners/mxl5007t.c 796 */;
+	const struct dvb_tuner_ops cocci_id/* drivers/media/tuners/mxl5007t.c 780 */;
+	struct reg_pair_t cocci_id/* drivers/media/tuners/mxl5007t.c 78 */[];
+	u32 *cocci_id/* drivers/media/tuners/mxl5007t.c 713 */;
+	struct reg_pair_t {
+		u8 reg;
+		u8 val;
+	} cocci_id/* drivers/media/tuners/mxl5007t.c 71 */;
+	struct dtv_frontend_properties *cocci_id/* drivers/media/tuners/mxl5007t.c 601 */;
+	enum mxl5007t_chip_version{MxL_UNKNOWN_ID=0x00, MxL_5007_V1_F1=0x11, MxL_5007_V1_F2=0x12, MxL_5007_V4=0x14, MxL_5007_V2_100_F1=0x21, MxL_5007_V2_100_F2=0x22, MxL_5007_V2_200_F1=0x23, MxL_5007_V2_200_F2=0x24,} cocci_id/* drivers/media/tuners/mxl5007t.c 60 */;
+	int *cocci_id/* drivers/media/tuners/mxl5007t.c 549 */;
+	enum mxl5007t_mode{MxL_MODE_ISDBT=0, MxL_MODE_DVBT=1, MxL_MODE_ATSC=2, MxL_MODE_CABLE=0x10,} cocci_id/* drivers/media/tuners/mxl5007t.c 53 */;
+	struct i2c_msg cocci_id/* drivers/media/tuners/mxl5007t.c 499 */;
+	struct i2c_msg cocci_id/* drivers/media/tuners/mxl5007t.c 480 */[];
+	u8 cocci_id/* drivers/media/tuners/mxl5007t.c 479 */[2];
+	u8 *cocci_id/* drivers/media/tuners/mxl5007t.c 477 */;
+	u8 cocci_id/* drivers/media/tuners/mxl5007t.c 450 */[];
+	u32 cocci_id/* drivers/media/tuners/mxl5007t.c 407 */;
+	enum mxl5007t_bw_mhz cocci_id/* drivers/media/tuners/mxl5007t.c 407 */;
+	enum mxl5007t_bw_mhz{MxL_BW_6MHz=6, MxL_BW_7MHz=7, MxL_BW_8MHz=8,} cocci_id/* drivers/media/tuners/mxl5007t.c 374 */;
+	enum mxl5007t_mode cocci_id/* drivers/media/tuners/mxl5007t.c 351 */;
+	enum mxl5007t_xtal_freq cocci_id/* drivers/media/tuners/mxl5007t.c 282 */;
+	enum mxl5007t_if_freq cocci_id/* drivers/media/tuners/mxl5007t.c 228 */;
+	s32 cocci_id/* drivers/media/tuners/mxl5007t.c 203 */;
+	unsigned int cocci_id/* drivers/media/tuners/mxl5007t.c 181 */;
+	struct reg_pair_t *cocci_id/* drivers/media/tuners/mxl5007t.c 178 */;
+	void cocci_id/* drivers/media/tuners/mxl5007t.c 178 */;
+	struct mxl5007t_state {
+		struct list_head hybrid_tuner_instance_list;
+		struct tuner_i2c_props i2c_props;
+		struct mutex lock;
+		struct mxl5007t_config *config;
+		enum mxl5007t_chip_version chip_id;
+		struct reg_pair_t tab_init[ARRAY_SIZE(init_tab)];
+		struct reg_pair_t tab_init_cable[ARRAY_SIZE(init_tab_cable)];
+		struct reg_pair_t tab_rftune[ARRAY_SIZE(reg_pair_rftune)];
+		enum mxl5007t_if_freq if_freq;
+		u32 frequency;
+		u32 bandwidth;
+	} cocci_id/* drivers/media/tuners/mxl5007t.c 139 */;
+}

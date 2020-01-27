@@ -1,0 +1,94 @@
+cocci_test_suite() {
+	__le32 cocci_id/* drivers/usb/atm/cxacru.c 996 */;
+	__le16 cocci_id/* drivers/usb/atm/cxacru.c 994 */[];
+	u8 cocci_id/* drivers/usb/atm/cxacru.c 940 */;
+	const u8 *cocci_id/* drivers/usb/atm/cxacru.c 940 */;
+	enum cxacru_fw_request cocci_id/* drivers/usb/atm/cxacru.c 939 */;
+	u32 cocci_id/* drivers/usb/atm/cxacru.c 826 */[CXINF_MAX];
+	struct cxacru_data cocci_id/* drivers/usb/atm/cxacru.c 825 */;
+	struct work_struct *cocci_id/* drivers/usb/atm/cxacru.c 822 */;
+	struct usb_interface *cocci_id/* drivers/usb/atm/cxacru.c 774 */;
+	struct atm_dev *cocci_id/* drivers/usb/atm/cxacru.c 771 */;
+	struct usbatm_data *cocci_id/* drivers/usb/atm/cxacru.c 770 */;
+	unsigned int cocci_id/* drivers/usb/atm/cxacru.c 715 */;
+	__le32 *cocci_id/* drivers/usb/atm/cxacru.c 713 */;
+	u32 *cocci_id/* drivers/usb/atm/cxacru.c 710 */;
+	enum cxacru_cm_request{CM_REQUEST_UNDEFINED=0x80, CM_REQUEST_TEST, CM_REQUEST_CHIP_GET_MAC_ADDRESS, CM_REQUEST_CHIP_GET_DP_VERSIONS, CM_REQUEST_CHIP_ADSL_LINE_START, CM_REQUEST_CHIP_ADSL_LINE_STOP, CM_REQUEST_CHIP_ADSL_LINE_GET_STATUS, CM_REQUEST_CHIP_ADSL_LINE_GET_SPEED, CM_REQUEST_CARD_INFO_GET, CM_REQUEST_CARD_DATA_GET, CM_REQUEST_CARD_DATA_SET, CM_REQUEST_COMMAND_HW_IO, CM_REQUEST_INTERFACE_HW_IO, CM_REQUEST_CARD_SERIAL_DATA_PATH_GET, CM_REQUEST_CARD_SERIAL_DATA_PATH_SET, CM_REQUEST_CARD_CONTROLLER_VERSION_GET, CM_REQUEST_CARD_GET_STATUS, CM_REQUEST_CARD_GET_MAC_ADDRESS, CM_REQUEST_CARD_GET_DATA_LINK_STATUS, CM_REQUEST_MAX,} cocci_id/* drivers/usb/atm/cxacru.c 71 */;
+	const int cocci_id/* drivers/usb/atm/cxacru.c 614 */;
+	enum cxacru_cm_request cocci_id/* drivers/usb/atm/cxacru.c 609 */;
+	struct cxacru_timer cocci_id/* drivers/usb/atm/cxacru.c 594 */;
+	int *cocci_id/* drivers/usb/atm/cxacru.c 592 */;
+	struct completion *cocci_id/* drivers/usb/atm/cxacru.c 591 */;
+	enum cxacru_fw_request{FW_CMD_ERR, FW_GET_VER, FW_READ_MEM, FW_WRITE_MEM, FW_RMW_MEM, FW_CHECKSUM_MEM, FW_GOTO_MEM,} cocci_id/* drivers/usb/atm/cxacru.c 59 */;
+	struct cxacru_timer *cocci_id/* drivers/usb/atm/cxacru.c 586 */;
+	struct timer_list *cocci_id/* drivers/usb/atm/cxacru.c 584 */;
+	struct cxacru_timer {
+		struct timer_list timer;
+		struct urb *urb;
+	} cocci_id/* drivers/usb/atm/cxacru.c 579 */;
+	struct urb *cocci_id/* drivers/usb/atm/cxacru.c 574 */;
+	void cocci_id/* drivers/usb/atm/cxacru.c 574 */;
+	struct attribute *cocci_id/* drivers/usb/atm/cxacru.c 542 */[];
+	u8 *cocci_id/* drivers/usb/atm/cxacru.c 483 */;
+	char cocci_id/* drivers/usb/atm/cxacru.c 479 */[CMD_MAX_CONFIG * 12 + 1];
+	u32 cocci_id/* drivers/usb/atm/cxacru.c 455 */;
+	__le32 cocci_id/* drivers/usb/atm/cxacru.c 443 */[CMD_PACKET_SIZE / 4];
+	int cocci_id/* drivers/usb/atm/cxacru.c 441 */;
+	struct cxacru_data *cocci_id/* drivers/usb/atm/cxacru.c 439 */;
+	const char *cocci_id/* drivers/usb/atm/cxacru.c 437 */;
+	struct device_attribute *cocci_id/* drivers/usb/atm/cxacru.c 437 */;
+	size_t cocci_id/* drivers/usb/atm/cxacru.c 437 */;
+	struct device *cocci_id/* drivers/usb/atm/cxacru.c 436 */;
+	ssize_t cocci_id/* drivers/usb/atm/cxacru.c 436 */;
+	char cocci_id/* drivers/usb/atm/cxacru.c 340 */[8];
+	const char cocci_id/* drivers/usb/atm/cxacru.c 34 */[];
+	char *cocci_id/* drivers/usb/atm/cxacru.c 319 */[];
+	char *cocci_id/* drivers/usb/atm/cxacru.c 317 */;
+	s16 cocci_id/* drivers/usb/atm/cxacru.c 241 */;
+	s8 cocci_id/* drivers/usb/atm/cxacru.c 236 */;
+	void cocci_id/* drivers/usb/atm/cxacru.c 195 */(struct work_struct *work);
+	int cocci_id/* drivers/usb/atm/cxacru.c 193 */(struct cxacru_data *instance,
+						       enum cxacru_cm_request cm,
+						       u8 *wdata, int wsize,
+						       u8 *rdata, int rsize);
+	struct cxacru_data {
+		struct usbatm_data *usbatm;
+		const struct cxacru_modem_type *modem_type;
+		int line_status;
+		struct mutex adsl_state_serialize;
+		int adsl_status;
+		struct delayed_work poll_work;
+		u32 card_info[CXINF_MAX];
+		struct mutex poll_state_serialize;
+		enum cxacru_poll_state poll_state;
+		struct mutex cm_serialize;
+		u8 *rcv_buf;
+		u8 *snd_buf;
+		struct urb *rcv_urb;
+		struct urb *snd_urb;
+		struct completion rcv_done;
+		struct completion snd_done;
+	} cocci_id/* drivers/usb/atm/cxacru.c 170 */;
+	struct cxacru_modem_type {
+		u32 pll_f_clk;
+		u32 pll_b_clk;
+		int boot_rom_patch;
+	} cocci_id/* drivers/usb/atm/cxacru.c 164 */;
+	enum cxacru_poll_state{CXPOLL_STOPPING, CXPOLL_STOPPED, CXPOLL_POLLING, CXPOLL_SHUTDOWN,} cocci_id/* drivers/usb/atm/cxacru.c 157 */;
+	struct usb_driver cocci_id/* drivers/usb/atm/cxacru.c 1370 */;
+	char cocci_id/* drivers/usb/atm/cxacru.c 1353 */[15];
+	struct usbatm_driver cocci_id/* drivers/usb/atm/cxacru.c 1337 */;
+	const struct usb_device_id cocci_id/* drivers/usb/atm/cxacru.c 1280 */[];
+	enum cxacru_info_idx{CXINF_DOWNSTREAM_RATE, CXINF_UPSTREAM_RATE, CXINF_LINK_STATUS, CXINF_LINE_STATUS, CXINF_MAC_ADDRESS_HIGH, CXINF_MAC_ADDRESS_LOW, CXINF_UPSTREAM_SNR_MARGIN, CXINF_DOWNSTREAM_SNR_MARGIN, CXINF_UPSTREAM_ATTENUATION, CXINF_DOWNSTREAM_ATTENUATION, CXINF_TRANSMITTER_POWER, CXINF_UPSTREAM_BITS_PER_FRAME, CXINF_DOWNSTREAM_BITS_PER_FRAME, CXINF_STARTUP_ATTEMPTS, CXINF_UPSTREAM_CRC_ERRORS, CXINF_DOWNSTREAM_CRC_ERRORS, CXINF_UPSTREAM_FEC_ERRORS, CXINF_DOWNSTREAM_FEC_ERRORS, CXINF_UPSTREAM_HEC_ERRORS, CXINF_DOWNSTREAM_HEC_ERRORS, CXINF_LINE_STARTABLE, CXINF_MODULATION, CXINF_ADSL_HEADEND, CXINF_ADSL_HEADEND_ENVIRONMENT, CXINF_CONTROLLER_VERSION, CXINF_MAX=0x1c,} cocci_id/* drivers/usb/atm/cxacru.c 127 */;
+	const struct cxacru_modem_type cocci_id/* drivers/usb/atm/cxacru.c 1268 */;
+	unsigned long cocci_id/* drivers/usb/atm/cxacru.c 1218 */;
+	enum cxacru_cm_status{CM_STATUS_UNDEFINED, CM_STATUS_SUCCESS, CM_STATUS_ERROR, CM_STATUS_UNSUPPORTED, CM_STATUS_UNIMPLEMENTED, CM_STATUS_PARAMETER_ERROR, CM_STATUS_DBG_LOOPBACK, CM_STATUS_MAX,} cocci_id/* drivers/usb/atm/cxacru.c 115 */;
+	struct cxacru_modem_type *cocci_id/* drivers/usb/atm/cxacru.c 1146 */;
+	struct usb_host_endpoint *cocci_id/* drivers/usb/atm/cxacru.c 1137 */;
+	struct usb_device *cocci_id/* drivers/usb/atm/cxacru.c 1136 */;
+	const struct usb_device_id *cocci_id/* drivers/usb/atm/cxacru.c 1133 */;
+	const struct firmware *cocci_id/* drivers/usb/atm/cxacru.c 1099 */;
+	enum cxacru_cm_flash{CM_FLASH_READ=0xa1, CM_FLASH_WRITE=0xa2,} cocci_id/* drivers/usb/atm/cxacru.c 109 */;
+	char cocci_id/* drivers/usb/atm/cxacru.c 1081 */[16];
+	const struct firmware **cocci_id/* drivers/usb/atm/cxacru.c 1077 */;
+}

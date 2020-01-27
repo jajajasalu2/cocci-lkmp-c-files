@@ -1,0 +1,47 @@
+cocci_test_suite() {
+	struct usb_string cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 90 */[];
+	const struct usb_descriptor_header *cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 87 */[2];
+	unsigned int cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 76 */;
+	char *cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 75 */[GFS_MAX_DEVS];
+	struct usb_device_descriptor cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 64 */;
+	struct usb_configuration *cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 566 */;
+	int cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 566 */;
+	struct gfs_configuration cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 481 */;
+	int cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 41 */(struct usb_configuration *c);
+	struct gfs_configuration *cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 406 */;
+	struct usb_descriptor_header *cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 395 */;
+	struct usb_function *cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 36 */;
+	struct f_rndis_opts cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 352 */;
+	struct usb_function_instance *cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 35 */;
+	struct f_gether_opts cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 338 */;
+	struct f_gether_opts *cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 333 */;
+	struct f_ecm_opts cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 330 */;
+	struct f_ecm_opts *cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 325 */;
+	struct net_device *cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 315 */;
+	struct usb_composite_dev *cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 312 */;
+	 cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 31 */();
+	struct ffs_data *cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 300 */;
+	void cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 300 */;
+	struct ffs_dev *cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 260 */;
+	void *cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 260 */;
+	void __exit cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 241 */;
+	struct f_fs_opts *cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 179 */;
+	int __init cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 177 */;
+	struct usb_function **cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 161 */[];
+	struct usb_function_instance **cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 160 */;
+	bool cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 158 */;
+	struct usb_composite_driver cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 148 */;
+	int cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 143 */(struct usb_composite_dev *cdev);
+	void cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 142 */(struct ffs_data *ffs);
+	int cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 141 */(struct ffs_data *ffs);
+	void cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 140 */(struct ffs_dev *dev);
+	void *cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 139 */(struct ffs_dev *dev);
+	struct gfs_configuration cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 120 */[];
+	struct gfs_configuration {
+		struct usb_configuration c;
+		int (*eth)(struct usb_configuration *c);
+		int num;
+	} cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 114 */;
+	struct usb_gadget_strings cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 107 */;
+	struct usb_gadget_strings *cocci_id/* drivers/usb/gadget/legacy/g_ffs.c 106 */[];
+}

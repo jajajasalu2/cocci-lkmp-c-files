@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	struct bfa_msgq_rspq *cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 639 */;
+	bfa_msgq_mcfunc_t cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 617 */;
+	enum bfi_mclass cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 616 */;
+	struct bfa_msgq *cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 603 */;
+	struct bfa_ioc *cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 603 */;
+	u64 cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 590 */;
+	u32 cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 582 */;
+	enum bfa_ioc_event cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 553 */;
+	struct bfi_msgq_cfg_req cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 513 */;
+	struct bfi_msgq_cfg_req *cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 510 */;
+	struct bfi_msgq_mhdr *cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 463 */;
+	struct bfa_msgq_cmdq cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 43 */;
+	enum rspq_event cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 410 */;
+	enum cmdq_event{CMDQ_E_START=1, CMDQ_E_STOP=2, CMDQ_E_FAIL=3, CMDQ_E_POST=4, CMDQ_E_INIT_RESP=5, CMDQ_E_DB_READY=6,} cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 34 */;
+	struct bfa_msgq_rspq cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 322 */;
+	void cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 32 */(struct bfa_msgq_cmdq *cmdq);
+	enum rspq_event{RSPQ_E_START=1, RSPQ_E_STOP=2, RSPQ_E_FAIL=3, RSPQ_E_RESP=4, RSPQ_E_INIT_RESP=5, RSPQ_E_DB_READY=6,} cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 313 */;
+	void cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 311 */(struct bfa_msgq_rspq *rspq);
+	struct bfi_msgq_h2i_cmdq_copy_rsp cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 284 */;
+	struct bfi_msgq_h2i_cmdq_copy_rsp *cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 279 */;
+	struct bfi_msgq_i2h_cmdq_copy_req *cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 267 */;
+	void *cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 256 */;
+	struct bfa_msgq_cmd_entry cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 239 */;
+	struct bfi_msgq_i2h_db *cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 230 */;
+	struct bfi_mbmsg *cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 228 */;
+	u8 *cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 207 */;
+	int cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 205 */;
+	size_t cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 204 */;
+	struct bfa_msgq_cmdq *cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 202 */;
+	struct bfa_msgq_cmd_entry *cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 202 */;
+	void cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 201 */;
+	bfa_msgq_cmdcbfn_t cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 20 */;
+	struct bfi_msgq_h2i_db cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 190 */;
+	struct bfi_msgq_h2i_db *cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 187 */;
+	enum cmdq_event cocci_id/* drivers/net/ethernet/brocade/bna/bfa_msgq.c 152 */;
+}

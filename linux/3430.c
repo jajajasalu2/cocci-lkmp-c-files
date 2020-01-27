@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/macintosh/windfarm_pm72.c 834 */;
+	int __init cocci_id/* drivers/macintosh/windfarm_pm72.c 794 */;
+	struct wf_pid_state cocci_id/* drivers/macintosh/windfarm_pm72.c 79 */;
+	struct platform_driver cocci_id/* drivers/macintosh/windfarm_pm72.c 786 */;
+	struct platform_device *cocci_id/* drivers/macintosh/windfarm_pm72.c 772 */;
+	s64 cocci_id/* drivers/macintosh/windfarm_pm72.c 77 */;
+	struct notifier_block cocci_id/* drivers/macintosh/windfarm_pm72.c 768 */;
+	void *cocci_id/* drivers/macintosh/windfarm_pm72.c 752 */;
+	unsigned long cocci_id/* drivers/macintosh/windfarm_pm72.c 752 */;
+	struct notifier_block *cocci_id/* drivers/macintosh/windfarm_pm72.c 751 */;
+	u32 cocci_id/* drivers/macintosh/windfarm_pm72.c 75 */[CPU_TEMP_HIST_SIZE];
+	struct wf_cpu_pid_state cocci_id/* drivers/macintosh/windfarm_pm72.c 73 */[NR_CHIPS];
+	const struct mpu_data *cocci_id/* drivers/macintosh/windfarm_pm72.c 72 */[NR_CHIPS];
+	struct wf_control *cocci_id/* drivers/macintosh/windfarm_pm72.c 57 */;
+	struct wf_control *cocci_id/* drivers/macintosh/windfarm_pm72.c 54 */[NR_CHIPS];
+	const struct wf_pid_param cocci_id/* drivers/macintosh/windfarm_pm72.c 531 */;
+	const u32 *cocci_id/* drivers/macintosh/windfarm_pm72.c 513 */;
+	struct wf_sensor *cocci_id/* drivers/macintosh/windfarm_pm72.c 51 */;
+	struct device_node *cocci_id/* drivers/macintosh/windfarm_pm72.c 508 */;
+	struct wf_pid_param cocci_id/* drivers/macintosh/windfarm_pm72.c 507 */;
+	struct wf_sensor *cocci_id/* drivers/macintosh/windfarm_pm72.c 50 */[NR_CHIPS];
+	int cocci_id/* drivers/macintosh/windfarm_pm72.c 466 */;
+	s32 cocci_id/* drivers/macintosh/windfarm_pm72.c 465 */;
+	void cocci_id/* drivers/macintosh/windfarm_pm72.c 463 */;
+	const struct mpu_data *cocci_id/* drivers/macintosh/windfarm_pm72.c 395 */;
+	struct wf_cpu_pid_param cocci_id/* drivers/macintosh/windfarm_pm72.c 394 */;
+	struct wf_cpu_pid_state *cocci_id/* drivers/macintosh/windfarm_pm72.c 312 */;
+	u64 cocci_id/* drivers/macintosh/windfarm_pm72.c 243 */;
+	s32 *cocci_id/* drivers/macintosh/windfarm_pm72.c 208 */;
+	bool cocci_id/* drivers/macintosh/windfarm_pm72.c 129 */;
+}

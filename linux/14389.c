@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	enum fe_sec_tone_mode cocci_id/* drivers/media/dvb-frontends/tda10071.c 89 */;
+	struct tda10071_reg_val_mask cocci_id/* drivers/media/dvb-frontends/tda10071.c 760 */[];
+	u8 *cocci_id/* drivers/media/dvb-frontends/tda10071.c 758 */;
+	const struct firmware *cocci_id/* drivers/media/dvb-frontends/tda10071.c 757 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/tda10071.c 697 */[5];
+	struct dtv_frontend_properties *cocci_id/* drivers/media/dvb-frontends/tda10071.c 692 */;
+	enum fe_modulation cocci_id/* drivers/media/dvb-frontends/tda10071.c 554 */;
+	u32 *cocci_id/* drivers/media/dvb-frontends/tda10071.c 527 */;
+	u16 *cocci_id/* drivers/media/dvb-frontends/tda10071.c 511 */;
+	unsigned int cocci_id/* drivers/media/dvb-frontends/tda10071.c 44 */;
+	struct i2c_client *cocci_id/* drivers/media/dvb-frontends/tda10071.c 42 */;
+	struct tda10071_cmd *cocci_id/* drivers/media/dvb-frontends/tda10071.c 40 */;
+	struct tda10071_dev *cocci_id/* drivers/media/dvb-frontends/tda10071.c 39 */;
+	int cocci_id/* drivers/media/dvb-frontends/tda10071.c 39 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/tda10071.c 371 */[8];
+	enum fe_status *cocci_id/* drivers/media/dvb-frontends/tda10071.c 363 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/tda10071.c 307 */;
+	enum fe_sec_mini_cmd cocci_id/* drivers/media/dvb-frontends/tda10071.c 300 */;
+	struct tda10071_cmd cocci_id/* drivers/media/dvb-frontends/tda10071.c 244 */;
+	struct dvb_diseqc_slave_reply *cocci_id/* drivers/media/dvb-frontends/tda10071.c 240 */;
+	struct dvb_frontend *cocci_id/* drivers/media/dvb-frontends/tda10071.c 239 */;
+	struct dvb_diseqc_master_cmd *cocci_id/* drivers/media/dvb-frontends/tda10071.c 180 */;
+	enum fe_sec_voltage cocci_id/* drivers/media/dvb-frontends/tda10071.c 134 */;
+	struct i2c_driver cocci_id/* drivers/media/dvb-frontends/tda10071.c 1239 */;
+	const struct i2c_device_id cocci_id/* drivers/media/dvb-frontends/tda10071.c 1233 */[];
+	struct dvb_frontend_ops cocci_id/* drivers/media/dvb-frontends/tda10071.c 1207 */;
+	const struct regmap_config cocci_id/* drivers/media/dvb-frontends/tda10071.c 1154 */;
+	struct tda10071_platform_data *cocci_id/* drivers/media/dvb-frontends/tda10071.c 1151 */;
+	const struct i2c_device_id *cocci_id/* drivers/media/dvb-frontends/tda10071.c 1148 */;
+	struct dvb_frontend_tune_settings *cocci_id/* drivers/media/dvb-frontends/tda10071.c 1083 */;
+	const struct dvb_frontend_ops cocci_id/* drivers/media/dvb-frontends/tda10071.c 10 */;
+}

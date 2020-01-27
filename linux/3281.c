@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	const u8 cocci_id/* drivers/hwmon/smsc47m1.c 95 */[3];
+	void __exit cocci_id/* drivers/hwmon/smsc47m1.c 937 */;
+	void cocci_id/* drivers/hwmon/smsc47m1.c 937 */;
+	struct smsc47m1_sio_data cocci_id/* drivers/hwmon/smsc47m1.c 913 */;
+	int __init cocci_id/* drivers/hwmon/smsc47m1.c 909 */;
+	struct resource cocci_id/* drivers/hwmon/smsc47m1.c 863 */;
+	const struct smsc47m1_sio_data *cocci_id/* drivers/hwmon/smsc47m1.c 861 */;
+	struct platform_driver cocci_id/* drivers/hwmon/smsc47m1.c 853 */;
+	int __exit cocci_id/* drivers/hwmon/smsc47m1.c 843 */;
+	struct smsc47m1_data cocci_id/* drivers/hwmon/smsc47m1.c 727 */;
+	const char *const cocci_id/* drivers/hwmon/smsc47m1.c 716 */[];
+	struct resource *cocci_id/* drivers/hwmon/smsc47m1.c 712 */;
+	const u8 *cocci_id/* drivers/hwmon/smsc47m1.c 656 */;
+	const u8 cocci_id/* drivers/hwmon/smsc47m1.c 638 */[];
+	enum chips cocci_id/* drivers/hwmon/smsc47m1.c 635 */;
+	struct smsc47m1_sio_data *cocci_id/* drivers/hwmon/smsc47m1.c 528 */;
+	const struct attribute_group cocci_id/* drivers/hwmon/smsc47m1.c 524 */;
+	struct attribute *cocci_id/* drivers/hwmon/smsc47m1.c 518 */[];
+	unsigned long cocci_id/* drivers/hwmon/smsc47m1.c 402 */;
+	enum chips{smsc47m1, smsc47m2,} cocci_id/* drivers/hwmon/smsc47m1.c 39 */;
+	struct platform_device *cocci_id/* drivers/hwmon/smsc47m1.c 36 */;
+	unsigned short cocci_id/* drivers/hwmon/smsc47m1.c 32 */;
+	u8 cocci_id/* drivers/hwmon/smsc47m1.c 313 */;
+	long cocci_id/* drivers/hwmon/smsc47m1.c 310 */;
+	const char *cocci_id/* drivers/hwmon/smsc47m1.c 305 */;
+	size_t cocci_id/* drivers/hwmon/smsc47m1.c 305 */;
+	struct smsc47m1_data *cocci_id/* drivers/hwmon/smsc47m1.c 262 */;
+	struct device_attribute *cocci_id/* drivers/hwmon/smsc47m1.c 260 */;
+	char *cocci_id/* drivers/hwmon/smsc47m1.c 260 */;
+	struct device *cocci_id/* drivers/hwmon/smsc47m1.c 259 */;
+	ssize_t cocci_id/* drivers/hwmon/smsc47m1.c 259 */;
+	int cocci_id/* drivers/hwmon/smsc47m1.c 238 */;
+	struct sensor_device_attribute *cocci_id/* drivers/hwmon/smsc47m1.c 230 */;
+	struct smsc47m1_sio_data {
+		enum chips type;
+		u8 activate;
+	} cocci_id/* drivers/hwmon/smsc47m1.c 132 */;
+	struct smsc47m1_data {
+		unsigned short addr;
+		const char *name;
+		enum chips type;
+		struct device *hwmon_dev;
+		struct mutex update_lock;
+		unsigned long last_updated;
+		u8 fan[3];
+		u8 fan_preload[3];
+		u8 fan_div[3];
+		u8 alarms;
+		u8 pwm[3];
+	} cocci_id/* drivers/hwmon/smsc47m1.c 116 */;
+}

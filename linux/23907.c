@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct sec_path *cocci_id/* net/xfrm/xfrm_device.c 85 */;
+	struct softnet_data *cocci_id/* net/xfrm/xfrm_device.c 82 */;
+	unsigned long cocci_id/* net/xfrm/xfrm_device.c 79 */;
+	int cocci_id/* net/xfrm/xfrm_device.c 78 */;
+	netdev_features_t cocci_id/* net/xfrm/xfrm_device.c 76 */;
+	bool *cocci_id/* net/xfrm/xfrm_device.c 76 */;
+	struct ipv6hdr cocci_id/* net/xfrm/xfrm_device.c 59 */;
+	struct iphdr cocci_id/* net/xfrm/xfrm_device.c 56 */;
+	void __init cocci_id/* net/xfrm/xfrm_device.c 402 */;
+	struct xfrm_offload *cocci_id/* net/xfrm/xfrm_device.c 40 */;
+	struct notifier_block cocci_id/* net/xfrm/xfrm_device.c 398 */;
+	struct notifier_block *cocci_id/* net/xfrm/xfrm_device.c 381 */;
+	void *cocci_id/* net/xfrm/xfrm_device.c 381 */;
+	unsigned int cocci_id/* net/xfrm/xfrm_device.c 37 */;
+	struct xfrm_state *cocci_id/* net/xfrm/xfrm_device.c 36 */;
+	struct sk_buff *cocci_id/* net/xfrm/xfrm_device.c 36 */;
+	void cocci_id/* net/xfrm/xfrm_device.c 36 */;
+	struct sk_buff_head cocci_id/* net/xfrm/xfrm_device.c 323 */;
+	struct sk_buff_head *cocci_id/* net/xfrm/xfrm_device.c 322 */;
+	struct netdev_queue *cocci_id/* net/xfrm/xfrm_device.c 297 */;
+	struct xfrm_dst *cocci_id/* net/xfrm/xfrm_device.c 267 */;
+	struct dst_entry *cocci_id/* net/xfrm/xfrm_device.c 266 */;
+	bool cocci_id/* net/xfrm/xfrm_device.c 263 */;
+	xfrm_address_t *cocci_id/* net/xfrm/xfrm_device.c 199 */;
+	struct xfrm_state_offload *cocci_id/* net/xfrm/xfrm_device.c 198 */;
+	struct xfrm_user_offload *cocci_id/* net/xfrm/xfrm_device.c 193 */;
+	struct net *cocci_id/* net/xfrm/xfrm_device.c 192 */;
+	struct net_device *cocci_id/* net/xfrm/xfrm_device.c 109 */;
+}

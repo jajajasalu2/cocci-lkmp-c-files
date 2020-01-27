@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	struct i2c_msg cocci_id/* drivers/media/pci/pt3/pt3.c 94 */;
+	const struct reg_val *cocci_id/* drivers/media/pci/pt3/pt3.c 92 */;
+	struct reg_val {
+		u8 reg;
+		u8 val;
+	} cocci_id/* drivers/media/pci/pt3/pt3.c 86 */;
+	struct pci_driver cocci_id/* drivers/media/pci/pt3/pt3.c 827 */;
+	const struct pci_device_id cocci_id/* drivers/media/pci/pt3/pt3.c 819 */[];
+	struct i2c_adapter *cocci_id/* drivers/media/pci/pt3/pt3.c 702 */;
+	u32 cocci_id/* drivers/media/pci/pt3/pt3.c 699 */;
+	u8 cocci_id/* drivers/media/pci/pt3/pt3.c 698 */;
+	const struct pci_device_id *cocci_id/* drivers/media/pci/pt3/pt3.c 696 */;
+	struct pci_dev *cocci_id/* drivers/media/pci/pt3/pt3.c 696 */;
+	struct device *cocci_id/* drivers/media/pci/pt3/pt3.c 646 */;
+	struct dmx_demux *cocci_id/* drivers/media/pci/pt3/pt3.c 597 */;
+	void cocci_id/* drivers/media/pci/pt3/pt3.c 594 */;
+	struct dvb_adapter *cocci_id/* drivers/media/pci/pt3/pt3.c 530 */;
+	struct pt3_adapter *cocci_id/* drivers/media/pci/pt3/pt3.c 529 */;
+	struct pt3_board *cocci_id/* drivers/media/pci/pt3/pt3.c 526 */;
+	struct dvb_demux_feed *cocci_id/* drivers/media/pci/pt3/pt3.c 495 */;
+	struct task_struct *cocci_id/* drivers/media/pci/pt3/pt3.c 460 */;
+	ktime_t cocci_id/* drivers/media/pci/pt3/pt3.c 428 */;
+	void *cocci_id/* drivers/media/pci/pt3/pt3.c 425 */;
+	const struct pt3_adap_config cocci_id/* drivers/media/pci/pt3/pt3.c 40 */[PT3_NUM_FE];
+	struct mxl301rf_config cocci_id/* drivers/media/pci/pt3/pt3.c 397 */;
+	struct qm1d1c0042_config cocci_id/* drivers/media/pci/pt3/pt3.c 389 */;
+	struct i2c_client *cocci_id/* drivers/media/pci/pt3/pt3.c 372 */;
+	struct tc90522_config cocci_id/* drivers/media/pci/pt3/pt3.c 371 */;
+	const struct i2c_board_info *cocci_id/* drivers/media/pci/pt3/pt3.c 370 */;
+	const struct i2c_algorithm cocci_id/* drivers/media/pci/pt3/pt3.c 35 */;
+	int cocci_id/* drivers/media/pci/pt3/pt3.c 30 */;
+	bool cocci_id/* drivers/media/pci/pt3/pt3.c 26 */;
+	struct dvb_frontend *cocci_id/* drivers/media/pci/pt3/pt3.c 245 */;
+	const struct reg_val cocci_id/* drivers/media/pci/pt3/pt3.c 225 */[];
+	enum fe_sec_voltage cocci_id/* drivers/media/pci/pt3/pt3.c 183 */;
+	struct reg_val cocci_id/* drivers/media/pci/pt3/pt3.c 139 */;
+	struct pt3_adapter cocci_id/* drivers/media/pci/pt3/pt3.c 128 */;
+	u8 *cocci_id/* drivers/media/pci/pt3/pt3.c 102 */;
+}

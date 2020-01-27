@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct ite_dev *cocci_id/* drivers/media/rc/ite-cir.c 934 */;
+	void cocci_id/* drivers/media/rc/ite-cir.c 934 */;
+	u8 *cocci_id/* drivers/media/rc/ite-cir.c 823 */;
+	bool cocci_id/* drivers/media/rc/ite-cir.c 780 */;
+	u8 cocci_id/* drivers/media/rc/ite-cir.c 761 */;
+	long int cocci_id/* drivers/media/rc/ite-cir.c 418 */;
+	u8 cocci_id/* drivers/media/rc/ite-cir.c 379 */[ITE_TX_FIFO_LEN];
+	unsigned *cocci_id/* drivers/media/rc/ite-cir.c 371 */;
+	unsigned cocci_id/* drivers/media/rc/ite-cir.c 371 */;
+	int cocci_id/* drivers/media/rc/ite-cir.c 37 */;
+	u8 cocci_id/* drivers/media/rc/ite-cir.c 267 */[ITE_RX_FIFO_LEN];
+	unsigned long cocci_id/* drivers/media/rc/ite-cir.c 265 */;
+	irqreturn_t cocci_id/* drivers/media/rc/ite-cir.c 262 */;
+	void *cocci_id/* drivers/media/rc/ite-cir.c 262 */;
+	struct pnp_driver cocci_id/* drivers/media/rc/ite-cir.c 1684 */;
+	struct ir_raw_event cocci_id/* drivers/media/rc/ite-cir.c 167 */;
+	unsigned int cocci_id/* drivers/media/rc/ite-cir.c 166 */;
+	unsigned long *cocci_id/* drivers/media/rc/ite-cir.c 165 */;
+	u32 cocci_id/* drivers/media/rc/ite-cir.c 164 */;
+	pm_message_t cocci_id/* drivers/media/rc/ite-cir.c 1630 */;
+	const u8 *cocci_id/* drivers/media/rc/ite-cir.c 161 */;
+	long cocci_id/* drivers/media/rc/ite-cir.c 1531 */;
+	struct ite_dev cocci_id/* drivers/media/rc/ite-cir.c 1454 */;
+	const struct ite_dev_params *cocci_id/* drivers/media/rc/ite-cir.c 1445 */;
+	const struct pnp_device_id *cocci_id/* drivers/media/rc/ite-cir.c 1442 */;
+	struct pnp_dev *cocci_id/* drivers/media/rc/ite-cir.c 1442 */;
+	const struct pnp_device_id cocci_id/* drivers/media/rc/ite-cir.c 1433 */[];
+	const struct ite_dev_params cocci_id/* drivers/media/rc/ite-cir.c 1328 */[];
+	struct rc_dev *cocci_id/* drivers/media/rc/ite-cir.c 1307 */;
+}

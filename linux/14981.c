@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct bcm_clk_trig *cocci_id/* drivers/clk/bcm/clk-kona-setup.c 85 */;
+	unsigned int cocci_id/* drivers/clk/bcm/clk-kona-setup.c 806 */;
+	resource_size_t cocci_id/* drivers/clk/bcm/clk-kona-setup.c 805 */;
+	struct resource cocci_id/* drivers/clk/bcm/clk-kona-setup.c 804 */;
+	struct device_node *cocci_id/* drivers/clk/bcm/clk-kona-setup.c 802 */;
+	void __init cocci_id/* drivers/clk/bcm/clk-kona-setup.c 801 */;
+	struct bcm_clk_policy *cocci_id/* drivers/clk/bcm/clk-kona-setup.c 80 */;
+	struct of_phandle_args *cocci_id/* drivers/clk/bcm/clk-kona-setup.c 784 */;
+	void *cocci_id/* drivers/clk/bcm/clk-kona-setup.c 784 */;
+	struct ccu_data *cocci_id/* drivers/clk/bcm/clk-kona-setup.c 747 */;
+	struct clk_hw *cocci_id/* drivers/clk/bcm/clk-kona-setup.c 694 */;
+	struct kona_clk *cocci_id/* drivers/clk/bcm/clk-kona-setup.c 681 */;
+	void cocci_id/* drivers/clk/bcm/clk-kona-setup.c 681 */;
+	u32 *cocci_id/* drivers/clk/bcm/clk-kona-setup.c 614 */;
+	struct clk_init_data *cocci_id/* drivers/clk/bcm/clk-kona-setup.c 610 */;
+	const char **cocci_id/* drivers/clk/bcm/clk-kona-setup.c 609 */;
+	int cocci_id/* drivers/clk/bcm/clk-kona-setup.c 608 */;
+	struct bcm_clk_div *cocci_id/* drivers/clk/bcm/clk-kona-setup.c 55 */;
+	struct bcm_clk_sel *cocci_id/* drivers/clk/bcm/clk-kona-setup.c 54 */;
+	const char ***cocci_id/* drivers/clk/bcm/clk-kona-setup.c 536 */;
+	const char *cocci_id/* drivers/clk/bcm/clk-kona-setup.c 535 */[];
+	struct peri_clk_data *cocci_id/* drivers/clk/bcm/clk-kona-setup.c 53 */;
+	struct ccu_policy *cocci_id/* drivers/clk/bcm/clk-kona-setup.c 28 */;
+	struct bcm_clk_hyst *cocci_id/* drivers/clk/bcm/clk-kona-setup.c 276 */;
+	struct bcm_clk_gate *cocci_id/* drivers/clk/bcm/clk-kona-setup.c 253 */;
+	struct bcm_policy_ctl *cocci_id/* drivers/clk/bcm/clk-kona-setup.c 221 */;
+	struct bcm_lvm_en *cocci_id/* drivers/clk/bcm/clk-kona-setup.c 220 */;
+	u32 cocci_id/* drivers/clk/bcm/clk-kona-setup.c 179 */;
+	bool cocci_id/* drivers/clk/bcm/clk-kona-setup.c 179 */;
+	const char *cocci_id/* drivers/clk/bcm/clk-kona-setup.c 179 */;
+}

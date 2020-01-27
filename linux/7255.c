@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/bluetooth/hci_ll.c 85 */;
+	int __exit cocci_id/* drivers/bluetooth/hci_ll.c 816 */;
+	int __init cocci_id/* drivers/bluetooth/hci_ll.c 809 */;
+	struct serdev_device_driver cocci_id/* drivers/bluetooth/hci_ll.c 785 */;
+	const struct of_device_id cocci_id/* drivers/bluetooth/hci_ll.c 768 */[];
+	bdaddr_t cocci_id/* drivers/bluetooth/hci_ll.c 744 */;
+	size_t cocci_id/* drivers/bluetooth/hci_ll.c 736 */;
+	bdaddr_t *cocci_id/* drivers/bluetooth/hci_ll.c 735 */;
+	struct ll_struct {
+		struct sk_buff *rx_skb;
+		struct sk_buff_head txq;
+		spinlock_t hcill_lock;
+		unsigned long hcill_state;
+		struct sk_buff_head tx_wait_q;
+	} cocci_id/* drivers/bluetooth/hci_ll.c 73 */;
+	struct ll_device cocci_id/* drivers/bluetooth/hci_ll.c 691 */;
+	u32 cocci_id/* drivers/bluetooth/hci_ll.c 689 */;
+	struct nvmem_cell *cocci_id/* drivers/bluetooth/hci_ll.c 688 */;
+	struct hci_uart *cocci_id/* drivers/bluetooth/hci_ll.c 686 */;
+	struct serdev_device *cocci_id/* drivers/bluetooth/hci_ll.c 684 */;
+	const struct hci_uart_proto cocci_id/* drivers/bluetooth/hci_ll.c 682 */;
+	__le32 cocci_id/* drivers/bluetooth/hci_ll.c 667 */;
+	struct ll_device {
+		struct hci_uart hu;
+		struct serdev_device *serdev;
+		struct gpio_desc *enable_gpio;
+		struct clk *ext_clk;
+		bdaddr_t bdaddr;
+	} cocci_id/* drivers/bluetooth/hci_ll.c 65 */;
+	const bdaddr_t *cocci_id/* drivers/bluetooth/hci_ll.c 590 */;
+	enum hcill_states_e{HCILL_ASLEEP, HCILL_ASLEEP_TO_AWAKE, HCILL_AWAKE, HCILL_AWAKE_TO_ASLEEP,} cocci_id/* drivers/bluetooth/hci_ll.c 58 */;
+	struct bts_action cocci_id/* drivers/bluetooth/hci_ll.c 578 */;
+	struct bts_action_delay *cocci_id/* drivers/bluetooth/hci_ll.c 575 */;
+	struct bts_action *cocci_id/* drivers/bluetooth/hci_ll.c 556 */;
+	struct bts_header cocci_id/* drivers/bluetooth/hci_ll.c 551 */;
+	void *cocci_id/* drivers/bluetooth/hci_ll.c 546 */;
+	struct hci_command *cocci_id/* drivers/bluetooth/hci_ll.c 524 */;
+	const struct firmware *cocci_id/* drivers/bluetooth/hci_ll.c 523 */;
+	unsigned char cocci_id/* drivers/bluetooth/hci_ll.c 522 */[40];
+	unsigned char *cocci_id/* drivers/bluetooth/hci_ll.c 521 */;
+	unsigned short cocci_id/* drivers/bluetooth/hci_ll.c 519 */;
+	struct ll_device *cocci_id/* drivers/bluetooth/hci_ll.c 517 */;
+	int cocci_id/* drivers/bluetooth/hci_ll.c 517 */;
+	struct hci_rp_read_local_version *cocci_id/* drivers/bluetooth/hci_ll.c 457 */;
+	const void *cocci_id/* drivers/bluetooth/hci_ll.c 425 */;
+	const struct h4_recv_pkt cocci_id/* drivers/bluetooth/hci_ll.c 414 */[];
+	struct hci_dev *cocci_id/* drivers/bluetooth/hci_ll.c 357 */;
+	unsigned long cocci_id/* drivers/bluetooth/hci_ll.c 252 */;
+	struct sk_buff *cocci_id/* drivers/bluetooth/hci_ll.c 188 */;
+	struct ll_struct *cocci_id/* drivers/bluetooth/hci_ll.c 186 */;
+	void cocci_id/* drivers/bluetooth/hci_ll.c 186 */;
+}

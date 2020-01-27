@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	struct usb_hcd *cocci_id/* drivers/usb/host/sl811-hcd.c 80 */;
+	unsigned int cocci_id/* drivers/usb/host/sl811-hcd.c 797 */;
+	gfp_t cocci_id/* drivers/usb/host/sl811-hcd.c 793 */;
+	u16 cocci_id/* drivers/usb/host/sl811-hcd.c 764 */;
+	struct sl811 *cocci_id/* drivers/usb/host/sl811-hcd.c 764 */;
+	int cocci_id/* drivers/usb/host/sl811-hcd.c 764 */;
+	const char cocci_id/* drivers/usb/host/sl811-hcd.c 74 */[];
+	irqreturn_t cocci_id/* drivers/usb/host/sl811-hcd.c 620 */;
+	u8 cocci_id/* drivers/usb/host/sl811-hcd.c 588 */;
+	unsigned char *cocci_id/* drivers/usb/host/sl811-hcd.c 499 */;
+	struct usb_device *cocci_id/* drivers/usb/host/sl811-hcd.c 497 */;
+	struct urb cocci_id/* drivers/usb/host/sl811-hcd.c 486 */;
+	struct urb *cocci_id/* drivers/usb/host/sl811-hcd.c 478 */;
+	struct sl811h_ep *cocci_id/* drivers/usb/host/sl811-hcd.c 475 */;
+	struct sl811h_ep **cocci_id/* drivers/usb/host/sl811-hcd.c 454 */;
+	unsigned cocci_id/* drivers/usb/host/sl811-hcd.c 427 */;
+	struct sl811h_ep cocci_id/* drivers/usb/host/sl811-hcd.c 318 */;
+	void *cocci_id/* drivers/usb/host/sl811-hcd.c 243 */;
+	void __iomem *cocci_id/* drivers/usb/host/sl811-hcd.c 209 */;
+	struct platform_driver cocci_id/* drivers/usb/host/sl811-hcd.c 1788 */;
+	pm_message_t cocci_id/* drivers/usb/host/sl811-hcd.c 1741 */;
+	struct resource *cocci_id/* drivers/usb/host/sl811-hcd.c 1612 */;
+	struct platform_device *cocci_id/* drivers/usb/host/sl811-hcd.c 1608 */;
+	struct sl811 cocci_id/* drivers/usb/host/sl811-hcd.c 1549 */;
+	const struct hc_driver cocci_id/* drivers/usb/host/sl811-hcd.c 1547 */;
+	void cocci_id/* drivers/usb/host/sl811-hcd.c 1497 */;
+	struct usb_ctrlrequest cocci_id/* drivers/usb/host/sl811-hcd.c 147 */;
+	struct seq_file *cocci_id/* drivers/usb/host/sl811-hcd.c 1373 */;
+	char *cocci_id/* drivers/usb/host/sl811-hcd.c 1373 */;
+	u16 *cocci_id/* drivers/usb/host/sl811-hcd.c 1291 */;
+	struct usb_hub_descriptor *cocci_id/* drivers/usb/host/sl811-hcd.c 1280 */;
+	unsigned long cocci_id/* drivers/usb/host/sl811-hcd.c 1222 */;
+	const u32 cocci_id/* drivers/usb/host/sl811-hcd.c 1128 */;
+	struct timer_list *cocci_id/* drivers/usb/host/sl811-hcd.c 1122 */;
+	struct usb_host_endpoint *cocci_id/* drivers/usb/host/sl811-hcd.c 1029 */;
+}

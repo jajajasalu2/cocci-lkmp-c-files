@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct fscrypt_info *cocci_id/* fs/crypto/crypto.c 99 */;
+	struct scatterlist cocci_id/* fs/crypto/crypto.c 98 */;
+	struct skcipher_request *cocci_id/* fs/crypto/crypto.c 96 */;
+	union fscrypt_iv cocci_id/* fs/crypto/crypto.c 95 */;
+	unsigned int cocci_id/* fs/crypto/crypto.c 92 */;
+	u64 cocci_id/* fs/crypto/crypto.c 91 */;
+	fscrypt_direction_t cocci_id/* fs/crypto/crypto.c 90 */;
+	const struct inode *cocci_id/* fs/crypto/crypto.c 90 */;
+	int cocci_id/* fs/crypto/crypto.c 90 */;
+	u32 cocci_id/* fs/crypto/crypto.c 81 */;
+	u8 cocci_id/* fs/crypto/crypto.c 76 */;
+	const struct fscrypt_info *cocci_id/* fs/crypto/crypto.c 74 */;
+	union fscrypt_iv *cocci_id/* fs/crypto/crypto.c 73 */;
+	gfp_t cocci_id/* fs/crypto/crypto.c 52 */;
+	struct page *cocci_id/* fs/crypto/crypto.c 52 */;
+	struct work_struct *cocci_id/* fs/crypto/crypto.c 46 */;
+	void cocci_id/* fs/crypto/crypto.c 46 */;
+	struct kmem_cache *cocci_id/* fs/crypto/crypto.c 44 */;
+	struct workqueue_struct *cocci_id/* fs/crypto/crypto.c 41 */;
+	int __init cocci_id/* fs/crypto/crypto.c 395 */;
+	mempool_t *cocci_id/* fs/crypto/crypto.c 39 */;
+	va_list cocci_id/* fs/crypto/crypto.c 376 */;
+	struct va_format cocci_id/* fs/crypto/crypto.c 375 */;
+	const char *cocci_id/* fs/crypto/crypto.c 370 */;
+	const struct dentry_operations cocci_id/* fs/crypto/crypto.c 333 */;
+	struct dentry *cocci_id/* fs/crypto/crypto.c 293 */;
+	const unsigned int cocci_id/* fs/crypto/crypto.c 241 */;
+	unsigned long cocci_id/* fs/crypto/crypto.c 190 */;
+	struct crypto_skcipher *cocci_id/* fs/crypto/crypto.c 100 */;
+}

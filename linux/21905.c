@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	const char *cocci_id/* lib/kobject_uevent.c 99 */;
+	int __init cocci_id/* lib/kobject_uevent.c 807 */;
+	struct pernet_operations cocci_id/* lib/kobject_uevent.c 802 */;
+	struct net *cocci_id/* lib/kobject_uevent.c 788 */;
+	struct netlink_kernel_cfg cocci_id/* lib/kobject_uevent.c 759 */;
+	struct nlmsghdr *cocci_id/* lib/kobject_uevent.c 724 */;
+	char cocci_id/* lib/kobject_uevent.c 685 */[sizeof("SEQNUM=") + 21];
+	struct netlink_ext_ack *cocci_id/* lib/kobject_uevent.c 682 */;
+	struct sock *cocci_id/* lib/kobject_uevent.c 681 */;
+	enum kobject_action cocci_id/* lib/kobject_uevent.c 66 */;
+	va_list cocci_id/* lib/kobject_uevent.c 655 */;
+	struct kobj_uevent_env *cocci_id/* lib/kobject_uevent.c 653 */;
+	int cocci_id/* lib/kobject_uevent.c 653 */;
+	const char **cocci_id/* lib/kobject_uevent.c 64 */;
+	enum kobject_action *cocci_id/* lib/kobject_uevent.c 63 */;
+	struct kobj_uevent_env cocci_id/* lib/kobject_uevent.c 523 */;
+	const char *cocci_id/* lib/kobject_uevent.c 51 */[];
+	const struct kset_uevent_ops *cocci_id/* lib/kobject_uevent.c 465 */;
+	struct kset *cocci_id/* lib/kobject_uevent.c 464 */;
+	const char cocci_id/* lib/kobject_uevent.c 420 */[];
+	const struct net *cocci_id/* lib/kobject_uevent.c 389 */;
+	struct uevent_sock {
+		struct list_head list;
+		struct sock *sk;
+	} cocci_id/* lib/kobject_uevent.c 38 */;
+	kgid_t cocci_id/* lib/kobject_uevent.c 358 */;
+	kuid_t cocci_id/* lib/kobject_uevent.c 357 */;
+	char cocci_id/* lib/kobject_uevent.c 35 */[UEVENT_HELPER_PATH_LEN];
+	struct user_namespace *cocci_id/* lib/kobject_uevent.c 346 */;
+	u64 cocci_id/* lib/kobject_uevent.c 33 */;
+	struct uevent_sock *cocci_id/* lib/kobject_uevent.c 313 */;
+	size_t cocci_id/* lib/kobject_uevent.c 285 */;
+	char *cocci_id/* lib/kobject_uevent.c 284 */;
+	struct netlink_skb_parms *cocci_id/* lib/kobject_uevent.c 282 */;
+	struct sk_buff *cocci_id/* lib/kobject_uevent.c 278 */;
+	struct subprocess_info *cocci_id/* lib/kobject_uevent.c 271 */;
+	void cocci_id/* lib/kobject_uevent.c 271 */;
+	const void *cocci_id/* lib/kobject_uevent.c 242 */;
+	const struct kobj_ns_type_operations *cocci_id/* lib/kobject_uevent.c 238 */;
+	struct kobject *cocci_id/* lib/kobject_uevent.c 236 */;
+	char *cocci_id/* lib/kobject_uevent.c 194 */[];
+	struct kobj_uevent_env **cocci_id/* lib/kobject_uevent.c 115 */;
+	char cocci_id/* lib/kobject_uevent.c 100 */;
+}

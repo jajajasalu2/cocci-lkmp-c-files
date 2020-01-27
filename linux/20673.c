@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	pte_t *__init cocci_id/* arch/x86/mm/init_32.c 96 */;
+	struct zone *cocci_id/* arch/x86/mm/init_32.c 868 */;
+	struct vmem_altmap *cocci_id/* arch/x86/mm/init_32.c 864 */;
+	void cocci_id/* arch/x86/mm/init_32.c 863 */;
+	struct mhp_restrictions *cocci_id/* arch/x86/mm/init_32.c 855 */;
+	char cocci_id/* arch/x86/mm/init_32.c 749 */;
+	void *cocci_id/* arch/x86/mm/init_32.c 690 */;
+	pmd_t *__init cocci_id/* arch/x86/mm/init_32.c 67 */;
+	bool __read_mostly cocci_id/* arch/x86/mm/init_32.c 60 */;
+	char *cocci_id/* arch/x86/mm/init_32.c 578 */;
+	int __init cocci_id/* arch/x86/mm/init_32.c 578 */;
+	unsigned int cocci_id/* arch/x86/mm/init_32.c 571 */;
+	pteval_t cocci_id/* arch/x86/mm/init_32.c 565 */;
+	pgd_t *cocci_id/* arch/x86/mm/init_32.c 541 */;
+	u64 cocci_id/* arch/x86/mm/init_32.c 438 */;
+	phys_addr_t cocci_id/* arch/x86/mm/init_32.c 437 */;
+	unsigned long cocci_id/* arch/x86/mm/init_32.c 435 */;
+	int cocci_id/* arch/x86/mm/init_32.c 434 */;
+	void __init cocci_id/* arch/x86/mm/init_32.c 434 */;
+	pud_t *cocci_id/* arch/x86/mm/init_32.c 397 */;
+	p4d_t *cocci_id/* arch/x86/mm/init_32.c 396 */;
+	pgprot_t cocci_id/* arch/x86/mm/init_32.c 317 */;
+	unsigned cocci_id/* arch/x86/mm/init_32.c 266 */;
+	pte_t *cocci_id/* arch/x86/mm/init_32.c 265 */;
+	pmd_t *cocci_id/* arch/x86/mm/init_32.c 264 */;
+	unsigned long __init cocci_id/* arch/x86/mm/init_32.c 252 */;
+	void __init cocci_id/* arch/x86/mm/init_32.c 207 */;
+	void **cocci_id/* arch/x86/mm/init_32.c 159 */;
+}

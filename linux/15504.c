@@ -1,0 +1,56 @@
+cocci_test_suite() {
+	struct core_conn_create_dest_spec_params cocci_id/* drivers/nfc/fdp/fdp.c 85 */;
+	struct nci_core_get_config_rsp {
+		u8 status;
+		u8 count;
+		u8 data[0];
+	} cocci_id/* drivers/nfc/fdp/fdp.c 76 */;
+	struct fdp_nci_info cocci_id/* drivers/nfc/fdp/fdp.c 744 */;
+	u8 *cocci_id/* drivers/nfc/fdp/fdp.c 736 */;
+	u32 cocci_id/* drivers/nfc/fdp/fdp.c 735 */;
+	struct nci_dev **cocci_id/* drivers/nfc/fdp/fdp.c 734 */;
+	struct nfc_phy_ops *cocci_id/* drivers/nfc/fdp/fdp.c 733 */;
+	struct fdp_i2c_phy *cocci_id/* drivers/nfc/fdp/fdp.c 733 */;
+	struct nci_ops cocci_id/* drivers/nfc/fdp/fdp.c 721 */;
+	struct nci_driver_ops cocci_id/* drivers/nfc/fdp/fdp.c 697 */[];
+	u8 cocci_id/* drivers/nfc/fdp/fdp.c 68 */[5];
+	__le32 *cocci_id/* drivers/nfc/fdp/fdp.c 667 */;
+	u8 cocci_id/* drivers/nfc/fdp/fdp.c 657 */;
+	struct nci_core_get_config_rsp *cocci_id/* drivers/nfc/fdp/fdp.c 656 */;
+	void *cocci_id/* drivers/nfc/fdp/fdp.c 656 */;
+	struct sk_buff *cocci_id/* drivers/nfc/fdp/fdp.c 652 */;
+	struct fdp_nci_info {
+		struct nfc_phy_ops *phy_ops;
+		struct fdp_i2c_phy *phy;
+		struct nci_dev *ndev;
+		const struct firmware *otp_patch;
+		const struct firmware *ram_patch;
+		u32 otp_patch_version;
+		u32 ram_patch_version;
+		u32 otp_version;
+		u32 ram_version;
+		u32 limited_otp_version;
+		u8 key_index;
+		u8 *fw_vsc_cfg;
+		u8 clock_type;
+		u32 clock_freq;
+		atomic_t data_pkt_counter;
+		void (*data_pkt_counter_cb)(struct nci_dev *ndev);
+		u8 setup_patch_sent;
+		u8 setup_patch_ntf;
+		u8 setup_patch_status;
+		u8 setup_reset_ntf;
+		wait_queue_head_t setup_wq;
+	} cocci_id/* drivers/nfc/fdp/fdp.c 40 */;
+	void cocci_id/* drivers/nfc/fdp/fdp.c 328 */;
+	struct device *cocci_id/* drivers/nfc/fdp/fdp.c 254 */;
+	struct fdp_nci_info *cocci_id/* drivers/nfc/fdp/fdp.c 253 */;
+	struct nci_dev *cocci_id/* drivers/nfc/fdp/fdp.c 251 */;
+	int cocci_id/* drivers/nfc/fdp/fdp.c 251 */;
+	unsigned long cocci_id/* drivers/nfc/fdp/fdp.c 186 */;
+	const struct firmware *cocci_id/* drivers/nfc/fdp/fdp.c 184 */;
+	void (*cocci_id/* drivers/nfc/fdp/fdp.c 160 */)(struct nci_dev *ndev);
+	char cocci_id/* drivers/nfc/fdp/fdp.c 124 */[9];
+	char *cocci_id/* drivers/nfc/fdp/fdp.c 114 */;
+	__u8 *cocci_id/* drivers/nfc/fdp/fdp.c 105 */;
+}

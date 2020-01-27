@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	const unsigned int cocci_id/* fs/btrfs/transaction.c 98 */[TRANS_STATE_MAX];
+	struct btrfs_transaction *cocci_id/* fs/btrfs/transaction.c 903 */;
+	struct btrfs_fs_info *cocci_id/* fs/btrfs/transaction.c 902 */;
+	struct btrfs_trans_handle *cocci_id/* fs/btrfs/transaction.c 899 */;
+	int cocci_id/* fs/btrfs/transaction.c 899 */;
+	unsigned int cocci_id/* fs/btrfs/transaction.c 679 */;
+	enum btrfs_reserve_flush_enum cocci_id/* fs/btrfs/transaction.c 510 */;
+	unsigned long cocci_id/* fs/btrfs/transaction.c 425 */;
+	struct btrfs_root cocci_id/* fs/btrfs/transaction.c 2418 */;
+	struct btrfs_transaction cocci_id/* fs/btrfs/transaction.c 2104 */;
+	struct list_head *cocci_id/* fs/btrfs/transaction.c 1965 */;
+	struct btrfs_pending_snapshot *cocci_id/* fs/btrfs/transaction.c 1964 */;
+	struct btrfs_block_group *cocci_id/* fs/btrfs/transaction.c 1940 */;
+	struct btrfs_async_commit *cocci_id/* fs/btrfs/transaction.c 1839 */;
+	struct btrfs_async_commit cocci_id/* fs/btrfs/transaction.c 1820 */;
+	struct work_struct *cocci_id/* fs/btrfs/transaction.c 1817 */;
+	struct btrfs_async_commit {
+		struct btrfs_trans_handle *newtrans;
+		struct work_struct work;
+	} cocci_id/* fs/btrfs/transaction.c 1812 */;
+	struct btrfs_super_block *cocci_id/* fs/btrfs/transaction.c 1740 */;
+	uuid_le cocci_id/* fs/btrfs/transaction.c 1476 */;
+	struct timespec64 cocci_id/* fs/btrfs/transaction.c 1470 */;
+	struct dentry *cocci_id/* fs/btrfs/transaction.c 1467 */;
+	struct btrfs_dir_item *cocci_id/* fs/btrfs/transaction.c 1466 */;
+	struct btrfs_path *cocci_id/* fs/btrfs/transaction.c 1465 */;
+	struct inode *cocci_id/* fs/btrfs/transaction.c 1464 */;
+	struct btrfs_block_rsv *cocci_id/* fs/btrfs/transaction.c 1463 */;
+	struct btrfs_root_item *cocci_id/* fs/btrfs/transaction.c 1459 */;
+	struct btrfs_key cocci_id/* fs/btrfs/transaction.c 1458 */;
+	struct btrfs_block_group cocci_id/* fs/btrfs/transaction.c 139 */;
+	struct btrfs_qgroup_inherit *cocci_id/* fs/btrfs/transaction.c 1368 */;
+	void **cocci_id/* fs/btrfs/transaction.c 1280 */;
+	struct btrfs_root *cocci_id/* fs/btrfs/transaction.c 1272 */[8];
+	struct btrfs_root *cocci_id/* fs/btrfs/transaction.c 1256 */;
+	void cocci_id/* fs/btrfs/transaction.c 1256 */;
+	struct extent_buffer *cocci_id/* fs/btrfs/transaction.c 1176 */;
+	struct blk_plug cocci_id/* fs/btrfs/transaction.c 1106 */;
+	bool cocci_id/* fs/btrfs/transaction.c 1058 */;
+	u64 cocci_id/* fs/btrfs/transaction.c 1024 */;
+	struct extent_state *cocci_id/* fs/btrfs/transaction.c 1023 */;
+	struct address_space *cocci_id/* fs/btrfs/transaction.c 1022 */;
+	struct extent_io_tree *cocci_id/* fs/btrfs/transaction.c 1018 */;
+}

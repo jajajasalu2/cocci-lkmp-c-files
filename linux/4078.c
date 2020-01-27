@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	bool cocci_id/* drivers/vhost/vsock.c 89 */;
+	void __exit cocci_id/* drivers/vhost/vsock.c 841 */;
+	int __init cocci_id/* drivers/vhost/vsock.c 830 */;
+	void cocci_id/* drivers/vhost/vsock.c 83 */;
+	struct miscdevice cocci_id/* drivers/vhost/vsock.c 824 */;
+	const struct file_operations cocci_id/* drivers/vhost/vsock.c 815 */;
+	u64 cocci_id/* drivers/vhost/vsock.c 777 */;
+	void __user *cocci_id/* drivers/vhost/vsock.c 776 */;
+	unsigned long cocci_id/* drivers/vhost/vsock.c 773 */;
+	struct file *cocci_id/* drivers/vhost/vsock.c 772 */;
+	long cocci_id/* drivers/vhost/vsock.c 772 */;
+	struct sock *cocci_id/* drivers/vhost/vsock.c 647 */;
+	struct vhost_virtqueue **cocci_id/* drivers/vhost/vsock.c 596 */;
+	struct inode *cocci_id/* drivers/vhost/vsock.c 594 */;
+	u32 cocci_id/* drivers/vhost/vsock.c 56 */;
+	struct vhost_virtqueue cocci_id/* drivers/vhost/vsock.c 506 */;
+	struct vhost_vsock {
+		struct vhost_dev dev;
+		struct vhost_virtqueue vqs[2];
+		struct hlist_node hash;
+		struct vhost_work send_pkt_work;
+		spinlock_t send_pkt_list_lock;
+		struct list_head send_pkt_list;
+		atomic_t queued_replies;
+		u32 guest_cid;
+	} cocci_id/* drivers/vhost/vsock.c 40 */;
+	struct virtio_transport cocci_id/* drivers/vhost/vsock.c 387 */;
+	enum{VHOST_VSOCK_FEATURES=VHOST_FEATURES,} cocci_id/* drivers/vhost/vsock.c 32 */;
+	unsigned int cocci_id/* drivers/vhost/vsock.c 316 */;
+	struct vhost_virtqueue *cocci_id/* drivers/vhost/vsock.c 300 */;
+	struct virtio_vsock_pkt *cocci_id/* drivers/vhost/vsock.c 272 */;
+	struct vhost_vsock *cocci_id/* drivers/vhost/vsock.c 271 */;
+	struct vsock_sock *cocci_id/* drivers/vhost/vsock.c 269 */;
+	int cocci_id/* drivers/vhost/vsock.c 268 */;
+	struct vhost_vsock cocci_id/* drivers/vhost/vsock.c 233 */;
+	struct vhost_work *cocci_id/* drivers/vhost/vsock.c 228 */;
+	struct virtio_vsock_pkt cocci_id/* drivers/vhost/vsock.c 116 */;
+	size_t cocci_id/* drivers/vhost/vsock.c 104 */;
+	unsigned cocci_id/* drivers/vhost/vsock.c 103 */;
+	struct iov_iter cocci_id/* drivers/vhost/vsock.c 102 */;
+}

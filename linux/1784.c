@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	const struct iio_info cocci_id/* drivers/iio/light/si1145.c 986 */;
+	const struct attribute_group cocci_id/* drivers/iio/light/si1145.c 977 */;
+	struct attribute *cocci_id/* drivers/iio/light/si1145.c 964 */[];
+	const struct iio_chan_spec cocci_id/* drivers/iio/light/si1145.c 880 */[];
+	int *cocci_id/* drivers/iio/light/si1145.c 622 */;
+	long cocci_id/* drivers/iio/light/si1145.c 622 */;
+	const int cocci_id/* drivers/iio/light/si1145.c 586 */[];
+	const struct iio_chan_spec *cocci_id/* drivers/iio/light/si1145.c 561 */;
+	u8 cocci_id/* drivers/iio/light/si1145.c 449 */[24];
+	struct iio_poll_func *cocci_id/* drivers/iio/light/si1145.c 441 */;
+	irqreturn_t cocci_id/* drivers/iio/light/si1145.c 439 */;
+	void *cocci_id/* drivers/iio/light/si1145.c 439 */;
+	u32 cocci_id/* drivers/iio/light/si1145.c 358 */;
+	u16 cocci_id/* drivers/iio/light/si1145.c 356 */;
+	u8 cocci_id/* drivers/iio/light/si1145.c 228 */;
+	unsigned long cocci_id/* drivers/iio/light/si1145.c 195 */;
+	struct device *cocci_id/* drivers/iio/light/si1145.c 194 */;
+	struct si1145_data *cocci_id/* drivers/iio/light/si1145.c 192 */;
+	int cocci_id/* drivers/iio/light/si1145.c 192 */;
+	struct si1145_data {
+		struct i2c_client *client;
+		struct mutex lock;
+		struct mutex cmdlock;
+		int rsp_seq;
+		const struct si1145_part_info *part_info;
+		unsigned long scan_mask;
+		bool autonomous;
+		struct iio_trigger *trig;
+		int meas_rate;
+	} cocci_id/* drivers/iio/light/si1145.c 173 */;
+	struct si1145_part_info {
+		u8 part;
+		const struct iio_info *iio_info;
+		const struct iio_chan_spec *channels;
+		unsigned int num_channels;
+		unsigned int num_leds;
+		bool uncompressed_meas_rate;
+	} cocci_id/* drivers/iio/light/si1145.c 152 */;
+	enum{SI1132, SI1141, SI1142, SI1143, SI1145, SI1146, SI1147,} cocci_id/* drivers/iio/light/si1145.c 142 */;
+	struct i2c_driver cocci_id/* drivers/iio/light/si1145.c 1354 */;
+	const struct i2c_device_id cocci_id/* drivers/iio/light/si1145.c 1342 */[];
+	const struct i2c_device_id *cocci_id/* drivers/iio/light/si1145.c 1275 */;
+	struct iio_trigger *cocci_id/* drivers/iio/light/si1145.c 1242 */;
+	const struct iio_trigger_ops cocci_id/* drivers/iio/light/si1145.c 1234 */;
+	bool cocci_id/* drivers/iio/light/si1145.c 1186 */;
+	const struct iio_buffer_setup_ops cocci_id/* drivers/iio/light/si1145.c 1173 */;
+	unsigned int cocci_id/* drivers/iio/light/si1145.c 1161 */;
+	const unsigned long *cocci_id/* drivers/iio/light/si1145.c 1158 */;
+	struct iio_dev *cocci_id/* drivers/iio/light/si1145.c 1145 */;
+	struct i2c_client *cocci_id/* drivers/iio/light/si1145.c 1013 */;
+	const struct si1145_part_info cocci_id/* drivers/iio/light/si1145.c 1001 */[];
+}

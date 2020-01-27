@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct jffs2_xattr_ref cocci_id/* fs/jffs2/malloc.c 86 */;
+	struct jffs2_xattr_datum cocci_id/* fs/jffs2/malloc.c 80 */;
+	struct jffs2_inode_cache cocci_id/* fs/jffs2/malloc.c 73 */;
+	struct jffs2_node_frag cocci_id/* fs/jffs2/malloc.c 67 */;
+	struct jffs2_raw_node_ref cocci_id/* fs/jffs2/malloc.c 61 */;
+	struct jffs2_tmp_dnode_info cocci_id/* fs/jffs2/malloc.c 55 */;
+	struct jffs2_raw_inode cocci_id/* fs/jffs2/malloc.c 49 */;
+	struct jffs2_raw_dirent cocci_id/* fs/jffs2/malloc.c 43 */;
+	struct jffs2_full_dnode cocci_id/* fs/jffs2/malloc.c 37 */;
+	int __init cocci_id/* fs/jffs2/malloc.c 34 */;
+	struct jffs2_xattr_ref *cocci_id/* fs/jffs2/malloc.c 297 */;
+	void *cocci_id/* fs/jffs2/malloc.c 286 */;
+	struct jffs2_xattr_datum *cocci_id/* fs/jffs2/malloc.c 277 */;
+	struct jffs2_inode_cache *cocci_id/* fs/jffs2/malloc.c 262 */;
+	struct jffs2_node_frag *cocci_id/* fs/jffs2/malloc.c 248 */;
+	struct kmem_cache *cocci_id/* fs/jffs2/malloc.c 22 */;
+	struct jffs2_raw_node_ref **cocci_id/* fs/jffs2/malloc.c 204 */;
+	struct jffs2_eraseblock *cocci_id/* fs/jffs2/malloc.c 202 */;
+	struct jffs2_sb_info *cocci_id/* fs/jffs2/malloc.c 201 */;
+	struct jffs2_raw_node_ref *cocci_id/* fs/jffs2/malloc.c 184 */;
+	struct jffs2_tmp_dnode_info *cocci_id/* fs/jffs2/malloc.c 169 */;
+	struct jffs2_raw_inode *cocci_id/* fs/jffs2/malloc.c 155 */;
+	struct jffs2_raw_dirent *cocci_id/* fs/jffs2/malloc.c 141 */;
+	struct jffs2_full_dnode *cocci_id/* fs/jffs2/malloc.c 127 */;
+	void cocci_id/* fs/jffs2/malloc.c 127 */;
+	struct jffs2_full_dirent cocci_id/* fs/jffs2/malloc.c 116 */;
+	struct jffs2_full_dirent *cocci_id/* fs/jffs2/malloc.c 113 */;
+	int cocci_id/* fs/jffs2/malloc.c 113 */;
+}

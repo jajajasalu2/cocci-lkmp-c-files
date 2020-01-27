@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct dvb_frontend_ops cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 923 */;
+	struct dib3000mc_state cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 913 */;
+	struct dib3000mc_state *cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 912 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 909 */;
+	struct i2c_adapter *cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 909 */;
+	struct dvb_frontend *cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 909 */;
+	struct dib3000mc_config *cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 909 */;
+	const struct dvb_frontend_ops cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 907 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 862 */[];
+	struct dib3000mc_config cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 856 */[];
+	struct i2c_msg cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 85 */;
+	void cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 825 */;
+	struct dvb_frontend_tune_settings *cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 819 */;
+	u16 *cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 805 */;
+	u32 *cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 791 */;
+	enum fe_status *cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 770 */;
+	u16 cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 617 */;
+	u8 *cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 60 */;
+	struct dtv_frontend_properties cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 590 */;
+	struct dtv_frontend_properties *cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 586 */;
+	struct i2c_msg cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 55 */[2];
+	u16 cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 456 */[4];
+	s16 cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 454 */;
+	struct dib3000mc_state {
+		struct dvb_frontend demod;
+		struct dib3000mc_config *cfg;
+		u8 i2c_addr;
+		struct i2c_adapter *i2c_adap;
+		struct dibx000_i2c_master i2c_master;
+		u32 timf;
+		u32 current_bandwidth;
+		u16 dev_id;
+		u8 sfn_workaround_active:1;
+	} cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 35 */;
+	struct dibx000_agc_config *cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 326 */;
+	u16 cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 297 */[29];
+	int cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 25 */;
+	u16 cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 248 */[3];
+	u16 cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 247 */[6];
+	u32 cocci_id/* drivers/media/dvb-frontends/dib3000mc.c 245 */;
+}

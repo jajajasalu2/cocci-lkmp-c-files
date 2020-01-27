@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	struct list_head *cocci_id/* drivers/lightnvm/pblk-recovery.c 788 */;
+	guid_t *cocci_id/* drivers/lightnvm/pblk-recovery.c 710 */;
+	struct line_smeta cocci_id/* drivers/lightnvm/pblk-recovery.c 685 */;
+	void *cocci_id/* drivers/lightnvm/pblk-recovery.c 684 */;
+	struct line_smeta *cocci_id/* drivers/lightnvm/pblk-recovery.c 658 */;
+	struct pblk_emeta *cocci_id/* drivers/lightnvm/pblk-recovery.c 657 */;
+	struct pblk_smeta *cocci_id/* drivers/lightnvm/pblk-recovery.c 656 */;
+	struct pblk_line_mgmt *cocci_id/* drivers/lightnvm/pblk-recovery.c 654 */;
+	bool cocci_id/* drivers/lightnvm/pblk-recovery.c 639 */;
+	struct wa_counters *cocci_id/* drivers/lightnvm/pblk-recovery.c 592 */;
+	struct line_header *cocci_id/* drivers/lightnvm/pblk-recovery.c 570 */;
+	unsigned int cocci_id/* drivers/lightnvm/pblk-recovery.c 548 */;
+	struct pblk_line_meta *cocci_id/* drivers/lightnvm/pblk-recovery.c 547 */;
+	u64 cocci_id/* drivers/lightnvm/pblk-recovery.c 543 */;
+	dma_addr_t cocci_id/* drivers/lightnvm/pblk-recovery.c 486 */;
+	struct pblk_recov_alloc cocci_id/* drivers/lightnvm/pblk-recovery.c 484 */;
+	__le64 *cocci_id/* drivers/lightnvm/pblk-recovery.c 45 */;
+	struct ppa_addr cocci_id/* drivers/lightnvm/pblk-recovery.c 308 */;
+	struct pblk_lun *cocci_id/* drivers/lightnvm/pblk-recovery.c 307 */;
+	struct nvm_geo *cocci_id/* drivers/lightnvm/pblk-recovery.c 306 */;
+	struct nvm_tgt_dev *cocci_id/* drivers/lightnvm/pblk-recovery.c 305 */;
+	int cocci_id/* drivers/lightnvm/pblk-recovery.c 303 */;
+	struct pblk_line *cocci_id/* drivers/lightnvm/pblk-recovery.c 302 */;
+	struct nvm_chk_meta *cocci_id/* drivers/lightnvm/pblk-recovery.c 301 */;
+	u32 cocci_id/* drivers/lightnvm/pblk-recovery.c 26 */;
+	__le64 cocci_id/* drivers/lightnvm/pblk-recovery.c 249 */;
+	struct pblk_sec_meta *cocci_id/* drivers/lightnvm/pblk-recovery.c 248 */;
+	struct line_emeta *cocci_id/* drivers/lightnvm/pblk-recovery.c 24 */;
+	struct pblk *cocci_id/* drivers/lightnvm/pblk-recovery.c 162 */;
+	struct pblk_pad_rq *cocci_id/* drivers/lightnvm/pblk-recovery.c 161 */;
+	struct ppa_addr *cocci_id/* drivers/lightnvm/pblk-recovery.c 160 */;
+	struct nvm_rq *cocci_id/* drivers/lightnvm/pblk-recovery.c 158 */;
+	void cocci_id/* drivers/lightnvm/pblk-recovery.c 158 */;
+	struct pblk_pad_rq cocci_id/* drivers/lightnvm/pblk-recovery.c 153 */;
+	struct kref *cocci_id/* drivers/lightnvm/pblk-recovery.c 151 */;
+	struct pblk_recov_alloc {
+		struct ppa_addr *ppa_list;
+		void *meta_list;
+		struct nvm_rq *rqd;
+		void *data;
+		dma_addr_t dma_ppa_list;
+		dma_addr_t dma_meta_list;
+	} cocci_id/* drivers/lightnvm/pblk-recovery.c 142 */;
+}

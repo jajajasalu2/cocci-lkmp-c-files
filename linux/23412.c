@@ -1,0 +1,61 @@
+cocci_test_suite() {
+	struct ak4613_priv {
+		struct mutex lock;
+		const struct ak4613_interface *iface;
+		struct snd_pcm_hw_constraint_list constraint;
+		struct work_struct dummy_write_work;
+		struct snd_soc_component *component;
+		unsigned int rate;
+		unsigned int sysclk;
+		unsigned int fmt;
+		u8 oc;
+		u8 ic;
+		int cnt;
+	} cocci_id/* sound/soc/codecs/ak4613.c 91 */;
+	struct ak4613_interface {
+		struct ak4613_formats capture;
+		struct ak4613_formats playback;
+	} cocci_id/* sound/soc/codecs/ak4613.c 86 */;
+	struct ak4613_formats {
+		unsigned int width;
+		unsigned int fmt;
+	} cocci_id/* sound/soc/codecs/ak4613.c 81 */;
+	struct i2c_driver cocci_id/* sound/soc/codecs/ak4613.c 686 */;
+	const struct of_device_id *cocci_id/* sound/soc/codecs/ak4613.c 646 */;
+	struct regmap *cocci_id/* sound/soc/codecs/ak4613.c 641 */;
+	const struct regmap_config *cocci_id/* sound/soc/codecs/ak4613.c 640 */;
+	struct device_node *cocci_id/* sound/soc/codecs/ak4613.c 639 */;
+	const struct i2c_device_id *cocci_id/* sound/soc/codecs/ak4613.c 636 */;
+	struct i2c_client *cocci_id/* sound/soc/codecs/ak4613.c 635 */;
+	char cocci_id/* sound/soc/codecs/ak4613.c 617 */[32];
+	const struct snd_soc_component_driver cocci_id/* sound/soc/codecs/ak4613.c 598 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/codecs/ak4613.c 561 */;
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/codecs/ak4613.c 542 */;
+	struct ak4613_priv cocci_id/* sound/soc/codecs/ak4613.c 474 */;
+	struct work_struct *cocci_id/* sound/soc/codecs/ak4613.c 471 */;
+	enum snd_soc_bias_level cocci_id/* sound/soc/codecs/ak4613.c 447 */;
+	u8 cocci_id/* sound/soc/codecs/ak4613.c 374 */;
+	struct device *cocci_id/* sound/soc/codecs/ak4613.c 368 */;
+	struct ak4613_priv *cocci_id/* sound/soc/codecs/ak4613.c 366 */;
+	struct snd_soc_component *cocci_id/* sound/soc/codecs/ak4613.c 365 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/codecs/ak4613.c 363 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/codecs/ak4613.c 362 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/codecs/ak4613.c 361 */;
+	const struct ak4613_formats *cocci_id/* sound/soc/codecs/ak4613.c 348 */;
+	unsigned int cocci_id/* sound/soc/codecs/ak4613.c 346 */;
+	int cocci_id/* sound/soc/codecs/ak4613.c 345 */;
+	bool cocci_id/* sound/soc/codecs/ak4613.c 344 */;
+	const struct ak4613_interface *cocci_id/* sound/soc/codecs/ak4613.c 344 */;
+	struct snd_pcm_hw_constraint_list *cocci_id/* sound/soc/codecs/ak4613.c 270 */;
+	const unsigned int cocci_id/* sound/soc/codecs/ak4613.c 260 */[];
+	struct snd_pcm_runtime *cocci_id/* sound/soc/codecs/ak4613.c 258 */;
+	void cocci_id/* sound/soc/codecs/ak4613.c 239 */;
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/codecs/ak4613.c 207 */[];
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/codecs/ak4613.c 170 */[];
+	const struct i2c_device_id cocci_id/* sound/soc/codecs/ak4613.c 164 */[];
+	const struct of_device_id cocci_id/* sound/soc/codecs/ak4613.c 158 */[];
+	const struct regmap_config cocci_id/* sound/soc/codecs/ak4613.c 149 */;
+	const struct ak4613_interface cocci_id/* sound/soc/codecs/ak4613.c 142 */[];
+	const struct reg_default cocci_id/* sound/soc/codecs/ak4613.c 131 */[];
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/ak4613.c 116 */[];
+}

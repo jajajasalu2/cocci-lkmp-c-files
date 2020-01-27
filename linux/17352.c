@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	int cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 93 */(struct fw_dump *fadump_conf);
+	bool cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 90 */;
+	const struct opal_mpipl_fadump *cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 86 */;
+	void *cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 62 */;
+	struct fadump_ops cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 609 */;
+	const char *cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 589 */;
+	struct seq_file *cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 555 */;
+	int __init cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 513 */;
+	struct hdat_fadump_thread_hdr cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 441 */;
+	u32 *cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 431 */;
+	int cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 418 */;
+	char *cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 417 */;
+	struct pt_regs cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 416 */;
+	struct hdat_fadump_thread_hdr *cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 413 */;
+	u32 cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 412 */;
+	struct fadump_crash_info_header *cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 410 */;
+	int __init cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 408 */;
+	u64 cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 374 */;
+	bool __init cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 364 */;
+	struct fw_dump *cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 364 */;
+	s64 cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 353 */;
+	void cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 351 */;
+	unsigned long cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 35 */;
+	const __be32 *cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 34 */;
+	const struct opal_fadump_mem_struct *cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 33 */;
+	void __init cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 31 */;
+	struct opal_fadump_mem_struct cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 218 */;
+	struct opal_fadump_mem_struct *cocci_id/* arch/powerpc/platforms/powernv/opal-fadump.c 178 */;
+}

@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	unsigned char *cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 875 */;
+	struct obj_key *cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 861 */;
+	struct obj_ssid *cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 853 */;
+	char *cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 779 */;
+	struct obj_key cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 76 */;
+	enum oid_num_t cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 687 */;
+	enum oid_num_t cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 637 */[];
+	u32 cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 589 */;
+	void *cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 587 */;
+	struct oid_t *cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 586 */;
+	struct islpci_mgmtframe *cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 583 */;
+	enum oid_num_t *cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 580 */;
+	struct obj_ssid cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 56 */;
+	union oid_res_t *cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 504 */;
+	struct oid_t cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 45 */[];
+	struct obj_mlmeex cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 41 */;
+	struct obj_mlme cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 40 */;
+	struct obj_attachment *cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 388 */;
+	struct obj_mlmeex *cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 380 */;
+	struct obj_mlme *cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 373 */;
+	struct obj_frequencies *cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 365 */;
+	struct obj_bsslist *cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 357 */;
+	struct obj_bss *cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 348 */;
+	struct obj_buffer *cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 342 */;
+	u32 *cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 339 */;
+	islpci_private *cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 251 */;
+	void cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 250 */;
+	int cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 21 */;
+	struct obj_bss cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 205 */[IWMAX_BSS];
+	struct obj_bsslist cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 203 */;
+	struct obj_bss cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 200 */;
+	struct obj_buffer cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 196 */;
+	struct obj_attachment cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 195 */;
+	const int cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 17 */[];
+	struct obj_frequencies cocci_id/* drivers/net/wireless/intersil/prism54/oid_mgt.c 161 */;
+}

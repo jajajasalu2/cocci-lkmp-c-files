@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	struct mei_cl_device cocci_id/* drivers/misc/mei/bus.c 935 */;
+	struct mei_me_client *cocci_id/* drivers/misc/mei/bus.c 930 */;
+	const struct device_type cocci_id/* drivers/misc/mei/bus.c 903 */;
+	struct bus_type cocci_id/* drivers/misc/mei/bus.c 866 */;
+	struct kobj_uevent_env *cocci_id/* drivers/misc/mei/bus.c 844 */;
+	struct attribute *cocci_id/* drivers/misc/mei/bus.c 824 */[];
+	u32 cocci_id/* drivers/misc/mei/bus.c 818 */;
+	u8 cocci_id/* drivers/misc/mei/bus.c 808 */;
+	struct mei_cl_device *cocci_id/* drivers/misc/mei/bus.c 807 */;
+	char *cocci_id/* drivers/misc/mei/bus.c 805 */;
+	struct device_attribute *cocci_id/* drivers/misc/mei/bus.c 804 */;
+	struct device *cocci_id/* drivers/misc/mei/bus.c 804 */;
+	struct device_driver *cocci_id/* drivers/misc/mei/bus.c 660 */;
+	const uuid_le *cocci_id/* drivers/misc/mei/bus.c 622 */;
+	const struct mei_cl_device_id *cocci_id/* drivers/misc/mei/bus.c 617 */;
+	const struct mei_cl_device *cocci_id/* drivers/misc/mei/bus.c 418 */;
+	void *cocci_id/* drivers/misc/mei/bus.c 418 */;
+	mei_cldev_cb_t cocci_id/* drivers/misc/mei/bus.c 387 */;
+	struct work_struct *cocci_id/* drivers/misc/mei/bus.c 288 */;
+	struct mei_cl_driver cocci_id/* drivers/misc/mei/bus.c 21 */;
+	bool cocci_id/* drivers/misc/mei/bus.c 120 */;
+	void __exit cocci_id/* drivers/misc/mei/bus.c 1174 */;
+	struct mei_cl_cb *cocci_id/* drivers/misc/mei/bus.c 117 */;
+	int __init cocci_id/* drivers/misc/mei/bus.c 1169 */;
+	struct mei_device *cocci_id/* drivers/misc/mei/bus.c 116 */;
+	struct module *cocci_id/* drivers/misc/mei/bus.c 1142 */;
+	struct mei_cl_driver *cocci_id/* drivers/misc/mei/bus.c 1141 */;
+	int cocci_id/* drivers/misc/mei/bus.c 1141 */;
+	unsigned long cocci_id/* drivers/misc/mei/bus.c 114 */;
+	unsigned int cocci_id/* drivers/misc/mei/bus.c 114 */;
+	struct mei_device cocci_id/* drivers/misc/mei/bus.c 1136 */;
+	u8 *cocci_id/* drivers/misc/mei/bus.c 113 */;
+	struct mei_cl *cocci_id/* drivers/misc/mei/bus.c 113 */;
+	ssize_t cocci_id/* drivers/misc/mei/bus.c 113 */;
+	size_t cocci_id/* drivers/misc/mei/bus.c 113 */;
+	void cocci_id/* drivers/misc/mei/bus.c 1020 */;
+}

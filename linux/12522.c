@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	void *cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 928 */;
+	struct v3d_csd_job *cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 781 */;
+	struct drm_v3d_submit_csd *cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 780 */;
+	struct v3d_tfu_job *cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 686 */;
+	struct drm_v3d_submit_tfu *cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 685 */;
+	struct ww_acquire_ctx cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 535 */;
+	struct v3d_bin_job *cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 531 */;
+	struct drm_v3d_submit_cl *cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 530 */;
+	int cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 494 */;
+	struct drm_syncobj *cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 493 */;
+	struct dma_fence *cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 491 */;
+	u32 cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 490 */;
+	struct ww_acquire_ctx *cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 489 */;
+	struct v3d_job *cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 488 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 487 */;
+	void cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 486 */;
+	enum v3d_queue cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 467 */;
+	struct v3d_file_priv *cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 466 */;
+	void (*cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 433 */)(struct kref *ref);
+	ktime_t cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 404 */;
+	struct drm_v3d_wait_bo *cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 403 */;
+	struct v3d_bo *cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 384 */;
+	struct v3d_render_job cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 382 */;
+	struct v3d_render_job *cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 382 */;
+	unsigned long cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 355 */;
+	struct v3d_job cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 354 */;
+	struct kref *cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 352 */;
+	struct drm_gem_object *cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 332 */;
+	uintptr_t cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 323 */;
+	void __user *cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 323 */;
+	struct drm_gem_cma_object *cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 308 */;
+	u32 *cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 293 */;
+	u64 cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 290 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 191 */;
+	struct v3d_dev *cocci_id/* drivers/gpu/drm/v3d/v3d_gem.c 189 */;
+}

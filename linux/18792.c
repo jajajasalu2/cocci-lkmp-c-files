@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* arch/arm/mach-pxa/lubbock.c 61 */[]__initdata;
+	int __init cocci_id/* arch/arm/mach-pxa/lubbock.c 590 */;
+	struct lubbock_led cocci_id/* arch/arm/mach-pxa/lubbock.c 584 */;
+	struct lubbock_led *cocci_id/* arch/arm/mach-pxa/lubbock.c 583 */;
+	enum led_brightness cocci_id/* arch/arm/mach-pxa/lubbock.c 581 */;
+	struct led_classdev *cocci_id/* arch/arm/mach-pxa/lubbock.c 581 */;
+	const struct {
+		const char *name;
+		const char *trigger;
+	} cocci_id/* arch/arm/mach-pxa/lubbock.c 552 */[];
+	struct lubbock_led {
+		struct led_classdev cdev;
+		u8 mask;
+	} cocci_id/* arch/arm/mach-pxa/lubbock.c 543 */;
+	struct map_desc cocci_id/* arch/arm/mach-pxa/lubbock.c 519 */[]__initdata;
+	void __init cocci_id/* arch/arm/mach-pxa/lubbock.c 477 */;
+	struct pxaficp_platform_data cocci_id/* arch/arm/mach-pxa/lubbock.c 471 */;
+	unsigned long cocci_id/* arch/arm/mach-pxa/lubbock.c 459 */;
+	struct device *cocci_id/* arch/arm/mach-pxa/lubbock.c 457 */;
+	struct pxamci_platform_data cocci_id/* arch/arm/mach-pxa/lubbock.c 449 */;
+	irq_handler_t cocci_id/* arch/arm/mach-pxa/lubbock.c 427 */;
+	irqreturn_t cocci_id/* arch/arm/mach-pxa/lubbock.c 417 */;
+	void *cocci_id/* arch/arm/mach-pxa/lubbock.c 417 */;
+	struct timer_list *cocci_id/* arch/arm/mach-pxa/lubbock.c 399 */;
+	struct timer_list cocci_id/* arch/arm/mach-pxa/lubbock.c 397 */;
+	struct pxafb_mach_info cocci_id/* arch/arm/mach-pxa/lubbock.c 384 */;
+	struct pxafb_mode_info cocci_id/* arch/arm/mach-pxa/lubbock.c 369 */;
+	struct platform_device *cocci_id/* arch/arm/mach-pxa/lubbock.c 361 */[]__initdata;
+	struct platform_device cocci_id/* arch/arm/mach-pxa/lubbock.c 353 */;
+	struct platform_device cocci_id/* arch/arm/mach-pxa/lubbock.c 314 */[2];
+	struct flash_platform_data cocci_id/* arch/arm/mach-pxa/lubbock.c 302 */[2];
+	struct mtd_partition cocci_id/* arch/arm/mach-pxa/lubbock.c 285 */[];
+	struct resource cocci_id/* arch/arm/mach-pxa/lubbock.c 272 */[];
+	struct smc91x_platdata cocci_id/* arch/arm/mach-pxa/lubbock.c 258 */;
+	struct spi_board_info cocci_id/* arch/arm/mach-pxa/lubbock.c 226 */[]__initdata;
+	struct pxa2xx_spi_chip cocci_id/* arch/arm/mach-pxa/lubbock.c 220 */;
+	const unsigned cocci_id/* arch/arm/mach-pxa/lubbock.c 216 */;
+	u32 cocci_id/* arch/arm/mach-pxa/lubbock.c 214 */;
+	void cocci_id/* arch/arm/mach-pxa/lubbock.c 214 */;
+	struct ads7846_platform_data cocci_id/* arch/arm/mach-pxa/lubbock.c 206 */;
+	int cocci_id/* arch/arm/mach-pxa/lubbock.c 200 */;
+	struct pxa2xx_spi_controller cocci_id/* arch/arm/mach-pxa/lubbock.c 196 */;
+	struct sa1111_platform_data cocci_id/* arch/arm/mach-pxa/lubbock.c 176 */;
+	struct clk *cocci_id/* arch/arm/mach-pxa/lubbock.c 151 */;
+	struct gpiod_lookup_table cocci_id/* arch/arm/mach-pxa/lubbock.c 136 */;
+	struct pxa2xx_udc_mach_info cocci_id/* arch/arm/mach-pxa/lubbock.c 130 */;
+	unsigned int cocci_id/* arch/arm/mach-pxa/lubbock.c 119 */;
+	struct gpio_chip *cocci_id/* arch/arm/mach-pxa/lubbock.c 117 */;
+	uint32_t cocci_id/* arch/arm/mach-pxa/lubbock.c 112 */;
+	const struct machine_desc cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 397 */;
+}

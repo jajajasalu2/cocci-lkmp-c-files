@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct qcaspi cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 946 */;
+	u16 cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 92 */;
+	struct qcaspi *cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 92 */;
+	void cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 91 */;
+	const char *cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 888 */;
+	u8 cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 886 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 885 */;
+	struct spi_device *cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 882 */;
+	int cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 881 */;
+	const struct of_device_id cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 875 */[];
+	const struct net_device_ops cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 842 */;
+	u16 *cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 82 */;
+	struct qcaspi_stats cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 815 */;
+	u8 *cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 721 */;
+	u32 cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 720 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 718 */;
+	netdev_tx_t cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 717 */;
+	void *cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 651 */;
+	irqreturn_t cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 650 */;
+	unsigned int cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 591 */;
+	struct tx_ring *cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 459 */;
+	s32 cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 409 */;
+	struct net_device_stats *cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 343 */;
+	struct spi_transfer cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 190 */;
+	struct spi_transfer cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 162 */[2];
+	__be16 cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 161 */;
+	struct spi_message cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 160 */;
+	struct spi_driver cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 1022 */;
+	const struct spi_device_id cocci_id/* drivers/net/ethernet/qualcomm/qca_spi.c 1016 */[];
+}

@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	umode_t cocci_id/* fs/open.c 958 */;
+	struct open_flags *cocci_id/* fs/open.c 958 */;
+	const struct cred *cocci_id/* fs/open.c 918 */;
+	struct file *cocci_id/* fs/open.c 917 */;
+	char *cocci_id/* fs/open.c 899 */;
+	const struct file_operations cocci_id/* fs/open.c 740 */;
+	int (*cocci_id/* fs/open.c 738 */)(struct inode *, struct file *);
+	uid_t cocci_id/* fs/open.c 700 */;
+	gid_t cocci_id/* fs/open.c 700 */;
+	kgid_t cocci_id/* fs/open.c 627 */;
+	kuid_t cocci_id/* fs/open.c 626 */;
+	struct iattr cocci_id/* fs/open.c 548 */;
+	struct inode *cocci_id/* fs/open.c 546 */;
+	const struct path *cocci_id/* fs/open.c 544 */;
+	const char *cocci_id/* fs/open.c 448 */;
+	int cocci_id/* fs/open.c 448 */;
+	struct path cocci_id/* fs/open.c 352 */;
+	struct cred *cocci_id/* fs/open.c 351 */;
+	const char __user *cocci_id/* fs/open.c 348 */;
+	long cocci_id/* fs/open.c 348 */;
+	unsigned long cocci_id/* fs/open.c 203 */;
+	struct fd cocci_id/* fs/open.c 159 */;
+	struct dentry *cocci_id/* fs/open.c 158 */;
+	loff_t cocci_id/* fs/open.c 155 */;
+	vhangup cocci_id/* fs/open.c 1209 */;
+	unsigned int cocci_id/* fs/open.c 1191 */;
+	fl_owner_t cocci_id/* fs/open.c 1164 */;
+	struct filename *cocci_id/* fs/open.c 1086 */;
+	struct open_flags cocci_id/* fs/open.c 1084 */;
+	struct vfsmount *cocci_id/* fs/open.c 1071 */;
+}

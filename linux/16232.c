@@ -1,0 +1,76 @@
+cocci_test_suite() {
+	enum{CT_Off=0, CT_On, CT_Highlight, CT_Window, CT_Max,} cocci_id/* drivers/staging/speakup/main.c 97 */;
+	u_char cocci_id/* drivers/staging/speakup/main.c 88 */[600];
+	u_char *cocci_id/* drivers/staging/speakup/main.c 87 */[MAX_KEY];
+	u16 cocci_id/* drivers/staging/speakup/main.c 866 */[2][256];
+	u16 *cocci_id/* drivers/staging/speakup/main.c 863 */[2][10];
+	u16 *cocci_id/* drivers/staging/speakup/main.c 862 */[2];
+	int cocci_id/* drivers/staging/speakup/main.c 861 */[2];
+	u_short *cocci_id/* drivers/staging/speakup/main.c 759 */;
+	u_long cocci_id/* drivers/staging/speakup/main.c 754 */;
+	const struct st_bits_data cocci_id/* drivers/staging/speakup/main.c 72 */[];
+	bool cocci_id/* drivers/staging/speakup/main.c 71 */;
+	const char *cocci_id/* drivers/staging/speakup/main.c 704 */[];
+	char cocci_id/* drivers/staging/speakup/main.c 68 */[MAXVARLEN + 1];
+	u16 cocci_id/* drivers/staging/speakup/main.c 61 */[256];
+	special_func cocci_id/* drivers/staging/speakup/main.c 58 */;
+	u_char *cocci_id/* drivers/staging/speakup/main.c 460 */;
+	struct vc_data *cocci_id/* drivers/staging/speakup/main.c 416 */;
+	int cocci_id/* drivers/staging/speakup/main.c 416 */;
+	void cocci_id/* drivers/staging/speakup/main.c 416 */;
+	enum{edge_top=1, edge_bottom, edge_left, edge_right, edge_quiet,} cocci_id/* drivers/staging/speakup/main.c 408 */;
+	const char cocci_id/* drivers/staging/speakup/main.c 344 */[];
+	short cocci_id/* drivers/staging/speakup/main.c 278 */;
+	const short cocci_id/* drivers/staging/speakup/main.c 275 */[];
+	u_short cocci_id/* drivers/staging/speakup/main.c 273 */;
+	unsigned char cocci_id/* drivers/staging/speakup/main.c 258 */;
+	struct notifier_block cocci_id/* drivers/staging/speakup/main.c 247 */;
+	int cocci_id/* drivers/staging/speakup/main.c 244 */(struct notifier_block *,
+							     unsigned long code,
+							     void *param);
+	struct st_spk_t *cocci_id/* drivers/staging/speakup/main.c 240 */[MAX_NR_CONSOLES];
+	long cocci_id/* drivers/staging/speakup/main.c 2354 */;
+	int __init cocci_id/* drivers/staging/speakup/main.c 2351 */;
+	struct bleep cocci_id/* drivers/staging/speakup/main.c 233 */;
+	struct task_struct *cocci_id/* drivers/staging/speakup/main.c 232 */;
+	void __exit cocci_id/* drivers/staging/speakup/main.c 2315 */;
+	struct vt_notifier_param *cocci_id/* drivers/staging/speakup/main.c 2287 */;
+	struct keyboard_notifier_param *cocci_id/* drivers/staging/speakup/main.c 2217 */;
+	void *cocci_id/* drivers/staging/speakup/main.c 2215 */;
+	struct notifier_block *cocci_id/* drivers/staging/speakup/main.c 2214 */;
+	const char *cocci_id/* drivers/staging/speakup/main.c 2094 */;
+	spkup_hand cocci_id/* drivers/staging/speakup/main.c 2058 */[];
+	void (*cocci_id/* drivers/staging/speakup/main.c 2057 */)(struct vc_data *);
+	u_char cocci_id/* drivers/staging/speakup/main.c 1941 */[8];
+	u_short cocci_id/* drivers/staging/speakup/main.c 192 */[256];
+	char cocci_id/* drivers/staging/speakup/main.c 1870 */[40];
+	char cocci_id/* drivers/staging/speakup/main.c 1839 */[32];
+	struct st_var_header *cocci_id/* drivers/staging/speakup/main.c 1837 */;
+	char *cocci_id/* drivers/staging/speakup/main.c 1801 */;
+	unsigned long cocci_id/* drivers/staging/speakup/main.c 1686 */;
+	struct timer_list *cocci_id/* drivers/staging/speakup/main.c 1683 */;
+	unsigned int cocci_id/* drivers/staging/speakup/main.c 1639 */[8];
+	u16 *cocci_id/* drivers/staging/speakup/main.c 1612 */;
+	u16 cocci_id/* drivers/staging/speakup/main.c 1611 */;
+	struct var_t *cocci_id/* drivers/staging/speakup/main.c 1538 */;
+	u_char cocci_id/* drivers/staging/speakup/main.c 1535 */;
+	char cocci_id/* drivers/staging/speakup/main.c 1535 */;
+	enum{RA_NOTHING, RA_NEXT_SENT, RA_PREV_LINE, RA_NEXT_LINE, RA_PREV_SENT, RA_DOWN_ARROW, RA_TIMER, RA_FIND_NEXT_SENT, RA_FIND_PREV_SENT,} cocci_id/* drivers/staging/speakup/main.c 1381 */;
+	void cocci_id/* drivers/staging/speakup/main.c 1379 */(struct vc_data *vc,
+							       int command);
+	void cocci_id/* drivers/staging/speakup/main.c 1373 */(struct vc_data *);
+	gfp_t cocci_id/* drivers/staging/speakup/main.c 1342 */;
+	const struct st_bits_data *cocci_id/* drivers/staging/speakup/main.c 1318 */;
+	struct var_t cocci_id/* drivers/staging/speakup/main.c 1273 */[];
+	unsigned int cocci_id/* drivers/staging/speakup/main.c 1240 */;
+	char *cocci_id/* drivers/staging/speakup/main.c 123 */[256];
+	const u_char *cocci_id/* drivers/staging/speakup/main.c 1221 */;
+	void cocci_id/* drivers/staging/speakup/main.c 1163 */(struct timer_list *unused);
+	void cocci_id/* drivers/staging/speakup/main.c 1162 */(struct vc_data *vc);
+	const int cocci_id/* drivers/staging/speakup/main.c 1160 */;
+	char *cocci_id/* drivers/staging/speakup/main.c 111 */[];
+	void cocci_id/* drivers/staging/speakup/main.c 109 */(const u16 *in_buf,
+							      int count);
+	const u16 *cocci_id/* drivers/staging/speakup/main.c 1080 */;
+	struct tty_struct *cocci_id/* drivers/staging/speakup/main.c 107 */;
+}

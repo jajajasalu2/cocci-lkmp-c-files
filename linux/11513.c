@@ -1,0 +1,55 @@
+cocci_test_suite() {
+	int cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 86 */;
+	struct nouveau_crtc *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 76 */;
+	struct drm_gem_object *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 678 */;
+	uint64_t *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 676 */;
+	uint32_t cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 651 */;
+	struct nouveau_bo *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 650 */;
+	struct nouveau_cli *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 649 */;
+	struct drm_mode_create_dumb *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 647 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 646 */;
+	typeof(*nv_crtc) cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 51 */;
+	struct nouveau_display *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 504 */;
+	struct nvkm_device *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 503 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 500 */;
+	struct nvif_notify *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 48 */;
+	void cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 463 */;
+	struct nouveau_connector *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 451 */;
+	struct drm_connector_list_iter cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 439 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 438 */;
+	bool cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 434 */;
+	struct acpi_bus_event *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 368 */;
+	typeof(*drm) cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 367 */;
+	struct nouveau_drm *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 367 */;
+	void *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 365 */;
+	struct notifier_block *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 364 */;
+	unsigned long cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 364 */;
+	struct work_struct *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 349 */;
+	struct nouveau_drm_prop_enum_list *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 329 */;
+	struct nouveau_drm_prop_enum_list cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 321 */[];
+	struct nouveau_drm_prop_enum_list {
+		u8 gen_mask;
+		int type;
+		char *name;
+	} cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 298 */;
+	const struct drm_mode_config_funcs cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 292 */;
+	struct drm_framebuffer *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 269 */;
+	struct drm_format_name_buf cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 248 */;
+	struct nouveau_framebuffer *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 234 */;
+	struct nouveau_framebuffer **cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 231 */;
+	const struct drm_mode_fb_cmd2 *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 229 */;
+	const struct drm_framebuffer_funcs cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 222 */;
+	unsigned int *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 215 */;
+	struct nvif_notify_head_rep_v0 cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 183 */;
+	struct nvif_notify_head_req_v0 cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 179 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 144 */;
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 142 */;
+	ktime_t *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 141 */;
+	int *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 140 */;
+	unsigned int cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 139 */;
+	struct drm_vblank_crtc *cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 112 */;
+	struct {
+		struct nv04_disp_mthd_v0 base;
+		struct nv04_disp_scanoutpos_v0 scan;
+	} cocci_id/* drivers/gpu/drm/nouveau/nouveau_display.c 104 */;
+}

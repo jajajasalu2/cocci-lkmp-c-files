@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct bb_reg_param cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 87 */;
+	struct oid_par_priv *cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 848 */;
+	unsigned int cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 848 */;
+	u16 cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 82 */;
+	struct bb_reg_param *cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 81 */;
+	u8 *cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 761 */;
+	u32 cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 737 */;
+	int *cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 723 */;
+	struct EFUSE_ACCESS_STRUCT cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 669 */;
+	struct EFUSE_ACCESS_STRUCT *cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 662 */;
+	u8 cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 638 */;
+	unsigned short cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 613 */;
+	unsigned char cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 609 */;
+	struct mp_rw_reg *cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 537 */;
+	u32 *cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 462 */;
+	uint cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 24 */;
+	struct wlan_network cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 228 */;
+	unsigned char *cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 161 */;
+	unsigned long cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 154 */;
+	struct sta_info *cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 153 */;
+	struct wlan_bssid_ex cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 152 */;
+	struct wlan_network *cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 151 */;
+	struct mlme_priv *cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 150 */;
+	struct mp_priv *cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 149 */;
+	struct _adapter *cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 147 */;
+	int cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 147 */;
+	struct rf_reg_param cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 133 */;
+	struct rf_reg_param *cocci_id/* drivers/staging/rtl8712/rtl871x_mp_ioctl.c 126 */;
+}

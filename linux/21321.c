@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct physmap_flash_data cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 66 */;
+	struct sh_machine_vector cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 645 */;
+	void __init cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 627 */;
+	int cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 616 */;
+	struct mtd_partition cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 51 */[];
+	struct clk *cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 480 */;
+	int __init cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 478 */;
+	void cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 478 */;
+	char cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 474 */;
+	phys_addr_t cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 45 */;
+	unsigned char cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 399 */[2];
+	struct i2c_msg cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 398 */;
+	struct i2c_adapter *cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 397 */;
+	struct platform_device *cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 337 */[]__initdata;
+	void *cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 322 */;
+	struct tmio_mmc_data cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 321 */;
+	struct regulator_consumer_supply cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 302 */[];
+	struct gpiod_lookup_table cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 291 */;
+	struct rj54n1_pdata cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 281 */;
+	struct platform_device cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 271 */;
+	struct resource cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 257 */[];
+	struct ceu_platform_data cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 244 */;
+	struct r8a66597_platdata cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 215 */;
+	struct i2c_board_info cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 210 */;
+	struct lv5207lp_platform_data cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 204 */;
+	struct sh_mobile_lcdc_info cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 157 */;
+	const struct fb_videomode cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 142 */[];
+	struct sh_keysc_info cocci_id/* arch/sh/boards/mach-kfr2r09/setup.c 105 */;
+}

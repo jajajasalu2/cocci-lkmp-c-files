@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	struct tpm_buf *cocci_id/* crypto/asymmetric_keys/asym_tpm.c 95 */;
+	struct asymmetric_key_subtype cocci_id/* crypto/asymmetric_keys/asym_tpm.c 943 */;
+	struct tpm_key cocci_id/* crypto/asymmetric_keys/asym_tpm.c 914 */;
+	struct scatterlist cocci_id/* crypto/asymmetric_keys/asym_tpm.c 738 */[2];
+	const struct tpm_key *cocci_id/* crypto/asymmetric_keys/asym_tpm.c 734 */;
+	const struct public_key_signature *cocci_id/* crypto/asymmetric_keys/asym_tpm.c 732 */;
+	const struct asn1_template *cocci_id/* crypto/asymmetric_keys/asym_tpm.c 614 */;
+	const struct asn1_template {
+		const char *name;
+		const u8 *data;
+		size_t size;
+	} cocci_id/* crypto/asymmetric_keys/asym_tpm.c 597 */[];
+	const u8 cocci_id/* crypto/asymmetric_keys/asym_tpm.c 555 */[];
+	uint8_t cocci_id/* crypto/asymmetric_keys/asym_tpm.c 509 */[SHA1_DIGEST_SIZE];
+	struct tpm_buf cocci_id/* crypto/asymmetric_keys/asym_tpm.c 507 */;
+	struct kernel_pkey_params *cocci_id/* crypto/asymmetric_keys/asym_tpm.c 504 */;
+	uint8_t cocci_id/* crypto/asymmetric_keys/asym_tpm.c 452 */[PUB_KEY_BUF_SIZE];
+	struct scatterlist cocci_id/* crypto/asymmetric_keys/asym_tpm.c 451 */;
+	struct crypto_wait cocci_id/* crypto/asymmetric_keys/asym_tpm.c 450 */;
+	struct akcipher_request *cocci_id/* crypto/asymmetric_keys/asym_tpm.c 449 */;
+	struct crypto_akcipher *cocci_id/* crypto/asymmetric_keys/asym_tpm.c 448 */;
+	struct kernel_pkey_query *cocci_id/* crypto/asymmetric_keys/asym_tpm.c 393 */;
+	const struct kernel_pkey_params *cocci_id/* crypto/asymmetric_keys/asym_tpm.c 392 */;
+	unsigned char cocci_id/* crypto/asymmetric_keys/asym_tpm.c 39 */;
+	unsigned char cocci_id/* crypto/asymmetric_keys/asym_tpm.c 37 */[SHA1_DIGEST_SIZE];
+	char cocci_id/* crypto/asymmetric_keys/asym_tpm.c 366 */[CRYPTO_MAX_ALG_NAME];
+	const char *cocci_id/* crypto/asymmetric_keys/asym_tpm.c 365 */;
+	int cocci_id/* crypto/asymmetric_keys/asym_tpm.c 365 */;
+	unsigned char cocci_id/* crypto/asymmetric_keys/asym_tpm.c 35 */[TPM_NONCE_SIZE];
+	uint8_t cocci_id/* crypto/asymmetric_keys/asym_tpm.c 344 */[3];
+	const void *cocci_id/* crypto/asymmetric_keys/asym_tpm.c 339 */;
+	uint8_t *cocci_id/* crypto/asymmetric_keys/asym_tpm.c 339 */;
+	uint32_t *cocci_id/* crypto/asymmetric_keys/asym_tpm.c 33 */;
+	const unsigned char *cocci_id/* crypto/asymmetric_keys/asym_tpm.c 32 */;
+	uint8_t cocci_id/* crypto/asymmetric_keys/asym_tpm.c 318 */;
+	unsigned char *cocci_id/* crypto/asymmetric_keys/asym_tpm.c 31 */;
+	uint32_t cocci_id/* crypto/asymmetric_keys/asym_tpm.c 309 */;
+	void *cocci_id/* crypto/asymmetric_keys/asym_tpm.c 295 */;
+	struct tpm_key *cocci_id/* crypto/asymmetric_keys/asym_tpm.c 287 */;
+	struct seq_file *cocci_id/* crypto/asymmetric_keys/asym_tpm.c 285 */;
+	const struct key *cocci_id/* crypto/asymmetric_keys/asym_tpm.c 284 */;
+	void cocci_id/* crypto/asymmetric_keys/asym_tpm.c 284 */;
+}

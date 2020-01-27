@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	char cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 56 */[3];
+	char cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 54 */[SYSFS_BUS_ID_SIZE];
+	char cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 430 */[NI_MAXSERV];
+	char cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 429 */[NI_MAXHOST];
+	char cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 428 */[100];
+	uint32_t cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 392 */;
+	uint8_t cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 385 */;
+	unsigned long cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 385 */;
+	char cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 360 */[SYSFS_PATH_MAX];
+	char cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 359 */[200];
+	struct usbip_imported_device cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 272 */;
+	struct usbip_vhci_driver cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 271 */;
+	char *cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 21 */;
+	struct usbip_imported_device *cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 20 */;
+	size_t cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 196 */;
+	int cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 195 */[];
+	char cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 194 */[];
+	char cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 192 */[PATH_MAX + 1];
+	FILE *cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 191 */;
+	struct udev *cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 18 */;
+	struct usbip_vhci_driver *cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 17 */;
+	struct udev_device *cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 159 */;
+	struct dirent **cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 158 */;
+	int cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 156 */;
+	void cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 156 */;
+	const struct dirent *cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 151 */;
+	const char *cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 140 */;
+	char cocci_id/* tools/usb/usbip/libsrc/vhci_driver.c 114 */[MAX_STATUS_NAME + 1];
+}

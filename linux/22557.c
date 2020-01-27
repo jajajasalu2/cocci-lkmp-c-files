@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	const struct snd_pcm_hardware cocci_id/* sound/pci/emu10k1/emupcm.c 995 */;
+	snd_pcm_uframes_t cocci_id/* sound/pci/emu10k1/emupcm.c 950 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/pci/emu10k1/emupcm.c 573 */;
+	struct snd_emu10k1_memblk *cocci_id/* sound/pci/emu10k1/emupcm.c 421 */;
+	unsigned long cocci_id/* sound/pci/emu10k1/emupcm.c 281 */;
+	unsigned char cocci_id/* sound/pci/emu10k1/emupcm.c 279 */[8];
+	struct snd_emu10k1_voice *cocci_id/* sound/pci/emu10k1/emupcm.c 270 */;
+	int cocci_id/* sound/pci/emu10k1/emupcm.c 259 */;
+	unsigned int cocci_id/* sound/pci/emu10k1/emupcm.c 215 */;
+	struct snd_kcontrol *cocci_id/* sound/pci/emu10k1/emupcm.c 1807 */;
+	const unsigned int cocci_id/* sound/pci/emu10k1/emupcm.c 170 */[8];
+	const struct snd_pcm_hw_constraint_list cocci_id/* sound/pci/emu10k1/emupcm.c 164 */;
+	unsigned short *cocci_id/* sound/pci/emu10k1/emupcm.c 1604 */;
+	struct snd_emu10k1_fx8010_pcm *cocci_id/* sound/pci/emu10k1/emupcm.c 1602 */;
+	struct snd_emu10k1 *cocci_id/* sound/pci/emu10k1/emupcm.c 1601 */;
+	struct snd_pcm_indirect *cocci_id/* sound/pci/emu10k1/emupcm.c 1599 */;
+	size_t cocci_id/* sound/pci/emu10k1/emupcm.c 1599 */;
+	struct snd_pcm_substream *cocci_id/* sound/pci/emu10k1/emupcm.c 1598 */;
+	void cocci_id/* sound/pci/emu10k1/emupcm.c 1598 */;
+	void *cocci_id/* sound/pci/emu10k1/emupcm.c 1567 */;
+	const struct snd_pcm_ops cocci_id/* sound/pci/emu10k1/emupcm.c 1550 */;
+	const struct snd_kcontrol_new cocci_id/* sound/pci/emu10k1/emupcm.c 1542 */;
+	const unsigned int cocci_id/* sound/pci/emu10k1/emupcm.c 153 */[31];
+	unsigned int cocci_id/* sound/pci/emu10k1/emupcm.c 1514 */[2];
+	struct snd_ctl_elem_value *cocci_id/* sound/pci/emu10k1/emupcm.c 1498 */;
+	struct snd_ctl_elem_info *cocci_id/* sound/pci/emu10k1/emupcm.c 1487 */;
+	struct snd_pcm *cocci_id/* sound/pci/emu10k1/emupcm.c 1396 */;
+	struct snd_pcm_runtime *cocci_id/* sound/pci/emu10k1/emupcm.c 1256 */;
+	struct snd_emu10k1_pcm *cocci_id/* sound/pci/emu10k1/emupcm.c 1255 */;
+	struct snd_emu10k1_pcm_mixer *cocci_id/* sound/pci/emu10k1/emupcm.c 1078 */;
+	struct snd_ctl_elem_id cocci_id/* sound/pci/emu10k1/emupcm.c 1043 */;
+}

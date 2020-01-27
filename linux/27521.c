@@ -1,0 +1,62 @@
+cocci_test_suite() {
+	loff_t cocci_id/* fs/fuse/cuse.c 96 */;
+	struct fuse_io_priv cocci_id/* fs/fuse/cuse.c 95 */;
+	struct kiocb *cocci_id/* fs/fuse/cuse.c 93 */;
+	struct iov_iter *cocci_id/* fs/fuse/cuse.c 93 */;
+	dev_t cocci_id/* fs/fuse/cuse.c 77 */;
+	struct list_head *cocci_id/* fs/fuse/cuse.c 77 */;
+	struct cuse_conn cocci_id/* fs/fuse/cuse.c 74 */;
+	struct class *cocci_id/* fs/fuse/cuse.c 70 */;
+	struct list_head cocci_id/* fs/fuse/cuse.c 69 */[CUSE_CONNTBL_LEN];
+	void __exit cocci_id/* fs/fuse/cuse.c 643 */;
+	void cocci_id/* fs/fuse/cuse.c 643 */;
+	int __init cocci_id/* fs/fuse/cuse.c 614 */;
+	struct miscdevice cocci_id/* fs/fuse/cuse.c 605 */;
+	struct attribute *cocci_id/* fs/fuse/cuse.c 598 */[];
+	const char *cocci_id/* fs/fuse/cuse.c 589 */;
+	size_t cocci_id/* fs/fuse/cuse.c 589 */;
+	struct device_attribute *cocci_id/* fs/fuse/cuse.c 588 */;
+	struct device *cocci_id/* fs/fuse/cuse.c 587 */;
+	ssize_t cocci_id/* fs/fuse/cuse.c 587 */;
+	struct cuse_conn {
+		struct list_head list;
+		struct fuse_conn fc;
+		struct cdev *cdev;
+		struct device *dev;
+		bool unrestricted_ioctl;
+	} cocci_id/* fs/fuse/cuse.c 58 */;
+	char *cocci_id/* fs/fuse/cuse.c 579 */;
+	struct file_operations cocci_id/* fs/fuse/cuse.c 569 */;
+	struct cuse_conn *cocci_id/* fs/fuse/cuse.c 497 */;
+	struct fuse_dev *cocci_id/* fs/fuse/cuse.c 496 */;
+	struct inode *cocci_id/* fs/fuse/cuse.c 494 */;
+	struct file *cocci_id/* fs/fuse/cuse.c 494 */;
+	int cocci_id/* fs/fuse/cuse.c 494 */;
+	struct fuse_conn *cocci_id/* fs/fuse/cuse.c 473 */;
+	unsigned cocci_id/* fs/fuse/cuse.c 334 */;
+	struct cdev *cocci_id/* fs/fuse/cuse.c 326 */;
+	struct cuse_devinfo cocci_id/* fs/fuse/cuse.c 324 */;
+	struct page *cocci_id/* fs/fuse/cuse.c 323 */;
+	struct cuse_init_out *cocci_id/* fs/fuse/cuse.c 322 */;
+	struct fuse_args_pages *cocci_id/* fs/fuse/cuse.c 320 */;
+	typeof(*ia) cocci_id/* fs/fuse/cuse.c 319 */;
+	struct cuse_init_args *cocci_id/* fs/fuse/cuse.c 319 */;
+	struct fuse_args *cocci_id/* fs/fuse/cuse.c 317 */;
+	struct cuse_init_args {
+		struct fuse_args_pages ap;
+		struct cuse_init_in in;
+		struct cuse_init_out out;
+		struct page *page;
+		struct fuse_page_desc desc;
+	} cocci_id/* fs/fuse/cuse.c 301 */;
+	struct cuse_devinfo *cocci_id/* fs/fuse/cuse.c 270 */;
+	char **cocci_id/* fs/fuse/cuse.c 217 */;
+	struct cuse_devinfo {
+		const char *name;
+	} cocci_id/* fs/fuse/cuse.c 197 */;
+	const struct file_operations cocci_id/* fs/fuse/cuse.c 180 */;
+	struct fuse_file *cocci_id/* fs/fuse/cuse.c 170 */;
+	unsigned long cocci_id/* fs/fuse/cuse.c 168 */;
+	unsigned int cocci_id/* fs/fuse/cuse.c 167 */;
+	long cocci_id/* fs/fuse/cuse.c 167 */;
+}

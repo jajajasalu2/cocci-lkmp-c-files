@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	void cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 981 */;
+	unsigned long cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 966 */;
+	struct cb_pcidas_private *cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 965 */;
+	struct comedi_subdevice *cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 963 */;
+	struct comedi_device *cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 962 */;
+	int cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 962 */;
+	struct comedi_async *cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 790 */;
+	const struct cb_pcidas_board *cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 788 */;
+	unsigned int cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 652 */;
+	struct comedi_cmd *cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 650 */;
+	bool cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 522 */;
+	unsigned int *cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 380 */;
+	struct comedi_insn *cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 312 */;
+	struct cb_pcidas_private {
+		struct comedi_8254 *ao_pacer;
+		unsigned long amcc;
+		unsigned long pcibar1;
+		unsigned long pcibar2;
+		unsigned long pcibar4;
+		unsigned int ctrl;
+		unsigned int amcc_intcsr;
+		unsigned int ao_ctrl;
+		unsigned short ai_buffer[AI_BUFFER_SIZE];
+		unsigned short ao_buffer[AO_BUFFER_SIZE];
+		unsigned int calib_src;
+	} cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 293 */;
+	const struct cb_pcidas_board cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 231 */[];
+	struct cb_pcidas_board {
+		const char *name;
+		int ai_speed;
+		int ao_scan_speed;
+		int fifo_size;
+		unsigned int is_16bit;
+		unsigned int use_alt_range:1;
+		unsigned int has_ao:1;
+		unsigned int has_ao_fifo:1;
+		unsigned int has_ad8402:1;
+		unsigned int has_dac08:1;
+		unsigned int is_1602:1;
+	} cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 217 */;
+	enum cb_pcidas_boardid{BOARD_PCIDAS1602_16, BOARD_PCIDAS1200, BOARD_PCIDAS1602_12, BOARD_PCIDAS1200_JR, BOARD_PCIDAS1602_16_JR, BOARD_PCIDAS1000, BOARD_PCIDAS1001, BOARD_PCIDAS1002,} cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 206 */;
+	const struct comedi_lrange cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 183 */;
+	struct pci_driver cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 1488 */;
+	const struct pci_device_id cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 1475 */[];
+	const struct pci_device_id *cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 1469 */;
+	struct comedi_driver cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 1461 */;
+	struct pci_dev *cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 1250 */;
+	irqreturn_t cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 1203 */;
+	void *cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 1203 */;
+	unsigned short cocci_id/* drivers/staging/comedi/drivers/cb_pcidas.c 1168 */;
+}

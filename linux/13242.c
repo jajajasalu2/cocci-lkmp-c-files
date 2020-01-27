@@ -1,0 +1,56 @@
+cocci_test_suite() {
+	char *cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 940 */;
+	struct v4l2_subdev_ir_parameters *cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 702 */;
+	struct ir_raw_event cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 690 */;
+	unsigned cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 658 */;
+	union cx23888_ir_fifo_rec *cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 657 */;
+	ssize_t *cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 650 */;
+	u8 *cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 649 */;
+	size_t cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 649 */;
+	unsigned char *cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 600 */;
+	union cx23888_ir_fifo_rec cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 598 */;
+	union cx23888_ir_fifo_rec cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 531 */[FIFO_RX_DEPTH];
+	unsigned long cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 525 */;
+	bool *cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 521 */;
+	u32 cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 481 */;
+	struct cx23885_dev *cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 478 */;
+	u16 *cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 442 */;
+	unsigned int *cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 390 */;
+	bool cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 375 */;
+	void cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 374 */;
+	enum rx_fifo_watermark cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 350 */;
+	enum tx_fifo_watermark cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 344 */;
+	enum rx_fifo_watermark{RX_FIFO_HALF_FULL=0, RX_FIFO_NOT_EMPTY=CNTRL_RIC,} cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 338 */;
+	enum tx_fifo_watermark{TX_FIFO_HALF_EMPTY=0, TX_FIFO_EMPTY=CNTRL_TIC,} cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 333 */;
+	u64 cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 305 */;
+	u16 cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 191 */;
+	unsigned int cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 191 */;
+	int cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 153 */;
+	struct cx23888_ir_state cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 1165 */;
+	struct v4l2_subdev_ir_parameters cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 1162 */;
+	struct cx23888_ir_state {
+		struct v4l2_subdev sd;
+		struct cx23885_dev *dev;
+		struct v4l2_subdev_ir_parameters rx_params;
+		struct mutex rx_params_lock;
+		atomic_t rxclk_divider;
+		atomic_t rx_invert;
+		struct kfifo rx_kfifo;
+		spinlock_t rx_kfifo_lock;
+		struct v4l2_subdev_ir_parameters tx_params;
+		struct mutex tx_params_lock;
+		atomic_t txclk_divider;
+	} cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 116 */;
+	const struct v4l2_subdev_ir_parameters cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 1124 */;
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 1119 */;
+	const struct v4l2_subdev_ir_ops cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 1109 */;
+	const struct v4l2_subdev_core_ops cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 1100 */;
+	const struct v4l2_dbg_register *cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 1086 */;
+	union cx23888_ir_fifo_rec {
+		u32 hw_fifo_data;
+		struct ir_raw_event ir_core_data;
+	} cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 108 */;
+	struct cx23888_ir_state *cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 1073 */;
+	struct v4l2_dbg_register *cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 1071 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/pci/cx23885/cx23888-ir.c 1070 */;
+}

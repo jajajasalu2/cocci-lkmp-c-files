@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	int __init cocci_id/* drivers/perf/qcom_l3_pmu.c 821 */;
+	struct platform_driver cocci_id/* drivers/perf/qcom_l3_pmu.c 813 */;
+	const struct acpi_device_id cocci_id/* drivers/perf/qcom_l3_pmu.c 807 */[];
+	struct pmu cocci_id/* drivers/perf/qcom_l3_pmu.c 752 */;
+	struct resource *cocci_id/* drivers/perf/qcom_l3_pmu.c 736 */;
+	struct acpi_device *cocci_id/* drivers/perf/qcom_l3_pmu.c 735 */;
+	struct platform_device *cocci_id/* drivers/perf/qcom_l3_pmu.c 732 */;
+	struct l3cache_pmu cocci_id/* drivers/perf/qcom_l3_pmu.c 719 */;
+	struct hlist_node *cocci_id/* drivers/perf/qcom_l3_pmu.c 717 */;
+	unsigned int cocci_id/* drivers/perf/qcom_l3_pmu.c 717 */;
+	const struct attribute_group *cocci_id/* drivers/perf/qcom_l3_pmu.c 695 */[];
+	struct attribute_group cocci_id/* drivers/perf/qcom_l3_pmu.c 688 */;
+	struct attribute *cocci_id/* drivers/perf/qcom_l3_pmu.c 683 */[];
+	struct perf_pmu_events_attr cocci_id/* drivers/perf/qcom_l3_pmu.c 650 */[];
+	struct perf_pmu_events_attr cocci_id/* drivers/perf/qcom_l3_pmu.c 645 */;
+	struct perf_pmu_events_attr *cocci_id/* drivers/perf/qcom_l3_pmu.c 643 */;
+	struct device_attribute *cocci_id/* drivers/perf/qcom_l3_pmu.c 641 */;
+	char *cocci_id/* drivers/perf/qcom_l3_pmu.c 641 */;
+	struct device *cocci_id/* drivers/perf/qcom_l3_pmu.c 640 */;
+	ssize_t cocci_id/* drivers/perf/qcom_l3_pmu.c 640 */;
+	struct dev_ext_attribute cocci_id/* drivers/perf/qcom_l3_pmu.c 622 */[];
+	struct dev_ext_attribute cocci_id/* drivers/perf/qcom_l3_pmu.c 617 */;
+	struct dev_ext_attribute *cocci_id/* drivers/perf/qcom_l3_pmu.c 615 */;
+	struct hw_perf_event *cocci_id/* drivers/perf/qcom_l3_pmu.c 550 */;
+	struct pmu *cocci_id/* drivers/perf/qcom_l3_pmu.c 437 */;
+	long cocci_id/* drivers/perf/qcom_l3_pmu.c 392 */;
+	irqreturn_t cocci_id/* drivers/perf/qcom_l3_pmu.c 388 */;
+	void *cocci_id/* drivers/perf/qcom_l3_pmu.c 388 */;
+	const struct l3cache_event_ops *cocci_id/* drivers/perf/qcom_l3_pmu.c 338 */;
+	struct l3cache_pmu *cocci_id/* drivers/perf/qcom_l3_pmu.c 276 */;
+	void cocci_id/* drivers/perf/qcom_l3_pmu.c 274 */;
+	const struct l3cache_event_ops cocci_id/* drivers/perf/qcom_l3_pmu.c 258 */;
+	u64 cocci_id/* drivers/perf/qcom_l3_pmu.c 244 */;
+	struct l3cache_event_ops {
+		void (*start)(struct perf_event *event);
+		void (*stop)(struct perf_event *event, int flags);
+		void (*update)(struct perf_event *event);
+	} cocci_id/* drivers/perf/qcom_l3_pmu.c 173 */;
+	struct l3cache_pmu {
+		struct pmu pmu;
+		struct hlist_node node;
+		void __iomem *regs;
+		struct perf_event *events[L3_NUM_COUNTERS];
+		unsigned long used_mask[BITS_TO_LONGS(L3_NUM_COUNTERS)];
+		cpumask_t cpumask;
+	} cocci_id/* drivers/perf/qcom_l3_pmu.c 154 */;
+	struct perf_event *cocci_id/* drivers/perf/qcom_l3_pmu.c 146 */;
+	int cocci_id/* drivers/perf/qcom_l3_pmu.c 146 */;
+	bool cocci_id/* drivers/perf/qcom_l3_pmu.c 141 */;
+	u32 cocci_id/* drivers/perf/qcom_l3_pmu.c 136 */;
+}

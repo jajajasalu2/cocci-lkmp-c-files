@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	char *cocci_id/* fs/f2fs/inline.c 736 */;
+	size_t cocci_id/* fs/f2fs/inline.c 724 */;
+	__u32 cocci_id/* fs/f2fs/inline.c 703 */;
+	__u64 cocci_id/* fs/f2fs/inline.c 700 */;
+	struct fiemap_extent_info *cocci_id/* fs/f2fs/inline.c 700 */;
+	struct fscrypt_str *cocci_id/* fs/f2fs/inline.c 664 */;
+	struct file *cocci_id/* fs/f2fs/inline.c 663 */;
+	struct dir_context *cocci_id/* fs/f2fs/inline.c 663 */;
+	u64 cocci_id/* fs/f2fs/inline.c 66 */;
+	bool cocci_id/* fs/f2fs/inline.c 638 */;
+	void cocci_id/* fs/f2fs/inline.c 609 */;
+	f2fs_hash_t cocci_id/* fs/f2fs/inline.c 549 */;
+	unsigned int cocci_id/* fs/f2fs/inline.c 548 */;
+	struct page *cocci_id/* fs/f2fs/inline.c 547 */;
+	struct f2fs_sb_info *cocci_id/* fs/f2fs/inline.c 546 */;
+	const struct qstr *cocci_id/* fs/f2fs/inline.c 542 */;
+	umode_t cocci_id/* fs/f2fs/inline.c 448 */;
+	nid_t cocci_id/* fs/f2fs/inline.c 447 */;
+	struct qstr cocci_id/* fs/f2fs/inline.c 446 */;
+	struct f2fs_dir_entry *cocci_id/* fs/f2fs/inline.c 445 */;
+	unsigned long cocci_id/* fs/f2fs/inline.c 439 */;
+	struct f2fs_dentry_ptr cocci_id/* fs/f2fs/inline.c 438 */;
+	struct inode *cocci_id/* fs/f2fs/inline.c 436 */;
+	void *cocci_id/* fs/f2fs/inline.c 436 */;
+	int cocci_id/* fs/f2fs/inline.c 436 */;
+	struct f2fs_dentry_block *cocci_id/* fs/f2fs/inline.c 367 */;
+	struct fscrypt_name *cocci_id/* fs/f2fs/inline.c 308 */;
+	struct page **cocci_id/* fs/f2fs/inline.c 308 */;
+	struct f2fs_inode *cocci_id/* fs/f2fs/inline.c 258 */;
+	struct dnode_of_data cocci_id/* fs/f2fs/inline.c 185 */;
+	struct node_info cocci_id/* fs/f2fs/inline.c 122 */;
+	struct f2fs_io_info cocci_id/* fs/f2fs/inline.c 112 */;
+	struct dnode_of_data *cocci_id/* fs/f2fs/inline.c 110 */;
+}

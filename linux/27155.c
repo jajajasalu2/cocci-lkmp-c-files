@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	unsigned cocci_id/* fs/isofs/rock.c 94 */;
+	const int cocci_id/* fs/isofs/rock.c 89 */;
+	const struct address_space_operations cocci_id/* fs/isofs/rock.c 805 */;
+	struct rock_state *cocci_id/* fs/isofs/rock.c 72 */;
+	void cocci_id/* fs/isofs/rock.c 72 */;
+	unsigned char *cocci_id/* fs/isofs/rock.c 702 */;
+	unsigned long cocci_id/* fs/isofs/rock.c 699 */;
+	struct isofs_sb_info *cocci_id/* fs/isofs/rock.c 697 */;
+	struct iso_inode_info *cocci_id/* fs/isofs/rock.c 696 */;
+	struct page *cocci_id/* fs/isofs/rock.c 693 */;
+	struct file *cocci_id/* fs/isofs/rock.c 693 */;
+	struct SL_component *cocci_id/* fs/isofs/rock.c 607 */;
+	struct iso_directory_record cocci_id/* fs/isofs/rock.c 56 */;
+	struct rock_ridge *cocci_id/* fs/isofs/rock.c 43 */;
+	struct inode *cocci_id/* fs/isofs/rock.c 43 */;
+	int cocci_id/* fs/isofs/rock.c 43 */;
+	struct rock_ridge cocci_id/* fs/isofs/rock.c 374 */;
+	unsigned int cocci_id/* fs/isofs/rock.c 314 */;
+	struct rock_state {
+		void *buffer;
+		unsigned char *chr;
+		int len;
+		int cont_size;
+		int cont_extent;
+		int cont_offset;
+		int cont_loops;
+		struct inode *inode;
+	} cocci_id/* fs/isofs/rock.c 27 */;
+	struct rock_state cocci_id/* fs/isofs/rock.c 201 */;
+	char *cocci_id/* fs/isofs/rock.c 199 */;
+	struct iso_directory_record *cocci_id/* fs/isofs/rock.c 198 */;
+	struct RR_ZF_s cocci_id/* fs/isofs/rock.c 178 */;
+	struct RR_TF_s cocci_id/* fs/isofs/rock.c 175 */;
+	struct RR_PL_s cocci_id/* fs/isofs/rock.c 172 */;
+	struct RR_CL_s cocci_id/* fs/isofs/rock.c 169 */;
+	struct RR_NM_s cocci_id/* fs/isofs/rock.c 166 */;
+	struct RR_SL_s cocci_id/* fs/isofs/rock.c 163 */;
+	struct RR_PN_s cocci_id/* fs/isofs/rock.c 160 */;
+	struct RR_PX_s cocci_id/* fs/isofs/rock.c 157 */;
+	struct RR_RR_s cocci_id/* fs/isofs/rock.c 154 */;
+	struct SU_ER_s cocci_id/* fs/isofs/rock.c 151 */;
+	struct SU_CE_s cocci_id/* fs/isofs/rock.c 148 */;
+	struct SU_SP_s cocci_id/* fs/isofs/rock.c 145 */;
+	struct buffer_head *cocci_id/* fs/isofs/rock.c 105 */;
+}

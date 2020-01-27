@@ -1,0 +1,60 @@
+cocci_test_suite() {
+	struct drm_exynos_ioctl_ipp_commit *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 873 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 871 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 870 */;
+	void *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 870 */;
+	void cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 754 */(struct exynos_drm_ipp *ipp);
+	struct exynos_drm_ipp_task cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 749 */;
+	struct work_struct *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 746 */;
+	struct timespec64 cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 722 */;
+	struct drm_pending_exynos_ipp_event *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 697 */;
+	struct exynos_drm_ipp_buffer *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 548 */;
+	struct exynos_drm_ipp_task *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 547 */;
+	const struct drm_exynos_ipp_limit_val *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 525 */;
+	struct drm_exynos_ipp_task_rect *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 520 */;
+	const char *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 51 */;
+	const struct exynos_drm_ipp_funcs *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 49 */;
+	struct device *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 48 */;
+	struct drm_ipp_limit cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 479 */;
+	struct drm_exynos_ipp_limit_val *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 464 */;
+	bool cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 453 */;
+	unsigned int cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 453 */;
+	int cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 434 */;
+	struct drm_ipp_limit *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 431 */;
+	enum drm_ipp_size_id cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 430 */;
+	const struct drm_exynos_ipp_limit *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 429 */;
+	void cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 429 */;
+	unsigned int *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 423 */;
+	const enum drm_exynos_ipp_limit_type cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 414 */[IPP_LIMIT_MAX][4];
+	enum drm_ipp_size_id{IPP_LIMIT_BUFFER, IPP_LIMIT_AREA, IPP_LIMIT_ROTATED, IPP_LIMIT_MAX,} cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 410 */;
+	struct drm_ipp_limit {
+		struct drm_exynos_ipp_limit_val h;
+		struct drm_exynos_ipp_limit_val v;
+	} cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 405 */;
+	struct exynos_drm_gem *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 357 */;
+	const struct exynos_drm_param_map *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 315 */;
+	struct drm_exynos_ipp_task_alpha cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 307 */;
+	struct drm_exynos_ipp_task_transform cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 303 */;
+	struct drm_exynos_ipp_task_rect cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 294 */;
+	struct drm_exynos_ipp_task_buffer cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 285 */;
+	const struct exynos_drm_param_map {
+		unsigned int id;
+		unsigned int size;
+		unsigned int offset;
+	} cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 278 */[];
+	struct drm_pending_exynos_ipp_event {
+		struct drm_pending_event base;
+		struct drm_exynos_ipp_event event;
+	} cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 251 */;
+	struct drm_exynos_ioctl_ipp_get_limits *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 220 */;
+	uint64_t cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 190 */;
+	uint32_t cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 189 */;
+	struct exynos_drm_ipp *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 189 */;
+	const struct exynos_drm_ipp_formats *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 188 */;
+	struct drm_exynos_ipp_format cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 172 */;
+	void __user *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 155 */;
+	unsigned long cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 155 */;
+	struct drm_exynos_ioctl_ipp_get_caps *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 154 */;
+	uint32_t __user *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 108 */;
+	struct drm_exynos_ioctl_ipp_get_res *cocci_id/* drivers/gpu/drm/exynos/exynos_drm_ipp.c 106 */;
+}

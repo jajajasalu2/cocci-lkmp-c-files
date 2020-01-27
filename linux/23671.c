@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 979 */;
+	dma_addr_t cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 952 */;
+	void __iomem *cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 886 */;
+	struct regmap *cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 885 */;
+	struct resource *cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 884 */;
+	struct platform_device *cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 881 */;
+	const struct of_device_id cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 872 */[];
+	const struct snd_soc_component_driver cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 867 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 845 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 821 */;
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 810 */;
+	bool cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 691 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 687 */;
+	u32 cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 491 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 486 */;
+	unsigned int *cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 395 */;
+	struct mchp_i2s_mcc_dev *cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 394 */;
+	unsigned int cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 378 */;
+	long cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 377 */;
+	unsigned long *cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 374 */;
+	struct clk **cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 373 */;
+	unsigned long cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 372 */;
+	struct clk *cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 371 */;
+	int cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 371 */;
+	irqreturn_t cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 248 */;
+	void *cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 248 */;
+	struct mchp_i2s_mcc_dev {
+		struct wait_queue_head wq_txrdy;
+		struct wait_queue_head wq_rxrdy;
+		struct device *dev;
+		struct regmap *regmap;
+		struct clk *pclk;
+		struct clk *gclk;
+		struct snd_dmaengine_dai_dma_data playback;
+		struct snd_dmaengine_dai_dma_data capture;
+		unsigned int fmt;
+		unsigned int sysclk;
+		unsigned int frame_length;
+		int tdm_slots;
+		int channels;
+		int gclk_use:1;
+		int gclk_running:1;
+		int tx_rdy:1;
+		int rx_rdy:1;
+	} cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 228 */;
+	const struct regmap_config cocci_id/* sound/soc/atmel/mchp-i2s-mcc.c 221 */;
+}

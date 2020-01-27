@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	loff_t cocci_id/* kernel/gcov/fs.c 96 */;
+	unsigned long cocci_id/* kernel/gcov/fs.c 75 */;
+	int __init cocci_id/* kernel/gcov/fs.c 73 */;
+	enum gcov_action cocci_id/* kernel/gcov/fs.c 728 */;
+	const char cocci_id/* kernel/gcov/fs.c 64 */[];
+	int cocci_id/* kernel/gcov/fs.c 617 */;
+	struct gcov_info **cocci_id/* kernel/gcov/fs.c 616 */;
+	struct gcov_node *cocci_id/* kernel/gcov/fs.c 614 */;
+	struct gcov_info *cocci_id/* kernel/gcov/fs.c 614 */;
+	void cocci_id/* kernel/gcov/fs.c 614 */;
+	char __user *cocci_id/* kernel/gcov/fs.c 547 */;
+	struct gcov_node {
+		struct list_head list;
+		struct list_head children;
+		struct list_head all;
+		struct gcov_node *parent;
+		struct gcov_info **loaded_info;
+		struct gcov_info *unloaded_info;
+		struct dentry *dentry;
+		struct dentry **links;
+		int num_loaded;
+		char name[0];
+	} cocci_id/* kernel/gcov/fs.c 51 */;
+	struct gcov_node cocci_id/* kernel/gcov/fs.c 434 */;
+	const struct file_operations cocci_id/* kernel/gcov/fs.c 401 */;
+	char *cocci_id/* kernel/gcov/fs.c 369 */;
+	const char *cocci_id/* kernel/gcov/fs.c 368 */;
+	struct dentry *cocci_id/* kernel/gcov/fs.c 366 */;
+	const struct gcov_link *cocci_id/* kernel/gcov/fs.c 330 */;
+	size_t cocci_id/* kernel/gcov/fs.c 273 */;
+	const char __user *cocci_id/* kernel/gcov/fs.c 272 */;
+	ssize_t cocci_id/* kernel/gcov/fs.c 272 */;
+	void cocci_id/* kernel/gcov/fs.c 265 */(struct gcov_node *node);
+	struct inode *cocci_id/* kernel/gcov/fs.c 178 */;
+	struct file *cocci_id/* kernel/gcov/fs.c 178 */;
+	const struct seq_operations cocci_id/* kernel/gcov/fs.c 133 */;
+	struct gcov_iterator *cocci_id/* kernel/gcov/fs.c 109 */;
+	loff_t *cocci_id/* kernel/gcov/fs.c 107 */;
+	struct seq_file *cocci_id/* kernel/gcov/fs.c 107 */;
+	void *cocci_id/* kernel/gcov/fs.c 107 */;
+}

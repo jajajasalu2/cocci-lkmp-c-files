@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 95 */;
+	struct cros_ec_sensor_platform *cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 94 */;
+	struct cros_ec_dev *cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 93 */;
+	struct cros_ec_sensorhub *cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 92 */;
+	struct platform_device *cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 86 */;
+	const struct dev_pm_ops cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 617 */;
+	struct device *cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 600 */;
+	void __maybe_unused cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 600 */;
+	int __maybe_unused cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 578 */;
+	enum motionsensor_type cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 55 */;
+	void cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 55 */;
+	const int *cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 536 */;
+	const int **cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 526 */;
+	int *cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 486 */;
+	long cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 486 */;
+	s16 *cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 464 */;
+	struct iio_poll_func *cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 451 */;
+	irqreturn_t cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 449 */;
+	void *cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 449 */;
+	struct ec_params_get_cmd_versions cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 44 */;
+	struct ec_response_get_cmd_versions cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 43 */;
+	unsigned long cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 426 */;
+	u8 cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 382 */;
+	struct {
+		struct cros_ec_command msg;
+		union {
+			struct ec_params_get_cmd_versions params;
+			struct ec_response_get_cmd_versions resp;
+		};
+	}__packed cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 34 */;
+	u16 cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 31 */;
+	u32 *cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 31 */;
+	struct cros_ec_device *cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 30 */;
+	int cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 30 */;
+	__le16 cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 286 */;
+	u16 *cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 284 */;
+	unsigned int cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 284 */;
+	u8 *cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 278 */;
+	char *cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 24 */[];
+	const struct iio_chan_spec_ext_info cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 234 */[];
+	char *cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 218 */;
+	bool cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 193 */;
+	const char *cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 189 */;
+	size_t cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 189 */;
+	uintptr_t cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 188 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 188 */;
+	struct iio_dev *cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 187 */;
+	ssize_t cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 187 */;
+	struct ec_response_motion_sense *cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 180 */;
+	struct cros_ec_sensors_core_state *cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 163 */;
+	struct ec_params_motion_sense cocci_id/* drivers/iio/common/cros_ec_sensors/cros_ec_sensors_core.c 102 */;
+}

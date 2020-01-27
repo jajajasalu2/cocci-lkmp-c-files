@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	const char *cocci_id/* arch/um/drivers/line.c 86 */;
+	struct line *cocci_id/* arch/um/drivers/line.c 86 */;
+	int cocci_id/* arch/um/drivers/line.c 744 */;
+	char *cocci_id/* arch/um/drivers/line.c 741 */;
+	struct list_head *cocci_id/* arch/um/drivers/line.c 707 */;
+	unsigned long cocci_id/* arch/um/drivers/line.c 66 */;
+	struct pid *cocci_id/* arch/um/drivers/line.c 628 */;
+	char cocci_id/* arch/um/drivers/line.c 627 */;
+	struct winch cocci_id/* arch/um/drivers/line.c 600 */;
+	struct winch *cocci_id/* arch/um/drivers/line.c 600 */;
+	struct work_struct *cocci_id/* arch/um/drivers/line.c 598 */;
+	void cocci_id/* arch/um/drivers/line.c 598 */;
+	struct winch {
+		struct list_head list;
+		int fd;
+		int tty_fd;
+		int pid;
+		struct tty_port *port;
+		unsigned long stack;
+		struct work_struct work;
+	} cocci_id/* arch/um/drivers/line.c 588 */;
+	const struct tty_operations *cocci_id/* arch/um/drivers/line.c 542 */;
+	struct line_driver *cocci_id/* arch/um/drivers/line.c 541 */;
+	int *cocci_id/* arch/um/drivers/line.c 517 */;
+	const struct chan_opts *cocci_id/* arch/um/drivers/line.c 459 */;
+	char **cocci_id/* arch/um/drivers/line.c 459 */;
+	unsigned int cocci_id/* arch/um/drivers/line.c 458 */;
+	unsigned cocci_id/* arch/um/drivers/line.c 438 */;
+	struct device *cocci_id/* arch/um/drivers/line.c 400 */;
+	struct file *cocci_id/* arch/um/drivers/line.c 344 */;
+	struct tty_driver *cocci_id/* arch/um/drivers/line.c 330 */;
+	const struct tty_port_operations cocci_id/* arch/um/drivers/line.c 318 */;
+	void cocci_id/* arch/um/drivers/line.c 305 */(struct tty_struct *tty);
+	struct tty_struct *cocci_id/* arch/um/drivers/line.c 285 */;
+	struct tty_port *cocci_id/* arch/um/drivers/line.c 285 */;
+	const struct line_driver *cocci_id/* arch/um/drivers/line.c 269 */;
+	struct ktermios *cocci_id/* arch/um/drivers/line.c 219 */;
+	struct chan *cocci_id/* arch/um/drivers/line.c 21 */;
+	const unsigned char *cocci_id/* arch/um/drivers/line.c 192 */;
+	irqreturn_t cocci_id/* arch/um/drivers/line.c 19 */;
+	void *cocci_id/* arch/um/drivers/line.c 19 */;
+	unsigned char cocci_id/* arch/um/drivers/line.c 187 */;
+}

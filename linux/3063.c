@@ -1,0 +1,62 @@
+cocci_test_suite() {
+	const struct block_device_operations cocci_id/* drivers/block/ps3vram.c 94 */;
+	void __exit cocci_id/* drivers/block/ps3vram.c 861 */;
+	int __init cocci_id/* drivers/block/ps3vram.c 837 */;
+	struct ps3_system_bus_driver cocci_id/* drivers/block/ps3vram.c 826 */;
+	struct ps3vram_priv {
+		struct request_queue *queue;
+		struct gendisk *gendisk;
+		u64 size;
+		u64 memory_handle;
+		u64 context_handle;
+		u32 __iomem *ctrl;
+		void __iomem *reports;
+		u8 *xdr_buf;
+		u32 *fifo_base;
+		u32 *fifo_ptr;
+		struct ps3vram_cache cache;
+		spinlock_t lock;
+		struct bio_list list;
+	} cocci_id/* drivers/block/ps3vram.c 69 */;
+	u32 *cocci_id/* drivers/block/ps3vram.c 643 */;
+	void *cocci_id/* drivers/block/ps3vram.c 634 */;
+	u64 cocci_id/* drivers/block/ps3vram.c 619 */;
+	struct gendisk *cocci_id/* drivers/block/ps3vram.c 618 */;
+	struct ps3vram_cache {
+		unsigned int page_count;
+		unsigned int page_size;
+		struct ps3vram_tag *tags;
+		unsigned int hit;
+		unsigned int miss;
+	} cocci_id/* drivers/block/ps3vram.c 61 */;
+	blk_qc_t cocci_id/* drivers/block/ps3vram.c 588 */;
+	struct request_queue *cocci_id/* drivers/block/ps3vram.c 588 */;
+	struct ps3vram_tag {
+		unsigned int address;
+		unsigned int flags;
+	} cocci_id/* drivers/block/ps3vram.c 56 */;
+	size_t cocci_id/* drivers/block/ps3vram.c 552 */;
+	char *cocci_id/* drivers/block/ps3vram.c 551 */;
+	struct bvec_iter cocci_id/* drivers/block/ps3vram.c 546 */;
+	struct bio_vec cocci_id/* drivers/block/ps3vram.c 545 */;
+	blk_status_t cocci_id/* drivers/block/ps3vram.c 544 */;
+	const char *cocci_id/* drivers/block/ps3vram.c 542 */;
+	struct bio *cocci_id/* drivers/block/ps3vram.c 537 */;
+	struct proc_dir_entry *cocci_id/* drivers/block/ps3vram.c 529 */;
+	struct seq_file *cocci_id/* drivers/block/ps3vram.c 518 */;
+	const u_char *cocci_id/* drivers/block/ps3vram.c 476 */;
+	u_char *cocci_id/* drivers/block/ps3vram.c 432 */;
+	size_t *cocci_id/* drivers/block/ps3vram.c 432 */;
+	struct ps3vram_tag cocci_id/* drivers/block/ps3vram.c 412 */;
+	loff_t cocci_id/* drivers/block/ps3vram.c 371 */;
+	unsigned int cocci_id/* drivers/block/ps3vram.c 337 */;
+	struct ps3vram_cache *cocci_id/* drivers/block/ps3vram.c 318 */;
+	int cocci_id/* drivers/block/ps3vram.c 315 */;
+	struct ps3_system_bus_device *cocci_id/* drivers/block/ps3vram.c 230 */;
+	u32 cocci_id/* drivers/block/ps3vram.c 180 */;
+	struct ps3vram_priv *cocci_id/* drivers/block/ps3vram.c 180 */;
+	void cocci_id/* drivers/block/ps3vram.c 180 */;
+	unsigned long cocci_id/* drivers/block/ps3vram.c 129 */;
+	u32 __iomem *cocci_id/* drivers/block/ps3vram.c 108 */;
+	void __iomem *cocci_id/* drivers/block/ps3vram.c 108 */;
+}

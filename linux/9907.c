@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct ath_mci_profile *cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 729 */;
+	struct ath_btcoex *cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 728 */;
+	struct ath9k_hw_cal_data *cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 708 */;
+	struct ath9k_hw_mci *cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 696 */;
+	struct ath_hw *cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 695 */;
+	bool cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 692 */;
+	struct ath_softc *cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 692 */;
+	void cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 692 */;
+	u16 cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 650 */;
+	s16 cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 649 */;
+	int cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 648 */;
+	u32 cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 647 */[];
+	struct ath9k_channel *cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 646 */;
+	u32 *cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 491 */;
+	struct ath_mci_coex *cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 485 */;
+	u8 cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 46 */[];
+	struct ath_mci_buf *cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 438 */;
+	struct ath_mci_profile_info *cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 43 */;
+	struct ath_common *cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 41 */;
+	struct ath_mci_profile_status cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 371 */;
+	struct ath_mci_profile_info cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 370 */;
+	struct ath_mci_profile_status *cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 331 */;
+	u8 cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 260 */[ATH_BTCOEX_STOMP_MAX];
+	struct ath_softc cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 238 */;
+	struct work_struct *cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 236 */;
+	const u8 cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 23 */[];
+	u32 cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 215 */[4];
+	u8 cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 210 */;
+	u8 *cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 210 */;
+	u32 cocci_id/* drivers/net/wireless/ath/ath9k/mci.c 105 */;
+}

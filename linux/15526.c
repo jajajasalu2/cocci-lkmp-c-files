@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	struct nubus_rsrc *cocci_id/* drivers/nubus/nubus.c 807 */;
+	struct nubus_dirent cocci_id/* drivers/nubus/nubus.c 723 */;
+	struct nubus_dir cocci_id/* drivers/nubus/nubus.c 722 */;
+	unsigned char *cocci_id/* drivers/nubus/nubus.c 720 */;
+	struct nubus_board *cocci_id/* drivers/nubus/nubus.c 719 */;
+	void __init cocci_id/* drivers/nubus/nubus.c 717 */;
+	unsigned int cocci_id/* drivers/nubus/nubus.c 661 */;
+	unsigned short cocci_id/* drivers/nubus/nubus.c 645 */[4];
+	unsigned long cocci_id/* drivers/nubus/nubus.c 62 */;
+	char *cocci_id/* drivers/nubus/nubus.c 610 */[6];
+	void *cocci_id/* drivers/nubus/nubus.c 60 */;
+	int cocci_id/* drivers/nubus/nubus.c 60 */;
+	u32 cocci_id/* drivers/nubus/nubus.c 590 */[32];
+	char cocci_id/* drivers/nubus/nubus.c 527 */[64];
+	struct nubus_rsrc *__init cocci_id/* drivers/nubus/nubus.c 489 */;
+	unsigned long cocci_id/* drivers/nubus/nubus.c 441 */[2];
+	char cocci_id/* drivers/nubus/nubus.c 419 */[6];
+	u32 cocci_id/* drivers/nubus/nubus.c 349 */;
+	struct proc_dir_entry *cocci_id/* drivers/nubus/nubus.c 339 */;
+	int __init cocci_id/* drivers/nubus/nubus.c 338 */;
+	struct nubus_dirent *cocci_id/* drivers/nubus/nubus.c 324 */;
+	struct nubus_dir *cocci_id/* drivers/nubus/nubus.c 323 */;
+	unsigned char cocci_id/* drivers/nubus/nubus.c 323 */;
+	struct nubus_rsrc cocci_id/* drivers/nubus/nubus.c 309 */;
+	const struct nubus_board *cocci_id/* drivers/nubus/nubus.c 239 */;
+	const struct nubus_rsrc *cocci_id/* drivers/nubus/nubus.c 230 */;
+	unsigned long cocci_id/* drivers/nubus/nubus.c 200 */[32];
+	struct seq_file *cocci_id/* drivers/nubus/nubus.c 196 */;
+	char *cocci_id/* drivers/nubus/nubus.c 176 */;
+	const struct nubus_dirent *cocci_id/* drivers/nubus/nubus.c 149 */;
+	long cocci_id/* drivers/nubus/nubus.c 133 */;
+	unsigned char **cocci_id/* drivers/nubus/nubus.c 100 */;
+	void cocci_id/* drivers/nubus/nubus.c 100 */;
+}

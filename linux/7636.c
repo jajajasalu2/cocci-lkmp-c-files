@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	char *cocci_id/* drivers/tty/hvc/hvc_console.c 945 */;
+	long cocci_id/* drivers/tty/hvc/hvc_console.c 936 */;
+	const struct tty_port_operations cocci_id/* drivers/tty/hvc/hvc_console.c 918 */;
+	const struct tty_operations cocci_id/* drivers/tty/hvc/hvc_console.c 899 */;
+	char cocci_id/* drivers/tty/hvc/hvc_console.c 877 */;
+	unsigned int cocci_id/* drivers/tty/hvc/hvc_console.c 857 */;
+	void *cocci_id/* drivers/tty/hvc/hvc_console.c 801 */;
+	struct winsize cocci_id/* drivers/tty/hvc/hvc_console.c 789 */;
+	void cocci_id/* drivers/tty/hvc/hvc_console.c 789 */;
+	unsigned long cocci_id/* drivers/tty/hvc/hvc_console.c 648 */;
+	char cocci_id/* drivers/tty/hvc/hvc_console.c 647 */[N_INBUF]__ALIGNED__;
+	struct tty_struct *cocci_id/* drivers/tty/hvc/hvc_console.c 645 */;
+	struct hvc_struct *cocci_id/* drivers/tty/hvc/hvc_console.c 643 */;
+	int cocci_id/* drivers/tty/hvc/hvc_console.c 63 */(void);
+	u32 cocci_id/* drivers/tty/hvc/hvc_console.c 629 */;
+	atomic_t cocci_id/* drivers/tty/hvc/hvc_console.c 61 */;
+	struct work_struct *cocci_id/* drivers/tty/hvc/hvc_console.c 574 */;
+	struct task_struct *cocci_id/* drivers/tty/hvc/hvc_console.c 55 */;
+	const unsigned char *cocci_id/* drivers/tty/hvc/hvc_console.c 510 */;
+	struct file *cocci_id/* drivers/tty/hvc/hvc_console.c 394 */;
+	struct hvc_struct cocci_id/* drivers/tty/hvc/hvc_console.c 251 */;
+	struct tty_port *cocci_id/* drivers/tty/hvc/hvc_console.c 249 */;
+	int __init cocci_id/* drivers/tty/hvc/hvc_console.c 241 */;
+	struct console cocci_id/* drivers/tty/hvc/hvc_console.c 217 */;
+	struct tty_driver *cocci_id/* drivers/tty/hvc/hvc_console.c 197 */;
+	struct console *cocci_id/* drivers/tty/hvc/hvc_console.c 197 */;
+	int *cocci_id/* drivers/tty/hvc/hvc_console.c 197 */;
+	char cocci_id/* drivers/tty/hvc/hvc_console.c 154 */[N_OUTBUF]__ALIGNED__;
+	unsigned cocci_id/* drivers/tty/hvc/hvc_console.c 152 */;
+	const char *cocci_id/* drivers/tty/hvc/hvc_console.c 151 */;
+	uint32_t cocci_id/* drivers/tty/hvc/hvc_console.c 143 */[MAX_NR_HVC_CONSOLES];
+	const struct hv_ops *cocci_id/* drivers/tty/hvc/hvc_console.c 142 */[MAX_NR_HVC_CONSOLES];
+	uint32_t cocci_id/* drivers/tty/hvc/hvc_console.c 113 */;
+	bool cocci_id/* drivers/tty/hvc/hvc_console.c 113 */;
+	const struct hv_ops *cocci_id/* drivers/tty/hvc/hvc_console.c 113 */;
+	int cocci_id/* drivers/tty/hvc/hvc_console.c 113 */;
+}

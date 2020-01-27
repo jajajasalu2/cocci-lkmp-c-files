@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	enum drm_connector_status cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 942 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 91 */;
+	enum amdgpu_rmx_type cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 776 */;
+	uint64_t cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 772 */;
+	struct drm_property *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 771 */;
+	const struct mode_size {
+		int w;
+		int h;
+	} cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 417 */[17];
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 414 */;
+	struct drm_display_mode cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 369 */;
+	unsigned char *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 270 */;
+	struct drm_property_blob *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 250 */;
+	struct edid *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 247 */;
+	struct amdgpu_connector_atom_dig cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1574 */;
+	struct amdgpu_connector cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1554 */;
+	bool cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1509 */;
+	struct i2c_adapter *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1507 */;
+	struct amdgpu_encoder *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1506 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1505 */;
+	struct amdgpu_connector_atom_dig *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1504 */;
+	struct amdgpu_connector *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1503 */;
+	struct drm_connector_list_iter cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1502 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1501 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1500 */;
+	struct amdgpu_router *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1498 */;
+	struct amdgpu_hpd *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1497 */;
+	uint16_t cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1496 */;
+	struct amdgpu_i2c_bus_rec *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1495 */;
+	int cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1494 */;
+	uint32_t cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1492 */;
+	struct amdgpu_device *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1491 */;
+	void cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1490 */;
+	const struct drm_connector_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1470 */;
+	const struct drm_connector_helper_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1464 */;
+	enum drm_mode_status cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1411 */;
+	struct amdgpu_encoder_atom_dig *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 141 */;
+	const struct drm_encoder_helper_funcs *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1377 */;
+	const struct drm_connector_helper_funcs *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 137 */;
+	u16 cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 1270 */;
+	unsigned cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c 104 */;
+}

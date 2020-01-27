@@ -1,0 +1,71 @@
+cocci_test_suite() {
+	struct vnic_resource __iomem *cocci_id/* drivers/scsi/snic/vnic_dev.c 86 */;
+	struct vnic_resource_header __iomem *cocci_id/* drivers/scsi/snic/vnic_dev.c 85 */;
+	void __iomem *cocci_id/* drivers/scsi/snic/vnic_dev.c 754 */;
+	struct vnic_resource cocci_id/* drivers/scsi/snic/vnic_dev.c 74 */;
+	struct vnic_resource_header cocci_id/* drivers/scsi/snic/vnic_dev.c 73 */;
+	struct vnic_dev cocci_id/* drivers/scsi/snic/vnic_dev.c 729 */;
+	struct vnic_dev_bar *cocci_id/* drivers/scsi/snic/vnic_dev.c 725 */;
+	struct pci_dev *cocci_id/* drivers/scsi/snic/vnic_dev.c 724 */;
+	void *cocci_id/* drivers/scsi/snic/vnic_dev.c 723 */;
+	enum vnic_dev_intr_mode cocci_id/* drivers/scsi/snic/vnic_dev.c 690 */;
+	struct vnic_devcmd_notify cocci_id/* drivers/scsi/snic/vnic_dev.c 610 */;
+	u16 cocci_id/* drivers/scsi/snic/vnic_dev.c 603 */;
+	int *cocci_id/* drivers/scsi/snic/vnic_dev.c 586 */;
+	u64 cocci_id/* drivers/scsi/snic/vnic_dev.c 551 */;
+	struct vnic_stats cocci_id/* drivers/scsi/snic/vnic_dev.c 537 */;
+	struct vnic_stats **cocci_id/* drivers/scsi/snic/vnic_dev.c 530 */;
+	u32 *cocci_id/* drivers/scsi/snic/vnic_dev.c 509 */;
+	u16 *cocci_id/* drivers/scsi/snic/vnic_dev.c 506 */;
+	struct vnic_dev {
+		void *priv;
+		struct pci_dev *pdev;
+		struct vnic_res res[RES_TYPE_MAX];
+		enum vnic_dev_intr_mode intr_mode;
+		struct vnic_devcmd __iomem *devcmd;
+		struct vnic_devcmd_notify *notify;
+		struct vnic_devcmd_notify notify_copy;
+		dma_addr_t notify_pa;
+		u32 *linkstatus;
+		dma_addr_t linkstatus_pa;
+		struct vnic_stats *stats;
+		dma_addr_t stats_pa;
+		struct vnic_devcmd_fw_info *fw_info;
+		dma_addr_t fw_info_pa;
+		u64 args[VNIC_DEVCMD_NARGS];
+		struct devcmd2_controller *devcmd2;
+		int (*devcmd_rtn)(struct vnic_dev *vdev,
+				  enum vnic_devcmd_cmd cmd, int wait);
+	} cocci_id/* drivers/scsi/snic/vnic_dev.c 50 */;
+	struct vnic_devcmd_fw_info cocci_id/* drivers/scsi/snic/vnic_dev.c 473 */;
+	struct vnic_devcmd_fw_info **cocci_id/* drivers/scsi/snic/vnic_dev.c 465 */;
+	struct vnic_res {
+		void __iomem *vaddr;
+		unsigned int count;
+	} cocci_id/* drivers/scsi/snic/vnic_dev.c 45 */;
+	u64 *cocci_id/* drivers/scsi/snic/vnic_dev.c 448 */;
+	struct vnic_devcmd2 *cocci_id/* drivers/scsi/snic/vnic_dev.c 406 */;
+	struct devcmd2_controller {
+		struct vnic_wq_ctrl __iomem *wq_ctrl;
+		struct vnic_dev_ring results_ring;
+		struct vnic_wq wq;
+		struct vnic_devcmd2 *cmd_ring;
+		struct devcmd2_result *result;
+		u16 next_result;
+		u16 result_size;
+		int color;
+	} cocci_id/* drivers/scsi/snic/vnic_dev.c 34 */;
+	u8 cocci_id/* drivers/scsi/snic/vnic_dev.c 272 */;
+	u32 cocci_id/* drivers/scsi/snic/vnic_dev.c 269 */;
+	unsigned int cocci_id/* drivers/scsi/snic/vnic_dev.c 266 */;
+	struct devcmd2_result *cocci_id/* drivers/scsi/snic/vnic_dev.c 265 */;
+	struct devcmd2_controller *cocci_id/* drivers/scsi/snic/vnic_dev.c 264 */;
+	enum vnic_devcmd_cmd cocci_id/* drivers/scsi/snic/vnic_dev.c 261 */;
+	struct vnic_dev *cocci_id/* drivers/scsi/snic/vnic_dev.c 261 */;
+	int cocci_id/* drivers/scsi/snic/vnic_dev.c 261 */;
+	u8 *cocci_id/* drivers/scsi/snic/vnic_dev.c 240 */;
+	struct vnic_dev_ring *cocci_id/* drivers/scsi/snic/vnic_dev.c 223 */;
+	void cocci_id/* drivers/scsi/snic/vnic_dev.c 218 */;
+	char __iomem *cocci_id/* drivers/scsi/snic/vnic_dev.c 182 */;
+	enum vnic_res_type cocci_id/* drivers/scsi/snic/vnic_dev.c 171 */;
+}

@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	struct nfs_dns_ent {
+		struct cache_head h;
+		char *hostname;
+		size_t namelen;
+		struct sockaddr_storage addr;
+		size_t addrlen;
+		struct rcu_head rcu_head;
+	} cocci_id/* fs/nfs/dns_resolve.c 61 */;
+	struct notifier_block cocci_id/* fs/nfs/dns_resolve.c 455 */;
+	struct super_block *cocci_id/* fs/nfs/dns_resolve.c 428 */;
+	void *cocci_id/* fs/nfs/dns_resolve.c 426 */;
+	struct notifier_block *cocci_id/* fs/nfs/dns_resolve.c 425 */;
+	unsigned long cocci_id/* fs/nfs/dns_resolve.c 425 */;
+	struct pernet_operations cocci_id/* fs/nfs/dns_resolve.c 420 */;
+	struct net *cocci_id/* fs/nfs/dns_resolve.c 415 */;
+	void cocci_id/* fs/nfs/dns_resolve.c 415 */;
+	struct cache_detail cocci_id/* fs/nfs/dns_resolve.c 367 */;
+	struct nfs_net *cocci_id/* fs/nfs/dns_resolve.c 352 */;
+	struct nfs_cache_defer_req *cocci_id/* fs/nfs/dns_resolve.c 284 */;
+	struct nfs_dns_ent **cocci_id/* fs/nfs/dns_resolve.c 283 */;
+	struct nfs_dns_ent *cocci_id/* fs/nfs/dns_resolve.c 282 */;
+	struct cache_detail *cocci_id/* fs/nfs/dns_resolve.c 281 */;
+	int cocci_id/* fs/nfs/dns_resolve.c 281 */;
+	struct sockaddr *cocci_id/* fs/nfs/dns_resolve.c 246 */;
+	ssize_t cocci_id/* fs/nfs/dns_resolve.c 235 */;
+	char cocci_id/* fs/nfs/dns_resolve.c 232 */[NFS_DNS_HOSTNAME_MAXLEN + 1];
+	char *cocci_id/* fs/nfs/dns_resolve.c 230 */;
+	char cocci_id/* fs/nfs/dns_resolve.c 193 */[INET6_ADDRSTRLEN + IPV6_SCOPE_ID_LEN + 1];
+	long cocci_id/* fs/nfs/dns_resolve.c 181 */;
+	size_t cocci_id/* fs/nfs/dns_resolve.c 18 */;
+	struct seq_file *cocci_id/* fs/nfs/dns_resolve.c 177 */;
+	char **cocci_id/* fs/nfs/dns_resolve.c 143 */;
+	int *cocci_id/* fs/nfs/dns_resolve.c 143 */;
+	const struct nfs_dns_ent *cocci_id/* fs/nfs/dns_resolve.c 136 */;
+	unsigned int cocci_id/* fs/nfs/dns_resolve.c 136 */;
+	struct cache_head *cocci_id/* fs/nfs/dns_resolve.c 123 */;
+	struct kref *cocci_id/* fs/nfs/dns_resolve.c 115 */;
+	struct nfs_dns_ent cocci_id/* fs/nfs/dns_resolve.c 110 */;
+	struct rcu_head *cocci_id/* fs/nfs/dns_resolve.c 106 */;
+}

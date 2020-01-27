@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	struct input_mt_pos *cocci_id/* drivers/input/mouse/alps.c 969 */;
+	char *cocci_id/* drivers/input/mouse/alps.c 951 */;
+	u64 cocci_id/* drivers/input/mouse/alps.c 691 */;
+	struct alps_fields *cocci_id/* drivers/input/mouse/alps.c 623 */;
+	void cocci_id/* drivers/input/mouse/alps.c 623 */;
+	s8 cocci_id/* drivers/input/mouse/alps.c 582 */;
+	struct input_mt_pos cocci_id/* drivers/input/mouse/alps.c 398 */[4];
+	struct alps_bitmap_point cocci_id/* drivers/input/mouse/alps.c 396 */;
+	int *cocci_id/* drivers/input/mouse/alps.c 359 */;
+	struct alps_bitmap_point *cocci_id/* drivers/input/mouse/alps.c 357 */;
+	const struct alps_nibble_commands cocci_id/* drivers/input/mouse/alps.c 35 */[];
+	struct alps_data cocci_id/* drivers/input/mouse/alps.c 3204 */;
+	struct input_dev *cocci_id/* drivers/input/mouse/alps.c 3041 */;
+	const struct alps_protocol_info *cocci_id/* drivers/input/mouse/alps.c 2884 */;
+	u8 cocci_id/* drivers/input/mouse/alps.c 2867 */[2];
+	const struct alps_model_info *cocci_id/* drivers/input/mouse/alps.c 2852 */;
+	char cocci_id/* drivers/input/mouse/alps.c 2696 */[2];
+	unsigned char cocci_id/* drivers/input/mouse/alps.c 2650 */[2];
+	unsigned char cocci_id/* drivers/input/mouse/alps.c 2584 */[2][4];
+	unsigned char cocci_id/* drivers/input/mouse/alps.c 2532 */[][4];
+	char cocci_id/* drivers/input/mouse/alps.c 2297 */;
+	void cocci_id/* drivers/input/mouse/alps.c 206 */(struct alps_data *priv,
+							  struct input_dev *dev1);
+	unsigned char cocci_id/* drivers/input/mouse/alps.c 1990 */[sizeof(psmouse->packet)];
+	u16 cocci_id/* drivers/input/mouse/alps.c 1931 */;
+	bool cocci_id/* drivers/input/mouse/alps.c 1790 */;
+	unsigned char cocci_id/* drivers/input/mouse/alps.c 1790 */[];
+	u8 cocci_id/* drivers/input/mouse/alps.c 1750 */;
+	unsigned char cocci_id/* drivers/input/mouse/alps.c 1727 */[4];
+	struct ps2dev *cocci_id/* drivers/input/mouse/alps.c 1726 */;
+	struct psmouse *cocci_id/* drivers/input/mouse/alps.c 1724 */;
+	int cocci_id/* drivers/input/mouse/alps.c 1724 */;
+	const struct dmi_system_id cocci_id/* drivers/input/mouse/alps.c 170 */[];
+	unsigned char *cocci_id/* drivers/input/mouse/alps.c 1691 */;
+	struct alps_data *cocci_id/* drivers/input/mouse/alps.c 1689 */;
+	struct timer_list *cocci_id/* drivers/input/mouse/alps.c 1577 */;
+	psmouse_ret_t cocci_id/* drivers/input/mouse/alps.c 1498 */;
+	struct work_struct *cocci_id/* drivers/input/mouse/alps.c 1399 */;
+	const struct alps_protocol_info cocci_id/* drivers/input/mouse/alps.c 139 */;
+	struct alps_fields cocci_id/* drivers/input/mouse/alps.c 1294 */;
+	unsigned int cocci_id/* drivers/input/mouse/alps.c 1182 */;
+	enum SS4_PACKET_ID cocci_id/* drivers/input/mouse/alps.c 1181 */;
+	const struct alps_model_info cocci_id/* drivers/input/mouse/alps.c 106 */[];
+	unsigned char cocci_id/* drivers/input/mouse/alps.c 1031 */;
+}

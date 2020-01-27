@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	struct thermal_instance cocci_id/* drivers/thermal/thermal_sysfs.c 972 */;
+	struct thermal_instance *cocci_id/* drivers/thermal/thermal_sysfs.c 969 */;
+	void cocci_id/* drivers/thermal/thermal_sysfs.c 939 */;
+	unsigned int *cocci_id/* drivers/thermal/thermal_sysfs.c 927 */;
+	ktime_t *cocci_id/* drivers/thermal/thermal_sysfs.c 926 */;
+	int cocci_id/* drivers/thermal/thermal_sysfs.c 911 */;
+	unsigned long cocci_id/* drivers/thermal/thermal_sysfs.c 910 */;
+	struct cooling_dev_stats *cocci_id/* drivers/thermal/thermal_sysfs.c 909 */;
+	ktime_t cocci_id/* drivers/thermal/thermal_sysfs.c 760 */;
+	struct cooling_dev_stats {
+		spinlock_t lock;
+		unsigned int total_trans;
+		unsigned long state;
+		unsigned long max_states;
+		ktime_t last_time;
+		ktime_t *time_in_state;
+		unsigned int *trans_table;
+	} cocci_id/* drivers/thermal/thermal_sysfs.c 748 */;
+	const struct attribute_group *cocci_id/* drivers/thermal/thermal_sysfs.c 741 */[];
+	const struct attribute_group cocci_id/* drivers/thermal/thermal_sysfs.c 737 */;
+	struct attribute *cocci_id/* drivers/thermal/thermal_sysfs.c 730 */[];
+	struct device_attribute cocci_id/* drivers/thermal/thermal_sysfs.c 725 */;
+	long cocci_id/* drivers/thermal/thermal_sysfs.c 712 */;
+	const char *cocci_id/* drivers/thermal/thermal_sysfs.c 703 */;
+	size_t cocci_id/* drivers/thermal/thermal_sysfs.c 703 */;
+	struct thermal_cooling_device *cocci_id/* drivers/thermal/thermal_sysfs.c 670 */;
+	const struct attribute_group **cocci_id/* drivers/thermal/thermal_sysfs.c 626 */;
+	enum thermal_device_mode cocci_id/* drivers/thermal/thermal_sysfs.c 52 */;
+	struct attribute **cocci_id/* drivers/thermal/thermal_sysfs.c 511 */;
+	struct thermal_zone_device *cocci_id/* drivers/thermal/thermal_sysfs.c 509 */;
+	enum thermal_trip_type cocci_id/* drivers/thermal/thermal_sysfs.c 469 */;
+	struct thermal_zone_device cocci_id/* drivers/thermal/thermal_sysfs.c 444 */;
+	struct device cocci_id/* drivers/thermal/thermal_sysfs.c 441 */;
+	struct attribute *cocci_id/* drivers/thermal/thermal_sysfs.c 438 */;
+	umode_t cocci_id/* drivers/thermal/thermal_sysfs.c 437 */;
+	struct kobject *cocci_id/* drivers/thermal/thermal_sysfs.c 437 */;
+	struct attribute_group cocci_id/* drivers/thermal/thermal_sysfs.c 427 */;
+	u32 cocci_id/* drivers/thermal/thermal_sysfs.c 338 */;
+	char *cocci_id/* drivers/thermal/thermal_sysfs.c 288 */;
+	struct device_attribute *cocci_id/* drivers/thermal/thermal_sysfs.c 287 */;
+	struct device *cocci_id/* drivers/thermal/thermal_sysfs.c 287 */;
+	ssize_t cocci_id/* drivers/thermal/thermal_sysfs.c 286 */;
+	char cocci_id/* drivers/thermal/thermal_sysfs.c 266 */[THERMAL_NAME_LENGTH];
+}

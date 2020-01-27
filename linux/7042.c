@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/ide/siimage.c 834 */;
+	int __init cocci_id/* drivers/ide/siimage.c 829 */;
+	struct pci_driver cocci_id/* drivers/ide/siimage.c 820 */;
+	const struct pci_device_id cocci_id/* drivers/ide/siimage.c 810 */[];
+	struct ide_port_info cocci_id/* drivers/ide/siimage.c 742 */;
+	resource_size_t cocci_id/* drivers/ide/siimage.c 739 */;
+	const struct pci_device_id *cocci_id/* drivers/ide/siimage.c 736 */;
+	const struct ide_port_info cocci_id/* drivers/ide/siimage.c 722 */[];
+	const struct ide_dma_ops cocci_id/* drivers/ide/siimage.c 699 */;
+	const struct ide_port_ops cocci_id/* drivers/ide/siimage.c 679 */;
+	ide_hwif_t *cocci_id/* drivers/ide/siimage.c 649 */;
+	void cocci_id/* drivers/ide/siimage.c 649 */;
+	unsigned cocci_id/* drivers/ide/siimage.c 608 */;
+	const char *cocci_id/* drivers/ide/siimage.c 607 */;
+	ide_drive_t *cocci_id/* drivers/ide/siimage.c 605 */;
+	struct ide_io_ports *cocci_id/* drivers/ide/siimage.c 555 */;
+	void *cocci_id/* drivers/ide/siimage.c 553 */;
+	const char *cocci_id/* drivers/ide/siimage.c 526 */[];
+	u32 cocci_id/* drivers/ide/siimage.c 468 */;
+	u8 cocci_id/* drivers/ide/siimage.c 458 */;
+	unsigned long cocci_id/* drivers/ide/siimage.c 457 */;
+	void __iomem *cocci_id/* drivers/ide/siimage.c 456 */;
+	struct ide_host *cocci_id/* drivers/ide/siimage.c 455 */;
+	struct pci_dev *cocci_id/* drivers/ide/siimage.c 453 */;
+	int cocci_id/* drivers/ide/siimage.c 453 */;
+	blk_status_t cocci_id/* drivers/ide/siimage.c 409 */;
+	const u8 cocci_id/* drivers/ide/siimage.c 313 */;
+	const u16 cocci_id/* drivers/ide/siimage.c 302 */[];
+	const u8 cocci_id/* drivers/ide/siimage.c 300 */[];
+	char *cocci_id/* drivers/ide/siimage.c 225 */;
+	u16 cocci_id/* drivers/ide/siimage.c 142 */;
+}

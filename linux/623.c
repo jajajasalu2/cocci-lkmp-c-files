@@ -1,0 +1,66 @@
+cocci_test_suite() {
+	u32 cocci_id/* crypto/tcrypt.c 80 */[];
+	struct test_mb_ahash_data *cocci_id/* crypto/tcrypt.c 721 */;
+	struct test_mb_ahash_data {
+		struct scatterlist sg[XBUFSIZE];
+		char result[64];
+		struct ahash_request *req;
+		struct crypto_wait wait;
+		char *xbuf[XBUFSIZE];
+	} cocci_id/* crypto/tcrypt.c 713 */;
+	struct ahash_request *cocci_id/* crypto/tcrypt.c 706 */;
+	const char *cocci_id/* crypto/tcrypt.c 68 */[];
+	char *cocci_id/* crypto/tcrypt.c 66 */[TVMEMSIZE];
+	char *cocci_id/* crypto/tcrypt.c 61 */;
+	unsigned int cocci_id/* crypto/tcrypt.c 59 */;
+	struct crypto_wait cocci_id/* crypto/tcrypt.c 538 */;
+	unsigned int *cocci_id/* crypto/tcrypt.c 536 */;
+	struct crypto_aead *cocci_id/* crypto/tcrypt.c 524 */;
+	u8 cocci_id/* crypto/tcrypt.c 520 */;
+	struct aead_speed_template *cocci_id/* crypto/tcrypt.c 519 */;
+	void __exit cocci_id/* crypto/tcrypt.c 3065 */;
+	unsigned long cocci_id/* crypto/tcrypt.c 3056 */;
+	void *cocci_id/* crypto/tcrypt.c 3030 */;
+	int __init cocci_id/* crypto/tcrypt.c 3024 */;
+	u32 *cocci_id/* crypto/tcrypt.c 261 */;
+	const char *cocci_id/* crypto/tcrypt.c 1660 */;
+	const char **cocci_id/* crypto/tcrypt.c 1637 */;
+	u8 *cocci_id/* crypto/tcrypt.c 1621 */;
+	struct cipher_speed_template *cocci_id/* crypto/tcrypt.c 1620 */;
+	struct test_mb_aead_data *cocci_id/* crypto/tcrypt.c 156 */;
+	bool cocci_id/* crypto/tcrypt.c 1491 */;
+	cycles_t cocci_id/* crypto/tcrypt.c 1464 */;
+	struct test_mb_aead_data {
+		struct scatterlist sg[XBUFSIZE];
+		struct scatterlist sgout[XBUFSIZE];
+		struct aead_request *req;
+		struct crypto_wait wait;
+		char *xbuf[XBUFSIZE];
+		char *xoutbuf[XBUFSIZE];
+		char *axbuf[XBUFSIZE];
+	} cocci_id/* crypto/tcrypt.c 146 */;
+	long cocci_id/* crypto/tcrypt.c 1438 */;
+	struct crypto_wait *cocci_id/* crypto/tcrypt.c 1412 */;
+	struct skcipher_request *cocci_id/* crypto/tcrypt.c 1410 */;
+	struct aead_request *cocci_id/* crypto/tcrypt.c 139 */;
+	char cocci_id/* crypto/tcrypt.c 1258 */[128];
+	struct crypto_skcipher *cocci_id/* crypto/tcrypt.c 1253 */;
+	u32 cocci_id/* crypto/tcrypt.c 1155 */;
+	int *cocci_id/* crypto/tcrypt.c 1155 */;
+	struct test_mb_skcipher_data *cocci_id/* crypto/tcrypt.c 1154 */;
+	int cocci_id/* crypto/tcrypt.c 1154 */;
+	struct test_mb_skcipher_data {
+		struct scatterlist sg[XBUFSIZE];
+		struct skcipher_request *req;
+		struct crypto_wait wait;
+		char *xbuf[XBUFSIZE];
+	} cocci_id/* crypto/tcrypt.c 1147 */;
+	struct hash_speed *cocci_id/* crypto/tcrypt.c 1136 */;
+	const void *cocci_id/* crypto/tcrypt.c 113 */;
+	char *cocci_id/* crypto/tcrypt.c 112 */[XBUFSIZE];
+	struct scatterlist *cocci_id/* crypto/tcrypt.c 112 */;
+	void cocci_id/* crypto/tcrypt.c 112 */;
+	struct crypto_ahash *cocci_id/* crypto/tcrypt.c 1060 */;
+	struct scatterlist cocci_id/* crypto/tcrypt.c 1057 */[TVMEMSIZE];
+	unsigned cocci_id/* crypto/tcrypt.c 1055 */;
+}

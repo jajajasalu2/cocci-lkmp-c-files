@@ -1,0 +1,58 @@
+cocci_test_suite() {
+	size_t cocci_id/* drivers/block/ps3disk.c 88 */;
+	struct bio_vec cocci_id/* drivers/block/ps3disk.c 86 */;
+	struct req_iterator cocci_id/* drivers/block/ps3disk.c 85 */;
+	const struct block_device_operations cocci_id/* drivers/block/ps3disk.c 76 */;
+	enum lv1_ata_in_out{DIR_WRITE=0, DIR_READ=1,} cocci_id/* drivers/block/ps3disk.c 68 */;
+	enum lv1_ata_proto{NON_DATA_PROTO=0, PIO_DATA_IN_PROTO=1, PIO_DATA_OUT_PROTO=2, DMA_PROTO=3,} cocci_id/* drivers/block/ps3disk.c 61 */;
+	void __exit cocci_id/* drivers/block/ps3disk.c 568 */;
+	int __init cocci_id/* drivers/block/ps3disk.c 543 */;
+	struct ps3_system_bus_driver cocci_id/* drivers/block/ps3disk.c 533 */;
+	struct lv1_ata_cmnd_block {
+		u16 features;
+		u16 sector_count;
+		u16 LBA_low;
+		u16 LBA_mid;
+		u16 LBA_high;
+		u8 device;
+		u8 command;
+		u32 is_ext;
+		u32 proto;
+		u32 in_out;
+		u32 size;
+		u64 buffer;
+		u32 arglen;
+	} cocci_id/* drivers/block/ps3disk.c 45 */;
+	struct gendisk *cocci_id/* drivers/block/ps3disk.c 401 */;
+	struct request_queue *cocci_id/* drivers/block/ps3disk.c 400 */;
+	struct ps3_system_bus_device *cocci_id/* drivers/block/ps3disk.c 394 */;
+	const struct blk_mq_ops cocci_id/* drivers/block/ps3disk.c 390 */;
+	unsigned long cocci_id/* drivers/block/ps3disk.c 386 */;
+	u16 *cocci_id/* drivers/block/ps3disk.c 355 */;
+	struct lv1_ata_cmnd_block cocci_id/* drivers/block/ps3disk.c 354 */;
+	struct ps3disk_private *cocci_id/* drivers/block/ps3disk.c 353 */;
+	int cocci_id/* drivers/block/ps3disk.c 351 */;
+	const u16 *cocci_id/* drivers/block/ps3disk.c 336 */;
+	unsigned char *cocci_id/* drivers/block/ps3disk.c 336 */;
+	unsigned int cocci_id/* drivers/block/ps3disk.c 336 */;
+	void cocci_id/* drivers/block/ps3disk.c 336 */;
+	u64 cocci_id/* drivers/block/ps3disk.c 302 */;
+	struct ps3disk_private {
+		spinlock_t lock;
+		struct request_queue *queue;
+		struct blk_mq_tag_set tag_set;
+		struct gendisk *gendisk;
+		unsigned int blocking_factor;
+		struct request *req;
+		u64 raw_capacity;
+		unsigned char model[ATA_ID_PROD_LEN + 1];
+	} cocci_id/* drivers/block/ps3disk.c 30 */;
+	const char *cocci_id/* drivers/block/ps3disk.c 220 */;
+	irqreturn_t cocci_id/* drivers/block/ps3disk.c 212 */;
+	void *cocci_id/* drivers/block/ps3disk.c 212 */;
+	const struct blk_mq_queue_data *cocci_id/* drivers/block/ps3disk.c 196 */;
+	struct blk_mq_hw_ctx *cocci_id/* drivers/block/ps3disk.c 195 */;
+	struct request *cocci_id/* drivers/block/ps3disk.c 179 */;
+	blk_status_t cocci_id/* drivers/block/ps3disk.c 178 */;
+	struct ps3_storage_device *cocci_id/* drivers/block/ps3disk.c 178 */;
+}

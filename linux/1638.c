@@ -1,0 +1,58 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 93 */;
+	void __iomem *cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 93 */;
+	void cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 93 */;
+	struct platform_driver cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 767 */;
+	unsigned long cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 762 */;
+	const struct acpi_device_id cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 761 */[];
+	const struct of_device_id cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 752 */[];
+	int __maybe_unused cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 720 */;
+	struct resource cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 609 */;
+	bool cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 560 */;
+	struct dwc3_qcom {
+		struct device *dev;
+		void __iomem *qscratch_base;
+		struct platform_device *dwc3;
+		struct clk **clks;
+		int num_clocks;
+		struct reset_control *resets;
+		int hs_phy_irq;
+		int dp_hs_phy_irq;
+		int dm_hs_phy_irq;
+		int ss_phy_irq;
+		struct extcon_dev *edev;
+		struct extcon_dev *host_edev;
+		struct notifier_block vbus_nb;
+		struct notifier_block host_nb;
+		const struct dwc3_acpi_pdata *acpi_pdata;
+		enum usb_dr_mode mode;
+		bool is_suspended;
+		bool pm_suspended;
+	} cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 56 */;
+	const struct dwc3_acpi_pdata cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 543 */;
+	struct dwc3_acpi_pdata {
+		u32 qscratch_base_offset;
+		u32 qscratch_base_size;
+		u32 dwc3_core_base_size;
+		int hs_phy_irq_index;
+		int dp_hs_phy_irq_index;
+		int dm_hs_phy_irq_index;
+		int ss_phy_irq_index;
+	} cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 46 */;
+	struct resource *cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 459 */;
+	struct device *cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 458 */;
+	struct dwc3_qcom *cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 457 */;
+	struct platform_device *cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 455 */;
+	int cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 455 */;
+	const struct property_entry cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 450 */[];
+	struct clk *cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 418 */;
+	struct device_node *cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 406 */;
+	const struct dwc3_acpi_pdata *cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 337 */;
+	const char *cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 321 */;
+	struct dwc3 *cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 291 */;
+	irqreturn_t cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 288 */;
+	struct extcon_dev *cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 147 */;
+	struct dwc3_qcom cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 135 */;
+	void *cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 133 */;
+	struct notifier_block *cocci_id/* drivers/usb/dwc3/dwc3-qcom.c 132 */;
+}

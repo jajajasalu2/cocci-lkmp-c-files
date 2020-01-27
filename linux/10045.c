@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	const struct usb_device_id cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 774 */[];
+	struct rt2800_drv_data cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 757 */;
+	const struct rt2x00_ops cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 755 */;
+	struct queue_entry_priv_usb cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 725 */;
+	unsigned short cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 715 */;
+	const struct rt2x00lib_ops cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 675 */;
+	const struct rt2800_ops cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 659 */;
+	const struct ieee80211_ops cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 631 */;
+	struct skb_frame_desc *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 484 */;
+	struct rxdone_entry_desc *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 482 */;
+	struct queue_entry *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 481 */;
+	struct work_struct *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 456 */;
+	struct txentry_desc *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 402 */;
+	struct data_queue *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 382 */;
+	unsigned int cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 382 */;
+	bool cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 34 */;
+	enum dev_state cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 337 */;
+	const size_t cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 211 */;
+	const u8 *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 211 */;
+	char *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 205 */;
+	u32 cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 179 */;
+	__le32 *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 178 */;
+	int cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 176 */;
+	struct rt2x00_dev cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 165 */;
+	enum hrtimer_restart cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 162 */;
+	struct hrtimer *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 162 */;
+	struct rt2x00_dev *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 143 */;
+	void cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 143 */;
+	struct usb_driver cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 1261 */;
+	const struct usb_device_id *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 1256 */;
+	struct usb_interface *cocci_id/* drivers/net/wireless/ralink/rt2x00/rt2800usb.c 1255 */;
+}

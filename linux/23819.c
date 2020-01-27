@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	struct gnet_stats_queue cocci_id/* net/sched/sch_generic.c 841 */;
+	struct gnet_stats_basic_cpu cocci_id/* net/sched/sch_generic.c 837 */;
+	char *cocci_id/* net/sched/sch_generic.c 828 */;
+	struct pfifo_fast_priv cocci_id/* net/sched/sch_generic.c 783 */;
+	struct skb_array *cocci_id/* net/sched/sch_generic.c 768 */[PFIFO_FAST_BANDS];
+	struct tc_prio_qopt cocci_id/* net/sched/sch_generic.c 708 */;
+	struct gnet_stats_queue *cocci_id/* net/sched/sch_generic.c 697 */;
+	struct skb_array *cocci_id/* net/sched/sch_generic.c 610 */;
+	struct pfifo_fast_priv *cocci_id/* net/sched/sch_generic.c 610 */;
+	struct pfifo_fast_priv {
+		struct skb_array q[PFIFO_FAST_BANDS];
+	} cocci_id/* net/sched/sch_generic.c 606 */;
+	const u8 cocci_id/* net/sched/sch_generic.c 592 */[TC_PRIO_MAX + 1];
+	struct netlink_ext_ack *cocci_id/* net/sched/sch_generic.c 573 */;
+	struct nlattr *cocci_id/* net/sched/sch_generic.c 572 */;
+	struct Qdisc cocci_id/* net/sched/sch_generic.c 548 */;
+	struct netdev_queue cocci_id/* net/sched/sch_generic.c 543 */;
+	spinlock_t *cocci_id/* net/sched/sch_generic.c 54 */;
+	struct Qdisc_ops cocci_id/* net/sched/sch_generic.c 534 */;
+	const struct netdev_queue *cocci_id/* net/sched/sch_generic.c 53 */;
+	struct sk_buff **cocci_id/* net/sched/sch_generic.c 523 */;
+	struct sk_buff *cocci_id/* net/sched/sch_generic.c 51 */;
+	struct net_device *cocci_id/* net/sched/sch_generic.c 457 */;
+	void cocci_id/* net/sched/sch_generic.c 457 */;
+	struct timer_list *cocci_id/* net/sched/sch_generic.c 413 */;
+	unsigned long cocci_id/* net/sched/sch_generic.c 393 */;
+	int cocci_id/* net/sched/sch_generic.c 381 */;
+	struct Qdisc *cocci_id/* net/sched/sch_generic.c 379 */;
+	int *cocci_id/* net/sched/sch_generic.c 203 */;
+	bool *cocci_id/* net/sched/sch_generic.c 202 */;
+	struct mini_Qdisc __rcu **cocci_id/* net/sched/sch_generic.c 1395 */;
+	struct mini_Qdisc_pair *cocci_id/* net/sched/sch_generic.c 1394 */;
+	struct mini_Qdisc *cocci_id/* net/sched/sch_generic.c 1363 */;
+	struct tcf_proto *cocci_id/* net/sched/sch_generic.c 1358 */;
+	struct rcu_head *cocci_id/* net/sched/sch_generic.c 1353 */;
+	u64 cocci_id/* net/sched/sch_generic.c 1319 */;
+	const struct tc_ratespec *cocci_id/* net/sched/sch_generic.c 1318 */;
+	struct psched_ratecfg *cocci_id/* net/sched/sch_generic.c 1317 */;
+	unsigned int cocci_id/* net/sched/sch_generic.c 1252 */;
+	struct list_head *cocci_id/* net/sched/sch_generic.c 1190 */;
+	bool cocci_id/* net/sched/sch_generic.c 1128 */;
+	struct netdev_queue *cocci_id/* net/sched/sch_generic.c 1051 */;
+	const struct Qdisc_ops *cocci_id/* net/sched/sch_generic.c 1032 */;
+	void *cocci_id/* net/sched/sch_generic.c 1029 */;
+}

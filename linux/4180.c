@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	struct tegra210_xusb_padctl *cocci_id/* drivers/phy/tegra/xusb-tegra210.c 944 */;
+	struct tegra_xusb_usb2_lane *cocci_id/* drivers/phy/tegra/xusb-tegra210.c 881 */;
+	bool cocci_id/* drivers/phy/tegra/xusb-tegra210.c 793 */;
+	unsigned long cocci_id/* drivers/phy/tegra/xusb-tegra210.c 262 */;
+	struct tegra210_xusb_padctl cocci_id/* drivers/phy/tegra/xusb-tegra210.c 255 */;
+	struct tegra210_xusb_padctl {
+		struct tegra_xusb_padctl base;
+		struct tegra210_xusb_fuse_calibration fuse;
+	} cocci_id/* drivers/phy/tegra/xusb-tegra210.c 246 */;
+	struct tegra210_xusb_fuse_calibration {
+		u32 hs_curr_level[4];
+		u32 hs_term_range_adj;
+		u32 rpd_ctrl;
+	} cocci_id/* drivers/phy/tegra/xusb-tegra210.c 240 */;
+	const struct tegra_xusb_padctl_soc cocci_id/* drivers/phy/tegra/xusb-tegra210.c 2145 */;
+	const char *const cocci_id/* drivers/phy/tegra/xusb-tegra210.c 2138 */[];
+	const struct tegra_xusb_padctl_ops cocci_id/* drivers/phy/tegra/xusb-tegra210.c 2129 */;
+	const struct tegra_xusb_padctl_soc *cocci_id/* drivers/phy/tegra/xusb-tegra210.c 2106 */;
+	struct device *cocci_id/* drivers/phy/tegra/xusb-tegra210.c 2105 */;
+	struct tegra210_xusb_fuse_calibration *cocci_id/* drivers/phy/tegra/xusb-tegra210.c 2073 */;
+	const struct tegra_xusb_lane_map cocci_id/* drivers/phy/tegra/xusb-tegra210.c 2004 */[];
+	struct tegra_xusb_usb3_port *cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1969 */;
+	const struct tegra_xusb_port_ops cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1875 */;
+	struct tegra_xusb_port *cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1865 */;
+	const struct tegra_xusb_pad_soc *const cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1832 */[];
+	struct tegra_xusb_sata_pad *cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1774 */;
+	struct tegra_xusb_sata_lane *cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1676 */;
+	struct tegra_xusb_pcie_pad *cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1603 */;
+	struct tegra_xusb_pcie_lane *cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1505 */;
+	const struct tegra_xusb_pad_soc cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1477 */;
+	const struct tegra_xusb_pad_ops cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1472 */;
+	struct tegra_xusb_hsic_pad *cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1426 */;
+	const struct tegra_xusb_pad_soc *cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1423 */;
+	struct tegra_xusb_padctl *cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1422 */;
+	const struct phy_ops cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1413 */;
+	struct phy *cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1296 */;
+	u32 cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1284 */;
+	const struct tegra_xusb_lane_ops cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1275 */;
+	void cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1268 */;
+	int cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1247 */;
+	struct tegra_xusb_hsic_lane *cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1246 */;
+	unsigned int cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1244 */;
+	struct tegra_xusb_pad *cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1243 */;
+	struct device_node *cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1243 */;
+	struct tegra_xusb_lane *cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1242 */;
+	const struct tegra_xusb_lane_soc cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1238 */[];
+	const char *cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1233 */[];
+	struct tegra_xusb_usb2_pad *cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1175 */;
+	struct tegra_xusb_usb2_port *cocci_id/* drivers/phy/tegra/xusb-tegra210.c 1108 */;
+}

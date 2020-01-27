@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct device *cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 95 */;
+	unsigned int cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 95 */;
+	struct platform_driver cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 903 */;
+	const struct dev_pm_ops cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 898 */;
+	const struct of_device_id cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 892 */[];
+	struct mt6797_afe_private *cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 752 */;
+	struct platform_device *cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 749 */;
+	const dai_register_cb cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 742 */[];
+	int (*cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 741 */)(struct mtk_base_afe *);
+	struct mtk_base_afe_dai *cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 723 */;
+	const struct snd_soc_component_driver cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 712 */;
+	struct snd_soc_component *cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 707 */;
+	int cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 707 */;
+	struct mtk_base_afe_memif *cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 628 */;
+	struct mtk_base_afe_irq *cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 605 */;
+	struct mtk_base_afe *cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 604 */;
+	irqreturn_t cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 602 */;
+	void *cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 602 */;
+	const struct regmap_config cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 595 */;
+	const struct mtk_base_irq_data cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 527 */[MT6797_IRQ_NUM];
+	enum{MTK_AFE_PCM_RATE_8K=0, MTK_AFE_PCM_RATE_16K=1, MTK_AFE_PCM_RATE_32K=2, MTK_AFE_PCM_RATE_48K=3,} cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 47 */;
+	enum{MTK_AFE_DAI_MEMIF_RATE_8K=0, MTK_AFE_DAI_MEMIF_RATE_16K=1, MTK_AFE_DAI_MEMIF_RATE_32K=2,} cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 41 */;
+	const struct mtk_base_memif_data cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 388 */[MT6797_MEMIF_NUM];
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 358 */[];
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 332 */[];
+	const struct snd_kcontrol_new cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 276 */[];
+	enum{MTK_AFE_RATE_8K=0, MTK_AFE_RATE_11K=1, MTK_AFE_RATE_12K=2, MTK_AFE_RATE_384K=3, MTK_AFE_RATE_16K=4, MTK_AFE_RATE_22K=5, MTK_AFE_RATE_24K=6, MTK_AFE_RATE_130K=7, MTK_AFE_RATE_32K=8, MTK_AFE_RATE_44K=9, MTK_AFE_RATE_48K=10, MTK_AFE_RATE_88K=11, MTK_AFE_RATE_96K=12, MTK_AFE_RATE_174K=13, MTK_AFE_RATE_192K=14, MTK_AFE_RATE_260K=15,} cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 22 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 175 */[];
+	struct snd_soc_pcm_runtime *cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 153 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 151 */;
+	const struct snd_pcm_hardware cocci_id/* sound/soc/mediatek/mt6797/mt6797-afe-pcm.c 124 */;
+}

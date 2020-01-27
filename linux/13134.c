@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/fpga/fpga-mgr.c 745 */;
+	int __init cocci_id/* drivers/fpga/fpga-mgr.c 731 */;
+	struct fpga_manager **cocci_id/* drivers/fpga/fpga-mgr.c 656 */;
+	void *cocci_id/* drivers/fpga/fpga-mgr.c 654 */;
+	const struct fpga_manager_ops *cocci_id/* drivers/fpga/fpga-mgr.c 653 */;
+	const char *cocci_id/* drivers/fpga/fpga-mgr.c 652 */;
+	void cocci_id/* drivers/fpga/fpga-mgr.c 628 */;
+	struct device_node *cocci_id/* drivers/fpga/fpga-mgr.c 492 */;
+	struct fpga_manager *cocci_id/* drivers/fpga/fpga-mgr.c 447 */;
+	struct device *cocci_id/* drivers/fpga/fpga-mgr.c 447 */;
+	struct attribute *cocci_id/* drivers/fpga/fpga-mgr.c 439 */[];
+	u64 cocci_id/* drivers/fpga/fpga-mgr.c 413 */;
+	struct device_attribute *cocci_id/* drivers/fpga/fpga-mgr.c 394 */;
+	ssize_t cocci_id/* drivers/fpga/fpga-mgr.c 393 */;
+	const char *const cocci_id/* drivers/fpga/fpga-mgr.c 367 */[];
+	const struct firmware *cocci_id/* drivers/fpga/fpga-mgr.c 324 */;
+	struct fpga_image_info *cocci_id/* drivers/fpga/fpga-mgr.c 30 */;
+	struct page *cocci_id/* drivers/fpga/fpga-mgr.c 272 */;
+	unsigned long cocci_id/* drivers/fpga/fpga-mgr.c 270 */;
+	const void *cocci_id/* drivers/fpga/fpga-mgr.c 253 */;
+	struct sg_table cocci_id/* drivers/fpga/fpga-mgr.c 252 */;
+	struct page **cocci_id/* drivers/fpga/fpga-mgr.c 251 */;
+	size_t cocci_id/* drivers/fpga/fpga-mgr.c 249 */;
+	int cocci_id/* drivers/fpga/fpga-mgr.c 247 */;
+	struct class *cocci_id/* drivers/fpga/fpga-mgr.c 22 */;
+	struct sg_mapping_iter cocci_id/* drivers/fpga/fpga-mgr.c 189 */;
+	struct sg_table *cocci_id/* drivers/fpga/fpga-mgr.c 176 */;
+	char *cocci_id/* drivers/fpga/fpga-mgr.c 102 */;
+}

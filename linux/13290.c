@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	struct pluto {
+		struct pci_dev *pdev;
+		u8 __iomem *io_mem;
+		struct dmx_frontend hw_frontend;
+		struct dmx_frontend mem_frontend;
+		struct dmxdev dmxdev;
+		struct dvb_adapter dvb_adapter;
+		struct dvb_demux demux;
+		struct dvb_frontend *fe;
+		struct dvb_net dvbnet;
+		unsigned int full_ts_users;
+		unsigned int users;
+		struct i2c_algo_bit_data i2c_bit;
+		struct i2c_adapter i2c_adap;
+		unsigned int i2cbug;
+		unsigned int overflow;
+		unsigned int dead;
+		dma_addr_t dma_addr;
+		u8 dma_buf[TS_DMA_BYTES];
+		u8 dummy[4096];
+	} cocci_id/* drivers/media/pci/pluto2/pluto2.c 84 */;
+	struct pci_driver cocci_id/* drivers/media/pci/pluto2/pluto2.c 776 */;
+	const struct pci_device_id cocci_id/* drivers/media/pci/pluto2/pluto2.c 763 */[];
+	void cocci_id/* drivers/media/pci/pluto2/pluto2.c 729 */;
+	struct dmx_demux *cocci_id/* drivers/media/pci/pluto2/pluto2.c 582 */;
+	struct dvb_demux *cocci_id/* drivers/media/pci/pluto2/pluto2.c 581 */;
+	struct dvb_adapter *cocci_id/* drivers/media/pci/pluto2/pluto2.c 580 */;
+	const struct pci_device_id *cocci_id/* drivers/media/pci/pluto2/pluto2.c 577 */;
+	struct pci_dev *cocci_id/* drivers/media/pci/pluto2/pluto2.c 577 */;
+	u8 __iomem *cocci_id/* drivers/media/pci/pluto2/pluto2.c 553 */;
+	u8 *cocci_id/* drivers/media/pci/pluto2/pluto2.c 532 */;
+	int cocci_id/* drivers/media/pci/pluto2/pluto2.c 504 */;
+	struct tda1004x_config cocci_id/* drivers/media/pci/pluto2/pluto2.c 494 */;
+	const struct firmware **cocci_id/* drivers/media/pci/pluto2/pluto2.c 487 */;
+	char *cocci_id/* drivers/media/pci/pluto2/pluto2.c 487 */;
+	u8 cocci_id/* drivers/media/pci/pluto2/pluto2.c 440 */[4];
+	struct i2c_msg cocci_id/* drivers/media/pci/pluto2/pluto2.c 438 */;
+	struct dtv_frontend_properties *cocci_id/* drivers/media/pci/pluto2/pluto2.c 436 */;
+	u32 cocci_id/* drivers/media/pci/pluto2/pluto2.c 425 */;
+	irqreturn_t cocci_id/* drivers/media/pci/pluto2/pluto2.c 317 */;
+	unsigned int cocci_id/* drivers/media/pci/pluto2/pluto2.c 275 */;
+	void *cocci_id/* drivers/media/pci/pluto2/pluto2.c 189 */;
+	struct dvb_frontend *cocci_id/* drivers/media/pci/pluto2/pluto2.c 120 */;
+	struct pluto cocci_id/* drivers/media/pci/pluto2/pluto2.c 117 */;
+	struct pluto *cocci_id/* drivers/media/pci/pluto2/pluto2.c 115 */;
+	struct dvb_demux_feed *cocci_id/* drivers/media/pci/pluto2/pluto2.c 115 */;
+}

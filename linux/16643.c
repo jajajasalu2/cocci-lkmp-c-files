@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct io_subchannel_private *cocci_id/* drivers/s390/cio/cio.c 90 */;
+	u8 cocci_id/* drivers/s390/cio/cio.c 714 */;
+	struct tcw *cocci_id/* drivers/s390/cio/cio.c 714 */;
+	addr_t cocci_id/* drivers/s390/cio/cio.c 673 */;
+	struct subchannel_id cocci_id/* drivers/s390/cio/cio.c 630 */;
+	long cocci_id/* drivers/s390/cio/cio.c 62 */;
+	void *cocci_id/* drivers/s390/cio/cio.c 614 */;
+	int __init cocci_id/* drivers/s390/cio/cio.c 60 */;
+	union scsw cocci_id/* drivers/s390/cio/cio.c 596 */;
+	struct irb *cocci_id/* drivers/s390/cio/cio.c 588 */;
+	struct lock_class_key cocci_id/* drivers/s390/cio/cio.c 580 */;
+	void __init cocci_id/* drivers/s390/cio/cio.c 571 */;
+	struct irqaction cocci_id/* drivers/s390/cio/cio.c 566 */;
+	unsigned long cocci_id/* drivers/s390/cio/cio.c 542 */;
+	struct tpi_info *cocci_id/* drivers/s390/cio/cio.c 534 */;
+	irqreturn_t cocci_id/* drivers/s390/cio/cio.c 532 */;
+	debug_info_t *cocci_id/* drivers/s390/cio/cio.c 48 */;
+	u32 cocci_id/* drivers/s390/cio/cio.c 475 */;
+	struct irb cocci_id/* drivers/s390/cio/cio.c 413 */;
+	struct schib cocci_id/* drivers/s390/cio/cio.c 412 */;
+	struct subchannel *cocci_id/* drivers/s390/cio/cio.c 379 */;
+	struct schib *cocci_id/* drivers/s390/cio/cio.c 379 */;
+	void cocci_id/* drivers/s390/cio/cio.c 379 */;
+	int *cocci_id/* drivers/s390/cio/cio.c 334 */;
+	int cocci_id/* drivers/s390/cio/cio.c 287 */;
+	__u8 cocci_id/* drivers/s390/cio/cio.c 176 */;
+	struct ccw1 *cocci_id/* drivers/s390/cio/cio.c 176 */;
+	__u32 cocci_id/* drivers/s390/cio/cio.c 151 */;
+	union orb cocci_id/* drivers/s390/cio/cio.c 135 */;
+	union orb *cocci_id/* drivers/s390/cio/cio.c 129 */;
+	char cocci_id/* drivers/s390/cio/cio.c 101 */[15];
+}

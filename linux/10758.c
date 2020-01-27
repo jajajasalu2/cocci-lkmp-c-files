@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	struct igt_spinner **cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 997 */;
+	struct i915_vma *cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 914 */;
+	struct i915_request **cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 911 */;
+	ktime_t cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 72 */[2];
+	struct i915_gem_context *cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 646 */;
+	struct igt_live_test cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 623 */;
+	struct i915_request *cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 622 */[5];
+	struct list_head *cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 525 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 524 */;
+	const bool cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 432 */;
+	struct i915_gem_context **cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 34 */;
+	const unsigned int cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 31 */;
+	int *const *cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 255 */(void *arg);
+	struct i915_gem_engines *cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 253 */;
+	int (*cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 247 */[])(void *arg);
+	const struct i915_subtest cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 1884 */[];
+	void cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 1864 */;
+	unsigned int *cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 1764 */;
+	bool cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 1757 */;
+	struct i915_request *cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 169 */;
+	unsigned long cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 165 */;
+	struct parallel_switch *cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 163 */;
+	void *cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 161 */;
+	struct parallel_switch {
+		struct task_struct *tsk;
+		struct intel_context *ce[2];
+	} cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 156 */;
+	const u32 cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 1547 */;
+	struct drm_mm_node *cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 1435 */;
+	u64 cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 1433 */;
+	struct i915_address_space *cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 1433 */;
+	struct i915_gem_engines_iter cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 1358 */;
+	struct {
+		const char *name;
+		unsigned int flags;
+	} *cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 1290 */;
+	struct intel_sseu cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 1210 */;
+	struct intel_context *cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 1209 */;
+	struct intel_engine_cs *cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 1208 */;
+	struct drm_i915_gem_object *cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 1191 */;
+	struct drm_i915_private *cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 1187 */;
+	u32 cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 1087 */;
+	const char *cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 1087 */;
+	unsigned int cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 1087 */;
+	int cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 1086 */;
+	long cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 1049 */;
+	u32 *cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 1043 */;
+	struct igt_spinner *cocci_id/* drivers/gpu/drm/i915/gem/selftests/i915_gem_context.c 1042 */;
+}

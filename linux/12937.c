@@ -1,0 +1,55 @@
+cocci_test_suite() {
+	struct tsi721_ob_win *cocci_id/* drivers/rapidio/devices/tsi721.c 925 */;
+	struct tsi721_obw_bar *cocci_id/* drivers/rapidio/devices/tsi721.c 924 */;
+	dma_addr_t *cocci_id/* drivers/rapidio/devices/tsi721.c 920 */;
+	int *cocci_id/* drivers/rapidio/devices/tsi721.c 857 */;
+	struct msix_entry cocci_id/* drivers/rapidio/devices/tsi721.c 723 */[TSI721_VECT_MAX];
+	irqreturn_t cocci_id/* drivers/rapidio/devices/tsi721.c 628 */;
+	void cocci_id/* drivers/rapidio/devices/tsi721.c 44 */(struct tsi721_device *priv,
+							       int ch);
+	union {
+		u64 msg;
+		u8 bytes[8];
+	} cocci_id/* drivers/rapidio/devices/tsi721.c 391 */;
+	struct rio_dbell *cocci_id/* drivers/rapidio/devices/tsi721.c 386 */;
+	struct tsi721_device cocci_id/* drivers/rapidio/devices/tsi721.c 383 */;
+	struct work_struct *cocci_id/* drivers/rapidio/devices/tsi721.c 381 */;
+	u8 cocci_id/* drivers/rapidio/devices/tsi721.c 36 */;
+	int cocci_id/* drivers/rapidio/devices/tsi721.c 32 */;
+	struct pci_driver cocci_id/* drivers/rapidio/devices/tsi721.c 2990 */;
+	unsigned char *cocci_id/* drivers/rapidio/devices/tsi721.c 299 */;
+	const struct pci_device_id cocci_id/* drivers/rapidio/devices/tsi721.c 2983 */[];
+	union rio_pw_msg cocci_id/* drivers/rapidio/devices/tsi721.c 294 */;
+	const struct pci_device_id *cocci_id/* drivers/rapidio/devices/tsi721.c 2735 */;
+	struct pci_dev *cocci_id/* drivers/rapidio/devices/tsi721.c 2734 */;
+	struct device *cocci_id/* drivers/rapidio/devices/tsi721.c 2644 */;
+	struct rio_ops cocci_id/* drivers/rapidio/devices/tsi721.c 2623 */;
+	u32 cocci_id/* drivers/rapidio/devices/tsi721.c 258 */[TSI721_RIO_PW_MSG_SIZE / sizeof(u32)];
+	struct rio_mport_attr *cocci_id/* drivers/rapidio/devices/tsi721.c 2547 */;
+	struct tsi721_imsg_desc *cocci_id/* drivers/rapidio/devices/tsi721.c 2447 */;
+	u32 cocci_id/* drivers/rapidio/devices/tsi721.c 2416 */;
+	struct tsi721_device *cocci_id/* drivers/rapidio/devices/tsi721.c 2415 */;
+	struct rio_mport *cocci_id/* drivers/rapidio/devices/tsi721.c 2413 */;
+	void *cocci_id/* drivers/rapidio/devices/tsi721.c 2413 */;
+	struct tsi721_imsg_desc cocci_id/* drivers/rapidio/devices/tsi721.c 2400 */;
+	void cocci_id/* drivers/rapidio/devices/tsi721.c 2354 */;
+	u32 *cocci_id/* drivers/rapidio/devices/tsi721.c 214 */;
+	u16 cocci_id/* drivers/rapidio/devices/tsi721.c 213 */;
+	struct tsi721_omsg_desc cocci_id/* drivers/rapidio/devices/tsi721.c 2087 */;
+	u64 cocci_id/* drivers/rapidio/devices/tsi721.c 1701 */;
+	unsigned long cocci_id/* drivers/rapidio/devices/tsi721.c 1673 */;
+	struct tsi721_omsg_desc *cocci_id/* drivers/rapidio/devices/tsi721.c 1671 */;
+	size_t cocci_id/* drivers/rapidio/devices/tsi721.c 1668 */;
+	struct rio_dev *cocci_id/* drivers/rapidio/devices/tsi721.c 1667 */;
+	struct tsi721_dma_sts cocci_id/* drivers/rapidio/devices/tsi721.c 1530 */;
+	struct tsi721_dma_desc cocci_id/* drivers/rapidio/devices/tsi721.c 1524 */;
+	void __iomem *cocci_id/* drivers/rapidio/devices/tsi721.c 1509 */;
+	struct tsi721_bdma_maint *cocci_id/* drivers/rapidio/devices/tsi721.c 1508 */;
+	dma_addr_t cocci_id/* drivers/rapidio/devices/tsi721.c 1421 */;
+	u64 *cocci_id/* drivers/rapidio/devices/tsi721.c 1420 */;
+	struct tsi721_dma_desc *cocci_id/* drivers/rapidio/devices/tsi721.c 1419 */;
+	struct tsi721_ib_win *cocci_id/* drivers/rapidio/devices/tsi721.c 1319 */;
+	struct tsi721_ib_win_mapping cocci_id/* drivers/rapidio/devices/tsi721.c 1124 */;
+	struct tsi721_ib_win_mapping *cocci_id/* drivers/rapidio/devices/tsi721.c 1097 */;
+	bool cocci_id/* drivers/rapidio/devices/tsi721.c 1093 */;
+}

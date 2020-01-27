@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct mm_struct *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 89 */;
+	struct drm_i915_gem_mmap *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 55 */;
+	struct drm_i915_gem_mmap_gtt *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 490 */;
+	void *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 487 */;
+	u64 *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 448 */;
+	u32 cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 447 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 445 */;
+	struct intel_gt *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 428 */;
+	struct drm_i915_private *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 427 */;
+	int cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 425 */;
+	struct i915_vma *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 363 */;
+	struct drm_i915_gem_object *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 361 */;
+	void cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 361 */;
+	u64 cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 302 */;
+	intel_wakeref_t cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 228 */;
+	struct i915_ggtt *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 226 */;
+	struct intel_runtime_pm *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 225 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 223 */;
+	unsigned long cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 22 */;
+	vm_fault_t cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 218 */;
+	struct vm_fault *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 218 */;
+	struct vm_area_struct *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 21 */;
+	struct file *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 21 */;
+	bool cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 20 */;
+	unsigned int cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 180 */;
+	pgoff_t cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 179 */;
+	const struct drm_i915_gem_object *cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 178 */;
+	struct i915_ggtt_view cocci_id/* drivers/gpu/drm/i915/gem/i915_gem_mman.c 177 */;
+}

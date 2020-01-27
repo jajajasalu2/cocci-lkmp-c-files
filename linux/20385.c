@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct apic_chip_data cocci_id/* arch/x86/kernel/apic/vector.c 919 */;
+	struct apic_chip_data *cocci_id/* arch/x86/kernel/apic/vector.c 917 */;
+	struct irq_cfg *cocci_id/* arch/x86/kernel/apic/vector.c 915 */;
+	unsigned cocci_id/* arch/x86/kernel/apic/vector.c 915 */;
+	void cocci_id/* arch/x86/kernel/apic/vector.c 915 */;
+	unsigned int cocci_id/* arch/x86/kernel/apic/vector.c 892 */;
+	struct hlist_node *cocci_id/* arch/x86/kernel/apic/vector.c 860 */;
+	struct hlist_head *cocci_id/* arch/x86/kernel/apic/vector.c 858 */;
+	void __irq_entry cocci_id/* arch/x86/kernel/apic/vector.c 856 */;
+	unsigned long cocci_id/* arch/x86/kernel/apic/vector.c 804 */;
+	bool cocci_id/* arch/x86/kernel/apic/vector.c 770 */;
+	struct irq_desc *cocci_id/* arch/x86/kernel/apic/vector.c 726 */;
+	int cocci_id/* arch/x86/kernel/apic/vector.c 726 */;
+	struct fwnode_handle *cocci_id/* arch/x86/kernel/apic/vector.c 699 */;
+	int __init cocci_id/* arch/x86/kernel/apic/vector.c 697 */;
+	void __init cocci_id/* arch/x86/kernel/apic/vector.c 677 */;
+	const struct irq_domain_ops cocci_id/* arch/x86/kernel/apic/vector.c 630 */;
+	struct seq_file *cocci_id/* arch/x86/kernel/apic/vector.c 588 */;
+	struct irq_matrix *cocci_id/* arch/x86/kernel/apic/vector.c 45 */;
+	struct irq_chip cocci_id/* arch/x86/kernel/apic/vector.c 44 */;
+	struct irq_domain *cocci_id/* arch/x86/kernel/apic/vector.c 439 */;
+	cpumask_var_t cocci_id/* arch/x86/kernel/apic/vector.c 43 */;
+	const struct cpumask *cocci_id/* arch/x86/kernel/apic/vector.c 417 */;
+	struct irq_data *cocci_id/* arch/x86/kernel/apic/vector.c 415 */;
+	struct irq_alloc_info *cocci_id/* arch/x86/kernel/apic/vector.c 294 */;
+	struct apic_chip_data {
+		struct irq_cfg hw_irq_cfg;
+		unsigned int vector;
+		unsigned int prev_vector;
+		unsigned int cpu;
+		unsigned int prev_cpu;
+		unsigned int irq;
+		struct hlist_node clist;
+		unsigned int move_in_progress:1,is_managed:1,can_reserve:1,has_reserved:1;
+	} cocci_id/* arch/x86/kernel/apic/vector.c 26 */;
+	char *cocci_id/* arch/x86/kernel/apic/vector.c 1222 */;
+	u32 cocci_id/* arch/x86/kernel/apic/vector.c 1130 */;
+	u64 cocci_id/* arch/x86/kernel/apic/vector.c 1069 */;
+	void *cocci_id/* arch/x86/kernel/apic/vector.c 1066 */;
+	__typeof__(struct hlist_head) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

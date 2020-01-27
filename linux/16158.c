@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	unsigned int *cocci_id/* drivers/staging/comedi/drivers/pcl812.c 912 */;
+	struct pcl812_private *cocci_id/* drivers/staging/comedi/drivers/pcl812.c 897 */;
+	struct comedi_subdevice *cocci_id/* drivers/staging/comedi/drivers/pcl812.c 895 */;
+	struct comedi_device *cocci_id/* drivers/staging/comedi/drivers/pcl812.c 894 */;
+	int cocci_id/* drivers/staging/comedi/drivers/pcl812.c 894 */;
+	struct comedi_isadma_desc *cocci_id/* drivers/staging/comedi/drivers/pcl812.c 862 */;
+	irqreturn_t cocci_id/* drivers/staging/comedi/drivers/pcl812.c 836 */;
+	void *cocci_id/* drivers/staging/comedi/drivers/pcl812.c 836 */;
+	unsigned short *cocci_id/* drivers/staging/comedi/drivers/pcl812.c 800 */;
+	unsigned short cocci_id/* drivers/staging/comedi/drivers/pcl812.c 779 */;
+	bool cocci_id/* drivers/staging/comedi/drivers/pcl812.c 759 */;
+	unsigned int cocci_id/* drivers/staging/comedi/drivers/pcl812.c 709 */;
+	struct comedi_cmd *cocci_id/* drivers/staging/comedi/drivers/pcl812.c 708 */;
+	struct comedi_isadma *cocci_id/* drivers/staging/comedi/drivers/pcl812.c 707 */;
+	const struct pcl812_board *cocci_id/* drivers/staging/comedi/drivers/pcl812.c 634 */;
+	unsigned long cocci_id/* drivers/staging/comedi/drivers/pcl812.c 615 */;
+	struct comedi_insn *cocci_id/* drivers/staging/comedi/drivers/pcl812.c 614 */;
+	void cocci_id/* drivers/staging/comedi/drivers/pcl812.c 589 */;
+	char cocci_id/* drivers/staging/comedi/drivers/pcl812.c 555 */;
+	struct pcl812_private {
+		struct comedi_isadma *dma;
+		unsigned char range_correction;
+		unsigned int last_ai_chanspec;
+		unsigned char mode_reg_int;
+		unsigned int ai_poll_ptr;
+		unsigned int max_812_ai_mode0_rangewait;
+		unsigned int use_diff:1;
+		unsigned int use_mpc508:1;
+		unsigned int use_ext_trg:1;
+		unsigned int ai_dma:1;
+		unsigned int ai_eos:1;
+	} cocci_id/* drivers/staging/comedi/drivers/pcl812.c 511 */;
+	const struct pcl812_board cocci_id/* drivers/staging/comedi/drivers/pcl812.c 347 */[];
+	struct pcl812_board {
+		const char *name;
+		enum pcl812_boardtype board_type;
+		int n_aichan;
+		int n_aochan;
+		unsigned int ai_ns_min;
+		const struct comedi_lrange *rangelist_ai;
+		unsigned int irq_bits;
+		unsigned int has_dma:1;
+		unsigned int has_16bit_ai:1;
+		unsigned int has_mpc508_mux:1;
+		unsigned int has_dio:1;
+	} cocci_id/* drivers/staging/comedi/drivers/pcl812.c 333 */;
+	enum pcl812_boardtype{BOARD_PCL812PG=0, BOARD_PCL813B=1, BOARD_PCL812=2, BOARD_PCL813=3, BOARD_ISO813=5, BOARD_ACL8113=6, BOARD_ACL8112=7, BOARD_ACL8216=8, BOARD_A821=9,} cocci_id/* drivers/staging/comedi/drivers/pcl812.c 321 */;
+	const struct comedi_lrange cocci_id/* drivers/staging/comedi/drivers/pcl812.c 185 */;
+	struct pcl812_board cocci_id/* drivers/staging/comedi/drivers/pcl812.c 1330 */;
+	struct comedi_driver cocci_id/* drivers/staging/comedi/drivers/pcl812.c 1323 */;
+	struct comedi_devconfig *cocci_id/* drivers/staging/comedi/drivers/pcl812.c 1130 */;
+}

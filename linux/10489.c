@@ -1,0 +1,96 @@
+cocci_test_suite() {
+	struct radeon_bo_list *cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 972 */;
+	struct gpu_formats {
+		unsigned blockwidth;
+		unsigned blockheight;
+		unsigned blocksize;
+		unsigned valid_color;
+		enum radeon_family min_family;
+	} cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 96 */;
+	unsigned cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 944 */;
+	struct radeon_cs_packet *cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 942 */;
+	volatile uint32_t *cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 835 */;
+	uint32_t cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 834 */;
+	struct radeon_cs_packet cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 831 */;
+	struct radeon_crtc *cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 830 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 829 */;
+	uint32_t *cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 826 */;
+	uint32_t cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 796 */[2];
+	unsigned long cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 634 */;
+	struct r600_cs_track {
+		u32 group_size;
+		u32 nbanks;
+		u32 npipes;
+		u32 sq_config;
+		u32 log_nsamples;
+		u32 nsamples;
+		u32 cb_color_base_last[8];
+		struct radeon_bo *cb_color_bo[8];
+		u64 cb_color_bo_mc[8];
+		u64 cb_color_bo_offset[8];
+		struct radeon_bo *cb_color_frag_bo[8];
+		u64 cb_color_frag_offset[8];
+		struct radeon_bo *cb_color_tile_bo[8];
+		u64 cb_color_tile_offset[8];
+		u32 cb_color_mask[8];
+		u32 cb_color_info[8];
+		u32 cb_color_view[8];
+		u32 cb_color_size_idx[8];
+		u32 cb_target_mask;
+		u32 cb_shader_mask;
+		bool is_resolve;
+		u32 cb_color_size[8];
+		u32 vgt_strmout_en;
+		u32 vgt_strmout_buffer_en;
+		struct radeon_bo *vgt_strmout_bo[4];
+		u64 vgt_strmout_bo_mc[4];
+		u32 vgt_strmout_bo_offset[4];
+		u32 vgt_strmout_size[4];
+		u32 db_depth_control;
+		u32 db_depth_info;
+		u32 db_depth_size_idx;
+		u32 db_depth_view;
+		u32 db_depth_size;
+		u32 db_offset;
+		struct radeon_bo *db_bo;
+		u64 db_bo_mc;
+		bool sx_misc_kill_all_prims;
+		bool cb_dirty;
+		bool db_dirty;
+		bool streamout_dirty;
+		struct radeon_bo *htile_bo;
+		u64 htile_offset;
+		u32 htile_surface;
+	} cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 39 */;
+	void cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 36 */(struct drm_device *dev,
+							       u32 *npipes,
+							       u32 *nbanks,
+							       u32 *group_size);
+	volatile u32 *cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 357 */;
+	void cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 300 */;
+	u64 *cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 253 */;
+	u32 *cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 250 */;
+	struct array_mode_checker *cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 249 */;
+	struct array_mode_checker {
+		int array_mode;
+		u32 group_size;
+		u32 nbanks;
+		u32 npipes;
+		u32 nsamples;
+		u32 blocksize;
+	} cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 239 */;
+	struct radeon_cs_chunk *cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 2345 */;
+	struct radeon_bo_list **cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 2343 */;
+	enum radeon_family cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 189 */;
+	uint64_t cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 1648 */;
+	bool cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 1484 */;
+	struct array_mode_checker cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 1482 */;
+	struct r600_cs_track *cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 1476 */;
+	u64 cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 1472 */;
+	struct radeon_bo *cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 1470 */;
+	u32 cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 1469 */;
+	struct radeon_cs_parser *cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 1469 */;
+	int cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 1469 */;
+	unsigned *cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 1412 */;
+	const struct gpu_formats cocci_id/* drivers/gpu/drm/radeon/r600_cs.c 104 */[];
+}

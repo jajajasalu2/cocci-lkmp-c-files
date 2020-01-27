@@ -1,0 +1,157 @@
+cocci_test_suite() {
+	unsigned int *cocci_id/* drivers/md/md.c 9648 */;
+	struct detected_devices_node cocci_id/* drivers/md/md.c 9572 */;
+	struct detected_devices_node *cocci_id/* drivers/md/md.c 9559 */;
+	struct detected_devices_node {
+		struct list_head list;
+		dev_t dev;
+	} cocci_id/* drivers/md/md.c 9538 */;
+	int __init cocci_id/* drivers/md/md.c 9316 */;
+	mdp_super_t cocci_id/* drivers/md/md.c 9311 */;
+	struct notifier_block cocci_id/* drivers/md/md.c 9303 */;
+	void cocci_id/* drivers/md/md.c 93 */(struct mddev *mddev);
+	struct notifier_block *cocci_id/* drivers/md/md.c 9274 */;
+	int cocci_id/* drivers/md/md.c 91 */(struct mddev *mddev,
+					     struct md_rdev *this);
+	struct workqueue_struct *cocci_id/* drivers/md/md.c 89 */;
+	struct page *cocci_id/* drivers/md/md.c 870 */;
+	struct module *cocci_id/* drivers/md/md.c 85 */;
+	struct blk_plug cocci_id/* drivers/md/md.c 8416 */;
+	struct list_head *cocci_id/* drivers/md/md.c 8411 */;
+	sector_t cocci_id/* drivers/md/md.c 8409 */[SYNC_MARKS];
+	unsigned long cocci_id/* drivers/md/md.c 8407 */[SYNC_MARKS];
+	struct md_thread *cocci_id/* drivers/md/md.c 8401 */;
+	struct md_cluster_operations *cocci_id/* drivers/md/md.c 83 */;
+	const struct file_operations cocci_id/* drivers/md/md.c 8138 */;
+	__poll_t cocci_id/* drivers/md/md.c 8121 */;
+	poll_table *cocci_id/* drivers/md/md.c 8121 */;
+	struct inode *cocci_id/* drivers/md/md.c 8106 */;
+	struct kobj_type cocci_id/* drivers/md/md.c 81 */;
+	const struct seq_operations cocci_id/* drivers/md/md.c 8099 */;
+	loff_t *cocci_id/* drivers/md/md.c 7965 */;
+	struct seq_file *cocci_id/* drivers/md/md.c 7965 */;
+	loff_t cocci_id/* drivers/md/md.c 7942 */;
+	struct md_thread **cocci_id/* drivers/md/md.c 7752 */;
+	struct md_thread cocci_id/* drivers/md/md.c 7731 */;
+	void (*cocci_id/* drivers/md/md.c 7726 */)(struct md_thread *);
+	fmode_t cocci_id/* drivers/md/md.c 7573 */;
+	int __user *cocci_id/* drivers/md/md.c 7472 */;
+	struct attribute_group *cocci_id/* drivers/md/md.c 738 */;
+	struct hd_geometry *cocci_id/* drivers/md/md.c 7240 */;
+	struct attribute_group cocci_id/* drivers/md/md.c 721 */;
+	void cocci_id/* drivers/md/md.c 70 */(int part);
+	mdu_array_info_t *cocci_id/* drivers/md/md.c 6910 */;
+	struct md_rdev cocci_id/* drivers/md/md.c 6522 */;
+	dev_t cocci_id/* drivers/md/md.c 6498 */;
+	char cocci_id/* drivers/md/md.c 6496 */[BDEVNAME_SIZE];
+	mdu_disk_info_t *cocci_id/* drivers/md/md.c 6494 */;
+	mdu_disk_info_t cocci_id/* drivers/md/md.c 6456 */;
+	mdu_bitmap_file_t *cocci_id/* drivers/md/md.c 6424 */;
+	mdu_array_info_t cocci_id/* drivers/md/md.c 6364 */;
+	void __user *cocci_id/* drivers/md/md.c 6362 */;
+	mdu_version_t cocci_id/* drivers/md/md.c 6350 */;
+	struct file *cocci_id/* drivers/md/md.c 6214 */;
+	void cocci_id/* drivers/md/md.c 620 */(struct timer_list *t);
+	struct gendisk *cocci_id/* drivers/md/md.c 6147 */;
+	struct block_device *cocci_id/* drivers/md/md.c 6145 */;
+	struct md_personality *cocci_id/* drivers/md/md.c 6054 */;
+	struct mddev *cocci_id/* drivers/md/md.c 6052 */;
+	void cocci_id/* drivers/md/md.c 6052 */;
+	struct wb_info cocci_id/* drivers/md/md.c 5782 */;
+	struct bitmap *cocci_id/* drivers/md/md.c 5757 */;
+	ktime_t cocci_id/* drivers/md/md.c 561 */;
+	struct timer_list *cocci_id/* drivers/md/md.c 5578 */;
+	char cocci_id/* drivers/md/md.c 5559 */[DISK_NAME_LEN];
+	const struct kernel_param *cocci_id/* drivers/md/md.c 5549 */;
+	int *cocci_id/* drivers/md/md.c 5542 */;
+	struct percpu_ref *cocci_id/* drivers/md/md.c 5409 */;
+	const struct sysfs_ops cocci_id/* drivers/md/md.c 5388 */;
+	struct mddev cocci_id/* drivers/md/md.c 5326 */;
+	struct md_sysfs_entry *cocci_id/* drivers/md/md.c 5325 */;
+	struct attribute *cocci_id/* drivers/md/md.c 5323 */;
+	struct attribute *cocci_id/* drivers/md/md.c 5280 */[];
+	sector_t cocci_id/* drivers/md/md.c 5162 */;
+	unsigned long long cocci_id/* drivers/md/md.c 5154 */;
+	void cocci_id/* drivers/md/md.c 492 */(struct work_struct *ws);
+	int cocci_id/* drivers/md/md.c 4705 */;
+	const char *cocci_id/* drivers/md/md.c 4677 */;
+	size_t cocci_id/* drivers/md/md.c 4677 */;
+	unsigned long cocci_id/* drivers/md/md.c 4654 */;
+	char *cocci_id/* drivers/md/md.c 4651 */;
+	ssize_t cocci_id/* drivers/md/md.c 4650 */;
+	int cocci_id/* drivers/md/md.c 4531 */(struct mddev *mddev,
+					       sector_t num_sectors);
+	struct md_sysfs_entry cocci_id/* drivers/md/md.c 4414 */;
+	int cocci_id/* drivers/md/md.c 4278 */(struct mddev *mddev);
+	int cocci_id/* drivers/md/md.c 4277 */(struct mddev *mddev,
+					       struct block_device *bdev);
+	int cocci_id/* drivers/md/md.c 4276 */(struct mddev *mddev, int ro,
+					       struct block_device *bdev);
+	enum array_state cocci_id/* drivers/md/md.c 4240 */;
+	char **cocci_id/* drivers/md/md.c 4228 */;
+	char *cocci_id/* drivers/md/md.c 4224 */[];
+	enum array_state{clear, inactive, suspended, readonly, read_auto, clean, active, write_pending, active_idle, broken, bad_word,} cocci_id/* drivers/md/md.c 4222 */;
+	int cocci_id/* drivers/md/md.c 4050 */(struct mddev *mddev,
+					       int raid_disks);
+	void *cocci_id/* drivers/md/md.c 3795 */;
+	long cocci_id/* drivers/md/md.c 3794 */;
+	char cocci_id/* drivers/md/md.c 3790 */[16];
+	const int cocci_id/* drivers/md/md.c 374 */;
+	blk_qc_t cocci_id/* drivers/md/md.c 372 */;
+	struct request_queue *cocci_id/* drivers/md/md.c 372 */;
+	unsigned long *cocci_id/* drivers/md/md.c 3707 */;
+	struct rdev_sysfs_entry cocci_id/* drivers/md/md.c 3485 */;
+	struct rdev_sysfs_entry *cocci_id/* drivers/md/md.c 3485 */;
+	sector_t *cocci_id/* drivers/md/md.c 3228 */;
+	atomic_t cocci_id/* drivers/md/md.c 282 */;
+	struct rdev_sysfs_entry {
+		struct attribute attr;
+		ssize_t (*show)(struct md_rdev *, char *);
+		ssize_t (*store)(struct md_rdev *, const char *, size_t);
+	} cocci_id/* drivers/md/md.c 2795 */;
+	bool cocci_id/* drivers/md/md.c 2745 */;
+	struct md_rdev *cocci_id/* drivers/md/md.c 2741 */;
+	gfp_t cocci_id/* drivers/md/md.c 253 */;
+	struct bio *cocci_id/* drivers/md/md.c 253 */;
+	void cocci_id/* drivers/md/md.c 2422 */(dev_t dev);
+	const struct block_device_operations cocci_id/* drivers/md/md.c 239 */;
+	struct work_struct *cocci_id/* drivers/md/md.c 2364 */;
+	struct kobject *cocci_id/* drivers/md/md.c 2282 */;
+	struct blk_integrity *cocci_id/* drivers/md/md.c 2258 */;
+	struct ctl_table cocci_id/* drivers/md/md.c 219 */[];
+	struct super_type cocci_id/* drivers/md/md.c 2141 */[];
+	unsigned cocci_id/* drivers/md/md.c 1997 */;
+	u64 *cocci_id/* drivers/md/md.c 1994 */;
+	struct badblocks *cocci_id/* drivers/md/md.c 1992 */;
+	struct ctl_table_header *cocci_id/* drivers/md/md.c 199 */;
+	__u32 cocci_id/* drivers/md/md.c 1943 */;
+	__s32 cocci_id/* drivers/md/md.c 1768 */;
+	__u64 cocci_id/* drivers/md/md.c 1696 */;
+	__s16 cocci_id/* drivers/md/md.c 1673 */;
+	long long cocci_id/* drivers/md/md.c 1651 */;
+	__le64 *cocci_id/* drivers/md/md.c 1643 */;
+	s32 cocci_id/* drivers/md/md.c 1611 */;
+	__le16 *cocci_id/* drivers/md/md.c 1533 */;
+	__le32 *cocci_id/* drivers/md/md.c 1524 */;
+	u32 cocci_id/* drivers/md/md.c 1521 */;
+	__le32 cocci_id/* drivers/md/md.c 1518 */;
+	struct mdp_superblock_1 *cocci_id/* drivers/md/md.c 1518 */;
+	mdp_disk_t *cocci_id/* drivers/md/md.c 1415 */;
+	struct super_type {
+		char *name;
+		struct module *owner;
+		int (*load_super)(struct md_rdev *rdev,
+				  struct md_rdev *refdev, int minor_version);
+		int (*validate_super)(struct mddev *mddev,
+				      struct md_rdev *rdev);
+		void (*sync_super)(struct mddev *mddev, struct md_rdev *rdev);
+		unsigned long long (*rdev_size_change)(struct md_rdev *rdev,
+						       sector_t num_sectors);
+		int (*allow_new_offset)(struct md_rdev *rdev,
+					unsigned long long new_offset);
+	} cocci_id/* drivers/md/md.c 1066 */;
+	u32 *cocci_id/* drivers/md/md.c 1009 */;
+	u64 cocci_id/* drivers/md/md.c 1008 */;
+	mdp_super_t *cocci_id/* drivers/md/md.c 1006 */;
+	unsigned int cocci_id/* drivers/md/md.c 1006 */;
+}

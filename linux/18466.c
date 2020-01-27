@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct mcp_plat_data cocci_id/* arch/arm/mach-sa1100/collie.c 94 */;
+	struct ucb1x00_plat_data cocci_id/* arch/arm/mach-sa1100/collie.c 90 */;
+	struct scoop_pcmcia_config cocci_id/* arch/arm/mach-sa1100/collie.c 85 */;
+	struct scoop_pcmcia_dev cocci_id/* arch/arm/mach-sa1100/collie.c 76 */[];
+	struct scoop_config cocci_id/* arch/arm/mach-sa1100/collie.c 60 */;
+	struct map_desc cocci_id/* arch/arm/mach-sa1100/collie.c 403 */[]__initdata;
+	void __init cocci_id/* arch/arm/mach-sa1100/collie.c 356 */;
+	struct sa1100fb_mach_info cocci_id/* arch/arm/mach-sa1100/collie.c 338 */;
+	struct resource cocci_id/* arch/arm/mach-sa1100/collie.c 334 */[];
+	struct flash_platform_data cocci_id/* arch/arm/mach-sa1100/collie.c 325 */;
+	void cocci_id/* arch/arm/mach-sa1100/collie.c 320 */;
+	int cocci_id/* arch/arm/mach-sa1100/collie.c 302 */;
+	struct mtd_partition cocci_id/* arch/arm/mach-sa1100/collie.c 280 */[];
+	struct platform_device *cocci_id/* arch/arm/mach-sa1100/collie.c 273 */[]__initdata;
+	struct platform_device cocci_id/* arch/arm/mach-sa1100/collie.c 265 */;
+	struct gpio_keys_platform_data cocci_id/* arch/arm/mach-sa1100/collie.c 260 */;
+	struct gpio_keys_button cocci_id/* arch/arm/mach-sa1100/collie.c 241 */[];
+	struct locomo_platform_data cocci_id/* arch/arm/mach-sa1100/collie.c 227 */;
+	int __init cocci_id/* arch/arm/mach-sa1100/collie.c 213 */;
+	struct locomo_driver cocci_id/* arch/arm/mach-sa1100/collie.c 204 */;
+	struct locomo_dev *cocci_id/* arch/arm/mach-sa1100/collie.c 194 */;
+	struct sa1100_port_fns cocci_id/* arch/arm/mach-sa1100/collie.c 189 */;
+	u_int cocci_id/* arch/arm/mach-sa1100/collie.c 173 */;
+	struct uart_port *cocci_id/* arch/arm/mach-sa1100/collie.c 173 */;
+	struct gpio_charger_platform_data cocci_id/* arch/arm/mach-sa1100/collie.c 140 */;
+	char *cocci_id/* arch/arm/mach-sa1100/collie.c 134 */[];
+	struct irda_platform_data cocci_id/* arch/arm/mach-sa1100/collie.c 125 */;
+	struct device *cocci_id/* arch/arm/mach-sa1100/collie.c 119 */;
+	unsigned int cocci_id/* arch/arm/mach-sa1100/collie.c 119 */;
+	const struct machine_desc cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 397 */;
+}

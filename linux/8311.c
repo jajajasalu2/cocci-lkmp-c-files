@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	const unsigned int cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 94 */;
+	const struct enic_stat cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 88 */[];
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 638 */;
+	struct ethtool_ts_info *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 629 */;
+	const u8 cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 614 */;
+	const u8 *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 614 */;
+	const u32 *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 613 */;
+	u8 *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 599 */;
+	u32 *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 599 */;
+	const void *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 577 */;
+	const struct ethtool_tunable *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 558 */;
+	void *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 558 */;
+	u8 cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 479 */;
+	struct ethtool_rxnfc *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 477 */;
+	struct vnic_gen_stats cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 47 */;
+	__u16 cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 467 */;
+	__u32 cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 461 */;
+	u16 cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 445 */;
+	struct ethtool_rx_flow_spec *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 441 */;
+	struct enic_rfs_fltr_node *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 424 */;
+	struct hlist_node *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 423 */;
+	struct hlist_head *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 422 */;
+	struct vnic_rx_stats cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 42 */;
+	u64 cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 37 */;
+	struct vnic_tx_stats cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 37 */;
+	u32 cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 321 */;
+	struct ethtool_coalesce *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 319 */;
+	struct enic *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 318 */;
+	int cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 318 */;
+	struct enic_rx_coal *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 305 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 301 */;
+	struct enic_stat {
+		char name[ETH_GSTRING_LEN];
+		unsigned int index;
+	} cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 30 */;
+	unsigned int cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 270 */;
+	struct vnic_stats *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 269 */;
+	u64 *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 266 */;
+	struct ethtool_stats *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 266 */;
+	struct vnic_enet_config *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 184 */;
+	struct ethtool_ringparam *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 181 */;
+	struct vnic_devcmd_fw_info *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 138 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 135 */;
+	void cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 134 */;
+	struct ethtool_link_settings *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 111 */;
+	struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/cisco/enic/enic_ethtool.c 108 */;
+}

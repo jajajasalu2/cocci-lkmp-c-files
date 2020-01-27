@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	gfp_t cocci_id/* net/nfc/llcp_sock.c 950 */;
+	void cocci_id/* net/nfc/llcp_sock.c 931 */;
+	const struct proto_ops cocci_id/* net/nfc/llcp_sock.c 911 */;
+	struct nfc_llcp_ui_cb *cocci_id/* net/nfc/llcp_sock.c 849 */;
+	struct sk_buff *cocci_id/* net/nfc/llcp_sock.c 807 */;
+	size_t cocci_id/* net/nfc/llcp_sock.c 802 */;
+	struct msghdr *cocci_id/* net/nfc/llcp_sock.c 801 */;
+	struct sockaddr_nfc_llcp *cocci_id/* net/nfc/llcp_sock.c 652 */;
+	struct nfc_llcp_sock cocci_id/* net/nfc/llcp_sock.c 56 */;
+	poll_table *cocci_id/* net/nfc/llcp_sock.c 545 */;
+	struct file *cocci_id/* net/nfc/llcp_sock.c 544 */;
+	struct proto cocci_id/* net/nfc/llcp_sock.c 53 */;
+	struct nfc_llcp_sock *cocci_id/* net/nfc/llcp_sock.c 528 */;
+	__poll_t cocci_id/* net/nfc/llcp_sock.c 526 */;
+	struct sock *cocci_id/* net/nfc/llcp_sock.c 526 */;
+	long cocci_id/* net/nfc/llcp_sock.c 443 */;
+	bool cocci_id/* net/nfc/llcp_sock.c 439 */;
+	u32 __user *cocci_id/* net/nfc/llcp_sock.c 322 */;
+	u32 cocci_id/* net/nfc/llcp_sock.c 315 */;
+	u8 cocci_id/* net/nfc/llcp_sock.c 301 */;
+	u16 cocci_id/* net/nfc/llcp_sock.c 300 */;
+	int __user *cocci_id/* net/nfc/llcp_sock.c 294 */;
+	char __user *cocci_id/* net/nfc/llcp_sock.c 294 */;
+	unsigned long cocci_id/* net/nfc/llcp_sock.c 17 */;
+	unsigned int cocci_id/* net/nfc/llcp_sock.c 155 */;
+	struct sockaddr cocci_id/* net/nfc/llcp_sock.c 148 */;
+	struct sockaddr_nfc_llcp cocci_id/* net/nfc/llcp_sock.c 145 */;
+	struct nfc_dev *cocci_id/* net/nfc/llcp_sock.c 144 */;
+	struct nfc_llcp_local *cocci_id/* net/nfc/llcp_sock.c 143 */;
+	struct socket *cocci_id/* net/nfc/llcp_sock.c 138 */;
+	struct sockaddr *cocci_id/* net/nfc/llcp_sock.c 138 */;
+	int cocci_id/* net/nfc/llcp_sock.c 138 */;
+	int __init cocci_id/* net/nfc/llcp_sock.c 1034 */;
+	const struct nfc_protocol cocci_id/* net/nfc/llcp_sock.c 1027 */;
+	const struct nfc_protocol *cocci_id/* net/nfc/llcp_sock.c 1001 */;
+	struct net *cocci_id/* net/nfc/llcp_sock.c 1000 */;
+}

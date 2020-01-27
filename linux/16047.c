@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	unsigned char cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 951 */;
+	irqreturn_t cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 945 */;
+	unsigned short *cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 920 */;
+	void *cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 916 */;
+	struct comedi_subdevice *cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 905 */;
+	struct comedi_device *cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 904 */;
+	unsigned long cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 840 */;
+	struct pci224_private *cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 834 */;
+	unsigned int cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 626 */;
+	const struct pci224_board *cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 625 */;
+	struct comedi_cmd *cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 623 */;
+	unsigned short cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 512 */;
+	void cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 505 */;
+	unsigned int *cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 421 */;
+	struct comedi_insn *cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 420 */;
+	struct pci224_private {
+		unsigned long iobase1;
+		unsigned long state;
+		spinlock_t ao_spinlock;
+		unsigned short *ao_scan_vals;
+		unsigned char *ao_scan_order;
+		int intr_cpuid;
+		short intr_running;
+		unsigned short daccon;
+		unsigned short ao_enab;
+		unsigned char intsce;
+	} cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 370 */;
+	const struct pci224_board cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 351 */[];
+	struct pci224_board {
+		const char *name;
+		unsigned int ao_chans;
+		unsigned int ao_bits;
+		const struct comedi_lrange *ao_range;
+		const unsigned short *ao_hwrange;
+		const unsigned char *ao_range_check;
+	} cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 342 */;
+	enum pci224_model{pci224_model, pci234_model,} cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 340 */;
+	const unsigned char cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 332 */[4];
+	const unsigned short cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 324 */[4];
+	const unsigned char cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 299 */[10];
+	const unsigned short cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 283 */[10];
+	const struct comedi_lrange cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 266 */;
+	struct pci_driver cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 1133 */;
+	const struct pci_device_id cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 1126 */[];
+	const struct pci_device_id *cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 1120 */;
+	struct pci_dev *cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 1119 */;
+	int cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 1119 */;
+	struct pci224_board cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 1115 */;
+	struct comedi_driver cocci_id/* drivers/staging/comedi/drivers/amplc_pci224.c 1109 */;
+}

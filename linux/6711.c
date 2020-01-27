@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	uchar *cocci_id/* drivers/scsi/wd33c93.c 757 */;
+	struct scsi_cmnd *cocci_id/* drivers/scsi/wd33c93.c 721 */;
+	u8 cocci_id/* drivers/scsi/wd33c93.c 588 */;
+	void (*cocci_id/* drivers/scsi/wd33c93.c 367 */)(struct scsi_cmnd *);
+	uchar cocci_id/* drivers/scsi/wd33c93.c 352 */[2];
+	const struct sx_period *cocci_id/* drivers/scsi/wd33c93.c 327 */;
+	uchar cocci_id/* drivers/scsi/wd33c93.c 325 */;
+	const wd33c93_regs cocci_id/* drivers/scsi/wd33c93.c 293 */;
+	uint cocci_id/* drivers/scsi/wd33c93.c 214 */;
+	uchar cocci_id/* drivers/scsi/wd33c93.c 214 */[];
+	struct seq_file *cocci_id/* drivers/scsi/wd33c93.c 2122 */;
+	char cocci_id/* drivers/scsi/wd33c93.c 1934 */[32];
+	dma_stop_t cocci_id/* drivers/scsi/wd33c93.c 1928 */;
+	dma_setup_t cocci_id/* drivers/scsi/wd33c93.c 1928 */;
+	struct sx_period cocci_id/* drivers/scsi/wd33c93.c 1864 */[9];
+	unsigned int cocci_id/* drivers/scsi/wd33c93.c 1864 */;
+	void cocci_id/* drivers/scsi/wd33c93.c 1863 */;
+	int *cocci_id/* drivers/scsi/wd33c93.c 1806 */;
+	char *cocci_id/* drivers/scsi/wd33c93.c 1806 */;
+	int cocci_id/* drivers/scsi/wd33c93.c 1805 */;
+	unsigned long cocci_id/* drivers/scsi/wd33c93.c 176 */;
+	char cocci_id/* drivers/scsi/wd33c93.c 1757 */[MAX_SETUP_ARGS];
+	char cocci_id/* drivers/scsi/wd33c93.c 1756 */[SETUP_BUFFER_SIZE];
+	void cocci_id/* drivers/scsi/wd33c93.c 163 */(struct Scsi_Host *instance);
+	wd33c93_regs cocci_id/* drivers/scsi/wd33c93.c 1607 */;
+	char *cocci_id/* drivers/scsi/wd33c93.c 158 */[];
+	void cocci_id/* drivers/scsi/wd33c93.c 1509 */(unsigned long);
+	struct WD33C93_hostdata *cocci_id/* drivers/scsi/wd33c93.c 1501 */;
+	struct Scsi_Host *cocci_id/* drivers/scsi/wd33c93.c 1499 */;
+}

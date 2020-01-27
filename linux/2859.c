@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	void **cocci_id/* drivers/acpi/acpica/nsxfeval.c 977 */;
+	void (*cocci_id/* drivers/acpi/acpica/nsxfeval.c 927 */)(void *);
+	void cocci_id/* drivers/acpi/acpica/nsxfeval.c 858 */;
+	struct acpi_namespace_node *cocci_id/* drivers/acpi/acpica/nsxfeval.c 833 */;
+	acpi_object_handler cocci_id/* drivers/acpi/acpica/nsxfeval.c 831 */;
+	void *cocci_id/* drivers/acpi/acpica/nsxfeval.c 831 */;
+	acpi_handle cocci_id/* drivers/acpi/acpica/nsxfeval.c 830 */;
+	acpi_status cocci_id/* drivers/acpi/acpica/nsxfeval.c 829 */;
+	struct acpi_get_devices_info cocci_id/* drivers/acpi/acpica/nsxfeval.c 776 */;
+	acpi_walk_callback cocci_id/* drivers/acpi/acpica/nsxfeval.c 772 */;
+	const char *cocci_id/* drivers/acpi/acpica/nsxfeval.c 771 */;
+	int cocci_id/* drivers/acpi/acpica/nsxfeval.c 647 */;
+	struct acpi_pnp_device_id_list *cocci_id/* drivers/acpi/acpica/nsxfeval.c 644 */;
+	struct acpi_pnp_device_id *cocci_id/* drivers/acpi/acpica/nsxfeval.c 643 */;
+	struct acpi_get_devices_info *cocci_id/* drivers/acpi/acpica/nsxfeval.c 639 */;
+	char *cocci_id/* drivers/acpi/acpica/nsxfeval.c 53 */;
+	u8 cocci_id/* drivers/acpi/acpica/nsxfeval.c 51 */;
+	acpi_object_type cocci_id/* drivers/acpi/acpica/nsxfeval.c 48 */;
+	union acpi_operand_object *cocci_id/* drivers/acpi/acpica/nsxfeval.c 474 */;
+	u16 cocci_id/* drivers/acpi/acpica/nsxfeval.c 229 */;
+	void cocci_id/* drivers/acpi/acpica/nsxfeval.c 20 */(struct acpi_evaluate_info *info);
+	struct acpi_evaluate_info cocci_id/* drivers/acpi/acpica/nsxfeval.c 177 */;
+	u32 cocci_id/* drivers/acpi/acpica/nsxfeval.c 171 */;
+	acpi_size cocci_id/* drivers/acpi/acpica/nsxfeval.c 170 */;
+	struct acpi_evaluate_info *cocci_id/* drivers/acpi/acpica/nsxfeval.c 169 */;
+	struct acpi_buffer *cocci_id/* drivers/acpi/acpica/nsxfeval.c 166 */;
+	struct acpi_object_list *cocci_id/* drivers/acpi/acpica/nsxfeval.c 165 */;
+	acpi_string cocci_id/* drivers/acpi/acpica/nsxfeval.c 164 */;
+	union acpi_object *cocci_id/* drivers/acpi/acpica/nsxfeval.c 108 */;
+}

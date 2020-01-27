@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	u32 cocci_id/* sound/soc/fsl/imx-audmux.c 63 */;
+	char *cocci_id/* sound/soc/fsl/imx-audmux.c 61 */;
+	loff_t *cocci_id/* sound/soc/fsl/imx-audmux.c 58 */;
+	size_t cocci_id/* sound/soc/fsl/imx-audmux.c 58 */;
+	struct file *cocci_id/* sound/soc/fsl/imx-audmux.c 57 */;
+	char __user *cocci_id/* sound/soc/fsl/imx-audmux.c 57 */;
+	ssize_t cocci_id/* sound/soc/fsl/imx-audmux.c 57 */;
+	void __exit cocci_id/* sound/soc/fsl/imx-audmux.c 403 */;
+	int __init cocci_id/* sound/soc/fsl/imx-audmux.c 397 */;
+	struct platform_driver cocci_id/* sound/soc/fsl/imx-audmux.c 386 */;
+	const struct dev_pm_ops cocci_id/* sound/soc/fsl/imx-audmux.c 382 */;
+	const char *cocci_id/* sound/soc/fsl/imx-audmux.c 37 */;
+	int cocci_id/* sound/soc/fsl/imx-audmux.c 37 */;
+	struct device *cocci_id/* sound/soc/fsl/imx-audmux.c 367 */;
+	struct dentry *cocci_id/* sound/soc/fsl/imx-audmux.c 33 */;
+	const struct of_device_id *cocci_id/* sound/soc/fsl/imx-audmux.c 303 */;
+	u32 *cocci_id/* sound/soc/fsl/imx-audmux.c 26 */;
+	void __iomem *cocci_id/* sound/soc/fsl/imx-audmux.c 25 */;
+	unsigned int cocci_id/* sound/soc/fsl/imx-audmux.c 247 */;
+	struct device_node *cocci_id/* sound/soc/fsl/imx-audmux.c 242 */;
+	struct platform_device *cocci_id/* sound/soc/fsl/imx-audmux.c 241 */;
+	struct clk *cocci_id/* sound/soc/fsl/imx-audmux.c 24 */;
+	const uint8_t cocci_id/* sound/soc/fsl/imx-audmux.c 193 */[];
+	const struct of_device_id cocci_id/* sound/soc/fsl/imx-audmux.c 186 */[];
+	const struct platform_device_id cocci_id/* sound/soc/fsl/imx-audmux.c 173 */[];
+	enum imx_audmux_type{IMX21_AUDMUX, IMX31_AUDMUX,} cocci_id/* sound/soc/fsl/imx-audmux.c 168 */;
+	void *cocci_id/* sound/soc/fsl/imx-audmux.c 150 */;
+	char cocci_id/* sound/soc/fsl/imx-audmux.c 143 */[20];
+	uintptr_t cocci_id/* sound/soc/fsl/imx-audmux.c 142 */;
+	void cocci_id/* sound/soc/fsl/imx-audmux.c 140 */;
+	const struct file_operations cocci_id/* sound/soc/fsl/imx-audmux.c 134 */;
+}

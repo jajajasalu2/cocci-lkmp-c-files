@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* net/phonet/pep.c 918 */;
+	struct sockaddr *cocci_id/* net/phonet/pep.c 883 */;
+	struct pnpipehdr cocci_id/* net/phonet/pep.c 80 */;
+	bool cocci_id/* net/phonet/pep.c 763 */;
+	gfp_t cocci_id/* net/phonet/pep.c 70 */;
+	const void *cocci_id/* net/phonet/pep.c 69 */;
+	u16 cocci_id/* net/phonet/pep.c 630 */;
+	const struct sockaddr_pn *cocci_id/* net/phonet/pep.c 626 */;
+	const struct hlist_head *cocci_id/* net/phonet/pep.c 625 */;
+	const u8 *cocci_id/* net/phonet/pep.c 499 */;
+	struct {
+		u8 sb_type;
+		u8 sb_len;
+	} *cocci_id/* net/phonet/pep.c 49 */;
+	u8 cocci_id/* net/phonet/pep.c 486 */;
+	struct pnpipehdr *cocci_id/* net/phonet/pep.c 485 */;
+	struct pep_sock *cocci_id/* net/phonet/pep.c 484 */;
+	void *cocci_id/* net/phonet/pep.c 46 */;
+	u8 *cocci_id/* net/phonet/pep.c 45 */;
+	unsigned char *cocci_id/* net/phonet/pep.c 45 */;
+	struct sk_buff_head *cocci_id/* net/phonet/pep.c 337 */;
+	u8 cocci_id/* net/phonet/pep.c 197 */[4];
+	struct sockaddr_pn cocci_id/* net/phonet/pep.c 196 */;
+	const struct pnpipehdr *cocci_id/* net/phonet/pep.c 193 */;
+	const u8 cocci_id/* net/phonet/pep.c 183 */[4];
+	const u8 cocci_id/* net/phonet/pep.c 161 */[20];
+	struct sock *cocci_id/* net/phonet/pep.c 159 */;
+	struct sk_buff *cocci_id/* net/phonet/pep.c 159 */;
+	int cocci_id/* net/phonet/pep.c 159 */;
+	void __exit cocci_id/* net/phonet/pep.c 1352 */;
+	int __init cocci_id/* net/phonet/pep.c 1347 */;
+	void cocci_id/* net/phonet/pep.c 1347 */;
+	const struct phonet_protocol cocci_id/* net/phonet/pep.c 1341 */;
+	struct pep_sock cocci_id/* net/phonet/pep.c 1336 */;
+	struct proto cocci_id/* net/phonet/pep.c 1322 */;
+	int *cocci_id/* net/phonet/pep.c 1238 */;
+	struct msghdr *cocci_id/* net/phonet/pep.c 1237 */;
+	size_t cocci_id/* net/phonet/pep.c 1237 */;
+	long cocci_id/* net/phonet/pep.c 1115 */;
+	unsigned int cocci_id/* net/phonet/pep.c 1073 */;
+	int __user *cocci_id/* net/phonet/pep.c 1040 */;
+	char __user *cocci_id/* net/phonet/pep.c 1040 */;
+}

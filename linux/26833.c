@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	unsigned cocci_id/* fs/coredump.c 862 */;
+	struct coredump_params *cocci_id/* fs/coredump.c 860 */;
+	char cocci_id/* fs/coredump.c 841 */[PAGE_SIZE];
+	size_t cocci_id/* fs/coredump.c 839 */;
+	ssize_t cocci_id/* fs/coredump.c 821 */;
+	loff_t cocci_id/* fs/coredump.c 820 */;
+	const void *cocci_id/* fs/coredump.c 817 */;
+	struct path cocci_id/* fs/coredump.c 741 */;
+	struct inode *cocci_id/* fs/coredump.c 695 */;
+	struct subprocess_info *cocci_id/* fs/coredump.c 629 */;
+	char **cocci_id/* fs/coredump.c 628 */;
+	struct core_name {
+		char *corename;
+		int used,size;
+	} cocci_id/* fs/coredump.c 60 */;
+	struct coredump_params cocci_id/* fs/coredump.c 582 */;
+	atomic_t cocci_id/* fs/coredump.c 581 */;
+	struct files_struct *cocci_id/* fs/coredump.c 577 */;
+	size_t *cocci_id/* fs/coredump.c 575 */;
+	struct cred *cocci_id/* fs/coredump.c 572 */;
+	const struct cred *cocci_id/* fs/coredump.c 571 */;
+	struct linux_binfmt *cocci_id/* fs/coredump.c 570 */;
+	char cocci_id/* fs/coredump.c 57 */[CORENAME_MAX_SIZE];
+	struct core_name cocci_id/* fs/coredump.c 568 */;
+	struct core_state cocci_id/* fs/coredump.c 567 */;
+	const kernel_siginfo_t *cocci_id/* fs/coredump.c 565 */;
+	struct rlimit cocci_id/* fs/coredump.c 560 */;
+	unsigned int cocci_id/* fs/coredump.c 56 */;
+	struct file *cocci_id/* fs/coredump.c 549 */[2];
+	struct pipe_inode_info *cocci_id/* fs/coredump.c 515 */;
+	struct task_struct *cocci_id/* fs/coredump.c 477 */;
+	struct core_thread *cocci_id/* fs/coredump.c 476 */;
+	bool cocci_id/* fs/coredump.c 474 */;
+	struct mm_struct *cocci_id/* fs/coredump.c 474 */;
+	void cocci_id/* fs/coredump.c 474 */;
+	struct core_state *cocci_id/* fs/coredump.c 436 */;
+	unsigned long cocci_id/* fs/coredump.c 364 */;
+	time64_t cocci_id/* fs/coredump.c 289 */;
+	size_t **cocci_id/* fs/coredump.c 192 */;
+	int *cocci_id/* fs/coredump.c 192 */;
+	char *cocci_id/* fs/coredump.c 159 */;
+	struct file *cocci_id/* fs/coredump.c 158 */;
+	va_list cocci_id/* fs/coredump.c 122 */;
+	const char *cocci_id/* fs/coredump.c 119 */;
+	struct core_name *cocci_id/* fs/coredump.c 119 */;
+	int cocci_id/* fs/coredump.c 119 */;
+}

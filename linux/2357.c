@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	char *cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 92 */;
+	char cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 73 */[100];
+	char __user *cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 68 */;
+	void __exit cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 371 */;
+	void __init cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 362 */;
+	struct device *cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 341 */;
+	void cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 339 */;
+	struct rproc_debug_trace *cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 320 */;
+	const char *cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 319 */;
+	struct dentry *cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 319 */;
+	const struct file_operations cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 307 */;
+	struct inode *cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 302 */;
+	struct file *cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 302 */;
+	int cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 302 */;
+	struct rproc_mem_entry *cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 288 */;
+	struct rproc *cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 287 */;
+	struct seq_file *cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 285 */;
+	void *cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 285 */;
+	struct fw_rsc_hdr *cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 206 */;
+	struct fw_rsc_vdev *cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 196 */;
+	struct fw_rsc_trace *cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 195 */;
+	struct fw_rsc_devmem *cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 194 */;
+	struct fw_rsc_carveout *cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 193 */;
+	struct resource_table *cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 192 */;
+	const char *const cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 190 */[];
+	unsigned int cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 169 */;
+	loff_t *cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 166 */;
+	size_t cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 166 */;
+	const char __user *cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 165 */;
+	ssize_t cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 164 */;
+	char cocci_id/* drivers/remoteproc/remoteproc_debugfs.c 126 */[10];
+}

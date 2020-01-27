@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	struct i2c_board_info *cocci_id/* drivers/media/dvb-core/dvbdev.c 972 */;
+	void *cocci_id/* drivers/media/dvb-core/dvbdev.c 969 */;
+	unsigned char cocci_id/* drivers/media/dvb-core/dvbdev.c 968 */;
+	struct i2c_adapter *cocci_id/* drivers/media/dvb-core/dvbdev.c 967 */;
+	struct i2c_client *cocci_id/* drivers/media/dvb-core/dvbdev.c 965 */;
+	struct inode *cocci_id/* drivers/media/dvb-core/dvbdev.c 95 */;
+	struct file *cocci_id/* drivers/media/dvb-core/dvbdev.c 95 */;
+	void __user *cocci_id/* drivers/media/dvb-core/dvbdev.c 937 */;
+	struct dvb_device *cocci_id/* drivers/media/dvb-core/dvbdev.c 92 */[MAX_DVB_MINORS];
+	char cocci_id/* drivers/media/dvb-core/dvbdev.c 909 */[128];
+	int (*cocci_id/* drivers/media/dvb-core/dvbdev.c 906 */)(struct file *file,
+								 unsigned int cmd,
+								 void *arg);
+	struct class *cocci_id/* drivers/media/dvb-core/dvbdev.c 90 */;
+	struct dvb_adapter cocci_id/* drivers/media/dvb-core/dvbdev.c 864 */;
+	short *cocci_id/* drivers/media/dvb-core/dvbdev.c 840 */;
+	struct module *cocci_id/* drivers/media/dvb-core/dvbdev.c 839 */;
+	struct list_head *cocci_id/* drivers/media/dvb-core/dvbdev.c 814 */;
+	const u8 cocci_id/* drivers/media/dvb-core/dvbdev.c 72 */[];
+	const char *cocci_id/* drivers/media/dvb-core/dvbdev.c 625 */;
+	unsigned cocci_id/* drivers/media/dvb-core/dvbdev.c 621 */;
+	bool cocci_id/* drivers/media/dvb-core/dvbdev.c 614 */;
+	struct media_link *cocci_id/* drivers/media/dvb-core/dvbdev.c 597 */;
+	struct media_entity *cocci_id/* drivers/media/dvb-core/dvbdev.c 596 */;
+	struct media_device *cocci_id/* drivers/media/dvb-core/dvbdev.c 595 */;
+	char *cocci_id/* drivers/media/dvb-core/dvbdev.c 593 */;
+	struct media_interface *cocci_id/* drivers/media/dvb-core/dvbdev.c 592 */;
+	struct dvb_adapter *cocci_id/* drivers/media/dvb-core/dvbdev.c 591 */;
+	int cocci_id/* drivers/media/dvb-core/dvbdev.c 591 */;
+	void cocci_id/* drivers/media/dvb-core/dvbdev.c 570 */;
+	const char *const cocci_id/* drivers/media/dvb-core/dvbdev.c 54 */[];
+	struct dvb_device cocci_id/* drivers/media/dvb-core/dvbdev.c 489 */;
+	struct file_operations *cocci_id/* drivers/media/dvb-core/dvbdev.c 460 */;
+	enum dvb_device_type cocci_id/* drivers/media/dvb-core/dvbdev.c 457 */;
+	const struct dvb_device *cocci_id/* drivers/media/dvb-core/dvbdev.c 456 */;
+	struct dvb_device **cocci_id/* drivers/media/dvb-core/dvbdev.c 455 */;
+	u32 cocci_id/* drivers/media/dvb-core/dvbdev.c 397 */;
+	struct dvb_device *cocci_id/* drivers/media/dvb-core/dvbdev.c 295 */;
+	struct media_pad *cocci_id/* drivers/media/dvb-core/dvbdev.c 270 */;
+	unsigned long cocci_id/* drivers/media/dvb-core/dvbdev.c 180 */;
+	unsigned int cocci_id/* drivers/media/dvb-core/dvbdev.c 180 */;
+	long cocci_id/* drivers/media/dvb-core/dvbdev.c 179 */;
+	struct cdev cocci_id/* drivers/media/dvb-core/dvbdev.c 132 */;
+	const struct file_operations cocci_id/* drivers/media/dvb-core/dvbdev.c 125 */;
+	void __exit cocci_id/* drivers/media/dvb-core/dvbdev.c 1064 */;
+	const struct file_operations *cocci_id/* drivers/media/dvb-core/dvbdev.c 105 */;
+	dev_t cocci_id/* drivers/media/dvb-core/dvbdev.c 1035 */;
+	int __init cocci_id/* drivers/media/dvb-core/dvbdev.c 1032 */;
+	umode_t *cocci_id/* drivers/media/dvb-core/dvbdev.c 1023 */;
+	struct device *cocci_id/* drivers/media/dvb-core/dvbdev.c 1023 */;
+	struct kobj_uevent_env *cocci_id/* drivers/media/dvb-core/dvbdev.c 1013 */;
+}

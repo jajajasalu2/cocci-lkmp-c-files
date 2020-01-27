@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	char cocci_id/* fs/cifs/dir.c 99 */;
+	int cocci_id/* fs/cifs/dir.c 95 */;
+	const struct dentry_operations cocci_id/* fs/cifs/dir.c 873 */;
+	bool cocci_id/* fs/cifs/dir.c 85 */;
+	struct cifs_tcon *cocci_id/* fs/cifs/dir.c 84 */;
+	wchar_t cocci_id/* fs/cifs/dir.c 830 */;
+	struct cifs_sb_info *cocci_id/* fs/cifs/dir.c 83 */;
+	struct nls_table *cocci_id/* fs/cifs/dir.c 829 */;
+	const struct qstr *cocci_id/* fs/cifs/dir.c 827 */;
+	const char *cocci_id/* fs/cifs/dir.c 827 */;
+	const struct dentry *cocci_id/* fs/cifs/dir.c 826 */;
+	struct dentry *cocci_id/* fs/cifs/dir.c 81 */;
+	unsigned long cocci_id/* fs/cifs/dir.c 809 */;
+	struct qstr *cocci_id/* fs/cifs/dir.c 806 */;
+	char *cocci_id/* fs/cifs/dir.c 80 */;
+	dev_t cocci_id/* fs/cifs/dir.c 617 */;
+	struct smb_vol *cocci_id/* fs/cifs/dir.c 49 */;
+	struct cifsFileInfo *cocci_id/* fs/cifs/dir.c 475 */;
+	__u32 cocci_id/* fs/cifs/dir.c 474 */;
+	struct cifs_pending_open cocci_id/* fs/cifs/dir.c 473 */;
+	struct cifs_fid cocci_id/* fs/cifs/dir.c 472 */;
+	struct TCP_Server_Info *cocci_id/* fs/cifs/dir.c 471 */;
+	struct tcon_link *cocci_id/* fs/cifs/dir.c 469 */;
+	unsigned int cocci_id/* fs/cifs/dir.c 468 */;
+	umode_t cocci_id/* fs/cifs/dir.c 465 */;
+	struct file *cocci_id/* fs/cifs/dir.c 465 */;
+	struct inode *cocci_id/* fs/cifs/dir.c 464 */;
+	struct cifs_unix_set_info_args cocci_id/* fs/cifs/dir.c 381 */;
+	void cocci_id/* fs/cifs/dir.c 37 */;
+	FILE_ALL_INFO cocci_id/* fs/cifs/dir.c 345 */;
+	struct cifs_open_parms cocci_id/* fs/cifs/dir.c 240 */;
+	FILE_ALL_INFO *cocci_id/* fs/cifs/dir.c 236 */;
+	__u32 *cocci_id/* fs/cifs/dir.c 228 */;
+	struct cifs_fid *cocci_id/* fs/cifs/dir.c 228 */;
+	unsigned cocci_id/* fs/cifs/dir.c 102 */;
+}

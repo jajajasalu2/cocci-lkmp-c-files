@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	struct posix_acl *cocci_id/* fs/ext4/ialloc.c 782 */;
+	struct ext4_group_info *cocci_id/* fs/ext4/ialloc.c 756 */;
+	struct ext4_sb_info *cocci_id/* fs/ext4/ialloc.c 751 */;
+	struct ext4_inode_info *cocci_id/* fs/ext4/ialloc.c 750 */;
+	struct ext4_group_desc *cocci_id/* fs/ext4/ialloc.c 749 */;
+	unsigned long cocci_id/* fs/ext4/ialloc.c 747 */;
+	ext4_group_t cocci_id/* fs/ext4/ialloc.c 746 */;
+	struct buffer_head *cocci_id/* fs/ext4/ialloc.c 744 */;
+	struct super_block *cocci_id/* fs/ext4/ialloc.c 743 */;
+	unsigned int cocci_id/* fs/ext4/ialloc.c 740 */;
+	int cocci_id/* fs/ext4/ialloc.c 740 */;
+	__u32 cocci_id/* fs/ext4/ialloc.c 739 */;
+	uid_t *cocci_id/* fs/ext4/ialloc.c 739 */;
+	umode_t cocci_id/* fs/ext4/ialloc.c 738 */;
+	const struct qstr *cocci_id/* fs/ext4/ialloc.c 738 */;
+	handle_t *cocci_id/* fs/ext4/ialloc.c 737 */;
+	struct inode *cocci_id/* fs/ext4/ialloc.c 737 */;
+	unsigned long *cocci_id/* fs/ext4/ialloc.c 707 */;
+	void cocci_id/* fs/ext4/ialloc.c 69 */;
+	u32 cocci_id/* fs/ext4/ialloc.c 671 */;
+	struct ext4_inode *cocci_id/* fs/ext4/ialloc.c 666 */;
+	char *cocci_id/* fs/ext4/ialloc.c 55 */;
+	unsigned cocci_id/* fs/ext4/ialloc.c 457 */;
+	struct dx_hash_info cocci_id/* fs/ext4/ialloc.c 427 */;
+	struct orlov_stats cocci_id/* fs/ext4/ialloc.c 425 */;
+	ext4_grpblk_t cocci_id/* fs/ext4/ialloc.c 422 */;
+	ext4_group_t *cocci_id/* fs/ext4/ialloc.c 411 */;
+	struct flex_groups *cocci_id/* fs/ext4/ialloc.c 368 */;
+	struct orlov_stats *cocci_id/* fs/ext4/ialloc.c 365 */;
+	struct orlov_stats {
+		__u64 free_clusters;
+		__u32 free_inodes;
+		__u32 used_dirs;
+	} cocci_id/* fs/ext4/ialloc.c 353 */;
+	ext4_fsblk_t cocci_id/* fs/ext4/ialloc.c 1349 */;
+	struct ext4_super_block *cocci_id/* fs/ext4/ialloc.c 1274 */;
+	unsigned long long cocci_id/* fs/ext4/ialloc.c 1250 */;
+	__u8 *cocci_id/* fs/ext4/ialloc.c 1121 */;
+	__le32 cocci_id/* fs/ext4/ialloc.c 1119 */;
+}

@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 73 */;
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 615 */;
+	u64 cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 595 */;
+	u32 *cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 595 */;
+	char *cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 579 */;
+	u64 *cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 575 */;
+	struct ethtool_stats *cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 575 */;
+	enum ethtool_phys_id_state cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 542 */;
+	struct ixgb_desc_ring cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 488 */;
+	struct ixgb_desc_ring *cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 472 */;
+	struct ethtool_ringparam *cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 469 */;
+	struct ixgb_adapter *cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 457 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 455 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 454 */;
+	void cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 453 */;
+	u16 cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 404 */;
+	u16 *cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 401 */;
+	__le16 cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 379 */;
+	__le16 *cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 354 */;
+	struct ixgb_hw *cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 353 */;
+	u8 *cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 350 */;
+	struct ethtool_eeprom *cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 350 */;
+	int cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 348 */;
+	struct ixgb_stats cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 28 */[];
+	struct net_device cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 25 */;
+	struct ixgb_adapter cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 22 */;
+	u8 cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 209 */;
+	struct ethtool_regs *cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 203 */;
+	void *cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 203 */;
+	u32 cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 179 */;
+	struct ixgb_stats {
+		char stat_string[ETH_GSTRING_LEN];
+		int type;
+		int sizeof_stat;
+		int stat_offset;
+	} cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 14 */;
+	struct ethtool_pauseparam *cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 133 */;
+	enum{NETDEV_STATS, IXGB_STATS,} cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 12 */;
+	const struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/intel/ixgb/ixgb_ethtool.c 111 */;
+}

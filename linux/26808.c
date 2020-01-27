@@ -1,0 +1,61 @@
+cocci_test_suite() {
+	Indirect *cocci_id/* fs/ufs/inode.c 89 */;
+	__fs32 *cocci_id/* fs/ufs/inode.c 88 */;
+	struct buffer_head *cocci_id/* fs/ufs/inode.c 88 */;
+	struct to_free *cocci_id/* fs/ufs/inode.c 876 */;
+	struct to_free {
+		struct inode *inode;
+		u64 to;
+		unsigned count;
+	} cocci_id/* fs/ufs/inode.c 870 */;
+	struct ufs_inode_info *cocci_id/* fs/ufs/inode.c 87 */;
+	struct writeback_control *cocci_id/* fs/ufs/inode.c 836 */;
+	struct ufs2_inode cocci_id/* fs/ufs/inode.c 793 */;
+	struct {
+		void *p;
+		union {
+			__fs32 key32;
+			__fs64 key64;
+		};
+		struct buffer_head *bh;
+	} cocci_id/* fs/ufs/inode.c 78 */;
+	struct ufs_inode cocci_id/* fs/ufs/inode.c 754 */;
+	unsigned long cocci_id/* fs/ufs/inode.c 652 */;
+	struct ufs2_inode *cocci_id/* fs/ufs/inode.c 605 */;
+	signed cocci_id/* fs/ufs/inode.c 581 */;
+	umode_t cocci_id/* fs/ufs/inode.c 564 */;
+	struct ufs_inode *cocci_id/* fs/ufs/inode.c 560 */;
+	char *cocci_id/* fs/ufs/inode.c 548 */;
+	const struct address_space_operations cocci_id/* fs/ufs/inode.c 528 */;
+	const long cocci_id/* fs/ufs/inode.c 51 */;
+	struct page **cocci_id/* fs/ufs/inode.c 499 */;
+	void **cocci_id/* fs/ufs/inode.c 499 */;
+	void cocci_id/* fs/ufs/inode.c 485 */(struct inode *);
+	struct file *cocci_id/* fs/ufs/inode.c 475 */;
+	unsigned cocci_id/* fs/ufs/inode.c 46 */[4];
+	int *cocci_id/* fs/ufs/inode.c 222 */;
+	bool cocci_id/* fs/ufs/inode.c 220 */;
+	unsigned long long cocci_id/* fs/ufs/inode.c 138 */;
+	unsigned *cocci_id/* fs/ufs/inode.c 132 */;
+	Indirect cocci_id/* fs/ufs/inode.c 131 */[4];
+	const struct inode_operations cocci_id/* fs/ufs/inode.c 1235 */;
+	unsigned int cocci_id/* fs/ufs/inode.c 1217 */;
+	struct iattr *cocci_id/* fs/ufs/inode.c 1214 */;
+	struct dentry *cocci_id/* fs/ufs/inode.c 1214 */;
+	struct ufs_buffer_head *cocci_id/* fs/ufs/inode.c 1126 */[3];
+	struct page *cocci_id/* fs/ufs/inode.c 1056 */;
+	sector_t cocci_id/* fs/ufs/inode.c 1055 */;
+	struct address_space *cocci_id/* fs/ufs/inode.c 1052 */;
+	loff_t cocci_id/* fs/ufs/inode.c 1048 */;
+	__fs64 *cocci_id/* fs/ufs/inode.c 104 */;
+	struct to_free cocci_id/* fs/ufs/inode.c 1028 */;
+	u64 cocci_id/* fs/ufs/inode.c 1018 */;
+	void *cocci_id/* fs/ufs/inode.c 1017 */;
+	struct ufs_sb_private_info *cocci_id/* fs/ufs/inode.c 1012 */;
+	struct super_block *cocci_id/* fs/ufs/inode.c 1011 */;
+	struct ufs_buffer_head *cocci_id/* fs/ufs/inode.c 1009 */;
+	struct inode *cocci_id/* fs/ufs/inode.c 1009 */;
+	unsigned cocci_id/* fs/ufs/inode.c 1009 */;
+	int cocci_id/* fs/ufs/inode.c 1009 */;
+	void cocci_id/* fs/ufs/inode.c 1009 */;
+}

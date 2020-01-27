@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	bool cocci_id/* drivers/macintosh/windfarm_pm112.c 98 */;
+	struct wf_pid_state cocci_id/* drivers/macintosh/windfarm_pm112.c 95 */;
+	s64 cocci_id/* drivers/macintosh/windfarm_pm112.c 92 */;
+	u32 cocci_id/* drivers/macintosh/windfarm_pm112.c 90 */[CPU_TEMP_HIST_SIZE];
+	struct wf_cpu_pid_state cocci_id/* drivers/macintosh/windfarm_pm112.c 89 */[NR_CORES];
+	struct wf_control *cocci_id/* drivers/macintosh/windfarm_pm112.c 84 */;
+	int cocci_id/* drivers/macintosh/windfarm_pm112.c 75 */[NR_CPU_FANS];
+	void __exit cocci_id/* drivers/macintosh/windfarm_pm112.c 701 */;
+	struct device_node *cocci_id/* drivers/macintosh/windfarm_pm112.c 675 */;
+	int __init cocci_id/* drivers/macintosh/windfarm_pm112.c 673 */;
+	struct platform_driver cocci_id/* drivers/macintosh/windfarm_pm112.c 665 */;
+	struct platform_device *cocci_id/* drivers/macintosh/windfarm_pm112.c 652 */;
+	struct notifier_block cocci_id/* drivers/macintosh/windfarm_pm112.c 648 */;
+	void *cocci_id/* drivers/macintosh/windfarm_pm112.c 632 */;
+	unsigned long cocci_id/* drivers/macintosh/windfarm_pm112.c 632 */;
+	struct notifier_block *cocci_id/* drivers/macintosh/windfarm_pm112.c 631 */;
+	unsigned int cocci_id/* drivers/macintosh/windfarm_pm112.c 598 */;
+	char *cocci_id/* drivers/macintosh/windfarm_pm112.c 56 */[NR_CPU_FANS];
+	struct wf_control *cocci_id/* drivers/macintosh/windfarm_pm112.c 55 */[NR_CPU_FANS];
+	struct wf_sensor *cocci_id/* drivers/macintosh/windfarm_pm112.c 50 */[NR_CORES];
+	int cocci_id/* drivers/macintosh/windfarm_pm112.c 353 */;
+	s32 cocci_id/* drivers/macintosh/windfarm_pm112.c 352 */;
+	void cocci_id/* drivers/macintosh/windfarm_pm112.c 350 */;
+	struct wf_pid_param cocci_id/* drivers/macintosh/windfarm_pm112.c 340 */;
+	struct wf_cpu_pid_state *cocci_id/* drivers/macintosh/windfarm_pm112.c 269 */;
+	struct wf_sensor *cocci_id/* drivers/macintosh/windfarm_pm112.c 267 */;
+	struct smu_sdbp_fvt *cocci_id/* drivers/macintosh/windfarm_pm112.c 146 */;
+	struct wf_cpu_pid_param cocci_id/* drivers/macintosh/windfarm_pm112.c 130 */;
+	struct smu_sdbp_cpupiddata *cocci_id/* drivers/macintosh/windfarm_pm112.c 129 */;
+	struct smu_sdbp_header *cocci_id/* drivers/macintosh/windfarm_pm112.c 128 */;
+}

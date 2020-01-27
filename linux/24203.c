@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	bool cocci_id/* net/ipv6/inet6_hashtables.c 95 */;
+	const unsigned short cocci_id/* net/ipv6/inet6_hashtables.c 93 */;
+	unsigned int cocci_id/* net/ipv6/inet6_hashtables.c 63 */;
+	const u16 cocci_id/* net/ipv6/inet6_hashtables.c 54 */;
+	const __be16 cocci_id/* net/ipv6/inet6_hashtables.c 52 */;
+	const struct inet_sock *cocci_id/* net/ipv6/inet6_hashtables.c 267 */;
+	const struct sock *cocci_id/* net/ipv6/inet6_hashtables.c 265 */;
+	u32 cocci_id/* net/ipv6/inet6_hashtables.c 24 */;
+	const struct net *cocci_id/* net/ipv6/inet6_hashtables.c 24 */;
+	struct inet_timewait_sock *cocci_id/* net/ipv6/inet6_hashtables.c 218 */;
+	const struct hlist_nulls_node *cocci_id/* net/ipv6/inet6_hashtables.c 217 */;
+	spinlock_t *cocci_id/* net/ipv6/inet6_hashtables.c 215 */;
+	struct inet_ehash_bucket *cocci_id/* net/ipv6/inet6_hashtables.c 214 */;
+	const unsigned int cocci_id/* net/ipv6/inet6_hashtables.c 212 */;
+	const __portpair cocci_id/* net/ipv6/inet6_hashtables.c 211 */;
+	struct net *cocci_id/* net/ipv6/inet6_hashtables.c 209 */;
+	const int cocci_id/* net/ipv6/inet6_hashtables.c 208 */;
+	const struct in6_addr *cocci_id/* net/ipv6/inet6_hashtables.c 206 */;
+	struct inet_sock *cocci_id/* net/ipv6/inet6_hashtables.c 205 */;
+	struct inet_hashinfo *cocci_id/* net/ipv6/inet6_hashtables.c 204 */;
+	struct inet_timewait_sock **cocci_id/* net/ipv6/inet6_hashtables.c 202 */;
+	const __u16 cocci_id/* net/ipv6/inet6_hashtables.c 201 */;
+	struct sock *cocci_id/* net/ipv6/inet6_hashtables.c 201 */;
+	struct inet_timewait_death_row *cocci_id/* net/ipv6/inet6_hashtables.c 200 */;
+	int cocci_id/* net/ipv6/inet6_hashtables.c 200 */;
+	struct inet_connection_sock *cocci_id/* net/ipv6/inet6_hashtables.c 123 */;
+	struct sk_buff *cocci_id/* net/ipv6/inet6_hashtables.c 117 */;
+	struct inet_listen_hashbucket *cocci_id/* net/ipv6/inet6_hashtables.c 116 */;
+}

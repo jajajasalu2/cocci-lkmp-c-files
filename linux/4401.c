@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/char/tpm/tpm_tis_spi.c 83 */;
+	struct spi_transfer cocci_id/* drivers/char/tpm/tpm_tis_spi.c 82 */;
+	const u8 *cocci_id/* drivers/char/tpm/tpm_tis_spi.c 77 */;
+	struct spi_message cocci_id/* drivers/char/tpm/tpm_tis_spi.c 51 */;
+	struct spi_transfer *cocci_id/* drivers/char/tpm/tpm_tis_spi.c 49 */;
+	struct tpm_tis_spi_phy *cocci_id/* drivers/char/tpm/tpm_tis_spi.c 48 */;
+	struct spi_driver cocci_id/* drivers/char/tpm/tpm_tis_spi.c 284 */;
+	const struct acpi_device_id cocci_id/* drivers/char/tpm/tpm_tis_spi.c 278 */[];
+	const struct of_device_id cocci_id/* drivers/char/tpm/tpm_tis_spi.c 269 */[];
+	unsigned long cocci_id/* drivers/char/tpm/tpm_tis_spi.c 263 */;
+	const struct spi_device_id cocci_id/* drivers/char/tpm/tpm_tis_spi.c 262 */[];
+	struct tpm_chip *cocci_id/* drivers/char/tpm/tpm_tis_spi.c 255 */;
+	tpm_tis_spi_probe_func cocci_id/* drivers/char/tpm/tpm_tis_spi.c 240 */;
+	const struct spi_device_id *cocci_id/* drivers/char/tpm/tpm_tis_spi.c 239 */;
+	struct spi_device *cocci_id/* drivers/char/tpm/tpm_tis_spi.c 237 */;
+	int cocci_id/* drivers/char/tpm/tpm_tis_spi.c 237 */;
+	int (*cocci_id/* drivers/char/tpm/tpm_tis_spi.c 235 */)(struct spi_device *);
+	struct tpm_tis_spi_phy cocci_id/* drivers/char/tpm/tpm_tis_spi.c 218 */;
+	const struct tpm_tis_phy_ops cocci_id/* drivers/char/tpm/tpm_tis_spi.c 205 */;
+	const struct tpm_tis_phy_ops *cocci_id/* drivers/char/tpm/tpm_tis_spi.c 194 */;
+	__le32 cocci_id/* drivers/char/tpm/tpm_tis_spi.c 170 */;
+	u32 *cocci_id/* drivers/char/tpm/tpm_tis_spi.c 168 */;
+	u8 *cocci_id/* drivers/char/tpm/tpm_tis_spi.c 161 */;
+	u16 cocci_id/* drivers/char/tpm/tpm_tis_spi.c 160 */;
+	__le16 cocci_id/* drivers/char/tpm/tpm_tis_spi.c 157 */;
+	u32 cocci_id/* drivers/char/tpm/tpm_tis_spi.c 155 */;
+	u16 *cocci_id/* drivers/char/tpm/tpm_tis_spi.c 155 */;
+	struct tpm_tis_data *cocci_id/* drivers/char/tpm/tpm_tis_spi.c 155 */;
+}

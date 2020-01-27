@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	const struct samsung_clock_alias *cocci_id/* drivers/clk/samsung/clk.c 97 */;
+	struct clk_hw *cocci_id/* drivers/clk/samsung/clk.c 89 */;
+	unsigned int cocci_id/* drivers/clk/samsung/clk.c 89 */;
+	struct samsung_clk_provider *cocci_id/* drivers/clk/samsung/clk.c 88 */;
+	void cocci_id/* drivers/clk/samsung/clk.c 88 */;
+	void __init cocci_id/* drivers/clk/samsung/clk.c 77 */;
+	int cocci_id/* drivers/clk/samsung/clk.c 61 */;
+	struct samsung_clk_provider *__init cocci_id/* drivers/clk/samsung/clk.c 57 */;
+	struct device_node *cocci_id/* drivers/clk/samsung/clk.c 57 */;
+	const unsigned long *cocci_id/* drivers/clk/samsung/clk.c 40 */;
+	struct samsung_clk_reg_dump *cocci_id/* drivers/clk/samsung/clk.c 39 */;
+	const struct samsung_cmu_info *cocci_id/* drivers/clk/samsung/clk.c 347 */;
+	struct samsung_clock_reg_cache cocci_id/* drivers/clk/samsung/clk.c 321 */;
+	struct samsung_clock_reg_cache *cocci_id/* drivers/clk/samsung/clk.c 319 */;
+	const struct samsung_clk_reg_dump *cocci_id/* drivers/clk/samsung/clk.c 316 */;
+	void __iomem *cocci_id/* drivers/clk/samsung/clk.c 313 */;
+	struct syscore_ops cocci_id/* drivers/clk/samsung/clk.c 308 */;
+	struct clk *cocci_id/* drivers/clk/samsung/clk.c 274 */;
+	const char *cocci_id/* drivers/clk/samsung/clk.c 272 */;
+	unsigned long cocci_id/* drivers/clk/samsung/clk.c 272 */;
+	u32 cocci_id/* drivers/clk/samsung/clk.c 261 */;
+	const struct of_device_id *cocci_id/* drivers/clk/samsung/clk.c 257 */;
+	struct samsung_fixed_rate_clock *cocci_id/* drivers/clk/samsung/clk.c 255 */;
+	const struct samsung_gate_clock *cocci_id/* drivers/clk/samsung/clk.c 230 */;
+	const struct samsung_div_clock *cocci_id/* drivers/clk/samsung/clk.c 200 */;
+	const struct samsung_mux_clock *cocci_id/* drivers/clk/samsung/clk.c 177 */;
+	const struct samsung_fixed_factor_clock *cocci_id/* drivers/clk/samsung/clk.c 157 */;
+	const struct samsung_fixed_rate_clock *cocci_id/* drivers/clk/samsung/clk.c 127 */;
+}

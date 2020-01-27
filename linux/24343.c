@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	long cocci_id/* net/smc/smc_tx.c 79 */;
+	struct smc_sock *cocci_id/* net/smc/smc_tx.c 630 */;
+	int cocci_id/* net/smc/smc_tx.c 594 */;
+	union smc_host_cursor cocci_id/* net/smc/smc_tx.c 593 */;
+	bool cocci_id/* net/smc/smc_tx.c 591 */;
+	struct smc_connection cocci_id/* net/smc/smc_tx.c 573 */;
+	struct work_struct *cocci_id/* net/smc/smc_tx.c 570 */;
+	struct smc_sock cocci_id/* net/smc/smc_tx.c 560 */;
+	struct smc_wr_tx_pend_priv *cocci_id/* net/smc/smc_tx.c 511 */;
+	struct smc_wr_buf *cocci_id/* net/smc/smc_tx.c 486 */;
+	struct smc_cdc_tx_pend *cocci_id/* net/smc/smc_tx.c 485 */;
+	struct socket_wq *cocci_id/* net/smc/smc_tx.c 44 */;
+	struct socket *cocci_id/* net/smc/smc_tx.c 42 */;
+	struct smc_cdc_producer_flags *cocci_id/* net/smc/smc_tx.c 406 */;
+	struct smc_rdma_wr *cocci_id/* net/smc/smc_tx.c 402 */;
+	struct smcd_cdc_msg cocci_id/* net/smc/smc_tx.c 372 */;
+	struct ib_sge *cocci_id/* net/smc/smc_tx.c 322 */;
+	dma_addr_t cocci_id/* net/smc/smc_tx.c 313 */;
+	size_t cocci_id/* net/smc/smc_tx.c 295 */;
+	union smc_host_cursor *cocci_id/* net/smc/smc_tx.c 293 */;
+	struct smc_connection *cocci_id/* net/smc/smc_tx.c 292 */;
+	void cocci_id/* net/smc/smc_tx.c 292 */;
+	struct smc_link *cocci_id/* net/smc/smc_tx.c 272 */;
+	struct smc_link_group *cocci_id/* net/smc/smc_tx.c 271 */;
+	struct ib_rdma_wr *cocci_id/* net/smc/smc_tx.c 269 */;
+	struct smc_ism_position cocci_id/* net/smc/smc_tx.c 253 */;
+	u32 cocci_id/* net/smc/smc_tx.c 251 */;
+	void *cocci_id/* net/smc/smc_tx.c 250 */;
+	char *cocci_id/* net/smc/smc_tx.c 141 */;
+	struct sock *cocci_id/* net/smc/smc_tx.c 140 */;
+	struct msghdr *cocci_id/* net/smc/smc_tx.c 134 */;
+	struct tcp_sock *cocci_id/* net/smc/smc_tx.c 126 */;
+}

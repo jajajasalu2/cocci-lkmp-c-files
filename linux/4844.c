@@ -1,0 +1,101 @@
+cocci_test_suite() {
+	char cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 996 */[40];
+	struct device_attribute *cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 991 */;
+	char *cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 991 */;
+	struct device *cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 990 */;
+	ssize_t cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 990 */;
+	u8 *cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 899 */;
+	__be64 cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 898 */;
+	struct mlx4_ib_dev *cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 885 */;
+	struct ib_device *cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 882 */;
+	struct ib_sa_mcmember_data {
+		union ib_gid mgid;
+		union ib_gid port_gid;
+		__be32 qkey;
+		__be16 mlid;
+		u8 mtusel_mtu;
+		u8 tclass;
+		__be16 pkey;
+		u8 ratesel_rate;
+		u8 lifetmsel_lifetm;
+		__be32 sl_flowlabel_hoplimit;
+		u8 scope_join_state;
+		u8 proxy_join;
+		u8 reserved[2];
+	}__packed __aligned(4) cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 85 */;
+	union ib_gid *cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 811 */;
+	ssize_t cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 807 */(struct device *dev,
+								   struct device_attribute *attr,
+								   char *buf);
+	struct mcast_member {
+		enum mcast_state state;
+		uint8_t join_state;
+		int num_pend_reqs;
+		struct list_head pending;
+	} cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 78 */;
+	enum mcast_group_state{MCAST_IDLE, MCAST_JOIN_SENT, MCAST_LEAVE_SENT, MCAST_RESP_READY,} cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 71 */;
+	enum mcast_state{MCAST_NOT_MEMBER=0, MCAST_MEMBER,} cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 66 */;
+	struct workqueue_struct *cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 64 */;
+	union ib_gid cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 62 */;
+	typeof(*group) cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 545 */;
+	struct delayed_work *cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 541 */;
+	u8 cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 474 */;
+	u16 cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 383 */;
+	struct ib_sa_mcmember_data *cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 383 */;
+	ib_sa_comp_mask cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 352 */;
+	struct ib_mad *cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 268 */;
+	struct ib_sa_mad cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 254 */;
+	struct rdma_ah_attr cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 234 */;
+	struct ib_wc cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 233 */;
+	struct ib_mad_agent *cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 232 */;
+	struct rb_node **cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 186 */;
+	enum mcast_group_state cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 147 */;
+	const char *cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 147 */;
+	struct mcast_req {
+		int func;
+		struct ib_sa_mad sa_mad;
+		struct list_head group_list;
+		struct list_head func_list;
+		struct mcast_group *group;
+		int clean;
+	} cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 131 */;
+	struct mcast_req cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 1170 */;
+	struct ib_sa_mad *cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 1157 */;
+	struct mcast_req *cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 1155 */;
+	struct clean_work cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 1121 */;
+	struct clean_work *cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 1121 */;
+	struct work_struct *cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 1119 */;
+	struct clean_work {
+		struct work_struct work;
+		struct mlx4_ib_demux_ctx *ctx;
+		int destroy_wq;
+	} cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 1113 */;
+	struct mcast_group cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 1103 */;
+	unsigned long cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 1078 */;
+	struct mcast_group *cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 1077 */;
+	struct rb_node *cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 1076 */;
+	struct mlx4_ib_demux_ctx *cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 1073 */;
+	int cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 1073 */;
+	void cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 1073 */;
+	char cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 1044 */[20];
+	struct mcast_group {
+		struct ib_sa_mcmember_data rec;
+		struct rb_node node;
+		struct list_head mgid0_list;
+		struct mlx4_ib_demux_ctx *demux;
+		struct mcast_member func[MAX_VFS];
+		struct mutex lock;
+		struct work_struct work;
+		struct list_head pending_list;
+		int members[3];
+		enum mcast_group_state state;
+		enum mcast_group_state prev_state;
+		struct ib_sa_mad response_sa_mad;
+		__be64 last_req_tid;
+		char name[33];
+		struct device_attribute dentry;
+		atomic_t refcount;
+		struct delayed_work timeout_work;
+		struct list_head cleanup_list;
+	} cocci_id/* drivers/infiniband/hw/mlx4/mcg.c 101 */;
+}

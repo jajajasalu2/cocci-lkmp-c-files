@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	void __iomem *cocci_id/* drivers/gpio/gpio-brcmstb.c 83 */;
+	struct brcmstb_gpio_bank *cocci_id/* drivers/gpio/gpio-brcmstb.c 81 */;
+	unsigned long cocci_id/* drivers/gpio/gpio-brcmstb.c 80 */;
+	struct platform_driver cocci_id/* drivers/gpio/gpio-brcmstb.c 770 */;
+	const struct of_device_id cocci_id/* drivers/gpio/gpio-brcmstb.c 763 */[];
+	bool cocci_id/* drivers/gpio/gpio-brcmstb.c 620 */;
+	const __be32 *cocci_id/* drivers/gpio/gpio-brcmstb.c 614 */;
+	struct property *cocci_id/* drivers/gpio/gpio-brcmstb.c 613 */;
+	struct resource *cocci_id/* drivers/gpio/gpio-brcmstb.c 612 */;
+	const struct dev_pm_ops cocci_id/* drivers/gpio/gpio-brcmstb.c 601 */;
+	unsigned int cocci_id/* drivers/gpio/gpio-brcmstb.c 562 */;
+	struct gpio_chip *cocci_id/* drivers/gpio/gpio-brcmstb.c 561 */;
+	struct brcmstb_gpio_priv {
+		struct list_head bank_list;
+		void __iomem *reg_base;
+		struct platform_device *pdev;
+		struct irq_domain *irq_domain;
+		struct irq_chip irq_chip;
+		int parent_irq;
+		int gpio_base;
+		int num_gpios;
+		int parent_wake_irq;
+	} cocci_id/* drivers/gpio/gpio-brcmstb.c 56 */;
+	struct brcmstb_gpio_priv *cocci_id/* drivers/gpio/gpio-brcmstb.c 558 */;
+	void cocci_id/* drivers/gpio/gpio-brcmstb.c 558 */;
+	struct brcmstb_gpio_bank {
+		struct list_head node;
+		int id;
+		struct gpio_chip gc;
+		struct brcmstb_gpio_priv *parent_priv;
+		u32 width;
+		u32 wake_active;
+		u32 saved_regs[GIO_REG_STAT];
+	} cocci_id/* drivers/gpio/gpio-brcmstb.c 46 */;
+	struct device_node *cocci_id/* drivers/gpio/gpio-brcmstb.c 454 */;
+	struct device *cocci_id/* drivers/gpio/gpio-brcmstb.c 453 */;
+	const struct of_phandle_args *cocci_id/* drivers/gpio/gpio-brcmstb.c 419 */;
+	u32 *cocci_id/* drivers/gpio/gpio-brcmstb.c 419 */;
+	const struct irq_domain_ops cocci_id/* drivers/gpio/gpio-brcmstb.c 362 */;
+	struct platform_device *cocci_id/* drivers/gpio/gpio-brcmstb.c 338 */;
+	struct lock_class_key cocci_id/* drivers/gpio/gpio-brcmstb.c 328 */;
+	int cocci_id/* drivers/gpio/gpio-brcmstb.c 313 */;
+	irq_hw_number_t cocci_id/* drivers/gpio/gpio-brcmstb.c 310 */;
+	struct irq_chip *cocci_id/* drivers/gpio/gpio-brcmstb.c 297 */;
+	struct irq_desc *cocci_id/* drivers/gpio/gpio-brcmstb.c 294 */;
+	struct irq_domain *cocci_id/* drivers/gpio/gpio-brcmstb.c 275 */;
+	irqreturn_t cocci_id/* drivers/gpio/gpio-brcmstb.c 261 */;
+	void *cocci_id/* drivers/gpio/gpio-brcmstb.c 261 */;
+	enum gio_reg_index{GIO_REG_ODEN=0, GIO_REG_DATA, GIO_REG_IODIR, GIO_REG_EC, GIO_REG_EI, GIO_REG_MASK, GIO_REG_LEVEL, GIO_REG_STAT, NUMBER_OF_GIO_REGISTERS,} cocci_id/* drivers/gpio/gpio-brcmstb.c 23 */;
+	u32 cocci_id/* drivers/gpio/gpio-brcmstb.c 161 */;
+	struct irq_data *cocci_id/* drivers/gpio/gpio-brcmstb.c 156 */;
+	unsigned cocci_id/* drivers/gpio/gpio-brcmstb.c 127 */;
+}

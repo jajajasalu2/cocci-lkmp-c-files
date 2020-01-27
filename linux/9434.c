@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	struct rtl8192_tx_ring *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 965 */;
+	struct rtl_pci *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 964 */;
+	u8 *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 921 */;
+	u64 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 920 */;
+	u32 *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 889 */;
+	dma_addr_t cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 837 */;
+	struct ieee80211_key_conf *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 766 */;
+	u32 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 71 */;
+	struct tx_desc_8821ae cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 700 */;
+	unsigned int cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 673 */;
+	struct rtlwifi_tx_info *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 670 */;
+	struct rtl_phy *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 67 */;
+	struct rtl_hal *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 669 */;
+	struct ieee80211_sta *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 662 */;
+	struct ieee80211_tx_info *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 661 */;
+	struct rtl_dm *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 66 */;
+	struct phy_status_rpt *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 65 */;
+	struct rtl_priv *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 64 */;
+	bool cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 61 */;
+	struct rx_fwinfo_8821ae *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 60 */;
+	__le32 *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 59 */;
+	struct rtl_stats *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 59 */;
+	struct rtl_mac *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 589 */;
+	struct ieee80211_hw *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 58 */;
+	void cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 58 */;
+	struct rtl_tcb_desc *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 555 */;
+	u8 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 44 */;
+	s8 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 44 */;
+	struct ieee80211_hdr *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 438 */;
+	struct ieee80211_rx_status *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 433 */;
+	struct ieee80211_qos_hdr *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 320 */;
+	int cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 30 */;
+	struct rtl_efuse *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 281 */;
+	u16 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 28 */;
+	__le16 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 18 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.c 16 */;
+}

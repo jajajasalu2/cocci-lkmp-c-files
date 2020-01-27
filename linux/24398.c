@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	u8 cocci_id/* net/bluetooth/amp.c 97 */;
+	struct amp_mgr *cocci_id/* net/bluetooth/amp.c 97 */;
+	struct hci_chan *cocci_id/* net/bluetooth/amp.c 583 */;
+	struct hci_cp_disconn_logical_link cocci_id/* net/bluetooth/amp.c 572 */;
+	struct hci_cp_create_accept_logical_link cocci_id/* net/bluetooth/amp.c 530 */;
+	struct l2cap_chan *cocci_id/* net/bluetooth/amp.c 527 */;
+	struct hci_request cocci_id/* net/bluetooth/amp.c 481 */;
+	struct hci_cp_accept_phy_link cocci_id/* net/bluetooth/amp.c 480 */;
+	struct hci_conn *cocci_id/* net/bluetooth/amp.c 478 */;
+	struct hci_cp_accept_phy_link *cocci_id/* net/bluetooth/amp.c 463 */;
+	u16 cocci_id/* net/bluetooth/amp.c 461 */;
+	struct hci_dev *cocci_id/* net/bluetooth/amp.c 460 */;
+	void cocci_id/* net/bluetooth/amp.c 460 */;
+	struct hci_cp_create_phy_link cocci_id/* net/bluetooth/amp.c 441 */;
+	struct amp_ctrl *cocci_id/* net/bluetooth/amp.c 43 */;
+	struct hci_cp_create_phy_link *cocci_id/* net/bluetooth/amp.c 415 */;
+	int cocci_id/* net/bluetooth/amp.c 35 */;
+	struct hci_cp_write_remote_amp_assoc *cocci_id/* net/bluetooth/amp.c 332 */;
+	bool cocci_id/* net/bluetooth/amp.c 329 */;
+	struct hci_rp_write_remote_amp_assoc *cocci_id/* net/bluetooth/amp.c 317 */;
+	struct amp_assoc cocci_id/* net/bluetooth/amp.c 279 */;
+	struct hci_cp_read_local_amp_assoc cocci_id/* net/bluetooth/amp.c 275 */;
+	struct amp_ctrl cocci_id/* net/bluetooth/amp.c 27 */;
+	struct amp_assoc *cocci_id/* net/bluetooth/amp.c 256 */;
+	struct kref *cocci_id/* net/bluetooth/amp.c 25 */;
+	size_t cocci_id/* net/bluetooth/amp.c 221 */;
+	struct hci_rp_read_local_amp_assoc *cocci_id/* net/bluetooth/amp.c 219 */;
+	void *cocci_id/* net/bluetooth/amp.c 219 */;
+	struct sk_buff *cocci_id/* net/bluetooth/amp.c 217 */;
+	u8 cocci_id/* net/bluetooth/amp.c 171 */[HCI_AMP_LINK_KEY_SIZE];
+	struct link_key *cocci_id/* net/bluetooth/amp.c 170 */;
+	struct shash_desc *cocci_id/* net/bluetooth/amp.c 131 */;
+	struct crypto_shash *cocci_id/* net/bluetooth/amp.c 130 */;
+	u8 *cocci_id/* net/bluetooth/amp.c 128 */;
+	char *cocci_id/* net/bluetooth/amp.c 128 */;
+	bdaddr_t *cocci_id/* net/bluetooth/amp.c 108 */;
+}

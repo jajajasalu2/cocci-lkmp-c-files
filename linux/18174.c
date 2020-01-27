@@ -1,0 +1,70 @@
+cocci_test_suite() {
+	struct oldabi_stat64 {
+		unsigned long long st_dev;
+		unsigned int __pad1;
+		unsigned long __st_ino;
+		unsigned int st_mode;
+		unsigned int st_nlink;
+		unsigned long st_uid;
+		unsigned long st_gid;
+		unsigned long long st_rdev;
+		unsigned int __pad2;
+		long long st_size;
+		unsigned long st_blksize;
+		unsigned long long st_blocks;
+		unsigned long st_atime;
+		unsigned long st_atime_nsec;
+		unsigned long st_mtime;
+		unsigned long st_mtime_nsec;
+		unsigned long st_ctime;
+		unsigned long st_ctime_nsec;
+		unsigned long long st_ino;
+	}__attribute__((packed,aligned(4))) cocci_id/* arch/arm/kernel/sys_oabi-compat.c 86 */;
+	unsigned long __user *cocci_id/* arch/arm/kernel/sys_oabi-compat.c 440 */;
+	struct user_msghdr __user *cocci_id/* arch/arm/kernel/sys_oabi-compat.c 414 */;
+	size_t cocci_id/* arch/arm/kernel/sys_oabi-compat.c 402 */;
+	sa_family_t cocci_id/* arch/arm/kernel/sys_oabi-compat.c 383 */;
+	struct sockaddr __user *cocci_id/* arch/arm/kernel/sys_oabi-compat.c 381 */;
+	int cocci_id/* arch/arm/kernel/sys_oabi-compat.c 381 */;
+	const struct old_timespec32 __user *cocci_id/* arch/arm/kernel/sys_oabi-compat.c 375 */;
+	struct oabi_sembuf __user *cocci_id/* arch/arm/kernel/sys_oabi-compat.c 369 */;
+	void __user *cocci_id/* arch/arm/kernel/sys_oabi-compat.c 364 */;
+	uint cocci_id/* arch/arm/kernel/sys_oabi-compat.c 363 */;
+	unsigned cocci_id/* arch/arm/kernel/sys_oabi-compat.c 358 */;
+	struct oabi_sembuf cocci_id/* arch/arm/kernel/sys_oabi-compat.c 333 */;
+	struct old_timespec32 cocci_id/* arch/arm/kernel/sys_oabi-compat.c 320 */;
+	struct sembuf *cocci_id/* arch/arm/kernel/sys_oabi-compat.c 319 */;
+	struct oabi_sembuf {
+		unsigned short sem_num;
+		short sem_op;
+		short sem_flg;
+		unsigned short __pad;
+	} cocci_id/* arch/arm/kernel/sys_oabi-compat.c 307 */;
+	struct epoll_event *cocci_id/* arch/arm/kernel/sys_oabi-compat.c 276 */;
+	struct epoll_event cocci_id/* arch/arm/kernel/sys_oabi-compat.c 255 */;
+	struct oabi_epoll_event cocci_id/* arch/arm/kernel/sys_oabi-compat.c 254 */;
+	struct oabi_epoll_event __user *cocci_id/* arch/arm/kernel/sys_oabi-compat.c 252 */;
+	struct oabi_epoll_event {
+		__u32 events;
+		__u64 data;
+	}__attribute__((packed,aligned(4))) cocci_id/* arch/arm/kernel/sys_oabi-compat.c 246 */;
+	struct oabi_flock64 __user *cocci_id/* arch/arm/kernel/sys_oabi-compat.c 202 */;
+	mm_segment_t cocci_id/* arch/arm/kernel/sys_oabi-compat.c 199 */;
+	struct oabi_flock64 cocci_id/* arch/arm/kernel/sys_oabi-compat.c 198 */;
+	struct flock64 cocci_id/* arch/arm/kernel/sys_oabi-compat.c 197 */;
+	unsigned long cocci_id/* arch/arm/kernel/sys_oabi-compat.c 195 */;
+	unsigned int cocci_id/* arch/arm/kernel/sys_oabi-compat.c 194 */;
+	struct oabi_flock64 {
+		short l_type;
+		short l_whence;
+		loff_t l_start;
+		loff_t l_len;
+		pid_t l_pid;
+	}__attribute__((packed,aligned(4))) cocci_id/* arch/arm/kernel/sys_oabi-compat.c 186 */;
+	const char __user *cocci_id/* arch/arm/kernel/sys_oabi-compat.c 173 */;
+	struct kstat cocci_id/* arch/arm/kernel/sys_oabi-compat.c 165 */;
+	struct oldabi_stat64 cocci_id/* arch/arm/kernel/sys_oabi-compat.c 118 */;
+	struct oldabi_stat64 __user *cocci_id/* arch/arm/kernel/sys_oabi-compat.c 116 */;
+	struct kstat *cocci_id/* arch/arm/kernel/sys_oabi-compat.c 115 */;
+	long cocci_id/* arch/arm/kernel/sys_oabi-compat.c 115 */;
+}

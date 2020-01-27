@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct spear_modemux *cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 98 */;
+	struct spear_pingroup *cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 97 */;
+	u16 cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 95 */;
+	struct spear_pmx_mode *cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 55 */;
+	struct platform_device *cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 357 */;
+	struct pinctrl_desc cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 350 */;
+	u32 cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 35 */;
+	const struct pinmux_ops cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 341 */;
+	struct pinctrl_gpio_range *cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 336 */;
+	struct pinctrl_dev *cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 335 */;
+	void cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 335 */;
+	u8 cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 32 */;
+	struct spear_muxreg *cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 32 */;
+	struct spear_pinctrl_machdata *cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 307 */;
+	bool cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 304 */;
+	int cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 286 */;
+	unsigned cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 283 */;
+	struct spear_pmx *cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 282 */;
+	struct spear_gpio_pingroup *cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 282 */;
+	const struct spear_modemux *cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 246 */;
+	const struct spear_pingroup *cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 245 */;
+	unsigned *constcocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 231 */;
+	const char *const**cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 230 */;
+	const struct pinctrl_ops cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 205 */;
+	struct pinctrl_map *cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 199 */;
+	const char *cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 154 */;
+	struct property *cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 153 */;
+	unsigned *cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 149 */;
+	struct pinctrl_map **cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 148 */;
+	struct device_node *cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 147 */;
+	struct seq_file *cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 141 */;
+	const unsigned **cocci_id/* drivers/pinctrl/spear/pinctrl-spear.c 130 */;
+}

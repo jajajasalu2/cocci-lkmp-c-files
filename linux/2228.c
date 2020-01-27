@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	int __init cocci_id/* drivers/target/target_core_rd.c 657 */;
+	const struct target_backend_ops cocci_id/* drivers/target/target_core_rd.c 637 */;
+	struct sbc_ops cocci_id/* drivers/target/target_core_rd.c 627 */;
+	unsigned long long cocci_id/* drivers/target/target_core_rd.c 603 */;
+	sector_t cocci_id/* drivers/target/target_core_rd.c 599 */;
+	substring_t cocci_id/* drivers/target/target_core_rd.c 547 */[MAX_OPT_ARGS];
+	char *cocci_id/* drivers/target/target_core_rd.c 546 */;
+	ssize_t cocci_id/* drivers/target/target_core_rd.c 542 */;
+	match_table_t cocci_id/* drivers/target/target_core_rd.c 536 */;
+	enum{Opt_rd_pages, Opt_rd_nullio, Opt_err,} cocci_id/* drivers/target/target_core_rd.c 532 */;
+	void *cocci_id/* drivers/target/target_core_rd.c 466 */;
+	struct sg_mapping_iter cocci_id/* drivers/target/target_core_rd.c 424 */;
+	enum dma_data_direction cocci_id/* drivers/target/target_core_rd.c 418 */;
+	u64 cocci_id/* drivers/target/target_core_rd.c 388 */;
+	sense_reason_t cocci_id/* drivers/target/target_core_rd.c 379 */;
+	bool cocci_id/* drivers/target/target_core_rd.c 379 */;
+	struct se_cmd *cocci_id/* drivers/target/target_core_rd.c 379 */;
+	void cocci_id/* drivers/target/target_core_rd.c 332 */;
+	struct se_device cocci_id/* drivers/target/target_core_rd.c 321 */;
+	struct rcu_head *cocci_id/* drivers/target/target_core_rd.c 319 */;
+	unsigned long cocci_id/* drivers/target/target_core_rd.c 310 */;
+	struct rd_dev cocci_id/* drivers/target/target_core_rd.c 30 */;
+	struct se_device *cocci_id/* drivers/target/target_core_rd.c 28 */;
+	struct rd_dev *cocci_id/* drivers/target/target_core_rd.c 28 */;
+	struct rd_host *cocci_id/* drivers/target/target_core_rd.c 273 */;
+	const char *cocci_id/* drivers/target/target_core_rd.c 270 */;
+	struct se_hba *cocci_id/* drivers/target/target_core_rd.c 270 */;
+	unsigned int cocci_id/* drivers/target/target_core_rd.c 123 */;
+	unsigned char *cocci_id/* drivers/target/target_core_rd.c 120 */;
+	struct scatterlist *cocci_id/* drivers/target/target_core_rd.c 119 */;
+	struct page *cocci_id/* drivers/target/target_core_rd.c 118 */;
+	struct scatterlist cocci_id/* drivers/target/target_core_rd.c 117 */;
+	u32 cocci_id/* drivers/target/target_core_rd.c 113 */;
+	unsigned char cocci_id/* drivers/target/target_core_rd.c 113 */;
+	struct rd_dev_sg_table *cocci_id/* drivers/target/target_core_rd.c 112 */;
+	int cocci_id/* drivers/target/target_core_rd.c 112 */;
+}

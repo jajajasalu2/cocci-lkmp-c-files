@@ -1,0 +1,66 @@
+cocci_test_suite() {
+	enum radeon_tv_std cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 93 */;
+	ENABLE_SCALER_PS_ALLOCATION cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 88 */;
+	union set_pixel_clock cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 841 */;
+	struct radeon_atom_ss *cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 835 */;
+	union set_pixel_clock {
+		SET_PIXEL_CLOCK_PS_ALLOCATION base;
+		PIXEL_CLOCK_PARAMETERS v1;
+		PIXEL_CLOCK_PARAMETERS_V2 v2;
+		PIXEL_CLOCK_PARAMETERS_V3 v3;
+		PIXEL_CLOCK_PARAMETERS_V5 v5;
+		PIXEL_CLOCK_PARAMETERS_V6 v6;
+	} cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 762 */;
+	struct radeon_encoder_atom_dig *cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 720 */;
+	uint32_t *cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 703 */;
+	u8 cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 680 */;
+	union adjust_pixel_clock cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 679 */;
+	struct radeon_encoder_mst *cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 621 */;
+	struct radeon_connector_atom_dig *cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 613 */;
+	struct radeon_connector *cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 612 */;
+	bool cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 572 */;
+	int cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 568 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 566 */;
+	struct radeon_encoder *cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 565 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 564 */;
+	struct radeon_device *cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 563 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 562 */;
+	struct radeon_crtc *cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 561 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 559 */;
+	u32 cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 558 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 558 */;
+	union adjust_pixel_clock {
+		ADJUST_DISPLAY_PLL_PS_ALLOCATION v1;
+		ADJUST_DISPLAY_PLL_PS_ALLOCATION_V3 v3;
+	} cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 553 */;
+	union atom_enable_ss cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 452 */;
+	unsigned cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 450 */;
+	SET_CRTC_OVERSCAN_PS_ALLOCATION cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 45 */;
+	union atom_enable_ss {
+		ENABLE_LVDS_SS_PARAMETERS lvds_ss;
+		ENABLE_LVDS_SS_PARAMETERS_V2 lvds_ss_2;
+		ENABLE_SPREAD_SPECTRUM_ON_PPLL_PS_ALLOCATION v1;
+		ENABLE_SPREAD_SPECTRUM_ON_PPLL_V2 v2;
+		ENABLE_SPREAD_SPECTRUM_ON_PPLL_V3 v3;
+	} cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 436 */;
+	u16 cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 358 */;
+	SET_CRTC_TIMING_PARAMETERS_PS_ALLOCATION cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 356 */;
+	SET_CRTC_USING_DTD_TIMING_PARAMETERS cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 309 */;
+	ENABLE_DISP_POWER_GATING_PARAMETERS_V2_1 cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 258 */;
+	BLANK_CRTC_PS_ALLOCATION cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 232 */;
+	void cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 226 */;
+	const struct drm_crtc_helper_funcs cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 2226 */;
+	struct radeon_bo *cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 2168 */;
+	struct radeon_atom_ss cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 2162 */;
+	const u32 cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 216 */[6];
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 2098 */;
+	struct drm_framebuffer *cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 2056 */;
+	ENABLE_CRTC_PS_ALLOCATION cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 190 */;
+	enum mode_set_atomic cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 1691 */;
+	struct drm_format_name_buf cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 1482 */;
+	uint32_t cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 1477 */;
+	uint64_t cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 1476 */;
+	struct drm_gem_object *cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 1473 */;
+	struct radeon_pll *cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 1073 */;
+	struct radeon_encoder_atom_dac *cocci_id/* drivers/gpu/drm/radeon/atombios_crtc.c 100 */;
+}

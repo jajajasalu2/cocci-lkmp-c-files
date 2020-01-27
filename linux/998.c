@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	const struct ubi_volume *cocci_id/* drivers/mtd/ubi/debug.c 95 */;
+	unsigned long long cocci_id/* drivers/mtd/ubi/debug.c 84 */;
+	const struct ubi_vid_hdr *cocci_id/* drivers/mtd/ubi/debug.c 70 */;
+	unsigned int cocci_id/* drivers/mtd/ubi/debug.c 591 */;
+	long long cocci_id/* drivers/mtd/ubi/debug.c 56 */;
+	const struct ubi_ec_hdr *cocci_id/* drivers/mtd/ubi/debug.c 51 */;
+	struct seq_file *cocci_id/* drivers/mtd/ubi/debug.c 470 */;
+	struct inode *cocci_id/* drivers/mtd/ubi/debug.c 468 */;
+	const struct seq_operations cocci_id/* drivers/mtd/ubi/debug.c 461 */;
+	int *cocci_id/* drivers/mtd/ubi/debug.c 430 */;
+	struct ubi_wl_entry *cocci_id/* drivers/mtd/ubi/debug.c 429 */;
+	void cocci_id/* drivers/mtd/ubi/debug.c 422 */;
+	void *cocci_id/* drivers/mtd/ubi/debug.c 408 */;
+	const struct file_operations cocci_id/* drivers/mtd/ubi/debug.c 381 */;
+	const char __user *cocci_id/* drivers/mtd/ubi/debug.c 311 */;
+	loff_t cocci_id/* drivers/mtd/ubi/debug.c 27 */;
+	int cocci_id/* drivers/mtd/ubi/debug.c 256 */;
+	char cocci_id/* drivers/mtd/ubi/debug.c 255 */[8];
+	struct ubi_debug_info *cocci_id/* drivers/mtd/ubi/debug.c 254 */;
+	struct ubi_device *cocci_id/* drivers/mtd/ubi/debug.c 253 */;
+	struct dentry *cocci_id/* drivers/mtd/ubi/debug.c 252 */;
+	unsigned long cocci_id/* drivers/mtd/ubi/debug.c 251 */;
+	loff_t *cocci_id/* drivers/mtd/ubi/debug.c 249 */;
+	size_t cocci_id/* drivers/mtd/ubi/debug.c 249 */;
+	struct file *cocci_id/* drivers/mtd/ubi/debug.c 248 */;
+	char __user *cocci_id/* drivers/mtd/ubi/debug.c 248 */;
+	ssize_t cocci_id/* drivers/mtd/ubi/debug.c 248 */;
+	char cocci_id/* drivers/mtd/ubi/debug.c 195 */[17];
+	const struct ubi_mkvol_req *cocci_id/* drivers/mtd/ubi/debug.c 193 */;
+	const struct ubi_ainf_peb *cocci_id/* drivers/mtd/ubi/debug.c 177 */;
+	const struct ubi_ainf_volume *cocci_id/* drivers/mtd/ubi/debug.c 159 */;
+	const struct ubi_vtbl_record *cocci_id/* drivers/mtd/ubi/debug.c 127 */;
+}

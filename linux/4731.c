@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	void *cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 941 */;
+	size_t cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 920 */;
+	struct ib_sge *cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 916 */;
+	struct rvt_sge *cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 915 */;
+	struct rvt_pd *cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 914 */;
+	struct rvt_mregion __rcu **cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 90 */;
+	struct list_head *cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 829 */;
+	u64 *cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 784 */;
+	struct rvt_fmr *cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 727 */;
+	struct ib_fmr_attr *cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 725 */;
+	struct ib_fmr *cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 724 */;
+	unsigned cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 67 */;
+	unsigned int cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 66 */;
+	unsigned int *cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 633 */;
+	struct scatterlist *cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 632 */;
+	struct ib_udata *cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 580 */;
+	enum ib_mr_type cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 579 */;
+	struct ib_mr *cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 579 */;
+	struct rvt_sge_state *cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 528 */;
+	bool cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 515 */;
+	const char *cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 486 */;
+	u64 cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 451 */;
+	struct rvt_qp *cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 451 */;
+	struct sg_page_iter cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 386 */;
+	struct ib_umem *cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 385 */;
+	void cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 315 */;
+	struct rvt_mr *cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 280 */;
+	struct ib_pd *cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 280 */;
+	int cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 280 */;
+	struct rvt_lkey_table *cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 185 */;
+	struct rvt_dev_info *cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 184 */;
+	u32 cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 181 */;
+	unsigned long cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 180 */;
+	struct rvt_mregion cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 130 */;
+	struct rvt_mregion *cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 130 */;
+	struct percpu_ref *cocci_id/* drivers/infiniband/sw/rdmavt/mr.c 128 */;
+}

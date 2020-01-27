@@ -1,0 +1,93 @@
+cocci_test_suite() {
+	int64_t cocci_id/* drivers/misc/vmw_balloon.c 962 */;
+	enum vmballoon_page_size_type{VMW_BALLOON_4K_PAGE, VMW_BALLOON_2M_PAGE, VMW_BALLOON_LAST_SIZE=VMW_BALLOON_2M_PAGE,} cocci_id/* drivers/misc/vmw_balloon.c 93 */;
+	int *cocci_id/* drivers/misc/vmw_balloon.c 925 */;
+	struct vmballoon_batch_entry cocci_id/* drivers/misc/vmw_balloon.c 834 */;
+	struct page *cocci_id/* drivers/misc/vmw_balloon.c 829 */;
+	unsigned int cocci_id/* drivers/misc/vmw_balloon.c 828 */;
+	u32 cocci_id/* drivers/misc/vmw_balloon.c 812 */;
+	enum vmballoon_op cocci_id/* drivers/misc/vmw_balloon.c 789 */;
+	struct page **cocci_id/* drivers/misc/vmw_balloon.c 751 */;
+	struct page cocci_id/* drivers/misc/vmw_balloon.c 680 */;
+	struct vmballoon_ctl *cocci_id/* drivers/misc/vmw_balloon.c 666 */;
+	int cocci_id/* drivers/misc/vmw_balloon.c 665 */;
+	enum vmwballoon_capabilities{VMW_BALLOON_BASIC_CMDS=(1 << 1), VMW_BALLOON_BATCHED_CMDS=(1 << 2), VMW_BALLOON_BATCHED_2M_CMDS=(1 << 3), VMW_BALLOON_SIGNALLED_WAKEUP_CMD=(1 << 4), VMW_BALLOON_64_BIT_TARGET=(1 << 5),} cocci_id/* drivers/misc/vmw_balloon.c 65 */;
+	unsigned long *cocci_id/* drivers/misc/vmw_balloon.c 462 */;
+	struct vmballoon *cocci_id/* drivers/misc/vmw_balloon.c 461 */;
+	unsigned long cocci_id/* drivers/misc/vmw_balloon.c 460 */;
+	enum vmballoon_stat_page cocci_id/* drivers/misc/vmw_balloon.c 452 */;
+	bool __read_mostly cocci_id/* drivers/misc/vmw_balloon.c 44 */;
+	enum vmballoon_stat_general cocci_id/* drivers/misc/vmw_balloon.c 436 */;
+	enum vmballoon_op_stat_type cocci_id/* drivers/misc/vmw_balloon.c 422 */;
+	bool cocci_id/* drivers/misc/vmw_balloon.c 415 */;
+	void cocci_id/* drivers/misc/vmw_balloon.c 415 */;
+	struct vmballoon_stats {
+		atomic64_t general_stat[VMW_BALLOON_STAT_NUM];
+		atomic64_t page_stat[VMW_BALLOON_PAGE_STAT_NUM][VMW_BALLOON_NUM_PAGE_SIZES];
+		atomic64_t ops[VMW_BALLOON_CMD_NUM][VMW_BALLOON_OP_STAT_TYPES];
+	} cocci_id/* drivers/misc/vmw_balloon.c 403 */;
+	struct vmballoon cocci_id/* drivers/misc/vmw_balloon.c 401 */;
+	struct vmballoon {
+		enum vmballoon_page_size_type max_page_size;
+		atomic64_t size;
+		unsigned long target;
+		bool reset_required;
+		unsigned long capabilities;
+		struct vmballoon_batch_entry *batch_page;
+		unsigned int batch_max_pages;
+		struct page *page;
+		unsigned long shrink_timeout;
+		struct vmballoon_stats *stats;
+#ifdef CONFIG_DEBUG_FS
+		struct dentry *dbg_entry;
+#endif
+		struct balloon_dev_info b_dev_info;
+		struct delayed_work dwork;
+		struct list_head huge_pages;
+		struct vmci_handle vmci_doorbell;
+		struct rw_semaphore conf_sem;
+		spinlock_t comm_lock;
+		struct shrinker shrinker;
+		bool shrinker_registered;
+	} cocci_id/* drivers/misc/vmw_balloon.c 263 */;
+	struct vmballoon_batch_entry {
+		u64 status:5;
+		u64 reserved:PAGE_SHIFT - 5;
+		u64 pfn:52;
+	}__packed cocci_id/* drivers/misc/vmw_balloon.c 257 */;
+	struct vmballoon_ctl {
+		struct list_head pages;
+		struct list_head refused_pages;
+		struct list_head prealloc_pages;
+		unsigned int n_refused_pages;
+		unsigned int n_pages;
+		enum vmballoon_page_size_type page_size;
+		enum vmballoon_op op;
+	} cocci_id/* drivers/misc/vmw_balloon.c 240 */;
+	enum vmballoon_stat_general{VMW_BALLOON_STAT_TIMER, VMW_BALLOON_STAT_DOORBELL, VMW_BALLOON_STAT_RESET, VMW_BALLOON_STAT_SHRINK, VMW_BALLOON_STAT_SHRINK_FREE, VMW_BALLOON_STAT_LAST=VMW_BALLOON_STAT_SHRINK_FREE,} cocci_id/* drivers/misc/vmw_balloon.c 226 */;
+	enum vmballoon_stat_page{VMW_BALLOON_PAGE_STAT_ALLOC, VMW_BALLOON_PAGE_STAT_ALLOC_FAIL, VMW_BALLOON_PAGE_STAT_REFUSED_ALLOC, VMW_BALLOON_PAGE_STAT_REFUSED_FREE, VMW_BALLOON_PAGE_STAT_FREE, VMW_BALLOON_PAGE_STAT_LAST=VMW_BALLOON_PAGE_STAT_FREE,} cocci_id/* drivers/misc/vmw_balloon.c 215 */;
+	const char *constcocci_id/* drivers/misc/vmw_balloon.c 202 */[];
+	int __init cocci_id/* drivers/misc/vmw_balloon.c 1924 */;
+	enum vmballoon_error_codes{VMW_BALLOON_SUCCESS, VMW_BALLOON_ERROR_CMD_INVALID, VMW_BALLOON_ERROR_PPN_INVALID, VMW_BALLOON_ERROR_PPN_LOCKED, VMW_BALLOON_ERROR_PPN_UNLOCKED, VMW_BALLOON_ERROR_PPN_PINNED, VMW_BALLOON_ERROR_PPN_NOTNEEDED, VMW_BALLOON_ERROR_RESET, VMW_BALLOON_ERROR_BUSY,} cocci_id/* drivers/misc/vmw_balloon.c 179 */;
+	enum migrate_mode cocci_id/* drivers/misc/vmw_balloon.c 1767 */;
+	struct balloon_dev_info *cocci_id/* drivers/misc/vmw_balloon.c 1765 */;
+	struct vfsmount *cocci_id/* drivers/misc/vmw_balloon.c 1749 */;
+	struct file_system_type cocci_id/* drivers/misc/vmw_balloon.c 1743 */;
+	struct fs_context *cocci_id/* drivers/misc/vmw_balloon.c 1738 */;
+	void __exit cocci_id/* drivers/misc/vmw_balloon.c 1715 */;
+	void __init cocci_id/* drivers/misc/vmw_balloon.c 1709 */;
+	struct seq_file *cocci_id/* drivers/misc/vmw_balloon.c 1657 */;
+	void *cocci_id/* drivers/misc/vmw_balloon.c 1657 */;
+	enum vmballoon_cmd_type{VMW_BALLOON_CMD_START, VMW_BALLOON_CMD_GET_TARGET, VMW_BALLOON_CMD_LOCK, VMW_BALLOON_CMD_UNLOCK, VMW_BALLOON_CMD_GUEST_ID, VMW_BALLOON_CMD_BATCHED_LOCK=6, VMW_BALLOON_CMD_BATCHED_UNLOCK, VMW_BALLOON_CMD_BATCHED_2M_LOCK, VMW_BALLOON_CMD_BATCHED_2M_UNLOCK, VMW_BALLOON_CMD_VMCI_DOORBELL_SET, VMW_BALLOON_CMD_LAST=VMW_BALLOON_CMD_VMCI_DOORBELL_SET,} cocci_id/* drivers/misc/vmw_balloon.c 162 */;
+	struct shrink_control *cocci_id/* drivers/misc/vmw_balloon.c 1568 */;
+	struct shrinker *cocci_id/* drivers/misc/vmw_balloon.c 1567 */;
+	struct delayed_work *cocci_id/* drivers/misc/vmw_balloon.c 1478 */;
+	struct work_struct *cocci_id/* drivers/misc/vmw_balloon.c 1476 */;
+	struct vmballoon_ctl cocci_id/* drivers/misc/vmw_balloon.c 1199 */;
+	uint64_t cocci_id/* drivers/misc/vmw_balloon.c 1194 */;
+	enum vmballoon_op_stat_type{VMW_BALLOON_OP_STAT, VMW_BALLOON_OP_FAIL_STAT,} cocci_id/* drivers/misc/vmw_balloon.c 111 */;
+	enum vmballoon_op{VMW_BALLOON_INFLATE, VMW_BALLOON_DEFLATE,} cocci_id/* drivers/misc/vmw_balloon.c 106 */;
+	enum vmballoon_page_size_type cocci_id/* drivers/misc/vmw_balloon.c 1046 */;
+	unsigned int *cocci_id/* drivers/misc/vmw_balloon.c 1045 */;
+	struct list_head *cocci_id/* drivers/misc/vmw_balloon.c 1044 */;
+}

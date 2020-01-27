@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct snd_kcontrol_new cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 904 */[];
+	unsigned short cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 855 */;
+	struct snd_kcontrol *cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 846 */;
+	struct snd_ctl_elem_value *cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 846 */;
+	struct snd_ctl_elem_info *cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 835 */;
+	snd_pcm_format_t cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 76 */;
+	unsigned char cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 75 */;
+	const char *const cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 717 */[8];
+	struct snd_timer_id cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 694 */;
+	struct snd_timer *cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 693 */;
+	struct snd_pcm *cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 669 */;
+	const struct snd_pcm_ops cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 655 */;
+	void *cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 605 */;
+	struct snd_device_ops cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 591 */;
+	struct snd_card *cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 587 */;
+	const char *cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 574 */;
+	struct snd_device *cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 568 */;
+	struct snd_pcm_substream *cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 473 */;
+	struct snd_pcm_runtime *cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 452 */;
+	struct snd_timer_hardware cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 423 */;
+	const struct snd_pcm_hardware cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 350 */;
+	irqreturn_t cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 306 */;
+	size_t cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 298 */;
+	snd_pcm_uframes_t cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 295 */;
+	unsigned int cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 257 */;
+	unsigned long cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 255 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 210 */;
+	struct snd_ad1816a *cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 20 */;
+	int cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 20 */;
+	void cocci_id/* sound/isa/ad1816a/ad1816a_lib.c 133 */;
+}

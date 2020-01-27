@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	typeof(*fence) cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 96 */;
+	void cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 89 */;
+	struct nouveau_drm *cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 76 */;
+	struct nouveau_fence_chan cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 52 */;
+	struct nouveau_fence_chan *cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 49 */;
+	struct nouveau_fence cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 46 */;
+	struct dma_fence *cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 44 */;
+	struct nouveau_fence *cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 43 */;
+	const char *cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 427 */;
+	const struct dma_fence_ops cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 41 */;
+	struct nouveau_fence **cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 407 */;
+	struct dma_resv_list *cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 338 */;
+	struct dma_resv *cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 337 */;
+	struct nouveau_bo *cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 333 */;
+	long cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 318 */;
+	ktime_t cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 263 */;
+	unsigned long cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 241 */;
+	bool cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 234 */;
+	struct nvif_notify_uevent_rep cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 194 */;
+	struct nvif_notify_uevent_req cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 192 */;
+	int cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 172 */;
+	struct nouveau_cli *cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 171 */;
+	struct nouveau_fence_priv *cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 170 */;
+	void *cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 170 */;
+	struct nouveau_channel *cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 168 */;
+	typeof(*fctx) cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 148 */;
+	struct nvif_notify *cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 145 */;
+	u32 cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 130 */;
+	struct kref *cocci_id/* drivers/gpu/drm/nouveau/nouveau_fence.c 114 */;
+}

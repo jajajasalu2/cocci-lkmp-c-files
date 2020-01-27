@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	void cocci_id/* tools/perf/util/thread.c 80 */;
+	long cocci_id/* tools/perf/util/thread.c 439 */;
+	struct addr_location cocci_id/* tools/perf/util/thread.c 438 */;
+	u8 cocci_id/* tools/perf/util/thread.c 437 */;
+	bool *cocci_id/* tools/perf/util/thread.c 435 */;
+	void *cocci_id/* tools/perf/util/thread.c 435 */;
+	char *cocci_id/* tools/perf/util/thread.c 41 */;
+	const u8 cocci_id/* tools/perf/util/thread.c 409 */[];
+	size_t cocci_id/* tools/perf/util/thread.c 408 */;
+	struct addr_location *cocci_id/* tools/perf/util/thread.c 406 */;
+	struct map *cocci_id/* tools/perf/util/thread.c 349 */;
+	struct maps *cocci_id/* tools/perf/util/thread.c 348 */;
+	FILE *cocci_id/* tools/perf/util/thread.c 324 */;
+	const struct comm *cocci_id/* tools/perf/util/thread.c 292 */;
+	const struct thread *cocci_id/* tools/perf/util/thread.c 290 */;
+	char cocci_id/* tools/perf/util/thread.c 275 */[64];
+	struct comm *cocci_id/* tools/perf/util/thread.c 240 */;
+	pid_t cocci_id/* tools/perf/util/thread.c 24 */;
+	u64 cocci_id/* tools/perf/util/thread.c 238 */;
+	bool cocci_id/* tools/perf/util/thread.c 238 */;
+	const char *cocci_id/* tools/perf/util/thread.c 237 */;
+	struct thread *cocci_id/* tools/perf/util/thread.c 237 */;
+	int cocci_id/* tools/perf/util/thread.c 237 */;
+	struct machine *cocci_id/* tools/perf/util/thread.c 22 */;
+	struct comm cocci_id/* tools/perf/util/thread.c 211 */;
+	struct perf_record_namespaces *cocci_id/* tools/perf/util/thread.c 172 */;
+	struct namespaces cocci_id/* tools/perf/util/thread.c 157 */;
+	struct namespaces *cocci_id/* tools/perf/util/thread.c 152 */;
+}

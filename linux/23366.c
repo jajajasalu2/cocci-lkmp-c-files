@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	irqreturn_t cocci_id/* sound/soc/codecs/nau8824.c 972 */;
+	void *cocci_id/* sound/soc/codecs/nau8824.c 972 */;
+	const struct reg_default cocci_id/* sound/soc/codecs/nau8824.c 97 */[];
+	const struct nau8824_osr_attr cocci_id/* sound/soc/codecs/nau8824.c 90 */[];
+	struct nau8824 cocci_id/* sound/soc/codecs/nau8824.c 895 */;
+	struct work_struct *cocci_id/* sound/soc/codecs/nau8824.c 892 */;
+	char cocci_id/* sound/soc/codecs/nau8824.c 835 */[80];
+	const char *cocci_id/* sound/soc/codecs/nau8824.c 831 */;
+	void cocci_id/* sound/soc/codecs/nau8824.c 831 */;
+	bool cocci_id/* sound/soc/codecs/nau8824.c 804 */;
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/codecs/nau8824.c 735 */[];
+	const struct nau8824_fll_attr cocci_id/* sound/soc/codecs/nau8824.c 71 */[];
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/codecs/nau8824.c 635 */[];
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/nau8824.c 590 */[];
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/nau8824.c 574 */;
+	struct nau8824 *cocci_id/* sound/soc/codecs/nau8824.c 556 */;
+	struct snd_soc_component *cocci_id/* sound/soc/codecs/nau8824.c 555 */;
+	struct snd_kcontrol *cocci_id/* sound/soc/codecs/nau8824.c 553 */;
+	struct snd_soc_dapm_widget *cocci_id/* sound/soc/codecs/nau8824.c 552 */;
+	int cocci_id/* sound/soc/codecs/nau8824.c 552 */;
+	bool cocci_id/* sound/soc/codecs/nau8824.c 33 */(struct nau8824 *nau8824);
+	const struct soc_enum cocci_id/* sound/soc/codecs/nau8824.c 323 */;
+	int cocci_id/* sound/soc/codecs/nau8824.c 31 */(struct nau8824 *nau8824,
+							int clk_id,
+							unsigned int freq);
+	const char *const cocci_id/* sound/soc/codecs/nau8824.c 306 */[];
+	long cocci_id/* sound/soc/codecs/nau8824.c 198 */;
+	struct i2c_driver cocci_id/* sound/soc/codecs/nau8824.c 1942 */;
+	const struct acpi_device_id cocci_id/* sound/soc/codecs/nau8824.c 1935 */[];
+	const struct of_device_id cocci_id/* sound/soc/codecs/nau8824.c 1927 */[];
+	const struct i2c_device_id cocci_id/* sound/soc/codecs/nau8824.c 1920 */[];
+	struct device *cocci_id/* sound/soc/codecs/nau8824.c 1881 */;
+	const struct i2c_device_id *cocci_id/* sound/soc/codecs/nau8824.c 1879 */;
+	struct i2c_client *cocci_id/* sound/soc/codecs/nau8824.c 1878 */;
+	struct snd_soc_jack *cocci_id/* sound/soc/codecs/nau8824.c 1626 */;
+	const struct regmap_config cocci_id/* sound/soc/codecs/nau8824.c 1601 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/codecs/nau8824.c 1582 */;
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/codecs/nau8824.c 1572 */;
+	const struct snd_soc_component_driver cocci_id/* sound/soc/codecs/nau8824.c 1552 */;
+	int __maybe_unused cocci_id/* sound/soc/codecs/nau8824.c 1535 */;
+	struct snd_soc_dapm_context *cocci_id/* sound/soc/codecs/nau8824.c 1514 */;
+	enum snd_soc_bias_level cocci_id/* sound/soc/codecs/nau8824.c 1481 */;
+	struct regmap *cocci_id/* sound/soc/codecs/nau8824.c 1393 */;
+	struct nau8824_fll cocci_id/* sound/soc/codecs/nau8824.c 1369 */;
+	u64 cocci_id/* sound/soc/codecs/nau8824.c 1271 */;
+	struct nau8824_fll *cocci_id/* sound/soc/codecs/nau8824.c 1269 */;
+	unsigned int cocci_id/* sound/soc/codecs/nau8824.c 1268 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/codecs/nau8824.c 1063 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/codecs/nau8824.c 1063 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/codecs/nau8824.c 1062 */;
+}

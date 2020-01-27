@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	__le32 cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 99 */;
+	const struct mt76_queue_ops cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 565 */;
+	struct mt76_dev cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 528 */;
+	struct napi_struct *cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 523 */;
+	struct mt76_desc *cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 52 */;
+	u32 cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 49 */;
+	struct mt76_queue_buf *cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 49 */;
+	unsigned char *cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 467 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 449 */;
+	struct page *cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 447 */;
+	bool cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 445 */;
+	int cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 445 */;
+	struct mt76_queue *cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 444 */;
+	struct mt76_dev *cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 444 */;
+	void *cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 444 */;
+	void cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 443 */;
+	enum mt76_rxq_id cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 424 */;
+	struct mt76_queue_buf cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 372 */;
+	u8 *cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 294 */;
+	struct mt76_txwi_cache *cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 291 */;
+	struct mt76_tx_info cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 286 */;
+	struct ieee80211_sta *cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 283 */;
+	struct mt76_wcid *cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 282 */;
+	struct mt76_desc cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 25 */;
+	u32 *cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 233 */;
+	bool *cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 233 */;
+	int *cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 233 */;
+	dma_addr_t cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 211 */;
+	struct mt76_queue_entry *cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 209 */;
+	unsigned int cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 145 */;
+	unsigned int cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 144 */[4];
+	struct mt76_queue_entry cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 143 */;
+	struct mt76_sw_queue *cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 141 */;
+	enum mt76_txq_id cocci_id/* drivers/net/wireless/mediatek/mt76/dma.c 139 */;
+}

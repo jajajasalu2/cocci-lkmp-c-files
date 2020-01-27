@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct bd_transfer *cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 956 */;
+	u8 cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 902 */;
+	void cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 899 */;
+	void *cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 761 */;
+	u64 cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 743 */;
+	struct bdc_req cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 576 */;
+	const char *const cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 42 */[];
+	u32 *cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 384 */;
+	struct bdc_bd *cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 357 */;
+	u32 cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 341 */;
+	struct bdc_bd cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 236 */;
+	unsigned long long cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 226 */;
+	bool cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 221 */;
+	struct bd_table *cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 220 */;
+	struct bdc *cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 219 */;
+	struct bd_list *cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 217 */;
+	dma_addr_t cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 215 */;
+	struct bdc_ep *cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 215 */;
+	int cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 215 */;
+	struct bdc_req *cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 193 */;
+	const struct usb_ep_ops cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 1924 */;
+	const struct usb_endpoint_descriptor *cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 1851 */;
+	gfp_t cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 1820 */;
+	struct usb_request *cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 1819 */;
+	struct usb_ep *cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 1819 */;
+	unsigned long cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 1758 */;
+	struct bdc_sr *cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 1642 */;
+	struct bd_table cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 150 */;
+	__le16 *cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 1369 */;
+	u16 cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 1232 */;
+	enum usb_device_state cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 1230 */;
+	struct usb_ctrlrequest *cocci_id/* drivers/usb/gadget/udc/bdc/bdc_ep.c 1064 */;
+}

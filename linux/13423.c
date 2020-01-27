@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct tm6000_core *cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 969 */;
+	int cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 969 */;
+	struct xc5000_config cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 950 */;
+	struct xc2028_ctrl cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 917 */;
+	struct v4l2_priv_tun_config cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 916 */;
+	struct tuner_setup cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 889 */;
+	struct tm6000_board cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 75 */[];
+	void *cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 702 */;
+	u8 cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 631 */;
+	const struct usb_device_id cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 605 */[];
+	struct tm6000_board {
+		char *name;
+		char eename[16];
+		unsigned eename_size;
+		unsigned eename_pos;
+		struct tm6000_capabilities caps;
+		enum tm6000_devtype type;
+		int tuner_type;
+		int tuner_addr;
+		int demod_addr;
+		struct tm6000_gpio gpio;
+		struct tm6000_input vinput[3];
+		struct tm6000_input rinput;
+		char *ir_codes;
+	} cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 54 */;
+	unsigned long cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 51 */;
+	unsigned int cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 47 */[];
+	struct usb_driver cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 1386 */;
+	struct usb_interface *cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 1334 */;
+	const struct usb_device_id *cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 1173 */;
+	unsigned int cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 1151 */;
+	u16 cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 1150 */;
+	struct tm6000_endpoint *cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 1148 */;
+	struct usb_host_endpoint *cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 1147 */;
+	char *cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 1146 */;
+	struct usb_host_interface *cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 1145 */;
+	struct usb_device *cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 1144 */;
+	struct v4l2_frequency cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 1071 */;
+	void cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 1060 */;
+	struct tm6000_core cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 1045 */;
+	struct work_struct *cocci_id/* drivers/media/usb/tm6000/tm6000-cards.c 1043 */;
+}

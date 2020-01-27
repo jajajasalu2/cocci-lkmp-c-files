@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 474 */;
+	int __init cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 458 */;
+	struct rmnet_port *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 409 */;
+	struct rmnet_priv *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 407 */;
+	struct netlink_ext_ack *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 405 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 403 */;
+	int cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 403 */;
+	struct rmnet_priv cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 371 */;
+	const struct nla_policy cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 37 */[IFLA_RMNET_MAX + 1];
+	struct rtnl_link_ops cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 368 */;
+	struct ifla_rmnet_flags cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 342 */;
+	const struct net_device *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 338 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 338 */;
+	size_t cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 329 */;
+	struct ifla_rmnet_flags *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 320 */;
+	u16 cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 293 */;
+	struct rmnet_endpoint *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 291 */;
+	struct nlattr *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 285 */[];
+	struct notifier_block cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 266 */;
+	void *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 246 */;
+	unsigned long cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 246 */;
+	struct notifier_block *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 245 */;
+	struct hlist_node *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 215 */;
+	u8 cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 189 */;
+	struct list_head *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 183 */;
+	void cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 183 */;
+	u32 cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 130 */;
+	struct net *cocci_id/* drivers/net/ethernet/qualcomm/rmnet/rmnet_config.c 126 */;
+}

@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	struct drm_dp_dpcd_ident *cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 76 */;
+	struct intel_dp *cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 75 */;
+	const char *cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 58 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 559 */;
+	struct drm_i915_private *cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 558 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 557 */;
+	struct intel_digital_port *cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 553 */;
+	struct intel_digital_port cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 53 */;
+	const struct intel_crtc_state *cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 522 */;
+	struct intel_encoder *cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 521 */;
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 477 */;
+	u8 cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 474 */[VIDEO_DIP_DATA_SIZE];
+	union hdmi_infoframe cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 473 */;
+	const struct drm_connector_state *cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 470 */;
+	unsigned int cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 461 */;
+	void cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 459 */;
+	const void *cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 434 */;
+	void *cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 386 */;
+	u32 cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 377 */;
+	int cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 376 */;
+	const u8 *cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 374 */;
+	u8 cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 345 */[LSPCON_PARADE_AVI_IF_DATA_SIZE];
+	ssize_t cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 301 */;
+	u16 cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 300 */;
+	u8 cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 297 */;
+	u8 *cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 295 */;
+	bool cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 294 */;
+	struct drm_dp_aux *cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 294 */;
+	unsigned long cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 250 */;
+	enum drm_dp_dual_mode_type cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 205 */;
+	const struct drm_display_info *cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 190 */;
+	struct intel_crtc_state *cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 188 */;
+	struct i2c_adapter *cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 147 */;
+	enum drm_lspcon_mode cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 143 */;
+	struct intel_lspcon *cocci_id/* drivers/gpu/drm/i915/display/intel_lspcon.c 142 */;
+}

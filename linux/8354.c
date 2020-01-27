@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	enum nfp_port_type cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 78 */;
+	u8 cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 61 */;
+	bool *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 57 */;
+	const struct nfp_app_type cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 533 */;
+	struct nfp_abm *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 521 */;
+	struct nfp_app *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 519 */;
+	void cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 519 */;
+	struct nfp_reprs *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 443 */;
+	unsigned int cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 427 */;
+	u8 *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 407 */;
+	struct nfp_port *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 379 */;
+	u64 *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 378 */;
+	struct nfp_eth_table_port *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 314 */;
+	enum tc_setup_type cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 31 */;
+	void *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 31 */;
+	char cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 263 */[32];
+	struct nfp_nsp *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 262 */;
+	u8 cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 261 */[ETH_ALEN];
+	u16 cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 239 */;
+	int cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 239 */;
+	u32 cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 23 */;
+	struct nfp_abm_link *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 219 */;
+	struct nfp_net *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 208 */;
+	struct nfp_pf *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 207 */;
+	enum devlink_eswitch_mode cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 182 */;
+	struct nfp_repr *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 163 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 151 */;
+	enum nfp_repr_type cocci_id/* drivers/net/ethernet/netronome/nfp/abm/main.c 149 */;
+}

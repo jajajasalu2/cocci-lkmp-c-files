@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	unsigned char cocci_id/* drivers/scsi/sd_zbc.c 66 */[16];
+	struct scsi_sense_hdr cocci_id/* drivers/scsi/sd_zbc.c 65 */;
+	const int cocci_id/* drivers/scsi/sd_zbc.c 64 */;
+	struct scsi_device *cocci_id/* drivers/scsi/sd_zbc.c 63 */;
+	bool cocci_id/* drivers/scsi/sd_zbc.c 61 */;
+	u32 cocci_id/* drivers/scsi/sd_zbc.c 393 */;
+	struct gendisk *cocci_id/* drivers/scsi/sd_zbc.c 391 */;
+	unsigned long long cocci_id/* drivers/scsi/sd_zbc.c 360 */;
+	sector_t cocci_id/* drivers/scsi/sd_zbc.c 344 */;
+	u64 cocci_id/* drivers/scsi/sd_zbc.c 343 */;
+	u32 *cocci_id/* drivers/scsi/sd_zbc.c 341 */;
+	unsigned char *cocci_id/* drivers/scsi/sd_zbc.c 289 */;
+	int cocci_id/* drivers/scsi/sd_zbc.c 288 */;
+	struct request *cocci_id/* drivers/scsi/sd_zbc.c 266 */;
+	struct scsi_sense_hdr *cocci_id/* drivers/scsi/sd_zbc.c 263 */;
+	struct scsi_cmnd *cocci_id/* drivers/scsi/sd_zbc.c 262 */;
+	void cocci_id/* drivers/scsi/sd_zbc.c 262 */;
+	struct blk_zone cocci_id/* drivers/scsi/sd_zbc.c 26 */;
+	report_zones_cb cocci_id/* drivers/scsi/sd_zbc.c 23 */;
+	u8 *cocci_id/* drivers/scsi/sd_zbc.c 22 */;
+	unsigned char cocci_id/* drivers/scsi/sd_zbc.c 218 */;
+	blk_status_t cocci_id/* drivers/scsi/sd_zbc.c 217 */;
+	size_t cocci_id/* drivers/scsi/sd_zbc.c 119 */;
+	struct request_queue *cocci_id/* drivers/scsi/sd_zbc.c 118 */;
+	size_t *cocci_id/* drivers/scsi/sd_zbc.c 116 */;
+	unsigned int cocci_id/* drivers/scsi/sd_zbc.c 116 */;
+	struct scsi_disk *cocci_id/* drivers/scsi/sd_zbc.c 115 */;
+	void *cocci_id/* drivers/scsi/sd_zbc.c 115 */;
+}

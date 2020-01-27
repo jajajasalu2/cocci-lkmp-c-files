@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	u64 *cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 972 */;
+	struct ehea_mr *cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 931 */;
+	void *cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 782 */;
+	void cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 718 */;
+	struct ehea_page *cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 69 */;
+	unsigned long cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 651 */;
+	int cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 651 */;
+	u8 *cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 65 */;
+	struct ehea_bmap cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 616 */;
+	struct ehea_dir_bmap *cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 582 */;
+	struct ehea_top_bmap cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 556 */;
+	struct ehea_dir_bmap cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 545 */;
+	struct ehea_top_bmap *cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 540 */;
+	struct ehea_qp_init_attr *cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 398 */;
+	struct ehea_qp *cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 397 */;
+	u8 cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 392 */;
+	struct hw_queue *cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 357 */;
+	struct ehea_eqe *cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 303 */;
+	struct ehea_eqe cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 256 */;
+	const u8 cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 231 */;
+	const u32 cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 231 */;
+	const enum ehea_eq_type cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 230 */;
+	struct ehea_bmap *cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 23 */;
+	struct ehea_eq *cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 229 */;
+	struct ehea_cqe cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 135 */;
+	u64 cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 109 */;
+	u32 cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 109 */;
+	struct ehea_cq *cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 108 */;
+	struct ehea_adapter *cocci_id/* drivers/net/ethernet/ibm/ehea/ehea_qmr.c 108 */;
+}

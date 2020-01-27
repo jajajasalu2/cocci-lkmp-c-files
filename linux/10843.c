@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	u64 cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 990 */;
+	struct amdgpu_ring *cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 985 */;
+	unsigned int cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 983 */;
+	unsigned cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 893 */;
+	int cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 890 */;
+	u32 cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 889 */;
+	bool cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 887 */;
+	struct amdgpu_device *cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 887 */;
+	void cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 887 */;
+	void cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 82 */(struct amdgpu_device *adev);
+	struct amdgpu_ring *cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 808 */[AMDGPU_MAX_SDMA_INSTANCES];
+	const struct nbio_hdp_flush_reg *cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 750 */;
+	struct amdgpu_job *cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 694 */;
+	u64 *cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 635 */;
+	const struct common_firmware_header *cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 449 */;
+	struct amdgpu_firmware_info *cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 448 */;
+	char cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 446 */[30];
+	const char *cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 445 */;
+	struct amdgpu_sdma_instance cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 428 */;
+	void *cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 427 */;
+	const struct sdma_firmware_header_v1_0 *cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 397 */;
+	struct amdgpu_sdma_instance *cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 394 */;
+	const struct amdgpu_ip_block_version cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 2418 */;
+	struct drm_gpu_scheduler *cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 2403 */;
+	const struct amdgpu_vm_pte_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 2393 */;
+	const struct amdgpu_buffer_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 2374 */;
+	uint32_t cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 2340 */;
+	uint64_t cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 2338 */;
+	struct amdgpu_ib *cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 2337 */;
+	const struct amdgpu_irq_src_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 2296 */;
+	const struct amdgpu_ring_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 2199 */;
+	const struct amd_ip_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 2113 */;
+	u32 *cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 2094 */;
+	enum amd_powergating_state cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 2078 */;
+	enum amd_clockgating_state cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 2052 */;
+	enum amdgpu_interrupt_state cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 1974 */;
+	struct amdgpu_iv_entry *cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 1953 */;
+	struct amdgpu_irq_src *cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 1952 */;
+	u32 cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 1863 */[AMDGPU_MAX_SDMA_INSTANCES];
+	struct ras_ih_if cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 1700 */;
+	int cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 1693 */(struct amdgpu_device *adev,
+								      void *err_data,
+								      struct amdgpu_iv_entry *entry);
+	uint cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 1646 */;
+	const struct soc15_reg_golden cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 148 */[];
+	struct dma_fence *cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 1428 */;
+	struct amdgpu_ib cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 1427 */;
+	long cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 1424 */;
+	const __le32 *cocci_id/* drivers/gpu/drm/amd/amdgpu/sdma_v4_0.c 1245 */;
+}

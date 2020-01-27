@@ -1,0 +1,64 @@
+cocci_test_suite() {
+	struct btrfs_qgroup_status_item cocci_id/* fs/btrfs/qgroup.c 948 */;
+	struct btrfs_qgroup_status_item *cocci_id/* fs/btrfs/qgroup.c 884 */;
+	struct btrfs_qgroup_limit_item cocci_id/* fs/btrfs/qgroup.c 641 */;
+	struct btrfs_qgroup_info_item cocci_id/* fs/btrfs/qgroup.c 622 */;
+	struct btrfs_key cocci_id/* fs/btrfs/qgroup.c 596 */;
+	struct extent_buffer *cocci_id/* fs/btrfs/qgroup.c 595 */;
+	struct btrfs_qgroup_limit_item *cocci_id/* fs/btrfs/qgroup.c 594 */;
+	struct btrfs_qgroup_info_item *cocci_id/* fs/btrfs/qgroup.c 593 */;
+	struct btrfs_path *cocci_id/* fs/btrfs/qgroup.c 592 */;
+	const char *cocci_id/* fs/btrfs/qgroup.c 56 */;
+	struct btrfs_qgroup_swapped_block cocci_id/* fs/btrfs/qgroup.c 3889 */;
+	struct btrfs_qgroup_swapped_block *cocci_id/* fs/btrfs/qgroup.c 3833 */;
+	struct btrfs_qgroup_swapped_blocks *cocci_id/* fs/btrfs/qgroup.c 3832 */;
+	struct btrfs_block_group *cocci_id/* fs/btrfs/qgroup.c 3826 */;
+	struct rb_root *cocci_id/* fs/btrfs/qgroup.c 3800 */;
+	s64 cocci_id/* fs/btrfs/qgroup.c 3676 */;
+	struct btrfs_fs_info *cocci_id/* fs/btrfs/qgroup.c 3663 */;
+	enum btrfs_qgroup_rsv_type cocci_id/* fs/btrfs/qgroup.c 3661 */;
+	struct btrfs_root *cocci_id/* fs/btrfs/qgroup.c 3660 */;
+	int cocci_id/* fs/btrfs/qgroup.c 3660 */;
+	void cocci_id/* fs/btrfs/qgroup.c 3660 */;
+	bool cocci_id/* fs/btrfs/qgroup.c 3619 */;
+	struct extent_changeset cocci_id/* fs/btrfs/qgroup.c 3508 */;
+	u64 cocci_id/* fs/btrfs/qgroup.c 3505 */;
+	struct extent_changeset *cocci_id/* fs/btrfs/qgroup.c 3505 */;
+	struct inode *cocci_id/* fs/btrfs/qgroup.c 3504 */;
+	struct extent_changeset **cocci_id/* fs/btrfs/qgroup.c 3395 */;
+	struct btrfs_fs_info cocci_id/* fs/btrfs/qgroup.c 3130 */;
+	struct btrfs_work *cocci_id/* fs/btrfs/qgroup.c 3128 */;
+	const struct btrfs_qgroup *cocci_id/* fs/btrfs/qgroup.c 2833 */;
+	u32 cocci_id/* fs/btrfs/qgroup.c 2634 */;
+	u64 *cocci_id/* fs/btrfs/qgroup.c 2628 */;
+	struct btrfs_qgroup_inherit *cocci_id/* fs/btrfs/qgroup.c 2624 */;
+	struct btrfs_qgroup_extent_record cocci_id/* fs/btrfs/qgroup.c 2516 */;
+	struct btrfs_delayed_ref_root *cocci_id/* fs/btrfs/qgroup.c 2506 */;
+	struct btrfs_qgroup_extent_record *cocci_id/* fs/btrfs/qgroup.c 2505 */;
+	struct btrfs_qgroup_list cocci_id/* fs/btrfs/qgroup.c 230 */;
+	struct btrfs_qgroup_list *cocci_id/* fs/btrfs/qgroup.c 225 */;
+	struct btrfs_qgroup *cocci_id/* fs/btrfs/qgroup.c 223 */;
+	struct btrfs_qgroup cocci_id/* fs/btrfs/qgroup.c 198 */;
+	struct rb_node *cocci_id/* fs/btrfs/qgroup.c 193 */;
+	struct rb_node **cocci_id/* fs/btrfs/qgroup.c 192 */;
+	void cocci_id/* fs/btrfs/qgroup.c 167 */(struct btrfs_fs_info *fs_info);
+	struct btrfs_file_extent_item cocci_id/* fs/btrfs/qgroup.c 1655 */;
+	struct btrfs_file_extent_item *cocci_id/* fs/btrfs/qgroup.c 1642 */;
+	int cocci_id/* fs/btrfs/qgroup.c 164 */(struct btrfs_fs_info *fs_info,
+						u64 progress_objectid,
+						int init_flags);
+	gfp_t cocci_id/* fs/btrfs/qgroup.c 1606 */;
+	uintptr_t cocci_id/* fs/btrfs/qgroup.c 156 */;
+	const u64 cocci_id/* fs/btrfs/qgroup.c 1475 */;
+	struct btrfs_qgroup_list {
+		struct list_head next_group;
+		struct list_head next_member;
+		struct btrfs_qgroup *group;
+		struct btrfs_qgroup *member;
+	} cocci_id/* fs/btrfs/qgroup.c 147 */;
+	struct btrfs_qgroup_limit *cocci_id/* fs/btrfs/qgroup.c 1465 */;
+	struct ulist *cocci_id/* fs/btrfs/qgroup.c 1314 */;
+	struct btrfs_trans_handle *cocci_id/* fs/btrfs/qgroup.c 1306 */;
+	struct ulist_iterator cocci_id/* fs/btrfs/qgroup.c 1146 */;
+	struct ulist_node *cocci_id/* fs/btrfs/qgroup.c 1145 */;
+}

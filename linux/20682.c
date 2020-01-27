@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct vm_area_struct *cocci_id/* arch/x86/mm/pat.c 965 */;
+	unsigned long cocci_id/* arch/x86/mm/pat.c 949 */;
+	unsigned long long cocci_id/* arch/x86/mm/pat.c 868 */;
+	pgprot_t *cocci_id/* arch/x86/mm/pat.c 826 */;
+	resource_size_t cocci_id/* arch/x86/mm/pat.c 783 */;
+	enum page_cache_mode *cocci_id/* arch/x86/mm/pat.c 736 */;
+	bool cocci_id/* arch/x86/mm/pat.c 67 */;
+	struct memtype *cocci_id/* arch/x86/mm/pat.c 630 */;
+	char *cocci_id/* arch/x86/mm/pat.c 60 */;
+	int __init cocci_id/* arch/x86/mm/pat.c 60 */;
+	struct page *cocci_id/* arch/x86/mm/pat.c 506 */;
+	const char *cocci_id/* arch/x86/mm/pat.c 46 */;
+	struct pagerange_state cocci_id/* arch/x86/mm/pat.c 429 */;
+	struct pagerange_state *cocci_id/* arch/x86/mm/pat.c 415 */;
+	bool __read_mostly cocci_id/* arch/x86/mm/pat.c 41 */;
+	struct pagerange_state {
+		unsigned long cur_pfn;
+		int ram;
+		int not_ram;
+	} cocci_id/* arch/x86/mm/pat.c 406 */;
+	u8 cocci_id/* arch/x86/mm/pat.c 394 */;
+	struct cpuinfo_x86 *cocci_id/* arch/x86/mm/pat.c 306 */;
+	int cocci_id/* arch/x86/mm/pat.c 198 */;
+	char cocci_id/* arch/x86/mm/pat.c 197 */[33];
+	enum page_cache_mode cocci_id/* arch/x86/mm/pat.c 196 */;
+	u64 cocci_id/* arch/x86/mm/pat.c 194 */;
+	void cocci_id/* arch/x86/mm/pat.c 194 */;
+	unsigned cocci_id/* arch/x86/mm/pat.c 167 */;
+	enum{PAT_UC=0, PAT_WC=1, PAT_WT=4, PAT_WP=5, PAT_WB=6, PAT_UC_MINUS=7,} cocci_id/* arch/x86/mm/pat.c 156 */;
+	const struct file_operations cocci_id/* arch/x86/mm/pat.c 1166 */;
+	struct inode *cocci_id/* arch/x86/mm/pat.c 1161 */;
+	struct file *cocci_id/* arch/x86/mm/pat.c 1161 */;
+	const struct seq_operations cocci_id/* arch/x86/mm/pat.c 1154 */;
+	loff_t *cocci_id/* arch/x86/mm/pat.c 1133 */;
+	struct seq_file *cocci_id/* arch/x86/mm/pat.c 1133 */;
+	void *cocci_id/* arch/x86/mm/pat.c 1133 */;
+	struct memtype cocci_id/* arch/x86/mm/pat.c 1107 */;
+	loff_t cocci_id/* arch/x86/mm/pat.c 1102 */;
+	pgprot_t cocci_id/* arch/x86/mm/pat.c 1086 */;
+	pfn_t cocci_id/* arch/x86/mm/pat.c 1034 */;
+}

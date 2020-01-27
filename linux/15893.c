@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	int cocci_id/* drivers/staging/isdn/gigaset/common.c 818 */;
+	struct cmdbuf_t *cocci_id/* drivers/staging/isdn/gigaset/common.c 817 */;
+	void cocci_id/* drivers/staging/isdn/gigaset/common.c 815 */;
+	struct sk_buff *cocci_id/* drivers/staging/isdn/gigaset/common.c 784 */;
+	struct inbuf_t cocci_id/* drivers/staging/isdn/gigaset/common.c 711 */;
+	struct bc_state cocci_id/* drivers/staging/isdn/gigaset/common.c 710 */;
+	const char *cocci_id/* drivers/staging/isdn/gigaset/common.c 668 */;
+	struct inbuf_t *cocci_id/* drivers/staging/isdn/gigaset/common.c 563 */;
+	unsigned char *cocci_id/* drivers/staging/isdn/gigaset/common.c 54 */;
+	unsigned char cocci_id/* drivers/staging/isdn/gigaset/common.c 52 */;
+	struct bc_state *cocci_id/* drivers/staging/isdn/gigaset/common.c 517 */;
+	unsigned char cocci_id/* drivers/staging/isdn/gigaset/common.c 51 */[80];
+	size_t cocci_id/* drivers/staging/isdn/gigaset/common.c 49 */;
+	enum debuglevel cocci_id/* drivers/staging/isdn/gigaset/common.c 48 */;
+	const unsigned char *cocci_id/* drivers/staging/isdn/gigaset/common.c 48 */;
+	unsigned cocci_id/* drivers/staging/isdn/gigaset/common.c 405 */;
+	unsigned long cocci_id/* drivers/staging/isdn/gigaset/common.c 404 */;
+	struct gigaset_driver *cocci_id/* drivers/staging/isdn/gigaset/common.c 402 */;
+	struct cardstate *cocci_id/* drivers/staging/isdn/gigaset/common.c 402 */;
+	struct at_state_t *cocci_id/* drivers/staging/isdn/gigaset/common.c 362 */;
+	void *cocci_id/* drivers/staging/isdn/gigaset/common.c 331 */;
+	struct event_t *cocci_id/* drivers/staging/isdn/gigaset/common.c 295 */;
+	struct timer_list *cocci_id/* drivers/staging/isdn/gigaset/common.c 153 */;
+	void __exit cocci_id/* drivers/staging/isdn/gigaset/common.c 1142 */;
+	int __init cocci_id/* drivers/staging/isdn/gigaset/common.c 1128 */;
+	struct module *cocci_id/* drivers/staging/isdn/gigaset/common.c 1070 */;
+	const struct gigaset_ops *cocci_id/* drivers/staging/isdn/gigaset/common.c 1069 */;
+	struct tty_struct *cocci_id/* drivers/staging/isdn/gigaset/common.c 1026 */;
+}

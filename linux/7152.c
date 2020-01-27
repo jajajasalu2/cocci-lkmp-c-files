@@ -1,0 +1,86 @@
+cocci_test_suite() {
+	struct gnttab_copy *cocci_id/* drivers/xen/grant-table.c 970 */;
+	struct gnttab_map_grant_ref *cocci_id/* drivers/xen/grant-table.c 957 */;
+	int16_t *cocci_id/* drivers/xen/grant-table.c 940 */;
+	struct gnttab_ops {
+		unsigned int version;
+		unsigned int grefs_per_grant_frame;
+		int (*map_frames)(xen_pfn_t *frames, unsigned int nr_gframes);
+		void (*unmap_frames)(void);
+		void (*update_entry)(grant_ref_t ref, domid_t domid,
+				     unsigned long frame, unsigned flags);
+		int (*end_foreign_access_ref)(grant_ref_t ref, int readonly);
+		unsigned long (*end_foreign_transfer_ref)(grant_ref_t ref);
+		int (*query_foreign_access)(grant_ref_t ref);
+	} cocci_id/* drivers/xen/grant-table.c 90 */;
+	size_t cocci_id/* drivers/xen/grant-table.c 852 */;
+	struct gnttab_dma_alloc_args *cocci_id/* drivers/xen/grant-table.c 849 */;
+	union {
+		struct grant_entry_v1 *v1;
+		union grant_entry_v2 *v2;
+		void *addr;
+	} cocci_id/* drivers/xen/grant-table.c 83 */;
+	struct page **cocci_id/* drivers/xen/grant-table.c 801 */;
+	struct grant_frames cocci_id/* drivers/xen/grant-table.c 79 */;
+	grant_ref_t **cocci_id/* drivers/xen/grant-table.c 74 */;
+	phys_addr_t cocci_id/* drivers/xen/grant-table.c 730 */;
+	struct gnttab_query_size cocci_id/* drivers/xen/grant-table.c 703 */;
+	unsigned int cocci_id/* drivers/xen/grant-table.c 701 */;
+	struct gnttab_free_callback **cocci_id/* drivers/xen/grant-table.c 641 */;
+	void (*cocci_id/* drivers/xen/grant-table.c 613 */)(void *);
+	const grant_ref_t *cocci_id/* drivers/xen/grant-table.c 588 */;
+	u16 cocci_id/* drivers/xen/grant-table.c 575 */;
+	const char *cocci_id/* drivers/xen/grant-table.c 417 */;
+	struct deferred_entry *cocci_id/* drivers/xen/grant-table.c 416 */;
+	struct page *cocci_id/* drivers/xen/grant-table.c 414 */;
+	bool cocci_id/* drivers/xen/grant-table.c 413 */;
+	struct deferred_entry cocci_id/* drivers/xen/grant-table.c 378 */;
+	struct timer_list *cocci_id/* drivers/xen/grant-table.c 368 */;
+	void cocci_id/* drivers/xen/grant-table.c 365 */(struct timer_list *);
+	struct deferred_entry {
+		struct list_head list;
+		grant_ref_t ref;
+		bool ro;
+		uint16_t warn_delay;
+		struct page *page;
+	} cocci_id/* drivers/xen/grant-table.c 357 */;
+	u16 *cocci_id/* drivers/xen/grant-table.c 307 */;
+	domid_t cocci_id/* drivers/xen/grant-table.c 273 */;
+	struct gnttab_free_callback *cocci_id/* drivers/xen/grant-table.c 198 */;
+	unsigned cocci_id/* drivers/xen/grant-table.c 170 */;
+	grant_ref_t cocci_id/* drivers/xen/grant-table.c 163 */;
+	grant_ref_t *cocci_id/* drivers/xen/grant-table.c 163 */;
+	grant_status_t cocci_id/* drivers/xen/grant-table.c 161 */;
+	int cocci_id/* drivers/xen/grant-table.c 158 */(unsigned int req_entries);
+	grant_status_t *cocci_id/* drivers/xen/grant-table.c 154 */;
+	const struct gnttab_ops *cocci_id/* drivers/xen/grant-table.c 151 */;
+	int cocci_id/* drivers/xen/grant-table.c 1472 */;
+	void cocci_id/* drivers/xen/grant-table.c 1472 */;
+	struct unmap_refs_callback_data {
+		struct completion completion;
+		int result;
+	} cocci_id/* drivers/xen/grant-table.c 146 */;
+	struct gnttab_set_version cocci_id/* drivers/xen/grant-table.c 1333 */;
+	long cocci_id/* drivers/xen/grant-table.c 1332 */;
+	uint32_t cocci_id/* drivers/xen/grant-table.c 1316 */;
+	union grant_entry_v2 cocci_id/* drivers/xen/grant-table.c 1304 */;
+	struct grant_entry_v1 cocci_id/* drivers/xen/grant-table.c 1292 */;
+	const struct gnttab_ops cocci_id/* drivers/xen/grant-table.c 1289 */;
+	struct xen_add_to_physmap cocci_id/* drivers/xen/grant-table.c 1239 */;
+	xen_pfn_t *cocci_id/* drivers/xen/grant-table.c 1234 */;
+	struct gnttab_setup_table cocci_id/* drivers/xen/grant-table.c 1233 */;
+	uint64_t cocci_id/* drivers/xen/grant-table.c 1194 */;
+	struct gnttab_get_status_frames cocci_id/* drivers/xen/grant-table.c 1186 */;
+	uint64_t *cocci_id/* drivers/xen/grant-table.c 1184 */;
+	struct unmap_refs_callback_data cocci_id/* drivers/xen/grant-table.c 1148 */;
+	struct unmap_refs_callback_data *cocci_id/* drivers/xen/grant-table.c 1140 */;
+	unsigned long cocci_id/* drivers/xen/grant-table.c 1116 */;
+	struct gntab_unmap_queue_data *cocci_id/* drivers/xen/grant-table.c 1109 */;
+	struct gntab_unmap_queue_data cocci_id/* drivers/xen/grant-table.c 1102 */;
+	struct work_struct *cocci_id/* drivers/xen/grant-table.c 1098 */;
+	void cocci_id/* drivers/xen/grant-table.c 1096 */(struct gntab_unmap_queue_data *item);
+	struct gnttab_unmap_grant_ref *cocci_id/* drivers/xen/grant-table.c 1076 */;
+	struct xen_page_foreign *cocci_id/* drivers/xen/grant-table.c 1045 */;
+	void *cocci_id/* drivers/xen/grant-table.c 1012 */;
+	xen_grant_fn_t cocci_id/* drivers/xen/grant-table.c 1011 */;
+}

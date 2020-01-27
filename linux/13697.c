@@ -1,0 +1,56 @@
+cocci_test_suite() {
+	const u8 *cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 81 */;
+	unsigned cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 677 */;
+	bool cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 676 */;
+	const int cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 667 */[4];
+	const int cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 627 */[3][3];
+	const s8 cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 58 */[257];
+	int *cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 550 */;
+	struct tpg_data *cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 549 */;
+	int cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 549 */;
+	void cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 549 */;
+	const char *const cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 43 */[];
+	struct tpg_draw_params cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 2527 */;
+	v4l2_std_id cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 2524 */;
+	const struct v4l2_rect *cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 2289 */;
+	const struct tpg_draw_params *cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 2283 */;
+	struct tpg_draw_params *cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 2246 */;
+	struct tpg_draw_params {
+		bool is_tv;
+		bool is_60hz;
+		unsigned twopixsize;
+		unsigned img_width;
+		unsigned stride;
+		unsigned hmax;
+		unsigned frame_line;
+		unsigned frame_line_next;
+		unsigned mv_hor_old;
+		unsigned mv_hor_new;
+		unsigned mv_vert_old;
+		unsigned mv_vert_new;
+		unsigned wss_width;
+		unsigned wss_random_offset;
+		unsigned sav_eav_f;
+		unsigned left_pillar_width;
+		unsigned right_pillar_start;
+	} cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 2206 */;
+	enum tgp_color_enc cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 2162 */;
+	const char *cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 2162 */;
+	u8 *cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 2131 */[TPG_MAX_PLANES][2];
+	u8 *cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 2131 */;
+	const struct tpg_data *cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 2076 */;
+	char *cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 1957 */;
+	u32 cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 1953 */;
+	x24 cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 1946 */;
+	u16 cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 1939 */;
+	PIXTYPE *cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 1885 */;
+	PIXTYPE cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 1878 */;
+	struct {
+		u16 __;
+		u8 _;
+	}__packed cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 1872 */;
+	const enum tpg_color cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 1591 */[3][8];
+	enum tpg_color cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 1586 */;
+	u8 cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 1101 */;
+	u8 cocci_id/* drivers/media/common/v4l2-tpg/v4l2-tpg-core.c 1098 */[TPG_MAX_PLANES][8];
+}

@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	void __user *cocci_id/* drivers/misc/phantom.c 91 */;
+	struct phm_reg cocci_id/* drivers/misc/phantom.c 90 */;
+	struct phm_regs cocci_id/* drivers/misc/phantom.c 89 */;
+	struct phantom_device *cocci_id/* drivers/misc/phantom.c 88 */;
+	unsigned char cocci_id/* drivers/misc/phantom.c 60 */[PHANTOM_MAX_MINORS];
+	void __exit cocci_id/* drivers/misc/phantom.c 549 */;
+	void cocci_id/* drivers/misc/phantom.c 549 */;
+	dev_t cocci_id/* drivers/misc/phantom.c 508 */;
+	int cocci_id/* drivers/misc/phantom.c 507 */;
+	int __init cocci_id/* drivers/misc/phantom.c 505 */;
+	struct pci_driver cocci_id/* drivers/misc/phantom.c 494 */;
+	struct pci_device_id cocci_id/* drivers/misc/phantom.c 486 */[];
+	pm_message_t cocci_id/* drivers/misc/phantom.c 461 */;
+	struct phantom_device {
+		unsigned int opened;
+		void __iomem *caddr;
+		u32 __iomem *iaddr;
+		u32 __iomem *oaddr;
+		unsigned long status;
+		atomic_t counter;
+		wait_queue_head_t wait;
+		struct cdev cdev;
+		struct mutex open_lock;
+		spinlock_t regs_lock;
+		struct phm_regs oregs;
+		u32 ctl_reg;
+	} cocci_id/* drivers/misc/phantom.c 41 */;
+	struct class *cocci_id/* drivers/misc/phantom.c 38 */;
+	const struct pci_device_id *cocci_id/* drivers/misc/phantom.c 335 */;
+	struct pci_dev *cocci_id/* drivers/misc/phantom.c 334 */;
+	struct phm_regs *cocci_id/* drivers/misc/phantom.c 299 */;
+	irqreturn_t cocci_id/* drivers/misc/phantom.c 282 */;
+	const struct file_operations cocci_id/* drivers/misc/phantom.c 273 */;
+	__poll_t cocci_id/* drivers/misc/phantom.c 255 */;
+	poll_table *cocci_id/* drivers/misc/phantom.c 255 */;
+	struct phantom_device cocci_id/* drivers/misc/phantom.c 213 */;
+	struct inode *cocci_id/* drivers/misc/phantom.c 210 */;
+	void *cocci_id/* drivers/misc/phantom.c 202 */;
+	unsigned long cocci_id/* drivers/misc/phantom.c 198 */;
+	struct file *cocci_id/* drivers/misc/phantom.c 197 */;
+	unsigned int cocci_id/* drivers/misc/phantom.c 197 */;
+	long cocci_id/* drivers/misc/phantom.c 197 */;
+	u32 cocci_id/* drivers/misc/phantom.c 137 */;
+}

@@ -1,0 +1,80 @@
+cocci_test_suite() {
+	u64 *cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 956 */;
+	struct bgx_link_status cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 930 */;
+	struct pkind_cfg *cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 888 */;
+	struct set_ptp *cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 886 */;
+	struct pfc cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 864 */;
+	struct pfc *cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 861 */;
+	bool cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 846 */;
+	struct reset_stat_cfg *cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 786 */;
+	struct set_loopback *cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 760 */;
+	int cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 738 */;
+	union nic_mbx cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 737 */;
+	struct sqs_alloc *cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 735 */;
+	struct nicpf *cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 735 */;
+	void cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 735 */;
+	struct nicvf_ptr *cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 706 */;
+	const struct pci_device_id cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 67 */[];
+	struct sq_cfg_msg *cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 612 */;
+	struct rss_cfg_msg *cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 565 */;
+	u8 cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 478 */;
+	u64 cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 477 */;
+	u32 cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 475 */;
+	struct hw_info *cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 474 */;
+	struct cpi_cfg_msg *cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 472 */;
+	struct nicpf {
+		struct pci_dev *pdev;
+		struct hw_info *hw;
+		u8 node;
+		unsigned int flags;
+		u8 num_vf_en;
+		bool vf_enabled[MAX_NUM_VFS_SUPPORTED];
+		void __iomem *reg_base;
+		u8 num_sqs_en;
+		u64 nicvf[MAX_NUM_VFS_SUPPORTED];
+		u8 vf_sqs[MAX_NUM_VFS_SUPPORTED][MAX_SQS_PER_VF];
+		u8 pqs_vf[MAX_NUM_VFS_SUPPORTED];
+		bool sqs_used[MAX_NUM_VFS_SUPPORTED];
+		struct pkind_cfg pkind;
+#define NIC_SET_VF_LMAC_MAP (bgx, lmac)(((bgx & 0xF) << 4) | (lmac & 0xF))
+#define NIC_GET_BGX_FROM_VF_LMAC_MAP (map)((map >> 4) & 0xF)
+#define NIC_GET_LMAC_FROM_VF_LMAC_MAP (map)(map & 0xF)
+								u8 *vf_lmac_map;
+		u16 cpi_base[MAX_NUM_VFS_SUPPORTED];
+		u16 rssi_base[MAX_NUM_VFS_SUPPORTED];
+		u8 num_vec;
+		bool irq_allocated[NIC_PF_MSIX_VECTORS];
+		char irq_name[NIC_PF_MSIX_VECTORS][20];
+	} cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 39 */;
+	u16 cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 359 */;
+	unsigned cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 319 */;
+	struct bgx_stats_msg *cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 231 */;
+	struct hw_info {
+		u8 bgx_cnt;
+		u8 chans_per_lmac;
+		u8 chans_per_bgx;
+		u8 chans_per_rgx;
+		u8 chans_per_lbk;
+		u16 cpi_cnt;
+		u16 rssi_cnt;
+		u16 rss_ind_tbl_size;
+		u16 tl4_cnt;
+		u16 tl3_cnt;
+		u8 tl2_cnt;
+		u8 tl1_cnt;
+		bool tl1_per_bgx;
+	} cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 23 */;
+	u8 *cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 175 */;
+	const char *cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 162 */;
+	void __exit cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 1417 */;
+	int __init cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 1410 */;
+	struct pci_driver cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 1403 */;
+	void __iomem *cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 135 */;
+	union nic_mbx *cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 133 */;
+	struct hw_info cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 1304 */;
+	struct device *cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 1293 */;
+	const struct pci_device_id *cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 1291 */;
+	struct pci_dev *cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 1291 */;
+	irqreturn_t cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 1146 */;
+	void *cocci_id/* drivers/net/ethernet/cavium/thunder/nic_main.c 1146 */;
+}

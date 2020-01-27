@@ -1,0 +1,57 @@
+cocci_test_suite() {
+	struct palmas_gpadc {
+		struct device *dev;
+		struct palmas *palmas;
+		u8 ch0_current;
+		u8 ch3_current;
+		bool extended_delay;
+		int irq;
+		int irq_auto_0;
+		int irq_auto_1;
+		struct palmas_gpadc_info *adc_info;
+		struct completion conv_completion;
+		struct palmas_adc_wakeup_property wakeup1_data;
+		struct palmas_adc_wakeup_property wakeup2_data;
+		bool wakeup1_enable;
+		bool wakeup2_enable;
+		int auto_conversion_period;
+	} cocci_id/* drivers/iio/adc/palmas_gpadc.c 98 */;
+	void __exit cocci_id/* drivers/iio/adc/palmas_gpadc.c 846 */;
+	void cocci_id/* drivers/iio/adc/palmas_gpadc.c 846 */;
+	int __init cocci_id/* drivers/iio/adc/palmas_gpadc.c 840 */;
+	struct platform_driver cocci_id/* drivers/iio/adc/palmas_gpadc.c 830 */;
+	const struct of_device_id cocci_id/* drivers/iio/adc/palmas_gpadc.c 824 */[];
+	const struct dev_pm_ops cocci_id/* drivers/iio/adc/palmas_gpadc.c 819 */;
+	struct device *cocci_id/* drivers/iio/adc/palmas_gpadc.c 795 */;
+	struct palmas_gpadc *cocci_id/* drivers/iio/adc/palmas_gpadc.c 649 */;
+	int cocci_id/* drivers/iio/adc/palmas_gpadc.c 649 */;
+	struct palmas_gpadc_info cocci_id/* drivers/iio/adc/palmas_gpadc.c 60 */[];
+	struct iio_dev *cocci_id/* drivers/iio/adc/palmas_gpadc.c 494 */;
+	struct palmas_platform_data *cocci_id/* drivers/iio/adc/palmas_gpadc.c 492 */;
+	u32 cocci_id/* drivers/iio/adc/palmas_gpadc.c 467 */;
+	struct palmas_gpadc_platform_data *cocci_id/* drivers/iio/adc/palmas_gpadc.c 465 */;
+	struct device_node *cocci_id/* drivers/iio/adc/palmas_gpadc.c 464 */;
+	struct palmas_gpadc_platform_data **cocci_id/* drivers/iio/adc/palmas_gpadc.c 462 */;
+	struct platform_device *cocci_id/* drivers/iio/adc/palmas_gpadc.c 461 */;
+	const struct iio_chan_spec cocci_id/* drivers/iio/adc/palmas_gpadc.c 442 */[];
+	const struct iio_info cocci_id/* drivers/iio/adc/palmas_gpadc.c 428 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/adc/palmas_gpadc.c 383 */;
+	int *cocci_id/* drivers/iio/adc/palmas_gpadc.c 383 */;
+	long cocci_id/* drivers/iio/adc/palmas_gpadc.c 383 */;
+	struct palmas_gpadc_info {
+		int x1;
+		int x2;
+		int v1;
+		int v2;
+		u8 trim1_reg;
+		u8 trim2_reg;
+		int gain;
+		int offset;
+		int gain_error;
+		bool is_uncalibrated;
+	} cocci_id/* drivers/iio/adc/palmas_gpadc.c 32 */;
+	unsigned int cocci_id/* drivers/iio/adc/palmas_gpadc.c 216 */;
+	bool cocci_id/* drivers/iio/adc/palmas_gpadc.c 194 */;
+	irqreturn_t cocci_id/* drivers/iio/adc/palmas_gpadc.c 174 */;
+	void *cocci_id/* drivers/iio/adc/palmas_gpadc.c 174 */;
+}

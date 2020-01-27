@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	void *cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 77 */;
+	struct dvb_ringbuffer *cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 76 */[];
+	struct dvb_ringbuffer *cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 58 */;
+	int cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 372 */;
+	struct dvb_device cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 352 */;
+	const struct file_operations cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 341 */;
+	struct ca_descr *cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 297 */;
+	struct ca_descr_info cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 287 */;
+	struct ca_slot_info cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 275 */;
+	u16 cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 27 */;
+	u8 *cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 27 */;
+	struct av7110 *cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 27 */;
+	void cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 27 */;
+	struct ca_caps cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 253 */;
+	struct dvb_device *cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 236 */;
+	unsigned int cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 234 */;
+	__poll_t cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 212 */;
+	poll_table *cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 212 */;
+	struct inode *cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 198 */;
+	loff_t *cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 173 */;
+	char __user *cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 173 */;
+	size_t cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 173 */;
+	struct file *cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 172 */;
+	ssize_t cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 172 */;
+	unsigned long cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 168 */;
+	const char __user *cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 134 */;
+	u8 cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 112 */[8];
+	struct ca_slot_info *cocci_id/* drivers/media/pci/ttpci/av7110_ca.c 108 */;
+}

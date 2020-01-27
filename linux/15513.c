@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	struct st21nfca_hci_info cocci_id/* drivers/nfc/st21nfca/core.c 951 */;
+	unsigned long cocci_id/* drivers/nfc/st21nfca/core.c 949 */;
+	struct nfc_hci_init_data cocci_id/* drivers/nfc/st21nfca/core.c 948 */;
+	u32 cocci_id/* drivers/nfc/st21nfca/core.c 947 */;
+	struct st21nfca_se_status *cocci_id/* drivers/nfc/st21nfca/core.c 942 */;
+	struct nfc_hci_dev **cocci_id/* drivers/nfc/st21nfca/core.c 941 */;
+	char *cocci_id/* drivers/nfc/st21nfca/core.c 940 */;
+	struct st21nfca_pipe_info {
+		u8 pipe_state;
+		u8 src_host_id;
+		u8 src_gate_id;
+		u8 dst_host_id;
+		u8 dst_gate_id;
+	}__packed cocci_id/* drivers/nfc/st21nfca/core.c 94 */;
+	struct nfc_phy_ops *cocci_id/* drivers/nfc/st21nfca/core.c 939 */;
+	struct nfc_hci_ops cocci_id/* drivers/nfc/st21nfca/core.c 916 */;
+	struct st21nfca_hci_info *cocci_id/* drivers/nfc/st21nfca/core.c 861 */;
+	struct sk_buff *cocci_id/* drivers/nfc/st21nfca/core.c 859 */;
+	u8 cocci_id/* drivers/nfc/st21nfca/core.c 858 */;
+	struct nfc_hci_dev *cocci_id/* drivers/nfc/st21nfca/core.c 858 */;
+	int cocci_id/* drivers/nfc/st21nfca/core.c 858 */;
+	data_exchange_cb_t cocci_id/* drivers/nfc/st21nfca/core.c 763 */;
+	struct nfc_hci_gate cocci_id/* drivers/nfc/st21nfca/core.c 75 */[];
+	void *cocci_id/* drivers/nfc/st21nfca/core.c 737 */;
+	u8 cocci_id/* drivers/nfc/st21nfca/core.c 623 */[NFC_NFCID1_MAXSIZE];
+	u16 cocci_id/* drivers/nfc/st21nfca/core.c 621 */;
+	size_t cocci_id/* drivers/nfc/st21nfca/core.c 599 */;
+	struct nfc_target *cocci_id/* drivers/nfc/st21nfca/core.c 570 */;
+	int *cocci_id/* drivers/nfc/st21nfca/core.c 547 */;
+	u8 *cocci_id/* drivers/nfc/st21nfca/core.c 524 */;
+	__be16 *cocci_id/* drivers/nfc/st21nfca/core.c 517 */;
+	u16 *cocci_id/* drivers/nfc/st21nfca/core.c 502 */;
+	__be32 cocci_id/* drivers/nfc/st21nfca/core.c 372 */;
+	u8 cocci_id/* drivers/nfc/st21nfca/core.c 320 */[19];
+	u8 cocci_id/* drivers/nfc/st21nfca/core.c 250 */[2];
+	void cocci_id/* drivers/nfc/st21nfca/core.c 228 */;
+	u8 cocci_id/* drivers/nfc/st21nfca/core.c 111 */[];
+	struct st21nfca_pipe_info *cocci_id/* drivers/nfc/st21nfca/core.c 109 */;
+}

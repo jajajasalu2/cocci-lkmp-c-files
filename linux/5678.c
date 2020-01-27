@@ -1,0 +1,60 @@
+cocci_test_suite() {
+	const struct of_device_id cocci_id/* drivers/rtc/rtc-m41t80.c 88 */[];
+	bool cocci_id/* drivers/rtc/rtc-m41t80.c 876 */;
+	struct rtc_time cocci_id/* drivers/rtc/rtc-m41t80.c 874 */;
+	struct i2c_adapter *cocci_id/* drivers/rtc/rtc-m41t80.c 872 */;
+	const struct i2c_device_id *cocci_id/* drivers/rtc/rtc-m41t80.c 870 */;
+	struct notifier_block cocci_id/* drivers/rtc/rtc-m41t80.c 856 */;
+	struct miscdevice cocci_id/* drivers/rtc/rtc-m41t80.c 846 */;
+	const struct file_operations cocci_id/* drivers/rtc/rtc-m41t80.c 835 */;
+	struct notifier_block *cocci_id/* drivers/rtc/rtc-m41t80.c 826 */;
+	struct inode *cocci_id/* drivers/rtc/rtc-m41t80.c 784 */;
+	int __user *cocci_id/* drivers/rtc/rtc-m41t80.c 731 */;
+	struct watchdog_info __user *cocci_id/* drivers/rtc/rtc-m41t80.c 726 */;
+	const struct i2c_device_id cocci_id/* drivers/rtc/rtc-m41t80.c 72 */[];
+	struct watchdog_info cocci_id/* drivers/rtc/rtc-m41t80.c 717 */;
+	struct file *cocci_id/* drivers/rtc/rtc-m41t80.c 713 */;
+	loff_t *cocci_id/* drivers/rtc/rtc-m41t80.c 698 */;
+	size_t cocci_id/* drivers/rtc/rtc-m41t80.c 698 */;
+	char __user *cocci_id/* drivers/rtc/rtc-m41t80.c 697 */;
+	ssize_t cocci_id/* drivers/rtc/rtc-m41t80.c 697 */;
+	const char __user *cocci_id/* drivers/rtc/rtc-m41t80.c 687 */;
+	struct i2c_msg cocci_id/* drivers/rtc/rtc-m41t80.c 660 */[1];
+	struct i2c_msg cocci_id/* drivers/rtc/rtc-m41t80.c 646 */[2];
+	unsigned char cocci_id/* drivers/rtc/rtc-m41t80.c 645 */[2];
+	int cocci_id/* drivers/rtc/rtc-m41t80.c 597 */;
+	struct clk_init_data cocci_id/* drivers/rtc/rtc-m41t80.c 546 */;
+	struct device_node *cocci_id/* drivers/rtc/rtc-m41t80.c 544 */;
+	struct clk *cocci_id/* drivers/rtc/rtc-m41t80.c 541 */;
+	const struct clk_ops cocci_id/* drivers/rtc/rtc-m41t80.c 532 */;
+	void cocci_id/* drivers/rtc/rtc-m41t80.c 522 */;
+	struct clk_hw *cocci_id/* drivers/rtc/rtc-m41t80.c 497 */;
+	unsigned long *cocci_id/* drivers/rtc/rtc-m41t80.c 458 */;
+	long cocci_id/* drivers/rtc/rtc-m41t80.c 457 */;
+	struct m41t80_data *cocci_id/* drivers/rtc/rtc-m41t80.c 439 */;
+	unsigned long cocci_id/* drivers/rtc/rtc-m41t80.c 433 */;
+	struct m41t80_data cocci_id/* drivers/rtc/rtc-m41t80.c 431 */;
+	struct rtc_class_ops cocci_id/* drivers/rtc/rtc-m41t80.c 400 */;
+	u8 cocci_id/* drivers/rtc/rtc-m41t80.c 376 */[5];
+	struct rtc_wkalrm *cocci_id/* drivers/rtc/rtc-m41t80.c 373 */;
+	struct i2c_client *cocci_id/* drivers/rtc/rtc-m41t80.c 298 */;
+	struct device *cocci_id/* drivers/rtc/rtc-m41t80.c 296 */;
+	unsigned int cocci_id/* drivers/rtc/rtc-m41t80.c 296 */;
+	struct seq_file *cocci_id/* drivers/rtc/rtc-m41t80.c 280 */;
+	unsigned char cocci_id/* drivers/rtc/rtc-m41t80.c 200 */[8];
+	struct rtc_time *cocci_id/* drivers/rtc/rtc-m41t80.c 197 */;
+	struct mutex *cocci_id/* drivers/rtc/rtc-m41t80.c 161 */;
+	irqreturn_t cocci_id/* drivers/rtc/rtc-m41t80.c 157 */;
+	void *cocci_id/* drivers/rtc/rtc-m41t80.c 157 */;
+	struct m41t80_data {
+		unsigned long features;
+		struct i2c_client *client;
+		struct rtc_device *rtc;
+#ifdef CONFIG_COMMON_CLK
+		struct clk_hw sqw;
+		unsigned long freq;
+		unsigned int sqwe;
+#endif
+	} cocci_id/* drivers/rtc/rtc-m41t80.c 146 */;
+	struct i2c_driver cocci_id/* drivers/rtc/rtc-m41t80.c 1001 */;
+}

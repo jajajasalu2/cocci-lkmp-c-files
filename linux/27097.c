@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct xfs_bmbt_irec cocci_id/* fs/xfs/xfs_bmap_item.c 450 */;
+	struct xfs_inode *cocci_id/* fs/xfs/xfs_bmap_item.c 449 */;
+	xfs_exntst_t cocci_id/* fs/xfs/xfs_bmap_item.c 447 */;
+	enum xfs_bmap_intent_type cocci_id/* fs/xfs/xfs_bmap_item.c 445 */;
+	bool cocci_id/* fs/xfs/xfs_bmap_item.c 443 */;
+	xfs_fsblock_t cocci_id/* fs/xfs/xfs_bmap_item.c 440 */;
+	const struct xfs_defer_op_type cocci_id/* fs/xfs/xfs_bmap_item.c 417 */;
+	struct xfs_bmap_intent cocci_id/* fs/xfs/xfs_bmap_item.c 413 */;
+	struct xfs_bmap_intent *cocci_id/* fs/xfs/xfs_bmap_item.c 411 */;
+	struct list_head *cocci_id/* fs/xfs/xfs_bmap_item.c 409 */;
+	void *cocci_id/* fs/xfs/xfs_bmap_item.c 401 */;
+	void cocci_id/* fs/xfs/xfs_bmap_item.c 399 */;
+	xfs_filblks_t cocci_id/* fs/xfs/xfs_bmap_item.c 377 */;
+	void **cocci_id/* fs/xfs/xfs_bmap_item.c 374 */;
+	unsigned int cocci_id/* fs/xfs/xfs_bmap_item.c 363 */;
+	struct xfs_trans *cocci_id/* fs/xfs/xfs_bmap_item.c 361 */;
+	struct xfs_map_extent *cocci_id/* fs/xfs/xfs_bmap_item.c 335 */;
+	uint cocci_id/* fs/xfs/xfs_bmap_item.c 334 */;
+	struct xfs_bui_log_item cocci_id/* fs/xfs/xfs_bmap_item.c 31 */;
+	struct xfs_bui_log_item *cocci_id/* fs/xfs/xfs_bmap_item.c 29 */;
+	kmem_zone_t *cocci_id/* fs/xfs/xfs_bmap_item.c 27 */;
+	int cocci_id/* fs/xfs/xfs_bmap_item.c 267 */;
+	xfs_filblks_t *cocci_id/* fs/xfs/xfs_bmap_item.c 245 */;
+	xfs_fileoff_t cocci_id/* fs/xfs/xfs_bmap_item.c 243 */;
+	const struct xfs_item_ops cocci_id/* fs/xfs/xfs_bmap_item.c 207 */;
+	struct xfs_bud_log_format cocci_id/* fs/xfs/xfs_bmap_item.c 189 */;
+	struct xfs_log_iovec *cocci_id/* fs/xfs/xfs_bmap_item.c 183 */;
+	struct xfs_log_vec *cocci_id/* fs/xfs/xfs_bmap_item.c 180 */;
+	int *cocci_id/* fs/xfs/xfs_bmap_item.c 163 */;
+	struct xfs_bud_log_item cocci_id/* fs/xfs/xfs_bmap_item.c 157 */;
+	struct xfs_log_item *cocci_id/* fs/xfs/xfs_bmap_item.c 155 */;
+	struct xfs_bud_log_item *cocci_id/* fs/xfs/xfs_bmap_item.c 155 */;
+	uintptr_t cocci_id/* fs/xfs/xfs_bmap_item.c 148 */;
+	struct xfs_mount *cocci_id/* fs/xfs/xfs_bmap_item.c 139 */;
+}

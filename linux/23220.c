@@ -1,0 +1,93 @@
+cocci_test_suite() {
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/codecs/wm5100.c 856 */[];
+	struct snd_kcontrol *cocci_id/* sound/soc/codecs/wm5100.c 772 */;
+	struct snd_soc_dapm_widget *cocci_id/* sound/soc/codecs/wm5100.c 771 */;
+	u16 cocci_id/* sound/soc/codecs/wm5100.c 737 */;
+	enum snd_soc_dapm_type cocci_id/* sound/soc/codecs/wm5100.c 734 */;
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/wm5100.c 523 */[];
+	struct wm5100_priv {
+		struct device *dev;
+		struct regmap *regmap;
+		struct snd_soc_component *component;
+		struct regulator_bulk_data core_supplies[WM5100_NUM_CORE_SUPPLIES];
+		int rev;
+		int sysclk;
+		int asyncclk;
+		bool aif_async[WM5100_AIFS];
+		bool aif_symmetric[WM5100_AIFS];
+		int sr_ref[WM5100_SYNC_SRS];
+		bool out_ena[2];
+		struct snd_soc_jack *jack;
+		bool jack_detecting;
+		bool jack_mic;
+		int jack_mode;
+		int jack_flips;
+		struct wm5100_fll fll[2];
+		struct wm5100_pdata pdata;
+#ifdef CONFIG_GPIOLIB
+		struct gpio_chip gpio_chip;
+#endif
+	} cocci_id/* sound/soc/codecs/wm5100.c 52 */;
+	const char *cocci_id/* sound/soc/codecs/wm5100.c 503 */[];
+	struct wm5100_fll {
+		int fref;
+		int fout;
+		int src;
+		struct completion lock;
+	} cocci_id/* sound/soc/codecs/wm5100.c 44 */;
+	const char *cocci_id/* sound/soc/codecs/wm5100.c 36 */[WM5100_NUM_CORE_SUPPLIES];
+	struct i2c_driver cocci_id/* sound/soc/codecs/wm5100.c 2711 */;
+	const struct i2c_device_id cocci_id/* sound/soc/codecs/wm5100.c 2705 */[];
+	const struct dev_pm_ops cocci_id/* sound/soc/codecs/wm5100.c 2700 */;
+	struct device *cocci_id/* sound/soc/codecs/wm5100.c 2675 */;
+	struct wm5100_priv cocci_id/* sound/soc/codecs/wm5100.c 2422 */;
+	struct wm5100_pdata *cocci_id/* sound/soc/codecs/wm5100.c 2417 */;
+	const struct i2c_device_id *cocci_id/* sound/soc/codecs/wm5100.c 2415 */;
+	const unsigned int cocci_id/* sound/soc/codecs/wm5100.c 2407 */[];
+	const struct regmap_config cocci_id/* sound/soc/codecs/wm5100.c 2395 */;
+	const struct snd_soc_component_driver cocci_id/* sound/soc/codecs/wm5100.c 2378 */;
+	struct i2c_client *cocci_id/* sound/soc/codecs/wm5100.c 2313 */;
+	void cocci_id/* sound/soc/codecs/wm5100.c 2313 */;
+	const struct gpio_chip cocci_id/* sound/soc/codecs/wm5100.c 2284 */;
+	struct gpio_chip *cocci_id/* sound/soc/codecs/wm5100.c 2274 */;
+	unsigned cocci_id/* sound/soc/codecs/wm5100.c 2274 */;
+	irqreturn_t cocci_id/* sound/soc/codecs/wm5100.c 2221 */;
+	void *cocci_id/* sound/soc/codecs/wm5100.c 2221 */;
+	struct snd_soc_dapm_context *cocci_id/* sound/soc/codecs/wm5100.c 2101 */;
+	struct snd_soc_jack *cocci_id/* sound/soc/codecs/wm5100.c 2098 */;
+	struct wm5100_jack_mode *cocci_id/* sound/soc/codecs/wm5100.c 1972 */;
+	int cocci_id/* sound/soc/codecs/wm5100.c 1946 */[];
+	struct snd_soc_dai_driver cocci_id/* sound/soc/codecs/wm5100.c 1884 */[];
+	unsigned long cocci_id/* sound/soc/codecs/wm5100.c 1762 */;
+	struct wm5100_fll *cocci_id/* sound/soc/codecs/wm5100.c 1760 */;
+	struct _fll_div cocci_id/* sound/soc/codecs/wm5100.c 1759 */;
+	struct _fll_div *cocci_id/* sound/soc/codecs/wm5100.c 1677 */;
+	unsigned int cocci_id/* sound/soc/codecs/wm5100.c 1677 */;
+	int cocci_id/* sound/soc/codecs/wm5100.c 1677 */;
+	struct {
+		unsigned int min;
+		unsigned int max;
+		u16 fll_fratio;
+		int ratio;
+	} cocci_id/* sound/soc/codecs/wm5100.c 1664 */[];
+	struct _fll_div {
+		u16 fll_fratio;
+		u16 fll_outdiv;
+		u16 fll_refclk_div;
+		u16 n;
+		u16 theta;
+		u16 lambda;
+	} cocci_id/* sound/soc/codecs/wm5100.c 1655 */;
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/codecs/wm5100.c 1501 */;
+	int *cocci_id/* sound/soc/codecs/wm5100.c 1403 */;
+	bool cocci_id/* sound/soc/codecs/wm5100.c 1401 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/codecs/wm5100.c 1397 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/codecs/wm5100.c 1396 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/codecs/wm5100.c 1395 */;
+	int cocci_id/* sound/soc/codecs/wm5100.c 1373 */[WM5100_NUM_BCLK_RATES];
+	const struct reg_sequence cocci_id/* sound/soc/codecs/wm5100.c 1247 */[];
+	struct wm5100_priv *cocci_id/* sound/soc/codecs/wm5100.c 120 */;
+	struct snd_soc_component *cocci_id/* sound/soc/codecs/wm5100.c 118 */;
+	int cocci_id/* sound/soc/codecs/wm5100.c 112 */[WM5100_SYNC_SRS];
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/codecs/wm5100.c 1081 */[];
+}

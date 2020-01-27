@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	const struct fb_videomode *cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 954 */;
+	const struct fb_var_screeninfo *cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 953 */;
+	struct fb_videomode cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 932 */;
+	struct fb_monspecs *cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 908 */;
+	u32 cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 852 */;
+	char cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 848 */[32];
+	struct fb_videomode *cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 846 */;
+	struct fb_var_screeninfo *cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 800 */;
+	const struct fb_var_screeninfo cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 8 */;
+	struct fb_var_screeninfo cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 781 */;
+	struct fb_info *cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 759 */;
+	struct radeonfb_info *cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 757 */;
+	void cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 757 */;
+	struct device_node *cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 737 */;
+	const char *cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 735 */;
+	int cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 735 */;
+	u8 *cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 73 */;
+	const u8 *cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 71 */;
+	char *cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 69 */[];
+	u8 **cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 66 */;
+	unsigned int cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 533 */;
+	int cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 491 */[4];
+	u8 *cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 490 */[4];
+	char cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 376 */[5];
+	unsigned long cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 309 */;
+	char *cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 30 */;
+	char *cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 259 */[16];
+	char cocci_id/* drivers/video/fbdev/aty/radeon_monitor.c 170 */[30];
+}

@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* arch/arm/mach-imx/mach-pcm037.c 75 */[];
+	int cocci_id/* arch/arm/mach-imx/mach-pcm037.c 549 */;
+	void __init cocci_id/* arch/arm/mach-imx/mach-pcm037.c 470 */;
+	void cocci_id/* arch/arm/mach-imx/mach-pcm037.c 470 */;
+	struct regulator_consumer_supply cocci_id/* arch/arm/mach-imx/mach-pcm037.c 462 */[];
+	char *cocci_id/* arch/arm/mach-imx/mach-pcm037.c 449 */;
+	int __init cocci_id/* arch/arm/mach-imx/mach-pcm037.c 449 */;
+	bool cocci_id/* arch/arm/mach-imx/mach-pcm037.c 447 */;
+	const struct fsl_usb2_platform_data cocci_id/* arch/arm/mach-imx/mach-pcm037.c 442 */;
+	struct mxc_usbh_platform_data cocci_id/* arch/arm/mach-imx/mach-pcm037.c 427 */;
+	struct platform_device *cocci_id/* arch/arm/mach-imx/mach-pcm037.c 422 */;
+	enum pcm037_board_variant cocci_id/* arch/arm/mach-imx/mach-pcm037.c 41 */;
+	struct sja1000_platform_data cocci_id/* arch/arm/mach-imx/mach-pcm037.c 407 */;
+	struct resource cocci_id/* arch/arm/mach-imx/mach-pcm037.c 396 */[];
+	struct mx3fb_platform_data cocci_id/* arch/arm/mach-imx/mach-pcm037.c 390 */;
+	const struct fb_videomode cocci_id/* arch/arm/mach-imx/mach-pcm037.c 337 */[];
+	struct platform_device *cocci_id/* arch/arm/mach-imx/mach-pcm037.c 332 */[]__initdata;
+	const struct imxmmc_platform_data cocci_id/* arch/arm/mach-imx/mach-pcm037.c 324 */;
+	struct device *cocci_id/* arch/arm/mach-imx/mach-pcm037.c 317 */;
+	void *cocci_id/* arch/arm/mach-imx/mach-pcm037.c 317 */;
+	irq_handler_t cocci_id/* arch/arm/mach-imx/mach-pcm037.c 282 */;
+	struct i2c_board_info cocci_id/* arch/arm/mach-imx/mach-pcm037.c 262 */[];
+	const struct property_entry cocci_id/* arch/arm/mach-imx/mach-pcm037.c 257 */[];
+	const struct imxi2c_platform_data cocci_id/* arch/arm/mach-imx/mach-pcm037.c 249 */;
+	const struct mxc_nand_platform_data cocci_id/* arch/arm/mach-imx/mach-pcm037.c 243 */;
+	struct platdata_mtd_ram cocci_id/* arch/arm/mach-imx/mach-pcm037.c 223 */;
+	struct platform_device cocci_id/* arch/arm/mach-imx/mach-pcm037.c 213 */;
+	struct smsc911x_platform_config cocci_id/* arch/arm/mach-imx/mach-pcm037.c 205 */;
+	const struct imxuart_platform_data cocci_id/* arch/arm/mach-imx/mach-pcm037.c 190 */;
+	struct resource cocci_id/* arch/arm/mach-imx/mach-pcm037.c 174 */;
+	struct physmap_flash_data cocci_id/* arch/arm/mach-imx/mach-pcm037.c 170 */;
+	const struct machine_desc cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 397 */;
+}

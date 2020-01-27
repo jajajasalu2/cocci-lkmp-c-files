@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	enum reboot_mode cocci_id/* arch/arm/mach-sa1100/generic.c 97 */;
+	const char *cocci_id/* arch/arm/mach-sa1100/generic.c 97 */;
+	struct cpufreq_frequency_table cocci_id/* arch/arm/mach-sa1100/generic.c 50 */[NR_FREQS + 1];
+	int cocci_id/* arch/arm/mach-sa1100/generic.c 468 */;
+	unsigned long cocci_id/* arch/arm/mach-sa1100/generic.c 435 */;
+	unsigned int cocci_id/* arch/arm/mach-sa1100/generic.c 42 */;
+	void __init cocci_id/* arch/arm/mach-sa1100/generic.c 417 */;
+	struct resource cocci_id/* arch/arm/mach-sa1100/generic.c 414 */;
+	struct map_desc cocci_id/* arch/arm/mach-sa1100/generic.c 380 */[]__initdata;
+	struct regulator_init_data *cocci_id/* arch/arm/mach-sa1100/generic.c 341 */;
+	bool cocci_id/* arch/arm/mach-sa1100/generic.c 339 */;
+	struct regulator_consumer_supply *cocci_id/* arch/arm/mach-sa1100/generic.c 338 */;
+	unsigned cocci_id/* arch/arm/mach-sa1100/generic.c 338 */;
+	struct fixed_voltage_config *cocci_id/* arch/arm/mach-sa1100/generic.c 337 */;
+	int __init cocci_id/* arch/arm/mach-sa1100/generic.c 320 */;
+	void cocci_id/* arch/arm/mach-sa1100/generic.c 320 */;
+	struct platform_device *cocci_id/* arch/arm/mach-sa1100/generic.c 311 */[]__initdata;
+	struct platform_device cocci_id/* arch/arm/mach-sa1100/generic.c 300 */;
+	u64 cocci_id/* arch/arm/mach-sa1100/generic.c 298 */;
+	struct resource cocci_id/* arch/arm/mach-sa1100/generic.c 275 */[];
+	struct irda_platform_data *cocci_id/* arch/arm/mach-sa1100/generic.c 270 */;
+	struct resource *cocci_id/* arch/arm/mach-sa1100/generic.c 248 */;
+	struct flash_platform_data *cocci_id/* arch/arm/mach-sa1100/generic.c 247 */;
+	struct gpiod_lookup_table *cocci_id/* arch/arm/mach-sa1100/generic.c 235 */;
+	struct sa1100fb_mach_info *cocci_id/* arch/arm/mach-sa1100/generic.c 230 */;
+	struct mcp_plat_data *cocci_id/* arch/arm/mach-sa1100/generic.c 192 */;
+	struct platform_device *cocci_id/* arch/arm/mach-sa1100/generic.c 110 */;
+	void *cocci_id/* arch/arm/mach-sa1100/generic.c 110 */;
+}

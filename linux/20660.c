@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	vm_fault_t cocci_id/* arch/x86/mm/fault.c 999 */;
+	struct mm_struct *cocci_id/* arch/x86/mm/fault.c 926 */;
+	u32 cocci_id/* arch/x86/mm/fault.c 924 */;
+	int cocci_id/* arch/x86/mm/fault.c 924 */;
+	struct pt_regs *cocci_id/* arch/x86/mm/fault.c 923 */;
+	unsigned long cocci_id/* arch/x86/mm/fault.c 923 */;
+	void cocci_id/* arch/x86/mm/fault.c 922 */;
+	void __user *cocci_id/* arch/x86/mm/fault.c 902 */;
+	struct task_struct *cocci_id/* arch/x86/mm/fault.c 869 */;
+	int *cocci_id/* arch/x86/mm/fault.c 66 */;
+	unsigned char cocci_id/* arch/x86/mm/fault.c 66 */;
+	unsigned char *cocci_id/* arch/x86/mm/fault.c 65 */;
+	u16 cocci_id/* arch/x86/mm/fault.c 632 */;
+	struct desc_ptr cocci_id/* arch/x86/mm/fault.c 631 */;
+	struct ldttss_desc cocci_id/* arch/x86/mm/fault.c 558 */;
+	struct desc_struct cocci_id/* arch/x86/mm/fault.c 556 */;
+	const struct desc_ptr *cocci_id/* arch/x86/mm/fault.c 554 */;
+	const char *cocci_id/* arch/x86/mm/fault.c 554 */;
+	unsigned long *cocci_id/* arch/x86/mm/fault.c 421 */;
+	void *cocci_id/* arch/x86/mm/fault.c 417 */;
+	const char cocci_id/* arch/x86/mm/fault.c 400 */[];
+	u64 cocci_id/* arch/x86/mm/fault.c 301 */;
+	pte_t *cocci_id/* arch/x86/mm/fault.c 288 */;
+	pmd_t *cocci_id/* arch/x86/mm/fault.c 287 */;
+	pud_t *cocci_id/* arch/x86/mm/fault.c 286 */;
+	p4d_t *cocci_id/* arch/x86/mm/fault.c 285 */;
+	pgd_t *cocci_id/* arch/x86/mm/fault.c 283 */;
+	spinlock_t *cocci_id/* arch/x86/mm/fault.c 206 */;
+	struct page *cocci_id/* arch/x86/mm/fault.c 202 */;
+	enum ctx_state cocci_id/* arch/x86/mm/fault.c 1526 */;
+	unsigned int cocci_id/* arch/x86/mm/fault.c 1290 */;
+	bool cocci_id/* arch/x86/mm/fault.c 1171 */;
+	struct vm_area_struct *cocci_id/* arch/x86/mm/fault.c 1168 */;
+	unsigned cocci_id/* arch/x86/mm/fault.c 1016 */;
+}

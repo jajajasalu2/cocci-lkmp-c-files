@@ -1,0 +1,60 @@
+cocci_test_suite() {
+	struct power_supply *cocci_id/* drivers/staging/nvec/nvec_power.c 81 */;
+	struct bat_response {
+		u8 event_type;
+		u8 length;
+		u8 sub_type;
+		u8 status;
+		union {
+			char plc[30];
+			u16 plu;
+			s16 pls;
+		};
+	} cocci_id/* drivers/staging/nvec/nvec_power.c 68 */;
+	enum{AC, BAT,} cocci_id/* drivers/staging/nvec/nvec_power.c 63 */;
+	enum{SLOT_STATUS, VOLTAGE, TIME_REMAINING, CURRENT, AVERAGE_CURRENT, AVERAGING_TIME_INTERVAL, CAPACITY_REMAINING, LAST_FULL_CHARGE_CAPACITY, DESIGN_CAPACITY, CRITICAL_CAPACITY, TEMPERATURE, MANUFACTURER, MODEL, TYPE,} cocci_id/* drivers/staging/nvec/nvec_power.c 46 */;
+	struct platform_driver cocci_id/* drivers/staging/nvec/nvec_power.c 436 */;
+	struct power_supply_config cocci_id/* drivers/staging/nvec/nvec_power.c 378 */;
+	struct nvec_chip *cocci_id/* drivers/staging/nvec/nvec_power.c 377 */;
+	const struct power_supply_desc *cocci_id/* drivers/staging/nvec/nvec_power.c 375 */;
+	struct power_supply **cocci_id/* drivers/staging/nvec/nvec_power.c 374 */;
+	struct platform_device *cocci_id/* drivers/staging/nvec/nvec_power.c 372 */;
+	struct work_struct *cocci_id/* drivers/staging/nvec/nvec_power.c 348 */;
+	int cocci_id/* drivers/staging/nvec/nvec_power.c 340 */;
+	const struct power_supply_desc cocci_id/* drivers/staging/nvec/nvec_power.c 324 */;
+	char *cocci_id/* drivers/staging/nvec/nvec_power.c 320 */[];
+	enum power_supply_property cocci_id/* drivers/staging/nvec/nvec_power.c 300 */[];
+	union power_supply_propval *cocci_id/* drivers/staging/nvec/nvec_power.c 240 */;
+	enum power_supply_property cocci_id/* drivers/staging/nvec/nvec_power.c 239 */;
+	struct nvec_power {
+		struct notifier_block notifier;
+		struct delayed_work poller;
+		struct nvec_chip *nvec;
+		int on;
+		int bat_present;
+		int bat_status;
+		int bat_voltage_now;
+		int bat_current_now;
+		int bat_current_avg;
+		int time_remain;
+		int charge_full_design;
+		int charge_last_full;
+		int critical_capacity;
+		int capacity_remain;
+		int bat_temperature;
+		int bat_cap;
+		int bat_type_enum;
+		char bat_manu[30];
+		char bat_model[30];
+		char bat_type[30];
+	} cocci_id/* drivers/staging/nvec/nvec_power.c 23 */;
+	struct bat_response *cocci_id/* drivers/staging/nvec/nvec_power.c 125 */;
+	struct nvec_power cocci_id/* drivers/staging/nvec/nvec_power.c 124 */;
+	void *cocci_id/* drivers/staging/nvec/nvec_power.c 121 */;
+	unsigned long cocci_id/* drivers/staging/nvec/nvec_power.c 121 */;
+	struct notifier_block *cocci_id/* drivers/staging/nvec/nvec_power.c 120 */;
+	char cocci_id/* drivers/staging/nvec/nvec_power.c 112 */[];
+	struct nvec_power *cocci_id/* drivers/staging/nvec/nvec_power.c 109 */;
+	void cocci_id/* drivers/staging/nvec/nvec_power.c 109 */;
+	const int cocci_id/* drivers/staging/nvec/nvec_power.c 104 */[];
+}

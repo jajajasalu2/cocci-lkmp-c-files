@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	struct kvm_device_attr *cocci_id/* arch/arm64/kvm/guest.c 887 */;
+	struct kvm_guest_debug *cocci_id/* arch/arm64/kvm/guest.c 835 */;
+	struct kvm_translation *cocci_id/* arch/arm64/kvm/guest.c 814 */;
+	struct kvm_fpu *cocci_id/* arch/arm64/kvm/guest.c 803 */;
+	struct kvm_vcpu_init *cocci_id/* arch/arm64/kvm/guest.c 783 */;
+	int __attribute_const__ cocci_id/* arch/arm64/kvm/guest.c 753 */;
+	void cocci_id/* arch/arm64/kvm/guest.c 753 */;
+	bool cocci_id/* arch/arm64/kvm/guest.c 731 */;
+	struct kvm_vcpu_events *cocci_id/* arch/arm64/kvm/guest.c 711 */;
+	struct kvm_vcpu *cocci_id/* arch/arm64/kvm/guest.c 710 */;
+	int cocci_id/* arch/arm64/kvm/guest.c 710 */;
+	struct kvm_sregs *cocci_id/* arch/arm64/kvm/guest.c 699 */;
+	const unsigned int cocci_id/* arch/arm64/kvm/guest.c 568 */;
+	long cocci_id/* arch/arm64/kvm/guest.c 544 */;
+	__uint128_t cocci_id/* arch/arm64/kvm/guest.c 472 */;
+	u64 cocci_id/* arch/arm64/kvm/guest.c 457 */;
+	__u32 cocci_id/* arch/arm64/kvm/guest.c 456 */;
+	struct kvm_regs cocci_id/* arch/arm64/kvm/guest.c 456 */;
+	unsigned int cocci_id/* arch/arm64/kvm/guest.c 453 */;
+	u64 __user *cocci_id/* arch/arm64/kvm/guest.c 451 */;
+	const struct kvm_vcpu *cocci_id/* arch/arm64/kvm/guest.c 450 */;
+	const char __user *cocci_id/* arch/arm64/kvm/guest.c 419 */;
+	char __user *cocci_id/* arch/arm64/kvm/guest.c 393 */;
+	struct sve_state_reg_region cocci_id/* arch/arm64/kvm/guest.c 392 */;
+	struct kvm_stats_debugfs_item cocci_id/* arch/arm64/kvm/guest.c 36 */[];
+	size_t cocci_id/* arch/arm64/kvm/guest.c 341 */;
+	struct kvm_vcpu cocci_id/* arch/arm64/kvm/guest.c 34 */;
+	struct kvm cocci_id/* arch/arm64/kvm/guest.c 33 */;
+	const u64 cocci_id/* arch/arm64/kvm/guest.c 327 */;
+	struct sve_state_reg_region *cocci_id/* arch/arm64/kvm/guest.c 322 */;
+	struct sve_state_reg_region {
+		unsigned int koffset;
+		unsigned int klen;
+		unsigned int upad;
+	} cocci_id/* arch/arm64/kvm/guest.c 312 */;
+	const void __user *cocci_id/* arch/arm64/kvm/guest.c 255 */;
+	void __user *cocci_id/* arch/arm64/kvm/guest.c 235 */;
+	u64 cocci_id/* arch/arm64/kvm/guest.c 220 */[KVM_ARM64_SVE_VLS_WORDS];
+	u64 *cocci_id/* arch/arm64/kvm/guest.c 182 */;
+	void *cocci_id/* arch/arm64/kvm/guest.c 160 */;
+	u32 *cocci_id/* arch/arm64/kvm/guest.c 148 */;
+	u32 cocci_id/* arch/arm64/kvm/guest.c 137 */;
+	struct kvm_regs *cocci_id/* arch/arm64/kvm/guest.c 135 */;
+	__u32 __user *cocci_id/* arch/arm64/kvm/guest.c 134 */;
+	unsigned long cocci_id/* arch/arm64/kvm/guest.c 134 */;
+	const struct kvm_one_reg *cocci_id/* arch/arm64/kvm/guest.c 126 */;
+}

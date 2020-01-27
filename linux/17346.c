@@ -1,0 +1,62 @@
+cocci_test_suite() {
+	void __init cocci_id/* arch/powerpc/platforms/powernv/opal.c 903 */;
+	u64 cocci_id/* arch/powerpc/platforms/powernv/opal.c 850 */[2];
+	struct property *cocci_id/* arch/powerpc/platforms/powernv/opal.c 848 */;
+	struct device_node *cocci_id/* arch/powerpc/platforms/powernv/opal.c 847 */;
+	loff_t cocci_id/* arch/powerpc/platforms/powernv/opal.c 831 */;
+	size_t cocci_id/* arch/powerpc/platforms/powernv/opal.c 831 */;
+	struct bin_attribute *cocci_id/* arch/powerpc/platforms/powernv/opal.c 830 */;
+	char *cocci_id/* arch/powerpc/platforms/powernv/opal.c 830 */;
+	struct kobject *cocci_id/* arch/powerpc/platforms/powernv/opal.c 829 */;
+	struct file *cocci_id/* arch/powerpc/platforms/powernv/opal.c 829 */;
+	ssize_t cocci_id/* arch/powerpc/platforms/powernv/opal.c 829 */;
+	unsigned int cocci_id/* arch/powerpc/platforms/powernv/opal.c 809 */;
+	const __be64 *cocci_id/* arch/powerpc/platforms/powernv/opal.c 808 */;
+	struct bin_attribute cocci_id/* arch/powerpc/platforms/powernv/opal.c 801 */;
+	uint64_t cocci_id/* arch/powerpc/platforms/powernv/opal.c 750 */;
+	struct pt_regs *cocci_id/* arch/powerpc/platforms/powernv/opal.c 735 */;
+	struct opal_msg *cocci_id/* arch/powerpc/platforms/powernv/opal.c 73 */;
+	struct task_struct *cocci_id/* arch/powerpc/platforms/powernv/opal.c 72 */;
+	struct atomic_notifier_head cocci_id/* arch/powerpc/platforms/powernv/opal.c 70 */[OPAL_MSG_TYPE_MAX];
+	struct machine_check_event cocci_id/* arch/powerpc/platforms/powernv/opal.c 676 */;
+	struct mcheck_recoverable_range *cocci_id/* arch/powerpc/platforms/powernv/opal.c 65 */;
+	void __noreturn cocci_id/* arch/powerpc/platforms/powernv/opal.c 635 */;
+	struct machine_check_event *cocci_id/* arch/powerpc/platforms/powernv/opal.c 587 */;
+	struct mcheck_recoverable_range {
+		u64 start_addr;
+		u64 end_addr;
+		u64 recover_addr;
+	} cocci_id/* arch/powerpc/platforms/powernv/opal.c 57 */;
+	__be64 cocci_id/* arch/powerpc/platforms/powernv/opal.c 521 */;
+	uint32_t cocci_id/* arch/powerpc/platforms/powernv/opal.c 516 */;
+	s64 cocci_id/* arch/powerpc/platforms/powernv/opal.c 516 */;
+	struct opal {
+		u64 base;
+		u64 entry;
+		u64 size;
+	} cocci_id/* arch/powerpc/platforms/powernv/opal.c 51 */;
+	unsigned long cocci_id/* arch/powerpc/platforms/powernv/opal.c 446 */;
+	bool cocci_id/* arch/powerpc/platforms/powernv/opal.c 444 */;
+	const char *cocci_id/* arch/powerpc/platforms/powernv/opal.c 444 */;
+	int cocci_id/* arch/powerpc/platforms/powernv/opal.c 444 */;
+	struct opal_msg_node {
+		struct list_head list;
+		struct opal_msg msg;
+	} cocci_id/* arch/powerpc/platforms/powernv/opal.c 40 */;
+	struct opal_msg cocci_id/* arch/powerpc/platforms/powernv/opal.c 395 */;
+	irqreturn_t cocci_id/* arch/powerpc/platforms/powernv/opal.c 382 */;
+	u32 cocci_id/* arch/powerpc/platforms/powernv/opal.c 358 */;
+	struct notifier_block *cocci_id/* arch/powerpc/platforms/powernv/opal.c 294 */;
+	struct opal_msg_node *cocci_id/* arch/powerpc/platforms/powernv/opal.c 273 */;
+	enum opal_msg_type cocci_id/* arch/powerpc/platforms/powernv/opal.c 271 */;
+	void cocci_id/* arch/powerpc/platforms/powernv/opal.c 271 */;
+	u64 cocci_id/* arch/powerpc/platforms/powernv/opal.c 183 */;
+	struct mcheck_recoverable_range cocci_id/* arch/powerpc/platforms/powernv/opal.c 178 */;
+	const __be32 *cocci_id/* arch/powerpc/platforms/powernv/opal.c 151 */;
+	struct opal_sg_list *cocci_id/* arch/powerpc/platforms/powernv/opal.c 1179 */;
+	struct opal_sg_entry cocci_id/* arch/powerpc/platforms/powernv/opal.c 1159 */;
+	const void *cocci_id/* arch/powerpc/platforms/powernv/opal.c 113 */;
+	void *cocci_id/* arch/powerpc/platforms/powernv/opal.c 111 */;
+	int __init cocci_id/* arch/powerpc/platforms/powernv/opal.c 110 */;
+	long cocci_id/* arch/powerpc/platforms/powernv/opal.c 1096 */;
+}

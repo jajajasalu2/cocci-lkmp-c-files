@@ -1,0 +1,56 @@
+cocci_test_suite() {
+	struct qcom_adsp {
+		struct device *dev;
+		struct rproc *rproc;
+		struct qcom_q6v5 q6v5;
+		struct clk *xo;
+		int num_clks;
+		struct clk_bulk_data *clks;
+		void __iomem *qdsp6ss_base;
+		struct reset_control *pdc_sync_reset;
+		struct reset_control *restart;
+		struct regmap *halt_map;
+		unsigned int halt_lpass;
+		int crash_reason_smem;
+		struct completion start_done;
+		struct completion stop_done;
+		phys_addr_t mem_phys;
+		phys_addr_t mem_reloc;
+		void *mem_region;
+		size_t mem_size;
+		struct qcom_rproc_glink glink_subdev;
+		struct qcom_rproc_ssr ssr_subdev;
+		struct qcom_sysmon *sysmon;
+	} cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 65 */;
+	struct adsp_pil_data {
+		int crash_reason_smem;
+		const char *firmware_name;
+		const char *ssr_name;
+		const char *sysmon_name;
+		int ssctl_id;
+		const char **clk_ids;
+		int num_clks;
+	} cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 53 */;
+	struct platform_driver cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 527 */;
+	const struct of_device_id cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 520 */[];
+	const char *cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 500 */[];
+	const struct adsp_pil_data cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 494 */;
+	const struct adsp_pil_data *cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 411 */;
+	struct resource cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 383 */;
+	struct device_node *cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 382 */;
+	struct qcom_adsp *cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 380 */;
+	int cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 380 */;
+	struct resource *cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 348 */;
+	struct platform_device *cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 345 */;
+	const char **cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 293 */;
+	const struct rproc_ops cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 285 */;
+	u64 cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 273 */;
+	struct rproc *cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 273 */;
+	void *cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 273 */;
+	struct qcom_adsp cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 245 */;
+	struct qcom_q6v5 *cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 243 */;
+	void cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 243 */;
+	unsigned int cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 177 */;
+	const struct firmware *cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 164 */;
+	unsigned long cocci_id/* drivers/remoteproc/qcom_q6v5_adsp.c 101 */;
+}

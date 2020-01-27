@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	s32 cocci_id/* drivers/rtc/rtc-rv8803.c 72 */;
+	u8 cocci_id/* drivers/rtc/rtc-rv8803.c 69 */;
+	const struct i2c_client *cocci_id/* drivers/rtc/rtc-rv8803.c 69 */;
+	struct i2c_driver cocci_id/* drivers/rtc/rtc-rv8803.c 635 */;
+	const struct of_device_id cocci_id/* drivers/rtc/rtc-rv8803.c 618 */[];
+	const struct i2c_device_id cocci_id/* drivers/rtc/rtc-rv8803.c 610 */[];
+	struct rv8803_data {
+		struct i2c_client *client;
+		struct rtc_device *rtc;
+		struct mutex flags_lock;
+		u8 ctrl;
+		enum rv8803_type type;
+	} cocci_id/* drivers/rtc/rtc-rv8803.c 61 */;
+	enum rv8803_type{rv_8803, rx_8900,} cocci_id/* drivers/rtc/rtc-rv8803.c 56 */;
+	enum rv8803_type cocci_id/* drivers/rtc/rtc-rv8803.c 547 */;
+	struct rv8803_data cocci_id/* drivers/rtc/rtc-rv8803.c 539 */;
+	struct nvmem_config cocci_id/* drivers/rtc/rtc-rv8803.c 523 */;
+	struct i2c_adapter *cocci_id/* drivers/rtc/rtc-rv8803.c 520 */;
+	const struct i2c_device_id *cocci_id/* drivers/rtc/rtc-rv8803.c 518 */;
+	struct device_node *cocci_id/* drivers/rtc/rtc-rv8803.c 491 */;
+	struct rtc_class_ops cocci_id/* drivers/rtc/rtc-rv8803.c 482 */;
+	size_t cocci_id/* drivers/rtc/rtc-rv8803.c 469 */;
+	void __user *cocci_id/* drivers/rtc/rtc-rv8803.c 430 */;
+	struct rv8803_data *cocci_id/* drivers/rtc/rtc-rv8803.c 371 */;
+	struct i2c_client *cocci_id/* drivers/rtc/rtc-rv8803.c 370 */;
+	struct device *cocci_id/* drivers/rtc/rtc-rv8803.c 368 */;
+	unsigned int cocci_id/* drivers/rtc/rtc-rv8803.c 368 */;
+	int cocci_id/* drivers/rtc/rtc-rv8803.c 368 */;
+	time64_t cocci_id/* drivers/rtc/rtc-rv8803.c 315 */;
+	u8 cocci_id/* drivers/rtc/rtc-rv8803.c 310 */[2];
+	u8 cocci_id/* drivers/rtc/rtc-rv8803.c 283 */[3];
+	struct rtc_wkalrm *cocci_id/* drivers/rtc/rtc-rv8803.c 279 */;
+	u8 *cocci_id/* drivers/rtc/rtc-rv8803.c 193 */;
+	u8 cocci_id/* drivers/rtc/rtc-rv8803.c 191 */[7];
+	struct rtc_time *cocci_id/* drivers/rtc/rtc-rv8803.c 188 */;
+	unsigned long cocci_id/* drivers/rtc/rtc-rv8803.c 142 */;
+	irqreturn_t cocci_id/* drivers/rtc/rtc-rv8803.c 138 */;
+	void *cocci_id/* drivers/rtc/rtc-rv8803.c 138 */;
+	const u8 *cocci_id/* drivers/rtc/rtc-rv8803.c 121 */;
+}

@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	struct mlxsw_hwmon **cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 623 */;
+	const struct mlxsw_bus_info *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 622 */;
+	struct mlxsw_core *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 621 */;
+	char cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 578 */[MLXSW_REG_MTMP_LEN];
+	char cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 577 */[MLXSW_REG_MGPIR_LEN];
+	u8 cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 499 */;
+	u16 cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 498 */;
+	enum mlxsw_reg_mfcr_pwm_frequency cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 495 */;
+	char cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 494 */[MLXSW_REG_MFCR_LEN];
+	char cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 462 */[MLXSW_REG_MTCAP_LEN];
+	struct mlxsw_hwmon_attr *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 362 */;
+	unsigned int cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 361 */;
+	enum mlxsw_hwmon_attr_type cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 360 */;
+	struct mlxsw_hwmon *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 359 */;
+	void cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 359 */;
+	enum mlxsw_hwmon_attr_type{MLXSW_HWMON_ATTR_TYPE_TEMP, MLXSW_HWMON_ATTR_TYPE_TEMP_MAX, MLXSW_HWMON_ATTR_TYPE_TEMP_RST, MLXSW_HWMON_ATTR_TYPE_FAN_RPM, MLXSW_HWMON_ATTR_TYPE_FAN_FAULT, MLXSW_HWMON_ATTR_TYPE_PWM, MLXSW_HWMON_ATTR_TYPE_TEMP_MODULE, MLXSW_HWMON_ATTR_TYPE_TEMP_MODULE_FAULT, MLXSW_HWMON_ATTR_TYPE_TEMP_MODULE_CRIT, MLXSW_HWMON_ATTR_TYPE_TEMP_MODULE_EMERG, MLXSW_HWMON_ATTR_TYPE_TEMP_MODULE_LABEL, MLXSW_HWMON_ATTR_TYPE_TEMP_GBOX_LABEL,} cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 344 */;
+	struct mlxsw_hwmon {
+		struct mlxsw_core *core;
+		const struct mlxsw_bus_info *bus_info;
+		struct device *hwmon_dev;
+		struct attribute_group group;
+		const struct attribute_group *groups[2];
+		struct attribute *attrs[MLXSW_HWMON_ATTR_COUNT + 1];
+		struct mlxsw_hwmon_attr hwmon_attrs[MLXSW_HWMON_ATTR_COUNT];
+		unsigned int attrs_count;
+		u8 sensor_count;
+		u8 module_sensor_max;
+	} cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 34 */;
+	char cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 238 */[MLXSW_REG_MTBR_LEN];
+	unsigned long cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 190 */;
+	struct mlxsw_hwmon_attr {
+		struct device_attribute dev_attr;
+		struct mlxsw_hwmon *hwmon;
+		unsigned int type_index;
+		char name[32];
+	} cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 19 */;
+	const char *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 184 */;
+	size_t cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 184 */;
+	char cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 169 */[MLXSW_REG_MFSC_LEN];
+	int cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 150 */;
+	bool cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 149 */;
+	char cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 148 */[MLXSW_REG_FORE_LEN];
+	struct mlxsw_hwmon_attr cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 146 */;
+	char *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 143 */;
+	struct device_attribute *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 142 */;
+	struct device *cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 141 */;
+	ssize_t cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 141 */;
+	char cocci_id/* drivers/net/ethernet/mellanox/mlxsw/core_hwmon.c 129 */[MLXSW_REG_MFSM_LEN];
+}

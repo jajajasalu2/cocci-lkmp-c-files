@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	const char *cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 78 */;
+	int cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 78 */;
+	u32 cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 70 */;
+	struct rockchip_lvds *cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 70 */;
+	void cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 70 */;
+	struct platform_driver cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 573 */;
+	struct rockchip_lvds {
+		struct device *dev;
+		void __iomem *regs;
+		struct regmap *grf;
+		struct clk *pclk;
+		const struct rockchip_lvds_soc_data *soc_data;
+		int output;
+		int format;
+		struct drm_device *drm_dev;
+		struct drm_panel *panel;
+		struct drm_bridge *bridge;
+		struct drm_connector connector;
+		struct drm_encoder encoder;
+		struct dev_pin_info *pins;
+	} cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 54 */;
+	struct resource *cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 493 */;
+	const struct of_device_id *cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 492 */;
+	struct platform_device *cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 488 */;
+	const struct component_ops cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 483 */;
+	struct rockchip_lvds_soc_data {
+		u32 ch1_offset;
+		int grf_soc_con6;
+		int grf_soc_con7;
+		bool has_vop_sel;
+	} cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 47 */;
+	struct rockchip_lvds cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 35 */;
+	struct device_node *cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 341 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 340 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 339 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 338 */;
+	void *cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 335 */;
+	struct device *cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 334 */;
+	const struct of_device_id cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 325 */[];
+	const struct rockchip_lvds_soc_data cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 318 */;
+	const struct drm_encoder_funcs cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 314 */;
+	const struct drm_encoder_helper_funcs cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 307 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 284 */;
+	struct rockchip_crtc_state *cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 273 */;
+	struct drm_connector_state *cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 271 */;
+	struct drm_crtc_state *cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 270 */;
+	u8 cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 216 */;
+	const struct drm_connector_helper_funcs cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 207 */;
+	struct drm_panel *cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 202 */;
+	const struct drm_connector_funcs cocci_id/* drivers/gpu/drm/rockchip/rockchip_lvds.c 191 */;
+}

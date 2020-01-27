@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* drivers/lightnvm/pblk-write.c 80 */;
+	struct pblk_c_ctx *cocci_id/* drivers/lightnvm/pblk-write.c 77 */;
+	struct nvm_rq *cocci_id/* drivers/lightnvm/pblk-write.c 76 */;
+	void cocci_id/* drivers/lightnvm/pblk-write.c 76 */;
+	int *cocci_id/* drivers/lightnvm/pblk-write.c 555 */;
+	struct nvm_geo *cocci_id/* drivers/lightnvm/pblk-write.c 523 */;
+	struct nvm_tgt_dev *cocci_id/* drivers/lightnvm/pblk-write.c 522 */;
+	struct pblk_line cocci_id/* drivers/lightnvm/pblk-write.c 481 */;
+	struct pblk_line_mgmt *cocci_id/* drivers/lightnvm/pblk-write.c 473 */;
+	bool cocci_id/* drivers/lightnvm/pblk-write.c 433 */;
+	void *cocci_id/* drivers/lightnvm/pblk-write.c 377 */;
+	struct pblk *cocci_id/* drivers/lightnvm/pblk-write.c 348 */;
+	unsigned int cocci_id/* drivers/lightnvm/pblk-write.c 348 */;
+	unsigned long *cocci_id/* drivers/lightnvm/pblk-write.c 324 */;
+	struct pblk_line_meta *cocci_id/* drivers/lightnvm/pblk-write.c 318 */;
+	struct pblk_w_ctx *cocci_id/* drivers/lightnvm/pblk-write.c 31 */;
+	int cocci_id/* drivers/lightnvm/pblk-write.c 302 */;
+	struct ppa_addr *cocci_id/* drivers/lightnvm/pblk-write.c 278 */;
+	struct pblk_emeta *cocci_id/* drivers/lightnvm/pblk-write.c 277 */;
+	struct pblk_line *cocci_id/* drivers/lightnvm/pblk-write.c 276 */;
+	struct pblk_g_ctx *cocci_id/* drivers/lightnvm/pblk-write.c 275 */;
+	struct pblk_rb *cocci_id/* drivers/lightnvm/pblk-write.c 26 */;
+	struct bio *cocci_id/* drivers/lightnvm/pblk-write.c 25 */;
+	struct pblk_rec_ctx *cocci_id/* drivers/lightnvm/pblk-write.c 237 */;
+	struct pblk_rec_ctx cocci_id/* drivers/lightnvm/pblk-write.c 211 */;
+	struct work_struct *cocci_id/* drivers/lightnvm/pblk-write.c 208 */;
+	struct pblk_c_ctx cocci_id/* drivers/lightnvm/pblk-write.c 190 */;
+	struct pblk_rb_entry *cocci_id/* drivers/lightnvm/pblk-write.c 151 */;
+	u64 cocci_id/* drivers/lightnvm/pblk-write.c 115 */;
+	__le64 *cocci_id/* drivers/lightnvm/pblk-write.c 114 */;
+	__le64 cocci_id/* drivers/lightnvm/pblk-write.c 113 */;
+	struct ppa_addr cocci_id/* drivers/lightnvm/pblk-write.c 112 */;
+}

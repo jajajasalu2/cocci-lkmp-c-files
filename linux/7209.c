@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	struct nvmet_ctrl *cocci_id/* drivers/nvme/target/admin-cmd.c 846 */;
+	struct nvme_common_command cocci_id/* drivers/nvme/target/admin-cmd.c 823 */;
+	u32 cocci_id/* drivers/nvme/target/admin-cmd.c 778 */;
+	struct nvmet_subsys *cocci_id/* drivers/nvme/target/admin-cmd.c 777 */;
+	struct nvme_rw_command cocci_id/* drivers/nvme/target/admin-cmd.c 73 */;
+	void cocci_id/* drivers/nvme/target/admin-cmd.c 627 */;
+	struct nvme_identify cocci_id/* drivers/nvme/target/admin-cmd.c 616 */;
+	struct nvmet_ns *cocci_id/* drivers/nvme/target/admin-cmd.c 563 */;
+	struct nvme_ns_id_desc cocci_id/* drivers/nvme/target/admin-cmd.c 542 */;
+	off_t *cocci_id/* drivers/nvme/target/admin-cmd.c 540 */;
+	void *cocci_id/* drivers/nvme/target/admin-cmd.c 540 */;
+	u8 cocci_id/* drivers/nvme/target/admin-cmd.c 539 */;
+	u16 cocci_id/* drivers/nvme/target/admin-cmd.c 539 */;
+	struct nvmet_req *cocci_id/* drivers/nvme/target/admin-cmd.c 539 */;
+	__le32 cocci_id/* drivers/nvme/target/admin-cmd.c 527 */;
+	int cocci_id/* drivers/nvme/target/admin-cmd.c 514 */;
+	__le32 *cocci_id/* drivers/nvme/target/admin-cmd.c 512 */;
+	const int cocci_id/* drivers/nvme/target/admin-cmd.c 508 */;
+	struct nvme_error_slot cocci_id/* drivers/nvme/target/admin-cmd.c 50 */;
+	struct nvme_id_ns *cocci_id/* drivers/nvme/target/admin-cmd.c 441 */;
+	u64 cocci_id/* drivers/nvme/target/admin-cmd.c 42 */;
+	struct nvme_completion cocci_id/* drivers/nvme/target/admin-cmd.c 412 */;
+	off_t cocci_id/* drivers/nvme/target/admin-cmd.c 41 */;
+	struct nvme_command cocci_id/* drivers/nvme/target/admin-cmd.c 409 */;
+	unsigned long cocci_id/* drivers/nvme/target/admin-cmd.c 40 */;
+	const char cocci_id/* drivers/nvme/target/admin-cmd.c 320 */[];
+	struct nvme_id_ctrl *cocci_id/* drivers/nvme/target/admin-cmd.c 318 */;
+	struct nvme_get_log_page_command cocci_id/* drivers/nvme/target/admin-cmd.c 311 */;
+	struct nvme_ana_group_desc cocci_id/* drivers/nvme/target/admin-cmd.c 251 */;
+	struct nvme_ana_group_desc *cocci_id/* drivers/nvme/target/admin-cmd.c 243 */;
+	struct nvme_ana_rsp_hdr cocci_id/* drivers/nvme/target/admin-cmd.c 242 */;
+	size_t cocci_id/* drivers/nvme/target/admin-cmd.c 197 */;
+	struct nvme_effects_log *cocci_id/* drivers/nvme/target/admin-cmd.c 166 */;
+	struct nvme_command *cocci_id/* drivers/nvme/target/admin-cmd.c 14 */;
+	struct nvme_smart_log *cocci_id/* drivers/nvme/target/admin-cmd.c 133 */;
+}

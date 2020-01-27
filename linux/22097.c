@@ -1,0 +1,61 @@
+cocci_test_suite() {
+	long cocci_id/* lib/test_kmod.c 940 */;
+	int *cocci_id/* lib/test_kmod.c 937 */;
+	unsigned long cocci_id/* lib/test_kmod.c 918 */;
+	unsigned int *cocci_id/* lib/test_kmod.c 913 */;
+	int (*cocci_id/* lib/test_kmod.c 877 */)(struct kmod_test_device *test_dev);
+	struct kmod_test_device *cocci_id/* lib/test_kmod.c 807 */;
+	int cocci_id/* lib/test_kmod.c 807 */;
+	struct test_config {
+		char *test_driver;
+		char *test_fs;
+		unsigned int num_threads;
+		enum kmod_test_case test_case;
+		int test_result;
+	} cocci_id/* lib/test_kmod.c 80 */;
+	unsigned int cocci_id/* lib/test_kmod.c 796 */;
+	struct kmod_test_device_info cocci_id/* lib/test_kmod.c 783 */;
+	enum kmod_test_case{__TEST_KMOD_INVALID=0, TEST_KMOD_DRIVER, TEST_KMOD_FS_TYPE, __TEST_KMOD_MAX,} cocci_id/* lib/test_kmod.c 71 */;
+	struct mutex *cocci_id/* lib/test_kmod.c 674 */;
+	struct test_config *cocci_id/* lib/test_kmod.c 626 */;
+	void cocci_id/* lib/test_kmod.c 626 */;
+	gfp_t cocci_id/* lib/test_kmod.c 604 */;
+	const char *cocci_id/* lib/test_kmod.c 604 */;
+	char **cocci_id/* lib/test_kmod.c 604 */;
+	size_t cocci_id/* lib/test_kmod.c 604 */;
+	bool cocci_id/* lib/test_kmod.c 45 */;
+	struct kmod_test_device_info *cocci_id/* lib/test_kmod.c 219 */;
+	void *cocci_id/* lib/test_kmod.c 217 */;
+	enum kmod_test_case cocci_id/* lib/test_kmod.c 147 */;
+	struct kmod_test_device {
+		int dev_idx;
+		struct test_config config;
+		struct miscdevice misc_dev;
+		struct device *dev;
+		struct mutex config_mutex;
+		struct mutex trigger_mutex;
+		struct mutex thread_mutex;
+		unsigned int done;
+		bool test_is_oom;
+		struct completion kthreads_done;
+		struct list_head list;
+		struct kmod_test_device_info *info;
+	} cocci_id/* lib/test_kmod.c 129 */;
+	void __exit cocci_id/* lib/test_kmod.c 1224 */;
+	int __init cocci_id/* lib/test_kmod.c 1174 */;
+	struct kmod_test_device cocci_id/* lib/test_kmod.c 1086 */;
+	struct miscdevice *cocci_id/* lib/test_kmod.c 1084 */;
+	struct attribute *cocci_id/* lib/test_kmod.c 1053 */[];
+	struct kmod_test_device_info {
+		int ret_sync;
+		struct file_system_type *fs_sync;
+		struct task_struct *task_sync;
+		unsigned int thread_idx;
+		struct kmod_test_device *test_dev;
+		bool need_mod_put;
+	} cocci_id/* lib/test_kmod.c 104 */;
+	char *cocci_id/* lib/test_kmod.c 1007 */;
+	struct device_attribute *cocci_id/* lib/test_kmod.c 1006 */;
+	struct device *cocci_id/* lib/test_kmod.c 1005 */;
+	ssize_t cocci_id/* lib/test_kmod.c 1005 */;
+}

@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	const s32 cocci_id/* fs/lockd/clnt4xdr.c 97 */;
+	const int cocci_id/* fs/lockd/clnt4xdr.c 89 */;
+	void cocci_id/* fs/lockd/clnt4xdr.c 89 */;
+	const struct file_lock *cocci_id/* fs/lockd/clnt4xdr.c 68 */;
+	u64 *cocci_id/* fs/lockd/clnt4xdr.c 66 */;
+	const struct rpc_version cocci_id/* fs/lockd/clnt4xdr.c 583 */;
+	unsigned int cocci_id/* fs/lockd/clnt4xdr.c 582 */[ARRAY_SIZE(nlm4_procedures)];
+	const struct rpc_procinfo cocci_id/* fs/lockd/clnt4xdr.c 564 */[];
+	struct rpc_rqst *cocci_id/* fs/lockd/clnt4xdr.c 532 */;
+	s64 cocci_id/* fs/lockd/clnt4xdr.c 52 */;
+	const struct nlm_args *cocci_id/* fs/lockd/clnt4xdr.c 408 */;
+	const void *cocci_id/* fs/lockd/clnt4xdr.c 406 */;
+	const char *cocci_id/* fs/lockd/clnt4xdr.c 305 */;
+	loff_t cocci_id/* fs/lockd/clnt4xdr.c 290 */;
+	pid_t cocci_id/* fs/lockd/clnt4xdr.c 274 */;
+	s32 cocci_id/* fs/lockd/clnt4xdr.c 264 */;
+	u64 cocci_id/* fs/lockd/clnt4xdr.c 260 */;
+	struct file_lock *cocci_id/* fs/lockd/clnt4xdr.c 259 */;
+	struct nlm_lock *cocci_id/* fs/lockd/clnt4xdr.c 258 */;
+	struct nlm_res *cocci_id/* fs/lockd/clnt4xdr.c 256 */;
+	const struct nlm_lock *cocci_id/* fs/lockd/clnt4xdr.c 242 */;
+	const struct nlm_res *cocci_id/* fs/lockd/clnt4xdr.c 240 */;
+	const __be32 cocci_id/* fs/lockd/clnt4xdr.c 202 */;
+	const struct nfs_fh *cocci_id/* fs/lockd/clnt4xdr.c 174 */;
+	__be32 *cocci_id/* fs/lockd/clnt4xdr.c 143 */;
+	u32 cocci_id/* fs/lockd/clnt4xdr.c 142 */;
+	struct nlm_cookie *cocci_id/* fs/lockd/clnt4xdr.c 140 */;
+	struct xdr_stream *cocci_id/* fs/lockd/clnt4xdr.c 139 */;
+	int cocci_id/* fs/lockd/clnt4xdr.c 139 */;
+	u8 *cocci_id/* fs/lockd/clnt4xdr.c 136 */;
+	const struct nlm_cookie *cocci_id/* fs/lockd/clnt4xdr.c 134 */;
+	void *cocci_id/* fs/lockd/clnt4xdr.c 122 */;
+	ssize_t cocci_id/* fs/lockd/clnt4xdr.c 120 */;
+	struct xdr_netobj *cocci_id/* fs/lockd/clnt4xdr.c 118 */;
+	const unsigned int cocci_id/* fs/lockd/clnt4xdr.c 109 */;
+	const u8 *cocci_id/* fs/lockd/clnt4xdr.c 109 */;
+}

@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	struct adp8860_led {
+		struct led_classdev cdev;
+		struct work_struct work;
+		struct i2c_client *client;
+		enum led_brightness new_brightness;
+		int id;
+		int flags;
+	} cocci_id/* drivers/video/backlight/adp8860_bl.c 96 */;
+	enum{adp8860, adp8861, adp8863,} cocci_id/* drivers/video/backlight/adp8860_bl.c 90 */;
+	struct i2c_driver cocci_id/* drivers/video/backlight/adp8860_bl.c 811 */;
+	const struct i2c_device_id cocci_id/* drivers/video/backlight/adp8860_bl.c 803 */[];
+	struct backlight_properties cocci_id/* drivers/video/backlight/adp8860_bl.c 666 */;
+	const struct i2c_device_id *cocci_id/* drivers/video/backlight/adp8860_bl.c 660 */;
+	const struct attribute_group cocci_id/* drivers/video/backlight/adp8860_bl.c 655 */;
+	struct attribute *cocci_id/* drivers/video/backlight/adp8860_bl.c 641 */[];
+	unsigned long cocci_id/* drivers/video/backlight/adp8860_bl.c 608 */;
+	const char *cocci_id/* drivers/video/backlight/adp8860_bl.c 605 */;
+	size_t cocci_id/* drivers/video/backlight/adp8860_bl.c 605 */;
+	uint16_t cocci_id/* drivers/video/backlight/adp8860_bl.c 564 */;
+	uint8_t cocci_id/* drivers/video/backlight/adp8860_bl.c 563 */;
+	int cocci_id/* drivers/video/backlight/adp8860_bl.c 562 */;
+	struct adp8860_bl *cocci_id/* drivers/video/backlight/adp8860_bl.c 561 */;
+	struct device_attribute *cocci_id/* drivers/video/backlight/adp8860_bl.c 559 */;
+	char *cocci_id/* drivers/video/backlight/adp8860_bl.c 559 */;
+	struct device *cocci_id/* drivers/video/backlight/adp8860_bl.c 558 */;
+	ssize_t cocci_id/* drivers/video/backlight/adp8860_bl.c 558 */;
+	struct adp8860_backlight_platform_data *cocci_id/* drivers/video/backlight/adp8860_bl.c 391 */;
+	const struct backlight_ops cocci_id/* drivers/video/backlight/adp8860_bl.c 382 */;
+	struct backlight_device *cocci_id/* drivers/video/backlight/adp8860_bl.c 375 */;
+	struct i2c_client *cocci_id/* drivers/video/backlight/adp8860_bl.c 327 */;
+	struct led_info *cocci_id/* drivers/video/backlight/adp8860_bl.c 222 */;
+	struct adp8860_led *cocci_id/* drivers/video/backlight/adp8860_bl.c 221 */;
+	struct adp8860_led cocci_id/* drivers/video/backlight/adp8860_bl.c 193 */;
+	enum led_brightness cocci_id/* drivers/video/backlight/adp8860_bl.c 189 */;
+	struct led_classdev *cocci_id/* drivers/video/backlight/adp8860_bl.c 188 */;
+	void cocci_id/* drivers/video/backlight/adp8860_bl.c 188 */;
+	struct work_struct *cocci_id/* drivers/video/backlight/adp8860_bl.c 180 */;
+	u8 cocci_id/* drivers/video/backlight/adp8860_bl.c 133 */;
+	uint8_t *cocci_id/* drivers/video/backlight/adp8860_bl.c 119 */;
+	struct adp8860_bl {
+		struct i2c_client *client;
+		struct backlight_device *bl;
+		struct adp8860_led *led;
+		struct adp8860_backlight_platform_data *pdata;
+		struct mutex lock;
+		unsigned long cached_daylight_max;
+		int id;
+		int revid;
+		int current_brightness;
+		unsigned en_ambl_sens:1;
+		unsigned gdwn_dis:1;
+	} cocci_id/* drivers/video/backlight/adp8860_bl.c 105 */;
+}

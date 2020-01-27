@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* drivers/media/usb/uvc/uvc_queue.c 78 */;
+	struct device *cocci_id/* drivers/media/usb/uvc/uvc_queue.c 74 */[];
+	unsigned int cocci_id/* drivers/media/usb/uvc/uvc_queue.c 74 */[];
+	unsigned int *cocci_id/* drivers/media/usb/uvc/uvc_queue.c 73 */;
+	struct vb2_queue *cocci_id/* drivers/media/usb/uvc/uvc_queue.c 72 */;
+	enum vb2_buffer_state cocci_id/* drivers/media/usb/uvc/uvc_queue.c 54 */;
+	enum uvc_buffer_state cocci_id/* drivers/media/usb/uvc/uvc_queue.c 52 */;
+	struct kref *cocci_id/* drivers/media/usb/uvc/uvc_queue.c 476 */;
+	struct uvc_buffer cocci_id/* drivers/media/usb/uvc/uvc_queue.c 443 */;
+	struct uvc_video_queue *cocci_id/* drivers/media/usb/uvc/uvc_queue.c 438 */;
+	struct uvc_buffer *cocci_id/* drivers/media/usb/uvc/uvc_queue.c 437 */;
+	struct uvc_streaming cocci_id/* drivers/media/usb/uvc/uvc_queue.c 38 */;
+	poll_table *cocci_id/* drivers/media/usb/uvc/uvc_queue.c 373 */;
+	__poll_t cocci_id/* drivers/media/usb/uvc/uvc_queue.c 372 */;
+	struct file *cocci_id/* drivers/media/usb/uvc/uvc_queue.c 372 */;
+	struct vm_area_struct *cocci_id/* drivers/media/usb/uvc/uvc_queue.c 359 */;
+	struct v4l2_buffer *cocci_id/* drivers/media/usb/uvc/uvc_queue.c 325 */;
+	struct v4l2_exportbuffer *cocci_id/* drivers/media/usb/uvc/uvc_queue.c 314 */;
+	struct media_device *cocci_id/* drivers/media/usb/uvc/uvc_queue.c 302 */;
+	struct v4l2_create_buffers *cocci_id/* drivers/media/usb/uvc/uvc_queue.c 290 */;
+	struct v4l2_requestbuffers *cocci_id/* drivers/media/usb/uvc/uvc_queue.c 267 */;
+	enum v4l2_buf_type cocci_id/* drivers/media/usb/uvc/uvc_queue.c 219 */;
+	const struct vb2_ops cocci_id/* drivers/media/usb/uvc/uvc_queue.c 210 */;
+	struct uvc_streaming *cocci_id/* drivers/media/usb/uvc/uvc_queue.c 157 */;
+	struct vb2_v4l2_buffer *cocci_id/* drivers/media/usb/uvc/uvc_queue.c 155 */;
+	struct vb2_buffer *cocci_id/* drivers/media/usb/uvc/uvc_queue.c 153 */;
+	void cocci_id/* drivers/media/usb/uvc/uvc_queue.c 153 */;
+	unsigned long cocci_id/* drivers/media/usb/uvc/uvc_queue.c 136 */;
+	int cocci_id/* drivers/media/usb/uvc/uvc_queue.c 104 */;
+}

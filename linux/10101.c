@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct i2400mu cocci_id/* drivers/net/wimax/i2400m/usb.c 90 */;
+	struct i2400m *cocci_id/* drivers/net/wimax/i2400m/usb.c 87 */;
+	void __exit cocci_id/* drivers/net/wimax/i2400m/usb.c 753 */;
+	int __init cocci_id/* drivers/net/wimax/i2400m/usb.c 743 */;
+	struct usb_driver cocci_id/* drivers/net/wimax/i2400m/usb.c 729 */;
+	struct usb_device_id cocci_id/* drivers/net/wimax/i2400m/usb.c 709 */[];
+	const char *cocci_id/* drivers/net/wimax/i2400m/usb.c 70 */[];
+	char cocci_id/* drivers/net/wimax/i2400m/usb.c 61 */[128];
+	pm_message_t cocci_id/* drivers/net/wimax/i2400m/usb.c 578 */;
+	struct net_device *cocci_id/* drivers/net/wimax/i2400m/usb.c 525 */;
+	struct usb_interface *cocci_id/* drivers/net/wimax/i2400m/usb.c 521 */;
+	const struct usb_device_id *cocci_id/* drivers/net/wimax/i2400m/usb.c 411 */;
+	struct device_type cocci_id/* drivers/net/wimax/i2400m/usb.c 391 */;
+	struct dentry *cocci_id/* drivers/net/wimax/i2400m/usb.c 372 */;
+	size_t cocci_id/* drivers/net/wimax/i2400m/usb.c 367 */;
+	struct d_level cocci_id/* drivers/net/wimax/i2400m/usb.c 360 */[];
+	const struct ethtool_ops cocci_id/* drivers/net/wimax/i2400m/usb.c 341 */;
+	struct usb_device *cocci_id/* drivers/net/wimax/i2400m/usb.c 333 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/wimax/i2400m/usb.c 329 */;
+	const __le32 cocci_id/* drivers/net/wimax/i2400m/usb.c 267 */[4];
+	enum i2400m_reset_type cocci_id/* drivers/net/wimax/i2400m/usb.c 261 */;
+	void *cocci_id/* drivers/net/wimax/i2400m/usb.c 149 */;
+	struct device *cocci_id/* drivers/net/wimax/i2400m/usb.c 148 */;
+	struct usb_endpoint_descriptor *cocci_id/* drivers/net/wimax/i2400m/usb.c 146 */;
+	unsigned cocci_id/* drivers/net/wimax/i2400m/usb.c 144 */;
+	const __le32 *cocci_id/* drivers/net/wimax/i2400m/usb.c 142 */;
+	struct i2400mu *cocci_id/* drivers/net/wimax/i2400m/usb.c 141 */;
+	int cocci_id/* drivers/net/wimax/i2400m/usb.c 141 */;
+	void cocci_id/* drivers/net/wimax/i2400m/usb.c 117 */;
+}

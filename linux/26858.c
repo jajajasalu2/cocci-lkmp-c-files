@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	dev_t cocci_id/* fs/reiserfs/namei.c 702 */;
+	struct reiserfs_security_handle cocci_id/* fs/reiserfs/namei.c 636 */;
+	struct reiserfs_transaction_handle cocci_id/* fs/reiserfs/namei.c 635 */;
+	bool cocci_id/* fs/reiserfs/namei.c 623 */;
+	struct dentry *cocci_id/* fs/reiserfs/namei.c 622 */;
+	umode_t cocci_id/* fs/reiserfs/namei.c 606 */;
+	void cocci_id/* fs/reiserfs/namei.c 60 */;
+	struct inode *cocci_id/* fs/reiserfs/namei.c 591 */;
+	char *cocci_id/* fs/reiserfs/namei.c 449 */;
+	char cocci_id/* fs/reiserfs/namei.c 447 */[32 + DEH_SIZE];
+	struct cpu_key cocci_id/* fs/reiserfs/namei.c 436 */;
+	struct reiserfs_transaction_handle *cocci_id/* fs/reiserfs/namei.c 432 */;
+	unsigned int cocci_id/* fs/reiserfs/namei.c 353 */;
+	struct reiserfs_de_head *cocci_id/* fs/reiserfs/namei.c 32 */;
+	struct item_head *cocci_id/* fs/reiserfs/namei.c 31 */;
+	struct treepath *cocci_id/* fs/reiserfs/namei.c 305 */;
+	loff_t cocci_id/* fs/reiserfs/namei.c 29 */;
+	struct reiserfs_dir_entry *cocci_id/* fs/reiserfs/namei.c 29 */;
+	int cocci_id/* fs/reiserfs/namei.c 29 */;
+	struct cpu_key *cocci_id/* fs/reiserfs/namei.c 226 */;
+	__u32 cocci_id/* fs/reiserfs/namei.c 185 */;
+	struct super_block *cocci_id/* fs/reiserfs/namei.c 185 */;
+	const struct inode_operations cocci_id/* fs/reiserfs/namei.c 1645 */;
+	struct timespec64 cocci_id/* fs/reiserfs/namei.c 1322 */;
+	unsigned long cocci_id/* fs/reiserfs/namei.c 1321 */;
+	struct item_head cocci_id/* fs/reiserfs/namei.c 1315 */;
+	struct reiserfs_key *cocci_id/* fs/reiserfs/namei.c 1295 */;
+	struct reiserfs_dir_entry cocci_id/* fs/reiserfs/namei.c 1262 */;
+	const char *cocci_id/* fs/reiserfs/namei.c 1259 */;
+	const struct cpu_key *cocci_id/* fs/reiserfs/namei.c 120 */;
+}

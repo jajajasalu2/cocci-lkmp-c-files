@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	enum sata_rcar_type cocci_id/* drivers/ata/sata_rcar.c 905 */;
+	struct sata_rcar_priv cocci_id/* drivers/ata/sata_rcar.c 901 */;
+	struct resource *cocci_id/* drivers/ata/sata_rcar.c 891 */;
+	struct device *cocci_id/* drivers/ata/sata_rcar.c 888 */;
+	struct platform_device *cocci_id/* drivers/ata/sata_rcar.c 886 */;
+	const struct of_device_id cocci_id/* drivers/ata/sata_rcar.c 844 */[];
+	struct ata_host *cocci_id/* drivers/ata/sata_rcar.c 818 */;
+	irqreturn_t cocci_id/* drivers/ata/sata_rcar.c 722 */;
+	void *cocci_id/* drivers/ata/sata_rcar.c 722 */;
+	int cocci_id/* drivers/ata/sata_rcar.c 711 */;
+	struct ata_queued_cmd *cocci_id/* drivers/ata/sata_rcar.c 710 */;
+	void cocci_id/* drivers/ata/sata_rcar.c 708 */;
+	struct ata_eh_info *cocci_id/* drivers/ata/sata_rcar.c 680 */;
+	struct ata_port_operations cocci_id/* drivers/ata/sata_rcar.c 649 */;
+	struct scsi_host_template cocci_id/* drivers/ata/sata_rcar.c 638 */;
+	void __iomem *cocci_id/* drivers/ata/sata_rcar.c 568 */;
+	struct sata_rcar_priv *cocci_id/* drivers/ata/sata_rcar.c 567 */;
+	enum ata_completion_errors cocci_id/* drivers/ata/sata_rcar.c 553 */;
+	u32 cocci_id/* drivers/ata/sata_rcar.c 535 */;
+	struct scatterlist *cocci_id/* drivers/ata/sata_rcar.c 531 */;
+	struct ata_bmdma_prd *cocci_id/* drivers/ata/sata_rcar.c 530 */;
+	u32 *cocci_id/* drivers/ata/sata_rcar.c 508 */;
+	struct ata_link *cocci_id/* drivers/ata/sata_rcar.c 507 */;
+	unsigned char cocci_id/* drivers/ata/sata_rcar.c 465 */[2];
+	unsigned char *cocci_id/* drivers/ata/sata_rcar.c 450 */;
+	const struct ata_taskfile *cocci_id/* drivers/ata/sata_rcar.c 441 */;
+	struct ata_taskfile *cocci_id/* drivers/ata/sata_rcar.c 416 */;
+	unsigned int *cocci_id/* drivers/ata/sata_rcar.c 340 */;
+	unsigned long cocci_id/* drivers/ata/sata_rcar.c 322 */;
+	u8 cocci_id/* drivers/ata/sata_rcar.c 290 */;
+	struct ata_ioports *cocci_id/* drivers/ata/sata_rcar.c 289 */;
+	struct ata_port *cocci_id/* drivers/ata/sata_rcar.c 286 */;
+	unsigned int cocci_id/* drivers/ata/sata_rcar.c 286 */;
+	const u16 *cocci_id/* drivers/ata/sata_rcar.c 259 */;
+	u16 *cocci_id/* drivers/ata/sata_rcar.c 248 */;
+	u16 cocci_id/* drivers/ata/sata_rcar.c 170 */;
+	struct sata_rcar_priv {
+		void __iomem *base;
+		u32 sataint_mask;
+		enum sata_rcar_type type;
+	} cocci_id/* drivers/ata/sata_rcar.c 151 */;
+	enum sata_rcar_type{RCAR_GEN1_SATA, RCAR_GEN2_SATA, RCAR_GEN3_SATA, RCAR_R8A7790_ES1_SATA,} cocci_id/* drivers/ata/sata_rcar.c 144 */;
+	struct platform_driver cocci_id/* drivers/ata/sata_rcar.c 1043 */;
+	const struct dev_pm_ops cocci_id/* drivers/ata/sata_rcar.c 1033 */;
+}

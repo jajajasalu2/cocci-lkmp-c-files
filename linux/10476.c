@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct radeon_crtc *cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 753 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 752 */;
+	const struct drm_connector_helper_funcs *cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 715 */;
+	enum radeon_rmx_type cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 710 */;
+	struct radeon_encoder_int_tmds *cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 684 */;
+	struct radeon_encoder_tv_dac *cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 666 */;
+	struct radeon_encoder_atom_dac *cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 662 */;
+	struct radeon_encoder_atom_dig *cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 556 */;
+	uint64_t cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 548 */;
+	struct drm_property *cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 547 */;
+	struct mode_size {
+		int w;
+		int h;
+	} cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 503 */[17];
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 500 */;
+	struct drm_display_mode cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 402 */;
+	struct drm_property_blob *cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 283 */;
+	struct edid *cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 280 */;
+	struct radeon_connector_atom_dig cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 1934 */;
+	struct radeon_connector cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 1914 */;
+	bool cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 1865 */;
+	struct radeon_encoder *cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 1863 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 1862 */;
+	struct radeon_connector_atom_dig *cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 1861 */;
+	struct radeon_connector *cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 1860 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 1859 */;
+	struct radeon_device *cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 1858 */;
+	struct radeon_router *cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 1856 */;
+	struct radeon_hpd *cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 1855 */;
+	uint16_t cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 1854 */;
+	struct radeon_i2c_bus_rec *cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 1852 */;
+	int cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 1851 */;
+	uint32_t cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 1849 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 1848 */;
+	void cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 1847 */;
+	const struct drm_connector_funcs cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 1817 */;
+	const struct drm_connector_helper_funcs cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 1811 */;
+	enum drm_mode_status cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 1757 */;
+	const struct drm_encoder_helper_funcs *cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 1710 */;
+	u16 cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 1595 */;
+	enum drm_connector_status cocci_id/* drivers/gpu/drm/radeon/radeon_connectors.c 1209 */;
+}

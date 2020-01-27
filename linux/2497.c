@@ -1,0 +1,96 @@
+cocci_test_suite() {
+	struct list_head *cocci_id/* drivers/md/dm-bufio.c 952 */;
+	int *cocci_id/* drivers/md/dm-bufio.c 951 */;
+	sector_t cocci_id/* drivers/md/dm-bufio.c 950 */;
+	enum new_flag cocci_id/* drivers/md/dm-bufio.c 882 */;
+	struct dm_bufio_client *cocci_id/* drivers/md/dm-bufio.c 882 */;
+	struct dm_buffer *cocci_id/* drivers/md/dm-bufio.c 882 */;
+	struct dm_buffer cocci_id/* drivers/md/dm-bufio.c 867 */;
+	bool cocci_id/* drivers/md/dm-bufio.c 831 */;
+	struct dm_bufio_client {
+		struct mutex lock;
+		struct list_head lru[LIST_SIZE];
+		unsigned long n_buffers[LIST_SIZE];
+		struct block_device *bdev;
+		unsigned block_size;
+		s8 sectors_per_block_bits;
+		void (*alloc_callback)(struct dm_buffer *);
+		void (*write_callback)(struct dm_buffer *);
+		struct kmem_cache *slab_buffer;
+		struct kmem_cache *slab_cache;
+		struct dm_io_client *dm_io;
+		struct list_head reserved_buffers;
+		unsigned need_reserved_buffers;
+		unsigned minimum_buffers;
+		struct rb_root buffer_tree;
+		wait_queue_head_t free_buffer_wait;
+		sector_t start;
+		int async_write_error;
+		struct list_head client_list;
+		struct shrinker shrinker;
+	} cocci_id/* drivers/md/dm-bufio.c 82 */;
+	enum new_flag{NF_FRESH=0, NF_READ=1, NF_GET=2, NF_PREFETCH=3,} cocci_id/* drivers/md/dm-bufio.c 815 */;
+	struct blk_plug cocci_id/* drivers/md/dm-bufio.c 730 */;
+	void (*cocci_id/* drivers/md/dm-bufio.c 634 */)(struct dm_buffer *,
+							blk_status_t);
+	char *cocci_id/* drivers/md/dm-bufio.c 596 */;
+	blk_status_t cocci_id/* drivers/md/dm-bufio.c 587 */;
+	struct bio *cocci_id/* drivers/md/dm-bufio.c 584 */;
+	int cocci_id/* drivers/md/dm-bufio.c 477 */;
+	unsigned cocci_id/* drivers/md/dm-bufio.c 402 */;
+	unsigned char *cocci_id/* drivers/md/dm-bufio.c 376 */;
+	void *cocci_id/* drivers/md/dm-bufio.c 375 */;
+	void cocci_id/* drivers/md/dm-bufio.c 337 */;
+	unsigned long *const cocci_id/* drivers/md/dm-bufio.c 299 */[DATA_MODE_LIMIT];
+	long cocci_id/* drivers/md/dm-bufio.c 297 */;
+	unsigned char cocci_id/* drivers/md/dm-bufio.c 296 */;
+	struct rb_node **cocci_id/* drivers/md/dm-bufio.c 267 */;
+	struct rb_node *cocci_id/* drivers/md/dm-bufio.c 250 */;
+	struct work_struct cocci_id/* drivers/md/dm-bufio.c 235 */;
+	struct delayed_work cocci_id/* drivers/md/dm-bufio.c 234 */;
+	struct workqueue_struct *cocci_id/* drivers/md/dm-bufio.c 233 */;
+	void __exit cocci_id/* drivers/md/dm-bufio.c 1963 */;
+	__u64 cocci_id/* drivers/md/dm-bufio.c 1924 */;
+	int __init cocci_id/* drivers/md/dm-bufio.c 1922 */;
+	struct work_struct *cocci_id/* drivers/md/dm-bufio.c 1823 */;
+	unsigned long cocci_id/* drivers/md/dm-bufio.c 1790 */;
+	char cocci_id/* drivers/md/dm-bufio.c 1613 */[27];
+	void (*cocci_id/* drivers/md/dm-bufio.c 1607 */)(struct dm_buffer *);
+	struct block_device *cocci_id/* drivers/md/dm-bufio.c 1605 */;
+	struct dm_bufio_client cocci_id/* drivers/md/dm-bufio.c 1594 */;
+	struct shrinker *cocci_id/* drivers/md/dm-bufio.c 1592 */;
+	struct shrink_control *cocci_id/* drivers/md/dm-bufio.c 1592 */;
+	gfp_t cocci_id/* drivers/md/dm-bufio.c 1553 */;
+	unsigned long long cocci_id/* drivers/md/dm-bufio.c 1496 */;
+	struct dm_buffer {
+		struct rb_node node;
+		struct list_head lru_list;
+		struct list_head global_list;
+		sector_t block;
+		void *data;
+		unsigned char data_mode;
+		unsigned char list_mode;
+		blk_status_t read_error;
+		blk_status_t write_error;
+		unsigned accessed;
+		unsigned hold_count;
+		unsigned long state;
+		unsigned long last_accessed;
+		unsigned dirty_start;
+		unsigned dirty_end;
+		unsigned write_start;
+		unsigned write_end;
+		struct dm_bufio_client *c;
+		struct list_head write_list;
+		void (*end_io)(struct dm_buffer *, blk_status_t);
+#ifdef CONFIG_DM_DEBUG_BLOCK_STACK_TRACING
+#define MAX_STACK 10
+		unsigned int stack_len;
+		unsigned long stack_entries[MAX_STACK];
+#endif
+	} cocci_id/* drivers/md/dm-bufio.c 133 */;
+	struct dm_io_region cocci_id/* drivers/md/dm-bufio.c 1316 */;
+	struct dm_io_request cocci_id/* drivers/md/dm-bufio.c 1309 */;
+	enum data_mode{DATA_MODE_SLAB=0, DATA_MODE_GET_FREE_PAGES=1, DATA_MODE_VMALLOC=2, DATA_MODE_LIMIT=3,} cocci_id/* drivers/md/dm-bufio.c 126 */;
+	struct dm_buffer **cocci_id/* drivers/md/dm-bufio.c 1079 */;
+}

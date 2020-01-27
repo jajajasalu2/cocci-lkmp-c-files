@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	u32 cocci_id/* net/ipv4/sysctl_net_ipv4.c 845 */;
+	struct ctl_table cocci_id/* net/ipv4/sysctl_net_ipv4.c 81 */;
+	int cocci_id/* net/ipv4/sysctl_net_ipv4.c 80 */[2];
+	gid_t cocci_id/* net/ipv4/sysctl_net_ipv4.c 668 */;
+	struct ctl_table cocci_id/* net/ipv4/sysctl_net_ipv4.c 622 */[];
+	bool cocci_id/* net/ipv4/sysctl_net_ipv4.c 60 */;
+	int cocci_id/* net/ipv4/sysctl_net_ipv4.c 50 */;
+	struct inet6_protocol *cocci_id/* net/ipv4/sysctl_net_ipv4.c 382 */;
+	struct net_protocol *cocci_id/* net/ipv4/sysctl_net_ipv4.c 380 */;
+	int cocci_id/* net/ipv4/sysctl_net_ipv4.c 37 */[];
+	char *cocci_id/* net/ipv4/sysctl_net_ipv4.c 313 */;
+	__le32 cocci_id/* net/ipv4/sysctl_net_ipv4.c 312 */[TCP_FASTOPEN_KEY_MAX * 4];
+	u32 cocci_id/* net/ipv4/sysctl_net_ipv4.c 311 */[TCP_FASTOPEN_KEY_MAX * 4];
+	struct tcp_fastopen_context *cocci_id/* net/ipv4/sysctl_net_ipv4.c 310 */;
+	u32 cocci_id/* net/ipv4/sysctl_net_ipv4.c 282 */[4];
+	__le32 *cocci_id/* net/ipv4/sysctl_net_ipv4.c 280 */;
+	char cocci_id/* net/ipv4/sysctl_net_ipv4.c 228 */[TCP_CA_NAME_MAX];
+	loff_t *cocci_id/* net/ipv4/sysctl_net_ipv4.c 208 */;
+	size_t *cocci_id/* net/ipv4/sysctl_net_ipv4.c 208 */;
+	void __user *cocci_id/* net/ipv4/sysctl_net_ipv4.c 207 */;
+	kgid_t cocci_id/* net/ipv4/sysctl_net_ipv4.c 177 */;
+	gid_t cocci_id/* net/ipv4/sysctl_net_ipv4.c 176 */[2];
+	struct user_namespace *cocci_id/* net/ipv4/sysctl_net_ipv4.c 174 */;
+	unsigned int cocci_id/* net/ipv4/sysctl_net_ipv4.c 148 */;
+	struct net cocci_id/* net/ipv4/sysctl_net_ipv4.c 147 */;
+	struct net *cocci_id/* net/ipv4/sysctl_net_ipv4.c 146 */;
+	kgid_t *cocci_id/* net/ipv4/sysctl_net_ipv4.c 143 */;
+	struct ctl_table *cocci_id/* net/ipv4/sysctl_net_ipv4.c 143 */;
+	void cocci_id/* net/ipv4/sysctl_net_ipv4.c 143 */;
+	struct ctl_table_header *cocci_id/* net/ipv4/sysctl_net_ipv4.c 1386 */;
+	struct pernet_operations cocci_id/* net/ipv4/sysctl_net_ipv4.c 1379 */;
+	void *cocci_id/* net/ipv4/sysctl_net_ipv4.c 1347 */;
+	unsigned long cocci_id/* net/ipv4/sysctl_net_ipv4.c 1301 */;
+}

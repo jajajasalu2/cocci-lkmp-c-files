@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	const struct xgene_mac_ops cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 997 */;
+	void __force *cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 959 */;
+	struct mii_bus *cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 946 */;
+	struct device_node *cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 846 */;
+	int cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 829 */;
+	struct fwnode_handle *cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 828 */;
+	struct fwnode_reference_args cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 827 */;
+	struct device *cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 825 */;
+	struct acpi_device *cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 825 */;
+	struct phy_device *cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 804 */;
+	const struct xgene_mac_ops *cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 803 */;
+	struct xgene_enet_pdata *cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 802 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 800 */;
+	void cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 800 */;
+	struct xgene_enet_desc_ring *cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 733 */;
+	acpi_status cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 715 */;
+	u32 cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 629 */;
+	u16 cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 629 */;
+	struct clk *cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 423 */;
+	u8 cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 396 */;
+	u8 *cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 382 */;
+	void __iomem *cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 293 */;
+	u32 *cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 291 */;
+	enum xgene_enet_err_code cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 196 */;
+	u32 __iomem *cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 186 */;
+	enum xgene_enet_ring_cfgsize cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 17 */;
+	bool cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 164 */;
+	u64 cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 16 */;
+	struct xgene_ring_ops cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 1020 */;
+	const struct xgene_port_ops cocci_id/* drivers/net/ethernet/apm/xgene/xgene_enet_hw.c 1013 */;
+}

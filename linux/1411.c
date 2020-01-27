@@ -1,0 +1,61 @@
+cocci_test_suite() {
+	const struct usb_ep_ops cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 943 */;
+	struct mv_req cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 816 */;
+	unsigned long cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 777 */;
+	struct mv_ep cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 774 */;
+	const struct usb_endpoint_descriptor cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 62 */;
+	gfp_t cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 597 */;
+	struct usb_ep *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 597 */;
+	struct usb_request *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 596 */;
+	void cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 59 */(struct mv_udc *udc,
+								   struct usb_gadget_driver *driver);
+	void cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 58 */(struct mv_ep *ep,
+								   int status);
+	const char cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 56 */[];
+	const unsigned char cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 443 */;
+	const struct usb_endpoint_descriptor *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 436 */;
+	dma_addr_t cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 409 */;
+	unsigned cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 349 */;
+	u32 cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 341 */;
+	struct mv_dqh *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 340 */;
+	struct mv_udc *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 339 */;
+	dma_addr_t *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 336 */;
+	int *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 336 */;
+	struct mv_req *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 335 */;
+	struct mv_dtd *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 335 */;
+	unsigned *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 335 */;
+	struct platform_driver cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 2409 */;
+	const struct dev_pm_ops cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 2389 */;
+	struct mv_dtd cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 2208 */;
+	struct mv_dqh cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 2193 */;
+	struct mv_op_regs __iomem *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 2181 */;
+	struct mv_cap_regs __iomem *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 2156 */;
+	unsigned char cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 212 */;
+	size_t cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 2114 */;
+	struct resource *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 2113 */;
+	struct mv_usb_platform_data *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 2110 */;
+	struct platform_device *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 2108 */;
+	struct device *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 2071 */;
+	struct work_struct *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 2052 */;
+	irqreturn_t cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 1998 */;
+	void *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 1998 */;
+	unsigned int cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 1859 */;
+	u8 *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 1758 */;
+	bool cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 1661 */;
+	struct mv_ep *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 1564 */;
+	u8 cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 1562 */;
+	struct usb_ctrlrequest *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 1560 */;
+	void cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 1560 */;
+	int cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 1529 */;
+	u16 cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 1528 */;
+	u16 *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 1456 */;
+	struct usb_gadget_driver *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 1310 */;
+	unsigned short cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 1282 */;
+	char cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 1239 */[14];
+	const struct usb_gadget_ops cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 1219 */;
+	int cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 1217 */(struct usb_gadget *);
+	int cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 1216 */(struct usb_gadget *,
+								    struct usb_gadget_driver *);
+	struct mv_udc cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 1119 */;
+	struct usb_gadget *cocci_id/* drivers/usb/gadget/udc/mv_udc_core.c 1111 */;
+}

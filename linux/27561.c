@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	struct list_head *cocci_id/* fs/btrfs/zstd.c 95 */(unsigned int level);
+	void cocci_id/* fs/btrfs/zstd.c 94 */(struct list_head *ws);
+	struct workspace cocci_id/* fs/btrfs/zstd.c 91 */;
+	struct workspace *cocci_id/* fs/btrfs/zstd.c 89 */;
+	struct list_head *cocci_id/* fs/btrfs/zstd.c 89 */;
+	size_t cocci_id/* fs/btrfs/zstd.c 87 */[ZSTD_BTRFS_MAX_LEVEL];
+	struct zstd_workspace_manager cocci_id/* fs/btrfs/zstd.c 85 */;
+	struct zstd_workspace_manager {
+		const struct btrfs_compress_op *ops;
+		spinlock_t lock;
+		struct list_head lru_list;
+		struct list_head idle_ws[ZSTD_BTRFS_MAX_LEVEL];
+		unsigned long active_map;
+		wait_queue_head_t wait;
+		struct timer_list timer;
+	} cocci_id/* fs/btrfs/zstd.c 75 */;
+	const struct btrfs_compress_op cocci_id/* fs/btrfs/zstd.c 708 */;
+	char *cocci_id/* fs/btrfs/zstd.c 634 */;
+	ZSTD_DStream *cocci_id/* fs/btrfs/zstd.c 629 */;
+	unsigned char *cocci_id/* fs/btrfs/zstd.c 624 */;
+	struct bio *cocci_id/* fs/btrfs/zstd.c 551 */;
+	struct compressed_bio *cocci_id/* fs/btrfs/zstd.c 546 */;
+	struct workspace {
+		void *mem;
+		size_t size;
+		char *buf;
+		unsigned int level;
+		unsigned int req_level;
+		unsigned long last_used;
+		struct list_head list;
+		struct list_head lru_list;
+		ZSTD_inBuffer in_buf;
+		ZSTD_outBuffer out_buf;
+	} cocci_id/* fs/btrfs/zstd.c 42 */;
+	const unsigned long cocci_id/* fs/btrfs/zstd.c 382 */;
+	unsigned long cocci_id/* fs/btrfs/zstd.c 379 */;
+	struct page *cocci_id/* fs/btrfs/zstd.c 377 */;
+	ZSTD_CStream *cocci_id/* fs/btrfs/zstd.c 374 */;
+	u64 cocci_id/* fs/btrfs/zstd.c 370 */;
+	struct page **cocci_id/* fs/btrfs/zstd.c 370 */;
+	unsigned long *cocci_id/* fs/btrfs/zstd.c 370 */;
+	struct address_space *cocci_id/* fs/btrfs/zstd.c 369 */;
+	unsigned int cocci_id/* fs/btrfs/zstd.c 343 */;
+	int cocci_id/* fs/btrfs/zstd.c 199 */;
+	ZSTD_parameters cocci_id/* fs/btrfs/zstd.c 158 */;
+	size_t cocci_id/* fs/btrfs/zstd.c 154 */;
+	void cocci_id/* fs/btrfs/zstd.c 152 */;
+	struct timer_list *cocci_id/* fs/btrfs/zstd.c 103 */;
+}

@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct ccu_nk cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 99 */;
+	struct clk_hw_onecell_data cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 979 */;
+	const struct clk_hw *cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 949 */[];
+	struct ccu_common *cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 786 */[];
+	const struct ccu_mux_fixed_prediv cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 746 */[];
+	struct ccu_mp cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 578 */;
+	const u8 cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 577 */[];
+	struct clk_div_table cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 283 */[];
+	struct ccu_nkmp cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 27 */;
+	struct ccu_div cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 262 */;
+	const struct ccu_mux_var_prediv cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 259 */[];
+	const char *const cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 257 */[];
+	struct ccu_nkm cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 212 */;
+	struct platform_driver cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 1355 */;
+	const struct of_device_id cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 1350 */[];
+	u32 cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 1300 */;
+	void __iomem *cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 1299 */;
+	struct regmap *cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 1298 */;
+	struct resource *cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 1297 */;
+	struct platform_device *cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 1295 */;
+	int cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 1295 */;
+	struct regmap_config cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 1281 */;
+	unsigned int cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 1274 */;
+	bool cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 1273 */;
+	struct device *cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 1273 */;
+	struct ccu_mux_nb cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 1258 */;
+	struct ccu_pll_nb cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 1251 */;
+	const struct sunxi_ccu_desc cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 1241 */;
+	struct ccu_reset_map cocci_id/* drivers/clk/sunxi-ng/ccu-sun8i-r40.c 1151 */[];
+}

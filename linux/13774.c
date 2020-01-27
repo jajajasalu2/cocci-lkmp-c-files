@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	const u8 cocci_id/* drivers/media/i2c/adv7343.c 76 */[];
+	struct i2c_driver cocci_id/* drivers/media/i2c/adv7343.c 521 */;
+	const struct of_device_id cocci_id/* drivers/media/i2c/adv7343.c 514 */[];
+	const struct i2c_device_id cocci_id/* drivers/media/i2c/adv7343.c 506 */[];
+	struct adv7343_state {
+		struct v4l2_subdev sd;
+		struct v4l2_ctrl_handler hdl;
+		const struct adv7343_platform_data *pdata;
+		u8 reg00;
+		u8 reg01;
+		u8 reg02;
+		u8 reg35;
+		u8 reg80;
+		u8 reg82;
+		u32 output;
+		v4l2_std_id std;
+	} cocci_id/* drivers/media/i2c/adv7343.c 45 */;
+	struct adv7343_state cocci_id/* drivers/media/i2c/adv7343.c 442 */;
+	struct device_node *cocci_id/* drivers/media/i2c/adv7343.c 401 */;
+	struct i2c_client *cocci_id/* drivers/media/i2c/adv7343.c 398 */;
+	struct adv7343_platform_data *cocci_id/* drivers/media/i2c/adv7343.c 397 */;
+	struct adv7343_state *cocci_id/* drivers/media/i2c/adv7343.c 367 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/i2c/adv7343.c 365 */;
+	int cocci_id/* drivers/media/i2c/adv7343.c 365 */;
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/i2c/adv7343.c 360 */;
+	const struct v4l2_subdev_video_ops cocci_id/* drivers/media/i2c/adv7343.c 355 */;
+	u32 cocci_id/* drivers/media/i2c/adv7343.c 340 */;
+	v4l2_std_id cocci_id/* drivers/media/i2c/adv7343.c 324 */;
+	const struct v4l2_subdev_core_ops cocci_id/* drivers/media/i2c/adv7343.c 320 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/i2c/adv7343.c 316 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/i2c/adv7343.c 298 */;
+	unsigned long long cocci_id/* drivers/media/i2c/adv7343.c 292 */;
+	unsigned char cocci_id/* drivers/media/i2c/adv7343.c 208 */;
+	unsigned char *cocci_id/* drivers/media/i2c/adv7343.c 176 */;
+	u8 cocci_id/* drivers/media/i2c/adv7343.c 138 */;
+	char *cocci_id/* drivers/media/i2c/adv7343.c 137 */;
+	struct adv7343_std_info *cocci_id/* drivers/media/i2c/adv7343.c 135 */;
+	const struct adv7343_std_info cocci_id/* drivers/media/i2c/adv7343.c 107 */[];
+}

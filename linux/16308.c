@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct v4l2_subdev *cocci_id/* drivers/staging/media/imx/imx-media-fim.c 462 */;
+	const struct v4l2_fract *cocci_id/* drivers/staging/media/imx/imx-media-fim.c 420 */;
+	struct imx_media_fim {
+		struct v4l2_subdev *sd;
+		struct v4l2_ctrl_handler ctrl_handler;
+		struct v4l2_ctrl *ctrl[FIM_NUM_CONTROLS];
+		struct v4l2_ctrl *icap_ctrl[FIM_NUM_ICAP_CONTROLS];
+		spinlock_t lock;
+		bool enabled;
+		int num_avg;
+		int num_skip;
+		unsigned long tolerance_min;
+		unsigned long tolerance_max;
+		int icap_channel;
+		int icap_flags;
+		int counter;
+		ktime_t last_ts;
+		unsigned long sum;
+		unsigned long nominal;
+		struct completion icap_first_event;
+		bool stream_on;
+	} cocci_id/* drivers/staging/media/imx/imx-media-fim.c 39 */;
+	struct v4l2_ctrl_handler *cocci_id/* drivers/staging/media/imx/imx-media-fim.c 371 */;
+	const struct v4l2_ctrl_config cocci_id/* drivers/staging/media/imx/imx-media-fim.c 293 */[];
+	const struct v4l2_ctrl_ops cocci_id/* drivers/staging/media/imx/imx-media-fim.c 289 */;
+	enum{FIM_CL_ICAP_EDGE=0, FIM_CL_ICAP_CHANNEL, FIM_NUM_ICAP_CONTROLS,} cocci_id/* drivers/staging/media/imx/imx-media-fim.c 27 */;
+	struct imx_media_fim cocci_id/* drivers/staging/media/imx/imx-media-fim.c 264 */;
+	struct v4l2_ctrl *cocci_id/* drivers/staging/media/imx/imx-media-fim.c 261 */;
+	unsigned long cocci_id/* drivers/staging/media/imx/imx-media-fim.c 248 */;
+	struct imx_media_fim *cocci_id/* drivers/staging/media/imx/imx-media-fim.c 246 */;
+	void cocci_id/* drivers/staging/media/imx/imx-media-fim.c 246 */;
+	ktime_t cocci_id/* drivers/staging/media/imx/imx-media-fim.c 196 */;
+	void *cocci_id/* drivers/staging/media/imx/imx-media-fim.c 195 */;
+	int cocci_id/* drivers/staging/media/imx/imx-media-fim.c 195 */;
+	enum{FIM_CL_ENABLE=0, FIM_CL_NUM, FIM_CL_TOLERANCE_MIN, FIM_CL_TOLERANCE_MAX, FIM_CL_NUM_SKIP, FIM_NUM_CONTROLS,} cocci_id/* drivers/staging/media/imx/imx-media-fim.c 18 */;
+	u32 cocci_id/* drivers/staging/media/imx/imx-media-fim.c 159 */;
+	u64 cocci_id/* drivers/staging/media/imx/imx-media-fim.c 155 */;
+	bool cocci_id/* drivers/staging/media/imx/imx-media-fim.c 148 */;
+	long long cocci_id/* drivers/staging/media/imx/imx-media-fim.c 146 */;
+	const struct v4l2_event cocci_id/* drivers/staging/media/imx/imx-media-fim.c 130 */;
+}

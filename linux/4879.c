@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	void cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 824 */;
+	unsigned int *cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 786 */;
+	struct scatterlist *cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 785 */;
+	u64 cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 702 */;
+	struct c4iw_pd *cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 697 */;
+	struct c4iw_dev *cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 696 */;
+	struct ib_udata *cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 694 */;
+	enum ib_mr_type cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 693 */;
+	struct ib_pd *cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 693 */;
+	struct ib_mr *cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 693 */;
+	struct c4iw_mw *cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 620 */;
+	enum ib_mw_type cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 615 */;
+	struct ib_mw *cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 615 */;
+	struct sg_dma_page_iter cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 514 */;
+	__be64 *cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 511 */;
+	struct c4iw_mr *cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 434 */;
+	u32 *cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 384 */;
+	atomic_t cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 280 */;
+	struct fw_ri_tpte *cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 278 */;
+	enum fw_ri_stag_type cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 272 */;
+	enum fw_ri_mem_perms cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 272 */;
+	dma_addr_t cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 197 */;
+	struct c4iw_wr_wait *cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 192 */;
+	struct sk_buff *cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 191 */;
+	void *cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 191 */;
+	u32 cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 190 */;
+	struct c4iw_rdev *cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 190 */;
+	int cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 190 */;
+	u8 *cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 167 */;
+	__be64 cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 150 */;
+	unsigned long cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 150 */;
+	__be32 cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 118 */;
+	u8 cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 116 */;
+	struct ulptx_idata *cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 115 */;
+	struct ulp_mem_io *cocci_id/* drivers/infiniband/hw/cxgb4/mem.c 114 */;
+}

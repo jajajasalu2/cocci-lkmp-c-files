@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 74 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 561 */;
+	struct hinic_rxq_stats *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 55 */;
+	struct hinic_qp cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 519 */;
+	struct hinic_qp *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 519 */;
+	int cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 516 */;
+	struct cpumask cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 478 */;
+	irqreturn_t cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 453 */;
+	void *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 453 */;
+	struct hinic_dev *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 441 */;
+	struct hinic_rxq cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 422 */;
+	struct napi_struct *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 420 */;
+	struct hinic_rq_cqe *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 334 */;
+	u64 cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 330 */;
+	u16 cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 253 */;
+	struct hinic_sge cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 252 */;
+	struct hinic_hw_wqe *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 251 */;
+	struct hinic_rq *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 250 */;
+	struct hinic_rxq *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 248 */;
+	void cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 248 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 203 */;
+	dma_addr_t cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 202 */;
+	struct hinic_rq_wqe *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 199 */;
+	struct pci_dev *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 134 */;
+	struct hinic_hwif *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 133 */;
+	struct hinic_hwdev *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 132 */;
+	dma_addr_t *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 129 */;
+	u32 cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_rx.c 101 */;
+}

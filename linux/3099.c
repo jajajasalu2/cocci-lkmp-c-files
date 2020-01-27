@@ -1,0 +1,81 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/block/swim.c 994 */;
+	int __init cocci_id/* drivers/block/swim.c 986 */;
+	struct platform_driver cocci_id/* drivers/block/swim.c 978 */;
+	struct swim_priv cocci_id/* drivers/block/swim.c 924 */;
+	struct resource *cocci_id/* drivers/block/swim.c 891 */;
+	struct platform_device *cocci_id/* drivers/block/swim.c 889 */;
+	struct request_queue *cocci_id/* drivers/block/swim.c 833 */;
+	const struct blk_mq_ops cocci_id/* drivers/block/swim.c 800 */;
+	enum drive_location cocci_id/* drivers/block/swim.c 778 */;
+	struct swim_priv *cocci_id/* drivers/block/swim.c 768 */;
+	dev_t cocci_id/* drivers/block/swim.c 766 */;
+	struct kobject *cocci_id/* drivers/block/swim.c 766 */;
+	int *cocci_id/* drivers/block/swim.c 766 */;
+	void *cocci_id/* drivers/block/swim.c 766 */;
+	const struct block_device_operations cocci_id/* drivers/block/swim.c 756 */;
+	struct floppy_state *cocci_id/* drivers/block/swim.c 733 */;
+	struct gendisk *cocci_id/* drivers/block/swim.c 730 */;
+	unsigned int cocci_id/* drivers/block/swim.c 730 */;
+	struct floppy_struct *cocci_id/* drivers/block/swim.c 716 */;
+	struct hd_geometry *cocci_id/* drivers/block/swim.c 713 */;
+	struct block_device *cocci_id/* drivers/block/swim.c 713 */;
+	struct floppy_struct cocci_id/* drivers/block/swim.c 706 */;
+	void __user *cocci_id/* drivers/block/swim.c 705 */;
+	unsigned long cocci_id/* drivers/block/swim.c 687 */;
+	fmode_t cocci_id/* drivers/block/swim.c 686 */;
+	void cocci_id/* drivers/block/swim.c 670 */;
+	struct floppy_struct **cocci_id/* drivers/block/swim.c 564 */;
+	struct floppy_struct cocci_id/* drivers/block/swim.c 556 */[4];
+	struct request *cocci_id/* drivers/block/swim.c 529 */;
+	const struct blk_mq_queue_data *cocci_id/* drivers/block/swim.c 525 */;
+	struct blk_mq_hw_ctx *cocci_id/* drivers/block/swim.c 524 */;
+	unsigned char *cocci_id/* drivers/block/swim.c 494 */;
+	blk_status_t cocci_id/* drivers/block/swim.c 492 */;
+	short cocci_id/* drivers/block/swim.c 463 */;
+	struct sector_header cocci_id/* drivers/block/swim.c 461 */;
+	struct swim __iomem *cocci_id/* drivers/block/swim.c 443 */;
+	int cocci_id/* drivers/block/swim.c 441 */;
+	unsigned char cocci_id/* drivers/block/swim.c 40 */;
+	enum head cocci_id/* drivers/block/swim.c 355 */;
+	enum motor_action cocci_id/* drivers/block/swim.c 319 */;
+	struct sector_header {
+		unsigned char side;
+		unsigned char track;
+		unsigned char sector;
+		unsigned char size;
+		unsigned char crc0;
+		unsigned char crc1;
+	}__attribute__((packed)) cocci_id/* drivers/block/swim.c 29 */;
+	struct iwm __iomem *cocci_id/* drivers/block/swim.c 223 */;
+	int cocci_id/* drivers/block/swim.c 217 */(struct swim __iomem *base,
+						   unsigned char *data);
+	int cocci_id/* drivers/block/swim.c 215 */(struct swim __iomem *base,
+						   struct sector_header *header);
+	struct swim_priv {
+		struct swim __iomem *base;
+		spinlock_t lock;
+		int floppy_count;
+		struct floppy_state unit[FD_MAX_UNIT];
+	} cocci_id/* drivers/block/swim.c 208 */;
+	enum head{LOWER_HEAD=0, UPPER_HEAD=1,} cocci_id/* drivers/block/swim.c 201 */;
+	enum motor_action{OFF, ON,} cocci_id/* drivers/block/swim.c 196 */;
+	struct floppy_state {
+		enum drive_location location;
+		int head_number;
+		int disk_in;
+		int ejected;
+		enum media_type type;
+		int write_protected;
+		int total_secs;
+		int secpercyl;
+		int secpertrack;
+		int track;
+		int ref_count;
+		struct gendisk *disk;
+		struct blk_mq_tag_set tag_set;
+		struct swim_priv *swd;
+	} cocci_id/* drivers/block/swim.c 165 */;
+	enum media_type{DD_MEDIA, HD_MEDIA,} cocci_id/* drivers/block/swim.c 160 */;
+	enum drive_location{INTERNAL_DRIVE=0x02, EXTERNAL_DRIVE=0x04,} cocci_id/* drivers/block/swim.c 155 */;
+}

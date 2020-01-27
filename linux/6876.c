@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	char cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 697 */[16];
+	const struct file_operations cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 679 */;
+	struct fc_trace_flag_type cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 62 */;
+	void *cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 613 */;
+	struct fw_stats cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 552 */;
+	u64 cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 550 */;
+	struct io_path_stats cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 550 */;
+	struct vlan_stats cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 548 */;
+	struct misc_stats cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 547 */;
+	struct reset_stats cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 546 */;
+	struct terminate_stats cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 545 */;
+	struct abort_stats cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 543 */;
+	int cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 53 */;
+	void cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 53 */;
+	unsigned long cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 519 */;
+	u64 *cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 516 */;
+	struct fnic_stats *cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 515 */;
+	const char __user *cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 510 */;
+	char cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 487 */[64];
+	struct fnic *cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 486 */;
+	loff_t *cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 483 */;
+	size_t cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 483 */;
+	char __user *cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 482 */;
+	ssize_t cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 481 */;
+	struct stats_debug_info cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 455 */;
+	struct stats_debug_info *cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 453 */;
+	struct inode *cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 451 */;
+	struct file *cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 451 */;
+	struct fc_trace_flag_type *cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 42 */;
+	struct fc_trace_flag_type {
+		u8 fc_row_file;
+		u8 fc_normal_file;
+		u8 fnic_trace;
+		u8 fc_trace;
+		u8 fc_clear;
+	} cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 34 */;
+	struct dentry *cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 30 */;
+	fnic_dbgfs_t *cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 268 */;
+	loff_t cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 264 */;
+	fnic_dbgfs_t cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 215 */;
+	u8 *cocci_id/* drivers/scsi/fnic/fnic_debugfs.c 119 */;
+}

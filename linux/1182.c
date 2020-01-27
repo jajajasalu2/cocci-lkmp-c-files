@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	bool cocci_id/* drivers/usb/musb/sunxi.c 93 */;
+	struct work_struct *cocci_id/* drivers/usb/musb/sunxi.c 90 */;
+	struct platform_driver cocci_id/* drivers/usb/musb/sunxi.c 823 */;
+	const struct of_device_id cocci_id/* drivers/usb/musb/sunxi.c 814 */[];
+	struct sunxi_glue {
+		struct device *dev;
+		struct musb *musb;
+		struct platform_device *musb_pdev;
+		struct clk *clk;
+		struct reset_control *rst;
+		struct phy *phy;
+		struct platform_device *usb_phy;
+		struct usb_phy *xceiv;
+		enum phy_mode phy_mode;
+		unsigned long flags;
+		struct work_struct work;
+		struct extcon_dev *extcon;
+		struct notifier_block host_nb;
+	} cocci_id/* drivers/usb/musb/sunxi.c 73 */;
+	struct musb *cocci_id/* drivers/usb/musb/sunxi.c 71 */;
+	struct device_node *cocci_id/* drivers/usb/musb/sunxi.c 671 */;
+	struct platform_device_info cocci_id/* drivers/usb/musb/sunxi.c 669 */;
+	struct musb_hdrc_platform_data cocci_id/* drivers/usb/musb/sunxi.c 668 */;
+	struct platform_device *cocci_id/* drivers/usb/musb/sunxi.c 666 */;
+	struct musb_hdrc_config cocci_id/* drivers/usb/musb/sunxi.c 656 */;
+	const struct musb_hdrc_config cocci_id/* drivers/usb/musb/sunxi.c 647 */;
+	struct musb_fifo_cfg cocci_id/* drivers/usb/musb/sunxi.c 620 */[];
+	const struct musb_platform_ops cocci_id/* drivers/usb/musb/sunxi.c 594 */;
+	const void __iomem *cocci_id/* drivers/usb/musb/sunxi.c 410 */;
+	unsigned cocci_id/* drivers/usb/musb/sunxi.c 410 */;
+	u8 cocci_id/* drivers/usb/musb/sunxi.c 405 */;
+	u32 cocci_id/* drivers/usb/musb/sunxi.c 405 */;
+	u16 cocci_id/* drivers/usb/musb/sunxi.c 405 */;
+	enum phy_mode cocci_id/* drivers/usb/musb/sunxi.c 327 */;
+	void __iomem *cocci_id/* drivers/usb/musb/sunxi.c 315 */;
+	struct dma_controller *cocci_id/* drivers/usb/musb/sunxi.c 314 */;
+	struct sunxi_glue *cocci_id/* drivers/usb/musb/sunxi.c 309 */;
+	void cocci_id/* drivers/usb/musb/sunxi.c 307 */;
+	int cocci_id/* drivers/usb/musb/sunxi.c 270 */;
+	struct sunxi_glue cocci_id/* drivers/usb/musb/sunxi.c 202 */;
+	void *cocci_id/* drivers/usb/musb/sunxi.c 200 */;
+	unsigned long cocci_id/* drivers/usb/musb/sunxi.c 200 */;
+	struct notifier_block *cocci_id/* drivers/usb/musb/sunxi.c 199 */;
+	irqreturn_t cocci_id/* drivers/usb/musb/sunxi.c 167 */;
+}

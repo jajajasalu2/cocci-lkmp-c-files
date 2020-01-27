@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/usb/dwc2/gadget.c 845 */;
+	struct scatterlist *cocci_id/* drivers/usb/dwc2/gadget.c 843 */;
+	struct dwc2_dma_desc *cocci_id/* drivers/usb/dwc2/gadget.c 842 */;
+	unsigned int cocci_id/* drivers/usb/dwc2/gadget.c 839 */;
+	dma_addr_t cocci_id/* drivers/usb/dwc2/gadget.c 838 */;
+	bool cocci_id/* drivers/usb/dwc2/gadget.c 775 */;
+	struct dwc2_dma_desc **cocci_id/* drivers/usb/dwc2/gadget.c 772 */;
+	u32 *cocci_id/* drivers/usb/dwc2/gadget.c 743 */;
+	void cocci_id/* drivers/usb/dwc2/gadget.c 72 */(struct dwc2_hsotg *hsotg);
+	u32 cocci_id/* drivers/usb/dwc2/gadget.c 57 */;
+	void cocci_id/* drivers/usb/dwc2/gadget.c 57 */;
+	struct dwc2_gregs_backup *cocci_id/* drivers/usb/dwc2/gadget.c 5213 */;
+	struct dwc2_dregs_backup *cocci_id/* drivers/usb/dwc2/gadget.c 4970 */;
+	struct dwc2_hsotg *cocci_id/* drivers/usb/dwc2/gadget.c 4968 */;
+	int cocci_id/* drivers/usb/dwc2/gadget.c 4968 */;
+	struct dwc2_hsotg cocci_id/* drivers/usb/dwc2/gadget.c 49 */;
+	struct device *cocci_id/* drivers/usb/dwc2/gadget.c 4800 */;
+	struct dwc2_hsotg_ep cocci_id/* drivers/usb/dwc2/gadget.c 4706 */;
+	char *cocci_id/* drivers/usb/dwc2/gadget.c 4625 */;
+	const struct usb_gadget_ops cocci_id/* drivers/usb/dwc2/gadget.c 4600 */;
+	struct usb_gadget *cocci_id/* drivers/usb/dwc2/gadget.c 4506 */;
+	struct usb_gadget_driver *cocci_id/* drivers/usb/dwc2/gadget.c 4401 */;
+	struct dwc2_dma_desc cocci_id/* drivers/usb/dwc2/gadget.c 439 */;
+	const struct usb_ep_ops cocci_id/* drivers/usb/dwc2/gadget.c 4348 */;
+	const struct usb_endpoint_descriptor *cocci_id/* drivers/usb/dwc2/gadget.c 3916 */;
+	unsigned short cocci_id/* drivers/usb/dwc2/gadget.c 3888 */;
+	gfp_t cocci_id/* drivers/usb/dwc2/gadget.c 384 */;
+	irqreturn_t cocci_id/* drivers/usb/dwc2/gadget.c 3641 */;
+	int cocci_id/* drivers/usb/dwc2/gadget.c 3313 */(struct usb_ep *ep);
+	unsigned char cocci_id/* drivers/usb/dwc2/gadget.c 2786 */;
+	struct usb_request *cocci_id/* drivers/usb/dwc2/gadget.c 2143 */;
+	struct dwc2_hsotg_req *cocci_id/* drivers/usb/dwc2/gadget.c 2142 */;
+	struct dwc2_hsotg_ep *cocci_id/* drivers/usb/dwc2/gadget.c 2139 */;
+	unsigned long cocci_id/* drivers/usb/dwc2/gadget.c 193 */;
+	struct usb_ctrlrequest *cocci_id/* drivers/usb/dwc2/gadget.c 1891 */;
+	struct dwc2_hsotg_req cocci_id/* drivers/usb/dwc2/gadget.c 1692 */;
+	int cocci_id/* drivers/usb/dwc2/gadget.c 1682 */(struct usb_ep *ep,
+							 int value, bool now);
+	__le16 cocci_id/* drivers/usb/dwc2/gadget.c 1634 */;
+	struct usb_ep *cocci_id/* drivers/usb/dwc2/gadget.c 1510 */;
+	long cocci_id/* drivers/usb/dwc2/gadget.c 1258 */;
+	void *cocci_id/* drivers/usb/dwc2/gadget.c 1255 */;
+}

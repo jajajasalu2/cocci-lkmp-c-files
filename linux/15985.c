@@ -1,0 +1,56 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 769 */;
+	void cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 769 */;
+	int __init cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 764 */;
+	struct ieee80211_crypto_ops cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 748 */;
+	struct crypto_sync_skcipher *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 659 */;
+	struct crypto_shash *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 658 */;
+	u8 cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 609 */[8];
+	char *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 602 */;
+	struct iw_michaelmicfailure cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 589 */;
+	union iwreq_data cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 588 */;
+	struct net_device *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 584 */;
+	struct rtl_80211_hdr_4addr *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 557 */;
+	u8 *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 556 */;
+	struct ieee80211_tkip_data *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 555 */;
+	struct sk_buff *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 553 */;
+	void *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 553 */;
+	int cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 553 */;
+	size_t cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 496 */;
+	struct scatterlist cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 379 */;
+	u8 cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 377 */[4];
+	u8 cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 376 */[16];
+	struct cb_desc *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 375 */;
+	struct ieee80211_tkip_data {
+#define TKIP_KEY_LEN 32
+		u8 key[TKIP_KEY_LEN];
+		int key_set;
+		u32 tx_iv32;
+		u16 tx_iv16;
+		u16 tx_ttak[5];
+		int tx_phase1_done;
+		u32 rx_iv32;
+		u16 rx_iv16;
+		u16 rx_ttak[5];
+		int rx_phase1_done;
+		u32 rx_iv32_new;
+		u16 rx_iv16_new;
+		u32 dot11RSNAStatsTKIPReplays;
+		u32 dot11RSNAStatsTKIPICVErrors;
+		u32 dot11RSNAStatsTKIPLocalMICFailures;
+		int key_idx;
+		struct crypto_sync_skcipher *rx_tfm_arc4;
+		struct crypto_shash *rx_tfm_michael;
+		struct crypto_sync_skcipher *tx_tfm_arc4;
+		struct crypto_shash *tx_tfm_michael;
+		u8 rx_hdr[16],tx_hdr[16];
+	} cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 29 */;
+	__le16 *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 252 */;
+	const u16 *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 234 */;
+	const u8 *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 212 */;
+	u16 *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 212 */;
+	const u16 cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 166 */[256];
+	u32 cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 155 */;
+	u16 cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 155 */;
+	u8 cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c 143 */;
+}

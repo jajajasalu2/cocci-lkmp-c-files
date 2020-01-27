@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	umode_t *cocci_id/* drivers/gpu/drm/drm_sysfs.c 55 */;
+	struct class *cocci_id/* drivers/gpu/drm/drm_sysfs.c 53 */;
+	struct device_type cocci_id/* drivers/gpu/drm/drm_sysfs.c 49 */;
+	void cocci_id/* drivers/gpu/drm/drm_sysfs.c 448 */;
+	const char *cocci_id/* drivers/gpu/drm/drm_sysfs.c 390 */;
+	struct drm_minor *cocci_id/* drivers/gpu/drm/drm_sysfs.c 388 */;
+	char *cocci_id/* drivers/gpu/drm/drm_sysfs.c 367 */[4];
+	char cocci_id/* drivers/gpu/drm/drm_sysfs.c 366 */[];
+	struct drm_property *cocci_id/* drivers/gpu/drm/drm_sysfs.c 363 */;
+	char *cocci_id/* drivers/gpu/drm/drm_sysfs.c 344 */[];
+	struct drm_device *cocci_id/* drivers/gpu/drm/drm_sysfs.c 278 */;
+	const struct attribute_group *cocci_id/* drivers/gpu/drm/drm_sysfs.c 271 */[];
+	const struct attribute_group cocci_id/* drivers/gpu/drm/drm_sysfs.c 266 */;
+	struct bin_attribute *cocci_id/* drivers/gpu/drm/drm_sysfs.c 261 */[];
+	struct bin_attribute cocci_id/* drivers/gpu/drm/drm_sysfs.c 254 */;
+	struct attribute *cocci_id/* drivers/gpu/drm/drm_sysfs.c 246 */[];
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/drm_sysfs.c 228 */;
+	unsigned char *cocci_id/* drivers/gpu/drm/drm_sysfs.c 196 */;
+	size_t cocci_id/* drivers/gpu/drm/drm_sysfs.c 192 */;
+	loff_t cocci_id/* drivers/gpu/drm/drm_sysfs.c 191 */;
+	struct bin_attribute *cocci_id/* drivers/gpu/drm/drm_sysfs.c 191 */;
+	struct kobject *cocci_id/* drivers/gpu/drm/drm_sysfs.c 190 */;
+	struct file *cocci_id/* drivers/gpu/drm/drm_sysfs.c 190 */;
+	bool cocci_id/* drivers/gpu/drm/drm_sysfs.c 183 */;
+	int cocci_id/* drivers/gpu/drm/drm_sysfs.c 170 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/drm_sysfs.c 169 */;
+	char *cocci_id/* drivers/gpu/drm/drm_sysfs.c 167 */;
+	struct device_attribute *cocci_id/* drivers/gpu/drm/drm_sysfs.c 166 */;
+	struct device *cocci_id/* drivers/gpu/drm/drm_sysfs.c 165 */;
+	ssize_t cocci_id/* drivers/gpu/drm/drm_sysfs.c 165 */;
+	enum drm_connector_status cocci_id/* drivers/gpu/drm/drm_sysfs.c 157 */;
+	enum drm_connector_force cocci_id/* drivers/gpu/drm/drm_sysfs.c 116 */;
+}

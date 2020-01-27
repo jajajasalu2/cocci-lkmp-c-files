@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	struct msi_domain_info cocci_id/* drivers/irqchip/irq-gic-v2m.c 94 */;
+	struct v2m_data {
+		struct list_head entry;
+		struct fwnode_handle *fwnode;
+		struct resource res;
+		void __iomem *base;
+		u32 spi_start;
+		u32 nr_spis;
+		u32 spi_offset;
+		unsigned long *bm;
+		u32 flags;
+	} cocci_id/* drivers/irqchip/irq-gic-v2m.c 62 */;
+	struct irq_domain *cocci_id/* drivers/irqchip/irq-gic-v2m.c 542 */;
+	int __init cocci_id/* drivers/irqchip/irq-gic-v2m.c 542 */;
+	struct fwnode_handle *cocci_id/* drivers/irqchip/irq-gic-v2m.c 503 */;
+	struct acpi_madt_generic_msi_frame *cocci_id/* drivers/irqchip/irq-gic-v2m.c 502 */;
+	u32 cocci_id/* drivers/irqchip/irq-gic-v2m.c 501 */;
+	struct resource cocci_id/* drivers/irqchip/irq-gic-v2m.c 500 */;
+	const unsigned long cocci_id/* drivers/irqchip/irq-gic-v2m.c 497 */;
+	union acpi_subtable_headers *cocci_id/* drivers/irqchip/irq-gic-v2m.c 496 */;
+	int __init cocci_id/* drivers/irqchip/irq-gic-v2m.c 495 */;
+	struct acpi_table_header *cocci_id/* drivers/irqchip/irq-gic-v2m.c 490 */;
+	struct acpi_table_header **cocci_id/* drivers/irqchip/irq-gic-v2m.c 485 */;
+	acpi_status cocci_id/* drivers/irqchip/irq-gic-v2m.c 479 */;
+	struct acpi_table_madt *cocci_id/* drivers/irqchip/irq-gic-v2m.c 478 */;
+	bool cocci_id/* drivers/irqchip/irq-gic-v2m.c 476 */;
+	void cocci_id/* drivers/irqchip/irq-gic-v2m.c 476 */;
+	struct device *cocci_id/* drivers/irqchip/irq-gic-v2m.c 461 */;
+	int cocci_id/* drivers/irqchip/irq-gic-v2m.c 459 */;
+	struct device_node *cocci_id/* drivers/irqchip/irq-gic-v2m.c 420 */;
+	struct of_device_id cocci_id/* drivers/irqchip/irq-gic-v2m.c 411 */[];
+	long cocci_id/* drivers/irqchip/irq-gic-v2m.c 391 */;
+	struct resource *cocci_id/* drivers/irqchip/irq-gic-v2m.c 320 */;
+	struct v2m_data cocci_id/* drivers/irqchip/irq-gic-v2m.c 286 */;
+	struct v2m_data *cocci_id/* drivers/irqchip/irq-gic-v2m.c 284 */;
+	struct msi_domain_ops cocci_id/* drivers/irqchip/irq-gic-v2m.c 257 */;
+	const struct irq_domain_ops cocci_id/* drivers/irqchip/irq-gic-v2m.c 232 */;
+	msi_alloc_info_t *cocci_id/* drivers/irqchip/irq-gic-v2m.c 180 */;
+	void *cocci_id/* drivers/irqchip/irq-gic-v2m.c 178 */;
+	unsigned int cocci_id/* drivers/irqchip/irq-gic-v2m.c 177 */;
+	struct irq_fwspec cocci_id/* drivers/irqchip/irq-gic-v2m.c 139 */;
+	irq_hw_number_t cocci_id/* drivers/irqchip/irq-gic-v2m.c 137 */;
+	struct irq_chip cocci_id/* drivers/irqchip/irq-gic-v2m.c 126 */;
+	phys_addr_t cocci_id/* drivers/irqchip/irq-gic-v2m.c 111 */;
+	struct msi_msg *cocci_id/* drivers/irqchip/irq-gic-v2m.c 108 */;
+	struct irq_data *cocci_id/* drivers/irqchip/irq-gic-v2m.c 108 */;
+}

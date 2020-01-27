@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	bool cocci_id/* fs/xfs/xfs_log_cil.c 997 */;
+	xfs_lsn_t *cocci_id/* fs/xfs/xfs_log_cil.c 996 */;
+	struct xfs_trans *cocci_id/* fs/xfs/xfs_log_cil.c 995 */;
+	struct xfs_mount *cocci_id/* fs/xfs/xfs_log_cil.c 994 */;
+	struct xfs_cil cocci_id/* fs/xfs/xfs_log_cil.c 889 */;
+	struct work_struct *cocci_id/* fs/xfs/xfs_log_cil.c 887 */;
+	struct xfs_log_iovec cocci_id/* fs/xfs/xfs_log_cil.c 74 */;
+	struct xfs_log_item cocci_id/* fs/xfs/xfs_log_cil.c 730 */;
+	struct xfs_log_vec cocci_id/* fs/xfs/xfs_log_cil.c 73 */;
+	uint cocci_id/* fs/xfs/xfs_log_cil.c 71 */;
+	struct xfs_trans_header cocci_id/* fs/xfs/xfs_log_cil.c 654 */;
+	struct xlog_ticket *cocci_id/* fs/xfs/xfs_log_cil.c 651 */;
+	struct xlog_in_core *cocci_id/* fs/xfs/xfs_log_cil.c 650 */;
+	struct xfs_cil_ctx cocci_id/* fs/xfs/xfs_log_cil.c 622 */;
+	struct list_head *cocci_id/* fs/xfs/xfs_log_cil.c 616 */;
+	unsigned long long cocci_id/* fs/xfs/xfs_log_cil.c 553 */;
+	struct blk_plug cocci_id/* fs/xfs/xfs_log_cil.c 536 */;
+	struct bio *cocci_id/* fs/xfs/xfs_log_cil.c 535 */;
+	struct xfs_extent_busy *cocci_id/* fs/xfs/xfs_log_cil.c 534 */;
+	struct xlog_op_header cocci_id/* fs/xfs/xfs_log_cil.c 437 */;
+	unsigned long cocci_id/* fs/xfs/xfs_log_cil.c 372 */;
+	int *cocci_id/* fs/xfs/xfs_log_cil.c 229 */;
+	struct xfs_log_vec *cocci_id/* fs/xfs/xfs_log_cil.c 227 */;
+	struct xlog *cocci_id/* fs/xfs/xfs_log_cil.c 226 */;
+	void cocci_id/* fs/xfs/xfs_log_cil.c 224 */;
+	char *cocci_id/* fs/xfs/xfs_log_cil.c 214 */;
+	struct workqueue_struct *cocci_id/* fs/xfs/xfs_log_cil.c 20 */;
+	struct xfs_log_iovec *cocci_id/* fs/xfs/xfs_log_cil.c 197 */;
+	int cocci_id/* fs/xfs/xfs_log_cil.c 133 */;
+	struct xfs_cil_ctx *cocci_id/* fs/xfs/xfs_log_cil.c 1155 */;
+	xfs_lsn_t cocci_id/* fs/xfs/xfs_log_cil.c 1002 */;
+	struct xfs_log_item *cocci_id/* fs/xfs/xfs_log_cil.c 1001 */;
+	struct xfs_cil *cocci_id/* fs/xfs/xfs_log_cil.c 1000 */;
+}

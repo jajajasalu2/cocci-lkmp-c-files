@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct list_head cocci_id/* net/ipv4/ip_input.c 617 */;
+	struct packet_type *cocci_id/* net/ipv4/ip_input.c 611 */;
+	struct list_head *cocci_id/* net/ipv4/ip_input.c 611 */;
+	void cocci_id/* net/ipv4/ip_input.c 611 */;
+	struct rtable *cocci_id/* net/ipv4/ip_input.c 587 */;
+	struct dst_entry *cocci_id/* net/ipv4/ip_input.c 566 */;
+	int cocci_id/* net/ipv4/ip_input.c 554 */;
+	const struct net *cocci_id/* net/ipv4/ip_input.c 553 */;
+	struct inet_skb_parm cocci_id/* net/ipv4/ip_input.c 508 */;
+	u8 *cocci_id/* net/ipv4/ip_input.c 485 */;
+	unsigned short cocci_id/* net/ipv4/ip_input.c 478 */;
+	struct iphdr cocci_id/* net/ipv4/ip_input.c 454 */;
+	u32 cocci_id/* net/ipv4/ip_input.c 438 */;
+	struct in_device *cocci_id/* net/ipv4/ip_input.c 380 */;
+	struct ip_rt_acct *cocci_id/* net/ipv4/ip_input.c 361 */;
+	int (*cocci_id/* net/ipv4/ip_input.c 319 */)(struct sk_buff *skb);
+	const struct sk_buff *cocci_id/* net/ipv4/ip_input.c 305 */;
+	const struct iphdr *cocci_id/* net/ipv4/ip_input.c 305 */;
+	struct ip_options *cocci_id/* net/ipv4/ip_input.c 259 */;
+	const struct net_protocol *cocci_id/* net/ipv4/ip_input.c 189 */;
+	int cocci_id/* net/ipv4/ip_input.c 185 */(struct sk_buff *);
+	struct net *cocci_id/* net/ipv4/ip_input.c 154 */;
+	struct net_device *cocci_id/* net/ipv4/ip_input.c 153 */;
+	struct sock *cocci_id/* net/ipv4/ip_input.c 152 */;
+	u8 cocci_id/* net/ipv4/ip_input.c 151 */;
+	struct ip_ra_chain *cocci_id/* net/ipv4/ip_input.c 150 */;
+	bool cocci_id/* net/ipv4/ip_input.c 148 */;
+	struct sk_buff *cocci_id/* net/ipv4/ip_input.c 148 */;
+}

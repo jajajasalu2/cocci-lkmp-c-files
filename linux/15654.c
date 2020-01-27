@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct gb_cap_get_endpoint_uid_response cocci_id/* drivers/staging/greybus/authentication.c 87 */;
+	struct cdev *cocci_id/* drivers/staging/greybus/authentication.c 63 */;
+	struct gb_cap cocci_id/* drivers/staging/greybus/authentication.c 47 */;
+	struct kref *cocci_id/* drivers/staging/greybus/authentication.c 45 */;
+	void cocci_id/* drivers/staging/greybus/authentication.c 421 */;
+	dev_t cocci_id/* drivers/staging/greybus/authentication.c 40 */;
+	struct class *cocci_id/* drivers/staging/greybus/authentication.c 39 */;
+	const struct file_operations cocci_id/* drivers/staging/greybus/authentication.c 291 */;
+	struct gb_bundle *cocci_id/* drivers/staging/greybus/authentication.c 265 */;
+	unsigned long cocci_id/* drivers/staging/greybus/authentication.c 262 */;
+	struct file *cocci_id/* drivers/staging/greybus/authentication.c 261 */;
+	long cocci_id/* drivers/staging/greybus/authentication.c 261 */;
+	struct gb_cap {
+		struct device *parent;
+		struct gb_connection *connection;
+		struct kref kref;
+		struct list_head node;
+		bool disabled;
+		struct mutex mutex;
+		struct cdev cdev;
+		struct device *class_device;
+		dev_t dev_num;
+	} cocci_id/* drivers/staging/greybus/authentication.c 26 */;
+	struct cap_ioc_authenticate *cocci_id/* drivers/staging/greybus/authentication.c 208 */;
+	struct cap_ioc_get_ims_certificate *cocci_id/* drivers/staging/greybus/authentication.c 207 */;
+	struct cap_ioc_get_endpoint_uid cocci_id/* drivers/staging/greybus/authentication.c 206 */;
+	void __user *cocci_id/* drivers/staging/greybus/authentication.c 204 */;
+	unsigned int cocci_id/* drivers/staging/greybus/authentication.c 203 */;
+	struct inode *cocci_id/* drivers/staging/greybus/authentication.c 182 */;
+	struct gb_operation *cocci_id/* drivers/staging/greybus/authentication.c 148 */;
+	size_t cocci_id/* drivers/staging/greybus/authentication.c 147 */;
+	struct gb_cap_authenticate_response *cocci_id/* drivers/staging/greybus/authentication.c 146 */;
+	struct gb_cap_authenticate_request *cocci_id/* drivers/staging/greybus/authentication.c 145 */;
+	struct gb_connection *cocci_id/* drivers/staging/greybus/authentication.c 144 */;
+	u32 *cocci_id/* drivers/staging/greybus/authentication.c 142 */;
+	u32 cocci_id/* drivers/staging/greybus/authentication.c 140 */;
+	u8 *cocci_id/* drivers/staging/greybus/authentication.c 140 */;
+	struct gb_cap *cocci_id/* drivers/staging/greybus/authentication.c 140 */;
+	int cocci_id/* drivers/staging/greybus/authentication.c 140 */;
+	struct gb_cap_get_ims_certificate_response *cocci_id/* drivers/staging/greybus/authentication.c 107 */;
+	struct gb_cap_get_ims_certificate_request *cocci_id/* drivers/staging/greybus/authentication.c 106 */;
+}

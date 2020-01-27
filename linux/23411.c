@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	u16 cocci_id/* sound/soc/codecs/wm8900.c 979 */;
+	struct snd_soc_component *cocci_id/* sound/soc/codecs/wm8900.c 978 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/codecs/wm8900.c 976 */;
+	struct _fll_div cocci_id/* sound/soc/codecs/wm8900.c 755 */;
+	long long cocci_id/* sound/soc/codecs/wm8900.c 732 */;
+	u64 cocci_id/* sound/soc/codecs/wm8900.c 688 */;
+	struct _fll_div *cocci_id/* sound/soc/codecs/wm8900.c 685 */;
+	unsigned int cocci_id/* sound/soc/codecs/wm8900.c 685 */;
+	int cocci_id/* sound/soc/codecs/wm8900.c 685 */;
+	struct _fll_div {
+		u16 fll_ratio;
+		u16 fllclk_div;
+		u16 fll_slow_lock_ref;
+		u16 n;
+		u16 k;
+	} cocci_id/* sound/soc/codecs/wm8900.c 673 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/codecs/wm8900.c 632 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/codecs/wm8900.c 631 */;
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/codecs/wm8900.c 567 */[];
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/codecs/wm8900.c 502 */[];
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/wm8900.c 468 */[];
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/wm8900.c 446 */;
+	const char *cocci_id/* sound/soc/codecs/wm8900.c 319 */[];
+	struct snd_kcontrol *cocci_id/* sound/soc/codecs/wm8900.c 222 */;
+	struct snd_soc_dapm_widget *cocci_id/* sound/soc/codecs/wm8900.c 221 */;
+	bool cocci_id/* sound/soc/codecs/wm8900.c 206 */;
+	struct device *cocci_id/* sound/soc/codecs/wm8900.c 206 */;
+	const struct reg_default cocci_id/* sound/soc/codecs/wm8900.c 148 */[];
+	struct wm8900_priv {
+		struct regmap *regmap;
+		u32 fll_in;
+		u32 fll_out;
+	} cocci_id/* sound/soc/codecs/wm8900.c 137 */;
+	void __exit cocci_id/* sound/soc/codecs/wm8900.c 1340 */;
+	void cocci_id/* sound/soc/codecs/wm8900.c 1340 */;
+	int __init cocci_id/* sound/soc/codecs/wm8900.c 1319 */;
+	struct i2c_driver cocci_id/* sound/soc/codecs/wm8900.c 1309 */;
+	const struct i2c_device_id cocci_id/* sound/soc/codecs/wm8900.c 1303 */[];
+	struct wm8900_priv cocci_id/* sound/soc/codecs/wm8900.c 1281 */;
+	struct wm8900_priv *cocci_id/* sound/soc/codecs/wm8900.c 1278 */;
+	const struct i2c_device_id *cocci_id/* sound/soc/codecs/wm8900.c 1276 */;
+	struct i2c_client *cocci_id/* sound/soc/codecs/wm8900.c 1275 */;
+	struct spi_driver cocci_id/* sound/soc/codecs/wm8900.c 1265 */;
+	struct spi_device *cocci_id/* sound/soc/codecs/wm8900.c 1238 */;
+	const struct regmap_config cocci_id/* sound/soc/codecs/wm8900.c 1225 */;
+	const struct snd_soc_component_driver cocci_id/* sound/soc/codecs/wm8900.c 1208 */;
+	enum snd_soc_bias_level cocci_id/* sound/soc/codecs/wm8900.c 1029 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/codecs/wm8900.c 1009 */;
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/codecs/wm8900.c 1001 */;
+}

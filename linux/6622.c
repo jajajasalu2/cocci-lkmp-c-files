@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	long cocci_id/* drivers/scsi/snic/snic_scsi.c 980 */;
+	struct snic_stats *cocci_id/* drivers/scsi/snic/snic_scsi.c 979 */;
+	struct snic_itmf_cmpl *cocci_id/* drivers/scsi/snic/snic_scsi.c 924 */;
+	const char *cocci_id/* drivers/scsi/snic/snic_scsi.c 91 */;
+	void cocci_id/* drivers/scsi/snic/snic_scsi.c 80 */(struct snic *,
+							    int);
+	struct snic_abort_stats *cocci_id/* drivers/scsi/snic/snic_scsi.c 750 */;
+	u64 cocci_id/* drivers/scsi/snic/snic_scsi.c 585 */;
+	const char *const cocci_id/* drivers/scsi/snic/snic_scsi.c 57 */[];
+	struct snic_host_req *cocci_id/* drivers/scsi/snic/snic_scsi.c 552 */;
+	struct snic_icmnd_cmpl *cocci_id/* drivers/scsi/snic/snic_scsi.c 551 */;
+	const char *cocci_id/* drivers/scsi/snic/snic_scsi.c 38 */[];
+	struct snic_io_stats *cocci_id/* drivers/scsi/snic/snic_scsi.c 305 */;
+	u16 cocci_id/* drivers/scsi/snic/snic_scsi.c 256 */;
+	enum snic_state cocci_id/* drivers/scsi/snic/snic_scsi.c 2332 */;
+	char *cocci_id/* drivers/scsi/snic/snic_scsi.c 2188 */;
+	struct snic_internal_io_state cocci_id/* drivers/scsi/snic/snic_scsi.c 2187 */;
+	struct Scsi_Host *cocci_id/* drivers/scsi/snic/snic_scsi.c 2150 */;
+	struct snic_tgt *cocci_id/* drivers/scsi/snic/snic_scsi.c 2107 */;
+	struct scsi_device *cocci_id/* drivers/scsi/snic/snic_scsi.c 2105 */;
+	struct scsi_lun cocci_id/* drivers/scsi/snic/snic_scsi.c 171 */;
+	dma_addr_t cocci_id/* drivers/scsi/snic/snic_scsi.c 170 */;
+	struct snic_sg_desc *cocci_id/* drivers/scsi/snic/snic_scsi.c 169 */;
+	struct scatterlist *cocci_id/* drivers/scsi/snic/snic_scsi.c 168 */;
+	ulong cocci_id/* drivers/scsi/snic/snic_scsi.c 1662 */;
+	u32 cocci_id/* drivers/scsi/snic/snic_scsi.c 1640 */;
+	struct snic *cocci_id/* drivers/scsi/snic/snic_scsi.c 1638 */;
+	struct scsi_cmnd *cocci_id/* drivers/scsi/snic/snic_scsi.c 1636 */;
+	int cocci_id/* drivers/scsi/snic/snic_scsi.c 1635 */;
+	enum snic_ioreq_state cocci_id/* drivers/scsi/snic/snic_scsi.c 1513 */;
+	unsigned long cocci_id/* drivers/scsi/snic/snic_scsi.c 1437 */;
+	spinlock_t *cocci_id/* drivers/scsi/snic/snic_scsi.c 1436 */;
+	struct snic_req_info *cocci_id/* drivers/scsi/snic/snic_scsi.c 1435 */;
+	struct snic_misc_stats *cocci_id/* drivers/scsi/snic/snic_scsi.c 1286 */;
+	unsigned int cocci_id/* drivers/scsi/snic/snic_scsi.c 1283 */;
+	struct vnic_dev *cocci_id/* drivers/scsi/snic/snic_scsi.c 1200 */;
+	struct snic_async_evnotify *cocci_id/* drivers/scsi/snic/snic_scsi.c 1135 */;
+	u8 cocci_id/* drivers/scsi/snic/snic_scsi.c 1132 */;
+	struct snic_fw_req *cocci_id/* drivers/scsi/snic/snic_scsi.c 1130 */;
+	void cocci_id/* drivers/scsi/snic/snic_scsi.c 1129 */;
+}

@@ -1,0 +1,77 @@
+cocci_test_suite() {
+	struct e752x_error_info cocci_id/* drivers/edac/e752x_edac.c 981 */;
+	struct e752x_error_info *cocci_id/* drivers/edac/e752x_edac.c 791 */;
+	int *cocci_id/* drivers/edac/e752x_edac.c 791 */;
+	char *cocci_id/* drivers/edac/e752x_edac.c 653 */[10];
+	char *cocci_id/* drivers/edac/e752x_edac.c 627 */[4];
+	char *cocci_id/* drivers/edac/e752x_edac.c 574 */[30];
+	u8 cocci_id/* drivers/edac/e752x_edac.c 550 */;
+	char *cocci_id/* drivers/edac/e752x_edac.c 543 */[7];
+	int cocci_id/* drivers/edac/e752x_edac.c 516 */;
+	void cocci_id/* drivers/edac/e752x_edac.c 516 */;
+	char *cocci_id/* drivers/edac/e752x_edac.c 514 */[2];
+	char *cocci_id/* drivers/edac/e752x_edac.c 498 */[11];
+	long unsigned int cocci_id/* drivers/edac/e752x_edac.c 476 */;
+	struct edac_pci_ctl_info *cocci_id/* drivers/edac/e752x_edac.c 35 */;
+	u16 cocci_id/* drivers/edac/e752x_edac.c 327 */;
+	struct e752x_pvt *cocci_id/* drivers/edac/e752x_edac.c 308 */;
+	u32 cocci_id/* drivers/edac/e752x_edac.c 307 */;
+	struct mem_ctl_info *cocci_id/* drivers/edac/e752x_edac.c 304 */;
+	unsigned long cocci_id/* drivers/edac/e752x_edac.c 304 */;
+	const struct scrubrate cocci_id/* drivers/edac/e752x_edac.c 288 */[];
+	struct scrubrate {
+		u32 bandwidth;
+		u16 scrubval;
+	} cocci_id/* drivers/edac/e752x_edac.c 278 */;
+	const struct e752x_dev_info cocci_id/* drivers/edac/e752x_edac.c 250 */[];
+	struct e752x_error_info {
+		u32 ferr_global;
+		u32 nerr_global;
+		u32 nsi_ferr;
+		u32 nsi_nerr;
+		u8 hi_ferr;
+		u8 hi_nerr;
+		u16 sysbus_ferr;
+		u16 sysbus_nerr;
+		u8 buf_ferr;
+		u8 buf_nerr;
+		u16 dram_ferr;
+		u16 dram_nerr;
+		u32 dram_sec1_add;
+		u32 dram_sec2_add;
+		u16 dram_sec1_syndrome;
+		u16 dram_sec2_syndrome;
+		u32 dram_ded_add;
+		u32 dram_scrb_add;
+		u32 dram_retr_add;
+	} cocci_id/* drivers/edac/e752x_edac.c 228 */;
+	struct e752x_dev_info {
+		u16 err_dev;
+		u16 ctl_dev;
+		const char *ctl_name;
+	} cocci_id/* drivers/edac/e752x_edac.c 222 */;
+	struct e752x_pvt {
+		struct pci_dev *dev_d0f0;
+		struct pci_dev *dev_d0f1;
+		u32 tolm;
+		u32 remapbase;
+		u32 remaplimit;
+		int mc_symmetric;
+		u8 map[8];
+		int map_type;
+		const struct e752x_dev_info *dev_info;
+	} cocci_id/* drivers/edac/e752x_edac.c 210 */;
+	enum e752x_chips{E7520=0, E7525=1, E7320=2, I3100=3,} cocci_id/* drivers/edac/e752x_edac.c 184 */;
+	void __exit cocci_id/* drivers/edac/e752x_edac.c 1456 */;
+	int __init cocci_id/* drivers/edac/e752x_edac.c 1443 */;
+	struct pci_driver cocci_id/* drivers/edac/e752x_edac.c 1436 */;
+	const struct pci_device_id cocci_id/* drivers/edac/e752x_edac.c 1416 */[];
+	const struct pci_device_id *cocci_id/* drivers/edac/e752x_edac.c 1386 */;
+	struct edac_mc_layer cocci_id/* drivers/edac/e752x_edac.c 1261 */[2];
+	char *cocci_id/* drivers/edac/e752x_edac.c 1214 */;
+	struct pci_dev *cocci_id/* drivers/edac/e752x_edac.c 1175 */;
+	struct dimm_info *cocci_id/* drivers/edac/e752x_edac.c 1127 */;
+	enum edac_type cocci_id/* drivers/edac/e752x_edac.c 1070 */;
+	struct csrow_info *cocci_id/* drivers/edac/e752x_edac.c 1069 */;
+	const struct scrubrate *cocci_id/* drivers/edac/e752x_edac.c 1020 */;
+}

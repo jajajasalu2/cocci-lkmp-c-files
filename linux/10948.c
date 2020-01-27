@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct amdgpu_ctx_entity cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 96 */;
+	struct idr *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 596 */;
+	long cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 570 */;
+	unsigned cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 473 */;
+	uint64_t cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 471 */;
+	struct amdgpu_ctx_entity *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 470 */;
+	uint64_t *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 468 */;
+	struct dma_fence *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 468 */;
+	struct drm_sched_entity *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 467 */;
+	struct amdgpu_ctx *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 466 */;
+	void cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 466 */;
+	union drm_amdgpu_ctx *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 405 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 398 */;
+	void *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 398 */;
+	unsigned long cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 354 */;
+	const unsigned int cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 33 */[AMDGPU_HW_IP_NUM];
+	union drm_amdgpu_ctx_out *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 314 */;
+	struct amdgpu_ctx cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 290 */;
+	u32 cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 288 */;
+	struct kref *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 284 */;
+	uint32_t cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 273 */;
+	struct amdgpu_ctx_mgr *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 257 */;
+	uint32_t *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 255 */;
+	enum drm_sched_priority cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 254 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 253 */;
+	struct amdgpu_fpriv *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 252 */;
+	struct amdgpu_device *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 251 */;
+	int cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 251 */;
+	struct drm_sched_entity **cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 229 */;
+	struct drm_sched_rq *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 125 */[AMDGPU_MAX_RINGS];
+	struct amdgpu_ring *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c 124 */[AMDGPU_MAX_RINGS];
+}

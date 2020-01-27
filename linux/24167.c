@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	struct notifier_block *cocci_id/* net/ipv6/addrconf_core.c 95 */;
+	__be32 cocci_id/* net/ipv6/addrconf_core.c 40 */;
+	const struct in6_addr *cocci_id/* net/ipv6/addrconf_core.c 38 */;
+	int cocci_id/* net/ipv6/addrconf_core.c 38 */;
+	struct net_device *cocci_id/* net/ipv6/addrconf_core.c 241 */;
+	struct inet6_dev *cocci_id/* net/ipv6/addrconf_core.c 239 */;
+	struct inet6_dev cocci_id/* net/ipv6/addrconf_core.c 231 */;
+	struct rcu_head *cocci_id/* net/ipv6/addrconf_core.c 229 */;
+	unsigned int cocci_id/* net/ipv6/addrconf_core.c 22 */;
+	const struct in6_addr cocci_id/* net/ipv6/addrconf_core.c 209 */;
+	struct ipv6_stub cocci_id/* net/ipv6/addrconf_core.c 193 */;
+	const struct ipv6_stub *cocci_id/* net/ipv6/addrconf_core.c 193 */;
+	struct fib6_info *cocci_id/* net/ipv6/addrconf_core.c 188 */;
+	struct netlink_ext_ack *cocci_id/* net/ipv6/addrconf_core.c 182 */;
+	gfp_t cocci_id/* net/ipv6/addrconf_core.c 181 */;
+	struct fib6_config *cocci_id/* net/ipv6/addrconf_core.c 181 */;
+	struct fib6_nh *cocci_id/* net/ipv6/addrconf_core.c 180 */;
+	const struct fib6_result *cocci_id/* net/ipv6/addrconf_core.c 173 */;
+	void (*cocci_id/* net/ipv6/addrconf_core.c 17 */)(struct net *);
+	const struct sk_buff *cocci_id/* net/ipv6/addrconf_core.c 168 */;
+	bool cocci_id/* net/ipv6/addrconf_core.c 167 */;
+	const struct net *cocci_id/* net/ipv6/addrconf_core.c 166 */;
+	void cocci_id/* net/ipv6/addrconf_core.c 165 */;
+	struct fib6_result *cocci_id/* net/ipv6/addrconf_core.c 160 */;
+	struct flowi6 *cocci_id/* net/ipv6/addrconf_core.c 159 */;
+	u32 cocci_id/* net/ipv6/addrconf_core.c 145 */;
+	struct net *cocci_id/* net/ipv6/addrconf_core.c 145 */;
+	struct fib6_table *cocci_id/* net/ipv6/addrconf_core.c 145 */;
+	struct sk_buff *cocci_id/* net/ipv6/addrconf_core.c 140 */;
+	const struct sock *cocci_id/* net/ipv6/addrconf_core.c 133 */;
+	struct dst_entry *cocci_id/* net/ipv6/addrconf_core.c 132 */;
+	void *cocci_id/* net/ipv6/addrconf_core.c 107 */;
+	unsigned long cocci_id/* net/ipv6/addrconf_core.c 107 */;
+}

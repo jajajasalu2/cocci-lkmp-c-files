@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	union power_supply_propval *cocci_id/* drivers/power/supply/sbs-manager.c 94 */;
+	enum power_supply_property cocci_id/* drivers/power/supply/sbs-manager.c 93 */;
+	struct power_supply *cocci_id/* drivers/power/supply/sbs-manager.c 92 */;
+	u8 cocci_id/* drivers/power/supply/sbs-manager.c 58 */;
+	enum power_supply_property cocci_id/* drivers/power/supply/sbs-manager.c 53 */[];
+	struct i2c_driver cocci_id/* drivers/power/supply/sbs-manager.c 428 */;
+	const struct of_device_id cocci_id/* drivers/power/supply/sbs-manager.c 420 */[];
+	const struct i2c_device_id cocci_id/* drivers/power/supply/sbs-manager.c 412 */[];
+	struct sbsm_data {
+		struct i2c_client *client;
+		struct i2c_mux_core *muxc;
+		struct power_supply *psy;
+		u8 cur_chan;
+		struct gpio_chip chip;
+		bool is_ltc1760;
+		unsigned int supported_bats;
+		unsigned int last_state;
+		unsigned int last_state_cont;
+	} cocci_id/* drivers/power/supply/sbs-manager.c 38 */;
+	struct power_supply_desc cocci_id/* drivers/power/supply/sbs-manager.c 367 */;
+	struct power_supply_config cocci_id/* drivers/power/supply/sbs-manager.c 321 */;
+	struct power_supply_desc *cocci_id/* drivers/power/supply/sbs-manager.c 320 */;
+	struct i2c_adapter *cocci_id/* drivers/power/supply/sbs-manager.c 317 */;
+	const struct i2c_device_id *cocci_id/* drivers/power/supply/sbs-manager.c 315 */;
+	const struct power_supply_desc cocci_id/* drivers/power/supply/sbs-manager.c 305 */;
+	int cocci_id/* drivers/power/supply/sbs-manager.c 242 */;
+	struct sbsm_data *cocci_id/* drivers/power/supply/sbs-manager.c 240 */;
+	unsigned int cocci_id/* drivers/power/supply/sbs-manager.c 238 */;
+	enum i2c_alert_protocol cocci_id/* drivers/power/supply/sbs-manager.c 237 */;
+	struct i2c_client *cocci_id/* drivers/power/supply/sbs-manager.c 237 */;
+	void cocci_id/* drivers/power/supply/sbs-manager.c 237 */;
+	struct i2c_driver *cocci_id/* drivers/power/supply/sbs-manager.c 217 */;
+	struct device *cocci_id/* drivers/power/supply/sbs-manager.c 214 */;
+	void *cocci_id/* drivers/power/supply/sbs-manager.c 214 */;
+	struct gpio_chip *cocci_id/* drivers/power/supply/sbs-manager.c 209 */;
+	u16 cocci_id/* drivers/power/supply/sbs-manager.c 177 */;
+	u32 cocci_id/* drivers/power/supply/sbs-manager.c 172 */;
+	struct i2c_mux_core *cocci_id/* drivers/power/supply/sbs-manager.c 172 */;
+	const union power_supply_propval *cocci_id/* drivers/power/supply/sbs-manager.c 145 */;
+}

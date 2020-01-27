@@ -1,0 +1,56 @@
+cocci_test_suite() {
+	struct hid_device *cocci_id/* drivers/hid/hid-sensor-hub.c 99 */;
+	struct hid_sensor_hub_callbacks *cocci_id/* drivers/hid/hid-sensor-hub.c 98 */;
+	s32 cocci_id/* drivers/hid/hid-sensor-hub.c 87 */;
+	struct hid_sensor_hub_attribute_info *cocci_id/* drivers/hid/hid-sensor-hub.c 86 */;
+	struct hid_collection *cocci_id/* drivers/hid/hid-sensor-hub.c 76 */;
+	struct hid_driver cocci_id/* drivers/hid/hid-sensor-hub.c 755 */;
+	const struct hid_device_id cocci_id/* drivers/hid/hid-sensor-hub.c 748 */[];
+	struct mutex cocci_id/* drivers/hid/hid-sensor-hub.c 671 */;
+	struct mfd_cell cocci_id/* drivers/hid/hid-sensor-hub.c 645 */;
+	char *cocci_id/* drivers/hid/hid-sensor-hub.c 604 */;
+	const struct hid_device_id *cocci_id/* drivers/hid/hid-sensor-hub.c 599 */;
+	unsigned int *cocci_id/* drivers/hid/hid-sensor-hub.c 577 */;
+	__u8 *cocci_id/* drivers/hid/hid-sensor-hub.c 576 */;
+	struct sensor_hub_data *cocci_id/* drivers/hid/hid-sensor-hub.c 566 */;
+	void cocci_id/* drivers/hid/hid-sensor-hub.c 564 */;
+	struct hid_sensor_hub_callbacks_list {
+		struct list_head list;
+		u32 usage_id;
+		struct hid_sensor_hub_device *hsdev;
+		struct hid_sensor_hub_callbacks *usage_callback;
+		void *priv;
+	} cocci_id/* drivers/hid/hid-sensor-hub.c 48 */;
+	pm_message_t cocci_id/* drivers/hid/hid-sensor-hub.c 421 */;
+	struct hid_report_enum *cocci_id/* drivers/hid/hid-sensor-hub.c 380 */;
+	u8 cocci_id/* drivers/hid/hid-sensor-hub.c 371 */;
+	struct hid_field *cocci_id/* drivers/hid/hid-sensor-hub.c 352 */;
+	struct hid_report *cocci_id/* drivers/hid/hid-sensor-hub.c 351 */;
+	u32 cocci_id/* drivers/hid/hid-sensor-hub.c 349 */;
+	struct hid_sensor_hub_device *cocci_id/* drivers/hid/hid-sensor-hub.c 348 */;
+	int cocci_id/* drivers/hid/hid-sensor-hub.c 348 */;
+	u32 *cocci_id/* drivers/hid/hid-sensor-hub.c 334 */;
+	u16 *cocci_id/* drivers/hid/hid-sensor-hub.c 331 */;
+	s16 *cocci_id/* drivers/hid/hid-sensor-hub.c 329 */;
+	s8 *cocci_id/* drivers/hid/hid-sensor-hub.c 323 */;
+	struct sensor_hub_data {
+		struct mutex mutex;
+		spinlock_t lock;
+		struct list_head dyn_callback_list;
+		spinlock_t dyn_callback_lock;
+		struct mfd_cell *hid_sensor_hub_client_devs;
+		int hid_sensor_client_cnt;
+		unsigned long quirks;
+		int ref_cnt;
+	} cocci_id/* drivers/hid/hid-sensor-hub.c 30 */;
+	bool cocci_id/* drivers/hid/hid-sensor-hub.c 290 */;
+	enum sensor_hub_read_flags cocci_id/* drivers/hid/hid-sensor-hub.c 289 */;
+	__s32 cocci_id/* drivers/hid/hid-sensor-hub.c 274 */;
+	u8 *cocci_id/* drivers/hid/hid-sensor-hub.c 241 */;
+	void *cocci_id/* drivers/hid/hid-sensor-hub.c 235 */;
+	__s32 *cocci_id/* drivers/hid/hid-sensor-hub.c 196 */;
+	unsigned long cocci_id/* drivers/hid/hid-sensor-hub.c 107 */;
+	struct hid_sensor_hub_callbacks_list *cocci_id/* drivers/hid/hid-sensor-hub.c 105 */;
+	void **cocci_id/* drivers/hid/hid-sensor-hub.c 103 */;
+	struct hid_sensor_hub_device **cocci_id/* drivers/hid/hid-sensor-hub.c 102 */;
+}

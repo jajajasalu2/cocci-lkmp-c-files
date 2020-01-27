@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	struct i2c_msg cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 96 */[];
+	u8 cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 93 */[2];
+	struct psb_intel_i2c_chan *cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 92 */;
+	unsigned int cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 87 */;
+	struct psb_intel_lvds_priv cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 669 */;
+	struct gma_connector cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 663 */;
+	struct gma_encoder cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 657 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 652 */;
+	struct gma_connector *cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 647 */;
+	const struct drm_encoder_funcs cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 630 */;
+	const struct drm_connector_funcs cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 617 */;
+	const struct drm_connector_helper_funcs cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 610 */;
+	const struct drm_encoder_helper_funcs cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 602 */;
+	const struct drm_encoder_helper_funcs *cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 591 */;
+	u32 cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 58 */;
+	uint64_t cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 536 */;
+	struct drm_property *cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 535 */;
+	struct psb_intel_lvds_priv *cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 526 */;
+	struct gma_encoder *cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 525 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 523 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 507 */;
+	struct psb_intel_mode_device *cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 446 */;
+	struct drm_psb_private *cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 445 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 444 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 442 */;
+	void cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 442 */;
+	struct psb_intel_lvds_priv {
+		uint32_t savePP_ON;
+		uint32_t savePP_OFF;
+		uint32_t saveLVDS;
+		uint32_t savePP_CONTROL;
+		uint32_t savePP_CYCLE;
+		uint32_t savePFIT_CONTROL;
+		uint32_t savePFIT_PGM_RATIOS;
+		uint32_t saveBLC_PWM_CTL;
+		struct psb_intel_i2c_chan *i2c_bus;
+		struct psb_intel_i2c_chan *ddc_bus;
+	} cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 37 */;
+	struct gma_crtc *cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 368 */;
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 362 */;
+	bool cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 361 */;
+	enum drm_mode_status cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 333 */;
+	int cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 240 */;
+	u8 cocci_id/* drivers/gpu/drm/gma500/psb_intel_lvds.c 113 */;
+}

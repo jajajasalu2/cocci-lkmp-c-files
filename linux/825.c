@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct pnp_protocol cocci_id/* drivers/pnp/isapnp/core.c 969 */;
+	unsigned long long cocci_id/* drivers/pnp/isapnp/core.c 920 */;
+	struct resource *cocci_id/* drivers/pnp/isapnp/core.c 910 */;
+	char cocci_id/* drivers/pnp/isapnp/core.c 780 */[8];
+	u32 cocci_id/* drivers/pnp/isapnp/core.c 779 */;
+	struct pnp_card *cocci_id/* drivers/pnp/isapnp/core.c 778 */;
+	unsigned char cocci_id/* drivers/pnp/isapnp/core.c 777 */[9];
+	int cocci_id/* drivers/pnp/isapnp/core.c 776 */;
+	int __init cocci_id/* drivers/pnp/isapnp/core.c 774 */;
+	unsigned char *cocci_id/* drivers/pnp/isapnp/core.c 752 */;
+	unsigned char __init cocci_id/* drivers/pnp/isapnp/core.c 752 */;
+	struct pnp_dev *cocci_id/* drivers/pnp/isapnp/core.c 569 */;
+	unsigned int cocci_id/* drivers/pnp/isapnp/core.c 568 */;
+	unsigned short cocci_id/* drivers/pnp/isapnp/core.c 564 */;
+	unsigned short *cocci_id/* drivers/pnp/isapnp/core.c 545 */;
+	char *cocci_id/* drivers/pnp/isapnp/core.c 545 */;
+	void __init cocci_id/* drivers/pnp/isapnp/core.c 544 */;
+	resource_size_t cocci_id/* drivers/pnp/isapnp/core.c 531 */;
+	unsigned char cocci_id/* drivers/pnp/isapnp/core.c 509 */[17];
+	unsigned char cocci_id/* drivers/pnp/isapnp/core.c 471 */[3];
+	unsigned char cocci_id/* drivers/pnp/isapnp/core.c 450 */[7];
+	unsigned char cocci_id/* drivers/pnp/isapnp/core.c 437 */[2];
+	void __init cocci_id/* drivers/pnp/isapnp/core.c 433 */;
+	pnp_irq_mask_t cocci_id/* drivers/pnp/isapnp/core.c 415 */;
+	unsigned long cocci_id/* drivers/pnp/isapnp/core.c 414 */;
+	unsigned char cocci_id/* drivers/pnp/isapnp/core.c 384 */[6];
+	struct pnp_dev *__init cocci_id/* drivers/pnp/isapnp/core.c 381 */;
+	unsigned char cocci_id/* drivers/pnp/isapnp/core.c 176 */;
+	void cocci_id/* drivers/pnp/isapnp/core.c 176 */;
+}

@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct arglist cocci_id/* arch/um/drivers/vector_user.c 79 */;
+	bool cocci_id/* arch/um/drivers/vector_user.c 75 */;
+	struct stat cocci_id/* arch/um/drivers/vector_user.c 727 */;
+	struct arglist *cocci_id/* arch/um/drivers/vector_user.c 71 */;
+	struct sock_filter cocci_id/* arch/um/drivers/vector_user.c 699 */;
+	uint16_t *cocci_id/* arch/um/drivers/vector_user.c 688 */;
+	uint32_t *cocci_id/* arch/um/drivers/vector_user.c 687 */;
+	struct sock_filter *cocci_id/* arch/um/drivers/vector_user.c 686 */;
+	struct sock_fprog cocci_id/* arch/um/drivers/vector_user.c 668 */;
+	struct sock_fprog *cocci_id/* arch/um/drivers/vector_user.c 666 */;
+	struct mmsghdr *cocci_id/* arch/um/drivers/vector_user.c 656 */;
+	struct iovec *cocci_id/* arch/um/drivers/vector_user.c 621 */;
+	struct msghdr *cocci_id/* arch/um/drivers/vector_user.c 606 */;
+	struct vector_fds *cocci_id/* arch/um/drivers/vector_user.c 558 */;
+	UM_KERN_ERR cocci_id/* arch/um/drivers/vector_user.c 510 */;
+	const char *cocci_id/* arch/um/drivers/vector_user.c 449 */;
+	struct addrinfo *cocci_id/* arch/um/drivers/vector_user.c 441 */;
+	struct addrinfo cocci_id/* arch/um/drivers/vector_user.c 436 */;
+	struct virtio_net_hdr cocci_id/* arch/um/drivers/vector_user.c 418 */;
+	unsigned int cocci_id/* arch/um/drivers/vector_user.c 417 */;
+	UM_KERN_INFO cocci_id/* arch/um/drivers/vector_user.c 410 */;
+	struct sockaddr_un cocci_id/* arch/um/drivers/vector_user.c 289 */;
+	struct sockaddr_un *cocci_id/* arch/um/drivers/vector_user.c 280 */;
+	struct vector_fds cocci_id/* arch/um/drivers/vector_user.c 240 */;
+	struct sockaddr *cocci_id/* arch/um/drivers/vector_user.c 178 */;
+	void *cocci_id/* arch/um/drivers/vector_user.c 168 */;
+	struct sockaddr_ll cocci_id/* arch/um/drivers/vector_user.c 158 */;
+	struct ifreq cocci_id/* arch/um/drivers/vector_user.c 156 */;
+	char *cocci_id/* arch/um/drivers/vector_user.c 154 */;
+	int cocci_id/* arch/um/drivers/vector_user.c 154 */;
+}

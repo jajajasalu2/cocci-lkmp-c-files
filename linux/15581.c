@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/staging/pi433/rf69.c 844 */[FIFO_SIZE + 1];
+	struct spi_transfer cocci_id/* drivers/staging/pi433/rf69.c 843 */;
+	u8 cocci_id/* drivers/staging/pi433/rf69.c 84 */;
+	struct spi_device *cocci_id/* drivers/staging/pi433/rf69.c 84 */;
+	int cocci_id/* drivers/staging/pi433/rf69.c 84 */;
+	u8 *cocci_id/* drivers/staging/pi433/rf69.c 838 */;
+	unsigned int cocci_id/* drivers/staging/pi433/rf69.c 838 */;
+	enum dagc cocci_id/* drivers/staging/pi433/rf69.c 820 */;
+	enum tx_start_condition cocci_id/* drivers/staging/pi433/rf69.c 781 */;
+	const u8 cocci_id/* drivers/staging/pi433/rf69.c 748 */[];
+	enum address_filtering cocci_id/* drivers/staging/pi433/rf69.c 746 */;
+	enum packet_format cocci_id/* drivers/staging/pi433/rf69.c 720 */;
+	u8 cocci_id/* drivers/staging/pi433/rf69.c 703 */[8];
+	enum fifo_fill_condition cocci_id/* drivers/staging/pi433/rf69.c 674 */;
+	bool cocci_id/* drivers/staging/pi433/rf69.c 595 */;
+	enum flag cocci_id/* drivers/staging/pi433/rf69.c 595 */;
+	enum threshold_decrement cocci_id/* drivers/staging/pi433/rf69.c 520 */;
+	char cocci_id/* drivers/staging/pi433/rf69.c 51 */[2];
+	enum mantisse cocci_id/* drivers/staging/pi433/rf69.c 506 */;
+	enum lna_gain cocci_id/* drivers/staging/pi433/rf69.c 441 */;
+	enum antenna_impedance cocci_id/* drivers/staging/pi433/rf69.c 428 */;
+	enum pa_ramp cocci_id/* drivers/staging/pi433/rf69.c 399 */;
+	u64 cocci_id/* drivers/staging/pi433/rf69.c 256 */;
+	u32 cocci_id/* drivers/staging/pi433/rf69.c 224 */;
+	u16 cocci_id/* drivers/staging/pi433/rf69.c 221 */;
+	enum mod_shaping cocci_id/* drivers/staging/pi433/rf69.c 172 */;
+	enum modulation cocci_id/* drivers/staging/pi433/rf69.c 155 */;
+	enum mode cocci_id/* drivers/staging/pi433/rf69.c 105 */;
+}

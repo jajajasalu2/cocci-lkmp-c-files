@@ -1,0 +1,74 @@
+cocci_test_suite() {
+	struct ata_link *cocci_id/* drivers/ata/libata-eh.c 977 */;
+	struct timer_list *cocci_id/* drivers/ata/libata-eh.c 816 */;
+	struct list_head *cocci_id/* drivers/ata/libata-eh.c 558 */;
+	struct Scsi_Host *cocci_id/* drivers/ata/libata-eh.c 557 */;
+	struct ata_ering *cocci_id/* drivers/ata/libata-eh.c 413 */;
+	struct ata_port_operations *cocci_id/* drivers/ata/libata-eh.c 4046 */;
+	ata_postreset_fn_t cocci_id/* drivers/ata/libata-eh.c 4017 */;
+	ata_reset_fn_t cocci_id/* drivers/ata/libata-eh.c 4016 */;
+	ata_prereset_fn_t cocci_id/* drivers/ata/libata-eh.c 4015 */;
+	int (*cocci_id/* drivers/ata/libata-eh.c 387 */)(struct ata_ering_entry *,
+							 void *);
+	struct ata_link **cocci_id/* drivers/ata/libata-eh.c 3736 */;
+	int *cocci_id/* drivers/ata/libata-eh.c 3600 */;
+	u64 cocci_id/* drivers/ata/libata-eh.c 3598 */;
+	struct ata_ering_entry *cocci_id/* drivers/ata/libata-eh.c 3596 */;
+	void *cocci_id/* drivers/ata/libata-eh.c 3596 */;
+	int cocci_id/* drivers/ata/libata-eh.c 3596 */;
+	enum{ATA_EH_SPDN_NCQ_OFF=(1 << 0), ATA_EH_SPDN_SPEED_DOWN=(1 << 1), ATA_EH_SPDN_FALLBACK_TO_PIO=(1 << 2), ATA_EH_SPDN_KEEP_ERRORS=(1 << 3), ATA_EFLAG_IS_IO=(1 << 0), ATA_EFLAG_DUBIOUS_XFER=(1 << 1), ATA_EFLAG_OLD_ER=(1 << 31), ATA_ECAT_NONE=0, ATA_ECAT_ATA_BUS=1, ATA_ECAT_TOUT_HSM=2, ATA_ECAT_UNK_DEV=3, ATA_ECAT_DUBIOUS_NONE=4, ATA_ECAT_DUBIOUS_ATA_BUS=5, ATA_ECAT_DUBIOUS_TOUT_HSM=6, ATA_ECAT_DUBIOUS_UNK_DEV=7, ATA_ECAT_NR=8, ATA_EH_CMD_DFL_TIMEOUT=5000, ATA_EH_RESET_COOL_DOWN=5000, ATA_EH_PRERESET_TIMEOUT=10000, ATA_EH_FASTDRAIN_INTERVAL=3000, ATA_EH_UA_TRIES=5, ATA_EH_PROBE_TRIAL_INTERVAL=60000, ATA_EH_PROBE_TRIALS=2,} cocci_id/* drivers/ata/libata-eh.c 35 */;
+	enum ata_lpm_policy cocci_id/* drivers/ata/libata-eh.c 3426 */;
+	struct ata_device **cocci_id/* drivers/ata/libata-eh.c 3105 */;
+	unsigned long long cocci_id/* drivers/ata/libata-eh.c 275 */;
+	char *cocci_id/* drivers/ata/libata-eh.c 274 */;
+	struct pci_dev *cocci_id/* drivers/ata/libata-eh.c 273 */;
+	ssize_t cocci_id/* drivers/ata/libata-eh.c 270 */;
+	bool cocci_id/* drivers/ata/libata-eh.c 2618 */;
+	unsigned int *cocci_id/* drivers/ata/libata-eh.c 2617 */;
+	size_t cocci_id/* drivers/ata/libata-eh.c 2540 */;
+	const u8 *cocci_id/* drivers/ata/libata-eh.c 2539 */;
+	const char *cocci_id/* drivers/ata/libata-eh.c 2498 */[];
+	char cocci_id/* drivers/ata/libata-eh.c 2491 */[70];
+	char cocci_id/* drivers/ata/libata-eh.c 2490 */[20];
+	struct ata_taskfile *cocci_id/* drivers/ata/libata-eh.c 2489 */;
+	char cocci_id/* drivers/ata/libata-eh.c 2416 */[6];
+	const struct {
+		u8 command;
+		const char *text;
+	} cocci_id/* drivers/ata/libata-eh.c 2292 */[];
+	const int cocci_id/* drivers/ata/libata-eh.c 2024 */[];
+	struct speed_down_verdict_arg cocci_id/* drivers/ata/libata-eh.c 1933 */;
+	const u64 cocci_id/* drivers/ata/libata-eh.c 1931 */;
+	struct speed_down_verdict_arg *cocci_id/* drivers/ata/libata-eh.c 1859 */;
+	struct speed_down_verdict_arg {
+		u64 since;
+		int xfer_ok;
+		int nr_errors[ATA_ECAT_NR];
+	} cocci_id/* drivers/ata/libata-eh.c 1851 */;
+	va_list cocci_id/* drivers/ata/libata-eh.c 181 */;
+	const char *cocci_id/* drivers/ata/libata-eh.c 179 */;
+	struct ata_eh_info *cocci_id/* drivers/ata/libata-eh.c 179 */;
+	u8 cocci_id/* drivers/ata/libata-eh.c 1754 */;
+	const struct ata_taskfile *cocci_id/* drivers/ata/libata-eh.c 1751 */;
+	char cocci_id/* drivers/ata/libata-eh.c 1721 */;
+	struct ata_taskfile cocci_id/* drivers/ata/libata-eh.c 1679 */;
+	u32 cocci_id/* drivers/ata/libata-eh.c 1625 */;
+	u8 cocci_id/* drivers/ata/libata-eh.c 1577 */[ATAPI_CDB_LEN];
+	void cocci_id/* drivers/ata/libata-eh.c 149 */(struct ata_port *ap);
+	u8 *cocci_id/* drivers/ata/libata-eh.c 1440 */;
+	struct ata_eh_context *cocci_id/* drivers/ata/libata-eh.c 1347 */;
+	unsigned int cocci_id/* drivers/ata/libata-eh.c 1343 */;
+	const struct ata_eh_cmd_timeout_ent cocci_id/* drivers/ata/libata-eh.c 132 */[ATA_EH_CMD_TIMEOUT_TABLE_SIZE];
+	const u8 cocci_id/* drivers/ata/libata-eh.c 131 */[];
+	struct ata_device *cocci_id/* drivers/ata/libata-eh.c 1276 */;
+	unsigned long cocci_id/* drivers/ata/libata-eh.c 1223 */;
+	struct scsi_cmnd *cocci_id/* drivers/ata/libata-eh.c 1222 */;
+	struct ata_port *cocci_id/* drivers/ata/libata-eh.c 1221 */;
+	struct ata_queued_cmd *cocci_id/* drivers/ata/libata-eh.c 1219 */;
+	void cocci_id/* drivers/ata/libata-eh.c 1219 */;
+	struct ata_eh_cmd_timeout_ent {
+		const u8 *commands;
+		const unsigned long *timeouts;
+	} cocci_id/* drivers/ata/libata-eh.c 114 */;
+	const unsigned long cocci_id/* drivers/ata/libata-eh.c 100 */[];
+}

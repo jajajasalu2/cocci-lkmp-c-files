@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	const struct sec_hw_error *cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 966 */;
+	const struct sec_hw_error cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 94 */[];
+	const char cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 89 */[];
+	struct sec_hw_error {
+		u32 int_msk;
+		const char *msg;
+	} cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 84 */;
+	const struct pci_device_id *cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 774 */;
+	enum qm_hw_ver cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 717 */;
+	struct dentry *cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 617 */;
+	struct debugfs_regset32 *cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 616 */;
+	struct sec_dfx *cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 615 */;
+	struct device *cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 614 */;
+	const struct file_operations cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 604 */;
+	unsigned long cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 559 */;
+	const char __user *cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 554 */;
+	char cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 530 */[SEC_DBGFS_VAL_MAX_LEN];
+	loff_t *cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 527 */;
+	size_t cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 527 */;
+	struct file *cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 526 */;
+	char __user *cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 526 */;
+	ssize_t cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 526 */;
+	int cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 511 */;
+	struct hisi_qm *cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 505 */;
+	struct sec_debug_file *cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 503 */;
+	struct sec_dev cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 468 */;
+	u8 cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 261 */;
+	struct sec_dev *cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 247 */;
+	void cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 247 */;
+	const struct pci_device_id cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 240 */[];
+	u32 cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 236 */;
+	const struct kernel_param_ops cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 232 */;
+	const struct kernel_param *cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 212 */;
+	const char *cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 212 */;
+	struct debugfs_reg32 cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 143 */[];
+	const char *const cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 138 */[];
+	void __exit cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 1082 */;
+	int __init cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 1066 */;
+	struct pci_driver cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 1044 */;
+	const struct pci_error_handlers cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 1040 */;
+	pci_channel_state_t cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 1028 */;
+	pci_ers_result_t cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 1027 */;
+	struct pci_dev *cocci_id/* drivers/crypto/hisilicon/sec2/sec_main.c 1027 */;
+}

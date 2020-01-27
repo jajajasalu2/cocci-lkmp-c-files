@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 76 */;
+	struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 73 */;
+	struct pch_gbe_regs cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 62 */;
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 483 */;
+	u64 cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 468 */;
+	u32 *cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 468 */;
+	char *cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 463 */;
+	const struct pch_gbe_stats *cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 462 */;
+	int cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 461 */;
+	u64 *cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 458 */;
+	struct ethtool_stats *cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 458 */;
+	u8 *cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 435 */;
+	struct pch_gbe_hw *cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 374 */;
+	struct ethtool_pauseparam *cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 371 */;
+	struct pch_gbe_rx_ring cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 305 */;
+	struct pch_gbe_tx_ring cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 304 */;
+	const struct pch_gbe_stats cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 30 */[];
+	struct pch_gbe_rx_ring *cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 277 */;
+	struct pch_gbe_tx_ring *cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 276 */;
+	struct ethtool_ringparam *cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 273 */;
+	struct pch_gbe_hw_stats cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 23 */;
+	struct ethtool_wolinfo *cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 207 */;
+	__u32 cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 191 */;
+	u16 cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 189 */;
+	struct pci_dev *cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 187 */;
+	struct ethtool_regs *cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 183 */;
+	void *cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 183 */;
+	struct pch_gbe_adapter *cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 168 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 166 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 165 */;
+	void cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 165 */;
+	struct pch_gbe_stats {
+		char string[ETH_GSTRING_LEN];
+		size_t size;
+		size_t offset;
+	} cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 14 */;
+	struct ethtool_link_ksettings cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 112 */;
+	const struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/oki-semi/pch_gbe/pch_gbe_ethtool.c 108 */;
+}

@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct dma_buf_attachment *cocci_id/* drivers/gpu/drm/tiny/st7586.c 95 */;
+	struct drm_gem_cma_object *cocci_id/* drivers/gpu/drm/tiny/st7586.c 94 */;
+	struct drm_rect *cocci_id/* drivers/gpu/drm/tiny/st7586.c 92 */;
+	struct drm_framebuffer *cocci_id/* drivers/gpu/drm/tiny/st7586.c 91 */;
+	void *cocci_id/* drivers/gpu/drm/tiny/st7586.c 91 */;
+	int cocci_id/* drivers/gpu/drm/tiny/st7586.c 91 */;
+	unsigned int cocci_id/* drivers/gpu/drm/tiny/st7586.c 69 */;
+	const u8 cocci_id/* drivers/gpu/drm/tiny/st7586.c 62 */[];
+	struct spi_driver cocci_id/* drivers/gpu/drm/tiny/st7586.c 409 */;
+	size_t cocci_id/* drivers/gpu/drm/tiny/st7586.c 326 */;
+	u32 cocci_id/* drivers/gpu/drm/tiny/st7586.c 325 */;
+	struct gpio_desc *cocci_id/* drivers/gpu/drm/tiny/st7586.c 324 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/tiny/st7586.c 322 */;
+	struct device *cocci_id/* drivers/gpu/drm/tiny/st7586.c 320 */;
+	struct spi_device *cocci_id/* drivers/gpu/drm/tiny/st7586.c 318 */;
+	const struct spi_device_id cocci_id/* drivers/gpu/drm/tiny/st7586.c 312 */[];
+	const struct of_device_id cocci_id/* drivers/gpu/drm/tiny/st7586.c 306 */[];
+	struct drm_driver cocci_id/* drivers/gpu/drm/tiny/st7586.c 293 */;
+	const struct drm_display_mode cocci_id/* drivers/gpu/drm/tiny/st7586.c 287 */;
+	const struct drm_simple_display_pipe_funcs cocci_id/* drivers/gpu/drm/tiny/st7586.c 280 */;
+	const u32 cocci_id/* drivers/gpu/drm/tiny/st7586.c 276 */[];
+	struct drm_simple_display_pipe *cocci_id/* drivers/gpu/drm/tiny/st7586.c 256 */;
+	u8 cocci_id/* drivers/gpu/drm/tiny/st7586.c 190 */;
+	struct drm_rect cocci_id/* drivers/gpu/drm/tiny/st7586.c 183 */;
+	struct drm_plane_state *cocci_id/* drivers/gpu/drm/tiny/st7586.c 178 */;
+	struct drm_crtc_state *cocci_id/* drivers/gpu/drm/tiny/st7586.c 177 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/tiny/st7586.c 162 */;
+	u8 *cocci_id/* drivers/gpu/drm/tiny/st7586.c 149 */;
+	struct mipi_dbi *cocci_id/* drivers/gpu/drm/tiny/st7586.c 118 */;
+	struct mipi_dbi_dev *cocci_id/* drivers/gpu/drm/tiny/st7586.c 117 */;
+	void cocci_id/* drivers/gpu/drm/tiny/st7586.c 115 */;
+}

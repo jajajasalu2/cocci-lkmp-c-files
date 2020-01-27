@@ -1,0 +1,166 @@
+cocci_test_suite() {
+	struct mspro_attribute *cocci_id/* drivers/memstick/core/mspro_block.c 972 */;
+	const struct blk_mq_queue_data *cocci_id/* drivers/memstick/core/mspro_block.c 826 */;
+	blk_status_t cocci_id/* drivers/memstick/core/mspro_block.c 825 */;
+	struct blk_mq_hw_ctx *cocci_id/* drivers/memstick/core/mspro_block.c 825 */;
+	unsigned long cocci_id/* drivers/memstick/core/mspro_block.c 743 */;
+	unsigned int cocci_id/* drivers/memstick/core/mspro_block.c 742 */;
+	bool cocci_id/* drivers/memstick/core/mspro_block.c 741 */;
+	uint32_t cocci_id/* drivers/memstick/core/mspro_block.c 683 */;
+	struct mspro_sys_info {
+		unsigned char class;
+		unsigned char reserved0;
+		__be16 block_size;
+		__be16 block_count;
+		__be16 user_block_count;
+		__be16 page_size;
+		unsigned char reserved1[2];
+		unsigned char assembly_date[8];
+		__be32 serial_number;
+		unsigned char assembly_maker_code;
+		unsigned char assembly_model_code[3];
+		__be16 memory_maker_code;
+		__be16 memory_model_code;
+		unsigned char reserved2[4];
+		unsigned char vcc;
+		unsigned char vpp;
+		__be16 controller_number;
+		__be16 controller_function;
+		__be16 start_sector;
+		__be16 unit_size;
+		unsigned char ms_sub_class;
+		unsigned char reserved3[4];
+		unsigned char interface_type;
+		__be16 controller_code;
+		unsigned char format_type;
+		unsigned char reserved4;
+		unsigned char device_type;
+		unsigned char reserved5[7];
+		unsigned char mspro_id[16];
+		unsigned char reserved6[16];
+	}__attribute__((packed)) cocci_id/* drivers/memstick/core/mspro_block.c 68 */;
+	struct mspro_param_register cocci_id/* drivers/memstick/core/mspro_block.c 674 */;
+	size_t cocci_id/* drivers/memstick/core/mspro_block.c 671 */;
+	u64 cocci_id/* drivers/memstick/core/mspro_block.c 670 */;
+	void cocci_id/* drivers/memstick/core/mspro_block.c 670 */;
+	struct mspro_attribute {
+		__be16 signature;
+		unsigned short version;
+		unsigned char count;
+		unsigned char reserved[11];
+		struct mspro_attr_entry entries[];
+	}__attribute__((packed)) cocci_id/* drivers/memstick/core/mspro_block.c 60 */;
+	struct scatterlist cocci_id/* drivers/memstick/core/mspro_block.c 579 */;
+	unsigned char cocci_id/* drivers/memstick/core/mspro_block.c 578 */;
+	struct ms_status_register cocci_id/* drivers/memstick/core/mspro_block.c 549 */;
+	struct mspro_block_data *cocci_id/* drivers/memstick/core/mspro_block.c 546 */;
+	struct memstick_request **cocci_id/* drivers/memstick/core/mspro_block.c 532 */;
+	struct memstick_dev *cocci_id/* drivers/memstick/core/mspro_block.c 531 */;
+	int cocci_id/* drivers/memstick/core/mspro_block.c 531 */;
+	struct mspro_attr_entry {
+		__be32 address;
+		__be32 size;
+		unsigned char id;
+		unsigned char reserved[3];
+	}__attribute__((packed)) cocci_id/* drivers/memstick/core/mspro_block.c 53 */;
+	sysfs_show_t cocci_id/* drivers/memstick/core/mspro_block.c 493 */;
+	struct mspro_devinfo *cocci_id/* drivers/memstick/core/mspro_block.c 477 */;
+	struct mspro_sys_attr {
+		size_t size;
+		void *data;
+		unsigned char id;
+		char name[32];
+		struct device_attribute dev_attr;
+	} cocci_id/* drivers/memstick/core/mspro_block.c 45 */;
+	char cocci_id/* drivers/memstick/core/mspro_block.c 443 */[9];
+	struct mspro_specfile *cocci_id/* drivers/memstick/core/mspro_block.c 442 */;
+	struct mspro_mbr *cocci_id/* drivers/memstick/core/mspro_block.c 408 */;
+	__be16 *cocci_id/* drivers/memstick/core/mspro_block.c 345 */;
+	enum{MSPRO_BLOCK_ID_SYSINFO=0x10, MSPRO_BLOCK_ID_MODELNAME=0x15, MSPRO_BLOCK_ID_MBR=0x20, MSPRO_BLOCK_ID_PBR16=0x21, MSPRO_BLOCK_ID_PBR32=0x22, MSPRO_BLOCK_ID_SPECFILEVALUES1=0x25, MSPRO_BLOCK_ID_SPECFILEVALUES2=0x26, MSPRO_BLOCK_ID_DEVINFO=0x30,} cocci_id/* drivers/memstick/core/mspro_block.c 34 */;
+	struct mspro_sys_info *cocci_id/* drivers/memstick/core/mspro_block.c 315 */;
+	unsigned char *cocci_id/* drivers/memstick/core/mspro_block.c 303 */;
+	struct mspro_sys_attr cocci_id/* drivers/memstick/core/mspro_block.c 291 */;
+	struct mspro_sys_attr *cocci_id/* drivers/memstick/core/mspro_block.c 290 */;
+	char *cocci_id/* drivers/memstick/core/mspro_block.c 288 */;
+	struct device_attribute *cocci_id/* drivers/memstick/core/mspro_block.c 287 */;
+	struct device *cocci_id/* drivers/memstick/core/mspro_block.c 286 */;
+	ssize_t cocci_id/* drivers/memstick/core/mspro_block.c 286 */;
+	ssize_t (*cocci_id/* drivers/memstick/core/mspro_block.c 282 */)(struct device *dev,
+									 struct device_attribute *attr,
+									 char *buffer);
+	const char *cocci_id/* drivers/memstick/core/mspro_block.c 258 */;
+	struct device_attribute cocci_id/* drivers/memstick/core/mspro_block.c 254 */;
+	struct attribute *cocci_id/* drivers/memstick/core/mspro_block.c 251 */;
+	const struct block_device_operations cocci_id/* drivers/memstick/core/mspro_block.c 242 */;
+	struct hd_geometry *cocci_id/* drivers/memstick/core/mspro_block.c 231 */;
+	struct block_device *cocci_id/* drivers/memstick/core/mspro_block.c 230 */;
+	struct gendisk *cocci_id/* drivers/memstick/core/mspro_block.c 183 */;
+	fmode_t cocci_id/* drivers/memstick/core/mspro_block.c 181 */;
+	int cocci_id/* drivers/memstick/core/mspro_block.c 177 */(struct memstick_dev *card,
+								  int error);
+	void __exit cocci_id/* drivers/memstick/core/mspro_block.c 1461 */;
+	int __init cocci_id/* drivers/memstick/core/mspro_block.c 1442 */;
+	struct memstick_driver cocci_id/* drivers/memstick/core/mspro_block.c 1430 */;
+	struct memstick_device_id cocci_id/* drivers/memstick/core/mspro_block.c 1423 */[];
+	pm_message_t cocci_id/* drivers/memstick/core/mspro_block.c 1350 */;
+	struct mspro_block_data {
+		struct memstick_dev *card;
+		unsigned int usage_count;
+		unsigned int caps;
+		struct gendisk *disk;
+		struct request_queue *queue;
+		struct request *block_req;
+		struct blk_mq_tag_set tag_set;
+		spinlock_t q_lock;
+		unsigned short page_size;
+		unsigned short cylinders;
+		unsigned short heads;
+		unsigned short sectors_per_track;
+		unsigned char system;
+		unsigned char read_only:1,eject:1,data_dir:1,active:1;
+		unsigned char transfer_cmd;
+		int (*mrq_handler)(struct memstick_dev *card,
+				   struct memstick_request **mrq);
+		void (*setup_transfer)(struct memstick_dev *card, u64 offset,
+				       size_t length);
+		struct attribute_group attr_group;
+		struct scatterlist req_sg[MSPRO_BLOCK_MAX_SEGS];
+		unsigned int seg_count;
+		unsigned int current_seg;
+		unsigned int current_page;
+	} cocci_id/* drivers/memstick/core/mspro_block.c 134 */;
+	struct mspro_block_data cocci_id/* drivers/memstick/core/mspro_block.c 1289 */;
+	struct mspro_devinfo {
+		__be16 cylinders;
+		__be16 heads;
+		__be16 bytes_per_track;
+		__be16 bytes_per_sector;
+		__be16 sectors_per_track;
+		unsigned char reserved[6];
+	}__attribute__((packed)) cocci_id/* drivers/memstick/core/mspro_block.c 125 */;
+	const struct blk_mq_ops cocci_id/* drivers/memstick/core/mspro_block.c 1171 */;
+	struct mspro_specfile {
+		char name[8];
+		char ext[3];
+		unsigned char attr;
+		unsigned char reserved[10];
+		unsigned short time;
+		unsigned short date;
+		unsigned short cluster;
+		unsigned int size;
+	}__attribute__((packed)) cocci_id/* drivers/memstick/core/mspro_block.c 114 */;
+	struct mspro_register cocci_id/* drivers/memstick/core/mspro_block.c 1127 */;
+	struct memstick_host *cocci_id/* drivers/memstick/core/mspro_block.c 1121 */;
+	struct mspro_mbr {
+		unsigned char boot_partition;
+		unsigned char start_head;
+		unsigned char start_sector;
+		unsigned char start_cylinder;
+		unsigned char partition_type;
+		unsigned char end_head;
+		unsigned char end_sector;
+		unsigned char end_cylinder;
+		unsigned int start_sectors;
+		unsigned int sectors_per_partition;
+	}__attribute__((packed)) cocci_id/* drivers/memstick/core/mspro_block.c 101 */;
+}

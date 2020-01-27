@@ -1,0 +1,72 @@
+cocci_test_suite() {
+	struct neighbour_cb cocci_id/* net/ipv4/arp.c 959 */;
+	const struct arphdr *cocci_id/* net/ipv4/arp.c 939 */;
+	struct packet_type *cocci_id/* net/ipv4/arp.c 937 */;
+	struct dst_entry *cocci_id/* net/ipv4/arp.c 688 */;
+	u16 cocci_id/* net/ipv4/arp.c 685 */;
+	struct sock *cocci_id/* net/ipv4/arp.c 675 */;
+	__be16 cocci_id/* net/ipv4/arp.c 646 */;
+	int *cocci_id/* net/ipv4/arp.c 646 */;
+	bool cocci_id/* net/ipv4/arp.c 645 */;
+	unsigned char *cocci_id/* net/ipv4/arp.c 529 */;
+	struct arphdr *cocci_id/* net/ipv4/arp.c 528 */;
+	const unsigned char *cocci_id/* net/ipv4/arp.c 523 */;
+	struct sk_buff *cocci_id/* net/ipv4/arp.c 521 */;
+	struct net *cocci_id/* net/ipv4/arp.c 434 */;
+	struct rtable *cocci_id/* net/ipv4/arp.c 431 */;
+	u8 cocci_id/* net/ipv4/arp.c 333 */[MAX_ADDR_LEN];
+	void cocci_id/* net/ipv4/arp.c 291 */;
+	__be32 *cocci_id/* net/ipv4/arp.c 231 */;
+	u32 cocci_id/* net/ipv4/arp.c 226 */;
+	struct neigh_parms *cocci_id/* net/ipv4/arp.c 225 */;
+	struct in_device *cocci_id/* net/ipv4/arp.c 224 */;
+	struct net_device *cocci_id/* net/ipv4/arp.c 223 */;
+	__be32 cocci_id/* net/ipv4/arp.c 222 */;
+	struct neighbour *cocci_id/* net/ipv4/arp.c 220 */;
+	int cocci_id/* net/ipv4/arp.c 220 */;
+	const struct neighbour *cocci_id/* net/ipv4/arp.c 215 */;
+	__u32 *cocci_id/* net/ipv4/arp.c 210 */;
+	const struct net_device *cocci_id/* net/ipv4/arp.c 209 */;
+	const void *cocci_id/* net/ipv4/arp.c 208 */;
+	u8 *cocci_id/* net/ipv4/arp.c 184 */;
+	struct neigh_table cocci_id/* net/ipv4/arp.c 151 */;
+	const struct neigh_ops cocci_id/* net/ipv4/arp.c 145 */;
+	int __init cocci_id/* net/ipv4/arp.c 1439 */;
+	struct pernet_operations cocci_id/* net/ipv4/arp.c 1434 */;
+	void __net_exit cocci_id/* net/ipv4/arp.c 1429 */;
+	struct neigh_seq_state cocci_id/* net/ipv4/arp.c 1424 */;
+	int __net_init cocci_id/* net/ipv4/arp.c 1421 */;
+	const struct seq_operations cocci_id/* net/ipv4/arp.c 1412 */;
+	loff_t *cocci_id/* net/ipv4/arp.c 1402 */;
+	struct neigh_seq_state *cocci_id/* net/ipv4/arp.c 1391 */;
+	struct pneigh_entry *cocci_id/* net/ipv4/arp.c 1373 */;
+	ax25_address *cocci_id/* net/ipv4/arp.c 1352 */;
+	char cocci_id/* net/ipv4/arp.c 1344 */[16];
+	char cocci_id/* net/ipv4/arp.c 1342 */[HBUFFERLEN];
+	struct seq_file *cocci_id/* net/ipv4/arp.c 1339 */;
+	char cocci_id/* net/ipv4/arp.c 1310 */;
+	char *cocci_id/* net/ipv4/arp.c 1308 */;
+	void __init cocci_id/* net/ipv4/arp.c 1289 */;
+	int cocci_id/* net/ipv4/arp.c 1287 */(void);
+	struct packet_type cocci_id/* net/ipv4/arp.c 1282 */;
+	void cocci_id/* net/ipv4/arp.c 127 */(struct sk_buff *skb);
+	struct notifier_block cocci_id/* net/ipv4/arp.c 1264 */;
+	void cocci_id/* net/ipv4/arp.c 126 */(struct neighbour *neigh,
+					      struct sk_buff *skb);
+	struct netdev_notifier_change_info *cocci_id/* net/ipv4/arp.c 1243 */;
+	void *cocci_id/* net/ipv4/arp.c 1240 */;
+	int cocci_id/* net/ipv4/arp.c 124 */(struct neighbour *neigh);
+	struct notifier_block *cocci_id/* net/ipv4/arp.c 1239 */;
+	unsigned long cocci_id/* net/ipv4/arp.c 1239 */;
+	bool cocci_id/* net/ipv4/arp.c 123 */(const struct neighbour *n,
+					      const void *pkey);
+	u32 cocci_id/* net/ipv4/arp.c 122 */(const void *pkey,
+					     const struct net_device *dev,
+					     __u32 *hash_rnd);
+	struct sockaddr_in *cocci_id/* net/ipv4/arp.c 1201 */;
+	struct arpreq cocci_id/* net/ipv4/arp.c 1176 */;
+	void __user *cocci_id/* net/ipv4/arp.c 1173 */;
+	unsigned int cocci_id/* net/ipv4/arp.c 1173 */;
+	struct arpreq *cocci_id/* net/ipv4/arp.c 1148 */;
+	struct neigh_table *cocci_id/* net/ipv4/arp.c 1117 */;
+}

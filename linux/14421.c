@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	__poll_t cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 96 */;
+	struct poll_table_struct *cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 96 */;
+	struct tx_rds cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 75 */;
+	const char __user *cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 72 */;
+	void *cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 588 */;
+	void cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 588 */;
+	const struct video_device cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 496 */;
+	const struct v4l2_ioctl_ops cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 482 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 478 */;
+	const struct v4l2_file_operations cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 468 */;
+	const struct v4l2_modulator *cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 434 */;
+	struct v4l2_modulator *cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 411 */;
+	const struct v4l2_hw_freq_seek *cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 386 */;
+	const struct v4l2_frequency *cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 373 */;
+	u32 cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 366 */;
+	struct v4l2_frequency *cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 354 */;
+	u8 cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 35 */;
+	loff_t *cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 33 */;
+	size_t cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 33 */;
+	char __user *cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 32 */;
+	ssize_t cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 32 */;
+	const struct v4l2_tuner *cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 316 */;
+	struct video_device cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 26 */;
+	struct v4l2_tuner *cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 253 */;
+	const struct v4l2_audio *cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 243 */;
+	struct v4l2_audio *cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 233 */;
+	u16 cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 215 */;
+	struct fmdev cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 194 */;
+	struct fmdev *cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 193 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 191 */;
+	int cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 191 */;
+	struct v4l2_capability *cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 182 */;
+	struct file *cocci_id/* drivers/media/radio/wl128x/fmdrv_v4l2.c 115 */;
+}

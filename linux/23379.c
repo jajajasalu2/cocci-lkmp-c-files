@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	struct snd_soc_jack *cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 991 */;
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 881 */[];
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 789 */[];
+	const struct reg_default cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 721 */[];
+	u8 cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 579 */;
+	u16 cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 578 */;
+	struct snd_kcontrol *cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 574 */;
+	struct snd_soc_dapm_widget *cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 573 */;
+	int *cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 460 */;
+	bool cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 456 */;
+	unsigned int cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 379 */;
+	void cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 349 */;
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 343 */[];
+	const struct soc_enum cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 324 */;
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 319 */;
+	const char *const cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 312 */[];
+	struct pm8916_wcd_analog_priv {
+		u16 pmic_rev;
+		u16 codec_version;
+		bool mbhc_btn_enabled;
+		int mbhc_btn0_released;
+		bool detect_accessory_type;
+		struct clk *mclk;
+		struct snd_soc_component *component;
+		struct regulator_bulk_data supplies[ARRAY_SIZE(supply_names)];
+		struct snd_soc_jack *jack;
+		bool hphl_jack_type_normally_open;
+		bool gnd_jack_type_normally_open;
+		u32 vref_btn_cs[MBHC_MAX_BUTTONS];
+		u32 vref_btn_micb[MBHC_MAX_BUTTONS];
+		unsigned int micbias1_cap_mode;
+		unsigned int micbias2_cap_mode;
+		unsigned int micbias_mv;
+	} cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 290 */;
+	int cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 279 */;
+	struct platform_driver cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 1299 */;
+	const struct of_device_id cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 1292 */[];
+	struct platform_device *cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 1201 */;
+	struct device *cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 1147 */;
+	const struct snd_soc_component_driver cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 1131 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 1106 */[];
+	u32 cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 1024 */;
+	struct snd_soc_component *cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 1023 */;
+	struct pm8916_wcd_analog_priv *cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 1022 */;
+	irqreturn_t cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 1020 */;
+	void *cocci_id/* sound/soc/codecs/msm8916-wcd-analog.c 1020 */;
+}

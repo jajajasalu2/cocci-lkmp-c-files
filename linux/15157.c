@@ -1,0 +1,56 @@
+cocci_test_suite() {
+	enum{RECV_IDLE, RECV_READY, RECEIVING,} cocci_id/* drivers/hsi/clients/ssi_protocol.c 97 */;
+	struct ssi_protocol cocci_id/* drivers/hsi/clients/ssi_protocol.c 965 */;
+	struct work_struct *cocci_id/* drivers/hsi/clients/ssi_protocol.c 962 */;
+	struct net_device *cocci_id/* drivers/hsi/clients/ssi_protocol.c 919 */;
+	unsigned long cocci_id/* drivers/hsi/clients/ssi_protocol.c 905 */;
+	enum{SEND_IDLE, WAIT4READY, SEND_READY, SENDING, SENDING_SWBREAK,} cocci_id/* drivers/hsi/clients/ssi_protocol.c 88 */;
+	enum{INIT, HANDSHAKE, ACTIVE,} cocci_id/* drivers/hsi/clients/ssi_protocol.c 81 */;
+	u16 *cocci_id/* drivers/hsi/clients/ssi_protocol.c 630 */;
+	struct timer_list *cocci_id/* drivers/hsi/clients/ssi_protocol.c 455 */;
+	void cocci_id/* drivers/hsi/clients/ssi_protocol.c 422 */;
+	struct list_head *cocci_id/* drivers/hsi/clients/ssi_protocol.c 390 */;
+	void cocci_id/* drivers/hsi/clients/ssi_protocol.c 35 */(struct hsi_client *cl,
+								 unsigned int enable);
+	unsigned int cocci_id/* drivers/hsi/clients/ssi_protocol.c 258 */;
+	u32 *cocci_id/* drivers/hsi/clients/ssi_protocol.c 257 */;
+	struct hsi_msg *cocci_id/* drivers/hsi/clients/ssi_protocol.c 256 */;
+	struct hsi_msg cocci_id/* drivers/hsi/clients/ssi_protocol.c 234 */;
+	gfp_t cocci_id/* drivers/hsi/clients/ssi_protocol.c 202 */;
+	struct sk_buff *cocci_id/* drivers/hsi/clients/ssi_protocol.c 202 */;
+	struct scatterlist *cocci_id/* drivers/hsi/clients/ssi_protocol.c 173 */;
+	skb_frag_t *cocci_id/* drivers/hsi/clients/ssi_protocol.c 172 */;
+	u32 cocci_id/* drivers/hsi/clients/ssi_protocol.c 161 */;
+	void cocci_id/* drivers/hsi/clients/ssi_protocol.c 151 */(struct hsi_msg *msg);
+	struct ssi_protocol {
+		unsigned int main_state;
+		unsigned int send_state;
+		unsigned int recv_state;
+		unsigned long flags;
+		u8 rxid;
+		u8 txid;
+		unsigned int txqueue_len;
+		struct timer_list tx_wd;
+		struct timer_list rx_wd;
+		struct timer_list keep_alive;
+		spinlock_t lock;
+		struct net_device *netdev;
+		struct list_head txqueue;
+		struct list_head cmdqueue;
+		struct work_struct work;
+		struct hsi_client *cl;
+		struct list_head link;
+		atomic_t tx_usecnt;
+		int channel_id_cmd;
+		int channel_id_data;
+	} cocci_id/* drivers/hsi/clients/ssi_protocol.c 125 */;
+	void __exit cocci_id/* drivers/hsi/clients/ssi_protocol.c 1180 */;
+	int __init cocci_id/* drivers/hsi/clients/ssi_protocol.c 1172 */;
+	struct hsi_client_driver cocci_id/* drivers/hsi/clients/ssi_protocol.c 1163 */;
+	struct ssi_protocol *cocci_id/* drivers/hsi/clients/ssi_protocol.c 1076 */;
+	struct hsi_client *cocci_id/* drivers/hsi/clients/ssi_protocol.c 1075 */;
+	const char cocci_id/* drivers/hsi/clients/ssi_protocol.c 1074 */[];
+	struct device *cocci_id/* drivers/hsi/clients/ssi_protocol.c 1072 */;
+	int cocci_id/* drivers/hsi/clients/ssi_protocol.c 1072 */;
+	const struct net_device_ops cocci_id/* drivers/hsi/clients/ssi_protocol.c 1050 */;
+}

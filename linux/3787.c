@@ -1,0 +1,97 @@
+cocci_test_suite() {
+	struct caam_drv_ctx *cocci_id/* drivers/crypto/caam/caamalg_qi.c 957 */;
+	struct qm_sg_entry *cocci_id/* drivers/crypto/caam/caamalg_qi.c 956 */;
+	unsigned int cocci_id/* drivers/crypto/caam/caamalg_qi.c 953 */;
+	dma_addr_t cocci_id/* drivers/crypto/caam/caamalg_qi.c 951 */;
+	gfp_t cocci_id/* drivers/crypto/caam/caamalg_qi.c 946 */;
+	typeof(*alg) cocci_id/* drivers/crypto/caam/caamalg_qi.c 944 */;
+	struct caam_aead_alg *cocci_id/* drivers/crypto/caam/caamalg_qi.c 943 */;
+	typeof(*edesc) cocci_id/* drivers/crypto/caam/caamalg_qi.c 928 */;
+	struct device *cocci_id/* drivers/crypto/caam/caamalg_qi.c 916 */;
+	u32 cocci_id/* drivers/crypto/caam/caamalg_qi.c 914 */;
+	struct caam_drv_req *cocci_id/* drivers/crypto/caam/caamalg_qi.c 914 */;
+	void cocci_id/* drivers/crypto/caam/caamalg_qi.c 914 */;
+	enum dma_data_direction cocci_id/* drivers/crypto/caam/caamalg_qi.c 872 */;
+	struct scatterlist *cocci_id/* drivers/crypto/caam/caamalg_qi.c 869 */;
+	struct caam_drv_private *cocci_id/* drivers/crypto/caam/caamalg_qi.c 85 */;
+	enum optype cocci_id/* drivers/crypto/caam/caamalg_qi.c 832 */;
+	struct skcipher_edesc {
+		int src_nents;
+		int dst_nents;
+		dma_addr_t iv_dma;
+		int qm_sg_bytes;
+		dma_addr_t qm_sg_dma;
+		struct caam_drv_req drv_req;
+		struct qm_sg_entry sgt[0];
+	} cocci_id/* drivers/crypto/caam/caamalg_qi.c 821 */;
+	const bool cocci_id/* drivers/crypto/caam/caamalg_qi.c 82 */;
+	unsigned int cocci_id/* drivers/crypto/caam/caamalg_qi.c 80 */[2];
+	struct aead_edesc {
+		int src_nents;
+		int dst_nents;
+		dma_addr_t iv_dma;
+		int qm_sg_bytes;
+		dma_addr_t qm_sg_dma;
+		unsigned int assoclen;
+		dma_addr_t assoclen_dma;
+		struct caam_drv_req drv_req;
+		struct qm_sg_entry sgt[0];
+	} cocci_id/* drivers/crypto/caam/caamalg_qi.c 799 */;
+	u32 *cocci_id/* drivers/crypto/caam/caamalg_qi.c 79 */;
+	struct crypto_skcipher *cocci_id/* drivers/crypto/caam/caamalg_qi.c 666 */;
+	const u32 cocci_id/* drivers/crypto/caam/caamalg_qi.c 617 */;
+	struct caam_ctx {
+		struct device *jrdev;
+		u32 sh_desc_enc[DESC_MAX_USED_LEN];
+		u32 sh_desc_dec[DESC_MAX_USED_LEN];
+		u8 key[CAAM_MAX_KEY_SIZE];
+		dma_addr_t key_dma;
+		enum dma_data_direction dir;
+		struct alginfo adata;
+		struct alginfo cdata;
+		unsigned int authsize;
+		struct device *qidev;
+		spinlock_t lock;
+		struct caam_drv_ctx *drv_ctx[NUM_OP];
+	} cocci_id/* drivers/crypto/caam/caamalg_qi.c 57 */;
+	struct caam_skcipher_alg {
+		struct skcipher_alg skcipher;
+		struct caam_alg_entry caam;
+		bool registered;
+	} cocci_id/* drivers/crypto/caam/caamalg_qi.c 48 */;
+	struct caam_aead_alg {
+		struct aead_alg aead;
+		struct caam_alg_entry caam;
+		bool registered;
+	} cocci_id/* drivers/crypto/caam/caamalg_qi.c 42 */;
+	struct caam_alg_entry {
+		int class1_alg_type;
+		int class2_alg_type;
+		bool rfc3686;
+		bool geniv;
+		bool nodkp;
+	} cocci_id/* drivers/crypto/caam/caamalg_qi.c 34 */;
+	struct caam_ctx cocci_id/* drivers/crypto/caam/caamalg_qi.c 2539 */;
+	struct aead_alg *cocci_id/* drivers/crypto/caam/caamalg_qi.c 2535 */;
+	typeof(*caam_alg) cocci_id/* drivers/crypto/caam/caamalg_qi.c 2473 */;
+	struct caam_skcipher_alg *cocci_id/* drivers/crypto/caam/caamalg_qi.c 2463 */;
+	struct skcipher_alg *cocci_id/* drivers/crypto/caam/caamalg_qi.c 2462 */;
+	struct caam_alg_entry *cocci_id/* drivers/crypto/caam/caamalg_qi.c 2416 */;
+	struct crypto_authenc_keys cocci_id/* drivers/crypto/caam/caamalg_qi.c 193 */;
+	const u8 *cocci_id/* drivers/crypto/caam/caamalg_qi.c 187 */;
+	struct caam_aead_alg cocci_id/* drivers/crypto/caam/caamalg_qi.c 1545 */[];
+	struct caam_skcipher_alg cocci_id/* drivers/crypto/caam/caamalg_qi.c 1437 */[];
+	struct skcipher_edesc *cocci_id/* drivers/crypto/caam/caamalg_qi.c 1400 */;
+	struct skcipher_request *cocci_id/* drivers/crypto/caam/caamalg_qi.c 1398 */;
+	struct skcipher_edesc cocci_id/* drivers/crypto/caam/caamalg_qi.c 1322 */;
+	struct qm_sg_entry cocci_id/* drivers/crypto/caam/caamalg_qi.c 1321 */;
+	struct caam_ctx *cocci_id/* drivers/crypto/caam/caamalg_qi.c 1162 */;
+	struct crypto_aead *cocci_id/* drivers/crypto/caam/caamalg_qi.c 1161 */;
+	struct aead_edesc *cocci_id/* drivers/crypto/caam/caamalg_qi.c 1160 */;
+	bool cocci_id/* drivers/crypto/caam/caamalg_qi.c 1158 */;
+	struct aead_request *cocci_id/* drivers/crypto/caam/caamalg_qi.c 1158 */;
+	int cocci_id/* drivers/crypto/caam/caamalg_qi.c 1158 */;
+	u8 *cocci_id/* drivers/crypto/caam/caamalg_qi.c 1074 */;
+	struct aead_edesc cocci_id/* drivers/crypto/caam/caamalg_qi.c 1063 */;
+	void *cocci_id/* drivers/crypto/caam/caamalg_qi.c 104 */;
+}

@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct hfi1_ctxtdata *cocci_id/* drivers/infiniband/hw/hfi1/fault.c 92 */;
+	struct hfi1_devdata *cocci_id/* drivers/infiniband/hw/hfi1/fault.c 91 */;
+	u64 cocci_id/* drivers/infiniband/hw/hfi1/fault.c 89 */;
+	loff_t cocci_id/* drivers/infiniband/hw/hfi1/fault.c 88 */;
+	int cocci_id/* drivers/infiniband/hw/hfi1/fault.c 85 */;
+	void cocci_id/* drivers/infiniband/hw/hfi1/fault.c 81 */;
+	struct hfi1_opcode_stats_perctx *cocci_id/* drivers/infiniband/hw/hfi1/fault.c 73 */;
+	loff_t *cocci_id/* drivers/infiniband/hw/hfi1/fault.c 71 */;
+	struct seq_file *cocci_id/* drivers/infiniband/hw/hfi1/fault.c 71 */;
+	void *cocci_id/* drivers/infiniband/hw/hfi1/fault.c 71 */;
+	struct hfi1_packet *cocci_id/* drivers/infiniband/hw/hfi1/fault.c 361 */;
+	struct rvt_qp *cocci_id/* drivers/infiniband/hw/hfi1/fault.c 349 */;
+	u8 cocci_id/* drivers/infiniband/hw/hfi1/fault.c 317 */;
+	u32 cocci_id/* drivers/infiniband/hw/hfi1/fault.c 316 */;
+	bool cocci_id/* drivers/infiniband/hw/hfi1/fault.c 316 */;
+	struct hfi1_ibdev *cocci_id/* drivers/infiniband/hw/hfi1/fault.c 316 */;
+	struct dentry *cocci_id/* drivers/infiniband/hw/hfi1/fault.c 261 */;
+	const struct file_operations cocci_id/* drivers/infiniband/hw/hfi1/fault.c 243 */;
+	struct fault *cocci_id/* drivers/infiniband/hw/hfi1/fault.c 212 */;
+	unsigned long cocci_id/* drivers/infiniband/hw/hfi1/fault.c 211 */;
+	char *cocci_id/* drivers/infiniband/hw/hfi1/fault.c 209 */;
+	size_t cocci_id/* drivers/infiniband/hw/hfi1/fault.c 206 */;
+	char __user *cocci_id/* drivers/infiniband/hw/hfi1/fault.c 205 */;
+	ssize_t cocci_id/* drivers/infiniband/hw/hfi1/fault.c 205 */;
+	const char __user *cocci_id/* drivers/infiniband/hw/hfi1/fault.c 131 */;
+	struct inode *cocci_id/* drivers/infiniband/hw/hfi1/fault.c 125 */;
+	struct file *cocci_id/* drivers/infiniband/hw/hfi1/fault.c 125 */;
+	unsigned long long cocci_id/* drivers/infiniband/hw/hfi1/fault.c 114 */;
+}

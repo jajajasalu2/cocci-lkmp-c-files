@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/media/radio/radio-isa.c 92 */;
+	const struct v4l2_frequency *cocci_id/* drivers/media/radio/radio-isa.c 89 */;
+	const struct v4l2_tuner *cocci_id/* drivers/media/radio/radio-isa.c 74 */;
+	struct v4l2_tuner *cocci_id/* drivers/media/radio/radio-isa.c 44 */;
+	void cocci_id/* drivers/media/radio/radio-isa.c 371 */;
+	struct radio_isa_driver cocci_id/* drivers/media/radio/radio-isa.c 354 */;
+	struct pnp_driver *cocci_id/* drivers/media/radio/radio-isa.c 352 */;
+	const struct pnp_device_id *cocci_id/* drivers/media/radio/radio-isa.c 350 */;
+	struct pnp_dev *cocci_id/* drivers/media/radio/radio-isa.c 350 */;
+	struct v4l2_capability *cocci_id/* drivers/media/radio/radio-isa.c 33 */;
+	bool cocci_id/* drivers/media/radio/radio-isa.c 311 */;
+	const struct radio_isa_ops *cocci_id/* drivers/media/radio/radio-isa.c 200 */;
+	const struct radio_isa_driver *cocci_id/* drivers/media/radio/radio-isa.c 199 */;
+	unsigned cocci_id/* drivers/media/radio/radio-isa.c 197 */;
+	int cocci_id/* drivers/media/radio/radio-isa.c 195 */;
+	struct v4l2_device *cocci_id/* drivers/media/radio/radio-isa.c 182 */;
+	struct device *cocci_id/* drivers/media/radio/radio-isa.c 180 */;
+	struct radio_isa_driver *cocci_id/* drivers/media/radio/radio-isa.c 179 */;
+	struct radio_isa_card *cocci_id/* drivers/media/radio/radio-isa.c 179 */;
+	unsigned int cocci_id/* drivers/media/radio/radio-isa.c 161 */;
+	const struct v4l2_ioctl_ops cocci_id/* drivers/media/radio/radio-isa.c 150 */;
+	const struct v4l2_file_operations cocci_id/* drivers/media/radio/radio-isa.c 142 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/radio/radio-isa.c 138 */;
+	struct radio_isa_card cocci_id/* drivers/media/radio/radio-isa.c 119 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/radio/radio-isa.c 116 */;
+	struct v4l2_frequency *cocci_id/* drivers/media/radio/radio-isa.c 105 */;
+	struct file *cocci_id/* drivers/media/radio/radio-isa.c 104 */;
+	void *cocci_id/* drivers/media/radio/radio-isa.c 104 */;
+}

@@ -1,0 +1,82 @@
+cocci_test_suite() {
+	const struct regmap_access_table cocci_id/* drivers/clk/clk-si5341.c 996 */;
+	const struct regmap_range cocci_id/* drivers/clk/clk-si5341.c 984 */[];
+	const struct si5341_reg_default cocci_id/* drivers/clk/clk-si5341.c 923 */[];
+	const struct si5341_reg_default *cocci_id/* drivers/clk/clk-si5341.c 904 */;
+	u16 cocci_id/* drivers/clk/clk-si5341.c 824 */;
+	unsigned int cocci_id/* drivers/clk/clk-si5341.c 789 */;
+	struct clk_si5341 *cocci_id/* drivers/clk/clk-si5341.c 788 */;
+	struct of_phandle_args *cocci_id/* drivers/clk/clk-si5341.c 786 */;
+	void *cocci_id/* drivers/clk/clk-si5341.c 786 */;
+	struct clk_hw *cocci_id/* drivers/clk/clk-si5341.c 785 */;
+	u8 cocci_id/* drivers/clk/clk-si5341.c 774 */[4];
+	u8 cocci_id/* drivers/clk/clk-si5341.c 742 */;
+	struct clk_si5341_output_config {
+		u8 out_format_drv_bits;
+		u8 out_cm_ampl_bits;
+		bool synth_master;
+		bool always_on;
+	} cocci_id/* drivers/clk/clk-si5341.c 69 */;
+	struct clk_si5341 cocci_id/* drivers/clk/clk-si5341.c 67 */;
+	unsigned long *cocci_id/* drivers/clk/clk-si5341.c 664 */;
+	long cocci_id/* drivers/clk/clk-si5341.c 663 */;
+	u8 cocci_id/* drivers/clk/clk-si5341.c 634 */[3];
+	void cocci_id/* drivers/clk/clk-si5341.c 598 */;
+	struct clk_si5341_output *cocci_id/* drivers/clk/clk-si5341.c 584 */;
+	struct clk_si5341 {
+		struct clk_hw hw;
+		struct regmap *regmap;
+		struct i2c_client *i2c_client;
+		struct clk_si5341_synth synth[SI5341_NUM_SYNTH];
+		struct clk_si5341_output clk[SI5341_MAX_NUM_OUTPUTS];
+		struct clk *pxtal;
+		const char *pxtal_name;
+		const u16 *reg_output_offset;
+		const u16 *reg_rdiv_offset;
+		u64 freq_vco;
+		u8 num_outputs;
+		u8 num_synth;
+	} cocci_id/* drivers/clk/clk-si5341.c 53 */;
+	struct clk_si5341_output cocci_id/* drivers/clk/clk-si5341.c 51 */;
+	struct clk_si5341_output {
+		struct clk_hw hw;
+		struct clk_si5341 *data;
+		u8 index;
+	} cocci_id/* drivers/clk/clk-si5341.c 45 */;
+	struct clk_si5341_synth cocci_id/* drivers/clk/clk-si5341.c 42 */;
+	struct clk_si5341_synth *cocci_id/* drivers/clk/clk-si5341.c 402 */;
+	const struct clk_ops cocci_id/* drivers/clk/clk-si5341.c 393 */;
+	struct clk_si5341_synth {
+		struct clk_hw hw;
+		struct clk_si5341 *data;
+		u8 index;
+	} cocci_id/* drivers/clk/clk-si5341.c 36 */;
+	u32 cocci_id/* drivers/clk/clk-si5341.c 357 */;
+	u64 cocci_id/* drivers/clk/clk-si5341.c 355 */;
+	int cocci_id/* drivers/clk/clk-si5341.c 354 */;
+	unsigned long cocci_id/* drivers/clk/clk-si5341.c 350 */;
+	u8 cocci_id/* drivers/clk/clk-si5341.c 314 */[10];
+	u64 *cocci_id/* drivers/clk/clk-si5341.c 311 */;
+	u32 *cocci_id/* drivers/clk/clk-si5341.c 311 */;
+	struct regmap *cocci_id/* drivers/clk/clk-si5341.c 310 */;
+	const u16 cocci_id/* drivers/clk/clk-si5341.c 137 */[];
+	struct i2c_driver cocci_id/* drivers/clk/clk-si5341.c 1333 */;
+	const struct of_device_id cocci_id/* drivers/clk/clk-si5341.c 1326 */[];
+	const struct i2c_device_id cocci_id/* drivers/clk/clk-si5341.c 1319 */[];
+	struct si5341_reg_default {
+		u16 address;
+		u8 value;
+	} cocci_id/* drivers/clk/clk-si5341.c 118 */;
+	bool cocci_id/* drivers/clk/clk-si5341.c 1156 */;
+	struct clk_si5341_output_config cocci_id/* drivers/clk/clk-si5341.c 1155 */[SI5341_MAX_NUM_OUTPUTS];
+	const char *cocci_id/* drivers/clk/clk-si5341.c 1152 */[SI5341_NUM_SYNTH];
+	const char *cocci_id/* drivers/clk/clk-si5341.c 1151 */;
+	struct clk_init_data cocci_id/* drivers/clk/clk-si5341.c 1150 */;
+	const struct i2c_device_id *cocci_id/* drivers/clk/clk-si5341.c 1147 */;
+	struct clk_si5341_output_config cocci_id/* drivers/clk/clk-si5341.c 1032 */;
+	struct device_node *cocci_id/* drivers/clk/clk-si5341.c 1027 */;
+	struct clk_si5341_output_config *cocci_id/* drivers/clk/clk-si5341.c 1025 */;
+	struct i2c_client *cocci_id/* drivers/clk/clk-si5341.c 1024 */;
+	const struct regmap_config cocci_id/* drivers/clk/clk-si5341.c 1014 */;
+	const struct regmap_range_cfg cocci_id/* drivers/clk/clk-si5341.c 1002 */[];
+}

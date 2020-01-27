@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/codecs/tas6424.c 98 */[];
+	struct i2c_driver cocci_id/* sound/soc/codecs/tas6424.c 802 */;
+	const struct i2c_device_id cocci_id/* sound/soc/codecs/tas6424.c 796 */[];
+	struct tas6424_data *cocci_id/* sound/soc/codecs/tas6424.c 76 */;
+	struct snd_soc_component *cocci_id/* sound/soc/codecs/tas6424.c 75 */;
+	struct snd_kcontrol *cocci_id/* sound/soc/codecs/tas6424.c 73 */;
+	struct snd_soc_dapm_widget *cocci_id/* sound/soc/codecs/tas6424.c 72 */;
+	int cocci_id/* sound/soc/codecs/tas6424.c 72 */;
+	const struct i2c_device_id *cocci_id/* sound/soc/codecs/tas6424.c 685 */;
+	struct i2c_client *cocci_id/* sound/soc/codecs/tas6424.c 684 */;
+	const struct of_device_id cocci_id/* sound/soc/codecs/tas6424.c 677 */[];
+	const struct regmap_config cocci_id/* sound/soc/codecs/tas6424.c 663 */;
+	bool cocci_id/* sound/soc/codecs/tas6424.c 642 */;
+	const struct reg_default cocci_id/* sound/soc/codecs/tas6424.c 590 */[];
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/tas6424.c 59 */[];
+	unsigned int cocci_id/* sound/soc/codecs/tas6424.c 407 */;
+	struct device *cocci_id/* sound/soc/codecs/tas6424.c 406 */;
+	struct tas6424_data cocci_id/* sound/soc/codecs/tas6424.c 404 */;
+	struct work_struct *cocci_id/* sound/soc/codecs/tas6424.c 402 */;
+	void cocci_id/* sound/soc/codecs/tas6424.c 402 */;
+	struct tas6424_data {
+		struct device *dev;
+		struct regmap *regmap;
+		struct regulator_bulk_data supplies[TAS6424_NUM_SUPPLIES];
+		struct delayed_work fault_check_work;
+		unsigned int last_cfault;
+		unsigned int last_fault1;
+		unsigned int last_fault2;
+		unsigned int last_warn;
+		struct gpio_desc *standby_gpio;
+		struct gpio_desc *mute_gpio;
+	} cocci_id/* sound/soc/codecs/tas6424.c 39 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/codecs/tas6424.c 388 */[];
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/codecs/tas6424.c 381 */;
+	struct snd_soc_component_driver cocci_id/* sound/soc/codecs/tas6424.c 368 */;
+	enum snd_soc_bias_level cocci_id/* sound/soc/codecs/tas6424.c 348 */;
+	const char *const cocci_id/* sound/soc/codecs/tas6424.c 32 */[];
+	u8 cocci_id/* sound/soc/codecs/tas6424.c 117 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/codecs/tas6424.c 112 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/codecs/tas6424.c 111 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/codecs/tas6424.c 110 */;
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/codecs/tas6424.c 105 */[];
+}

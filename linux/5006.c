@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct cpu_mask_set *cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 94 */;
+	void cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 94 */;
+	char cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 891 */[64];
+	struct hfi1_ctxtdata *cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 890 */;
+	struct sdma_engine *cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 889 */;
+	struct hfi1_msix_entry *cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 884 */;
+	struct irq_affinity_notify *cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 872 */;
+	struct kref *cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 849 */;
+	struct hfi1_msix_entry cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 842 */;
+	const cpumask_t *cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 838 */;
+	unsigned int *cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 72 */;
+	const char *const cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 64 */[];
+	const struct cpumask *cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 634 */;
+	struct hfi1_affinity_node_list cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 58 */;
+	struct cpumask *cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 538 */;
+	bool cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 533 */;
+	struct hfi1_ibdev *cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 517 */;
+	struct rvt_dev_info *cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 515 */;
+	cpumask_var_t cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 363 */;
+	struct hfi1_affinity_node *cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 362 */;
+	struct hfi1_devdata *cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 361 */;
+	int cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 361 */;
+	u16 cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 288 */;
+	u16 __percpu *cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 285 */;
+	struct hfi1_affinity_node cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 237 */;
+	struct list_head *cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 232 */;
+	const struct pci_device_id *cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 171 */;
+	struct pci_dev *cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 170 */;
+	struct hfi1_affinity_node_list *cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 1005 */;
+	uint cocci_id/* drivers/infiniband/hw/hfi1/affinity.c 1004 */;
+}

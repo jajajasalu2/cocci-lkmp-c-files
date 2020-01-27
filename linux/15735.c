@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	const struct ieee80211_supported_band cocci_id/* drivers/staging/wfx/main.c 94 */;
+	struct ieee80211_channel cocci_id/* drivers/staging/wfx/main.c 77 */[];
+	struct ieee80211_rate cocci_id/* drivers/staging/wfx/main.c 53 */[];
+	void __exit cocci_id/* drivers/staging/wfx/main.c 484 */;
+	void cocci_id/* drivers/staging/wfx/main.c 484 */;
+	int __init cocci_id/* drivers/staging/wfx/main.c 472 */;
+	int cocci_id/* drivers/staging/wfx/main.c 43 */;
+	u32 *cocci_id/* drivers/staging/wfx/main.c 376 */;
+	const void *cocci_id/* drivers/staging/wfx/main.c 344 */;
+	struct hif_req_tx cocci_id/* drivers/staging/wfx/main.c 295 */;
+	struct hif_msg cocci_id/* drivers/staging/wfx/main.c 294 */;
+	struct hif_sl_msg_hdr cocci_id/* drivers/staging/wfx/main.c 293 */;
+	struct wfx_sta_priv cocci_id/* drivers/staging/wfx/main.c 289 */;
+	struct wfx_vif cocci_id/* drivers/staging/wfx/main.c 288 */;
+	struct wfx_dev cocci_id/* drivers/staging/wfx/main.c 272 */;
+	struct ieee80211_hw *cocci_id/* drivers/staging/wfx/main.c 269 */;
+	void *cocci_id/* drivers/staging/wfx/main.c 267 */;
+	const struct hwbus_ops *cocci_id/* drivers/staging/wfx/main.c 266 */;
+	const struct wfx_platform_data *cocci_id/* drivers/staging/wfx/main.c 265 */;
+	unsigned char *cocci_id/* drivers/staging/wfx/main.c 249 */;
+	const struct firmware *cocci_id/* drivers/staging/wfx/main.c 248 */;
+	size_t cocci_id/* drivers/staging/wfx/main.c 200 */;
+	char cocci_id/* drivers/staging/wfx/main.c 171 */[256];
+	const char *cocci_id/* drivers/staging/wfx/main.c 168 */;
+	struct gpio_desc *cocci_id/* drivers/staging/wfx/main.c 167 */;
+	struct device *cocci_id/* drivers/staging/wfx/main.c 167 */;
+	bool cocci_id/* drivers/staging/wfx/main.c 156 */;
+	struct wfx_dev *cocci_id/* drivers/staging/wfx/main.c 156 */;
+	const struct ieee80211_ops cocci_id/* drivers/staging/wfx/main.c 129 */;
+	const struct ieee80211_iface_combination cocci_id/* drivers/staging/wfx/main.c 120 */[];
+	const struct ieee80211_iface_limit cocci_id/* drivers/staging/wfx/main.c 115 */[];
+}

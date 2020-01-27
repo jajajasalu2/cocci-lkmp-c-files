@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct mdfld_dsi_config cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 510 */;
+	struct mdfld_dsi_connector cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 502 */;
+	struct panel_info cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 491 */;
+	struct mdfld_dsi_encoder *cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 489 */;
+	const struct panel_funcs *cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 484 */;
+	char *cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 47 */;
+	int __init cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 47 */;
+	unsigned cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 437 */;
+	int cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 41 */;
+	const struct drm_connector_helper_funcs cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 402 */;
+	const struct drm_connector_funcs cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 393 */;
+	struct mdfld_dsi_connector *cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 385 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 383 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 382 */;
+	enum drm_mode_status cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 351 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 336 */;
+	const struct drm_encoder_helper_funcs *cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 295 */;
+	struct gma_crtc *cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 254 */;
+	uint64_t cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 249 */;
+	struct drm_property *cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 248 */;
+	bool cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 237 */;
+	enum drm_connector_status cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 236 */;
+	u32 *cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 189 */;
+	u8 cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 171 */;
+	u32 cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 139 */;
+	struct mdfld_dsi_config *cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 138 */;
+	struct drm_psb_private *cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 137 */;
+	struct mdfld_dsi_pkg_sender *cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 136 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 134 */;
+	void cocci_id/* drivers/gpu/drm/gma500/mdfld_dsi_output.c 134 */;
+}

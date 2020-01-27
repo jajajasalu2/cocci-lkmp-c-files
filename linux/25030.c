@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct work_struct *cocci_id/* net/nfc/core.c 978 */;
+	struct nfc_evt_transaction *cocci_id/* net/nfc/core.c 924 */;
+	struct nfc_se cocci_id/* net/nfc/core.c 877 */;
+	struct nfc_se *cocci_id/* net/nfc/core.c 868 */;
+	u16 cocci_id/* net/nfc/core.c 866 */;
+	struct nfc_target cocci_id/* net/nfc/core.c 846 */;
+	gfp_t cocci_id/* net/nfc/core.c 732 */;
+	struct sk_buff *cocci_id/* net/nfc/core.c 732 */;
+	unsigned int cocci_id/* net/nfc/core.c 732 */;
+	unsigned int *cocci_id/* net/nfc/core.c 711 */;
+	struct sock *cocci_id/* net/nfc/core.c 709 */;
+	size_t *cocci_id/* net/nfc/core.c 645 */;
+	data_exchange_cb_t cocci_id/* net/nfc/core.c 487 */;
+	void *cocci_id/* net/nfc/core.c 487 */;
+	u8 cocci_id/* net/nfc/core.c 440 */;
+	struct nfc_target *cocci_id/* net/nfc/core.c 396 */;
+	u32 cocci_id/* net/nfc/core.c 393 */;
+	const char *cocci_id/* net/nfc/core.c 33 */;
+	size_t cocci_id/* net/nfc/core.c 283 */;
+	u8 *cocci_id/* net/nfc/core.c 282 */;
+	const struct rfkill_ops cocci_id/* net/nfc/core.c 184 */;
+	bool cocci_id/* net/nfc/core.c 170 */;
+	void __exit cocci_id/* net/nfc/core.c 1219 */;
+	int __init cocci_id/* net/nfc/core.c 1177 */;
+	struct nfc_dev cocci_id/* net/nfc/core.c 1058 */;
+	struct nfc_ops *cocci_id/* net/nfc/core.c 1044 */;
+	const unsigned int *cocci_id/* net/nfc/core.c 1022 */;
+	struct nfc_dev *cocci_id/* net/nfc/core.c 1021 */;
+	const void *cocci_id/* net/nfc/core.c 1019 */;
+	struct device *cocci_id/* net/nfc/core.c 1019 */;
+	int cocci_id/* net/nfc/core.c 1019 */;
+	struct class cocci_id/* net/nfc/core.c 1013 */;
+	struct timer_list *cocci_id/* net/nfc/core.c 1006 */;
+	void cocci_id/* net/nfc/core.c 1006 */;
+}

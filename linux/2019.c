@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	const struct iio_chan_spec *cocci_id/* drivers/iio/accel/st_accel_core.c 998 */;
+	const struct iio_dev *cocci_id/* drivers/iio/accel/st_accel_core.c 997 */;
+	const struct iio_mount_matrix *cocci_id/* drivers/iio/accel/st_accel_core.c 996 */;
+	const struct iio_trigger_ops cocci_id/* drivers/iio/accel/st_accel_core.c 986 */;
+	const struct iio_info cocci_id/* drivers/iio/accel/st_accel_core.c 978 */;
+	const struct attribute_group cocci_id/* drivers/iio/accel/st_accel_core.c 974 */;
+	struct attribute *cocci_id/* drivers/iio/accel/st_accel_core.c 968 */[];
+	const struct st_sensor_settings cocci_id/* drivers/iio/accel/st_accel_core.c 92 */[];
+	long cocci_id/* drivers/iio/accel/st_accel_core.c 911 */;
+	int *cocci_id/* drivers/iio/accel/st_accel_core.c 910 */;
+	const struct iio_chan_spec cocci_id/* drivers/iio/accel/st_accel_core.c 60 */[];
+	void cocci_id/* drivers/iio/accel/st_accel_core.c 1250 */;
+	struct st_sensor_fullscale_avl *cocci_id/* drivers/iio/accel/st_accel_core.c 1207 */;
+	struct iio_chan_spec cocci_id/* drivers/iio/accel/st_accel_core.c 1193 */;
+	size_t cocci_id/* drivers/iio/accel/st_accel_core.c 1176 */;
+	struct st_sensors_platform_data *cocci_id/* drivers/iio/accel/st_accel_core.c 1173 */;
+	const struct st_sensor_settings *cocci_id/* drivers/iio/accel/st_accel_core.c 1158 */;
+	const char *cocci_id/* drivers/iio/accel/st_accel_core.c 1158 */;
+	char *cocci_id/* drivers/iio/accel/st_accel_core.c 1114 */;
+	const int cocci_id/* drivers/iio/accel/st_accel_core.c 1033 */[3][3];
+	int cocci_id/* drivers/iio/accel/st_accel_core.c 1025 */[3][3];
+	unsigned int cocci_id/* drivers/iio/accel/st_accel_core.c 1023 */;
+	acpi_status cocci_id/* drivers/iio/accel/st_accel_core.c 1021 */;
+	union acpi_object *cocci_id/* drivers/iio/accel/st_accel_core.c 1019 */;
+	struct acpi_device *cocci_id/* drivers/iio/accel/st_accel_core.c 1018 */;
+	struct acpi_buffer cocci_id/* drivers/iio/accel/st_accel_core.c 1017 */;
+	struct st_sensor_data *cocci_id/* drivers/iio/accel/st_accel_core.c 1016 */;
+	struct iio_chan_spec *cocci_id/* drivers/iio/accel/st_accel_core.c 1014 */;
+	struct iio_dev *cocci_id/* drivers/iio/accel/st_accel_core.c 1013 */;
+	int cocci_id/* drivers/iio/accel/st_accel_core.c 1013 */;
+	const struct iio_chan_spec_ext_info cocci_id/* drivers/iio/accel/st_accel_core.c 1005 */[];
+}

@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	struct wusb_dev cocci_id/* drivers/staging/wusbcore/devconnect.c 965 */;
+	struct kref *cocci_id/* drivers/staging/wusbcore/devconnect.c 963 */;
+	u8 cocci_id/* drivers/staging/wusbcore/devconnect.c 952 */;
+	struct usb_device *cocci_id/* drivers/staging/wusbcore/devconnect.c 949 */;
+	struct wusbhc *cocci_id/* drivers/staging/wusbcore/devconnect.c 948 */;
+	struct wusb_dev *cocci_id/* drivers/staging/wusbcore/devconnect.c 948 */;
+	struct notifier_block *cocci_id/* drivers/staging/wusbcore/devconnect.c 922 */;
+	unsigned long cocci_id/* drivers/staging/wusbcore/devconnect.c 922 */;
+	void cocci_id/* drivers/staging/wusbcore/devconnect.c 82 */(struct work_struct *work);
+	size_t cocci_id/* drivers/staging/wusbcore/devconnect.c 765 */;
+	struct usb_bos_descriptor *cocci_id/* drivers/staging/wusbcore/devconnect.c 764 */;
+	ssize_t cocci_id/* drivers/staging/wusbcore/devconnect.c 762 */;
+	struct usb_dev_cap_header *cocci_id/* drivers/staging/wusbcore/devconnect.c 700 */;
+	void *cocci_id/* drivers/staging/wusbcore/devconnect.c 694 */;
+	struct wuie_disconnect *cocci_id/* drivers/staging/wusbcore/devconnect.c 644 */;
+	struct device *cocci_id/* drivers/staging/wusbcore/devconnect.c 642 */;
+	int cocci_id/* drivers/staging/wusbcore/devconnect.c 641 */;
+	void cocci_id/* drivers/staging/wusbcore/devconnect.c 639 */;
+	struct wusb_dn_hdr cocci_id/* drivers/staging/wusbcore/devconnect.c 590 */;
+	struct wusb_dn_hdr *cocci_id/* drivers/staging/wusbcore/devconnect.c 586 */;
+	struct wusb_dn_connect cocci_id/* drivers/staging/wusbcore/devconnect.c 534 */;
+	const char *cocci_id/* drivers/staging/wusbcore/devconnect.c 521 */[];
+	char cocci_id/* drivers/staging/wusbcore/devconnect.c 520 */[WUSB_CKHDID_STRSIZE];
+	struct wusbhc cocci_id/* drivers/staging/wusbcore/devconnect.c 438 */;
+	struct delayed_work *cocci_id/* drivers/staging/wusbcore/devconnect.c 437 */;
+	struct wuie_keep_alive *cocci_id/* drivers/staging/wusbcore/devconnect.c 395 */;
+	unsigned cocci_id/* drivers/staging/wusbcore/devconnect.c 392 */;
+	struct wusb_port *cocci_id/* drivers/staging/wusbcore/devconnect.c 345 */;
+	struct work_struct *cocci_id/* drivers/staging/wusbcore/devconnect.c 226 */;
+	const char *cocci_id/* drivers/staging/wusbcore/devconnect.c 150 */;
+	struct wusb_dn_connect *cocci_id/* drivers/staging/wusbcore/devconnect.c 149 */;
+	struct wuie_connect_ack *cocci_id/* drivers/staging/wusbcore/devconnect.c 122 */;
+	struct wuie_host_info *cocci_id/* drivers/staging/wusbcore/devconnect.c 1011 */;
+}

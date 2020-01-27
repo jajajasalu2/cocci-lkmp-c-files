@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	dma_addr_t cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 91 */;
+	void __exit cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 609 */;
+	int __init cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 604 */;
+	struct platform_driver cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 595 */;
+	const struct of_device_id cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 589 */[];
+	unsigned long cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 54 */;
+	struct sf_pdma_desc *cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 51 */;
+	const enum dma_slave_buswidth cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 492 */;
+	struct resource *cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 489 */;
+	struct sf_pdma_desc cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 48 */;
+	struct sf_pdma_chan cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 43 */;
+	struct sf_pdma *cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 384 */;
+	struct platform_device *cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 384 */;
+	irqreturn_t cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 322 */;
+	void *cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 322 */;
+	void __iomem *cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 27 */;
+	unsigned long long cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 27 */;
+	u32 cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 232 */;
+	struct dma_tx_state *cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 198 */;
+	enum dma_status cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 195 */;
+	struct dma_async_tx_descriptor *cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 171 */;
+	u64 cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 169 */;
+	struct virt_dma_desc *cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 166 */;
+	dma_cookie_t cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 164 */;
+	size_t cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 163 */;
+	void cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 140 */;
+	struct pdma_regs *cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 132 */;
+	struct sf_pdma_chan *cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 131 */;
+	struct dma_chan *cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 129 */;
+	int cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 129 */;
+	struct dma_slave_config *cocci_id/* drivers/dma/sf-pdma/sf-pdma.c 120 */;
+}

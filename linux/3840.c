@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	enum spu2_proto_sel cocci_id/* drivers/crypto/bcm/spu2.c 955 */;
+	enum spu2_hash_mode cocci_id/* drivers/crypto/bcm/spu2.c 953 */;
+	enum spu2_hash_type cocci_id/* drivers/crypto/bcm/spu2.c 952 */;
+	struct spu_aead_parms *cocci_id/* drivers/crypto/bcm/spu2.c 943 */;
+	struct spu_hash_parms *cocci_id/* drivers/crypto/bcm/spu2.c 942 */;
+	struct spu_request_opts *cocci_id/* drivers/crypto/bcm/spu2.c 940 */;
+	enum spu2_cipher_mode *cocci_id/* drivers/crypto/bcm/spu2.c 92 */;
+	enum hash_type cocci_id/* drivers/crypto/bcm/spu2.c 918 */;
+	enum hash_alg cocci_id/* drivers/crypto/bcm/spu2.c 917 */;
+	u8 cocci_id/* drivers/crypto/bcm/spu2.c 892 */;
+	u16 cocci_id/* drivers/crypto/bcm/spu2.c 892 */;
+	enum spu_cipher_mode cocci_id/* drivers/crypto/bcm/spu2.c 892 */;
+	bool cocci_id/* drivers/crypto/bcm/spu2.c 871 */;
+	unsigned int cocci_id/* drivers/crypto/bcm/spu2.c 870 */;
+	u32 cocci_id/* drivers/crypto/bcm/spu2.c 869 */;
+	enum spu2_cipher_mode cocci_id/* drivers/crypto/bcm/spu2.c 66 */;
+	char *cocci_id/* drivers/crypto/bcm/spu2.c 66 */;
+	enum spu2_cipher_type cocci_id/* drivers/crypto/bcm/spu2.c 59 */;
+	char *cocci_id/* drivers/crypto/bcm/spu2.c 45 */[];
+	enum spu2_proto_sel{SPU2_PROTO_RESV=0, SPU2_MACSEC_SECTAG8_ECB=1, SPU2_MACSEC_SECTAG8_SCB=2, SPU2_MACSEC_SECTAG16=3, SPU2_MACSEC_SECTAG16_8_XPN=4, SPU2_IPSEC=5, SPU2_IPSEC_ESN=6, SPU2_TLS_CIPHER=7, SPU2_TLS_AEAD=8, SPU2_DTLS_CIPHER=9, SPU2_DTLS_AEAD=10,} cocci_id/* drivers/crypto/bcm/spu2.c 27 */;
+	enum spu2_hash_type *cocci_id/* drivers/crypto/bcm/spu2.c 236 */;
+	enum spu2_hash_mode *cocci_id/* drivers/crypto/bcm/spu2.c 197 */;
+	enum hash_mode cocci_id/* drivers/crypto/bcm/spu2.c 196 */;
+	enum spu2_cipher_type *cocci_id/* drivers/crypto/bcm/spu2.c 139 */;
+	enum spu_cipher_type cocci_id/* drivers/crypto/bcm/spu2.c 138 */;
+	int cocci_id/* drivers/crypto/bcm/spu2.c 1363 */;
+	enum spu_cipher_alg cocci_id/* drivers/crypto/bcm/spu2.c 136 */;
+	struct spu_cipher_parms *cocci_id/* drivers/crypto/bcm/spu2.c 1359 */;
+	void cocci_id/* drivers/crypto/bcm/spu2.c 1358 */;
+	__le16 *cocci_id/* drivers/crypto/bcm/spu2.c 1335 */;
+	u64 *cocci_id/* drivers/crypto/bcm/spu2.c 1276 */;
+	u64 cocci_id/* drivers/crypto/bcm/spu2.c 1192 */;
+	struct SPU2_FMD *cocci_id/* drivers/crypto/bcm/spu2.c 1190 */;
+	u8 *cocci_id/* drivers/crypto/bcm/spu2.c 1183 */;
+	struct SPU2_FMD cocci_id/* drivers/crypto/bcm/spu2.c 1085 */;
+}

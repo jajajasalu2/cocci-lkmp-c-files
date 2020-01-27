@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct iommu_struct cocci_id/* arch/sparc/mm/iommu.c 66 */;
+	unsigned long *cocci_id/* arch/sparc/mm/iommu.c 61 */;
+	pgprot_t cocci_id/* arch/sparc/mm/iommu.c 52 */;
+	void cocci_id/* arch/sparc/mm/iommu.c 45 */(unsigned long page);
+	void __init cocci_id/* arch/sparc/mm/iommu.c 446 */;
+	const struct dma_map_ops cocci_id/* arch/sparc/mm/iommu.c 424 */;
+	pte_t *cocci_id/* arch/sparc/mm/iommu.c 349 */;
+	pmd_t *cocci_id/* arch/sparc/mm/iommu.c 348 */;
+	pud_t *cocci_id/* arch/sparc/mm/iommu.c 347 */;
+	p4d_t *cocci_id/* arch/sparc/mm/iommu.c 346 */;
+	pgd_t *cocci_id/* arch/sparc/mm/iommu.c 345 */;
+	gfp_t cocci_id/* arch/sparc/mm/iommu.c 308 */;
+	dma_addr_t *cocci_id/* arch/sparc/mm/iommu.c 308 */;
+	void *cocci_id/* arch/sparc/mm/iommu.c 307 */;
+	enum dma_data_direction cocci_id/* arch/sparc/mm/iommu.c 244 */;
+	struct scatterlist *cocci_id/* arch/sparc/mm/iommu.c 243 */;
+	int cocci_id/* arch/sparc/mm/iommu.c 188 */;
+	iopte_t *cocci_id/* arch/sparc/mm/iommu.c 187 */;
+	unsigned int cocci_id/* arch/sparc/mm/iommu.c 186 */;
+	phys_addr_t cocci_id/* arch/sparc/mm/iommu.c 182 */;
+	struct iommu_struct *cocci_id/* arch/sparc/mm/iommu.c 181 */;
+	bool cocci_id/* arch/sparc/mm/iommu.c 179 */;
+	unsigned long cocci_id/* arch/sparc/mm/iommu.c 179 */;
+	size_t cocci_id/* arch/sparc/mm/iommu.c 179 */;
+	dma_addr_t cocci_id/* arch/sparc/mm/iommu.c 178 */;
+	struct page *cocci_id/* arch/sparc/mm/iommu.c 178 */;
+	struct device *cocci_id/* arch/sparc/mm/iommu.c 178 */;
+	iopte_t cocci_id/* arch/sparc/mm/iommu.c 158 */;
+	void cocci_id/* arch/sparc/mm/iommu.c 152 */;
+	struct platform_device *cocci_id/* arch/sparc/mm/iommu.c 139 */;
+	struct device_node *cocci_id/* arch/sparc/mm/iommu.c 136 */;
+	int __init cocci_id/* arch/sparc/mm/iommu.c 134 */;
+}

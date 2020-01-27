@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	int __init cocci_id/* kernel/debug/debug_core.c 99 */;
+	struct notifier_block *cocci_id/* kernel/debug/debug_core.c 962 */;
+	void *cocci_id/* kernel/debug/debug_core.c 962 */;
+	unsigned long cocci_id/* kernel/debug/debug_core.c 962 */;
+	void __init cocci_id/* kernel/debug/debug_core.c 953 */;
+	void __weak cocci_id/* kernel/debug/debug_core.c 949 */;
+	struct sysrq_key_op cocci_id/* kernel/debug/debug_core.c 923 */;
+	bool cocci_id/* kernel/debug/debug_core.c 92 */;
+	struct console cocci_id/* kernel/debug/debug_core.c 897 */;
+	unsigned cocci_id/* kernel/debug/debug_core.c 883 */;
+	const char *cocci_id/* kernel/debug/debug_core.c 882 */;
+	struct console *cocci_id/* kernel/debug/debug_core.c 882 */;
+	atomic_t *cocci_id/* kernel/debug/debug_core.c 858 */;
+	struct notifier_block cocci_id/* kernel/debug/debug_core.c 832 */;
+	struct kgdb_io *cocci_id/* kernel/debug/debug_core.c 82 */;
+	struct kgdb_state cocci_id/* kernel/debug/debug_core.c 789 */;
+	struct debuggerinfo_struct cocci_id/* kernel/debug/debug_core.c 68 */[NR_CPUS];
+	u64 cocci_id/* kernel/debug/debug_core.c 565 */;
+	struct kgdb_state *cocci_id/* kernel/debug/debug_core.c 556 */;
+	int cocci_id/* kernel/debug/debug_core.c 307 */;
+	void cocci_id/* kernel/debug/debug_core.c 307 */;
+	call_single_data_t *cocci_id/* kernel/debug/debug_core.c 247 */;
+	int __weak cocci_id/* kernel/debug/debug_core.c 214 */;
+	struct pt_regs *cocci_id/* kernel/debug/debug_core.c 209 */;
+	unsigned long __weak cocci_id/* kernel/debug/debug_core.c 209 */;
+	struct kgdb_bkpt cocci_id/* kernel/debug/debug_core.c 191 */;
+	char *cocci_id/* kernel/debug/debug_core.c 185 */;
+	struct kgdb_bkpt *cocci_id/* kernel/debug/debug_core.c 183 */;
+	pid_t cocci_id/* kernel/debug/debug_core.c 139 */;
+	struct task_struct *cocci_id/* kernel/debug/debug_core.c 136 */;
+	atomic_t cocci_id/* kernel/debug/debug_core.c 121 */;
+	struct kgdb_bkpt cocci_id/* kernel/debug/debug_core.c 114 */[KGDB_MAX_BREAKPOINTS];
+	__typeof__(call_single_data_t) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

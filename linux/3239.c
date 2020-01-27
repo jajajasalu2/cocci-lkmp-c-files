@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	s8 cocci_id/* drivers/hwmon/adm9240.c 93 */;
+	int cocci_id/* drivers/hwmon/adm9240.c 81 */;
+	const u16 cocci_id/* drivers/hwmon/adm9240.c 79 */[];
+	struct i2c_driver cocci_id/* drivers/hwmon/adm9240.c 739 */;
+	const struct i2c_device_id cocci_id/* drivers/hwmon/adm9240.c 731 */[];
+	struct device *cocci_id/* drivers/hwmon/adm9240.c 710 */;
+	const struct i2c_device_id *cocci_id/* drivers/hwmon/adm9240.c 708 */;
+	long cocci_id/* drivers/hwmon/adm9240.c 70 */;
+	struct adm9240_data *cocci_id/* drivers/hwmon/adm9240.c 667 */;
+	void cocci_id/* drivers/hwmon/adm9240.c 665 */;
+	const char *cocci_id/* drivers/hwmon/adm9240.c 625 */;
+	struct i2c_adapter *cocci_id/* drivers/hwmon/adm9240.c 624 */;
+	struct i2c_board_info *cocci_id/* drivers/hwmon/adm9240.c 622 */;
+	struct i2c_client *cocci_id/* drivers/hwmon/adm9240.c 621 */;
+	struct attribute *cocci_id/* drivers/hwmon/adm9240.c 572 */[];
+	size_t cocci_id/* drivers/hwmon/adm9240.c 553 */;
+	char *cocci_id/* drivers/hwmon/adm9240.c 498 */;
+	struct device_attribute *cocci_id/* drivers/hwmon/adm9240.c 497 */;
+	ssize_t cocci_id/* drivers/hwmon/adm9240.c 497 */;
+	enum chips{adm9240, ds1780, lm81,} cocci_id/* drivers/hwmon/adm9240.c 46 */;
+	const unsigned short cocci_id/* drivers/hwmon/adm9240.c 43 */[];
+	struct sensor_device_attribute *cocci_id/* drivers/hwmon/adm9240.c 405 */;
+	struct adm9240_data {
+		struct i2c_client *client;
+		struct mutex update_lock;
+		char valid;
+		unsigned long last_updated_measure;
+		unsigned long last_updated_config;
+		u8 in[6];
+		u8 in_max[6];
+		u8 in_min[6];
+		u8 fan[2];
+		u8 fan_min[2];
+		u8 fan_div[2];
+		s16 temp;
+		s8 temp_max[2];
+		u16 alarms;
+		u8 aout;
+		u8 vid;
+		u8 vrm;
+	} cocci_id/* drivers/hwmon/adm9240.c 124 */;
+	u8 cocci_id/* drivers/hwmon/adm9240.c 118 */;
+	unsigned int cocci_id/* drivers/hwmon/adm9240.c 118 */;
+	unsigned long cocci_id/* drivers/hwmon/adm9240.c 112 */;
+}

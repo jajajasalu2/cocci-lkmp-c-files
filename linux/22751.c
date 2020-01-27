@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	struct snd_msnd cocci_id/* sound/isa/msnd/msnd_pinnacle.c 895 */;
+	unsigned cocci_id/* sound/isa/msnd/msnd_pinnacle.c 85 */;
+	struct device *cocci_id/* sound/isa/msnd/msnd_pinnacle.c 809 */;
+	unsigned int cocci_id/* sound/isa/msnd/msnd_pinnacle.c 809 */;
+	bool cocci_id/* sound/isa/msnd/msnd_pinnacle.c 777 */;
+	bool cocci_id/* sound/isa/msnd/msnd_pinnacle.c 776 */[SNDRV_CARDS];
+	int cocci_id/* sound/isa/msnd/msnd_pinnacle.c 773 */;
+	int cocci_id/* sound/isa/msnd/msnd_pinnacle.c 765 */[SNDRV_CARDS];
+	long cocci_id/* sound/isa/msnd/msnd_pinnacle.c 756 */[SNDRV_CARDS];
+	char *cocci_id/* sound/isa/msnd/msnd_pinnacle.c 744 */[SNDRV_CARDS];
+	struct snd_mpu401 *cocci_id/* sound/isa/msnd/msnd_pinnacle.c 586 */;
+	struct snd_device_ops cocci_id/* sound/isa/msnd/msnd_pinnacle.c 531 */;
+	struct snd_card *cocci_id/* sound/isa/msnd/msnd_pinnacle.c 527 */;
+	u16 cocci_id/* sound/isa/msnd/msnd_pinnacle.c 489 */;
+	u8 cocci_id/* sound/isa/msnd/msnd_pinnacle.c 481 */;
+	struct snd_device *cocci_id/* sound/isa/msnd/msnd_pinnacle.c 475 */;
+	struct snd_msnd *cocci_id/* sound/isa/msnd/msnd_pinnacle.c 406 */;
+	void cocci_id/* sound/isa/msnd/msnd_pinnacle.c 406 */;
+	const struct firmware *cocci_id/* sound/isa/msnd/msnd_pinnacle.c 373 */;
+	unsigned long cocci_id/* sound/isa/msnd/msnd_pinnacle.c 305 */;
+	char *cocci_id/* sound/isa/msnd/msnd_pinnacle.c 210 */;
+	unsigned char cocci_id/* sound/isa/msnd/msnd_pinnacle.c 208 */;
+	unsigned char *cocci_id/* sound/isa/msnd/msnd_pinnacle.c 183 */;
+	long cocci_id/* sound/isa/msnd/msnd_pinnacle.c 183 */;
+	void __iomem *cocci_id/* sound/isa/msnd/msnd_pinnacle.c 158 */;
+	irqreturn_t cocci_id/* sound/isa/msnd/msnd_pinnacle.c 155 */;
+	void *cocci_id/* sound/isa/msnd/msnd_pinnacle.c 155 */;
+	void __exit cocci_id/* sound/isa/msnd/msnd_pinnacle.c 1217 */;
+	int __init cocci_id/* sound/isa/msnd/msnd_pinnacle.c 1198 */;
+	struct pnp_card_driver cocci_id/* sound/isa/msnd/msnd_pinnacle.c 1189 */;
+	const struct pnp_card_device_id cocci_id/* sound/isa/msnd/msnd_pinnacle.c 1181 */[];
+	struct pnp_dev *cocci_id/* sound/isa/msnd/msnd_pinnacle.c 1072 */;
+	const struct pnp_card_device_id *cocci_id/* sound/isa/msnd/msnd_pinnacle.c 1069 */;
+	struct pnp_card_link *cocci_id/* sound/isa/msnd/msnd_pinnacle.c 1068 */;
+	struct isa_driver cocci_id/* sound/isa/msnd/msnd_pinnacle.c 1057 */;
+}

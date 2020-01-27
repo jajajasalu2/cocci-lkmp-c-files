@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	void *cocci_id/* drivers/hid/hid-google-hammer.c 93 */;
+	unsigned long cocci_id/* drivers/hid/hid-google-hammer.c 92 */;
+	struct notifier_block *cocci_id/* drivers/hid/hid-google-hammer.c 91 */;
+	u32 cocci_id/* drivers/hid/hid-google-hammer.c 60 */;
+	void __exit cocci_id/* drivers/hid/hid-google-hammer.c 572 */;
+	struct cros_ec_command *cocci_id/* drivers/hid/hid-google-hammer.c 57 */;
+	struct ec_params_mkbp_info *cocci_id/* drivers/hid/hid-google-hammer.c 56 */;
+	int __init cocci_id/* drivers/hid/hid-google-hammer.c 554 */;
+	struct hid_driver cocci_id/* drivers/hid/hid-google-hammer.c 545 */;
+	bool *cocci_id/* drivers/hid/hid-google-hammer.c 54 */;
+	const struct hid_device_id cocci_id/* drivers/hid/hid-google-hammer.c 528 */[];
+	const struct hid_device_id *cocci_id/* drivers/hid/hid-google-hammer.c 461 */;
+	const void *cocci_id/* drivers/hid/hid-google-hammer.c 46 */;
+	struct hid_report *cocci_id/* drivers/hid/hid-google-hammer.c 429 */;
+	struct hid_report_enum *cocci_id/* drivers/hid/hid-google-hammer.c 428 */;
+	unsigned cocci_id/* drivers/hid/hid-google-hammer.c 426 */;
+	unsigned int cocci_id/* drivers/hid/hid-google-hammer.c 425 */;
+	struct cbas_ec cocci_id/* drivers/hid/hid-google-hammer.c 42 */;
+	__s32 cocci_id/* drivers/hid/hid-google-hammer.c 396 */;
+	struct hid_usage *cocci_id/* drivers/hid/hid-google-hammer.c 396 */;
+	struct hid_field *cocci_id/* drivers/hid/hid-google-hammer.c 395 */;
+	struct hid_device *cocci_id/* drivers/hid/hid-google-hammer.c 395 */;
+	unsigned long **cocci_id/* drivers/hid/hid-google-hammer.c 381 */;
+	int *cocci_id/* drivers/hid/hid-google-hammer.c 381 */;
+	struct hid_input *cocci_id/* drivers/hid/hid-google-hammer.c 378 */;
+	struct cbas_ec {
+		struct device *dev;
+		struct input_dev *input;
+		bool base_present;
+		bool base_folded;
+		struct notifier_block notifier;
+	} cocci_id/* drivers/hid/hid-google-hammer.c 34 */;
+	struct hammer_kbd_leds cocci_id/* drivers/hid/hid-google-hammer.c 297 */;
+	struct hammer_kbd_leds *cocci_id/* drivers/hid/hid-google-hammer.c 296 */;
+	enum led_brightness cocci_id/* drivers/hid/hid-google-hammer.c 294 */;
+	struct led_classdev *cocci_id/* drivers/hid/hid-google-hammer.c 293 */;
+	struct hammer_kbd_leds {
+		struct led_classdev cdev;
+		struct hid_device *hdev;
+		u8 buf[2]____cacheline_aligned;
+	} cocci_id/* drivers/hid/hid-google-hammer.c 287 */;
+	struct platform_driver cocci_id/* drivers/hid/hid-google-hammer.c 275 */;
+	const struct acpi_device_id cocci_id/* drivers/hid/hid-google-hammer.c 269 */[];
+	bool cocci_id/* drivers/hid/hid-google-hammer.c 179 */;
+	struct input_dev *cocci_id/* drivers/hid/hid-google-hammer.c 178 */;
+	struct cros_ec_device *cocci_id/* drivers/hid/hid-google-hammer.c 177 */;
+	struct platform_device *cocci_id/* drivers/hid/hid-google-hammer.c 175 */;
+	int cocci_id/* drivers/hid/hid-google-hammer.c 175 */;
+	void cocci_id/* drivers/hid/hid-google-hammer.c 167 */;
+	struct device *cocci_id/* drivers/hid/hid-google-hammer.c 134 */;
+}

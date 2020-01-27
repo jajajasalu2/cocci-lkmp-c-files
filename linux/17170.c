@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	u64 *cocci_id/* arch/powerpc/sysdev/xive/native.c 755 */;
+	void *cocci_id/* arch/powerpc/sysdev/xive/native.c 635 */;
+	const __be32 *cocci_id/* arch/powerpc/sysdev/xive/native.c 556 */;
+	struct property *cocci_id/* arch/powerpc/sysdev/xive/native.c 554 */;
+	void __iomem *cocci_id/* arch/powerpc/sysdev/xive/native.c 553 */;
+	struct resource cocci_id/* arch/powerpc/sysdev/xive/native.c 552 */;
+	struct device_node *cocci_id/* arch/powerpc/sysdev/xive/native.c 551 */;
+	bool __init cocci_id/* arch/powerpc/sysdev/xive/native.c 549 */;
+	const struct xive_ops cocci_id/* arch/powerpc/sysdev/xive/native.c 467 */;
+	struct xive_irq_data *cocci_id/* arch/powerpc/sysdev/xive/native.c 43 */;
+	bool cocci_id/* arch/powerpc/sysdev/xive/native.c 41 */;
+	struct kmem_cache *cocci_id/* arch/powerpc/sysdev/xive/native.c 40 */;
+	u16 cocci_id/* arch/powerpc/sysdev/xive/native.c 343 */;
+	unsigned long cocci_id/* arch/powerpc/sysdev/xive/native.c 239 */;
+	struct xive_cpu *cocci_id/* arch/powerpc/sysdev/xive/native.c 228 */;
+	unsigned int cocci_id/* arch/powerpc/sysdev/xive/native.c 228 */;
+	s64 cocci_id/* arch/powerpc/sysdev/xive/native.c 196 */;
+	u8 cocci_id/* arch/powerpc/sysdev/xive/native.c 194 */;
+	u32 cocci_id/* arch/powerpc/sysdev/xive/native.c 194 */;
+	struct xive_q *cocci_id/* arch/powerpc/sysdev/xive/native.c 194 */;
+	void cocci_id/* arch/powerpc/sysdev/xive/native.c 194 */;
+	u64 cocci_id/* arch/powerpc/sysdev/xive/native.c 136 */;
+	__be32 cocci_id/* arch/powerpc/sysdev/xive/native.c 135 */;
+	__be64 cocci_id/* arch/powerpc/sysdev/xive/native.c 134 */;
+	__be32 *cocci_id/* arch/powerpc/sysdev/xive/native.c 131 */;
+	u8 *cocci_id/* arch/powerpc/sysdev/xive/native.c 114 */;
+	u32 *cocci_id/* arch/powerpc/sysdev/xive/native.c 114 */;
+	int cocci_id/* arch/powerpc/sysdev/xive/native.c 100 */;
+}

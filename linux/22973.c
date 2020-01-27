@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	wait_queue_entry_t cocci_id/* sound/core/init.c 997 */;
+	int (*cocci_id/* sound/core/init.c 96 */)(struct module *, int);
+	struct file *cocci_id/* sound/core/init.c 919 */;
+	struct module *cocci_id/* sound/core/init.c 87 */;
+	struct snd_info_entry *cocci_id/* sound/core/init.c 854 */;
+	int __init cocci_id/* sound/core/init.c 852 */;
+	int (*cocci_id/* sound/core/init.c 83 */)(struct snd_card *card,
+						  int free_flag);
+	struct snd_info_buffer *cocci_id/* sound/core/init.c 791 */;
+	const struct attribute_group *cocci_id/* sound/core/init.c 713 */;
+	struct attribute *cocci_id/* sound/core/init.c 697 */[];
+	char cocci_id/* sound/core/init.c 67 */;
+	char cocci_id/* sound/core/init.c 660 */[sizeof(card->id)];
+	size_t cocci_id/* sound/core/init.c 657 */;
+	struct snd_card cocci_id/* sound/core/init.c 651 */;
+	struct device_attribute *cocci_id/* sound/core/init.c 649 */;
+	char *cocci_id/* sound/core/init.c 649 */;
+	struct device *cocci_id/* sound/core/init.c 648 */;
+	ssize_t cocci_id/* sound/core/init.c 647 */;
+	char cocci_id/* sound/core/init.c 602 */[5];
+	void cocci_id/* sound/core/init.c 560 */;
+	int cocci_id/* sound/core/init.c 548 */;
+	bool cocci_id/* sound/core/init.c 546 */;
+	const char *cocci_id/* sound/core/init.c 546 */;
+	struct snd_card *cocci_id/* sound/core/init.c 546 */;
+	struct completion cocci_id/* sound/core/init.c 518 */;
+	char *cocci_id/* sound/core/init.c 41 */[SNDRV_CARDS];
+	struct snd_monitor_file *cocci_id/* sound/core/init.c 377 */;
+	struct snd_card *cocci_id/* sound/core/init.c 37 */[SNDRV_CARDS];
+	struct vm_area_struct *cocci_id/* sound/core/init.c 338 */;
+	unsigned long cocci_id/* sound/core/init.c 333 */;
+	unsigned int cocci_id/* sound/core/init.c 333 */;
+	long cocci_id/* sound/core/init.c 332 */;
+	const struct file_operations cocci_id/* sound/core/init.c 33 */;
+	__poll_t cocci_id/* sound/core/init.c 327 */;
+	poll_table *cocci_id/* sound/core/init.c 327 */;
+	struct inode *cocci_id/* sound/core/init.c 304 */;
+	const char __user *cocci_id/* sound/core/init.c 298 */;
+	loff_t *cocci_id/* sound/core/init.c 293 */;
+	char __user *cocci_id/* sound/core/init.c 292 */;
+	loff_t cocci_id/* sound/core/init.c 287 */;
+	struct snd_monitor_file {
+		struct file *file;
+		const struct file_operations *disconnected_f_op;
+		struct list_head shutdown_list;
+		struct list_head list;
+	} cocci_id/* sound/core/init.c 23 */;
+	struct snd_card **cocci_id/* sound/core/init.c 162 */;
+	const struct attribute_group cocci_id/* sound/core/init.c 136 */;
+	int cocci_id/* sound/core/init.c 135 */(struct snd_card *card);
+}

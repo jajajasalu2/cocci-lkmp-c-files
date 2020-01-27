@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct ssb_init_invariants *cocci_id/* drivers/ssb/pci.c 935 */;
+	struct ssb_boardinfo *cocci_id/* drivers/ssb/pci.c 928 */;
+	struct ssb_sprom *cocci_id/* drivers/ssb/pci.c 811 */;
+	unsigned long cocci_id/* drivers/ssb/pci.c 67 */;
+	const u16 cocci_id/* drivers/ssb/pci.c 471 */[];
+	u16 cocci_id/* drivers/ssb/pci.c 365 */[3];
+	void cocci_id/* drivers/ssb/pci.c 363 */;
+	s8 cocci_id/* drivers/ssb/pci.c 327 */;
+	struct pci_dev *cocci_id/* drivers/ssb/pci.c 283 */;
+	u16 *cocci_id/* drivers/ssb/pci.c 271 */;
+	struct ssb_bus *cocci_id/* drivers/ssb/pci.c 271 */;
+	u8 cocci_id/* drivers/ssb/pci.c 258 */;
+	const u16 *cocci_id/* drivers/ssb/pci.c 256 */;
+	int cocci_id/* drivers/ssb/pci.c 256 */;
+	size_t cocci_id/* drivers/ssb/pci.c 256 */;
+	char *cocci_id/* drivers/ssb/pci.c 232 */;
+	const u8 cocci_id/* drivers/ssb/pci.c 195 */[];
+	u32 cocci_id/* drivers/ssb/pci.c 174 */;
+	u16 cocci_id/* drivers/ssb/pci.c 169 */;
+	const char *cocci_id/* drivers/ssb/pci.c 1136 */;
+	struct pci_dev cocci_id/* drivers/ssb/pci.c 1124 */;
+	struct device_attribute *cocci_id/* drivers/ssb/pci.c 1121 */;
+	struct device *cocci_id/* drivers/ssb/pci.c 1120 */;
+	ssize_t cocci_id/* drivers/ssb/pci.c 1120 */;
+	const struct ssb_bus_ops cocci_id/* drivers/ssb/pci.c 1107 */;
+	const void *cocci_id/* drivers/ssb/pci.c 1076 */;
+	void __iomem *cocci_id/* drivers/ssb/pci.c 1006 */;
+	struct ssb_device *cocci_id/* drivers/ssb/pci.c 1002 */;
+	void *cocci_id/* drivers/ssb/pci.c 1002 */;
+}

@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/power/supply/ds2780_battery.c 778 */;
+	struct power_supply_config cocci_id/* drivers/power/supply/ds2780_battery.c 747 */;
+	struct platform_device *cocci_id/* drivers/power/supply/ds2780_battery.c 745 */;
+	const struct attribute_group *cocci_id/* drivers/power/supply/ds2780_battery.c 740 */[];
+	const struct attribute_group cocci_id/* drivers/power/supply/ds2780_battery.c 735 */;
+	struct bin_attribute *cocci_id/* drivers/power/supply/ds2780_battery.c 729 */[];
+	struct attribute *cocci_id/* drivers/power/supply/ds2780_battery.c 721 */[];
+	u8 cocci_id/* drivers/power/supply/ds2780_battery.c 71 */[2];
+	s16 *cocci_id/* drivers/power/supply/ds2780_battery.c 67 */;
+	struct bin_attribute cocci_id/* drivers/power/supply/ds2780_battery.c 657 */;
+	struct device cocci_id/* drivers/power/supply/ds2780_battery.c 627 */;
+	loff_t cocci_id/* drivers/power/supply/ds2780_battery.c 625 */;
+	struct bin_attribute *cocci_id/* drivers/power/supply/ds2780_battery.c 624 */;
+	struct kobject *cocci_id/* drivers/power/supply/ds2780_battery.c 623 */;
+	struct file *cocci_id/* drivers/power/supply/ds2780_battery.c 622 */;
+	const char *cocci_id/* drivers/power/supply/ds2780_battery.c 597 */;
+	struct device_attribute *cocci_id/* drivers/power/supply/ds2780_battery.c 579 */;
+	struct device *cocci_id/* drivers/power/supply/ds2780_battery.c 578 */;
+	ssize_t cocci_id/* drivers/power/supply/ds2780_battery.c 578 */;
+	char *cocci_id/* drivers/power/supply/ds2780_battery.c 56 */;
+	size_t cocci_id/* drivers/power/supply/ds2780_battery.c 56 */;
+	const char cocci_id/* drivers/power/supply/ds2780_battery.c 47 */[];
+	enum power_supply_property cocci_id/* drivers/power/supply/ds2780_battery.c 430 */[];
+	enum current_types{CURRENT_NOW, CURRENT_AVG,} cocci_id/* drivers/power/supply/ds2780_battery.c 41 */;
+	struct ds2780_device_info *cocci_id/* drivers/power/supply/ds2780_battery.c 380 */;
+	union power_supply_propval *cocci_id/* drivers/power/supply/ds2780_battery.c 377 */;
+	enum power_supply_property cocci_id/* drivers/power/supply/ds2780_battery.c 376 */;
+	struct power_supply *cocci_id/* drivers/power/supply/ds2780_battery.c 375 */;
+	int cocci_id/* drivers/power/supply/ds2780_battery.c 375 */;
+	u8 *cocci_id/* drivers/power/supply/ds2780_battery.c 357 */;
+	struct ds2780_device_info {
+		struct device *dev;
+		struct power_supply *bat;
+		struct power_supply_desc bat_desc;
+		struct device *w1_dev;
+	} cocci_id/* drivers/power/supply/ds2780_battery.c 34 */;
+	u16 cocci_id/* drivers/power/supply/ds2780_battery.c 338 */;
+	u8 cocci_id/* drivers/power/supply/ds2780_battery.c 264 */;
+	s16 cocci_id/* drivers/power/supply/ds2780_battery.c 263 */;
+	int *cocci_id/* drivers/power/supply/ds2780_battery.c 260 */;
+	enum current_types cocci_id/* drivers/power/supply/ds2780_battery.c 215 */;
+	u8 cocci_id/* drivers/power/supply/ds2780_battery.c 145 */[];
+	u16 *cocci_id/* drivers/power/supply/ds2780_battery.c 135 */;
+}

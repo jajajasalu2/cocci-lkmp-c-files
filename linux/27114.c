@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	void cocci_id/* fs/xattr.c 986 */;
+	bool cocci_id/* fs/xattr.c 946 */;
+	ssize_t *cocci_id/* fs/xattr.c 926 */;
+	struct simple_xattrs *cocci_id/* fs/xattr.c 832 */;
+	struct simple_xattr *cocci_id/* fs/xattr.c 810 */;
+	unsigned int cocci_id/* fs/xattr.c 753 */;
+	long cocci_id/* fs/xattr.c 679 */;
+	char *cocci_id/* fs/xattr.c 663 */;
+	char __user *cocci_id/* fs/xattr.c 605 */;
+	struct fd cocci_id/* fs/xattr.c 590 */;
+	struct path cocci_id/* fs/xattr.c 560 */;
+	const struct xattr_handler **cocci_id/* fs/xattr.c 56 */;
+	const char **cocci_id/* fs/xattr.c 54 */;
+	char cocci_id/* fs/xattr.c 522 */[XATTR_NAME_MAX + 1];
+	const char __user *cocci_id/* fs/xattr.c 517 */;
+	void __user *cocci_id/* fs/xattr.c 517 */;
+	const void __user *cocci_id/* fs/xattr.c 459 */;
+	int cocci_id/* fs/xattr.c 366 */;
+	const struct xattr_handler *cocci_id/* fs/xattr.c 304 */;
+	void *cocci_id/* fs/xattr.c 302 */;
+	size_t cocci_id/* fs/xattr.c 302 */;
+	const char *cocci_id/* fs/xattr.c 301 */;
+	struct inode *cocci_id/* fs/xattr.c 301 */;
+	struct dentry *cocci_id/* fs/xattr.c 301 */;
+	ssize_t cocci_id/* fs/xattr.c 300 */;
+	gfp_t cocci_id/* fs/xattr.c 268 */;
+	char **cocci_id/* fs/xattr.c 267 */;
+	const void *cocci_id/* fs/xattr.c 139 */;
+	unsigned long cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 777 */;
+}

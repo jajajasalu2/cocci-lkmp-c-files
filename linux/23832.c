@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	struct nlattr *cocci_id/* net/sched/sch_drr.c 61 */[TCA_DRR_MAX + 1];
+	struct nlattr *cocci_id/* net/sched/sch_drr.c 60 */;
+	struct drr_sched *cocci_id/* net/sched/sch_drr.c 58 */;
+	struct netlink_ext_ack *cocci_id/* net/sched/sch_drr.c 56 */;
+	struct nlattr **cocci_id/* net/sched/sch_drr.c 55 */;
+	unsigned long *cocci_id/* net/sched/sch_drr.c 55 */;
+	int cocci_id/* net/sched/sch_drr.c 54 */;
+	void __exit cocci_id/* net/sched/sch_drr.c 500 */;
+	const struct nla_policy cocci_id/* net/sched/sch_drr.c 50 */[TCA_DRR_MAX + 1];
+	int __init cocci_id/* net/sched/sch_drr.c 495 */;
+	struct drr_sched cocci_id/* net/sched/sch_drr.c 485 */;
+	struct Qdisc_ops cocci_id/* net/sched/sch_drr.c 482 */;
+	const struct Qdisc_class_ops cocci_id/* net/sched/sch_drr.c 467 */;
+	struct hlist_node *cocci_id/* net/sched/sch_drr.c 454 */;
+	struct Qdisc_class_common *cocci_id/* net/sched/sch_drr.c 42 */;
+	unsigned int cocci_id/* net/sched/sch_drr.c 382 */;
+	bool cocci_id/* net/sched/sch_drr.c 347 */;
+	struct sk_buff **cocci_id/* net/sched/sch_drr.c 341 */;
+	struct drr_sched {
+		struct list_head active;
+		struct tcf_proto __rcu *filter_list;
+		struct tcf_block *block;
+		struct Qdisc_class_hash clhash;
+	} cocci_id/* net/sched/sch_drr.c 32 */;
+	struct tcf_proto *cocci_id/* net/sched/sch_drr.c 308 */;
+	struct tcf_result cocci_id/* net/sched/sch_drr.c 307 */;
+	int *cocci_id/* net/sched/sch_drr.c 303 */;
+	struct sk_buff *cocci_id/* net/sched/sch_drr.c 302 */;
+	struct qdisc_walker *cocci_id/* net/sched/sch_drr.c 278 */;
+	struct tc_drr_stats cocci_id/* net/sched/sch_drr.c 263 */;
+	__u32 cocci_id/* net/sched/sch_drr.c 261 */;
+	struct gnet_dump *cocci_id/* net/sched/sch_drr.c 258 */;
+	struct tcmsg *cocci_id/* net/sched/sch_drr.c 236 */;
+	struct Qdisc **cocci_id/* net/sched/sch_drr.c 205 */;
+	struct drr_class *cocci_id/* net/sched/sch_drr.c 189 */;
+	u32 cocci_id/* net/sched/sch_drr.c 187 */;
+	struct Qdisc *cocci_id/* net/sched/sch_drr.c 186 */;
+	unsigned long cocci_id/* net/sched/sch_drr.c 186 */;
+	struct drr_class {
+		struct Qdisc_class_common common;
+		unsigned int filter_cnt;
+		struct gnet_stats_basic_packed bstats;
+		struct gnet_stats_queue qstats;
+		struct net_rate_estimator __rcu *rate_est;
+		struct list_head alist;
+		struct Qdisc *qdisc;
+		u32 quantum;
+		u32 deficit;
+	} cocci_id/* net/sched/sch_drr.c 18 */;
+	struct tcf_block *cocci_id/* net/sched/sch_drr.c 173 */;
+	void cocci_id/* net/sched/sch_drr.c 142 */;
+	struct drr_class cocci_id/* net/sched/sch_drr.c 105 */;
+}

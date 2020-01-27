@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	char *cocci_id/* net/ipv6/exthdrs.c 998 */;
+	long cocci_id/* net/ipv6/exthdrs.c 998 */;
+	struct sock *cocci_id/* net/ipv6/exthdrs.c 992 */;
+	struct ipv6_txoptions *cocci_id/* net/ipv6/exthdrs.c 991 */;
+	struct in6_addr **cocci_id/* net/ipv6/exthdrs.c 969 */;
+	u8 cocci_id/* net/ipv6/exthdrs.c 958 */;
+	u8 *cocci_id/* net/ipv6/exthdrs.c 958 */;
+	struct ipv6_opt_hdr *cocci_id/* net/ipv6/exthdrs.c 958 */;
+	struct ipv6_rt_hdr *cocci_id/* net/ipv6/exthdrs.c 941 */;
+	struct ipv6_sr_hdr cocci_id/* net/ipv6/exthdrs.c 902 */;
+	struct in6_addr cocci_id/* net/ipv6/exthdrs.c 882 */;
+	struct rt0_hdr cocci_id/* net/ipv6/exthdrs.c 876 */;
+	struct ipv6hdr cocci_id/* net/ipv6/exthdrs.c 767 */;
+	__be32 *cocci_id/* net/ipv6/exthdrs.c 755 */;
+	u32 cocci_id/* net/ipv6/exthdrs.c 746 */;
+	void cocci_id/* net/ipv6/exthdrs.c 698 */;
+	int __init cocci_id/* net/ipv6/exthdrs.c 673 */;
+	const struct inet6_protocol cocci_id/* net/ipv6/exthdrs.c 663 */;
+	struct tlvtype_proc {
+		int type;
+		bool (*func)(struct sk_buff *skb, int offset);
+	} cocci_id/* net/ipv6/exthdrs.c 62 */;
+	__be32 cocci_id/* net/ipv6/exthdrs.c 327 */;
+	struct net *cocci_id/* net/ipv6/exthdrs.c 285 */;
+	struct dst_entry *cocci_id/* net/ipv6/exthdrs.c 284 */;
+	__u16 cocci_id/* net/ipv6/exthdrs.c 282 */;
+	struct inet6_dev *cocci_id/* net/ipv6/exthdrs.c 279 */;
+	const struct tlvtype_proc cocci_id/* net/ipv6/exthdrs.c 267 */[];
+	xfrm_address_t *cocci_id/* net/ipv6/exthdrs.c 236 */;
+	struct ipv6hdr *cocci_id/* net/ipv6/exthdrs.c 212 */;
+	struct inet6_skb_parm *cocci_id/* net/ipv6/exthdrs.c 211 */;
+	struct ipv6_destopt_hao *cocci_id/* net/ipv6/exthdrs.c 210 */;
+	const unsigned char *cocci_id/* net/ipv6/exthdrs.c 118 */;
+	struct ipv6_sr_hdr *cocci_id/* net/ipv6/exthdrs.c 1157 */;
+	struct rt0_hdr *cocci_id/* net/ipv6/exthdrs.c 1153 */;
+	int cocci_id/* net/ipv6/exthdrs.c 115 */;
+	const struct ipv6_txoptions *cocci_id/* net/ipv6/exthdrs.c 1141 */;
+	struct in6_addr *cocci_id/* net/ipv6/exthdrs.c 1140 */;
+	struct flowi6 *cocci_id/* net/ipv6/exthdrs.c 1140 */;
+	struct sk_buff *cocci_id/* net/ipv6/exthdrs.c 114 */;
+	bool cocci_id/* net/ipv6/exthdrs.c 113 */;
+	const struct tlvtype_proc *cocci_id/* net/ipv6/exthdrs.c 113 */;
+	struct ipv6_opt_hdr **cocci_id/* net/ipv6/exthdrs.c 1015 */;
+	char **cocci_id/* net/ipv6/exthdrs.c 1001 */;
+}

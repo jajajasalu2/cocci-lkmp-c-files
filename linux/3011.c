@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	bool cocci_id/* drivers/acpi/acpi_processor.c 687 */;
+	int cocci_id/* drivers/acpi/acpi_processor.c 687 */;
+	acpi_object_type cocci_id/* drivers/acpi/acpi_processor.c 640 */;
+	int cocci_id/* drivers/acpi/acpi_processor.c 595 */[];
+	int cocci_id/* drivers/acpi/acpi_processor.c 590 */[]__initdata;
+	struct acpi_scan_handler cocci_id/* drivers/acpi/acpi_processor.c 578 */;
+	const struct acpi_device_id cocci_id/* drivers/acpi/acpi_processor.c 573 */[];
+	void __init cocci_id/* drivers/acpi/acpi_processor.c 530 */;
+	void cocci_id/* drivers/acpi/acpi_processor.c 530 */;
+	u32 *cocci_id/* drivers/acpi/acpi_processor.c 516 */;
+	struct acpi_osc_context cocci_id/* drivers/acpi/acpi_processor.c 501 */;
+	u32 cocci_id/* drivers/acpi/acpi_processor.c 500 */[2];
+	u8 cocci_id/* drivers/acpi/acpi_processor.c 499 */[];
+	void **cocci_id/* drivers/acpi/acpi_processor.c 497 */;
+	void *cocci_id/* drivers/acpi/acpi_processor.c 496 */;
+	u32 cocci_id/* drivers/acpi/acpi_processor.c 495 */;
+	acpi_status __init cocci_id/* drivers/acpi/acpi_processor.c 494 */;
+	acpi_handle cocci_id/* drivers/acpi/acpi_processor.c 494 */;
+	u8 cocci_id/* drivers/acpi/acpi_processor.c 41 */;
+	struct acpi_processor cocci_id/* drivers/acpi/acpi_processor.c 375 */;
+	struct device *cocci_id/* drivers/acpi/acpi_processor.c 372 */;
+	struct acpi_processor *cocci_id/* drivers/acpi/acpi_processor.c 371 */;
+	const struct acpi_device_id *cocci_id/* drivers/acpi/acpi_processor.c 369 */;
+	struct acpi_device *cocci_id/* drivers/acpi/acpi_processor.c 368 */;
+	struct acpi_processor_errata cocci_id/* drivers/acpi/acpi_processor.c 36 */;
+	unsigned long long cocci_id/* drivers/acpi/acpi_processor.c 237 */;
+	acpi_status cocci_id/* drivers/acpi/acpi_processor.c 235 */;
+	struct acpi_buffer cocci_id/* drivers/acpi/acpi_processor.c 232 */;
+	union acpi_object cocci_id/* drivers/acpi/acpi_processor.c 231 */;
+	void __weak cocci_id/* drivers/acpi/acpi_processor.c 181 */;
+	phys_cpuid_t cocci_id/* drivers/acpi/acpi_processor.c 166 */;
+	int *cocci_id/* drivers/acpi/acpi_processor.c 166 */;
+	int __weak cocci_id/* drivers/acpi/acpi_processor.c 165 */;
+	struct pci_dev *cocci_id/* drivers/acpi/acpi_processor.c 144 */;
+	__typeof__(struct acpi_processor *) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+	__typeof__(void *) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

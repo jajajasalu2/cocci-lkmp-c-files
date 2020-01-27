@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	struct hash cocci_id/* init/initramfs.c 78 */;
+	struct hash **cocci_id/* init/initramfs.c 66 */;
+	ssize_t cocci_id/* init/initramfs.c 630 */;
+	char __init *cocci_id/* init/initramfs.c 63 */;
+	struct linux_dirent64 *cocci_id/* init/initramfs.c 580 */;
+	void *cocci_id/* init/initramfs.c 579 */;
+	int cocci_id/* init/initramfs.c 578 */;
+	void cocci_id/* init/initramfs.c 576 */;
+	bool cocci_id/* init/initramfs.c 545 */;
+	void __weak cocci_id/* init/initramfs.c 531 */;
+	unsigned long cocci_id/* init/initramfs.c 527 */;
+	char cocci_id/* init/initramfs.c 526 */[];
+	char *__unusedcocci_id/* init/initramfs.c 518 */;
+	int __initdata cocci_id/* init/initramfs.c 506 */;
+	struct hash {
+		int ino,minor,major;
+		umode_t mode;
+		struct hash *next;
+		char name[N_ALIGN(PATH_MAX)];
+	} *cocci_id/* init/initramfs.c 49 */[32];
+	char cocci_id/* init/initramfs.c 449 */[64];
+	decompress_fn cocci_id/* init/initramfs.c 447 */;
+	char *__initcocci_id/* init/initramfs.c 444 */;
+	char cocci_id/* init/initramfs.c 425 */;
+	long cocci_id/* init/initramfs.c 420 */;
+	int (*cocci_id/* init/initramfs.c 396 */[])(void);
+	struct kstat cocci_id/* init/initramfs.c 297 */;
+	umode_t cocci_id/* init/initramfs.c 295 */;
+	char *cocci_id/* init/initramfs.c 295 */;
+	void __init cocci_id/* init/initramfs.c 295 */;
+	int __init cocci_id/* init/initramfs.c 230 */;
+	enum state cocci_id/* init/initramfs.c 208 */;
+	unsigned cocci_id/* init/initramfs.c 196 */;
+	loff_t cocci_id/* init/initramfs.c 194 */;
+	enum state{Start, Collect, GotHeader, SkipIt, GotName, CopyFile, GotSymlink, Reset,} cocci_id/* init/initramfs.c 181 */;
+	char cocci_id/* init/initramfs.c 158 */[9];
+	unsigned long cocci_id/* init/initramfs.c 157 */[12];
+	gid_t cocci_id/* init/initramfs.c 152 */;
+	uid_t cocci_id/* init/initramfs.c 151 */;
+	ssize_t __init cocci_id/* init/initramfs.c 15 */;
+	size_t cocci_id/* init/initramfs.c 15 */;
+	struct dir_entry cocci_id/* init/initramfs.c 124 */;
+	struct dir_entry *cocci_id/* init/initramfs.c 124 */;
+	time64_t cocci_id/* init/initramfs.c 122 */;
+	const char *cocci_id/* init/initramfs.c 122 */;
+	struct dir_entry {
+		struct list_head list;
+		char *name;
+		time64_t mtime;
+	} cocci_id/* init/initramfs.c 116 */;
+	struct timespec64 cocci_id/* init/initramfs.c 105 */[2];
+	long __init cocci_id/* init/initramfs.c 103 */;
+}

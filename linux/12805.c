@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	u64 cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 84 */;
+	struct amba_driver cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 578 */;
+	struct amba_id cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 570 */[];
+	void __iomem *cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 508 */;
+	struct coresight_platform_data *cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 506 */;
+	struct coresight_desc cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 505 */;
+	const struct amba_id *cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 500 */;
+	struct amba_device *cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 500 */;
+	const struct coresight_ops cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 496 */;
+	const struct coresight_ops_helper cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 491 */;
+	struct catu_drvdata *cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 483 */;
+	void *__unused cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 480 */;
+	struct device *cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 467 */;
+	void *cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 453 */;
+	u32 cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 411 */;
+	const struct attribute_group *cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 396 */[];
+	const struct attribute_group cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 391 */;
+	struct attribute *cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 379 */[];
+	struct catu_drvdata cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 368 */;
+	const struct etr_buf_operations cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 361 */;
+	struct catu_etr_buf *cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 334 */;
+	struct tmc_sg_table *cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 333 */;
+	struct coresight_device *cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 332 */;
+	struct etr_buf *cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 330 */;
+	void **cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 330 */;
+	struct catu_etr_buf {
+		struct tmc_sg_table *catu_table;
+		dma_addr_t sladdr;
+	} cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 33 */;
+	struct tmc_drvdata *cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 329 */;
+	int cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 329 */;
+	char **cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 297 */;
+	size_t cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 297 */;
+	ssize_t cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 296 */;
+	dma_addr_t cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 171 */;
+	cate_t cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 171 */;
+	unsigned long cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 145 */;
+	cate_t *cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 144 */;
+	void cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 141 */;
+	struct tmc_pages *cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 120 */;
+	unsigned int cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 119 */;
+	dma_addr_t *cocci_id/* drivers/hwtracing/coresight/coresight-catu.c 116 */;
+}

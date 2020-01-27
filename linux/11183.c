@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	const struct dpp_input_csc_matrix cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 91 */[];
+	enum dscl_mode_sel{DSCL_MODE_SCALING_444_BYPASS=0, DSCL_MODE_SCALING_444_RGB_ENABLE=1, DSCL_MODE_SCALING_444_YCBCR_ENABLE=2, DSCL_MODE_SCALING_420_YCBCR_ENABLE=3, DSCL_MODE_SCALING_420_LUMA_BYPASS=4, DSCL_MODE_SCALING_420_CHROMA_BYPASS=5, DSCL_MODE_DSCL_BYPASS=6,} cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 81 */;
+	const struct dc_gamma *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 776 */;
+	bool *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 650 */;
+	enum dscl_autocal_mode{AUTOCAL_MODE_OFF=0, AUTOCAL_MODE_AUTOSCALE=1, AUTOCAL_MODE_AUTOCENTER=2, AUTOCAL_MODE_AUTOREPLICATE=3,} cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 64 */;
+	enum ipp_degamma_mode cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 613 */;
+	enum dcn10_coef_filter_type_sel{SCL_COEF_LUMA_VERT_FILTER=0, SCL_COEF_LUMA_HORZ_FILTER=1, SCL_COEF_CHROMA_VERT_FILTER=2, SCL_COEF_CHROMA_HORZ_FILTER=3, SCL_COEF_ALPHA_VERT_FILTER=4, SCL_COEF_ALPHA_HORZ_FILTER=5,} cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 55 */;
+	struct dc_bias_and_scale *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 516 */;
+	struct dpp_input_csc_matrix cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 446 */;
+	const struct out_csc_color_matrix *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 442 */;
+	enum dcn10_input_csc_select cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 441 */;
+	struct xfer_func_reg cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 387 */;
+	const struct pwl_params *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 384 */;
+	struct dcn10_dpp *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 372 */;
+	bool cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 370 */;
+	struct dpp *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 369 */;
+	void cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 368 */;
+	const struct pwl_result_data *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 349 */;
+	struct xfer_func_reg *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 305 */;
+	enum dc_color_space cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 261 */;
+	struct color_matrices_reg cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 210 */;
+	uint32_t cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 208 */;
+	const uint16_t *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 206 */;
+	uint16_t cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 192 */[12];
+	struct fixed31_32 cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 191 */[12];
+	int cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 185 */;
+	const struct dpp_grph_csc_adjustment *cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 182 */;
+	uint16_t cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 116 */;
+	enum gamut_remap_select cocci_id/* drivers/gpu/drm/amd/display/dc/dcn10/dcn10_dpp_cm.c 114 */;
+}

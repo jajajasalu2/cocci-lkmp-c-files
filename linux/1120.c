@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct cpufreq_freqs cocci_id/* drivers/cpufreq/longhaul.c 961 */;
+	void __exit cocci_id/* drivers/cpufreq/longhaul.c 954 */;
+	int __init cocci_id/* drivers/cpufreq/longhaul.c 918 */;
+	const struct x86_cpu_id cocci_id/* drivers/cpufreq/longhaul.c 912 */[];
+	struct cpufreq_driver cocci_id/* drivers/cpufreq/longhaul.c 903 */;
+	char cocci_id/* drivers/cpufreq/longhaul.c 88 */[8];
+	void *cocci_id/* drivers/cpufreq/longhaul.c 862 */;
+	int cocci_id/* drivers/cpufreq/longhaul.c 84 */[32];
+	char *cocci_id/* drivers/cpufreq/longhaul.c 763 */;
+	struct cpuinfo_x86 *cocci_id/* drivers/cpufreq/longhaul.c 762 */;
+	struct cpufreq_policy *cocci_id/* drivers/cpufreq/longhaul.c 760 */;
+	u32 cocci_id/* drivers/cpufreq/longhaul.c 72 */;
+	struct acpi_processor_cx *cocci_id/* drivers/cpufreq/longhaul.c 71 */;
+	struct acpi_processor *cocci_id/* drivers/cpufreq/longhaul.c 70 */;
+	u8 cocci_id/* drivers/cpufreq/longhaul.c 687 */;
+	struct pci_dev *cocci_id/* drivers/cpufreq/longhaul.c 684 */;
+	struct acpi_device *cocci_id/* drivers/cpufreq/longhaul.c 672 */;
+	void **cocci_id/* drivers/cpufreq/longhaul.c 670 */;
+	acpi_status cocci_id/* drivers/cpufreq/longhaul.c 668 */;
+	acpi_handle cocci_id/* drivers/cpufreq/longhaul.c 668 */;
+	const unsigned char *cocci_id/* drivers/cpufreq/longhaul.c 65 */;
+	const struct mV_pos *cocci_id/* drivers/cpufreq/longhaul.c 64 */;
+	struct mV_pos cocci_id/* drivers/cpufreq/longhaul.c 532 */;
+	struct cpufreq_frequency_table *cocci_id/* drivers/cpufreq/longhaul.c 530 */;
+	int cocci_id/* drivers/cpufreq/longhaul.c 410 */[];
+	u16 cocci_id/* drivers/cpufreq/longhaul.c 253 */;
+	union msr_longhaul cocci_id/* drivers/cpufreq/longhaul.c 164 */;
+	union msr_bcr2 cocci_id/* drivers/cpufreq/longhaul.c 137 */;
+	void cocci_id/* drivers/cpufreq/longhaul.c 135 */;
+	unsigned long cocci_id/* drivers/cpufreq/longhaul.c 121 */;
+	unsigned int cocci_id/* drivers/cpufreq/longhaul.c 108 */;
+	int cocci_id/* drivers/cpufreq/longhaul.c 108 */;
+}

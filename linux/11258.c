@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct drm_device *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 580 */;
+	size_t cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 523 */;
+	u8 __iomem *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 522 */;
+	struct vbt_header *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 520 */;
+	struct pci_dev *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 519 */;
+	uint8_t cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 50 */;
+	struct edp_link_params *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 49 */;
+	struct edp_power_seq *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 48 */;
+	struct bdb_edp *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 47 */;
+	struct child_device_config *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 441 */;
+	struct bdb_general_definitions *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 440 */;
+	struct bdb_driver_features *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 417 */;
+	u16 *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 34 */;
+	struct sdvo_device_mapping *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 326 */;
+	struct bdb_general_features *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 303 */;
+	struct bdb_sdvo_lvds_options *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 273 */;
+	u8 cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 24 */;
+	u16 cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 23 */;
+	struct bdb_lvds_lfp_data_entry *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 222 */;
+	struct bdb_lvds_lfp_data *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 221 */;
+	u8 *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 21 */;
+	struct bdb_lvds_options *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 195 */;
+	struct bdb_lvds_backlight *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 191 */;
+	struct bdb_header *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 19 */;
+	void *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 19 */;
+	int cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 19 */;
+	struct drm_psb_private *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 188 */;
+	struct lvds_dvo_timing *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 147 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 146 */;
+	void cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 146 */;
+	char *cocci_id/* drivers/gpu/drm/gma500/intel_bios.c 141 */;
+}

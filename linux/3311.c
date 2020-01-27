@@ -1,0 +1,60 @@
+cocci_test_suite() {
+	struct resource cocci_id/* drivers/hwmon/lm78.c 919 */;
+	int __init cocci_id/* drivers/hwmon/lm78.c 917 */;
+	u8 cocci_id/* drivers/hwmon/lm78.c 88 */;
+	int cocci_id/* drivers/hwmon/lm78.c 88 */;
+	struct platform_driver cocci_id/* drivers/hwmon/lm78.c 822 */;
+	struct resource *cocci_id/* drivers/hwmon/lm78.c 790 */;
+	long cocci_id/* drivers/hwmon/lm78.c 79 */;
+	struct platform_device *cocci_id/* drivers/hwmon/lm78.c 785 */;
+	unsigned long cocci_id/* drivers/hwmon/lm78.c 72 */;
+	struct i2c_driver cocci_id/* drivers/hwmon/lm78.c 659 */;
+	const struct i2c_device_id cocci_id/* drivers/hwmon/lm78.c 652 */[];
+	struct lm78_data cocci_id/* drivers/hwmon/lm78.c 637 */;
+	const struct i2c_device_id *cocci_id/* drivers/hwmon/lm78.c 631 */;
+	struct i2c_adapter *cocci_id/* drivers/hwmon/lm78.c 577 */;
+	struct i2c_board_info *cocci_id/* drivers/hwmon/lm78.c 572 */;
+	struct i2c_client *cocci_id/* drivers/hwmon/lm78.c 524 */;
+	void cocci_id/* drivers/hwmon/lm78.c 518 */;
+	unsigned short cocci_id/* drivers/hwmon/lm78.c 516 */;
+	struct attribute *cocci_id/* drivers/hwmon/lm78.c 455 */[];
+	struct lm78_data *cocci_id/* drivers/hwmon/lm78.c 439 */;
+	char *cocci_id/* drivers/hwmon/lm78.c 437 */;
+	struct device_attribute *cocci_id/* drivers/hwmon/lm78.c 436 */;
+	struct device *cocci_id/* drivers/hwmon/lm78.c 436 */;
+	ssize_t cocci_id/* drivers/hwmon/lm78.c 436 */;
+	const char *cocci_id/* drivers/hwmon/lm78.c 348 */;
+	size_t cocci_id/* drivers/hwmon/lm78.c 348 */;
+	struct sensor_device_attribute *cocci_id/* drivers/hwmon/lm78.c 336 */;
+	enum chips{lm78, lm79,} cocci_id/* drivers/hwmon/lm78.c 31 */;
+	const unsigned short cocci_id/* drivers/hwmon/lm78.c 29 */[];
+	void cocci_id/* drivers/hwmon/lm78.c 139 */(struct lm78_data *data);
+	struct lm78_data *cocci_id/* drivers/hwmon/lm78.c 138 */(struct device *dev);
+	int cocci_id/* drivers/hwmon/lm78.c 137 */(struct lm78_data *data,
+						   u8 reg, u8 value);
+	int cocci_id/* drivers/hwmon/lm78.c 136 */(struct lm78_data *data,
+						   u8 reg);
+	struct lm78_data {
+		struct i2c_client *client;
+		struct mutex lock;
+		enum chips type;
+		const char *name;
+		int isa_addr;
+		struct mutex update_lock;
+		char valid;
+		unsigned long last_updated;
+		u8 in[7];
+		u8 in_max[7];
+		u8 in_min[7];
+		u8 fan[3];
+		u8 fan_min[3];
+		s8 temp;
+		s8 temp_over;
+		s8 temp_hyst;
+		u8 fan_div[3];
+		u8 vid;
+		u16 alarms;
+	} cocci_id/* drivers/hwmon/lm78.c 110 */;
+	s8 cocci_id/* drivers/hwmon/lm78.c 103 */;
+	void __exit cocci_id/* drivers/hwmon/lm78.c 1021 */;
+}

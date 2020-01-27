@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct tx_desc *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 87 */;
+	struct mlme_priv *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 606 */;
+	struct xmit_frame cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 514 */;
+	u8 cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 50 */;
+	u32 cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 50 */;
+	u8 *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 50 */;
+	struct adapter *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 50 */;
+	struct list_head *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 426 */;
+	struct tx_servq *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 424 */;
+	struct sta_info *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 423 */;
+	struct hw_xmit *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 422 */;
+	struct xmit_buf *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 419 */;
+	struct xmit_frame *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 417 */;
+	struct xmit_priv *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 415 */;
+	bool cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 414 */;
+	__le16 *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 41 */;
+	size_t cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 385 */;
+	u16 cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 35 */;
+	int cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 335 */;
+	s32 cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 331 */;
+	u16 *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 32 */;
+	unsigned long cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 21 */;
+	struct tx_desc cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 179 */;
+	struct mlme_ext_info *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 170 */;
+	struct mlme_ext_priv *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 169 */;
+	struct odm_dm_struct *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 167 */;
+	uint cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 163 */;
+	__le32 *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 144 */;
+	struct pkt_attrib *cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 144 */;
+	void cocci_id/* drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c 144 */;
+}

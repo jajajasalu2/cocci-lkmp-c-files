@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct i2c_driver cocci_id/* sound/aoa/codecs/tas.c 938 */;
+	const struct i2c_device_id cocci_id/* sound/aoa/codecs/tas.c 932 */[];
+	u8 cocci_id/* sound/aoa/codecs/tas.c 919 */;
+	unsigned int cocci_id/* sound/aoa/codecs/tas.c 908 */;
+	struct device_node *cocci_id/* sound/aoa/codecs/tas.c 882 */;
+	const struct i2c_device_id *cocci_id/* sound/aoa/codecs/tas.c 880 */;
+	struct i2c_client *cocci_id/* sound/aoa/codecs/tas.c 879 */;
+	struct tas {
+		struct aoa_codec codec;
+		struct i2c_client *i2c;
+		u32 mute_l:1,mute_r:1,controls_created:1,drc_enabled:1,hw_enabled:1;
+		u8 cached_volume_l,cached_volume_r;
+		u8 mixer_l[3],mixer_r[3];
+		u8 bass,treble;
+		u8 acr;
+		int drc_range;
+		struct mutex mtx;
+	} cocci_id/* sound/aoa/codecs/tas.c 83 */;
+	struct codec_info cocci_id/* sound/aoa/codecs/tas.c 781 */;
+	struct codec_info_item *cocci_id/* sound/aoa/codecs/tas.c 772 */;
+	int cocci_id/* sound/aoa/codecs/tas.c 772 */;
+	pm_message_t cocci_id/* sound/aoa/codecs/tas.c 767 */;
+	enum clock_switch cocci_id/* sound/aoa/codecs/tas.c 714 */;
+	struct transfer_info *cocci_id/* sound/aoa/codecs/tas.c 665 */;
+	struct transfer_info cocci_id/* sound/aoa/codecs/tas.c 648 */[];
+	const struct snd_kcontrol_new cocci_id/* sound/aoa/codecs/tas.c 639 */;
+	struct snd_ctl_elem_value *cocci_id/* sound/aoa/codecs/tas.c 608 */;
+	struct snd_kcontrol *cocci_id/* sound/aoa/codecs/tas.c 607 */;
+	struct snd_ctl_elem_info *cocci_id/* sound/aoa/codecs/tas.c 598 */;
+	const char *constcocci_id/* sound/aoa/codecs/tas.c 480 */[];
+	struct snd_device_ops cocci_id/* sound/aoa/codecs/tas.c 220 */;
+	struct snd_device *cocci_id/* sound/aoa/codecs/tas.c 215 */;
+	u8 cocci_id/* sound/aoa/codecs/tas.c 188 */[9];
+	u8 cocci_id/* sound/aoa/codecs/tas.c 156 */[6];
+	unsigned char cocci_id/* sound/aoa/codecs/tas.c 118 */[6];
+	void cocci_id/* sound/aoa/codecs/tas.c 116 */;
+	u8 *cocci_id/* sound/aoa/codecs/tas.c 108 */;
+	struct tas cocci_id/* sound/aoa/codecs/tas.c 105 */;
+	struct tas *cocci_id/* sound/aoa/codecs/tas.c 103 */;
+	struct aoa_codec *cocci_id/* sound/aoa/codecs/tas.c 103 */;
+	int cocci_id/* sound/aoa/codecs/tas.c 101 */(struct tas *tas);
+}

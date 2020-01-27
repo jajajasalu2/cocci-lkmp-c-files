@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct buffer_head *cocci_id/* fs/nilfs2/the_nilfs.c 99 */;
+	void cocci_id/* fs/nilfs2/the_nilfs.c 85 */;
+	struct nilfs_root cocci_id/* fs/nilfs2/the_nilfs.c 763 */;
+	struct rb_node **cocci_id/* fs/nilfs2/the_nilfs.c 744 */;
+	struct nilfs_root *cocci_id/* fs/nilfs2/the_nilfs.c 741 */;
+	struct rb_node *cocci_id/* fs/nilfs2/the_nilfs.c 718 */;
+	sector_t cocci_id/* fs/nilfs2/the_nilfs.c 701 */;
+	unsigned long cocci_id/* fs/nilfs2/the_nilfs.c 696 */;
+	sector_t *cocci_id/* fs/nilfs2/the_nilfs.c 694 */;
+	size_t cocci_id/* fs/nilfs2/the_nilfs.c 658 */;
+	__u64 *cocci_id/* fs/nilfs2/the_nilfs.c 657 */;
+	struct nilfs_super_block *cocci_id/* fs/nilfs2/the_nilfs.c 570 */;
+	char *cocci_id/* fs/nilfs2/the_nilfs.c 568 */;
+	int cocci_id/* fs/nilfs2/the_nilfs.c 568 */;
+	struct the_nilfs *cocci_id/* fs/nilfs2/the_nilfs.c 55 */;
+	struct super_block *cocci_id/* fs/nilfs2/the_nilfs.c 55 */;
+	int cocci_id/* fs/nilfs2/the_nilfs.c 498 */[2];
+	u64 cocci_id/* fs/nilfs2/the_nilfs.c 497 */;
+	struct buffer_head **cocci_id/* fs/nilfs2/the_nilfs.c 496 */;
+	unsigned char *cocci_id/* fs/nilfs2/the_nilfs.c 443 */;
+	u32 cocci_id/* fs/nilfs2/the_nilfs.c 436 */;
+	const int cocci_id/* fs/nilfs2/the_nilfs.c 434 */;
+	struct nilfs_super_block cocci_id/* fs/nilfs2/the_nilfs.c 434 */;
+	unsigned char cocci_id/* fs/nilfs2/the_nilfs.c 433 */[4];
+	unsigned long long cocci_id/* fs/nilfs2/the_nilfs.c 293 */;
+	__u64 cocci_id/* fs/nilfs2/the_nilfs.c 281 */;
+	int cocci_id/* fs/nilfs2/the_nilfs.c 26 */(struct nilfs_super_block *sbp);
+	struct nilfs_super_block **cocci_id/* fs/nilfs2/the_nilfs.c 226 */;
+	unsigned int cocci_id/* fs/nilfs2/the_nilfs.c 207 */;
+	struct nilfs_recovery_info cocci_id/* fs/nilfs2/the_nilfs.c 206 */;
+	struct nilfs_recovery_info *cocci_id/* fs/nilfs2/the_nilfs.c 156 */;
+	void *cocci_id/* fs/nilfs2/the_nilfs.c 119 */;
+	struct nilfs_inode *cocci_id/* fs/nilfs2/the_nilfs.c 102 */;
+	struct nilfs_super_root *cocci_id/* fs/nilfs2/the_nilfs.c 100 */;
+}

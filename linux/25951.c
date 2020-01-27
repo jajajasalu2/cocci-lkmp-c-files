@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	void *cocci_id/* tools/testing/selftests/net/psock_fanout.c 81 */;
+	struct sockaddr_ll cocci_id/* tools/testing/selftests/net/psock_fanout.c 63 */;
+	uint16_t cocci_id/* tools/testing/selftests/net/psock_fanout.c 61 */;
+	const int cocci_id/* tools/testing/selftests/net/psock_fanout.c 416 */[2][2];
+	char **cocci_id/* tools/testing/selftests/net/psock_fanout.c 414 */;
+	int cocci_id/* tools/testing/selftests/net/psock_fanout.c 414 */;
+	cpu_set_t cocci_id/* tools/testing/selftests/net/psock_fanout.c 399 */;
+	uint8_t cocci_id/* tools/testing/selftests/net/psock_fanout.c 349 */;
+	char *cocci_id/* tools/testing/selftests/net/psock_fanout.c 348 */[2];
+	int cocci_id/* tools/testing/selftests/net/psock_fanout.c 292 */[3];
+	int cocci_id/* tools/testing/selftests/net/psock_fanout.c 223 */[2];
+	const int cocci_id/* tools/testing/selftests/net/psock_fanout.c 221 */[];
+	char *cocci_id/* tools/testing/selftests/net/psock_fanout.c 221 */[];
+	int cocci_id/* tools/testing/selftests/net/psock_fanout.c 221 */[];
+	struct tpacket2_hdr *cocci_id/* tools/testing/selftests/net/psock_fanout.c 210 */;
+	struct tpacket_req cocci_id/* tools/testing/selftests/net/psock_fanout.c 178 */;
+	char *cocci_id/* tools/testing/selftests/net/psock_fanout.c 176 */;
+	unsigned long cocci_id/* tools/testing/selftests/net/psock_fanout.c 151 */;
+	union bpf_attr cocci_id/* tools/testing/selftests/net/psock_fanout.c 146 */;
+	struct bpf_insn cocci_id/* tools/testing/selftests/net/psock_fanout.c 135 */[];
+	const int cocci_id/* tools/testing/selftests/net/psock_fanout.c 134 */;
+	struct __sk_buff cocci_id/* tools/testing/selftests/net/psock_fanout.c 134 */;
+	char cocci_id/* tools/testing/selftests/net/psock_fanout.c 132 */[65536];
+	socklen_t cocci_id/* tools/testing/selftests/net/psock_fanout.c 119 */;
+	uint16_t *cocci_id/* tools/testing/selftests/net/psock_fanout.c 116 */;
+	void cocci_id/* tools/testing/selftests/net/psock_fanout.c 116 */;
+	struct sock_filter cocci_id/* tools/testing/selftests/net/psock_fanout.c 107 */;
+	struct sock_fprog cocci_id/* tools/testing/selftests/net/psock_fanout.c 104 */;
+	struct sock_filter cocci_id/* tools/testing/selftests/net/psock_fanout.c 100 */[];
+}

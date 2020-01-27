@@ -1,0 +1,71 @@
+cocci_test_suite() {
+	const struct regmap_config cocci_id/* sound/soc/sunxi/sun4i-i2s.c 974 */;
+	const struct reg_default cocci_id/* sound/soc/sunxi/sun4i-i2s.c 947 */[];
+	const struct snd_soc_component_driver cocci_id/* sound/soc/sunxi/sun4i-i2s.c 885 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/sunxi/sun4i-i2s.c 865 */;
+	struct sun4i_i2s *cocci_id/* sound/soc/sunxi/sun4i-i2s.c 854 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/sunxi/sun4i-i2s.c 852 */;
+	int cocci_id/* sound/soc/sunxi/sun4i-i2s.c 852 */;
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/sunxi/sun4i-i2s.c 844 */;
+	void cocci_id/* sound/soc/sunxi/sun4i-i2s.c 717 */;
+	u8 cocci_id/* sound/soc/sunxi/sun4i-i2s.c 596 */;
+	u32 cocci_id/* sound/soc/sunxi/sun4i-i2s.c 479 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/sunxi/sun4i-i2s.c 470 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/sunxi/sun4i-i2s.c 469 */;
+	const struct snd_pcm_hw_params *cocci_id/* sound/soc/sunxi/sun4i-i2s.c 394 */;
+	s8 cocci_id/* sound/soc/sunxi/sun4i-i2s.c 360 */;
+	bool cocci_id/* sound/soc/sunxi/sun4i-i2s.c 278 */;
+	int cocci_id/* sound/soc/sunxi/sun4i-i2s.c 277 */[];
+	const struct sun4i_i2s_clk_div *cocci_id/* sound/soc/sunxi/sun4i-i2s.c 245 */;
+	unsigned int cocci_id/* sound/soc/sunxi/sun4i-i2s.c 241 */;
+	unsigned long cocci_id/* sound/soc/sunxi/sun4i-i2s.c 240 */;
+	const struct sun4i_i2s *cocci_id/* sound/soc/sunxi/sun4i-i2s.c 229 */;
+	const struct sun4i_i2s_clk_div cocci_id/* sound/soc/sunxi/sun4i-i2s.c 189 */[];
+	struct sun4i_i2s_clk_div {
+		u8 div;
+		u8 val;
+	} cocci_id/* sound/soc/sunxi/sun4i-i2s.c 184 */;
+	struct sun4i_i2s {
+		struct clk *bus_clk;
+		struct clk *mod_clk;
+		struct regmap *regmap;
+		struct reset_control *rst;
+		unsigned int format;
+		unsigned int mclk_freq;
+		unsigned int slots;
+		unsigned int slot_width;
+		struct snd_dmaengine_dai_dma_data capture_dma_data;
+		struct snd_dmaengine_dai_dma_data playback_dma_data;
+		struct regmap_field *field_clkdiv_mclk_en;
+		struct regmap_field *field_fmt_wss;
+		struct regmap_field *field_fmt_sr;
+		const struct sun4i_i2s_quirks *variant;
+	} cocci_id/* sound/soc/sunxi/sun4i-i2s.c 162 */;
+	struct sun4i_i2s_quirks {
+		bool has_reset;
+		unsigned int reg_offset_txdata;
+		const struct regmap_config *sun4i_i2s_regmap;
+		struct reg_field field_clkdiv_mclk_en;
+		struct reg_field field_fmt_wss;
+		struct reg_field field_fmt_sr;
+		const struct sun4i_i2s_clk_div *bclk_dividers;
+		unsigned int num_bclk_dividers;
+		const struct sun4i_i2s_clk_div *mclk_dividers;
+		unsigned int num_mclk_dividers;
+		unsigned long (*get_bclk_parent_rate)(const struct sun4i_i2s *);
+		s8 (*get_sr)(const struct sun4i_i2s *, int);
+		s8 (*get_wss)(const struct sun4i_i2s *, int);
+		int (*set_chan_cfg)(const struct sun4i_i2s *,
+				    const struct snd_pcm_hw_params *);
+		int (*set_fmt)(const struct sun4i_i2s *, unsigned int);
+	} cocci_id/* sound/soc/sunxi/sun4i-i2s.c 139 */;
+	struct platform_driver cocci_id/* sound/soc/sunxi/sun4i-i2s.c 1337 */;
+	const struct dev_pm_ops cocci_id/* sound/soc/sunxi/sun4i-i2s.c 1332 */;
+	const struct of_device_id cocci_id/* sound/soc/sunxi/sun4i-i2s.c 1307 */[];
+	struct sun4i_i2s cocci_id/* sound/soc/sunxi/sun4i-i2s.c 127 */;
+	void __iomem *cocci_id/* sound/soc/sunxi/sun4i-i2s.c 1187 */;
+	struct resource *cocci_id/* sound/soc/sunxi/sun4i-i2s.c 1186 */;
+	struct platform_device *cocci_id/* sound/soc/sunxi/sun4i-i2s.c 1183 */;
+	struct device *cocci_id/* sound/soc/sunxi/sun4i-i2s.c 1159 */;
+	const struct sun4i_i2s_quirks cocci_id/* sound/soc/sunxi/sun4i-i2s.c 1064 */;
+}

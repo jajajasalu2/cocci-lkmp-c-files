@@ -1,0 +1,63 @@
+cocci_test_suite() {
+	unsigned char cocci_id/* drivers/net/ethernet/alteon/acenic.c 872 */;
+	u64 cocci_id/* drivers/net/ethernet/alteon/acenic.c 868 */;
+	struct pci_dev *cocci_id/* drivers/net/ethernet/alteon/acenic.c 866 */;
+	struct ace_info *cocci_id/* drivers/net/ethernet/alteon/acenic.c 865 */;
+	u32 *cocci_id/* drivers/net/ethernet/alteon/acenic.c 854 */;
+	struct cmd *cocci_id/* drivers/net/ethernet/alteon/acenic.c 848 */;
+	u32 cocci_id/* drivers/net/ethernet/alteon/acenic.c 796 */;
+	struct tx_desc cocci_id/* drivers/net/ethernet/alteon/acenic.c 787 */;
+	struct event cocci_id/* drivers/net/ethernet/alteon/acenic.c 775 */;
+	struct rx_desc cocci_id/* drivers/net/ethernet/alteon/acenic.c 760 */;
+	struct ace_private *cocci_id/* drivers/net/ethernet/alteon/acenic.c 757 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/alteon/acenic.c 755 */;
+	int cocci_id/* drivers/net/ethernet/alteon/acenic.c 755 */;
+	void *cocci_id/* drivers/net/ethernet/alteon/acenic.c 738 */;
+	struct pci_driver cocci_id/* drivers/net/ethernet/alteon/acenic.c 698 */;
+	struct ace_private cocci_id/* drivers/net/ethernet/alteon/acenic.c 461 */;
+	const struct pci_device_id *cocci_id/* drivers/net/ethernet/alteon/acenic.c 455 */;
+	const struct net_device_ops cocci_id/* drivers/net/ethernet/alteon/acenic.c 442 */;
+	void cocci_id/* drivers/net/ethernet/alteon/acenic.c 440 */(struct net_device *dev);
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/alteon/acenic.c 434 */;
+	void cocci_id/* drivers/net/ethernet/alteon/acenic.c 432 */(struct net_device *,
+								    struct ethtool_drvinfo *);
+	int cocci_id/* drivers/net/ethernet/alteon/acenic.c 430 */(struct net_device *,
+								   const struct ethtool_link_ksettings *);
+	int cocci_id/* drivers/net/ethernet/alteon/acenic.c 428 */(struct net_device *,
+								   struct ethtool_link_ksettings *);
+	const char cocci_id/* drivers/net/ethernet/alteon/acenic.c 424 */[];
+	int cocci_id/* drivers/net/ethernet/alteon/acenic.c 398 */[ACE_MAX_MOD_PARMS];
+	u8 cocci_id/* drivers/net/ethernet/alteon/acenic.c 2978 */;
+	const char *cocci_id/* drivers/net/ethernet/alteon/acenic.c 2872 */;
+	const struct firmware *cocci_id/* drivers/net/ethernet/alteon/acenic.c 2871 */;
+	short cocci_id/* drivers/net/ethernet/alteon/acenic.c 2841 */;
+	void __iomem *cocci_id/* drivers/net/ethernet/alteon/acenic.c 2840 */;
+	void cocci_id/* drivers/net/ethernet/alteon/acenic.c 2838 */;
+	const __be32 *cocci_id/* drivers/net/ethernet/alteon/acenic.c 2811 */;
+	struct ace_mac_stats __iomem *cocci_id/* drivers/net/ethernet/alteon/acenic.c 2800 */;
+	struct net_device_stats *cocci_id/* drivers/net/ethernet/alteon/acenic.c 2797 */;
+	u8 *cocci_id/* drivers/net/ethernet/alteon/acenic.c 2720 */;
+	struct sockaddr *cocci_id/* drivers/net/ethernet/alteon/acenic.c 2719 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/ethernet/alteon/acenic.c 2697 */;
+	const struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/alteon/acenic.c 2634 */;
+	struct ethtool_link_ksettings cocci_id/* drivers/net/ethernet/alteon/acenic.c 2586 */;
+	struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/alteon/acenic.c 2579 */;
+	struct cmd cocci_id/* drivers/net/ethernet/alteon/acenic.c 2566 */;
+	struct ace_regs __iomem *cocci_id/* drivers/net/ethernet/alteon/acenic.c 2547 */;
+	const skb_frag_t *cocci_id/* drivers/net/ethernet/alteon/acenic.c 2461 */;
+	netdev_tx_t cocci_id/* drivers/net/ethernet/alteon/acenic.c 2407 */;
+	struct tx_desc __iomem *cocci_id/* drivers/net/ethernet/alteon/acenic.c 2332 */;
+	struct tx_ring_info *cocci_id/* drivers/net/ethernet/alteon/acenic.c 2324 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/alteon/acenic.c 2323 */;
+	unsigned long cocci_id/* drivers/net/ethernet/alteon/acenic.c 2288 */;
+	irqreturn_t cocci_id/* drivers/net/ethernet/alteon/acenic.c 2101 */;
+	struct ring_info *cocci_id/* drivers/net/ethernet/alteon/acenic.c 1931 */;
+	u16 cocci_id/* drivers/net/ethernet/alteon/acenic.c 1832 */;
+	struct rx_desc *cocci_id/* drivers/net/ethernet/alteon/acenic.c 1759 */;
+	unsigned int cocci_id/* drivers/net/ethernet/alteon/acenic.c 1558 */;
+	const struct pci_device_id cocci_id/* drivers/net/ethernet/alteon/acenic.c 130 */[];
+	struct tx_desc *cocci_id/* drivers/net/ethernet/alteon/acenic.c 1287 */;
+	dma_addr_t cocci_id/* drivers/net/ethernet/alteon/acenic.c 1212 */;
+	struct ace_skb cocci_id/* drivers/net/ethernet/alteon/acenic.c 1156 */;
+	struct ace_info cocci_id/* drivers/net/ethernet/alteon/acenic.c 1146 */;
+}

@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	struct regulator_init_data cocci_id/* arch/arm/mach-pxa/z2.c 635 */[];
+	struct regulator_consumer_supply cocci_id/* arch/arm/mach-pxa/z2.c 631 */[];
+	struct pxa2xx_spi_controller cocci_id/* arch/arm/mach-pxa/z2.c 607 */;
+	struct spi_board_info cocci_id/* arch/arm/mach-pxa/z2.c 587 */[]__initdata;
+	const struct lms283gf05_pdata cocci_id/* arch/arm/mach-pxa/z2.c 583 */;
+	struct pxa2xx_spi_chip cocci_id/* arch/arm/mach-pxa/z2.c 576 */;
+	struct libertas_spi_platform_data cocci_id/* arch/arm/mach-pxa/z2.c 569 */;
+	struct spi_device *cocci_id/* arch/arm/mach-pxa/z2.c 526 */;
+	int cocci_id/* arch/arm/mach-pxa/z2.c 526 */;
+	void __init cocci_id/* arch/arm/mach-pxa/z2.c 512 */;
+	void cocci_id/* arch/arm/mach-pxa/z2.c 512 */;
+	struct i2c_board_info __initdata cocci_id/* arch/arm/mach-pxa/z2.c 502 */[];
+	unsigned long cocci_id/* arch/arm/mach-pxa/z2.c 50 */[];
+	struct z2_battery_info cocci_id/* arch/arm/mach-pxa/z2.c 489 */;
+	struct gpio_keys_platform_data cocci_id/* arch/arm/mach-pxa/z2.c 464 */;
+	struct gpio_keys_button cocci_id/* arch/arm/mach-pxa/z2.c 445 */[];
+	struct pxa27x_keypad_platform_data cocci_id/* arch/arm/mach-pxa/z2.c 425 */;
+	struct matrix_keymap_data cocci_id/* arch/arm/mach-pxa/z2.c 420 */;
+	const unsigned int cocci_id/* arch/arm/mach-pxa/z2.c 360 */[];
+	struct gpio_led_platform_data cocci_id/* arch/arm/mach-pxa/z2.c 335 */;
+	struct gpio_led cocci_id/* arch/arm/mach-pxa/z2.c 316 */[];
+	struct gpiod_lookup_table cocci_id/* arch/arm/mach-pxa/z2.c 294 */;
+	struct pxamci_platform_data cocci_id/* arch/arm/mach-pxa/z2.c 289 */;
+	struct pxafb_mach_info cocci_id/* arch/arm/mach-pxa/z2.c 270 */;
+	struct pxafb_mode_info cocci_id/* arch/arm/mach-pxa/z2.c 253 */[];
+	struct platform_device cocci_id/* arch/arm/mach-pxa/z2.c 223 */[2];
+	struct platform_pwm_backlight_data cocci_id/* arch/arm/mach-pxa/z2.c 208 */[];
+	struct pwm_lookup cocci_id/* arch/arm/mach-pxa/z2.c 201 */[];
+	struct platform_device cocci_id/* arch/arm/mach-pxa/z2.c 179 */;
+	struct physmap_flash_data cocci_id/* arch/arm/mach-pxa/z2.c 173 */;
+	struct mtd_partition cocci_id/* arch/arm/mach-pxa/z2.c 157 */[];
+	struct resource cocci_id/* arch/arm/mach-pxa/z2.c 151 */;
+	const struct machine_desc cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 397 */;
+}

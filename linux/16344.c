@@ -1,0 +1,65 @@
+cocci_test_suite() {
+	const u8 *cocci_id/* drivers/staging/most/sound/sound.c 97 */;
+	u8 *cocci_id/* drivers/staging/most/sound/sound.c 97 */;
+	const u16 *cocci_id/* drivers/staging/most/sound/sound.c 87 */;
+	u32 cocci_id/* drivers/staging/most/sound/sound.c 82 */;
+	void __exit cocci_id/* drivers/staging/most/sound/sound.c 814 */;
+	int __init cocci_id/* drivers/staging/most/sound/sound.c 794 */;
+	bool cocci_id/* drivers/staging/most/sound/sound.c 736 */;
+	struct mbo *cocci_id/* drivers/staging/most/sound/sound.c 733 */;
+	struct channel *cocci_id/* drivers/staging/most/sound/sound.c 706 */;
+	struct most_interface *cocci_id/* drivers/staging/most/sound/sound.c 703 */;
+	struct list_head cocci_id/* drivers/staging/most/sound/sound.c 69 */;
+	struct sound_adapter *cocci_id/* drivers/staging/most/sound/sound.c 677 */;
+	int cocci_id/* drivers/staging/most/sound/sound.c 674 */;
+	struct sound_adapter {
+		struct list_head dev_list;
+		struct most_interface *iface;
+		struct snd_card *card;
+		struct list_head list;
+		bool registered;
+		int pcm_dev_idx;
+	} cocci_id/* drivers/staging/most/sound/sound.c 60 */;
+	char cocci_id/* drivers/staging/most/sound/sound.c 584 */[STRING_SIZE];
+	u16 cocci_id/* drivers/staging/most/sound/sound.c 582 */;
+	struct snd_pcm *cocci_id/* drivers/staging/most/sound/sound.c 577 */;
+	char *cocci_id/* drivers/staging/most/sound/sound.c 573 */;
+	struct most_channel_config *cocci_id/* drivers/staging/most/sound/sound.c 572 */;
+	struct snd_pcm_hardware *cocci_id/* drivers/staging/most/sound/sound.c 506 */;
+	const struct sample_resolution_info {
+		const char *sample_res;
+		int bytes;
+		u64 formats;
+	} cocci_id/* drivers/staging/most/sound/sound.c 495 */[];
+	u16 *cocci_id/* drivers/staging/most/sound/sound.c 473 */;
+	char **cocci_id/* drivers/staging/most/sound/sound.c 473 */;
+	const struct snd_pcm_ops cocci_id/* drivers/staging/most/sound/sound.c 462 */;
+	snd_pcm_uframes_t cocci_id/* drivers/staging/most/sound/sound.c 452 */;
+	struct channel {
+		struct snd_pcm_substream *substream;
+		struct snd_pcm_hardware pcm_hardware;
+		struct most_interface *iface;
+		struct most_channel_config *cfg;
+		struct snd_card *card;
+		struct list_head list;
+		int id;
+		unsigned int period_pos;
+		unsigned int buffer_pos;
+		bool is_stream_running;
+		struct task_struct *playback_task;
+		wait_queue_head_t playback_waitq;
+		void (*copy_fn)(void *alsa, void *most, unsigned int bytes);
+	} cocci_id/* drivers/staging/most/sound/sound.c 42 */;
+	struct snd_pcm_hw_params *cocci_id/* drivers/staging/most/sound/sound.c 338 */;
+	struct snd_pcm_substream *cocci_id/* drivers/staging/most/sound/sound.c 314 */;
+	struct snd_pcm_runtime *cocci_id/* drivers/staging/most/sound/sound.c 279 */;
+	struct core_component cocci_id/* drivers/staging/most/sound/sound.c 25 */;
+	struct channel *const cocci_id/* drivers/staging/most/sound/sound.c 239 */;
+	const unsigned int cocci_id/* drivers/staging/most/sound/sound.c 193 */;
+	struct snd_pcm_runtime *const cocci_id/* drivers/staging/most/sound/sound.c 192 */;
+	void *cocci_id/* drivers/staging/most/sound/sound.c 124 */;
+	unsigned int cocci_id/* drivers/staging/most/sound/sound.c 124 */;
+	void cocci_id/* drivers/staging/most/sound/sound.c 124 */;
+	const u32 *cocci_id/* drivers/staging/most/sound/sound.c 109 */;
+	u32 *cocci_id/* drivers/staging/most/sound/sound.c 109 */;
+}

@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	struct device *cocci_id/* drivers/dma/dmaengine.c 99 */;
+	ssize_t cocci_id/* drivers/dma/dmaengine.c 99 */;
+	atomic_t *cocci_id/* drivers/dma/dmaengine.c 911 */;
+	bool cocci_id/* drivers/dma/dmaengine.c 854 */;
+	const char *cocci_id/* drivers/dma/dmaengine.c 668 */;
+	const struct dma_slave_map *cocci_id/* drivers/dma/dmaengine.c 667 */;
+	struct device_node *cocci_id/* drivers/dma/dmaengine.c 638 */;
+	dma_filter_fn cocci_id/* drivers/dma/dmaengine.c 637 */;
+	void *cocci_id/* drivers/dma/dmaengine.c 637 */;
+	struct dma_chan *cocci_id/* drivers/dma/dmaengine.c 636 */;
+	long cocci_id/* drivers/dma/dmaengine.c 59 */;
+	struct dma_slave_caps *cocci_id/* drivers/dma/dmaengine.c 463 */;
+	struct dma_chan_tbl_ent cocci_id/* drivers/dma/dmaengine.c 325 */;
+	enum dma_transaction_type cocci_id/* drivers/dma/dmaengine.c 311 */;
+	struct dma_chan_tbl_ent __percpu *cocci_id/* drivers/dma/dmaengine.c 307 */[DMA_TX_TYPE_END];
+	struct dma_chan_tbl_ent {
+		struct dma_chan *chan;
+	} cocci_id/* drivers/dma/dmaengine.c 300 */;
+	dma_cookie_t cocci_id/* drivers/dma/dmaengine.c 270 */;
+	enum dma_status cocci_id/* drivers/dma/dmaengine.c 270 */;
+	struct module *cocci_id/* drivers/dma/dmaengine.c 193 */;
+	void cocci_id/* drivers/dma/dmaengine.c 191 */;
+	dma_cap_mask_t cocci_id/* drivers/dma/dmaengine.c 173 */;
+	const dma_cap_mask_t *cocci_id/* drivers/dma/dmaengine.c 171 */;
+	struct dma_device *cocci_id/* drivers/dma/dmaengine.c 170 */;
+	int cocci_id/* drivers/dma/dmaengine.c 169 */;
+	struct class cocci_id/* drivers/dma/dmaengine.c 159 */;
+	typeof(*chan_dev) cocci_id/* drivers/dma/dmaengine.c 151 */;
+	struct dma_chan_dev *cocci_id/* drivers/dma/dmaengine.c 149 */;
+	struct attribute *cocci_id/* drivers/dma/dmaengine.c 139 */[];
+	int __init cocci_id/* drivers/dma/dmaengine.c 1367 */;
+	struct dma_async_tx_descriptor *cocci_id/* drivers/dma/dmaengine.c 1295 */;
+	gfp_t cocci_id/* drivers/dma/dmaengine.c 1278 */;
+	struct dmaengine_unmap_data *cocci_id/* drivers/dma/dmaengine.c 1277 */;
+	struct dmaengine_unmap_data cocci_id/* drivers/dma/dmaengine.c 1258 */;
+	size_t cocci_id/* drivers/dma/dmaengine.c 1256 */;
+	typeof(*unmap) cocci_id/* drivers/dma/dmaengine.c 1206 */;
+	struct kref *cocci_id/* drivers/dma/dmaengine.c 1204 */;
+	struct dmaengine_unmap_pool *cocci_id/* drivers/dma/dmaengine.c 1183 */;
+	struct dmaengine_unmap_pool cocci_id/* drivers/dma/dmaengine.c 1174 */[];
+	struct dmaengine_unmap_pool {
+		struct kmem_cache *cache;
+		const char *name;
+		mempool_t *pool;
+		size_t size;
+	} cocci_id/* drivers/dma/dmaengine.c 1166 */;
+	struct dma_device **cocci_id/* drivers/dma/dmaengine.c 1156 */;
+	unsigned long cocci_id/* drivers/dma/dmaengine.c 103 */;
+	typeof(*chan->local) cocci_id/* drivers/dma/dmaengine.c 1017 */;
+	struct device_attribute *cocci_id/* drivers/dma/dmaengine.c 100 */;
+	char *cocci_id/* drivers/dma/dmaengine.c 100 */;
+}

@@ -1,0 +1,60 @@
+cocci_test_suite() {
+	u32 *cocci_id/* drivers/mfd/ab8500-debugfs.c 99 */;
+	int __init cocci_id/* drivers/mfd/ab8500-debugfs.c 2104 */;
+	void cocci_id/* drivers/mfd/ab8500-debugfs.c 2104 */;
+	struct platform_driver cocci_id/* drivers/mfd/ab8500-debugfs.c 2096 */;
+	struct resource *cocci_id/* drivers/mfd/ab8500-debugfs.c 2017 */;
+	struct ab8500 *cocci_id/* drivers/mfd/ab8500-debugfs.c 2016 */;
+	struct dentry *cocci_id/* drivers/mfd/ab8500-debugfs.c 2015 */;
+	struct platform_device *cocci_id/* drivers/mfd/ab8500-debugfs.c 2013 */;
+	const struct file_operations cocci_id/* drivers/mfd/ab8500-debugfs.c 1968 */;
+	struct device_attribute cocci_id/* drivers/mfd/ab8500-debugfs.c 1883 */;
+	struct device_attribute *cocci_id/* drivers/mfd/ab8500-debugfs.c 1836 */;
+	char cocci_id/* drivers/mfd/ab8500-debugfs.c 1800 */[128];
+	uint cocci_id/* drivers/mfd/ab8500-debugfs.c 1677 */;
+	struct hwreg_cfg *cocci_id/* drivers/mfd/ab8500-debugfs.c 1674 */;
+	char *cocci_id/* drivers/mfd/ab8500-debugfs.c 1674 */;
+	struct ab8500_reg_range cocci_id/* drivers/mfd/ab8500-debugfs.c 162 */[];
+	u8 cocci_id/* drivers/mfd/ab8500-debugfs.c 1550 */;
+	struct ab8500_prcmu_ranges cocci_id/* drivers/mfd/ab8500-debugfs.c 155 */[AB8500_NUM_BANKS];
+	struct ab8500_prcmu_ranges *cocci_id/* drivers/mfd/ab8500-debugfs.c 153 */;
+	struct irqaction *cocci_id/* drivers/mfd/ab8500-debugfs.c 1529 */;
+	struct irq_desc *cocci_id/* drivers/mfd/ab8500-debugfs.c 1519 */;
+	u32 cocci_id/* drivers/mfd/ab8500-debugfs.c 1502 */[AB8500_MAX_NR_IRQS];
+	unsigned long cocci_id/* drivers/mfd/ab8500-debugfs.c 1434 */;
+	struct device *cocci_id/* drivers/mfd/ab8500-debugfs.c 1433 */;
+	loff_t *cocci_id/* drivers/mfd/ab8500-debugfs.c 1431 */;
+	size_t cocci_id/* drivers/mfd/ab8500-debugfs.c 1431 */;
+	const char __user *cocci_id/* drivers/mfd/ab8500-debugfs.c 1430 */;
+	ssize_t cocci_id/* drivers/mfd/ab8500-debugfs.c 1429 */;
+	struct inode *cocci_id/* drivers/mfd/ab8500-debugfs.c 1424 */;
+	struct file *cocci_id/* drivers/mfd/ab8500-debugfs.c 1424 */;
+	int cocci_id/* drivers/mfd/ab8500-debugfs.c 1424 */;
+	struct seq_file *cocci_id/* drivers/mfd/ab8500-debugfs.c 1418 */;
+	void *cocci_id/* drivers/mfd/ab8500-debugfs.c 1418 */;
+	struct hwreg_cfg cocci_id/* drivers/mfd/ab8500-debugfs.c 141 */;
+	u32 cocci_id/* drivers/mfd/ab8500-debugfs.c 1316 */;
+	struct hwreg_cfg {
+		u32 bank;
+		unsigned long addr;
+		uint fmt;
+		unsigned long mask;
+		long shift;
+	} cocci_id/* drivers/mfd/ab8500-debugfs.c 130 */;
+	unsigned int cocci_id/* drivers/mfd/ab8500-debugfs.c 1258 */;
+	struct kobject *cocci_id/* drivers/mfd/ab8500-debugfs.c 1257 */;
+	char cocci_id/* drivers/mfd/ab8500-debugfs.c 1256 */[16];
+	irqreturn_t cocci_id/* drivers/mfd/ab8500-debugfs.c 1254 */;
+	struct ab8500_prcmu_ranges {
+		u8 num_ranges;
+		u8 bankid;
+		const struct ab8500_reg_range *range;
+	} cocci_id/* drivers/mfd/ab8500-debugfs.c 123 */;
+	struct ab8500_reg_range {
+		u8 first;
+		u8 last;
+		u8 perm;
+	} cocci_id/* drivers/mfd/ab8500-debugfs.c 111 */;
+	char **cocci_id/* drivers/mfd/ab8500-debugfs.c 103 */;
+	struct device_attribute **cocci_id/* drivers/mfd/ab8500-debugfs.c 102 */;
+}

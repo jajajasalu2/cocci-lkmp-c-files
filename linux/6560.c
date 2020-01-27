@@ -1,0 +1,123 @@
+cocci_test_suite() {
+	char *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 993 */;
+	struct fip_fka_desc cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 969 */;
+	struct fip_fab_desc cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 960 */;
+	struct fip_wwn_desc cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 953 */;
+	struct fip_mac_desc cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 938 */;
+	struct fip_pri_desc *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 934 */;
+	struct fip_pri_desc cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 932 */;
+	struct fip_fka_desc *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 896 */;
+	struct fip_fab_desc *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 895 */;
+	struct fip_wwn_desc *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 894 */;
+	struct fip_desc *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 893 */;
+	struct fip_header *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 892 */;
+	struct fc_stats *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 825 */;
+	struct list_head cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 824 */;
+	struct fcoe_fcf *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 819 */;
+	struct fcoe_ctlr *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 817 */;
+	unsigned long cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 817 */;
+	u8 *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 706 */;
+	struct fc_frame cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 704 */;
+	u8 cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 701 */;
+	u16 cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 700 */;
+	const char *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 70 */;
+	struct fc_frame_header *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 699 */;
+	struct sk_buff *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 696 */;
+	int cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 695 */;
+	struct fip_encaps cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 619 */;
+	size_t cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 613 */;
+	struct fip_mac_desc *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 611 */;
+	struct fip_encaps_head {
+		struct ethhdr eth;
+		struct fip_header fip;
+		struct fip_encaps encaps;
+	}__packed *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 605 */;
+	u32 cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 603 */;
+	const char *const cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 57 */[];
+	struct fip_kal *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 553 */;
+	struct fip_kal {
+		struct ethhdr eth;
+		struct fip_header fip;
+		struct fip_mac_desc mac;
+	}__packed *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 533 */;
+	u8 cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 53 */[ETH_ALEN];
+	int cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 50 */(struct fcoe_ctlr *,
+							   struct sk_buff *);
+	int cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 48 */(struct fcoe_ctlr *,
+							   u32, u8 *);
+	void cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 45 */(struct fcoe_ctlr *);
+	int cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 43 */(struct fcoe_ctlr *);
+	void cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 42 */(struct work_struct *);
+	void cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 40 */(struct timer_list *);
+	struct fip_sol *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 393 */;
+	struct fip_sol {
+		struct ethhdr eth;
+		struct fip_header fip;
+		struct {
+			struct fip_mac_desc mac;
+			struct fip_wwn_desc wwnn;
+			struct fip_size_desc size;
+		}__packed desc;
+	}__packed *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 378 */;
+	struct fcoe_hdr cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 367 */;
+	struct fcoe_crc_eof cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 367 */;
+	struct fc_frame_header cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 366 */;
+	struct fcoe_ctlr_device *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 3242 */;
+	struct fcoe_fcf_device *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 3222 */;
+	const struct libfc_function_template *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 3207 */;
+	struct fcoe_rport cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 3177 */;
+	void *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 3171 */;
+	void cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 317 */;
+	struct fc_disc *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 3034 */;
+	void (*cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 3030 */)(struct fc_lport *,
+								 enum fc_disc_event);
+	struct fc_seq_els_data cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 3010 */;
+	struct fc_lport *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 3008 */;
+	struct fc_frame *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 3008 */;
+	enum fip_vlan_subcode cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 2962 */;
+	struct fip_vlan_notify_frame *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 2923 */;
+	struct ethhdr cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 2913 */;
+	struct fip_vlan_notify_frame {
+		struct ethhdr eth;
+		struct fip_header fip;
+		struct fip_mac_desc mac;
+		struct fip_vlan_desc vlan;
+	}__packed *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 2902 */;
+	const u8 *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 2899 */;
+	enum fip_vn2vn_subcode cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 2741 */;
+	struct fc_rport_identifiers *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 2493 */;
+	struct fip_size_desc cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 2365 */;
+	struct fip_fc4_feat cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 2361 */;
+	struct fip_vn_desc cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 2352 */;
+	struct fip_size_desc *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 2279 */;
+	struct fc_rport_priv *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 2167 */;
+	struct fc_rport_operations cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 2155 */;
+	enum fc_rport_event cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 2125 */;
+	struct fip_vn2vn_probe_frame *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 2050 */;
+	struct fip_fc4_feat *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 2030 */;
+	struct fip_vn2vn_probe_frame {
+		struct ethhdr eth;
+		struct fip_header fip;
+		struct fip_mac_desc mac;
+		struct fip_wwn_desc wwnn;
+		struct fip_vn_desc vn;
+	}__packed *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 2023 */;
+	struct fcoe_rport *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 2006 */;
+	unsigned int cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 1970 */;
+	u64 cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 1969 */;
+	unsigned char cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 1969 */[MAX_ADDR_LEN];
+	u8 cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 1933 */[6];
+	struct fcoe_ctlr cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 1882 */;
+	struct work_struct *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 1877 */;
+	struct timer_list *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 1780 */;
+	bool cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 1540 */;
+	enum fip_state cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 1539 */;
+	enum fip_mode cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 138 */;
+	struct ethhdr *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 1327 */;
+	struct fip_vn_desc **cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 1325 */;
+	struct fip_vn_desc *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 1316 */;
+	enum fip_desc_type cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 1144 */;
+	struct fip_encaps *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 1141 */;
+	struct fcoe_fcf cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 1021 */;
+	const struct fcoe_fcf *cocci_id/* drivers/scsi/fcoe/fcoe_ctlr.c 102 */;
+}

@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	void *cocci_id/* net/ipv4/tcp_fastopen.c 70 */;
+	struct tcp_sock *cocci_id/* net/ipv4/tcp_fastopen.c 554 */;
+	u32 cocci_id/* net/ipv4/tcp_fastopen.c 553 */;
+	struct sock *cocci_id/* net/ipv4/tcp_fastopen.c 551 */;
+	void cocci_id/* net/ipv4/tcp_fastopen.c 551 */;
+	struct dst_entry *cocci_id/* net/ipv4/tcp_fastopen.c 528 */;
+	unsigned long cocci_id/* net/ipv4/tcp_fastopen.c 500 */;
+	int cocci_id/* net/ipv4/tcp_fastopen.c 499 */;
+	unsigned int cocci_id/* net/ipv4/tcp_fastopen.c 498 */;
+	struct net *cocci_id/* net/ipv4/tcp_fastopen.c 485 */;
+	u16 cocci_id/* net/ipv4/tcp_fastopen.c 442 */;
+	int *cocci_id/* net/ipv4/tcp_fastopen.c 438 */;
+	const struct dst_entry *cocci_id/* net/ipv4/tcp_fastopen.c 409 */;
+	u16 *cocci_id/* net/ipv4/tcp_fastopen.c 406 */;
+	struct tcp_fastopen_context cocci_id/* net/ipv4/tcp_fastopen.c 39 */;
+	struct rcu_head *cocci_id/* net/ipv4/tcp_fastopen.c 36 */;
+	const struct sock *cocci_id/* net/ipv4/tcp_fastopen.c 325 */;
+	struct fastopen_queue *cocci_id/* net/ipv4/tcp_fastopen.c 291 */;
+	struct request_sock_queue *cocci_id/* net/ipv4/tcp_fastopen.c 237 */;
+	struct tcp_fastopen_cookie cocci_id/* net/ipv4/tcp_fastopen.c 210 */;
+	struct tcp_fastopen_context *cocci_id/* net/ipv4/tcp_fastopen.c 151 */;
+	u8 cocci_id/* net/ipv4/tcp_fastopen.c 15 */[TCP_FASTOPEN_KEY_LENGTH];
+	const struct ipv6hdr *cocci_id/* net/ipv4/tcp_fastopen.c 130 */;
+	const struct iphdr *cocci_id/* net/ipv4/tcp_fastopen.c 119 */;
+	struct tcp_fastopen_cookie *cocci_id/* net/ipv4/tcp_fastopen.c 114 */;
+	const siphash_key_t *cocci_id/* net/ipv4/tcp_fastopen.c 113 */;
+	struct sk_buff *cocci_id/* net/ipv4/tcp_fastopen.c 112 */;
+	bool cocci_id/* net/ipv4/tcp_fastopen.c 111 */;
+	struct request_sock *cocci_id/* net/ipv4/tcp_fastopen.c 111 */;
+}

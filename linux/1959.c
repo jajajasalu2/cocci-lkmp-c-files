@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	uint16_t cocci_id/* drivers/iio/pressure/ms5611_core.c 59 */;
+	bool cocci_id/* drivers/iio/pressure/ms5611_core.c 56 */;
+	u16 *cocci_id/* drivers/iio/pressure/ms5611_core.c 56 */;
+	const struct attribute_group cocci_id/* drivers/iio/pressure/ms5611_core.c 52 */;
+	struct attribute *cocci_id/* drivers/iio/pressure/ms5611_core.c 47 */[];
+	const char cocci_id/* drivers/iio/pressure/ms5611_core.c 43 */[];
+	const char *cocci_id/* drivers/iio/pressure/ms5611_core.c 426 */;
+	struct device *cocci_id/* drivers/iio/pressure/ms5611_core.c 425 */;
+	const struct ms5611_state *cocci_id/* drivers/iio/pressure/ms5611_core.c 420 */;
+	const struct iio_dev *cocci_id/* drivers/iio/pressure/ms5611_core.c 418 */;
+	void cocci_id/* drivers/iio/pressure/ms5611_core.c 418 */;
+	struct ms5611_state *cocci_id/* drivers/iio/pressure/ms5611_core.c 389 */;
+	struct iio_dev *cocci_id/* drivers/iio/pressure/ms5611_core.c 386 */;
+	const struct iio_info cocci_id/* drivers/iio/pressure/ms5611_core.c 380 */;
+	const struct iio_chan_spec cocci_id/* drivers/iio/pressure/ms5611_core.c 350 */[];
+	struct ms5611_chip_info cocci_id/* drivers/iio/pressure/ms5611_core.c 341 */[];
+	const unsigned long cocci_id/* drivers/iio/pressure/ms5611_core.c 339 */[];
+	unsigned short cocci_id/* drivers/iio/pressure/ms5611_core.c 295 */;
+	unsigned int cocci_id/* drivers/iio/pressure/ms5611_core.c 292 */;
+	size_t cocci_id/* drivers/iio/pressure/ms5611_core.c 290 */;
+	const struct ms5611_osr *cocci_id/* drivers/iio/pressure/ms5611_core.c 288 */;
+	const struct ms5611_osr cocci_id/* drivers/iio/pressure/ms5611_core.c 27 */[];
+	int *cocci_id/* drivers/iio/pressure/ms5611_core.c 235 */;
+	long cocci_id/* drivers/iio/pressure/ms5611_core.c 235 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/pressure/ms5611_core.c 234 */;
+	s32 cocci_id/* drivers/iio/pressure/ms5611_core.c 215 */[4];
+	struct iio_poll_func *cocci_id/* drivers/iio/pressure/ms5611_core.c 212 */;
+	irqreturn_t cocci_id/* drivers/iio/pressure/ms5611_core.c 210 */;
+	void *cocci_id/* drivers/iio/pressure/ms5611_core.c 210 */;
+	s64 cocci_id/* drivers/iio/pressure/ms5611_core.c 162 */;
+	s32 cocci_id/* drivers/iio/pressure/ms5611_core.c 161 */;
+	s32 *cocci_id/* drivers/iio/pressure/ms5611_core.c 159 */;
+	struct ms5611_chip_info *cocci_id/* drivers/iio/pressure/ms5611_core.c 158 */;
+	int cocci_id/* drivers/iio/pressure/ms5611_core.c 158 */;
+}

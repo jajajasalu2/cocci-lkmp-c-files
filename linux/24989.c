@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	struct hlist_head cocci_id/* net/batman-adv/send.c 978 */;
+	char *cocci_id/* net/batman-adv/send.c 906 */;
+	struct batadv_forw_packet cocci_id/* net/batman-adv/send.c 866 */;
+	u8 *cocci_id/* net/batman-adv/send.c 861 */;
+	struct net_device *cocci_id/* net/batman-adv/send.c 857 */;
+	struct delayed_work *cocci_id/* net/batman-adv/send.c 853 */;
+	struct batadv_hardif_neigh_node *cocci_id/* net/batman-adv/send.c 852 */;
+	struct work_struct *cocci_id/* net/batman-adv/send.c 849 */;
+	unsigned int cocci_id/* net/batman-adv/send.c 817 */;
+	struct sk_buff *cocci_id/* net/batman-adv/send.c 762 */;
+	struct batadv_bcast_packet *cocci_id/* net/batman-adv/send.c 761 */;
+	struct batadv_forw_packet *cocci_id/* net/batman-adv/send.c 760 */;
+	struct batadv_hard_iface *cocci_id/* net/batman-adv/send.c 759 */;
+	bool cocci_id/* net/batman-adv/send.c 757 */;
+	unsigned long cocci_id/* net/batman-adv/send.c 756 */;
+	const struct sk_buff *cocci_id/* net/batman-adv/send.c 755 */;
+	struct batadv_priv *cocci_id/* net/batman-adv/send.c 754 */;
+	int cocci_id/* net/batman-adv/send.c 754 */;
+	void cocci_id/* net/batman-adv/send.c 712 */;
+	struct ethhdr *cocci_id/* net/batman-adv/send.c 68 */;
+	spinlock_t *cocci_id/* net/batman-adv/send.c 676 */;
+	const u8 *cocci_id/* net/batman-adv/send.c 65 */;
+	struct hlist_node *cocci_id/* net/batman-adv/send.c 647 */;
+	struct hlist_head *cocci_id/* net/batman-adv/send.c 644 */;
+	const struct batadv_hard_iface *cocci_id/* net/batman-adv/send.c 614 */;
+	const char *cocci_id/* net/batman-adv/send.c 508 */;
+	atomic_t *cocci_id/* net/batman-adv/send.c 503 */;
+	void cocci_id/* net/batman-adv/send.c 43 */(struct work_struct *work);
+	unsigned short cocci_id/* net/batman-adv/send.c 337 */;
+	struct batadv_unicast_4addr_packet *cocci_id/* net/batman-adv/send.c 289 */;
+	struct batadv_unicast_packet cocci_id/* net/batman-adv/send.c 268 */;
+	size_t cocci_id/* net/batman-adv/send.c 268 */;
+	struct batadv_orig_node *cocci_id/* net/batman-adv/send.c 266 */;
+	u8 cocci_id/* net/batman-adv/send.c 239 */;
+	struct batadv_unicast_packet *cocci_id/* net/batman-adv/send.c 238 */;
+	struct batadv_neigh_node *cocci_id/* net/batman-adv/send.c 182 */;
+}

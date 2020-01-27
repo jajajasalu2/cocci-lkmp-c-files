@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/edac/skx_base.c 83 */;
+	struct skx_dev *cocci_id/* drivers/edac/skx_base.c 82 */;
+	struct pci_dev *cocci_id/* drivers/edac/skx_base.c 81 */;
+	const struct munit *cocci_id/* drivers/edac/skx_base.c 79 */;
+	void __exit cocci_id/* drivers/edac/skx_base.c 724 */;
+	const struct munit cocci_id/* drivers/edac/skx_base.c 66 */[];
+	const char *cocci_id/* drivers/edac/skx_base.c 645 */;
+	const struct x86_cpu_id *cocci_id/* drivers/edac/skx_base.c 643 */;
+	int __init cocci_id/* drivers/edac/skx_base.c 641 */;
+	void cocci_id/* drivers/edac/skx_base.c 613 */;
+	struct mce cocci_id/* drivers/edac/skx_base.c 597 */;
+	u64 cocci_id/* drivers/edac/skx_base.c 595 */;
+	void *cocci_id/* drivers/edac/skx_base.c 595 */;
+	int cocci_id/* drivers/edac/skx_base.c 595 */;
+	struct dentry *cocci_id/* drivers/edac/skx_base.c 593 */;
+	struct notifier_block cocci_id/* drivers/edac/skx_base.c 582 */;
+	struct decoded_addr *cocci_id/* drivers/edac/skx_base.c 576 */;
+	struct skx_dimm *cocci_id/* drivers/edac/skx_base.c 550 */;
+	struct munit {
+		u16 did;
+		u16 devfn[SKX_NUM_IMC];
+		u8 busidx;
+		u8 per_socket;
+		enum munittype mtype;
+	} cocci_id/* drivers/edac/skx_base.c 53 */;
+	u8 *cocci_id/* drivers/edac/skx_base.c 529 */;
+	u8 cocci_id/* drivers/edac/skx_base.c 513 */[];
+	enum munittype{CHAN0, CHAN1, CHAN2, SAD_ALL, UTIL_ALL, SAD, ERRCHAN0, ERRCHAN1, ERRCHAN2,} cocci_id/* drivers/edac/skx_base.c 48 */;
+	int cocci_id/* drivers/edac/skx_base.c 390 */[];
+	u8 cocci_id/* drivers/edac/skx_base.c 36 */;
+	struct pci_bus *cocci_id/* drivers/edac/skx_base.c 36 */;
+	unsigned int cocci_id/* drivers/edac/skx_base.c 31 */;
+	struct list_head *cocci_id/* drivers/edac/skx_base.c 27 */;
+	typeof(*d) cocci_id/* drivers/edac/skx_base.c 265 */;
+	char *cocci_id/* drivers/edac/skx_base.c 231 */;
+	struct dimm_info *cocci_id/* drivers/edac/skx_base.c 183 */;
+	struct skx_imc *cocci_id/* drivers/edac/skx_base.c 181 */;
+	struct skx_pvt *cocci_id/* drivers/edac/skx_base.c 180 */;
+	struct mem_ctl_info *cocci_id/* drivers/edac/skx_base.c 178 */;
+	bool cocci_id/* drivers/edac/skx_base.c 169 */;
+	const struct x86_cpu_id cocci_id/* drivers/edac/skx_base.c 160 */[];
+}

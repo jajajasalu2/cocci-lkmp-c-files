@@ -1,0 +1,56 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 982 */;
+	const struct of_device_id cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 976 */[];
+	unsigned long long cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 944 */;
+	u64 cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 922 */;
+	struct device_node *cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 858 */;
+	struct device *cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 857 */;
+	const char *cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 853 */[];
+	struct resource cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 851 */;
+	struct platform_device *cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 847 */;
+	const struct nand_controller_ops cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 826 */;
+	unsigned int cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 729 */;
+	struct fsl_lbc_regs __iomem *cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 728 */;
+	struct fsl_lbc_ctrl *cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 727 */;
+	struct fsl_elbc_mtd *cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 726 */;
+	struct mtd_info *cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 725 */;
+	struct nand_chip *cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 723 */;
+	int cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 723 */;
+	struct mtd_oob_region *cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 70 */;
+	struct fsl_elbc_fcm_ctrl *cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 685 */;
+	const uint8_t *cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 655 */;
+	uint8_t *cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 634 */;
+	u8 *cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 596 */;
+	u8 cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 580 */;
+	const u8 *cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 542 */;
+	struct fsl_elbc_fcm_ctrl {
+		struct nand_controller controller;
+		struct fsl_elbc_mtd *chips[MAX_BANKS];
+		u8 __iomem *addr;
+		unsigned int page;
+		unsigned int read_bytes;
+		unsigned int column;
+		unsigned int index;
+		unsigned int status;
+		unsigned int mdr;
+		unsigned int use_mdr;
+		unsigned int oob;
+		unsigned int counter;
+		unsigned int max_bitflips;
+	} cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 50 */;
+	__be32 cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 422 */;
+	struct fsl_elbc_mtd {
+		struct nand_chip chip;
+		struct fsl_lbc_ctrl *ctrl;
+		struct device *dev;
+		int bank;
+		u8 __iomem *vbase;
+		int page_size;
+		unsigned int fmr;
+	} cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 37 */;
+	void cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 307 */;
+	uint32_t cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 253 */;
+	struct nand_bbt_descr cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 126 */;
+	u8 cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 123 */[];
+	const struct mtd_ooblayout_ops cocci_id/* drivers/mtd/nand/raw/fsl_elbc_nand.c 113 */;
+}

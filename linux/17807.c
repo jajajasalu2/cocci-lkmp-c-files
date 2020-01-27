@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	void cocci_id/* arch/ia64/kernel/module.c 914 */;
+	const Elf_Shdr *cocci_id/* arch/ia64/kernel/module.c 906 */;
+	const Elf_Ehdr *cocci_id/* arch/ia64/kernel/module.c 906 */;
+	struct unw_table_entry cocci_id/* arch/ia64/kernel/module.c 851 */;
+	enum reloc_value_formula{RV_DIRECT=4, RV_GPREL=5, RV_LTREL=6, RV_PLTREL=7, RV_FPTR=8, RV_PCREL=9, RV_LTREL_FPTR=10, RV_SEGREL=11, RV_SECREL=12, RV_BDREL=13, RV_LTV=14, RV_PCREL2=15, RV_SPECIAL=16, RV_RSVD17=17, RV_TPREL=18, RV_LTREL_TPREL=19, RV_DTPMOD=20, RV_LTREL_DTPMOD=21, RV_DTPREL=22, RV_LTREL_DTPREL=23, RV_RSVD24=24, RV_RSVD25=25, RV_RSVD26=26, RV_RSVD27=27,} cocci_id/* arch/ia64/kernel/module.c 85 */;
+	struct unw_table_entry *cocci_id/* arch/ia64/kernel/module.c 849 */;
+	Elf64_Sym *cocci_id/* arch/ia64/kernel/module.c 830 */;
+	Elf64_Rela *cocci_id/* arch/ia64/kernel/module.c 793 */;
+	void *cocci_id/* arch/ia64/kernel/module.c 793 */;
+	Elf64_Rela cocci_id/* arch/ia64/kernel/module.c 792 */;
+	const char *cocci_id/* arch/ia64/kernel/module.c 789 */;
+	Elf64_Shdr *cocci_id/* arch/ia64/kernel/module.c 789 */;
+	unsigned int cocci_id/* arch/ia64/kernel/module.c 789 */;
+	uint64_t *cocci_id/* arch/ia64/kernel/module.c 770 */;
+	uint32_t *cocci_id/* arch/ia64/kernel/module.c 769 */;
+	unsigned long cocci_id/* arch/ia64/kernel/module.c 693 */;
+	enum reloc_target_format{RF_NONE=0, RF_INSN14=1, RF_INSN22=2, RF_INSN64=3, RF_32MSB=4, RF_32LSB=5, RF_64MSB=6, RF_64LSB=7, RF_INSN60, RF_INSN21B, RF_INSN21M, RF_INSN21F,} cocci_id/* arch/ia64/kernel/module.c 67 */;
+	int64_t cocci_id/* arch/ia64/kernel/module.c 650 */;
+	enum reloc_value_formula cocci_id/* arch/ia64/kernel/module.c 623 */;
+	enum reloc_target_format cocci_id/* arch/ia64/kernel/module.c 622 */;
+	uint8_t cocci_id/* arch/ia64/kernel/module.c 619 */;
+	struct fdesc *cocci_id/* arch/ia64/kernel/module.c 587 */;
+	int *cocci_id/* arch/ia64/kernel/module.c 585 */;
+	struct plt_entry *cocci_id/* arch/ia64/kernel/module.c 541 */;
+	struct got_entry *cocci_id/* arch/ia64/kernel/module.c 512 */;
+	const struct module *cocci_id/* arch/ia64/kernel/module.c 495 */;
+	struct fdesc cocci_id/* arch/ia64/kernel/module.c 481 */;
+	struct got_entry cocci_id/* arch/ia64/kernel/module.c 477 */;
+	struct plt_entry cocci_id/* arch/ia64/kernel/module.c 469 */;
+	Elf_Shdr *cocci_id/* arch/ia64/kernel/module.c 423 */;
+	Elf_Ehdr *cocci_id/* arch/ia64/kernel/module.c 423 */;
+	char *cocci_id/* arch/ia64/kernel/module.c 423 */;
+	const Elf64_Rela *cocci_id/* arch/ia64/kernel/module.c 387 */;
+	struct plt_entry {
+		unsigned char bundle[3][16];
+	} cocci_id/* arch/ia64/kernel/module.c 259 */;
+	const struct plt_entry cocci_id/* arch/ia64/kernel/module.c 219 */;
+	struct plt_entry {
+		unsigned char bundle[2][16];
+	} cocci_id/* arch/ia64/kernel/module.c 214 */;
+	u64 cocci_id/* arch/ia64/kernel/module.c 207 */;
+	long cocci_id/* arch/ia64/kernel/module.c 204 */;
+	uint64_t cocci_id/* arch/ia64/kernel/module.c 200 */;
+	struct module *cocci_id/* arch/ia64/kernel/module.c 200 */;
+	struct insn *cocci_id/* arch/ia64/kernel/module.c 200 */;
+	int cocci_id/* arch/ia64/kernel/module.c 199 */;
+	const struct insn *cocci_id/* arch/ia64/kernel/module.c 144 */;
+	struct insn cocci_id/* arch/ia64/kernel/module.c 141 */;
+	const char *cocci_id/* arch/ia64/kernel/module.c 115 */[256];
+}

@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	struct resource *cocci_id/* arch/x86/mm/ioremap.c 93 */;
+	unsigned int cocci_id/* arch/x86/mm/ioremap.c 93 */;
+	pte_t *cocci_id/* arch/x86/mm/ioremap.c 856 */;
+	unsigned long cocci_id/* arch/x86/mm/ioremap.c 855 */;
+	phys_addr_t cocci_id/* arch/x86/mm/ioremap.c 853 */;
+	pgprot_t cocci_id/* arch/x86/mm/ioremap.c 853 */;
+	enum fixed_addresses cocci_id/* arch/x86/mm/ioremap.c 852 */;
+	void __init cocci_id/* arch/x86/mm/ioremap.c 852 */;
+	pmd_t *cocci_id/* arch/x86/mm/ioremap.c 815 */;
+	pte_t cocci_id/* arch/x86/mm/ioremap.c 810 */;
+	pte_t *__init cocci_id/* arch/x86/mm/ioremap.c 803 */;
+	pud_t *cocci_id/* arch/x86/mm/ioremap.c 797 */;
+	p4d_t *cocci_id/* arch/x86/mm/ioremap.c 796 */;
+	pgd_t *cocci_id/* arch/x86/mm/ioremap.c 794 */;
+	pmd_t *__init cocci_id/* arch/x86/mm/ioremap.c 791 */;
+	pte_t cocci_id/* arch/x86/mm/ioremap.c 789 */[PAGE_SIZE / sizeof(pte_t)]__page_aligned_bss;
+	void __init *cocci_id/* arch/x86/mm/ioremap.c 768 */;
+	pgprot_t __init cocci_id/* arch/x86/mm/ioremap.c 716 */;
+	struct setup_data *cocci_id/* arch/x86/mm/ioremap.c 658 */;
+	bool __init cocci_id/* arch/x86/mm/ioremap.c 655 */;
+	struct setup_indirect *cocci_id/* arch/x86/mm/ioremap.c 635 */;
+	int __init cocci_id/* arch/x86/mm/ioremap.c 463 */;
+	unsigned long __force cocci_id/* arch/x86/mm/ioremap.c 439 */;
+	void __force *cocci_id/* arch/x86/mm/ioremap.c 420 */;
+	volatile void __iomem *cocci_id/* arch/x86/mm/ioremap.c 416 */;
+	struct ioremap_desc {
+		unsigned int flags;
+	} cocci_id/* arch/x86/mm/ioremap.c 35 */;
+	u64 cocci_id/* arch/x86/mm/ioremap.c 199 */;
+	unsigned long long cocci_id/* arch/x86/mm/ioremap.c 176 */;
+	int cocci_id/* arch/x86/mm/ioremap.c 166 */;
+	struct vm_struct *cocci_id/* arch/x86/mm/ioremap.c 163 */;
+	struct ioremap_desc cocci_id/* arch/x86/mm/ioremap.c 162 */;
+	const unsigned long cocci_id/* arch/x86/mm/ioremap.c 161 */;
+	const resource_size_t cocci_id/* arch/x86/mm/ioremap.c 160 */;
+	bool cocci_id/* arch/x86/mm/ioremap.c 156 */;
+	enum page_cache_mode cocci_id/* arch/x86/mm/ioremap.c 156 */;
+	void *cocci_id/* arch/x86/mm/ioremap.c 156 */;
+	resource_size_t cocci_id/* arch/x86/mm/ioremap.c 155 */;
+	void __iomem *cocci_id/* arch/x86/mm/ioremap.c 154 */;
+	struct ioremap_desc *cocci_id/* arch/x86/mm/ioremap.c 129 */;
+	void cocci_id/* arch/x86/mm/ioremap.c 128 */;
+}

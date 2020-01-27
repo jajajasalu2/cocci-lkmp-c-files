@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	int cocci_id/* drivers/remoteproc/remoteproc_virtio.c 78 */;
+	void *cocci_id/* drivers/remoteproc/remoteproc_virtio.c 77 */;
+	struct fw_rsc_vdev *cocci_id/* drivers/remoteproc/remoteproc_virtio.c 75 */;
+	struct rproc_mem_entry *cocci_id/* drivers/remoteproc/remoteproc_virtio.c 73 */;
+	struct device *cocci_id/* drivers/remoteproc/remoteproc_virtio.c 72 */;
+	struct rproc *cocci_id/* drivers/remoteproc/remoteproc_virtio.c 71 */;
+	struct rproc_vdev *cocci_id/* drivers/remoteproc/remoteproc_virtio.c 70 */;
+	bool cocci_id/* drivers/remoteproc/remoteproc_virtio.c 68 */;
+	const char *cocci_id/* drivers/remoteproc/remoteproc_virtio.c 68 */;
+	void (*cocci_id/* drivers/remoteproc/remoteproc_virtio.c 67 */)(struct virtqueue *vq);
+	unsigned int cocci_id/* drivers/remoteproc/remoteproc_virtio.c 66 */;
+	irqreturn_t cocci_id/* drivers/remoteproc/remoteproc_virtio.c 51 */;
+	struct device_node *cocci_id/* drivers/remoteproc/remoteproc_virtio.c 343 */;
+	phys_addr_t cocci_id/* drivers/remoteproc/remoteproc_virtio.c 340 */;
+	const struct virtio_config_ops cocci_id/* drivers/remoteproc/remoteproc_virtio.c 287 */;
+	const void *cocci_id/* drivers/remoteproc/remoteproc_virtio.c 270 */;
+	u32 cocci_id/* drivers/remoteproc/remoteproc_virtio.c 240 */;
+	u64 cocci_id/* drivers/remoteproc/remoteproc_virtio.c 206 */;
+	u8 cocci_id/* drivers/remoteproc/remoteproc_virtio.c 173 */;
+	struct irq_affinity *cocci_id/* drivers/remoteproc/remoteproc_virtio.c 148 */;
+	const bool *cocci_id/* drivers/remoteproc/remoteproc_virtio.c 147 */;
+	const char *const cocci_id/* drivers/remoteproc/remoteproc_virtio.c 146 */[];
+	vq_callback_t *cocci_id/* drivers/remoteproc/remoteproc_virtio.c 145 */[];
+	struct virtqueue *cocci_id/* drivers/remoteproc/remoteproc_virtio.c 144 */[];
+	struct rproc_vring *cocci_id/* drivers/remoteproc/remoteproc_virtio.c 129 */;
+	struct virtqueue *cocci_id/* drivers/remoteproc/remoteproc_virtio.c 128 */;
+	struct virtio_device *cocci_id/* drivers/remoteproc/remoteproc_virtio.c 126 */;
+	void cocci_id/* drivers/remoteproc/remoteproc_virtio.c 126 */;
+}

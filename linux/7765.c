@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* drivers/tty/serial/meson_uart.c 88 */;
+	struct uart_port *cocci_id/* drivers/tty/serial/meson_uart.c 82 */[AML_UART_PORT_NUM];
+	struct uart_driver cocci_id/* drivers/tty/serial/meson_uart.c 80 */;
+	void __exit cocci_id/* drivers/tty/serial/meson_uart.c 776 */;
+	struct platform_driver cocci_id/* drivers/tty/serial/meson_uart.c 752 */;
+	const struct of_device_id cocci_id/* drivers/tty/serial/meson_uart.c 740 */[];
+	struct uart_port cocci_id/* drivers/tty/serial/meson_uart.c 688 */;
+	struct resource *cocci_id/* drivers/tty/serial/meson_uart.c 655 */;
+	struct platform_device *cocci_id/* drivers/tty/serial/meson_uart.c 653 */;
+	void (*cocci_id/* drivers/tty/serial/meson_uart.c 604 */)(void *);
+	struct device *cocci_id/* drivers/tty/serial/meson_uart.c 587 */;
+	struct clk *cocci_id/* drivers/tty/serial/meson_uart.c 587 */;
+	struct earlycon_device *cocci_id/* drivers/tty/serial/meson_uart.c 558 */;
+	int __init cocci_id/* drivers/tty/serial/meson_uart.c 557 */;
+	int __init cocci_id/* drivers/tty/serial/meson_uart.c 541 */;
+	struct console cocci_id/* drivers/tty/serial/meson_uart.c 531 */;
+	struct console *cocci_id/* drivers/tty/serial/meson_uart.c 508 */;
+	char *cocci_id/* drivers/tty/serial/meson_uart.c 508 */;
+	u_int cocci_id/* drivers/tty/serial/meson_uart.c 497 */;
+	const char *cocci_id/* drivers/tty/serial/meson_uart.c 496 */;
+	unsigned long cocci_id/* drivers/tty/serial/meson_uart.c 470 */;
+	struct uart_port *cocci_id/* drivers/tty/serial/meson_uart.c 457 */;
+	int cocci_id/* drivers/tty/serial/meson_uart.c 457 */;
+	void cocci_id/* drivers/tty/serial/meson_uart.c 457 */;
+	const struct uart_ops cocci_id/* drivers/tty/serial/meson_uart.c 430 */;
+	struct serial_struct *cocci_id/* drivers/tty/serial/meson_uart.c 386 */;
+	struct ktermios *cocci_id/* drivers/tty/serial/meson_uart.c 315 */;
+	irqreturn_t cocci_id/* drivers/tty/serial/meson_uart.c 235 */;
+	void *cocci_id/* drivers/tty/serial/meson_uart.c 235 */;
+	u32 cocci_id/* drivers/tty/serial/meson_uart.c 179 */;
+	char cocci_id/* drivers/tty/serial/meson_uart.c 178 */;
+	struct tty_port *cocci_id/* drivers/tty/serial/meson_uart.c 177 */;
+	struct circ_buf *cocci_id/* drivers/tty/serial/meson_uart.c 139 */;
+}

@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct komeda_crtc_state *cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 79 */;
+	struct drm_crtc_state *cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 76 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 606 */;
+	int cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 603 */;
+	struct komeda_plane *cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 587 */;
+	struct komeda_kms_dev *cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 585 */;
+	struct komeda_crtc *cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 585 */;
+	struct drm_plane *cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 584 */;
+	char cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 558 */[16];
+	const struct drm_crtc_funcs cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 541 */;
+	void cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 517 */;
+	u64 cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 49 */;
+	const struct drm_crtc_helper_funcs cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 472 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 449 */;
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 448 */;
+	enum drm_mode_status cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 415 */;
+	unsigned long cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 389 */;
+	bool cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 327 */;
+	struct completion *cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 326 */;
+	struct komeda_pipeline *cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 324 */;
+	struct completion cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 290 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 287 */;
+	struct drm_connector_state *cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 252 */;
+	struct komeda_wb_connector *cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 251 */;
+	u32 cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 25 */;
+	struct komeda_dev *cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 248 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 23 */;
+	struct drm_pending_vblank_event *cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 220 */;
+	u32 *cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 21 */;
+	struct komeda_events *cocci_id/* drivers/gpu/drm/arm/display/komeda/komeda_crtc.c 197 */;
+}

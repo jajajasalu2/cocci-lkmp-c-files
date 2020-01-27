@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 988 */;
+	enum forcewake_domains cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 987 */;
+	struct i915_wa *cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 88 */;
+	const unsigned int cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 87 */;
+	unsigned int cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 85 */;
+	const struct i915_wa *cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 83 */;
+	const struct sseu_dev_info *cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 757 */;
+	struct drm_i915_private *cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 581 */;
+	const char *cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 579 */;
+	struct i915_wa_list *cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 578 */;
+	struct intel_engine_cs *cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 577 */;
+	void cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 576 */;
+	u8 cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 379 */;
+	u8 cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 375 */[3];
+	i915_reg_t cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 164 */;
+	u32 *cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 1567 */;
+	struct i915_request *cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 1564 */;
+	const struct i915_wa_list *const cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 1560 */;
+	struct intel_context *cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 1559 */;
+	struct i915_wa cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 153 */;
+	u32 cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 1482 */;
+	struct drm_i915_gem_object *cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 1477 */;
+	struct i915_address_space *cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 1475 */;
+	int cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 1475 */;
+	struct i915_vma *cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 1474 */;
+	const u32 cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 1276 */;
+	struct intel_uncore *cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 1275 */;
+	const struct i915_wa_list *cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 1274 */;
+	bool cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 1033 */;
+	struct intel_gt *cocci_id/* drivers/gpu/drm/i915/gt/intel_workarounds.c 1012 */;
+}

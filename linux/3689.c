@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/crypto/marvell/cesa.c 600 */;
+	const struct platform_device_id cocci_id/* drivers/crypto/marvell/cesa.c 594 */[];
+	char cocci_id/* drivers/crypto/marvell/cesa.c 493 */[7];
+	const struct of_device_id *cocci_id/* drivers/crypto/marvell/cesa.c 436 */;
+	const struct mv_cesa_caps *cocci_id/* drivers/crypto/marvell/cesa.c 434 */;
+	unsigned long cocci_id/* drivers/crypto/marvell/cesa.c 425 */;
+	struct crypto_async_request **cocci_id/* drivers/crypto/marvell/cesa.c 39 */;
+	struct resource *cocci_id/* drivers/crypto/marvell/cesa.c 379 */;
+	const char *cocci_id/* drivers/crypto/marvell/cesa.c 378 */;
+	struct platform_device *cocci_id/* drivers/crypto/marvell/cesa.c 374 */;
+	struct mv_cesa_op_ctx cocci_id/* drivers/crypto/marvell/cesa.c 356 */;
+	struct mv_cesa_tdma_desc cocci_id/* drivers/crypto/marvell/cesa.c 350 */;
+	struct mv_cesa_dev *cocci_id/* drivers/crypto/marvell/cesa.c 35 */;
+	struct mv_cesa_dev_dma *cocci_id/* drivers/crypto/marvell/cesa.c 340 */;
+	struct device *cocci_id/* drivers/crypto/marvell/cesa.c 339 */;
+	const struct mbus_dram_window *cocci_id/* drivers/crypto/marvell/cesa.c 327 */;
+	void __iomem *cocci_id/* drivers/crypto/marvell/cesa.c 318 */;
+	const struct mbus_dram_target_info *cocci_id/* drivers/crypto/marvell/cesa.c 316 */;
+	struct mv_cesa_engine *cocci_id/* drivers/crypto/marvell/cesa.c 315 */;
+	const struct of_device_id cocci_id/* drivers/crypto/marvell/cesa.c 302 */[];
+	const struct mv_cesa_caps cocci_id/* drivers/crypto/marvell/cesa.c 284 */;
+	struct ahash_alg *cocci_id/* drivers/crypto/marvell/cesa.c 257 */[];
+	struct skcipher_alg *cocci_id/* drivers/crypto/marvell/cesa.c 248 */[];
+	int cocci_id/* drivers/crypto/marvell/cesa.c 190 */;
+	struct mv_cesa_req *cocci_id/* drivers/crypto/marvell/cesa.c 170 */;
+	u32 cocci_id/* drivers/crypto/marvell/cesa.c 118 */;
+	irqreturn_t cocci_id/* drivers/crypto/marvell/cesa.c 113 */;
+	void *cocci_id/* drivers/crypto/marvell/cesa.c 113 */;
+	struct mv_cesa_ctx *cocci_id/* drivers/crypto/marvell/cesa.c 104 */;
+	struct crypto_async_request *cocci_id/* drivers/crypto/marvell/cesa.c 104 */;
+	void cocci_id/* drivers/crypto/marvell/cesa.c 103 */;
+}

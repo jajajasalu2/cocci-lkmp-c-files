@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	struct spi_driver cocci_id/* drivers/iio/dac/ad5758.c 893 */;
+	const struct of_device_id cocci_id/* drivers/iio/dac/ad5758.c 887 */[];
+	const struct spi_device_id cocci_id/* drivers/iio/dac/ad5758.c 881 */[];
+	struct iio_dev *cocci_id/* drivers/iio/dac/ad5758.c 843 */;
+	struct spi_device *cocci_id/* drivers/iio/dac/ad5758.c 840 */;
+	int *cocci_id/* drivers/iio/dac/ad5758.c 700 */;
+	const struct ad5758_range *cocci_id/* drivers/iio/dac/ad5758.c 677 */;
+	unsigned int cocci_id/* drivers/iio/dac/ad5758.c 668 */;
+	enum ad5758_dc_dc_mode cocci_id/* drivers/iio/dac/ad5758.c 654 */;
+	const struct iio_chan_spec cocci_id/* drivers/iio/dac/ad5758.c 650 */[];
+	const struct iio_chan_spec_ext_info cocci_id/* drivers/iio/dac/ad5758.c 626 */[];
+	const struct iio_info cocci_id/* drivers/iio/dac/ad5758.c 620 */;
+	const char *cocci_id/* drivers/iio/dac/ad5758.c 583 */;
+	size_t cocci_id/* drivers/iio/dac/ad5758.c 583 */;
+	char *cocci_id/* drivers/iio/dac/ad5758.c 573 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/dac/ad5758.c 572 */;
+	uintptr_t cocci_id/* drivers/iio/dac/ad5758.c 571 */;
+	ssize_t cocci_id/* drivers/iio/dac/ad5758.c 570 */;
+	long cocci_id/* drivers/iio/dac/ad5758.c 521 */;
+	unsigned int *cocci_id/* drivers/iio/dac/ad5758.c 496 */;
+	bool cocci_id/* drivers/iio/dac/ad5758.c 463 */;
+	u64 cocci_id/* drivers/iio/dac/ad5758.c 400 */;
+	s64 cocci_id/* drivers/iio/dac/ad5758.c 399 */;
+	unsigned long int cocci_id/* drivers/iio/dac/ad5758.c 376 */;
+	struct ad5758_state *cocci_id/* drivers/iio/dac/ad5758.c 284 */;
+	int cocci_id/* drivers/iio/dac/ad5758.c 284 */;
+	const int *cocci_id/* drivers/iio/dac/ad5758.c 246 */;
+	const void *cocci_id/* drivers/iio/dac/ad5758.c 241 */;
+	struct spi_transfer cocci_id/* drivers/iio/dac/ad5758.c 189 */[];
+	const int cocci_id/* drivers/iio/dac/ad5758.c 183 */[6];
+	const int cocci_id/* drivers/iio/dac/ad5758.c 179 */[8];
+	const int cocci_id/* drivers/iio/dac/ad5758.c 174 */[16];
+	const struct ad5758_range cocci_id/* drivers/iio/dac/ad5758.c 165 */[];
+	enum ad5758_dc_dc_mode{AD5758_DCDC_MODE_POWER_OFF, AD5758_DCDC_MODE_DPC_CURRENT, AD5758_DCDC_MODE_DPC_VOLTAGE, AD5758_DCDC_MODE_PPC_CURRENT,} cocci_id/* drivers/iio/dac/ad5758.c 151 */;
+	enum ad5758_output_range{AD5758_RANGE_0V_5V, AD5758_RANGE_0V_10V, AD5758_RANGE_PLUSMINUS_5V, AD5758_RANGE_PLUSMINUS_10V, AD5758_RANGE_0mA_20mA=8, AD5758_RANGE_0mA_24mA, AD5758_RANGE_4mA_24mA, AD5758_RANGE_PLUSMINUS_20mA, AD5758_RANGE_PLUSMINUS_24mA, AD5758_RANGE_MINUS_1mA_PLUS_22mA,} cocci_id/* drivers/iio/dac/ad5758.c 138 */;
+	struct ad5758_state {
+		struct spi_device *spi;
+		struct mutex lock;
+		struct gpio_desc *gpio_reset;
+		struct ad5758_range out_range;
+		unsigned int dc_dc_mode;
+		unsigned int dc_dc_ilim;
+		unsigned int slew_time;
+		bool pwr_down;
+		__be32 d32[3];
+	} cocci_id/* drivers/iio/dac/ad5758.c 113 */;
+	struct ad5758_range {
+		int reg;
+		int min;
+		int max;
+	} cocci_id/* drivers/iio/dac/ad5758.c 107 */;
+}

@@ -1,0 +1,56 @@
+cocci_test_suite() {
+	struct mpa_v2_data *cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 771 */;
+	enum mpa_v2_ctrl cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 725 */;
+	struct mpa_rr *cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 720 */;
+	enum siw_qp_attr_mask cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 718 */;
+	u32 cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 537 */;
+	struct mpa_rr cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 507 */;
+	struct msghdr cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 458 */;
+	struct kvec cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 457 */[3];
+	int cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 38 */(struct siw_cep *cep,
+								enum iw_cm_event_type reason,
+								int status);
+	void cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 35 */(struct sock *s);
+	u16 cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 338 */;
+	const bool cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 32 */;
+	struct iw_cm_event cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 312 */;
+	__be16 cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 31 */;
+	enum iw_cm_event_type cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 309 */;
+	struct siw_cm_work *cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 288 */;
+	unsigned long cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 253 */;
+	struct siw_device *cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 252 */;
+	struct siw_cep cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 251 */;
+	struct siw_cep *cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 251 */;
+	struct kref *cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 249 */;
+	void cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 249 */;
+	struct sockaddr_in6 *cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1970 */;
+	struct inet6_ifaddr *cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1969 */;
+	struct inet6_dev *cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1968 */;
+	const struct in_ifaddr *cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1942 */;
+	struct in_device *cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1940 */;
+	struct siw_cm_work cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 193 */;
+	struct net_device *cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1929 */;
+	struct list_head *cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 189 */;
+	struct list_head cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1846 */;
+	u8 cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1737 */;
+	const void *cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1737 */;
+	struct mpa_v2_data cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1607 */;
+	bool cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1554 */;
+	struct siw_qp_attrs cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1552 */;
+	struct siw_qp *cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1551 */;
+	struct iw_cm_id *cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1547 */;
+	struct iw_cm_conn_param *cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1547 */;
+	char *cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1323 */;
+	struct sockaddr_in6 cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1318 */;
+	struct sockaddr_in cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1318 */;
+	size_t cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1317 */;
+	struct socket *cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1313 */;
+	struct sockaddr *cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1313 */;
+	int cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1313 */;
+	void (*cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1276 */)(struct sock *s);
+	struct sock *cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1221 */;
+	enum siw_work_type cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1189 */;
+	struct workqueue_struct *cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1187 */;
+	read_descriptor_t cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 110 */;
+	struct work_struct *cocci_id/* drivers/infiniband/sw/siw/siw_cm.c 1002 */;
+}

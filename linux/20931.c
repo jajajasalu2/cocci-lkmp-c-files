@@ -1,0 +1,75 @@
+cocci_test_suite() {
+	struct platform_device *cocci_id/* arch/um/drivers/virtio_uml.c 983 */;
+	struct virtio_device cocci_id/* arch/um/drivers/virtio_uml.c 969 */;
+	struct virtio_device *cocci_id/* arch/um/drivers/virtio_uml.c 968 */;
+	struct device *cocci_id/* arch/um/drivers/virtio_uml.c 966 */;
+	const struct virtio_config_ops cocci_id/* arch/um/drivers/virtio_uml.c 953 */;
+	const char *cocci_id/* arch/um/drivers/virtio_uml.c 946 */;
+	bool cocci_id/* arch/um/drivers/virtio_uml.c 94 */;
+	void *cocci_id/* arch/um/drivers/virtio_uml.c 94 */;
+	int cocci_id/* arch/um/drivers/virtio_uml.c 94 */;
+	struct irq_affinity *cocci_id/* arch/um/drivers/virtio_uml.c 884 */;
+	const char *constcocci_id/* arch/um/drivers/virtio_uml.c 883 */[];
+	const bool *cocci_id/* arch/um/drivers/virtio_uml.c 883 */;
+	vq_callback_t *cocci_id/* arch/um/drivers/virtio_uml.c 882 */[];
+	struct virtqueue *cocci_id/* arch/um/drivers/virtio_uml.c 882 */[];
+	unsigned cocci_id/* arch/um/drivers/virtio_uml.c 881 */;
+	vq_callback_t *cocci_id/* arch/um/drivers/virtio_uml.c 814 */;
+	struct virtio_uml_vq_info *cocci_id/* arch/um/drivers/virtio_uml.c 750 */;
+	const int *cocci_id/* arch/um/drivers/virtio_uml.c 75 */;
+	struct virtqueue *cocci_id/* arch/um/drivers/virtio_uml.c 748 */;
+	const void *cocci_id/* arch/um/drivers/virtio_uml.c 74 */;
+	unsigned int cocci_id/* arch/um/drivers/virtio_uml.c 74 */;
+	u8 cocci_id/* arch/um/drivers/virtio_uml.c 727 */;
+	irqreturn_t cocci_id/* arch/um/drivers/virtio_uml.c 693 */;
+	const uint64_t cocci_id/* arch/um/drivers/virtio_uml.c 684 */;
+	unsigned long long cocci_id/* arch/um/drivers/virtio_uml.c 68 */;
+	struct virtio_uml_vq_info {
+		int kick_fd,call_fd;
+		char name[32];
+	} cocci_id/* arch/um/drivers/virtio_uml.c 63 */;
+	int cocci_id/* arch/um/drivers/virtio_uml.c 536 */[2];
+	unsigned long cocci_id/* arch/um/drivers/virtio_uml.c 535 */;
+	struct virtio_uml_device {
+		struct virtio_device vdev;
+		struct platform_device *pdev;
+		int sock,req_fd;
+		u64 features;
+		u64 protocol_features;
+		u8 status;
+		u8 registered:1;
+	} cocci_id/* arch/um/drivers/virtio_uml.c 52 */;
+	struct vhost_user_mem_region *cocci_id/* arch/um/drivers/virtio_uml.c 507 */;
+	u64 cocci_id/* arch/um/drivers/virtio_uml.c 506 */;
+	int *cocci_id/* arch/um/drivers/virtio_uml.c 506 */;
+	struct virtio_uml_platform_data {
+		u32 virtio_device_id;
+		const char *socket_path;
+		struct work_struct conn_broken_wk;
+		struct platform_device *pdev;
+	} cocci_id/* arch/um/drivers/virtio_uml.c 45 */;
+	size_t cocci_id/* arch/um/drivers/virtio_uml.c 431 */;
+	struct vhost_user_msg *cocci_id/* arch/um/drivers/virtio_uml.c 430 */;
+	struct virtio_uml_device cocci_id/* arch/um/drivers/virtio_uml.c 43 */;
+	u32 cocci_id/* arch/um/drivers/virtio_uml.c 427 */;
+	struct virtio_uml_device *cocci_id/* arch/um/drivers/virtio_uml.c 426 */;
+	void cocci_id/* arch/um/drivers/virtio_uml.c 426 */;
+	struct {
+		struct vhost_user_msg msg;
+		u8 extra_payload[512];
+	} cocci_id/* arch/um/drivers/virtio_uml.c 328 */;
+	u64 *cocci_id/* arch/um/drivers/virtio_uml.c 268 */;
+	uint64_t cocci_id/* arch/um/drivers/virtio_uml.c 215 */;
+	struct vhost_user_msg cocci_id/* arch/um/drivers/virtio_uml.c 159 */;
+	struct virtio_uml_platform_data *cocci_id/* arch/um/drivers/virtio_uml.c 126 */;
+	void __exit cocci_id/* arch/um/drivers/virtio_uml.c 1192 */;
+	int __init cocci_id/* arch/um/drivers/virtio_uml.c 1187 */;
+	struct platform_driver cocci_id/* arch/um/drivers/virtio_uml.c 1178 */;
+	const struct of_device_id cocci_id/* arch/um/drivers/virtio_uml.c 1172 */[];
+	const struct kernel_param_ops cocci_id/* arch/um/drivers/virtio_uml.c 1146 */;
+	const struct kernel_param *cocci_id/* arch/um/drivers/virtio_uml.c 1137 */;
+	char *cocci_id/* arch/um/drivers/virtio_uml.c 1137 */;
+	struct virtio_uml_platform_data cocci_id/* arch/um/drivers/virtio_uml.c 1074 */;
+	struct work_struct *cocci_id/* arch/um/drivers/virtio_uml.c 1060 */;
+	struct device cocci_id/* arch/um/drivers/virtio_uml.c 1042 */;
+}

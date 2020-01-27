@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct pci_driver cocci_id/* drivers/ata/pata_amd.c 625 */;
+	const struct pci_device_id cocci_id/* drivers/ata/pata_amd.c 599 */[];
+	struct ata_host *cocci_id/* drivers/ata/pata_amd.c 581 */;
+	unsigned long cocci_id/* drivers/ata/pata_amd.c 571 */;
+	u32 cocci_id/* drivers/ata/pata_amd.c 568 */;
+	const int cocci_id/* drivers/ata/pata_amd.c 54 */;
+	void *cocci_id/* drivers/ata/pata_amd.c 534 */;
+	const struct ata_port_info *cocci_id/* drivers/ata/pata_amd.c 532 */[];
+	struct ata_timing cocci_id/* drivers/ata/pata_amd.c 52 */;
+	const struct ata_port_info cocci_id/* drivers/ata/pata_amd.c 460 */[10];
+	const struct pci_device_id *cocci_id/* drivers/ata/pata_amd.c 458 */;
+	const unsigned char cocci_id/* drivers/ata/pata_amd.c 45 */[];
+	struct ata_port_operations cocci_id/* drivers/ata/pata_amd.c 414 */;
+	const struct ata_port_operations cocci_id/* drivers/ata/pata_amd.c 395 */;
+	struct scsi_host_template cocci_id/* drivers/ata/pata_amd.c 391 */;
+	const struct ata_acpi_gtm *cocci_id/* drivers/ata/pata_amd.c 277 */;
+	char cocci_id/* drivers/ata/pata_amd.c 275 */[32];
+	const unsigned int cocci_id/* drivers/ata/pata_amd.c 271 */[];
+	struct ata_port *cocci_id/* drivers/ata/pata_amd.c 252 */;
+	struct ata_device *cocci_id/* drivers/ata/pata_amd.c 252 */;
+	void cocci_id/* drivers/ata/pata_amd.c 252 */;
+	const u8 cocci_id/* drivers/ata/pata_amd.c 182 */[2];
+	u8 cocci_id/* drivers/ata/pata_amd.c 159 */;
+	struct pci_dev *cocci_id/* drivers/ata/pata_amd.c 158 */;
+	const u32 cocci_id/* drivers/ata/pata_amd.c 157 */[2];
+	int cocci_id/* drivers/ata/pata_amd.c 155 */;
+	const struct pci_bits cocci_id/* drivers/ata/pata_amd.c 134 */[];
+	struct ata_link *cocci_id/* drivers/ata/pata_amd.c 132 */;
+}

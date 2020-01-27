@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	void cocci_id/* drivers/misc/tifm_core.c 85 */;
+	struct kobj_uevent_env *cocci_id/* drivers/misc/tifm_core.c 58 */;
+	struct tifm_device_id *cocci_id/* drivers/misc/tifm_core.c 46 */;
+	struct tifm_driver cocci_id/* drivers/misc/tifm_core.c 44 */;
+	struct tifm_driver *cocci_id/* drivers/misc/tifm_core.c 44 */;
+	struct device_driver *cocci_id/* drivers/misc/tifm_core.c 41 */;
+	void __exit cocci_id/* drivers/misc/tifm_core.c 353 */;
+	int __init cocci_id/* drivers/misc/tifm_core.c 328 */;
+	struct work_struct *cocci_id/* drivers/misc/tifm_core.c 308 */;
+	struct scatterlist *cocci_id/* drivers/misc/tifm_core.c 294 */;
+	struct tifm_dev cocci_id/* drivers/misc/tifm_core.c 257 */;
+	unsigned char cocci_id/* drivers/misc/tifm_core.c 250 */;
+	const char *cocci_id/* drivers/misc/tifm_core.c 23 */[3][3];
+	const char *cocci_id/* drivers/misc/tifm_core.c 21 */;
+	struct tifm_adapter *cocci_id/* drivers/misc/tifm_core.c 193 */;
+	int cocci_id/* drivers/misc/tifm_core.c 193 */;
+	struct tifm_dev *cocci_id/* drivers/misc/tifm_core.c 181 */;
+	struct tifm_adapter cocci_id/* drivers/misc/tifm_core.c 180 */;
+	struct device *cocci_id/* drivers/misc/tifm_core.c 176 */;
+	unsigned int cocci_id/* drivers/misc/tifm_core.c 175 */;
+	struct class cocci_id/* drivers/misc/tifm_core.c 170 */;
+	struct workqueue_struct *cocci_id/* drivers/misc/tifm_core.c 17 */;
+	struct bus_type cocci_id/* drivers/misc/tifm_core.c 152 */;
+	struct attribute *cocci_id/* drivers/misc/tifm_core.c 146 */[];
+	char *cocci_id/* drivers/misc/tifm_core.c 139 */;
+	struct device_attribute *cocci_id/* drivers/misc/tifm_core.c 138 */;
+	ssize_t cocci_id/* drivers/misc/tifm_core.c 138 */;
+	pm_message_t cocci_id/* drivers/misc/tifm_core.c 109 */;
+}

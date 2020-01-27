@@ -1,0 +1,47 @@
+cocci_test_suite() {
+	struct snd_pcm *cocci_id/* sound/isa/gus/gus_pcm.c 859 */;
+	struct snd_kcontrol *cocci_id/* sound/isa/gus/gus_pcm.c 858 */;
+	struct snd_card *cocci_id/* sound/isa/gus/gus_pcm.c 857 */;
+	const struct snd_pcm_ops cocci_id/* sound/isa/gus/gus_pcm.c 844 */;
+	const struct snd_kcontrol_new cocci_id/* sound/isa/gus/gus_pcm.c 812 */;
+	struct snd_ctl_elem_value *cocci_id/* sound/isa/gus/gus_pcm.c 758 */;
+	struct snd_ctl_elem_info *cocci_id/* sound/isa/gus/gus_pcm.c 749 */;
+	const struct snd_pcm_hardware cocci_id/* sound/isa/gus/gus_pcm.c 656 */;
+	struct snd_gf1_dma_block cocci_id/* sound/isa/gus/gus_pcm.c 64 */;
+	snd_pcm_uframes_t cocci_id/* sound/isa/gus/gus_pcm.c 618 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/isa/gus/gus_pcm.c 563 */;
+	const struct snd_pcm_hw_constraint_ratnums cocci_id/* sound/isa/gus/gus_pcm.c 557 */;
+	const struct snd_ratnum cocci_id/* sound/isa/gus/gus_pcm.c 550 */;
+	void *cocci_id/* sound/isa/gus/gus_pcm.c 49 */;
+	void cocci_id/* sound/isa/gus/gus_pcm.c 49 */;
+	struct snd_gf1_mem_block *cocci_id/* sound/isa/gus/gus_pcm.c 431 */;
+	void __user *cocci_id/* sound/isa/gus/gus_pcm.c 372 */;
+	unsigned long cocci_id/* sound/isa/gus/gus_pcm.c 371 */;
+	struct snd_gus_card *cocci_id/* sound/isa/gus/gus_pcm.c 357 */;
+	struct snd_pcm_runtime *cocci_id/* sound/isa/gus/gus_pcm.c 355 */;
+	struct snd_pcm_substream *cocci_id/* sound/isa/gus/gus_pcm.c 352 */;
+	struct gus_pcm_private *cocci_id/* sound/isa/gus/gus_pcm.c 341 */;
+	unsigned int cocci_id/* sound/isa/gus/gus_pcm.c 341 */;
+	int cocci_id/* sound/isa/gus/gus_pcm.c 341 */;
+	struct gus_pcm_private {
+		struct snd_gus_card *gus;
+		struct snd_pcm_substream *substream;
+		spinlock_t lock;
+		unsigned int voices;
+		struct snd_gus_voice *pvoices[2];
+		unsigned int memory;
+		unsigned short flags;
+		unsigned char voice_ctrl,ramp_ctrl;
+		unsigned int bpos;
+		unsigned int blocks;
+		unsigned int block_size;
+		unsigned int dma_size;
+		wait_queue_head_t sleep;
+		atomic_t dma_count;
+		int final_volume;
+	} cocci_id/* sound/isa/gus/gus_pcm.c 31 */;
+	unsigned char *cocci_id/* sound/isa/gus/gus_pcm.c 289 */;
+	unsigned short cocci_id/* sound/isa/gus/gus_pcm.c 259 */;
+	struct snd_gus_voice *cocci_id/* sound/isa/gus/gus_pcm.c 257 */;
+	unsigned char cocci_id/* sound/isa/gus/gus_pcm.c 176 */;
+}

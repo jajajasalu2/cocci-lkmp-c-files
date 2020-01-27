@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	int __init cocci_id/* drivers/pinctrl/pinctrl-rza2.c 510 */;
+	struct platform_driver cocci_id/* drivers/pinctrl/pinctrl-rza2.c 502 */;
+	void *cocci_id/* drivers/pinctrl/pinctrl-rza2.c 498 */;
+	const struct of_device_id cocci_id/* drivers/pinctrl/pinctrl-rza2.c 497 */[];
+	uintptr_t cocci_id/* drivers/pinctrl/pinctrl-rza2.c 479 */;
+	struct platform_device *cocci_id/* drivers/pinctrl/pinctrl-rza2.c 462 */;
+	const struct pinmux_ops cocci_id/* drivers/pinctrl/pinctrl-rza2.c 454 */;
+	struct group_desc *cocci_id/* drivers/pinctrl/pinctrl-rza2.c 427 */;
+	struct function_desc *cocci_id/* drivers/pinctrl/pinctrl-rza2.c 425 */;
+	const struct pinctrl_ops cocci_id/* drivers/pinctrl/pinctrl-rza2.c 413 */;
+	struct pinctrl_map *cocci_id/* drivers/pinctrl/pinctrl-rza2.c 408 */;
+	struct pinctrl_dev *cocci_id/* drivers/pinctrl/pinctrl-rza2.c 407 */;
+	struct rza2_pinctrl_priv {
+		struct device *dev;
+		void __iomem *base;
+		struct pinctrl_pin_desc *pins;
+		struct pinctrl_desc desc;
+		struct pinctrl_dev *pctl;
+		struct pinctrl_gpio_range gpio_range;
+		int npins;
+	} cocci_id/* drivers/pinctrl/pinctrl-rza2.c 40 */;
+	const char cocci_id/* drivers/pinctrl/pinctrl-rza2.c 38 */[];
+	u32 cocci_id/* drivers/pinctrl/pinctrl-rza2.c 342 */;
+	const char **cocci_id/* drivers/pinctrl/pinctrl-rza2.c 334 */;
+	struct property *cocci_id/* drivers/pinctrl/pinctrl-rza2.c 333 */;
+	unsigned int *cocci_id/* drivers/pinctrl/pinctrl-rza2.c 328 */;
+	struct pinctrl_map **cocci_id/* drivers/pinctrl/pinctrl-rza2.c 327 */;
+	struct device_node *cocci_id/* drivers/pinctrl/pinctrl-rza2.c 326 */;
+	struct pinctrl_pin_desc *cocci_id/* drivers/pinctrl/pinctrl-rza2.c 281 */;
+	struct of_phandle_args cocci_id/* drivers/pinctrl/pinctrl-rza2.c 239 */;
+	struct gpio_chip cocci_id/* drivers/pinctrl/pinctrl-rza2.c 226 */;
+	const char *constcocci_id/* drivers/pinctrl/pinctrl-rza2.c 200 */[];
+	void cocci_id/* drivers/pinctrl/pinctrl-rza2.c 171 */;
+	u8 cocci_id/* drivers/pinctrl/pinctrl-rza2.c 165 */;
+	struct rza2_pinctrl_priv *cocci_id/* drivers/pinctrl/pinctrl-rza2.c 155 */;
+	unsigned int cocci_id/* drivers/pinctrl/pinctrl-rza2.c 153 */;
+	struct gpio_chip *cocci_id/* drivers/pinctrl/pinctrl-rza2.c 152 */;
+	int cocci_id/* drivers/pinctrl/pinctrl-rza2.c 152 */;
+	u16 cocci_id/* drivers/pinctrl/pinctrl-rza2.c 132 */;
+	void __iomem *cocci_id/* drivers/pinctrl/pinctrl-rza2.c 107 */;
+}

@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	const struct usb_device_id *cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 984 */;
+	struct device *cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 957 */;
+	struct usb_device *cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 955 */;
+	const struct firmware *cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 918 */;
+	struct p54u_priv *cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 853 */;
+	int cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 853 */;
+	const struct p54p_csr *cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 628 */;
+	unsigned long cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 505 */;
+	struct x2_header *cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 504 */;
+	const u8 *cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 502 */;
+	u8 cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 500 */;
+	const char cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 495 */[];
+	u8 *cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 479 */;
+	struct ieee80211_hw *cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 450 */;
+	void *cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 443 */;
+	size_t cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 443 */;
+	unsigned int cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 442 */;
+	const struct usb_device_id cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 43 */[];
+	struct net2280_reg_read *cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 415 */;
+	__le32 *cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 413 */;
+	enum net2280_op_type cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 412 */;
+	struct usb_driver cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 33 */;
+	struct net2280_reg_write *cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 327 */;
+	struct net2280_tx_hdr *cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 326 */;
+	struct p54_hdr *cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 306 */;
+	struct lm87_tx_hdr *cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 297 */;
+	u32 cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 282 */;
+	__le32 cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 280 */;
+	const __le32 *cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 280 */;
+	struct p54u_rx_info *cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 226 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 225 */;
+	struct urb *cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 224 */;
+	const struct {
+		u32 intf;
+		enum p54u_hw_type type;
+		const char *fw;
+		char hw[20];
+	} cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 119 */[__NUM_P54U_HWTYPES];
+	pm_message_t cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 1116 */;
+	struct usb_interface *cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 1054 */;
+	void cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 1054 */;
+	struct net2280_tx_hdr cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 1043 */;
+	struct lm87_tx_hdr cocci_id/* drivers/net/wireless/intersil/p54/p54usb.c 1037 */;
+}

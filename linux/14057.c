@@ -1,0 +1,103 @@
+cocci_test_suite() {
+	enum vdec_get_param_type cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 971 */;
+	struct vdec_vp9_inst *cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 961 */;
+	struct v4l2_rect *cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 961 */;
+	void cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 961 */;
+	unsigned char *cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 853 */;
+	unsigned int cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 851 */;
+	unsigned int *cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 841 */;
+	u32 cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 820 */[3];
+	bool *cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 815 */;
+	struct mtk_vcodec_mem *cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 814 */;
+	void *cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 814 */;
+	struct vp9_sf_ref_fb {
+		struct vdec_fb fb;
+		int used;
+		int padding;
+	} cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 81 */;
+	struct mtk_vcodec_ctx *cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 782 */;
+	struct vdec_vp9_vsi *cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 741 */;
+	struct vdec_fb_node cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 726 */;
+	struct vdec_fb *cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 723 */;
+	struct vdec_fb_node *cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 722 */;
+	struct vdec_fb **cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 712 */;
+	struct vdec_pic_info *cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 695 */;
+	struct vp9_ref_buf {
+		struct vp9_fb_info *buf;
+		unsigned int idx;
+		unsigned int reserved[6];
+	} cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 69 */;
+	int cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 680 */;
+	struct vp9_ref_cnt_buf {
+		struct vp9_fb_info buf;
+		unsigned int ref_cnt;
+	} cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 58 */;
+	struct vdec_vp9_inst cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 553 */;
+	struct mtk_vcodec_mem cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 549 */;
+	struct vp9_fb_info {
+		struct vdec_fb *fb;
+		unsigned int reserved[32];
+	} cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 47 */;
+	struct vp9_fb_info *cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 456 */;
+	bool cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 429 */;
+	unsigned long cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 401 */;
+	struct vp9_dram_buf {
+		unsigned long va;
+		unsigned long pa;
+		unsigned int sz;
+		unsigned int padding;
+	} cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 35 */;
+	int *cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 257 */;
+	struct vp9_sf_ref_fb cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 252 */;
+	struct vp9_sf_ref_fb *cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 251 */;
+	struct vdec_vp9_inst {
+		struct mtk_vcodec_mem mv_buf;
+		struct mtk_vcodec_mem seg_id_buf;
+		struct vdec_fb_node dec_fb[VP9_MAX_FRM_BUF_NODE_NUM];
+		struct list_head available_fb_node_list;
+		struct list_head fb_use_list;
+		struct list_head fb_free_list;
+		struct list_head fb_disp_list;
+		struct vdec_fb *cur_fb;
+		struct mtk_vcodec_ctx *ctx;
+		struct vdec_vpu_inst vpu;
+		struct vdec_vp9_vsi *vsi;
+		unsigned int total_frm_cnt;
+		struct mtk_vcodec_mem mem;
+	} cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 185 */;
+	struct vdec_vp9_vsi {
+		unsigned char sf_bs_buf[VP9_SUPER_FRAME_BS_SZ];
+		struct vp9_sf_ref_fb sf_ref_fb[VP9_MAX_FRM_BUF_NUM - 1];
+		int sf_next_ref_fb_idx;
+		unsigned int sf_frm_cnt;
+		unsigned int sf_frm_offset[VP9_MAX_FRM_BUF_NUM - 1];
+		unsigned int sf_frm_sz[VP9_MAX_FRM_BUF_NUM - 1];
+		unsigned int sf_frm_idx;
+		unsigned int sf_init;
+		struct vdec_fb fb;
+		struct mtk_vcodec_mem bs;
+		struct vdec_fb cur_fb;
+		unsigned int pic_w;
+		unsigned int pic_h;
+		unsigned int buf_w;
+		unsigned int buf_h;
+		unsigned int buf_sz_y_bs;
+		unsigned int buf_sz_c_bs;
+		unsigned int buf_len_sz_y;
+		unsigned int buf_len_sz_c;
+		unsigned int profile;
+		unsigned int show_frame;
+		unsigned int show_existing_frame;
+		unsigned int frm_to_show_idx;
+		unsigned int refresh_frm_flags;
+		unsigned int resolution_changed;
+		struct vp9_ref_cnt_buf frm_bufs[VP9_MAX_FRM_BUF_NUM];
+		int ref_frm_map[MAX_NUM_REF_FRAMES];
+		unsigned int new_fb_idx;
+		unsigned int frm_num;
+		struct vp9_dram_buf mv_buf;
+		struct vp9_ref_buf frm_refs[REFS_PER_FRAME];
+		struct vp9_dram_buf seg_id_buf;
+	} cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 130 */;
+	const struct vdec_common_if cocci_id/* drivers/media/platform/mtk-vcodec/vdec/vdec_vp9_if.c 1002 */;
+}

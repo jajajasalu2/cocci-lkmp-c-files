@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	const struct mei_device *cocci_id/* drivers/misc/mei/hw-me.c 98 */;
+	struct mei_me_hw *cocci_id/* drivers/misc/mei/hw-me.c 955 */;
+	unsigned long cocci_id/* drivers/misc/mei/hw-me.c 880 */;
+	bool cocci_id/* drivers/misc/mei/hw-me.c 836 */;
+	u32 *cocci_id/* drivers/misc/mei/hw-me.c 635 */;
+	unsigned char *cocci_id/* drivers/misc/mei/hw-me.c 632 */;
+	int cocci_id/* drivers/misc/mei/hw-me.c 603 */;
+	const u8 *cocci_id/* drivers/misc/mei/hw-me.c 585 */;
+	struct mei_msg_hdr *cocci_id/* drivers/misc/mei/hw-me.c 561 */;
+	const u32 *cocci_id/* drivers/misc/mei/hw-me.c 554 */;
+	const void *cocci_id/* drivers/misc/mei/hw-me.c 549 */;
+	size_t cocci_id/* drivers/misc/mei/hw-me.c 549 */;
+	char cocci_id/* drivers/misc/mei/hw-me.c 479 */;
+	unsigned char cocci_id/* drivers/misc/mei/hw-me.c 476 */;
+	u32 cocci_id/* drivers/misc/mei/hw-me.c 306 */;
+	struct mei_device *cocci_id/* drivers/misc/mei/hw-me.c 306 */;
+	void cocci_id/* drivers/misc/mei/hw-me.c 306 */;
+	const struct mei_me_hw *cocci_id/* drivers/misc/mei/hw-me.c 30 */;
+	enum mei_pg_state cocci_id/* drivers/misc/mei/hw-me.c 275 */;
+	const struct mei_fw_status *cocci_id/* drivers/misc/mei/hw-me.c 208 */;
+	struct mei_fw_status *cocci_id/* drivers/misc/mei/hw-me.c 205 */;
+	struct mei_me_hw cocci_id/* drivers/misc/mei/hw-me.c 1519 */;
+	struct mei_device cocci_id/* drivers/misc/mei/hw-me.c 1518 */;
+	const struct mei_cfg *cocci_id/* drivers/misc/mei/hw-me.c 1512 */;
+	struct device *cocci_id/* drivers/misc/mei/hw-me.c 1511 */;
+	kernel_ulong_t cocci_id/* drivers/misc/mei/hw-me.c 1493 */;
+	const struct mei_cfg *const cocci_id/* drivers/misc/mei/hw-me.c 1480 */[];
+	const struct mei_cfg cocci_id/* drivers/misc/mei/hw-me.c 1426 */;
+	unsigned int cocci_id/* drivers/misc/mei/hw-me.c 1372 */;
+	struct pci_dev *cocci_id/* drivers/misc/mei/hw-me.c 1356 */;
+	const struct mei_hw_ops cocci_id/* drivers/misc/mei/hw-me.c 1324 */;
+	s32 cocci_id/* drivers/misc/mei/hw-me.c 1244 */;
+	struct list_head cocci_id/* drivers/misc/mei/hw-me.c 1243 */;
+	irqreturn_t cocci_id/* drivers/misc/mei/hw-me.c 1214 */;
+	void *cocci_id/* drivers/misc/mei/hw-me.c 1214 */;
+}

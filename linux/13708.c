@@ -1,0 +1,81 @@
+cocci_test_suite() {
+	const struct media_entity_operations cocci_id/* drivers/media/i2c/hi556.c 998 */;
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/i2c/hi556.c 993 */;
+	const struct v4l2_subdev_pad_ops cocci_id/* drivers/media/i2c/hi556.c 986 */;
+	const struct v4l2_subdev_video_ops cocci_id/* drivers/media/i2c/hi556.c 982 */;
+	struct v4l2_subdev_fh *cocci_id/* drivers/media/i2c/hi556.c 970 */;
+	struct v4l2_subdev_frame_size_enum *cocci_id/* drivers/media/i2c/hi556.c 954 */;
+	struct v4l2_subdev_pad_config *cocci_id/* drivers/media/i2c/hi556.c 953 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/i2c/hi556.c 952 */;
+	struct v4l2_subdev_mbus_code_enum *cocci_id/* drivers/media/i2c/hi556.c 942 */;
+	struct hi556 *cocci_id/* drivers/media/i2c/hi556.c 926 */;
+	struct v4l2_subdev_format *cocci_id/* drivers/media/i2c/hi556.c 924 */;
+	s32 cocci_id/* drivers/media/i2c/hi556.c 886 */;
+	int __maybe_unused cocci_id/* drivers/media/i2c/hi556.c 855 */;
+	struct hi556_mode {
+		u32 width;
+		u32 height;
+		u32 llp;
+		u32 fll_def;
+		u32 fll_min;
+		u32 link_freq_index;
+		const struct hi556_reg_list reg_list;
+	} cocci_id/* drivers/media/i2c/hi556.c 84 */;
+	struct hi556_link_freq_config {
+		const struct hi556_reg_list reg_list;
+	} cocci_id/* drivers/media/i2c/hi556.c 80 */;
+	const struct hi556_reg_list *cocci_id/* drivers/media/i2c/hi556.c 763 */;
+	struct v4l2_mbus_framefmt *cocci_id/* drivers/media/i2c/hi556.c 752 */;
+	const struct hi556_mode *cocci_id/* drivers/media/i2c/hi556.c 751 */;
+	void cocci_id/* drivers/media/i2c/hi556.c 751 */;
+	struct hi556_reg_list {
+		u32 num_of_regs;
+		const struct hi556_reg *regs;
+	} cocci_id/* drivers/media/i2c/hi556.c 75 */;
+	struct hi556_reg {
+		u16 address;
+		u16 val;
+	} cocci_id/* drivers/media/i2c/hi556.c 70 */;
+	s64 cocci_id/* drivers/media/i2c/hi556.c 688 */;
+	struct v4l2_ctrl_handler *cocci_id/* drivers/media/i2c/hi556.c 687 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/i2c/hi556.c 681 */;
+	enum{HI556_LINK_FREQ_437MHZ_INDEX,} cocci_id/* drivers/media/i2c/hi556.c 66 */;
+	struct hi556 cocci_id/* drivers/media/i2c/hi556.c 625 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/i2c/hi556.c 622 */;
+	u8 cocci_id/* drivers/media/i2c/hi556.c 542 */[6];
+	u8 cocci_id/* drivers/media/i2c/hi556.c 514 */[4];
+	u8 cocci_id/* drivers/media/i2c/hi556.c 513 */[2];
+	struct i2c_msg cocci_id/* drivers/media/i2c/hi556.c 512 */[2];
+	u16 cocci_id/* drivers/media/i2c/hi556.c 509 */;
+	u32 *cocci_id/* drivers/media/i2c/hi556.c 509 */;
+	u64 cocci_id/* drivers/media/i2c/hi556.c 500 */;
+	struct hi556 {
+		struct v4l2_subdev sd;
+		struct media_pad pad;
+		struct v4l2_ctrl_handler ctrl_handler;
+		struct v4l2_ctrl *link_freq;
+		struct v4l2_ctrl *pixel_rate;
+		struct v4l2_ctrl *vblank;
+		struct v4l2_ctrl *hblank;
+		struct v4l2_ctrl *exposure;
+		const struct hi556_mode *cur_mode;
+		struct mutex mutex;
+		bool streaming;
+	} cocci_id/* drivers/media/i2c/hi556.c 478 */;
+	const struct hi556_mode cocci_id/* drivers/media/i2c/hi556.c 451 */[];
+	const struct hi556_link_freq_config cocci_id/* drivers/media/i2c/hi556.c 442 */[];
+	const s64 cocci_id/* drivers/media/i2c/hi556.c 438 */[];
+	const char *const cocci_id/* drivers/media/i2c/hi556.c 426 */[];
+	struct i2c_driver cocci_id/* drivers/media/i2c/hi556.c 1186 */;
+	const struct acpi_device_id cocci_id/* drivers/media/i2c/hi556.c 1178 */[];
+	const struct dev_pm_ops cocci_id/* drivers/media/i2c/hi556.c 1173 */;
+	const struct hi556_reg cocci_id/* drivers/media/i2c/hi556.c 110 */[];
+	unsigned int cocci_id/* drivers/media/i2c/hi556.c 1035 */;
+	u32 cocci_id/* drivers/media/i2c/hi556.c 1033 */;
+	struct v4l2_fwnode_endpoint cocci_id/* drivers/media/i2c/hi556.c 1030 */;
+	struct fwnode_handle *cocci_id/* drivers/media/i2c/hi556.c 1028 */;
+	struct device *cocci_id/* drivers/media/i2c/hi556.c 1026 */;
+	int cocci_id/* drivers/media/i2c/hi556.c 1026 */;
+	struct i2c_client *cocci_id/* drivers/media/i2c/hi556.c 1008 */;
+	const struct v4l2_subdev_internal_ops cocci_id/* drivers/media/i2c/hi556.c 1002 */;
+}

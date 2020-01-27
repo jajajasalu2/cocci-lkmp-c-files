@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	u64 cocci_id/* sound/pci/lx6464es/lx_core.c 999 */;
+	u32 cocci_id/* sound/pci/lx6464es/lx_core.c 974 */[9];
+	u64 *cocci_id/* sound/pci/lx6464es/lx_core.c 970 */;
+	int *cocci_id/* sound/pci/lx6464es/lx_core.c 942 */;
+	u32 cocci_id/* sound/pci/lx6464es/lx_core.c 861 */[];
+	const u32 *cocci_id/* sound/pci/lx6464es/lx_core.c 86 */;
+	unsigned cocci_id/* sound/pci/lx6464es/lx_core.c 79 */;
+	u32 __iomem *cocci_id/* sound/pci/lx6464es/lx_core.c 70 */;
+	struct snd_pcm_runtime *cocci_id/* sound/pci/lx6464es/lx_core.c 670 */;
+	void cocci_id/* sound/pci/lx6464es/lx_core.c 67 */;
+	enum stream_state_t cocci_id/* sound/pci/lx6464es/lx_core.c 653 */;
+	void __iomem *cocci_id/* sound/pci/lx6464es/lx_core.c 63 */;
+	unsigned long cocci_id/* sound/pci/lx6464es/lx_core.c 61 */;
+	u16 *cocci_id/* sound/pci/lx6464es/lx_core.c 597 */;
+	u32 *cocci_id/* sound/pci/lx6464es/lx_core.c 458 */;
+	u32 cocci_id/* sound/pci/lx6464es/lx_core.c 457 */;
+	struct lx6464es *cocci_id/* sound/pci/lx6464es/lx_core.c 457 */;
+	int cocci_id/* sound/pci/lx6464es/lx_core.c 457 */;
+	u8 *cocci_id/* sound/pci/lx6464es/lx_core.c 371 */;
+	u16 cocci_id/* sound/pci/lx6464es/lx_core.c 333 */;
+	u8 cocci_id/* sound/pci/lx6464es/lx_core.c 231 */;
+	struct lx_rmh *cocci_id/* sound/pci/lx6464es/lx_core.c 229 */;
+	const unsigned long cocci_id/* sound/pci/lx6464es/lx_core.c 22 */[];
+	enum cmd_mb_opcodes cocci_id/* sound/pci/lx6464es/lx_core.c 208 */;
+	struct dsp_cmd_info cocci_id/* sound/pci/lx6464es/lx_core.c 164 */[];
+	struct dsp_cmd_info {
+		u32 dcCodeOp;
+		u16 dcCmdLength;
+		u16 dcStatusType;
+		u16 dcStatusLength;
+		char *dcOpName;
+	} cocci_id/* sound/pci/lx6464es/lx_core.c 141 */;
+	bool cocci_id/* sound/pci/lx6464es/lx_core.c 1065 */;
+	irqreturn_t cocci_id/* sound/pci/lx6464es/lx_core.c 1060 */;
+	void *cocci_id/* sound/pci/lx6464es/lx_core.c 1060 */;
+	u32 cocci_id/* sound/pci/lx6464es/lx_core.c 1037 */[MAX_STREAM_BUFFER];
+	dma_addr_t cocci_id/* sound/pci/lx6464es/lx_core.c 1031 */;
+	const u32 cocci_id/* sound/pci/lx6464es/lx_core.c 1023 */;
+	const unsigned int cocci_id/* sound/pci/lx6464es/lx_core.c 1020 */;
+	struct snd_pcm_substream *cocci_id/* sound/pci/lx6464es/lx_core.c 1019 */;
+	struct lx_stream *cocci_id/* sound/pci/lx6464es/lx_core.c 1017 */;
+}

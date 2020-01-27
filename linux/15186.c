@@ -1,0 +1,61 @@
+cocci_test_suite() {
+	struct i2c_driver cocci_id/* drivers/leds/leds-lm3532.c 742 */;
+	const struct i2c_device_id cocci_id/* drivers/leds/leds-lm3532.c 736 */[];
+	const struct of_device_id cocci_id/* drivers/leds/leds-lm3532.c 730 */[];
+	const struct i2c_device_id *cocci_id/* drivers/leds/leds-lm3532.c 678 */;
+	struct i2c_client *cocci_id/* drivers/leds/leds-lm3532.c 677 */;
+	size_t cocci_id/* drivers/leds/leds-lm3532.c 553 */;
+	const char *cocci_id/* drivers/leds/leds-lm3532.c 550 */;
+	struct fwnode_handle *cocci_id/* drivers/leds/leds-lm3532.c 548 */;
+	u32 cocci_id/* drivers/leds/leds-lm3532.c 451 */;
+	struct lm3532_als_data *cocci_id/* drivers/leds/leds-lm3532.c 450 */;
+	struct lm3532_led *cocci_id/* drivers/leds/leds-lm3532.c 448 */;
+	struct lm3532_data *cocci_id/* drivers/leds/leds-lm3532.c 447 */;
+	int cocci_id/* drivers/leds/leds-lm3532.c 447 */;
+	unsigned int cocci_id/* drivers/leds/leds-lm3532.c 388 */;
+	u8 cocci_id/* drivers/leds/leds-lm3532.c 352 */;
+	struct lm3532_led cocci_id/* drivers/leds/leds-lm3532.c 351 */;
+	enum led_brightness cocci_id/* drivers/leds/leds-lm3532.c 348 */;
+	struct led_classdev *cocci_id/* drivers/leds/leds-lm3532.c 347 */;
+	const int cocci_id/* drivers/leds/leds-lm3532.c 283 */[LM3532_NUM_RAMP_VALS];
+	const int cocci_id/* drivers/leds/leds-lm3532.c 268 */[LM3532_NUM_AVG_VALS];
+	const int cocci_id/* drivers/leds/leds-lm3532.c 247 */[];
+	const int cocci_id/* drivers/leds/leds-lm3532.c 211 */[LM3532_NUM_IMP_VALS];
+	const struct regmap_config cocci_id/* drivers/leds/leds-lm3532.c 201 */;
+	const struct reg_default cocci_id/* drivers/leds/leds-lm3532.c 176 */[];
+	struct lm3532_data {
+		struct gpio_desc *enable_gpio;
+		struct regulator *regulator;
+		struct i2c_client *client;
+		struct regmap *regmap;
+		struct device *dev;
+		struct mutex lock;
+		struct lm3532_als_data *als_data;
+		u32 runtime_ramp_up;
+		u32 runtime_ramp_down;
+		struct lm3532_led leds[];
+	} cocci_id/* drivers/leds/leds-lm3532.c 160 */;
+	struct lm3532_led {
+		struct led_classdev led_dev;
+		struct lm3532_data *priv;
+		int control_bank;
+		int mode;
+		int ctrl_brt_pointer;
+		int num_leds;
+		int full_scale_current;
+		int enabled:1;
+		u32 led_strings[LM3532_MAX_CONTROL_BANKS];
+		char label[LED_MAX_NAME_SIZE];
+	} cocci_id/* drivers/leds/leds-lm3532.c 133 */;
+	struct lm3532_als_data {
+		u8 config;
+		u8 als1_imp_sel;
+		u8 als2_imp_sel;
+		u8 als_avrg_time;
+		u8 als_input_mode;
+		u32 als_vmin;
+		u32 als_vmax;
+		u8 zones_lo[LM3532_ALS_ZB_MAX];
+		u8 zones_hi[LM3532_ALS_ZB_MAX];
+	} cocci_id/* drivers/leds/leds-lm3532.c 108 */;
+}

@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct dprc_cmd_set_irq *cocci_id/* drivers/bus/fsl-mc/dprc.c 92 */;
+	struct dprc_irq_cfg *cocci_id/* drivers/bus/fsl-mc/dprc.c 89 */;
+	struct dprc_rsp_get_connection *cocci_id/* drivers/bus/fsl-mc/dprc.c 581 */;
+	struct dprc_cmd_get_connection *cocci_id/* drivers/bus/fsl-mc/dprc.c 580 */;
+	int *cocci_id/* drivers/bus/fsl-mc/dprc.c 578 */;
+	struct dprc_endpoint *cocci_id/* drivers/bus/fsl-mc/dprc.c 577 */;
+	const struct dprc_endpoint *cocci_id/* drivers/bus/fsl-mc/dprc.c 576 */;
+	u16 *cocci_id/* drivers/bus/fsl-mc/dprc.c 506 */;
+	struct dprc_rsp_get_obj_region *cocci_id/* drivers/bus/fsl-mc/dprc.c 445 */;
+	struct dprc_cmd_get_obj_region *cocci_id/* drivers/bus/fsl-mc/dprc.c 444 */;
+	struct dprc_region_desc *cocci_id/* drivers/bus/fsl-mc/dprc.c 441 */;
+	char *cocci_id/* drivers/bus/fsl-mc/dprc.c 438 */;
+	struct dprc_cmd_set_obj_irq *cocci_id/* drivers/bus/fsl-mc/dprc.c 403 */;
+	struct dprc_rsp_get_obj *cocci_id/* drivers/bus/fsl-mc/dprc.c 349 */;
+	struct dprc_cmd_get_obj *cocci_id/* drivers/bus/fsl-mc/dprc.c 348 */;
+	struct fsl_mc_obj_desc *cocci_id/* drivers/bus/fsl-mc/dprc.c 345 */;
+	struct dprc_rsp_get_obj_count *cocci_id/* drivers/bus/fsl-mc/dprc.c 306 */;
+	struct dprc_cmd_open *cocci_id/* drivers/bus/fsl-mc/dprc.c 28 */;
+	struct dprc_rsp_get_attributes *cocci_id/* drivers/bus/fsl-mc/dprc.c 268 */;
+	struct dprc_attributes *cocci_id/* drivers/bus/fsl-mc/dprc.c 265 */;
+	struct dprc_cmd_clear_irq_status *cocci_id/* drivers/bus/fsl-mc/dprc.c 240 */;
+	struct fsl_mc_command cocci_id/* drivers/bus/fsl-mc/dprc.c 239 */;
+	u8 cocci_id/* drivers/bus/fsl-mc/dprc.c 236 */;
+	u16 cocci_id/* drivers/bus/fsl-mc/dprc.c 235 */;
+	u32 cocci_id/* drivers/bus/fsl-mc/dprc.c 234 */;
+	struct fsl_mc_io *cocci_id/* drivers/bus/fsl-mc/dprc.c 233 */;
+	int cocci_id/* drivers/bus/fsl-mc/dprc.c 233 */;
+	struct dprc_rsp_get_irq_status *cocci_id/* drivers/bus/fsl-mc/dprc.c 199 */;
+	struct dprc_cmd_get_irq_status *cocci_id/* drivers/bus/fsl-mc/dprc.c 198 */;
+	u32 *cocci_id/* drivers/bus/fsl-mc/dprc.c 195 */;
+	struct dprc_cmd_set_irq_mask *cocci_id/* drivers/bus/fsl-mc/dprc.c 166 */;
+	struct dprc_cmd_set_irq_enable *cocci_id/* drivers/bus/fsl-mc/dprc.c 130 */;
+}

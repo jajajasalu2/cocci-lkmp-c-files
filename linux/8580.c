@@ -1,0 +1,118 @@
+cocci_test_suite() {
+	struct {
+		int val;
+		u32 ctl;
+		const char *msg;
+	} cocci_id/* drivers/net/ethernet/sis/sis190.c 941 */[];
+	struct sis190_private cocci_id/* drivers/net/ethernet/sis/sis190.c 916 */;
+	struct work_struct *cocci_id/* drivers/net/ethernet/sis/sis190.c 913 */;
+	struct netdev_hw_addr *cocci_id/* drivers/net/ethernet/sis/sis190.c 851 */;
+	u32 cocci_id/* drivers/net/ethernet/sis/sis190.c 837 */[2];
+	enum sis190_registers{TxControl=0x00, TxDescStartAddr=0x04, rsv0=0x08, TxSts=0x0c, RxControl=0x10, RxDescStartAddr=0x14, rsv1=0x18, RxSts=0x1c, IntrStatus=0x20, IntrMask=0x24, IntrControl=0x28, IntrTimer=0x2c, PMControl=0x30, rsv2=0x34, ROMControl=0x38, ROMInterface=0x3c, StationControl=0x40, GMIIControl=0x44, GIoCR=0x48, GIoCtrl=0x4c, TxMacControl=0x50, TxLimit=0x54, RGDelay=0x58, rsv3=0x5c, RxMacControl=0x60, RxMacAddr=0x62, RxHashTable=0x68, RxWolCtrl=0x70, RxWolData=0x74, RxMPSControl=0x78, rsv4=0x7c,} cocci_id/* drivers/net/ethernet/sis/sis190.c 83 */;
+	struct sk_buff **cocci_id/* drivers/net/ethernet/sis/sis190.c 784 */;
+	irqreturn_t cocci_id/* drivers/net/ethernet/sis/sis190.c 732 */;
+	struct net_device_stats *cocci_id/* drivers/net/ethernet/sis/sis190.c 577 */;
+	bool cocci_id/* drivers/net/ethernet/sis/sis190.c 531 */;
+	struct RxDesc cocci_id/* drivers/net/ethernet/sis/sis190.c 53 */;
+	struct TxDesc cocci_id/* drivers/net/ethernet/sis/sis190.c 52 */;
+	dma_addr_t cocci_id/* drivers/net/ethernet/sis/sis190.c 492 */;
+	struct RxDesc *cocci_id/* drivers/net/ethernet/sis/sis190.c 488 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/sis/sis190.c 487 */;
+	struct sis190_private *cocci_id/* drivers/net/ethernet/sis/sis190.c 407 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/sis/sis190.c 405 */;
+	int cocci_id/* drivers/net/ethernet/sis/sis190.c 405 */;
+	u16 cocci_id/* drivers/net/ethernet/sis/sis190.c 395 */;
+	unsigned int cocci_id/* drivers/net/ethernet/sis/sis190.c 367 */;
+	u32 cocci_id/* drivers/net/ethernet/sis/sis190.c 365 */;
+	void __iomem *cocci_id/* drivers/net/ethernet/sis/sis190.c 365 */;
+	void cocci_id/* drivers/net/ethernet/sis/sis190.c 365 */;
+	const int cocci_id/* drivers/net/ethernet/sis/sis190.c 363 */;
+	const u32 cocci_id/* drivers/net/ethernet/sis/sis190.c 356 */;
+	struct {
+		u32 msg_enable;
+	} cocci_id/* drivers/net/ethernet/sis/sis190.c 343 */;
+	const struct pci_device_id cocci_id/* drivers/net/ethernet/sis/sis190.c 333 */[];
+	const struct {
+		const char *name;
+	} cocci_id/* drivers/net/ethernet/sis/sis190.c 326 */[];
+	struct mii_chip_info {
+		const char *name;
+		u16 id[2];
+		unsigned int type;
+		u32 feature;
+	} cocci_id/* drivers/net/ethernet/sis/sis190.c 310 */[];
+	enum sis190_phy_type{UNKNOWN=0x00, HOME=0x01, LAN=0x02, MIX=0x03,} cocci_id/* drivers/net/ethernet/sis/sis190.c 303 */;
+	struct sis190_phy {
+		struct list_head list;
+		int phy_id;
+		u16 id[2];
+		u16 status;
+		u8 type;
+	} cocci_id/* drivers/net/ethernet/sis/sis190.c 295 */;
+	struct sis190_private {
+		void __iomem *mmio_addr;
+		struct pci_dev *pci_dev;
+		struct net_device *dev;
+		spinlock_t lock;
+		u32 rx_buf_sz;
+		u32 cur_rx;
+		u32 cur_tx;
+		u32 dirty_rx;
+		u32 dirty_tx;
+		dma_addr_t rx_dma;
+		dma_addr_t tx_dma;
+		struct RxDesc *RxDescRing;
+		struct TxDesc *TxDescRing;
+		struct sk_buff *Rx_skbuff[NUM_RX_DESC];
+		struct sk_buff *Tx_skbuff[NUM_TX_DESC];
+		struct work_struct phy_task;
+		struct timer_list timer;
+		u32 msg_enable;
+		struct mii_if_info mii_if;
+		struct list_head first_phy;
+		u32 features;
+		u32 negotiated_lpa;
+		enum{LNK_OFF, LNK_ON, LNK_AUTONEG,} link_status;
+	} cocci_id/* drivers/net/ethernet/sis/sis190.c 265 */;
+	enum sis190_feature{F_HAS_RGMII=1, F_PHY_88E1111=2, F_PHY_BCM5461=4,} cocci_id/* drivers/net/ethernet/sis/sis190.c 259 */;
+	enum sis190_eeprom_address{EEPROMSignature=0x00, EEPROMCLK=0x01, EEPROMInfo=0x02, EEPROMMACAddr=0x03,} cocci_id/* drivers/net/ethernet/sis/sis190.c 252 */;
+	enum sis190_eeprom_access_register_bits{EECS=0x00000001, EECLK=0x00000002, EEDO=0x00000008, EEDI=0x00000004, EEREQ=0x00000080, EEROP=0x00000200, EEWOP=0x00000100,} cocci_id/* drivers/net/ethernet/sis/sis190.c 241 */;
+	struct pci_driver cocci_id/* drivers/net/ethernet/sis/sis190.c 1927 */;
+	const struct pci_device_id *cocci_id/* drivers/net/ethernet/sis/sis190.c 1846 */;
+	const struct net_device_ops cocci_id/* drivers/net/ethernet/sis/sis190.c 1831 */;
+	enum _DescStatusBit{OWNbit=0x80000000, INTbit=0x40000000, CRCbit=0x00020000, PADbit=0x00010000, RingEnd=0x80000000, LSEN=0x08000000, IPCS=0x04000000, TCPCS=0x02000000, UDPCS=0x01000000, BSTEN=0x00800000, EXTEN=0x00400000, DEFEN=0x00200000, BKFEN=0x00100000, CRSEN=0x00080000, COLEN=0x00040000, THOL3=0x30000000, THOL2=0x20000000, THOL1=0x10000000, THOL0=0x00000000, WND=0x00080000, TABRT=0x00040000, FIFO=0x00020000, LINK=0x00010000, ColCountMask=0x0000ffff, IPON=0x20000000, TCPON=0x10000000, UDPON=0x08000000, Wakup=0x00400000, Magic=0x00200000, Pause=0x00100000, DEFbit=0x00200000, BCAST=0x000c0000, MCAST=0x00080000, UCAST=0x00040000, TAGON=0x80000000, RxDescCountMask=0x7f000000, ABORT=0x00800000, SHORT=0x00400000, LIMIT=0x00200000, MIIER=0x00100000, OVRUN=0x00080000, NIBON=0x00040000, COLON=0x00020000, CRCOK=0x00010000, RxSizeMask=0x0000ffff,} cocci_id/* drivers/net/ethernet/sis/sis190.c 182 */;
+	struct ifreq *cocci_id/* drivers/net/ethernet/sis/sis190.c 1813 */;
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/sis/sis190.c 1801 */;
+	unsigned long cocci_id/* drivers/net/ethernet/sis/sis190.c 1773 */;
+	void *cocci_id/* drivers/net/ethernet/sis/sis190.c 1770 */;
+	struct ethtool_regs *cocci_id/* drivers/net/ethernet/sis/sis190.c 1769 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/ethernet/sis/sis190.c 1754 */;
+	struct RxDesc {
+		__le32 PSize;
+		__le32 status;
+		__le32 addr;
+		__le32 size;
+	} cocci_id/* drivers/net/ethernet/sis/sis190.c 175 */;
+	const struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/sis/sis190.c 1746 */;
+	struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/sis/sis190.c 1736 */;
+	u8 cocci_id/* drivers/net/ethernet/sis/sis190.c 1700 */;
+	struct TxDesc {
+		__le32 PSize;
+		__le32 status;
+		__le32 addr;
+		__le32 size;
+	} cocci_id/* drivers/net/ethernet/sis/sis190.c 168 */;
+	const u16 cocci_id/* drivers/net/ethernet/sis/sis190.c 1619 */[];
+	__le16 *cocci_id/* drivers/net/ethernet/sis/sis190.c 1599 */;
+	u16 cocci_id/* drivers/net/ethernet/sis/sis190.c 1358 */[2][2];
+	struct mii_chip_info *cocci_id/* drivers/net/ethernet/sis/sis190.c 1320 */;
+	struct sis190_phy cocci_id/* drivers/net/ethernet/sis/sis190.c 1296 */;
+	struct mii_if_info *cocci_id/* drivers/net/ethernet/sis/sis190.c 1264 */;
+	struct sis190_phy *cocci_id/* drivers/net/ethernet/sis/sis190.c 1262 */;
+	struct list_head *cocci_id/* drivers/net/ethernet/sis/sis190.c 1243 */;
+	enum sis190_register_content{SoftInt=0x40000000, Timeup=0x20000000, PauseFrame=0x00080000, MagicPacket=0x00040000, WakeupFrame=0x00020000, LinkChange=0x00010000, RxQEmpty=0x00000080, RxQInt=0x00000040, TxQ1Empty=0x00000020, TxQ1Int=0x00000010, TxQ0Empty=0x00000008, TxQ0Int=0x00000004, RxHalt=0x00000002, TxHalt=0x00000001, CmdReset=0x10, CmdRxEnb=0x08, CmdTxEnb=0x01, RxBufEmpty=0x01, Cfg9346_Lock=0x00, Cfg9346_Unlock=0xc0, AcceptErr=0x20, AcceptRunt=0x10, AcceptBroadcast=0x0800, AcceptMulticast=0x0400, AcceptMyPhys=0x0200, AcceptAllPhys=0x0100, RxCfgFIFOShift=13, RxCfgDMAShift=8, TxInterFrameGapShift=24, TxDMAShift=8, LinkStatus=0x02, FullDup=0x01, TBILinkOK=0x02000000,} cocci_id/* drivers/net/ethernet/sis/sis190.c 118 */;
+	struct TxDesc *cocci_id/* drivers/net/ethernet/sis/sis190.c 1177 */;
+	netdev_tx_t cocci_id/* drivers/net/ethernet/sis/sis190.c 1171 */;
+	struct pci_dev *cocci_id/* drivers/net/ethernet/sis/sis190.c 1156 */;
+	struct timer_list *cocci_id/* drivers/net/ethernet/sis/sis190.c 1021 */;
+}

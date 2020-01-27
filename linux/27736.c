@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	enum gfs2_freeze_state cocci_id/* fs/gfs2/log.c 804 */;
+	u32 cocci_id/* fs/gfs2/log.c 801 */;
+	struct gfs2_log_header cocci_id/* fs/gfs2/log.c 750 */;
+	struct super_block *cocci_id/* fs/gfs2/log.c 699 */;
+	struct timespec64 cocci_id/* fs/gfs2/log.c 698 */;
+	struct gfs2_statfs_change_host *cocci_id/* fs/gfs2/log.c 697 */;
+	struct page *cocci_id/* fs/gfs2/log.c 696 */;
+	struct gfs2_log_header *cocci_id/* fs/gfs2/log.c 694 */;
+	u64 cocci_id/* fs/gfs2/log.c 691 */;
+	struct gfs2_jdesc *cocci_id/* fs/gfs2/log.c 690 */;
+	struct gfs2_glock *cocci_id/* fs/gfs2/log.c 602 */;
+	struct buffer_head *cocci_id/* fs/gfs2/log.c 601 */;
+	struct gfs2_bufdata *cocci_id/* fs/gfs2/log.c 599 */;
+	struct gfs2_meta_header cocci_id/* fs/gfs2/log.c 59 */;
+	struct gfs2_inode *cocci_id/* fs/gfs2/log.c 589 */;
+	struct gfs2_inode cocci_id/* fs/gfs2/log.c 577 */;
+	struct gfs2_log_descriptor cocci_id/* fs/gfs2/log.c 55 */;
+	struct gfs2_trans cocci_id/* fs/gfs2/log.c 494 */;
+	unsigned cocci_id/* fs/gfs2/log.c 359 */;
+	void cocci_id/* fs/gfs2/log.c 34 */(struct gfs2_sbd *sdp);
+	int cocci_id/* fs/gfs2/log.c 297 */;
+	struct gfs2_trans *cocci_id/* fs/gfs2/log.c 295 */;
+	struct gfs2_sbd *cocci_id/* fs/gfs2/log.c 293 */;
+	unsigned int cocci_id/* fs/gfs2/log.c 293 */;
+	void cocci_id/* fs/gfs2/log.c 293 */;
+	struct gfs2_bufdata cocci_id/* fs/gfs2/log.c 286 */;
+	bool cocci_id/* fs/gfs2/log.c 232 */;
+	bool *cocci_id/* fs/gfs2/log.c 200 */;
+	struct writeback_control cocci_id/* fs/gfs2/log.c 182 */;
+	struct blk_plug cocci_id/* fs/gfs2/log.c 154 */;
+	struct list_head *cocci_id/* fs/gfs2/log.c 152 */;
+	struct writeback_control *cocci_id/* fs/gfs2/log.c 150 */;
+	unsigned long cocci_id/* fs/gfs2/log.c 1014 */;
+	void *cocci_id/* fs/gfs2/log.c 1011 */;
+	struct address_space *cocci_id/* fs/gfs2/log.c 100 */;
+}

@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	int cocci_id/* kernel/time/tick-sched.c 945 */;
+	unsigned int cocci_id/* kernel/time/tick-sched.c 913 */;
+	s64 cocci_id/* kernel/time/tick-sched.c 78 */;
+	u64 cocci_id/* kernel/time/tick-sched.c 573 */;
+	u64 *cocci_id/* kernel/time/tick-sched.c 573 */;
+	char *cocci_id/* kernel/time/tick-sched.c 478 */;
+	int __init cocci_id/* kernel/time/tick-sched.c 478 */;
+	void __init cocci_id/* kernel/time/tick-sched.c 404 */;
+	unsigned long cocci_id/* kernel/time/tick-sched.c 384 */;
+	struct signal_struct *cocci_id/* kernel/time/tick-sched.c 372 */;
+	struct task_struct *cocci_id/* kernel/time/tick-sched.c 357 */;
+	enum tick_dep_bits cocci_id/* kernel/time/tick-sched.c 303 */;
+	struct irq_work *cocci_id/* kernel/time/tick-sched.c 232 */;
+	bool cocci_id/* kernel/time/tick-sched.c 210 */;
+	atomic_t *cocci_id/* kernel/time/tick-sched.c 178 */;
+	atomic_t cocci_id/* kernel/time/tick-sched.c 176 */;
+	cpumask_var_t cocci_id/* kernel/time/tick-sched.c 173 */;
+	struct tick_sched cocci_id/* kernel/time/tick-sched.c 1299 */;
+	enum hrtimer_restart cocci_id/* kernel/time/tick-sched.c 1296 */;
+	struct hrtimer *cocci_id/* kernel/time/tick-sched.c 1296 */;
+	struct pt_regs *cocci_id/* kernel/time/tick-sched.c 1203 */;
+	ktime_t cocci_id/* kernel/time/tick-sched.c 1149 */;
+	struct tick_sched *cocci_id/* kernel/time/tick-sched.c 1149 */;
+	void cocci_id/* kernel/time/tick-sched.c 1149 */;
+	struct clock_event_device *cocci_id/* kernel/time/tick-sched.c 1072 */;
+	ktime_t *cocci_id/* kernel/time/tick-sched.c 1070 */;
+	__typeof__(struct tick_sched) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+	__typeof__(struct irq_work) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	const struct dw_hdmi_mpll_config cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 79 */[];
+	struct rockchip_hdmi cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 77 */;
+	struct rockchip_hdmi {
+		struct device *dev;
+		struct regmap *regmap;
+		struct drm_encoder encoder;
+		const struct rockchip_hdmi_chip_data *chip_data;
+		struct clk *vpll_clk;
+		struct clk *grf_clk;
+		struct dw_hdmi *hdmi;
+		struct phy *phy;
+	} cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 66 */;
+	struct platform_driver cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 608 */;
+	const struct dev_pm_ops cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 604 */;
+	struct rockchip_hdmi_chip_data {
+		int lcdsel_grf_reg;
+		u32 lcdsel_big;
+		u32 lcdsel_lit;
+	} cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 60 */;
+	int __maybe_unused cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 595 */;
+	const struct component_ops cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 578 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 495 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 494 */;
+	const struct of_device_id *cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 493 */;
+	struct dw_hdmi_plat_data *cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 492 */;
+	struct platform_device *cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 491 */;
+	struct device *cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 488 */;
+	int cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 488 */;
+	const struct of_device_id cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 471 */[];
+	const struct dw_hdmi_plat_data cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 407 */;
+	struct rockchip_hdmi_chip_data cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 403 */;
+	const struct dw_hdmi_phy_ops cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 395 */;
+	enum drm_connector_status cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 350 */;
+	struct rockchip_hdmi *cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 333 */;
+	struct dw_hdmi *cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 331 */;
+	void *cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 331 */;
+	void cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 331 */;
+	const struct drm_encoder_helper_funcs cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 308 */;
+	struct rockchip_crtc_state *cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 300 */;
+	struct drm_connector_state *cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 298 */;
+	struct drm_crtc_state *cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 297 */;
+	u32 cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 268 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 251 */;
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 250 */;
+	bool cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 248 */;
+	const struct drm_encoder_funcs cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 240 */;
+	const struct dw_hdmi_mpll_config *cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 225 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 222 */;
+	enum drm_mode_status cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 221 */;
+	struct device_node *cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 190 */;
+	const struct dw_hdmi_phy_config cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 180 */[];
+	const struct dw_hdmi_curr_ctrl cocci_id/* drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c 159 */[];
+}

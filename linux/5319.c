@@ -1,0 +1,67 @@
+cocci_test_suite() {
+	pm_message_t cocci_id/* drivers/ata/ata_piix.c 986 */;
+	enum{PIIX_IOCFG=0x54, ICH5_PMR=0x90, ICH5_PCS=0x92, PIIX_SIDPR_BAR=5, PIIX_SIDPR_LEN=16, PIIX_SIDPR_IDX=0, PIIX_SIDPR_DATA=4, PIIX_FLAG_CHECKINTR=(1 << 28), PIIX_FLAG_SIDPR=(1 << 29), PIIX_PATA_FLAGS=ATA_FLAG_SLAVE_POSS, PIIX_SATA_FLAGS=ATA_FLAG_SATA | PIIX_FLAG_CHECKINTR, PIIX_FLAG_PIO16=(1 << 30), PIIX_80C_PRI=(1 << 5) | (1 << 4), PIIX_80C_SEC=(1 << 7) | (1 << 6), P0=0, P1=1, P2=2, P3=3, IDE=-1, NA=-2, RV=-3, PIIX_AHCI_DEVICE=6, PIIX_HOST_BROKEN_SUSPEND=(1 << 24),} cocci_id/* drivers/ata/ata_piix.c 84 */;
+	const struct dmi_system_id cocci_id/* drivers/ata/ata_piix.c 828 */[];
+	unsigned cocci_id/* drivers/ata/ata_piix.c 812 */;
+	enum ata_lpm_policy cocci_id/* drivers/ata/ata_piix.c 811 */;
+	u32 *cocci_id/* drivers/ata/ata_piix.c 786 */;
+	const int cocci_id/* drivers/ata/ata_piix.c 770 */[];
+	const unsigned int cocci_id/* drivers/ata/ata_piix.c 720 */[3];
+	u16 cocci_id/* drivers/ata/ata_piix.c 673 */;
+	unsigned int cocci_id/* drivers/ata/ata_piix.c 672 */;
+	u8 cocci_id/* drivers/ata/ata_piix.c 667 */;
+	unsigned long cocci_id/* drivers/ata/ata_piix.c 666 */;
+	struct pci_dev *cocci_id/* drivers/ata/ata_piix.c 665 */;
+	struct ata_port *cocci_id/* drivers/ata/ata_piix.c 663 */;
+	struct ata_device *cocci_id/* drivers/ata/ata_piix.c 663 */;
+	int cocci_id/* drivers/ata/ata_piix.c 663 */;
+	void cocci_id/* drivers/ata/ata_piix.c 663 */;
+	const u8 cocci_id/* drivers/ata/ata_piix.c 567 */[][2];
+	const struct ich_laptop *cocci_id/* drivers/ata/ata_piix.c 509 */;
+	struct piix_host_priv *cocci_id/* drivers/ata/ata_piix.c 508 */;
+	const struct ich_laptop cocci_id/* drivers/ata/ata_piix.c 465 */[];
+	struct ich_laptop {
+		u16 device;
+		u16 subvendor;
+		u16 subdevice;
+	} cocci_id/* drivers/ata/ata_piix.c 455 */;
+	const struct pci_bits cocci_id/* drivers/ata/ata_piix.c 444 */[];
+	const struct piix_map_db *cocci_id/* drivers/ata/ata_piix.c 431 */[];
+	const struct piix_map_db cocci_id/* drivers/ata/ata_piix.c 338 */;
+	void __exit cocci_id/* drivers/ata/ata_piix.c 1781 */;
+	int __init cocci_id/* drivers/ata/ata_piix.c 1766 */;
+	struct pci_driver cocci_id/* drivers/ata/ata_piix.c 1755 */;
+	struct scsi_host_template *cocci_id/* drivers/ata/ata_piix.c 1644 */;
+	const struct ata_port_info *cocci_id/* drivers/ata/ata_piix.c 1643 */[];
+	struct ata_port_info cocci_id/* drivers/ata/ata_piix.c 1642 */[2];
+	struct device *cocci_id/* drivers/ata/ata_piix.c 1641 */;
+	const struct pci_device_id *cocci_id/* drivers/ata/ata_piix.c 1639 */;
+	struct ata_host *cocci_id/* drivers/ata/ata_piix.c 1575 */;
+	const struct dmi_system_id *cocci_id/* drivers/ata/ata_piix.c 1557 */;
+	void *cocci_id/* drivers/ata/ata_piix.c 1543 */;
+	const struct pci_device_id cocci_id/* drivers/ata/ata_piix.c 154 */[];
+	bool cocci_id/* drivers/ata/ata_piix.c 1533 */;
+	struct piix_host_priv {
+		const int *map;
+		u32 saved_iocfg;
+		void __iomem *sidpr;
+	} cocci_id/* drivers/ata/ata_piix.c 146 */;
+	struct ata_link *cocci_id/* drivers/ata/ata_piix.c 1436 */;
+	struct piix_map_db {
+		const u32 mask;
+		const u16 port_enable;
+		const int map[][4];
+	} cocci_id/* drivers/ata/ata_piix.c 140 */;
+	char *cocci_id/* drivers/ata/ata_piix.c 1360 */;
+	char cocci_id/* drivers/ata/ata_piix.c 1359 */[32];
+	struct ata_port_info *cocci_id/* drivers/ata/ata_piix.c 1353 */;
+	const int *cocci_id/* drivers/ata/ata_piix.c 1352 */;
+	const struct piix_map_db *cocci_id/* drivers/ata/ata_piix.c 1336 */;
+	u32 cocci_id/* drivers/ata/ata_piix.c 1272 */;
+	void __iomem *cocci_id/* drivers/ata/ata_piix.c 1271 */;
+	enum piix_controller_ids{piix_pata_mwdma, piix_pata_33, ich_pata_33, ich_pata_66, ich_pata_100, ich_pata_100_nomwdma1, ich5_sata, ich6_sata, ich6m_sata, ich8_sata, ich8_2port_sata, ich8m_apple_sata, tolapai_sata, piix_pata_vmw, ich8_sata_snb, ich8_2port_sata_snb, ich8_2port_sata_byt,} cocci_id/* drivers/ata/ata_piix.c 119 */;
+	struct ata_port_info cocci_id/* drivers/ata/ata_piix.c 1106 */[];
+	struct device_attribute *cocci_id/* drivers/ata/ata_piix.c 1088 */[];
+	struct ata_port_operations cocci_id/* drivers/ata/ata_piix.c 1082 */;
+	struct scsi_host_template cocci_id/* drivers/ata/ata_piix.c 1059 */;
+}

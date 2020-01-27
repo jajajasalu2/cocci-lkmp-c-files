@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	struct net_device *cocci_id/* net/netfilter/nf_nat_masquerade.c 98 */;
+	struct in_ifaddr *cocci_id/* net/netfilter/nf_nat_masquerade.c 97 */;
+	struct net *cocci_id/* net/netfilter/nf_nat_masquerade.c 80 */;
+	const struct net_device *cocci_id/* net/netfilter/nf_nat_masquerade.c 79 */;
+	unsigned long cocci_id/* net/netfilter/nf_nat_masquerade.c 76 */;
+	struct notifier_block *cocci_id/* net/netfilter/nf_nat_masquerade.c 75 */;
+	long cocci_id/* net/netfilter/nf_nat_masquerade.c 72 */;
+	const struct nf_conn_nat *cocci_id/* net/netfilter/nf_nat_masquerade.c 68 */;
+	struct nf_conn *cocci_id/* net/netfilter/nf_nat_masquerade.c 66 */;
+	void *cocci_id/* net/netfilter/nf_nat_masquerade.c 66 */;
+	int cocci_id/* net/netfilter/nf_nat_masquerade.c 66 */;
+	__be32 cocci_id/* net/netfilter/nf_nat_masquerade.c 25 */;
+	const struct rtable *cocci_id/* net/netfilter/nf_nat_masquerade.c 24 */;
+	struct inet6_ifaddr *cocci_id/* net/netfilter/nf_nat_masquerade.c 234 */;
+	struct nf_nat_range2 cocci_id/* net/netfilter/nf_nat_masquerade.c 23 */;
+	enum ip_conntrack_info cocci_id/* net/netfilter/nf_nat_masquerade.c 22 */;
+	struct masq_dev_work cocci_id/* net/netfilter/nf_nat_masquerade.c 214 */;
+	struct work_struct *cocci_id/* net/netfilter/nf_nat_masquerade.c 210 */;
+	void cocci_id/* net/netfilter/nf_nat_masquerade.c 210 */;
+	struct nf_conn_nat *cocci_id/* net/netfilter/nf_nat_masquerade.c 21 */;
+	struct nf_conntrack_tuple *cocci_id/* net/netfilter/nf_nat_masquerade.c 200 */;
+	struct masq_dev_work *cocci_id/* net/netfilter/nf_nat_masquerade.c 199 */;
+	struct masq_dev_work {
+		struct work_struct work;
+		struct net *net;
+		struct in6_addr addr;
+		int ifindex;
+	} cocci_id/* net/netfilter/nf_nat_masquerade.c 190 */;
+	const struct nf_nat_range2 *cocci_id/* net/netfilter/nf_nat_masquerade.c 17 */;
+	struct in6_addr cocci_id/* net/netfilter/nf_nat_masquerade.c 164 */;
+	struct sk_buff *cocci_id/* net/netfilter/nf_nat_masquerade.c 16 */;
+	const struct nf_ipv6_ops *cocci_id/* net/netfilter/nf_nat_masquerade.c 147 */;
+	struct in6_addr *cocci_id/* net/netfilter/nf_nat_masquerade.c 144 */;
+	const struct in6_addr *cocci_id/* net/netfilter/nf_nat_masquerade.c 143 */;
+	atomic_t cocci_id/* net/netfilter/nf_nat_masquerade.c 139 */;
+	struct notifier_block cocci_id/* net/netfilter/nf_nat_masquerade.c 130 */;
+	unsigned int cocci_id/* net/netfilter/nf_nat_masquerade.c 13 */;
+	struct in_device *cocci_id/* net/netfilter/nf_nat_masquerade.c 113 */;
+}

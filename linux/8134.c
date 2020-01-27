@@ -1,0 +1,70 @@
+cocci_test_suite() {
+	struct can_frame cocci_id/* drivers/net/can/xilinx_can.c 992 */;
+	struct net_device_stats *cocci_id/* drivers/net/can/xilinx_can.c 991 */;
+	enum can_state cocci_id/* drivers/net/can/xilinx_can.c 893 */;
+	struct can_frame **cocci_id/* drivers/net/can/xilinx_can.c 824 */;
+	__be32 *cocci_id/* drivers/net/can/xilinx_can.c 788 */;
+	netdev_tx_t cocci_id/* drivers/net/can/xilinx_can.c 709 */;
+	struct canfd_frame *cocci_id/* drivers/net/can/xilinx_can.c 555 */;
+	enum can_mode cocci_id/* drivers/net/can/xilinx_can.c 524 */;
+	u32 cocci_id/* drivers/net/can/xilinx_can.c 462 */;
+	struct can_bittiming *cocci_id/* drivers/net/can/xilinx_can.c 393 */;
+	unsigned long cocci_id/* drivers/net/can/xilinx_can.c 363 */;
+	struct xcan_priv *cocci_id/* drivers/net/can/xilinx_can.c 362 */;
+	struct net_device *cocci_id/* drivers/net/can/xilinx_can.c 360 */;
+	int cocci_id/* drivers/net/can/xilinx_can.c 360 */;
+	enum xcan_reg{XCAN_SRR_OFFSET=0x00, XCAN_MSR_OFFSET=0x04, XCAN_BRPR_OFFSET=0x08, XCAN_BTR_OFFSET=0x0C, XCAN_ECR_OFFSET=0x10, XCAN_ESR_OFFSET=0x14, XCAN_SR_OFFSET=0x18, XCAN_ISR_OFFSET=0x1C, XCAN_IER_OFFSET=0x20, XCAN_ICR_OFFSET=0x24, XCAN_TXFIFO_OFFSET=0x30, XCAN_RXFIFO_OFFSET=0x50, XCAN_AFR_OFFSET=0x60, XCAN_F_BRPR_OFFSET=0x088, XCAN_F_BTR_OFFSET=0x08C, XCAN_TRR_OFFSET=0x0090, XCAN_AFR_EXT_OFFSET=0x00E0, XCAN_FSR_OFFSET=0x00E8, XCAN_TXMSG_BASE_OFFSET=0x0100, XCAN_RXMSG_BASE_OFFSET=0x1100, XCAN_RXMSG_2_BASE_OFFSET=0x2100, XCAN_AFR_2_MASK_OFFSET=0x0A00, XCAN_AFR_2_ID_OFFSET=0x0A04,} cocci_id/* drivers/net/can/xilinx_can.c 35 */;
+	enum xcan_reg cocci_id/* drivers/net/can/xilinx_can.c 329 */;
+	const struct xcan_priv *cocci_id/* drivers/net/can/xilinx_can.c 329 */;
+	struct can_bittiming_const cocci_id/* drivers/net/can/xilinx_can.c 242 */;
+	const struct can_bittiming_const cocci_id/* drivers/net/can/xilinx_can.c 216 */;
+	struct xcan_priv {
+		struct can_priv can;
+		spinlock_t tx_lock;
+		unsigned int tx_head;
+		unsigned int tx_tail;
+		unsigned int tx_max;
+		struct napi_struct napi;
+		u32 (*read_reg)(const struct xcan_priv *priv,
+				enum xcan_reg reg);
+		void (*write_reg)(const struct xcan_priv *priv,
+				  enum xcan_reg reg, u32 val);
+		struct device *dev;
+		void __iomem *reg_base;
+		unsigned long irq_flags;
+		struct clk *bus_clk;
+		struct clk *can_clk;
+		struct xcan_devtype_data devtype;
+	} cocci_id/* drivers/net/can/xilinx_can.c 197 */;
+	struct platform_driver cocci_id/* drivers/net/can/xilinx_can.c 1855 */;
+	struct xcan_priv cocci_id/* drivers/net/can/xilinx_can.c 1730 */;
+	struct xcan_devtype_data {
+		enum xcan_ip_type cantype;
+		unsigned int flags;
+		const struct can_bittiming_const *bittiming_const;
+		const char *bus_clk_name;
+		unsigned int btr_ts2_shift;
+		unsigned int btr_sjw_shift;
+	} cocci_id/* drivers/net/can/xilinx_can.c 171 */;
+	const char *cocci_id/* drivers/net/can/xilinx_can.c 1671 */;
+	void __iomem *cocci_id/* drivers/net/can/xilinx_can.c 1667 */;
+	const struct xcan_devtype_data *cocci_id/* drivers/net/can/xilinx_can.c 1666 */;
+	const struct of_device_id *cocci_id/* drivers/net/can/xilinx_can.c 1665 */;
+	struct platform_device *cocci_id/* drivers/net/can/xilinx_can.c 1661 */;
+	const struct of_device_id cocci_id/* drivers/net/can/xilinx_can.c 1643 */[];
+	enum xcan_ip_type{XAXI_CAN=0, XZYNQ_CANPS, XAXI_CANFD, XAXI_CANFD_2_0,} cocci_id/* drivers/net/can/xilinx_can.c 164 */;
+	const struct xcan_devtype_data cocci_id/* drivers/net/can/xilinx_can.c 1609 */;
+	struct device *cocci_id/* drivers/net/can/xilinx_can.c 1524 */;
+	int __maybe_unused cocci_id/* drivers/net/can/xilinx_can.c 1524 */;
+	const struct net_device_ops cocci_id/* drivers/net/can/xilinx_can.c 1490 */;
+	struct can_berr_counter *cocci_id/* drivers/net/can/xilinx_can.c 1469 */;
+	const struct net_device *cocci_id/* drivers/net/can/xilinx_can.c 1468 */;
+	void cocci_id/* drivers/net/can/xilinx_can.c 1369 */;
+	irqreturn_t cocci_id/* drivers/net/can/xilinx_can.c 1319 */;
+	void *cocci_id/* drivers/net/can/xilinx_can.c 1319 */;
+	unsigned int cocci_id/* drivers/net/can/xilinx_can.c 1239 */;
+	struct napi_struct *cocci_id/* drivers/net/can/xilinx_can.c 1189 */;
+	struct sk_buff *cocci_id/* drivers/net/can/xilinx_can.c 1094 */;
+	struct can_frame *cocci_id/* drivers/net/can/xilinx_can.c 1093 */;
+	bool cocci_id/* drivers/net/can/xilinx_can.c 1038 */;
+}

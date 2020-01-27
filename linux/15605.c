@@ -1,0 +1,58 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 769 */;
+	int __init cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 763 */;
+	struct lib80211_crypto_ops cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 745 */;
+	struct seq_file *cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 721 */;
+	struct crypto_sync_skcipher *cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 660 */;
+	u8 cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 610 */[8];
+	char *cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 603 */;
+	struct iw_michaelmicfailure cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 590 */;
+	union iwreq_data cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 589 */;
+	struct net_device *cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 585 */;
+	struct rtllib_tkip_data *cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 559 */;
+	void *cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 557 */;
+	struct rtllib_hdr_4addr *cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 528 */;
+	struct sk_buff *cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 526 */;
+	void cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 526 */;
+	size_t cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 500 */;
+	u8 *cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 499 */;
+	struct crypto_shash *cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 499 */;
+	int cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 499 */;
+	struct scatterlist cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 379 */;
+	u8 cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 377 */[4];
+	u8 cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 376 */[16];
+	struct cb_desc *cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 374 */;
+	struct rtllib_tkip_data {
+#define TKIP_KEY_LEN 32
+		u8 key[TKIP_KEY_LEN];
+		int key_set;
+		u32 tx_iv32;
+		u16 tx_iv16;
+		u16 tx_ttak[5];
+		int tx_phase1_done;
+		u32 rx_iv32;
+		u16 rx_iv16;
+		bool initialized;
+		u16 rx_ttak[5];
+		int rx_phase1_done;
+		u32 rx_iv32_new;
+		u16 rx_iv16_new;
+		u32 dot11RSNAStatsTKIPReplays;
+		u32 dot11RSNAStatsTKIPICVErrors;
+		u32 dot11RSNAStatsTKIPLocalMICFailures;
+		int key_idx;
+		struct crypto_sync_skcipher *rx_tfm_arc4;
+		struct crypto_shash *rx_tfm_michael;
+		struct crypto_sync_skcipher *tx_tfm_arc4;
+		struct crypto_shash *tx_tfm_michael;
+		u8 rx_hdr[16];
+		u8 tx_hdr[16];
+	} cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 25 */;
+	const u16 *cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 231 */;
+	const u8 *cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 209 */;
+	const u16 cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 163 */[256];
+	u16 *cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 157 */;
+	u32 cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 145 */;
+	u16 cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 145 */;
+	u8 cocci_id/* drivers/staging/rtl8192e/rtllib_crypt_tkip.c 133 */;
+}

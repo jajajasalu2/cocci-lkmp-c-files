@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	loff_t *cocci_id/* security/integrity/ima/ima_fs.c 95 */;
+	loff_t cocci_id/* security/integrity/ima/ima_fs.c 80 */;
+	void cocci_id/* security/integrity/ima/ima_fs.c 452 */;
+	char cocci_id/* security/integrity/ima/ima_fs.c 45 */[32];
+	atomic_long_t *cocci_id/* security/integrity/ima/ima_fs.c 43 */;
+	char __user *cocci_id/* security/integrity/ima/ima_fs.c 42 */;
+	size_t cocci_id/* security/integrity/ima/ima_fs.c 42 */;
+	const char *cocci_id/* security/integrity/ima/ima_fs.c 411 */;
+	unsigned long cocci_id/* security/integrity/ima/ima_fs.c 370 */;
+	enum ima_fs_flags{IMA_FS_BUSY,} cocci_id/* security/integrity/ima/ima_fs.c 366 */;
+	struct dentry *cocci_id/* security/integrity/ima/ima_fs.c 361 */;
+	const char __user *cocci_id/* security/integrity/ima/ima_fs.c 312 */;
+	char *cocci_id/* security/integrity/ima/ima_fs.c 31 */;
+	int __init cocci_id/* security/integrity/ima/ima_fs.c 31 */;
+	bool cocci_id/* security/integrity/ima/ima_fs.c 30 */;
+	ssize_t cocci_id/* security/integrity/ima/ima_fs.c 275 */;
+	const struct file_operations cocci_id/* security/integrity/ima/ima_fs.c 268 */;
+	struct inode *cocci_id/* security/integrity/ima/ima_fs.c 263 */;
+	struct file *cocci_id/* security/integrity/ima/ima_fs.c 263 */;
+	int cocci_id/* security/integrity/ima/ima_fs.c 263 */;
+	const struct seq_operations cocci_id/* security/integrity/ima/ima_fs.c 256 */;
+	struct ima_template_entry *cocci_id/* security/integrity/ima/ima_fs.c 222 */;
+	struct ima_queue_entry *cocci_id/* security/integrity/ima/ima_fs.c 221 */;
+	struct seq_file *cocci_id/* security/integrity/ima/ima_fs.c 218 */;
+	void *cocci_id/* security/integrity/ima/ima_fs.c 218 */;
+	u8 *cocci_id/* security/integrity/ima/ima_fs.c 209 */;
+	const struct ima_template_field *cocci_id/* security/integrity/ima/ima_fs.c 178 */;
+	enum ima_show_type cocci_id/* security/integrity/ima/ima_fs.c 177 */;
+	u32 cocci_id/* security/integrity/ima/ima_fs.c 134 */;
+	struct ima_queue_entry cocci_id/* security/integrity/ima/ima_fs.c 103 */;
+}

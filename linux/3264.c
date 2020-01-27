@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/hwmon/gl518sm.c 80 */;
+	long cocci_id/* drivers/hwmon/gl518sm.c 80 */;
+	int cocci_id/* drivers/hwmon/gl518sm.c 80 */;
+	struct i2c_driver cocci_id/* drivers/hwmon/gl518sm.c 651 */;
+	const struct i2c_device_id cocci_id/* drivers/hwmon/gl518sm.c 645 */[];
+	struct gl518_data cocci_id/* drivers/hwmon/gl518sm.c 622 */;
+	const struct i2c_device_id *cocci_id/* drivers/hwmon/gl518sm.c 615 */;
+	void cocci_id/* drivers/hwmon/gl518sm.c 598 */;
+	struct i2c_adapter *cocci_id/* drivers/hwmon/gl518sm.c 572 */;
+	struct i2c_board_info *cocci_id/* drivers/hwmon/gl518sm.c 570 */;
+	const struct attribute_group cocci_id/* drivers/hwmon/gl518sm.c 550 */;
+	struct attribute *cocci_id/* drivers/hwmon/gl518sm.c 507 */[];
+	unsigned long cocci_id/* drivers/hwmon/gl518sm.c 478 */;
+	struct i2c_client *cocci_id/* drivers/hwmon/gl518sm.c 476 */;
+	const char *cocci_id/* drivers/hwmon/gl518sm.c 473 */;
+	size_t cocci_id/* drivers/hwmon/gl518sm.c 473 */;
+	struct gl518_data *cocci_id/* drivers/hwmon/gl518sm.c 452 */;
+	char *cocci_id/* drivers/hwmon/gl518sm.c 449 */;
+	struct device_attribute *cocci_id/* drivers/hwmon/gl518sm.c 448 */;
+	struct device *cocci_id/* drivers/hwmon/gl518sm.c 448 */;
+	ssize_t cocci_id/* drivers/hwmon/gl518sm.c 448 */;
+	enum chips{gl518sm_r00, gl518sm_r80,} cocci_id/* drivers/hwmon/gl518sm.c 36 */;
+	const unsigned short cocci_id/* drivers/hwmon/gl518sm.c 34 */[];
+	u16 cocci_id/* drivers/hwmon/gl518sm.c 142 */;
+	struct gl518_data {
+		struct i2c_client *client;
+		const struct attribute_group *groups[3];
+		enum chips type;
+		struct mutex update_lock;
+		char valid;
+		unsigned long last_updated;
+		u8 voltage_in[4];
+		u8 voltage_min[4];
+		u8 voltage_max[4];
+		u8 fan_in[2];
+		u8 fan_min[2];
+		u8 fan_div[2];
+		u8 fan_auto1;
+		u8 temp_in;
+		u8 temp_max;
+		u8 temp_hyst;
+		u8 alarms;
+		u8 alarm_mask;
+		u8 beep_mask;
+		u8 beep_enable;
+	} cocci_id/* drivers/hwmon/gl518sm.c 104 */;
+}

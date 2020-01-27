@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	unsigned long long cocci_id/* fs/ext4/page-io.c 97 */;
+	struct buffer_head *cocci_id/* fs/ext4/page-io.c 93 */;
+	void cocci_id/* fs/ext4/page-io.c 93 */;
+	struct ext4_io_end_vec cocci_id/* fs/ext4/page-io.c 83 */;
+	struct ext4_io_end_vec *cocci_id/* fs/ext4/page-io.c 56 */;
+	unsigned int cocci_id/* fs/ext4/page-io.c 513 */;
+	gfp_t cocci_id/* fs/ext4/page-io.c 512 */;
+	unsigned cocci_id/* fs/ext4/page-io.c 446 */;
+	bool cocci_id/* fs/ext4/page-io.c 442 */;
+	struct writeback_control *cocci_id/* fs/ext4/page-io.c 441 */;
+	struct page *cocci_id/* fs/ext4/page-io.c 439 */;
+	struct ext4_io_submit *cocci_id/* fs/ext4/page-io.c 438 */;
+	int cocci_id/* fs/ext4/page-io.c 438 */;
+	int __init cocci_id/* fs/ext4/page-io.c 36 */;
+	long long cocci_id/* fs/ext4/page-io.c 335 */;
+	char cocci_id/* fs/ext4/page-io.c 331 */[BDEVNAME_SIZE];
+	sector_t cocci_id/* fs/ext4/page-io.c 330 */;
+	struct kmem_cache *cocci_id/* fs/ext4/page-io.c 33 */;
+	struct bio *cocci_id/* fs/ext4/page-io.c 327 */;
+	struct ext4_inode_info cocci_id/* fs/ext4/page-io.c 274 */;
+	struct work_struct *cocci_id/* fs/ext4/page-io.c 272 */;
+	struct list_head cocci_id/* fs/ext4/page-io.c 247 */;
+	unsigned long cocci_id/* fs/ext4/page-io.c 230 */;
+	struct workqueue_struct *cocci_id/* fs/ext4/page-io.c 229 */;
+	struct ext4_sb_info *cocci_id/* fs/ext4/page-io.c 228 */;
+	struct ext4_inode_info *cocci_id/* fs/ext4/page-io.c 227 */;
+	ext4_io_end_t cocci_id/* fs/ext4/page-io.c 214 */;
+	ext4_io_end_t *cocci_id/* fs/ext4/page-io.c 205 */;
+	struct list_head *cocci_id/* fs/ext4/page-io.c 201 */;
+	struct inode *cocci_id/* fs/ext4/page-io.c 201 */;
+	handle_t *cocci_id/* fs/ext4/page-io.c 181 */;
+	struct bvec_iter_all cocci_id/* fs/ext4/page-io.c 103 */;
+	struct bio_vec *cocci_id/* fs/ext4/page-io.c 102 */;
+}

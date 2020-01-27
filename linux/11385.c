@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	const struct vmw_fifo_state *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 71 */;
+	loff_t *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 441 */;
+	char __user *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 440 */;
+	ssize_t cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 440 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 420 */;
+	struct drm_vmw_getparam_arg *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 42 */;
+	__poll_t cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 418 */;
+	struct poll_table_struct *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 418 */;
+	struct file *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 418 */;
+	struct drm_vmw_fence_rep __user *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 337 */;
+	struct drm_vmw_present_readback_arg *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 335 */;
+	struct svga_3d_compat_cap {
+		SVGA3dCapsRecordHeader header;
+		SVGA3dCapPair pairs[SVGA3D_DEVCAP_MAX];
+	} cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 33 */;
+	struct vmw_resource *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 260 */;
+	struct vmw_framebuffer *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 259 */;
+	struct drm_framebuffer *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 258 */;
+	struct drm_vmw_rect *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 257 */;
+	struct drm_vmw_rect __user *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 256 */;
+	struct vmw_surface *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 255 */;
+	struct drm_vmw_present_arg *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 253 */;
+	struct ttm_object_file *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 251 */;
+	uint32_t *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 214 */;
+	struct vmw_fpriv *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 188 */;
+	bool cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 187 */;
+	void __user *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 184 */;
+	unsigned long cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 184 */;
+	u32 *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 183 */;
+	uint32_t cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 182 */;
+	struct drm_vmw_get_3d_cap_arg *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 179 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 176 */;
+	u32 cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 160 */;
+	SVGA3dCapPair cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 154 */;
+	struct svga_3d_compat_cap cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 148 */;
+	unsigned int cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 147 */;
+	struct svga_3d_compat_cap *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 145 */;
+	size_t cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 143 */;
+	struct vmw_private *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 142 */;
+	void *cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 142 */;
+	int cocci_id/* drivers/gpu/drm/vmwgfx/vmwgfx_ioctl.c 142 */;
+}

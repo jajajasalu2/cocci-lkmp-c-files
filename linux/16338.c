@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	void cocci_id/* drivers/staging/most/cdev/cdev.c 94 */;
+	struct kfifo *cocci_id/* drivers/staging/most/cdev/cdev.c 89 */;
+	struct mbo *cocci_id/* drivers/staging/most/cdev/cdev.c 56 */;
+	struct comp_channel *cocci_id/* drivers/staging/most/cdev/cdev.c 56 */;
+	struct mbo **cocci_id/* drivers/staging/most/cdev/cdev.c 56 */;
+	void __exit cocci_id/* drivers/staging/most/cdev/cdev.c 544 */;
+	bool cocci_id/* drivers/staging/most/cdev/cdev.c 51 */;
+	int __init cocci_id/* drivers/staging/most/cdev/cdev.c 506 */;
+	struct cdev_component cocci_id/* drivers/staging/most/cdev/cdev.c 495 */;
+	spinlock_t cocci_id/* drivers/staging/most/cdev/cdev.c 49 */;
+	struct list_head cocci_id/* drivers/staging/most/cdev/cdev.c 48 */;
+	struct comp_channel cocci_id/* drivers/staging/most/cdev/cdev.c 47 */;
+	unsigned long cocci_id/* drivers/staging/most/cdev/cdev.c 431 */;
+	struct most_channel_config *cocci_id/* drivers/staging/most/cdev/cdev.c 428 */;
+	char *cocci_id/* drivers/staging/most/cdev/cdev.c 428 */;
+	struct most_interface *cocci_id/* drivers/staging/most/cdev/cdev.c 327 */;
+	const struct file_operations cocci_id/* drivers/staging/most/cdev/cdev.c 310 */;
+	struct comp_channel {
+		wait_queue_head_t wq;
+		spinlock_t unlink;
+		struct cdev cdev;
+		struct device *dev;
+		struct mutex io_mutex;
+		struct most_interface *iface;
+		struct most_channel_config *cfg;
+		unsigned int channel_id;
+		dev_t devno;
+		size_t mbo_offs;
+		DECLARE_KFIFO_PTR(fifo,typeof(struct mbo *));
+		int access_ref;
+		struct list_head list;
+	} cocci_id/* drivers/staging/most/cdev/cdev.c 31 */;
+	__poll_t cocci_id/* drivers/staging/most/cdev/cdev.c 288 */;
+	poll_table *cocci_id/* drivers/staging/most/cdev/cdev.c 288 */;
+	loff_t *cocci_id/* drivers/staging/most/cdev/cdev.c 244 */;
+	char __user *cocci_id/* drivers/staging/most/cdev/cdev.c 244 */;
+	size_t cocci_id/* drivers/staging/most/cdev/cdev.c 244 */;
+	ssize_t cocci_id/* drivers/staging/most/cdev/cdev.c 243 */;
+	struct cdev_component {
+		dev_t devno;
+		struct ida minor_id;
+		unsigned int major;
+		struct class *class;
+		struct core_component cc;
+	} cocci_id/* drivers/staging/most/cdev/cdev.c 23 */;
+	const char __user *cocci_id/* drivers/staging/most/cdev/cdev.c 189 */;
+	struct inode *cocci_id/* drivers/staging/most/cdev/cdev.c 164 */;
+	struct file *cocci_id/* drivers/staging/most/cdev/cdev.c 164 */;
+	int cocci_id/* drivers/staging/most/cdev/cdev.c 164 */;
+}

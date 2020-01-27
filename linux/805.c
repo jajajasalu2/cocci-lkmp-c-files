@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	phys_addr_t cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 80 */;
+	void __iomem *cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 78 */;
+	size_t cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 73 */[];
+	struct pci_epf_header cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 66 */;
+	void __exit cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 615 */;
+	int __init cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 594 */;
+	struct pci_epf_driver cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 586 */;
+	struct pci_epf_ops cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 580 */;
+	const struct pci_epf_device_id cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 555 */[];
+	struct pci_epf_test_reg {
+		u32 magic;
+		u32 command;
+		u32 status;
+		u64 src_addr;
+		u64 dst_addr;
+		u32 size;
+		u32 checksum;
+		u32 irq_type;
+		u32 irq_number;
+	}__packed cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 54 */;
+	struct pci_epc *cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 498 */;
+	struct pci_epf_header *cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 495 */;
+	int cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 479 */;
+	bool cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 478 */;
+	struct pci_epf_bar *cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 477 */;
+	const struct pci_epc_features *cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 475 */;
+	struct pci_epf *cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 474 */;
+	void cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 474 */;
+	struct pci_epf_test {
+		void *reg[PCI_STD_NUM_BARS];
+		struct pci_epf *epf;
+		enum pci_barno test_reg_bar;
+		struct delayed_work cmd_handler;
+		const struct pci_epc_features *epc_features;
+	} cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 46 */;
+	struct pci_epf_test_reg cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 443 */;
+	struct workqueue_struct *cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 44 */;
+	size_t cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 436 */;
+	enum pci_barno cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 434 */;
+	void *cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 432 */;
+	struct device *cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 430 */;
+	struct pci_epf_test *cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 429 */;
+	struct pci_epf_test_reg *cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 285 */;
+	struct pci_epf_test cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 279 */;
+	u32 cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 278 */;
+	struct work_struct *cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 274 */;
+	u16 cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 248 */;
+	u8 cocci_id/* drivers/pci/endpoint/functions/pci-epf-test.c 247 */;
+}

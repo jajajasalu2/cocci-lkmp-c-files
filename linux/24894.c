@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	void __exit cocci_id/* net/l2tp/l2tp_ip.c 667 */;
+	int __init cocci_id/* net/l2tp/l2tp_ip.c 644 */;
+	struct net_protocol cocci_id/* net/l2tp/l2tp_ip.c 639 */;
+	struct inet_protosw cocci_id/* net/l2tp/l2tp_ip.c 632 */;
+	const struct proto_ops cocci_id/* net/l2tp/l2tp_ip.c 606 */;
+	struct l2tp_ip_sock cocci_id/* net/l2tp/l2tp_ip.c 599 */;
+	struct proto cocci_id/* net/l2tp/l2tp_ip.c 582 */;
+	int __user *cocci_id/* net/l2tp/l2tp_ip.c 578 */;
+	struct sk_buff *cocci_id/* net/l2tp/l2tp_ip.c 560 */;
+	unsigned long cocci_id/* net/l2tp/l2tp_ip.c 558 */;
+	const struct inet_sock *cocci_id/* net/l2tp/l2tp_ip.c 54 */;
+	const struct l2tp_ip_sock *cocci_id/* net/l2tp/l2tp_ip.c 53 */;
+	struct sockaddr_in *cocci_id/* net/l2tp/l2tp_ip.c 518 */;
+	int *cocci_id/* net/l2tp/l2tp_ip.c 513 */;
+	size_t cocci_id/* net/l2tp/l2tp_ip.c 513 */;
+	struct msghdr *cocci_id/* net/l2tp/l2tp_ip.c 512 */;
+	u32 cocci_id/* net/l2tp/l2tp_ip.c 48 */;
+	int cocci_id/* net/l2tp/l2tp_ip.c 48 */;
+	__be32 cocci_id/* net/l2tp/l2tp_ip.c 47 */;
+	const struct net *cocci_id/* net/l2tp/l2tp_ip.c 47 */;
+	struct sock *cocci_id/* net/l2tp/l2tp_ip.c 47 */;
+	const struct ip_options_rcu *cocci_id/* net/l2tp/l2tp_ip.c 459 */;
+	struct iphdr cocci_id/* net/l2tp/l2tp_ip.c 432 */;
+	const struct sock *cocci_id/* net/l2tp/l2tp_ip.c 42 */;
+	struct hlist_head cocci_id/* net/l2tp/l2tp_ip.c 40 */;
+	struct flowi4 *cocci_id/* net/l2tp/l2tp_ip.c 397 */;
+	struct rtable *cocci_id/* net/l2tp/l2tp_ip.c 396 */;
+	struct l2tp_ip_sock *cocci_id/* net/l2tp/l2tp_ip.c 351 */;
+	struct socket *cocci_id/* net/l2tp/l2tp_ip.c 346 */;
+	struct l2tp_ip_sock {
+		struct inet_sock inet;
+		u32 conn_id;
+		u32 peer_conn_id;
+	} cocci_id/* net/l2tp/l2tp_ip.c 30 */;
+	struct sockaddr_l2tpip cocci_id/* net/l2tp/l2tp_ip.c 253 */;
+	struct net *cocci_id/* net/l2tp/l2tp_ip.c 249 */;
+	struct sockaddr_l2tpip *cocci_id/* net/l2tp/l2tp_ip.c 248 */;
+	struct inet_sock *cocci_id/* net/l2tp/l2tp_ip.c 247 */;
+	struct sockaddr *cocci_id/* net/l2tp/l2tp_ip.c 245 */;
+	struct l2tp_tunnel *cocci_id/* net/l2tp/l2tp_ip.c 236 */;
+	long cocci_id/* net/l2tp/l2tp_ip.c 224 */;
+	void cocci_id/* net/l2tp/l2tp_ip.c 224 */;
+	__be32 *cocci_id/* net/l2tp/l2tp_ip.c 130 */;
+	struct iphdr *cocci_id/* net/l2tp/l2tp_ip.c 122 */;
+	struct l2tp_session *cocci_id/* net/l2tp/l2tp_ip.c 120 */;
+	unsigned char *cocci_id/* net/l2tp/l2tp_ip.c 119 */;
+}

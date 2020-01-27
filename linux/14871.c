@@ -1,0 +1,66 @@
+cocci_test_suite() {
+	const char *cocci_id/* drivers/clk/tegra/clk-tegra210.c 865 */;
+	struct tegra_clk_pll *cocci_id/* drivers/clk/tegra/clk-tegra210.c 750 */;
+	u8 cocci_id/* drivers/clk/tegra/clk-tegra210.c 669 */;
+	u32 cocci_id/* drivers/clk/tegra/clk-tegra210.c 669 */;
+	struct tegra_clk_pll_params *cocci_id/* drivers/clk/tegra/clk-tegra210.c 668 */;
+	void __iomem *cocci_id/* drivers/clk/tegra/clk-tegra210.c 667 */;
+	void cocci_id/* drivers/clk/tegra/clk-tegra210.c 667 */;
+	unsigned int cocci_id/* drivers/clk/tegra/clk-tegra210.c 635 */;
+	struct tegra210_domain_mbist_war *cocci_id/* drivers/clk/tegra/clk-tegra210.c 632 */;
+	struct device_node *cocci_id/* drivers/clk/tegra/clk-tegra210.c 3634 */;
+	struct clk *cocci_id/* drivers/clk/tegra/clk-tegra210.c 3613 */;
+	struct clk_bulk_data *cocci_id/* drivers/clk/tegra/clk-tegra210.c 3600 */;
+	void __init cocci_id/* drivers/clk/tegra/clk-tegra210.c 3514 */;
+	struct tegra_clk_init_table cocci_id/* drivers/clk/tegra/clk-tegra210.c 3446 */[]__initdata;
+	const struct of_device_id cocci_id/* drivers/clk/tegra/clk-tegra210.c 3441 */[]__initconst;
+	struct tegra_cpu_car_ops cocci_id/* drivers/clk/tegra/clk-tegra210.c 3432 */;
+	struct syscore_ops cocci_id/* drivers/clk/tegra/clk-tegra210.c 3425 */;
+	u32 cocci_id/* drivers/clk/tegra/clk-tegra210.c 3344 */[3];
+	const char *cocci_id/* drivers/clk/tegra/clk-tegra210.c 317 */[];
+	unsigned long cocci_id/* drivers/clk/tegra/clk-tegra210.c 312 */[];
+	struct tegra_periph_init_data *cocci_id/* drivers/clk/tegra/clk-tegra210.c 3088 */;
+	struct tegra_clk_periph cocci_id/* drivers/clk/tegra/clk-tegra210.c 3001 */;
+	unsigned long cocci_id/* drivers/clk/tegra/clk-tegra210.c 299 */;
+	struct tegra_periph_init_data cocci_id/* drivers/clk/tegra/clk-tegra210.c 2973 */[];
+	u32 cocci_id/* drivers/clk/tegra/clk-tegra210.c 2960 */[];
+	struct clk **cocci_id/* drivers/clk/tegra/clk-tegra210.c 291 */;
+	struct tegra_clk_pll cocci_id/* drivers/clk/tegra/clk-tegra210.c 2831 */;
+	struct tegra210_domain_mbist_war {
+		void (*handle_lvl2_ovr)(struct tegra210_domain_mbist_war *mbist);
+		const u32 lvl2_offset;
+		const u32 lvl2_mask;
+		const unsigned int num_clks;
+		const unsigned int *clk_init_data;
+		struct clk_bulk_data *clks;
+	} cocci_id/* drivers/clk/tegra/clk-tegra210.c 282 */;
+	struct cpu_clk_suspend_context {
+		u32 clk_csite_src;
+	} cocci_id/* drivers/clk/tegra/clk-tegra210.c 277 */;
+	s16 cocci_id/* drivers/clk/tegra/clk-tegra210.c 268 */;
+	struct tegra210_domain_mbist_war cocci_id/* drivers/clk/tegra/clk-tegra210.c 2592 */[];
+	const unsigned int cocci_id/* drivers/clk/tegra/clk-tegra210.c 2586 */[];
+	const char *const cocci_id/* drivers/clk/tegra/clk-tegra210.c 2567 */[];
+	struct tegra_audio_clk_info cocci_id/* drivers/clk/tegra/clk-tegra210.c 2562 */[];
+	struct tegra_devclk cocci_id/* drivers/clk/tegra/clk-tegra210.c 2496 */[]__initdata;
+	struct tegra_clk cocci_id/* drivers/clk/tegra/clk-tegra210.c 2287 */[tegra_clk_max]__initdata;
+	const struct utmi_clk_param cocci_id/* drivers/clk/tegra/clk-tegra210.c 2259 */[];
+	struct utmi_clk_param {
+		u32 osc_frequency;
+		u8 enable_delay_count;
+		u16 stable_count;
+		u8 active_delay_count;
+		u16 xtal_freq_count;
+	} cocci_id/* drivers/clk/tegra/clk-tegra210.c 2246 */;
+	struct tegra_clk_pll_freq_table cocci_id/* drivers/clk/tegra/clk-tegra210.c 2029 */[];
+	struct div_nmp cocci_id/* drivers/clk/tegra/clk-tegra210.c 2020 */;
+	struct tegra_clk_pll_params cocci_id/* drivers/clk/tegra/clk-tegra210.c 1992 */;
+	const struct clk_div_table cocci_id/* drivers/clk/tegra/clk-tegra210.c 1748 */[];
+	u32 *cocci_id/* drivers/clk/tegra/clk-tegra210.c 1557 */;
+	const struct pdiv_map cocci_id/* drivers/clk/tegra/clk-tegra210.c 1546 */[];
+	int cocci_id/* drivers/clk/tegra/clk-tegra210.c 1530 */;
+	struct tegra_clk_pll_freq_table *cocci_id/* drivers/clk/tegra/clk-tegra210.c 1477 */;
+	u64 cocci_id/* drivers/clk/tegra/clk-tegra210.c 1448 */;
+	bool cocci_id/* drivers/clk/tegra/clk-tegra210.c 1205 */;
+	struct clk_hw *cocci_id/* drivers/clk/tegra/clk-tegra210.c 1038 */;
+}

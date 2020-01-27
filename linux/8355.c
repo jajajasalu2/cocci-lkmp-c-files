@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct tc_root_qopt_offload *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 837 */;
+	void cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 83 */;
+	struct tc_qopt_offload_stats *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 777 */;
+	struct tc_mq_qopt_offload *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 758 */;
+	struct tc_red_qopt_offload *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 662 */;
+	struct nfp_qdisc *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 579 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 576 */;
+	struct tc_gred_vq_qopt_offload_params *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 540 */;
+	struct nfp_abm *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 520 */;
+	struct nfp_cpp *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 519 */;
+	struct tc_gred_qopt_offload *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 517 */;
+	bool cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 515 */;
+	struct tc_gred_qopt_offload_stats *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 483 */;
+	u32 cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 482 */;
+	struct red_stats *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 475 */;
+	struct gnet_stats_queue *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 462 */;
+	struct gnet_stats_basic_packed *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 461 */;
+	struct nfp_qdisc **cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 389 */;
+	void *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 352 */;
+	struct nfp_port *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 343 */;
+	enum nfp_qdisc_type cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 340 */;
+	void __rcu **cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 290 */;
+	struct radix_tree_iter cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 288 */;
+	size_t cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 251 */;
+	enum nfp_abm_q_action cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 216 */;
+	u64 cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 142 */;
+	struct nfp_alink_xstats *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 140 */;
+	struct nfp_alink_stats *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 139 */;
+	struct nfp_abm_link *cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 138 */;
+	unsigned int cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 138 */;
+	int cocci_id/* drivers/net/ethernet/netronome/nfp/abm/qdisc.c 137 */;
+}

@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 75 */;
+	struct scatterlist *cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 74 */;
+	struct sg_table *cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 73 */;
+	unsigned cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 73 */;
+	struct etnaviv_drm_private *cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 498 */;
+	struct etnaviv_gpu *cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 496 */;
+	struct device *cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 440 */;
+	enum etnaviv_iommu_version cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 437 */;
+	void *cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 430 */;
+	size_t cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 41 */;
+	phys_addr_t cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 40 */;
+	unsigned long cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 40 */;
+	struct etnaviv_iommu_context *cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 39 */;
+	int cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 39 */;
+	u32 cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 358 */;
+	dma_addr_t cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 358 */;
+	struct etnaviv_cmdbuf_suballoc *cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 316 */;
+	struct etnaviv_iommu_global *cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 315 */;
+	struct etnaviv_iommu_context cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 303 */;
+	struct kref *cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 300 */;
+	struct etnaviv_gem_object *cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 231 */;
+	u64 cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 224 */;
+	void cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 16 */;
+	bool cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 152 */;
+	struct list_head cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 151 */;
+	struct drm_mm_scan cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 150 */;
+	enum drm_mm_insert_mode cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 143 */;
+	struct etnaviv_vram_mapping *cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 142 */;
+	struct drm_mm_node *cocci_id/* drivers/gpu/drm/etnaviv/etnaviv_mmu.c 140 */;
+}

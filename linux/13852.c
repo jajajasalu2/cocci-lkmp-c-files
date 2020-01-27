@@ -1,0 +1,73 @@
+cocci_test_suite() {
+	const struct {
+		u64 type;
+		const char *name;
+		const char *module_name;
+	} cocci_id/* drivers/media/rc/rc-main.c 998 */[];
+	struct class cocci_id/* drivers/media/rc/rc-main.c 988 */;
+	umode_t *cocci_id/* drivers/media/rc/rc-main.c 983 */;
+	char *cocci_id/* drivers/media/rc/rc-main.c 983 */;
+	struct input_dev *cocci_id/* drivers/media/rc/rc-main.c 976 */;
+	struct rc_scancode_filter *cocci_id/* drivers/media/rc/rc-main.c 908 */;
+	struct led_trigger *cocci_id/* drivers/media/rc/rc-main.c 85 */;
+	struct lirc_scancode cocci_id/* drivers/media/rc/rc-main.c 752 */;
+	bool cocci_id/* drivers/media/rc/rc-main.c 748 */;
+	u8 cocci_id/* drivers/media/rc/rc-main.c 746 */;
+	u32 cocci_id/* drivers/media/rc/rc-main.c 746 */;
+	enum rc_proto cocci_id/* drivers/media/rc/rc-main.c 745 */;
+	struct timer_list *cocci_id/* drivers/media/rc/rc-main.c 643 */;
+	unsigned long cocci_id/* drivers/media/rc/rc-main.c 517 */;
+	struct rc_map_table *cocci_id/* drivers/media/rc/rc-main.c 516 */;
+	struct input_keymap_entry *cocci_id/* drivers/media/rc/rc-main.c 512 */;
+	const struct rc_map *cocci_id/* drivers/media/rc/rc-main.c 489 */;
+	const struct rc_map_table *cocci_id/* drivers/media/rc/rc-main.c 470 */;
+	const unsigned int *cocci_id/* drivers/media/rc/rc-main.c 469 */;
+	const void *cocci_id/* drivers/media/rc/rc-main.c 467 */;
+	unsigned int *cocci_id/* drivers/media/rc/rc-main.c 392 */;
+	const struct input_keymap_entry *cocci_id/* drivers/media/rc/rc-main.c 391 */;
+	unsigned int cocci_id/* drivers/media/rc/rc-main.c 335 */;
+	const struct {
+		const char *name;
+		unsigned int repeat_period;
+		unsigned int scancode_bits;
+	} cocci_id/* drivers/media/rc/rc-main.c 24 */[];
+	gfp_t cocci_id/* drivers/media/rc/rc-main.c 228 */;
+	void __exit cocci_id/* drivers/media/rc/rc-main.c 2023 */;
+	int __init cocci_id/* drivers/media/rc/rc-main.c 2002 */;
+	int cocci_id/* drivers/media/rc/rc-main.c 1940 */;
+	struct rc_map_table cocci_id/* drivers/media/rc/rc-main.c 186 */;
+	u64 cocci_id/* drivers/media/rc/rc-main.c 180 */;
+	const char *cocci_id/* drivers/media/rc/rc-main.c 180 */;
+	size_t cocci_id/* drivers/media/rc/rc-main.c 180 */;
+	struct rc_map *cocci_id/* drivers/media/rc/rc-main.c 179 */;
+	enum rc_driver_type cocci_id/* drivers/media/rc/rc-main.c 1712 */;
+	struct rc_dev *cocci_id/* drivers/media/rc/rc-main.c 1711 */;
+	struct rc_dev **cocci_id/* drivers/media/rc/rc-main.c 1708 */;
+	struct device *cocci_id/* drivers/media/rc/rc-main.c 1706 */;
+	void *cocci_id/* drivers/media/rc/rc-main.c 1706 */;
+	void cocci_id/* drivers/media/rc/rc-main.c 1706 */;
+	const struct device_type cocci_id/* drivers/media/rc/rc-main.c 1646 */;
+	const struct attribute_group cocci_id/* drivers/media/rc/rc-main.c 1631 */;
+	struct attribute *cocci_id/* drivers/media/rc/rc-main.c 1625 */[];
+	struct device_attribute cocci_id/* drivers/media/rc/rc-main.c 1592 */;
+	struct kobj_uevent_env *cocci_id/* drivers/media/rc/rc-main.c 1575 */;
+	struct rc_map_list cocci_id/* drivers/media/rc/rc-main.c 157 */;
+	struct rc_map_table cocci_id/* drivers/media/rc/rc-main.c 153 */[];
+	int (*cocci_id/* drivers/media/rc/rc-main.c 1379 */)(struct rc_dev *dev,
+							     struct rc_scancode_filter *filter);
+	struct rc_scancode_filter cocci_id/* drivers/media/rc/rc-main.c 1376 */;
+	struct rc_filter_attribute *cocci_id/* drivers/media/rc/rc-main.c 1331 */;
+	struct device_attribute *cocci_id/* drivers/media/rc/rc-main.c 1327 */;
+	ssize_t cocci_id/* drivers/media/rc/rc-main.c 1326 */;
+	u64 *cocci_id/* drivers/media/rc/rc-main.c 1183 */;
+	char **cocci_id/* drivers/media/rc/rc-main.c 1131 */;
+	unsigned cocci_id/* drivers/media/rc/rc-main.c 1126 */;
+	struct rc_map_list *cocci_id/* drivers/media/rc/rc-main.c 109 */;
+	long long cocci_id/* drivers/media/rc/rc-main.c 1086 */;
+	struct rc_filter_attribute cocci_id/* drivers/media/rc/rc-main.c 1045 */;
+	struct rc_filter_attribute {
+		struct device_attribute attr;
+		enum rc_filter_type type;
+		bool mask;
+	} cocci_id/* drivers/media/rc/rc-main.c 1040 */;
+}

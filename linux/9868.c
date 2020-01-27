@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 989 */;
+	size_t cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 988 */;
+	const void *cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 987 */;
+	struct urb *cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 894 */;
+	void cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 887 */;
+	unsigned long cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 754 */;
+	int cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 71 */(struct hif_device_usb *hif_dev);
+	struct ath9k_htc_hif cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 516 */;
+	struct ath9k_htc_tx_ctl *cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 484 */;
+	u8 cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 482 */;
+	struct tx_buf cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 326 */;
+	__le16 *cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 317 */;
+	u8 *cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 316 */;
+	u16 cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 315 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 313 */;
+	struct tx_buf *cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 312 */;
+	struct hif_device_usb *cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 310 */;
+	int cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 310 */;
+	struct sk_buff_head *cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 235 */;
+	const struct usb_device_id cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 23 */[];
+	struct usb_driver cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 1426 */;
+	struct cmd_buf *cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 139 */;
+	struct htc_target *cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 1384 */;
+	pm_message_t cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 1362 */;
+	struct usb_device *cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 1333 */;
+	struct usb_interface *cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 1331 */;
+	struct hif_device_usb cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 1281 */;
+	const struct usb_device_id *cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 1272 */;
+	unsigned char *cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 1221 */;
+	struct usb_endpoint_descriptor *cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 1220 */;
+	struct usb_host_interface *cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 1219 */;
+	const struct firmware *cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 1157 */;
+	void *cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 1157 */;
+	const char *cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 1109 */;
+	char cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 1091 */[8];
+	bool cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 1089 */;
+	void cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 1085 */(const struct firmware *fw,
+									 void *context);
+	struct device *cocci_id/* drivers/net/wireless/ath/ath9k/hif_usb.c 1071 */;
+}

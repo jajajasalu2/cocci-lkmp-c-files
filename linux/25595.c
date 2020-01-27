@@ -1,0 +1,95 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* tools/perf/util/machine.c 997 */;
+	const char *cocci_id/* tools/perf/util/machine.c 991 */[];
+	struct extra_kernel_map *cocci_id/* tools/perf/util/machine.c 961 */;
+	const char **cocci_id/* tools/perf/util/machine.c 925 */;
+	struct process_args {
+		u64 start;
+	} cocci_id/* tools/perf/util/machine.c 905 */;
+	size_t cocci_id/* tools/perf/util/machine.c 854 */;
+	bool cocci_id/* tools/perf/util/machine.c 816 */(struct dso *dso,
+							 int parm);
+	struct kmod_path cocci_id/* tools/perf/util/machine.c 777 */;
+	union perf_event *cocci_id/* tools/perf/util/machine.c 698 */;
+	struct kmod_path *cocci_id/* tools/perf/util/machine.c 674 */;
+	struct perf_sample *cocci_id/* tools/perf/util/machine.c 601 */;
+	struct comm *cocci_id/* tools/perf/util/machine.c 591 */;
+	struct thread cocci_id/* tools/perf/util/machine.c 514 */;
+	struct rb_node *cocci_id/* tools/perf/util/machine.c 504 */;
+	struct rb_node **cocci_id/* tools/perf/util/machine.c 503 */;
+	bool cocci_id/* tools/perf/util/machine.c 501 */;
+	pid_t cocci_id/* tools/perf/util/machine.c 500 */;
+	struct threads *cocci_id/* tools/perf/util/machine.c 499 */;
+	struct thread *cocci_id/* tools/perf/util/machine.c 498 */;
+	struct machine *cocci_id/* tools/perf/util/machine.c 498 */;
+	void cocci_id/* tools/perf/util/machine.c 43 */(struct machine *machine,
+							struct thread *th,
+							bool lock);
+	u16 cocci_id/* tools/perf/util/machine.c 382 */;
+	machine__process_t cocci_id/* tools/perf/util/machine.c 372 */;
+	struct strlist *cocci_id/* tools/perf/util/machine.c 351 */;
+	struct machine cocci_id/* tools/perf/util/machine.c 283 */;
+	unsigned long long *cocci_id/* tools/perf/util/machine.c 2719 */;
+	struct dso_id *cocci_id/* tools/perf/util/machine.c 2709 */;
+	struct machines *cocci_id/* tools/perf/util/machine.c 265 */;
+	int (*cocci_id/* tools/perf/util/machine.c 2545 */)(struct thread *thread,
+							    void *p);
+	struct evsel *cocci_id/* tools/perf/util/machine.c 2509 */;
+	struct unwind_entry *cocci_id/* tools/perf/util/machine.c 2463 */;
+	struct inline_list *cocci_id/* tools/perf/util/machine.c 2429 */;
+	struct inline_node *cocci_id/* tools/perf/util/machine.c 2428 */;
+	struct symbol *cocci_id/* tools/perf/util/machine.c 2426 */;
+	struct map_symbol *cocci_id/* tools/perf/util/machine.c 2424 */;
+	struct iterations cocci_id/* tools/perf/util/machine.c 2355 */;
+	struct iterations cocci_id/* tools/perf/util/machine.c 2324 */[nr];
+	struct branch_entry cocci_id/* tools/perf/util/machine.c 2323 */[nr];
+	struct ip_callchain *cocci_id/* tools/perf/util/machine.c 2256 */;
+	struct branch_stack *cocci_id/* tools/perf/util/machine.c 2189 */;
+	unsigned char cocci_id/* tools/perf/util/machine.c 2122 */[CHASHSZ];
+	struct branch_entry *cocci_id/* tools/perf/util/machine.c 2118 */;
+	struct branch_info cocci_id/* tools/perf/util/machine.c 2086 */;
+	const struct branch_stack *cocci_id/* tools/perf/util/machine.c 2085 */;
+	struct branch_info *cocci_id/* tools/perf/util/machine.c 2081 */;
+	s64 cocci_id/* tools/perf/util/machine.c 2038 */;
+	const char *cocci_id/* tools/perf/util/machine.c 2018 */;
+	struct addr_location cocci_id/* tools/perf/util/machine.c 2015 */;
+	struct map_symbol cocci_id/* tools/perf/util/machine.c 2014 */;
+	struct iterations *cocci_id/* tools/perf/util/machine.c 2011 */;
+	struct branch_flags *cocci_id/* tools/perf/util/machine.c 2010 */;
+	u64 cocci_id/* tools/perf/util/machine.c 2008 */;
+	u8 *cocci_id/* tools/perf/util/machine.c 2007 */;
+	struct addr_location *cocci_id/* tools/perf/util/machine.c 2006 */;
+	struct symbol **cocci_id/* tools/perf/util/machine.c 2005 */;
+	struct callchain_cursor *cocci_id/* tools/perf/util/machine.c 2004 */;
+	struct iterations {
+		int nr_loop_iter;
+		u64 cycles;
+	} cocci_id/* tools/perf/util/machine.c 1998 */;
+	char *cocci_id/* tools/perf/util/machine.c 1977 */;
+	struct mem_info *cocci_id/* tools/perf/util/machine.c 1961 */;
+	u8 cocci_id/* tools/perf/util/machine.c 1944 */;
+	struct addr_map_symbol *cocci_id/* tools/perf/util/machine.c 1920 */;
+	regex_t *cocci_id/* tools/perf/util/machine.c 1912 */;
+	struct dsos *cocci_id/* tools/perf/util/machine.c 187 */;
+	void cocci_id/* tools/perf/util/machine.c 1749 */;
+	u32 cocci_id/* tools/perf/util/machine.c 1703 */;
+	struct dso_id cocci_id/* tools/perf/util/machine.c 1648 */;
+	enum dso_kernel_type cocci_id/* tools/perf/util/machine.c 1535 */;
+	void *cocci_id/* tools/perf/util/machine.c 1368 */;
+	u64 *cocci_id/* tools/perf/util/machine.c 1361 */;
+	int __weak cocci_id/* tools/perf/util/machine.c 1361 */;
+	struct stat cocci_id/* tools/perf/util/machine.c 1302 */;
+	DIR *cocci_id/* tools/perf/util/machine.c 1292 */;
+	struct dirent *cocci_id/* tools/perf/util/machine.c 1291 */;
+	FILE *cocci_id/* tools/perf/util/machine.c 1231 */;
+	char cocci_id/* tools/perf/util/machine.c 1230 */[PATH_MAX];
+	char cocci_id/* tools/perf/util/machine.c 116 */[64];
+	struct dirent **cocci_id/* tools/perf/util/machine.c 1128 */;
+	char **cocci_id/* tools/perf/util/machine.c 1118 */;
+	struct map *cocci_id/* tools/perf/util/machine.c 1086 */;
+	struct kmap *cocci_id/* tools/perf/util/machine.c 1085 */;
+	struct dso *cocci_id/* tools/perf/util/machine.c 1083 */;
+	int cocci_id/* tools/perf/util/machine.c 1082 */;
+	struct extra_kernel_map cocci_id/* tools/perf/util/machine.c 1059 */;
+	struct maps *cocci_id/* tools/perf/util/machine.c 1023 */;
+}

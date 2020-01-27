@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	srb_t *cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 939 */;
+	struct scsi_qla_host *cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 937 */;
+	atomic_t cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 89 */;
+	struct rsp_que cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 823 */;
+	struct rsp_que *cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 817 */;
+	struct qla_qpair *cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 814 */;
+	struct qla_qpair cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 800 */;
+	struct work_struct *cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 797 */;
+	void *cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 763 */;
+	struct req_que cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 694 */;
+	device_reg_t *cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 691 */;
+	u8 cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 69 */;
+	struct req_que *cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 687 */;
+	uint8_t cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 684 */;
+	bool cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 684 */;
+	uint16_t cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 66 */;
+	struct Scsi_Host *cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 486 */;
+	struct scsi_host_template *cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 485 */;
+	uint8_t cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 447 */[WWN_SIZE];
+	unsigned long cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 34 */;
+	struct qla_hw_data *cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 33 */;
+	scsi_qla_host_t *cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 30 */;
+	uint32_t cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 29 */;
+	uint16_t *cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 259 */;
+	int cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 234 */;
+	struct fc_vport *cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 233 */;
+	void cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 230 */;
+	fc_port_t *cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 160 */;
+	uint8_t *cocci_id/* drivers/scsi/qla2xxx/qla_mid.c 103 */;
+}

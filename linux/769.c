@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct pci_config_window *cocci_id/* drivers/pci/controller/pci-xgene.c 92 */;
+	struct xgene_pcie_port *cocci_id/* drivers/pci/controller/pci-xgene.c 90 */;
+	struct pci_bus *cocci_id/* drivers/pci/controller/pci-xgene.c 90 */;
+	u32 cocci_id/* drivers/pci/controller/pci-xgene.c 85 */;
+	struct platform_driver cocci_id/* drivers/pci/controller/pci-xgene.c 653 */;
+	const struct of_device_id cocci_id/* drivers/pci/controller/pci-xgene.c 648 */[];
+	struct xgene_pcie_port {
+		struct device_node *node;
+		struct device *dev;
+		struct clk *clk;
+		void __iomem *csr_base;
+		void __iomem *cfg_base;
+		unsigned long cfg_addr;
+		bool link_up;
+		u32 version;
+	} cocci_id/* drivers/pci/controller/pci-xgene.c 64 */;
+	struct device_node *cocci_id/* drivers/pci/controller/pci-xgene.c 592 */;
+	struct pci_ops cocci_id/* drivers/pci/controller/pci-xgene.c 583 */;
+	void cocci_id/* drivers/pci/controller/pci-xgene.c 547 */;
+	u8 cocci_id/* drivers/pci/controller/pci-xgene.c 538 */;
+	u8 *cocci_id/* drivers/pci/controller/pci-xgene.c 463 */;
+	u64 cocci_id/* drivers/pci/controller/pci-xgene.c 416 */;
+	struct pci_host_bridge *cocci_id/* drivers/pci/controller/pci-xgene.c 410 */;
+	resource_size_t cocci_id/* drivers/pci/controller/pci-xgene.c 372 */;
+	struct platform_device *cocci_id/* drivers/pci/controller/pci-xgene.c 348 */;
+	struct pci_ecam_ops cocci_id/* drivers/pci/controller/pci-xgene.c 259 */;
+	struct resource cocci_id/* drivers/pci/controller/pci-xgene.c 231 */;
+	struct resource_entry cocci_id/* drivers/pci/controller/pci-xgene.c 220 */;
+	void *cocci_id/* drivers/pci/controller/pci-xgene.c 208 */;
+	unsigned long cocci_id/* drivers/pci/controller/pci-xgene.c 201 */;
+	struct list_head cocci_id/* drivers/pci/controller/pci-xgene.c 200 */;
+	struct resource_entry *cocci_id/* drivers/pci/controller/pci-xgene.c 199 */;
+	struct device *cocci_id/* drivers/pci/controller/pci-xgene.c 198 */;
+	struct resource *cocci_id/* drivers/pci/controller/pci-xgene.c 196 */;
+	struct acpi_device *cocci_id/* drivers/pci/controller/pci-xgene.c 195 */;
+	int cocci_id/* drivers/pci/controller/pci-xgene.c 195 */;
+	u32 *cocci_id/* drivers/pci/controller/pci-xgene.c 166 */;
+	unsigned int cocci_id/* drivers/pci/controller/pci-xgene.c 165 */;
+	bool cocci_id/* drivers/pci/controller/pci-xgene.c 145 */;
+	uint cocci_id/* drivers/pci/controller/pci-xgene.c 119 */;
+	void __iomem *cocci_id/* drivers/pci/controller/pci-xgene.c 105 */;
+}

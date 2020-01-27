@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	const struct power_supply_desc cocci_id/* drivers/power/supply/olpc_battery.c 90 */;
+	enum power_supply_property cocci_id/* drivers/power/supply/olpc_battery.c 86 */[];
+	struct platform_driver cocci_id/* drivers/power/supply/olpc_battery.c 717 */;
+	const struct of_device_id cocci_id/* drivers/power/supply/olpc_battery.c 710 */[];
+	uint8_t cocci_id/* drivers/power/supply/olpc_battery.c 69 */;
+	union power_supply_propval *cocci_id/* drivers/power/supply/olpc_battery.c 66 */;
+	enum power_supply_property cocci_id/* drivers/power/supply/olpc_battery.c 65 */;
+	struct power_supply *cocci_id/* drivers/power/supply/olpc_battery.c 64 */;
+	int cocci_id/* drivers/power/supply/olpc_battery.c 64 */;
+	struct power_supply_config cocci_id/* drivers/power/supply/olpc_battery.c 635 */;
+	struct platform_device *cocci_id/* drivers/power/supply/olpc_battery.c 633 */;
+	pm_message_t cocci_id/* drivers/power/supply/olpc_battery.c 614 */;
+	struct power_supply_desc cocci_id/* drivers/power/supply/olpc_battery.c 607 */;
+	const struct attribute_group *cocci_id/* drivers/power/supply/olpc_battery.c 598 */[];
+	const struct attribute_group cocci_id/* drivers/power/supply/olpc_battery.c 592 */;
+	struct bin_attribute *cocci_id/* drivers/power/supply/olpc_battery.c 587 */[];
+	struct attribute *cocci_id/* drivers/power/supply/olpc_battery.c 582 */[];
+	struct device_attribute cocci_id/* drivers/power/supply/olpc_battery.c 574 */;
+	struct device_attribute *cocci_id/* drivers/power/supply/olpc_battery.c 562 */;
+	struct device *cocci_id/* drivers/power/supply/olpc_battery.c 561 */;
+	struct bin_attribute cocci_id/* drivers/power/supply/olpc_battery.c 550 */;
+	loff_t cocci_id/* drivers/power/supply/olpc_battery.c 530 */;
+	struct bin_attribute *cocci_id/* drivers/power/supply/olpc_battery.c 530 */;
+	char *cocci_id/* drivers/power/supply/olpc_battery.c 530 */;
+	size_t cocci_id/* drivers/power/supply/olpc_battery.c 530 */;
+	struct kobject *cocci_id/* drivers/power/supply/olpc_battery.c 529 */;
+	struct file *cocci_id/* drivers/power/supply/olpc_battery.c 529 */;
+	ssize_t cocci_id/* drivers/power/supply/olpc_battery.c 529 */;
+	struct olpc_battery_data {
+		struct power_supply *olpc_ac;
+		struct power_supply *olpc_bat;
+		char bat_serial[17];
+		bool new_proto;
+		bool little_endian;
+	} cocci_id/* drivers/power/supply/olpc_battery.c 52 */;
+	long long cocci_id/* drivers/power/supply/olpc_battery.c 463 */;
+	void *cocci_id/* drivers/power/supply/olpc_battery.c 399 */;
+	__be64 cocci_id/* drivers/power/supply/olpc_battery.c 342 */;
+	__be16 cocci_id/* drivers/power/supply/olpc_battery.c 328 */;
+	__le16 cocci_id/* drivers/power/supply/olpc_battery.c 326 */;
+	u16 cocci_id/* drivers/power/supply/olpc_battery.c 323 */;
+	struct olpc_battery_data *cocci_id/* drivers/power/supply/olpc_battery.c 323 */;
+	union power_supply_propval cocci_id/* drivers/power/supply/olpc_battery.c 213 */;
+}

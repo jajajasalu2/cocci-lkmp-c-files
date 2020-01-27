@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 928 */;
+	struct platform_device *cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 828 */;
+	const struct platform_suspend_ops cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 820 */;
+	struct apm_power_info *cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 806 */;
+	void (*cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 804 */)(struct apm_power_info *);
+	struct device_attribute *cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 791 */;
+	struct device *cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 791 */;
+	char *cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 791 */;
+	ssize_t cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 791 */;
+	struct battery_thresh cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 73 */[];
+	struct sharpsl_pm_status cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 66 */;
+	suspend_state_t cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 638 */;
+	unsigned long cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 638 */;
+	unsigned int cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 638 */;
+	int cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 638 */;
+	void cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 60 */(struct work_struct *private_);
+	void cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 599 */;
+	void cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 58 */(void);
+	pm_message_t cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 574 */;
+	int cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 57 */(int ad);
+	int cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 56 */(void);
+	int *cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 462 */;
+	int cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 438 */[SHARPSL_CNV_VALUE_NUM + 1];
+	irqreturn_t cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 356 */;
+	void *cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 356 */;
+	struct timer_list *cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 340 */;
+	struct work_struct *cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 226 */;
+	struct battery_thresh *cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 187 */;
+	int cocci_id/* arch/arm/mach-pxa/sharpsl_pm.c 167 */(int);
+}

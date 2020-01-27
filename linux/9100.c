@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	struct net_device *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 914 */;
+	u8 cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 818 */;
+	u32 cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 785 */;
+	enum mlx5e_traffic_types cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 785 */;
+	u32 *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 755 */;
+	struct ethtool_rxnfc *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 755 */;
+	struct mlx5_flow_namespace *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 62 */;
+	struct mlx5e_ethtool_table *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 57 */;
+	typeof(field) cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 495 */;
+	u16 cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 422 */;
+	struct mlx5e_tir *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 421 */;
+	enum mlx5e_rq_group cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 420 */;
+	struct mlx5e_params *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 419 */;
+	int cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 406 */;
+	struct mlx5_flow_spec *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 405 */;
+	struct mlx5_flow_destination *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 403 */;
+	struct mlx5_flow_act cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 402 */;
+	struct ethtool_rx_flow_spec *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 400 */;
+	struct mlx5_flow_table *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 399 */;
+	struct mlx5e_priv *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 398 */;
+	struct mlx5_flow_handle *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 397 */;
+	char *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 389 */;
+	bool cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 386 */;
+	struct mlx5e_ethtool_rule {
+		struct list_head list;
+		struct ethtool_rx_flow_spec flow_spec;
+		struct mlx5_flow_handle *rule;
+		struct mlx5e_ethtool_table *eth_ft;
+	} cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 38 */;
+	struct list_head *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 375 */;
+	struct mlx5e_ethtool_rule *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 372 */;
+	void cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 371 */;
+	unsigned char cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 316 */[ETH_ALEN];
+	__be16 cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 306 */;
+	struct ethhdr *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 293 */;
+	struct ethtool_tcpip6_spec *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 267 */;
+	struct ethtool_usrip6_spec *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 252 */;
+	struct ethtool_usrip4_spec *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 237 */;
+	struct ethtool_tcpip4_spec *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 211 */;
+	struct in6_addr *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 156 */;
+	__be32 cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 151 */[4];
+	__be32 cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 130 */;
+	unsigned int cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 117 */;
+	u8 *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 115 */;
+	size_t cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 115 */;
+	void *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/en_fs_ethtool.c 109 */;
+}

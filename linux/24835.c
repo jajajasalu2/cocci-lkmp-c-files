@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	int __init cocci_id/* net/netfilter/nf_log.c 575 */;
+	void cocci_id/* net/netfilter/nf_log.c 575 */;
+	struct pernet_operations cocci_id/* net/netfilter/nf_log.c 570 */;
+	void __net_exit cocci_id/* net/netfilter/nf_log.c 562 */;
+	struct seq_net_private cocci_id/* net/netfilter/nf_log.c 546 */;
+	int __net_init cocci_id/* net/netfilter/nf_log.c 540 */;
+	struct ctl_table *cocci_id/* net/netfilter/nf_log.c 520 */;
+	struct net *cocci_id/* net/netfilter/nf_log.c 518 */;
+	void *cocci_id/* net/netfilter/nf_log.c 489 */;
+	unsigned long cocci_id/* net/netfilter/nf_log.c 489 */;
+	struct ctl_table cocci_id/* net/netfilter/nf_log.c 426 */;
+	char cocci_id/* net/netfilter/nf_log.c 420 */[NFLOGGER_NAME_LEN];
+	loff_t *cocci_id/* net/netfilter/nf_log.c 417 */;
+	size_t *cocci_id/* net/netfilter/nf_log.c 417 */;
+	void __user *cocci_id/* net/netfilter/nf_log.c 417 */;
+	struct ctl_table cocci_id/* net/netfilter/nf_log.c 405 */[];
+	struct ctl_table_header *cocci_id/* net/netfilter/nf_log.c 403 */;
+	struct ctl_table cocci_id/* net/netfilter/nf_log.c 402 */[NFPROTO_NUMPROTO + 1];
+	char cocci_id/* net/netfilter/nf_log.c 401 */[NFPROTO_NUMPROTO - NFPROTO_UNSPEC][3];
+	const struct seq_operations cocci_id/* net/netfilter/nf_log.c 392 */;
+	struct seq_file *cocci_id/* net/netfilter/nf_log.c 338 */;
+	const char *cocci_id/* net/netfilter/nf_log.c 28 */;
+	struct nf_logger *cocci_id/* net/netfilter/nf_log.c 28 */;
+	int cocci_id/* net/netfilter/nf_log.c 28 */;
+	va_list cocci_id/* net/netfilter/nf_log.c 278 */;
+	struct nf_log_buf *cocci_id/* net/netfilter/nf_log.c 276 */;
+	struct nf_log_buf cocci_id/* net/netfilter/nf_log.c 274 */;
+	struct nf_log_buf {
+		unsigned int count;
+		char buf[S_SIZE + 1];
+	} cocci_id/* net/netfilter/nf_log.c 270 */;
+	char cocci_id/* net/netfilter/nf_log.c 225 */[NF_LOG_PREFIXLEN];
+	const struct nf_loginfo *cocci_id/* net/netfilter/nf_log.c 221 */;
+	struct nf_logger __rcu *cocci_id/* net/netfilter/nf_log.c 22 */[NFPROTO_NUMPROTO][NF_LOG_TYPE_MAX]__read_mostly;
+	const struct net_device *cocci_id/* net/netfilter/nf_log.c 219 */;
+	const struct sk_buff *cocci_id/* net/netfilter/nf_log.c 218 */;
+	unsigned int cocci_id/* net/netfilter/nf_log.c 217 */;
+	enum nf_log_type cocci_id/* net/netfilter/nf_log.c 161 */;
+	const struct nf_logger *cocci_id/* net/netfilter/nf_log.c 129 */;
+	u_int8_t cocci_id/* net/netfilter/nf_log.c 128 */;
+}

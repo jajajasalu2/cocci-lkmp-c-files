@@ -1,0 +1,60 @@
+cocci_test_suite() {
+	struct au1xmmc_host cocci_id/* drivers/mmc/host/au1xmmc.c 955 */;
+	struct platform_device *cocci_id/* drivers/mmc/host/au1xmmc.c 948 */;
+	const struct mmc_host_ops cocci_id/* drivers/mmc/host/au1xmmc.c 940 */;
+	struct au1xmmc_host {
+		struct mmc_host *mmc;
+		struct mmc_request *mrq;
+		u32 flags;
+		void __iomem *iobase;
+		u32 clock;
+		u32 bus_width;
+		u32 power_mode;
+		int status;
+		struct {
+			int len;
+			int dir;
+		} dma;
+		struct {
+			int index;
+			int offset;
+			int len;
+		} pio;
+		u32 tx_chan;
+		u32 rx_chan;
+		int irq;
+		struct tasklet_struct finish_task;
+		struct tasklet_struct data_task;
+		struct au1xmmc_platform_data *platdata;
+		struct platform_device *pdev;
+		struct resource *ioarea;
+		struct clk *clk;
+	} cocci_id/* drivers/mmc/host/au1xmmc.c 88 */;
+	struct resource *cocci_id/* drivers/mmc/host/au1xmmc.c 878 */;
+	void *cocci_id/* drivers/mmc/host/au1xmmc.c 862 */;
+	dbdev_tab_t cocci_id/* drivers/mmc/host/au1xmmc.c 851 */;
+	irqreturn_t cocci_id/* drivers/mmc/host/au1xmmc.c 793 */;
+	struct mmc_ios *cocci_id/* drivers/mmc/host/au1xmmc.c 756 */;
+	struct scatterlist *cocci_id/* drivers/mmc/host/au1xmmc.c 648 */;
+	unsigned int cocci_id/* drivers/mmc/host/au1xmmc.c 604 */;
+	u32 cocci_id/* drivers/mmc/host/au1xmmc.c 535 */[4];
+	struct mmc_command *cocci_id/* drivers/mmc/host/au1xmmc.c 534 */;
+	struct mmc_request *cocci_id/* drivers/mmc/host/au1xmmc.c 533 */;
+	unsigned char cocci_id/* drivers/mmc/host/au1xmmc.c 504 */;
+	unsigned char *cocci_id/* drivers/mmc/host/au1xmmc.c 452 */;
+	au1x_dma_chan_t *cocci_id/* drivers/mmc/host/au1xmmc.c 372 */;
+	chan_tab_t *cocci_id/* drivers/mmc/host/au1xmmc.c 371 */;
+	chan_tab_t **cocci_id/* drivers/mmc/host/au1xmmc.c 371 */;
+	struct mmc_data *cocci_id/* drivers/mmc/host/au1xmmc.c 334 */;
+	struct mmc_host *cocci_id/* drivers/mmc/host/au1xmmc.c 217 */;
+	int cocci_id/* drivers/mmc/host/au1xmmc.c 217 */;
+	u32 cocci_id/* drivers/mmc/host/au1xmmc.c 174 */;
+	struct au1xmmc_host *cocci_id/* drivers/mmc/host/au1xmmc.c 172 */;
+	void cocci_id/* drivers/mmc/host/au1xmmc.c 172 */;
+	void __exit cocci_id/* drivers/mmc/host/au1xmmc.c 1228 */;
+	int __init cocci_id/* drivers/mmc/host/au1xmmc.c 1214 */;
+	struct platform_driver cocci_id/* drivers/mmc/host/au1xmmc.c 1204 */;
+	pm_message_t cocci_id/* drivers/mmc/host/au1xmmc.c 1178 */;
+	struct led_classdev *cocci_id/* drivers/mmc/host/au1xmmc.c 1073 */;
+	unsigned long cocci_id/* drivers/mmc/host/au1xmmc.c 1060 */;
+}

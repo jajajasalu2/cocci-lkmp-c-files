@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	const struct comedi_lrange cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 94 */;
+	void __exit cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 833 */;
+	void cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 833 */;
+	int cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 791 */;
+	int __init cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 789 */;
+	struct waveform_private {
+		struct timer_list ai_timer;
+		u64 ai_convert_time;
+		unsigned int wf_amplitude;
+		unsigned int wf_period;
+		unsigned int wf_current;
+		unsigned int ai_scan_period;
+		unsigned int ai_convert_period;
+		struct timer_list ao_timer;
+		struct comedi_device *dev;
+		u64 ao_last_scan_time;
+		unsigned int ao_scan_period;
+		unsigned short ao_loopbacks[N_CHANS];
+	} cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 78 */;
+	struct comedi_driver cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 777 */;
+	unsigned long cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 753 */;
+	struct comedi_devconfig *cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 738 */;
+	struct device *cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 66 */;
+	struct class *cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 65 */;
+	unsigned int *cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 632 */;
+	struct comedi_insn *cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 631 */;
+	bool cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 62 */;
+	unsigned short *cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 475 */;
+	struct comedi_cmd *cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 352 */;
+	struct comedi_async *cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 201 */;
+	struct timer_list *cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 196 */;
+	enum{SAWTOOTH_CHAN, SQUARE_CHAN,} cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 175 */;
+	unsigned int cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 164 */;
+	struct comedi_device *cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 163 */;
+	unsigned short cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 163 */;
+	const struct comedi_krange *cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 109 */;
+	u64 cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 108 */;
+	struct comedi_subdevice *cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 106 */;
+	struct waveform_private *cocci_id/* drivers/staging/comedi/drivers/comedi_test.c 105 */;
+}

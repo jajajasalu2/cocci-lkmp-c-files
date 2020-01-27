@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	const struct inode_operations cocci_id/* fs/ext4/file.c 795 */;
+	const struct file_operations cocci_id/* fs/ext4/file.c 776 */;
+	char cocci_id/* fs/ext4/file.c 662 */[64];
+	struct path cocci_id/* fs/ext4/file.c 661 */;
+	struct vfsmount *cocci_id/* fs/ext4/file.c 658 */;
+	struct dax_device *cocci_id/* fs/ext4/file.c 635 */;
+	struct ext4_sb_info *cocci_id/* fs/ext4/file.c 634 */;
+	struct vm_area_struct *cocci_id/* fs/ext4/file.c 631 */;
+	struct file *cocci_id/* fs/ext4/file.c 631 */;
+	const struct vm_operations_struct cocci_id/* fs/ext4/file.c 615 */;
+	vm_fault_t cocci_id/* fs/ext4/file.c 610 */;
+	struct vm_fault *cocci_id/* fs/ext4/file.c 610 */;
+	pfn_t cocci_id/* fs/ext4/file.c 574 */;
+	bool cocci_id/* fs/ext4/file.c 572 */;
+	struct super_block *cocci_id/* fs/ext4/file.c 559 */;
+	handle_t *cocci_id/* fs/ext4/file.c 557 */;
+	int cocci_id/* fs/ext4/file.c 554 */;
+	enum page_entry_size cocci_id/* fs/ext4/file.c 552 */;
+	loff_t cocci_id/* fs/ext4/file.c 485 */;
+	size_t cocci_id/* fs/ext4/file.c 484 */;
+	const struct iomap_dio_ops cocci_id/* fs/ext4/file.c 362 */;
+	unsigned int cocci_id/* fs/ext4/file.c 347 */;
+	ext4_lblk_t cocci_id/* fs/ext4/file.c 271 */;
+	u8 cocci_id/* fs/ext4/file.c 270 */;
+	struct inode *cocci_id/* fs/ext4/file.c 241 */;
+	struct iov_iter *cocci_id/* fs/ext4/file.c 238 */;
+	struct kiocb *cocci_id/* fs/ext4/file.c 237 */;
+	ssize_t cocci_id/* fs/ext4/file.c 237 */;
+	struct ext4_map_blocks cocci_id/* fs/ext4/file.c 186 */;
+}

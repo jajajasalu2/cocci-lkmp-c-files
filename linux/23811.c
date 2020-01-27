@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	struct sk_buff **cocci_id/* net/sched/sch_red.c 58 */;
+	void __exit cocci_id/* net/sched/sch_red.c 448 */;
+	int __init cocci_id/* net/sched/sch_red.c 443 */;
+	struct red_sched_data cocci_id/* net/sched/sch_red.c 429 */;
+	struct Qdisc_ops cocci_id/* net/sched/sch_red.c 427 */;
+	const struct Qdisc_class_ops cocci_id/* net/sched/sch_red.c 419 */;
+	struct qdisc_walker *cocci_id/* net/sched/sch_red.c 407 */;
+	struct Qdisc **cocci_id/* net/sched/sch_red.c 383 */;
+	struct red_sched_data {
+		u32 limit;
+		unsigned char flags;
+		struct timer_list adapt_timer;
+		struct Qdisc *sch;
+		struct red_parms parms;
+		struct red_vars vars;
+		struct red_stats stats;
+		struct Qdisc *qdisc;
+	} cocci_id/* net/sched/sch_red.c 36 */;
+	struct tcmsg *cocci_id/* net/sched/sch_red.c 358 */;
+	unsigned long cocci_id/* net/sched/sch_red.c 357 */;
+	struct tc_red_xstats cocci_id/* net/sched/sch_red.c 335 */;
+	struct net_device *cocci_id/* net/sched/sch_red.c 334 */;
+	struct gnet_dump *cocci_id/* net/sched/sch_red.c 331 */;
+	struct tc_red_qopt cocci_id/* net/sched/sch_red.c 303 */;
+	struct tc_red_qopt_offload cocci_id/* net/sched/sch_red.c 286 */;
+	spinlock_t *cocci_id/* net/sched/sch_red.c 265 */;
+	struct Qdisc *cocci_id/* net/sched/sch_red.c 264 */;
+	struct red_sched_data *cocci_id/* net/sched/sch_red.c 263 */;
+	struct timer_list *cocci_id/* net/sched/sch_red.c 261 */;
+	void cocci_id/* net/sched/sch_red.c 261 */;
+	u32 cocci_id/* net/sched/sch_red.c 199 */;
+	struct tc_red_qopt *cocci_id/* net/sched/sch_red.c 197 */;
+	struct nlattr *cocci_id/* net/sched/sch_red.c 196 */[TCA_RED_MAX + 1];
+	struct netlink_ext_ack *cocci_id/* net/sched/sch_red.c 192 */;
+	struct nlattr *cocci_id/* net/sched/sch_red.c 191 */;
+	int cocci_id/* net/sched/sch_red.c 191 */;
+	const struct nla_policy cocci_id/* net/sched/sch_red.c 185 */[TCA_RED_MAX + 1];
+	bool cocci_id/* net/sched/sch_red.c 148 */;
+	struct sk_buff *cocci_id/* net/sched/sch_red.c 112 */;
+}

@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	struct tbf_sched_data {
+		u32 limit;
+		u32 max_size;
+		s64 buffer;
+		s64 mtu;
+		struct psched_ratecfg rate;
+		struct psched_ratecfg peak;
+		s64 tokens;
+		s64 ptokens;
+		s64 t_c;
+		struct Qdisc *qdisc;
+		struct qdisc_watchdog watchdog;
+	} cocci_id/* net/sched/sch_tbf.c 96 */;
+	void __exit cocci_id/* net/sched/sch_tbf.c 553 */;
+	int __init cocci_id/* net/sched/sch_tbf.c 548 */;
+	struct tbf_sched_data cocci_id/* net/sched/sch_tbf.c 536 */;
+	struct Qdisc_ops cocci_id/* net/sched/sch_tbf.c 532 */;
+	const struct Qdisc_class_ops cocci_id/* net/sched/sch_tbf.c 524 */;
+	struct qdisc_walker *cocci_id/* net/sched/sch_tbf.c 512 */;
+	struct Qdisc **cocci_id/* net/sched/sch_tbf.c 490 */;
+	struct tcmsg *cocci_id/* net/sched/sch_tbf.c 479 */;
+	unsigned long cocci_id/* net/sched/sch_tbf.c 478 */;
+	struct tc_tbf_qopt cocci_id/* net/sched/sch_tbf.c 444 */;
+	void cocci_id/* net/sched/sch_tbf.c 432 */;
+	u32 cocci_id/* net/sched/sch_tbf.c 352 */;
+	s64 cocci_id/* net/sched/sch_tbf.c 303 */;
+	struct psched_ratecfg cocci_id/* net/sched/sch_tbf.c 300 */;
+	struct tc_tbf_qopt *cocci_id/* net/sched/sch_tbf.c 298 */;
+	struct nlattr *cocci_id/* net/sched/sch_tbf.c 297 */[TCA_TBF_MAX + 1];
+	struct tbf_sched_data *cocci_id/* net/sched/sch_tbf.c 296 */;
+	struct netlink_ext_ack *cocci_id/* net/sched/sch_tbf.c 293 */;
+	struct nlattr *cocci_id/* net/sched/sch_tbf.c 292 */;
+	struct Qdisc *cocci_id/* net/sched/sch_tbf.c 292 */;
+	int cocci_id/* net/sched/sch_tbf.c 292 */;
+	const struct nla_policy cocci_id/* net/sched/sch_tbf.c 282 */[TCA_TBF_MAX + 1];
+	long cocci_id/* net/sched/sch_tbf.c 251 */;
+	unsigned int cocci_id/* net/sched/sch_tbf.c 220 */;
+	struct sk_buff *cocci_id/* net/sched/sch_tbf.c 209 */;
+	bool cocci_id/* net/sched/sch_tbf.c 204 */;
+	const struct tbf_sched_data *cocci_id/* net/sched/sch_tbf.c 204 */;
+	struct sk_buff **cocci_id/* net/sched/sch_tbf.c 180 */;
+	netdev_features_t cocci_id/* net/sched/sch_tbf.c 148 */;
+	u64 cocci_id/* net/sched/sch_tbf.c 117 */;
+	const struct psched_ratecfg *cocci_id/* net/sched/sch_tbf.c 117 */;
+}

@@ -1,0 +1,98 @@
+cocci_test_suite() {
+	struct class_dev_iter *cocci_id/* block/genhd.c 999 */;
+	loff_t cocci_id/* block/genhd.c 998 */;
+	unsigned long long cocci_id/* block/genhd.c 977 */;
+	void __init cocci_id/* block/genhd.c 945 */;
+	unsigned int cocci_id/* block/genhd.c 90 */[2];
+	size_t cocci_id/* block/genhd.c 853 */;
+	struct disk_part_iter cocci_id/* block/genhd.c 775 */;
+	dev_t cocci_id/* block/genhd.c 695 */;
+	bool cocci_id/* block/genhd.c 693 */;
+	const struct attribute_group **cocci_id/* block/genhd.c 692 */;
+	struct device *cocci_id/* block/genhd.c 691 */;
+	void cocci_id/* block/genhd.c 691 */;
+	struct request_queue *cocci_id/* block/genhd.c 59 */;
+	int (*cocci_id/* block/genhd.c 566 */)(dev_t, void *);
+	struct kobject *(*cocci_id/* block/genhd.c 565 */)(dev_t, int *,
+							   void *);
+	struct module *cocci_id/* block/genhd.c 564 */;
+	char cocci_id/* block/genhd.c 550 */[BDEVT_SIZE];
+	dev_t *cocci_id/* block/genhd.c 488 */;
+	void cocci_id/* block/genhd.c 45 */(struct gendisk *disk);
+	struct kobj_map *cocci_id/* block/genhd.c 440 */;
+	void cocci_id/* block/genhd.c 42 */(struct disk_events *ev,
+					    unsigned int *clearing_ptr);
+	const struct device_type cocci_id/* block/genhd.c 40 */;
+	struct blk_major_name cocci_id/* block/genhd.c 386 */;
+	struct blk_major_name **cocci_id/* block/genhd.c 356 */;
+	struct blk_major_name *cocci_id/* block/genhd.c 324 */;
+	off_t cocci_id/* block/genhd.c 322 */;
+	struct seq_file *cocci_id/* block/genhd.c 322 */;
+	unsigned cocci_id/* block/genhd.c 316 */;
+	struct blk_major_name {
+		struct blk_major_name *next;
+		int major;
+		char name[16];
+	} *cocci_id/* block/genhd.c 309 */[BLKDEV_MAJOR_HASH_SIZE];
+	sector_t cocci_id/* block/genhd.c 280 */;
+	struct disk_part_iter *cocci_id/* block/genhd.c 252 */;
+	const struct kernel_param_ops cocci_id/* block/genhd.c 2007 */;
+	const struct kernel_param *cocci_id/* block/genhd.c 1988 */;
+	const struct attribute *cocci_id/* block/genhd.c 1974 */[];
+	const  cocci_id/* block/genhd.c 1970 */(events_poll_msecs,0644,
+						disk_events_poll_msecs_show,
+						disk_events_poll_msecs_store);
+	const char *cocci_id/* block/genhd.c 1901 */;
+	char *cocci_id/* block/genhd.c 1899 */;
+	unsigned int cocci_id/* block/genhd.c 1899 */;
+	ssize_t cocci_id/* block/genhd.c 1899 */;
+	char *cocci_id/* block/genhd.c 1852 */[ARRAY_SIZE(disk_uevents) + 1];
+	unsigned int *cocci_id/* block/genhd.c 1849 */;
+	struct disk_events cocci_id/* block/genhd.c 1843 */;
+	struct delayed_work *cocci_id/* block/genhd.c 1842 */;
+	struct work_struct *cocci_id/* block/genhd.c 1840 */;
+	const struct block_device_operations *cocci_id/* block/genhd.c 1794 */;
+	unsigned long cocci_id/* block/genhd.c 1716 */;
+	struct disk_events *cocci_id/* block/genhd.c 1715 */;
+	long cocci_id/* block/genhd.c 1659 */;
+	char *cocci_id/* block/genhd.c 1644 */[];
+	const char *cocci_id/* block/genhd.c 1639 */[];
+	struct disk_events {
+		struct list_head node;
+		struct gendisk *disk;
+		spinlock_t lock;
+		struct mutex block_mutex;
+		int block;
+		unsigned int pending;
+		unsigned int clearing;
+		long poll_msecs;
+		struct delayed_work dwork;
+	} cocci_id/* block/genhd.c 1625 */;
+	struct block_device *cocci_id/* block/genhd.c 1599 */;
+	char cocci_id/* block/genhd.c 1566 */[];
+	struct gendisk cocci_id/* block/genhd.c 1480 */;
+	struct disk_part_tbl *cocci_id/* block/genhd.c 1471 */;
+	struct gendisk *cocci_id/* block/genhd.c 1468 */;
+	int cocci_id/* block/genhd.c 1468 */;
+	struct class_dev_iter cocci_id/* block/genhd.c 1436 */;
+	const struct seq_operations cocci_id/* block/genhd.c 1417 */;
+	char cocci_id/* block/genhd.c 1370 */[BDEVNAME_SIZE];
+	kuid_t *cocci_id/* block/genhd.c 1341 */;
+	kgid_t *cocci_id/* block/genhd.c 1341 */;
+	umode_t *cocci_id/* block/genhd.c 1340 */;
+	struct class cocci_id/* block/genhd.c 1336 */;
+	const struct attribute_group *cocci_id/* block/genhd.c 1241 */[];
+	struct attribute_group cocci_id/* block/genhd.c 1236 */;
+	typeof(*dev) cocci_id/* block/genhd.c 1228 */;
+	umode_t cocci_id/* block/genhd.c 1226 */;
+	struct attribute *cocci_id/* block/genhd.c 1226 */;
+	struct attribute *cocci_id/* block/genhd.c 1204 */[];
+	struct device_attribute cocci_id/* block/genhd.c 1196 */;
+	struct device_attribute *cocci_id/* block/genhd.c 1166 */;
+	struct hd_struct *cocci_id/* block/genhd.c 111 */;
+	int __init cocci_id/* block/genhd.c 1094 */;
+	struct kobject *cocci_id/* block/genhd.c 1086 */;
+	int *cocci_id/* block/genhd.c 1086 */;
+	void *cocci_id/* block/genhd.c 1086 */;
+	loff_t *cocci_id/* block/genhd.c 1017 */;
+}

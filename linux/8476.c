@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	const struct ethtool_ops *cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 868 */;
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 840 */;
+	unsigned int cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 712 */;
+	struct xgbe_prv_data *cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 711 */;
+	struct ethtool_channels *cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 709 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 708 */;
+	void cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 708 */;
+	struct ethtool_ringparam *cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 646 */;
+	struct ethtool_eeprom *cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 638 */;
+	struct ethtool_modinfo *cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 630 */;
+	struct ethtool_ts_info *cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 597 */;
+	const u8 cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 570 */;
+	const u8 *cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 570 */;
+	const u32 *cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 569 */;
+	u32 *cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 548 */;
+	struct ethtool_rxnfc *cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 519 */;
+	struct xgbe_hw_if *cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 450 */;
+	struct ethtool_coalesce cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 436 */;
+	struct ethtool_coalesce *cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 432 */;
+	int cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 431 */;
+	u32 cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 417 */;
+	struct xgbe_hw_features *cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 405 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 402 */;
+	const struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 331 */;
+	struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 310 */;
+	struct ethtool_pauseparam *cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 261 */;
+	u8 *cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 223 */;
+	u64 *cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 220 */;
+	struct ethtool_stats *cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 220 */;
+	const struct xgbe_stats cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 142 */[];
+	struct xgbe_ext_stats cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 138 */;
+	struct xgbe_prv_data cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 133 */;
+	struct xgbe_mmc_stats cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 132 */;
+	struct xgbe_stats {
+		char stat_string[ETH_GSTRING_LEN];
+		int stat_size;
+		int stat_offset;
+	} cocci_id/* drivers/net/ethernet/amd/xgbe/xgbe-ethtool.c 124 */;
+}

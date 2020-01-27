@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	const char *cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 94 */;
+	struct part_no_info cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 63 */[];
+	int __init cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 612 */;
+	struct part_no_info {
+		const char *part_no;
+		int max_freq;
+	} cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 58 */;
+	struct factory_config cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 55 */;
+	struct davinci_soc_info *cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 525 */;
+	u32 cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 524 */;
+	int cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 523 */;
+	void __iomem *cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 522 */;
+	void __init cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 520 */;
+	void cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 520 */;
+	const short cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 503 */[];
+	struct platform_device cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 487 */;
+	struct aemif_platform_data cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 480 */;
+	struct aemif_abus_data cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 474 */[];
+	struct resource cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 466 */[];
+	struct platform_device cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 454 */[];
+	struct factory_config {
+		u32 magic;
+		u32 version;
+		u8 mac[6];
+		u32 fpga_type;
+		u32 spare;
+		u32 serialnumber;
+		char partnum[32];
+	} cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 45 */;
+	struct davinci_nand_pdata cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 431 */;
+	struct mtd_partition cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 416 */[];
+	struct spi_board_info cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 400 */[];
+	struct davinci_spi_config cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 394 */;
+	struct flash_platform_data cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 387 */;
+	struct i2c_board_info __initdata cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 319 */[];
+	struct regulator_init_data cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 259 */[];
+	struct regulator_consumer_supply cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 207 */[];
+	struct davinci_i2c_platform_data cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 200 */;
+	const struct property_entry cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 194 */[];
+	struct nvmem_cell_lookup cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 187 */;
+	struct nvmem_cell_table cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 181 */;
+	struct nvmem_cell_info cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 173 */[];
+	struct notifier_block cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 165 */;
+	struct nvmem_device *cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 126 */;
+	void *cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 122 */;
+	unsigned long cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 122 */;
+	struct notifier_block *cocci_id/* arch/arm/mach-davinci/board-mityomapl138.c 121 */;
+	const struct machine_desc cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 397 */;
+}

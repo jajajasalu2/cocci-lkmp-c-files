@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	struct saa7146_dmaqueue *cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 93 */;
+	void cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 92 */;
+	void __exit cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 649 */;
+	int __init cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 643 */;
+	char *cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 592 */;
+	struct videobuf_dmabuf *cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 55 */;
+	struct saa7146_vv cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 498 */;
+	struct v4l2_vbi_format *cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 472 */;
+	struct v4l2_pix_format *cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 471 */;
+	struct v4l2_ctrl_handler *cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 470 */;
+	struct saa7146_ext_vv *cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 468 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 464 */;
+	u32 cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 442 */;
+	const struct v4l2_file_operations cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 428 */;
+	const char __user *cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 405 */;
+	struct saa7146_vv *cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 39 */;
+	loff_t *cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 374 */;
+	char __user *cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 374 */;
+	ssize_t cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 374 */;
+	size_t cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 374 */;
+	unsigned int cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 36 */;
+	struct videobuf_buffer cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 346 */;
+	struct videobuf_queue *cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 329 */;
+	struct videobuf_buffer *cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 328 */;
+	struct saa7146_fh *cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 327 */;
+	struct video_device *cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 326 */;
+	__poll_t cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 324 */;
+	struct poll_table_struct *cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 324 */;
+	struct file *cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 324 */;
+	struct vm_area_struct *cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 291 */;
+	int cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 291 */;
+	struct saa7146_dev *cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 199 */;
+	unsigned long cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 171 */;
+	struct timer_list *cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 167 */;
+	struct saa7146_buf cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 127 */;
+	struct saa7146_buf *cocci_id/* drivers/media/common/saa7146/saa7146_fops.c 118 */;
+}

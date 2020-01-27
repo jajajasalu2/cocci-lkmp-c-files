@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* drivers/spi/spi-sc18is602.c 68 */;
+	u8 cocci_id/* drivers/spi/spi-sc18is602.c 54 */[1];
+	struct i2c_driver cocci_id/* drivers/spi/spi-sc18is602.c 337 */;
+	struct sc18is602 {
+		struct spi_master *master;
+		struct device *dev;
+		u8 ctrl;
+		u32 freq;
+		u32 speed;
+		struct i2c_client *client;
+		enum chips id;
+		u8 buffer[SC18IS602_BUFSIZ + 1];
+		int tlen;
+		int rindex;
+		struct gpio_desc *reset;
+	} cocci_id/* drivers/spi/spi-sc18is602.c 33 */;
+	void *cocci_id/* drivers/spi/spi-sc18is602.c 323 */;
+	const struct of_device_id cocci_id/* drivers/spi/spi-sc18is602.c 320 */[];
+	const struct i2c_device_id cocci_id/* drivers/spi/spi-sc18is602.c 312 */[];
+	__be32 cocci_id/* drivers/spi/spi-sc18is602.c 285 */;
+	const __be32 *cocci_id/* drivers/spi/spi-sc18is602.c 281 */;
+	enum chips cocci_id/* drivers/spi/spi-sc18is602.c 266 */;
+	struct sc18is602 cocci_id/* drivers/spi/spi-sc18is602.c 247 */;
+	struct spi_master *cocci_id/* drivers/spi/spi-sc18is602.c 240 */;
+	struct sc18is602 *cocci_id/* drivers/spi/spi-sc18is602.c 239 */;
+	struct sc18is602_platform_data *cocci_id/* drivers/spi/spi-sc18is602.c 238 */;
+	struct device_node *cocci_id/* drivers/spi/spi-sc18is602.c 237 */;
+	struct device *cocci_id/* drivers/spi/spi-sc18is602.c 236 */;
+	const struct i2c_device_id *cocci_id/* drivers/spi/spi-sc18is602.c 234 */;
+	struct i2c_client *cocci_id/* drivers/spi/spi-sc18is602.c 233 */;
+	enum chips{sc18is602, sc18is602b, sc18is603,} cocci_id/* drivers/spi/spi-sc18is602.c 20 */;
+	bool cocci_id/* drivers/spi/spi-sc18is602.c 193 */;
+	struct spi_message *cocci_id/* drivers/spi/spi-sc18is602.c 184 */;
+	struct spi_transfer *cocci_id/* drivers/spi/spi-sc18is602.c 175 */;
+	struct spi_device *cocci_id/* drivers/spi/spi-sc18is602.c 174 */;
+	int cocci_id/* drivers/spi/spi-sc18is602.c 174 */;
+	u8 cocci_id/* drivers/spi/spi-sc18is602.c 130 */;
+	u32 cocci_id/* drivers/spi/spi-sc18is602.c 130 */;
+}

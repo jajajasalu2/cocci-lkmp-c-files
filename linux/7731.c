@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	const char *cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 81 */;
+	size_t cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 81 */;
+	u16 cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 71 */;
+	struct device_attribute *cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 68 */;
+	char *cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 68 */;
+	struct device *cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 67 */;
+	ssize_t cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 67 */;
+	struct platform_driver cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 522 */;
+	const struct of_device_id cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 516 */[];
+	const int cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 49 */;
+	struct resource *cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 380 */;
+	struct uart_8250_port cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 377 */;
+	struct of_phandle_args cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 376 */;
+	struct platform_device *cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 374 */;
+	struct regmap *cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 357 */;
+	u32 cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 355 */;
+	struct device_node *cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 354 */;
+	struct aspeed_vuart *cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 354 */;
+	struct aspeed_vuart {
+		struct device *dev;
+		void __iomem *regs;
+		struct clk *clk;
+		int line;
+		struct timer_list unthrottle_timer;
+		struct uart_8250_port *port;
+	} cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 35 */;
+	unsigned long cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 304 */;
+	unsigned int cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 303 */;
+	struct uart_port *cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 300 */;
+	int cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 300 */;
+	struct timer_list *cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 275 */;
+	unsigned char cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 248 */;
+	bool cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 246 */;
+	struct uart_8250_port *cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 245 */;
+	void cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 245 */;
+	u8 cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 194 */;
+	const struct attribute_group cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 188 */;
+	struct attribute *cocci_id/* drivers/tty/serial/8250/8250_aspeed_vuart.c 181 */[];
+}

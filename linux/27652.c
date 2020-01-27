@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	struct commit_header *cocci_id/* fs/jbd2/commit.c 94 */;
+	bool cocci_id/* fs/jbd2/commit.c 924 */;
+	struct buffer_head cocci_id/* fs/jbd2/commit.c 805 */;
+	long cocci_id/* fs/jbd2/commit.c 758 */;
+	struct jbd2_journal_block_tail cocci_id/* fs/jbd2/commit.c 387 */;
+	tid_t cocci_id/* fs/jbd2/commit.c 380 */;
+	unsigned long cocci_id/* fs/jbd2/commit.c 379 */;
+	struct blk_plug cocci_id/* fs/jbd2/commit.c 377 */;
+	u64 cocci_id/* fs/jbd2/commit.c 367 */;
+	ktime_t cocci_id/* fs/jbd2/commit.c 366 */;
+	unsigned long long cocci_id/* fs/jbd2/commit.c 365 */;
+	int cocci_id/* fs/jbd2/commit.c 362 */;
+	struct buffer_head **cocci_id/* fs/jbd2/commit.c 361 */;
+	struct journal_head *cocci_id/* fs/jbd2/commit.c 359 */;
+	transaction_t *cocci_id/* fs/jbd2/commit.c 358 */;
+	struct transaction_stats_s cocci_id/* fs/jbd2/commit.c 357 */;
+	__be32 cocci_id/* fs/jbd2/commit.c 332 */;
+	__u8 *cocci_id/* fs/jbd2/commit.c 330 */;
+	struct page *cocci_id/* fs/jbd2/commit.c 329 */;
+	journal_block_tag3_t *cocci_id/* fs/jbd2/commit.c 328 */;
+	__u32 cocci_id/* fs/jbd2/commit.c 326 */;
+	struct buffer_head *cocci_id/* fs/jbd2/commit.c 326 */;
+	journal_t *cocci_id/* fs/jbd2/commit.c 325 */;
+	journal_block_tag_t *cocci_id/* fs/jbd2/commit.c 325 */;
+	void cocci_id/* fs/jbd2/commit.c 325 */;
+	u32 cocci_id/* fs/jbd2/commit.c 320 */;
+	void *cocci_id/* fs/jbd2/commit.c 311 */;
+	char *cocci_id/* fs/jbd2/commit.c 306 */;
+	loff_t cocci_id/* fs/jbd2/commit.c 265 */;
+	struct jbd2_inode *cocci_id/* fs/jbd2/commit.c 259 */;
+	struct address_space *cocci_id/* fs/jbd2/commit.c 218 */;
+	struct writeback_control cocci_id/* fs/jbd2/commit.c 194 */;
+	struct timespec64 cocci_id/* fs/jbd2/commit.c 124 */;
+}

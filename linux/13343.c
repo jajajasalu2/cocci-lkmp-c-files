@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	bool cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 996 */;
+	dma_addr_t cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 977 */;
+	u8 __iomem *cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 922 */;
+	unsigned int cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 852 */;
+	int cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 850 */;
+	struct cx25821_dev *cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 831 */;
+	void cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 831 */;
+	unsigned long long cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 826 */;
+	const struct sram_channel *cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 769 */;
+	char *cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 561 */[];
+	struct cx25821_i2c *cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 342 */;
+	struct i2c_adapter *cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 340 */;
+	const char *const cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 322 */[];
+	const int cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 313 */[16];
+	const char *const cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 301 */[16];
+	const struct sram_channel cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 30 */[];
+	unsigned int cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 26 */[];
+	void __exit cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 1388 */;
+	int __init cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 1382 */;
+	struct pci_driver cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 1372 */;
+	const struct pci_device_id cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 1352 */[];
+	struct v4l2_device *cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 1337 */;
+	const struct pci_device_id *cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 1269 */;
+	struct pci_dev *cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 1261 */;
+	char **cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 1239 */;
+	char *cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 1239 */;
+	u32 cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 1215 */[8];
+	u32 cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 1212 */;
+	irqreturn_t cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 1209 */;
+	void *cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 1209 */;
+	struct cx25821_buffer *cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 1199 */;
+	__le32 *cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 1062 */;
+	struct scatterlist *cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 1056 */;
+	struct cx25821_riscmem *cocci_id/* drivers/media/pci/cx25821/cx25821-core.c 1055 */;
+}

@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/media/tuners/tuner-simple.c 921 */[5];
+	u32 cocci_id/* drivers/media/tuners/tuner-simple.c 891 */;
+	struct dtv_frontend_properties *cocci_id/* drivers/media/tuners/tuner-simple.c 890 */;
+	u8 cocci_id/* drivers/media/tuners/tuner-simple.c 852 */;
+	struct tunertype *cocci_id/* drivers/media/tuners/tuner-simple.c 850 */;
+	const u32 cocci_id/* drivers/media/tuners/tuner-simple.c 844 */;
+	struct analog_parameters *cocci_id/* drivers/media/tuners/tuner-simple.c 769 */;
+	struct v4l2_priv_tun_config cocci_id/* drivers/media/tuners/tuner-simple.c 728 */;
+	bool cocci_id/* drivers/media/tuners/tuner-simple.c 674 */;
+	u8 cocci_id/* drivers/media/tuners/tuner-simple.c 669 */[4];
+	enum param_type cocci_id/* drivers/media/tuners/tuner-simple.c 551 */;
+	unsigned long cocci_id/* drivers/media/tuners/tuner-simple.c 456 */;
+	u16 cocci_id/* drivers/media/tuners/tuner-simple.c 441 */;
+	u8 cocci_id/* drivers/media/tuners/tuner-simple.c 426 */[2];
+	struct tuner_i2c_props cocci_id/* drivers/media/tuners/tuner-simple.c 392 */;
+	unsigned int cocci_id/* drivers/media/tuners/tuner-simple.c 28 */[TUNER_SIMPLE_MAX];
+	struct tuner_simple_priv *cocci_id/* drivers/media/tuners/tuner-simple.c 263 */;
+	u8 *cocci_id/* drivers/media/tuners/tuner-simple.c 261 */;
+	unsigned *cocci_id/* drivers/media/tuners/tuner-simple.c 261 */;
+	struct tuner_params *cocci_id/* drivers/media/tuners/tuner-simple.c 260 */;
+	struct dvb_frontend *cocci_id/* drivers/media/tuners/tuner-simple.c 259 */;
+	unsigned int cocci_id/* drivers/media/tuners/tuner-simple.c 22 */;
+	char *cocci_id/* drivers/media/tuners/tuner-simple.c 208 */;
+	u16 *cocci_id/* drivers/media/tuners/tuner-simple.c 189 */;
+	int cocci_id/* drivers/media/tuners/tuner-simple.c 17 */;
+	const int cocci_id/* drivers/media/tuners/tuner-simple.c 161 */;
+	unsigned char cocci_id/* drivers/media/tuners/tuner-simple.c 127 */;
+	struct dvb_tuner_ops cocci_id/* drivers/media/tuners/tuner-simple.c 1109 */;
+	struct tuner_simple_priv cocci_id/* drivers/media/tuners/tuner-simple.c 1086 */;
+	struct tuner_simple_priv {
+		unsigned int nr;
+		u16 last_div;
+		struct tuner_i2c_props i2c_props;
+		struct list_head hybrid_tuner_instance_list;
+		unsigned int type;
+		struct tunertype *tun;
+		u32 frequency;
+		u32 bandwidth;
+		bool radio_mode;
+	} cocci_id/* drivers/media/tuners/tuner-simple.c 107 */;
+	struct i2c_msg cocci_id/* drivers/media/tuners/tuner-simple.c 1067 */;
+	u8 cocci_id/* drivers/media/tuners/tuner-simple.c 1066 */[1];
+	struct i2c_adapter *cocci_id/* drivers/media/tuners/tuner-simple.c 1048 */;
+	const struct dvb_tuner_ops cocci_id/* drivers/media/tuners/tuner-simple.c 1034 */;
+	u32 *cocci_id/* drivers/media/tuners/tuner-simple.c 1027 */;
+	void cocci_id/* drivers/media/tuners/tuner-simple.c 1006 */;
+}

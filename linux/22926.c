@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	_old_mixer_info __user *cocci_id/* sound/core/oss/mixer_oss.c 99 */;
+	struct snd_mixer_oss_slot *cocci_id/* sound/core/oss/mixer_oss.c 944 */;
+	const char *cocci_id/* sound/core/oss/mixer_oss.c 900 */;
+	struct snd_mixer_oss_assign_table {
+		int oss_id;
+		const char *name;
+		int index;
+	} cocci_id/* sound/core/oss/mixer_oss.c 894 */;
+	struct mixer_info cocci_id/* sound/core/oss/mixer_oss.c 87 */;
+	mixer_info __user *cocci_id/* sound/core/oss/mixer_oss.c 83 */;
+	struct snd_ctl_elem_value *cocci_id/* sound/core/oss/mixer_oss.c 797 */;
+	unsigned int *cocci_id/* sound/core/oss/mixer_oss.c 789 */;
+	struct snd_ctl_elem_id cocci_id/* sound/core/oss/mixer_oss.c 498 */;
+	struct slot {
+		unsigned int signature;
+		unsigned int present;
+		unsigned int channels;
+		unsigned int numid[SNDRV_MIXER_OSS_ITEM_COUNT];
+		unsigned int capture_item;
+		struct snd_mixer_oss_assign_table *assigned;
+		unsigned int allocated:1;
+	} cocci_id/* sound/core/oss/mixer_oss.c 483 */;
+	int *cocci_id/* sound/core/oss/mixer_oss.c 425 */;
+	long cocci_id/* sound/core/oss/mixer_oss.c 415 */;
+	const struct file_operations cocci_id/* sound/core/oss/mixer_oss.c 401 */;
+	struct snd_mixer_oss_file cocci_id/* sound/core/oss/mixer_oss.c 372 */;
+	struct file *cocci_id/* sound/core/oss/mixer_oss.c 365 */;
+	unsigned long cocci_id/* sound/core/oss/mixer_oss.c 365 */;
+	int __user *cocci_id/* sound/core/oss/mixer_oss.c 300 */;
+	void __user *cocci_id/* sound/core/oss/mixer_oss.c 299 */;
+	struct inode *cocci_id/* sound/core/oss/mixer_oss.c 27 */;
+	int cocci_id/* sound/core/oss/mixer_oss.c 1408 */;
+	struct snd_card *cocci_id/* sound/core/oss/mixer_oss.c 1407 */;
+	void __exit cocci_id/* sound/core/oss/mixer_oss.c 1405 */;
+	void cocci_id/* sound/core/oss/mixer_oss.c 1405 */;
+	int __init cocci_id/* sound/core/oss/mixer_oss.c 1389 */;
+	void *cocci_id/* sound/core/oss/mixer_oss.c 1312 */;
+	unsigned int cocci_id/* sound/core/oss/mixer_oss.c 1298 */;
+	struct snd_mixer_oss_assign_table cocci_id/* sound/core/oss/mixer_oss.c 1258 */[];
+	struct snd_mixer_oss *cocci_id/* sound/core/oss/mixer_oss.c 1256 */;
+	struct snd_info_entry *cocci_id/* sound/core/oss/mixer_oss.c 1228 */;
+	char cocci_id/* sound/core/oss/mixer_oss.c 1170 */[128];
+	struct snd_info_buffer *cocci_id/* sound/core/oss/mixer_oss.c 1143 */;
+	struct snd_mixer_oss_file *cocci_id/* sound/core/oss/mixer_oss.c 113 */;
+	char *cocci_id/* sound/core/oss/mixer_oss.c 1110 */[SNDRV_OSS_MAX_MIXERS];
+	struct snd_ctl_elem_info *cocci_id/* sound/core/oss/mixer_oss.c 1038 */;
+	_old_mixer_info cocci_id/* sound/core/oss/mixer_oss.c 103 */;
+	char cocci_id/* sound/core/oss/mixer_oss.c 1026 */[64];
+	struct snd_kcontrol *cocci_id/* sound/core/oss/mixer_oss.c 1024 */;
+	struct slot *cocci_id/* sound/core/oss/mixer_oss.c 1023 */;
+	struct slot cocci_id/* sound/core/oss/mixer_oss.c 1022 */;
+	struct snd_mixer_oss_assign_table *cocci_id/* sound/core/oss/mixer_oss.c 1020 */;
+}

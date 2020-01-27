@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct irq_bucket *cocci_id/* arch/sparc/kernel/leon_kernel.c 60 */;
+	void __init cocci_id/* arch/sparc/kernel/leon_kernel.c 504 */;
+	unsigned long *cocci_id/* arch/sparc/kernel/leon_kernel.c 497 */;
+	u32 cocci_id/* arch/sparc/kernel/leon_kernel.c 476 */;
+	void cocci_id/* arch/sparc/kernel/leon_kernel.c 474 */;
+	unsigned int *cocci_id/* arch/sparc/kernel/leon_kernel.c 383 */;
+	struct leon3_gptimer_regs_map **cocci_id/* arch/sparc/kernel/leon_kernel.c 379 */;
+	unsigned long cocci_id/* arch/sparc/kernel/leon_kernel.c 37 */;
+	int *cocci_id/* arch/sparc/kernel/leon_kernel.c 365 */;
+	volatile u32 cocci_id/* arch/sparc/kernel/leon_kernel.c 36 */;
+	struct leon3_irqctrl_regs_map **cocci_id/* arch/sparc/kernel/leon_kernel.c 349 */;
+	u32 __iomem *cocci_id/* arch/sparc/kernel/leon_kernel.c 327 */;
+	struct leon3_gptimer_regs_map *cocci_id/* arch/sparc/kernel/leon_kernel.c 32 */;
+	struct leon3_irqctrl_regs_map *cocci_id/* arch/sparc/kernel/leon_kernel.c 31 */;
+	struct property *cocci_id/* arch/sparc/kernel/leon_kernel.c 309 */;
+	struct device_node *cocci_id/* arch/sparc/kernel/leon_kernel.c 308 */;
+	struct clock_event_device *cocci_id/* arch/sparc/kernel/leon_kernel.c 285 */;
+	irqreturn_t cocci_id/* arch/sparc/kernel/leon_kernel.c 283 */;
+	struct platform_device *cocci_id/* arch/sparc/kernel/leon_kernel.c 242 */;
+	unsigned int cocci_id/* arch/sparc/kernel/leon_kernel.c 242 */;
+	void *cocci_id/* arch/sparc/kernel/leon_kernel.c 235 */;
+	struct irq_desc *cocci_id/* arch/sparc/kernel/leon_kernel.c 217 */;
+	const char *cocci_id/* arch/sparc/kernel/leon_kernel.c 213 */;
+	irq_flow_handler_t cocci_id/* arch/sparc/kernel/leon_kernel.c 212 */;
+	struct irq_chip cocci_id/* arch/sparc/kernel/leon_kernel.c 195 */;
+	struct irq_data *cocci_id/* arch/sparc/kernel/leon_kernel.c 187 */;
+	bool cocci_id/* arch/sparc/kernel/leon_kernel.c 124 */;
+	cpumask_t cocci_id/* arch/sparc/kernel/leon_kernel.c 111 */;
+	const struct cpumask *cocci_id/* arch/sparc/kernel/leon_kernel.c 109 */;
+	int cocci_id/* arch/sparc/kernel/leon_kernel.c 109 */;
+}

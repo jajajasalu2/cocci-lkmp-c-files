@@ -1,0 +1,105 @@
+cocci_test_suite() {
+	struct smu_i2c_cmd cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 924 */;
+	char *cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 867 */;
+	struct smu_i2c_cmd *cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 833 */;
+	struct adb_request cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 801 */;
+	struct pmac_i2c_bus {
+		struct list_head link;
+		struct device_node *controller;
+		struct device_node *busnode;
+		int type;
+		int flags;
+		struct i2c_adapter adapter;
+		void *hostdata;
+		int channel;
+		int mode;
+		struct mutex mutex;
+		int opened;
+		int polled;
+		struct platform_device *platform_dev;
+		struct lock_class_key lock_key;
+		int (*open)(struct pmac_i2c_bus *bus);
+		void (*close)(struct pmac_i2c_bus *bus);
+		int (*xfer)(struct pmac_i2c_bus *bus, u8 addrdir, int subsize,
+			    u32 subaddr, u8 *data, int len);
+	} cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 74 */;
+	struct pmu_i2c_hdr cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 719 */;
+	struct completion cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 677 */;
+	struct pmu_i2c_hdr *cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 676 */;
+	struct adb_request *cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 667 */;
+	struct pmu_i2c_hdr {
+		u8 bus;
+		u8 mode;
+		u8 bus2;
+		u8 address;
+		u8 sub_addr;
+		u8 comb_addr;
+		u8 count;
+		u8 data[];
+	} cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 656 */;
+	struct pmac_i2c_bus cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 571 */;
+	struct pmac_i2c_bus *cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 569 */;
+	int cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 567 */;
+	struct device_node *cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 565 */;
+	void __init cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 564 */;
+	u32 cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 489 */;
+	const u32 *cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 488 */;
+	struct pmac_i2c_host_kw *__initcocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 485 */;
+	u8 *cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 397 */;
+	struct timer_list *cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 360 */;
+	unsigned long cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 347 */;
+	irqreturn_t cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 344 */;
+	void *cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 344 */;
+	unsigned cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 202 */;
+	void cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 199 */;
+	unsigned int cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 196 */;
+	u8 cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 194 */;
+	reg_t cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 194 */;
+	struct pmac_i2c_host_kw *cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 194 */;
+	const char *cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 185 */[];
+	enum{state_idle, state_addr, state_read, state_write, state_stop, state_dead,} cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 170 */;
+	int __init cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 1485 */;
+	long cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 1416 */;
+	struct pmf_handlers cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 1397 */;
+	PMF_STD_ARGS cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 1390 */;
+	const u8 *cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 1297 */;
+	struct pmac_i2c_pf_inst *cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 1296 */;
+	struct pmac_i2c_pf_inst cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 1252 */;
+	enum{reg_mode=0, reg_control, reg_status, reg_isr, reg_ier, reg_addr, reg_subaddr, reg_data,} cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 124 */;
+	struct pmf_function *cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 1230 */;
+	struct pmf_args *cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 1230 */;
+	struct pmac_i2c_pf_inst {
+		struct pmac_i2c_bus *bus;
+		u8 addr;
+		u8 buffer[MAX_I2C_DATA];
+		u8 scratch[MAX_I2C_DATA];
+		int bytes;
+		int quirks;
+	} cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 1220 */;
+	struct whitelist_ent *cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 1198 */;
+	struct whitelist_ent {
+		char *name;
+		char *compatible;
+		int quirks;
+	} cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 1166 */[];
+	void (*cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 1161 */)(struct device_node *dev,
+									     int quirks);
+	enum{pmac_i2c_quirk_invmask=0x00000001u, pmac_i2c_quirk_skip=0x00000002u,} cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 1156 */;
+	struct pmac_i2c_host_kw {
+		struct mutex mutex;
+		void __iomem *base;
+		int bsteps;
+		int speed;
+		int irq;
+		u8 *data;
+		unsigned len;
+		int state;
+		int rw;
+		int polled;
+		int result;
+		struct completion complete;
+		spinlock_t lock;
+		struct timer_list timeout_timer;
+	} cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 104 */;
+	struct i2c_adapter *cocci_id/* arch/powerpc/platforms/powermac/low_i2c.c 1034 */;
+}

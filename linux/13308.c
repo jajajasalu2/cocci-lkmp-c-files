@@ -1,0 +1,55 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/media/pci/ttpci/budget-ci.c 920 */[];
+	struct budget_ci {
+		struct budget budget;
+		struct tasklet_struct ciintf_irq_tasklet;
+		int slot_status;
+		int ci_irq;
+		struct dvb_ca_en50221 ca;
+		struct budget_ci_ir ir;
+		u8 tuner_pll_address;
+	} cocci_id/* drivers/media/pci/ttpci/budget-ci.c 92 */;
+	struct i2c_msg cocci_id/* drivers/media/pci/ttpci/budget-ci.c 849 */;
+	u8 cocci_id/* drivers/media/pci/ttpci/budget-ci.c 848 */[5];
+	struct dtv_frontend_properties *cocci_id/* drivers/media/pci/ttpci/budget-ci.c 846 */;
+	struct dvb_frontend *cocci_id/* drivers/media/pci/ttpci/budget-ci.c 844 */;
+	struct tda1004x_config cocci_id/* drivers/media/pci/ttpci/budget-ci.c 822 */;
+	const struct firmware **cocci_id/* drivers/media/pci/ttpci/budget-ci.c 815 */;
+	char *cocci_id/* drivers/media/pci/ttpci/budget-ci.c 815 */;
+	struct budget_ci_ir {
+		struct rc_dev *dev;
+		struct tasklet_struct msp430_irq_tasklet;
+		char name[72];
+		char phys[32];
+		int rc5_device;
+		u32 ir_key;
+		bool have_command;
+		bool full_rc5;
+	} cocci_id/* drivers/media/pci/ttpci/budget-ci.c 81 */;
+	const struct stv0299_config cocci_id/* drivers/media/pci/ttpci/budget-ci.c 683 */;
+	u8 cocci_id/* drivers/media/pci/ttpci/budget-ci.c 652 */[4];
+	u32 *cocci_id/* drivers/media/pci/ttpci/budget-ci.c 553 */;
+	unsigned long cocci_id/* drivers/media/pci/ttpci/budget-ci.c 494 */;
+	struct dvb_ca_en50221 cocci_id/* drivers/media/pci/ttpci/budget-ci.c 445 */;
+	struct dvb_ca_en50221 *cocci_id/* drivers/media/pci/ttpci/budget-ci.c 400 */;
+	unsigned int cocci_id/* drivers/media/pci/ttpci/budget-ci.c 355 */;
+	u8 cocci_id/* drivers/media/pci/ttpci/budget-ci.c 274 */;
+	struct rc_dev *cocci_id/* drivers/media/pci/ttpci/budget-ci.c 161 */;
+	void __exit cocci_id/* drivers/media/pci/ttpci/budget-ci.c 1563 */;
+	void cocci_id/* drivers/media/pci/ttpci/budget-ci.c 1563 */;
+	int __init cocci_id/* drivers/media/pci/ttpci/budget-ci.c 1558 */;
+	const struct pci_device_id cocci_id/* drivers/media/pci/ttpci/budget-ci.c 1528 */[];
+	struct saa7146_extension cocci_id/* drivers/media/pci/ttpci/budget-ci.c 1517 */;
+	struct budget_ci cocci_id/* drivers/media/pci/ttpci/budget-ci.c 1458 */;
+	struct budget_ci *cocci_id/* drivers/media/pci/ttpci/budget-ci.c 1455 */;
+	struct saa7146_pci_extension_data *cocci_id/* drivers/media/pci/ttpci/budget-ci.c 1453 */;
+	struct saa7146_dev *cocci_id/* drivers/media/pci/ttpci/budget-ci.c 1453 */;
+	int cocci_id/* drivers/media/pci/ttpci/budget-ci.c 1453 */;
+	struct stb6100_config cocci_id/* drivers/media/pci/ttpci/budget-ci.c 1294 */;
+	struct stb0899_config cocci_id/* drivers/media/pci/ttpci/budget-ci.c 1255 */;
+	u32 cocci_id/* drivers/media/pci/ttpci/budget-ci.c 106 */;
+	const struct stb0899_s1_reg cocci_id/* drivers/media/pci/ttpci/budget-ci.c 1035 */[];
+	struct tda827x_config cocci_id/* drivers/media/pci/ttpci/budget-ci.c 1030 */;
+	struct tda10023_config cocci_id/* drivers/media/pci/ttpci/budget-ci.c 1020 */;
+	struct stv0297_config cocci_id/* drivers/media/pci/ttpci/budget-ci.c 1013 */;
+}

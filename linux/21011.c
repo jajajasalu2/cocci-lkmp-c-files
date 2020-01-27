@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	unsigned long __force cocci_id/* arch/parisc/lib/iomap.c 70 */;
+	struct pci_dev *cocci_id/* arch/parisc/lib/iomap.c 500 */;
+	struct iomap_ops {
+		unsigned int (*read8)(void __iomem *);
+		unsigned int (*read16)(void __iomem *);
+		unsigned int (*read16be)(void __iomem *);
+		unsigned int (*read32)(void __iomem *);
+		unsigned int (*read32be)(void __iomem *);
+		u64 (*read64)(void __iomem *);
+		u64 (*read64be)(void __iomem *);
+		void (*write8)(u8, void __iomem *);
+		void (*write16)(u16, void __iomem *);
+		void (*write16be)(u16, void __iomem *);
+		void (*write32)(u32, void __iomem *);
+		void (*write32be)(u32, void __iomem *);
+		void (*write64)(u64, void __iomem *);
+		void (*write64be)(u64, void __iomem *);
+		void (*read8r)(void __iomem *, void *, unsigned long);
+		void (*read16r)(void __iomem *, void *, unsigned long);
+		void (*read32r)(void __iomem *, void *, unsigned long);
+		void (*write8r)(void __iomem *, const void *, unsigned long);
+		void (*write16r)(void __iomem *, const void *, unsigned long);
+		void (*write32r)(void __iomem *, const void *, unsigned long);
+	} cocci_id/* arch/parisc/lib/iomap.c 45 */;
+	u64 *cocci_id/* arch/parisc/lib/iomap.c 339 */;
+	const struct iomap_ops *cocci_id/* arch/parisc/lib/iomap.c 294 */[8];
+	const struct iomap_ops cocci_id/* arch/parisc/lib/iomap.c 271 */;
+	const void *cocci_id/* arch/parisc/lib/iomap.c 255 */;
+	u32 *cocci_id/* arch/parisc/lib/iomap.c 242 */;
+	u16 *cocci_id/* arch/parisc/lib/iomap.c 234 */;
+	void *cocci_id/* arch/parisc/lib/iomap.c 231 */;
+	unsigned long cocci_id/* arch/parisc/lib/iomap.c 231 */;
+	void cocci_id/* arch/parisc/lib/iomap.c 231 */;
+	u8 *cocci_id/* arch/parisc/lib/iomap.c 226 */;
+	u32 cocci_id/* arch/parisc/lib/iomap.c 203 */;
+	u16 cocci_id/* arch/parisc/lib/iomap.c 193 */;
+	u8 cocci_id/* arch/parisc/lib/iomap.c 188 */;
+	u64 cocci_id/* arch/parisc/lib/iomap.c 178 */;
+	void __iomem *cocci_id/* arch/parisc/lib/iomap.c 158 */;
+	unsigned int cocci_id/* arch/parisc/lib/iomap.c 158 */;
+}

@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	struct iphdr *cocci_id/* net/core/lwt_bpf.c 92 */;
+	struct net_device *cocci_id/* net/core/lwt_bpf.c 91 */;
+	int __init cocci_id/* net/core/lwt_bpf.c 653 */;
+	unsigned char *cocci_id/* net/core/lwt_bpf.c 641 */;
+	struct ipv6hdr cocci_id/* net/core/lwt_bpf.c 609 */;
+	struct iphdr cocci_id/* net/core/lwt_bpf.c 598 */;
+	bool cocci_id/* net/core/lwt_bpf.c 592 */;
+	void *cocci_id/* net/core/lwt_bpf.c 592 */;
+	struct udphdr *cocci_id/* net/core/lwt_bpf.c 575 */;
+	struct udphdr cocci_id/* net/core/lwt_bpf.c 571 */;
+	struct gre_base_hdr *cocci_id/* net/core/lwt_bpf.c 565 */;
+	struct gre_base_hdr cocci_id/* net/core/lwt_bpf.c 561 */;
+	__u8 cocci_id/* net/core/lwt_bpf.c 540 */;
+	struct skb_shared_info *cocci_id/* net/core/lwt_bpf.c 527 */;
+	const struct lwtunnel_encap_ops cocci_id/* net/core/lwt_bpf.c 512 */;
+	struct nlattr cocci_id/* net/core/lwt_bpf.c 477 */;
+	struct sk_buff *cocci_id/* net/core/lwt_bpf.c 463 */;
+	struct bpf_lwt_prog *cocci_id/* net/core/lwt_bpf.c 445 */;
+	u32 cocci_id/* net/core/lwt_bpf.c 423 */;
+	struct bpf_lwt *cocci_id/* net/core/lwt_bpf.c 377 */;
+	struct lwtunnel_state *cocci_id/* net/core/lwt_bpf.c 376 */;
+	struct nlattr *cocci_id/* net/core/lwt_bpf.c 375 */[LWT_BPF_MAX + 1];
+	struct netlink_ext_ack *cocci_id/* net/core/lwt_bpf.c 373 */;
+	struct lwtunnel_state **cocci_id/* net/core/lwt_bpf.c 372 */;
+	const void *cocci_id/* net/core/lwt_bpf.c 371 */;
+	unsigned int cocci_id/* net/core/lwt_bpf.c 371 */;
+	struct nlattr *cocci_id/* net/core/lwt_bpf.c 370 */;
+	int cocci_id/* net/core/lwt_bpf.c 370 */;
+	const struct nla_policy cocci_id/* net/core/lwt_bpf.c 363 */[LWT_BPF_MAX + 1];
+	struct bpf_prog *cocci_id/* net/core/lwt_bpf.c 337 */;
+	struct nlattr *cocci_id/* net/core/lwt_bpf.c 336 */[LWT_BPF_PROG_MAX + 1];
+	enum bpf_prog_type cocci_id/* net/core/lwt_bpf.c 334 */;
+	const struct nla_policy cocci_id/* net/core/lwt_bpf.c 327 */[LWT_BPF_PROG_MAX + 1];
+	void cocci_id/* net/core/lwt_bpf.c 318 */;
+	__be16 cocci_id/* net/core/lwt_bpf.c 276 */;
+	struct flowi6 cocci_id/* net/core/lwt_bpf.c 223 */;
+	struct ipv6hdr *cocci_id/* net/core/lwt_bpf.c 222 */;
+	struct rtable *cocci_id/* net/core/lwt_bpf.c 204 */;
+	struct flowi4 cocci_id/* net/core/lwt_bpf.c 203 */;
+	struct bpf_lwt {
+		struct bpf_lwt_prog in;
+		struct bpf_lwt_prog out;
+		struct bpf_lwt_prog xmit;
+		int family;
+	} cocci_id/* net/core/lwt_bpf.c 20 */;
+	struct net *cocci_id/* net/core/lwt_bpf.c 182 */;
+	struct sock *cocci_id/* net/core/lwt_bpf.c 181 */;
+	struct bpf_lwt_prog {
+		struct bpf_prog *prog;
+		char *name;
+	} cocci_id/* net/core/lwt_bpf.c 15 */;
+	struct dst_entry *cocci_id/* net/core/lwt_bpf.c 117 */;
+}

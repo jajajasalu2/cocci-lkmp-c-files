@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	pthread_mutex_t cocci_id/* tools/testing/selftests/vm/userfaultfd.c 99 */;
+	volatile unsigned long long *cocci_id/* tools/testing/selftests/vm/userfaultfd.c 97 */;
+	pid_t cocci_id/* tools/testing/selftests/vm/userfaultfd.c 914 */;
+	pthread_t cocci_id/* tools/testing/selftests/vm/userfaultfd.c 912 */;
+	pthread_mutex_t *cocci_id/* tools/testing/selftests/vm/userfaultfd.c 91 */;
+	pthread_attr_t cocci_id/* tools/testing/selftests/vm/userfaultfd.c 87 */;
+	unsigned long long *cocci_id/* tools/testing/selftests/vm/userfaultfd.c 83 */;
+	struct uffdio_zeropage cocci_id/* tools/testing/selftests/vm/userfaultfd.c 816 */;
+	struct uffdio_zeropage *cocci_id/* tools/testing/selftests/vm/userfaultfd.c 798 */;
+	volatile bool cocci_id/* tools/testing/selftests/vm/userfaultfd.c 77 */;
+	struct sigaction cocci_id/* tools/testing/selftests/vm/userfaultfd.c 717 */;
+	unsigned long long cocci_id/* tools/testing/selftests/vm/userfaultfd.c 714 */;
+	siginfo_t *cocci_id/* tools/testing/selftests/vm/userfaultfd.c 681 */;
+	sigjmp_buf cocci_id/* tools/testing/selftests/vm/userfaultfd.c 679 */;
+	struct uffdio_api cocci_id/* tools/testing/selftests/vm/userfaultfd.c 655 */;
+	char cocci_id/* tools/testing/selftests/vm/userfaultfd.c 634 */;
+	pthread_t cocci_id/* tools/testing/selftests/vm/userfaultfd.c 586 */[nr_cpus];
+	unsigned long *cocci_id/* tools/testing/selftests/vm/userfaultfd.c 583 */;
+	void *cocci_id/* tools/testing/selftests/vm/userfaultfd.c 570 */;
+	struct uffdio_register cocci_id/* tools/testing/selftests/vm/userfaultfd.c 494 */;
+	struct uffd_msg cocci_id/* tools/testing/selftests/vm/userfaultfd.c 493 */;
+	struct pollfd cocci_id/* tools/testing/selftests/vm/userfaultfd.c 492 */[2];
+	struct uffd_msg *cocci_id/* tools/testing/selftests/vm/userfaultfd.c 471 */;
+	struct uffdio_copy cocci_id/* tools/testing/selftests/vm/userfaultfd.c 414 */;
+	bool cocci_id/* tools/testing/selftests/vm/userfaultfd.c 412 */;
+	unsigned long cocci_id/* tools/testing/selftests/vm/userfaultfd.c 412 */;
+	int cocci_id/* tools/testing/selftests/vm/userfaultfd.c 412 */;
+	struct uffdio_copy *cocci_id/* tools/testing/selftests/vm/userfaultfd.c 395 */;
+	time_t cocci_id/* tools/testing/selftests/vm/userfaultfd.c 293 */;
+	unsigned int cocci_id/* tools/testing/selftests/vm/userfaultfd.c 292 */;
+	char cocci_id/* tools/testing/selftests/vm/userfaultfd.c 291 */[64];
+	int32_t cocci_id/* tools/testing/selftests/vm/userfaultfd.c 289 */;
+	struct random_data cocci_id/* tools/testing/selftests/vm/userfaultfd.c 287 */;
+	struct uffd_test_ops *cocci_id/* tools/testing/selftests/vm/userfaultfd.c 273 */;
+	struct uffd_test_ops cocci_id/* tools/testing/selftests/vm/userfaultfd.c 252 */;
+	struct uffd_test_ops {
+		unsigned long expected_ioctls;
+		void (*allocate_area)(void **alloc_area);
+		int (*release_pages)(char *rel_area);
+		void (*alias_mapping)(__u64 *start, size_t len,
+				      unsigned long offset);
+	} cocci_id/* tools/testing/selftests/vm/userfaultfd.c 241 */;
+	__u64 *cocci_id/* tools/testing/selftests/vm/userfaultfd.c 205 */;
+	char **cocci_id/* tools/testing/selftests/vm/userfaultfd.c 172 */;
+	void **cocci_id/* tools/testing/selftests/vm/userfaultfd.c 140 */;
+	void cocci_id/* tools/testing/selftests/vm/userfaultfd.c 140 */;
+	char *cocci_id/* tools/testing/selftests/vm/userfaultfd.c 128 */;
+	FILE *cocci_id/* tools/testing/selftests/vm/userfaultfd.c 1234 */;
+	size_t cocci_id/* tools/testing/selftests/vm/userfaultfd.c 1233 */;
+	unsigned long cocci_id/* tools/testing/selftests/vm/userfaultfd.c 1041 */[nr_cpus];
+	const char *cocci_id/* tools/testing/selftests/vm/userfaultfd.c 104 */;
+}

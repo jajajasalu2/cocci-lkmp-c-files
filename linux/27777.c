@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	fnode_secno cocci_id/* fs/hpfs/dnode.c 998 */;
+	unsigned long long cocci_id/* fs/hpfs/dnode.c 868 */;
+	struct dnode **cocci_id/* fs/hpfs/dnode.c 797 */;
+	loff_t **cocci_id/* fs/hpfs/dnode.c 79 */;
+	void (*cocci_id/* fs/hpfs/dnode.c 75 */)(loff_t *, loff_t, loff_t);
+	int *cocci_id/* fs/hpfs/dnode.c 743 */;
+	struct quad_buffer_head *cocci_id/* fs/hpfs/dnode.c 712 */;
+	__le32 *cocci_id/* fs/hpfs/dnode.c 671 */;
+	dnode_secno *cocci_id/* fs/hpfs/dnode.c 591 */;
+	void *cocci_id/* fs/hpfs/dnode.c 591 */;
+	char *cocci_id/* fs/hpfs/dnode.c 586 */;
+	loff_t cocci_id/* fs/hpfs/dnode.c 570 */;
+	unsigned long cocci_id/* fs/hpfs/dnode.c 555 */;
+	struct buffer_head *cocci_id/* fs/hpfs/dnode.c 547 */;
+	struct fnode *cocci_id/* fs/hpfs/dnode.c 546 */;
+	struct hpfs_dirent *cocci_id/* fs/hpfs/dnode.c 525 */;
+	int cocci_id/* fs/hpfs/dnode.c 524 */;
+	struct dnode *cocci_id/* fs/hpfs/dnode.c 522 */;
+	struct quad_buffer_head cocci_id/* fs/hpfs/dnode.c 521 */;
+	struct hpfs_inode_info *cocci_id/* fs/hpfs/dnode.c 520 */;
+	dnode_secno cocci_id/* fs/hpfs/dnode.c 518 */;
+	struct inode *cocci_id/* fs/hpfs/dnode.c 518 */;
+	void cocci_id/* fs/hpfs/dnode.c 518 */;
+	loff_t *cocci_id/* fs/hpfs/dnode.c 25 */;
+	unsigned char *cocci_id/* fs/hpfs/dnode.c 246 */;
+	struct hpfs_dirent cocci_id/* fs/hpfs/dnode.c 245 */;
+	struct super_block *cocci_id/* fs/hpfs/dnode.c 215 */;
+	secno cocci_id/* fs/hpfs/dnode.c 175 */;
+	unsigned cocci_id/* fs/hpfs/dnode.c 175 */;
+	const unsigned char *cocci_id/* fs/hpfs/dnode.c 174 */;
+}

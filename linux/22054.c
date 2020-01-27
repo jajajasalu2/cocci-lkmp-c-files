@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	s_max *cocci_id/* lib/ubsan.c 98 */;
+	s64 *cocci_id/* lib/ubsan.c 96 */;
+	unsigned cocci_id/* lib/ubsan.c 89 */;
+	s_max cocci_id/* lib/ubsan.c 86 */;
+	bool cocci_id/* lib/ubsan.c 76 */;
+	struct source_location *cocci_id/* lib/ubsan.c 49 */;
+	const char *cocci_id/* lib/ubsan.c 48 */;
+	struct invalid_value_data *cocci_id/* lib/ubsan.c 406 */;
+	struct unreachable_data *cocci_id/* lib/ubsan.c 397 */;
+	unsigned long cocci_id/* lib/ubsan.c 362 */;
+	struct type_descriptor *cocci_id/* lib/ubsan.c 358 */;
+	struct shift_out_of_bounds_data *cocci_id/* lib/ubsan.c 355 */;
+	struct out_of_bounds_data *cocci_id/* lib/ubsan.c 339 */;
+	struct type_mismatch_data_v1 *cocci_id/* lib/ubsan.c 324 */;
+	struct type_mismatch_data_common cocci_id/* lib/ubsan.c 313 */;
+	struct type_mismatch_data *cocci_id/* lib/ubsan.c 310 */;
+	struct type_mismatch_data_common *cocci_id/* lib/ubsan.c 265 */;
+	char cocci_id/* lib/ubsan.c 232 */[VALUE_LENGTH];
+	const char *cocci_id/* lib/ubsan.c 20 */[];
+	void *cocci_id/* lib/ubsan.c 188 */;
+	struct overflow_data *cocci_id/* lib/ubsan.c 187 */;
+	void cocci_id/* lib/ubsan.c 187 */;
+	char cocci_id/* lib/ubsan.c 162 */;
+	u64 cocci_id/* lib/ubsan.c 138 */;
+	s64 cocci_id/* lib/ubsan.c 135 */;
+	char *cocci_id/* lib/ubsan.c 117 */;
+	size_t cocci_id/* lib/ubsan.c 117 */;
+	u_max *cocci_id/* lib/ubsan.c 114 */;
+	u64 *cocci_id/* lib/ubsan.c 112 */;
+	u_max cocci_id/* lib/ubsan.c 106 */;
+}

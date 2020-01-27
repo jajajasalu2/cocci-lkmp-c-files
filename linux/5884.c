@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	struct device_node *cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 866 */;
+	struct platform_device *cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 861 */;
+	const struct dev_pm_ops cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 856 */;
+	void *cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 782 */;
+	const struct uniphier_pinctrl_socdata *cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 770 */;
+	struct uniphier_pinctrl_reg_region *cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 744 */;
+	struct device *cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 738 */;
+	struct seq_file *cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 73 */;
+	void cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 72 */;
+	const struct pinmux_ops cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 689 */;
+	struct pinctrl_gpio_range *cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 662 */;
+	const struct uniphier_pinctrl_group *cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 646 */;
+	unsigned *cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 61 */;
+	const unsigned **cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 60 */;
+	const char *const**cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 567 */;
+	const struct pinconf_ops cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 543 */;
+	const unsigned *cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 529 */;
+	const char *cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 50 */;
+	struct uniphier_pinctrl_priv {
+		struct pinctrl_desc pctldesc;
+		struct pinctrl_dev *pctldev;
+		struct regmap *regmap;
+		const struct uniphier_pinctrl_socdata *socdata;
+		struct list_head reg_regions;
+	} cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 35 */;
+	u32 cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 343 */;
+	bool cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 312 */;
+	unsigned long *cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 309 */;
+	unsigned cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 308 */;
+	struct uniphier_pinctrl_reg_region {
+		struct list_head node;
+		unsigned int base;
+		unsigned int nregs;
+		u32 vals[0];
+	} cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 28 */;
+	const unsigned int *cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 260 */;
+	u32 *cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 256 */;
+	enum uniphier_pin_pull_dir cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 210 */;
+	struct uniphier_pinctrl_priv *cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 208 */;
+	enum pin_config_param cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 206 */;
+	enum uniphier_pin_drv_type cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 154 */;
+	const struct pin_desc *cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 153 */;
+	const unsigned int **cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 151 */;
+	unsigned int *cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 148 */;
+	unsigned int cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 148 */;
+	struct pinctrl_dev *cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 147 */;
+	int cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 147 */;
+	const unsigned int cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 139 */[];
+	const struct pinctrl_ops cocci_id/* drivers/pinctrl/uniphier/pinctrl-uniphier-core.c 128 */;
+}

@@ -1,0 +1,55 @@
+cocci_test_suite() {
+	enum ddr_perf_filter_capabilities{PERF_CAP_AXI_ID_FILTER=0, PERF_CAP_AXI_ID_FILTER_ENHANCED, PERF_CAP_AXI_ID_FEAT_MAX,} cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 87 */;
+	struct ddr_pmu {
+		struct pmu pmu;
+		void __iomem *base;
+		unsigned int cpu;
+		struct hlist_node node;
+		struct device *dev;
+		struct perf_event *events[NUM_COUNTERS];
+		int active_events;
+		enum cpuhp_state cpuhp_state;
+		const struct fsl_ddr_devtype_data *devtype_data;
+		int irq;
+		int id;
+	} cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 73 */;
+	struct platform_driver cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 697 */;
+	const struct of_device_id cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 65 */[];
+	struct device_node *cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 600 */;
+	struct platform_device *cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 597 */;
+	struct hlist_node *cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 577 */;
+	const struct fsl_ddr_devtype_data cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 55 */;
+	irqreturn_t cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 533 */;
+	void *cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 533 */;
+	struct pmu cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 512 */;
+	struct ddr_pmu cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 511 */;
+	struct fsl_ddr_devtype_data {
+		unsigned int quirks;
+	} cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 51 */;
+	void __iomem *cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 508 */;
+	struct pmu *cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 497 */;
+	struct hw_perf_event *cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 421 */;
+	struct perf_event *cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 418 */;
+	u8 cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 386 */;
+	bool cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 384 */;
+	void cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 383 */;
+	u64 cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 369 */;
+	u32 cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 273 */;
+	struct ddr_pmu *cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 273 */;
+	int cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 273 */;
+	unsigned int cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 265 */;
+	const struct attribute_group *cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 235 */[];
+	struct perf_pmu_events_attr cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 173 */[];
+	struct perf_pmu_events_attr cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 168 */;
+	struct perf_pmu_events_attr *cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 166 */;
+	struct attribute_group cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 158 */;
+	struct attribute *cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 153 */[];
+	struct device_attribute cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 150 */;
+	struct device_attribute *cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 143 */;
+	char *cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 143 */;
+	struct device *cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 142 */;
+	ssize_t cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 142 */;
+	long cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 117 */;
+	struct dev_ext_attribute cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 116 */;
+	struct dev_ext_attribute *cocci_id/* drivers/perf/fsl_imx8_ddr_perf.c 115 */;
+}

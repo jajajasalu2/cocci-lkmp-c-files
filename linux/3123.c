@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	struct bm_extent cocci_id/* drivers/block/drbd/drbd_actlog.c 915 */;
+	unsigned long long cocci_id/* drivers/block/drbd/drbd_actlog.c 861 */;
+	unsigned long cocci_id/* drivers/block/drbd/drbd_actlog.c 850 */;
+	enum update_sync_bits_mode cocci_id/* drivers/block/drbd/drbd_actlog.c 847 */;
+	const char *cocci_id/* drivers/block/drbd/drbd_actlog.c 82 */;
+	struct drbd_connection *cocci_id/* drivers/block/drbd/drbd_actlog.c 763 */;
+	void cocci_id/* drivers/block/drbd/drbd_actlog.c 738 */;
+	const char *cocci_id/* drivers/block/drbd/drbd_actlog.c 632 */[];
+	struct drbd_md *cocci_id/* drivers/block/drbd/drbd_actlog.c 611 */;
+	void *cocci_id/* drivers/block/drbd/drbd_actlog.c 608 */;
+	struct lru_cache *cocci_id/* drivers/block/drbd/drbd_actlog.c 486 */;
+	struct drbd_interval *cocci_id/* drivers/block/drbd/drbd_actlog.c 478 */;
+	bool cocci_id/* drivers/block/drbd/drbd_actlog.c 384 */;
+	unsigned cocci_id/* drivers/block/drbd/drbd_actlog.c 321 */;
+	sector_t cocci_id/* drivers/block/drbd/drbd_actlog.c 319 */;
+	struct lc_element *cocci_id/* drivers/block/drbd/drbd_actlog.c 318 */;
+	struct drbd_device *cocci_id/* drivers/block/drbd/drbd_actlog.c 316 */;
+	struct al_transaction_on_disk *cocci_id/* drivers/block/drbd/drbd_actlog.c 316 */;
+	int cocci_id/* drivers/block/drbd/drbd_actlog.c 316 */;
+	const unsigned int cocci_id/* drivers/block/drbd/drbd_actlog.c 300 */;
+	struct __packed al_transaction_on_disk {
+		__be32 magic;
+		__be32 tr_number;
+		__be32 crc32c;
+		__be16 transaction_type;
+		__be16 n_updates;
+		__be16 context_size;
+		__be16 context_start_slot_nr;
+		__be32 __reserved[4];
+		__be16 update_slot_nr[AL_UPDATES_PER_TRANSACTION];
+		__be32 update_extent_nr[AL_UPDATES_PER_TRANSACTION];
+		__be32 context[AL_CONTEXT_PER_TRANSACTION];
+	} cocci_id/* drivers/block/drbd/drbd_actlog.c 26 */;
+	struct bm_extent *cocci_id/* drivers/block/drbd/drbd_actlog.c 221 */;
+	unsigned int cocci_id/* drivers/block/drbd/drbd_actlog.c 218 */;
+	enum al_transaction_types{AL_TR_UPDATE=0, AL_TR_INITIALIZED=0xffff,} cocci_id/* drivers/block/drbd/drbd_actlog.c 21 */;
+	const int cocci_id/* drivers/block/drbd/drbd_actlog.c 131 */;
+	struct bio *cocci_id/* drivers/block/drbd/drbd_actlog.c 129 */;
+	struct drbd_backing_dev *cocci_id/* drivers/block/drbd/drbd_actlog.c 126 */;
+	const unsigned long cocci_id/* drivers/block/drbd/drbd_actlog.c 1085 */;
+	long cocci_id/* drivers/block/drbd/drbd_actlog.c 108 */;
+	unsigned int *cocci_id/* drivers/block/drbd/drbd_actlog.c 106 */;
+}

@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	struct i2c_driver cocci_id/* drivers/video/backlight/lm3630a_bl.c 619 */;
+	const struct of_device_id cocci_id/* drivers/video/backlight/lm3630a_bl.c 612 */[];
+	const struct i2c_device_id cocci_id/* drivers/video/backlight/lm3630a_bl.c 605 */[];
+	struct lm3630a_platform_data cocci_id/* drivers/video/backlight/lm3630a_bl.c 520 */;
+	const struct i2c_device_id *cocci_id/* drivers/video/backlight/lm3630a_bl.c 493 */;
+	struct i2c_client *cocci_id/* drivers/video/backlight/lm3630a_bl.c 492 */;
+	struct lm3630a_chip {
+		struct device *dev;
+		struct delayed_work work;
+		int irq;
+		struct workqueue_struct *irqthread;
+		struct lm3630a_platform_data *pdata;
+		struct backlight_device *bleda;
+		struct backlight_device *bledb;
+		struct gpio_desc *enable_gpio;
+		struct regmap *regmap;
+		struct pwm_device *pwmd;
+	} cocci_id/* drivers/video/backlight/lm3630a_bl.c 43 */;
+	bool cocci_id/* drivers/video/backlight/lm3630a_bl.c 409 */;
+	u32 cocci_id/* drivers/video/backlight/lm3630a_bl.c 408 */;
+	struct fwnode_handle *cocci_id/* drivers/video/backlight/lm3630a_bl.c 404 */;
+	int *cocci_id/* drivers/video/backlight/lm3630a_bl.c 404 */;
+	u32 cocci_id/* drivers/video/backlight/lm3630a_bl.c 379 */[LM3630A_NUM_SINKS];
+	const struct regmap_config cocci_id/* drivers/video/backlight/lm3630a_bl.c 370 */;
+	const char *cocci_id/* drivers/video/backlight/lm3630a_bl.c 340 */;
+	struct backlight_properties cocci_id/* drivers/video/backlight/lm3630a_bl.c 339 */;
+	struct lm3630a_platform_data *cocci_id/* drivers/video/backlight/lm3630a_bl.c 338 */;
+	struct lm3630a_chip *cocci_id/* drivers/video/backlight/lm3630a_bl.c 336 */;
+	int cocci_id/* drivers/video/backlight/lm3630a_bl.c 336 */;
+	const struct backlight_ops cocci_id/* drivers/video/backlight/lm3630a_bl.c 253 */;
+	enum lm3630a_pwm_ctrl cocci_id/* drivers/video/backlight/lm3630a_bl.c 221 */;
+	struct backlight_device *cocci_id/* drivers/video/backlight/lm3630a_bl.c 217 */;
+	unsigned int cocci_id/* drivers/video/backlight/lm3630a_bl.c 172 */;
+	unsigned long cocci_id/* drivers/video/backlight/lm3630a_bl.c 134 */;
+	irqreturn_t cocci_id/* drivers/video/backlight/lm3630a_bl.c 130 */;
+	void *cocci_id/* drivers/video/backlight/lm3630a_bl.c 130 */;
+	struct lm3630a_chip cocci_id/* drivers/video/backlight/lm3630a_bl.c 118 */;
+	struct work_struct *cocci_id/* drivers/video/backlight/lm3630a_bl.c 113 */;
+	void cocci_id/* drivers/video/backlight/lm3630a_bl.c 113 */;
+}

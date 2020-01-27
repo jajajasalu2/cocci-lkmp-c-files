@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	struct max8925_chip *cocci_id/* drivers/power/supply/max8925_power.c 87 */;
+	struct max8925_power_info *cocci_id/* drivers/power/supply/max8925_power.c 85 */;
+	int cocci_id/* drivers/power/supply/max8925_power.c 85 */;
+	struct max8925_power_info {
+		struct max8925_chip *chip;
+		struct i2c_client *gpm;
+		struct i2c_client *adc;
+		struct power_supply *ac;
+		struct power_supply *usb;
+		struct power_supply *battery;
+		int irq_base;
+		unsigned ac_online:1;
+		unsigned usb_online:1;
+		unsigned bat_online:1;
+		unsigned chg_mode:2;
+		unsigned batt_detect:1;
+		unsigned topoff_threshold:2;
+		unsigned fast_charge:3;
+		unsigned no_temp_support:1;
+		unsigned no_insert_detect:1;
+		int (*set_charger)(int);
+	} cocci_id/* drivers/power/supply/max8925_power.c 63 */;
+	struct platform_driver cocci_id/* drivers/power/supply/max8925_power.c 582 */;
+	enum{MEASURE_AUX2, MEASURE_VCHG, MEASURE_VBBATT, MEASURE_VMBATT, MEASURE_ISNS, MEASURE_THM, MEASURE_TDIE, MEASURE_MAX,} cocci_id/* drivers/power/supply/max8925_power.c 52 */;
+	struct max8925_power_info cocci_id/* drivers/power/supply/max8925_power.c 519 */;
+	struct power_supply_config cocci_id/* drivers/power/supply/max8925_power.c 507 */;
+	struct max8925_power_pdata cocci_id/* drivers/power/supply/max8925_power.c 475 */;
+	struct device_node *cocci_id/* drivers/power/supply/max8925_power.c 456 */;
+	struct platform_device *cocci_id/* drivers/power/supply/max8925_power.c 454 */;
+	struct max8925_power_pdata *cocci_id/* drivers/power/supply/max8925_power.c 453 */;
+	const struct power_supply_desc cocci_id/* drivers/power/supply/max8925_power.c 348 */;
+	enum power_supply_property cocci_id/* drivers/power/supply/max8925_power.c 222 */[];
+	union power_supply_propval *cocci_id/* drivers/power/supply/max8925_power.c 195 */;
+	enum power_supply_property cocci_id/* drivers/power/supply/max8925_power.c 194 */;
+	struct power_supply *cocci_id/* drivers/power/supply/max8925_power.c 193 */;
+	unsigned char cocci_id/* drivers/power/supply/max8925_power.c 161 */[2];
+	irqreturn_t cocci_id/* drivers/power/supply/max8925_power.c 105 */;
+	void *cocci_id/* drivers/power/supply/max8925_power.c 105 */;
+}

@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/nfc/st21nfca/i2c.c 99 */[ST21NFCA_HCI_LLC_MAX_SIZE];
+	char cocci_id/* drivers/nfc/st21nfca/i2c.c 98 */[];
+	u16 cocci_id/* drivers/nfc/st21nfca/i2c.c 97 */[];
+	u8 cocci_id/* drivers/nfc/st21nfca/i2c.c 79 */[];
+	struct i2c_driver cocci_id/* drivers/nfc/st21nfca/i2c.c 600 */;
+	const struct of_device_id cocci_id/* drivers/nfc/st21nfca/i2c.c 593 */[];
+	const struct acpi_device_id cocci_id/* drivers/nfc/st21nfca/i2c.c 587 */[];
+	const struct i2c_device_id cocci_id/* drivers/nfc/st21nfca/i2c.c 581 */[];
+	struct st21nfca_i2c_phy {
+		struct i2c_client *i2c_dev;
+		struct nfc_hci_dev *hdev;
+		struct gpio_desc *gpiod_ena;
+		struct st21nfca_se_status se_status;
+		struct sk_buff *pending_skb;
+		int current_read_len;
+		int crc_trials;
+		int powered;
+		int run_mode;
+		int hard_fault;
+		struct mutex phy_lock;
+	} cocci_id/* drivers/nfc/st21nfca/i2c.c 53 */;
+	struct st21nfca_i2c_phy cocci_id/* drivers/nfc/st21nfca/i2c.c 513 */;
+	struct device *cocci_id/* drivers/nfc/st21nfca/i2c.c 501 */;
+	const struct i2c_device_id *cocci_id/* drivers/nfc/st21nfca/i2c.c 499 */;
+	struct i2c_client *cocci_id/* drivers/nfc/st21nfca/i2c.c 498 */;
+	const struct acpi_gpio_mapping cocci_id/* drivers/nfc/st21nfca/i2c.c 493 */[];
+	const struct acpi_gpio_params cocci_id/* drivers/nfc/st21nfca/i2c.c 491 */;
+	struct nfc_phy_ops cocci_id/* drivers/nfc/st21nfca/i2c.c 485 */;
+	irqreturn_t cocci_id/* drivers/nfc/st21nfca/i2c.c 423 */;
+	u8 cocci_id/* drivers/nfc/st21nfca/i2c.c 354 */[ST21NFCA_HCI_LLC_MAX_PAYLOAD];
+	u16 cocci_id/* drivers/nfc/st21nfca/i2c.c 267 */;
+	u8 *cocci_id/* drivers/nfc/st21nfca/i2c.c 265 */;
+	int cocci_id/* drivers/nfc/st21nfca/i2c.c 265 */;
+	u8 cocci_id/* drivers/nfc/st21nfca/i2c.c 189 */[ST21NFCA_HCI_LLC_MAX_SIZE * 2];
+	u8 cocci_id/* drivers/nfc/st21nfca/i2c.c 159 */;
+	struct sk_buff *cocci_id/* drivers/nfc/st21nfca/i2c.c 156 */;
+	void cocci_id/* drivers/nfc/st21nfca/i2c.c 156 */;
+	struct st21nfca_i2c_phy *cocci_id/* drivers/nfc/st21nfca/i2c.c 149 */;
+	void *cocci_id/* drivers/nfc/st21nfca/i2c.c 147 */;
+}

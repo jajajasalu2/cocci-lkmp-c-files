@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	long cocci_id/* drivers/mtd/nftlcore.c 94 */;
+	void __exit cocci_id/* drivers/mtd/nftlcore.c 805 */;
+	void cocci_id/* drivers/mtd/nftlcore.c 805 */;
+	int __init cocci_id/* drivers/mtd/nftlcore.c 800 */;
+	struct mtd_blktrans_ops cocci_id/* drivers/mtd/nftlcore.c 785 */;
+	void *cocci_id/* drivers/mtd/nftlcore.c 769 */;
+	struct mtd_blktrans_dev *cocci_id/* drivers/mtd/nftlcore.c 767 */;
+	struct hd_geometry *cocci_id/* drivers/mtd/nftlcore.c 767 */;
+	char *cocci_id/* drivers/mtd/nftlcore.c 553 */;
+	struct nftl_bci cocci_id/* drivers/mtd/nftlcore.c 545 */;
+	struct nftl_oob cocci_id/* drivers/mtd/nftlcore.c 531 */;
+	size_t cocci_id/* drivers/mtd/nftlcore.c 529 */;
+	unsigned long cocci_id/* drivers/mtd/nftlcore.c 528 */;
+	unsigned int cocci_id/* drivers/mtd/nftlcore.c 527 */;
+	struct mtd_info *cocci_id/* drivers/mtd/nftlcore.c 526 */;
+	unsigned cocci_id/* drivers/mtd/nftlcore.c 522 */;
+	struct NFTLrecord cocci_id/* drivers/mtd/nftlcore.c 48 */;
+	unsigned char cocci_id/* drivers/mtd/nftlcore.c 392 */[512];
+	struct mtd_blktrans_ops *cocci_id/* drivers/mtd/nftlcore.c 35 */;
+	unsigned char cocci_id/* drivers/mtd/nftlcore.c 235 */[MAX_SECTORS_PER_UNIT];
+	u16 cocci_id/* drivers/mtd/nftlcore.c 234 */[MAX_SECTORS_PER_UNIT];
+	u16 cocci_id/* drivers/mtd/nftlcore.c 190 */;
+	struct NFTLrecord *cocci_id/* drivers/mtd/nftlcore.c 190 */;
+	int cocci_id/* drivers/mtd/nftlcore.c 190 */;
+	struct mtd_oob_ops cocci_id/* drivers/mtd/nftlcore.c 127 */;
+	uint8_t *cocci_id/* drivers/mtd/nftlcore.c 124 */;
+	size_t *cocci_id/* drivers/mtd/nftlcore.c 124 */;
+	loff_t cocci_id/* drivers/mtd/nftlcore.c 123 */;
+}

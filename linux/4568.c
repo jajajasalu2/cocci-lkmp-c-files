@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct iova *cocci_id/* drivers/misc/mic/scif/scif_rma.c 996 */;
+	s64 *cocci_id/* drivers/misc/mic/scif/scif_rma.c 993 */;
+	void __force __iomem *cocci_id/* drivers/misc/mic/scif/scif_rma.c 862 */;
+	dma_addr_t *cocci_id/* drivers/misc/mic/scif/scif_rma.c 771 */;
+	dma_addr_t cocci_id/* drivers/misc/mic/scif/scif_rma.c 549 */;
+	scif_pinned_pages_t cocci_id/* drivers/misc/mic/scif/scif_rma.c 529 */;
+	struct scatterlist *cocci_id/* drivers/misc/mic/scif/scif_rma.c 527 */;
+	struct scif_rma_lookup *cocci_id/* drivers/misc/mic/scif/scif_rma.c 427 */;
+	struct scif_endpt_rma_info *cocci_id/* drivers/misc/mic/scif/scif_rma.c 30 */;
+	unsigned long cocci_id/* drivers/misc/mic/scif/scif_rma.c 278 */;
+	int cocci_id/* drivers/misc/mic/scif/scif_rma.c 275 */;
+	struct mm_struct *cocci_id/* drivers/misc/mic/scif/scif_rma.c 251 */;
+	void cocci_id/* drivers/misc/mic/scif/scif_rma.c 251 */;
+	struct scifmsg cocci_id/* drivers/misc/mic/scif/scif_rma.c 190 */;
+	struct device *cocci_id/* drivers/misc/mic/scif/scif_rma.c 1577 */;
+	scif_epd_t cocci_id/* drivers/misc/mic/scif/scif_rma.c 1568 */;
+	off_t cocci_id/* drivers/misc/mic/scif/scif_rma.c 1568 */;
+	s64 cocci_id/* drivers/misc/mic/scif/scif_rma.c 140 */;
+	u64 cocci_id/* drivers/misc/mic/scif/scif_rma.c 1329 */;
+	bool cocci_id/* drivers/misc/mic/scif/scif_rma.c 1312 */;
+	struct scif_pinned_pages *cocci_id/* drivers/misc/mic/scif/scif_rma.c 1310 */;
+	scif_pinned_pages_t *cocci_id/* drivers/misc/mic/scif/scif_rma.c 1308 */;
+	int *cocci_id/* drivers/misc/mic/scif/scif_rma.c 1307 */;
+	void *cocci_id/* drivers/misc/mic/scif/scif_rma.c 1307 */;
+	size_t cocci_id/* drivers/misc/mic/scif/scif_rma.c 1307 */;
+	struct scif_rma_req cocci_id/* drivers/misc/mic/scif/scif_rma.c 1176 */;
+	phys_addr_t cocci_id/* drivers/misc/mic/scif/scif_rma.c 1112 */;
+	struct scif_hw_dev *cocci_id/* drivers/misc/mic/scif/scif_rma.c 1111 */;
+	struct scif_endpt *cocci_id/* drivers/misc/mic/scif/scif_rma.c 1081 */;
+	struct scif_window cocci_id/* drivers/misc/mic/scif/scif_rma.c 1079 */;
+	struct scif_window *cocci_id/* drivers/misc/mic/scif/scif_rma.c 1079 */;
+	struct scif_allocmsg *cocci_id/* drivers/misc/mic/scif/scif_rma.c 1078 */;
+	struct scifmsg *cocci_id/* drivers/misc/mic/scif/scif_rma.c 1076 */;
+	struct scif_dev *cocci_id/* drivers/misc/mic/scif/scif_rma.c 1076 */;
+}

@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	int __init cocci_id/* drivers/iommu/msm_iommu.c 858 */;
+	struct platform_driver cocci_id/* drivers/iommu/msm_iommu.c 849 */;
+	const struct of_device_id cocci_id/* drivers/iommu/msm_iommu.c 835 */[];
+	resource_size_t cocci_id/* drivers/iommu/msm_iommu.c 721 */;
+	struct resource *cocci_id/* drivers/iommu/msm_iommu.c 720 */;
+	struct msm_iommu_dev *cocci_id/* drivers/iommu/msm_iommu.c 72 */;
+	void cocci_id/* drivers/iommu/msm_iommu.c 72 */;
+	struct platform_device *cocci_id/* drivers/iommu/msm_iommu.c 718 */;
+	unsigned int cocci_id/* drivers/iommu/msm_iommu.c 663 */;
+	irqreturn_t cocci_id/* drivers/iommu/msm_iommu.c 660 */;
+	struct of_phandle_args *cocci_id/* drivers/iommu/msm_iommu.c 614 */;
+	struct msm_iommu_dev **cocci_id/* drivers/iommu/msm_iommu.c 613 */;
+	enum iommu_cap cocci_id/* drivers/iommu/msm_iommu.c 582 */;
+	int cocci_id/* drivers/iommu/msm_iommu.c 55 */;
+	struct msm_iommu_dev cocci_id/* drivers/iommu/msm_iommu.c 547 */;
+	dma_addr_t cocci_id/* drivers/iommu/msm_iommu.c 534 */;
+	phys_addr_t cocci_id/* drivers/iommu/msm_iommu.c 533 */;
+	struct msm_priv cocci_id/* drivers/iommu/msm_iommu.c 52 */;
+	gfp_t cocci_id/* drivers/iommu/msm_iommu.c 507 */;
+	struct iommu_domain *cocci_id/* drivers/iommu/msm_iommu.c 430 */;
+	struct msm_priv {
+		struct list_head list_attached;
+		struct iommu_domain domain;
+		struct io_pgtable_cfg cfg;
+		struct io_pgtable_ops *iop;
+		struct device *dev;
+		spinlock_t pgtlock;
+	} cocci_id/* drivers/iommu/msm_iommu.c 41 */;
+	struct iommu_group *cocci_id/* drivers/iommu/msm_iommu.c 394 */;
+	struct iommu_ops cocci_id/* drivers/iommu/msm_iommu.c 39 */;
+	struct msm_iommu_ctx_dev cocci_id/* drivers/iommu/msm_iommu.c 380 */;
+	struct device *cocci_id/* drivers/iommu/msm_iommu.c 373 */;
+	struct io_pgtable_cfg cocci_id/* drivers/iommu/msm_iommu.c 352 */;
+	unsigned cocci_id/* drivers/iommu/msm_iommu.c 313 */;
+	void __iomem *cocci_id/* drivers/iommu/msm_iommu.c 265 */;
+	unsigned long *cocci_id/* drivers/iommu/msm_iommu.c 196 */;
+	const struct iommu_flush_ops cocci_id/* drivers/iommu/msm_iommu.c 189 */;
+	struct iommu_iotlb_gather *cocci_id/* drivers/iommu/msm_iommu.c 183 */;
+	unsigned long cocci_id/* drivers/iommu/msm_iommu.c 177 */;
+	size_t cocci_id/* drivers/iommu/msm_iommu.c 177 */;
+	bool cocci_id/* drivers/iommu/msm_iommu.c 140 */;
+	struct msm_iommu_ctx_dev *cocci_id/* drivers/iommu/msm_iommu.c 122 */;
+	struct msm_priv *cocci_id/* drivers/iommu/msm_iommu.c 120 */;
+	void *cocci_id/* drivers/iommu/msm_iommu.c 118 */;
+}

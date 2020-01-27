@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	bool cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 66 */;
+	struct hwctx_disable_req cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 524 */;
+	struct npa_aq_res_s cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 480 */;
+	struct npa_aq_inst_s cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 479 */;
+	struct msg_req *cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 418 */;
+	long cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 359 */;
+	u16 cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 320 */;
+	void *cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 32 */;
+	struct rvu_hwinfo *cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 319 */;
+	struct npa_lf_alloc_rsp *cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 316 */;
+	struct npa_lf_alloc_req *cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 315 */;
+	struct rvu_pfvf *cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 296 */;
+	void cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 296 */;
+	struct msg_rsp *cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 291 */;
+	struct npa_aq_enq_rsp *cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 270 */;
+	struct npa_aq_enq_req *cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 245 */;
+	u64 cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 24 */;
+	struct npa_aq_res_s *cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 22 */;
+	struct admin_queue *cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 21 */;
+	unsigned long *cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 203 */;
+	struct npa_aq_enq_req cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 202 */;
+	struct hwctx_disable_req *cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 199 */;
+	struct npa_aq_inst_s *cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 19 */;
+	struct rvu_block *cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 18 */;
+	struct rvu *cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 18 */;
+	int cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 18 */;
+	struct npa_pool_s cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 113 */;
+	struct npa_aura_s cocci_id/* drivers/net/ethernet/marvell/octeontx2/af/rvu_npa.c 109 */;
+}

@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	const struct file_operations cocci_id/* fs/orangefs/file.c 690 */;
+	fl_owner_t cocci_id/* fs/orangefs/file.c 659 */;
+	struct file_lock *cocci_id/* fs/orangefs/file.c 637 */;
+	unsigned long cocci_id/* fs/orangefs/file.c 628 */;
+	long cocci_id/* fs/orangefs/file.c 626 */;
+	loff_t cocci_id/* fs/orangefs/file.c 598 */;
+	struct orangefs_khandle *cocci_id/* fs/orangefs/file.c 54 */;
+	int *cocci_id/* fs/orangefs/file.c 51 */;
+	char *cocci_id/* fs/orangefs/file.c 507 */;
+	struct orangefs_write_range *cocci_id/* fs/orangefs/file.c 50 */;
+	struct vm_area_struct *cocci_id/* fs/orangefs/file.c 496 */;
+	loff_t *cocci_id/* fs/orangefs/file.c 49 */;
+	size_t cocci_id/* fs/orangefs/file.c 49 */;
+	const struct vm_operations_struct cocci_id/* fs/orangefs/file.c 487 */;
+	enum ORANGEFS_io_type cocci_id/* fs/orangefs/file.c 48 */;
+	struct file *cocci_id/* fs/orangefs/file.c 473 */;
+	vm_fault_t cocci_id/* fs/orangefs/file.c 471 */;
+	struct vm_fault *cocci_id/* fs/orangefs/file.c 471 */;
+	int __user *cocci_id/* fs/orangefs/file.c 434 */;
+	unsigned long long cocci_id/* fs/orangefs/file.c 433 */;
+	unsigned int cocci_id/* fs/orangefs/file.c 412 */;
+	__u64 cocci_id/* fs/orangefs/file.c 395 */;
+	unsigned long *cocci_id/* fs/orangefs/file.c 393 */;
+	struct orangefs_read_options *cocci_id/* fs/orangefs/file.c 349 */;
+	struct iov_iter *cocci_id/* fs/orangefs/file.c 346 */;
+	struct kiocb *cocci_id/* fs/orangefs/file.c 345 */;
+	ssize_t cocci_id/* fs/orangefs/file.c 345 */;
+	struct address_space *cocci_id/* fs/orangefs/file.c 307 */;
+	__s64 cocci_id/* fs/orangefs/file.c 263 */;
+	struct orangefs_kernel_op_s *cocci_id/* fs/orangefs/file.c 22 */;
+	struct orangefs_inode_s *cocci_id/* fs/orangefs/file.c 21 */;
+	struct inode *cocci_id/* fs/orangefs/file.c 19 */;
+	int cocci_id/* fs/orangefs/file.c 19 */;
+}

@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/spi/spi-bcm63xx.c 650 */;
+	const struct dev_pm_ops cocci_id/* drivers/spi/spi-bcm63xx.c 646 */;
+	const u8 *cocci_id/* drivers/spi/spi-bcm63xx.c 575 */;
+	u8 *cocci_id/* drivers/spi/spi-bcm63xx.c 574 */;
+	const struct platform_device_id *cocci_id/* drivers/spi/spi-bcm63xx.c 514 */;
+	const struct of_device_id *cocci_id/* drivers/spi/spi-bcm63xx.c 498 */;
+	u32 cocci_id/* drivers/spi/spi-bcm63xx.c 495 */;
+	struct clk *cocci_id/* drivers/spi/spi-bcm63xx.c 492 */;
+	struct device *cocci_id/* drivers/spi/spi-bcm63xx.c 489 */;
+	const unsigned long *cocci_id/* drivers/spi/spi-bcm63xx.c 488 */;
+	struct resource *cocci_id/* drivers/spi/spi-bcm63xx.c 487 */;
+	struct platform_device *cocci_id/* drivers/spi/spi-bcm63xx.c 485 */;
+	const struct of_device_id cocci_id/* drivers/spi/spi-bcm63xx.c 479 */[];
+	unsigned long cocci_id/* drivers/spi/spi-bcm63xx.c 469 */;
+	const struct platform_device_id cocci_id/* drivers/spi/spi-bcm63xx.c 466 */[];
+	const unsigned long cocci_id/* drivers/spi/spi-bcm63xx.c 430 */[];
+	struct spi_device *cocci_id/* drivers/spi/spi-bcm63xx.c 423 */;
+	size_t cocci_id/* drivers/spi/spi-bcm63xx.c 423 */;
+	u8 cocci_id/* drivers/spi/spi-bcm63xx.c 409 */;
+	struct bcm63xx_spi *cocci_id/* drivers/spi/spi-bcm63xx.c 408 */;
+	struct spi_master *cocci_id/* drivers/spi/spi-bcm63xx.c 407 */;
+	irqreturn_t cocci_id/* drivers/spi/spi-bcm63xx.c 405 */;
+	void *cocci_id/* drivers/spi/spi-bcm63xx.c 405 */;
+	int cocci_id/* drivers/spi/spi-bcm63xx.c 405 */;
+	bool cocci_id/* drivers/spi/spi-bcm63xx.c 332 */;
+	unsigned int cocci_id/* drivers/spi/spi-bcm63xx.c 331 */;
+	struct spi_message *cocci_id/* drivers/spi/spi-bcm63xx.c 325 */;
+	struct spi_transfer cocci_id/* drivers/spi/spi-bcm63xx.c 266 */;
+	u16 cocci_id/* drivers/spi/spi-bcm63xx.c 230 */;
+	struct spi_transfer *cocci_id/* drivers/spi/spi-bcm63xx.c 196 */;
+	void cocci_id/* drivers/spi/spi-bcm63xx.c 195 */;
+	const unsigned int cocci_id/* drivers/spi/spi-bcm63xx.c 185 */[SPI_CLK_MASK][2];
+	struct bcm63xx_spi {
+		struct completion done;
+		void __iomem *regs;
+		int irq;
+		const unsigned long *reg_offsets;
+		unsigned int fifo_size;
+		unsigned int msg_type_shift;
+		unsigned int msg_ctl_width;
+		u8 __iomem *tx_io;
+		const u8 __iomem *rx_io;
+		struct clk *clk;
+		struct platform_device *pdev;
+	} cocci_id/* drivers/spi/spi-bcm63xx.c 133 */;
+	enum bcm63xx_regs_spi{SPI_CMD, SPI_INT_STATUS, SPI_INT_MASK_ST, SPI_INT_MASK, SPI_ST, SPI_CLK_CFG, SPI_FILL_BYTE, SPI_MSG_TAIL, SPI_RX_TAIL, SPI_MSG_CTL, SPI_MSG_DATA, SPI_RX_DATA, SPI_MSG_TYPE_SHIFT, SPI_MSG_CTL_WIDTH, SPI_MSG_DATA_SIZE,} cocci_id/* drivers/spi/spi-bcm63xx.c 110 */;
+}

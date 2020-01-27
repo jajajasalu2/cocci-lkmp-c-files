@@ -1,0 +1,65 @@
+cocci_test_suite() {
+	const struct fb_var_screeninfo cocci_id/* drivers/auxdisplay/ht16k33.c 88 */;
+	const struct fb_fix_screeninfo cocci_id/* drivers/auxdisplay/ht16k33.c 77 */;
+	struct ht16k33_priv {
+		struct i2c_client *client;
+		struct ht16k33_keypad keypad;
+		struct ht16k33_fbdev fbdev;
+	} cocci_id/* drivers/auxdisplay/ht16k33.c 71 */;
+	struct ht16k33_fbdev {
+		struct fb_info *info;
+		uint32_t refresh_rate;
+		uint8_t *buffer;
+		uint8_t *cache;
+		struct delayed_work work;
+	} cocci_id/* drivers/auxdisplay/ht16k33.c 63 */;
+	struct i2c_driver cocci_id/* drivers/auxdisplay/ht16k33.c 532 */;
+	const struct of_device_id cocci_id/* drivers/auxdisplay/ht16k33.c 526 */[];
+	const struct i2c_device_id cocci_id/* drivers/auxdisplay/ht16k33.c 520 */[];
+	struct ht16k33_keypad {
+		struct i2c_client *client;
+		struct input_dev *dev;
+		uint32_t cols;
+		uint32_t rows;
+		uint32_t row_shift;
+		uint32_t debounce_ms;
+		uint16_t last_key_state[HT16K33_MATRIX_KEYPAD_MAX_COLS];
+		wait_queue_head_t wait;
+		bool stopped;
+	} cocci_id/* drivers/auxdisplay/ht16k33.c 50 */;
+	char __iomem *cocci_id/* drivers/auxdisplay/ht16k33.c 450 */;
+	unsigned char *cocci_id/* drivers/auxdisplay/ht16k33.c 424 */;
+	struct backlight_properties cocci_id/* drivers/auxdisplay/ht16k33.c 395 */;
+	uint32_t cocci_id/* drivers/auxdisplay/ht16k33.c 393 */;
+	const struct i2c_device_id *cocci_id/* drivers/auxdisplay/ht16k33.c 390 */;
+	u32 cocci_id/* drivers/auxdisplay/ht16k33.c 321 */;
+	struct device_node *cocci_id/* drivers/auxdisplay/ht16k33.c 320 */;
+	struct i2c_client *cocci_id/* drivers/auxdisplay/ht16k33.c 317 */;
+	struct input_dev *cocci_id/* drivers/auxdisplay/ht16k33.c 296 */;
+	struct ht16k33_keypad *cocci_id/* drivers/auxdisplay/ht16k33.c 284 */;
+	irqreturn_t cocci_id/* drivers/auxdisplay/ht16k33.c 282 */;
+	void *cocci_id/* drivers/auxdisplay/ht16k33.c 282 */;
+	u16 cocci_id/* drivers/auxdisplay/ht16k33.c 277 */;
+	u8 *cocci_id/* drivers/auxdisplay/ht16k33.c 256 */;
+	unsigned long cocci_id/* drivers/auxdisplay/ht16k33.c 250 */;
+	__le16 cocci_id/* drivers/auxdisplay/ht16k33.c 249 */[HT16K33_MATRIX_KEYPAD_MAX_COLS];
+	u16 cocci_id/* drivers/auxdisplay/ht16k33.c 248 */[HT16K33_MATRIX_KEYPAD_MAX_COLS];
+	const unsigned short *cocci_id/* drivers/auxdisplay/ht16k33.c 247 */;
+	bool cocci_id/* drivers/auxdisplay/ht16k33.c 245 */;
+	struct fb_ops cocci_id/* drivers/auxdisplay/ht16k33.c 231 */;
+	struct page *cocci_id/* drivers/auxdisplay/ht16k33.c 226 */;
+	struct vm_area_struct *cocci_id/* drivers/auxdisplay/ht16k33.c 223 */;
+	const struct backlight_ops cocci_id/* drivers/auxdisplay/ht16k33.c 218 */;
+	struct ht16k33_priv *cocci_id/* drivers/auxdisplay/ht16k33.c 213 */;
+	struct fb_info *cocci_id/* drivers/auxdisplay/ht16k33.c 211 */;
+	struct backlight_device *cocci_id/* drivers/auxdisplay/ht16k33.c 211 */;
+	int cocci_id/* drivers/auxdisplay/ht16k33.c 211 */;
+	uint8_t cocci_id/* drivers/auxdisplay/ht16k33.c 174 */[HT16K33_MATRIX_LED_MAX_COLS * 2];
+	uint8_t *cocci_id/* drivers/auxdisplay/ht16k33.c 134 */;
+	struct ht16k33_priv cocci_id/* drivers/auxdisplay/ht16k33.c 132 */;
+	struct ht16k33_fbdev cocci_id/* drivers/auxdisplay/ht16k33.c 130 */;
+	struct work_struct *cocci_id/* drivers/auxdisplay/ht16k33.c 127 */;
+	struct ht16k33_fbdev *cocci_id/* drivers/auxdisplay/ht16k33.c 118 */;
+	void cocci_id/* drivers/auxdisplay/ht16k33.c 116 */;
+	uint8_t cocci_id/* drivers/auxdisplay/ht16k33.c 106 */;
+}

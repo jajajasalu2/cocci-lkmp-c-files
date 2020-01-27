@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	struct cmsghdr *cocci_id/* net/rds/send.c 988 */;
+	struct rds_iov_vector_arr *cocci_id/* net/rds/send.c 986 */;
+	struct msghdr *cocci_id/* net/rds/send.c 985 */;
+	int *cocci_id/* net/rds/send.c 985 */;
+	u32 *cocci_id/* net/rds/send.c 974 */;
+	struct scatterlist cocci_id/* net/rds/send.c 950 */;
+	struct rds_iov_vector cocci_id/* net/rds/send.c 916 */;
+	struct rds_iov_vector *cocci_id/* net/rds/send.c 897 */;
+	bool cocci_id/* net/rds/send.c 896 */;
+	unsigned long long cocci_id/* net/rds/send.c 875 */;
+	struct rds_message cocci_id/* net/rds/send.c 792 */;
+	struct sockaddr_in6 *cocci_id/* net/rds/send.c 722 */;
+	is_acked_func cocci_id/* net/rds/send.c 715 */;
+	u64 cocci_id/* net/rds/send.c 714 */;
+	struct rds_connection *cocci_id/* net/rds/send.c 714 */;
+	struct list_head *cocci_id/* net/rds/send.c 605 */;
+	void cocci_id/* net/rds/send.c 59 */(struct list_head *messages,
+					     int status);
+	struct rm_atomic_op *cocci_id/* net/rds/send.c 578 */;
+	struct rm_rdma_op *cocci_id/* net/rds/send.c 577 */;
+	struct rds_sock *cocci_id/* net/rds/send.c 575 */;
+	struct rds_message *cocci_id/* net/rds/send.c 575 */;
+	int cocci_id/* net/rds/send.c 575 */;
+	void cocci_id/* net/rds/send.c 574 */;
+	unsigned long cocci_id/* net/rds/send.c 541 */;
+	struct rds_notifier *cocci_id/* net/rds/send.c 540 */;
+	struct rds_header cocci_id/* net/rds/send.c 374 */;
+	__be16 cocci_id/* net/rds/send.c 1492 */;
+	u32 cocci_id/* net/rds/send.c 1461 */;
+	u16 cocci_id/* net/rds/send.c 1460 */;
+	struct scatterlist *cocci_id/* net/rds/send.c 143 */;
+	u8 cocci_id/* net/rds/send.c 1425 */;
+	unsigned int cocci_id/* net/rds/send.c 142 */;
+	__be32 cocci_id/* net/rds/send.c 1165 */;
+	struct rds_iov_vector_arr cocci_id/* net/rds/send.c 1122 */;
+	__u32 cocci_id/* net/rds/send.c 1116 */;
+	struct in6_addr cocci_id/* net/rds/send.c 1115 */;
+	long cocci_id/* net/rds/send.c 1113 */;
+	struct sockaddr_in *cocci_id/* net/rds/send.c 1106 */;
+	struct sock *cocci_id/* net/rds/send.c 1103 */;
+	struct socket *cocci_id/* net/rds/send.c 1101 */;
+	size_t cocci_id/* net/rds/send.c 1101 */;
+	struct rds_rdma_args cocci_id/* net/rds/send.c 1092 */;
+	struct rds_rdma_args *cocci_id/* net/rds/send.c 1080 */;
+	size_t *cocci_id/* net/rds/send.c 1078 */;
+	struct rds_conn_path *cocci_id/* net/rds/send.c 104 */;
+}

@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	const struct i2c_device_id cocci_id/* drivers/iio/proximity/isl29501.c 993 */[];
+	enum isl29501_correction_coeff{COEFF_TEMP_A, COEFF_TEMP_B, COEFF_LIGHT_A, COEFF_LIGHT_B, COEFF_MAX,} cocci_id/* drivers/iio/proximity/isl29501.c 98 */;
+	struct iio_dev *cocci_id/* drivers/iio/proximity/isl29501.c 955 */;
+	const struct i2c_device_id *cocci_id/* drivers/iio/proximity/isl29501.c 953 */;
+	struct i2c_client *cocci_id/* drivers/iio/proximity/isl29501.c 952 */;
+	u32 cocci_id/* drivers/iio/proximity/isl29501.c 941 */[4];
+	const unsigned long *cocci_id/* drivers/iio/proximity/isl29501.c 940 */;
+	struct iio_poll_func *cocci_id/* drivers/iio/proximity/isl29501.c 937 */;
+	irqreturn_t cocci_id/* drivers/iio/proximity/isl29501.c 935 */;
+	void *cocci_id/* drivers/iio/proximity/isl29501.c 935 */;
+	const struct iio_info cocci_id/* drivers/iio/proximity/isl29501.c 905 */;
+	long cocci_id/* drivers/iio/proximity/isl29501.c 776 */;
+	u32 cocci_id/* drivers/iio/proximity/isl29501.c 756 */;
+	unsigned long long cocci_id/* drivers/iio/proximity/isl29501.c 755 */;
+	int *cocci_id/* drivers/iio/proximity/isl29501.c 715 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/proximity/isl29501.c 714 */;
+	const int cocci_id/* drivers/iio/proximity/isl29501.c 590 */[][2];
+	const struct attribute_group cocci_id/* drivers/iio/proximity/isl29501.c 586 */;
+	struct attribute *cocci_id/* drivers/iio/proximity/isl29501.c 580 */[];
+	struct isl29501_private *cocci_id/* drivers/iio/proximity/isl29501.c 562 */;
+	int cocci_id/* drivers/iio/proximity/isl29501.c 562 */;
+	const struct iio_chan_spec cocci_id/* drivers/iio/proximity/isl29501.c 490 */[];
+	const struct iio_chan_spec_ext_info cocci_id/* drivers/iio/proximity/isl29501.c 477 */[];
+	const char *cocci_id/* drivers/iio/proximity/isl29501.c 383 */;
+	size_t cocci_id/* drivers/iio/proximity/isl29501.c 383 */;
+	unsigned int cocci_id/* drivers/iio/proximity/isl29501.c 351 */;
+	enum isl29501_correction_coeff cocci_id/* drivers/iio/proximity/isl29501.c 302 */;
+	enum isl29501_register_name cocci_id/* drivers/iio/proximity/isl29501.c 264 */;
+	char *cocci_id/* drivers/iio/proximity/isl29501.c 261 */;
+	uintptr_t cocci_id/* drivers/iio/proximity/isl29501.c 259 */;
+	ssize_t cocci_id/* drivers/iio/proximity/isl29501.c 258 */;
+	s32 cocci_id/* drivers/iio/proximity/isl29501.c 203 */;
+	u8 cocci_id/* drivers/iio/proximity/isl29501.c 202 */;
+	const struct isl29501_register_desc *cocci_id/* drivers/iio/proximity/isl29501.c 201 */;
+	u32 *cocci_id/* drivers/iio/proximity/isl29501.c 199 */;
+	const struct isl29501_register_desc cocci_id/* drivers/iio/proximity/isl29501.c 138 */[];
+	struct isl29501_register_desc {
+		u8 msb;
+		u8 lsb;
+	} cocci_id/* drivers/iio/proximity/isl29501.c 133 */;
+	enum isl29501_register_name{REG_DISTANCE, REG_PHASE, REG_TEMPERATURE, REG_AMBIENT_LIGHT, REG_GAIN, REG_GAIN_BIAS, REG_PHASE_EXP, REG_CALIB_PHASE_TEMP_A, REG_CALIB_PHASE_TEMP_B, REG_CALIB_PHASE_LIGHT_A, REG_CALIB_PHASE_LIGHT_B, REG_DISTANCE_BIAS, REG_TEMPERATURE_BIAS, REG_INT_TIME, REG_SAMPLE_TIME, REG_DRIVER_RANGE, REG_EMITTER_DAC,} cocci_id/* drivers/iio/proximity/isl29501.c 113 */;
+	struct isl29501_private {
+		struct i2c_client *client;
+		struct mutex lock;
+		unsigned int shadow_coeffs[COEFF_MAX];
+	} cocci_id/* drivers/iio/proximity/isl29501.c 106 */;
+	struct i2c_driver cocci_id/* drivers/iio/proximity/isl29501.c 1008 */;
+	const struct of_device_id cocci_id/* drivers/iio/proximity/isl29501.c 1001 */[];
+}

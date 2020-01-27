@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* drivers/char/hw_random/s390-trng.c 97 */;
+	unsigned int cocci_id/* drivers/char/hw_random/s390-trng.c 60 */;
+	u8 cocci_id/* drivers/char/hw_random/s390-trng.c 58 */[32];
+	loff_t *cocci_id/* drivers/char/hw_random/s390-trng.c 56 */;
+	char __user *cocci_id/* drivers/char/hw_random/s390-trng.c 55 */;
+	struct inode *cocci_id/* drivers/char/hw_random/s390-trng.c 50 */;
+	struct file *cocci_id/* drivers/char/hw_random/s390-trng.c 50 */;
+	atomic64_t cocci_id/* drivers/char/hw_random/s390-trng.c 44 */;
+	debug_info_t *cocci_id/* drivers/char/hw_random/s390-trng.c 34 */;
+	void __exit cocci_id/* drivers/char/hw_random/s390-trng.c 256 */;
+	int __init cocci_id/* drivers/char/hw_random/s390-trng.c 220 */;
+	long cocci_id/* drivers/char/hw_random/s390-trng.c 210 */;
+	void __init cocci_id/* drivers/char/hw_random/s390-trng.c 208 */;
+	struct hwrng cocci_id/* drivers/char/hw_random/s390-trng.c 198 */;
+	bool cocci_id/* drivers/char/hw_random/s390-trng.c 182 */;
+	void *cocci_id/* drivers/char/hw_random/s390-trng.c 182 */;
+	u32 *cocci_id/* drivers/char/hw_random/s390-trng.c 171 */;
+	struct hwrng *cocci_id/* drivers/char/hw_random/s390-trng.c 171 */;
+	int cocci_id/* drivers/char/hw_random/s390-trng.c 171 */;
+	u8 *cocci_id/* drivers/char/hw_random/s390-trng.c 165 */;
+	size_t cocci_id/* drivers/char/hw_random/s390-trng.c 165 */;
+	void cocci_id/* drivers/char/hw_random/s390-trng.c 165 */;
+	struct miscdevice cocci_id/* drivers/char/hw_random/s390-trng.c 154 */;
+	const struct file_operations cocci_id/* drivers/char/hw_random/s390-trng.c 146 */;
+	const struct attribute_group *cocci_id/* drivers/char/hw_random/s390-trng.c 141 */[];
+	const struct attribute_group cocci_id/* drivers/char/hw_random/s390-trng.c 137 */;
+	struct attribute *cocci_id/* drivers/char/hw_random/s390-trng.c 132 */[];
+	u64 cocci_id/* drivers/char/hw_random/s390-trng.c 109 */;
+	struct device_attribute *cocci_id/* drivers/char/hw_random/s390-trng.c 107 */;
+	char *cocci_id/* drivers/char/hw_random/s390-trng.c 107 */;
+	struct device *cocci_id/* drivers/char/hw_random/s390-trng.c 106 */;
+	ssize_t cocci_id/* drivers/char/hw_random/s390-trng.c 106 */;
+}

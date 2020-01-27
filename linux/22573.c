@@ -1,0 +1,63 @@
+cocci_test_suite() {
+	int cocci_id/* sound/pci/hda/hda_intel.c 990 */;
+	struct hda_codec *cocci_id/* sound/pci/hda/hda_intel.c 989 */;
+	struct hdac_bus *cocci_id/* sound/pci/hda/hda_intel.c 988 */;
+	struct hda_intel cocci_id/* sound/pci/hda/hda_intel.c 987 */;
+	struct hda_intel *cocci_id/* sound/pci/hda/hda_intel.c 987 */;
+	bool cocci_id/* sound/pci/hda/hda_intel.c 985 */;
+	struct azx *cocci_id/* sound/pci/hda/hda_intel.c 985 */;
+	void cocci_id/* sound/pci/hda/hda_intel.c 985 */;
+	const struct kernel_param *cocci_id/* sound/pci/hda/hda_intel.c 939 */;
+	const char *cocci_id/* sound/pci/hda/hda_intel.c 939 */;
+	struct snd_pcm_substream *cocci_id/* sound/pci/hda/hda_intel.c 887 */;
+	struct snd_pcm_runtime *cocci_id/* sound/pci/hda/hda_intel.c 856 */;
+	struct azx_dev *cocci_id/* sound/pci/hda/hda_intel.c 772 */;
+	struct hdac_stream *cocci_id/* sound/pci/hda/hda_intel.c 768 */;
+	struct work_struct *cocci_id/* sound/pci/hda/hda_intel.c 722 */;
+	u32 cocci_id/* sound/pci/hda/hda_intel.c 678 */;
+	int cocci_id/* sound/pci/hda/hda_intel.c 642 */(struct azx *chip,
+							struct azx_dev *azx_dev);
+	enum{POS_FIX_AUTO, POS_FIX_LPIB, POS_FIX_POSBUF, POS_FIX_VIACOMBO, POS_FIX_COMBO, POS_FIX_SKL, POS_FIX_FIFO,} cocci_id/* sound/pci/hda/hda_intel.c 62 */;
+	int cocci_id/* sound/pci/hda/hda_intel.c 501 */[];
+	unsigned char cocci_id/* sound/pci/hda/hda_intel.c 403 */;
+	void cocci_id/* sound/pci/hda/hda_intel.c 396 */(struct azx *chip);
+	int cocci_id/* sound/pci/hda/hda_intel.c 395 */(struct azx *chip,
+							int do_disconnect);
+	char *cocci_id/* sound/pci/hda/hda_intel.c 374 */[];
+	struct pci_driver cocci_id/* sound/pci/hda/hda_intel.c 2692 */;
+	enum{AZX_DRIVER_ICH, AZX_DRIVER_PCH, AZX_DRIVER_SCH, AZX_DRIVER_SKL, AZX_DRIVER_HDMI, AZX_DRIVER_ATI, AZX_DRIVER_ATIHDMI, AZX_DRIVER_ATIHDMI_NS, AZX_DRIVER_VIA, AZX_DRIVER_SIS, AZX_DRIVER_ULI, AZX_DRIVER_NVIDIA, AZX_DRIVER_TERA, AZX_DRIVER_CTX, AZX_DRIVER_CTHDA, AZX_DRIVER_CMEDIA, AZX_DRIVER_ZHAOXIN, AZX_DRIVER_GENERIC, AZX_NUM_DRIVERS,} cocci_id/* sound/pci/hda/hda_intel.c 257 */;
+	const struct pci_device_id cocci_id/* sound/pci/hda/hda_intel.c 2365 */[];
+	unsigned int cocci_id/* sound/pci/hda/hda_intel.c 2221 */[AZX_NUM_DRIVERS];
+	const struct pci_device_id *cocci_id/* sound/pci/hda/hda_intel.c 2072 */;
+	struct azx_pcm *cocci_id/* sound/pci/hda/hda_intel.c 2058 */;
+	struct vm_area_struct *cocci_id/* sound/pci/hda/hda_intel.c 2055 */;
+	const struct firmware *cocci_id/* sound/pci/hda/hda_intel.c 2013 */;
+	void *cocci_id/* sound/pci/hda/hda_intel.c 2013 */;
+	u16 cocci_id/* sound/pci/hda/hda_intel.c 1841 */;
+	unsigned short cocci_id/* sound/pci/hda/hda_intel.c 1835 */;
+	struct snd_device_ops cocci_id/* sound/pci/hda/hda_intel.c 1744 */;
+	struct azx **cocci_id/* sound/pci/hda/hda_intel.c 1742 */;
+	unsigned int cocci_id/* sound/pci/hda/hda_intel.c 1741 */;
+	struct snd_card *cocci_id/* sound/pci/hda/hda_intel.c 1740 */;
+	const struct hda_controller_ops cocci_id/* sound/pci/hda/hda_intel.c 1738 */;
+	u8 cocci_id/* sound/pci/hda/hda_intel.c 1690 */;
+	const struct kernel_param_ops cocci_id/* sound/pci/hda/hda_intel.c 169 */;
+	int cocci_id/* sound/pci/hda/hda_intel.c 168 */(const char *val,
+							const struct kernel_param *kp);
+	const struct snd_pci_quirk *cocci_id/* sound/pci/hda/hda_intel.c 1648 */;
+	struct snd_pci_quirk cocci_id/* sound/pci/hda/hda_intel.c 1632 */[];
+	azx_get_pos_callback_t cocci_id/* sound/pci/hda/hda_intel.c 1554 */[];
+	acpi_status cocci_id/* sound/pci/hda/hda_intel.c 1411 */;
+	acpi_handle cocci_id/* sound/pci/hda/hda_intel.c 1410 */;
+	struct pci_dev *cocci_id/* sound/pci/hda/hda_intel.c 1409 */;
+	struct snd_device *cocci_id/* sound/pci/hda/hda_intel.c 1388 */;
+	const struct vga_switcheroo_client_ops cocci_id/* sound/pci/hda/hda_intel.c 1299 */;
+	enum vga_switcheroo_client_id cocci_id/* sound/pci/hda/hda_intel.c 1269 */;
+	bool cocci_id/* sound/pci/hda/hda_intel.c 125 */[SNDRV_CARDS];
+	enum vga_switcheroo_state cocci_id/* sound/pci/hda/hda_intel.c 1177 */;
+	struct pci_dev *cocci_id/* sound/pci/hda/hda_intel.c 1174 */(struct pci_dev *pci);
+	int cocci_id/* sound/pci/hda/hda_intel.c 1171 */(struct azx *chip);
+	int cocci_id/* sound/pci/hda/hda_intel.c 115 */[SNDRV_CARDS];
+	char *cocci_id/* sound/pci/hda/hda_intel.c 111 */[SNDRV_CARDS];
+	struct device *cocci_id/* sound/pci/hda/hda_intel.c 1064 */;
+}

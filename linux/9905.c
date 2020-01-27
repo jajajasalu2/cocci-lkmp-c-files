@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	s32 cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 940 */;
+	int cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 935 */;
+	enum ath9k_ani_cmd cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 934 */;
+	bool cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 933 */;
+	int32_t cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 92 */;
+	u32 *cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 87 */;
+	struct ar5416IniArray *cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 62 */;
+	unsigned int *cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 60 */;
+	const struct ar5416IniArray cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 54 */;
+	const int cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 51 */;
+	volatile int cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 301 */;
+	const int cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 263 */[4];
+	int8_t cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 261 */;
+	int8_t cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 259 */[123];
+	struct chan_centers cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 189 */;
+	u16 cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 140 */;
+	const u32 cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 1326 */[6];
+	struct ath_hw_private_ops *cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 1325 */;
+	int16_t *cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 1296 */;
+	struct ath_hw_radar_conf *cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 1246 */;
+	u32 cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 1155 */;
+	struct ath9k_ani_default *cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 1154 */;
+	struct ar5416AniState *cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 1153 */;
+	struct ath9k_channel *cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 1152 */;
+	struct ath_common *cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 1151 */;
+	struct ath_hw *cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 1149 */;
+	void cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 1149 */;
+	int16_t cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 1120 */;
+	int16_t cocci_id/* drivers/net/wireless/ath/ath9k/ar5008_phy.c 1118 */[NUM_NF_READINGS];
+}

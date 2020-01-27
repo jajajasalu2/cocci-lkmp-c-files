@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	const __le64 cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 71 */[][3];
+	__le16 cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 703 */;
+	struct ieee80211_tx_info *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 701 */;
+	struct ieee80211_hdr *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 700 */;
+	u8 cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 691 */;
+	enum nl80211_band cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 681 */;
+	struct iwl_mvm_phy_ctxt *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 637 */;
+	struct iwl_mvm_sta *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 635 */;
+	struct ieee80211_sta *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 633 */;
+	enum ieee80211_rssi_event_data cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 565 */;
+	struct iwl_bt_coex_profile_notif *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 547 */;
+	struct iwl_rx_packet *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 546 */;
+	struct iwl_rx_cmd_buffer *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 544 */;
+	struct iwl_bt_coex_ci_cmd cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 472 */;
+	struct iwl_bt_iterator_data cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 468 */;
+	enum ieee80211_smps_mode cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 325 */;
+	u8 *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 317 */;
+	void *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 317 */;
+	unsigned long cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 297 */;
+	struct iwl_bt_iterator_data *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 295 */;
+	struct iwl_mvm_vif *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 283 */;
+	bool cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 281 */;
+	int cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 281 */;
+	struct ieee80211_vif *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 280 */;
+	void cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 279 */;
+	struct iwl_bt_iterator_data {
+		struct iwl_bt_coex_profile_notif *notif;
+		struct iwl_mvm *mvm;
+		struct ieee80211_chanctx_conf *primary;
+		struct ieee80211_chanctx_conf *secondary;
+		bool primary_ll;
+		u8 primary_load;
+		u8 secondary_load;
+	} cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 268 */;
+	struct iwl_bt_coex_reduced_txp_update_cmd cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 241 */;
+	struct iwl_bt_coex_cmd cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 197 */;
+	u16 *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 179 */;
+	u32 cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 152 */;
+	u16 cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 151 */;
+	struct ieee80211_chanctx_conf *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 149 */;
+	const struct ieee80211_vif *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 147 */;
+	struct iwl_mvm *cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 147 */;
+	enum iwl_bt_coex_lut_type cocci_id/* drivers/net/wireless/intel/iwlwifi/mvm/coex.c 146 */;
+}

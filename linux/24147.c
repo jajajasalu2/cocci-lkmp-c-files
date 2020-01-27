@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct net_device *cocci_id/* net/ncsi/ncsi-netlink.c 769 */;
+	const struct genl_ops cocci_id/* net/ncsi/ncsi-netlink.c 719 */[];
+	struct ncsi_channel_mode *cocci_id/* net/ncsi/ncsi-netlink.c 62 */;
+	struct ncsi_channel_vlan_filter *cocci_id/* net/ncsi/ncsi-netlink.c 61 */;
+	struct net *cocci_id/* net/ncsi/ncsi-netlink.c 568 */;
+	struct nlmsgerr *cocci_id/* net/ncsi/ncsi-netlink.c 566 */;
+	struct nlmsghdr *cocci_id/* net/ncsi/ncsi-netlink.c 562 */;
+	struct ncsi_channel *cocci_id/* net/ncsi/ncsi-netlink.c 480 */;
+	struct ncsi_request *cocci_id/* net/ncsi/ncsi-netlink.c 478 */;
+	unsigned char cocci_id/* net/ncsi/ncsi-netlink.c 454 */;
+	struct ncsi_pkt_hdr cocci_id/* net/ncsi/ncsi-netlink.c 442 */;
+	u32 cocci_id/* net/ncsi/ncsi-netlink.c 397 */;
+	unsigned char *cocci_id/* net/ncsi/ncsi-netlink.c 396 */;
+	struct ncsi_cmd_arg cocci_id/* net/ncsi/ncsi-netlink.c 395 */;
+	struct ncsi_pkt_hdr *cocci_id/* net/ncsi/ncsi-netlink.c 394 */;
+	struct ncsi_dev cocci_id/* net/ncsi/ncsi-netlink.c 39 */;
+	struct ncsi_dev *cocci_id/* net/ncsi/ncsi-netlink.c 38 */;
+	unsigned long cocci_id/* net/ncsi/ncsi-netlink.c 356 */;
+	struct ncsi_package *cocci_id/* net/ncsi/ncsi-netlink.c 355 */;
+	struct ncsi_dev_priv *cocci_id/* net/ncsi/ncsi-netlink.c 354 */;
+	struct sk_buff *cocci_id/* net/ncsi/ncsi-netlink.c 352 */;
+	struct genl_info *cocci_id/* net/ncsi/ncsi-netlink.c 352 */;
+	int cocci_id/* net/ncsi/ncsi-netlink.c 352 */;
+	const struct nla_policy cocci_id/* net/ncsi/ncsi-netlink.c 23 */[NCSI_ATTR_MAX + 1];
+	void *cocci_id/* net/ncsi/ncsi-netlink.c 216 */;
+	struct nlattr *cocci_id/* net/ncsi/ncsi-netlink.c 215 */;
+	unsigned int cocci_id/* net/ncsi/ncsi-netlink.c 214 */;
+	struct nlattr *cocci_id/* net/ncsi/ncsi-netlink.c 211 */[NCSI_ATTR_MAX + 1];
+	struct genl_family cocci_id/* net/ncsi/ncsi-netlink.c 21 */;
+	struct netlink_callback *cocci_id/* net/ncsi/ncsi-netlink.c 209 */;
+	bool cocci_id/* net/ncsi/ncsi-netlink.c 100 */;
+}

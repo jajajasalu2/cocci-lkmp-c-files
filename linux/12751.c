@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct pci_bus *cocci_id/* drivers/iommu/fsl_pamu_domain.c 938 */;
+	u32 cocci_id/* drivers/iommu/fsl_pamu_domain.c 924 */;
+	bool cocci_id/* drivers/iommu/fsl_pamu_domain.c 922 */;
+	struct pci_controller *cocci_id/* drivers/iommu/fsl_pamu_domain.c 922 */;
+	u32 *cocci_id/* drivers/iommu/fsl_pamu_domain.c 900 */;
+	int *cocci_id/* drivers/iommu/fsl_pamu_domain.c 894 */;
+	enum iommu_attr cocci_id/* drivers/iommu/fsl_pamu_domain.c 883 */;
+	struct pamu_stash_attribute cocci_id/* drivers/iommu/fsl_pamu_domain.c 760 */;
+	struct pamu_stash_attribute *cocci_id/* drivers/iommu/fsl_pamu_domain.c 753 */;
+	struct iommu_domain_geometry cocci_id/* drivers/iommu/fsl_pamu_domain.c 742 */;
+	struct iommu_domain_geometry *cocci_id/* drivers/iommu/fsl_pamu_domain.c 717 */;
+	struct iommu_domain *cocci_id/* drivers/iommu/fsl_pamu_domain.c 715 */;
+	void *cocci_id/* drivers/iommu/fsl_pamu_domain.c 715 */;
+	struct pci_dev *cocci_id/* drivers/iommu/fsl_pamu_domain.c 654 */;
+	const u32 *cocci_id/* drivers/iommu/fsl_pamu_domain.c 651 */;
+	struct dma_window *cocci_id/* drivers/iommu/fsl_pamu_domain.c 528 */;
+	struct device_domain_info cocci_id/* drivers/iommu/fsl_pamu_domain.c 44 */;
+	unsigned cocci_id/* drivers/iommu/fsl_pamu_domain.c 409 */;
+	enum iommu_cap cocci_id/* drivers/iommu/fsl_pamu_domain.c 391 */;
+	phys_addr_t cocci_id/* drivers/iommu/fsl_pamu_domain.c 379 */;
+	unsigned long cocci_id/* drivers/iommu/fsl_pamu_domain.c 348 */;
+	struct device_domain_info *cocci_id/* drivers/iommu/fsl_pamu_domain.c 347 */;
+	struct fsl_dma_domain *cocci_id/* drivers/iommu/fsl_pamu_domain.c 345 */;
+	struct device *cocci_id/* drivers/iommu/fsl_pamu_domain.c 345 */;
+	int cocci_id/* drivers/iommu/fsl_pamu_domain.c 345 */;
+	void cocci_id/* drivers/iommu/fsl_pamu_domain.c 345 */;
+	struct fsl_dma_domain cocci_id/* drivers/iommu/fsl_pamu_domain.c 34 */;
+	int __init cocci_id/* drivers/iommu/fsl_pamu_domain.c 31 */;
+	u64 cocci_id/* drivers/iommu/fsl_pamu_domain.c 275 */;
+	dma_addr_t cocci_id/* drivers/iommu/fsl_pamu_domain.c 275 */;
+	struct iommu_device cocci_id/* drivers/iommu/fsl_pamu_domain.c 24 */;
+	struct kmem_cache *cocci_id/* drivers/iommu/fsl_pamu_domain.c 20 */;
+	const struct iommu_ops cocci_id/* drivers/iommu/fsl_pamu_domain.c 1040 */;
+	struct iommu_group *cocci_id/* drivers/iommu/fsl_pamu_domain.c 1021 */;
+}

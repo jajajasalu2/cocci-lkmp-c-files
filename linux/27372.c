@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	const struct file_operations cocci_id/* fs/coda/dir.c 582 */;
+	const struct inode_operations cocci_id/* fs/coda/dir.c 567 */;
+	const struct dentry_operations cocci_id/* fs/coda/dir.c 562 */;
+	ino_t cocci_id/* fs/coda/dir.c 523 */;
+	const struct dentry *cocci_id/* fs/coda/dir.c 496 */;
+	struct coda_inode_info *cocci_id/* fs/coda/dir.c 457 */;
+	size_t cocci_id/* fs/coda/dir.c 45 */;
+	struct super_block *cocci_id/* fs/coda/dir.c 43 */;
+	struct coda_file_info *cocci_id/* fs/coda/dir.c 424 */;
+	struct file *cocci_id/* fs/coda/dir.c 422 */;
+	struct dir_context *cocci_id/* fs/coda/dir.c 422 */;
+	loff_t cocci_id/* fs/coda/dir.c 371 */;
+	void *cocci_id/* fs/coda/dir.c 37 */;
+	struct qstr cocci_id/* fs/coda/dir.c 355 */;
+	struct venus_dirent cocci_id/* fs/coda/dir.c 353 */;
+	unsigned long cocci_id/* fs/coda/dir.c 353 */;
+	struct venus_dirent *cocci_id/* fs/coda/dir.c 352 */;
+	unsigned int cocci_id/* fs/coda/dir.c 327 */;
+	unsigned char cocci_id/* fs/coda/dir.c 327 */;
+	struct coda_vattr cocci_id/* fs/coda/dir.c 142 */;
+	struct CodaFid cocci_id/* fs/coda/dir.c 141 */;
+	const char *cocci_id/* fs/coda/dir.c 138 */;
+	umode_t cocci_id/* fs/coda/dir.c 135 */;
+	bool cocci_id/* fs/coda/dir.c 135 */;
+	struct inode *cocci_id/* fs/coda/dir.c 135 */;
+	struct dentry *cocci_id/* fs/coda/dir.c 135 */;
+	int cocci_id/* fs/coda/dir.c 135 */;
+	void cocci_id/* fs/coda/dir.c 128 */;
+}

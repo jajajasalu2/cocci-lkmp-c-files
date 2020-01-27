@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/mfd/tc3589x.c 81 */;
+	u8 *cocci_id/* drivers/mfd/tc3589x.c 81 */;
+	struct tc3589x *cocci_id/* drivers/mfd/tc3589x.c 81 */;
+	int cocci_id/* drivers/mfd/tc3589x.c 81 */;
+	void __exit cocci_id/* drivers/mfd/tc3589x.c 502 */;
+	void cocci_id/* drivers/mfd/tc3589x.c 502 */;
+	int __init cocci_id/* drivers/mfd/tc3589x.c 496 */;
+	struct i2c_driver cocci_id/* drivers/mfd/tc3589x.c 485 */;
+	const struct i2c_device_id cocci_id/* drivers/mfd/tc3589x.c 473 */[];
+	struct tc3589x cocci_id/* drivers/mfd/tc3589x.c 379 */;
+	const struct i2c_device_id *cocci_id/* drivers/mfd/tc3589x.c 356 */;
+	struct i2c_client *cocci_id/* drivers/mfd/tc3589x.c 355 */;
+	enum tc3589x_version cocci_id/* drivers/mfd/tc3589x.c 343 */;
+	const struct of_device_id *cocci_id/* drivers/mfd/tc3589x.c 334 */;
+	struct device *cocci_id/* drivers/mfd/tc3589x.c 329 */;
+	enum tc3589x_version *cocci_id/* drivers/mfd/tc3589x.c 329 */;
+	struct tc3589x_platform_data *cocci_id/* drivers/mfd/tc3589x.c 328 */;
+	const struct of_device_id cocci_id/* drivers/mfd/tc3589x.c 314 */[];
+	unsigned int cocci_id/* drivers/mfd/tc3589x.c 287 */;
+	enum tc3589x_version{TC3589X_TC35890, TC3589X_TC35892, TC3589X_TC35893, TC3589X_TC35894, TC3589X_TC35895, TC3589X_TC35896, TC3589X_UNKNOWN,} cocci_id/* drivers/mfd/tc3589x.c 24 */;
+	struct device_node *cocci_id/* drivers/mfd/tc3589x.c 235 */;
+	const struct irq_domain_ops cocci_id/* drivers/mfd/tc3589x.c 229 */;
+	irq_hw_number_t cocci_id/* drivers/mfd/tc3589x.c 210 */;
+	struct irq_domain *cocci_id/* drivers/mfd/tc3589x.c 209 */;
+	irqreturn_t cocci_id/* drivers/mfd/tc3589x.c 178 */;
+	void *cocci_id/* drivers/mfd/tc3589x.c 178 */;
+	const struct mfd_cell cocci_id/* drivers/mfd/tc3589x.c 160 */[];
+	struct resource cocci_id/* drivers/mfd/tc3589x.c 144 */[];
+	const u8 *cocci_id/* drivers/mfd/tc3589x.c 102 */;
+}

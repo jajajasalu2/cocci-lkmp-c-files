@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct drm_panfrost_create_bo *cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 82 */;
+	struct panfrost_gem_object *cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 81 */;
+	void *cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 78 */;
+	struct platform_driver cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 607 */;
+	const struct of_device_id cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 588 */[];
+	struct platform_device *cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 502 */;
+	struct drm_driver cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 482 */;
+	const struct drm_ioctl_desc cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 460 */[];
+	struct panfrost_file_priv *cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 410 */;
+	u64 cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 389 */;
+	u64 *cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 385 */;
+	unsigned long cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 384 */;
+	const struct drm_mm_node *cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 383 */;
+	void cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 383 */;
+	struct drm_panfrost_madvise *cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 343 */;
+	struct drm_gem_object *cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 324 */;
+	struct drm_panfrost_get_bo_offset *cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 323 */;
+	struct panfrost_device *cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 30 */;
+	struct drm_panfrost_mmap_bo *cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 290 */;
+	struct drm_panfrost_get_param *cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 29 */;
+	struct drm_panfrost_wait_bo *cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 266 */;
+	long cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 265 */;
+	bool cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 25 */;
+	struct drm_syncobj *cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 206 */;
+	uintptr_t cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 182 */;
+	void __user *cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 182 */;
+	u32 cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 174 */;
+	struct dma_fence *cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 167 */;
+	u32 *cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 157 */;
+	struct panfrost_job *cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 155 */;
+	struct drm_panfrost_submit *cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 154 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 153 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 152 */;
+	int cocci_id/* drivers/gpu/drm/panfrost/panfrost_drv.c 151 */;
+}

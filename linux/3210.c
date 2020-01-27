@@ -1,0 +1,47 @@
+cocci_test_suite() {
+	unsigned short cocci_id/* drivers/hwmon/ftsteutates.c 98 */;
+	struct i2c_driver cocci_id/* drivers/hwmon/ftsteutates.c 816 */;
+	struct fts_data cocci_id/* drivers/hwmon/ftsteutates.c 782 */;
+	s8 cocci_id/* drivers/hwmon/ftsteutates.c 760 */;
+	u8 cocci_id/* drivers/hwmon/ftsteutates.c 757 */;
+	const struct i2c_device_id *cocci_id/* drivers/hwmon/ftsteutates.c 755 */;
+	struct i2c_board_info *cocci_id/* drivers/hwmon/ftsteutates.c 712 */;
+	struct i2c_client *cocci_id/* drivers/hwmon/ftsteutates.c 711 */;
+	const struct attribute_group *cocci_id/* drivers/hwmon/ftsteutates.c 701 */[];
+	const struct attribute_group cocci_id/* drivers/hwmon/ftsteutates.c 697 */;
+	struct attribute *cocci_id/* drivers/hwmon/ftsteutates.c 646 */[];
+	struct fts_data {
+		struct i2c_client *client;
+		struct mutex update_lock;
+		struct mutex access_lock;
+		unsigned long last_updated;
+		struct watchdog_device wdd;
+		enum WATCHDOG_RESOLUTION resolution;
+		bool valid;
+		u8 volt[FTS_NO_VOLT_SENSORS];
+		u8 temp_input[FTS_NO_TEMP_SENSORS];
+		u8 temp_alarm;
+		u8 fan_present;
+		u8 fan_input[FTS_NO_FAN_SENSORS];
+		u8 fan_source[FTS_NO_FAN_SENSORS];
+		u8 fan_alarm;
+	} cocci_id/* drivers/hwmon/ftsteutates.c 64 */;
+	enum WATCHDOG_RESOLUTION{seconds=1, minutes=60,} cocci_id/* drivers/hwmon/ftsteutates.c 59 */;
+	const struct i2c_device_id cocci_id/* drivers/hwmon/ftsteutates.c 53 */[];
+	const unsigned short cocci_id/* drivers/hwmon/ftsteutates.c 51 */[];
+	long cocci_id/* drivers/hwmon/ftsteutates.c 482 */;
+	const char *cocci_id/* drivers/hwmon/ftsteutates.c 478 */;
+	size_t cocci_id/* drivers/hwmon/ftsteutates.c 478 */;
+	int cocci_id/* drivers/hwmon/ftsteutates.c 466 */;
+	struct fts_data *cocci_id/* drivers/hwmon/ftsteutates.c 465 */;
+	struct device_attribute *cocci_id/* drivers/hwmon/ftsteutates.c 463 */;
+	char *cocci_id/* drivers/hwmon/ftsteutates.c 463 */;
+	struct device *cocci_id/* drivers/hwmon/ftsteutates.c 462 */;
+	ssize_t cocci_id/* drivers/hwmon/ftsteutates.c 462 */;
+	const struct watchdog_ops cocci_id/* drivers/hwmon/ftsteutates.c 297 */;
+	const struct watchdog_info cocci_id/* drivers/hwmon/ftsteutates.c 292 */;
+	struct watchdog_device *cocci_id/* drivers/hwmon/ftsteutates.c 253 */;
+	unsigned int cocci_id/* drivers/hwmon/ftsteutates.c 253 */;
+	enum WATCHDOG_RESOLUTION cocci_id/* drivers/hwmon/ftsteutates.c 223 */;
+	unsigned char cocci_id/* drivers/hwmon/ftsteutates.c 101 */;
+}

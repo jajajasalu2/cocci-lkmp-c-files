@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 94 */[2];
+	struct i2c_msg cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 928 */[2];
+	u8 cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 926 */[256];
+	struct i2c_algorithm cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 914 */;
+	u32 cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 909 */;
+	struct i2c_adapter *cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 909 */;
+	struct media_device *cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 875 */;
+	const struct mxl111sf_tuner_config cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 861 */;
+	u16 cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 823 */;
+	u8 cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 743 */;
+	struct dvb_usb_adapter *cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 743 */;
+	const struct mxl111sf_demod_config cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 737 */;
+	u8 *cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 53 */;
+	struct lg2160_config cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 488 */;
+	struct lgdt3305_config cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 414 */;
+	struct mxl111sf_adap_state *cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 269 */;
+	struct mxl111sf_state *cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 268 */;
+	struct dvb_usb_device *cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 267 */;
+	struct dvb_frontend *cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 265 */;
+	int cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 24 */;
+	char *cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 189 */;
+	struct mxl111sf_reg_ctrl_info *cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 162 */;
+	struct usb_driver cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 1438 */;
+	const struct usb_device_id cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 1399 */[];
+	u8 cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 118 */[];
+	struct mxl111sf_state cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 1122 */;
+	struct dvb_usb_device_properties cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 1118 */;
+	struct usb_data_stream_properties *cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 1106 */;
+	void cocci_id/* drivers/media/usb/dvb-usb-v2/mxl111sf.c 1036 */;
+}

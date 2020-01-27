@@ -1,0 +1,61 @@
+cocci_test_suite() {
+	struct mxc_gpio_hwdata cocci_id/* drivers/gpio/gpio-mxc.c 72 */;
+	int __init cocci_id/* drivers/gpio/gpio-mxc.c 603 */;
+	void cocci_id/* drivers/gpio/gpio-mxc.c 603 */;
+	struct platform_driver cocci_id/* drivers/gpio/gpio-mxc.c 593 */;
+	struct syscore_ops cocci_id/* drivers/gpio/gpio-mxc.c 588 */;
+	struct mxc_gpio_port {
+		struct list_head node;
+		void __iomem *base;
+		struct clk *clk;
+		int irq;
+		int irq_high;
+		struct irq_domain *domain;
+		struct gpio_chip gc;
+		struct device *dev;
+		u32 both_edges;
+		struct mxc_gpio_reg_saved gpio_saved_reg;
+		bool power_off;
+	} cocci_id/* drivers/gpio/gpio-mxc.c 58 */;
+	struct mxc_gpio_reg_saved {
+		u32 icr1;
+		u32 icr2;
+		u32 imr;
+		u32 gdir;
+		u32 edge_sel;
+		u32 dr;
+	} cocci_id/* drivers/gpio/gpio-mxc.c 49 */;
+	struct device_node *cocci_id/* drivers/gpio/gpio-mxc.c 412 */;
+	struct gpio_chip *cocci_id/* drivers/gpio/gpio-mxc.c 403 */;
+	unsigned cocci_id/* drivers/gpio/gpio-mxc.c 403 */;
+	enum mxc_gpio_hwtype cocci_id/* drivers/gpio/gpio-mxc.c 377 */;
+	const struct of_device_id *cocci_id/* drivers/gpio/gpio-mxc.c 375 */;
+	struct platform_device *cocci_id/* drivers/gpio/gpio-mxc.c 373 */;
+	struct irq_chip_type *cocci_id/* drivers/gpio/gpio-mxc.c 347 */;
+	struct mxc_gpio_hwdata {
+		unsigned dr_reg;
+		unsigned gdir_reg;
+		unsigned psr_reg;
+		unsigned icr1_reg;
+		unsigned icr2_reg;
+		unsigned imr_reg;
+		unsigned isr_reg;
+		int edge_sel_reg;
+		unsigned low_level;
+		unsigned high_level;
+		unsigned rise_edge;
+		unsigned fall_edge;
+	} cocci_id/* drivers/gpio/gpio-mxc.c 34 */;
+	struct irq_chip *cocci_id/* drivers/gpio/gpio-mxc.c 296 */;
+	struct irq_desc *cocci_id/* drivers/gpio/gpio-mxc.c 292 */;
+	enum mxc_gpio_hwtype{IMX1_GPIO, IMX21_GPIO, IMX31_GPIO, IMX35_GPIO,} cocci_id/* drivers/gpio/gpio-mxc.c 26 */;
+	void __iomem *cocci_id/* drivers/gpio/gpio-mxc.c 178 */;
+	struct mxc_gpio_port *cocci_id/* drivers/gpio/gpio-mxc.c 174 */;
+	struct irq_chip_generic *cocci_id/* drivers/gpio/gpio-mxc.c 173 */;
+	u32 cocci_id/* drivers/gpio/gpio-mxc.c 171 */;
+	struct irq_data *cocci_id/* drivers/gpio/gpio-mxc.c 171 */;
+	int cocci_id/* drivers/gpio/gpio-mxc.c 171 */;
+	const struct of_device_id cocci_id/* drivers/gpio/gpio-mxc.c 153 */[];
+	const struct platform_device_id cocci_id/* drivers/gpio/gpio-mxc.c 135 */[];
+	struct mxc_gpio_hwdata *cocci_id/* drivers/gpio/gpio-mxc.c 118 */;
+}

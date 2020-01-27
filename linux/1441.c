@@ -1,0 +1,56 @@
+cocci_test_suite() {
+	struct s3c2410_ep cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 997 */;
+	va_list cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 96 */;
+	struct va_format cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 95 */;
+	long cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 93 */;
+	const char *cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 91 */;
+	int cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 91 */;
+	void cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 91 */;
+	uint32_t cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 88 */;
+	irqreturn_t cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 847 */;
+	struct s3c2410_udc_mach_info *cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 79 */;
+	struct usb_ctrlrequest cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 728 */;
+	struct dentry *cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 62 */;
+	u64 cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 61 */;
+	void __iomem *cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 59 */;
+	int cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 581 */(struct usb_ep *_ep,
+								   int value);
+	struct clk *cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 57 */;
+	const char cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 54 */[];
+	u8 cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 535 */;
+	u16 cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 534 */;
+	struct usb_ctrlrequest *cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 532 */;
+	unsigned char *cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 510 */;
+	u8 *cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 406 */;
+	unsigned cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 237 */;
+	void __exit cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1995 */;
+	int __init cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1975 */;
+	struct platform_driver cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1964 */;
+	const struct platform_device_id cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1957 */[];
+	pm_message_t cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1939 */;
+	unsigned int cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1897 */;
+	struct device *cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1750 */;
+	struct platform_device *cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1747 */;
+	struct s3c2410_udc cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1661 */;
+	struct usb_gadget_driver *cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1633 */;
+	enum s3c2410_udc_cmd_e cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1520 */;
+	const struct usb_gadget_ops cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1509 */;
+	int cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1507 */(struct usb_gadget *g);
+	int cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1505 */(struct usb_gadget *g,
+								    struct usb_gadget_driver *driver);
+	void cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1428 */(struct s3c2410_udc *dev);
+	struct usb_gadget *cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1390 */;
+	const struct usb_ep_ops cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1372 */;
+	unsigned long cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1279 */;
+	struct s3c2410_udc *cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1277 */;
+	struct s3c2410_ep *cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1276 */;
+	u32 cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 124 */;
+	struct seq_file *cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 122 */;
+	void *cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 122 */;
+	struct s3c2410_request cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1138 */;
+	struct s3c2410_request *cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1131 */;
+	gfp_t cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1129 */;
+	struct usb_ep *cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1129 */;
+	struct usb_request *cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1128 */;
+	const struct usb_endpoint_descriptor *cocci_id/* drivers/usb/gadget/udc/s3c2410_udc.c 1014 */;
+}

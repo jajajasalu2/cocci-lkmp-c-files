@@ -1,0 +1,66 @@
+cocci_test_suite() {
+	char cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 915 */[20];
+	struct resource *cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 913 */;
+	struct platform_device *cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 908 */;
+	u8 *cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 866 */;
+	struct npcm7xx_cooling_device *cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 828 */;
+	u32 cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 825 */;
+	struct device_node *cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 823 */;
+	struct device *cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 822 */;
+	int cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 822 */;
+	const struct thermal_cooling_device_ops cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 816 */;
+	unsigned long *cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 790 */;
+	struct thermal_cooling_device *cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 789 */;
+	const struct hwmon_chip_info cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 668 */;
+	const struct hwmon_ops cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 662 */;
+	const struct hwmon_channel_info *cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 632 */[];
+	enum hwmon_sensor_types cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 619 */;
+	long cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 608 */;
+	long *cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 595 */;
+	const struct npcm7xx_pwm_fan_data *cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 581 */;
+	umode_t cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 579 */;
+	const void *cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 579 */;
+	unsigned long cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 484 */;
+	irqreturn_t cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 481 */;
+	void *cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 481 */;
+	u8 cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 423 */;
+	struct npcm7xx_pwm_fan_data *cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 422 */;
+	void cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 422 */;
+	u16 cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 369 */;
+	struct timer_list *cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 325 */;
+	struct npcm7xx_pwm_fan_data {
+		void __iomem *pwm_base;
+		void __iomem *fan_base;
+		unsigned long pwm_clk_freq;
+		unsigned long fan_clk_freq;
+		struct clk *pwm_clk;
+		struct clk *fan_clk;
+		struct mutex pwm_lock[NPCM7XX_PWM_MAX_MODULES];
+		spinlock_t fan_lock[NPCM7XX_FAN_MAX_MODULE];
+		int fan_irq[NPCM7XX_FAN_MAX_MODULE];
+		bool pwm_present[NPCM7XX_PWM_MAX_CHN_NUM];
+		bool fan_present[NPCM7XX_FAN_MAX_CHN_NUM];
+		u32 input_clk_freq;
+		struct timer_list fan_timer;
+		struct npcm7xx_fan_dev fan_dev[NPCM7XX_FAN_MAX_CHN_NUM];
+		struct npcm7xx_cooling_device *cdev[NPCM7XX_PWM_MAX_CHN_NUM];
+		u8 fan_select;
+	} cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 191 */;
+	struct npcm7xx_cooling_device {
+		char name[THERMAL_NAME_LENGTH];
+		struct npcm7xx_pwm_fan_data *data;
+		struct thermal_cooling_device *tcdev;
+		int pwm_port;
+		u8 *cooling_levels;
+		u8 max_state;
+		u8 cur_state;
+	} cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 181 */;
+	struct npcm7xx_fan_dev {
+		u8 fan_st_flg;
+		u8 fan_pls_per_rev;
+		u16 fan_cnt;
+		u32 fan_cnt_tmp;
+	} cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 174 */;
+	struct platform_driver cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 1023 */;
+	const struct of_device_id cocci_id/* drivers/hwmon/npcm750-pwm-fan.c 1017 */[];
+}

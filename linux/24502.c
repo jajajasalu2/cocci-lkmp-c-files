@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct rds_ib_ipaddr *cocci_id/* net/rds/ib_rdma.c 65 */;
+	__be32 cocci_id/* net/rds/ib_rdma.c 63 */;
+	int cocci_id/* net/rds/ib_rdma.c 63 */;
+	u32 *cocci_id/* net/rds/ib_rdma.c 530 */;
+	struct rds_sock *cocci_id/* net/rds/ib_rdma.c 530 */;
+	struct scatterlist *cocci_id/* net/rds/ib_rdma.c 529 */;
+	void *cocci_id/* net/rds/ib_rdma.c 477 */;
+	struct rds_ib_mr_pool cocci_id/* net/rds/ib_rdma.c 472 */;
+	struct work_struct *cocci_id/* net/rds/ib_rdma.c 470 */;
+	struct workqueue_struct *cocci_id/* net/rds/ib_rdma.c 41 */;
+	unsigned long cocci_id/* net/rds/ib_rdma.c 339 */;
+	struct rds_ib_mr **cocci_id/* net/rds/ib_rdma.c 333 */;
+	struct llist_node *cocci_id/* net/rds/ib_rdma.c 314 */;
+	struct llist_node **cocci_id/* net/rds/ib_rdma.c 310 */;
+	struct list_head *cocci_id/* net/rds/ib_rdma.c 309 */;
+	struct rds_ib_mr cocci_id/* net/rds/ib_rdma.c 296 */;
+	struct llist_head *cocci_id/* net/rds/ib_rdma.c 285 */;
+	struct page *cocci_id/* net/rds/ib_rdma.c 244 */;
+	unsigned int cocci_id/* net/rds/ib_rdma.c 241 */;
+	struct rds_ib_device *cocci_id/* net/rds/ib_rdma.c 230 */;
+	struct rds_ib_mr *cocci_id/* net/rds/ib_rdma.c 228 */;
+	void cocci_id/* net/rds/ib_rdma.c 228 */;
+	struct rds_ib_mr_pool *cocci_id/* net/rds/ib_rdma.c 184 */;
+	struct rds6_info_rdma_connection *cocci_id/* net/rds/ib_rdma.c 182 */;
+	struct rds_info_rdma_connection *cocci_id/* net/rds/ib_rdma.c 172 */;
+	struct rds_ib_connection *cocci_id/* net/rds/ib_rdma.c 121 */;
+	struct rds_connection *cocci_id/* net/rds/ib_rdma.c 119 */;
+	struct in6_addr *cocci_id/* net/rds/ib_rdma.c 101 */;
+}

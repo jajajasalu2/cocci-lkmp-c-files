@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	int cocci_id/* fs/kernfs/file.c 997 */;
+	unsigned cocci_id/* fs/kernfs/file.c 996 */;
+	struct lock_class_key *cocci_id/* fs/kernfs/file.c 993 */;
+	const void *cocci_id/* fs/kernfs/file.c 992 */;
+	void *cocci_id/* fs/kernfs/file.c 992 */;
+	const struct kernfs_ops *cocci_id/* fs/kernfs/file.c 991 */;
+	loff_t cocci_id/* fs/kernfs/file.c 990 */;
+	umode_t cocci_id/* fs/kernfs/file.c 989 */;
+	kuid_t cocci_id/* fs/kernfs/file.c 989 */;
+	kgid_t cocci_id/* fs/kernfs/file.c 989 */;
+	const char *cocci_id/* fs/kernfs/file.c 988 */;
+	struct kernfs_node *cocci_id/* fs/kernfs/file.c 987 */;
+	const struct file_operations cocci_id/* fs/kernfs/file.c 961 */;
+	unsigned long cocci_id/* fs/kernfs/file.c 934 */;
+	struct qstr cocci_id/* fs/kernfs/file.c 887 */;
+	struct kernfs_super_info *cocci_id/* fs/kernfs/file.c 868 */;
+	struct work_struct *cocci_id/* fs/kernfs/file.c 865 */;
+	__poll_t cocci_id/* fs/kernfs/file.c 847 */;
+	poll_table *cocci_id/* fs/kernfs/file.c 847 */;
+	struct inode *cocci_id/* fs/kernfs/file.c 806 */;
+	struct kernfs_open_file *cocci_id/* fs/kernfs/file.c 790 */;
+	struct kernfs_open_node *cocci_id/* fs/kernfs/file.c 789 */;
+	void cocci_id/* fs/kernfs/file.c 787 */;
+	struct kernfs_open_file cocci_id/* fs/kernfs/file.c 647 */;
+	bool cocci_id/* fs/kernfs/file.c 622 */;
+	struct kernfs_root *cocci_id/* fs/kernfs/file.c 619 */;
+	struct seq_file *cocci_id/* fs/kernfs/file.c 56 */;
+	struct vm_area_struct *cocci_id/* fs/kernfs/file.c 469 */;
+	struct file *cocci_id/* fs/kernfs/file.c 469 */;
+	const struct vm_operations_struct cocci_id/* fs/kernfs/file.c 458 */;
+	struct mempolicy *cocci_id/* fs/kernfs/file.c 435 */;
+	vm_fault_t cocci_id/* fs/kernfs/file.c 350 */;
+	struct vm_fault *cocci_id/* fs/kernfs/file.c 350 */;
+	struct kernfs_open_node {
+		atomic_t refcnt;
+		atomic_t event;
+		wait_queue_head_t poll;
+		struct list_head files;
+	} cocci_id/* fs/kernfs/file.c 34 */;
+	const char __user *cocci_id/* fs/kernfs/file.c 272 */;
+	char *cocci_id/* fs/kernfs/file.c 189 */;
+	loff_t *cocci_id/* fs/kernfs/file.c 185 */;
+	char __user *cocci_id/* fs/kernfs/file.c 184 */;
+	size_t cocci_id/* fs/kernfs/file.c 184 */;
+	ssize_t cocci_id/* fs/kernfs/file.c 183 */;
+	const struct seq_operations cocci_id/* fs/kernfs/file.c 170 */;
+}

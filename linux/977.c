@@ -1,0 +1,67 @@
+cocci_test_suite() {
+	struct aspeed_smc_chip {
+		int cs;
+		struct aspeed_smc_controller *controller;
+		void __iomem *ctl;
+		void __iomem *ahb_base;
+		u32 ahb_window_size;
+		u32 ctl_val[smc_max];
+		enum aspeed_smc_flash_type type;
+		struct spi_nor nor;
+	} cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 92 */;
+	struct aspeed_smc_controller cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 90 */;
+	struct platform_driver cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 897 */;
+	const struct of_device_id *cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 857 */;
+	struct device *cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 855 */;
+	struct device_node *cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 854 */;
+	struct platform_device *cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 852 */;
+	enum aspeed_smc_ctl_reg_value{smc_base, smc_read, smc_write, smc_max,} cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 83 */;
+	struct mtd_info *cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 776 */;
+	unsigned int cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 770 */;
+	const struct spi_nor_hwcaps cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 762 */;
+	const struct spi_nor_controller_ops cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 750 */;
+	const struct aspeed_smc_info *cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 709 */;
+	int cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 607 */;
+	const struct aspeed_smc_info cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 47 */;
+	u32 cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 456 */;
+	struct aspeed_smc_controller *cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 456 */;
+	void cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 45 */(struct aspeed_smc_chip *chip);
+	struct resource *cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 438 */;
+	struct aspeed_smc_chip *cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 437 */;
+	void __iomem *cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 437 */;
+	const struct of_device_id cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 421 */[];
+	const u_char *cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 391 */;
+	u_char *cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 374 */;
+	loff_t cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 373 */;
+	ssize_t cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 373 */;
+	__be32 cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 350 */;
+	struct aspeed_smc_info {
+		u32 maxsize;
+		u8 nce;
+		bool hastype;
+		u8 we0;
+		u8 ctl0;
+		void (*set_4b)(struct aspeed_smc_chip *chip);
+	} cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 34 */;
+	const u8 *cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 335 */;
+	u8 cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 323 */;
+	struct aspeed_smc_chip cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 32 */;
+	enum spi_nor_ops cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 308 */;
+	struct spi_nor *cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 308 */;
+	void cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 261 */;
+	enum aspeed_smc_flash_type{smc_type_nor=0, smc_type_nand=1, smc_type_spi=2,} cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 26 */;
+	const void *cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 241 */;
+	u8 *cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 237 */;
+	uintptr_t cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 231 */;
+	void *cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 227 */;
+	size_t cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 227 */;
+	struct aspeed_smc_controller {
+		struct device *dev;
+		struct mutex mutex;
+		const struct aspeed_smc_info *info;
+		void __iomem *regs;
+		void __iomem *ahb_base;
+		u32 ahb_window_size;
+		struct aspeed_smc_chip *chips[0];
+	} cocci_id/* drivers/mtd/spi-nor/aspeed-smc.c 103 */;
+}

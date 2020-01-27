@@ -1,0 +1,70 @@
+cocci_test_suite() {
+	substring_t cocci_id/* security/integrity/ima/ima_policy.c 902 */[MAX_OPT_ARGS];
+	struct ima_template_desc *cocci_id/* security/integrity/ima/ima_policy.c 890 */;
+	bool cocci_id/* security/integrity/ima/ima_policy.c 861 */;
+	const struct ima_template_desc *cocci_id/* security/integrity/ima/ima_policy.c 858 */;
+	struct audit_buffer *cocci_id/* security/integrity/ima/ima_policy.c 847 */;
+	bool (*cocci_id/* security/integrity/ima/ima_policy.c 834 */)(kuid_t,
+								      kuid_t);
+	substring_t *cocci_id/* security/integrity/ima/ima_policy.c 809 */;
+	const match_table_t cocci_id/* security/integrity/ima/ima_policy.c 772 */;
+	enum{Opt_measure, Opt_dont_measure, Opt_appraise, Opt_dont_appraise, Opt_audit, Opt_hash, Opt_dont_hash, Opt_obj_user, Opt_obj_role, Opt_obj_type, Opt_subj_user, Opt_subj_role, Opt_subj_type, Opt_func, Opt_mask, Opt_fsmagic, Opt_fsname, Opt_fsuuid, Opt_uid_eq, Opt_euid_eq, Opt_fowner_eq, Opt_uid_gt, Opt_euid_gt, Opt_fowner_gt, Opt_uid_lt, Opt_euid_lt, Opt_fowner_lt, Opt_appraise_type, Opt_appraise_flag, Opt_permit_directio, Opt_pcr, Opt_template, Opt_err,} cocci_id/* security/integrity/ima/ima_policy.c 758 */;
+	void __init cocci_id/* security/integrity/ima/ima_policy.c 648 */;
+	struct ima_rule_entry {
+		struct list_head list;
+		int action;
+		unsigned int flags;
+		enum ima_hooks func;
+		int mask;
+		unsigned long fsmagic;
+		uuid_t fsuuid;
+		kuid_t uid;
+		kuid_t fowner;
+		bool (*uid_op)(kuid_t, kuid_t);
+		bool (*fowner_op)(kuid_t, kuid_t);
+		int pcr;
+		struct {
+			void *rule;
+			void *args_p;
+			int type;
+		} lsm[MAX_LSM_RULES];
+		char *fsname;
+		struct ima_template_desc *template;
+	} cocci_id/* security/integrity/ima/ima_policy.c 63 */;
+	char cocci_id/* security/integrity/ima/ima_policy.c 623 */[255];
+	enum policy_rule_list{IMA_DEFAULT_POLICY=1, IMA_CUSTOM_POLICY,} cocci_id/* security/integrity/ima/ima_policy.c 61 */;
+	const char *const*cocci_id/* security/integrity/ima/ima_policy.c 603 */;
+	int cocci_id/* security/integrity/ima/ima_policy.c 599 */(char *rule,
+								  struct ima_rule_entry *entry);
+	enum policy_types{ORIGINAL_TCB=1, DEFAULT_TCB,} cocci_id/* security/integrity/ima/ima_policy.c 59 */;
+	enum policy_rule_list cocci_id/* security/integrity/ima/ima_policy.c 573 */;
+	struct ima_rule_entry *cocci_id/* security/integrity/ima/ima_policy.c 572 */;
+	int cocci_id/* security/integrity/ima/ima_policy.c 572 */;
+	void cocci_id/* security/integrity/ima/ima_policy.c 572 */;
+	enum lsm_rule_types{LSM_OBJ_USER, LSM_OBJ_ROLE, LSM_OBJ_TYPE, LSM_SUBJ_USER, LSM_SUBJ_ROLE, LSM_SUBJ_TYPE,} cocci_id/* security/integrity/ima/ima_policy.c 55 */;
+	struct ima_template_desc **cocci_id/* security/integrity/ima/ima_policy.c 492 */;
+	int *cocci_id/* security/integrity/ima/ima_policy.c 491 */;
+	u32 cocci_id/* security/integrity/ima/ima_policy.c 490 */;
+	const struct cred *cocci_id/* security/integrity/ima/ima_policy.c 490 */;
+	struct inode *cocci_id/* security/integrity/ima/ima_policy.c 490 */;
+	struct integrity_iint_cache cocci_id/* security/integrity/ima/ima_policy.c 48 */;
+	enum ima_hooks cocci_id/* security/integrity/ima/ima_policy.c 451 */;
+	void *cocci_id/* security/integrity/ima/ima_policy.c 350 */;
+	struct notifier_block *cocci_id/* security/integrity/ima/ima_policy.c 349 */;
+	unsigned long cocci_id/* security/integrity/ima/ima_policy.c 349 */;
+	struct ima_rule_entry cocci_id/* security/integrity/ima/ima_policy.c 277 */;
+	char *cocci_id/* security/integrity/ima/ima_policy.c 245 */;
+	int __init cocci_id/* security/integrity/ima/ima_policy.c 245 */;
+	struct list_head *cocci_id/* security/integrity/ima/ima_policy.c 207 */;
+	struct ima_rule_entry cocci_id/* security/integrity/ima/ima_policy.c 171 */[];
+	enum kernel_read_file_id cocci_id/* security/integrity/ima/ima_policy.c 1526 */;
+	char cocci_id/* security/integrity/ima/ima_policy.c 1376 */[64];
+	loff_t *cocci_id/* security/integrity/ima/ima_policy.c 1342 */;
+	struct seq_file *cocci_id/* security/integrity/ima/ima_policy.c 1342 */;
+	loff_t cocci_id/* security/integrity/ima/ima_policy.c 1328 */;
+	enum{mask_exec=0, mask_write, mask_read, mask_append,} cocci_id/* security/integrity/ima/ima_policy.c 1315 */;
+	const char *constcocci_id/* security/integrity/ima/ima_policy.c 1310 */[];
+	const char cocci_id/* security/integrity/ima/ima_policy.c 1251 */[];
+	ssize_t cocci_id/* security/integrity/ima/ima_policy.c 1249 */;
+	uid_t cocci_id/* security/integrity/ima/ima_policy.c 1090 */;
+}

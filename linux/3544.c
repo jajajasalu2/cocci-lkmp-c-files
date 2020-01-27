@@ -1,0 +1,56 @@
+cocci_test_suite() {
+	struct alcor_dev_cfg *cocci_id/* drivers/mmc/host/alcor.c 991 */;
+	struct alcor_sdmmc_host cocci_id/* drivers/mmc/host/alcor.c 964 */;
+	struct delayed_work *cocci_id/* drivers/mmc/host/alcor.c 963 */;
+	struct work_struct *cocci_id/* drivers/mmc/host/alcor.c 961 */;
+	const struct mmc_host_ops cocci_id/* drivers/mmc/host/alcor.c 950 */;
+	struct mmc_request *cocci_id/* drivers/mmc/host/alcor.c 826 */;
+	unsigned int cocci_id/* drivers/mmc/host/alcor.c 782 */;
+	struct scatterlist *cocci_id/* drivers/mmc/host/alcor.c 781 */;
+	u8 cocci_id/* drivers/mmc/host/alcor.c 724 */;
+	struct alcor_pci_priv *cocci_id/* drivers/mmc/host/alcor.c 723 */;
+	struct alcor_sdmmc_host *cocci_id/* drivers/mmc/host/alcor.c 722 */;
+	struct mmc_host *cocci_id/* drivers/mmc/host/alcor.c 720 */;
+	int cocci_id/* drivers/mmc/host/alcor.c 720 */;
+	struct mmc_ios *cocci_id/* drivers/mmc/host/alcor.c 705 */;
+	const struct alcor_pll_conf *cocci_id/* drivers/mmc/host/alcor.c 666 */;
+	u16 cocci_id/* drivers/mmc/host/alcor.c 656 */;
+	const struct alcor_pll_conf cocci_id/* drivers/mmc/host/alcor.c 64 */[];
+	irqreturn_t cocci_id/* drivers/mmc/host/alcor.c 618 */;
+	void *cocci_id/* drivers/mmc/host/alcor.c 618 */;
+	u32 cocci_id/* drivers/mmc/host/alcor.c 547 */;
+	void cocci_id/* drivers/mmc/host/alcor.c 547 */;
+	struct mmc_command *cocci_id/* drivers/mmc/host/alcor.c 423 */;
+	struct alcor_sdmmc_host {
+		struct device *dev;
+		struct alcor_pci_priv *alcor_pci;
+		struct mmc_request *mrq;
+		struct mmc_command *cmd;
+		struct mmc_data *data;
+		unsigned int dma_on:1;
+		struct mutex cmd_mutex;
+		struct delayed_work timeout_work;
+		struct sg_mapping_iter sg_miter;
+		struct scatterlist *sg;
+		unsigned int blocks;
+		int sg_count;
+		u32 irq_status_sd;
+		unsigned char cur_power_mode;
+	} cocci_id/* drivers/mmc/host/alcor.c 42 */;
+	struct alcor_pll_conf {
+		unsigned int clk_src_freq;
+		unsigned int clk_src_reg;
+		unsigned int min_div;
+		unsigned int max_div;
+	} cocci_id/* drivers/mmc/host/alcor.c 35 */;
+	struct mmc_data *cocci_id/* drivers/mmc/host/alcor.c 341 */;
+	bool cocci_id/* drivers/mmc/host/alcor.c 315 */;
+	enum alcor_cookie{COOKIE_UNMAPPED, COOKIE_PRE_MAPPED, COOKIE_MAPPED,} cocci_id/* drivers/mmc/host/alcor.c 29 */;
+	unsigned long cocci_id/* drivers/mmc/host/alcor.c 266 */;
+	u8 *cocci_id/* drivers/mmc/host/alcor.c 189 */;
+	size_t cocci_id/* drivers/mmc/host/alcor.c 188 */;
+	struct platform_driver cocci_id/* drivers/mmc/host/alcor.c 1171 */;
+	const struct platform_device_id cocci_id/* drivers/mmc/host/alcor.c 1162 */[];
+	struct device *cocci_id/* drivers/mmc/host/alcor.c 1149 */;
+	struct platform_device *cocci_id/* drivers/mmc/host/alcor.c 1079 */;
+}

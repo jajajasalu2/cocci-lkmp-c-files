@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct sst_device cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 693 */;
+	struct compress_sst_ops cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 676 */;
+	struct sst_ops cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 663 */;
+	struct snd_sst_bytes_v2 *cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 644 */;
+	struct snd_sst_lib_download **cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 63 */;
+	u32 cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 490 */;
+	size_t cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 488 */;
+	struct snd_sst_tstamp *cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 486 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 485 */;
+	struct pcm_stream_info *cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 484 */;
+	struct stream_info *cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 45 */;
+	void cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 439 */;
+	struct intel_sst_drv *cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 43 */;
+	unsigned int cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 43 */;
+	int cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 43 */;
+	struct snd_compr_codec_caps *cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 427 */;
+	const struct snd_compr_codec_caps cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 408 */;
+	struct snd_compr_caps *cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 379 */;
+	u64 cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 368 */;
+	struct snd_compr_tstamp *cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 348 */;
+	struct snd_compr_metadata *cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 276 */;
+	void __iomem *cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 250 */;
+	struct snd_sst_tstamp cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 248 */;
+	unsigned long cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 245 */;
+	struct device *cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 244 */;
+	struct sst_compress_cb *cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 193 */;
+	struct snd_sst_params *cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 193 */;
+	bool cocci_id/* sound/soc/intel/atom/sst/sst_drv_interface.c 135 */;
+}

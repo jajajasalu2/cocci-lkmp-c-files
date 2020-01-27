@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	union nps_pkt_slc_cnts cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 586 */;
+	struct nitrox_q_vector *cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 584 */;
+	u64 cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 510 */;
+	struct nitrox_cmdq cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 504 */;
+	struct work_struct *cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 500 */;
+	unsigned long cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 495 */;
+	int cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 495 */;
+	u64 *cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 481 */;
+	struct gphdr cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 449 */;
+	struct ctx_hdr cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 415 */;
+	uintptr_t cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 414 */;
+	u8 *cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 412 */;
+	struct ctx_hdr *cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 411 */;
+	void *cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 379 */;
+	completion_t cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 378 */;
+	bool cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 264 */;
+	struct nitrox_softreq cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 261 */;
+	struct nitrox_cmdq *cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 228 */;
+	struct nitrox_softreq *cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 227 */;
+	void cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 227 */;
+	struct device *cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 159 */;
+	struct se_crypto_request *cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 157 */;
+	size_t cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 112 */;
+	dma_addr_t cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 111 */;
+	struct scatterlist *cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 110 */;
+	struct nitrox_sgcomp *cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 109 */;
+	struct nitrox_device *cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 108 */;
+	struct nitrox_sgtable *cocci_id/* drivers/crypto/cavium/nitrox/nitrox_reqmgr.c 106 */;
+}

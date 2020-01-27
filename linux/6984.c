@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	u64 *cocci_id/* drivers/mailbox/pcc.c 99 */;
+	void __iomem *cocci_id/* drivers/mailbox/pcc.c 99 */;
+	unsigned int cocci_id/* drivers/mailbox/pcc.c 99 */;
+	struct mbox_chan *cocci_id/* drivers/mailbox/pcc.c 83 */;
+	struct mbox_controller cocci_id/* drivers/mailbox/pcc.c 74 */;
+	int *cocci_id/* drivers/mailbox/pcc.c 72 */;
+	void __iomem **cocci_id/* drivers/mailbox/pcc.c 70 */;
+	struct platform_device *cocci_id/* drivers/mailbox/pcc.c 582 */;
+	struct platform_driver cocci_id/* drivers/mailbox/pcc.c 571 */;
+	struct acpi_pcct_hw_reduced *cocci_id/* drivers/mailbox/pcc.c 503 */;
+	struct acpi_pcct_subspace *cocci_id/* drivers/mailbox/pcc.c 498 */;
+	struct acpi_generic_address *cocci_id/* drivers/mailbox/pcc.c 497 */;
+	unsigned long cocci_id/* drivers/mailbox/pcc.c 490 */;
+	void *cocci_id/* drivers/mailbox/pcc.c 470 */;
+	struct mbox_chan cocci_id/* drivers/mailbox/pcc.c 463 */;
+	struct acpi_table_pcct cocci_id/* drivers/mailbox/pcc.c 453 */;
+	acpi_status cocci_id/* drivers/mailbox/pcc.c 436 */;
+	int cocci_id/* drivers/mailbox/pcc.c 435 */;
+	struct acpi_subtable_proc cocci_id/* drivers/mailbox/pcc.c 434 */[ACPI_PCCT_TYPE_RESERVED];
+	struct acpi_table_pcct *cocci_id/* drivers/mailbox/pcc.c 433 */;
+	struct acpi_subtable_header *cocci_id/* drivers/mailbox/pcc.c 432 */;
+	struct acpi_table_header *cocci_id/* drivers/mailbox/pcc.c 431 */;
+	int __init cocci_id/* drivers/mailbox/pcc.c 429 */;
+	void cocci_id/* drivers/mailbox/pcc.c 429 */;
+	const unsigned long cocci_id/* drivers/mailbox/pcc.c 377 */;
+	union acpi_subtable_headers *cocci_id/* drivers/mailbox/pcc.c 376 */;
+	const struct mbox_chan_ops cocci_id/* drivers/mailbox/pcc.c 362 */;
+	struct device *cocci_id/* drivers/mailbox/pcc.c 233 */;
+	struct mbox_client *cocci_id/* drivers/mailbox/pcc.c 230 */;
+	struct acpi_pcct_hw_reduced_type2 *cocci_id/* drivers/mailbox/pcc.c 193 */;
+	u64 cocci_id/* drivers/mailbox/pcc.c 183 */;
+	irqreturn_t cocci_id/* drivers/mailbox/pcc.c 178 */;
+	u32 cocci_id/* drivers/mailbox/pcc.c 159 */;
+}

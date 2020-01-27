@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct nand_chip cocci_id/* drivers/mtd/nand/raw/r852.c 844 */;
+	const struct pci_device_id *cocci_id/* drivers/mtd/nand/raw/r852.c 818 */;
+	struct pci_dev *cocci_id/* drivers/mtd/nand/raw/r852.c 818 */;
+	irqreturn_t cocci_id/* drivers/mtd/nand/raw/r852.c 720 */;
+	struct r852_device cocci_id/* drivers/mtd/nand/raw/r852.c 682 */;
+	struct r852_device *cocci_id/* drivers/mtd/nand/raw/r852.c 681 */;
+	struct work_struct *cocci_id/* drivers/mtd/nand/raw/r852.c 679 */;
+	void cocci_id/* drivers/mtd/nand/raw/r852.c 679 */;
+	struct mtd_info *cocci_id/* drivers/mtd/nand/raw/r852.c 63 */;
+	struct mtd_info cocci_id/* drivers/mtd/nand/raw/r852.c 589 */;
+	struct device_attribute *cocci_id/* drivers/mtd/nand/raw/r852.c 587 */;
+	char *cocci_id/* drivers/mtd/nand/raw/r852.c 587 */;
+	struct device *cocci_id/* drivers/mtd/nand/raw/r852.c 586 */;
+	ssize_t cocci_id/* drivers/mtd/nand/raw/r852.c 586 */;
+	uint8_t cocci_id/* drivers/mtd/nand/raw/r852.c 560 */;
+	unsigned long cocci_id/* drivers/mtd/nand/raw/r852.c 559 */;
+	uint32_t cocci_id/* drivers/mtd/nand/raw/r852.c 435 */;
+	struct sm_oob *cocci_id/* drivers/mtd/nand/raw/r852.c 434 */;
+	const uint8_t *cocci_id/* drivers/mtd/nand/raw/r852.c 430 */;
+	u8 cocci_id/* drivers/mtd/nand/raw/r852.c 365 */;
+	struct nand_chip *cocci_id/* drivers/mtd/nand/raw/r852.c 315 */;
+	unsigned int cocci_id/* drivers/mtd/nand/raw/r852.c 315 */;
+	int cocci_id/* drivers/mtd/nand/raw/r852.c 29 */;
+	bool cocci_id/* drivers/mtd/nand/raw/r852.c 25 */;
+	void *cocci_id/* drivers/mtd/nand/raw/r852.c 224 */;
+	uint8_t *cocci_id/* drivers/mtd/nand/raw/r852.c 172 */;
+	long cocci_id/* drivers/mtd/nand/raw/r852.c 159 */;
+	struct pci_driver cocci_id/* drivers/mtd/nand/raw/r852.c 1063 */;
+	const struct pci_device_id cocci_id/* drivers/mtd/nand/raw/r852.c 1053 */[];
+}

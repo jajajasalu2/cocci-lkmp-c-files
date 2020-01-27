@@ -1,0 +1,56 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/tty/serial/rp2.c 872 */;
+	int __init cocci_id/* drivers/tty/serial/rp2.c 855 */;
+	struct pci_driver cocci_id/* drivers/tty/serial/rp2.c 848 */;
+	const struct pci_device_id cocci_id/* drivers/tty/serial/rp2.c 810 */[];
+	void __iomem *const*cocci_id/* drivers/tty/serial/rp2.c 742 */;
+	struct pci_dev *cocci_id/* drivers/tty/serial/rp2.c 737 */;
+	unsigned cocci_id/* drivers/tty/serial/rp2.c 684 */;
+	resource_size_t cocci_id/* drivers/tty/serial/rp2.c 670 */;
+	const struct firmware *cocci_id/* drivers/tty/serial/rp2.c 667 */;
+	void *cocci_id/* drivers/tty/serial/rp2.c 667 */;
+	const struct uart_ops cocci_id/* drivers/tty/serial/rp2.c 579 */;
+	struct serial_struct *cocci_id/* drivers/tty/serial/rp2.c 571 */;
+	const char *cocci_id/* drivers/tty/serial/rp2.c 548 */;
+	irqreturn_t cocci_id/* drivers/tty/serial/rp2.c 499 */;
+	void __iomem *cocci_id/* drivers/tty/serial/rp2.c 487 */;
+	struct rp2_card *cocci_id/* drivers/tty/serial/rp2.c 485 */;
+	u32 cocci_id/* drivers/tty/serial/rp2.c 464 */;
+	struct circ_buf *cocci_id/* drivers/tty/serial/rp2.c 435 */;
+	char cocci_id/* drivers/tty/serial/rp2.c 406 */;
+	struct tty_port *cocci_id/* drivers/tty/serial/rp2.c 402 */;
+	u16 cocci_id/* drivers/tty/serial/rp2.c 401 */;
+	struct ktermios *cocci_id/* drivers/tty/serial/rp2.c 375 */;
+	unsigned int cocci_id/* drivers/tty/serial/rp2.c 341 */;
+	unsigned long cocci_id/* drivers/tty/serial/rp2.c 339 */;
+	struct rp2_uart_port *cocci_id/* drivers/tty/serial/rp2.c 338 */;
+	void cocci_id/* drivers/tty/serial/rp2.c 338 */;
+	struct rp2_uart_port cocci_id/* drivers/tty/serial/rp2.c 231 */;
+	struct uart_port *cocci_id/* drivers/tty/serial/rp2.c 229 */;
+	int cocci_id/* drivers/tty/serial/rp2.c 214 */;
+	int *cocci_id/* drivers/tty/serial/rp2.c 205 */;
+	const struct pci_device_id *cocci_id/* drivers/tty/serial/rp2.c 204 */;
+	struct rp2_card {
+		struct pci_dev *pdev;
+		struct rp2_uart_port *ports;
+		int n_ports;
+		int initialized_ports;
+		int minor_start;
+		int smpte;
+		void __iomem *bar0;
+		void __iomem *bar1;
+		spinlock_t card_lock;
+		struct completion fw_loaded;
+	} cocci_id/* drivers/tty/serial/rp2.c 188 */;
+	struct rp2_uart_port {
+		struct uart_port port;
+		int idx;
+		int ignore_rx;
+		struct rp2_card *card;
+		void __iomem *asic_base;
+		void __iomem *base;
+		void __iomem *ucode;
+	} cocci_id/* drivers/tty/serial/rp2.c 178 */;
+	struct rp2_card cocci_id/* drivers/tty/serial/rp2.c 176 */;
+	struct uart_driver cocci_id/* drivers/tty/serial/rp2.c 169 */;
+}

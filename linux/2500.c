@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	uint32_t cocci_id/* drivers/md/dm-stripe.c 89 */;
+	sector_t cocci_id/* drivers/md/dm-stripe.c 88 */;
+	char cocci_id/* drivers/md/dm-stripe.c 65 */;
+	unsigned long long cocci_id/* drivers/md/dm-stripe.c 64 */;
+	char **cocci_id/* drivers/md/dm-stripe.c 62 */;
+	unsigned int cocci_id/* drivers/md/dm-stripe.c 62 */;
+	struct stripe_c *cocci_id/* drivers/md/dm-stripe.c 61 */;
+	struct dm_target *cocci_id/* drivers/md/dm-stripe.c 61 */;
+	struct stripe_c cocci_id/* drivers/md/dm-stripe.c 53 */;
+	struct work_struct *cocci_id/* drivers/md/dm-stripe.c 51 */;
+	void cocci_id/* drivers/md/dm-stripe.c 502 */;
+	int cocci_id/* drivers/md/dm-stripe.c 493 */;
+	int __init cocci_id/* drivers/md/dm-stripe.c 491 */;
+	struct target_type cocci_id/* drivers/md/dm-stripe.c 474 */;
+	struct queue_limits *cocci_id/* drivers/md/dm-stripe.c 465 */;
+	iterate_devices_callout_fn cocci_id/* drivers/md/dm-stripe.c 449 */;
+	char cocci_id/* drivers/md/dm-stripe.c 416 */[16];
+	unsigned cocci_id/* drivers/md/dm-stripe.c 415 */;
+	blk_status_t *cocci_id/* drivers/md/dm-stripe.c 413 */;
+	struct bio *cocci_id/* drivers/md/dm-stripe.c 412 */;
+	char *cocci_id/* drivers/md/dm-stripe.c 383 */;
+	status_type_t cocci_id/* drivers/md/dm-stripe.c 382 */;
+	struct block_device *cocci_id/* drivers/md/dm-stripe.c 331 */;
+	struct dax_device *cocci_id/* drivers/md/dm-stripe.c 330 */;
+	struct iov_iter *cocci_id/* drivers/md/dm-stripe.c 326 */;
+	void *cocci_id/* drivers/md/dm-stripe.c 326 */;
+	pgoff_t cocci_id/* drivers/md/dm-stripe.c 325 */;
+	size_t cocci_id/* drivers/md/dm-stripe.c 325 */;
+	pfn_t *cocci_id/* drivers/md/dm-stripe.c 305 */;
+	void **cocci_id/* drivers/md/dm-stripe.c 305 */;
+	long cocci_id/* drivers/md/dm-stripe.c 304 */;
+	struct stripe_c {
+		uint32_t stripes;
+		int stripes_shift;
+		sector_t stripe_width;
+		uint32_t chunk_size;
+		int chunk_size_shift;
+		struct dm_target *ti;
+		struct work_struct trigger_event;
+		struct stripe stripe[0];
+	} cocci_id/* drivers/md/dm-stripe.c 28 */;
+	sector_t *cocci_id/* drivers/md/dm-stripe.c 232 */;
+	struct stripe {
+		struct dm_dev *dev;
+		sector_t physical_start;
+		atomic_t error_count;
+	} cocci_id/* drivers/md/dm-stripe.c 21 */;
+	uint32_t *cocci_id/* drivers/md/dm-stripe.c 204 */;
+}

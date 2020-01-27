@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct ovl_fb cocci_id/* fs/overlayfs/namei.c 89 */;
+	struct ovl_fb *cocci_id/* fs/overlayfs/namei.c 87 */;
+	struct ovl_lookup_data cocci_id/* fs/overlayfs/namei.c 827 */;
+	struct ovl_path *cocci_id/* fs/overlayfs/namei.c 815 */;
+	const struct cred *cocci_id/* fs/overlayfs/namei.c 811 */;
+	struct ovl_entry *cocci_id/* fs/overlayfs/namei.c 810 */;
+	unsigned int cocci_id/* fs/overlayfs/namei.c 808 */;
+	struct inode *cocci_id/* fs/overlayfs/namei.c 807 */;
+	struct vfsmount *cocci_id/* fs/overlayfs/namei.c 77 */;
+	struct path *cocci_id/* fs/overlayfs/namei.c 768 */;
+	struct qstr cocci_id/* fs/overlayfs/namei.c 653 */;
+	struct qstr *cocci_id/* fs/overlayfs/namei.c 634 */;
+	struct dentry *cocci_id/* fs/overlayfs/namei.c 63 */;
+	void *cocci_id/* fs/overlayfs/namei.c 63 */;
+	int cocci_id/* fs/overlayfs/namei.c 63 */;
+	const struct ovl_fh *cocci_id/* fs/overlayfs/namei.c 400 */;
+	struct ovl_fh *cocci_id/* fs/overlayfs/namei.c 373 */;
+	struct ovl_path **cocci_id/* fs/overlayfs/namei.c 371 */;
+	unsigned int *cocci_id/* fs/overlayfs/namei.c 371 */;
+	struct ovl_fs *cocci_id/* fs/overlayfs/namei.c 370 */;
+	struct ovl_path cocci_id/* fs/overlayfs/namei.c 350 */;
+	char *cocci_id/* fs/overlayfs/namei.c 32 */;
+	bool cocci_id/* fs/overlayfs/namei.c 319 */;
+	const char *cocci_id/* fs/overlayfs/namei.c 29 */;
+	size_t cocci_id/* fs/overlayfs/namei.c 29 */;
+	struct ovl_lookup_data *cocci_id/* fs/overlayfs/namei.c 28 */;
+	struct dentry **cocci_id/* fs/overlayfs/namei.c 279 */;
+	struct ovl_lookup_data {
+		struct super_block *sb;
+		struct qstr name;
+		bool is_dir;
+		bool opaque;
+		bool stop;
+		bool last;
+		char *redirect;
+		bool metacopy;
+	} cocci_id/* fs/overlayfs/namei.c 17 */;
+	struct fid *cocci_id/* fs/overlayfs/namei.c 165 */;
+	const struct qstr *cocci_id/* fs/overlayfs/namei.c 1113 */;
+	struct ovl_inode_params cocci_id/* fs/overlayfs/namei.c 1063 */;
+}

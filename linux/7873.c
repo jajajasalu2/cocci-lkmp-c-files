@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	u16 cocci_id/* drivers/net/dsa/microchip/ksz9477.c 99 */;
+	struct phy_device *cocci_id/* drivers/net/dsa/microchip/ksz9477.c 977 */;
+	struct dsa_mall_mirror_tc_entry *cocci_id/* drivers/net/dsa/microchip/ksz9477.c 937 */;
+	const struct switchdev_obj_port_mdb *cocci_id/* drivers/net/dsa/microchip/ksz9477.c 792 */;
+	u32 cocci_id/* drivers/net/dsa/microchip/ksz9477.c 79 */;
+	bool cocci_id/* drivers/net/dsa/microchip/ksz9477.c 79 */;
+	struct ksz_device *cocci_id/* drivers/net/dsa/microchip/ksz9477.c 79 */;
+	void cocci_id/* drivers/net/dsa/microchip/ksz9477.c 79 */;
+	struct alu_struct cocci_id/* drivers/net/dsa/microchip/ksz9477.c 746 */;
+	dsa_fdb_dump_cb_t *cocci_id/* drivers/net/dsa/microchip/ksz9477.c 740 */;
+	void *cocci_id/* drivers/net/dsa/microchip/ksz9477.c 740 */;
+	u32 *cocci_id/* drivers/net/dsa/microchip/ksz9477.c 716 */;
+	struct alu_struct *cocci_id/* drivers/net/dsa/microchip/ksz9477.c 716 */;
+	u32 cocci_id/* drivers/net/dsa/microchip/ksz9477.c 596 */[4];
+	const unsigned char *cocci_id/* drivers/net/dsa/microchip/ksz9477.c 593 */;
+	u32 cocci_id/* drivers/net/dsa/microchip/ksz9477.c 525 */[3];
+	const struct switchdev_obj_port_vlan *cocci_id/* drivers/net/dsa/microchip/ksz9477.c 522 */;
+	u8 cocci_id/* drivers/net/dsa/microchip/ksz9477.c 390 */;
+	int cocci_id/* drivers/net/dsa/microchip/ksz9477.c 389 */;
+	uint8_t *cocci_id/* drivers/net/dsa/microchip/ksz9477.c 376 */;
+	enum dsa_tag_protocol cocci_id/* drivers/net/dsa/microchip/ksz9477.c 297 */;
+	u64 cocci_id/* drivers/net/dsa/microchip/ksz9477.c 294 */;
+	struct ksz_port_mib *cocci_id/* drivers/net/dsa/microchip/ksz9477.c 283 */;
+	const struct {
+		int index;
+		char string[ETH_GSTRING_LEN];
+	} cocci_id/* drivers/net/dsa/microchip/ksz9477.c 25 */[TOTAL_SWITCH_COUNTER_NUM];
+	unsigned int cocci_id/* drivers/net/dsa/microchip/ksz9477.c 236 */;
+	u64 *cocci_id/* drivers/net/dsa/microchip/ksz9477.c 233 */;
+	const struct ksz_dev_ops cocci_id/* drivers/net/dsa/microchip/ksz9477.c 1598 */;
+	struct ksz_port cocci_id/* drivers/net/dsa/microchip/ksz9477.c 1575 */;
+	const struct ksz_chip_data *cocci_id/* drivers/net/dsa/microchip/ksz9477.c 1550 */;
+	const struct ksz_chip_data cocci_id/* drivers/net/dsa/microchip/ksz9477.c 1502 */[];
+	struct ksz_chip_data {
+		u32 chip_id;
+		const char *dev_name;
+		int num_vlans;
+		int num_alus;
+		int num_statics;
+		int cpu_ports;
+		int port_cnt;
+		bool phy_errata_9477;
+	} cocci_id/* drivers/net/dsa/microchip/ksz9477.c 1491 */;
+	const struct dsa_switch_ops cocci_id/* drivers/net/dsa/microchip/ksz9477.c 1396 */;
+	struct vlan_table cocci_id/* drivers/net/dsa/microchip/ksz9477.c 1357 */;
+	phy_interface_t cocci_id/* drivers/net/dsa/microchip/ksz9477.c 1300 */;
+	struct ksz_port *cocci_id/* drivers/net/dsa/microchip/ksz9477.c 1293 */;
+	struct dsa_switch *cocci_id/* drivers/net/dsa/microchip/ksz9477.c 1290 */;
+	u8 *cocci_id/* drivers/net/dsa/microchip/ksz9477.c 1004 */;
+}

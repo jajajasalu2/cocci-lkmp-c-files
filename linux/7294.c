@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	int __init cocci_id/* drivers/video/backlight/backlight.c 681 */;
+	void __exit cocci_id/* drivers/video/backlight/backlight.c 676 */;
+	void cocci_id/* drivers/video/backlight/backlight.c 676 */;
+	int *cocci_id/* drivers/video/backlight/backlight.c 64 */;
+	struct device_node *cocci_id/* drivers/video/backlight/backlight.c 621 */;
+	const void *cocci_id/* drivers/video/backlight/backlight.c 575 */;
+	struct fb_event *cocci_id/* drivers/video/backlight/backlight.c 51 */;
+	struct notifier_block *cocci_id/* drivers/video/backlight/backlight.c 493 */;
+	struct backlight_device **cocci_id/* drivers/video/backlight/backlight.c 479 */;
+	bool cocci_id/* drivers/video/backlight/backlight.c 419 */;
+	enum backlight_type cocci_id/* drivers/video/backlight/backlight.c 417 */;
+	struct backlight_properties cocci_id/* drivers/video/backlight/backlight.c 376 */;
+	struct backlight_device cocci_id/* drivers/video/backlight/backlight.c 360 */;
+	const struct backlight_properties *cocci_id/* drivers/video/backlight/backlight.c 353 */;
+	const struct backlight_ops *cocci_id/* drivers/video/backlight/backlight.c 352 */;
+	void *cocci_id/* drivers/video/backlight/backlight.c 352 */;
+	const char *cocci_id/* drivers/video/backlight/backlight.c 351 */;
+	const char *const cocci_id/* drivers/video/backlight/backlight.c 35 */[];
+	enum backlight_update_reason cocci_id/* drivers/video/backlight/backlight.c 328 */;
+	struct attribute *cocci_id/* drivers/video/backlight/backlight.c 308 */[];
+	struct blocking_notifier_head cocci_id/* drivers/video/backlight/backlight.c 27 */;
+	struct class *cocci_id/* drivers/video/backlight/backlight.c 267 */;
+	struct mutex cocci_id/* drivers/video/backlight/backlight.c 26 */;
+	struct list_head cocci_id/* drivers/video/backlight/backlight.c 25 */;
+	struct backlight_device *cocci_id/* drivers/video/backlight/backlight.c 242 */;
+	int cocci_id/* drivers/video/backlight/backlight.c 241 */;
+	struct device_attribute *cocci_id/* drivers/video/backlight/backlight.c 239 */;
+	char *cocci_id/* drivers/video/backlight/backlight.c 239 */;
+	struct device *cocci_id/* drivers/video/backlight/backlight.c 238 */;
+	ssize_t cocci_id/* drivers/video/backlight/backlight.c 238 */;
+	unsigned long cocci_id/* drivers/video/backlight/backlight.c 181 */;
+	size_t cocci_id/* drivers/video/backlight/backlight.c 140 */;
+	char *cocci_id/* drivers/video/backlight/backlight.c 113 */[2];
+}

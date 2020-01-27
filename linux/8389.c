@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	bool cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 80 */;
+	const struct bpf_prog_offload_ops cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 596 */;
+	u8 cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 569 */;
+	dma_addr_t cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 484 */;
+	struct netlink_ext_ack *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 480 */;
+	struct cmsg_bpf_event cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 447 */;
+	u64 cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 445 */;
+	u32 cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 444 */;
+	struct nfp_bpf_neutral_map *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 443 */;
+	struct cmsg_bpf_event *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 442 */;
+	void *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 442 */;
+	unsigned int cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 440 */;
+	const void *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 439 */;
+	struct nfp_app_bpf *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 439 */;
+	int cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 439 */;
+	unsigned long cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 431 */;
+	struct nfp_app *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 419 */;
+	struct netdev_bpf *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 419 */;
+	struct nfp_bpf_map cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 377 */;
+	long long int cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 330 */;
+	struct nfp_bpf_map *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 328 */;
+	struct bpf_offloaded_map *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 326 */;
+	struct bpf_map *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 32 */;
+	const struct bpf_map_dev_ops cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 318 */;
+	u32 *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 255 */;
+	struct nfp_prog *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 243 */;
+	struct bpf_prog *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 241 */;
+	void cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 241 */;
+	struct nfp_net *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 215 */;
+	struct nfp_insn_meta *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 174 */;
+	const struct bpf_insn *cocci_id/* drivers/net/ethernet/netronome/nfp/bpf/offload.c 145 */;
+}

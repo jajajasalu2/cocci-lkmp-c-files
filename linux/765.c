@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	struct advk_pcie cocci_id/* drivers/pci/controller/pci-aardvark.c 963 */;
+	struct pci_host_bridge *cocci_id/* drivers/pci/controller/pci-aardvark.c 960 */;
+	struct resource *cocci_id/* drivers/pci/controller/pci-aardvark.c 959 */;
+	struct platform_device *cocci_id/* drivers/pci/controller/pci-aardvark.c 955 */;
+	irqreturn_t cocci_id/* drivers/pci/controller/pci-aardvark.c 938 */;
+	u16 cocci_id/* drivers/pci/controller/pci-aardvark.c 882 */;
+	struct irq_chip *cocci_id/* drivers/pci/controller/pci-aardvark.c 838 */;
+	struct device_node *cocci_id/* drivers/pci/controller/pci-aardvark.c 836 */;
+	struct msi_domain_info *cocci_id/* drivers/pci/controller/pci-aardvark.c 784 */;
+	irq_hw_number_t cocci_id/* drivers/pci/controller/pci-aardvark.c 761 */;
+	const struct irq_domain_ops cocci_id/* drivers/pci/controller/pci-aardvark.c 733 */;
+	void *cocci_id/* drivers/pci/controller/pci-aardvark.c 697 */;
+	unsigned int cocci_id/* drivers/pci/controller/pci-aardvark.c 696 */;
+	struct irq_domain *cocci_id/* drivers/pci/controller/pci-aardvark.c 695 */;
+	int cocci_id/* drivers/pci/controller/pci-aardvark.c 695 */;
+	bool cocci_id/* drivers/pci/controller/pci-aardvark.c 690 */;
+	const struct cpumask *cocci_id/* drivers/pci/controller/pci-aardvark.c 690 */;
+	phys_addr_t cocci_id/* drivers/pci/controller/pci-aardvark.c 682 */;
+	struct advk_pcie *cocci_id/* drivers/pci/controller/pci-aardvark.c 681 */;
+	struct msi_msg *cocci_id/* drivers/pci/controller/pci-aardvark.c 679 */;
+	struct irq_data *cocci_id/* drivers/pci/controller/pci-aardvark.c 678 */;
+	void cocci_id/* drivers/pci/controller/pci-aardvark.c 678 */;
+	struct pci_ops cocci_id/* drivers/pci/controller/pci-aardvark.c 673 */;
+	struct pci_bus *cocci_id/* drivers/pci/controller/pci-aardvark.c 557 */;
+	struct pci_bridge_emul_ops cocci_id/* drivers/pci/controller/pci-aardvark.c 509 */;
+	u32 cocci_id/* drivers/pci/controller/pci-aardvark.c 438 */;
+	u32 *cocci_id/* drivers/pci/controller/pci-aardvark.c 427 */;
+	struct pci_bridge_emul *cocci_id/* drivers/pci/controller/pci-aardvark.c 426 */;
+	pci_bridge_emul_read_status_t cocci_id/* drivers/pci/controller/pci-aardvark.c 425 */;
+	char *cocci_id/* drivers/pci/controller/pci-aardvark.c 372 */;
+	struct device *cocci_id/* drivers/pci/controller/pci-aardvark.c 369 */;
+	size_t cocci_id/* drivers/pci/controller/pci-aardvark.c 247 */;
+	u64 cocci_id/* drivers/pci/controller/pci-aardvark.c 212 */;
+	struct advk_pcie {
+		struct platform_device *pdev;
+		void __iomem *base;
+		struct irq_domain *irq_domain;
+		struct irq_chip irq_chip;
+		struct irq_domain *msi_domain;
+		struct irq_domain *msi_inner_domain;
+		struct irq_chip msi_bottom_irq_chip;
+		struct irq_chip msi_irq_chip;
+		struct msi_domain_info msi_domain_info;
+	DECLARE_BITMAP(msi_used,MSI_IRQ_NUM)
+		;
+		struct mutex msi_used_lock;
+		u16 msi_msg;
+		int root_bus_nr;
+		struct pci_bridge_emul bridge;
+	} cocci_id/* drivers/pci/controller/pci-aardvark.c 190 */;
+	struct platform_driver cocci_id/* drivers/pci/controller/pci-aardvark.c 1031 */;
+	const struct of_device_id cocci_id/* drivers/pci/controller/pci-aardvark.c 1026 */[];
+}

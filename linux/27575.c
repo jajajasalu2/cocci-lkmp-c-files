@@ -1,0 +1,71 @@
+cocci_test_suite() {
+	const char *cocci_id/* fs/btrfs/sysfs.c 927 */;
+	struct btrfs_super_block *cocci_id/* fs/btrfs/sysfs.c 92 */;
+	unsigned int cocci_id/* fs/btrfs/sysfs.c 870 */;
+	const int cocci_id/* fs/btrfs/sysfs.c 869 */;
+	struct raid_kobject *cocci_id/* fs/btrfs/sysfs.c 868 */;
+	struct btrfs_block_group *cocci_id/* fs/btrfs/sysfs.c 864 */;
+	struct kobj_attribute cocci_id/* fs/btrfs/sysfs.c 80 */;
+	const char *const cocci_id/* fs/btrfs/sysfs.c 786 */;
+	enum btrfs_feature_set cocci_id/* fs/btrfs/sysfs.c 786 */;
+	const char *const cocci_id/* fs/btrfs/sysfs.c 780 */[FEAT_MAX];
+	struct kobj_attribute *cocci_id/* fs/btrfs/sysfs.c 78 */;
+	struct attribute *cocci_id/* fs/btrfs/sysfs.c 78 */;
+	struct list_head *cocci_id/* fs/btrfs/sysfs.c 753 */;
+	struct btrfs_feature_attr cocci_id/* fs/btrfs/sysfs.c 75 */;
+	struct btrfs_fs_devices *cocci_id/* fs/btrfs/sysfs.c 735 */;
+	void cocci_id/* fs/btrfs/sysfs.c 735 */;
+	struct btrfs_feature_attr *cocci_id/* fs/btrfs/sysfs.c 713 */;
+	struct btrfs_fs_devices *cocci_id/* fs/btrfs/sysfs.c 71 */(struct kobject *kobj);
+	u64 cocci_id/* fs/btrfs/sysfs.c 705 */;
+	struct attribute_group cocci_id/* fs/btrfs/sysfs.c 701 */;
+	struct attribute *cocci_id/* fs/btrfs/sysfs.c 700 */[2];
+	struct btrfs_fs_info *cocci_id/* fs/btrfs/sysfs.c 70 */(struct kobject *kobj);
+	bool cocci_id/* fs/btrfs/sysfs.c 694 */;
+	struct btrfs_fs_info *cocci_id/* fs/btrfs/sysfs.c 694 */;
+	int cocci_id/* fs/btrfs/sysfs.c 694 */;
+	const u64 cocci_id/* fs/btrfs/sysfs.c 688 */[FEAT_MAX];
+	struct btrfs_feature_attr cocci_id/* fs/btrfs/sysfs.c 686 */[FEAT_MAX][NUM_FEATURE_BITS];
+	char cocci_id/* fs/btrfs/sysfs.c 685 */[FEAT_MAX][NUM_FEATURE_BITS][BTRFS_FEATURE_NAME_MAX];
+	struct btrfs_fs_devices cocci_id/* fs/btrfs/sysfs.c 673 */;
+	struct kobj_type cocci_id/* fs/btrfs/sysfs.c 664 */;
+	struct kobject cocci_id/* fs/btrfs/sysfs.c 660 */;
+	u16 cocci_id/* fs/btrfs/sysfs.c 636 */;
+	char *cocci_id/* fs/btrfs/sysfs.c 633 */;
+	struct kobject *cocci_id/* fs/btrfs/sysfs.c 632 */;
+	ssize_t cocci_id/* fs/btrfs/sysfs.c 632 */;
+	const struct attribute *cocci_id/* fs/btrfs/sysfs.c 492 */[];
+	s64 cocci_id/* fs/btrfs/sysfs.c 448 */;
+	struct btrfs_space_info *cocci_id/* fs/btrfs/sysfs.c 447 */;
+	ssize_t cocci_id/* fs/btrfs/sysfs.c 390 */(struct kobject *kobj,
+						   struct kobj_attribute *attr,
+						   char *buf);
+	struct raid_kobject cocci_id/* fs/btrfs/sysfs.c 388 */;
+	struct btrfs_space_info cocci_id/* fs/btrfs/sysfs.c 387 */;
+	struct btrfs_block_rsv *cocci_id/* fs/btrfs/sysfs.c 382 */;
+	u64 *cocci_id/* fs/btrfs/sysfs.c 358 */;
+	spinlock_t *cocci_id/* fs/btrfs/sysfs.c 358 */;
+	const struct attribute_group cocci_id/* fs/btrfs/sysfs.c 351 */;
+	struct attribute *cocci_id/* fs/btrfs/sysfs.c 347 */[];
+	struct raid_kobject {
+		u64 flags;
+		struct kobject kobj;
+	} cocci_id/* fs/btrfs/sysfs.c 29 */;
+	umode_t cocci_id/* fs/btrfs/sysfs.c 228 */;
+	struct btrfs_feature_attr {
+		struct kobj_attribute kobj_attr;
+		enum btrfs_feature_set feature_set;
+		u64 feature_bit;
+	} cocci_id/* fs/btrfs/sysfs.c 22 */;
+	unsigned long cocci_id/* fs/btrfs/sysfs.c 167 */;
+	size_t cocci_id/* fs/btrfs/sysfs.c 162 */;
+	void __cold cocci_id/* fs/btrfs/sysfs.c 1207 */;
+	int __init cocci_id/* fs/btrfs/sysfs.c 1174 */;
+	struct kset *cocci_id/* fs/btrfs/sysfs.c 1067 */;
+	char cocci_id/* fs/btrfs/sysfs.c 1054 */[BTRFS_UUID_UNPARSED_SIZE];
+	const u8 *cocci_id/* fs/btrfs/sysfs.c 1052 */;
+	enum kobject_action cocci_id/* fs/btrfs/sysfs.c 1040 */;
+	struct block_device *cocci_id/* fs/btrfs/sysfs.c 1040 */;
+	struct hd_struct *cocci_id/* fs/btrfs/sysfs.c 1019 */;
+	struct btrfs_device *cocci_id/* fs/btrfs/sysfs.c 1013 */;
+}

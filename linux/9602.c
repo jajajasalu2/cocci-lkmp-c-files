@@ -1,0 +1,108 @@
+cocci_test_suite() {
+	u64 *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 955 */;
+	unsigned int cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 955 */;
+	struct ieee80211_channel *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 954 */;
+	u8 cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 834 */[5];
+	const u8 *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 832 */;
+	struct cfg80211_scan_request *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 752 */;
+	__le16 cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 636 */;
+	struct brcmf_scan_params_le *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 634 */;
+	struct brcmf_p2p_scan_le *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 633 */;
+	struct brcmf_p2p_scan_le cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 626 */;
+	enum p2p_bss_type cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 622 */;
+	u16 cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 621 */[];
+	struct brcmf_p2p_disc_st_le cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 518 */;
+	struct cfg80211_ssid *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 492 */;
+	struct brcmf_p2psd_gas_pub_act_frame cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 278 */;
+	struct brcmf_p2psd_gas_pub_act_frame *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 272 */;
+	struct brcmf_p2p_action_frame cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 251 */;
+	struct brcmf_p2p_action_frame *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 245 */;
+	void *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 2384 */;
+	bool cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 2378 */;
+	struct brcmf_cfg80211_vif cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 2261 */;
+	struct brcmf_p2p_pub_act_frame cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 223 */;
+	int cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 2170 */;
+	struct brcmf_p2p_pub_act_frame *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 217 */;
+	enum brcmf_fil_p2p_if_types cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 2169 */;
+	struct brcmf_cfg80211_vif *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 2168 */;
+	struct brcmf_if *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 2166 */;
+	struct brcmf_cfg80211_info *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 2165 */;
+	struct vif_params *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 2163 */;
+	enum nl80211_iftype cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 2162 */;
+	unsigned char cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 2161 */;
+	const char *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 2160 */;
+	struct wireless_dev *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 2160 */;
+	struct wiphy *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 2160 */;
+	u8 *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 2072 */;
+	struct net_device *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 2046 */;
+	struct brcmf_config_af_params {
+		s32 mpc_onoff;
+		bool search_channel;
+		bool extra_listen;
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 201 */;
+	struct brcmf_fil_p2p_if_le cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1971 */;
+	__le32 *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1941 */;
+	struct brcmf_bss_info_le *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1932 */;
+	u8 cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1930 */[ETH_ALEN];
+	struct brcmf_p2psd_gas_pub_act_frame {
+		u8 category;
+		u8 action;
+		u8 dialog_token;
+		u8 query_data[1];
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 186 */;
+	unsigned long cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1818 */;
+	struct brcmf_p2p_action_frame {
+		u8 category;
+		u8 oui[3];
+		u8 type;
+		u8 subtype;
+		u8 dialog_token;
+		u8 elts[1];
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 169 */;
+	uint cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1666 */;
+	struct brcmf_config_af_params cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1657 */;
+	struct brcmf_fil_action_frame_le *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1558 */;
+	struct brcmf_config_af_params *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1554 */;
+	struct brcmf_fil_af_params_le *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1553 */;
+	struct brcmf_p2p_pub_act_frame {
+		u8 category;
+		u8 action;
+		u8 oui[3];
+		u8 oui_type;
+		u8 subtype;
+		u8 dialog_token;
+		u8 elts[1];
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 149 */;
+	struct ieee80211_mgmt cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1406 */;
+	u8 cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1351 */;
+	struct ieee80211_mgmt *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1348 */;
+	struct brcmf_rx_mgmt_data *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1343 */;
+	struct brcmf_rx_mgmt_data cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1342 */;
+	const struct brcmf_event_msg *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1334 */;
+	struct brcmf_p2p_scan_le {
+		u8 type;
+		u8 reserved[3];
+		union {
+			struct brcmf_escan_params_le eparams;
+			struct brcmf_scan_params_le sparams;
+		};
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 129 */;
+	enum brcmf_p2p_disc_state{WL_P2P_DISC_ST_SCAN, WL_P2P_DISC_ST_LISTEN, WL_P2P_DISC_ST_SEARCH,} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 115 */;
+	struct afx_hdl *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1131 */;
+	struct brcmf_p2p_info cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1099 */;
+	struct afx_hdl cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1097 */;
+	struct work_struct *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1095 */;
+	void cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1095 */;
+	struct brcmu_chan cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1048 */;
+	u16 *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1046 */;
+	u32 cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1045 */;
+	struct brcmf_pub *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1043 */;
+	u16 cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1041 */;
+	s32 cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1041 */;
+	struct brcmf_p2p_info *cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 1041 */;
+	struct brcmf_p2p_disc_st_le {
+		u8 state;
+		__le16 chspec;
+		__le16 dwell;
+	} cocci_id/* drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.c 102 */;
+}

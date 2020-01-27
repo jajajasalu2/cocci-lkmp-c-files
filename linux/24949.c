@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct llc_pdu_un *cocci_id/* net/llc/llc_sap.c 94 */;
+	struct sockaddr_llc *cocci_id/* net/llc/llc_sap.c 71 */;
+	int cocci_id/* net/llc/llc_sap.c 50 */;
+	u8 cocci_id/* net/llc/llc_sap.c 48 */;
+	u32 cocci_id/* net/llc/llc_sap.c 48 */;
+	struct sock *cocci_id/* net/llc/llc_sap.c 47 */;
+	struct sk_buff *cocci_id/* net/llc/llc_sap.c 47 */;
+	struct net_device *cocci_id/* net/llc/llc_sap.c 47 */;
+	struct llc_addr cocci_id/* net/llc/llc_sap.c 420 */;
+	struct hlist_head *cocci_id/* net/llc/llc_sap.c 394 */;
+	struct sock *cocci_id/* net/llc/llc_sap.c 392 */[256 / sizeof(struct sock *)];
+	struct sock **cocci_id/* net/llc/llc_sap.c 361 */;
+	const struct sk_buff *cocci_id/* net/llc/llc_sap.c 350 */;
+	struct ethhdr cocci_id/* net/llc/llc_sap.c 33 */;
+	struct hlist_nulls_head *cocci_id/* net/llc/llc_sap.c 318 */;
+	struct hlist_nulls_node *cocci_id/* net/llc/llc_sap.c 316 */;
+	struct llc_sock *cocci_id/* net/llc/llc_sap.c 297 */;
+	const struct sock *cocci_id/* net/llc/llc_sap.c 295 */;
+	const struct llc_addr *cocci_id/* net/llc/llc_sap.c 294 */;
+	bool cocci_id/* net/llc/llc_sap.c 293 */;
+	const struct llc_sap *cocci_id/* net/llc/llc_sap.c 293 */;
+	unsigned short cocci_id/* net/llc/llc_sap.c 28 */;
+	struct llc_sap_state_ev *cocci_id/* net/llc/llc_sap.c 233 */;
+	u8 *cocci_id/* net/llc/llc_sap.c 231 */;
+	struct llc_sap *cocci_id/* net/llc/llc_sap.c 230 */;
+	void cocci_id/* net/llc/llc_sap.c 230 */;
+	const llc_sap_action_t *cocci_id/* net/llc/llc_sap.c 149 */;
+	struct llc_sap_state_trans *cocci_id/* net/llc/llc_sap.c 145 */;
+	struct llc_sap_state *cocci_id/* net/llc/llc_sap.c 122 */;
+	struct llc_sap_state_trans **cocci_id/* net/llc/llc_sap.c 121 */;
+}

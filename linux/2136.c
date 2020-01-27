@@ -1,0 +1,66 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/power/supply/cpcap-charger.c 909 */;
+	struct power_supply_config cocci_id/* drivers/power/supply/cpcap-charger.c 826 */;
+	const struct of_device_id *cocci_id/* drivers/power/supply/cpcap-charger.c 825 */;
+	struct platform_device *cocci_id/* drivers/power/supply/cpcap-charger.c 822 */;
+	const struct of_device_id cocci_id/* drivers/power/supply/cpcap-charger.c 813 */[];
+	const struct power_supply_desc cocci_id/* drivers/power/supply/cpcap-charger.c 802 */;
+	const char *const cocci_id/* drivers/power/supply/cpcap-charger.c 773 */[CPCAP_CHARGER_IIO_NR];
+	const char *const cocci_id/* drivers/power/supply/cpcap-charger.c 731 */[];
+	struct cpcap_interrupt_desc *cocci_id/* drivers/power/supply/cpcap-charger.c 702 */;
+	irqreturn_t cocci_id/* drivers/power/supply/cpcap-charger.c 686 */;
+	void *cocci_id/* drivers/power/supply/cpcap-charger.c 686 */;
+	struct cpcap_charger_ints_state cocci_id/* drivers/power/supply/cpcap-charger.c 606 */;
+	unsigned long cocci_id/* drivers/power/supply/cpcap-charger.c 590 */;
+	void cocci_id/* drivers/power/supply/cpcap-charger.c 589 */;
+	const char *cocci_id/* drivers/power/supply/cpcap-charger.c 533 */;
+	struct cpcap_charger_ints_state *cocci_id/* drivers/power/supply/cpcap-charger.c 499 */;
+	struct cpcap_charger_ddata cocci_id/* drivers/power/supply/cpcap-charger.c 487 */;
+	struct phy_companion *cocci_id/* drivers/power/supply/cpcap-charger.c 483 */;
+	struct work_struct *cocci_id/* drivers/power/supply/cpcap-charger.c 424 */;
+	const union power_supply_propval *cocci_id/* drivers/power/supply/cpcap-charger.c 311 */;
+	struct power_supply *cocci_id/* drivers/power/supply/cpcap-charger.c 293 */;
+	union power_supply_propval cocci_id/* drivers/power/supply/cpcap-charger.c 292 */;
+	union power_supply_propval *cocci_id/* drivers/power/supply/cpcap-charger.c 231 */;
+	enum power_supply_property cocci_id/* drivers/power/supply/cpcap-charger.c 230 */;
+	int cocci_id/* drivers/power/supply/cpcap-charger.c 184 */;
+	struct iio_channel *cocci_id/* drivers/power/supply/cpcap-charger.c 183 */;
+	bool cocci_id/* drivers/power/supply/cpcap-charger.c 181 */;
+	struct cpcap_charger_ddata *cocci_id/* drivers/power/supply/cpcap-charger.c 181 */;
+	enum power_supply_property cocci_id/* drivers/power/supply/cpcap-charger.c 172 */[];
+	struct cpcap_charger_ints_state {
+		bool chrg_det;
+		bool rvrs_chrg;
+		bool vbusov;
+		bool chrg_se1b;
+		bool rvrs_mode;
+		bool chrgcurr2;
+		bool chrgcurr1;
+		bool vbusvld;
+		bool battdetb;
+	} cocci_id/* drivers/power/supply/cpcap-charger.c 158 */;
+	struct cpcap_interrupt_desc {
+		int irq;
+		struct list_head node;
+		const char *name;
+	} cocci_id/* drivers/power/supply/cpcap-charger.c 152 */;
+	struct cpcap_charger_ddata {
+		struct device *dev;
+		struct regmap *reg;
+		struct list_head irq_list;
+		struct delayed_work detect_work;
+		struct delayed_work vbus_work;
+		struct gpio_desc *gpio[2];
+		struct iio_channel *channels[CPCAP_CHARGER_IIO_NR];
+		struct power_supply *usb;
+		struct phy_companion comparator;
+		unsigned int vbus_enabled:1;
+		unsigned int feeding_vbus:1;
+		atomic_t active;
+		int status;
+		int state;
+		int voltage;
+	} cocci_id/* drivers/power/supply/cpcap-charger.c 130 */;
+	enum{CPCAP_CHARGER_DISCONNECTED, CPCAP_CHARGER_DETECTING, CPCAP_CHARGER_CHARGING, CPCAP_CHARGER_DONE,} cocci_id/* drivers/power/supply/cpcap-charger.c 123 */;
+	enum{CPCAP_CHARGER_IIO_BATTDET, CPCAP_CHARGER_IIO_VOLTAGE, CPCAP_CHARGER_IIO_VBUS, CPCAP_CHARGER_IIO_CHRG_CURRENT, CPCAP_CHARGER_IIO_BATT_CURRENT, CPCAP_CHARGER_IIO_NR,} cocci_id/* drivers/power/supply/cpcap-charger.c 114 */;
+}

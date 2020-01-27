@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/mtd/nand/raw/hisi504_nand.c 857 */;
+	const struct of_device_id cocci_id/* drivers/mtd/nand/raw/hisi504_nand.c 851 */[];
+	struct device_node *cocci_id/* drivers/mtd/nand/raw/hisi504_nand.c 742 */;
+	struct resource *cocci_id/* drivers/mtd/nand/raw/hisi504_nand.c 741 */;
+	struct platform_device *cocci_id/* drivers/mtd/nand/raw/hisi504_nand.c 734 */;
+	const struct nand_controller_ops cocci_id/* drivers/mtd/nand/raw/hisi504_nand.c 730 */;
+	struct device *cocci_id/* drivers/mtd/nand/raw/hisi504_nand.c 640 */;
+	const struct mtd_ooblayout_ops cocci_id/* drivers/mtd/nand/raw/hisi504_nand.c 631 */;
+	struct mtd_oob_region *cocci_id/* drivers/mtd/nand/raw/hisi504_nand.c 613 */;
+	const uint8_t *cocci_id/* drivers/mtd/nand/raw/hisi504_nand.c 568 */;
+	struct mtd_info *cocci_id/* drivers/mtd/nand/raw/hisi504_nand.c 553 */;
+	struct nand_chip *cocci_id/* drivers/mtd/nand/raw/hisi504_nand.c 551 */;
+	uint8_t *cocci_id/* drivers/mtd/nand/raw/hisi504_nand.c 518 */;
+	unsigned int cocci_id/* drivers/mtd/nand/raw/hisi504_nand.c 500 */;
+	struct hinfc_host *cocci_id/* drivers/mtd/nand/raw/hisi504_nand.c 499 */;
+	irqreturn_t cocci_id/* drivers/mtd/nand/raw/hisi504_nand.c 497 */;
+	void *cocci_id/* drivers/mtd/nand/raw/hisi504_nand.c 497 */;
+	int cocci_id/* drivers/mtd/nand/raw/hisi504_nand.c 497 */;
+	unsigned cocci_id/* drivers/mtd/nand/raw/hisi504_nand.c 423 */;
+	uint8_t cocci_id/* drivers/mtd/nand/raw/hisi504_nand.c 357 */;
+	unsigned long cocci_id/* drivers/mtd/nand/raw/hisi504_nand.c 183 */;
+	void cocci_id/* drivers/mtd/nand/raw/hisi504_nand.c 149 */;
+	struct hinfc_host {
+		struct nand_chip chip;
+		struct device *dev;
+		void __iomem *iobase;
+		void __iomem *mmio;
+		struct completion cmd_complete;
+		unsigned int offset;
+		unsigned int command;
+		int chipselect;
+		unsigned int addr_cycle;
+		u32 addr_value[2];
+		u32 cache_addr_value[2];
+		char *buffer;
+		dma_addr_t dma_buffer;
+		dma_addr_t dma_oob;
+		int version;
+		unsigned int irq_status;
+	} cocci_id/* drivers/mtd/nand/raw/hisi504_nand.c 125 */;
+}

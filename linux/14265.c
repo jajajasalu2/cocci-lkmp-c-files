@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	void __iomem *cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 80 */;
+	struct osd_window_state *cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 616 */;
+	struct osd_layer_config *cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 513 */;
+	enum osd_layer cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 443 */;
+	enum osd_zoom_factor cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 410 */;
+	enum osd_clut cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 391 */;
+	enum osd_win_layer cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 377 */;
+	struct osd_state *cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 376 */;
+	void cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 376 */;
+	enum osd_pix_format cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 316 */;
+	const struct platform_device_id cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 29 */[];
+	enum osd_blending_factor cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 282 */;
+	const int cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 202 */[];
+	unsigned char cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 198 */;
+	enum osd_rom_clut cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 188 */;
+	u32 cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 176 */;
+	enum osd_blink_interval cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 174 */;
+	struct platform_driver cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 1569 */;
+	struct osd_state cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 1541 */;
+	struct resource *cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 1535 */;
+	const struct platform_device_id *cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 1533 */;
+	struct platform_device *cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 1531 */;
+	const struct vpbe_osd_ops cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 1518 */;
+	unsigned cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 144 */;
+	struct osd_osdwin_state *cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 1365 */;
+	struct osd_platform_data *cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 132 */;
+	const struct osd_layer_config *cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 130 */;
+	unsigned long cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 129 */;
+	int cocci_id/* drivers/media/platform/davinci/vpbe_osd.c 127 */;
+}

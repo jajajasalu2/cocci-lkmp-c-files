@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	unsigned *constcocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 73 */;
+	const char *const**cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 72 */;
+	struct platform_device *cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 552 */;
+	const struct gpio_chip cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 539 */;
+	const char *constcocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 53 */[WMT_FSEL_COUNT];
+	struct gpio_chip *cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 527 */;
+	struct pinctrl_desc cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 472 */;
+	const struct pinconf_ops cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 467 */;
+	enum wmt_func_sel{WMT_FSEL_GPIO_IN=0, WMT_FSEL_GPIO_OUT=1, WMT_FSEL_ALT=2, WMT_FSEL_COUNT=3,} cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 46 */;
+	enum pin_config_param cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 422 */;
+	const struct pinctrl_ops cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 404 */;
+	u32 cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 36 */;
+	struct wmt_pinctrl_data *cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 36 */;
+	void cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 36 */;
+	struct property *cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 301 */;
+	struct pinctrl_map **cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 297 */;
+	struct device_node *cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 296 */;
+	struct pinctrl_map *cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 283 */;
+	unsigned long *cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 240 */;
+	unsigned *cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 185 */;
+	const unsigned **cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 184 */;
+	int cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 182 */;
+	unsigned cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 175 */;
+	const char *cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 174 */;
+	struct pinctrl_dev *cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 174 */;
+	const struct pinmux_ops cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 158 */;
+	bool cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 148 */;
+	struct pinctrl_gpio_range *cocci_id/* drivers/pinctrl/vt8500/pinctrl-wmt.c 136 */;
+}

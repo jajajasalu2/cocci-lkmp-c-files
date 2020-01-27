@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct tmp421_data {
+		struct i2c_client *client;
+		struct mutex update_lock;
+		u32 temp_config[5];
+		struct hwmon_channel_info temp_info;
+		const struct hwmon_channel_info *info[2];
+		struct hwmon_chip_info chip;
+		char valid;
+		unsigned long last_updated;
+		unsigned long channels;
+		u8 config;
+		s16 temp[4];
+	} cocci_id/* drivers/hwmon/tmp421.c 89 */;
+	void *cocci_id/* drivers/hwmon/tmp421.c 67 */;
+	const struct of_device_id __maybe_unused cocci_id/* drivers/hwmon/tmp421.c 64 */[];
+	const struct i2c_device_id cocci_id/* drivers/hwmon/tmp421.c 54 */[];
+	const u8 cocci_id/* drivers/hwmon/tmp421.c 40 */[4];
+	struct i2c_driver cocci_id/* drivers/hwmon/tmp421.c 324 */;
+	enum chips{tmp421, tmp422, tmp423, tmp441, tmp442,} cocci_id/* drivers/hwmon/tmp421.c 30 */;
+	unsigned long cocci_id/* drivers/hwmon/tmp421.c 296 */;
+	struct tmp421_data cocci_id/* drivers/hwmon/tmp421.c 290 */;
+	struct tmp421_data *cocci_id/* drivers/hwmon/tmp421.c 287 */;
+	struct device *cocci_id/* drivers/hwmon/tmp421.c 285 */;
+	const struct i2c_device_id *cocci_id/* drivers/hwmon/tmp421.c 283 */;
+	const struct hwmon_ops cocci_id/* drivers/hwmon/tmp421.c 277 */;
+	const unsigned short cocci_id/* drivers/hwmon/tmp421.c 27 */[];
+	u8 cocci_id/* drivers/hwmon/tmp421.c 226 */;
+	const char *const cocci_id/* drivers/hwmon/tmp421.c 221 */[];
+	struct i2c_adapter *cocci_id/* drivers/hwmon/tmp421.c 220 */;
+	enum chips cocci_id/* drivers/hwmon/tmp421.c 219 */;
+	struct i2c_board_info *cocci_id/* drivers/hwmon/tmp421.c 217 */;
+	struct i2c_client *cocci_id/* drivers/hwmon/tmp421.c 216 */;
+	u32 cocci_id/* drivers/hwmon/tmp421.c 176 */;
+	umode_t cocci_id/* drivers/hwmon/tmp421.c 175 */;
+	enum hwmon_sensor_types cocci_id/* drivers/hwmon/tmp421.c 175 */;
+	const void *cocci_id/* drivers/hwmon/tmp421.c 175 */;
+	long *cocci_id/* drivers/hwmon/tmp421.c 151 */;
+	u16 cocci_id/* drivers/hwmon/tmp421.c 111 */;
+	s16 cocci_id/* drivers/hwmon/tmp421.c 103 */;
+	int cocci_id/* drivers/hwmon/tmp421.c 103 */;
+}

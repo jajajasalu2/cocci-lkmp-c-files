@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	union hpi_response_buffer_v1 *cocci_id/* sound/pci/asihpi/hpioctl.c 99 */;
+	union hpi_message_buffer_v1 *cocci_id/* sound/pci/asihpi/hpioctl.c 98 */;
+	void __user *cocci_id/* sound/pci/asihpi/hpioctl.c 96 */;
+	struct hpi_ioctl_linux __user *cocci_id/* sound/pci/asihpi/hpioctl.c 95 */;
+	struct file *cocci_id/* sound/pci/asihpi/hpioctl.c 93 */;
+	unsigned long cocci_id/* sound/pci/asihpi/hpioctl.c 93 */;
+	long cocci_id/* sound/pci/asihpi/hpioctl.c 93 */;
+	struct hpi_response *cocci_id/* sound/pci/asihpi/hpioctl.c 72 */;
+	struct hpi_message *cocci_id/* sound/pci/asihpi/hpioctl.c 72 */;
+	void __init cocci_id/* sound/pci/asihpi/hpioctl.c 562 */;
+	struct hpi_adapter cocci_id/* sound/pci/asihpi/hpioctl.c 53 */[HPI_MAX_ADAPTERS];
+	struct hpi_adapter *cocci_id/* sound/pci/asihpi/hpioctl.c 523 */;
+	void cocci_id/* sound/pci/asihpi/hpioctl.c 518 */;
+	struct hpi_pci cocci_id/* sound/pci/asihpi/hpioctl.c 346 */;
+	struct hpi_adapter cocci_id/* sound/pci/asihpi/hpioctl.c 345 */;
+	struct hpi_response cocci_id/* sound/pci/asihpi/hpioctl.c 344 */;
+	struct hpi_message cocci_id/* sound/pci/asihpi/hpioctl.c 343 */;
+	unsigned int cocci_id/* sound/pci/asihpi/hpioctl.c 342 */;
+	const struct pci_device_id *cocci_id/* sound/pci/asihpi/hpioctl.c 338 */;
+	struct pci_dev *cocci_id/* sound/pci/asihpi/hpioctl.c 337 */;
+	int cocci_id/* sound/pci/asihpi/hpioctl.c 337 */;
+	irqreturn_t cocci_id/* sound/pci/asihpi/hpioctl.c 311 */;
+	void *cocci_id/* sound/pci/asihpi/hpioctl.c 311 */;
+	size_t cocci_id/* sound/pci/asihpi/hpioctl.c 155 */;
+	struct hpi_response_header cocci_id/* sound/pci/asihpi/hpioctl.c 149 */;
+	u16 __user *cocci_id/* sound/pci/asihpi/hpioctl.c 125 */;
+	u32 cocci_id/* sound/pci/asihpi/hpioctl.c 102 */;
+	u16 cocci_id/* sound/pci/asihpi/hpioctl.c 100 */;
+}

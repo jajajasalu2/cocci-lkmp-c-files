@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	struct scsi_host_template cocci_id/* drivers/ata/pata_ftide010.c 87 */;
+	struct platform_driver cocci_id/* drivers/ata/pata_ftide010.c 563 */;
+	const struct of_device_id cocci_id/* drivers/ata/pata_ftide010.c 556 */[];
+	struct ata_host *cocci_id/* drivers/ata/pata_ftide010.c 546 */;
+	struct ata_ioports *cocci_id/* drivers/ata/pata_ftide010.c 519 */;
+	struct resource *cocci_id/* drivers/ata/pata_ftide010.c 459 */;
+	const struct ata_port_info *cocci_id/* drivers/ata/pata_ftide010.c 457 */[];
+	struct device_node *cocci_id/* drivers/ata/pata_ftide010.c 455 */;
+	struct platform_device *cocci_id/* drivers/ata/pata_ftide010.c 452 */;
+	struct ftide010 {
+		struct device *dev;
+		void __iomem *base;
+		struct clk *pclk;
+		struct ata_host *host;
+		unsigned int master_cbl;
+		unsigned int slave_cbl;
+		struct sata_gemini *sg;
+		bool master_to_sata0;
+		bool slave_to_sata0;
+		bool master_to_sata1;
+		bool slave_to_sata1;
+	} cocci_id/* drivers/ata/pata_ftide010.c 42 */;
+	enum gemini_muxmode cocci_id/* drivers/ata/pata_ftide010.c 356 */;
+	struct sata_gemini *cocci_id/* drivers/ata/pata_ftide010.c 355 */;
+	struct device *cocci_id/* drivers/ata/pata_ftide010.c 354 */;
+	bool cocci_id/* drivers/ata/pata_ftide010.c 352 */;
+	struct ata_port_info *cocci_id/* drivers/ata/pata_ftide010.c 351 */;
+	int cocci_id/* drivers/ata/pata_ftide010.c 339 */;
+	struct ata_port_info cocci_id/* drivers/ata/pata_ftide010.c 260 */;
+	struct ata_port_operations cocci_id/* drivers/ata/pata_ftide010.c 253 */;
+	struct ata_device *cocci_id/* drivers/ata/pata_ftide010.c 240 */;
+	struct ata_port *cocci_id/* drivers/ata/pata_ftide010.c 239 */;
+	struct ata_queued_cmd *cocci_id/* drivers/ata/pata_ftide010.c 237 */;
+	unsigned int cocci_id/* drivers/ata/pata_ftide010.c 237 */;
+	u8 cocci_id/* drivers/ata/pata_ftide010.c 144 */;
+	struct ftide010 *cocci_id/* drivers/ata/pata_ftide010.c 143 */;
+	void cocci_id/* drivers/ata/pata_ftide010.c 141 */;
+	const bool cocci_id/* drivers/ata/pata_ftide010.c 134 */[];
+	const u8 cocci_id/* drivers/ata/pata_ftide010.c 129 */[7];
+	const u8 cocci_id/* drivers/ata/pata_ftide010.c 127 */[6];
+	const u8 cocci_id/* drivers/ata/pata_ftide010.c 122 */[3];
+	const u8 cocci_id/* drivers/ata/pata_ftide010.c 120 */[5];
+}

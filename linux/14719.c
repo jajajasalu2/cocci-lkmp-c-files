@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	const struct clk_pcr_layout cocci_id/* drivers/clk/at91/dt-compat.c 96 */;
+	u32 cocci_id/* drivers/clk/at91/dt-compat.c 903 */[4];
+	const char *cocci_id/* drivers/clk/at91/dt-compat.c 846 */[USB_SOURCE_MAX];
+	const char *cocci_id/* drivers/clk/at91/dt-compat.c 775 */[SMD_SOURCE_MAX];
+	const char *cocci_id/* drivers/clk/at91/dt-compat.c 742 */[2];
+	const char *cocci_id/* drivers/clk/at91/dt-compat.c 682 */[PROG_SOURCE_MAX];
+	const struct clk_programmable_layout *cocci_id/* drivers/clk/at91/dt-compat.c 676 */;
+	const struct clk_pll_layout *cocci_id/* drivers/clk/at91/dt-compat.c 585 */;
+	struct clk_pll_characteristics *cocci_id/* drivers/clk/at91/dt-compat.c 499 */;
+	u16 *cocci_id/* drivers/clk/at91/dt-compat.c 498 */;
+	u8 *cocci_id/* drivers/clk/at91/dt-compat.c 497 */;
+	struct clk_range *cocci_id/* drivers/clk/at91/dt-compat.c 496 */;
+	struct clk_pll_characteristics *__init cocci_id/* drivers/clk/at91/dt-compat.c 487 */;
+	struct clk_range cocci_id/* drivers/clk/at91/dt-compat.c 452 */;
+	u32 cocci_id/* drivers/clk/at91/dt-compat.c 419 */;
+	int cocci_id/* drivers/clk/at91/dt-compat.c 418 */;
+	u8 cocci_id/* drivers/clk/at91/dt-compat.c 416 */;
+	struct regmap *cocci_id/* drivers/clk/at91/dt-compat.c 370 */;
+	const char *cocci_id/* drivers/clk/at91/dt-compat.c 368 */;
+	const char *cocci_id/* drivers/clk/at91/dt-compat.c 367 */[MASTER_SOURCE_MAX];
+	unsigned int cocci_id/* drivers/clk/at91/dt-compat.c 366 */;
+	struct clk_hw *cocci_id/* drivers/clk/at91/dt-compat.c 365 */;
+	const struct clk_master_layout *cocci_id/* drivers/clk/at91/dt-compat.c 363 */;
+	void __init cocci_id/* drivers/clk/at91/dt-compat.c 361 */;
+	struct clk_master_characteristics *cocci_id/* drivers/clk/at91/dt-compat.c 339 */;
+	struct device_node *cocci_id/* drivers/clk/at91/dt-compat.c 337 */;
+	struct clk_master_characteristics *__init cocci_id/* drivers/clk/at91/dt-compat.c 336 */;
+	bool cocci_id/* drivers/clk/at91/dt-compat.c 240 */;
+	void __init cocci_id/* drivers/clk/at91/dt-compat.c 234 */;
+	const char *cocci_id/* drivers/clk/at91/dt-compat.c 118 */[GENERATED_SOURCE_MAX];
+}

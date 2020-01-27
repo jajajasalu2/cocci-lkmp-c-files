@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct efa_com_mmio_read *cocci_id/* drivers/infiniband/hw/efa/efa_com.c 935 */;
+	u8 cocci_id/* drivers/infiniband/hw/efa/efa_com.c 854 */;
+	efa_aenq_handler cocci_id/* drivers/infiniband/hw/efa/efa_com.c 852 */;
+	struct efa_admin_aenq_entry *cocci_id/* drivers/infiniband/hw/efa/efa_com.c 851 */;
+	struct efa_admin_mmio_req_read_less_resp *cocci_id/* drivers/infiniband/hw/efa/efa_com.c 85 */;
+	struct efa_admin_aenq_common_desc *cocci_id/* drivers/infiniband/hw/efa/efa_com.c 849 */;
+	void *cocci_id/* drivers/infiniband/hw/efa/efa_com.c 847 */;
+	unsigned long cocci_id/* drivers/infiniband/hw/efa/efa_com.c 818 */;
+	u32 cocci_id/* drivers/infiniband/hw/efa/efa_com.c 740 */;
+	struct efa_aenq_handlers *cocci_id/* drivers/infiniband/hw/efa/efa_com.c 737 */;
+	int cocci_id/* drivers/infiniband/hw/efa/efa_com.c 736 */;
+	atomic64_t *cocci_id/* drivers/infiniband/hw/efa/efa_com.c 719 */;
+	struct efa_com_admin_sq *cocci_id/* drivers/infiniband/hw/efa/efa_com.c 678 */;
+	struct efa_com_admin_cq *cocci_id/* drivers/infiniband/hw/efa/efa_com.c 677 */;
+	struct efa_com_aenq *cocci_id/* drivers/infiniband/hw/efa/efa_com.c 676 */;
+	struct efa_com_dev *cocci_id/* drivers/infiniband/hw/efa/efa_com.c 673 */;
+	void cocci_id/* drivers/infiniband/hw/efa/efa_com.c 673 */;
+	const char *cocci_id/* drivers/infiniband/hw/efa/efa_com.c 55 */;
+	struct efa_comp_ctx {
+		struct completion wait_event;
+		struct efa_admin_acq_entry *user_cqe;
+		u32 comp_size;
+		enum efa_cmd_status status;
+		u8 comp_status;
+		u8 cmd_opcode;
+		u8 occupied;
+	} cocci_id/* drivers/infiniband/hw/efa/efa_com.c 44 */;
+	enum efa_cmd_status{EFA_CMD_SUBMITTED, EFA_CMD_COMPLETED,} cocci_id/* drivers/infiniband/hw/efa/efa_com.c 39 */;
+	struct efa_comp_ctx cocci_id/* drivers/infiniband/hw/efa/efa_com.c 373 */;
+	u16 cocci_id/* drivers/infiniband/hw/efa/efa_com.c 322 */;
+	struct efa_admin_acq_entry *cocci_id/* drivers/infiniband/hw/efa/efa_com.c 317 */;
+	size_t cocci_id/* drivers/infiniband/hw/efa/efa_com.c 316 */;
+	struct efa_admin_aq_entry *cocci_id/* drivers/infiniband/hw/efa/efa_com.c 315 */;
+	struct efa_comp_ctx *cocci_id/* drivers/infiniband/hw/efa/efa_com.c 314 */;
+	struct efa_com_admin_queue *cocci_id/* drivers/infiniband/hw/efa/efa_com.c 314 */;
+	bool cocci_id/* drivers/infiniband/hw/efa/efa_com.c 293 */;
+	struct efa_admin_aenq_entry cocci_id/* drivers/infiniband/hw/efa/efa_com.c 241 */;
+	struct efa_admin_acq_entry cocci_id/* drivers/infiniband/hw/efa/efa_com.c 199 */;
+	struct efa_admin_aq_entry cocci_id/* drivers/infiniband/hw/efa/efa_com.c 164 */;
+	u32 __iomem *cocci_id/* drivers/infiniband/hw/efa/efa_com.c 155 */;
+	enum efa_regs_reset_reason_types cocci_id/* drivers/infiniband/hw/efa/efa_com.c 1047 */;
+}

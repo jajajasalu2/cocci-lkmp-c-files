@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct sk_buff *cocci_id/* net/batman-adv/netlink.c 954 */;
+	struct netlink_callback *cocci_id/* net/batman-adv/netlink.c 954 */;
+	const struct nla_policy cocci_id/* net/batman-adv/netlink.c 93 */[NUM_BATADV_ATTR];
+	const struct genl_multicast_group cocci_id/* net/batman-adv/netlink.c 88 */[];
+	void *cocci_id/* net/batman-adv/netlink.c 803 */;
+	enum batadv_nl_commands cocci_id/* net/batman-adv/netlink.c 798 */;
+	u8 *cocci_id/* net/batman-adv/netlink.c 769 */;
+	u64 cocci_id/* net/batman-adv/netlink.c 650 */;
+	enum batadv_genl_ops_flags{BATADV_FLAG_NEED_MESH=BIT(0), BATADV_FLAG_NEED_HARDIF=BIT(1), BATADV_FLAG_NEED_VLAN=BIT(2),} cocci_id/* net/batman-adv/netlink.c 65 */;
+	const u8 *cocci_id/* net/batman-adv/netlink.c 649 */;
+	enum batadv_netlink_multicast_groups{BATADV_NL_MCGRP_CONFIG, BATADV_NL_MCGRP_TPMETER,} cocci_id/* net/batman-adv/netlink.c 57 */;
+	struct genl_family cocci_id/* net/batman-adv/netlink.c 54 */;
+	u8 cocci_id/* net/batman-adv/netlink.c 249 */;
+	u32 cocci_id/* net/batman-adv/netlink.c 167 */;
+	struct nlattr *cocci_id/* net/batman-adv/netlink.c 165 */;
+	const struct nlmsghdr *cocci_id/* net/batman-adv/netlink.c 163 */;
+	void __init cocci_id/* net/batman-adv/netlink.c 1486 */;
+	void cocci_id/* net/batman-adv/netlink.c 1486 */;
+	const struct genl_ops cocci_id/* net/batman-adv/netlink.c 1343 */[];
+	const struct genl_ops *cocci_id/* net/batman-adv/netlink.c 1318 */;
+	u16 cocci_id/* net/batman-adv/netlink.c 1231 */;
+	struct batadv_softif_vlan *cocci_id/* net/batman-adv/netlink.c 1226 */;
+	unsigned int cocci_id/* net/batman-adv/netlink.c 1186 */;
+	struct net_device *cocci_id/* net/batman-adv/netlink.c 1185 */;
+	struct genl_info *cocci_id/* net/batman-adv/netlink.c 1182 */;
+	struct net *cocci_id/* net/batman-adv/netlink.c 1181 */;
+	struct batadv_priv *cocci_id/* net/batman-adv/netlink.c 1181 */;
+	struct batadv_hard_iface *cocci_id/* net/batman-adv/netlink.c 1180 */;
+	int cocci_id/* net/batman-adv/netlink.c 1149 */;
+}

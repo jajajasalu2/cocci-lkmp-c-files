@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	u8 cocci_id/* net/can/j1939/transport.c 863 */[8];
+	u8 cocci_id/* net/can/j1939/transport.c 657 */[5];
+	u8 *cocci_id/* net/can/j1939/transport.c 623 */;
+	struct can_frame cocci_id/* net/can/j1939/transport.c 568 */;
+	u8 cocci_id/* net/can/j1939/transport.c 545 */;
+	struct j1939_addr *cocci_id/* net/can/j1939/transport.c 529 */;
+	struct list_head *cocci_id/* net/can/j1939/transport.c 487 */;
+	const u8 *cocci_id/* net/can/j1939/transport.c 429 */;
+	unsigned int cocci_id/* net/can/j1939/transport.c 429 */;
+	pgn_t cocci_id/* net/can/j1939/transport.c 414 */;
+	enum j1939_xtp_abort{J1939_XTP_NO_ABORT=0, J1939_XTP_ABORT_BUSY=1, J1939_XTP_ABORT_RESOURCE=2, J1939_XTP_ABORT_TIMEOUT=3, J1939_XTP_ABORT_GENERIC=4, J1939_XTP_ABORT_FAULT=5, J1939_XTP_ABORT_UNEXPECTED_DATA=6, J1939_XTP_ABORT_BAD_SEQ=7, J1939_XTP_ABORT_DUP_SEQ=8, J1939_XTP_ABORT_EDPO_UNEXPECTED=9, J1939_XTP_ABORT_BAD_EDPO_PGN=10, J1939_XTP_ABORT_EDPO_OUTOF_CTS=11, J1939_XTP_ABORT_BAD_EDPO_OFFSET=12, J1939_XTP_ABORT_OTHER_DEPRECATED=13, J1939_XTP_ABORT_ECTS_UNXPECTED_PGN=14, J1939_XTP_ABORT_ECTS_TOO_BIG=15, J1939_XTP_ABORT_OTHER=250,} cocci_id/* net/can/j1939/transport.c 34 */;
+	unsigned long cocci_id/* net/can/j1939/transport.c 320 */;
+	bool cocci_id/* net/can/j1939/transport.c 310 */;
+	const struct j1939_sk_buff_cb *cocci_id/* net/can/j1939/transport.c 310 */;
+	struct j1939_session cocci_id/* net/can/j1939/transport.c 281 */;
+	struct kref *cocci_id/* net/can/j1939/transport.c 279 */;
+	struct sock *cocci_id/* net/can/j1939/transport.c 2035 */;
+	int cocci_id/* net/can/j1939/transport.c 2035 */;
+	struct j1939_sk_buff_cb cocci_id/* net/can/j1939/transport.c 1516 */;
+	struct can_skb_priv cocci_id/* net/can/j1939/transport.c 1459 */;
+	struct j1939_sk_buff_cb *cocci_id/* net/can/j1939/transport.c 1456 */;
+	size_t cocci_id/* net/can/j1939/transport.c 1413 */;
+	const char *cocci_id/* net/can/j1939/transport.c 130 */;
+	const struct sk_buff *cocci_id/* net/can/j1939/transport.c 1200 */;
+	enum hrtimer_restart cocci_id/* net/can/j1939/transport.c 1156 */;
+	struct hrtimer *cocci_id/* net/can/j1939/transport.c 1156 */;
+	struct sk_buff *cocci_id/* net/can/j1939/transport.c 1145 */;
+	struct j1939_priv *cocci_id/* net/can/j1939/transport.c 1052 */;
+	enum j1939_xtp_abort cocci_id/* net/can/j1939/transport.c 1050 */;
+	struct j1939_session *cocci_id/* net/can/j1939/transport.c 1049 */;
+	void cocci_id/* net/can/j1939/transport.c 1049 */;
+}

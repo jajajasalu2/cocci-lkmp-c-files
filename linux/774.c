@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	struct iproc_msi {
+		struct iproc_pcie *pcie;
+		const  u16(*reg_offsets);
+		struct iproc_msi_grp *grps;
+		int nr_irqs;
+		int nr_cpus;
+		bool has_inten_reg;
+		unsigned long *bitmap;
+		struct mutex bitmap_lock;
+		unsigned int nr_msi_vecs;
+		struct irq_domain *inner_domain;
+		struct irq_domain *msi_domain;
+		unsigned int nr_eq_region;
+		unsigned int nr_msi_region;
+		void *eq_cpu;
+		dma_addr_t eq_dma;
+		phys_addr_t msi_addr;
+	} cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 93 */;
+	struct iproc_pcie *cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 649 */;
+	struct iproc_msi_grp {
+		struct iproc_msi *msi;
+		int gic_irq;
+		unsigned int eq;
+	} cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 61 */;
+	struct iproc_msi cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 49 */;
+	cpumask_var_t cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 480 */;
+	struct device_node *cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 439 */;
+	void cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 421 */;
+	phys_addr_t cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 395 */;
+	dma_addr_t cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 385 */;
+	enum iproc_msi_reg{IPROC_MSI_EQ_PAGE=0, IPROC_MSI_EQ_PAGE_UPPER, IPROC_MSI_PAGE, IPROC_MSI_PAGE_UPPER, IPROC_MSI_CTRL, IPROC_MSI_EQ_HEAD, IPROC_MSI_EQ_TAIL, IPROC_MSI_INTS_EN, IPROC_MSI_REG_SIZE,} cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 37 */;
+	struct iproc_msi_grp *cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 316 */;
+	struct irq_chip *cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 315 */;
+	struct irq_desc *cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 313 */;
+	unsigned int cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 298 */;
+	u32 __iomem *cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 296 */;
+	u32 cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 294 */;
+	struct iproc_msi *cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 294 */;
+	const struct irq_domain_ops cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 289 */;
+	void *cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 243 */;
+	struct irq_domain *cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 241 */;
+	struct irq_chip cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 235 */;
+	struct msi_msg *cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 224 */;
+	struct irq_data *cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 223 */;
+	bool cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 207 */;
+	const struct cpumask *cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 207 */;
+	unsigned long cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 200 */;
+	int cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 195 */;
+	struct msi_domain_info cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 172 */;
+	enum iproc_msi_reg cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 129 */;
+	const u16 cocci_id/* drivers/pci/controller/pcie-iproc-msi.c 112 */[NR_HW_IRQS][IPROC_MSI_REG_SIZE];
+}

@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	const struct i2c_device_id *cocci_id/* sound/soc/codecs/cs35l34.c 994 */;
+	const char *const cocci_id/* sound/soc/codecs/cs35l34.c 988 */[];
+	irqreturn_t cocci_id/* sound/soc/codecs/cs35l34.c 861 */;
+	void *cocci_id/* sound/soc/codecs/cs35l34.c 861 */;
+	struct device_node *cocci_id/* sound/soc/codecs/cs35l34.c 808 */;
+	struct cs35l34_platform_data *cocci_id/* sound/soc/codecs/cs35l34.c 806 */;
+	struct i2c_client *cocci_id/* sound/soc/codecs/cs35l34.c 805 */;
+	struct regmap_config cocci_id/* sound/soc/codecs/cs35l34.c 792 */;
+	const struct snd_soc_component_driver cocci_id/* sound/soc/codecs/cs35l34.c 778 */;
+	struct snd_soc_component *cocci_id/* sound/soc/codecs/cs35l34.c 675 */;
+	unsigned int cocci_id/* sound/soc/codecs/cs35l34.c 673 */;
+	struct cs35l34_private *cocci_id/* sound/soc/codecs/cs35l34.c 672 */;
+	int cocci_id/* sound/soc/codecs/cs35l34.c 672 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/codecs/cs35l34.c 651 */;
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/codecs/cs35l34.c 642 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/codecs/cs35l34.c 600 */;
+	const struct snd_pcm_hw_constraint_list cocci_id/* sound/soc/codecs/cs35l34.c 571 */;
+	const unsigned int cocci_id/* sound/soc/codecs/cs35l34.c 566 */[];
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/codecs/cs35l34.c 542 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/codecs/cs35l34.c 541 */;
+	const struct reg_default cocci_id/* sound/soc/codecs/cs35l34.c 52 */[];
+	struct cs35l34_mclk_div cocci_id/* sound/soc/codecs/cs35l34.c 480 */[];
+	struct cs35l34_mclk_div {
+		int mclk;
+		int srate;
+		u8 adsp_rate;
+	} cocci_id/* sound/soc/codecs/cs35l34.c 474 */;
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/codecs/cs35l34.c 452 */[];
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/codecs/cs35l34.c 423 */[];
+	struct cs35l34_private {
+		struct snd_soc_component *component;
+		struct cs35l34_platform_data pdata;
+		struct regmap *regmap;
+		struct regulator_bulk_data core_supplies[2];
+		int num_core_supplies;
+		int mclk_int;
+		bool tdm_mode;
+		struct gpio_desc *reset_gpio;
+	} cocci_id/* sound/soc/codecs/cs35l34.c 41 */;
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/cs35l34.c 370 */[];
+	struct snd_kcontrol *cocci_id/* sound/soc/codecs/cs35l34.c 339 */;
+	struct snd_soc_dapm_widget *cocci_id/* sound/soc/codecs/cs35l34.c 338 */;
+	bool cocci_id/* sound/soc/codecs/cs35l34.c 220 */;
+	struct device *cocci_id/* sound/soc/codecs/cs35l34.c 220 */;
+	void __exit cocci_id/* sound/soc/codecs/cs35l34.c 1230 */;
+	void cocci_id/* sound/soc/codecs/cs35l34.c 1230 */;
+	int __init cocci_id/* sound/soc/codecs/cs35l34.c 1217 */;
+	struct i2c_driver cocci_id/* sound/soc/codecs/cs35l34.c 1204 */;
+	const struct i2c_device_id cocci_id/* sound/soc/codecs/cs35l34.c 1198 */[];
+	const struct of_device_id cocci_id/* sound/soc/codecs/cs35l34.c 1192 */[];
+	const struct dev_pm_ops cocci_id/* sound/soc/codecs/cs35l34.c 1186 */;
+	int __maybe_unused cocci_id/* sound/soc/codecs/cs35l34.c 1138 */;
+}

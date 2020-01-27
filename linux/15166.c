@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	int __user *cocci_id/* drivers/pps/pps.c 96 */;
+	struct pps_kparams cocci_id/* drivers/pps/pps.c 94 */;
+	long long cocci_id/* drivers/pps/pps.c 66 */;
+	struct pps_fdata *cocci_id/* drivers/pps/pps.c 53 */;
+	int __init cocci_id/* drivers/pps/pps.c 455 */;
+	void __exit cocci_id/* drivers/pps/pps.c 449 */;
+	unsigned cocci_id/* drivers/pps/pps.c 434 */;
+	const void *cocci_id/* drivers/pps/pps.c 431 */;
+	__poll_t cocci_id/* drivers/pps/pps.c 38 */;
+	poll_table *cocci_id/* drivers/pps/pps.c 38 */;
+	struct device *cocci_id/* drivers/pps/pps.c 331 */;
+	void cocci_id/* drivers/pps/pps.c 331 */;
+	const struct file_operations cocci_id/* drivers/pps/pps.c 320 */;
+	struct pps_device cocci_id/* drivers/pps/pps.c 302 */;
+	struct inode *cocci_id/* drivers/pps/pps.c 299 */;
+	struct class *cocci_id/* drivers/pps/pps.c 29 */;
+	dev_t cocci_id/* drivers/pps/pps.c 28 */;
+	struct pps_ktime_compat cocci_id/* drivers/pps/pps.c 269 */;
+	int cocci_id/* drivers/pps/pps.c 260 */;
+	struct pps_fdata cocci_id/* drivers/pps/pps.c 259 */;
+	struct pps_fdata_compat cocci_id/* drivers/pps/pps.c 258 */;
+	void *cocci_id/* drivers/pps/pps.c 255 */;
+	void __user *cocci_id/* drivers/pps/pps.c 253 */;
+	struct pps_device *cocci_id/* drivers/pps/pps.c 252 */;
+	unsigned long cocci_id/* drivers/pps/pps.c 250 */;
+	unsigned int cocci_id/* drivers/pps/pps.c 250 */;
+	struct file *cocci_id/* drivers/pps/pps.c 249 */;
+	long cocci_id/* drivers/pps/pps.c 249 */;
+	struct pps_bind_args cocci_id/* drivers/pps/pps.c 207 */;
+}

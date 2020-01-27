@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	struct irq_domain *cocci_id/* drivers/base/regmap/regmap-irq.c 985 */;
+	struct regmap_irq_chip_data *cocci_id/* drivers/base/regmap/regmap-irq.c 930 */;
+	void cocci_id/* drivers/base/regmap/regmap-irq.c 929 */;
+	struct regmap_irq_chip_data **cocci_id/* drivers/base/regmap/regmap-irq.c 896 */;
+	const struct regmap_irq_chip *cocci_id/* drivers/base/regmap/regmap-irq.c 895 */;
+	struct regmap *cocci_id/* drivers/base/regmap/regmap-irq.c 893 */;
+	struct device *cocci_id/* drivers/base/regmap/regmap-irq.c 893 */;
+	int cocci_id/* drivers/base/regmap/regmap-irq.c 893 */;
+	void *cocci_id/* drivers/base/regmap/regmap-irq.c 865 */;
+	u32 cocci_id/* drivers/base/regmap/regmap-irq.c 567 */;
+	const struct irq_domain_ops cocci_id/* drivers/base/regmap/regmap-irq.c 538 */;
+	irq_hw_number_t cocci_id/* drivers/base/regmap/regmap-irq.c 525 */;
+	const struct regmap_irq *cocci_id/* drivers/base/regmap/regmap-irq.c 48 */;
+	u32 *cocci_id/* drivers/base/regmap/regmap-irq.c 437 */;
+	u16 *cocci_id/* drivers/base/regmap/regmap-irq.c 436 */;
+	u8 *cocci_id/* drivers/base/regmap/regmap-irq.c 435 */;
+	const unsigned long cocci_id/* drivers/base/regmap/regmap-irq.c 415 */;
+	unsigned long cocci_id/* drivers/base/regmap/regmap-irq.c 385 */;
+	bool cocci_id/* drivers/base/regmap/regmap-irq.c 362 */;
+	irqreturn_t cocci_id/* drivers/base/regmap/regmap-irq.c 356 */;
+	struct regmap_irq_sub_irq_map *cocci_id/* drivers/base/regmap/regmap-irq.c 334 */;
+	unsigned int cocci_id/* drivers/base/regmap/regmap-irq.c 330 */;
+	const struct irq_chip cocci_id/* drivers/base/regmap/regmap-irq.c 320 */;
+	const struct regmap_irq_type *cocci_id/* drivers/base/regmap/regmap-irq.c 258 */;
+	struct irq_data *cocci_id/* drivers/base/regmap/regmap-irq.c 243 */;
+	struct regmap_irq_chip_data {
+		struct mutex lock;
+		struct irq_chip irq_chip;
+		struct regmap *map;
+		const struct regmap_irq_chip *chip;
+		int irq_base;
+		struct irq_domain *domain;
+		int irq;
+		int wake_count;
+		void *status_reg_buf;
+		unsigned int *main_status_buf;
+		unsigned int *status_buf;
+		unsigned int *mask_buf;
+		unsigned int *mask_buf_def;
+		unsigned int *wake_buf;
+		unsigned int *type_buf;
+		unsigned int *type_buf_def;
+		unsigned int irq_reg_stride;
+		unsigned int type_reg_stride;
+		bool clear_status:1;
+	} cocci_id/* drivers/base/regmap/regmap-irq.c 20 */;
+}

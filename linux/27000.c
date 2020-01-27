@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct xfs_inode_log_format_32 *cocci_id/* fs/xfs/xfs_inode_item.c 830 */;
+	xfs_inode_log_item_t *cocci_id/* fs/xfs/xfs_inode_item.c 786 */;
+	bool cocci_id/* fs/xfs/xfs_inode_item.c 784 */;
+	xfs_inode_t *cocci_id/* fs/xfs/xfs_inode_item.c 783 */;
+	void cocci_id/* fs/xfs/xfs_inode_item.c 781 */;
+	struct xfs_inode *cocci_id/* fs/xfs/xfs_inode_item.c 78 */;
+	int *cocci_id/* fs/xfs/xfs_inode_item.c 75 */;
+	int cocci_id/* fs/xfs/xfs_inode_item.c 694 */;
+	struct xfs_ail *cocci_id/* fs/xfs/xfs_inode_item.c 693 */;
+	struct xfs_buf *cocci_id/* fs/xfs/xfs_inode_item.c 688 */;
+	struct xfs_mount *cocci_id/* fs/xfs/xfs_inode_item.c 650 */;
+	const struct xfs_item_ops cocci_id/* fs/xfs/xfs_inode_item.c 631 */;
+	xfs_lsn_t cocci_id/* fs/xfs/xfs_inode_item.c 607 */;
+	unsigned short cocci_id/* fs/xfs/xfs_inode_item.c 574 */;
+	struct list_head *cocci_id/* fs/xfs/xfs_inode_item.c 489 */;
+	uint cocci_id/* fs/xfs/xfs_inode_item.c 486 */;
+	struct xfs_inode_log_format *cocci_id/* fs/xfs/xfs_inode_item.c 396 */;
+	struct xfs_log_iovec *cocci_id/* fs/xfs/xfs_inode_item.c 395 */;
+	struct xfs_log_vec *cocci_id/* fs/xfs/xfs_inode_item.c 391 */;
+	struct xfs_log_dinode *cocci_id/* fs/xfs/xfs_inode_item.c 369 */;
+	struct inode *cocci_id/* fs/xfs/xfs_inode_item.c 305 */;
+	struct xfs_icdinode *cocci_id/* fs/xfs/xfs_inode_item.c 304 */;
+	unsigned cocci_id/* fs/xfs/xfs_inode_item.c 286 */;
+	struct xfs_inode_log_item cocci_id/* fs/xfs/xfs_inode_item.c 28 */;
+	struct xfs_log_item *cocci_id/* fs/xfs/xfs_inode_item.c 26 */;
+	struct xfs_inode_log_item *cocci_id/* fs/xfs/xfs_inode_item.c 26 */;
+	kmem_zone_t *cocci_id/* fs/xfs/xfs_inode_item.c 24 */;
+	struct xfs_bmbt_rec *cocci_id/* fs/xfs/xfs_inode_item.c 238 */;
+	size_t cocci_id/* fs/xfs/xfs_inode_item.c 228 */;
+	struct xfs_log_iovec **cocci_id/* fs/xfs/xfs_inode_item.c 225 */;
+	struct xfs_inode_log_format cocci_id/* fs/xfs/xfs_inode_item.c 127 */;
+}

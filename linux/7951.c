@@ -1,0 +1,126 @@
+cocci_test_suite() {
+	struct usb_driver cocci_id/* drivers/net/usb/sierra_net.c 960 */;
+	const struct usb_device_id cocci_id/* drivers/net/usb/sierra_net.c 949 */[];
+	const struct usb_device_id *cocci_id/* drivers/net/usb/sierra_net.c 924 */;
+	const struct driver_info cocci_id/* drivers/net/usb/sierra_net.c 913 */;
+	struct cdc_state cocci_id/* drivers/net/usb/sierra_net.c 869 */;
+	struct usbnet cocci_id/* drivers/net/usb/sierra_net.c 868 */;
+	bool cocci_id/* drivers/net/usb/sierra_net.c 866 */;
+	gfp_t cocci_id/* drivers/net/usb/sierra_net.c 862 */;
+	struct param {
+		int is_present;
+		union {
+			void *ptr;
+			u32 dword;
+			u16 word;
+			u8 byte;
+		};
+	} cocci_id/* drivers/net/usb/sierra_net.c 83 */;
+	size_t cocci_id/* drivers/net/usb/sierra_net.c 720 */;
+	const u8 cocci_id/* drivers/net/usb/sierra_net.c 675 */[sizeof(priv->shdwn_msg)];
+	const u8 cocci_id/* drivers/net/usb/sierra_net.c 673 */[sizeof(priv->sync_msg)];
+	u16 cocci_id/* drivers/net/usb/sierra_net.c 670 */;
+	u8 cocci_id/* drivers/net/usb/sierra_net.c 668 */;
+	struct usb_interface *cocci_id/* drivers/net/usb/sierra_net.c 666 */;
+	__le16 cocci_id/* drivers/net/usb/sierra_net.c 644 */;
+	u16 *cocci_id/* drivers/net/usb/sierra_net.c 641 */;
+	const struct ethtool_ops cocci_id/* drivers/net/usb/sierra_net.c 631 */;
+	u32 cocci_id/* drivers/net/usb/sierra_net.c 624 */;
+	struct sierra_net_data {
+		u16 link_up;
+		u8 tx_hdr_template[4];
+		u8 sync_msg[4];
+		u8 shdwn_msg[4];
+		struct usbnet *usbnet;
+		u8 ifnum;
+#define SIERRA_NET_EVENT_RESP_AVAIL 0x01
+#define SIERRA_NET_TIMER_EXPIRY 0x02
+		unsigned long kevent_flags;
+		struct work_struct sierra_net_kevent;
+		struct timer_list sync_timer;
+	} cocci_id/* drivers/net/usb/sierra_net.c 62 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/usb/sierra_net.c 616 */;
+	struct net_device *cocci_id/* drivers/net/usb/sierra_net.c 615 */;
+	struct usb_cdc_notification *cocci_id/* drivers/net/usb/sierra_net.c 591 */;
+	struct urb *cocci_id/* drivers/net/usb/sierra_net.c 589 */;
+	struct timer_list *cocci_id/* drivers/net/usb/sierra_net.c 579 */;
+	struct hip_hdr cocci_id/* drivers/net/usb/sierra_net.c 496 */;
+	struct sierra_net_data cocci_id/* drivers/net/usb/sierra_net.c 470 */;
+	struct work_struct *cocci_id/* drivers/net/usb/sierra_net.c 467 */;
+	atomic_t cocci_id/* drivers/net/usb/sierra_net.c 42 */;
+	char *cocci_id/* drivers/net/usb/sierra_net.c 417 */;
+	struct lsi_umts_single *cocci_id/* drivers/net/usb/sierra_net.c 382 */;
+	struct lsi_umts_single cocci_id/* drivers/net/usb/sierra_net.c 367 */;
+	struct lsi_umts *cocci_id/* drivers/net/usb/sierra_net.c 364 */;
+	struct in_addr cocci_id/* drivers/net/usb/sierra_net.c 359 */;
+	__be16 *cocci_id/* drivers/net/usb/sierra_net.c 353 */;
+	const char *cocci_id/* drivers/net/usb/sierra_net.c 320 */;
+	struct sierra_net_data *cocci_id/* drivers/net/usb/sierra_net.c 307 */;
+	const u16 cocci_id/* drivers/net/usb/sierra_net.c 306 */;
+	u8 *cocci_id/* drivers/net/usb/sierra_net.c 306 */;
+	void cocci_id/* drivers/net/usb/sierra_net.c 306 */;
+	const u32 cocci_id/* drivers/net/usb/sierra_net.c 263 */;
+	const u8 *cocci_id/* drivers/net/usb/sierra_net.c 263 */;
+	struct hip_hdr *cocci_id/* drivers/net/usb/sierra_net.c 263 */;
+	struct hip_hdr {
+		int hdrlen;
+		struct param payload_len;
+		struct param msgid;
+		struct param msgspecific;
+		struct param extmsgid;
+	} cocci_id/* drivers/net/usb/sierra_net.c 255 */;
+	struct param *cocci_id/* drivers/net/usb/sierra_net.c 233 */;
+	struct usbnet *cocci_id/* drivers/net/usb/sierra_net.c 217 */;
+	struct sk_buff *cocci_id/* drivers/net/usb/sierra_net.c 217 */;
+	int cocci_id/* drivers/net/usb/sierra_net.c 217 */;
+	unsigned long cocci_id/* drivers/net/usb/sierra_net.c 202 */;
+	const struct net_device_ops cocci_id/* drivers/net/usb/sierra_net.c 181 */;
+	const char cocci_id/* drivers/net/usb/sierra_net.c 18 */[];
+	struct lsi_umts_dual cocci_id/* drivers/net/usb/sierra_net.c 176 */;
+	struct lsi_umts_dual {
+		struct lsi_umts lsi;
+		u8 pdp_addr4_len;
+		u8 pdp_addr4[4];
+		u8 pdp_addr6_len;
+		u8 pdp_addr6[16];
+		u8 unused4[23];
+		u8 dns1_addr4_len;
+		u8 dns1_addr4[4];
+		u8 dns1_addr6_len;
+		u8 dns1_addr6[16];
+		u8 dns2_addr4_len;
+		u8 dns2_addr4[4];
+		u8 dns2_addr6_len;
+		u8 dns2_addr6[16];
+		u8 unused5[68];
+	}__packed cocci_id/* drivers/net/usb/sierra_net.c 154 */;
+	struct lsi_umts_single {
+		struct lsi_umts lsi;
+		u8 link_type;
+		u8 pdp_addr_len;
+		u8 pdp_addr[16];
+		u8 unused4[23];
+		u8 dns1_addr_len;
+		u8 dns1_addr[16];
+		u8 dns2_addr_len;
+		u8 dns2_addr[16];
+		u8 wins1_addr_len;
+		u8 wins1_addr[16];
+		u8 wins2_addr_len;
+		u8 wins2_addr[16];
+		u8 unused5[4];
+		u8 gw_addr_len;
+		u8 gw_addr[16];
+		u8 reserved[8];
+	}__packed cocci_id/* drivers/net/usb/sierra_net.c 134 */;
+	struct lsi_umts {
+		u8 protocol;
+		u8 unused1;
+		__be16 length;
+		u8 coverage;
+		u8 network_len;
+		u8 network[40];
+		u8 session_state;
+		u8 unused3[33];
+	}__packed cocci_id/* drivers/net/usb/sierra_net.c 122 */;
+}

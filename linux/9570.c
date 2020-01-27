@@ -1,0 +1,68 @@
+cocci_test_suite() {
+	const u8 cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 93 */;
+	u8 cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 85 */[RTW_RATE_SECTION_MAX];
+	union phy_table_tile cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 834 */;
+	struct phy_cfg_pair cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 834 */;
+	const union phy_table_tile *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 829 */;
+	bool cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 807 */;
+	struct rtw_phy_cond cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 807 */;
+	struct rtw_dev *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 807 */;
+	u32 *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 804 */;
+	u8 *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 80 */[RTW_RATE_SECTION_MAX];
+	struct rtw_efuse *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 781 */;
+	const u32 *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 679 */;
+	enum rtw_rf_path cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 674 */;
+	u64 cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 569 */;
+	u32 cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 521 */;
+	struct rtw_dm_info *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 519 */;
+	u8 cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 50 */[];
+	struct rtw_sta_info *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 443 */;
+	struct ieee80211_sta *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 440 */;
+	void *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 440 */;
+	u8 cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 394 */[3];
+	u16 cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 392 */[3];
+	u16 *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 249 */;
+	u16 cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 247 */;
+	const u32 cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 23 */[12][8];
+	struct rtw_phy_stat_iter_data cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 206 */;
+	const u8 *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 2054 */;
+	const struct rtw_pwr_track_tbl *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1978 */;
+	struct rtw_swing_table *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1976 */;
+	s8 cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1911 */;
+	u8 cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1909 */;
+	struct rtw_hal *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1909 */;
+	void cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1908 */;
+	struct rtw_phy_stat_iter_data *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 190 */;
+	struct rtw_phy_stat_iter_data {
+		struct rtw_dev *rtwdev;
+		u8 min_rssi;
+	} cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 183 */;
+	union phy_table_tile {
+		struct rtw_phy_cond cond;
+		struct phy_cfg_pair cfg;
+	} cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 18 */;
+	struct rtw_power_params cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1776 */;
+	s8 *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1747 */;
+	u8 *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1746 */;
+	struct rtw_txpwr_idx *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1744 */;
+	struct rtw_power_params *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1741 */;
+	u8 cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 165 */[RA_FLOOR_TABLE_SIZE];
+	struct rtw_5g_txpwr_idx *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1626 */;
+	enum rtw_bandwidth cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1580 */;
+	struct rtw_2g_txpwr_idx *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1579 */;
+	struct rtw_dpk_info *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1424 */;
+	struct rtw_chip_info *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1423 */;
+	const struct rtw_txpwr_lmt_cfg_pair *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1366 */;
+	u8 cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1323 */[2][2];
+	struct phy_cfg_pair {
+		u32 addr;
+		u32 data;
+	} cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 13 */;
+	int cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1242 */;
+	const u8 cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1233 */[RTW_MAX_CHANNEL_NUM_5G];
+	const struct rtw_phy_pg_cfg_pair *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1219 */;
+	const struct rtw_table *cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1217 */;
+	s8 cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1194 */[RTW_RF_PATH_MAX];
+	u8 cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 1192 */[RTW_RF_PATH_MAX];
+	enum rtw_phy_band_type{PHY_BAND_2G=0, PHY_BAND_5G=1,} cocci_id/* drivers/net/wireless/realtek/rtw88/phy.c 100 */;
+}

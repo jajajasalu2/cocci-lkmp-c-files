@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/i2c/busses/i2c-xiic.c 876 */;
+	const struct dev_pm_ops cocci_id/* drivers/i2c/busses/i2c-xiic.c 872 */;
+	struct device *cocci_id/* drivers/i2c/busses/i2c-xiic.c 858 */;
+	int __maybe_unused cocci_id/* drivers/i2c/busses/i2c-xiic.c 858 */;
+	const struct of_device_id cocci_id/* drivers/i2c/busses/i2c-xiic.c 842 */[];
+	struct resource *cocci_id/* drivers/i2c/busses/i2c-xiic.c 731 */;
+	struct xiic_i2c_platform_data *cocci_id/* drivers/i2c/busses/i2c-xiic.c 730 */;
+	struct platform_device *cocci_id/* drivers/i2c/busses/i2c-xiic.c 727 */;
+	const struct i2c_adapter cocci_id/* drivers/i2c/busses/i2c-xiic.c 718 */;
+	const struct i2c_adapter_quirks cocci_id/* drivers/i2c/busses/i2c-xiic.c 714 */;
+	const struct i2c_algorithm cocci_id/* drivers/i2c/busses/i2c-xiic.c 709 */;
+	u32 cocci_id/* drivers/i2c/busses/i2c-xiic.c 704 */;
+	struct i2c_adapter *cocci_id/* drivers/i2c/busses/i2c-xiic.c 704 */;
+	struct xiic_i2c {
+		struct device *dev;
+		void __iomem *base;
+		wait_queue_head_t wait;
+		struct i2c_adapter adap;
+		struct i2c_msg *tx_msg;
+		struct mutex lock;
+		unsigned int tx_pos;
+		unsigned int nmsgs;
+		enum xilinx_i2c_state state;
+		struct i2c_msg *rx_msg;
+		int rx_pos;
+		enum xiic_endian endianness;
+		struct clk *clk;
+	} cocci_id/* drivers/i2c/busses/i2c-xiic.c 63 */;
+	int cocci_id/* drivers/i2c/busses/i2c-xiic.c 616 */;
+	struct xiic_i2c *cocci_id/* drivers/i2c/busses/i2c-xiic.c 614 */;
+	void cocci_id/* drivers/i2c/busses/i2c-xiic.c 614 */;
+	irqreturn_t cocci_id/* drivers/i2c/busses/i2c-xiic.c 594 */;
+	void *cocci_id/* drivers/i2c/busses/i2c-xiic.c 594 */;
+	unsigned long cocci_id/* drivers/i2c/busses/i2c-xiic.c 528 */;
+	struct i2c_msg *cocci_id/* drivers/i2c/busses/i2c-xiic.c 527 */;
+	u8 cocci_id/* drivers/i2c/busses/i2c-xiic.c 498 */;
+	enum xiic_endian{LITTLE, BIG,} cocci_id/* drivers/i2c/busses/i2c-xiic.c 42 */;
+	enum xilinx_i2c_state{STATE_DONE, STATE_ERROR, STATE_START,} cocci_id/* drivers/i2c/busses/i2c-xiic.c 36 */;
+	u16 cocci_id/* drivers/i2c/busses/i2c-xiic.c 334 */;
+	void cocci_id/* drivers/i2c/busses/i2c-xiic.c 170 */(struct xiic_i2c *i2c);
+}

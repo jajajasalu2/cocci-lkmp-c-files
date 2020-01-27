@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	void cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 95 */;
+	struct csi2rx_priv cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 92 */;
+	struct csi2rx_priv {
+		struct device *dev;
+		unsigned int count;
+		struct mutex lock;
+		void __iomem *base;
+		struct clk *sys_clk;
+		struct clk *p_clk;
+		struct clk *pixel_clk[CSI2RX_STREAMS_MAX];
+		struct phy *dphy;
+		u8 lanes[CSI2RX_LANES_MAX];
+		u8 num_lanes;
+		u8 max_lanes;
+		u8 max_streams;
+		bool has_internal_dphy;
+		struct v4l2_subdev subdev;
+		struct v4l2_async_notifier notifier;
+		struct media_pad pads[CSI2RX_PAD_MAX];
+		struct v4l2_async_subdev asd;
+		struct v4l2_subdev *source_subdev;
+		int source_pad;
+	} cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 57 */;
+	struct platform_driver cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 493 */;
+	const struct of_device_id cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 487 */[];
+	enum csi2rx_pads{CSI2RX_PAD_SINK, CSI2RX_PAD_SOURCE_STREAM0, CSI2RX_PAD_SOURCE_STREAM1, CSI2RX_PAD_SOURCE_STREAM2, CSI2RX_PAD_SOURCE_STREAM3, CSI2RX_PAD_MAX,} cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 48 */;
+	unsigned int cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 423 */;
+	struct device_node *cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 366 */;
+	struct fwnode_handle *cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 365 */;
+	struct v4l2_fwnode_endpoint cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 364 */;
+	char cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 349 */[16];
+	u32 cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 285 */;
+	unsigned char cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 284 */;
+	struct resource *cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 283 */;
+	struct platform_device *cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 281 */;
+	const struct v4l2_async_notifier_operations cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 276 */;
+	struct csi2rx_priv *cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 253 */;
+	struct v4l2_async_subdev *cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 250 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 249 */;
+	struct v4l2_async_notifier *cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 248 */;
+	int cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 248 */;
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 244 */;
+	const struct v4l2_subdev_video_ops cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 240 */;
+	unsigned long cocci_id/* drivers/media/platform/cadence/cdns-csi2rx.c 108 */;
+}

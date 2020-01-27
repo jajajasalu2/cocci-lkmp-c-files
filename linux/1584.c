@@ -1,0 +1,47 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/usb/serial/iuu_phoenix.c 959 */;
+	struct device *cocci_id/* drivers/usb/serial/iuu_phoenix.c 956 */;
+	struct tty_struct *cocci_id/* drivers/usb/serial/iuu_phoenix.c 943 */;
+	void cocci_id/* drivers/usb/serial/iuu_phoenix.c 931 */;
+	const u32 cocci_id/* drivers/usb/serial/iuu_phoenix.c 880 */;
+	struct ktermios *cocci_id/* drivers/usb/serial/iuu_phoenix.c 878 */;
+	u32 *cocci_id/* drivers/usb/serial/iuu_phoenix.c 781 */;
+	struct iuu_private cocci_id/* drivers/usb/serial/iuu_phoenix.c 70 */;
+	const u8 *cocci_id/* drivers/usb/serial/iuu_phoenix.c 695 */;
+	unsigned char *cocci_id/* drivers/usb/serial/iuu_phoenix.c 642 */;
+	char *cocci_id/* drivers/usb/serial/iuu_phoenix.c 598 */;
+	unsigned long cocci_id/* drivers/usb/serial/iuu_phoenix.c 595 */;
+	struct iuu_private *cocci_id/* drivers/usb/serial/iuu_phoenix.c 594 */;
+	struct iuu_private {
+		spinlock_t lock;
+		u8 line_status;
+		int tiostatus;
+		u8 reset;
+		int poll;
+		u8 *writebuf;
+		int writelen;
+		u8 *buf;
+		u8 len;
+		int vcc;
+		u32 boost;
+		u32 clk;
+	} cocci_id/* drivers/usb/serial/iuu_phoenix.c 50 */;
+	void cocci_id/* drivers/usb/serial/iuu_phoenix.c 48 */(struct urb *urb);
+	int cocci_id/* drivers/usb/serial/iuu_phoenix.c 46 */(struct usb_serial_port *port);
+	char cocci_id/* drivers/usb/serial/iuu_phoenix.c 443 */;
+	unsigned int cocci_id/* drivers/usb/serial/iuu_phoenix.c 408 */;
+	int cocci_id/* drivers/usb/serial/iuu_phoenix.c 38 */;
+	struct urb *cocci_id/* drivers/usb/serial/iuu_phoenix.c 372 */;
+	const struct usb_device_id cocci_id/* drivers/usb/serial/iuu_phoenix.c 31 */[];
+	struct usb_serial *cocci_id/* drivers/usb/serial/iuu_phoenix.c 274 */;
+	u8 cocci_id/* drivers/usb/serial/iuu_phoenix.c 271 */;
+	u8 *cocci_id/* drivers/usb/serial/iuu_phoenix.c 271 */;
+	struct usb_serial_port *cocci_id/* drivers/usb/serial/iuu_phoenix.c 271 */;
+	bool cocci_id/* drivers/usb/serial/iuu_phoenix.c 1187 */;
+	struct usb_serial_driver *const cocci_id/* drivers/usb/serial/iuu_phoenix.c 1176 */[];
+	struct usb_serial_driver cocci_id/* drivers/usb/serial/iuu_phoenix.c 1153 */;
+	const char *cocci_id/* drivers/usb/serial/iuu_phoenix.c 1113 */;
+	size_t cocci_id/* drivers/usb/serial/iuu_phoenix.c 1113 */;
+	struct device_attribute *cocci_id/* drivers/usb/serial/iuu_phoenix.c 1104 */;
+	ssize_t cocci_id/* drivers/usb/serial/iuu_phoenix.c 1103 */;
+}

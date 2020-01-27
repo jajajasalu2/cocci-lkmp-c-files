@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	const struct clk_parent_data cocci_id/* drivers/clk/qcom/gcc-sc7180.c 829 */;
+	struct clk_init_data cocci_id/* drivers/clk/qcom/gcc-sc7180.c 827 */;
+	struct clk_branch cocci_id/* drivers/clk/qcom/gcc-sc7180.c 819 */;
+	struct clk_fixed_factor cocci_id/* drivers/clk/qcom/gcc-sc7180.c 76 */;
+	struct clk_alpha_pll_postdiv cocci_id/* drivers/clk/qcom/gcc-sc7180.c 59 */;
+	const struct clk_div_table cocci_id/* drivers/clk/qcom/gcc-sc7180.c 54 */[];
+	struct clk_alpha_pll cocci_id/* drivers/clk/qcom/gcc-sc7180.c 36 */;
+	struct clk_rcg2 cocci_id/* drivers/clk/qcom/gcc-sc7180.c 279 */;
+	const struct freq_tbl cocci_id/* drivers/clk/qcom/gcc-sc7180.c 274 */[];
+	void __exit cocci_id/* drivers/clk/qcom/gcc-sc7180.c 2445 */;
+	void cocci_id/* drivers/clk/qcom/gcc-sc7180.c 2445 */;
+	int __init cocci_id/* drivers/clk/qcom/gcc-sc7180.c 2439 */;
+	struct platform_driver cocci_id/* drivers/clk/qcom/gcc-sc7180.c 2431 */;
+	enum{P_BI_TCXO, P_CORE_BI_PLL_TEST_SE, P_GPLL0_OUT_EVEN, P_GPLL0_OUT_MAIN, P_GPLL1_OUT_MAIN, P_GPLL4_OUT_MAIN, P_GPLL6_OUT_MAIN, P_GPLL7_OUT_MAIN, P_SLEEP_CLK,} cocci_id/* drivers/clk/qcom/gcc-sc7180.c 24 */;
+	struct regmap *cocci_id/* drivers/clk/qcom/gcc-sc7180.c 2398 */;
+	struct platform_device *cocci_id/* drivers/clk/qcom/gcc-sc7180.c 2396 */;
+	int cocci_id/* drivers/clk/qcom/gcc-sc7180.c 2396 */;
+	const struct of_device_id cocci_id/* drivers/clk/qcom/gcc-sc7180.c 2390 */[];
+	const struct qcom_cc_desc cocci_id/* drivers/clk/qcom/gcc-sc7180.c 2378 */;
+	const struct regmap_config cocci_id/* drivers/clk/qcom/gcc-sc7180.c 2370 */;
+	struct clk_rcg_dfs_data cocci_id/* drivers/clk/qcom/gcc-sc7180.c 2355 */[];
+	const struct qcom_reset_map cocci_id/* drivers/clk/qcom/gcc-sc7180.c 2341 */[];
+	struct clk_regmap *cocci_id/* drivers/clk/qcom/gcc-sc7180.c 2216 */[];
+	struct clk_hw *cocci_id/* drivers/clk/qcom/gcc-sc7180.c 2212 */[];
+	struct gdsc *cocci_id/* drivers/clk/qcom/gcc-sc7180.c 2202 */[];
+	struct gdsc cocci_id/* drivers/clk/qcom/gcc-sc7180.c 2184 */;
+	const struct clk_parent_data cocci_id/* drivers/clk/qcom/gcc-sc7180.c 168 */[];
+	const struct parent_map cocci_id/* drivers/clk/qcom/gcc-sc7180.c 161 */[];
+}

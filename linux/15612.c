@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	struct usb_driver cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 864 */;
+	const struct usb_device_id cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 849 */[];
+	struct usb_hcd *cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 835 */;
+	const struct usb_device_id *cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 786 */;
+	struct usb_device *cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 710 */;
+	kernel_ulong_t cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 704 */;
+	struct usb_interface *cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 703 */;
+	void **cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 643 */;
+	char cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 633 */[64];
+	void *cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 630 */;
+	struct usb_encryption_descriptor *cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 629 */;
+	struct usb_security_descriptor *cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 628 */;
+	struct usb_hcd cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 606 */;
+	const struct hc_driver cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 603 */;
+	struct usb_wa_descriptor *cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 559 */;
+	struct usb_descriptor_header *cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 558 */;
+	char *cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 556 */;
+	struct hwahc {
+		struct wusbhc wusbhc;
+		struct wahc wa;
+	} cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 51 */;
+	struct usb_key_descriptor *cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 459 */;
+	struct wahc *cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 457 */;
+	struct hwahc cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 456 */;
+	struct hwahc *cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 456 */;
+	const void *cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 452 */;
+	size_t cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 452 */;
+	u8 cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 451 */;
+	u32 cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 451 */;
+	struct wusbhc *cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 451 */;
+	int cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 451 */;
+	struct hwa_dev_info cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 415 */;
+	struct hwa_dev_info *cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 411 */;
+	struct wusb_dev *cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 406 */;
+	struct wuie_hdr *cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 368 */;
+	u8 cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 326 */[UWB_NUM_MAS / 8];
+	struct device *cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 325 */;
+	const struct uwb_mas_bm *cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 320 */;
+	s8 cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 319 */;
+	void cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 293 */;
+	struct usb_host_interface *cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 256 */;
+	struct usb_host_endpoint *cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 221 */;
+	struct urb *cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 206 */;
+	gfp_t cocci_id/* drivers/staging/wusbcore/host/hwa-hc.c 198 */;
+}

@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* drivers/tty/serial/pxa.c 96 */;
+	int *cocci_id/* drivers/tty/serial/pxa.c 94 */;
+	int __init cocci_id/* drivers/tty/serial/pxa.c 931 */;
+	struct platform_driver cocci_id/* drivers/tty/serial/pxa.c 916 */;
+	struct uart_pxa_port cocci_id/* drivers/tty/serial/pxa.c 857 */;
+	struct resource *cocci_id/* drivers/tty/serial/pxa.c 849 */;
+	struct platform_device *cocci_id/* drivers/tty/serial/pxa.c 846 */;
+	struct device_node *cocci_id/* drivers/tty/serial/pxa.c 831 */;
+	const struct of_device_id cocci_id/* drivers/tty/serial/pxa.c 822 */[];
+	const struct dev_pm_ops cocci_id/* drivers/tty/serial/pxa.c 816 */;
+	struct device *cocci_id/* drivers/tty/serial/pxa.c 806 */;
+	const struct uart_ops cocci_id/* drivers/tty/serial/pxa.c 761 */;
+	struct console cocci_id/* drivers/tty/serial/pxa.c 746 */;
+	struct console *cocci_id/* drivers/tty/serial/pxa.c 726 */;
+	char *cocci_id/* drivers/tty/serial/pxa.c 726 */;
+	int __init cocci_id/* drivers/tty/serial/pxa.c 725 */;
+	const char *cocci_id/* drivers/tty/serial/pxa.c 641 */;
+	struct uart_driver cocci_id/* drivers/tty/serial/pxa.c 592 */;
+	struct uart_pxa_port *cocci_id/* drivers/tty/serial/pxa.c 591 */[4];
+	struct serial_struct *cocci_id/* drivers/tty/serial/pxa.c 578 */;
+	struct uart_pxa_port {
+		struct uart_port port;
+		unsigned char ier;
+		unsigned char lcr;
+		unsigned char mcr;
+		unsigned int lsr_break_flag;
+		struct clk *clk;
+		char name[PXA_NAME_LEN];
+	} cocci_id/* drivers/tty/serial/pxa.c 45 */;
+	struct ktermios *cocci_id/* drivers/tty/serial/pxa.c 428 */;
+	unsigned long cocci_id/* drivers/tty/serial/pxa.c 322 */;
+	struct uart_port *cocci_id/* drivers/tty/serial/pxa.c 319 */;
+	unsigned char cocci_id/* drivers/tty/serial/pxa.c 281 */;
+	irqreturn_t cocci_id/* drivers/tty/serial/pxa.c 246 */;
+	void *cocci_id/* drivers/tty/serial/pxa.c 246 */;
+	int cocci_id/* drivers/tty/serial/pxa.c 224 */;
+	struct uart_pxa_port *cocci_id/* drivers/tty/serial/pxa.c 222 */;
+	void cocci_id/* drivers/tty/serial/pxa.c 222 */;
+	struct circ_buf *cocci_id/* drivers/tty/serial/pxa.c 180 */;
+}

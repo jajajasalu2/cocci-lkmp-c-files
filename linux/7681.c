@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct circ_buf *cocci_id/* drivers/tty/serial/milbeaut_usio.c 79 */;
+	void __exit cocci_id/* drivers/tty/serial/milbeaut_usio.c 603 */;
+	struct platform_driver cocci_id/* drivers/tty/serial/milbeaut_usio.c 576 */;
+	const struct of_device_id cocci_id/* drivers/tty/serial/milbeaut_usio.c 570 */[];
+	void *cocci_id/* drivers/tty/serial/milbeaut_usio.c 521 */;
+	struct resource *cocci_id/* drivers/tty/serial/milbeaut_usio.c 505 */;
+	struct clk *cocci_id/* drivers/tty/serial/milbeaut_usio.c 503 */;
+	struct platform_device *cocci_id/* drivers/tty/serial/milbeaut_usio.c 501 */;
+	struct earlycon_device *cocci_id/* drivers/tty/serial/milbeaut_usio.c 476 */;
+	u_int cocci_id/* drivers/tty/serial/milbeaut_usio.c 469 */;
+	int __init cocci_id/* drivers/tty/serial/milbeaut_usio.c 460 */;
+	struct console cocci_id/* drivers/tty/serial/milbeaut_usio.c 450 */;
+	struct uart_driver cocci_id/* drivers/tty/serial/milbeaut_usio.c 449 */;
+	struct console *cocci_id/* drivers/tty/serial/milbeaut_usio.c 423 */;
+	char *cocci_id/* drivers/tty/serial/milbeaut_usio.c 423 */;
+	unsigned int cocci_id/* drivers/tty/serial/milbeaut_usio.c 416 */;
+	const char *cocci_id/* drivers/tty/serial/milbeaut_usio.c 415 */;
+	const struct uart_ops cocci_id/* drivers/tty/serial/milbeaut_usio.c 389 */;
+	struct ktermios *cocci_id/* drivers/tty/serial/milbeaut_usio.c 305 */;
+	unsigned char cocci_id/* drivers/tty/serial/milbeaut_usio.c 260 */;
+	int cocci_id/* drivers/tty/serial/milbeaut_usio.c 26 */[CONFIG_SERIAL_MILBEAUT_USIO_PORTS][2];
+	struct uart_port *cocci_id/* drivers/tty/serial/milbeaut_usio.c 251 */;
+	int cocci_id/* drivers/tty/serial/milbeaut_usio.c 251 */;
+	void cocci_id/* drivers/tty/serial/milbeaut_usio.c 251 */;
+	struct uart_port cocci_id/* drivers/tty/serial/milbeaut_usio.c 22 */[CONFIG_SERIAL_MILBEAUT_USIO_PORTS];
+	irqreturn_t cocci_id/* drivers/tty/serial/milbeaut_usio.c 212 */;
+	u8 cocci_id/* drivers/tty/serial/milbeaut_usio.c 158 */;
+	char cocci_id/* drivers/tty/serial/milbeaut_usio.c 157 */;
+	unsigned long cocci_id/* drivers/tty/serial/milbeaut_usio.c 156 */;
+	struct tty_port *cocci_id/* drivers/tty/serial/milbeaut_usio.c 155 */;
+	u16 cocci_id/* drivers/tty/serial/milbeaut_usio.c 127 */;
+}

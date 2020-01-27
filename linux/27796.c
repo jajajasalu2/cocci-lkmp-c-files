@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	const struct kernel_param *cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 83 */;
+	void __exit cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 648 */;
+	struct dlmfs_inode_private cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 618 */;
+	int __init cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 612 */;
+	struct file_system_type cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 604 */;
+	const char *cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 599 */;
+	struct file_system_type *cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 598 */;
+	void *cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 549 */;
+	const struct qstr *cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 500 */;
+	struct workqueue_struct *cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 50 */;
+	bool cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 496 */;
+	umode_t cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 495 */;
+	struct dentry *cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 494 */;
+	int cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 493 */;
+	struct kmem_cache *cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 48 */;
+	struct ocfs2_cluster_connection *cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 453 */;
+	const struct inode_operations cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 45 */;
+	const struct file_operations cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 44 */;
+	const struct super_operations cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 43 */;
+	void cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 343 */;
+	struct dlmfs_inode_private *cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 329 */;
+	struct super_block *cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 327 */;
+	struct inode *cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 327 */;
+	const char __user *cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 273 */;
+	char *cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 231 */;
+	loff_t *cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 227 */;
+	size_t cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 226 */;
+	char __user *cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 225 */;
+	ssize_t cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 224 */;
+	__poll_t cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 208 */;
+	poll_table *cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 208 */;
+	struct iattr *cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 193 */;
+	struct dlmfs_filp_private *cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 122 */;
+	struct file *cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 119 */;
+	int *cocci_id/* fs/ocfs2/dlmfs/dlmfs.c 103 */;
+}

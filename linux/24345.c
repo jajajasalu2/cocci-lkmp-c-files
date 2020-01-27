@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	enum ib_qp_attr_mask cocci_id/* net/smc/smc_ib.c 63 */;
+	int __init cocci_id/* net/smc/smc_ib.c 592 */;
+	size_t cocci_id/* net/smc/smc_ib.c 560 */;
+	int cocci_id/* net/smc/smc_ib.c 536 */;
+	u8 cocci_id/* net/smc/smc_ib.c 535 */;
+	struct smc_ib_device *cocci_id/* net/smc/smc_ib.c 534 */;
+	struct ib_device *cocci_id/* net/smc/smc_ib.c 532 */;
+	void cocci_id/* net/smc/smc_ib.c 532 */;
+	struct ib_client cocci_id/* net/smc/smc_ib.c 529 */;
+	struct ib_cq_init_attr cocci_id/* net/smc/smc_ib.c 484 */;
+	long cocci_id/* net/smc/smc_ib.c 482 */;
+	struct ib_qp_attr cocci_id/* net/smc/smc_ib.c 48 */;
+	enum dma_data_direction cocci_id/* net/smc/smc_ib.c 454 */;
+	struct smc_buf_desc *cocci_id/* net/smc/smc_ib.c 453 */;
+	u8 cocci_id/* net/smc/smc_ib.c 42 */[SMC_SYSTEMID_LEN];
+	struct scatterlist *cocci_id/* net/smc/smc_ib.c 416 */;
+	struct ib_pd *cocci_id/* net/smc/smc_ib.c 389 */;
+	unsigned int cocci_id/* net/smc/smc_ib.c 376 */;
+	struct ib_mr *cocci_id/* net/smc/smc_ib.c 369 */;
+	struct smc_ib_devices cocci_id/* net/smc/smc_ib.c 35 */;
+	struct ib_qp_init_attr cocci_id/* net/smc/smc_ib.c 340 */;
+	void *cocci_id/* net/smc/smc_ib.c 309 */;
+	struct smc_link *cocci_id/* net/smc/smc_ib.c 298 */;
+	struct smc_ib_device cocci_id/* net/smc/smc_ib.c 262 */;
+	struct ib_event *cocci_id/* net/smc/smc_ib.c 257 */;
+	struct ib_event_handler *cocci_id/* net/smc/smc_ib.c 256 */;
+	struct work_struct *cocci_id/* net/smc/smc_ib.c 237 */;
+	const struct net_device *cocci_id/* net/smc/smc_ib.c 184 */;
+	const struct ib_gid_attr *cocci_id/* net/smc/smc_ib.c 183 */;
+	u8 cocci_id/* net/smc/smc_ib.c 181 */[];
+	u8 *cocci_id/* net/smc/smc_ib.c 181 */;
+	unsigned short cocci_id/* net/smc/smc_ib.c 181 */;
+	bool cocci_id/* net/smc/smc_ib.c 174 */;
+	struct smc_link_group *cocci_id/* net/smc/smc_ib.c 117 */;
+}

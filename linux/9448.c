@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	struct rtl_pci *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 997 */;
+	u64 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 950 */;
+	dma_addr_t *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 931 */;
+	u32 *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 897 */;
+	struct ieee80211_key_conf *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 767 */;
+	struct rtlwifi_tx_info *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 651 */;
+	struct rtl_hal *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 650 */;
+	struct ieee80211_sta *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 643 */;
+	struct ieee80211_tx_info *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 642 */;
+	dma_addr_t cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 555 */;
+	s8 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 37 */;
+	struct phy_status_rpt *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 36 */;
+	struct rtl_priv *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 35 */;
+	struct ieee80211_rx_status *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 329 */;
+	bool cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 31 */;
+	struct rx_fwinfo *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 30 */;
+	struct rtl_stats *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 29 */;
+	struct ieee80211_hw *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 28 */;
+	__le32 *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 278 */;
+	u32 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 277 */;
+	u8 *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 275 */;
+	struct rtl_tcb_desc *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 274 */;
+	void cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 274 */;
+	u16 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 262 */;
+	struct ieee80211_qos_hdr *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 260 */;
+	struct ieee80211_hdr *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 222 */;
+	struct rtl_efuse *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 221 */;
+	struct rtl_mac *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 220 */;
+	int cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 194 */;
+	__le16 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 18 */;
+	u8 cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 16 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 16 */;
+	struct rtl8192_tx_ring *cocci_id/* drivers/net/wireless/realtek/rtlwifi/rtl8192ee/trx.c 1002 */;
+}

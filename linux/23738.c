@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	void __exit cocci_id/* net/tls/tls_main.c 863 */;
+	int __init cocci_id/* net/tls/tls_main.c 845 */;
+	struct tcp_ulp_ops cocci_id/* net/tls/tls_main.c 836 */;
+	struct pernet_operations cocci_id/* net/tls/tls_main.c 831 */;
+	struct net *cocci_id/* net/tls/tls_main.c 825 */;
+	void __net_exit cocci_id/* net/tls/tls_main.c 825 */;
+	struct linux_tls_mib cocci_id/* net/tls/tls_main.c 811 */;
+	int __net_init cocci_id/* net/tls/tls_main.c 807 */;
+	struct nlattr *cocci_id/* net/tls/tls_main.c 750 */;
+	long *cocci_id/* net/tls/tls_main.c 75 */;
+	u16 cocci_id/* net/tls/tls_main.c 748 */;
+	const struct sock *cocci_id/* net/tls/tls_main.c 746 */;
+	struct sk_buff *cocci_id/* net/tls/tls_main.c 746 */;
+	struct proto *cocci_id/* net/tls/tls_main.c 655 */;
+	struct proto cocci_id/* net/tls/tls_main.c 654 */[TLS_NUM_CONFIG][TLS_NUM_CONFIG];
+	void cocci_id/* net/tls/tls_main.c 654 */;
+	void cocci_id/* net/tls/tls_main.c 65 */(struct proto prot[TLS_NUM_CONFIG][TLS_NUM_CONFIG],
+						 struct proto *base);
+	struct proto_ops cocci_id/* net/tls/tls_main.c 64 */;
+	struct proto cocci_id/* net/tls/tls_main.c 63 */[TLS_NUM_PROTS][TLS_NUM_CONFIG][TLS_NUM_CONFIG];
+	struct inet_connection_sock *cocci_id/* net/tls/tls_main.c 615 */;
+	unsigned int cocci_id/* net/tls/tls_main.c 582 */;
+	union tls_crypto_context cocci_id/* net/tls/tls_main.c 576 */;
+	enum{TLSV4, TLSV6, TLS_NUM_PROTS,} cocci_id/* net/tls/tls_main.c 53 */;
+	struct tls12_crypto_info_aes_ccm_128 cocci_id/* net/tls/tls_main.c 512 */;
+	size_t cocci_id/* net/tls/tls_main.c 458 */;
+	int __user *cocci_id/* net/tls/tls_main.c 425 */;
+	char __user *cocci_id/* net/tls/tls_main.c 425 */;
+	struct sock *cocci_id/* net/tls/tls_main.c 424 */;
+	int cocci_id/* net/tls/tls_main.c 424 */;
+	struct tls12_crypto_info_aes_gcm_256 cocci_id/* net/tls/tls_main.c 396 */;
+	struct tls12_crypto_info_aes_gcm_256 *cocci_id/* net/tls/tls_main.c 393 */;
+	struct tls12_crypto_info_aes_gcm_128 cocci_id/* net/tls/tls_main.c 372 */;
+	struct tls12_crypto_info_aes_gcm_128 *cocci_id/* net/tls/tls_main.c 369 */;
+	struct tls_crypto_info *cocci_id/* net/tls/tls_main.c 337 */;
+	struct tls_context *cocci_id/* net/tls/tls_main.c 336 */;
+	bool cocci_id/* net/tls/tls_main.c 301 */;
+	long cocci_id/* net/tls/tls_main.c 270 */;
+	struct scatterlist *cocci_id/* net/tls/tls_main.c 214 */;
+	struct cmsghdr *cocci_id/* net/tls/tls_main.c 167 */;
+	unsigned char *cocci_id/* net/tls/tls_main.c 165 */;
+	struct msghdr *cocci_id/* net/tls/tls_main.c 164 */;
+	void *cocci_id/* net/tls/tls_main.c 134 */;
+	struct page *cocci_id/* net/tls/tls_main.c 107 */;
+}

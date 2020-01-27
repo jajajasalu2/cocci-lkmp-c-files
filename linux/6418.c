@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct regulator_desc *cocci_id/* drivers/regulator/palmas-regulator.c 900 */;
+	struct regulator_config cocci_id/* drivers/regulator/palmas-regulator.c 894 */;
+	const char *cocci_id/* drivers/regulator/palmas-regulator.c 893 */;
+	struct palmas_regs_info *cocci_id/* drivers/regulator/palmas-regulator.c 853 */;
+	unsigned int cocci_id/* drivers/regulator/palmas-regulator.c 849 */;
+	struct palmas *cocci_id/* drivers/regulator/palmas-regulator.c 847 */;
+	void cocci_id/* drivers/regulator/palmas-regulator.c 847 */;
+	const struct regulator_ops cocci_id/* drivers/regulator/palmas-regulator.c 646 */;
+	struct palmas_pmic *cocci_id/* drivers/regulator/palmas-regulator.c 483 */;
+	struct regulator_dev *cocci_id/* drivers/regulator/palmas-regulator.c 481 */;
+	bool cocci_id/* drivers/regulator/palmas-regulator.c 446 */;
+	unsigned int *cocci_id/* drivers/regulator/palmas-regulator.c 419 */;
+	struct palmas_regs_info cocci_id/* drivers/regulator/palmas-regulator.c 39 */[];
+	const unsigned int cocci_id/* drivers/regulator/palmas-regulator.c 380 */[4];
+	struct palmas_sleep_requestor_info cocci_id/* drivers/regulator/palmas-regulator.c 327 */[];
+	const struct regulator_linear_range cocci_id/* drivers/regulator/palmas-regulator.c 32 */[];
+	void __exit cocci_id/* drivers/regulator/palmas-regulator.c 1680 */;
+	int __init cocci_id/* drivers/regulator/palmas-regulator.c 1674 */;
+	struct platform_driver cocci_id/* drivers/regulator/palmas-regulator.c 1666 */;
+	const struct of_device_id *cocci_id/* drivers/regulator/palmas-regulator.c 1604 */;
+	struct platform_device *cocci_id/* drivers/regulator/palmas-regulator.c 1595 */;
+	const struct of_device_id cocci_id/* drivers/regulator/palmas-regulator.c 1555 */[];
+	struct palmas_reg_init *cocci_id/* drivers/regulator/palmas-regulator.c 1491 */;
+	struct of_regulator_match *cocci_id/* drivers/regulator/palmas-regulator.c 1490 */;
+	u32 cocci_id/* drivers/regulator/palmas-regulator.c 1472 */;
+	struct palmas_pmic_driver_data *cocci_id/* drivers/regulator/palmas-regulator.c 1469 */;
+	struct palmas_pmic_platform_data *cocci_id/* drivers/regulator/palmas-regulator.c 1468 */;
+	struct device_node *cocci_id/* drivers/regulator/palmas-regulator.c 1467 */;
+	struct device *cocci_id/* drivers/regulator/palmas-regulator.c 1466 */;
+	int cocci_id/* drivers/regulator/palmas-regulator.c 1466 */;
+	struct palmas_pmic_driver_data cocci_id/* drivers/regulator/palmas-regulator.c 1438 */;
+	struct of_regulator_match cocci_id/* drivers/regulator/palmas-regulator.c 1389 */[];
+}

@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	unsigned cocci_id/* drivers/usb/phy/phy-fsl-usb.c 968 */;
+	struct device_attribute *cocci_id/* drivers/usb/phy/phy-fsl-usb.c 964 */;
+	char *cocci_id/* drivers/usb/phy/phy-fsl-usb.c 964 */;
+	ssize_t cocci_id/* drivers/usb/phy/phy-fsl-usb.c 963 */;
+	void (*cocci_id/* drivers/usb/phy/phy-fsl-usb.c 94 */)(u32 v,
+							       unsigned __iomem *p);
+	u32 (*cocci_id/* drivers/usb/phy/phy-fsl-usb.c 93 */)(const unsigned __iomem *p);
+	struct usb_dr_mmap cocci_id/* drivers/usb/phy/phy-fsl-usb.c 857 */;
+	struct resource *cocci_id/* drivers/usb/phy/phy-fsl-usb.c 838 */;
+	struct usb_phy *cocci_id/* drivers/usb/phy/phy-fsl-usb.c 835 */;
+	unsigned __iomem *cocci_id/* drivers/usb/phy/phy-fsl-usb.c 83 */;
+	void cocci_id/* drivers/usb/phy/phy-fsl-usb.c 83 */;
+	struct usb_otg cocci_id/* drivers/usb/phy/phy-fsl-usb.c 785 */;
+	struct fsl_otg cocci_id/* drivers/usb/phy/phy-fsl-usb.c 781 */;
+	struct fsl_otg *cocci_id/* drivers/usb/phy/phy-fsl-usb.c 774 */;
+	struct platform_device *cocci_id/* drivers/usb/phy/phy-fsl-usb.c 772 */;
+	struct otg_fsm_ops cocci_id/* drivers/usb/phy/phy-fsl-usb.c 757 */;
+	u32 cocci_id/* drivers/usb/phy/phy-fsl-usb.c 73 */;
+	const unsigned __iomem *cocci_id/* drivers/usb/phy/phy-fsl-usb.c 73 */;
+	struct usb_otg *cocci_id/* drivers/usb/phy/phy-fsl-usb.c 709 */;
+	irqreturn_t cocci_id/* drivers/usb/phy/phy-fsl-usb.c 706 */;
+	const struct fsl_otg_config cocci_id/* drivers/usb/phy/phy-fsl-usb.c 68 */;
+	struct list_head cocci_id/* drivers/usb/phy/phy-fsl-usb.c 66 */;
+	struct work_struct *cocci_id/* drivers/usb/phy/phy-fsl-usb.c 649 */;
+	struct usb_gadget *cocci_id/* drivers/usb/phy/phy-fsl-usb.c 600 */;
+	struct usb_bus *cocci_id/* drivers/usb/phy/phy-fsl-usb.c 550 */;
+	struct usb_dr_mmap *cocci_id/* drivers/usb/phy/phy-fsl-usb.c 54 */;
+	struct device *cocci_id/* drivers/usb/phy/phy-fsl-usb.c 527 */;
+	const pm_message_t cocci_id/* drivers/usb/phy/phy-fsl-usb.c 48 */;
+	const char cocci_id/* drivers/usb/phy/phy-fsl-usb.c 46 */[];
+	enum otg_fsm_timer cocci_id/* drivers/usb/phy/phy-fsl-usb.c 411 */;
+	struct fsl_otg_timer *cocci_id/* drivers/usb/phy/phy-fsl-usb.c 395 */;
+	struct otg_fsm *cocci_id/* drivers/usb/phy/phy-fsl-usb.c 393 */;
+	void *cocci_id/* drivers/usb/phy/phy-fsl-usb.c 393 */;
+	int *cocci_id/* drivers/usb/phy/phy-fsl-usb.c 280 */;
+	unsigned long cocci_id/* drivers/usb/phy/phy-fsl-usb.c 268 */;
+	int cocci_id/* drivers/usb/phy/phy-fsl-usb.c 117 */;
+	struct platform_driver cocci_id/* drivers/usb/phy/phy-fsl-usb.c 1164 */;
+	struct fsl_usb2_platform_data *cocci_id/* drivers/usb/phy/phy-fsl-usb.c 1145 */;
+	const struct file_operations cocci_id/* drivers/usb/phy/phy-fsl-usb.c 1103 */;
+	struct inode *cocci_id/* drivers/usb/phy/phy-fsl-usb.c 1093 */;
+	struct file *cocci_id/* drivers/usb/phy/phy-fsl-usb.c 1058 */;
+	unsigned int cocci_id/* drivers/usb/phy/phy-fsl-usb.c 1058 */;
+	long cocci_id/* drivers/usb/phy/phy-fsl-usb.c 1058 */;
+	struct attribute *cocci_id/* drivers/usb/phy/phy-fsl-usb.c 1046 */[];
+	u8 cocci_id/* drivers/usb/phy/phy-fsl-usb.c 104 */;
+}

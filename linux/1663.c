@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	const int cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 87 */[];
+	const char *const cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 80 */[];
+	struct iio_dev *cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 624 */;
+	struct hmc5843_data *cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 623 */;
+	enum hmc5843_ids cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 621 */;
+	const char *cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 621 */;
+	struct regmap *cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 620 */;
+	struct device *cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 620 */;
+	int cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 620 */;
+	const unsigned long cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 604 */[];
+	const struct iio_info cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 597 */;
+	u8 cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 574 */[3];
+	const struct hmc5843_chip_info cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 532 */[];
+	const struct attribute_group cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 528 */;
+	struct attribute *cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 522 */[];
+	const struct iio_chan_spec cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 500 */[];
+	__be16 cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 449 */;
+	struct iio_poll_func *cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 436 */;
+	irqreturn_t cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 434 */;
+	void *cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 434 */;
+	unsigned int cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 369 */;
+	long cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 366 */;
+	size_t cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 273 */;
+	struct device_attribute *cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 270 */;
+	char *cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 270 */;
+	ssize_t cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 269 */;
+	const struct iio_chan_spec_ext_info cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 247 */[];
+	const struct iio_enum cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 240 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 233 */;
+	const struct iio_dev *cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 232 */;
+	const struct iio_mount_matrix *cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 231 */;
+	u8 cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 194 */;
+	__be16 cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 175 */[3];
+	int *cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 173 */;
+	s32 cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 136 */;
+	struct hmc5843_chip_info {
+		const struct iio_chan_spec *channels;
+		const int *regval_to_samp_freq[2];
+		const int n_regval_to_samp_freq;
+		const int *regval_to_nanoscale;
+		const int n_regval_to_nanoscale;
+	} cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 127 */;
+	const int cocci_id/* drivers/iio/magnetometer/hmc5843_core.c 112 */[][2];
+}

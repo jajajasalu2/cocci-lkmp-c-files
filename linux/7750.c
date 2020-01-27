@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/tty/serial/men_z135_uart.c 922 */;
+	int __init cocci_id/* drivers/tty/serial/men_z135_uart.c 896 */;
+	struct mcb_driver cocci_id/* drivers/tty/serial/men_z135_uart.c 880 */;
+	const struct mcb_device_id cocci_id/* drivers/tty/serial/men_z135_uart.c 874 */[];
+	unsigned long cocci_id/* drivers/tty/serial/men_z135_uart.c 854 */;
+	unsigned char *cocci_id/* drivers/tty/serial/men_z135_uart.c 823 */;
+	struct men_z135_port cocci_id/* drivers/tty/serial/men_z135_uart.c 819 */;
+	struct device *cocci_id/* drivers/tty/serial/men_z135_uart.c 814 */;
+	struct resource *cocci_id/* drivers/tty/serial/men_z135_uart.c 813 */;
+	const struct mcb_device_id *cocci_id/* drivers/tty/serial/men_z135_uart.c 810 */;
+	struct mcb_device *cocci_id/* drivers/tty/serial/men_z135_uart.c 809 */;
+	struct uart_driver cocci_id/* drivers/tty/serial/men_z135_uart.c 792 */;
+	const struct uart_ops cocci_id/* drivers/tty/serial/men_z135_uart.c 774 */;
+	struct serial_struct *cocci_id/* drivers/tty/serial/men_z135_uart.c 769 */;
+	void cocci_id/* drivers/tty/serial/men_z135_uart.c 762 */;
+	const char *cocci_id/* drivers/tty/serial/men_z135_uart.c 725 */;
+	struct ktermios *cocci_id/* drivers/tty/serial/men_z135_uart.c 649 */;
+	unsigned int cocci_id/* drivers/tty/serial/men_z135_uart.c 520 */;
+	bool cocci_id/* drivers/tty/serial/men_z135_uart.c 389 */;
+	irqreturn_t cocci_id/* drivers/tty/serial/men_z135_uart.c 385 */;
+	void *cocci_id/* drivers/tty/serial/men_z135_uart.c 385 */;
+	struct circ_buf *cocci_id/* drivers/tty/serial/men_z135_uart.c 296 */;
+	struct tty_port *cocci_id/* drivers/tty/serial/men_z135_uart.c 246 */;
+	u8 cocci_id/* drivers/tty/serial/men_z135_uart.c 225 */;
+	u32 cocci_id/* drivers/tty/serial/men_z135_uart.c 223 */;
+	struct uart_port *cocci_id/* drivers/tty/serial/men_z135_uart.c 222 */;
+	u16 cocci_id/* drivers/tty/serial/men_z135_uart.c 220 */;
+	struct men_z135_port *cocci_id/* drivers/tty/serial/men_z135_uart.c 220 */;
+	struct men_z135_port {
+		struct uart_port port;
+		struct mcb_device *mdev;
+		struct resource *mem;
+		unsigned char *rxbuf;
+		u32 stat_reg;
+		spinlock_t lock;
+		bool automode;
+	} cocci_id/* drivers/tty/serial/men_z135_uart.c 119 */;
+	uint cocci_id/* drivers/tty/serial/men_z135_uart.c 114 */;
+	int cocci_id/* drivers/tty/serial/men_z135_uart.c 110 */;
+}

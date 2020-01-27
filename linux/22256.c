@@ -1,0 +1,74 @@
+cocci_test_suite() {
+	struct list_head *cocci_id/* mm/mempolicy.c 986 */;
+	struct mm_struct *cocci_id/* mm/mempolicy.c 890 */;
+	int *cocci_id/* mm/mempolicy.c 886 */;
+	pgoff_t cocci_id/* mm/mempolicy.c 754 */;
+	struct queue_pages cocci_id/* mm/mempolicy.c 692 */;
+	const struct mm_walk_ops cocci_id/* mm/mempolicy.c 665 */;
+	pte_t cocci_id/* mm/mempolicy.c 565 */;
+	spinlock_t *cocci_id/* mm/mempolicy.c 564 */;
+	struct queue_pages *cocci_id/* mm/mempolicy.c 561 */;
+	struct mm_walk *cocci_id/* mm/mempolicy.c 558 */;
+	pte_t *cocci_id/* mm/mempolicy.c 556 */;
+	pmd_t *cocci_id/* mm/mempolicy.c 443 */;
+	struct queue_pages {
+		struct list_head *pagelist;
+		unsigned long flags;
+		nodemask_t *nmask;
+		unsigned long start;
+		unsigned long end;
+		struct vm_area_struct *first;
+	} cocci_id/* mm/mempolicy.c 409 */;
+	int cocci_id/* mm/mempolicy.c 406 */(struct page *page,
+					     struct list_head *pagelist,
+					     unsigned long flags);
+	const struct mempolicy_operations cocci_id/* mm/mempolicy.c 388 */[MPOL_MAX];
+	void cocci_id/* mm/mempolicy.c 287 */;
+	char *cocci_id/* mm/mempolicy.c 2811 */;
+	const char *const cocci_id/* mm/mempolicy.c 2790 */[];
+	int __init cocci_id/* mm/mempolicy.c 2697 */;
+	void __init cocci_id/* mm/mempolicy.c 2679 */;
+	int __initdata cocci_id/* mm/mempolicy.c 2677 */;
+	struct sp_node cocci_id/* mm/mempolicy.c 2669 */;
+	struct rb_node *cocci_id/* mm/mempolicy.c 2662 */;
+	struct sp_node *cocci_id/* mm/mempolicy.c 2661 */;
+	struct shared_policy *cocci_id/* mm/mempolicy.c 2659 */;
+	struct vm_area_struct cocci_id/* mm/mempolicy.c 2603 */;
+	struct rb_node **cocci_id/* mm/mempolicy.c 2338 */;
+	bool cocci_id/* mm/mempolicy.c 2261 */;
+	nodemask_t cocci_id/* mm/mempolicy.c 2253 */;
+	nodemask_t *cocci_id/* mm/mempolicy.c 2119 */;
+	int cocci_id/* mm/mempolicy.c 2113 */;
+	gfp_t cocci_id/* mm/mempolicy.c 2072 */;
+	unsigned cocci_id/* mm/mempolicy.c 2072 */;
+	struct nodemask_scratch *cocci_id/* mm/mempolicy.c 204 */;
+	nodemask_t **cocci_id/* mm/mempolicy.c 1958 */;
+	struct mempolicy **cocci_id/* mm/mempolicy.c 1958 */;
+	struct zonelist *cocci_id/* mm/mempolicy.c 1885 */;
+	struct zoneref *cocci_id/* mm/mempolicy.c 1879 */;
+	enum zone_type cocci_id/* mm/mempolicy.c 1787 */;
+	unsigned long cocci_id/* mm/mempolicy.c 1718 */;
+	struct vm_area_struct *cocci_id/* mm/mempolicy.c 1717 */;
+	struct mempolicy *cocci_id/* mm/mempolicy.c 1717 */;
+	unsigned long *cocci_id/* mm/mempolicy.c 1601 */;
+	int __user *cocci_id/* mm/mempolicy.c 1571 */;
+	const struct mempolicy *cocci_id/* mm/mempolicy.c 154 */;
+	const struct mempolicy_operations {
+		int (*create)(struct mempolicy *pol, const nodemask_t *nodes);
+		void (*rebind)(struct mempolicy *pol, const nodemask_t *nodes);
+	} cocci_id/* mm/mempolicy.c 149 */[MPOL_MAX];
+	pid_t cocci_id/* mm/mempolicy.c 1474 */;
+	const unsigned long *cocci_id/* mm/mempolicy.c 1442 */;
+	char __user *cocci_id/* mm/mempolicy.c 1412 */;
+	unsigned int cocci_id/* mm/mempolicy.c 1407 */;
+	long cocci_id/* mm/mempolicy.c 1407 */;
+	unsigned long __user *cocci_id/* mm/mempolicy.c 1403 */;
+	const unsigned long __user *cocci_id/* mm/mempolicy.c 1342 */;
+	struct task_struct *cocci_id/* mm/mempolicy.c 130 */;
+	struct mempolicy cocci_id/* mm/mempolicy.c 128 */[MAX_NUMNODES];
+	unsigned short cocci_id/* mm/mempolicy.c 1233 */;
+	struct mempolicy cocci_id/* mm/mempolicy.c 122 */;
+	struct kmem_cache *cocci_id/* mm/mempolicy.c 112 */;
+	const nodemask_t *cocci_id/* mm/mempolicy.c 1074 */;
+	struct page *cocci_id/* mm/mempolicy.c 1015 */;
+}

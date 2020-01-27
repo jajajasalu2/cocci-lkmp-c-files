@@ -1,0 +1,61 @@
+cocci_test_suite() {
+	int cocci_id/* drivers/perf/arm_smmuv3_pmu.c 99 */;
+	void __exit cocci_id/* drivers/perf/arm_smmuv3_pmu.c 878 */;
+	void cocci_id/* drivers/perf/arm_smmuv3_pmu.c 878 */;
+	int __init cocci_id/* drivers/perf/arm_smmuv3_pmu.c 865 */;
+	struct platform_driver cocci_id/* drivers/perf/arm_smmuv3_pmu.c 856 */;
+	struct pmu cocci_id/* drivers/perf/arm_smmuv3_pmu.c 744 */;
+	u64 cocci_id/* drivers/perf/arm_smmuv3_pmu.c 732 */[2];
+	struct resource *cocci_id/* drivers/perf/arm_smmuv3_pmu.c 730 */;
+	struct platform_device *cocci_id/* drivers/perf/arm_smmuv3_pmu.c 727 */;
+	u32 *cocci_id/* drivers/perf/arm_smmuv3_pmu.c 715 */;
+	unsigned long cocci_id/* drivers/perf/arm_smmuv3_pmu.c 684 */;
+	struct msi_desc *cocci_id/* drivers/perf/arm_smmuv3_pmu.c 657 */;
+	phys_addr_t cocci_id/* drivers/perf/arm_smmuv3_pmu.c 642 */;
+	struct msi_msg *cocci_id/* drivers/perf/arm_smmuv3_pmu.c 640 */;
+	void *cocci_id/* drivers/perf/arm_smmuv3_pmu.c 633 */;
+	unsigned long *cocci_id/* drivers/perf/arm_smmuv3_pmu.c 617 */;
+	irqreturn_t cocci_id/* drivers/perf/arm_smmuv3_pmu.c 605 */;
+	struct smmu_pmu cocci_id/* drivers/perf/arm_smmuv3_pmu.c 590 */;
+	struct hlist_node *cocci_id/* drivers/perf/arm_smmuv3_pmu.c 585 */;
+	const struct attribute_group *cocci_id/* drivers/perf/arm_smmuv3_pmu.c 574 */[];
+	struct perf_pmu_events_attr cocci_id/* drivers/perf/arm_smmuv3_pmu.c 541 */;
+	struct perf_pmu_events_attr *cocci_id/* drivers/perf/arm_smmuv3_pmu.c 539 */;
+	struct attribute *cocci_id/* drivers/perf/arm_smmuv3_pmu.c 535 */;
+	umode_t cocci_id/* drivers/perf/arm_smmuv3_pmu.c 534 */;
+	struct kobject *cocci_id/* drivers/perf/arm_smmuv3_pmu.c 534 */;
+	struct attribute_group cocci_id/* drivers/perf/arm_smmuv3_pmu.c 494 */;
+	struct attribute *cocci_id/* drivers/perf/arm_smmuv3_pmu.c 489 */[];
+	struct device_attribute cocci_id/* drivers/perf/arm_smmuv3_pmu.c 486 */;
+	char *cocci_id/* drivers/perf/arm_smmuv3_pmu.c 479 */;
+	struct device_attribute *cocci_id/* drivers/perf/arm_smmuv3_pmu.c 478 */;
+	struct device *cocci_id/* drivers/perf/arm_smmuv3_pmu.c 477 */;
+	ssize_t cocci_id/* drivers/perf/arm_smmuv3_pmu.c 477 */;
+	struct hw_perf_event *cocci_id/* drivers/perf/arm_smmuv3_pmu.c 432 */;
+	u16 cocci_id/* drivers/perf/arm_smmuv3_pmu.c 348 */;
+	bool cocci_id/* drivers/perf/arm_smmuv3_pmu.c 279 */;
+	unsigned int cocci_id/* drivers/perf/arm_smmuv3_pmu.c 278 */;
+	u32 cocci_id/* drivers/perf/arm_smmuv3_pmu.c 277 */;
+	struct perf_event *cocci_id/* drivers/perf/arm_smmuv3_pmu.c 275 */;
+	struct smmu_pmu *cocci_id/* drivers/perf/arm_smmuv3_pmu.c 274 */;
+	u64 cocci_id/* drivers/perf/arm_smmuv3_pmu.c 158 */;
+	struct pmu *cocci_id/* drivers/perf/arm_smmuv3_pmu.c 141 */;
+	struct smmu_pmu {
+		struct hlist_node node;
+		struct perf_event *events[SMMU_PMCG_MAX_COUNTERS];
+	DECLARE_BITMAP(used_counters,SMMU_PMCG_MAX_COUNTERS)
+		;
+	DECLARE_BITMAP(supported_events,SMMU_PMCG_ARCH_MAX_EVENTS)
+		;
+		unsigned int irq;
+		unsigned int on_cpu;
+		struct pmu pmu;
+		unsigned int num_counters;
+		struct device *dev;
+		void __iomem *reg_base;
+		void __iomem *reloc_base;
+		u64 counter_mask;
+		u32 options;
+		bool global_filter;
+	} cocci_id/* drivers/perf/arm_smmuv3_pmu.c 101 */;
+}

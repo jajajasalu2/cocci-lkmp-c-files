@@ -1,0 +1,75 @@
+cocci_test_suite() {
+	char *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 960 */;
+	struct dlm_query_region *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 959 */;
+	struct dlm_assert_joined *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 914 */;
+	struct o2net_msg *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 911 */;
+	unsigned long cocci_id/* fs/ocfs2/dlm/dlmdomain.c 85 */;
+	struct dlm_query_join_packet cocci_id/* fs/ocfs2/dlm/dlmdomain.c 795 */;
+	struct dlm_query_join_request *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 794 */;
+	union dlm_query_join_response cocci_id/* fs/ocfs2/dlm/dlmdomain.c 776 */;
+	u32 *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 774 */;
+	struct dlm_query_join_packet *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 773 */;
+	void *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 74 */;
+	struct dlm_protocol_version cocci_id/* fs/ocfs2/dlm/dlmdomain.c 733 */;
+	u8 cocci_id/* fs/ocfs2/dlm/dlmdomain.c 51 */[];
+	unsigned long cocci_id/* fs/ocfs2/dlm/dlmdomain.c 51 */[];
+	struct dlm_exit_domain *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 491 */;
+	struct dlm_lock_resource cocci_id/* fs/ocfs2/dlm/dlmdomain.c 424 */;
+	u8 cocci_id/* fs/ocfs2/dlm/dlmdomain.c 41 */;
+	struct hlist_node *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 409 */;
+	struct dlm_ctxt *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 339 */;
+	void cocci_id/* fs/ocfs2/dlm/dlmdomain.c 339 */;
+	struct dlm_ctxt cocci_id/* fs/ocfs2/dlm/dlmdomain.c 313 */;
+	struct kref *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 309 */;
+	const char *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 264 */;
+	int cocci_id/* fs/ocfs2/dlm/dlmdomain.c 246 */;
+	void __exit cocci_id/* fs/ocfs2/dlm/dlmdomain.c 2353 */;
+	int __init cocci_id/* fs/ocfs2/dlm/dlmdomain.c 2313 */;
+	dlm_eviction_func *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 2287 */;
+	struct dlm_eviction_cb *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 2277 */;
+	struct dlm_query_nodeinfo cocci_id/* fs/ocfs2/dlm/dlmdomain.c 2251 */;
+	struct dlm_query_region cocci_id/* fs/ocfs2/dlm/dlmdomain.c 2243 */;
+	struct dlm_cancel_join cocci_id/* fs/ocfs2/dlm/dlmdomain.c 2236 */;
+	struct dlm_assert_joined cocci_id/* fs/ocfs2/dlm/dlmdomain.c 2229 */;
+	struct dlm_query_join_request cocci_id/* fs/ocfs2/dlm/dlmdomain.c 2222 */;
+	unsigned int cocci_id/* fs/ocfs2/dlm/dlmdomain.c 210 */;
+	struct dlm_protocol_version *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 2081 */;
+	void **cocci_id/* fs/ocfs2/dlm/dlmdomain.c 2059 */;
+	struct hlist_head **cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1969 */;
+	u32 cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1949 */;
+	char cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1859 */[O2NM_MAX_NAME_LEN];
+	struct dlm_deref_lockres_done cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1844 */;
+	struct dlm_finalize_reco cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1830 */;
+	struct dlm_begin_reco cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1823 */;
+	struct dlm_reco_data_done cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1816 */;
+	struct dlm_lock_request cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1809 */;
+	struct dlm_master_requery cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1802 */;
+	struct dlm_migrate_request cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1788 */;
+	struct dlm_deref_lockres cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1781 */;
+	struct dlm_exit_domain cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1774 */;
+	struct dlm_create_lock cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1746 */;
+	struct dlm_assert_master cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1738 */;
+	struct dlm_master_request cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1731 */;
+	struct hlist_head *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 160 */;
+	struct dlm_lock_resource *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 158 */;
+	enum dlm_query_join_response_code cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1569 */;
+	struct domain_join_ctxt *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1568 */;
+	struct domain_join_ctxt {
+		unsigned long live_map[BITS_TO_LONGS(O2NM_MAX_NODES)];
+		unsigned long yes_resp_map[BITS_TO_LONGS(O2NM_MAX_NODES)];
+	} cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1562 */;
+	unsigned long *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1529 */;
+	void cocci_id/* fs/ocfs2/dlm/dlmdomain.c 145 */(struct dlm_ctxt *dlm);
+	int cocci_id/* fs/ocfs2/dlm/dlmdomain.c 142 */(struct dlm_protocol_version *existing,
+						       struct dlm_protocol_version *request);
+	enum dlm_query_join_response_code *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1416 */;
+	unsigned cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1389 */;
+	int cocci_id/* fs/ocfs2/dlm/dlmdomain.c 134 */(struct o2net_msg *msg,
+						       u32 len, void *data,
+						       void **ret_data);
+	struct dlm_cancel_join *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1326 */;
+	const struct dlm_protocol_version cocci_id/* fs/ocfs2/dlm/dlmdomain.c 125 */;
+	struct dlm_node_info *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1159 */;
+	struct o2nm_node *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1158 */;
+	struct dlm_query_nodeinfo *cocci_id/* fs/ocfs2/dlm/dlmdomain.c 1156 */;
+}

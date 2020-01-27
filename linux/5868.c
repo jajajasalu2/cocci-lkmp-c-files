@@ -1,0 +1,67 @@
+cocci_test_suite() {
+	const struct samsung_pinctrl_of_match_data *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 987 */;
+	struct platform_device *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 954 */;
+	const struct gpio_chip cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 942 */;
+	char cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 886 */;
+	struct pinctrl_pin_desc *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 858 */;
+	struct pinctrl_map *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 84 */;
+	unsigned int *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 741 */;
+	char *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 715 */;
+	struct samsung_pmx_func *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 698 */;
+	const struct pinctrl_pin_desc *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 675 */;
+	struct pinctrl_desc *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 673 */;
+	const unsigned **cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 67 */;
+	struct samsung_pin_group *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 668 */;
+	struct gpio_chip *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 623 */;
+	const struct samsung_pin_bank_type *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 575 */;
+	void __iomem *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 572 */;
+	const struct pinconf_ops cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 530 */;
+	const unsigned int *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 521 */;
+	unsigned int cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 48 */;
+	const struct pinmux_ops cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 423 */;
+	const struct samsung_pin_group *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 386 */;
+	const struct samsung_pmx_func *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 385 */;
+	struct pin_config {
+		const char *property;
+		enum pincfg_type param;
+	} cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 37 */[];
+	struct samsung_pin_bank *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 361 */;
+	struct samsung_pin_bank **cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 359 */;
+	u32 *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 358 */;
+	void __iomem **cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 358 */;
+	struct samsung_pinctrl_drv_data *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 357 */;
+	void cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 357 */;
+	unsigned *constcocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 343 */;
+	const char *const**cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 342 */;
+	const struct pinctrl_ops cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 310 */;
+	enum pincfg_type cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 293 */;
+	struct seq_file *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 291 */;
+	const char *constcocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 287 */[];
+	int cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 285 */(struct pinctrl_dev *pctldev,
+									unsigned int pin,
+									unsigned long *config);
+	struct device_node *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 249 */;
+	bool cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 188 */;
+	struct property *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 186 */;
+	u32 cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 181 */;
+	struct pinctrl_dev *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 160 */;
+	unsigned long *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 145 */;
+	unsigned cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 143 */;
+	unsigned *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 141 */;
+	unsigned long cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 141 */;
+	struct device *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 140 */;
+	unsigned long **cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 140 */;
+	int cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 140 */;
+	int __init cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 1300 */;
+	struct platform_driver cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 1290 */;
+	const struct dev_pm_ops cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 1285 */;
+	const struct of_device_id cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 1243 */[];
+	const u8 *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 1209 */;
+	int __maybe_unused cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 1198 */;
+	const char *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 118 */;
+	struct pinctrl_map **cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 116 */;
+	void __iomem *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 1016 */[SAMSUNG_PINCTRL_NUM_RESOURCES];
+	struct resource *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 1015 */;
+	const struct samsung_pin_bank_data *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 1012 */;
+	const struct samsung_pin_ctrl *cocci_id/* drivers/pinctrl/samsung/pinctrl-samsung.c 1006 */;
+}

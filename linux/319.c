@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	char *cocci_id/* kernel/watchdog.c 88 */;
+	int __init cocci_id/* kernel/watchdog.c 88 */;
+	loff_t *cocci_id/* kernel/watchdog.c 718 */;
+	size_t *cocci_id/* kernel/watchdog.c 718 */;
+	void __user *cocci_id/* kernel/watchdog.c 718 */;
+	struct ctl_table *cocci_id/* kernel/watchdog.c 717 */;
+	void __init cocci_id/* kernel/watchdog.c 66 */;
+	void cocci_id/* kernel/watchdog.c 629 */;
+	unsigned int cocci_id/* kernel/watchdog.c 562 */;
+	unsigned int __read_mostly cocci_id/* kernel/watchdog.c 56 */;
+	struct hrtimer *cocci_id/* kernel/watchdog.c 507 */;
+	unsigned long *cocci_id/* kernel/watchdog.c 50 */;
+	struct completion *cocci_id/* kernel/watchdog.c 482 */;
+	struct cpumask cocci_id/* kernel/watchdog.c 47 */;
+	int __read_mostly cocci_id/* kernel/watchdog.c 45 */;
+	unsigned long __read_mostly cocci_id/* kernel/watchdog.c 40 */;
+	struct pt_regs *cocci_id/* kernel/watchdog.c 365 */;
+	enum hrtimer_restart cocci_id/* kernel/watchdog.c 362 */;
+	void *cocci_id/* kernel/watchdog.c 351 */;
+	bool cocci_id/* kernel/watchdog.c 324 */;
+	u64 cocci_id/* kernel/watchdog.c 253 */;
+	unsigned long cocci_id/* kernel/watchdog.c 239 */;
+	int cocci_id/* kernel/watchdog.c 229 */;
+	void cocci_id/* kernel/watchdog.c 220 */(void);
+	u64 __read_mostly cocci_id/* kernel/watchdog.c 169 */;
+	int __weak __init cocci_id/* kernel/watchdog.c 117 */;
+	void __weak cocci_id/* kernel/watchdog.c 111 */;
+	int __weak cocci_id/* kernel/watchdog.c 105 */;
+	__typeof__(bool) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+	__typeof__(struct hrtimer) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+	__typeof__(struct cpu_stop_work) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+	__typeof__(struct completion) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+	__typeof__(struct task_struct *) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+	__typeof__(unsigned long) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

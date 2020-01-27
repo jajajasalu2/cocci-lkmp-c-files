@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	u32 cocci_id/* arch/xtensa/kernel/ptrace.c 96 */;
+	const u32 cocci_id/* arch/xtensa/kernel/ptrace.c 76 */;
+	const void __user *cocci_id/* arch/xtensa/kernel/ptrace.c 71 */;
+	const void *cocci_id/* arch/xtensa/kernel/ptrace.c 71 */;
+	void cocci_id/* arch/xtensa/kernel/ptrace.c 569 */;
+	struct pt_regs *cocci_id/* arch/xtensa/kernel/ptrace.c 546 */;
+	void cocci_id/* arch/xtensa/kernel/ptrace.c 545 */(struct pt_regs *regs);
+	void __user *cocci_id/* arch/xtensa/kernel/ptrace.c 502 */;
+	int cocci_id/* arch/xtensa/kernel/ptrace.c 501 */;
+	unsigned long cocci_id/* arch/xtensa/kernel/ptrace.c 499 */;
+	struct task_struct *cocci_id/* arch/xtensa/kernel/ptrace.c 498 */;
+	long cocci_id/* arch/xtensa/kernel/ptrace.c 498 */;
+	struct user_pt_regs cocci_id/* arch/xtensa/kernel/ptrace.c 45 */;
+	unsigned cocci_id/* arch/xtensa/kernel/ptrace.c 421 */;
+	bool cocci_id/* arch/xtensa/kernel/ptrace.c 420 */;
+	void *cocci_id/* arch/xtensa/kernel/ptrace.c 42 */;
+	u32 cocci_id/* arch/xtensa/kernel/ptrace.c 419 */[2];
+	struct perf_event *cocci_id/* arch/xtensa/kernel/ptrace.c 418 */;
+	long __user *cocci_id/* arch/xtensa/kernel/ptrace.c 416 */;
+	unsigned int cocci_id/* arch/xtensa/kernel/ptrace.c 41 */;
+	const struct user_regset *cocci_id/* arch/xtensa/kernel/ptrace.c 40 */;
+	struct perf_event_attr cocci_id/* arch/xtensa/kernel/ptrace.c 389 */;
+	struct arch_hw_breakpoint *cocci_id/* arch/xtensa/kernel/ptrace.c 370 */;
+	struct perf_sample_data *cocci_id/* arch/xtensa/kernel/ptrace.c 366 */;
+	elf_xtregs_t cocci_id/* arch/xtensa/kernel/ptrace.c 260 */;
+	const struct user_regset_view *cocci_id/* arch/xtensa/kernel/ptrace.c 221 */;
+	const struct user_regset_view cocci_id/* arch/xtensa/kernel/ptrace.c 214 */;
+	const struct user_regset cocci_id/* arch/xtensa/kernel/ptrace.c 195 */[];
+	enum xtensa_regset{REGSET_GPR, REGSET_TIE,} cocci_id/* arch/xtensa/kernel/ptrace.c 190 */;
+	elf_xtregs_t *cocci_id/* arch/xtensa/kernel/ptrace.c 125 */;
+	struct thread_info *cocci_id/* arch/xtensa/kernel/ptrace.c 124 */;
+}

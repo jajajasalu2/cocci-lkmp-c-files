@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	__le32 cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 75 */[AES_IV_SIZE];
+	struct crypto_skcipher *cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 73 */;
+	struct scatterlist cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 725 */;
+	struct crypto_ahash *cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 723 */;
+	struct ahash_request *cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 721 */;
+	const unsigned int cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 70 */;
+	struct skcipher_request *cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 69 */;
+	struct crypto4xx_ctx cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 668 */;
+	struct crypto4xx_alg cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 655 */;
+	struct dynamic_sa_hash160 *cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 652 */;
+	struct crypto4xx_alg *cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 650 */;
+	struct crypto_alg *cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 649 */;
+	unsigned char cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 646 */;
+	struct crypto_tfm *cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 644 */;
+	__le32 cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 613 */[4];
+	uint8_t cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 531 */[16];
+	struct crypto_aes_ctx cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 530 */;
+	__le32 *cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 527 */;
+	struct dynamic_sa_ctl *cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 467 */;
+	u32 cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 466 */[SA_AES128_CCM_LEN + 4];
+	__le32 cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 465 */[16];
+	struct crypto4xx_aead_reqctx *cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 463 */;
+	const u8 *cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 379 */;
+	bool cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 363 */;
+	struct crypto4xx_ctx *cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 363 */;
+	struct aead_request *cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 362 */;
+	int cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 362 */;
+	struct crypto_aead *cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 338 */;
+	unsigned int cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 335 */;
+	u32 cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 30 */;
+	void cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 30 */;
+	__be32 *cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 261 */;
+	size_t cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 260 */;
+	u32 *cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 246 */;
+	__le32 cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 244 */[AES_IV_SIZE / 4];
+	u8 cocci_id/* drivers/crypto/amcc/crypto4xx_alg.c 125 */;
+}

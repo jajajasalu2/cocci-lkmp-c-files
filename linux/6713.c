@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	struct scsi_cmnd *cocci_id/* drivers/scsi/libiscsi_tcp.c 965 */;
+	const u8 *cocci_id/* drivers/scsi/libiscsi_tcp.c 916 */;
+	struct skb_seq_state cocci_id/* drivers/scsi/libiscsi_tcp.c 890 */;
+	bool cocci_id/* drivers/scsi/libiscsi_tcp.c 886 */;
+	int *cocci_id/* drivers/scsi/libiscsi_tcp.c 886 */;
+	struct sk_buff *cocci_id/* drivers/scsi/libiscsi_tcp.c 885 */;
+	struct iscsi_hdr cocci_id/* drivers/scsi/libiscsi_tcp.c 818 */;
+	struct scsi_data_buffer *cocci_id/* drivers/scsi/libiscsi_tcp.c 693 */;
+	struct iscsi_hdr *cocci_id/* drivers/scsi/libiscsi_tcp.c 648 */;
+	int cocci_id/* drivers/scsi/libiscsi_tcp.c 63 */(struct iscsi_tcp_conn *tcp_conn,
+							 struct iscsi_segment *segment);
+	u32 cocci_id/* drivers/scsi/libiscsi_tcp.c 537 */;
+	struct iscsi_r2t_rsp *cocci_id/* drivers/scsi/libiscsi_tcp.c 534 */;
+	struct iscsi_session *cocci_id/* drivers/scsi/libiscsi_tcp.c 531 */;
+	struct iscsi_nopin *cocci_id/* drivers/scsi/libiscsi_tcp.c 499 */;
+	unsigned cocci_id/* drivers/scsi/libiscsi_tcp.c 492 */;
+	struct iscsi_data_rsp *cocci_id/* drivers/scsi/libiscsi_tcp.c 490 */;
+	struct iscsi_r2t_info *cocci_id/* drivers/scsi/libiscsi_tcp.c 457 */;
+	struct iscsi_tcp_task *cocci_id/* drivers/scsi/libiscsi_tcp.c 456 */;
+	struct iscsi_task *cocci_id/* drivers/scsi/libiscsi_tcp.c 454 */;
+	int cocci_id/* drivers/scsi/libiscsi_tcp.c 45 */;
+	struct scatterlist *cocci_id/* drivers/scsi/libiscsi_tcp.c 371 */;
+	unsigned int cocci_id/* drivers/scsi/libiscsi_tcp.c 371 */;
+	void *cocci_id/* drivers/scsi/libiscsi_tcp.c 359 */;
+	iscsi_segment_done_fn_t *cocci_id/* drivers/scsi/libiscsi_tcp.c 346 */;
+	struct ahash_request *cocci_id/* drivers/scsi/libiscsi_tcp.c 346 */;
+	struct iscsi_segment *cocci_id/* drivers/scsi/libiscsi_tcp.c 345 */;
+	size_t cocci_id/* drivers/scsi/libiscsi_tcp.c 345 */;
+	void cocci_id/* drivers/scsi/libiscsi_tcp.c 344 */;
+	struct scatterlist cocci_id/* drivers/scsi/libiscsi_tcp.c 317 */;
+	unsigned char cocci_id/* drivers/scsi/libiscsi_tcp.c 315 */[ISCSI_DIGEST_SIZE];
+	const void *cocci_id/* drivers/scsi/libiscsi_tcp.c 314 */;
+	struct iscsi_conn *cocci_id/* drivers/scsi/libiscsi_tcp.c 1206 */;
+	struct iscsi_stats *cocci_id/* drivers/scsi/libiscsi_tcp.c 1204 */;
+	struct iscsi_cls_conn *cocci_id/* drivers/scsi/libiscsi_tcp.c 1203 */;
+	unsigned short cocci_id/* drivers/scsi/libiscsi_tcp.c 1188 */;
+	char *cocci_id/* drivers/scsi/libiscsi_tcp.c 1185 */;
+	struct iscsi_r2t_info cocci_id/* drivers/scsi/libiscsi_tcp.c 1143 */;
+	struct iscsi_tcp_conn *cocci_id/* drivers/scsi/libiscsi_tcp.c 1096 */;
+	uint32_t cocci_id/* drivers/scsi/libiscsi_tcp.c 1091 */;
+	struct iscsi_cls_session *cocci_id/* drivers/scsi/libiscsi_tcp.c 1090 */;
+	struct iscsi_data *cocci_id/* drivers/scsi/libiscsi_tcp.c 1071 */;
+}

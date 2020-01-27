@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	const int cocci_id/* arch/s390/net/bpf_jit_comp.c 76 */[];
+	u64 cocci_id/* arch/s390/net/bpf_jit_comp.c 638 */;
+	unsigned int cocci_id/* arch/s390/net/bpf_jit_comp.c 606 */;
+	s16 cocci_id/* arch/s390/net/bpf_jit_comp.c 605 */;
+	s32 cocci_id/* arch/s390/net/bpf_jit_comp.c 604 */;
+	u32 *cocci_id/* arch/s390/net/bpf_jit_comp.c 603 */;
+	struct bpf_insn *cocci_id/* arch/s390/net/bpf_jit_comp.c 599 */;
+	struct lowcore cocci_id/* arch/s390/net/bpf_jit_comp.c 583 */;
+	u32 cocci_id/* arch/s390/net/bpf_jit_comp.c 544 */;
+	void cocci_id/* arch/s390/net/bpf_jit_comp.c 544 */;
+	const int cocci_id/* arch/s390/net/bpf_jit_comp.c 467 */;
+	struct bpf_jit {
+		u32 seen;
+		u32 seen_reg[16];
+		u32 *addrs;
+		u8 *prg_buf;
+		int size;
+		int size_prg;
+		int prg;
+		int lit32_start;
+		int lit32;
+		int lit64_start;
+		int lit64;
+		int base_ip;
+		int exit_ip;
+		int r1_thunk_ip;
+		int r14_thunk_ip;
+		int tail_call_start;
+		int labels[1];
+	} cocci_id/* arch/s390/net/bpf_jit_comp.c 35 */;
+	u64 *cocci_id/* arch/s390/net/bpf_jit_comp.c 309 */;
+	unsigned long cocci_id/* arch/s390/net/bpf_jit_comp.c 246 */;
+	long cocci_id/* arch/s390/net/bpf_jit_comp.c 189 */;
+	void *cocci_id/* arch/s390/net/bpf_jit_comp.c 1654 */;
+	int cocci_id/* arch/s390/net/bpf_jit_comp.c 1578 */;
+	struct bpf_jit cocci_id/* arch/s390/net/bpf_jit_comp.c 1577 */;
+	bool cocci_id/* arch/s390/net/bpf_jit_comp.c 1575 */;
+	struct s390_jit_data *cocci_id/* arch/s390/net/bpf_jit_comp.c 1574 */;
+	struct bpf_binary_header *cocci_id/* arch/s390/net/bpf_jit_comp.c 1573 */;
+	struct bpf_prog *cocci_id/* arch/s390/net/bpf_jit_comp.c 1570 */;
+	struct s390_jit_data {
+		struct bpf_binary_header *header;
+		struct bpf_jit ctx;
+		int pass;
+	} cocci_id/* arch/s390/net/bpf_jit_comp.c 1561 */;
+	struct bpf_jit *cocci_id/* arch/s390/net/bpf_jit_comp.c 1493 */;
+	u16 *cocci_id/* arch/s390/net/bpf_jit_comp.c 133 */;
+	struct bpf_prog cocci_id/* arch/s390/net/bpf_jit_comp.c 1260 */;
+	struct bpf_array cocci_id/* arch/s390/net/bpf_jit_comp.c 1191 */;
+	u16 cocci_id/* arch/s390/net/bpf_jit_comp.c 1083 */;
+	u8 cocci_id/* arch/s390/net/bpf_jit_comp.c 1076 */;
+}

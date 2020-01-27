@@ -1,0 +1,127 @@
+cocci_test_suite() {
+	int *cocci_id/* drivers/iommu/intel-iommu.c 938 */;
+	struct dmar_drhd_unit *cocci_id/* drivers/iommu/intel-iommu.c 764 */;
+	u8 *cocci_id/* drivers/iommu/intel-iommu.c 762 */;
+	u64 *cocci_id/* drivers/iommu/intel-iommu.c 701 */;
+	uint32_t cocci_id/* drivers/iommu/intel-iommu.c 6101 */;
+	struct pci_dev *cocci_id/* drivers/iommu/intel-iommu.c 6100 */;
+	void __init cocci_id/* drivers/iommu/intel-iommu.c 6098 */;
+	unsigned short cocci_id/* drivers/iommu/intel-iommu.c 6072 */;
+	enum iommu_dev_features cocci_id/* drivers/iommu/intel-iommu.c 5941 */;
+	struct iommu_resv_region *cocci_id/* drivers/iommu/intel-iommu.c 5809 */;
+	enum iommu_resv_type cocci_id/* drivers/iommu/intel-iommu.c 5704 */;
+	struct list_head *cocci_id/* drivers/iommu/intel-iommu.c 5691 */;
+	struct iommu_group *cocci_id/* drivers/iommu/intel-iommu.c 5612 */;
+	enum iommu_cap cocci_id/* drivers/iommu/intel-iommu.c 5597 */;
+	struct iommu_iotlb_gather *cocci_id/* drivers/iommu/intel-iommu.c 5512 */;
+	unsigned cocci_id/* drivers/iommu/intel-iommu.c 5196 */;
+	struct page *cocci_id/* drivers/iommu/intel-iommu.c 516 */;
+	unsigned long cocci_id/* drivers/iommu/intel-iommu.c 5124 */;
+	struct intel_iommu *cocci_id/* drivers/iommu/intel-iommu.c 5123 */;
+	struct dmar_domain *cocci_id/* drivers/iommu/intel-iommu.c 5122 */;
+	struct device_domain_info *cocci_id/* drivers/iommu/intel-iommu.c 5120 */;
+	void cocci_id/* drivers/iommu/intel-iommu.c 5120 */;
+	struct acpi_device *cocci_id/* drivers/iommu/intel-iommu.c 4922 */;
+	struct acpi_device_physical_node *cocci_id/* drivers/iommu/intel-iommu.c 4920 */;
+	const struct attribute_group *cocci_id/* drivers/iommu/intel-iommu.c 4872 */[];
+	struct attribute_group cocci_id/* drivers/iommu/intel-iommu.c 4867 */;
+	struct dmar_domain **cocci_id/* drivers/iommu/intel-iommu.c 486 */;
+	struct attribute *cocci_id/* drivers/iommu/intel-iommu.c 4857 */[];
+	struct kmem_cache *cocci_id/* drivers/iommu/intel-iommu.c 482 */;
+	struct device_attribute *cocci_id/* drivers/iommu/intel-iommu.c 4812 */;
+	ssize_t cocci_id/* drivers/iommu/intel-iommu.c 4811 */;
+	struct intel_iommu cocci_id/* drivers/iommu/intel-iommu.c 4797 */;
+	struct iommu_device *cocci_id/* drivers/iommu/intel-iommu.c 4795 */;
+	struct notifier_block cocci_id/* drivers/iommu/intel-iommu.c 4731 */;
+	struct memory_notify *cocci_id/* drivers/iommu/intel-iommu.c 4671 */;
+	struct notifier_block *cocci_id/* drivers/iommu/intel-iommu.c 4668 */;
+	struct acpi_dmar_reserved_memory cocci_id/* drivers/iommu/intel-iommu.c 4630 */;
+	struct acpi_dmar_reserved_memory *cocci_id/* drivers/iommu/intel-iommu.c 4623 */;
+	struct dmar_pci_notify_info *cocci_id/* drivers/iommu/intel-iommu.c 4617 */;
+	struct pci_bus *cocci_id/* drivers/iommu/intel-iommu.c 4576 */;
+	struct acpi_dmar_atsr cocci_id/* drivers/iommu/intel-iommu.c 4440 */;
+	struct dmar_atsr_unit *cocci_id/* drivers/iommu/intel-iommu.c 4438 */;
+	struct acpi_dmar_atsr *cocci_id/* drivers/iommu/intel-iommu.c 4437 */;
+	struct acpi_dmar_header *cocci_id/* drivers/iommu/intel-iommu.c 4433 */;
+	char *cocci_id/* drivers/iommu/intel-iommu.c 437 */;
+	int __init cocci_id/* drivers/iommu/intel-iommu.c 4318 */;
+	struct syscore_ops cocci_id/* drivers/iommu/intel-iommu.c 4304 */;
+	const struct iommu_ops cocci_id/* drivers/iommu/intel-iommu.c 410 */;
+	struct device_domain_info cocci_id/* drivers/iommu/intel-iommu.c 4074 */;
+	struct dmar_domain cocci_id/* drivers/iommu/intel-iommu.c 4056 */;
+	const struct dma_map_ops cocci_id/* drivers/iommu/intel-iommu.c 4035 */;
+	enum dma_data_direction cocci_id/* drivers/iommu/intel-iommu.c 3934 */;
+	int (*cocci_id/* drivers/iommu/intel-iommu.c 390 */)(struct device_domain_info *info,
+							     void *data);
+	enum dma_sync_target cocci_id/* drivers/iommu/intel-iommu.c 3807 */;
+	gfp_t cocci_id/* drivers/iommu/intel-iommu.c 3649 */;
+	dma_addr_t *cocci_id/* drivers/iommu/intel-iommu.c 3649 */;
+	phys_addr_t cocci_id/* drivers/iommu/intel-iommu.c 351 */(struct iommu_domain *domain,
+								  dma_addr_t iova);
+	u64 cocci_id/* drivers/iommu/intel-iommu.c 3508 */;
+	size_t cocci_id/* drivers/iommu/intel-iommu.c 3508 */;
+	struct device *cocci_id/* drivers/iommu/intel-iommu.c 3507 */;
+	int cocci_id/* drivers/iommu/intel-iommu.c 349 */(struct iommu_domain *domain,
+							  struct device *dev);
+	bool cocci_id/* drivers/iommu/intel-iommu.c 348 */(struct device *dev);
+	int cocci_id/* drivers/iommu/intel-iommu.c 346 */(struct dmar_domain *domain,
+							  struct intel_iommu *iommu);
+	void cocci_id/* drivers/iommu/intel-iommu.c 344 */(struct intel_iommu *iommu,
+							   struct device *dev);
+	void cocci_id/* drivers/iommu/intel-iommu.c 343 */(struct device_domain_info *info);
+	void cocci_id/* drivers/iommu/intel-iommu.c 342 */(struct device *dev);
+	void cocci_id/* drivers/iommu/intel-iommu.c 340 */(struct dmar_domain *domain);
+	u32 cocci_id/* drivers/iommu/intel-iommu.c 3239 */;
+	struct dmar_atsr_unit {
+		struct list_head list;
+		struct acpi_dmar_header *hdr;
+		struct dmar_dev_scope *devices;
+		int devices_cnt;
+		u8 include_all:1;
+	} cocci_id/* drivers/iommu/intel-iommu.c 323 */;
+	struct dmar_rmrr_unit {
+		struct list_head list;
+		struct acpi_dmar_header *hdr;
+		u64 base_address;
+		u64 end_address;
+		struct dmar_dev_scope *devices;
+		int devices_cnt;
+	} cocci_id/* drivers/iommu/intel-iommu.c 314 */;
+	struct root_entry cocci_id/* drivers/iommu/intel-iommu.c 3014 */;
+	struct context_entry **cocci_id/* drivers/iommu/intel-iommu.c 3008 */;
+	struct root_entry *cocci_id/* drivers/iommu/intel-iommu.c 3007 */;
+	struct dmar_rmrr_unit *cocci_id/* drivers/iommu/intel-iommu.c 2827 */;
+	int cocci_id/* drivers/iommu/intel-iommu.c 2737 */(struct dmar_domain *domain,
+							   int guest_width);
+	u16 *cocci_id/* drivers/iommu/intel-iommu.c 2587 */;
+	struct iommu_domain *cocci_id/* drivers/iommu/intel-iommu.c 2442 */;
+	void *cocci_id/* drivers/iommu/intel-iommu.c 2328 */;
+	bool cocci_id/* drivers/iommu/intel-iommu.c 231 */;
+	struct context_entry *cocci_id/* drivers/iommu/intel-iommu.c 231 */;
+	unsigned long long cocci_id/* drivers/iommu/intel-iommu.c 2294 */;
+	dma_addr_t cocci_id/* drivers/iommu/intel-iommu.c 2252 */;
+	uint64_t cocci_id/* drivers/iommu/intel-iommu.c 2246 */;
+	unsigned int cocci_id/* drivers/iommu/intel-iommu.c 2230 */;
+	phys_addr_t cocci_id/* drivers/iommu/intel-iommu.c 2228 */;
+	struct dma_pte *cocci_id/* drivers/iommu/intel-iommu.c 2227 */;
+	struct scatterlist *cocci_id/* drivers/iommu/intel-iommu.c 2224 */;
+	int cocci_id/* drivers/iommu/intel-iommu.c 2223 */;
+	struct domain_context_mapping_data cocci_id/* drivers/iommu/intel-iommu.c 2140 */;
+	struct domain_context_mapping_data *cocci_id/* drivers/iommu/intel-iommu.c 2130 */;
+	struct domain_context_mapping_data {
+		struct dmar_domain *domain;
+		struct intel_iommu *iommu;
+		struct pasid_table *table;
+	} cocci_id/* drivers/iommu/intel-iommu.c 2121 */;
+	unsigned long *cocci_id/* drivers/iommu/intel-iommu.c 1933 */;
+	struct pasid_table *cocci_id/* drivers/iommu/intel-iommu.c 1928 */;
+	struct resource *cocci_id/* drivers/iommu/intel-iommu.c 1810 */;
+	struct iova *cocci_id/* drivers/iommu/intel-iommu.c 1792 */;
+	struct lock_class_key cocci_id/* drivers/iommu/intel-iommu.c 1787 */;
+	struct iova_domain cocci_id/* drivers/iommu/intel-iommu.c 1786 */;
+	void __init cocci_id/* drivers/iommu/intel-iommu.c 174 */(void);
+	struct intel_iommu **cocci_id/* drivers/iommu/intel-iommu.c 172 */;
+	struct iova_domain *cocci_id/* drivers/iommu/intel-iommu.c 1532 */;
+	u8 cocci_id/* drivers/iommu/intel-iommu.c 1253 */;
+	u16 cocci_id/* drivers/iommu/intel-iommu.c 1253 */;
+}

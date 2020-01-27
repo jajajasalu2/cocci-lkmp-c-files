@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	struct scsi_host_template *cocci_id/* drivers/usb/storage/usb.c 937 */;
+	struct us_data **cocci_id/* drivers/usb/storage/usb.c 933 */;
+	struct us_data cocci_id/* drivers/usb/storage/usb.c 892 */;
+	struct work_struct *cocci_id/* drivers/usb/storage/usb.c 890 */;
+	struct Scsi_Host *cocci_id/* drivers/usb/storage/usb.c 842 */;
+	void cocci_id/* drivers/usb/storage/usb.c 826 */;
+	struct task_struct *cocci_id/* drivers/usb/storage/usb.c 773 */;
+	char cocci_id/* drivers/usb/storage/usb.c 74 */[128];
+	struct usb_endpoint_descriptor *cocci_id/* drivers/usb/storage/usb.c 731 */;
+	struct usb_host_interface *cocci_id/* drivers/usb/storage/usb.c 730 */;
+	unsigned int cocci_id/* drivers/usb/storage/usb.c 70 */;
+	struct usb_device_descriptor *cocci_id/* drivers/usb/storage/usb.c 633 */;
+	const char *cocci_id/* drivers/usb/storage/usb.c 629 */[3];
+	struct device *cocci_id/* drivers/usb/storage/usb.c 591 */;
+	struct usb_interface_descriptor *cocci_id/* drivers/usb/storage/usb.c 589 */;
+	struct usb_device *cocci_id/* drivers/usb/storage/usb.c 588 */;
+	struct us_unusual_dev *cocci_id/* drivers/usb/storage/usb.c 586 */;
+	const struct usb_device_id *cocci_id/* drivers/usb/storage/usb.c 585 */;
+	unsigned cocci_id/* drivers/usb/storage/usb.c 480 */;
+	char *cocci_id/* drivers/usb/storage/usb.c 477 */;
+	unsigned long *cocci_id/* drivers/usb/storage/usb.c 475 */;
+	struct usb_interface *cocci_id/* drivers/usb/storage/usb.c 440 */;
+	struct us_data *cocci_id/* drivers/usb/storage/usb.c 440 */;
+	int cocci_id/* drivers/usb/storage/usb.c 440 */;
+	unsigned char cocci_id/* drivers/usb/storage/usb.c 368 */[36];
+	struct scsi_cmnd *cocci_id/* drivers/usb/storage/usb.c 302 */;
+	void *cocci_id/* drivers/usb/storage/usb.c 298 */;
+	u16 cocci_id/* drivers/usb/storage/usb.c 280 */;
+	unsigned char *cocci_id/* drivers/usb/storage/usb.c 261 */;
+	pm_message_t cocci_id/* drivers/usb/storage/usb.c 169 */;
+	struct usb_host_config *cocci_id/* drivers/usb/storage/usb.c 145 */;
+	struct mutex *cocci_id/* drivers/usb/storage/usb.c 141 */;
+	struct lock_class_key cocci_id/* drivers/usb/storage/usb.c 139 */[USB_MAXINTERFACES];
+	struct us_unusual_dev cocci_id/* drivers/usb/storage/usb.c 129 */;
+	struct usb_driver cocci_id/* drivers/usb/storage/usb.c 1142 */;
+	struct scsi_host_template cocci_id/* drivers/usb/storage/usb.c 1089 */;
+}

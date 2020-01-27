@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	int cocci_id/* net/batman-adv/bat_v_elp.c 72 */;
+	struct station_info cocci_id/* net/batman-adv/bat_v_elp.c 70 */;
+	struct net_device *cocci_id/* net/batman-adv/bat_v_elp.c 69 */;
+	struct ethtool_link_ksettings cocci_id/* net/batman-adv/bat_v_elp.c 68 */;
+	struct batadv_hard_iface *cocci_id/* net/batman-adv/bat_v_elp.c 67 */;
+	u32 cocci_id/* net/batman-adv/bat_v_elp.c 65 */;
+	struct batadv_hardif_neigh_node *cocci_id/* net/batman-adv/bat_v_elp.c 65 */;
+	bool cocci_id/* net/batman-adv/bat_v_elp.c 518 */;
+	struct ethhdr *cocci_id/* net/batman-adv/bat_v_elp.c 517 */;
+	unsigned int cocci_id/* net/batman-adv/bat_v_elp.c 49 */;
+	s32 cocci_id/* net/batman-adv/bat_v_elp.c 462 */;
+	struct batadv_orig_node *cocci_id/* net/batman-adv/bat_v_elp.c 460 */;
+	struct batadv_neigh_node *cocci_id/* net/batman-adv/bat_v_elp.c 459 */;
+	u8 *cocci_id/* net/batman-adv/bat_v_elp.c 454 */;
+	struct batadv_priv *cocci_id/* net/batman-adv/bat_v_elp.c 453 */;
+	struct sk_buff *cocci_id/* net/batman-adv/bat_v_elp.c 412 */;
+	struct batadv_elp_packet *cocci_id/* net/batman-adv/bat_v_elp.c 411 */;
+	void cocci_id/* net/batman-adv/bat_v_elp.c 408 */;
+	size_t cocci_id/* net/batman-adv/bat_v_elp.c 352 */;
+	unsigned char *cocci_id/* net/batman-adv/bat_v_elp.c 350 */;
+	const size_t cocci_id/* net/batman-adv/bat_v_elp.c 348 */;
+	struct batadv_hard_iface cocci_id/* net/batman-adv/bat_v_elp.c 267 */;
+	struct batadv_hard_iface_bat_v cocci_id/* net/batman-adv/bat_v_elp.c 266 */;
+	struct batadv_hard_iface_bat_v *cocci_id/* net/batman-adv/bat_v_elp.c 259 */;
+	struct work_struct *cocci_id/* net/batman-adv/bat_v_elp.c 255 */;
+	struct batadv_elp_packet cocci_id/* net/batman-adv/bat_v_elp.c 222 */;
+	unsigned long cocci_id/* net/batman-adv/bat_v_elp.c 202 */;
+	struct batadv_hardif_neigh_node cocci_id/* net/batman-adv/bat_v_elp.c 174 */;
+	struct batadv_hardif_neigh_node_bat_v cocci_id/* net/batman-adv/bat_v_elp.c 172 */;
+	struct batadv_hardif_neigh_node_bat_v *cocci_id/* net/batman-adv/bat_v_elp.c 169 */;
+}

@@ -1,0 +1,55 @@
+cocci_test_suite() {
+	struct clk_fepll {
+		u32 fixed_div;
+		const u8 *parent_map;
+		struct clk_regmap_div cdiv;
+		const struct clk_fepll_vco *pll_vco;
+		const struct clk_div_table *div_table;
+		const struct freq_tbl *freq_tbl;
+	} cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 71 */;
+	const char *cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 626 */[];
+	struct clk_branch cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 618 */;
+	struct clk_init_data cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 610 */;
+	struct clk_rcg2 cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 605 */;
+	struct clk_fepll_vco {
+		u32 fdbkdiv_shift;
+		u32 fdbkdiv_width;
+		u32 refclkdiv_shift;
+		u32 refclkdiv_width;
+		u32 reg;
+	} cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 53 */;
+	enum{P_XO, P_FEPLL200, P_FEPLL500, P_DDRPLL, P_FEPLLWCSS2G, P_FEPLLWCSS5G, P_FEPLL125DLY, P_DDRPLLAPSS,} cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 34 */;
+	struct clk_regmap_div cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 29 */;
+	void __exit cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1785 */;
+	void cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1785 */;
+	int __init cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1779 */;
+	struct platform_driver cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1770 */;
+	struct platform_device *cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1752 */;
+	struct notifier_block cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1748 */;
+	void *cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1737 */;
+	struct notifier_block *cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1736 */;
+	const struct of_device_id cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1729 */[];
+	const struct qcom_cc_desc cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1721 */;
+	const struct regmap_config cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1713 */;
+	const int cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 166 */;
+	const struct qcom_reset_map cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1639 */[];
+	struct clk_regmap *cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1567 */[];
+	const char *const cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 149 */[];
+	const struct clk_div_table cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1486 */[];
+	struct parent_map cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 144 */[];
+	const struct clk_ops cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1407 */;
+	const struct clk_div_table *cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1387 */;
+	struct clk_fepll cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1355 */;
+	const struct freq_tbl cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1337 */[];
+	u64 cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1310 */;
+	u32 cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1309 */;
+	struct clk_fepll *cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1308 */;
+	struct clk_hw *cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1305 */;
+	unsigned long cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1304 */;
+	int cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1273 */;
+	const struct freq_tbl *cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1256 */;
+	unsigned long *cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1252 */;
+	long cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1251 */;
+	const struct clk_fepll_vco cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1230 */;
+	const struct clk_fepll_vco *cocci_id/* drivers/clk/qcom/gcc-ipq4019.c 1213 */;
+}

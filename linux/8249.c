@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	u8 *cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 75 */;
+	bool cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 595 */;
+	u32 cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 588 */;
+	struct ena_eth_io_rx_desc cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 577 */;
+	struct ena_eth_io_rx_desc *cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 566 */;
+	u16 cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 564 */;
+	struct ena_com_buf *cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 563 */;
+	struct ena_com_io_sq *cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 562 */;
+	int cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 562 */;
+	struct ena_com_rx_buf_info *cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 518 */;
+	struct ena_com_rx_ctx *cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 516 */;
+	struct ena_eth_io_tx_desc cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 423 */;
+	u64 cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 381 */;
+	void *cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 375 */;
+	struct ena_eth_io_tx_desc *cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 373 */;
+	int *cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 371 */;
+	void cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 337 */;
+	struct ena_com_tx_meta cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 332 */;
+	struct ena_eth_io_tx_meta_desc cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 295 */;
+	struct ena_com_tx_meta *cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 292 */;
+	struct ena_eth_io_tx_meta_desc *cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 291 */;
+	struct ena_com_tx_ctx *cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 289 */;
+	struct ena_eth_io_rx_cdesc_base *cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 254 */;
+	u16 *cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 252 */;
+	struct ena_com_io_cq *cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 251 */;
+	uintptr_t cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 247 */;
+	struct ena_com_llq_info *cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 168 */;
+	struct ena_com_llq_pkt_ctrl *cocci_id/* drivers/net/ethernet/amazon/ena/ena_eth_com.c 167 */;
+}

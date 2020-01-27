@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	ntfs_attr *cocci_id/* fs/ntfs/inode.c 90 */;
+	ATTR_RECORD *cocci_id/* fs/ntfs/inode.c 445 */;
+	FILE_NAME_ATTR *cocci_id/* fs/ntfs/inode.c 444 */;
+	struct super_block *cocci_id/* fs/ntfs/inode.c 367 */;
+	struct lock_class_key cocci_id/* fs/ntfs/inode.c 353 */;
+	ntfs_inode **cocci_id/* fs/ntfs/inode.c 3036 */;
+	long long cocci_id/* fs/ntfs/inode.c 2983 */;
+	u8 *cocci_id/* fs/ntfs/inode.c 2977 */;
+	bool cocci_id/* fs/ntfs/inode.c 2945 */;
+	STANDARD_INFORMATION *cocci_id/* fs/ntfs/inode.c 2943 */;
+	MFT_RECORD *cocci_id/* fs/ntfs/inode.c 2942 */;
+	ntfs_attr_search_ctx *cocci_id/* fs/ntfs/inode.c 2941 */;
+	sle64 cocci_id/* fs/ntfs/inode.c 2939 */;
+	struct inode *cocci_id/* fs/ntfs/inode.c 2937 */;
+	int cocci_id/* fs/ntfs/inode.c 2937 */;
+	struct iattr *cocci_id/* fs/ntfs/inode.c 2858 */;
+	struct dentry *cocci_id/* fs/ntfs/inode.c 2858 */;
+	struct timespec64 cocci_id/* fs/ntfs/inode.c 2784 */;
+	unsigned cocci_id/* fs/ntfs/inode.c 2543 */;
+	const char *cocci_id/* fs/ntfs/inode.c 2310 */;
+	set_t cocci_id/* fs/ntfs/inode.c 229 */;
+	struct seq_file *cocci_id/* fs/ntfs/inode.c 2280 */;
+	test_t cocci_id/* fs/ntfs/inode.c 228 */;
+	ntfs_attr cocci_id/* fs/ntfs/inode.c 218 */;
+	ntfs_inode *cocci_id/* fs/ntfs/inode.c 2162 */;
+	void cocci_id/* fs/ntfs/inode.c 2162 */;
+	u32 cocci_id/* fs/ntfs/inode.c 214 */;
+	ntfschar *cocci_id/* fs/ntfs/inode.c 214 */;
+	unsigned long long cocci_id/* fs/ntfs/inode.c 2133 */;
+	ATTR_TYPE cocci_id/* fs/ntfs/inode.c 213 */;
+	runlist_element *cocci_id/* fs/ntfs/inode.c 1989 */;
+	ATTR_LIST_ENTRY *cocci_id/* fs/ntfs/inode.c 1840 */;
+	NTFS_RECORD *cocci_id/* fs/ntfs/inode.c 1813 */;
+	char *cocci_id/* fs/ntfs/inode.c 1807 */;
+	struct buffer_head *cocci_id/* fs/ntfs/inode.c 1746 */;
+	ntfs_volume *cocci_id/* fs/ntfs/inode.c 1745 */;
+	s64 cocci_id/* fs/ntfs/inode.c 1743 */;
+	VCN cocci_id/* fs/ntfs/inode.c 1742 */;
+	unsigned long cocci_id/* fs/ntfs/inode.c 156 */;
+	INDEX_ROOT *cocci_id/* fs/ntfs/inode.c 1467 */;
+	loff_t cocci_id/* fs/ntfs/inode.c 1460 */;
+	int cocci_id/* fs/ntfs/inode.c 136 */(struct inode *base_vi,
+					      struct inode *vi);
+	int cocci_id/* fs/ntfs/inode.c 135 */(struct inode *vi);
+	int (*cocci_id/* fs/ntfs/inode.c 134 */)(struct inode *, void *);
+	unsigned int cocci_id/* fs/ntfs/inode.c 121 */;
+}

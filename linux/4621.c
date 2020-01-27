@@ -1,0 +1,208 @@
+cocci_test_suite() {
+	struct fastrpc_mmap_req_msg {
+		s32 pgid;
+		u32 flags;
+		u64 vaddr;
+		s32 num;
+	} cocci_id/* drivers/misc/fastrpc.c 99 */;
+	struct fastrpc_mmap_rsp_msg {
+		u64 vaddr;
+	} cocci_id/* drivers/misc/fastrpc.c 95 */;
+	struct fastrpc_msg *cocci_id/* drivers/misc/fastrpc.c 914 */;
+	uint32_t cocci_id/* drivers/misc/fastrpc.c 910 */;
+	struct fastrpc_remote_arg {
+		u64 pv;
+		u64 len;
+	} cocci_id/* drivers/misc/fastrpc.c 90 */;
+	void __user *cocci_id/* drivers/misc/fastrpc.c 857 */;
+	void *cocci_id/* drivers/misc/fastrpc.c 853 */;
+	struct fastrpc_invoke_buf {
+		u32 num;
+		u32 pgidx;
+	} cocci_id/* drivers/misc/fastrpc.c 85 */;
+	struct vm_area_struct *cocci_id/* drivers/misc/fastrpc.c 812 */;
+	struct fastrpc_phy_page {
+		u64 addr;
+		u64 size;
+	} cocci_id/* drivers/misc/fastrpc.c 80 */;
+	const char *cocci_id/* drivers/misc/fastrpc.c 78 */[FASTRPC_DEV_MAX];
+	uintptr_t cocci_id/* drivers/misc/fastrpc.c 772 */;
+	struct fastrpc_phy_page *cocci_id/* drivers/misc/fastrpc.c 768 */;
+	struct fastrpc_invoke_buf *cocci_id/* drivers/misc/fastrpc.c 767 */;
+	struct fastrpc_remote_arg *cocci_id/* drivers/misc/fastrpc.c 766 */;
+	struct fastrpc_phy_page cocci_id/* drivers/misc/fastrpc.c 712 */;
+	struct fastrpc_invoke_buf cocci_id/* drivers/misc/fastrpc.c 711 */;
+	struct fastrpc_remote_arg cocci_id/* drivers/misc/fastrpc.c 710 */;
+	struct fastrpc_map **cocci_id/* drivers/misc/fastrpc.c 620 */;
+	const struct dma_buf_ops cocci_id/* drivers/misc/fastrpc.c 608 */;
+	size_t cocci_id/* drivers/misc/fastrpc.c 602 */;
+	struct fastrpc_dma_buf_attachment *cocci_id/* drivers/misc/fastrpc.c 544 */;
+	struct dma_buf_attachment *cocci_id/* drivers/misc/fastrpc.c 542 */;
+	struct dma_buf *cocci_id/* drivers/misc/fastrpc.c 541 */;
+	enum dma_data_direction cocci_id/* drivers/misc/fastrpc.c 514 */;
+	struct sg_table *cocci_id/* drivers/misc/fastrpc.c 512 */;
+	struct fastrpc_invoke_args *cocci_id/* drivers/misc/fastrpc.c 437 */;
+	u32 cocci_id/* drivers/misc/fastrpc.c 436 */;
+	struct fastrpc_invoke_ctx *cocci_id/* drivers/misc/fastrpc.c 435 */;
+	struct fastrpc_buf_overlap *cocci_id/* drivers/misc/fastrpc.c 389 */;
+	const void *cocci_id/* drivers/misc/fastrpc.c 387 */;
+	struct work_struct *cocci_id/* drivers/misc/fastrpc.c 378 */;
+	struct fastrpc_invoke_ctx cocci_id/* drivers/misc/fastrpc.c 348 */;
+	struct fastrpc_channel_ctx cocci_id/* drivers/misc/fastrpc.c 326 */;
+	struct kref *cocci_id/* drivers/misc/fastrpc.c 322 */;
+	dma_addr_t *cocci_id/* drivers/misc/fastrpc.c 306 */;
+	struct fastrpc_buf *cocci_id/* drivers/misc/fastrpc.c 289 */;
+	u64 cocci_id/* drivers/misc/fastrpc.c 287 */;
+	struct fastrpc_buf **cocci_id/* drivers/misc/fastrpc.c 287 */;
+	struct fastrpc_user *cocci_id/* drivers/misc/fastrpc.c 286 */;
+	struct device *cocci_id/* drivers/misc/fastrpc.c 286 */;
+	int cocci_id/* drivers/misc/fastrpc.c 286 */;
+	void cocci_id/* drivers/misc/fastrpc.c 279 */;
+	struct fastrpc_map cocci_id/* drivers/misc/fastrpc.c 236 */;
+	struct fastrpc_user {
+		struct list_head user;
+		struct list_head maps;
+		struct list_head pending;
+		struct list_head mmaps;
+		struct fastrpc_channel_ctx *cctx;
+		struct fastrpc_session_ctx *sctx;
+		struct fastrpc_buf *init_mem;
+		int tgid;
+		int pd;
+		spinlock_t lock;
+		struct mutex mutex;
+	} cocci_id/* drivers/misc/fastrpc.c 214 */;
+	struct fastrpc_channel_ctx {
+		int domain_id;
+		int sesscount;
+		struct rpmsg_device *rpdev;
+		struct fastrpc_session_ctx session[FASTRPC_MAX_SESSIONS];
+		spinlock_t lock;
+		struct idr ctx_idr;
+		struct list_head users;
+		struct miscdevice miscdev;
+		struct kref refcount;
+	} cocci_id/* drivers/misc/fastrpc.c 202 */;
+	struct fastrpc_session_ctx {
+		struct device *dev;
+		int sid;
+		bool used;
+		bool valid;
+	} cocci_id/* drivers/misc/fastrpc.c 195 */;
+	struct rpmsg_driver cocci_id/* drivers/misc/fastrpc.c 1710 */;
+	struct fastrpc_invoke_ctx {
+		int nscalars;
+		int nbufs;
+		int retval;
+		int pid;
+		int tgid;
+		u32 sc;
+		u32 *crc;
+		u64 ctxid;
+		u64 msg_sz;
+		struct kref refcount;
+		struct list_head node;
+		struct completion work;
+		struct work_struct put_work;
+		struct fastrpc_msg msg;
+		struct fastrpc_user *fl;
+		struct fastrpc_remote_arg *rpra;
+		struct fastrpc_map **maps;
+		struct fastrpc_buf *buf;
+		struct fastrpc_invoke_args *args;
+		struct fastrpc_buf_overlap *olaps;
+		struct fastrpc_channel_ctx *cctx;
+	} cocci_id/* drivers/misc/fastrpc.c 171 */;
+	struct fastrpc_invoke_rsp *cocci_id/* drivers/misc/fastrpc.c 1672 */;
+	struct rpmsg_device *cocci_id/* drivers/misc/fastrpc.c 1668 */;
+	const char *cocci_id/* drivers/misc/fastrpc.c 1595 */;
+	struct platform_driver cocci_id/* drivers/misc/fastrpc.c 1580 */;
+	const struct of_device_id cocci_id/* drivers/misc/fastrpc.c 1575 */[];
+	struct fastrpc_map {
+		struct list_head node;
+		struct fastrpc_user *fl;
+		int fd;
+		struct dma_buf *buf;
+		struct sg_table *table;
+		struct dma_buf_attachment *attach;
+		u64 phys;
+		u64 size;
+		void *va;
+		u64 len;
+		struct kref refcount;
+	} cocci_id/* drivers/misc/fastrpc.c 157 */;
+	unsigned long cocci_id/* drivers/misc/fastrpc.c 1516 */;
+	struct fastrpc_session_ctx *cocci_id/* drivers/misc/fastrpc.c 1513 */;
+	struct fastrpc_channel_ctx *cocci_id/* drivers/misc/fastrpc.c 1512 */;
+	struct platform_device *cocci_id/* drivers/misc/fastrpc.c 1510 */;
+	struct fastrpc_dma_buf_attachment {
+		struct device *dev;
+		struct sg_table sgt;
+		struct list_head node;
+	} cocci_id/* drivers/misc/fastrpc.c 151 */;
+	const struct file_operations cocci_id/* drivers/misc/fastrpc.c 1503 */;
+	char __user *cocci_id/* drivers/misc/fastrpc.c 1473 */;
+	struct file *cocci_id/* drivers/misc/fastrpc.c 1469 */;
+	unsigned int cocci_id/* drivers/misc/fastrpc.c 1469 */;
+	long cocci_id/* drivers/misc/fastrpc.c 1469 */;
+	struct fastrpc_req_mmap cocci_id/* drivers/misc/fastrpc.c 1391 */;
+	struct fastrpc_req_munmap cocci_id/* drivers/misc/fastrpc.c 1389 */;
+	struct fastrpc_mmap_rsp_msg cocci_id/* drivers/misc/fastrpc.c 1388 */;
+	struct fastrpc_mmap_req_msg cocci_id/* drivers/misc/fastrpc.c 1387 */;
+	struct fastrpc_invoke_args cocci_id/* drivers/misc/fastrpc.c 1385 */[3];
+	struct fastrpc_buf {
+		struct fastrpc_user *fl;
+		struct dma_buf *dmabuf;
+		struct device *dev;
+		void *virt;
+		u64 phys;
+		u64 size;
+		struct mutex lock;
+		struct list_head attachments;
+		struct list_head node;
+		uintptr_t raddr;
+	} cocci_id/* drivers/misc/fastrpc.c 136 */;
+	struct fastrpc_munmap_req_msg cocci_id/* drivers/misc/fastrpc.c 1332 */;
+	struct fastrpc_req_munmap *cocci_id/* drivers/misc/fastrpc.c 1328 */;
+	struct fastrpc_invoke cocci_id/* drivers/misc/fastrpc.c 1300 */;
+	struct fastrpc_invoke_args cocci_id/* drivers/misc/fastrpc.c 1282 */[1];
+	struct fastrpc_buf_overlap {
+		u64 start;
+		u64 end;
+		int raix;
+		u64 mstart;
+		u64 mend;
+		u64 offset;
+	} cocci_id/* drivers/misc/fastrpc.c 127 */;
+	struct fastrpc_alloc_dma_buf cocci_id/* drivers/misc/fastrpc.c 1244 */;
+	struct fastrpc_invoke_rsp {
+		u64 ctx;
+		int retval;
+	} cocci_id/* drivers/misc/fastrpc.c 122 */;
+	struct inode *cocci_id/* drivers/misc/fastrpc.c 1203 */;
+	struct fastrpc_map *cocci_id/* drivers/misc/fastrpc.c 1165 */;
+	struct fastrpc_msg {
+		int pid;
+		int tid;
+		u64 ctx;
+		u32 handle;
+		u32 sc;
+		u64 addr;
+		u64 size;
+	} cocci_id/* drivers/misc/fastrpc.c 112 */;
+	struct fastrpc_munmap_req_msg {
+		s32 pgid;
+		u64 vaddr;
+		u64 size;
+	} cocci_id/* drivers/misc/fastrpc.c 106 */;
+	struct {
+		int pgid;
+		u32 namelen;
+		u32 filelen;
+		u32 pageslen;
+		u32 attrs;
+		u32 siglen;
+	} cocci_id/* drivers/misc/fastrpc.c 1011 */;
+	struct fastrpc_phy_page cocci_id/* drivers/misc/fastrpc.c 1006 */[1];
+	struct fastrpc_init_create cocci_id/* drivers/misc/fastrpc.c 1004 */;
+}

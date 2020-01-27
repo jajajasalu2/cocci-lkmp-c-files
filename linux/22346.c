@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	u8 cocci_id/* security/integrity/ima/ima_appraise.c 65 */;
+	const struct evm_ima_xattr_data *cocci_id/* security/integrity/ima/ima_appraise.c 547 */;
+	const void *cocci_id/* security/integrity/ima/ima_appraise.c 545 */;
+	size_t cocci_id/* security/integrity/ima/ima_appraise.c 545 */;
+	bool cocci_id/* security/integrity/ima/ima_appraise.c 359 */;
+	enum integrity_status cocci_id/* security/integrity/ima/ima_appraise.c 357 */;
+	struct inode *cocci_id/* security/integrity/ima/ima_appraise.c 356 */;
+	struct dentry *cocci_id/* security/integrity/ima/ima_appraise.c 355 */;
+	const char *cocci_id/* security/integrity/ima/ima_appraise.c 354 */;
+	const char cocci_id/* security/integrity/ima/ima_appraise.c 353 */[];
+	const struct modsig *cocci_id/* security/integrity/ima/ima_appraise.c 351 */;
+	struct evm_ima_xattr_data *cocci_id/* security/integrity/ima/ima_appraise.c 350 */;
+	const unsigned char *cocci_id/* security/integrity/ima/ima_appraise.c 349 */;
+	struct file *cocci_id/* security/integrity/ima/ima_appraise.c 349 */;
+	struct integrity_iint_cache *cocci_id/* security/integrity/ima/ima_appraise.c 348 */;
+	enum ima_hooks cocci_id/* security/integrity/ima/ima_appraise.c 347 */;
+	int cocci_id/* security/integrity/ima/ima_appraise.c 347 */;
+	u32 cocci_id/* security/integrity/ima/ima_appraise.c 320 */;
+	const u8 *cocci_id/* security/integrity/ima/ima_appraise.c 319 */;
+	enum hash_algo cocci_id/* security/integrity/ima/ima_appraise.c 318 */;
+	enum integrity_status *cocci_id/* security/integrity/ima/ima_appraise.c 288 */;
+	const char **cocci_id/* security/integrity/ima/ima_appraise.c 288 */;
+	char **cocci_id/* security/integrity/ima/ima_appraise.c 196 */;
+	ssize_t cocci_id/* security/integrity/ima/ima_appraise.c 194 */;
+	struct evm_ima_xattr_data **cocci_id/* security/integrity/ima/ima_appraise.c 192 */;
+	char *cocci_id/* security/integrity/ima/ima_appraise.c 19 */;
+	int __init cocci_id/* security/integrity/ima/ima_appraise.c 19 */;
+	unsigned int cocci_id/* security/integrity/ima/ima_appraise.c 177 */;
+	typeof(sig) cocci_id/* security/integrity/ima/ima_appraise.c 163 */;
+	struct signature_v2_hdr *cocci_id/* security/integrity/ima/ima_appraise.c 154 */;
+	void cocci_id/* security/integrity/ima/ima_appraise.c 127 */;
+}

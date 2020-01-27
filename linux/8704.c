@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	const u8 cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 978 */;
+	const u8 *cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 978 */;
+	const u32 *cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 977 */;
+	u8 *cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 95 */;
+	u8 cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 94 */;
+	u16 *cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 92 */;
+	u16 cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 91 */;
+	u32 *cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 89 */;
+	u32 cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 88 */;
+	struct ethtool_channels *cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 858 */;
+	u64 cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 85 */;
+	struct ethtool_rxnfc *cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 828 */;
+	char *cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 73 */;
+	struct iavf_q_vector *cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 717 */;
+	const struct iavf_stats *cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 71 */;
+	u64 *cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 70 */;
+	struct iavf_ring *cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 646 */;
+	struct iavf_vsi *cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 645 */;
+	struct iavf_adapter *cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 644 */;
+	struct ethtool_coalesce *cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 642 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 641 */;
+	int cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 641 */;
+	struct ethtool_ringparam *cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 578 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 558 */;
+	struct iavf_ring cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 51 */;
+	const struct iavf_priv_flags *cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 445 */;
+	struct ethtool_stats *cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 341 */;
+	struct iavf_stats {
+		char stat_string[ETH_GSTRING_LEN];
+		int sizeof_stat;
+		int stat_offset;
+	} cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 33 */;
+	struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 274 */;
+	const struct iavf_priv_flags cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 259 */[];
+	struct iavf_priv_flags {
+		char flag_string[ETH_GSTRING_LEN];
+		u32 flag;
+		bool read_only;
+	} cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 247 */;
+	struct iavf_adapter cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 221 */;
+	va_list cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 196 */;
+	u8 **cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 190 */;
+	unsigned int cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 122 */;
+	const unsigned int cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 120 */;
+	const struct iavf_stats cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 119 */[];
+	u64 **cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 118 */;
+	void *cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 118 */;
+	void cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 117 */;
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/intel/iavf/iavf_ethtool.c 1000 */;
+}

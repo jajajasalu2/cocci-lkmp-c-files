@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct super_block *cocci_id/* fs/gfs2/sys.c 83 */;
+	const struct kset_uevent_ops cocci_id/* fs/gfs2/sys.c 712 */;
+	struct kobj_uevent_env *cocci_id/* fs/gfs2/sys.c 698 */;
+	char *cocci_id/* fs/gfs2/sys.c 650 */[];
+	char cocci_id/* fs/gfs2/sys.c 648 */[20];
+	const struct attribute_group cocci_id/* fs/gfs2/sys.c 639 */;
+	struct kset *cocci_id/* fs/gfs2/sys.c 58 */;
+	unsigned int *cocci_id/* fs/gfs2/sys.c 573 */;
+	struct gfs2_tune *cocci_id/* fs/gfs2/sys.c 557 */;
+	const struct sysfs_ops cocci_id/* fs/gfs2/sys.c 52 */;
+	struct gfs2_jdesc *cocci_id/* fs/gfs2/sys.c 422 */;
+	unsigned cocci_id/* fs/gfs2/sys.c 420 */;
+	struct gfs2_attr cocci_id/* fs/gfs2/sys.c 40 */;
+	struct gfs2_attr *cocci_id/* fs/gfs2/sys.c 40 */;
+	struct gfs2_sbd cocci_id/* fs/gfs2/sys.c 39 */;
+	struct kobject *cocci_id/* fs/gfs2/sys.c 36 */;
+	struct attribute *cocci_id/* fs/gfs2/sys.c 36 */;
+	const char *cocci_id/* fs/gfs2/sys.c 337 */;
+	size_t cocci_id/* fs/gfs2/sys.c 337 */;
+	int cocci_id/* fs/gfs2/sys.c 329 */;
+	struct lm_lockstruct *cocci_id/* fs/gfs2/sys.c 327 */;
+	struct gfs2_sbd *cocci_id/* fs/gfs2/sys.c 325 */;
+	char *cocci_id/* fs/gfs2/sys.c 325 */;
+	ssize_t cocci_id/* fs/gfs2/sys.c 325 */;
+	const struct lm_lockops *cocci_id/* fs/gfs2/sys.c 321 */;
+	struct kobj_type cocci_id/* fs/gfs2/sys.c 308 */;
+	void cocci_id/* fs/gfs2/sys.c 301 */;
+	struct gfs2_attr {
+		struct attribute attr;
+		ssize_t (*show)(struct gfs2_sbd *, char *);
+		ssize_t (*store)(struct gfs2_sbd *, const char *, size_t);
+	} cocci_id/* fs/gfs2/sys.c 30 */;
+	struct attribute *cocci_id/* fs/gfs2/sys.c 286 */[];
+	char cocci_id/* fs/gfs2/sys.c 233 */[16];
+	unsigned long long cocci_id/* fs/gfs2/sys.c 232 */;
+	unsigned int cocci_id/* fs/gfs2/sys.c 230 */;
+	const struct gfs2_glock_operations *cocci_id/* fs/gfs2/sys.c 229 */;
+	struct gfs2_glock *cocci_id/* fs/gfs2/sys.c 228 */;
+	u32 cocci_id/* fs/gfs2/sys.c 209 */;
+	struct kqid cocci_id/* fs/gfs2/sys.c 207 */;
+}

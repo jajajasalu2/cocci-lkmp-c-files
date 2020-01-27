@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	bool cocci_id/* drivers/power/supply/power_supply_sysfs.c 88 */;
+	enum power_supply_usb_type cocci_id/* drivers/power/supply/power_supply_sysfs.c 86 */;
+	union power_supply_propval *cocci_id/* drivers/power/supply/power_supply_sysfs.c 83 */;
+	enum power_supply_usb_type *cocci_id/* drivers/power/supply/power_supply_sysfs.c 81 */;
+	const char *const cocci_id/* drivers/power/supply/power_supply_sysfs.c 72 */[];
+	unsigned long cocci_id/* drivers/power/supply/power_supply_sysfs.c 436 */;
+	struct device_attribute cocci_id/* drivers/power/supply/power_supply_sysfs.c 40 */[];
+	struct kobj_uevent_env *cocci_id/* drivers/power/supply/power_supply_sysfs.c 382 */;
+	gfp_t cocci_id/* drivers/power/supply/power_supply_sysfs.c 365 */;
+	const char *cocci_id/* drivers/power/supply/power_supply_sysfs.c 365 */;
+	char *cocci_id/* drivers/power/supply/power_supply_sysfs.c 365 */;
+	struct device_type *cocci_id/* drivers/power/supply/power_supply_sysfs.c 355 */;
+	void cocci_id/* drivers/power/supply/power_supply_sysfs.c 355 */;
+	const struct attribute_group *cocci_id/* drivers/power/supply/power_supply_sysfs.c 350 */[];
+	struct attribute_group cocci_id/* drivers/power/supply/power_supply_sysfs.c 345 */;
+	struct power_supply *cocci_id/* drivers/power/supply/power_supply_sysfs.c 323 */;
+	struct device cocci_id/* drivers/power/supply/power_supply_sysfs.c 322 */;
+	struct device *cocci_id/* drivers/power/supply/power_supply_sysfs.c 322 */;
+	int cocci_id/* drivers/power/supply/power_supply_sysfs.c 320 */;
+	struct attribute *cocci_id/* drivers/power/supply/power_supply_sysfs.c 319 */;
+	umode_t cocci_id/* drivers/power/supply/power_supply_sysfs.c 318 */;
+	struct kobject *cocci_id/* drivers/power/supply/power_supply_sysfs.c 318 */;
+	struct attribute *cocci_id/* drivers/power/supply/power_supply_sysfs.c 315 */[ARRAY_SIZE(power_supply_attrs) + 1];
+	long cocci_id/* drivers/power/supply/power_supply_sysfs.c 220 */;
+	size_t cocci_id/* drivers/power/supply/power_supply_sysfs.c 186 */;
+	union power_supply_propval cocci_id/* drivers/power/supply/power_supply_sysfs.c 121 */;
+	enum power_supply_property cocci_id/* drivers/power/supply/power_supply_sysfs.c 120 */;
+	struct device_attribute *cocci_id/* drivers/power/supply/power_supply_sysfs.c 116 */;
+	ssize_t cocci_id/* drivers/power/supply/power_supply_sysfs.c 115 */;
+}

@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	struct mmc_request *cocci_id/* drivers/mmc/host/s3cmci.c 832 */;
+	irqreturn_t cocci_id/* drivers/mmc/host/s3cmci.c 609 */;
+	unsigned long cocci_id/* drivers/mmc/host/s3cmci.c 552 */;
+	u8 *cocci_id/* drivers/mmc/host/s3cmci.c 478 */;
+	void __iomem *cocci_id/* drivers/mmc/host/s3cmci.c 426 */;
+	u32 *cocci_id/* drivers/mmc/host/s3cmci.c 424 */;
+	bool cocci_id/* drivers/mmc/host/s3cmci.c 402 */;
+	struct scatterlist *cocci_id/* drivers/mmc/host/s3cmci.c 320 */;
+	u32 **cocci_id/* drivers/mmc/host/s3cmci.c 318 */;
+	u32 cocci_id/* drivers/mmc/host/s3cmci.c 288 */;
+	struct s3cmci_host *cocci_id/* drivers/mmc/host/s3cmci.c 286 */;
+	void cocci_id/* drivers/mmc/host/s3cmci.c 286 */;
+	unsigned int cocci_id/* drivers/mmc/host/s3cmci.c 210 */;
+	int cocci_id/* drivers/mmc/host/s3cmci.c 208 */;
+	struct mmc_command *cocci_id/* drivers/mmc/host/s3cmci.c 207 */;
+	struct platform_driver cocci_id/* drivers/mmc/host/s3cmci.c 1816 */;
+	const struct platform_device_id cocci_id/* drivers/mmc/host/s3cmci.c 1800 */[];
+	const struct of_device_id cocci_id/* drivers/mmc/host/s3cmci.c 1783 */[];
+	struct platform_device *cocci_id/* drivers/mmc/host/s3cmci.c 1547 */;
+	struct s3c24xx_mci_pdata *cocci_id/* drivers/mmc/host/s3cmci.c 1528 */;
+	char *cocci_id/* drivers/mmc/host/s3cmci.c 151 */;
+	void cocci_id/* drivers/mmc/host/s3cmci.c 146 */(struct mmc_host *mmc);
+	struct dentry *cocci_id/* drivers/mmc/host/s3cmci.c 1452 */;
+	struct device *cocci_id/* drivers/mmc/host/s3cmci.c 1451 */;
+	void cocci_id/* drivers/mmc/host/s3cmci.c 145 */(struct s3cmci_host *host);
+	const struct s3cmci_reg *cocci_id/* drivers/mmc/host/s3cmci.c 1436 */;
+	struct seq_file *cocci_id/* drivers/mmc/host/s3cmci.c 1433 */;
+	const struct s3cmci_reg cocci_id/* drivers/mmc/host/s3cmci.c 1414 */[];
+	struct s3cmci_reg {
+		unsigned short addr;
+		unsigned char *name;
+	} cocci_id/* drivers/mmc/host/s3cmci.c 1409 */;
+	struct s3cmci_host cocci_id/* drivers/mmc/host/s3cmci.c 1337 */;
+	struct mmc_host *cocci_id/* drivers/mmc/host/s3cmci.c 1333 */;
+	void *cocci_id/* drivers/mmc/host/s3cmci.c 1330 */;
+	const int cocci_id/* drivers/mmc/host/s3cmci.c 133 */;
+	struct notifier_block *cocci_id/* drivers/mmc/host/s3cmci.c 1329 */;
+	struct s3c24xx_mci_pdata cocci_id/* drivers/mmc/host/s3cmci.c 1320 */;
+	const struct mmc_host_ops cocci_id/* drivers/mmc/host/s3cmci.c 1312 */;
+	enum dbg_channels{dbg_err=(1 << 0), dbg_debug=(1 << 1), dbg_info=(1 << 2), dbg_irq=(1 << 3), dbg_sg=(1 << 4), dbg_dma=(1 << 5), dbg_pio=(1 << 6), dbg_fail=(1 << 7), dbg_conf=(1 << 8),} cocci_id/* drivers/mmc/host/s3cmci.c 119 */;
+	struct mmc_ios *cocci_id/* drivers/mmc/host/s3cmci.c 1181 */;
+	struct dma_slave_config cocci_id/* drivers/mmc/host/s3cmci.c 1074 */;
+	struct dma_async_tx_descriptor *cocci_id/* drivers/mmc/host/s3cmci.c 1073 */;
+	struct mmc_data *cocci_id/* drivers/mmc/host/s3cmci.c 1070 */;
+}

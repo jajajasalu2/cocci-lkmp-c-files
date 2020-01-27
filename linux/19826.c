@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	int cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 99 */;
+	struct resource cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 93 */[4];
+	unsigned long long cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 80 */;
+	struct pt_regs *cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 73 */;
+	void cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 72 */(struct pt_regs *regs);
+	int __init cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 578 */;
+	char cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 520 */[128];
+	char *cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 51 */;
+	struct resource cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 502 */;
+	u64 cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 487 */;
+	void __init cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 485 */;
+	void cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 485 */;
+	struct txx9dmac_platform_data cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 472 */;
+	struct txx9ndfmc_platform_data cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 457 */;
+	unsigned char cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 455 */;
+	unsigned int cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 454 */;
+	__u64 cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 422 */;
+	struct platform_device cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 410 */;
+	struct resource cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 390 */[];
+	struct physmap_flash_data cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 376 */;
+	unsigned char *cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 358 */;
+	struct notifier_block cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 353 */;
+	void *cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 333 */;
+	struct notifier_block *cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 331 */;
+	struct ethtool_link_ksettings cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 323 */;
+	u32 cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 321 */;
+	struct net_device *cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 321 */;
+	__u32 cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 104 */;
+	unsigned long cocci_id/* arch/mips/txx9/generic/setup_tx4939.c 100 */;
+}

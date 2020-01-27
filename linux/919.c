@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	const char *cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 95 */[];
+	int cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 92 */[3];
+	struct pci_driver cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 876 */;
+	const struct pci_device_id cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 828 */[];
+	const struct pci_device_id *cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 667 */;
+	struct pci_dev *cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 666 */;
+	const struct nand_controller_ops cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 661 */;
+	struct cafe_priv {
+		struct nand_chip nand;
+		struct pci_dev *pdev;
+		void __iomem *mmio;
+		struct rs_control *rs;
+		uint32_t ctl1;
+		uint32_t ctl2;
+		int datalen;
+		int nr_data;
+		int data_pos;
+		int page_addr;
+		bool usedma;
+		dma_addr_t dmaaddr;
+		unsigned char *dmabuf;
+	} cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 60 */;
+	struct mtd_info *cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 598 */;
+	u8 cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 576 */;
+	u16 cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 574 */;
+	unsigned short cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 555 */;
+	loff_t cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 549 */;
+	const uint8_t *cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 534 */;
+	struct nand_bbt_descr cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 492 */;
+	uint8_t cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 485 */[];
+	const struct mtd_ooblayout_ops cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 478 */;
+	struct mtd_oob_region *cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 451 */;
+	u8 *cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 387 */;
+	int cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 386 */[4];
+	unsigned short cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 385 */[8];
+	unsigned int cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 375 */;
+	uint8_t *cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 370 */;
+	irqreturn_t cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 331 */;
+	void *cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 331 */;
+	unsigned cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 160 */;
+	void cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 160 */;
+	uint8_t cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 149 */;
+	uint32_t cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 108 */;
+	struct cafe_priv *cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 106 */;
+	struct nand_chip *cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 104 */;
+	int cocci_id/* drivers/mtd/nand/raw/cafe_nand.c 104 */;
+}

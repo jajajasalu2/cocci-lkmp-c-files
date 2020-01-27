@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct inode *cocci_id/* drivers/misc/habanalabs/device.c 82 */;
+	struct file *cocci_id/* drivers/misc/habanalabs/device.c 82 */;
+	struct hl_device_reset_work cocci_id/* drivers/misc/habanalabs/device.c 780 */;
+	struct hl_device_reset_work *cocci_id/* drivers/misc/habanalabs/device.c 779 */;
+	struct work_struct *cocci_id/* drivers/misc/habanalabs/device.c 777 */;
+	struct task_struct *cocci_id/* drivers/misc/habanalabs/device.c 723 */;
+	struct hl_fpriv *cocci_id/* drivers/misc/habanalabs/device.c 722 */;
+	u16 cocci_id/* drivers/misc/habanalabs/device.c 721 */;
+	enum hl_pll_frequency cocci_id/* drivers/misc/habanalabs/device.c 571 */;
+	s64 cocci_id/* drivers/misc/habanalabs/device.c 467 */;
+	u32 cocci_id/* drivers/misc/habanalabs/device.c 466 */;
+	struct hl_device_idle_busy_ts *cocci_id/* drivers/misc/habanalabs/device.c 464 */;
+	uint32_t cocci_id/* drivers/misc/habanalabs/device.c 462 */;
+	struct hl_fpriv cocci_id/* drivers/misc/habanalabs/device.c 46 */;
+	struct kref *cocci_id/* drivers/misc/habanalabs/device.c 41 */;
+	struct hl_device cocci_id/* drivers/misc/habanalabs/device.c 376 */;
+	struct hl_device_idle_busy_ts cocci_id/* drivers/misc/habanalabs/device.c 295 */;
+	struct hwmon_chip_info cocci_id/* drivers/misc/habanalabs/device.c 287 */;
+	enum hl_device_status cocci_id/* drivers/misc/habanalabs/device.c 27 */;
+	void cocci_id/* drivers/misc/habanalabs/device.c 228 */;
+	struct hl_device *cocci_id/* drivers/misc/habanalabs/device.c 192 */;
+	int cocci_id/* drivers/misc/habanalabs/device.c 192 */;
+	bool cocci_id/* drivers/misc/habanalabs/device.c 19 */;
+	struct device **cocci_id/* drivers/misc/habanalabs/device.c 173 */;
+	struct cdev *cocci_id/* drivers/misc/habanalabs/device.c 172 */;
+	char *cocci_id/* drivers/misc/habanalabs/device.c 172 */;
+	const struct file_operations *cocci_id/* drivers/misc/habanalabs/device.c 171 */;
+	struct class *cocci_id/* drivers/misc/habanalabs/device.c 170 */;
+	struct device *cocci_id/* drivers/misc/habanalabs/device.c 152 */;
+	const struct file_operations cocci_id/* drivers/misc/habanalabs/device.c 144 */;
+	ktime_t cocci_id/* drivers/misc/habanalabs/device.c 1317 */;
+	struct vm_area_struct *cocci_id/* drivers/misc/habanalabs/device.c 123 */;
+}

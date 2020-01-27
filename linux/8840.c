@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	struct platform_device *cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 983 */;
+	const struct reg_field cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 88 */;
+	bool cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 818 */;
+	u32 cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 816 */;
+	void *cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 812 */;
+	struct device_node *cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 713 */;
+	struct sunxi_priv_data *cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 712 */;
+	struct stmmac_priv *cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 710 */;
+	int cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 710 */;
+	struct sunxi_priv_data {
+		struct clk *tx_clk;
+		struct clk *ephy_clk;
+		struct regulator *regulator;
+		struct reset_control *rst_ephy;
+		const struct emac_variant *variant;
+		struct regmap_field *regmap_field;
+		bool internal_phy_powered;
+		void *mux_handle;
+	} cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 69 */;
+	unsigned int cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 667 */;
+	struct netdev_hw_addr *cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 631 */;
+	unsigned char *cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 603 */;
+	void __iomem *cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 553 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 551 */;
+	struct mac_device_info *cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 550 */;
+	void cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 550 */;
+	const struct stmmac_dma_ops cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 508 */;
+	struct emac_variant {
+		u32 default_syscon_value;
+		const struct reg_field *syscon_field;
+		bool soc_has_internal_phy;
+		bool support_mii;
+		bool support_rmii;
+		bool support_rgmii;
+		u8 rx_delay_max;
+		u8 tx_delay_max;
+	} cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 48 */;
+	u8 cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 457 */;
+	struct stmmac_extra_stats *cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 397 */;
+	u32 *cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 326 */;
+	dma_addr_t cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 292 */;
+	struct stmmac_dma_cfg *cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 284 */;
+	const struct emac_variant cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 130 */;
+	struct platform_driver cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 1251 */;
+	const struct of_device_id cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 1234 */[];
+	phy_interface_t cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 1108 */;
+	struct device *cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 1107 */;
+	struct stmmac_resources cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 1105 */;
+	struct plat_stmmacenet_data *cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 1104 */;
+	struct regmap *cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 1074 */;
+	const struct stmmac_ops cocci_id/* drivers/net/ethernet/stmicro/stmmac/dwmac-sun8i.c 1017 */;
+}

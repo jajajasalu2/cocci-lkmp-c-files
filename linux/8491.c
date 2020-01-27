@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	struct lancedata {
+		struct TDRE tx_ring[TX_RING_SIZE];
+		struct RDRE rx_ring[RX_RING_SIZE];
+		u_short tx_buff[TX_RING_SIZE][PKT_BUF_SIZE / sizeof(u_short)];
+		u_short rx_buff[RX_RING_SIZE][PKT_BUF_SIZE / sizeof(u_short)];
+	} cocci_id/* drivers/net/ethernet/amd/ariadne.c 99 */;
+	struct ariadne_private {
+		volatile struct TDRE *tx_ring[TX_RING_SIZE];
+		volatile struct RDRE *rx_ring[RX_RING_SIZE];
+		volatile u_short *tx_buff[TX_RING_SIZE];
+		volatile u_short *rx_buff[RX_RING_SIZE];
+		int cur_tx,cur_rx;
+		int dirty_tx;
+		char tx_full;
+	} cocci_id/* drivers/net/ethernet/amd/ariadne.c 87 */;
+	void __exit cocci_id/* drivers/net/ethernet/amd/ariadne.c 783 */;
+	void cocci_id/* drivers/net/ethernet/amd/ariadne.c 783 */;
+	int __init cocci_id/* drivers/net/ethernet/amd/ariadne.c 778 */;
+	struct zorro_driver cocci_id/* drivers/net/ethernet/amd/ariadne.c 771 */;
+	struct ariadne_private cocci_id/* drivers/net/ethernet/amd/ariadne.c 732 */;
+	struct Am79C960 cocci_id/* drivers/net/ethernet/amd/ariadne.c 723 */;
+	u32 cocci_id/* drivers/net/ethernet/amd/ariadne.c 720 */;
+	struct resource *cocci_id/* drivers/net/ethernet/amd/ariadne.c 718 */;
+	const struct zorro_device_id *cocci_id/* drivers/net/ethernet/amd/ariadne.c 713 */;
+	struct zorro_dev *cocci_id/* drivers/net/ethernet/amd/ariadne.c 712 */;
+	const struct net_device_ops cocci_id/* drivers/net/ethernet/amd/ariadne.c 701 */;
+	const struct zorro_device_id cocci_id/* drivers/net/ethernet/amd/ariadne.c 695 */[];
+	short cocci_id/* drivers/net/ethernet/amd/ariadne.c 661 */[4];
+	unsigned long cocci_id/* drivers/net/ethernet/amd/ariadne.c 625 */;
+	short cocci_id/* drivers/net/ethernet/amd/ariadne.c 624 */;
+	struct net_device_stats *cocci_id/* drivers/net/ethernet/amd/ariadne.c 621 */;
+	netdev_tx_t cocci_id/* drivers/net/ethernet/amd/ariadne.c 543 */;
+	volatile struct Am79C960 *cocci_id/* drivers/net/ethernet/amd/ariadne.c 499 */;
+	struct Am79C960 *cocci_id/* drivers/net/ethernet/amd/ariadne.c 499 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/amd/ariadne.c 497 */;
+	int cocci_id/* drivers/net/ethernet/amd/ariadne.c 497 */;
+	u_short *cocci_id/* drivers/net/ethernet/amd/ariadne.c 444 */;
+	u_long cocci_id/* drivers/net/ethernet/amd/ariadne.c 396 */;
+	irqreturn_t cocci_id/* drivers/net/ethernet/amd/ariadne.c 239 */;
+	void *cocci_id/* drivers/net/ethernet/amd/ariadne.c 239 */;
+	const void *cocci_id/* drivers/net/ethernet/amd/ariadne.c 213 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/amd/ariadne.c 193 */;
+	volatile struct RDRE *cocci_id/* drivers/net/ethernet/amd/ariadne.c 146 */;
+	u_short cocci_id/* drivers/net/ethernet/amd/ariadne.c 136 */;
+	struct lancedata cocci_id/* drivers/net/ethernet/amd/ariadne.c 132 */;
+	volatile struct TDRE *cocci_id/* drivers/net/ethernet/amd/ariadne.c 130 */;
+	volatile struct lancedata *cocci_id/* drivers/net/ethernet/amd/ariadne.c 119 */;
+	struct lancedata *cocci_id/* drivers/net/ethernet/amd/ariadne.c 119 */;
+	struct ariadne_private *cocci_id/* drivers/net/ethernet/amd/ariadne.c 118 */;
+	u_char *cocci_id/* drivers/net/ethernet/amd/ariadne.c 113 */;
+	volatile u_short *cocci_id/* drivers/net/ethernet/amd/ariadne.c 106 */;
+}

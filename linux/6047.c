@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	enum xway_mux{XWAY_MUX_GPIO=0, XWAY_MUX_SPI, XWAY_MUX_ASC, XWAY_MUX_USIF, XWAY_MUX_PCI, XWAY_MUX_CBUS, XWAY_MUX_CGU, XWAY_MUX_EBU, XWAY_MUX_EBU2, XWAY_MUX_JTAG, XWAY_MUX_MCD, XWAY_MUX_EXIN, XWAY_MUX_TDM, XWAY_MUX_STP, XWAY_MUX_SIN, XWAY_MUX_GPT, XWAY_MUX_NMI, XWAY_MUX_MDIO, XWAY_MUX_MII, XWAY_MUX_EPHY, XWAY_MUX_DFE, XWAY_MUX_SDIO, XWAY_MUX_GPHY, XWAY_MUX_SSI, XWAY_MUX_WIFI, XWAY_MUX_NONE=0xffff,} cocci_id/* drivers/pinctrl/pinctrl-xway.c 81 */;
+	const struct ltq_pmx_func cocci_id/* drivers/pinctrl/pinctrl-xway.c 462 */[];
+	const char *constcocci_id/* drivers/pinctrl/pinctrl-xway.c 454 */[];
+	const struct ltq_pin_group cocci_id/* drivers/pinctrl/pinctrl-xway.c 418 */[];
+	const unsigned cocci_id/* drivers/pinctrl/pinctrl-xway.c 386 */[];
+	const struct ltq_mfp_pin cocci_id/* drivers/pinctrl/pinctrl-xway.c 350 */[];
+	int __init cocci_id/* drivers/pinctrl/pinctrl-xway.c 1802 */;
+	void cocci_id/* drivers/pinctrl/pinctrl-xway.c 1802 */;
+	struct platform_driver cocci_id/* drivers/pinctrl/pinctrl-xway.c 1794 */;
+	char *cocci_id/* drivers/pinctrl/pinctrl-xway.c 1732 */;
+	struct pinctrl_pin_desc cocci_id/* drivers/pinctrl/pinctrl-xway.c 1726 */;
+	const struct pinctrl_xway_soc *cocci_id/* drivers/pinctrl/pinctrl-xway.c 1707 */;
+	const struct of_device_id *cocci_id/* drivers/pinctrl/pinctrl-xway.c 1706 */;
+	struct platform_device *cocci_id/* drivers/pinctrl/pinctrl-xway.c 1704 */;
+	int cocci_id/* drivers/pinctrl/pinctrl-xway.c 1704 */;
+	const struct of_device_id cocci_id/* drivers/pinctrl/pinctrl-xway.c 1691 */[];
+	struct pinctrl_gpio_range cocci_id/* drivers/pinctrl/pinctrl-xway.c 1686 */;
+	struct pinctrl_xway_soc cocci_id/* drivers/pinctrl/pinctrl-xway.c 1627 */;
+	struct pinctrl_xway_soc {
+		int pin_count;
+		const struct ltq_mfp_pin *mfp;
+		const struct ltq_pin_group *grps;
+		unsigned int num_grps;
+		const struct ltq_pmx_func *funcs;
+		unsigned int num_funcs;
+		const unsigned *exin;
+		unsigned int num_exin;
+	} cocci_id/* drivers/pinctrl/pinctrl-xway.c 1603 */;
+	struct gpio_chip cocci_id/* drivers/pinctrl/pinctrl-xway.c 1589 */;
+	unsigned cocci_id/* drivers/pinctrl/pinctrl-xway.c 1577 */;
+	struct ltq_pinmux_info *cocci_id/* drivers/pinctrl/pinctrl-xway.c 1552 */;
+	struct gpio_chip *cocci_id/* drivers/pinctrl/pinctrl-xway.c 1550 */;
+	unsigned int cocci_id/* drivers/pinctrl/pinctrl-xway.c 1550 */;
+	struct ltq_pinmux_info cocci_id/* drivers/pinctrl/pinctrl-xway.c 1525 */;
+	const struct ltq_cfg_param cocci_id/* drivers/pinctrl/pinctrl-xway.c 1519 */[];
+	u32 cocci_id/* drivers/pinctrl/pinctrl-xway.c 1501 */;
+	struct pinctrl_dev *cocci_id/* drivers/pinctrl/pinctrl-xway.c 1496 */;
+	struct pinctrl_desc cocci_id/* drivers/pinctrl/pinctrl-xway.c 1491 */;
+	const struct pinconf_ops cocci_id/* drivers/pinctrl/pinctrl-xway.c 1485 */;
+	enum ltq_pinconf_param cocci_id/* drivers/pinctrl/pinctrl-xway.c 1338 */;
+	unsigned long *cocci_id/* drivers/pinctrl/pinctrl-xway.c 1335 */;
+}

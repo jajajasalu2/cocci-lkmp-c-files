@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	xfs_ino_t cocci_id/* fs/xfs/xfs_dir2_readdir.c 57 */;
+	xfs_dir2_sf_hdr_t *cocci_id/* fs/xfs/xfs_dir2_readdir.c 54 */;
+	xfs_dir2_sf_entry_t *cocci_id/* fs/xfs/xfs_dir2_readdir.c 53 */;
+	xfs_dir2_dataptr_t cocci_id/* fs/xfs/xfs_dir2_readdir.c 52 */;
+	struct xfs_da_args cocci_id/* fs/xfs/xfs_dir2_readdir.c 509 */;
+	struct xfs_trans *cocci_id/* fs/xfs/xfs_dir2_readdir.c 504 */;
+	xfs_dir2_off_t cocci_id/* fs/xfs/xfs_dir2_readdir.c 356 */;
+	xfs_dablk_t cocci_id/* fs/xfs/xfs_dir2_readdir.c 355 */;
+	xfs_dir2_data_unused_t *cocci_id/* fs/xfs/xfs_dir2_readdir.c 353 */;
+	xfs_dir2_data_entry_t *cocci_id/* fs/xfs/xfs_dir2_readdir.c 352 */;
+	struct xfs_mount *cocci_id/* fs/xfs/xfs_dir2_readdir.c 350 */;
+	size_t cocci_id/* fs/xfs/xfs_dir2_readdir.c 347 */;
+	unsigned char cocci_id/* fs/xfs/xfs_dir2_readdir.c 30 */;
+	struct xfs_iext_cursor cocci_id/* fs/xfs/xfs_dir2_readdir.c 255 */;
+	struct blk_plug cocci_id/* fs/xfs/xfs_dir2_readdir.c 250 */;
+	unsigned char cocci_id/* fs/xfs/xfs_dir2_readdir.c 25 */[];
+	struct xfs_bmbt_irec cocci_id/* fs/xfs/xfs_dir2_readdir.c 249 */;
+	struct xfs_ifork *cocci_id/* fs/xfs/xfs_dir2_readdir.c 248 */;
+	struct xfs_buf **cocci_id/* fs/xfs/xfs_dir2_readdir.c 243 */;
+	xfs_dablk_t *cocci_id/* fs/xfs/xfs_dir2_readdir.c 242 */;
+	xfs_dir2_off_t *cocci_id/* fs/xfs/xfs_dir2_readdir.c 241 */;
+	char *cocci_id/* fs/xfs/xfs_dir2_readdir.c 215 */;
+	uint8_t cocci_id/* fs/xfs/xfs_dir2_readdir.c 181 */;
+	struct xfs_dir2_data_entry *cocci_id/* fs/xfs/xfs_dir2_readdir.c 180 */;
+	struct xfs_dir2_data_unused *cocci_id/* fs/xfs/xfs_dir2_readdir.c 179 */;
+	unsigned int cocci_id/* fs/xfs/xfs_dir2_readdir.c 150 */;
+	struct xfs_da_geometry *cocci_id/* fs/xfs/xfs_dir2_readdir.c 148 */;
+	xfs_off_t cocci_id/* fs/xfs/xfs_dir2_readdir.c 147 */;
+	struct xfs_buf *cocci_id/* fs/xfs/xfs_dir2_readdir.c 144 */;
+	struct xfs_inode *cocci_id/* fs/xfs/xfs_dir2_readdir.c 143 */;
+	struct dir_context *cocci_id/* fs/xfs/xfs_dir2_readdir.c 141 */;
+	struct xfs_da_args *cocci_id/* fs/xfs/xfs_dir2_readdir.c 140 */;
+	int cocci_id/* fs/xfs/xfs_dir2_readdir.c 138 */;
+}

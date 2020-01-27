@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/pci/controller/pcie-xilinx.c 684 */;
+	const struct of_device_id cocci_id/* drivers/pci/controller/pcie-xilinx.c 679 */[];
+	struct pci_host_bridge *cocci_id/* drivers/pci/controller/pcie-xilinx.c 620 */;
+	struct platform_device *cocci_id/* drivers/pci/controller/pcie-xilinx.c 615 */;
+	struct resource cocci_id/* drivers/pci/controller/pcie-xilinx.c 584 */;
+	struct device_node *cocci_id/* drivers/pci/controller/pcie-xilinx.c 504 */;
+	irqreturn_t cocci_id/* drivers/pci/controller/pcie-xilinx.c 388 */;
+	const struct irq_domain_ops cocci_id/* drivers/pci/controller/pcie-xilinx.c 374 */;
+	struct irq_domain *cocci_id/* drivers/pci/controller/pcie-xilinx.c 364 */;
+	void *cocci_id/* drivers/pci/controller/pcie-xilinx.c 347 */;
+	phys_addr_t cocci_id/* drivers/pci/controller/pcie-xilinx.c 341 */;
+	struct irq_chip cocci_id/* drivers/pci/controller/pcie-xilinx.c 305 */;
+	struct msi_controller cocci_id/* drivers/pci/controller/pcie-xilinx.c 299 */;
+	struct msi_msg cocci_id/* drivers/pci/controller/pcie-xilinx.c 274 */;
+	struct pci_dev *cocci_id/* drivers/pci/controller/pcie-xilinx.c 268 */;
+	unsigned int cocci_id/* drivers/pci/controller/pcie-xilinx.c 253 */;
+	struct msi_controller *cocci_id/* drivers/pci/controller/pcie-xilinx.c 252 */;
+	int cocci_id/* drivers/pci/controller/pcie-xilinx.c 234 */;
+	irq_hw_number_t cocci_id/* drivers/pci/controller/pcie-xilinx.c 218 */;
+	struct irq_data *cocci_id/* drivers/pci/controller/pcie-xilinx.c 217 */;
+	struct msi_desc *cocci_id/* drivers/pci/controller/pcie-xilinx.c 215 */;
+	struct pci_ops cocci_id/* drivers/pci/controller/pcie-xilinx.c 201 */;
+	struct pci_bus *cocci_id/* drivers/pci/controller/pcie-xilinx.c 185 */;
+	void __iomem *cocci_id/* drivers/pci/controller/pcie-xilinx.c 185 */;
+	unsigned long cocci_id/* drivers/pci/controller/pcie-xilinx.c 143 */;
+	struct device *cocci_id/* drivers/pci/controller/pcie-xilinx.c 142 */;
+	bool cocci_id/* drivers/pci/controller/pcie-xilinx.c 130 */;
+	void cocci_id/* drivers/pci/controller/pcie-xilinx.c 125 */;
+	u32 cocci_id/* drivers/pci/controller/pcie-xilinx.c 120 */;
+	struct xilinx_pcie_port *cocci_id/* drivers/pci/controller/pcie-xilinx.c 120 */;
+	struct xilinx_pcie_port {
+		void __iomem *reg_base;
+		u32 irq;
+		unsigned long msi_pages;
+		u8 root_busno;
+		struct device *dev;
+		struct irq_domain *msi_domain;
+		struct irq_domain *leg_domain;
+		struct list_head resources;
+	} cocci_id/* drivers/pci/controller/pcie-xilinx.c 107 */;
+}

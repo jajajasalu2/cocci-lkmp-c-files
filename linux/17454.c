@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* arch/powerpc/platforms/cell/interrupt.c 96 */;
+	void __iomem *cocci_id/* arch/powerpc/platforms/cell/interrupt.c 93 */;
+	struct cbe_iic_regs __iomem *cocci_id/* arch/powerpc/platforms/cell/interrupt.c 92 */;
+	struct irq_chip *cocci_id/* arch/powerpc/platforms/cell/interrupt.c 91 */;
+	struct irq_desc *cocci_id/* arch/powerpc/platforms/cell/interrupt.c 89 */;
+	struct irq_chip cocci_id/* arch/powerpc/platforms/cell/interrupt.c 77 */;
+	struct iic *cocci_id/* arch/powerpc/platforms/cell/interrupt.c 72 */;
+	struct irq_data *cocci_id/* arch/powerpc/platforms/cell/interrupt.c 70 */;
+	void cocci_id/* arch/powerpc/platforms/cell/interrupt.c 70 */;
+	unsigned char cocci_id/* arch/powerpc/platforms/cell/interrupt.c 51 */;
+	struct irq_domain *cocci_id/* arch/powerpc/platforms/cell/interrupt.c 46 */;
+	u64 cocci_id/* arch/powerpc/platforms/cell/interrupt.c 382 */;
+	void __init cocci_id/* arch/powerpc/platforms/cell/interrupt.c 360 */;
+	struct iic {
+		struct cbe_iic_thread_regs __iomem *regs;
+		u8 target_id;
+		u8 eoi_stack[16];
+		int eoi_ptr;
+		struct device_node *node;
+	} cocci_id/* arch/powerpc/platforms/cell/interrupt.c 36 */;
+	void __force *cocci_id/* arch/powerpc/platforms/cell/interrupt.c 342 */;
+	struct resource cocci_id/* arch/powerpc/platforms/cell/interrupt.c 300 */;
+	int __init cocci_id/* arch/powerpc/platforms/cell/interrupt.c 297 */;
+	struct cbe_iic_thread_regs cocci_id/* arch/powerpc/platforms/cell/interrupt.c 285 */;
+	const struct irq_domain_ops cocci_id/* arch/powerpc/platforms/cell/interrupt.c 271 */;
+	irq_hw_number_t *cocci_id/* arch/powerpc/platforms/cell/interrupt.c 233 */;
+	unsigned int *cocci_id/* arch/powerpc/platforms/cell/interrupt.c 233 */;
+	const u32 *cocci_id/* arch/powerpc/platforms/cell/interrupt.c 232 */;
+	irq_hw_number_t cocci_id/* arch/powerpc/platforms/cell/interrupt.c 215 */;
+	enum irq_domain_bus_token cocci_id/* arch/powerpc/platforms/cell/interrupt.c 208 */;
+	struct device_node *cocci_id/* arch/powerpc/platforms/cell/interrupt.c 207 */;
+	u8 cocci_id/* arch/powerpc/platforms/cell/interrupt.c 157 */;
+	int cocci_id/* arch/powerpc/platforms/cell/interrupt.c 157 */;
+	u64 __iomem *cocci_id/* arch/powerpc/platforms/cell/interrupt.c 141 */;
+	unsigned long *cocci_id/* arch/powerpc/platforms/cell/interrupt.c 140 */;
+	struct cbe_iic_pending_bits cocci_id/* arch/powerpc/platforms/cell/interrupt.c 135 */;
+	unsigned int cocci_id/* arch/powerpc/platforms/cell/interrupt.c 133 */;
+	__typeof__(struct iic) cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 437 */;
+}

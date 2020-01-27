@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	struct xenvif_queue cocci_id/* drivers/net/xen-netback/interface.c 93 */;
+	struct napi_struct *cocci_id/* drivers/net/xen-netback/interface.c 90 */;
+	void cocci_id/* drivers/net/xen-netback/interface.c 742 */;
+	struct task_struct *cocci_id/* drivers/net/xen-netback/interface.c 667 */;
+	unsigned long cocci_id/* drivers/net/xen-netback/interface.c 662 */;
+	struct xenvif_queue *cocci_id/* drivers/net/xen-netback/interface.c 661 */;
+	struct xen_netif_ctrl_sring *cocci_id/* drivers/net/xen-netback/interface.c 587 */;
+	void *cocci_id/* drivers/net/xen-netback/interface.c 586 */;
+	grant_ref_t cocci_id/* drivers/net/xen-netback/interface.c 582 */;
+	struct ubuf_info cocci_id/* drivers/net/xen-netback/interface.c 560 */;
+	struct xenvif cocci_id/* drivers/net/xen-netback/interface.c 462 */;
+	char cocci_id/* drivers/net/xen-netback/interface.c 455 */[IFNAMSIZ];
+	struct net_device *cocci_id/* drivers/net/xen-netback/interface.c 453 */;
+	int cocci_id/* drivers/net/xen-netback/interface.c 452 */;
+	unsigned int cocci_id/* drivers/net/xen-netback/interface.c 450 */;
+	domid_t cocci_id/* drivers/net/xen-netback/interface.c 449 */;
+	struct xenvif *cocci_id/* drivers/net/xen-netback/interface.c 449 */;
+	struct device *cocci_id/* drivers/net/xen-netback/interface.c 449 */;
+	const struct net_device_ops cocci_id/* drivers/net/xen-netback/interface.c 437 */;
+	const struct ethtool_ops cocci_id/* drivers/net/xen-netback/interface.c 429 */;
+	u32 cocci_id/* drivers/net/xen-netback/interface.c 416 */;
+	u8 *cocci_id/* drivers/net/xen-netback/interface.c 416 */;
+	unsigned long *cocci_id/* drivers/net/xen-netback/interface.c 408 */;
+	u64 *cocci_id/* drivers/net/xen-netback/interface.c 394 */;
+	struct ethtool_stats *cocci_id/* drivers/net/xen-netback/interface.c 394 */;
+	struct xenvif_stats cocci_id/* drivers/net/xen-netback/interface.c 357 */;
+	const struct xenvif_stat {
+		char name[ETH_GSTRING_LEN];
+		u16 offset;
+	} cocci_id/* drivers/net/xen-netback/interface.c 351 */[];
+	netdev_features_t cocci_id/* drivers/net/xen-netback/interface.c 332 */;
+	u64 cocci_id/* drivers/net/xen-netback/interface.c 243 */;
+	struct net_device_stats *cocci_id/* drivers/net/xen-netback/interface.c 238 */;
+	struct ethhdr *cocci_id/* drivers/net/xen-netback/interface.c 211 */;
+	struct xenvif_rx_cb *cocci_id/* drivers/net/xen-netback/interface.c 183 */;
+	netdev_tx_t cocci_id/* drivers/net/xen-netback/interface.c 176 */;
+	u16 cocci_id/* drivers/net/xen-netback/interface.c 150 */;
+	struct sk_buff *cocci_id/* drivers/net/xen-netback/interface.c 150 */;
+	irqreturn_t cocci_id/* drivers/net/xen-netback/interface.c 128 */;
+}

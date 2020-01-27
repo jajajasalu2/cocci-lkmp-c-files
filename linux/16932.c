@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	const struct attribute_group cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 858 */;
+	struct attribute *cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 851 */[];
+	int cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 784 */;
+	unsigned int cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 783 */;
+	const char *cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 779 */;
+	size_t cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 779 */;
+	struct rohm_ts_data *cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 773 */;
+	struct i2c_client *cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 772 */;
+	char *cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 770 */;
+	struct device_attribute *cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 769 */;
+	struct device *cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 769 */;
+	ssize_t cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 769 */;
+	s32 cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 647 */;
+	const struct firmware *cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 646 */;
+	s16 cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 557 */;
+	int cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 530 */[MAX_CONTACTS];
+	struct input_mt_pos cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 529 */[MAX_CONTACTS];
+	u8 cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 527 */[10];
+	irqreturn_t cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 520 */;
+	const unsigned int cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 518 */[3];
+	bool cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 320 */;
+	u8 cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 317 */[33];
+	struct i2c_msg cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 286 */[2];
+	struct i2c_adapter *cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 285 */;
+	u8 cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 282 */;
+	void *cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 282 */;
+	struct rohm_ts_data {
+		struct i2c_client *client;
+		struct input_dev *input;
+		bool initialized;
+		unsigned int contact_count[MAX_CONTACTS + 1];
+		int finger_count;
+		u8 setup2;
+	} cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 257 */;
+	struct i2c_driver cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 1183 */;
+	const struct i2c_device_id cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 1177 */[];
+	struct rohm_ts_data cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 1121 */;
+	struct input_dev *cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 1103 */;
+	const struct i2c_device_id *cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 1099 */;
+	void cocci_id/* drivers/input/touchscreen/rohm_bu21023.c 1089 */;
+}

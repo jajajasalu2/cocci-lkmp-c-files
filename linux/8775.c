@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	u16 *cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 989 */;
+	u16 cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 988 */;
+	unsigned int cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 987 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 972 */;
+	struct gelic_descr *cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 971 */;
+	enum gelic_descr_dma_status cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 969 */;
+	netdev_tx_t cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 837 */;
+	enum gelic_port_type cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 772 */;
+	dma_addr_t cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 768 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 766 */;
+	struct vlan_ethhdr *cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 733 */;
+	unsigned short cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 731 */;
+	uint8_t *cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 598 */;
+	struct netdev_hw_addr *cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 596 */;
+	struct gelic_descr_chain *cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 478 */;
+	int cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 476 */;
+	u64 cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 255 */;
+	void __exit cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1864 */;
+	int __init cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1857 */;
+	struct ps3_system_bus_driver cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1848 */;
+	void cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 176 */;
+	struct ps3_system_bus_device *cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1640 */;
+	struct {
+		int tx;
+		int rx;
+	} cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1571 */[2];
+	struct gelic_port cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1542 */;
+	struct gelic_descr cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1529 */;
+	struct gelic_card cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1525 */;
+	size_t cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1520 */;
+	void *cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1519 */;
+	struct gelic_port *cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1518 */;
+	struct gelic_card *cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1515 */;
+	struct net_device **cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1515 */;
+	u8 *cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1474 */;
+	struct napi_struct *cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1440 */;
+	const struct net_device_ops cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1420 */;
+	struct work_struct *cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1381 */;
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1365 */;
+	struct ethtool_wolinfo *cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1287 */;
+	const struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1248 */;
+	u32 cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1200 */;
+	struct ethtool_link_ksettings *cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1197 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1190 */;
+	unsigned long cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1110 */;
+	irqreturn_t cocci_id/* drivers/net/ethernet/toshiba/ps3_gelic_net.c 1108 */;
+}

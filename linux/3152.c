@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	struct ltc4245_data {
+		struct i2c_client *client;
+		struct mutex update_lock;
+		bool valid;
+		unsigned long last_updated;
+		u8 cregs[0x08];
+		u8 vregs[0x0d];
+		bool use_extra_gpios;
+		int gpios[3];
+	} cocci_id/* drivers/hwmon/ltc4245.c 51 */;
+	struct i2c_driver cocci_id/* drivers/hwmon/ltc4245.c 479 */;
+	const struct i2c_device_id cocci_id/* drivers/hwmon/ltc4245.c 472 */[];
+	struct i2c_adapter *cocci_id/* drivers/hwmon/ltc4245.c 446 */;
+	const struct i2c_device_id *cocci_id/* drivers/hwmon/ltc4245.c 444 */;
+	struct i2c_client *cocci_id/* drivers/hwmon/ltc4245.c 443 */;
+	struct device_node *cocci_id/* drivers/hwmon/ltc4245.c 430 */;
+	struct ltc4245_platform_data *cocci_id/* drivers/hwmon/ltc4245.c 429 */;
+	bool cocci_id/* drivers/hwmon/ltc4245.c 427 */;
+	const struct hwmon_chip_info cocci_id/* drivers/hwmon/ltc4245.c 422 */;
+	const struct hwmon_ops cocci_id/* drivers/hwmon/ltc4245.c 417 */;
+	const struct hwmon_channel_info *cocci_id/* drivers/hwmon/ltc4245.c 390 */[];
+	const struct ltc4245_data *cocci_id/* drivers/hwmon/ltc4245.c 352 */;
+	enum hwmon_sensor_types cocci_id/* drivers/hwmon/ltc4245.c 349 */;
+	umode_t cocci_id/* drivers/hwmon/ltc4245.c 348 */;
+	const void *cocci_id/* drivers/hwmon/ltc4245.c 348 */;
+	long *cocci_id/* drivers/hwmon/ltc4245.c 333 */;
+	void cocci_id/* drivers/hwmon/ltc4245.c 322 */;
+	long cocci_id/* drivers/hwmon/ltc4245.c 318 */;
+	unsigned long cocci_id/* drivers/hwmon/ltc4245.c 317 */;
+	const s8 cocci_id/* drivers/hwmon/ltc4245.c 264 */[];
+	enum ltc4245_cmd{LTC4245_STATUS=0x00, LTC4245_ALERT=0x01, LTC4245_CONTROL=0x02, LTC4245_ON=0x03, LTC4245_FAULT1=0x04, LTC4245_FAULT2=0x05, LTC4245_GPIO=0x06, LTC4245_ADCADR=0x07, LTC4245_12VIN=0x10, LTC4245_12VSENSE=0x11, LTC4245_12VOUT=0x12, LTC4245_5VIN=0x13, LTC4245_5VSENSE=0x14, LTC4245_5VOUT=0x15, LTC4245_3VIN=0x16, LTC4245_3VSENSE=0x17, LTC4245_3VOUT=0x18, LTC4245_VEEIN=0x19, LTC4245_VEESENSE=0x1a, LTC4245_VEEOUT=0x1b, LTC4245_GPIOADC=0x1c,} cocci_id/* drivers/hwmon/ltc4245.c 26 */;
+	const u8 cocci_id/* drivers/hwmon/ltc4245.c 209 */;
+	struct ltc4245_data *cocci_id/* drivers/hwmon/ltc4245.c 208 */;
+	u8 cocci_id/* drivers/hwmon/ltc4245.c 206 */;
+	struct device *cocci_id/* drivers/hwmon/ltc4245.c 206 */;
+	unsigned int cocci_id/* drivers/hwmon/ltc4245.c 206 */;
+	u32 cocci_id/* drivers/hwmon/ltc4245.c 174 */;
+	int cocci_id/* drivers/hwmon/ltc4245.c 170 */;
+	s32 cocci_id/* drivers/hwmon/ltc4245.c 132 */;
+}

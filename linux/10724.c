@@ -1,0 +1,47 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 776 */[];
+	enum tc_port cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 569 */;
+	enum i915_drm_suspend_mode cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 5290 */;
+	void cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 5141 */(struct drm_i915_private *dev_priv);
+	const struct pci_device_id cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 5130 */[];
+	struct intel_digital_port *cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 502 */;
+	u64 cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 485 */(struct i915_power_domains *power_domains);
+	enum aux_ch cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 474 */;
+	enum phy cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 454 */;
+	struct intel_crtc *cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 4507 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 4506 */;
+	const u8 cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 4414 */;
+	enum port cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 441 */;
+	i915_reg_t cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 4375 */;
+	enum i915_power_well_id cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 4257 */;
+	const struct i915_power_well_desc *cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 4242 */;
+	int cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 4240 */;
+	const struct drm_i915_private *cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 4175 */;
+	const struct i915_power_well_regs *cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 399 */;
+	enum skl_power_gate cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 345 */;
+	const struct i915_power_well_desc cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 2837 */[];
+	const struct i915_power_well_regs cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 2809 */;
+	const struct i915_power_well_ops cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 2802 */;
+	u8 cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 267 */;
+	bool cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 22 */(struct drm_i915_private *dev_priv,
+										 enum i915_power_well_id power_well_id);
+	struct intel_runtime_pm *cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 2128 */;
+	intel_wakeref_t cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 2125 */;
+	struct drm_i915_private cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 2074 */;
+	struct work_struct *cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 2071 */;
+	const char *cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 1985 */;
+	struct i915_power_well *cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 1900 */;
+	struct drm_i915_private *cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 1896 */;
+	void cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 1895 */;
+	enum intel_display_power_domain cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 1794 */;
+	bool cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 1791 */;
+	u64 cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 1776 */;
+	struct i915_power_domains *cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 1776 */;
+	struct intel_encoder *cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 1667 */;
+	u32 cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 1578 */;
+	enum pipe cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 1577 */;
+	enum dpio_channel cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 1575 */;
+	unsigned int cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 1575 */;
+	enum dpio_phy cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 1574 */;
+	struct intel_cdclk_state cocci_id/* drivers/gpu/drm/i915/display/intel_display_power.c 1045 */;
+}

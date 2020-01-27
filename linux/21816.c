@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	void *cocci_id/* arch/s390/kvm/priv.c 884 */;
+	struct kvm_s390_vm_tod_clock cocci_id/* arch/s390/kvm/priv.c 88 */;
+	struct sysinfo_3_2_2 *cocci_id/* arch/s390/kvm/priv.c 804 */;
+	void cocci_id/* arch/s390/kvm/priv.c 804 */;
+	psw_t cocci_id/* arch/s390/kvm/priv.c 757 */;
+	psw_compat_t cocci_id/* arch/s390/kvm/priv.c 728 */;
+	psw_t *cocci_id/* arch/s390/kvm/priv.c 708 */;
+	struct lowcore cocci_id/* arch/s390/kvm/priv.c 694 */;
+	unsigned int cocci_id/* arch/s390/kvm/priv.c 682 */;
+	struct gs_cb *cocci_id/* arch/s390/kvm/priv.c 64 */;
+	uint8_t cocci_id/* arch/s390/kvm/priv.c 616 */;
+	struct ap_queue_status cocci_id/* arch/s390/kvm/priv.c 613 */;
+	const u64 cocci_id/* arch/s390/kvm/priv.c 537 */;
+	u32 cocci_id/* arch/s390/kvm/priv.c 472 */[3];
+	struct kvm_s390_interrupt_info *cocci_id/* arch/s390/kvm/priv.c 470 */;
+	gpa_t cocci_id/* arch/s390/kvm/priv.c 440 */;
+	bool cocci_id/* arch/s390/kvm/priv.c 251 */;
+	unsigned char cocci_id/* arch/s390/kvm/priv.c 249 */;
+	u16 cocci_id/* arch/s390/kvm/priv.c 182 */;
+	u32 cocci_id/* arch/s390/kvm/priv.c 1500 */;
+	u8 cocci_id/* arch/s390/kvm/priv.c 1352 */;
+	u64 cocci_id/* arch/s390/kvm/priv.c 1351 */;
+	u64 cocci_id/* arch/s390/kvm/priv.c 1350 */[16];
+	u32 cocci_id/* arch/s390/kvm/priv.c 1277 */[16];
+	struct gmap *cocci_id/* arch/s390/kvm/priv.c 1187 */;
+	struct kvm_memory_slot *cocci_id/* arch/s390/kvm/priv.c 1172 */;
+	unsigned long *cocci_id/* arch/s390/kvm/priv.c 1124 */;
+	unsigned long cocci_id/* arch/s390/kvm/priv.c 1123 */;
+	const int cocci_id/* arch/s390/kvm/priv.c 1120 */;
+	struct kvm_vcpu *cocci_id/* arch/s390/kvm/priv.c 1120 */;
+	int cocci_id/* arch/s390/kvm/priv.c 1120 */;
+}

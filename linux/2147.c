@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	u8 *cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 97 */;
+	const struct ltc294x_info *cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 82 */;
+	int cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 81 */;
+	struct ltc294x_info {
+		struct i2c_client *client;
+		struct power_supply *supply;
+		struct power_supply_desc supply_desc;
+		struct delayed_work work;
+		enum ltc294x_id id;
+		int charge;
+		int r_sense;
+		int Qlsb;
+	} cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 70 */;
+	struct i2c_driver cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 650 */;
+	void *cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 632 */;
+	const struct of_device_id cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 629 */[];
+	const struct i2c_device_id cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 620 */[];
+	struct device *cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 603 */;
+	void cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 569 */;
+	enum ltc294x_id{LTC2941_ID, LTC2942_ID, LTC2943_ID, LTC2944_ID,} cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 52 */;
+	enum ltc294x_id cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 476 */;
+	u8 cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 466 */;
+	struct device_node *cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 462 */;
+	struct power_supply_config cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 460 */;
+	const struct i2c_device_id *cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 458 */;
+	struct i2c_client *cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 457 */;
+	enum power_supply_property cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 438 */[];
+	struct ltc294x_info cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 433 */;
+	struct work_struct *cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 429 */;
+	const union power_supply_propval *cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 388 */;
+	struct ltc294x_info *cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 361 */;
+	union power_supply_propval *cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 359 */;
+	enum power_supply_property cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 358 */;
+	struct power_supply *cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 357 */;
+	u32 cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 341 */;
+	enum ltc294x_reg{LTC294X_REG_STATUS=0x00, LTC294X_REG_CONTROL=0x01, LTC294X_REG_ACC_CHARGE_MSB=0x02, LTC294X_REG_ACC_CHARGE_LSB=0x03, LTC294X_REG_CHARGE_THR_HIGH_MSB=0x04, LTC294X_REG_CHARGE_THR_HIGH_LSB=0x05, LTC294X_REG_CHARGE_THR_LOW_MSB=0x06, LTC294X_REG_CHARGE_THR_LOW_LSB=0x07, LTC294X_REG_VOLTAGE_MSB=0x08, LTC294X_REG_VOLTAGE_LSB=0x09, LTC2942_REG_TEMPERATURE_MSB=0x0C, LTC2942_REG_TEMPERATURE_LSB=0x0D, LTC2943_REG_CURRENT_MSB=0x0E, LTC2943_REG_CURRENT_LSB=0x0F, LTC2943_REG_TEMPERATURE_MSB=0x14, LTC2943_REG_TEMPERATURE_LSB=0x15,} cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 33 */;
+	s32 cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 319 */;
+	u8 cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 318 */[2];
+	enum ltc294x_reg cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 200 */;
+	int *cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 200 */;
+	const u8 *cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 125 */;
+	struct i2c_msg cocci_id/* drivers/power/supply/ltc2941-battery-gauge.c 100 */[2];
+}

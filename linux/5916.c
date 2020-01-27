@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	uint32_t cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 89 */;
+	bool cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 85 */;
+	struct pinctrl_gpio_range *cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 83 */;
+	const struct pinctrl_ops cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 53 */;
+	struct platform_device *cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 427 */;
+	unsigned *cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 42 */;
+	const unsigned **cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 41 */;
+	void __iomem *cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 375 */[];
+	struct pinctrl_pin_desc *cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 335 */;
+	struct pxa_pinctrl_group *cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 334 */;
+	const struct pxa_desc_pin *cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 332 */;
+	char *cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 314 */;
+	char **cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 300 */;
+	struct pxa_desc_function *cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 268 */;
+	struct pxa_pinctrl_function *cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 267 */;
+	struct pxa_pinctrl *cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 264 */;
+	int cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 264 */;
+	const char *cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 252 */;
+	const struct pxa_pinctrl_function *cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 251 */;
+	struct pinctrl_desc cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 245 */;
+	const struct pinconf_ops cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 239 */;
+	u32 cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 192 */;
+	void __iomem *cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 191 */;
+	unsigned long cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 189 */;
+	unsigned long *cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 185 */;
+	unsigned cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 184 */;
+	const struct pinmux_ops cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 175 */;
+	unsigned *constcocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 126 */;
+	const char *const**cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 125 */;
+	struct pinctrl_dev *cocci_id/* drivers/pinctrl/pxa/pinctrl-pxa2xx.c 116 */;
+}

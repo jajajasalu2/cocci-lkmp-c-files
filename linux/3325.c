@@ -1,0 +1,47 @@
+cocci_test_suite() {
+	struct stts751_priv {
+		struct device *dev;
+		struct i2c_client *client;
+		struct mutex access_lock;
+		u8 interval;
+		int res;
+		int event_max,event_min;
+		int therm;
+		int hyst;
+		bool smbus_timeout;
+		int temp;
+		unsigned long last_update,last_alert_update;
+		u8 config;
+		bool min_alert,max_alert,therm_trip;
+		bool data_valid,alert_valid;
+		bool notify_max,notify_min;
+	} cocci_id/* drivers/hwmon/stts751.c 85 */;
+	struct i2c_driver cocci_id/* drivers/hwmon/stts751.c 819 */;
+	const struct of_device_id __maybe_unused cocci_id/* drivers/hwmon/stts751.c 79 */[];
+	bool cocci_id/* drivers/hwmon/stts751.c 770 */;
+	const struct i2c_device_id *cocci_id/* drivers/hwmon/stts751.c 766 */;
+	struct attribute *cocci_id/* drivers/hwmon/stts751.c 751 */[];
+	const struct i2c_device_id cocci_id/* drivers/hwmon/stts751.c 74 */[];
+	const int cocci_id/* drivers/hwmon/stts751.c 70 */[];
+	struct i2c_adapter *cocci_id/* drivers/hwmon/stts751.c 652 */;
+	struct i2c_board_info *cocci_id/* drivers/hwmon/stts751.c 650 */;
+	unsigned long cocci_id/* drivers/hwmon/stts751.c 596 */;
+	long cocci_id/* drivers/hwmon/stts751.c 479 */;
+	int cocci_id/* drivers/hwmon/stts751.c 478 */;
+	const char *cocci_id/* drivers/hwmon/stts751.c 476 */;
+	size_t cocci_id/* drivers/hwmon/stts751.c 476 */;
+	struct stts751_priv *cocci_id/* drivers/hwmon/stts751.c 470 */;
+	char *cocci_id/* drivers/hwmon/stts751.c 468 */;
+	struct device_attribute *cocci_id/* drivers/hwmon/stts751.c 467 */;
+	struct device *cocci_id/* drivers/hwmon/stts751.c 467 */;
+	ssize_t cocci_id/* drivers/hwmon/stts751.c 467 */;
+	enum i2c_alert_protocol cocci_id/* drivers/hwmon/stts751.c 310 */;
+	unsigned int cocci_id/* drivers/hwmon/stts751.c 310 */;
+	const unsigned short cocci_id/* drivers/hwmon/stts751.c 31 */[];
+	struct i2c_client *cocci_id/* drivers/hwmon/stts751.c 309 */;
+	void cocci_id/* drivers/hwmon/stts751.c 309 */;
+	int *cocci_id/* drivers/hwmon/stts751.c 223 */;
+	s32 cocci_id/* drivers/hwmon/stts751.c 203 */;
+	u8 cocci_id/* drivers/hwmon/stts751.c 119 */;
+	s16 cocci_id/* drivers/hwmon/stts751.c 107 */;
+}

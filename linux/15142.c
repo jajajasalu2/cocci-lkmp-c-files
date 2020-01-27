@@ -1,0 +1,117 @@
+cocci_test_suite() {
+	long cocci_id/* drivers/vfio/vfio_iommu_type1.c 968 */;
+	struct vfio_group {
+		struct iommu_group *iommu_group;
+		struct list_head next;
+		bool mdev_group;
+	} cocci_id/* drivers/vfio/vfio_iommu_type1.c 95 */;
+	struct vfio_iommu_type1_dma_unmap cocci_id/* drivers/vfio/vfio_iommu_type1.c 930 */;
+	struct vfio_iommu_type1_dma_unmap *cocci_id/* drivers/vfio/vfio_iommu_type1.c 854 */;
+	struct vfio_dma {
+		struct rb_node node;
+		dma_addr_t iova;
+		unsigned long vaddr;
+		size_t size;
+		int prot;
+		bool iommu_mapped;
+		bool lock_cap;
+		struct task_struct *task;
+		struct rb_root pfn_list;
+	} cocci_id/* drivers/vfio/vfio_iommu_type1.c 83 */;
+	struct vfio_domain {
+		struct iommu_domain *domain;
+		struct list_head next;
+		struct list_head group_list;
+		int prot;
+		bool fgsp;
+	} cocci_id/* drivers/vfio/vfio_iommu_type1.c 75 */;
+	struct iommu_iotlb_gather cocci_id/* drivers/vfio/vfio_iommu_type1.c 740 */;
+	struct vfio_regions *cocci_id/* drivers/vfio/vfio_iommu_type1.c 684 */;
+	struct iommu_iotlb_gather *cocci_id/* drivers/vfio/vfio_iommu_type1.c 681 */;
+	int *cocci_id/* drivers/vfio/vfio_iommu_type1.c 680 */;
+	struct list_head *cocci_id/* drivers/vfio/vfio_iommu_type1.c 679 */;
+	phys_addr_t cocci_id/* drivers/vfio/vfio_iommu_type1.c 678 */;
+	long *cocci_id/* drivers/vfio/vfio_iommu_type1.c 678 */;
+	dma_addr_t *cocci_id/* drivers/vfio/vfio_iommu_type1.c 677 */;
+	struct vfio_dma *cocci_id/* drivers/vfio/vfio_iommu_type1.c 677 */;
+	size_t cocci_id/* drivers/vfio/vfio_iommu_type1.c 676 */;
+	struct vfio_iommu {
+		struct list_head domain_list;
+		struct list_head iova_list;
+		struct vfio_domain *external_domain;
+		struct mutex lock;
+		struct rb_root dma_list;
+		struct blocking_notifier_head notifier;
+		unsigned int dma_avail;
+		bool v2;
+		bool nesting;
+	} cocci_id/* drivers/vfio/vfio_iommu_type1.c 63 */;
+	unsigned int cocci_id/* drivers/vfio/vfio_iommu_type1.c 58 */;
+	bool cocci_id/* drivers/vfio/vfio_iommu_type1.c 46 */;
+	struct vm_area_struct *cocci_id/* drivers/vfio/vfio_iommu_type1.c 325 */[1];
+	struct vm_area_struct *cocci_id/* drivers/vfio/vfio_iommu_type1.c 324 */;
+	struct page *cocci_id/* drivers/vfio/vfio_iommu_type1.c 323 */[1];
+	unsigned long *cocci_id/* drivers/vfio/vfio_iommu_type1.c 321 */;
+	struct mm_struct *cocci_id/* drivers/vfio/vfio_iommu_type1.c 320 */;
+	struct page *cocci_id/* drivers/vfio/vfio_iommu_type1.c 311 */;
+	int cocci_id/* drivers/vfio/vfio_iommu_type1.c 308 */;
+	unsigned long cocci_id/* drivers/vfio/vfio_iommu_type1.c 300 */;
+	void __exit cocci_id/* drivers/vfio/vfio_iommu_type1.c 2348 */;
+	int __init cocci_id/* drivers/vfio/vfio_iommu_type1.c 2343 */;
+	const struct vfio_iommu_driver_ops cocci_id/* drivers/vfio/vfio_iommu_type1.c 2329 */;
+	struct notifier_block *cocci_id/* drivers/vfio/vfio_iommu_type1.c 2307 */;
+	struct vfio_pfn *cocci_id/* drivers/vfio/vfio_iommu_type1.c 227 */;
+	uint32_t cocci_id/* drivers/vfio/vfio_iommu_type1.c 2269 */;
+	struct vfio_iommu_type1_dma_map cocci_id/* drivers/vfio/vfio_iommu_type1.c 2268 */;
+	dma_addr_t cocci_id/* drivers/vfio/vfio_iommu_type1.c 224 */;
+	void __user *cocci_id/* drivers/vfio/vfio_iommu_type1.c 2226 */;
+	struct vfio_info_cap cocci_id/* drivers/vfio/vfio_iommu_type1.c 2217 */;
+	struct vfio_iommu_type1_info cocci_id/* drivers/vfio/vfio_iommu_type1.c 2216 */;
+	struct vfio_iommu_type1_info_cap_iova_range cocci_id/* drivers/vfio/vfio_iommu_type1.c 2142 */;
+	struct vfio_info_cap_header *cocci_id/* drivers/vfio/vfio_iommu_type1.c 2133 */;
+	struct vfio_iommu_type1_info_cap_iova_range *cocci_id/* drivers/vfio/vfio_iommu_type1.c 2130 */;
+	struct vfio_info_cap *cocci_id/* drivers/vfio/vfio_iommu_type1.c 2129 */;
+	struct iommu_domain_geometry cocci_id/* drivers/vfio/vfio_iommu_type1.c 1893 */;
+	void cocci_id/* drivers/vfio/vfio_iommu_type1.c 1889 */;
+	struct vfio_pfn cocci_id/* drivers/vfio/vfio_iommu_type1.c 186 */;
+	struct rb_node **cocci_id/* drivers/vfio/vfio_iommu_type1.c 155 */;
+	struct vfio_iova cocci_id/* drivers/vfio/vfio_iommu_type1.c 1452 */;
+	struct vfio_iova *cocci_id/* drivers/vfio/vfio_iommu_type1.c 1445 */;
+	struct device **cocci_id/* drivers/vfio/vfio_iommu_type1.c 1401 */;
+	struct vfio_dma cocci_id/* drivers/vfio/vfio_iommu_type1.c 140 */;
+	struct bus_type *cocci_id/* drivers/vfio/vfio_iommu_type1.c 1385 */;
+	struct rb_node *cocci_id/* drivers/vfio/vfio_iommu_type1.c 137 */;
+	struct iommu_domain *cocci_id/* drivers/vfio/vfio_iommu_type1.c 1334 */;
+	struct device *(*cocci_id/* drivers/vfio/vfio_iommu_type1.c 1318 */)(struct device *dev);
+	struct iommu_resv_region *cocci_id/* drivers/vfio/vfio_iommu_type1.c 1293 */;
+	phys_addr_t *cocci_id/* drivers/vfio/vfio_iommu_type1.c 1291 */;
+	struct iommu_group *cocci_id/* drivers/vfio/vfio_iommu_type1.c 1278 */;
+	struct vfio_group *cocci_id/* drivers/vfio/vfio_iommu_type1.c 1277 */;
+	struct vfio_domain *cocci_id/* drivers/vfio/vfio_iommu_type1.c 1277 */;
+	int cocci_id/* drivers/vfio/vfio_iommu_type1.c 127 */(unsigned long pfn,
+							      int prot);
+	struct vfio_domain cocci_id/* drivers/vfio/vfio_iommu_type1.c 1178 */;
+	struct vfio_regions {
+		struct list_head list;
+		dma_addr_t iova;
+		phys_addr_t phys;
+		size_t len;
+	} cocci_id/* drivers/vfio/vfio_iommu_type1.c 117 */;
+	struct bus_type **cocci_id/* drivers/vfio/vfio_iommu_type1.c 1159 */;
+	struct device *cocci_id/* drivers/vfio/vfio_iommu_type1.c 1157 */;
+	void *cocci_id/* drivers/vfio/vfio_iommu_type1.c 1157 */;
+	struct vfio_pfn {
+		struct rb_node node;
+		dma_addr_t iova;
+		unsigned long pfn;
+		atomic_t ref_count;
+	} cocci_id/* drivers/vfio/vfio_iommu_type1.c 110 */;
+	uint64_t cocci_id/* drivers/vfio/vfio_iommu_type1.c 1060 */;
+	struct vfio_iommu_type1_dma_map *cocci_id/* drivers/vfio/vfio_iommu_type1.c 1054 */;
+	struct vfio_iommu *cocci_id/* drivers/vfio/vfio_iommu_type1.c 1053 */;
+	struct vfio_iova {
+		struct list_head list;
+		dma_addr_t start;
+		dma_addr_t end;
+	} cocci_id/* drivers/vfio/vfio_iommu_type1.c 101 */;
+}

@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	struct s3c2410fb_display cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 96 */;
+	void __init cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 768 */;
+	struct platform_device *cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 727 */[]__initdata;
+	struct i2c_board_info cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 720 */[];
+	struct uda1380_platform_data cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 714 */;
+	struct gpio_keys_platform_data cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 704 */;
+	struct s3c2410_uartcfg cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 68 */[]__initdata;
+	struct map_desc cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 65 */[]__initdata;
+	struct gpio_keys_button cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 634 */[];
+	struct s3c2410_ts_mach_info cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 628 */;
+	struct s3c2410_udc_mach_info cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 622 */;
+	struct s3c2410_platform_nand cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 613 */;
+	struct s3c2410_nand_set cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 604 */[];
+	struct mtd_partition cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 577 */[];
+	struct gpiod_lookup_table cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 566 */;
+	struct s3c24xx_mci_pdata cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 561 */;
+	unsigned short cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 546 */;
+	unsigned char cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 546 */;
+	struct platform_pwm_backlight_data cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 529 */;
+	struct pwm_device *cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 379 */;
+	struct pwm_lookup cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 374 */[];
+	struct s3c2410fb_mach_info cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 356 */;
+	struct s3c_adc_bat_pdata cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 330 */;
+	struct gpio_led_platform_data cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 316 */;
+	struct gpio_led cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 294 */[];
+	unsigned long *cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 250 */;
+	struct gpio_desc *cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 249 */;
+	const struct s3c_adc_bat_thresh cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 189 */[];
+	struct platform_device cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 154 */;
+	struct resource cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 149 */[];
+	struct pda_power_pdata cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 141 */;
+	char *cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 137 */[];
+	struct device *cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 132 */;
+	void cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 132 */;
+	int cocci_id/* arch/arm/mach-s3c24xx/mach-rx1950.c 122 */;
+	const struct machine_desc cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 397 */;
+}

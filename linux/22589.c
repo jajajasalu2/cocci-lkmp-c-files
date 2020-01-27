@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	struct dsp_asynch_fg_rx_scb cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 978 */;
+	struct dsp_asynch_fg_tx_scb cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 931 */;
+	struct dsp_pcm_serial_input_scb cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 888 */;
+	struct dsp_vari_decimate_scb cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 845 */;
+	struct dsp_mix2_ostream_scb cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 788 */;
+	struct dsp_mix_only_scb cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 748 */;
+	struct dsp_src_task_scb cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 633 */;
+	unsigned int cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 596 */;
+	struct snd_info_buffer *cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 58 */;
+	struct dsp_generic_scb cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 490 */;
+	struct dsp_codec_input_scb cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 443 */;
+	struct dsp_codec_output_scb cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 405 */;
+	struct dsp_timing_master_scb cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 368 */;
+	unsigned long cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 273 */;
+	struct dsp_spos_instance *cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 270 */;
+	struct dsp_symbol_entry *cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 266 */;
+	u32 *cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 265 */;
+	char *cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 265 */;
+	struct dsp_scb_descriptor *cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 264 */;
+	struct proc_scb_info {
+		struct dsp_scb_descriptor *scb_desc;
+		struct snd_cs46xx *chip;
+	} cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 25 */;
+	struct proc_scb_info cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 246 */;
+	struct snd_info_entry *cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 236 */;
+	struct proc_scb_info *cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 218 */;
+	u16 cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 1558 */;
+	void __iomem *cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 151 */;
+	int cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 149 */;
+	u32 cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 148 */;
+	struct snd_cs46xx *cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 148 */;
+	void cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 148 */;
+	char cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 1228 */[DSP_MAX_SCB_NAME];
+	void *cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 1219 */;
+	struct dsp_pcm_channel_descriptor *cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 1217 */;
+	u32 cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 1200 */[DSP_MAX_SRC_NR];
+	u32 cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 1148 */[DSP_MAX_PCM_CHANNELS];
+	struct dsp_magic_snoop_task cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 1105 */;
+	struct dsp_spio_write_scb cocci_id/* sound/pci/cs46xx/dsp_spos_scb_lib.c 1067 */;
+}

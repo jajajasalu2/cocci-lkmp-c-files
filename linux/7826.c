@@ -1,0 +1,104 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* drivers/net/team/team.c 987 */;
+	unsigned short cocci_id/* drivers/net/team/team.c 986 */;
+	netdev_features_t cocci_id/* drivers/net/team/team.c 983 */;
+	struct team_port *cocci_id/* drivers/net/team/team.c 946 */;
+	struct team *cocci_id/* drivers/net/team/team.c 943 */;
+	int cocci_id/* drivers/net/team/team.c 943 */;
+	void cocci_id/* drivers/net/team/team.c 943 */;
+	const struct team_port *cocci_id/* drivers/net/team/team.c 910 */;
+	const struct team *cocci_id/* drivers/net/team/team.c 909 */;
+	struct netdev_lag_lower_state_info cocci_id/* drivers/net/team/team.c 84 */;
+	u16 cocci_id/* drivers/net/team/team.c 786 */;
+	struct list_head *cocci_id/* drivers/net/team/team.c 786 */;
+	struct list_head cocci_id/* drivers/net/team/team.c 771 */;
+	struct work_struct *cocci_id/* drivers/net/team/team.c 669 */;
+	struct team cocci_id/* drivers/net/team/team.c 564 */;
+	struct team_mode_ops cocci_id/* drivers/net/team/team.c 555 */;
+	void (*cocci_id/* drivers/net/team/team.c 552 */)(struct team *team);
+	struct sockaddr *cocci_id/* drivers/net/team/team.c 55 */;
+	const struct team_mode *cocci_id/* drivers/net/team/team.c 548 */;
+	struct sockaddr_storage cocci_id/* drivers/net/team/team.c 51 */;
+	const struct team_mode cocci_id/* drivers/net/team/team.c 507 */;
+	struct sk_buff *cocci_id/* drivers/net/team/team.c 502 */;
+	rx_handler_result_t cocci_id/* drivers/net/team/team.c 500 */;
+	const unsigned char *cocci_id/* drivers/net/team/team.c 49 */;
+	struct net_device *cocci_id/* drivers/net/team/team.c 48 */;
+	const char *cocci_id/* drivers/net/team/team.c 404 */;
+	struct team_mode_item *cocci_id/* drivers/net/team/team.c 404 */;
+	struct team_mode_item {
+		struct list_head list;
+		const struct team_mode *mode;
+	} cocci_id/* drivers/net/team/team.c 399 */;
+	const struct net_device *cocci_id/* drivers/net/team/team.c 37 */;
+	void __exit cocci_id/* drivers/net/team/team.c 3051 */;
+	int __init cocci_id/* drivers/net/team/team.c 3026 */;
+	struct notifier_block cocci_id/* drivers/net/team/team.c 3017 */;
+	size_t cocci_id/* drivers/net/team/team.c 301 */;
+	const struct team_option *cocci_id/* drivers/net/team/team.c 300 */;
+	void *cocci_id/* drivers/net/team/team.c 2973 */;
+	unsigned long cocci_id/* drivers/net/team/team.c 2973 */;
+	struct notifier_block *cocci_id/* drivers/net/team/team.c 2972 */;
+	bool cocci_id/* drivers/net/team/team.c 2919 */;
+	struct ethtool_link_ksettings cocci_id/* drivers/net/team/team.c 2896 */;
+	const struct genl_multicast_group cocci_id/* drivers/net/team/team.c 2817 */[];
+	const struct genl_ops cocci_id/* drivers/net/team/team.c 2791 */[];
+	struct team_port cocci_id/* drivers/net/team/team.c 2704 */;
+	struct team_option_inst_info *cocci_id/* drivers/net/team/team.c 2599 */;
+	struct team_gsetter_ctx cocci_id/* drivers/net/team/team.c 2598 */;
+	struct team_option **cocci_id/* drivers/net/team/team.c 257 */;
+	enum team_option_type cocci_id/* drivers/net/team/team.c 2535 */;
+	struct nlattr *cocci_id/* drivers/net/team/team.c 2531 */[TEAM_ATTR_OPTION_MAX + 1];
+	struct nlattr *cocci_id/* drivers/net/team/team.c 2514 */;
+	int cocci_id/* drivers/net/team/team.c 2506 */(struct team *team,
+						       struct list_head *sel_opt_inst_list);
+	struct team_option_inst cocci_id/* drivers/net/team/team.c 2425 */;
+	struct nlmsghdr *cocci_id/* drivers/net/team/team.c 2416 */;
+	team_nl_send_func_t *cocci_id/* drivers/net/team/team.c 2396 */;
+	u32 cocci_id/* drivers/net/team/team.c 2395 */;
+	struct sk_buff **cocci_id/* drivers/net/team/team.c 2394 */;
+	int cocci_id/* drivers/net/team/team.c 2305 */(struct sk_buff *skb,
+						       struct team *team,
+						       u32 portid);
+	struct genl_info *cocci_id/* drivers/net/team/team.c 2245 */;
+	const struct nla_policy cocci_id/* drivers/net/team/team.c 2233 */[TEAM_ATTR_OPTION_MAX + 1];
+	const struct nla_policy cocci_id/* drivers/net/team/team.c 2226 */[TEAM_ATTR_MAX + 1];
+	struct genl_family cocci_id/* drivers/net/team/team.c 2224 */;
+	struct rtnl_link_ops cocci_id/* drivers/net/team/team.c 2209 */;
+	struct nlattr *cocci_id/* drivers/net/team/team.c 2178 */[];
+	struct net *cocci_id/* drivers/net/team/team.c 2177 */;
+	char *cocci_id/* drivers/net/team/team.c 2120 */;
+	const struct ethtool_ops cocci_id/* drivers/net/team/team.c 2094 */;
+	struct ethtool_link_ksettings *cocci_id/* drivers/net/team/team.c 2068 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/team/team.c 2061 */;
+	const struct net_device_ops cocci_id/* drivers/net/team/team.c 2030 */;
+	struct netlink_ext_ack *cocci_id/* drivers/net/team/team.c 1956 */;
+	struct netpoll_info *cocci_id/* drivers/net/team/team.c 1936 */;
+	__be16 cocci_id/* drivers/net/team/team.c 1872 */;
+	u64 cocci_id/* drivers/net/team/team.c 1838 */;
+	struct team_pcpu_stats *cocci_id/* drivers/net/team/team.c 1837 */;
+	struct rtnl_link_stats64 *cocci_id/* drivers/net/team/team.c 1834 */;
+	netdev_tx_t cocci_id/* drivers/net/team/team.c 1699 */;
+	struct team_pcpu_stats cocci_id/* drivers/net/team/team.c 1620 */;
+	const struct team_option cocci_id/* drivers/net/team/team.c 1542 */[];
+	s32 cocci_id/* drivers/net/team/team.c 1510 */;
+	struct team_option_inst *cocci_id/* drivers/net/team/team.c 148 */;
+	void cocci_id/* drivers/net/team/team.c 1464 */(struct team *team);
+	struct team_gsetter_ctx *cocci_id/* drivers/net/team/team.c 1407 */;
+	void cocci_id/* drivers/net/team/team.c 1316 */(struct team_port *port);
+	struct team_option *cocci_id/* drivers/net/team/team.c 116 */;
+	int cocci_id/* drivers/net/team/team.c 1124 */(struct net_device *dev,
+						       struct net_device *port_dev);
+	void cocci_id/* drivers/net/team/team.c 1123 */(struct team_port *port,
+							bool linkup);
+	struct netdev_lag_upper_info cocci_id/* drivers/net/team/team.c 1104 */;
+	struct team_option_inst {
+		struct list_head list;
+		struct list_head tmp_list;
+		struct team_option *option;
+		struct team_option_inst_info info;
+		bool changed;
+		bool removed;
+	} cocci_id/* drivers/net/team/team.c 107 */;
+	struct netpoll *cocci_id/* drivers/net/team/team.c 1057 */;
+}

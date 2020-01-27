@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	void __iomem *cocci_id/* drivers/tty/serial/sifive.c 895 */;
+	struct clk *cocci_id/* drivers/tty/serial/sifive.c 894 */;
+	struct resource *cocci_id/* drivers/tty/serial/sifive.c 893 */;
+	struct platform_device *cocci_id/* drivers/tty/serial/sifive.c 890 */;
+	const struct uart_ops cocci_id/* drivers/tty/serial/sifive.c 864 */;
+	struct sifive_serial_port *cocci_id/* drivers/tty/serial/sifive.c 841 */;
+	void cocci_id/* drivers/tty/serial/sifive.c 841 */;
+	struct console cocci_id/* drivers/tty/serial/sifive.c 823 */;
+	struct uart_driver cocci_id/* drivers/tty/serial/sifive.c 821 */;
+	struct sifive_serial_port *cocci_id/* drivers/tty/serial/sifive.c 759 */[SIFIVE_SERIAL_MAX_PORTS];
+	const char *cocci_id/* drivers/tty/serial/sifive.c 736 */;
+	struct earlycon_device *cocci_id/* drivers/tty/serial/sifive.c 735 */;
+	int __init cocci_id/* drivers/tty/serial/sifive.c 735 */;
+	struct console *cocci_id/* drivers/tty/serial/sifive.c 726 */;
+	struct serial_struct *cocci_id/* drivers/tty/serial/sifive.c 702 */;
+	struct ktermios *cocci_id/* drivers/tty/serial/sifive.c 641 */;
+	struct clk_notifier_data *cocci_id/* drivers/tty/serial/sifive.c 629 */;
+	void *cocci_id/* drivers/tty/serial/sifive.c 627 */;
+	unsigned long cocci_id/* drivers/tty/serial/sifive.c 627 */;
+	struct notifier_block *cocci_id/* drivers/tty/serial/sifive.c 626 */;
+	irqreturn_t cocci_id/* drivers/tty/serial/sifive.c 553 */;
+	void __maybe_unused cocci_id/* drivers/tty/serial/sifive.c 522 */;
+	unsigned int cocci_id/* drivers/tty/serial/sifive.c 483 */;
+	int cocci_id/* drivers/tty/serial/sifive.c 439 */;
+	unsigned char cocci_id/* drivers/tty/serial/sifive.c 437 */;
+	u8 cocci_id/* drivers/tty/serial/sifive.c 410 */;
+	char *cocci_id/* drivers/tty/serial/sifive.c 407 */;
+	char cocci_id/* drivers/tty/serial/sifive.c 407 */;
+	struct circ_buf *cocci_id/* drivers/tty/serial/sifive.c 302 */;
+	u32 cocci_id/* drivers/tty/serial/sifive.c 220 */;
+	u16 cocci_id/* drivers/tty/serial/sifive.c 220 */;
+	struct uart_port *cocci_id/* drivers/tty/serial/sifive.c 220 */;
+	void cocci_id/* drivers/tty/serial/sifive.c 182 */(struct uart_port *port);
+	struct sifive_serial_port cocci_id/* drivers/tty/serial/sifive.c 172 */;
+	struct sifive_serial_port {
+		struct uart_port port;
+		struct device *dev;
+		unsigned char ier;
+		unsigned long clkin_rate;
+		unsigned long baud_rate;
+		struct clk *clk;
+		struct notifier_block clk_notifier;
+	} cocci_id/* drivers/tty/serial/sifive.c 157 */;
+	void __exit cocci_id/* drivers/tty/serial/sifive.c 1043 */;
+	struct platform_driver cocci_id/* drivers/tty/serial/sifive.c 1014 */;
+	const struct of_device_id cocci_id/* drivers/tty/serial/sifive.c 1007 */[];
+}

@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct usb_serial_driver *const cocci_id/* drivers/usb/serial/generic.c 77 */[];
+	struct usb_serial_driver cocci_id/* drivers/usb/serial/generic.c 64 */;
+	struct tty_ldisc *cocci_id/* drivers/usb/serial/generic.c 620 */;
+	struct tty_port *cocci_id/* drivers/usb/serial/generic.c 615 */;
+	struct async_icount cocci_id/* drivers/usb/serial/generic.c 551 */;
+	struct serial_icounter_struct *cocci_id/* drivers/usb/serial/generic.c 548 */;
+	struct device *cocci_id/* drivers/usb/serial/generic.c 51 */;
+	struct async_icount *cocci_id/* drivers/usb/serial/generic.c 499 */;
+	bool cocci_id/* drivers/usb/serial/generic.c 498 */;
+	struct usb_serial_endpoints *cocci_id/* drivers/usb/serial/generic.c 49 */;
+	struct usb_serial *cocci_id/* drivers/usb/serial/generic.c 48 */;
+	int cocci_id/* drivers/usb/serial/generic.c 48 */;
+	const struct usb_device_id *cocci_id/* drivers/usb/serial/generic.c 38 */;
+	unsigned char *cocci_id/* drivers/usb/serial/generic.c 373 */;
+	struct usb_device_id cocci_id/* drivers/usb/serial/generic.c 35 */[2];
+	char *cocci_id/* drivers/usb/serial/generic.c 348 */;
+	struct urb *cocci_id/* drivers/usb/serial/generic.c 345 */;
+	gfp_t cocci_id/* drivers/usb/serial/generic.c 301 */;
+	unsigned int cocci_id/* drivers/usb/serial/generic.c 271 */;
+	__u16 cocci_id/* drivers/usb/serial/generic.c 27 */;
+	long cocci_id/* drivers/usb/serial/generic.c 268 */;
+	unsigned long cocci_id/* drivers/usb/serial/generic.c 253 */;
+	struct usb_serial_port *cocci_id/* drivers/usb/serial/generic.c 252 */;
+	struct tty_struct *cocci_id/* drivers/usb/serial/generic.c 250 */;
+	const unsigned char *cocci_id/* drivers/usb/serial/generic.c 214 */;
+	void *cocci_id/* drivers/usb/serial/generic.c 140 */;
+	size_t cocci_id/* drivers/usb/serial/generic.c 140 */;
+	void cocci_id/* drivers/usb/serial/generic.c 119 */;
+}

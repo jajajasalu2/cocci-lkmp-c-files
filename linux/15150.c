@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 635 */;
+	int __init cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 624 */;
+	struct platform_driver cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 614 */;
+	const struct of_device_id cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 605 */[];
+	const struct dev_pm_ops cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 594 */;
+	struct omap_ssi_controller *cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 581 */;
+	struct hsi_controller *cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 580 */;
+	struct device *cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 578 */;
+	int cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 578 */;
+	void __iomem *cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 57 */;
+	struct seq_file *cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 53 */;
+	struct device_node *cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 457 */;
+	const struct device_node *cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 455 */;
+	unsigned long cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 377 */;
+	struct platform_device *cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 347 */;
+	struct resource *cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 329 */;
+	const char *cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 327 */;
+	dma_addr_t *cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 327 */;
+	void __iomem **cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 327 */;
+	struct omap_ssi_port *cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 275 */;
+	struct clk_notifier_data *cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 274 */;
+	struct omap_ssi_controller cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 272 */;
+	void *cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 269 */;
+	struct notifier_block *cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 268 */;
+	irqreturn_t cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 251 */;
+	u32 cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 174 */;
+	struct hsi_port *cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 171 */;
+	struct hsi_msg *cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 170 */;
+	unsigned int cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 167 */;
+	struct hsi_client *cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 147 */;
+	void cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 135 */;
+	struct dentry *cocci_id/* drivers/hsi/controllers/omap_ssi_core.c 113 */;
+}

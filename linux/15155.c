@@ -1,0 +1,57 @@
+cocci_test_suite() {
+	struct hsc_channel {
+		unsigned int ch;
+		unsigned long flags;
+		struct list_head free_msgs_list;
+		struct list_head rx_msgs_queue;
+		struct list_head tx_msgs_queue;
+		spinlock_t lock;
+		struct hsi_client *cl;
+		struct hsc_client_data *cl_data;
+		wait_queue_head_t rx_wait;
+		wait_queue_head_t tx_wait;
+	} cocci_id/* drivers/hsi/clients/hsi_char.c 78 */;
+	void __exit cocci_id/* drivers/hsi/clients/hsi_char.c 778 */;
+	int __init cocci_id/* drivers/hsi/clients/hsi_char.c 756 */;
+	struct hsi_client_driver cocci_id/* drivers/hsi/clients/hsi_char.c 747 */;
+	dev_t cocci_id/* drivers/hsi/clients/hsi_char.c 682 */;
+	const char cocci_id/* drivers/hsi/clients/hsi_char.c 677 */[];
+	struct device *cocci_id/* drivers/hsi/clients/hsi_char.c 675 */;
+	const struct file_operations cocci_id/* drivers/hsi/clients/hsi_char.c 656 */;
+	struct hsc_client_data cocci_id/* drivers/hsi/clients/hsi_char.c 597 */;
+	enum{HSC_RX, HSC_TX,} cocci_id/* drivers/hsi/clients/hsi_char.c 59 */;
+	struct inode *cocci_id/* drivers/hsi/clients/hsi_char.c 589 */;
+	struct hsc_client_data *cocci_id/* drivers/hsi/clients/hsi_char.c 579 */;
+	void cocci_id/* drivers/hsi/clients/hsi_char.c 579 */;
+	void __user *cocci_id/* drivers/hsi/clients/hsi_char.c 538 */;
+	struct hsc_tx_config cocci_id/* drivers/hsi/clients/hsi_char.c 530 */;
+	struct hsc_rx_config cocci_id/* drivers/hsi/clients/hsi_char.c 529 */;
+	struct file *cocci_id/* drivers/hsi/clients/hsi_char.c 525 */;
+	unsigned int cocci_id/* drivers/hsi/clients/hsi_char.c 525 */;
+	long cocci_id/* drivers/hsi/clients/hsi_char.c 525 */;
+	enum{HSC_CH_OPEN, HSC_CH_READ, HSC_CH_WRITE, HSC_CH_WLINE,} cocci_id/* drivers/hsi/clients/hsi_char.c 52 */;
+	const char __user *cocci_id/* drivers/hsi/clients/hsi_char.c 471 */;
+	loff_t *cocci_id/* drivers/hsi/clients/hsi_char.c 413 */;
+	char __user *cocci_id/* drivers/hsi/clients/hsi_char.c 412 */;
+	ssize_t cocci_id/* drivers/hsi/clients/hsi_char.c 412 */;
+	size_t cocci_id/* drivers/hsi/clients/hsi_char.c 412 */;
+	struct hsc_tx_config *cocci_id/* drivers/hsi/clients/hsi_char.c 404 */;
+	struct hsc_rx_config *cocci_id/* drivers/hsi/clients/hsi_char.c 370 */;
+	struct hsi_config cocci_id/* drivers/hsi/clients/hsi_char.c 344 */;
+	struct hsi_client *cocci_id/* drivers/hsi/clients/hsi_char.c 300 */;
+	int cocci_id/* drivers/hsi/clients/hsi_char.c 277 */;
+	void *cocci_id/* drivers/hsi/clients/hsi_char.c 176 */;
+	struct hsi_msg cocci_id/* drivers/hsi/clients/hsi_char.c 137 */;
+	unsigned long cocci_id/* drivers/hsi/clients/hsi_char.c 119 */;
+	struct list_head *cocci_id/* drivers/hsi/clients/hsi_char.c 117 */;
+	struct hsi_msg *cocci_id/* drivers/hsi/clients/hsi_char.c 116 */;
+	struct hsc_channel *cocci_id/* drivers/hsi/clients/hsi_char.c 116 */;
+	struct hsc_client_data {
+		struct cdev cdev;
+		struct mutex lock;
+		unsigned long flags;
+		unsigned int usecnt;
+		struct hsi_client *cl;
+		struct hsc_channel channels[HSC_DEVS];
+	} cocci_id/* drivers/hsi/clients/hsi_char.c 100 */;
+}

@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	struct sst_module_runtime_context *cocci_id/* sound/soc/intel/common/sst-firmware.c 972 */;
+	unsigned long cocci_id/* sound/soc/intel/common/sst-firmware.c 83 */;
+	struct dma_async_tx_descriptor *cocci_id/* sound/soc/intel/common/sst-firmware.c 74 */;
+	size_t cocci_id/* sound/soc/intel/common/sst-firmware.c 72 */;
+	dma_addr_t cocci_id/* sound/soc/intel/common/sst-firmware.c 71 */;
+	struct sst_block_allocator cocci_id/* sound/soc/intel/common/sst-firmware.c 706 */;
+	struct sst_mem_block *cocci_id/* sound/soc/intel/common/sst-firmware.c 616 */;
+	struct list_head *cocci_id/* sound/soc/intel/common/sst-firmware.c 614 */;
+	struct sst_dsp *cocci_id/* sound/soc/intel/common/sst-firmware.c 613 */;
+	struct sst_block_allocator *cocci_id/* sound/soc/intel/common/sst-firmware.c 613 */;
+	int cocci_id/* sound/soc/intel/common/sst-firmware.c 613 */;
+	u32 cocci_id/* sound/soc/intel/common/sst-firmware.c 576 */;
+	struct list_head cocci_id/* sound/soc/intel/common/sst-firmware.c 574 */;
+	struct sst_module_template *cocci_id/* sound/soc/intel/common/sst-firmware.c 481 */;
+	const u8 *cocci_id/* sound/soc/intel/common/sst-firmware.c 48 */;
+	struct sst_fw *cocci_id/* sound/soc/intel/common/sst-firmware.c 447 */;
+	volatile void __iomem *cocci_id/* sound/soc/intel/common/sst-firmware.c 44 */;
+	struct sst_module_runtime *cocci_id/* sound/soc/intel/common/sst-firmware.c 414 */;
+	struct sst_dma {
+		struct sst_dsp *sst;
+		struct dw_dma_chip *chip;
+		struct dma_async_tx_descriptor *desc;
+		struct dma_chan *ch;
+	} cocci_id/* sound/soc/intel/common/sst-firmware.c 35 */;
+	const struct firmware *cocci_id/* sound/soc/intel/common/sst-firmware.c 331 */;
+	struct sst_dma *cocci_id/* sound/soc/intel/common/sst-firmware.c 315 */;
+	struct sst_dma cocci_id/* sound/soc/intel/common/sst-firmware.c 286 */;
+	struct resource cocci_id/* sound/soc/intel/common/sst-firmware.c 268 */;
+	struct sst_pdata *cocci_id/* sound/soc/intel/common/sst-firmware.c 266 */;
+	dma_cap_mask_t cocci_id/* sound/soc/intel/common/sst-firmware.c 221 */;
+	struct dma_slave_config cocci_id/* sound/soc/intel/common/sst-firmware.c 220 */;
+	bool cocci_id/* sound/soc/intel/common/sst-firmware.c 210 */;
+	struct dma_chan *cocci_id/* sound/soc/intel/common/sst-firmware.c 210 */;
+	void *cocci_id/* sound/soc/intel/common/sst-firmware.c 210 */;
+	struct resource *cocci_id/* sound/soc/intel/common/sst-firmware.c 177 */;
+	struct dw_dma_chip *cocci_id/* sound/soc/intel/common/sst-firmware.c 177 */;
+	struct device *cocci_id/* sound/soc/intel/common/sst-firmware.c 177 */;
+	struct sst_dsp_device *cocci_id/* sound/soc/intel/common/sst-firmware.c 1204 */;
+	void cocci_id/* sound/soc/intel/common/sst-firmware.c 120 */;
+	enum sst_mem_type cocci_id/* sound/soc/intel/common/sst-firmware.c 1188 */;
+	struct sst_module *cocci_id/* sound/soc/intel/common/sst-firmware.c 1070 */;
+	const struct sst_block_ops *cocci_id/* sound/soc/intel/common/sst-firmware.c 1019 */;
+}

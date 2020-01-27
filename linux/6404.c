@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	struct fan53555_device_info {
+		enum fan53555_vendor vendor;
+		struct device *dev;
+		struct regulator_desc desc;
+		struct regulator_init_data *regulator;
+		int chip_id;
+		int chip_rev;
+		unsigned int vol_reg;
+		unsigned int sleep_reg;
+		unsigned int vsel_min;
+		unsigned int vsel_step;
+		unsigned int vsel_count;
+		unsigned int mode_reg;
+		unsigned int mode_mask;
+		unsigned int sleep_vol_cache;
+	} cocci_id/* drivers/regulator/fan53555.c 89 */;
+	enum{SILERGY_SYR82X=8, SILERGY_SYR83X=9,} cocci_id/* drivers/regulator/fan53555.c 84 */;
+	enum{FAN53555_CHIP_REV_00=0x3, FAN53555_CHIP_REV_13=0xf,} cocci_id/* drivers/regulator/fan53555.c 79 */;
+	enum{FAN53555_CHIP_ID_00=0, FAN53555_CHIP_ID_01, FAN53555_CHIP_ID_02, FAN53555_CHIP_ID_03, FAN53555_CHIP_ID_04, FAN53555_CHIP_ID_05, FAN53555_CHIP_ID_08=8,} cocci_id/* drivers/regulator/fan53555.c 68 */;
+	enum{FAN53526_CHIP_REV_08=8,} cocci_id/* drivers/regulator/fan53555.c 63 */;
+	enum{FAN53526_CHIP_ID_01=1,} cocci_id/* drivers/regulator/fan53555.c 59 */;
+	struct i2c_driver cocci_id/* drivers/regulator/fan53555.c 562 */;
+	const struct i2c_device_id cocci_id/* drivers/regulator/fan53555.c 544 */[];
+	enum fan53555_vendor{FAN53526_VENDOR_FAIRCHILD=0, FAN53555_VENDOR_FAIRCHILD, FAN53555_VENDOR_SILERGY,} cocci_id/* drivers/regulator/fan53555.c 53 */;
+	unsigned long cocci_id/* drivers/regulator/fan53555.c 485 */;
+	struct fan53555_device_info cocci_id/* drivers/regulator/fan53555.c 468 */;
+	struct regmap *cocci_id/* drivers/regulator/fan53555.c 464 */;
+	struct regulator_config cocci_id/* drivers/regulator/fan53555.c 463 */;
+	const struct i2c_device_id *cocci_id/* drivers/regulator/fan53555.c 458 */;
+	struct i2c_client *cocci_id/* drivers/regulator/fan53555.c 457 */;
+	void *cocci_id/* drivers/regulator/fan53555.c 442 */;
+	const struct of_device_id cocci_id/* drivers/regulator/fan53555.c 439 */[];
+	u32 cocci_id/* drivers/regulator/fan53555.c 423 */;
+	const struct regulator_desc *cocci_id/* drivers/regulator/fan53555.c 419 */;
+	struct device_node *cocci_id/* drivers/regulator/fan53555.c 418 */;
+	struct device *cocci_id/* drivers/regulator/fan53555.c 417 */;
+	const struct regmap_config cocci_id/* drivers/regulator/fan53555.c 412 */;
+	struct regulator_desc *cocci_id/* drivers/regulator/fan53555.c 392 */;
+	struct regulator_config *cocci_id/* drivers/regulator/fan53555.c 390 */;
+	struct fan53555_platform_data *cocci_id/* drivers/regulator/fan53555.c 327 */;
+	struct fan53555_device_info *cocci_id/* drivers/regulator/fan53555.c 230 */;
+	int cocci_id/* drivers/regulator/fan53555.c 230 */;
+	const struct regulator_ops cocci_id/* drivers/regulator/fan53555.c 213 */;
+	const int cocci_id/* drivers/regulator/fan53555.c 181 */[];
+	struct regulator_dev *cocci_id/* drivers/regulator/fan53555.c 166 */;
+	unsigned int cocci_id/* drivers/regulator/fan53555.c 166 */;
+}

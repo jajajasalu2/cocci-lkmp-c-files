@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	union fscrypt_iv cocci_id/* fs/crypto/fname.c 97 */;
+	struct crypto_skcipher *cocci_id/* fs/crypto/fname.c 96 */;
+	struct fscrypt_info *cocci_id/* fs/crypto/fname.c 95 */;
+	struct scatterlist cocci_id/* fs/crypto/fname.c 94 */;
+	struct skcipher_request *cocci_id/* fs/crypto/fname.c 92 */;
+	struct fscrypt_str *cocci_id/* fs/crypto/fname.c 90 */;
+	const struct fscrypt_str *cocci_id/* fs/crypto/fname.c 89 */;
+	struct inode *cocci_id/* fs/crypto/fname.c 88 */;
+	const void *cocci_id/* fs/crypto/fname.c 389 */;
+	const struct fscrypt_digested_name *cocci_id/* fs/crypto/fname.c 388 */;
+	unsigned int cocci_id/* fs/crypto/fname.c 38 */;
+	size_t cocci_id/* fs/crypto/fname.c 374 */;
+	const struct qstr *cocci_id/* fs/crypto/fname.c 37 */;
+	unsigned char *cocci_id/* fs/crypto/fname.c 327 */;
+	struct fscrypt_name cocci_id/* fs/crypto/fname.c 323 */;
+	struct fscrypt_name *cocci_id/* fs/crypto/fname.c 318 */;
+	const struct qstr cocci_id/* fs/crypto/fname.c 255 */;
+	void cocci_id/* fs/crypto/fname.c 229 */;
+	struct fscrypt_digested_name cocci_id/* fs/crypto/fname.c 211 */;
+	const u32 cocci_id/* fs/crypto/fname.c 209 */;
+	u32 cocci_id/* fs/crypto/fname.c 206 */;
+	const struct inode *cocci_id/* fs/crypto/fname.c 205 */;
+	const struct fscrypt_info *cocci_id/* fs/crypto/fname.c 184 */;
+	u32 *cocci_id/* fs/crypto/fname.c 182 */;
+	bool cocci_id/* fs/crypto/fname.c 181 */;
+	const char *cocci_id/* fs/crypto/fname.c 158 */;
+	u8 *cocci_id/* fs/crypto/fname.c 158 */;
+	int cocci_id/* fs/crypto/fname.c 158 */;
+	const u8 *cocci_id/* fs/crypto/fname.c 139 */;
+	char *cocci_id/* fs/crypto/fname.c 139 */;
+	const char cocci_id/* fs/crypto/fname.c 126 */[65];
+}

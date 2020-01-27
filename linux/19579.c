@@ -1,0 +1,55 @@
+cocci_test_suite() {
+	u64 cocci_id/* arch/mips/kernel/signal.c 98 */;
+	uint32_t __user *cocci_id/* arch/mips/kernel/signal.c 94 */;
+	struct rt_sigframe cocci_id/* arch/mips/kernel/signal.c 937 */;
+	struct sigframe cocci_id/* arch/mips/kernel/signal.c 935 */;
+	uint64_t __user *cocci_id/* arch/mips/kernel/signal.c 93 */;
+	struct mips_abi *cocci_id/* arch/mips/kernel/signal.c 92 */;
+	void __user *cocci_id/* arch/mips/kernel/signal.c 90 */;
+	int cocci_id/* arch/mips/kernel/signal.c 90 */;
+	__u32 cocci_id/* arch/mips/kernel/signal.c 890 */;
+	struct pt_regs *cocci_id/* arch/mips/kernel/signal.c 889 */;
+	void *cocci_id/* arch/mips/kernel/signal.c 889 */;
+	void cocci_id/* arch/mips/kernel/signal.c 889 */;
+	struct ksignal cocci_id/* arch/mips/kernel/signal.c 851 */;
+	sigset_t *cocci_id/* arch/mips/kernel/signal.c 803 */;
+	struct sigcontext cocci_id/* arch/mips/kernel/signal.c 794 */;
+	struct mips_abi cocci_id/* arch/mips/kernel/signal.c 787 */;
+	struct rt_sigframe __user *cocci_id/* arch/mips/kernel/signal.c 743 */;
+	struct sigframe __user *cocci_id/* arch/mips/kernel/signal.c 704 */;
+	old_sigset_t cocci_id/* arch/mips/kernel/signal.c 591 */;
+	struct k_sigaction cocci_id/* arch/mips/kernel/signal.c 586 */;
+	struct sigaction *cocci_id/* arch/mips/kernel/signal.c 584 */;
+	const struct sigaction *cocci_id/* arch/mips/kernel/signal.c 583 */;
+	struct rt_sigframe {
+		u32 rs_ass[4];
+		u32 rs_pad[2];
+		struct siginfo rs_info;
+		struct ucontext rs_uc;
+	} cocci_id/* arch/mips/kernel/signal.c 58 */;
+	sigset_t cocci_id/* arch/mips/kernel/signal.c 578 */;
+	unsigned long cocci_id/* arch/mips/kernel/signal.c 551 */;
+	struct ksignal *cocci_id/* arch/mips/kernel/signal.c 548 */;
+	struct sigcontext __user *cocci_id/* arch/mips/kernel/signal.c 516 */;
+	unsigned int cocci_id/* arch/mips/kernel/signal.c 500 */;
+	unsigned int __user *cocci_id/* arch/mips/kernel/signal.c 497 */;
+	struct extcontext *cocci_id/* arch/mips/kernel/signal.c 492 */;
+	struct msa_extcontext cocci_id/* arch/mips/kernel/signal.c 488 */;
+	struct sigframe {
+		u32 sf_ass[4];
+		u32 sf_pad[2];
+		struct sigcontext sf_sc;
+		sigset_t sf_mask;
+		unsigned long long sf_extcontext[0];
+	} cocci_id/* arch/mips/kernel/signal.c 48 */;
+	size_t cocci_id/* arch/mips/kernel/signal.c 475 */;
+	int (*cocci_id/* arch/mips/kernel/signal.c 46 */)(void __user *sc);
+	unsigned int *cocci_id/* arch/mips/kernel/signal.c 293 */;
+	struct extcontext cocci_id/* arch/mips/kernel/signal.c 289 */;
+	u32 *cocci_id/* arch/mips/kernel/signal.c 280 */;
+	unsigned long long cocci_id/* arch/mips/kernel/signal.c 212 */;
+	struct msa_extcontext __user *cocci_id/* arch/mips/kernel/signal.c 211 */;
+	uint64_t cocci_id/* arch/mips/kernel/signal.c 166 */;
+	struct ucontext cocci_id/* arch/mips/kernel/signal.c 157 */;
+	struct ucontext __user *cocci_id/* arch/mips/kernel/signal.c 150 */;
+}

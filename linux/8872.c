@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct hinic_api_cmd_chain **cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 958 */;
+	struct hinic_api_cmd_cell cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 918 */;
+	struct hinic_api_cmd_chain_attr cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 913 */;
+	void cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 831 */;
+	size_t cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 798 */;
+	struct hinic_api_cmd_chain_attr *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 794 */;
+	enum api_cmd_xor_chk_level{XOR_CHK_DIS=0, XOR_CHK_ALL=3,} cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 70 */;
+	enum api_cmd_bypass{NO_BYPASS=0, BYPASS=1,} cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 65 */;
+	struct hinic_api_cmd_cell **cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 648 */;
+	enum api_cmd_type{API_CMD_WRITE=0,} cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 61 */;
+	u8 *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 604 */;
+	dma_addr_t cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 603 */;
+	struct pci_dev *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 602 */;
+	struct hinic_hwif *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 601 */;
+	struct hinic_api_cmd_cell_ctxt *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 600 */;
+	struct hinic_api_cmd_cell *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 598 */;
+	struct hinic_api_cmd_chain *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 597 */;
+	int cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 597 */;
+	enum api_cmd_data_format{SGE_DATA=1,} cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 57 */;
+	u32 cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 529 */;
+	unsigned long cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 415 */;
+	u16 cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 358 */;
+	enum hinic_node_id cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 358 */;
+	u64 cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 270 */;
+	struct hinic_api_cmd_status *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 267 */;
+	enum hinic_api_cmd_chain_type cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 266 */;
+	void *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 202 */;
+	u64 *cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 176 */;
+	u8 cocci_id/* drivers/net/ethernet/huawei/hinic/hinic_hw_api_cmd.c 154 */;
+}

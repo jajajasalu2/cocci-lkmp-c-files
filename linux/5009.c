@@ -1,0 +1,61 @@
+cocci_test_suite() {
+	bool cocci_id/* drivers/infiniband/hw/hfi1/pio.c 983 */;
+	struct iowait cocci_id/* drivers/infiniband/hw/hfi1/pio.c 962 */;
+	struct hfi1_qp_priv *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 960 */;
+	struct rvt_qp *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 959 */;
+	struct iowait *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 958 */;
+	union pio_shadow_ring cocci_id/* drivers/infiniband/hw/hfi1/pio.c 856 */;
+	dma_addr_t cocci_id/* drivers/infiniband/hw/hfi1/pio.c 701 */;
+	uint cocci_id/* drivers/infiniband/hw/hfi1/pio.c 697 */;
+	u64 cocci_id/* drivers/infiniband/hw/hfi1/pio.c 63 */;
+	struct hfi1_devdata *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 63 */;
+	void cocci_id/* drivers/infiniband/hw/hfi1/pio.c 63 */;
+	struct send_context cocci_id/* drivers/infiniband/hw/hfi1/pio.c 579 */;
+	struct work_struct *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 575 */;
+	void cocci_id/* drivers/infiniband/hw/hfi1/pio.c 57 */(struct send_context *sc,
+							       int pause);
+	struct credit_return *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 568 */;
+	unsigned long cocci_id/* drivers/infiniband/hw/hfi1/pio.c 567 */;
+	u32 cocci_id/* drivers/infiniband/hw/hfi1/pio.c 563 */;
+	dma_addr_t *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 561 */;
+	struct send_context *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 561 */;
+	u32 *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 495 */;
+	struct send_context_info *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 476 */;
+	struct sc_config_sizes *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 473 */;
+	struct send_context_info cocci_id/* drivers/infiniband/hw/hfi1/pio.c 453 */;
+	u8 cocci_id/* drivers/infiniband/hw/hfi1/pio.c 450 */;
+	unsigned cocci_id/* drivers/infiniband/hw/hfi1/pio.c 421 */;
+	struct mem_pool_info *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 391 */;
+	u16 cocci_id/* drivers/infiniband/hw/hfi1/pio.c 246 */;
+	struct mem_pool_info cocci_id/* drivers/infiniband/hw/hfi1/pio.c 225 */[NUM_SC_POOLS];
+	struct seq_file *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 2161 */;
+	struct credit_return cocci_id/* drivers/infiniband/hw/hfi1/pio.c 2152 */;
+	struct credit_return_base cocci_id/* drivers/infiniband/hw/hfi1/pio.c 2112 */;
+	const char *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 211 */;
+	const char *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 204 */[SC_MAX];
+	struct hfi1_pportdata *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 2020 */;
+	struct pio_map_elem *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 1938 */;
+	u8 cocci_id/* drivers/infiniband/hw/hfi1/pio.c 1919 */[OPA_MAX_VLS];
+	u8 *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 1913 */;
+	struct pio_vl_map cocci_id/* drivers/infiniband/hw/hfi1/pio.c 1865 */;
+	struct rcu_head *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 1863 */;
+	struct pio_vl_map *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 1851 */;
+	struct mem_pool_info {
+		int centipercent;
+		int count;
+		int blocks;
+		int size;
+	} cocci_id/* drivers/infiniband/hw/hfi1/pio.c 178 */;
+	struct mem_pool_config cocci_id/* drivers/infiniband/hw/hfi1/pio.c 171 */[NUM_SC_POOLS];
+	int cocci_id/* drivers/infiniband/hw/hfi1/pio.c 1673 */;
+	struct mem_pool_config {
+		int centipercent;
+		int absolute_blocks;
+	} cocci_id/* drivers/infiniband/hw/hfi1/pio.c 165 */;
+	struct rvt_qp *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 1613 */[PIO_WAIT_BATCH_SIZE];
+	struct list_head *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 1612 */;
+	struct sc_config_sizes cocci_id/* drivers/infiniband/hw/hfi1/pio.c 152 */[SC_MAX];
+	pio_release_cb cocci_id/* drivers/infiniband/hw/hfi1/pio.c 1450 */;
+	void *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 1450 */;
+	struct pio_buf *cocci_id/* drivers/infiniband/hw/hfi1/pio.c 1449 */;
+}

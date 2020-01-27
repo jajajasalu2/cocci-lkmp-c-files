@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	unsigned char cocci_id/* drivers/rtc/rtc-ab8500.c 66 */[ARRAY_SIZE(ab8500_rtc_time_regs)];
+	struct rtc_time *cocci_id/* drivers/rtc/rtc-ab8500.c 61 */;
+	const u8 cocci_id/* drivers/rtc/rtc-ab8500.c 56 */[];
+	struct platform_driver cocci_id/* drivers/rtc/rtc-ab8500.c 418 */;
+	struct rtc_class_ops *cocci_id/* drivers/rtc/rtc-ab8500.c 386 */;
+	struct rtc_device *cocci_id/* drivers/rtc/rtc-ab8500.c 352 */;
+	const struct platform_device_id *cocci_id/* drivers/rtc/rtc-ab8500.c 350 */;
+	struct platform_device *cocci_id/* drivers/rtc/rtc-ab8500.c 348 */;
+	const struct platform_device_id cocci_id/* drivers/rtc/rtc-ab8500.c 342 */[];
+	const struct rtc_class_ops cocci_id/* drivers/rtc/rtc-ab8500.c 334 */;
+	irqreturn_t cocci_id/* drivers/rtc/rtc-ab8500.c 323 */;
+	void *cocci_id/* drivers/rtc/rtc-ab8500.c 323 */;
+	const struct attribute_group cocci_id/* drivers/rtc/rtc-ab8500.c 319 */;
+	struct attribute *cocci_id/* drivers/rtc/rtc-ab8500.c 314 */[];
+	struct device_attribute *cocci_id/* drivers/rtc/rtc-ab8500.c 295 */;
+	char *cocci_id/* drivers/rtc/rtc-ab8500.c 295 */;
+	ssize_t cocci_id/* drivers/rtc/rtc-ab8500.c 294 */;
+	const char *cocci_id/* drivers/rtc/rtc-ab8500.c 279 */;
+	size_t cocci_id/* drivers/rtc/rtc-ab8500.c 279 */;
+	u8 cocci_id/* drivers/rtc/rtc-ab8500.c 258 */;
+	struct device *cocci_id/* drivers/rtc/rtc-ab8500.c 255 */;
+	int *cocci_id/* drivers/rtc/rtc-ab8500.c 255 */;
+	int cocci_id/* drivers/rtc/rtc-ab8500.c 255 */;
+	struct rtc_time cocci_id/* drivers/rtc/rtc-ab8500.c 188 */;
+	unsigned int cocci_id/* drivers/rtc/rtc-ab8500.c 176 */;
+	unsigned long cocci_id/* drivers/rtc/rtc-ab8500.c 145 */;
+	unsigned char cocci_id/* drivers/rtc/rtc-ab8500.c 144 */[ARRAY_SIZE(ab8500_rtc_alarm_regs)];
+	struct rtc_wkalrm *cocci_id/* drivers/rtc/rtc-ab8500.c 140 */;
+}

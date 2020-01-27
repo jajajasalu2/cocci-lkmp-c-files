@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	u16 cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 97 */;
+	struct rtw_efuse *cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 95 */;
+	struct ieee80211_sta *cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 80 */;
+	u8 cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 79 */;
+	struct rtw_dev *cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 79 */;
+	struct ieee80211_txq *cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 462 */;
+	struct rtw_txq *cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 457 */;
+	void *cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 456 */;
+	int cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 443 */;
+	struct ieee80211_tx_control cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 423 */;
+	struct rtw_tx_pkt_info cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 375 */;
+	struct ieee80211_tx_control *cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 372 */;
+	__le32 *cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 36 */;
+	bool cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 357 */;
+	struct ieee80211_hdr *cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 356 */;
+	struct rtw_chip_info *cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 355 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 353 */;
+	struct rtw_tx_pkt_info *cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 352 */;
+	void cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 351 */;
+	struct ieee80211_key_conf *cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 318 */;
+	__le16 cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 303 */;
+	struct ieee80211_vif *cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 302 */;
+	struct rtw_sta_info *cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 239 */;
+	struct ieee80211_tx_info *cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 238 */;
+	struct rtw_c2h_cmd *cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 198 */;
+	u8 *cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 166 */;
+	unsigned long cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 165 */;
+	struct rtw_vif *cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 15 */;
+	struct timer_list *cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 146 */;
+	struct rtw_tx_report *cocci_id/* drivers/net/wireless/realtek/rtw88/tx.c 136 */;
+}

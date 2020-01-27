@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	struct smc_wr_tx_pend cocci_id/* net/smc/smc_wr.c 86 */;
+	struct ib_device *cocci_id/* net/smc/smc_wr.c 671 */;
+	unsigned long cocci_id/* net/smc/smc_wr.c 664 */;
+	struct smc_ib_device *cocci_id/* net/smc/smc_wr.c 661 */;
+	void cocci_id/* net/smc/smc_wr.c 661 */;
+	struct smc_link *cocci_id/* net/smc/smc_wr.c 583 */;
+	int cocci_id/* net/smc/smc_wr.c 583 */;
+	bool cocci_id/* net/smc/smc_wr.c 54 */;
+	u32 cocci_id/* net/smc/smc_wr.c 488 */;
+	size_t cocci_id/* net/smc/smc_wr.c 480 */;
+	struct ib_qp_init_attr cocci_id/* net/smc/smc_wr.c 456 */;
+	struct ib_qp_attr *cocci_id/* net/smc/smc_wr.c 455 */;
+	struct ib_cq *cocci_id/* net/smc/smc_wr.c 434 */;
+	void *cocci_id/* net/smc/smc_wr.c 434 */;
+	struct ib_wc cocci_id/* net/smc/smc_wr.c 412 */[SMC_WR_MAX_POLL_CQE];
+	struct smc_wr_tx_pend {
+		u64 wr_id;
+		smc_wr_tx_handler handler;
+		enum ib_wc_status wc_status;
+		struct smc_link *link;
+		u32 idx;
+		struct smc_wr_tx_pend_priv priv;
+	} cocci_id/* net/smc/smc_wr.c 40 */;
+	struct ib_wc cocci_id/* net/smc/smc_wr.c 379 */[];
+	struct smc_wr_rx_hdr *cocci_id/* net/smc/smc_wr.c 364 */;
+	struct smc_wr_rx_handler *cocci_id/* net/smc/smc_wr.c 363 */;
+	struct ib_wc *cocci_id/* net/smc/smc_wr.c 360 */;
+	struct smc_wr_tx_pend_priv *cocci_id/* net/smc/smc_wr.c 322 */;
+	smc_wr_tx_dismisser cocci_id/* net/smc/smc_wr.c 319 */;
+	smc_wr_tx_filter cocci_id/* net/smc/smc_wr.c 318 */;
+	u8 cocci_id/* net/smc/smc_wr.c 317 */;
+	uintptr_t cocci_id/* net/smc/smc_wr.c 286 */;
+	u64 cocci_id/* net/smc/smc_wr.c 286 */;
+	struct ib_mr *cocci_id/* net/smc/smc_wr.c 279 */;
+	struct ib_send_wr *cocci_id/* net/smc/smc_wr.c 197 */;
+	struct smc_wr_tx_pend *cocci_id/* net/smc/smc_wr.c 195 */;
+	struct smc_link_group *cocci_id/* net/smc/smc_wr.c 194 */;
+	struct smc_wr_tx_pend_priv **cocci_id/* net/smc/smc_wr.c 192 */;
+	struct smc_rdma_wr **cocci_id/* net/smc/smc_wr.c 191 */;
+	struct smc_wr_buf **cocci_id/* net/smc/smc_wr.c 190 */;
+	smc_wr_tx_handler cocci_id/* net/smc/smc_wr.c 189 */;
+	u32 *cocci_id/* net/smc/smc_wr.c 166 */;
+}

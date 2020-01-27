@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	__be16 cocci_id/* net/rds/recv.c 89 */;
+	struct rds_cong_map *cocci_id/* net/rds/recv.c 88 */;
+	struct rds6_info_message cocci_id/* net/rds/recv.c 812 */;
+	int cocci_id/* net/rds/recv.c 810 */;
+	struct in6_addr *cocci_id/* net/rds/recv.c 809 */;
+	struct rds_info_iterator *cocci_id/* net/rds/recv.c 808 */;
+	struct rds_incoming *cocci_id/* net/rds/recv.c 807 */;
+	void cocci_id/* net/rds/recv.c 807 */;
+	struct rds_info_message cocci_id/* net/rds/recv.c 783 */;
+	__be32 cocci_id/* net/rds/recv.c 781 */;
+	unsigned long cocci_id/* net/rds/recv.c 762 */;
+	struct sock *cocci_id/* net/rds/recv.c 760 */;
+	struct rds_sock *cocci_id/* net/rds/recv.c 758 */;
+	bool cocci_id/* net/rds/recv.c 667 */;
+	struct sockaddr_in *cocci_id/* net/rds/recv.c 640 */;
+	struct sockaddr_in6 *cocci_id/* net/rds/recv.c 639 */;
+	long cocci_id/* net/rds/recv.c 637 */;
+	struct socket *cocci_id/* net/rds/recv.c 632 */;
+	size_t cocci_id/* net/rds/recv.c 632 */;
+	struct rds_msg_zcopy_info cocci_id/* net/rds/recv.c 614 */;
+	struct rds_zcopy_cookies *cocci_id/* net/rds/recv.c 601 */;
+	struct rds_msg_zcopy_info *cocci_id/* net/rds/recv.c 600 */;
+	struct rds_msg_zcopy_queue *cocci_id/* net/rds/recv.c 599 */;
+	struct rds_cmsg_rx_trace cocci_id/* net/rds/recv.c 574 */;
+	struct __kernel_sock_timeval cocci_id/* net/rds/recv.c 560 */;
+	struct __kernel_old_timeval cocci_id/* net/rds/recv.c 553 */;
+	struct msghdr *cocci_id/* net/rds/recv.c 538 */;
+	uint64_t cocci_id/* net/rds/recv.c 519 */;
+	struct rds_notifier cocci_id/* net/rds/recv.c 476 */;
+	unsigned int cocci_id/* net/rds/recv.c 454 */;
+	struct rds_rdma_notify cocci_id/* net/rds/recv.c 453 */;
+	struct rds_notifier *cocci_id/* net/rds/recv.c 452 */;
+	struct rds_incoming cocci_id/* net/rds/recv.c 411 */;
+	struct rds_incoming **cocci_id/* net/rds/recv.c 403 */;
+	unsigned long long cocci_id/* net/rds/recv.c 300 */;
+	gfp_t cocci_id/* net/rds/recv.c 284 */;
+	union {
+		struct rds_ext_header_version version;
+		u16 rds_npaths;
+		u32 rds_gen_num;
+	} cocci_id/* net/rds/recv.c 202 */;
+	struct rds_header *cocci_id/* net/rds/recv.c 198 */;
+	union {
+		struct rds_ext_header_version version;
+		struct rds_ext_header_rdma rdma;
+		struct rds_ext_header_rdma_dest rdma_dest;
+	} cocci_id/* net/rds/recv.c 169 */;
+	struct rds_conn_path *cocci_id/* net/rds/recv.c 144 */;
+	struct rds_message *cocci_id/* net/rds/recv.c 136 */;
+	u32 cocci_id/* net/rds/recv.c 133 */;
+	struct rds_connection *cocci_id/* net/rds/recv.c 132 */;
+}

@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	unsigned long *cocci_id/* mm/kasan/report.c 90 */;
+	struct kasan_access_info *cocci_id/* mm/kasan/report.c 69 */;
+	char *cocci_id/* mm/kasan/report.c 62 */;
+	int __init cocci_id/* mm/kasan/report.c 62 */;
+	void *cocci_id/* mm/kasan/report.c 477 */;
+	struct kasan_access_info cocci_id/* mm/kasan/report.c 476 */;
+	bool cocci_id/* mm/kasan/report.c 474 */;
+	unsigned long cocci_id/* mm/kasan/report.c 474 */;
+	size_t cocci_id/* mm/kasan/report.c 474 */;
+	void cocci_id/* mm/kasan/report.c 474 */;
+	char cocci_id/* mm/kasan/report.c 426 */[SHADOW_BYTES_PER_ROW];
+	char cocci_id/* mm/kasan/report.c 425 */[4 + (BITS_PER_LONG / 8) * 2];
+	long cocci_id/* mm/kasan/report.c 310 */;
+	const unsigned long *cocci_id/* mm/kasan/report.c 299 */;
+	const u8 *cocci_id/* mm/kasan/report.c 297 */;
+	const void **cocci_id/* mm/kasan/report.c 293 */;
+	const char **cocci_id/* mm/kasan/report.c 292 */;
+	bool __must_check cocci_id/* mm/kasan/report.c 290 */;
+	char cocci_id/* mm/kasan/report.c 251 */[64];
+	const size_t cocci_id/* mm/kasan/report.c 218 */;
+	struct kasan_track *cocci_id/* mm/kasan/report.c 180 */;
+	struct kasan_alloc_meta *cocci_id/* mm/kasan/report.c 177 */;
+	u8 cocci_id/* mm/kasan/report.c 175 */;
+	const void *cocci_id/* mm/kasan/report.c 175 */;
+	struct kmem_cache *cocci_id/* mm/kasan/report.c 174 */;
+	int cocci_id/* mm/kasan/report.c 128 */;
+	const char *cocci_id/* mm/kasan/report.c 127 */;
+	struct page *cocci_id/* mm/kasan/report.c 114 */;
+	unsigned int cocci_id/* mm/kasan/report.c 105 */;
+}

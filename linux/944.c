@@ -1,0 +1,65 @@
+cocci_test_suite() {
+	struct flash_device {
+		char *name;
+		u8 erase_cmd;
+		u32 device_id;
+		u32 pagesize;
+		unsigned long sectorsize;
+		unsigned long size_in_bytes;
+	} cocci_id/* drivers/mtd/devices/spear_smi.c 96 */;
+	struct resource *cocci_id/* drivers/mtd/devices/spear_smi.c 940 */;
+	struct spear_smi_plat_data *cocci_id/* drivers/mtd/devices/spear_smi.c 938 */;
+	struct device_node *cocci_id/* drivers/mtd/devices/spear_smi.c 937 */;
+	struct platform_device *cocci_id/* drivers/mtd/devices/spear_smi.c 935 */;
+	struct mtd_partition *cocci_id/* drivers/mtd/devices/spear_smi.c 848 */;
+	struct spear_smi_flash_info *cocci_id/* drivers/mtd/devices/spear_smi.c 845 */;
+	const __be32 *cocci_id/* drivers/mtd/devices/spear_smi.c 797 */;
+	const u8 *cocci_id/* drivers/mtd/devices/spear_smi.c 675 */;
+	uintptr_t cocci_id/* drivers/mtd/devices/spear_smi.c 650 */;
+	const void *cocci_id/* drivers/mtd/devices/spear_smi.c 616 */;
+	const unsigned char *cocci_id/* drivers/mtd/devices/spear_smi.c 605 */;
+	volatile void __iomem *cocci_id/* drivers/mtd/devices/spear_smi.c 602 */;
+	void __iomem *cocci_id/* drivers/mtd/devices/spear_smi.c 550 */;
+	size_t *cocci_id/* drivers/mtd/devices/spear_smi.c 546 */;
+	loff_t cocci_id/* drivers/mtd/devices/spear_smi.c 545 */;
+	size_t cocci_id/* drivers/mtd/devices/spear_smi.c 545 */;
+	struct spear_smi *cocci_id/* drivers/mtd/devices/spear_smi.c 497 */;
+	struct erase_info *cocci_id/* drivers/mtd/devices/spear_smi.c 494 */;
+	u8 *cocci_id/* drivers/mtd/devices/spear_smi.c 423 */;
+	u32 cocci_id/* drivers/mtd/devices/spear_smi.c 357 */;
+	int cocci_id/* drivers/mtd/devices/spear_smi.c 357 */;
+	unsigned long cocci_id/* drivers/mtd/devices/spear_smi.c 326 */;
+	void cocci_id/* drivers/mtd/devices/spear_smi.c 324 */;
+	irqreturn_t cocci_id/* drivers/mtd/devices/spear_smi.c 296 */;
+	void *cocci_id/* drivers/mtd/devices/spear_smi.c 296 */;
+	struct spear_snor_flash cocci_id/* drivers/mtd/devices/spear_smi.c 210 */;
+	struct spear_snor_flash *cocci_id/* drivers/mtd/devices/spear_smi.c 208 */;
+	struct mtd_info *cocci_id/* drivers/mtd/devices/spear_smi.c 208 */;
+	struct spear_snor_flash {
+		u32 bank;
+		u32 dev_id;
+		struct mutex lock;
+		struct mtd_info mtd;
+		u32 num_parts;
+		struct mtd_partition *parts;
+		u32 page_size;
+		void __iomem *base_addr;
+		u8 erase_cmd;
+		u8 fast_mode;
+	} cocci_id/* drivers/mtd/devices/spear_smi.c 195 */;
+	struct spear_smi {
+		struct clk *clk;
+		u32 status;
+		unsigned long clk_rate;
+		struct mutex lock;
+		void __iomem *io_base;
+		struct platform_device *pdev;
+		wait_queue_head_t cmd_complete;
+		u32 num_flashes;
+		struct spear_snor_flash *flash[MAX_NUM_FLASH_CHIP];
+	} cocci_id/* drivers/mtd/devices/spear_smi.c 169 */;
+	struct flash_device cocci_id/* drivers/mtd/devices/spear_smi.c 115 */[];
+	struct platform_driver cocci_id/* drivers/mtd/devices/spear_smi.c 1108 */;
+	const struct of_device_id cocci_id/* drivers/mtd/devices/spear_smi.c 1101 */[];
+	struct device *cocci_id/* drivers/mtd/devices/spear_smi.c 1084 */;
+}

@@ -1,0 +1,56 @@
+cocci_test_suite() {
+	uint64_t *cocci_id/* drivers/gpu/drm/drm_syncobj.c 879 */;
+	uint32_t *cocci_id/* drivers/gpu/drm/drm_syncobj.c 875 */;
+	struct dma_fence_cb *cocci_id/* drivers/gpu/drm/drm_syncobj.c 840 */;
+	struct drm_syncobj_transfer *cocci_id/* drivers/gpu/drm/drm_syncobj.c 822 */;
+	struct drm_syncobj_handle *cocci_id/* drivers/gpu/drm/drm_syncobj.c 744 */;
+	struct drm_syncobj_destroy *cocci_id/* drivers/gpu/drm/drm_syncobj.c 705 */;
+	struct drm_syncobj_create *cocci_id/* drivers/gpu/drm/drm_syncobj.c 688 */;
+	void *cocci_id/* drivers/gpu/drm/drm_syncobj.c 685 */;
+	struct sync_file *cocci_id/* drivers/gpu/drm/drm_syncobj.c 618 */;
+	int *cocci_id/* drivers/gpu/drm/drm_syncobj.c 614 */;
+	struct fd cocci_id/* drivers/gpu/drm/drm_syncobj.c 561 */;
+	const struct file_operations cocci_id/* drivers/gpu/drm/drm_syncobj.c 505 */;
+	struct inode *cocci_id/* drivers/gpu/drm/drm_syncobj.c 497 */;
+	struct file *cocci_id/* drivers/gpu/drm/drm_syncobj.c 497 */;
+	u32 cocci_id/* drivers/gpu/drm/drm_syncobj.c 482 */;
+	u32 *cocci_id/* drivers/gpu/drm/drm_syncobj.c 467 */;
+	struct drm_syncobj cocci_id/* drivers/gpu/drm/drm_syncobj.c 411 */;
+	struct kref *cocci_id/* drivers/gpu/drm/drm_syncobj.c 384 */;
+	struct syncobj_wait_entry cocci_id/* drivers/gpu/drm/drm_syncobj.c 322 */;
+	struct dma_fence **cocci_id/* drivers/gpu/drm/drm_syncobj.c 319 */;
+	u64 cocci_id/* drivers/gpu/drm/drm_syncobj.c 318 */;
+	struct syncobj_wait_entry *cocci_id/* drivers/gpu/drm/drm_syncobj.c 229 */;
+	uint64_t cocci_id/* drivers/gpu/drm/drm_syncobj.c 227 */;
+	struct dma_fence *cocci_id/* drivers/gpu/drm/drm_syncobj.c 226 */;
+	struct dma_fence_chain *cocci_id/* drivers/gpu/drm/drm_syncobj.c 225 */;
+	struct drm_syncobj *cocci_id/* drivers/gpu/drm/drm_syncobj.c 224 */;
+	void cocci_id/* drivers/gpu/drm/drm_syncobj.c 224 */;
+	void cocci_id/* drivers/gpu/drm/drm_syncobj.c 150 */(struct drm_syncobj *syncobj,
+							     struct syncobj_wait_entry *wait);
+	struct syncobj_wait_entry {
+		struct list_head node;
+		struct task_struct *task;
+		struct dma_fence *fence;
+		struct dma_fence_cb fence_cb;
+		u64 point;
+	} cocci_id/* drivers/gpu/drm/drm_syncobj.c 142 */;
+	uint64_t __user *cocci_id/* drivers/gpu/drm/drm_syncobj.c 1347 */;
+	struct drm_syncobj_timeline_array *cocci_id/* drivers/gpu/drm/drm_syncobj.c 1345 */;
+	struct dma_fence_chain cocci_id/* drivers/gpu/drm/drm_syncobj.c 1316 */;
+	struct dma_fence_chain **cocci_id/* drivers/gpu/drm/drm_syncobj.c 1275 */;
+	struct drm_syncobj_array *cocci_id/* drivers/gpu/drm/drm_syncobj.c 1207 */;
+	struct drm_syncobj **cocci_id/* drivers/gpu/drm/drm_syncobj.c 1085 */;
+	struct drm_syncobj ***cocci_id/* drivers/gpu/drm/drm_syncobj.c 1082 */;
+	uint32_t cocci_id/* drivers/gpu/drm/drm_syncobj.c 1081 */;
+	void __user *cocci_id/* drivers/gpu/drm/drm_syncobj.c 1080 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/drm_syncobj.c 1079 */;
+	int cocci_id/* drivers/gpu/drm/drm_syncobj.c 1079 */;
+	signed long cocci_id/* drivers/gpu/drm/drm_syncobj.c 1052 */;
+	bool cocci_id/* drivers/gpu/drm/drm_syncobj.c 1050 */;
+	struct drm_syncobj_timeline_wait *cocci_id/* drivers/gpu/drm/drm_syncobj.c 1049 */;
+	struct drm_syncobj_wait *cocci_id/* drivers/gpu/drm/drm_syncobj.c 1048 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/drm_syncobj.c 1046 */;
+	ktime_t cocci_id/* drivers/gpu/drm/drm_syncobj.c 1022 */;
+	int64_t cocci_id/* drivers/gpu/drm/drm_syncobj.c 1020 */;
+}

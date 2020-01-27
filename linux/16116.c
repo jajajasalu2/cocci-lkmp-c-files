@@ -1,0 +1,68 @@
+cocci_test_suite() {
+	struct comedi_8254 *cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 920 */;
+	unsigned long long cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 879 */;
+	void cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 771 */;
+	irqreturn_t cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 677 */;
+	bool cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 644 */;
+	unsigned short cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 624 */;
+	__be16 *cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 607 */;
+	void *cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 599 */;
+	struct pci9118_private *cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 565 */;
+	struct comedi_subdevice *cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 563 */;
+	struct comedi_device *cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 562 */;
+	unsigned short *cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 463 */;
+	unsigned int cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 292 */;
+	struct comedi_cmd *cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 289 */;
+	struct pci9118_private {
+		unsigned long iobase_a;
+		unsigned int master:1;
+		unsigned int dma_doublebuf:1;
+		unsigned int ai_neverending:1;
+		unsigned int usedma:1;
+		unsigned int usemux:1;
+		unsigned char ai_ctrl;
+		unsigned char int_ctrl;
+		unsigned char ai_cfg;
+		unsigned int ai_do;
+		unsigned int ai_n_realscanlen;
+		unsigned int ai_act_dmapos;
+		unsigned int ai_add_front;
+		unsigned int ai_add_back;
+		unsigned int ai_flags;
+		char ai12_startstop;
+		unsigned int dma_actbuf;
+		struct pci9118_dmabuf dmabuf[2];
+		int softsshdelay;
+		unsigned char softsshsample;
+		unsigned char softsshhold;
+		unsigned int ai_ns_min;
+	} cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 198 */;
+	struct pci9118_dmabuf {
+		unsigned short *virt;
+		dma_addr_t hw;
+		unsigned int size;
+		unsigned int use_size;
+	} cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 191 */;
+	const struct pci9118_boardinfo cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 177 */[];
+	struct pci_driver cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 1726 */;
+	const struct pci_device_id cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 1718 */[];
+	const struct pci_device_id *cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 1711 */;
+	struct pci_dev *cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 1710 */;
+	int cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 1710 */;
+	struct pci9118_boardinfo {
+		const char *name;
+		unsigned int ai_is_16bit:1;
+		unsigned int is_hg:1;
+	} cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 171 */;
+	struct pci9118_boardinfo cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 1707 */;
+	struct comedi_driver cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 1699 */;
+	const struct pci9118_boardinfo *cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 1670 */;
+	struct comedi_devconfig *cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 1650 */;
+	enum pci9118_boardid{BOARD_PCI9118DG, BOARD_PCI9118HG, BOARD_PCI9118HR,} cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 165 */;
+	u16 cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 1514 */;
+	const struct comedi_lrange cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 139 */;
+	unsigned int *cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 1324 */;
+	unsigned long cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 1305 */;
+	struct comedi_insn *cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 1304 */;
+	struct pci9118_dmabuf *cocci_id/* drivers/staging/comedi/drivers/adl_pci9118.c 1054 */;
+}

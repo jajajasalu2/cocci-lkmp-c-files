@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct ovs_header **cocci_id/* net/openvswitch/meter.c 87 */;
+	u8 cocci_id/* net/openvswitch/meter.c 86 */;
+	struct hlist_head *cocci_id/* net/openvswitch/meter.c 73 */;
+	struct dp_meter *cocci_id/* net/openvswitch/meter.c 71 */;
+	struct datapath *cocci_id/* net/openvswitch/meter.c 71 */;
+	void cocci_id/* net/openvswitch/meter.c 71 */;
+	struct hlist_node *cocci_id/* net/openvswitch/meter.c 593 */;
+	struct hlist_head cocci_id/* net/openvswitch/meter.c 575 */;
+	const struct datapath *cocci_id/* net/openvswitch/meter.c 57 */;
+	struct ovs_header cocci_id/* net/openvswitch/meter.c 556 */;
+	struct genl_family cocci_id/* net/openvswitch/meter.c 555 */;
+	const struct genl_multicast_group cocci_id/* net/openvswitch/meter.c 551 */;
+	struct genl_ops cocci_id/* net/openvswitch/meter.c 524 */[];
+	long long int cocci_id/* net/openvswitch/meter.c 447 */;
+	struct sw_flow_key *cocci_id/* net/openvswitch/meter.c 443 */;
+	struct ovs_header *cocci_id/* net/openvswitch/meter.c 394 */;
+	struct sk_buff *cocci_id/* net/openvswitch/meter.c 390 */;
+	struct genl_info *cocci_id/* net/openvswitch/meter.c 390 */;
+	struct ovs_flow_stats cocci_id/* net/openvswitch/meter.c 39 */;
+	const struct nla_policy cocci_id/* net/openvswitch/meter.c 35 */[OVS_BAND_ATTR_MAX + 1];
+	bool cocci_id/* net/openvswitch/meter.c 278 */;
+	const struct nla_policy cocci_id/* net/openvswitch/meter.c 24 */[OVS_METER_ATTR_MAX + 1];
+	u32 cocci_id/* net/openvswitch/meter.c 225 */;
+	struct nlattr *cocci_id/* net/openvswitch/meter.c 224 */[OVS_BAND_ATTR_MAX + 1];
+	struct ovs_flow_stats *cocci_id/* net/openvswitch/meter.c 216 */;
+	struct dp_meter_band *cocci_id/* net/openvswitch/meter.c 194 */;
+	u16 cocci_id/* net/openvswitch/meter.c 192 */;
+	int cocci_id/* net/openvswitch/meter.c 191 */;
+	struct nlattr *cocci_id/* net/openvswitch/meter.c 190 */;
+	struct nlattr **cocci_id/* net/openvswitch/meter.c 188 */;
+}

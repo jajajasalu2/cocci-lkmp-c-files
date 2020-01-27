@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	bool cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 70 */;
+	unsigned long *cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 68 */;
+	unsigned long cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 67 */;
+	char *cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 65 */;
+	struct pinctrl_map **cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 62 */;
+	unsigned *cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 62 */;
+	struct device_node *cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 61 */;
+	int cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 60 */;
+	struct seq_file *cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 54 */;
+	struct mxs_pinctrl_soc_data *cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 523 */;
+	const unsigned **cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 44 */;
+	struct mxs_function *cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 401 */;
+	struct mxs_pinctrl_data *cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 38 */;
+	struct property *cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 353 */;
+	const char *cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 35 */;
+	const char **cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 349 */;
+	struct platform_device *cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 347 */;
+	struct pinctrl_desc cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 340 */;
+	const struct pinconf_ops cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 331 */;
+	u16 cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 261 */;
+	u8 cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 260 */;
+	void __iomem *cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 259 */;
+	struct mxs_group *cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 258 */;
+	const struct pinmux_ops cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 223 */;
+	struct mxs_pinctrl_data {
+		struct device *dev;
+		struct pinctrl_dev *pctl;
+		void __iomem *base;
+		struct mxs_pinctrl_soc_data *soc;
+	} cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 21 */;
+	unsigned *constcocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 180 */;
+	const char *const**cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 179 */;
+	const struct pinctrl_ops cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 153 */;
+	u32 cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 141 */;
+	struct pinctrl_map *cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 139 */;
+	unsigned cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 139 */;
+	struct pinctrl_dev *cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 138 */;
+	void cocci_id/* drivers/pinctrl/freescale/pinctrl-mxs.c 138 */;
+}

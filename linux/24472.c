@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct ccid2_hc_tx_sock *cocci_id/* net/dccp/ccids/ccid2.c 94 */;
+	struct ccid2_hc_rx_sock cocci_id/* net/dccp/ccids/ccid2.c 781 */;
+	struct ccid2_hc_tx_sock cocci_id/* net/dccp/ccids/ccid2.c 774 */;
+	struct ccid_operations cocci_id/* net/dccp/ccids/ccid2.c 771 */;
+	struct ccid2_hc_rx_sock *cocci_id/* net/dccp/ccids/ccid2.c 760 */;
+	struct sk_buff *cocci_id/* net/dccp/ccids/ccid2.c 758 */;
+	u32 cocci_id/* net/dccp/ccids/ccid2.c 74 */;
+	struct sock *cocci_id/* net/dccp/ccids/ccid2.c 74 */;
+	void cocci_id/* net/dccp/ccids/ccid2.c 74 */;
+	struct dccp_sock *cocci_id/* net/dccp/ccids/ccid2.c 716 */;
+	struct ccid *cocci_id/* net/dccp/ccids/ccid2.c 713 */;
+	const u8 cocci_id/* net/dccp/ccids/ccid2.c 612 */;
+	unsigned long long cocci_id/* net/dccp/ccids/ccid2.c 591 */;
+	unsigned int cocci_id/* net/dccp/ccids/ccid2.c 515 */;
+	struct dccp_ackvec_parsed *cocci_id/* net/dccp/ccids/ccid2.c 511 */;
+	const bool cocci_id/* net/dccp/ccids/ccid2.c 510 */;
+	u8 *cocci_id/* net/dccp/ccids/ccid2.c 493 */;
+	u8 cocci_id/* net/dccp/ccids/ccid2.c 492 */;
+	s32 cocci_id/* net/dccp/ccids/ccid2.c 479 */;
+	struct ccid2_seq *cocci_id/* net/dccp/ccids/ccid2.c 475 */;
+	unsigned int *cocci_id/* net/dccp/ccids/ccid2.c 430 */;
+	long cocci_id/* net/dccp/ccids/ccid2.c 362 */;
+	struct ccid2_seq cocci_id/* net/dccp/ccids/ccid2.c 36 */;
+	const long cocci_id/* net/dccp/ccids/ccid2.c 359 */;
+	int cocci_id/* net/dccp/ccids/ccid2.c 25 */;
+	const u32 cocci_id/* net/dccp/ccids/ccid2.c 195 */;
+	bool cocci_id/* net/dccp/ccids/ccid2.c 19 */;
+	struct timer_list *cocci_id/* net/dccp/ccids/ccid2.c 127 */;
+	struct tasklet_struct *cocci_id/* net/dccp/ccids/ccid2.c 119 */;
+	u64 cocci_id/* net/dccp/ccids/ccid2.c 110 */;
+}

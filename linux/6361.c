@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	struct max8997_regulator_data *cocci_id/* drivers/regulator/max8997-regulator.c 899 */;
+	struct max8997_dev *cocci_id/* drivers/regulator/max8997-regulator.c 897 */;
+	const struct voltage_map_desc *cocci_id/* drivers/regulator/max8997-regulator.c 88 */[];
+	struct device_node *cocci_id/* drivers/regulator/max8997-regulator.c 878 */;
+	struct max8997_platform_data *cocci_id/* drivers/regulator/max8997-regulator.c 877 */;
+	struct platform_device *cocci_id/* drivers/regulator/max8997-regulator.c 876 */;
+	struct regulator_desc cocci_id/* drivers/regulator/max8997-regulator.c 837 */[];
+	unsigned cocci_id/* drivers/regulator/max8997-regulator.c 783 */;
+	struct regulator_ops cocci_id/* drivers/regulator/max8997-regulator.c 745 */;
+	const struct voltage_map_desc cocci_id/* drivers/regulator/max8997-regulator.c 71 */;
+	bool cocci_id/* drivers/regulator/max8997-regulator.c 622 */;
+	unsigned *cocci_id/* drivers/regulator/max8997-regulator.c 616 */;
+	struct voltage_map_desc {
+		int min;
+		int max;
+		int step;
+	} cocci_id/* drivers/regulator/max8997-regulator.c 60 */;
+	int cocci_id/* drivers/regulator/max8997-regulator.c 545 */[8];
+	bool cocci_id/* drivers/regulator/max8997-regulator.c 544 */[3];
+	u8 *cocci_id/* drivers/regulator/max8997-regulator.c 543 */[3];
+	struct max8997_data *cocci_id/* drivers/regulator/max8997-regulator.c 541 */;
+	u8 cocci_id/* drivers/regulator/max8997-regulator.c 539 */;
+	int *cocci_id/* drivers/regulator/max8997-regulator.c 539 */;
+	struct regulator_dev *cocci_id/* drivers/regulator/max8997-regulator.c 538 */;
+	int cocci_id/* drivers/regulator/max8997-regulator.c 538 */;
+	const unsigned int cocci_id/* drivers/regulator/max8997-regulator.c 42 */[];
+	const struct voltage_map_desc *cocci_id/* drivers/regulator/max8997-regulator.c 374 */;
+	struct i2c_client *cocci_id/* drivers/regulator/max8997-regulator.c 355 */;
+	struct max8997_data {
+		struct device *dev;
+		struct max8997_dev *iodev;
+		int num_regulators;
+		int ramp_delay;
+		bool buck1_gpiodvs;
+		bool buck2_gpiodvs;
+		bool buck5_gpiodvs;
+		u8 buck1_vol[8];
+		u8 buck2_vol[8];
+		u8 buck5_vol[8];
+		int buck125_gpios[3];
+		int buck125_gpioindex;
+		bool ignore_gpiodvs_side_effect;
+		u8 saved_states[MAX8997_REG_MAX];
+	} cocci_id/* drivers/regulator/max8997-regulator.c 23 */;
+	unsigned int cocci_id/* drivers/regulator/max8997-regulator.c 148 */;
+	void __exit cocci_id/* drivers/regulator/max8997-regulator.c 1216 */;
+	void cocci_id/* drivers/regulator/max8997-regulator.c 1216 */;
+	int __init cocci_id/* drivers/regulator/max8997-regulator.c 1210 */;
+	struct platform_driver cocci_id/* drivers/regulator/max8997-regulator.c 1202 */;
+	const struct platform_device_id cocci_id/* drivers/regulator/max8997-regulator.c 1196 */[];
+	struct max8997_data cocci_id/* drivers/regulator/max8997-regulator.c 1032 */;
+	struct regulator_config cocci_id/* drivers/regulator/max8997-regulator.c 1014 */;
+}

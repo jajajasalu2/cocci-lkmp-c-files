@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	char **cocci_id/* arch/x86/kernel/setup.c 850 */;
+	struct notifier_block *cocci_id/* arch/x86/kernel/setup.c 822 */;
+	void *cocci_id/* arch/x86/kernel/setup.c 822 */;
+	int cocci_id/* arch/x86/kernel/setup.c 821 */;
+	unsigned long long cocci_id/* arch/x86/kernel/setup.c 793 */;
+	int __init cocci_id/* arch/x86/kernel/setup.c 791 */;
+	unsigned cocci_id/* arch/x86/kernel/setup.c 789 */;
+	u64 cocci_id/* arch/x86/kernel/setup.c 771 */;
+	const __initconst unsigned long cocci_id/* arch/x86/kernel/setup.c 706 */[];
+	const __initconst u16 cocci_id/* arch/x86/kernel/setup.c 673 */[];
+	u16 cocci_id/* arch/x86/kernel/setup.c 672 */;
+	bool __init cocci_id/* arch/x86/kernel/setup.c 668 */;
+	struct resource cocci_id/* arch/x86/kernel/setup.c 625 */[];
+	bool cocci_id/* arch/x86/kernel/setup.c 545 */;
+	struct setup_indirect *cocci_id/* arch/x86/kernel/setup.c 450 */;
+	struct setup_data *cocci_id/* arch/x86/kernel/setup.c 441 */;
+	struct setup_data cocci_id/* arch/x86/kernel/setup.c 417 */;
+	u32 cocci_id/* arch/x86/kernel/setup.c 414 */;
+	u64 __init cocci_id/* arch/x86/kernel/setup.c 301 */;
+	void __init cocci_id/* arch/x86/kernel/setup.c 281 */;
+	void cocci_id/* arch/x86/kernel/setup.c 281 */;
+	char *cocci_id/* arch/x86/kernel/setup.c 270 */;
+	void *__initcocci_id/* arch/x86/kernel/setup.c 261 */;
+	size_t cocci_id/* arch/x86/kernel/setup.c 261 */;
+	struct edd cocci_id/* arch/x86/kernel/setup.c 238 */;
+	char __initdata cocci_id/* arch/x86/kernel/setup.c 234 */[COMMAND_LINE_SIZE];
+	struct edid_info cocci_id/* arch/x86/kernel/setup.c 221 */;
+	struct screen_info cocci_id/* arch/x86/kernel/setup.c 219 */;
+	struct ist_info cocci_id/* arch/x86/kernel/setup.c 195 */;
+	struct apm_info cocci_id/* arch/x86/kernel/setup.c 190 */;
+	unsigned int cocci_id/* arch/x86/kernel/setup.c 188 */;
+	struct cpuinfo_x86 cocci_id/* arch/x86/kernel/setup.c 180 */;
+	struct resource cocci_id/* arch/x86/kernel/setup.c 167 */;
+	struct boot_params cocci_id/* arch/x86/kernel/setup.c 141 */;
+	unsigned long cocci_id/* arch/x86/kernel/setup.c 139 */;
+	struct notifier_block cocci_id/* arch/x86/kernel/setup.c 1335 */;
+}

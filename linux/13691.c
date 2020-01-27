@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	const struct v4l2_ioctl_ops cocci_id/* drivers/media/common/saa7146/saa7146_video.c 998 */;
+	int cocci_id/* drivers/media/common/saa7146/saa7146_video.c 94 */(struct file *file,
+									  void *fh,
+									  struct v4l2_format *f);
+	enum v4l2_buf_type cocci_id/* drivers/media/common/saa7146/saa7146_video.c 935 */;
+	struct v4l2_buffer *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 907 */;
+	void *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 907 */;
+	char *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 90 */;
+	struct v4l2_requestbuffers *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 874 */;
+	v4l2_std_id cocci_id/* drivers/media/common/saa7146/saa7146_video.c 815 */;
+	v4l2_std_id *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 788 */;
+	struct v4l2_clip cocci_id/* drivers/media/common/saa7146/saa7146_video.c 773 */;
+	struct v4l2_window *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 681 */;
+	struct v4l2_format *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 602 */;
+	struct v4l2_streamparm *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 571 */;
+	u32 cocci_id/* drivers/media/common/saa7146/saa7146_video.c 517 */;
+	struct saa7146_dev cocci_id/* drivers/media/common/saa7146/saa7146_video.c 515 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 512 */;
+	struct v4l2_fmtdesc *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 504 */;
+	const struct v4l2_framebuffer *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 464 */;
+	struct v4l2_framebuffer *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 453 */;
+	struct v4l2_capability *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 439 */;
+	unsigned long cocci_id/* drivers/media/common/saa7146/saa7146_video.c 384 */;
+	struct saa7146_dmaqueue *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 382 */;
+	unsigned int cocci_id/* drivers/media/common/saa7146/saa7146_video.c 322 */;
+	__le32 cocci_id/* drivers/media/common/saa7146/saa7146_video.c 211 */;
+	__le32 *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 210 */;
+	struct saa7146_format cocci_id/* drivers/media/common/saa7146/saa7146_video.c 21 */[];
+	struct saa7146_pgtable *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 207 */;
+	struct scatterlist *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 200 */;
+	struct videobuf_dmabuf *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 199 */;
+	struct pci_dev *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 198 */;
+	const struct saa7146_use_ops cocci_id/* drivers/media/common/saa7146/saa7146_video.c 1282 */;
+	loff_t *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 1241 */;
+	char __user *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 1241 */;
+	ssize_t cocci_id/* drivers/media/common/saa7146/saa7146_video.c 1241 */;
+	size_t cocci_id/* drivers/media/common/saa7146/saa7146_video.c 1241 */;
+	struct saa7146_buf cocci_id/* drivers/media/common/saa7146/saa7146_video.c 1201 */;
+	const struct videobuf_queue_ops cocci_id/* drivers/media/common/saa7146/saa7146_video.c 1167 */;
+	void cocci_id/* drivers/media/common/saa7146/saa7146_video.c 1141 */;
+	unsigned int *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 1120 */;
+	struct saa7146_format *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 1080 */;
+	struct saa7146_fh *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 1042 */;
+	struct file *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 1041 */;
+	enum v4l2_field cocci_id/* drivers/media/common/saa7146/saa7146_video.c 1039 */;
+	struct videobuf_buffer *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 1039 */;
+	struct videobuf_queue *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 1038 */;
+	struct saa7146_vv *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 1022 */;
+	struct saa7146_buf *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 1019 */;
+	struct saa7146_dev *cocci_id/* drivers/media/common/saa7146/saa7146_video.c 1018 */;
+	int cocci_id/* drivers/media/common/saa7146/saa7146_video.c 1018 */;
+	struct v4l2_format cocci_id/* drivers/media/common/saa7146/saa7146_video.c 100 */;
+}

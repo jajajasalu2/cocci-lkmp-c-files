@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/power/supply/ds2781_battery.c 782 */;
+	struct power_supply_config cocci_id/* drivers/power/supply/ds2781_battery.c 751 */;
+	u8 cocci_id/* drivers/power/supply/ds2781_battery.c 75 */[2];
+	struct platform_device *cocci_id/* drivers/power/supply/ds2781_battery.c 749 */;
+	const struct attribute_group *cocci_id/* drivers/power/supply/ds2781_battery.c 744 */[];
+	const struct attribute_group cocci_id/* drivers/power/supply/ds2781_battery.c 738 */;
+	struct bin_attribute *cocci_id/* drivers/power/supply/ds2781_battery.c 732 */[];
+	struct attribute *cocci_id/* drivers/power/supply/ds2781_battery.c 724 */[];
+	s16 *cocci_id/* drivers/power/supply/ds2781_battery.c 71 */;
+	struct bin_attribute cocci_id/* drivers/power/supply/ds2781_battery.c 659 */;
+	struct device cocci_id/* drivers/power/supply/ds2781_battery.c 629 */;
+	loff_t cocci_id/* drivers/power/supply/ds2781_battery.c 627 */;
+	struct bin_attribute *cocci_id/* drivers/power/supply/ds2781_battery.c 626 */;
+	struct kobject *cocci_id/* drivers/power/supply/ds2781_battery.c 625 */;
+	struct file *cocci_id/* drivers/power/supply/ds2781_battery.c 624 */;
+	const char *cocci_id/* drivers/power/supply/ds2781_battery.c 599 */;
+	struct device_attribute *cocci_id/* drivers/power/supply/ds2781_battery.c 581 */;
+	struct device *cocci_id/* drivers/power/supply/ds2781_battery.c 580 */;
+	ssize_t cocci_id/* drivers/power/supply/ds2781_battery.c 580 */;
+	char *cocci_id/* drivers/power/supply/ds2781_battery.c 54 */;
+	size_t cocci_id/* drivers/power/supply/ds2781_battery.c 54 */;
+	const char cocci_id/* drivers/power/supply/ds2781_battery.c 45 */[];
+	enum power_supply_property cocci_id/* drivers/power/supply/ds2781_battery.c 432 */[];
+	enum current_types{CURRENT_NOW, CURRENT_AVG,} cocci_id/* drivers/power/supply/ds2781_battery.c 39 */;
+	struct ds2781_device_info *cocci_id/* drivers/power/supply/ds2781_battery.c 382 */;
+	union power_supply_propval *cocci_id/* drivers/power/supply/ds2781_battery.c 379 */;
+	enum power_supply_property cocci_id/* drivers/power/supply/ds2781_battery.c 378 */;
+	struct power_supply *cocci_id/* drivers/power/supply/ds2781_battery.c 377 */;
+	int cocci_id/* drivers/power/supply/ds2781_battery.c 377 */;
+	u8 *cocci_id/* drivers/power/supply/ds2781_battery.c 359 */;
+	u16 cocci_id/* drivers/power/supply/ds2781_battery.c 340 */;
+	struct ds2781_device_info {
+		struct device *dev;
+		struct power_supply *bat;
+		struct power_supply_desc bat_desc;
+		struct device *w1_dev;
+	} cocci_id/* drivers/power/supply/ds2781_battery.c 32 */;
+	u8 cocci_id/* drivers/power/supply/ds2781_battery.c 265 */;
+	s16 cocci_id/* drivers/power/supply/ds2781_battery.c 264 */;
+	int *cocci_id/* drivers/power/supply/ds2781_battery.c 261 */;
+	enum current_types cocci_id/* drivers/power/supply/ds2781_battery.c 216 */;
+	char cocci_id/* drivers/power/supply/ds2781_battery.c 192 */[2];
+	u8 cocci_id/* drivers/power/supply/ds2781_battery.c 149 */[];
+	u16 *cocci_id/* drivers/power/supply/ds2781_battery.c 139 */;
+}

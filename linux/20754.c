@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	int __init cocci_id/* arch/x86/xen/p2m.c 816 */;
+	struct dentry *cocci_id/* arch/x86/xen/p2m.c 814 */;
+	const struct file_operations cocci_id/* arch/x86/xen/p2m.c 807 */;
+	struct inode *cocci_id/* arch/x86/xen/p2m.c 802 */;
+	struct file *cocci_id/* arch/x86/xen/p2m.c 802 */;
+	const char *const cocci_id/* arch/x86/xen/p2m.c 777 */[];
+	struct seq_file *cocci_id/* arch/x86/xen/p2m.c 775 */;
+	struct page **cocci_id/* arch/x86/xen/p2m.c 746 */;
+	struct gnttab_unmap_grant_ref *cocci_id/* arch/x86/xen/p2m.c 744 */;
+	struct gnttab_map_grant_ref *cocci_id/* arch/x86/xen/p2m.c 698 */;
+	unsigned int cocci_id/* arch/x86/xen/p2m.c 657 */;
+	pte_t *cocci_id/* arch/x86/xen/p2m.c 656 */;
+	bool cocci_id/* arch/x86/xen/p2m.c 654 */;
+	unsigned long cocci_id/* arch/x86/xen/p2m.c 654 */;
+	unsigned long __init cocci_id/* arch/x86/xen/p2m.c 634 */;
+	int cocci_id/* arch/x86/xen/p2m.c 480 */;
+	pmd_t *cocci_id/* arch/x86/xen/p2m.c 476 */;
+	pte_t *cocci_id/* arch/x86/xen/p2m.c 475 */[PMDS_PER_MID_PAGE];
+	phys_addr_t cocci_id/* arch/x86/xen/p2m.c 422 */;
+	struct vm_struct cocci_id/* arch/x86/xen/p2m.c 417 */;
+	void __init cocci_id/* arch/x86/xen/p2m.c 295 */;
+	void __ref cocci_id/* arch/x86/xen/p2m.c 197 */;
+	void *cocci_id/* arch/x86/xen/p2m.c 185 */;
+	void *__ref cocci_id/* arch/x86/xen/p2m.c 182 */;
+	void cocci_id/* arch/x86/xen/p2m.c 182 */;
+	unsigned cocci_id/* arch/x86/xen/p2m.c 137 */;
+	unsigned long *cocci_id/* arch/x86/xen/p2m.c 113 */;
+	unsigned long **cocci_id/* arch/x86/xen/p2m.c 111 */;
+}

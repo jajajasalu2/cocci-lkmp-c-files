@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	struct dst_entry *cocci_id/* net/smc/smc_pnet.c 883 */;
+	struct sock *cocci_id/* net/smc/smc_pnet.c 881 */;
+	struct smc_init_info *cocci_id/* net/smc/smc_pnet.c 836 */;
+	struct list_head *cocci_id/* net/smc/smc_pnet.c 721 */;
+	struct smc_pnetentry {
+		struct list_head list;
+		char pnet_name[SMC_MAX_PNETID_LEN + 1];
+		struct net_device *ndev;
+	} cocci_id/* net/smc/smc_pnet.c 72 */;
+	struct net_device *cocci_id/* net/smc/smc_pnet.c 714 */;
+	void cocci_id/* net/smc/smc_pnet.c 703 */;
+	int __init cocci_id/* net/smc/smc_pnet.c 683 */;
+	struct notifier_block cocci_id/* net/smc/smc_pnet.c 667 */;
+	unsigned long cocci_id/* net/smc/smc_pnet.c 653 */;
+	struct notifier_block *cocci_id/* net/smc/smc_pnet.c 652 */;
+	struct smc_user_pnetentry {
+		struct list_head list;
+		char pnet_name[SMC_MAX_PNETID_LEN + 1];
+		struct net_device *ndev;
+		struct smc_ib_device *smcibdev;
+		u8 ib_port;
+		struct smcd_dev *smcd_dev;
+	} cocci_id/* net/smc/smc_pnet.c 62 */;
+	const struct genl_ops cocci_id/* net/smc/smc_pnet.c 610 */[];
+	struct netlink_callback *cocci_id/* net/smc/smc_pnet.c 560 */;
+	struct genl_family cocci_id/* net/smc/smc_pnet.c 51 */;
+	struct smc_net *cocci_id/* net/smc/smc_pnet.c 477 */;
+	struct smcd_dev *cocci_id/* net/smc/smc_pnet.c 476 */;
+	struct smc_ib_device *cocci_id/* net/smc/smc_pnet.c 475 */;
+	struct smc_pnetentry *cocci_id/* net/smc/smc_pnet.c 474 */;
+	struct smc_pnettable *cocci_id/* net/smc/smc_pnet.c 473 */;
+	struct smc_user_pnetentry cocci_id/* net/smc/smc_pnet.c 472 */;
+	u8 *cocci_id/* net/smc/smc_pnet.c 470 */;
+	u32 cocci_id/* net/smc/smc_pnet.c 469 */;
+	struct sk_buff *cocci_id/* net/smc/smc_pnet.c 469 */;
+	struct net *cocci_id/* net/smc/smc_pnet.c 469 */;
+	int cocci_id/* net/smc/smc_pnet.c 469 */;
+	void *cocci_id/* net/smc/smc_pnet.c 455 */;
+	struct smc_user_pnetentry *cocci_id/* net/smc/smc_pnet.c 453 */;
+	char *cocci_id/* net/smc/smc_pnet.c 442 */;
+	struct genl_info *cocci_id/* net/smc/smc_pnet.c 415 */;
+	struct nla_policy cocci_id/* net/smc/smc_pnet.c 35 */[SMC_PNETID_MAX + 1];
+	struct nlattr *cocci_id/* net/smc/smc_pnet.c 331 */[];
+	struct net_device *cocci_id/* net/smc/smc_pnet.c 33 */(struct net_device *ndev);
+	size_t cocci_id/* net/smc/smc_pnet.c 270 */;
+	const char *cocci_id/* net/smc/smc_pnet.c 267 */;
+	bool cocci_id/* net/smc/smc_pnet.c 195 */;
+	u8 cocci_id/* net/smc/smc_pnet.c 191 */[SMC_MAX_PNETID_LEN];
+}

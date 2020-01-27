@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	char cocci_id/* fs/cifs/cifs_debug.c 922 */[12];
+	unsigned int cocci_id/* fs/cifs/cifs_debug.c 897 */;
+	unsigned int *cocci_id/* fs/cifs/cifs_debug.c 895 */;
+	__u32 cocci_id/* fs/cifs/cifs_debug.c 89 */;
+	void cocci_id/* fs/cifs/cifs_debug.c 87 */;
+	bool cocci_id/* fs/cifs/cifs_debug.c 761 */;
+	char cocci_id/* fs/cifs/cifs_debug.c 760 */[2];
+	loff_t *cocci_id/* fs/cifs/cifs_debug.c 758 */;
+	size_t cocci_id/* fs/cifs/cifs_debug.c 758 */;
+	const char __user *cocci_id/* fs/cifs/cifs_debug.c 757 */;
+	ssize_t cocci_id/* fs/cifs/cifs_debug.c 757 */;
+	struct inode *cocci_id/* fs/cifs/cifs_debug.c 752 */;
+	struct file *cocci_id/* fs/cifs/cifs_debug.c 752 */;
+	int cocci_id/* fs/cifs/cifs_debug.c 752 */;
+	struct seq_file *cocci_id/* fs/cifs/cifs_debug.c 746 */;
+	void *cocci_id/* fs/cifs/cifs_debug.c 746 */;
+	const struct file_operations cocci_id/* fs/cifs/cifs_debug.c 662 */;
+	struct proc_dir_entry *cocci_id/* fs/cifs/cifs_debug.c 661 */;
+	struct cifs_server_iface *cocci_id/* fs/cifs/cifs_debug.c 445 */;
+	struct mid_q_entry cocci_id/* fs/cifs/cifs_debug.c 428 */;
+	struct cifs_tcon cocci_id/* fs/cifs/cifs_debug.c 417 */;
+	struct smb_hdr *cocci_id/* fs/cifs/cifs_debug.c 38 */;
+	struct cifs_ses cocci_id/* fs/cifs/cifs_debug.c 359 */;
+	char *cocci_id/* fs/cifs/cifs_debug.c 28 */;
+	struct TCP_Server_Info cocci_id/* fs/cifs/cifs_debug.c 273 */;
+	struct cifs_tcon *cocci_id/* fs/cifs/cifs_debug.c 222 */;
+	struct cifs_ses *cocci_id/* fs/cifs/cifs_debug.c 221 */;
+	struct TCP_Server_Info *cocci_id/* fs/cifs/cifs_debug.c 220 */;
+	struct mid_q_entry *cocci_id/* fs/cifs/cifs_debug.c 219 */;
+	struct list_head *cocci_id/* fs/cifs/cifs_debug.c 218 */;
+	struct cifsFileInfo cocci_id/* fs/cifs/cifs_debug.c 190 */;
+	struct cifsFileInfo *cocci_id/* fs/cifs/cifs_debug.c 170 */;
+	struct sockaddr_in6 *cocci_id/* fs/cifs/cifs_debug.c 149 */;
+	struct sockaddr_in *cocci_id/* fs/cifs/cifs_debug.c 148 */;
+	struct cifs_chan *cocci_id/* fs/cifs/cifs_debug.c 125 */;
+}

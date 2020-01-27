@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	int cocci_id/* arch/arm/mach-davinci/dm644x.c 754 */;
+	struct platform_device *cocci_id/* arch/arm/mach-davinci/dm644x.c 753 */;
+	const struct davinci_aintc_config cocci_id/* arch/arm/mach-davinci/dm644x.c 736 */;
+	struct vpbe_config *cocci_id/* arch/arm/mach-davinci/dm644x.c 714 */;
+	struct vpfe_config *cocci_id/* arch/arm/mach-davinci/dm644x.c 713 */;
+	struct clk *cocci_id/* arch/arm/mach-davinci/dm644x.c 671 */;
+	void __iomem *cocci_id/* arch/arm/mach-davinci/dm644x.c 670 */;
+	void __init cocci_id/* arch/arm/mach-davinci/dm644x.c 662 */;
+	const struct davinci_soc_info cocci_id/* arch/arm/mach-davinci/dm644x.c 642 */;
+	struct platform_device cocci_id/* arch/arm/mach-davinci/dm644x.c 616 */[];
+	struct plat_serial8250_port cocci_id/* arch/arm/mach-davinci/dm644x.c 576 */[];
+	const struct davinci_timer_cfg cocci_id/* arch/arm/mach-davinci/dm644x.c 568 */;
+	struct davinci_id cocci_id/* arch/arm/mach-davinci/dm644x.c 547 */[];
+	struct map_desc cocci_id/* arch/arm/mach-davinci/dm644x.c 537 */[];
+	int __init cocci_id/* arch/arm/mach-davinci/dm644x.c 529 */;
+	void cocci_id/* arch/arm/mach-davinci/dm644x.c 529 */;
+	struct davinci_gpio_platform_data cocci_id/* arch/arm/mach-davinci/dm644x.c 523 */;
+	struct emac_platform_data cocci_id/* arch/arm/mach-davinci/dm644x.c 50 */;
+	struct resource cocci_id/* arch/arm/mach-davinci/dm644x.c 490 */[];
+	struct venc_platform_data cocci_id/* arch/arm/mach-davinci/dm644x.c 465 */;
+	u32 cocci_id/* arch/arm/mach-davinci/dm644x.c 419 */;
+	unsigned int cocci_id/* arch/arm/mach-davinci/dm644x.c 416 */;
+	enum vpbe_enc_timings_type cocci_id/* arch/arm/mach-davinci/dm644x.c 415 */;
+	u64 cocci_id/* arch/arm/mach-davinci/dm644x.c 347 */;
+	struct platform_device cocci_id/* arch/arm/mach-davinci/dm644x.c 307 */;
+	const struct platform_device_info cocci_id/* arch/arm/mach-davinci/dm644x.c 277 */;
+	struct edma_soc_info cocci_id/* arch/arm/mach-davinci/dm644x.c 238 */;
+	const struct dma_slave_map cocci_id/* arch/arm/mach-davinci/dm644x.c 229 */[];
+	s8 cocci_id/* arch/arm/mach-davinci/dm644x.c 222 */[][2];
+	u8 cocci_id/* arch/arm/mach-davinci/dm644x.c 153 */[DAVINCI_N_AINTC_IRQ];
+}

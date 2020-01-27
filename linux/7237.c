@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	u16 *cocci_id/* drivers/bluetooth/hci_bcsp.c 98 */;
+	const u16 cocci_id/* drivers/bluetooth/hci_bcsp.c 82 */[];
+	int __exit cocci_id/* drivers/bluetooth/hci_bcsp.c 775 */;
+	int __init cocci_id/* drivers/bluetooth/hci_bcsp.c 770 */;
+	const struct hci_uart_proto cocci_id/* drivers/bluetooth/hci_bcsp.c 759 */;
+	struct bcsp_struct *cocci_id/* drivers/bluetooth/hci_bcsp.c 738 */;
+	struct hci_uart *cocci_id/* drivers/bluetooth/hci_bcsp.c 736 */;
+	int cocci_id/* drivers/bluetooth/hci_bcsp.c 736 */;
+	struct timer_list *cocci_id/* drivers/bluetooth/hci_bcsp.c 689 */;
+	const unsigned char *cocci_id/* drivers/bluetooth/hci_bcsp.c 583 */;
+	const void *cocci_id/* drivers/bluetooth/hci_bcsp.c 580 */;
+	u8 cocci_id/* drivers/bluetooth/hci_bcsp.c 535 */;
+	struct hci_event_hdr cocci_id/* drivers/bluetooth/hci_bcsp.c 534 */;
+	void cocci_id/* drivers/bluetooth/hci_bcsp.c 474 */;
+	struct bcsp_struct {
+		struct sk_buff_head unack;
+		struct sk_buff_head rel;
+		struct sk_buff_head unrel;
+		unsigned long rx_count;
+		struct sk_buff *rx_skb;
+		u8 rxseq_txack;
+		u8 rxack;
+		struct timer_list tbcsp;
+		struct hci_uart *hu;
+		enum{BCSP_W4_PKT_DELIMITER, BCSP_W4_PKT_START, BCSP_W4_BCSP_HDR, BCSP_W4_DATA, BCSP_W4_CRC,} rx_state;
+		enum{BCSP_ESCSTATE_NOESC, BCSP_ESCSTATE_ESC,} rx_esc_state;
+		u8 use_crc;
+		u16 message_crc;
+		u8 txack_req;
+		u8 msgq_txseq;
+	} cocci_id/* drivers/bluetooth/hci_bcsp.c 43 */;
+	const u8 cocci_id/* drivers/bluetooth/hci_bcsp.c 427 */;
+	unsigned char cocci_id/* drivers/bluetooth/hci_bcsp.c 425 */;
+	u8 cocci_id/* drivers/bluetooth/hci_bcsp.c 400 */[4];
+	bool cocci_id/* drivers/bluetooth/hci_bcsp.c 36 */;
+	unsigned long cocci_id/* drivers/bluetooth/hci_bcsp.c 274 */;
+	struct sk_buff *cocci_id/* drivers/bluetooth/hci_bcsp.c 271 */;
+	__le16 cocci_id/* drivers/bluetooth/hci_bcsp.c 198 */;
+	struct hci_command_hdr *cocci_id/* drivers/bluetooth/hci_bcsp.c 198 */;
+	u8 *cocci_id/* drivers/bluetooth/hci_bcsp.c 163 */;
+	const char cocci_id/* drivers/bluetooth/hci_bcsp.c 119 */[2];
+	const char cocci_id/* drivers/bluetooth/hci_bcsp.c 112 */;
+	u16 cocci_id/* drivers/bluetooth/hci_bcsp.c 100 */;
+}

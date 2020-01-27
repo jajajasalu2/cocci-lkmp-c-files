@@ -1,0 +1,61 @@
+cocci_test_suite() {
+	enum rt8973a_event_type{RT8973A_EVENT_ATTACH=1, RT8973A_EVENT_DETACH, RT8973A_EVENT_OVP, RT8973A_EVENT_OTP,} cocci_id/* drivers/extcon/extcon-rt8973a.c 99 */;
+	const unsigned int cocci_id/* drivers/extcon/extcon-rt8973a.c 89 */[];
+	struct reg_data cocci_id/* drivers/extcon/extcon-rt8973a.c 71 */[];
+	int __init cocci_id/* drivers/extcon/extcon-rt8973a.c 707 */;
+	struct i2c_driver cocci_id/* drivers/extcon/extcon-rt8973a.c 696 */;
+	const struct i2c_device_id cocci_id/* drivers/extcon/extcon-rt8973a.c 690 */[];
+	struct device *cocci_id/* drivers/extcon/extcon-rt8973a.c 676 */;
+	const struct of_device_id cocci_id/* drivers/extcon/extcon-rt8973a.c 659 */[];
+	struct muic_irq *cocci_id/* drivers/extcon/extcon-rt8973a.c 598 */;
+	struct device_node *cocci_id/* drivers/extcon/extcon-rt8973a.c 555 */;
+	const struct i2c_device_id *cocci_id/* drivers/extcon/extcon-rt8973a.c 553 */;
+	struct i2c_client *cocci_id/* drivers/extcon/extcon-rt8973a.c 552 */;
+	u8 cocci_id/* drivers/extcon/extcon-rt8973a.c 524 */;
+	int cocci_id/* drivers/extcon/extcon-rt8973a.c 504 */;
+	unsigned int cocci_id/* drivers/extcon/extcon-rt8973a.c 503 */;
+	struct rt8973a_muic_info *cocci_id/* drivers/extcon/extcon-rt8973a.c 501 */;
+	void cocci_id/* drivers/extcon/extcon-rt8973a.c 501 */;
+	struct rt8973a_muic_info cocci_id/* drivers/extcon/extcon-rt8973a.c 492 */;
+	struct work_struct *cocci_id/* drivers/extcon/extcon-rt8973a.c 489 */;
+	irqreturn_t cocci_id/* drivers/extcon/extcon-rt8973a.c 445 */;
+	void *cocci_id/* drivers/extcon/extcon-rt8973a.c 445 */;
+	struct rt8973a_muic_info {
+		struct device *dev;
+		struct extcon_dev *edev;
+		struct i2c_client *i2c;
+		struct regmap *regmap;
+		struct regmap_irq_chip_data *irq_data;
+		struct muic_irq *muic_irqs;
+		unsigned int num_muic_irqs;
+		int irq;
+		bool irq_attach;
+		bool irq_detach;
+		bool irq_ovp;
+		bool irq_otp;
+		struct work_struct irq_work;
+		struct reg_data *reg_data;
+		unsigned int num_reg_data;
+		bool auto_config;
+		struct mutex mutex;
+		struct delayed_work wq_detcable;
+	} cocci_id/* drivers/extcon/extcon-rt8973a.c 38 */;
+	struct reg_data {
+		u8 reg;
+		u8 mask;
+		u8 val;
+		bool invert;
+	} cocci_id/* drivers/extcon/extcon-rt8973a.c 31 */;
+	bool cocci_id/* drivers/extcon/extcon-rt8973a.c 303 */;
+	enum rt8973a_event_type cocci_id/* drivers/extcon/extcon-rt8973a.c 297 */;
+	struct muic_irq {
+		unsigned int irq;
+		const char *name;
+		unsigned int virq;
+	} cocci_id/* drivers/extcon/extcon-rt8973a.c 25 */;
+	const struct regmap_config cocci_id/* drivers/extcon/extcon-rt8973a.c 214 */;
+	const struct regmap_irq_chip cocci_id/* drivers/extcon/extcon-rt8973a.c 191 */;
+	const struct regmap_irq cocci_id/* drivers/extcon/extcon-rt8973a.c 170 */[];
+	struct muic_irq cocci_id/* drivers/extcon/extcon-rt8973a.c 151 */[];
+	enum rt8973a_muic_acc_type{RT8973A_MUIC_ADC_OTG=0x0, RT8973A_MUIC_ADC_AUDIO_SEND_END_BUTTON, RT8973A_MUIC_ADC_AUDIO_REMOTE_S1_BUTTON, RT8973A_MUIC_ADC_AUDIO_REMOTE_S2_BUTTON, RT8973A_MUIC_ADC_AUDIO_REMOTE_S3_BUTTON, RT8973A_MUIC_ADC_AUDIO_REMOTE_S4_BUTTON, RT8973A_MUIC_ADC_AUDIO_REMOTE_S5_BUTTON, RT8973A_MUIC_ADC_AUDIO_REMOTE_S6_BUTTON, RT8973A_MUIC_ADC_AUDIO_REMOTE_S7_BUTTON, RT8973A_MUIC_ADC_AUDIO_REMOTE_S8_BUTTON, RT8973A_MUIC_ADC_AUDIO_REMOTE_S9_BUTTON, RT8973A_MUIC_ADC_AUDIO_REMOTE_S10_BUTTON, RT8973A_MUIC_ADC_AUDIO_REMOTE_S11_BUTTON, RT8973A_MUIC_ADC_AUDIO_REMOTE_S12_BUTTON, RT8973A_MUIC_ADC_RESERVED_ACC_1, RT8973A_MUIC_ADC_RESERVED_ACC_2, RT8973A_MUIC_ADC_RESERVED_ACC_3, RT8973A_MUIC_ADC_RESERVED_ACC_4, RT8973A_MUIC_ADC_RESERVED_ACC_5, RT8973A_MUIC_ADC_AUDIO_TYPE2, RT8973A_MUIC_ADC_PHONE_POWERED_DEV, RT8973A_MUIC_ADC_UNKNOWN_ACC_1, RT8973A_MUIC_ADC_UNKNOWN_ACC_2, RT8973A_MUIC_ADC_TA, RT8973A_MUIC_ADC_FACTORY_MODE_BOOT_OFF_USB, RT8973A_MUIC_ADC_FACTORY_MODE_BOOT_ON_USB, RT8973A_MUIC_ADC_UNKNOWN_ACC_3, RT8973A_MUIC_ADC_UNKNOWN_ACC_4, RT8973A_MUIC_ADC_FACTORY_MODE_BOOT_OFF_UART, RT8973A_MUIC_ADC_FACTORY_MODE_BOOT_ON_UART, RT8973A_MUIC_ADC_UNKNOWN_ACC_5, RT8973A_MUIC_ADC_OPEN=0x1f, RT8973A_MUIC_ADC_USB=0x3f,} cocci_id/* drivers/extcon/extcon-rt8973a.c 107 */;
+}

@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	const Elf_Shdr *cocci_id/* arch/powerpc/kernel/module_64.c 824 */;
+	u32 cocci_id/* arch/powerpc/kernel/module_64.c 777 */[];
+	struct ppc64_stub_entry *cocci_id/* arch/powerpc/kernel/module_64.c 768 */;
+	const Elf64_Shdr *cocci_id/* arch/powerpc/kernel/module_64.c 765 */;
+	struct paca_struct cocci_id/* arch/powerpc/kernel/module_64.c 751 */;
+	struct ppc64_opd_entry *cocci_id/* arch/powerpc/kernel/module_64.c 70 */;
+	uint32_t *cocci_id/* arch/powerpc/kernel/module_64.c 659 */;
+	long int cocci_id/* arch/powerpc/kernel/module_64.c 654 */;
+	uint16_t *cocci_id/* arch/powerpc/kernel/module_64.c 586 */;
+	u32 *cocci_id/* arch/powerpc/kernel/module_64.c 566 */;
+	const Elf64_Sym *cocci_id/* arch/powerpc/kernel/module_64.c 56 */;
+	long cocci_id/* arch/powerpc/kernel/module_64.c 556 */;
+	unsigned long cocci_id/* arch/powerpc/kernel/module_64.c 532 */;
+	unsigned long *cocci_id/* arch/powerpc/kernel/module_64.c 531 */;
+	Elf64_Sym *cocci_id/* arch/powerpc/kernel/module_64.c 530 */;
+	Elf64_Rela *cocci_id/* arch/powerpc/kernel/module_64.c 529 */;
+	void *cocci_id/* arch/powerpc/kernel/module_64.c 529 */;
+	struct module *cocci_id/* arch/powerpc/kernel/module_64.c 526 */;
+	unsigned int cocci_id/* arch/powerpc/kernel/module_64.c 524 */;
+	const char *cocci_id/* arch/powerpc/kernel/module_64.c 523 */;
+	Elf64_Shdr *cocci_id/* arch/powerpc/kernel/module_64.c 522 */;
+	int cocci_id/* arch/powerpc/kernel/module_64.c 522 */;
+	bool cocci_id/* arch/powerpc/kernel/module_64.c 453 */;
+	func_desc_t cocci_id/* arch/powerpc/kernel/module_64.c 37 */;
+	Elf64_Ehdr *cocci_id/* arch/powerpc/kernel/module_64.c 338 */;
+	Elf64_Sym cocci_id/* arch/powerpc/kernel/module_64.c 328 */;
+	char *cocci_id/* arch/powerpc/kernel/module_64.c 304 */;
+	void cocci_id/* arch/powerpc/kernel/module_64.c 304 */;
+	struct modversion_info *cocci_id/* arch/powerpc/kernel/module_64.c 289 */;
+	struct ppc64_stub_entry cocci_id/* arch/powerpc/kernel/module_64.c 285 */;
+	Elf64_Rela cocci_id/* arch/powerpc/kernel/module_64.c 258 */;
+	unsigned cocci_id/* arch/powerpc/kernel/module_64.c 250 */;
+	const Elf64_Ehdr *cocci_id/* arch/powerpc/kernel/module_64.c 245 */;
+	uint64_t cocci_id/* arch/powerpc/kernel/module_64.c 237 */;
+	uint64_t *cocci_id/* arch/powerpc/kernel/module_64.c 231 */;
+	const void *cocci_id/* arch/powerpc/kernel/module_64.c 206 */;
+	const Elf64_Rela *cocci_id/* arch/powerpc/kernel/module_64.c 185 */;
+	u32 cocci_id/* arch/powerpc/kernel/module_64.c 153 */;
+	struct ppc64_stub_entry {
+		u32 jump[7];
+		u32 magic;
+		func_desc_t funcdata;
+	} cocci_id/* arch/powerpc/kernel/module_64.c 100 */;
+}

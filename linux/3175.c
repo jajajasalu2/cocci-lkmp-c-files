@@ -1,0 +1,72 @@
+cocci_test_suite() {
+	struct sensor_device_attribute_2 *cocci_id/* drivers/hwmon/w83792d.c 881 */;
+	const u8 cocci_id/* drivers/hwmon/w83792d.c 87 */[7];
+	unsigned long cocci_id/* drivers/hwmon/w83792d.c 738 */;
+	struct i2c_client *cocci_id/* drivers/hwmon/w83792d.c 736 */;
+	const char *cocci_id/* drivers/hwmon/w83792d.c 734 */;
+	size_t cocci_id/* drivers/hwmon/w83792d.c 734 */;
+	struct sensor_device_attribute *cocci_id/* drivers/hwmon/w83792d.c 577 */;
+	struct w83792d_data *cocci_id/* drivers/hwmon/w83792d.c 570 */;
+	struct device_attribute *cocci_id/* drivers/hwmon/w83792d.c 568 */;
+	struct device *cocci_id/* drivers/hwmon/w83792d.c 568 */;
+	char *cocci_id/* drivers/hwmon/w83792d.c 568 */;
+	ssize_t cocci_id/* drivers/hwmon/w83792d.c 567 */;
+	const u8 cocci_id/* drivers/hwmon/w83792d.c 52 */[9];
+	bool cocci_id/* drivers/hwmon/w83792d.c 47 */;
+	short cocci_id/* drivers/hwmon/w83792d.c 43 */;
+	unsigned short cocci_id/* drivers/hwmon/w83792d.c 42 */[4];
+	const unsigned short cocci_id/* drivers/hwmon/w83792d.c 37 */[];
+	struct i2c_driver cocci_id/* drivers/hwmon/w83792d.c 308 */;
+	const struct i2c_device_id cocci_id/* drivers/hwmon/w83792d.c 302 */[];
+	void cocci_id/* drivers/hwmon/w83792d.c 300 */(struct i2c_client *client);
+	void cocci_id/* drivers/hwmon/w83792d.c 297 */(struct w83792d_data *data,
+						       struct device *dev);
+	struct w83792d_data *cocci_id/* drivers/hwmon/w83792d.c 294 */(struct device *dev);
+	int cocci_id/* drivers/hwmon/w83792d.c 293 */(struct i2c_client *client);
+	int cocci_id/* drivers/hwmon/w83792d.c 291 */(struct i2c_client *client,
+						      struct i2c_board_info *info);
+	int cocci_id/* drivers/hwmon/w83792d.c 289 */(struct i2c_client *client,
+						      const struct i2c_device_id *id);
+	struct w83792d_data {
+		struct device *hwmon_dev;
+		struct mutex update_lock;
+		char valid;
+		unsigned long last_updated;
+		struct i2c_client *lm75[2];
+		u8 in[9];
+		u8 in_max[9];
+		u8 in_min[9];
+		u16 low_bits;
+		u8 fan[7];
+		u8 fan_min[7];
+		u8 temp1[3];
+		u8 temp_add[2][6];
+		u8 fan_div[7];
+		u8 pwm[7];
+		u8 pwmenable[3];
+		u32 alarms;
+		u8 chassis;
+		u8 thermal_cruise[3];
+		u8 tolerance[3];
+		u8 sf2_points[3][4];
+		u8 sf2_levels[3][4];
+	} cocci_id/* drivers/hwmon/w83792d.c 260 */;
+	int cocci_id/* drivers/hwmon/w83792d.c 250 */;
+	long cocci_id/* drivers/hwmon/w83792d.c 248 */;
+	u8 cocci_id/* drivers/hwmon/w83792d.c 247 */;
+	const u8 cocci_id/* drivers/hwmon/w83792d.c 173 */[3][4];
+	u8 cocci_id/* drivers/hwmon/w83792d.c 1492 */[4];
+	void cocci_id/* drivers/hwmon/w83792d.c 1454 */;
+	struct w83792d_data cocci_id/* drivers/hwmon/w83792d.c 1368 */;
+	const struct i2c_device_id *cocci_id/* drivers/hwmon/w83792d.c 1362 */;
+	unsigned short cocci_id/* drivers/hwmon/w83792d.c 1321 */;
+	struct i2c_adapter *cocci_id/* drivers/hwmon/w83792d.c 1319 */;
+	struct i2c_board_info *cocci_id/* drivers/hwmon/w83792d.c 1317 */;
+	const struct attribute_group cocci_id/* drivers/hwmon/w83792d.c 1311 */;
+	const u8 cocci_id/* drivers/hwmon/w83792d.c 131 */[2][6];
+	const u8 cocci_id/* drivers/hwmon/w83792d.c 125 */[3];
+	struct attribute *cocci_id/* drivers/hwmon/w83792d.c 1209 */[];
+	const struct attribute_group cocci_id/* drivers/hwmon/w83792d.c 1202 */[4];
+	struct attribute *cocci_id/* drivers/hwmon/w83792d.c 1166 */[4][7];
+	const u8 cocci_id/* drivers/hwmon/w83792d.c 106 */[4];
+}

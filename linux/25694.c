@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	struct timeval cocci_id/* tools/perf/bench/epoll-wait.c 93 */;
+	unsigned long cocci_id/* tools/perf/bench/epoll-wait.c 522 */;
+	struct worker cocci_id/* tools/perf/bench/epoll-wait.c 519 */;
+	void *cocci_id/* tools/perf/bench/epoll-wait.c 498 */;
+	uint64_t cocci_id/* tools/perf/bench/epoll-wait.c 467 */;
+	struct rlimit cocci_id/* tools/perf/bench/epoll-wait.c 422 */;
+	pthread_t cocci_id/* tools/perf/bench/epoll-wait.c 421 */;
+	struct perf_cpu_map *cocci_id/* tools/perf/bench/epoll-wait.c 420 */;
+	struct worker *cocci_id/* tools/perf/bench/epoll-wait.c 419 */;
+	unsigned int cocci_id/* tools/perf/bench/epoll-wait.c 418 */;
+	struct sigaction cocci_id/* tools/perf/bench/epoll-wait.c 417 */;
+	const char **cocci_id/* tools/perf/bench/epoll-wait.c 414 */;
+	int cocci_id/* tools/perf/bench/epoll-wait.c 414 */;
+	const void *cocci_id/* tools/perf/bench/epoll-wait.c 406 */;
+	struct timespec cocci_id/* tools/perf/bench/epoll-wait.c 374 */;
+	ssize_t cocci_id/* tools/perf/bench/epoll-wait.c 373 */;
+	const uint64_t cocci_id/* tools/perf/bench/epoll-wait.c 372 */;
+	struct epoll_event cocci_id/* tools/perf/bench/epoll-wait.c 330 */;
+	cpu_set_t cocci_id/* tools/perf/bench/epoll-wait.c 296 */;
+	pthread_attr_t cocci_id/* tools/perf/bench/epoll-wait.c 295 */;
+	double cocci_id/* tools/perf/bench/epoll-wait.c 286 */;
+	siginfo_t *cocci_id/* tools/perf/bench/epoll-wait.c 274 */;
+	void cocci_id/* tools/perf/bench/epoll-wait.c 241 */;
+	char *cocci_id/* tools/perf/bench/epoll-wait.c 160 */;
+	size_t cocci_id/* tools/perf/bench/epoll-wait.c 158 */;
+	const char *const cocci_id/* tools/perf/bench/epoll-wait.c 146 */[];
+	const struct option cocci_id/* tools/perf/bench/epoll-wait.c 127 */[];
+	struct worker {
+		int tid;
+		int epollfd;
+		pthread_t thread;
+		unsigned long ops;
+		int *fdmap;
+	} cocci_id/* tools/perf/bench/epoll-wait.c 119 */;
+	pthread_cond_t cocci_id/* tools/perf/bench/epoll-wait.c 117 */;
+	struct stats cocci_id/* tools/perf/bench/epoll-wait.c 116 */;
+	pthread_mutex_t cocci_id/* tools/perf/bench/epoll-wait.c 114 */;
+	bool cocci_id/* tools/perf/bench/epoll-wait.c 107 */;
+	int *cocci_id/* tools/perf/bench/epoll-wait.c 104 */;
+}

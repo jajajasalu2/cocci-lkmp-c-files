@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	umode_t cocci_id/* kernel/bpf/inode.c 83 */;
+	const struct inode *cocci_id/* kernel/bpf/inode.c 82 */;
+	const struct inode_operations cocci_id/* kernel/bpf/inode.c 76 */;
+	int __init cocci_id/* kernel/bpf/inode.c 690 */;
+	struct file_system_type cocci_id/* kernel/bpf/inode.c 682 */;
+	struct bpf_mount_opts cocci_id/* kernel/bpf/inode.c 671 */;
+	const struct fs_context_operations cocci_id/* kernel/bpf/inode.c 658 */;
+	struct bpf_mount_opts *cocci_id/* kernel/bpf/inode.c 630 */;
+	const struct tree_descr cocci_id/* kernel/bpf/inode.c 629 */[];
+	struct super_block *cocci_id/* kernel/bpf/inode.c 627 */;
+	struct fs_context *cocci_id/* kernel/bpf/inode.c 627 */;
+	u32 cocci_id/* kernel/bpf/inode.c 62 */;
+	enum bpf_type *cocci_id/* kernel/bpf/inode.c 62 */;
+	struct fs_parse_result cocci_id/* kernel/bpf/inode.c 607 */;
+	struct fs_parameter *cocci_id/* kernel/bpf/inode.c 604 */;
+	struct bpf_mount_opts {
+		umode_t mode;
+	} cocci_id/* kernel/bpf/inode.c 600 */;
+	const struct fs_parameter_description cocci_id/* kernel/bpf/inode.c 595 */;
+	const struct fs_parameter_spec cocci_id/* kernel/bpf/inode.c 590 */[];
+	enum{OPT_MODE,} cocci_id/* kernel/bpf/inode.c 586 */;
+	const struct super_operations cocci_id/* kernel/bpf/inode.c 579 */;
+	struct seq_file *cocci_id/* kernel/bpf/inode.c 559 */;
+	const char *cocci_id/* kernel/bpf/inode.c 541 */;
+	int cocci_id/* kernel/bpf/inode.c 519 */;
+	enum bpf_prog_type cocci_id/* kernel/bpf/inode.c 516 */;
+	struct inode *cocci_id/* kernel/bpf/inode.c 516 */;
+	struct bpf_prog *cocci_id/* kernel/bpf/inode.c 516 */;
+	struct filename *cocci_id/* kernel/bpf/inode.c 483 */;
+	const char __user *cocci_id/* kernel/bpf/inode.c 480 */;
+	void cocci_id/* kernel/bpf/inode.c 47 */;
+	struct path cocci_id/* kernel/bpf/inode.c 452 */;
+	const struct filename *cocci_id/* kernel/bpf/inode.c 448 */;
+	char *cocci_id/* kernel/bpf/inode.c 354 */;
+	unsigned cocci_id/* kernel/bpf/inode.c 340 */;
+	struct bpf_map *cocci_id/* kernel/bpf/inode.c 332 */;
+	const struct file_operations *cocci_id/* kernel/bpf/inode.c 309 */;
+	const struct inode_operations *cocci_id/* kernel/bpf/inode.c 308 */;
+	enum bpf_type cocci_id/* kernel/bpf/inode.c 30 */;
+	void *cocci_id/* kernel/bpf/inode.c 30 */;
+	const struct file_operations cocci_id/* kernel/bpf/inode.c 292 */;
+	struct map_iter *cocci_id/* kernel/bpf/inode.c 253 */;
+	struct file *cocci_id/* kernel/bpf/inode.c 250 */;
+	const struct seq_operations cocci_id/* kernel/bpf/inode.c 243 */;
+	enum bpf_type{BPF_TYPE_UNSPEC=0, BPF_TYPE_PROG, BPF_TYPE_MAP,} cocci_id/* kernel/bpf/inode.c 24 */;
+	loff_t *cocci_id/* kernel/bpf/inode.c 193 */;
+	struct map_iter {
+		void *key;
+		bool done;
+	} cocci_id/* kernel/bpf/inode.c 151 */;
+	struct dentry *cocci_id/* kernel/bpf/inode.c 123 */;
+}

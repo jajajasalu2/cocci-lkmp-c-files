@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	struct blkcg_policy_data *cocci_id/* block/blk-cgroup.c 962 */;
+	struct blkcg_gq cocci_id/* block/blk-cgroup.c 90 */;
+	struct rcu_head *cocci_id/* block/blk-cgroup.c 88 */;
+	void cocci_id/* block/blk-cgroup.c 88 */;
+	struct cftype cocci_id/* block/blk-cgroup.c 833 */[];
+	unsigned cocci_id/* block/blk-cgroup.c 758 */;
+	size_t cocci_id/* block/blk-cgroup.c 755 */;
+	struct blkg_iostat_set *cocci_id/* block/blk-cgroup.c 751 */;
+	void *cocci_id/* block/blk-cgroup.c 742 */;
+	struct blkg_conf_ctx *cocci_id/* block/blk-cgroup.c 733 */;
+	unsigned int cocci_id/* block/blk-cgroup.c 591 */;
+	char *cocci_id/* block/blk-cgroup.c 590 */;
+	struct gendisk *cocci_id/* block/blk-cgroup.c 588 */;
+	char **cocci_id/* block/blk-cgroup.c 588 */;
+	struct workqueue_struct *cocci_id/* block/blk-cgroup.c 58 */;
+	unsigned long long cocci_id/* block/blk-cgroup.c 559 */;
+	const char *cocci_id/* block/blk-cgroup.c 554 */;
+	u64 cocci_id/* block/blk-cgroup.c 552 */;
+	struct seq_file *cocci_id/* block/blk-cgroup.c 552 */;
+	struct blkg_policy_data *cocci_id/* block/blk-cgroup.c 552 */;
+	struct blkcg_policy *cocci_id/* block/blk-cgroup.c 53 */[BLKCG_MAX_POLS];
+	u64 (*cocci_id/* block/blk-cgroup.c 522 */)(struct seq_file *,
+						    struct blkg_policy_data *,
+						    int);
+	struct cgroup_subsys_state *const cocci_id/* block/blk-cgroup.c 50 */;
+	struct blkcg cocci_id/* block/blk-cgroup.c 47 */;
+	struct cftype *cocci_id/* block/blk-cgroup.c 460 */;
+	struct request_queue *cocci_id/* block/blk-cgroup.c 332 */;
+	struct blkcg *cocci_id/* block/blk-cgroup.c 331 */;
+	struct bdi_writeback_congested *cocci_id/* block/blk-cgroup.c 230 */;
+	int __init cocci_id/* block/blk-cgroup.c 1708 */;
+	struct blkg_iostat_set cocci_id/* block/blk-cgroup.c 158 */;
+	unsigned long cocci_id/* block/blk-cgroup.c 1568 */;
+	struct blkcg_gq *cocci_id/* block/blk-cgroup.c 1490 */;
+	bool cocci_id/* block/blk-cgroup.c 1488 */;
+	struct bio *cocci_id/* block/blk-cgroup.c 1488 */;
+	gfp_t cocci_id/* block/blk-cgroup.c 145 */;
+	const struct blkcg_policy *cocci_id/* block/blk-cgroup.c 1239 */;
+	int cocci_id/* block/blk-cgroup.c 1238 */;
+	struct bio_list cocci_id/* block/blk-cgroup.c 123 */;
+	struct cgroup_subsys cocci_id/* block/blk-cgroup.c 1200 */;
+	struct work_struct *cocci_id/* block/blk-cgroup.c 119 */;
+	struct blkcg_policy *cocci_id/* block/blk-cgroup.c 1180 */;
+	struct cgroup_subsys_state *cocci_id/* block/blk-cgroup.c 1173 */;
+	struct blkg_iostat cocci_id/* block/blk-cgroup.c 1142 */;
+	struct percpu_ref *cocci_id/* block/blk-cgroup.c 112 */;
+	struct blkg_iostat *cocci_id/* block/blk-cgroup.c 1112 */;
+	struct io_context *cocci_id/* block/blk-cgroup.c 1086 */;
+	struct task_struct *cocci_id/* block/blk-cgroup.c 1084 */;
+	struct cgroup_taskset *cocci_id/* block/blk-cgroup.c 1082 */;
+}

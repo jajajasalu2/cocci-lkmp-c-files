@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct beacon_data *cocci_id/* net/mac80211/offchannel.c 901 */;
+	struct ieee80211_chanctx_conf *cocci_id/* net/mac80211/offchannel.c 861 */;
+	u8 *cocci_id/* net/mac80211/offchannel.c 791 */;
+	const struct ieee80211_mgmt *cocci_id/* net/mac80211/offchannel.c 787 */;
+	void *cocci_id/* net/mac80211/offchannel.c 787 */;
+	struct sta_info *cocci_id/* net/mac80211/offchannel.c 786 */;
+	struct sk_buff *cocci_id/* net/mac80211/offchannel.c 785 */;
+	u64 *cocci_id/* net/mac80211/offchannel.c 781 */;
+	struct cfg80211_mgmt_tx_params *cocci_id/* net/mac80211/offchannel.c 781 */;
+	struct ieee80211_sub_if_data *cocci_id/* net/mac80211/offchannel.c 774 */;
+	u64 cocci_id/* net/mac80211/offchannel.c 772 */;
+	struct wireless_dev *cocci_id/* net/mac80211/offchannel.c 772 */;
+	struct wiphy *cocci_id/* net/mac80211/offchannel.c 771 */;
+	unsigned int cocci_id/* net/mac80211/offchannel.c 688 */;
+	struct ieee80211_channel *cocci_id/* net/mac80211/offchannel.c 687 */;
+	unsigned long cocci_id/* net/mac80211/offchannel.c 512 */;
+	struct ieee80211_local cocci_id/* net/mac80211/offchannel.c 485 */;
+	struct work_struct *cocci_id/* net/mac80211/offchannel.c 482 */;
+	struct ieee80211_roc_work cocci_id/* net/mac80211/offchannel.c 444 */;
+	bool cocci_id/* net/mac80211/offchannel.c 436 */;
+	struct ieee80211_roc_work *cocci_id/* net/mac80211/offchannel.c 435 */;
+	struct ieee80211_local *cocci_id/* net/mac80211/offchannel.c 433 */;
+	void cocci_id/* net/mac80211/offchannel.c 433 */;
+	int cocci_id/* net/mac80211/offchannel.c 342 */;
+	u32 cocci_id/* net/mac80211/offchannel.c 314 */;
+	enum ieee80211_roc_type cocci_id/* net/mac80211/offchannel.c 313 */;
+	struct ieee80211_hw *cocci_id/* net/mac80211/offchannel.c 298 */;
+	struct ieee80211_if_managed *cocci_id/* net/mac80211/offchannel.c 28 */;
+	long cocci_id/* net/mac80211/offchannel.c 216 */;
+}

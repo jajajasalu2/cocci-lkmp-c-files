@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct ieee80211_ht_cap *cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 999 */;
+	struct HT_info_element *cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 963 */;
+	__le16 cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 961 */;
+	unsigned short cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 959 */;
+	struct wlan_network *cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 957 */;
+	void cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 957 */;
+	u8 cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 896 */[ETH_ALEN];
+	unsigned long cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 796 */;
+	struct rtw_ieee802_11_elems *cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 777 */;
+	enum parse_res cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 776 */;
+	bool cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 75 */;
+	unsigned int cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 689 */;
+	u32 cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 665 */;
+	const unsigned char cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 62 */[];
+	u32 *cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 616 */;
+	u8 cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 488 */[4];
+	int *cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 417 */;
+	u8 cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 31 */[];
+	u16 cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 29 */;
+	u16 *cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 223 */;
+	__le16 *cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 218 */;
+	u8 *cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 211 */;
+	struct wlan_bssid_ex *cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 210 */;
+	uint cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 209 */;
+	u8 cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 207 */;
+	struct registry_priv *cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 205 */;
+	uint *cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 145 */;
+	unsigned int *cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 113 */;
+	void *cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 112 */;
+	unsigned char *cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 101 */;
+	int cocci_id/* drivers/staging/rtl8188eu/core/rtw_ieee80211.c 101 */;
+}

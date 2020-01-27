@@ -1,0 +1,80 @@
+cocci_test_suite() {
+	const struct drm_crtc_state *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 985 */;
+	struct drm_printer *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 984 */;
+	struct drm_gem_object *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 863 */;
+	struct msm_kms *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 862 */;
+	struct platform_device *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 861 */;
+	const enum mdp5_cursor_alpha cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 790 */;
+	const struct drm_format_info *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 786 */;
+	uint32_t *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 747 */;
+	struct msm_drm_private *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 69 */;
+	void cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 65 */(struct drm_crtc *crtc);
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 616 */;
+	const struct drm_plane_state *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 615 */;
+	const struct mdp5_cfg_hw *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 614 */;
+	struct plane_state cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 613 */[STAGE_MAX + 1];
+	struct drm_plane_state *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 586 */;
+	struct drm_crtc_state *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 585 */;
+	enum mdp_mixer_stage_id cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 584 */;
+	struct plane_state *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 570 */;
+	const void *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 568 */;
+	struct plane_state {
+		struct drm_plane *plane;
+		struct mdp5_plane_state *state;
+	} cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 563 */;
+	struct mdp5_interface *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 509 */;
+	struct device *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 414 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 369 */;
+	enum mdp5_pipe cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 243 */;
+	u32 cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 230 */;
+	bool cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 229 */;
+	int cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 228 */;
+	enum mdp5_pipe cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 226 */[STAGE_MAX + 1][MAX_PIPE_STAGE];
+	unsigned long cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 225 */;
+	struct mdp5_ctl *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 223 */;
+	uint32_t cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 220 */;
+	struct mdp5_crtc {
+		struct drm_crtc base;
+		int id;
+		bool enabled;
+		spinlock_t lm_lock;
+		struct drm_pending_vblank_event *event;
+		u32 flushed_mask;
+#define PENDING_CURSOR 0x1
+#define PENDING_FLIP 0x2
+		atomic_t pending;
+		struct drm_flip_work unref_cursor_work;
+		struct mdp_irq vblank;
+		struct mdp_irq err;
+		struct mdp_irq pp_done;
+		struct completion pp_completion;
+		bool lm_cursor_enabled;
+		struct {
+			spinlock_t lock;
+			struct drm_gem_object *scanout_bo;
+			uint64_t iova;
+			uint32_t width,height;
+			int x,y;
+		} cursor;
+	} cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 22 */;
+	struct mdp5_hw_mixer *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 219 */;
+	const struct mdp_format *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 218 */;
+	struct mdp5_plane_state *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 217 */;
+	struct drm_plane *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 216 */;
+	struct mdp5_kms *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 215 */;
+	struct mdp5_pipeline *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 214 */;
+	struct mdp5_crtc_state *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 213 */;
+	struct mdp5_crtc *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 212 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 210 */;
+	void cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 210 */;
+	struct drm_flip_work *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 161 */;
+	void *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 161 */;
+	struct drm_pending_vblank_event *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 141 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 140 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 134 */;
+	struct mdp5_crtc cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 1089 */;
+	struct mdp_irq *cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 1087 */;
+	unsigned cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 1073 */;
+	const struct drm_crtc_helper_funcs cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 1059 */;
+	const struct drm_crtc_funcs cocci_id/* drivers/gpu/drm/msm/disp/mdp5/mdp5_crtc.c 1047 */;
+}

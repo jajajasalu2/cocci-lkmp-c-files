@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	unsigned char cocci_id/* drivers/ata/pata_buddha.c 82 */[2];
+	u16 *cocci_id/* drivers/ata/pata_buddha.c 76 */;
+	void __iomem *cocci_id/* drivers/ata/pata_buddha.c 71 */;
+	struct ata_port *cocci_id/* drivers/ata/pata_buddha.c 70 */;
+	struct ata_device *cocci_id/* drivers/ata/pata_buddha.c 69 */;
+	int cocci_id/* drivers/ata/pata_buddha.c 67 */;
+	unsigned char *cocci_id/* drivers/ata/pata_buddha.c 66 */;
+	struct ata_queued_cmd *cocci_id/* drivers/ata/pata_buddha.c 65 */;
+	unsigned int cocci_id/* drivers/ata/pata_buddha.c 65 */;
+	struct scsi_host_template cocci_id/* drivers/ata/pata_buddha.c 60 */;
+	unsigned int cocci_id/* drivers/ata/pata_buddha.c 56 */[2];
+	unsigned int cocci_id/* drivers/ata/pata_buddha.c 52 */[3];
+	enum{BOARD_BUDDHA=0, BOARD_CATWEASEL, BOARD_XSURF,} cocci_id/* drivers/ata/pata_buddha.c 46 */;
+	struct zorro_device_id cocci_id/* drivers/ata/pata_buddha.c 285 */;
+	struct zorro_dev *cocci_id/* drivers/ata/pata_buddha.c 278 */;
+	int __init cocci_id/* drivers/ata/pata_buddha.c 276 */;
+	void cocci_id/* drivers/ata/pata_buddha.c 276 */;
+	struct zorro_driver cocci_id/* drivers/ata/pata_buddha.c 263 */;
+	const struct zorro_device_id cocci_id/* drivers/ata/pata_buddha.c 256 */[];
+	void *cocci_id/* drivers/ata/pata_buddha.c 161 */;
+	struct ata_host *cocci_id/* drivers/ata/pata_buddha.c 156 */;
+	const char *const cocci_id/* drivers/ata/pata_buddha.c 153 */[];
+	const struct zorro_device_id *cocci_id/* drivers/ata/pata_buddha.c 151 */;
+	struct ata_port_operations cocci_id/* drivers/ata/pata_buddha.c 133 */;
+	unsigned long cocci_id/* drivers/ata/pata_buddha.c 123 */;
+	u8 cocci_id/* drivers/ata/pata_buddha.c 121 */;
+	bool cocci_id/* drivers/ata/pata_buddha.c 119 */;
+	struct ata_device **cocci_id/* drivers/ata/pata_buddha.c 105 */;
+	struct ata_link *cocci_id/* drivers/ata/pata_buddha.c 104 */;
+}

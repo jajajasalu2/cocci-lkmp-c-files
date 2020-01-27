@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	pte_t *cocci_id/* arch/x86/mm/pgtable.c 844 */;
+	p4d_t *cocci_id/* arch/x86/mm/pgtable.c 77 */;
+	struct mmu_gather *cocci_id/* arch/x86/mm/pgtable.c 77 */;
+	void cocci_id/* arch/x86/mm/pgtable.c 77 */;
+	u64 cocci_id/* arch/x86/mm/pgtable.c 744 */;
+	u8 cocci_id/* arch/x86/mm/pgtable.c 727 */;
+	pud_t *cocci_id/* arch/x86/mm/pgtable.c 70 */;
+	phys_addr_t cocci_id/* arch/x86/mm/pgtable.c 647 */;
+	pgprot_t cocci_id/* arch/x86/mm/pgtable.c 647 */;
+	unsigned cocci_id/* arch/x86/mm/pgtable.c 646 */;
+	unsigned long cocci_id/* arch/x86/mm/pgtable.c 627 */;
+	pte_t cocci_id/* arch/x86/mm/pgtable.c 625 */;
+	enum fixed_addresses cocci_id/* arch/x86/mm/pgtable.c 625 */;
+	int cocci_id/* arch/x86/mm/pgtable.c 623 */;
+	struct vm_area_struct *cocci_id/* arch/x86/mm/pgtable.c 591 */;
+	struct page *cocci_id/* arch/x86/mm/pgtable.c 56 */;
+	unsigned long *cocci_id/* arch/x86/mm/pgtable.c 554 */;
+	pmd_t *cocci_id/* arch/x86/mm/pgtable.c 54 */;
+	pud_t cocci_id/* arch/x86/mm/pgtable.c 514 */;
+	pmd_t *cocci_id/* arch/x86/mm/pgtable.c 421 */[MAX_PREALLOCATED_PMDS];
+	pmd_t *cocci_id/* arch/x86/mm/pgtable.c 420 */[MAX_PREALLOCATED_USER_PMDS];
+	pgd_t *cocci_id/* arch/x86/mm/pgtable.c 379 */;
+	void __init cocci_id/* arch/x86/mm/pgtable.c 360 */;
+	struct kmem_cache *cocci_id/* arch/x86/mm/pgtable.c 358 */;
+	pmd_t cocci_id/* arch/x86/mm/pgtable.c 306 */;
+	char *cocci_id/* arch/x86/mm/pgtable.c 29 */;
+	int __init cocci_id/* arch/x86/mm/pgtable.c 29 */;
+	pgd_t cocci_id/* arch/x86/mm/pgtable.c 257 */;
+	pgtable_t cocci_id/* arch/x86/mm/pgtable.c 24 */;
+	bool cocci_id/* arch/x86/mm/pgtable.c 221 */;
+	gfp_t cocci_id/* arch/x86/mm/pgtable.c 22 */;
+	pmd_t *cocci_id/* arch/x86/mm/pgtable.c 206 */[];
+	struct mm_struct *cocci_id/* arch/x86/mm/pgtable.c 206 */;
+	size_t cocci_id/* arch/x86/mm/pgtable.c 103 */;
+}

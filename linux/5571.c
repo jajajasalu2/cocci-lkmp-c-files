@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	void *cocci_id/* drivers/rtc/rtc-rs5c372.c 89 */;
+	const struct of_device_id cocci_id/* drivers/rtc/rtc-rs5c372.c 86 */[];
+	const struct i2c_device_id cocci_id/* drivers/rtc/rtc-rs5c372.c 75 */[];
+	enum rtc_type cocci_id/* drivers/rtc/rtc-rs5c372.c 651 */;
+	enum rtc_type{rtc_undef=0, rtc_r2025sd, rtc_r2221tl, rtc_rs5c372a, rtc_rs5c372b, rtc_rv5c386, rtc_rv5c387a,} cocci_id/* drivers/rtc/rtc-rs5c372.c 65 */;
+	struct rs5c372 cocci_id/* drivers/rtc/rtc-rs5c372.c 641 */;
+	const struct i2c_device_id *cocci_id/* drivers/rtc/rtc-rs5c372.c 616 */;
+	unsigned char cocci_id/* drivers/rtc/rtc-rs5c372.c 561 */[2];
+	struct i2c_driver cocci_id/* drivers/rtc/rtc-rs5c372.c 557 */;
+	void cocci_id/* drivers/rtc/rtc-rs5c372.c 539 */;
+	struct device_attribute *cocci_id/* drivers/rtc/rtc-rs5c372.c 513 */;
+	char *cocci_id/* drivers/rtc/rtc-rs5c372.c 513 */;
+	ssize_t cocci_id/* drivers/rtc/rtc-rs5c372.c 512 */;
+	const struct rtc_class_ops cocci_id/* drivers/rtc/rtc-rs5c372.c 488 */;
+	struct seq_file *cocci_id/* drivers/rtc/rtc-rs5c372.c 470 */;
+	struct device *cocci_id/* drivers/rtc/rtc-rs5c372.c 470 */;
+	unsigned char cocci_id/* drivers/rtc/rtc-rs5c372.c 419 */[3];
+	struct rtc_wkalrm *cocci_id/* drivers/rtc/rtc-rs5c372.c 392 */;
+	unsigned int cocci_id/* drivers/rtc/rtc-rs5c372.c 351 */;
+	s8 cocci_id/* drivers/rtc/rtc-rs5c372.c 337 */;
+	u8 cocci_id/* drivers/rtc/rtc-rs5c372.c 325 */;
+	struct rs5c372 *cocci_id/* drivers/rtc/rtc-rs5c372.c 324 */;
+	struct i2c_client *cocci_id/* drivers/rtc/rtc-rs5c372.c 322 */;
+	int *cocci_id/* drivers/rtc/rtc-rs5c372.c 322 */;
+	int cocci_id/* drivers/rtc/rtc-rs5c372.c 322 */;
+	unsigned char cocci_id/* drivers/rtc/rtc-rs5c372.c 261 */[7];
+	unsigned char cocci_id/* drivers/rtc/rtc-rs5c372.c 214 */;
+	struct rtc_time *cocci_id/* drivers/rtc/rtc-rs5c372.c 209 */;
+	unsigned cocci_id/* drivers/rtc/rtc-rs5c372.c 195 */;
+	struct i2c_msg cocci_id/* drivers/rtc/rtc-rs5c372.c 134 */[];
+	struct rs5c372 {
+		struct i2c_client *client;
+		struct rtc_device *rtc;
+		enum rtc_type type;
+		unsigned time24:1;
+		unsigned has_irq:1;
+		unsigned smbus:1;
+		char buf[17];
+		char *regs;
+	} cocci_id/* drivers/rtc/rtc-rs5c372.c 120 */;
+}

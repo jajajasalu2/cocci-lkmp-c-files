@@ -1,0 +1,94 @@
+cocci_test_suite() {
+	const struct usb_device_id *cocci_id/* drivers/media/usb/airspy/airspy.c 962 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/usb/airspy/airspy.c 957 */;
+	struct airspy {
+#define POWER_ON 1
+#define USB_STATE_URB_BUF 2
+		unsigned long flags;
+		struct device *dev;
+		struct usb_device *udev;
+		struct video_device vdev;
+		struct v4l2_device v4l2_dev;
+		struct vb2_queue vb_queue;
+		struct list_head queued_bufs;
+		spinlock_t queued_bufs_lock;
+		unsigned sequence;
+		unsigned int vb_full;
+		struct mutex v4l2_lock;
+		struct mutex vb_queue_lock;
+		struct urb *urb_list[MAX_BULK_BUFS];
+		int buf_num;
+		unsigned long buf_size;
+		u8 *buf_list[MAX_BULK_BUFS];
+		dma_addr_t dma_addr[MAX_BULK_BUFS];
+		int urbs_initialized;
+		int urbs_submitted;
+#define BUF_SIZE 128
+		u8 buf[BUF_SIZE];
+		unsigned int f_adc;
+		unsigned int f_rf;
+		u32 pixelformat;
+		u32 buffersize;
+		struct v4l2_ctrl_handler hdl;
+		struct v4l2_ctrl *lna_gain_auto;
+		struct v4l2_ctrl *lna_gain;
+		struct v4l2_ctrl *mixer_gain_auto;
+		struct v4l2_ctrl *mixer_gain;
+		struct v4l2_ctrl *if_gain;
+		unsigned long jiffies_next;
+		unsigned int sample;
+		unsigned int sample_measured;
+	} cocci_id/* drivers/media/usb/airspy/airspy.c 95 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/usb/airspy/airspy.c 931 */;
+	struct airspy_frame_buf {
+		struct vb2_v4l2_buffer vb;
+		struct list_head list;
+	} cocci_id/* drivers/media/usb/airspy/airspy.c 89 */;
+	const unsigned int cocci_id/* drivers/media/usb/airspy/airspy.c 86 */;
+	const struct video_device cocci_id/* drivers/media/usb/airspy/airspy.c 846 */;
+	const struct v4l2_file_operations cocci_id/* drivers/media/usb/airspy/airspy.c 836 */;
+	const struct v4l2_ioctl_ops cocci_id/* drivers/media/usb/airspy/airspy.c 806 */;
+	struct airspy_format cocci_id/* drivers/media/usb/airspy/airspy.c 79 */[];
+	struct v4l2_frequency_band *cocci_id/* drivers/media/usb/airspy/airspy.c 781 */;
+	u8 cocci_id/* drivers/media/usb/airspy/airspy.c 755 */[4];
+	const struct v4l2_frequency *cocci_id/* drivers/media/usb/airspy/airspy.c 751 */;
+	struct airspy_format {
+		u32 pixelformat;
+		u32 buffersize;
+	} cocci_id/* drivers/media/usb/airspy/airspy.c 73 */;
+	struct v4l2_frequency *cocci_id/* drivers/media/usb/airspy/airspy.c 728 */;
+	struct v4l2_tuner *cocci_id/* drivers/media/usb/airspy/airspy.c 702 */;
+	const struct v4l2_tuner *cocci_id/* drivers/media/usb/airspy/airspy.c 688 */;
+	struct v4l2_format *cocci_id/* drivers/media/usb/airspy/airspy.c 629 */;
+	struct v4l2_fmtdesc *cocci_id/* drivers/media/usb/airspy/airspy.c 618 */;
+	struct file *cocci_id/* drivers/media/usb/airspy/airspy.c 617 */;
+	struct v4l2_capability *cocci_id/* drivers/media/usb/airspy/airspy.c 607 */;
+	const struct vb2_ops cocci_id/* drivers/media/usb/airspy/airspy.c 597 */;
+	unsigned long cocci_id/* drivers/media/usb/airspy/airspy.c 501 */;
+	struct airspy_frame_buf cocci_id/* drivers/media/usb/airspy/airspy.c 500 */;
+	const struct v4l2_frequency_band cocci_id/* drivers/media/usb/airspy/airspy.c 50 */[];
+	struct airspy_frame_buf *cocci_id/* drivers/media/usb/airspy/airspy.c 499 */;
+	struct vb2_v4l2_buffer *cocci_id/* drivers/media/usb/airspy/airspy.c 497 */;
+	struct vb2_buffer *cocci_id/* drivers/media/usb/airspy/airspy.c 495 */;
+	void cocci_id/* drivers/media/usb/airspy/airspy.c 495 */;
+	struct device *cocci_id/* drivers/media/usb/airspy/airspy.c 479 */[];
+	unsigned int cocci_id/* drivers/media/usb/airspy/airspy.c 479 */[];
+	unsigned int *cocci_id/* drivers/media/usb/airspy/airspy.c 478 */;
+	struct vb2_queue *cocci_id/* drivers/media/usb/airspy/airspy.c 477 */;
+	struct airspy cocci_id/* drivers/media/usb/airspy/airspy.c 460 */;
+	struct v4l2_device *cocci_id/* drivers/media/usb/airspy/airspy.c 459 */;
+	struct usb_interface *cocci_id/* drivers/media/usb/airspy/airspy.c 457 */;
+	long long cocci_id/* drivers/media/usb/airspy/airspy.c 384 */;
+	struct airspy *cocci_id/* drivers/media/usb/airspy/airspy.c 364 */;
+	int cocci_id/* drivers/media/usb/airspy/airspy.c 364 */;
+	struct urb *cocci_id/* drivers/media/usb/airspy/airspy.c 267 */;
+	void *cocci_id/* drivers/media/usb/airspy/airspy.c 232 */;
+	unsigned int cocci_id/* drivers/media/usb/airspy/airspy.c 231 */;
+	enum{CMD_INVALID=0x00, CMD_RECEIVER_MODE=0x01, CMD_SI5351C_WRITE=0x02, CMD_SI5351C_READ=0x03, CMD_R820T_WRITE=0x04, CMD_R820T_READ=0x05, CMD_SPIFLASH_ERASE=0x06, CMD_SPIFLASH_WRITE=0x07, CMD_SPIFLASH_READ=0x08, CMD_BOARD_ID_READ=0x09, CMD_VERSION_STRING_READ=0x0a, CMD_BOARD_PARTID_SERIALNO_READ=0x0b, CMD_SET_SAMPLE_RATE=0x0c, CMD_SET_FREQ=0x0d, CMD_SET_LNA_GAIN=0x0e, CMD_SET_MIXER_GAIN=0x0f, CMD_SET_VGA_GAIN=0x10, CMD_SET_LNA_AGC=0x11, CMD_SET_MIXER_AGC=0x12, CMD_SET_PACKING=0x13,} cocci_id/* drivers/media/usb/airspy/airspy.c 19 */;
+	u8 *cocci_id/* drivers/media/usb/airspy/airspy.c 161 */;
+	u8 cocci_id/* drivers/media/usb/airspy/airspy.c 160 */;
+	u16 cocci_id/* drivers/media/usb/airspy/airspy.c 160 */;
+	char *cocci_id/* drivers/media/usb/airspy/airspy.c 149 */;
+	struct usb_driver cocci_id/* drivers/media/usb/airspy/airspy.c 1083 */;
+	const struct usb_device_id cocci_id/* drivers/media/usb/airspy/airspy.c 1076 */[];
+}

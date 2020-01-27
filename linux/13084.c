@@ -1,0 +1,56 @@
+cocci_test_suite() {
+	struct dpaa2_io cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 74 */;
+	unsigned long cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 689 */;
+	struct qbman_bp_query_rslt cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 687 */;
+	u16 cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 685 */;
+	u32 *cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 685 */;
+	struct qbman_fq_query_np_rslt cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 654 */;
+	struct dpaa2_dq *cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 607 */;
+	int *cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 607 */;
+	struct dpaa2_dq cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 552 */;
+	size_t cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 542 */;
+	unsigned int cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 505 */;
+	u64 *cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 504 */;
+	struct qbman_release_desc cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 478 */;
+	const u64 *cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 475 */;
+	struct list_head cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 45 */;
+	u8 cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 447 */;
+	struct dpaa2_io *cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 44 */[NR_CPUS];
+	struct qbman_eq_desc cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 421 */;
+	const struct dpaa2_fd *cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 419 */;
+	struct qbman_pull_desc cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 387 */;
+	struct dpaa2_io_store *cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 385 */;
+	struct dpaa2_io_store {
+		unsigned int max;
+		dma_addr_t paddr;
+		struct dpaa2_dq *vaddr;
+		void *alloced_addr;
+		unsigned int idx;
+		struct qbman_swp *swp;
+		struct device *dev;
+	} cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 33 */;
+	struct device_link *cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 258 */;
+	int cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 229 */;
+	uintptr_t cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 205 */;
+	void *cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 205 */;
+	u64 cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 202 */;
+	struct dpaa2_io_notification_ctx *cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 201 */;
+	struct dpaa2_io {
+		struct dpaa2_io_desc dpio_desc;
+		struct qbman_swp_desc swp_desc;
+		struct qbman_swp *swp;
+		struct list_head node;
+		spinlock_t lock_mgmt_cmd;
+		spinlock_t lock_notifications;
+		struct list_head notifications;
+		struct device *dev;
+	} cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 20 */;
+	u32 cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 191 */;
+	struct qbman_swp *cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 190 */;
+	const struct dpaa2_dq *cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 188 */;
+	irqreturn_t cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 186 */;
+	void cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 166 */;
+	struct device *cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 110 */;
+	const struct dpaa2_io_desc *cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 109 */;
+	struct dpaa2_io *cocci_id/* drivers/soc/fsl/dpio/dpio-service.c 109 */;
+}

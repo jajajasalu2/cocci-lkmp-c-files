@@ -1,0 +1,101 @@
+cocci_test_suite() {
+	int (*cocci_id/* drivers/acpi/osl.c 975 */)(bool, char *, size_t);
+	ssize_t (*cocci_id/* drivers/acpi/osl.c 945 */)(char *, size_t);
+	char *cocci_id/* drivers/acpi/osl.c 942 */;
+	ssize_t cocci_id/* drivers/acpi/osl.c 942 */;
+	size_t cocci_id/* drivers/acpi/osl.c 942 */;
+	ssize_t (*cocci_id/* drivers/acpi/osl.c 915 */)(const char *);
+	struct module *cocci_id/* drivers/acpi/osl.c 886 */;
+	int (*cocci_id/* drivers/acpi/osl.c 885 */)(acpi_osd_exec_callback,
+						    void *);
+	acpi_osd_exec_callback cocci_id/* drivers/acpi/osl.c 882 */;
+	void __init cocci_id/* drivers/acpi/osl.c 87 */;
+	const struct acpi_debugger_ops *cocci_id/* drivers/acpi/osl.c 852 */;
+	bool cocci_id/* drivers/acpi/osl.c 849 */;
+	struct acpi_debugger cocci_id/* drivers/acpi/osl.c 848 */;
+	struct acpi_pci_id *cocci_id/* drivers/acpi/osl.c 780 */;
+	struct acpi_ioremap {
+		struct list_head list;
+		void __iomem *virt;
+		acpi_physical_address phys;
+		acpi_size size;
+		unsigned long refcount;
+	} cocci_id/* drivers/acpi/osl.c 75 */;
+	u16 *cocci_id/* drivers/acpi/osl.c 688 */;
+	u8 *cocci_id/* drivers/acpi/osl.c 685 */;
+	u64 *cocci_id/* drivers/acpi/osl.c 680 */;
+	acpi_io_address cocci_id/* drivers/acpi/osl.c 640 */;
+	u64 cocci_id/* drivers/acpi/osl.c 634 */;
+	acpi_osd_handler cocci_id/* drivers/acpi/osl.c 62 */;
+	int (*cocci_id/* drivers/acpi/osl.c 59 */)(u8 sleep_state, u32 val_a,
+						   u32 val_b);
+	int (*cocci_id/* drivers/acpi/osl.c 57 */)(u8 sleep_state,
+						   u32 pm1a_ctrl,
+						   u32 pm1b_ctrl);
+	irqreturn_t cocci_id/* drivers/acpi/osl.c 540 */;
+	acpi_string *cocci_id/* drivers/acpi/osl.c 520 */;
+	const struct acpi_predefined_names *cocci_id/* drivers/acpi/osl.c 519 */;
+	char cocci_id/* drivers/acpi/osl.c 516 */[ACPI_MAX_OVERRIDE_LEN];
+	acpi_physical_address *cocci_id/* drivers/acpi/osl.c 490 */;
+	struct acpi_generic_address *cocci_id/* drivers/acpi/osl.c 439 */;
+	struct acpi_os_dpc {
+		acpi_osd_exec_callback function;
+		void *context;
+		struct work_struct work;
+	} cocci_id/* drivers/acpi/osl.c 43 */;
+	void __ref cocci_id/* drivers/acpi/osl.c 408 */;
+	void *__refcocci_id/* drivers/acpi/osl.c 371 */;
+	void __iomem __ref *cocci_id/* drivers/acpi/osl.c 318 */;
+	void __iomem __force *cocci_id/* drivers/acpi/osl.c 289 */;
+	acpi_physical_address cocci_id/* drivers/acpi/osl.c 281 */;
+	void __iomem *cocci_id/* drivers/acpi/osl.c 281 */;
+	unsigned long cocci_id/* drivers/acpi/osl.c 281 */;
+	struct acpi_ioremap *cocci_id/* drivers/acpi/osl.c 218 */;
+	acpi_physical_address __init cocci_id/* drivers/acpi/osl.c 181 */;
+	acpi_status __init cocci_id/* drivers/acpi/osl.c 1722 */;
+	acpi_cache_t *cocci_id/* drivers/acpi/osl.c 1674 */;
+	u16 cocci_id/* drivers/acpi/osl.c 1634 */;
+	acpi_cache_t **cocci_id/* drivers/acpi/osl.c 1634 */;
+	acpi_spinlock cocci_id/* drivers/acpi/osl.c 1600 */;
+	acpi_cpu_flags cocci_id/* drivers/acpi/osl.c 1600 */;
+	struct resource *cocci_id/* drivers/acpi/osl.c 1514 */;
+	union acpi_operand_object *cocci_id/* drivers/acpi/osl.c 1511 */;
+	struct acpi_mem_space_context **cocci_id/* drivers/acpi/osl.c 1510 */;
+	void **cocci_id/* drivers/acpi/osl.c 1508 */;
+	void *cocci_id/* drivers/acpi/osl.c 1508 */;
+	u32 cocci_id/* drivers/acpi/osl.c 1507 */;
+	acpi_status cocci_id/* drivers/acpi/osl.c 1507 */;
+	acpi_handle cocci_id/* drivers/acpi/osl.c 1507 */;
+	struct resource cocci_id/* drivers/acpi/osl.c 1496 */;
+	const char *cocci_id/* drivers/acpi/osl.c 1494 */;
+	resource_size_t cocci_id/* drivers/acpi/osl.c 1493 */;
+	int cocci_id/* drivers/acpi/osl.c 1493 */;
+	char cocci_id/* drivers/acpi/osl.c 149 */[512];
+	u8 cocci_id/* drivers/acpi/osl.c 1458 */;
+	acpi_size cocci_id/* drivers/acpi/osl.c 1457 */;
+	acpi_adr_space_type cocci_id/* drivers/acpi/osl.c 1456 */;
+	const struct resource *cocci_id/* drivers/acpi/osl.c 1454 */;
+	unsigned int cocci_id/* drivers/acpi/osl.c 1433 */;
+	va_list cocci_id/* drivers/acpi/osl.c 140 */;
+	u32 *cocci_id/* drivers/acpi/osl.c 1304 */;
+	long cocci_id/* drivers/acpi/osl.c 1242 */;
+	struct semaphore cocci_id/* drivers/acpi/osl.c 1198 */;
+	struct semaphore *cocci_id/* drivers/acpi/osl.c 1196 */;
+	acpi_handle *cocci_id/* drivers/acpi/osl.c 1194 */;
+	struct acpi_hp_work *cocci_id/* drivers/acpi/osl.c 1162 */;
+	struct acpi_device *cocci_id/* drivers/acpi/osl.c 1160 */;
+	struct acpi_hp_work cocci_id/* drivers/acpi/osl.c 1153 */;
+	struct work_struct *cocci_id/* drivers/acpi/osl.c 1151 */;
+	struct acpi_hp_work {
+		struct work_struct work;
+		struct acpi_device *adev;
+		u32 src;
+	} cocci_id/* drivers/acpi/osl.c 1145 */;
+	struct acpi_os_dpc cocci_id/* drivers/acpi/osl.c 1085 */;
+	struct workqueue_struct *cocci_id/* drivers/acpi/osl.c 1061 */;
+	struct acpi_os_dpc *cocci_id/* drivers/acpi/osl.c 1060 */;
+	acpi_execute_type cocci_id/* drivers/acpi/osl.c 1056 */;
+	int __init cocci_id/* drivers/acpi/osl.c 1033 */;
+	void cocci_id/* drivers/acpi/osl.c 1033 */;
+	int (*cocci_id/* drivers/acpi/osl.c 1006 */)(void);
+}

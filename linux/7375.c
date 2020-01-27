@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct resource *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 878 */;
+	struct platform_device *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 876 */;
+	void cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 868 */;
+	char cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 83 */;
+	bool cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 684 */;
+	unsigned int cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 683 */;
+	struct hdmi_core_audio_config cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 681 */;
+	struct hdmi_audio_dma cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 680 */;
+	struct hdmi_audio_format cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 679 */;
+	u32 cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 677 */;
+	struct omap_dss_audio *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 677 */;
+	struct hdmi_wp_data *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 676 */;
+	struct hdmi_core_data *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 676 */;
+	int cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 676 */;
+	u8 cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 622 */;
+	struct snd_cea_861_aud_if *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 620 */;
+	struct hdmi_core_audio_config *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 521 */;
+	struct seq_file *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 352 */;
+	void __iomem *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 31 */;
+	struct hdmi_core_packet_enable_repeat cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 306 */;
+	struct hdmi_core_video_config cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 305 */;
+	struct hdmi_video_format cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 303 */;
+	struct omap_video_timings cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 302 */;
+	struct hdmi_config *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 299 */;
+	u8 cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 266 */[HDMI_INFOFRAME_SIZE(AVI)];
+	struct hdmi_avi_infoframe *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 263 */;
+	struct hdmi_core_video_config *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 187 */;
+	u8 *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4_core.c 160 */;
+}

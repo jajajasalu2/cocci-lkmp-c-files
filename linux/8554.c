@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct hwrm_func_qcfg_input cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 71 */;
+	struct hwrm_func_qcfg_output *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 70 */;
+	struct hwrm_cfa_vfr_free_input cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 55 */;
+	struct netlink_ext_ack *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 481 */;
+	u16 *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 472 */;
+	struct devlink *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 472 */;
+	u8 cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 364 */;
+	u32 cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 359 */;
+	u8 *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 357 */;
+	struct hwrm_cfa_vfr_alloc_input cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 31 */;
+	struct dst_entry *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 301 */;
+	struct hwrm_cfa_vfr_alloc_output *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 30 */;
+	int cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 296 */;
+	struct bnxt_vf_rep *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 295 */;
+	u16 cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 294 */;
+	struct bnxt *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 292 */;
+	void cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 292 */;
+	bool cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 250 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 250 */;
+	const struct net_device_ops cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 240 */;
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 236 */;
+	struct netdev_phys_item_id *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 226 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 219 */;
+	struct pci_dev *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 208 */;
+	size_t cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 205 */;
+	char *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 204 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 194 */;
+	void *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 167 */;
+	enum tc_setup_type cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 166 */;
+	struct rtnl_link_stats64 *cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 134 */;
+	netdev_tx_t cocci_id/* drivers/net/ethernet/broadcom/bnxt/bnxt_vfr.c 113 */;
+}

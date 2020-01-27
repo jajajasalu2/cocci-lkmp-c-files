@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct notifier_block cocci_id/* drivers/watchdog/at91rm9200_wdt.c 71 */;
+	void *cocci_id/* drivers/watchdog/at91rm9200_wdt.c 56 */;
+	struct notifier_block *cocci_id/* drivers/watchdog/at91rm9200_wdt.c 55 */;
+	struct regmap *cocci_id/* drivers/watchdog/at91rm9200_wdt.c 37 */;
+	bool cocci_id/* drivers/watchdog/at91rm9200_wdt.c 36 */;
+	void __exit cocci_id/* drivers/watchdog/at91rm9200_wdt.c 332 */;
+	void cocci_id/* drivers/watchdog/at91rm9200_wdt.c 332 */;
+	int __init cocci_id/* drivers/watchdog/at91rm9200_wdt.c 319 */;
+	struct platform_driver cocci_id/* drivers/watchdog/at91rm9200_wdt.c 307 */;
+	const struct of_device_id cocci_id/* drivers/watchdog/at91rm9200_wdt.c 301 */[];
+	pm_message_t cocci_id/* drivers/watchdog/at91rm9200_wdt.c 283 */;
+	struct device *cocci_id/* drivers/watchdog/at91rm9200_wdt.c 230 */;
+	struct platform_device *cocci_id/* drivers/watchdog/at91rm9200_wdt.c 228 */;
+	struct miscdevice cocci_id/* drivers/watchdog/at91rm9200_wdt.c 222 */;
+	const struct file_operations cocci_id/* drivers/watchdog/at91rm9200_wdt.c 212 */;
+	loff_t *cocci_id/* drivers/watchdog/at91rm9200_wdt.c 204 */;
+	size_t cocci_id/* drivers/watchdog/at91rm9200_wdt.c 204 */;
+	const char *cocci_id/* drivers/watchdog/at91rm9200_wdt.c 203 */;
+	ssize_t cocci_id/* drivers/watchdog/at91rm9200_wdt.c 203 */;
+	int __user *cocci_id/* drivers/watchdog/at91rm9200_wdt.c 163 */;
+	void __user *cocci_id/* drivers/watchdog/at91rm9200_wdt.c 162 */;
+	unsigned long cocci_id/* drivers/watchdog/at91rm9200_wdt.c 160 */;
+	unsigned int cocci_id/* drivers/watchdog/at91rm9200_wdt.c 160 */;
+	long cocci_id/* drivers/watchdog/at91rm9200_wdt.c 159 */;
+	const struct watchdog_info cocci_id/* drivers/watchdog/at91rm9200_wdt.c 151 */;
+	struct inode *cocci_id/* drivers/watchdog/at91rm9200_wdt.c 121 */;
+	struct file *cocci_id/* drivers/watchdog/at91rm9200_wdt.c 121 */;
+	int cocci_id/* drivers/watchdog/at91rm9200_wdt.c 121 */;
+}

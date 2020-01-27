@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	enum reg_val_type{REG_UNKNOWN, REG_64BIT, REG_64BIT_32BIT, REG_32BIT, REG_32BIT_POS,} cocci_id/* arch/mips/net/ebpf_jit.c 71 */;
+	s64 cocci_id/* arch/mips/net/ebpf_jit.c 666 */;
+	u64 cocci_id/* arch/mips/net/ebpf_jit.c 665 */;
+	struct bpf_prog cocci_id/* arch/mips/net/ebpf_jit.c 644 */;
+	struct bpf_array cocci_id/* arch/mips/net/ebpf_jit.c 614 */;
+	s16 cocci_id/* arch/mips/net/ebpf_jit.c 573 */;
+	void cocci_id/* arch/mips/net/ebpf_jit.c 567 */;
+	enum reg_val_type cocci_id/* arch/mips/net/ebpf_jit.c 357 */;
+	long cocci_id/* arch/mips/net/ebpf_jit.c 356 */;
+	enum which_ebpf_reg cocci_id/* arch/mips/net/ebpf_jit.c 195 */;
+	void *cocci_id/* arch/mips/net/ebpf_jit.c 1913 */;
+	unsigned long cocci_id/* arch/mips/net/ebpf_jit.c 1905 */;
+	u32 *cocci_id/* arch/mips/net/ebpf_jit.c 1893 */;
+	u8 *cocci_id/* arch/mips/net/ebpf_jit.c 1805 */;
+	struct jit_ctx cocci_id/* arch/mips/net/ebpf_jit.c 1803 */;
+	struct bpf_binary_header *cocci_id/* arch/mips/net/ebpf_jit.c 1802 */;
+	bool cocci_id/* arch/mips/net/ebpf_jit.c 1800 */;
+	enum which_ebpf_reg{src_reg, src_reg_no_fp, dst_reg, dst_reg_fp_ok,} cocci_id/* arch/mips/net/ebpf_jit.c 180 */;
+	struct bpf_prog *cocci_id/* arch/mips/net/ebpf_jit.c 1797 */;
+	u32 cocci_id/* arch/mips/net/ebpf_jit.c 159 */;
+	struct jit_ctx *cocci_id/* arch/mips/net/ebpf_jit.c 159 */;
+	unsigned int cocci_id/* arch/mips/net/ebpf_jit.c 159 */;
+	u64 *cocci_id/* arch/mips/net/ebpf_jit.c 1565 */;
+	const struct bpf_insn *cocci_id/* arch/mips/net/ebpf_jit.c 1521 */;
+	const struct bpf_prog *cocci_id/* arch/mips/net/ebpf_jit.c 1520 */;
+	int cocci_id/* arch/mips/net/ebpf_jit.c 1518 */;
+	const struct jit_ctx *cocci_id/* arch/mips/net/ebpf_jit.c 119 */;
+	struct jit_ctx {
+		const struct bpf_prog *skf;
+		int stack_size;
+		u32 idx;
+		u32 flags;
+		u32 *offsets;
+		u32 *target;
+		u64 *reg_val_types;
+		unsigned int long_b_conversion:1;
+		unsigned int gen_b_offsets:1;
+		unsigned int use_bbit_insns:1;
+	} cocci_id/* arch/mips/net/ebpf_jit.c 100 */;
+}

@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	union bfa_port_stats_u cocci_id/* drivers/scsi/bfa/bfa_port.c 92 */;
+	void *cocci_id/* drivers/scsi/bfa/bfa_port.c 854 */;
+	struct bfa_ioc_s *cocci_id/* drivers/scsi/bfa/bfa_port.c 853 */;
+	struct bfa_cee_s *cocci_id/* drivers/scsi/bfa/bfa_port.c 853 */;
+	void cocci_id/* drivers/scsi/bfa/bfa_port.c 852 */;
+	enum bfa_ioc_event_e cocci_id/* drivers/scsi/bfa/bfa_port.c 796 */;
+	struct bfi_cee_get_rsp_s *cocci_id/* drivers/scsi/bfa/bfa_port.c 763 */;
+	union bfi_cee_i2h_msg_u *cocci_id/* drivers/scsi/bfa/bfa_port.c 762 */;
+	struct bfi_mbmsg_s *cocci_id/* drivers/scsi/bfa/bfa_port.c 760 */;
+	struct bfi_cee_reset_stats_s *cocci_id/* drivers/scsi/bfa/bfa_port.c 727 */;
+	bfa_cee_reset_stats_cbfn_t cocci_id/* drivers/scsi/bfa/bfa_port.c 725 */;
+	bfa_cee_get_stats_cbfn_t cocci_id/* drivers/scsi/bfa/bfa_port.c 686 */;
+	struct bfa_cee_stats_s *cocci_id/* drivers/scsi/bfa/bfa_port.c 685 */;
+	struct bfi_cee_get_req_s *cocci_id/* drivers/scsi/bfa/bfa_port.c 648 */;
+	bfa_cee_get_attr_cbfn_t cocci_id/* drivers/scsi/bfa/bfa_port.c 646 */;
+	struct bfa_cee_attr_s *cocci_id/* drivers/scsi/bfa/bfa_port.c 645 */;
+	bfa_status_t cocci_id/* drivers/scsi/bfa/bfa_port.c 644 */;
+	u64 cocci_id/* drivers/scsi/bfa/bfa_port.c 620 */;
+	u8 *cocci_id/* drivers/scsi/bfa/bfa_port.c 620 */;
+	u32 cocci_id/* drivers/scsi/bfa/bfa_port.c 562 */;
+	struct bfa_cee_stats_s cocci_id/* drivers/scsi/bfa/bfa_port.c 558 */;
+	int cocci_id/* drivers/scsi/bfa/bfa_port.c 551 */;
+	u32 *cocci_id/* drivers/scsi/bfa/bfa_port.c 550 */;
+	struct bfa_cee_attr_s cocci_id/* drivers/scsi/bfa/bfa_port.c 525 */;
+	struct bfa_cee_lldp_cfg_s *cocci_id/* drivers/scsi/bfa/bfa_port.c 518 */;
+	bfa_boolean_t cocci_id/* drivers/scsi/bfa/bfa_port.c 496 */;
+	struct bfa_trc_mod_s *cocci_id/* drivers/scsi/bfa/bfa_port.c 458 */;
+	struct bfa_port_s *cocci_id/* drivers/scsi/bfa/bfa_port.c 457 */;
+	struct bfi_port_generic_req_s *cocci_id/* drivers/scsi/bfa/bfa_port.c 373 */;
+	bfa_port_stats_cbfn_t cocci_id/* drivers/scsi/bfa/bfa_port.c 370 */;
+	struct bfi_port_get_stats_req_s *cocci_id/* drivers/scsi/bfa/bfa_port.c 334 */;
+	union bfa_port_stats_u *cocci_id/* drivers/scsi/bfa/bfa_port.c 331 */;
+	bfa_port_endis_cbfn_t cocci_id/* drivers/scsi/bfa/bfa_port.c 275 */;
+	__be32 cocci_id/* drivers/scsi/bfa/bfa_port.c 24 */;
+	union bfi_port_i2h_msg_u *cocci_id/* drivers/scsi/bfa/bfa_port.c 142 */;
+}

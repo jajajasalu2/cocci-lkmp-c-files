@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 98 */;
+	enum{L2T_MIN_HASH_BUCKETS=2,} cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 82 */;
+	const struct file_operations cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 749 */;
+	struct inode *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 736 */;
+	struct file *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 736 */;
+	const struct seq_operations cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 729 */;
+	char cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 710 */[60];
+	char cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 690 */;
+	loff_t *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 678 */;
+	loff_t cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 666 */;
+	struct seq_file *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 666 */;
+	void *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 666 */;
+	struct adapter *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 627 */;
+	u8 cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 625 */;
+	u8 *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 625 */;
+	u16 cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 624 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 624 */;
+	struct l2t_data {
+		unsigned int l2t_start;
+		unsigned int l2t_size;
+		rwlock_t lock;
+		atomic_t nfree;
+		struct l2t_entry *rover;
+		struct l2t_entry l2tab[0];
+	} cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 56 */;
+	struct sk_buff_head *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 533 */;
+	const struct l2t_skb_cb *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 515 */;
+	struct port_info *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 494 */;
+	struct tp_params *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 478 */;
+	u64 cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 474 */;
+	u32 *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 423 */;
+	const struct net_device *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 416 */;
+	struct neighbour *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 415 */;
+	struct l2t_data cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 363 */;
+	struct l2t_data *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 353 */;
+	struct l2t_entry *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 351 */;
+	void cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 351 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 216 */;
+	const struct cpl_l2t_write_rpl *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 186 */;
+	struct cpl_l2t_write_req *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 143 */;
+	const struct l2t_entry *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 118 */;
+	int cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 105 */;
+	const u32 *cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 104 */;
+	unsigned int cocci_id/* drivers/net/ethernet/chelsio/cxgb4/l2t.c 104 */;
+}

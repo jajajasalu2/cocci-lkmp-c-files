@@ -1,0 +1,47 @@
+cocci_test_suite() {
+	enum dma_data_direction cocci_id/* arch/ia64/mm/init.c 77 */;
+	phys_addr_t cocci_id/* arch/ia64/mm/init.c 76 */;
+	size_t cocci_id/* arch/ia64/mm/init.c 76 */;
+	struct zone *cocci_id/* arch/ia64/mm/init.c 692 */;
+	struct vmem_altmap *cocci_id/* arch/ia64/mm/init.c 688 */;
+	struct mhp_restrictions *cocci_id/* arch/ia64/mm/init.c 673 */;
+	u64 cocci_id/* arch/ia64/mm/init.c 672 */;
+	int cocci_id/* arch/ia64/mm/init.c 672 */;
+	unsigned long cocci_id/* arch/ia64/mm/init.c 662 */[NR_syscalls];
+	pmd_t cocci_id/* arch/ia64/mm/init.c 631 */;
+	pgd_t cocci_id/* arch/ia64/mm/init.c 630 */;
+	char *cocci_id/* arch/ia64/mm/init.c 617 */;
+	int __init cocci_id/* arch/ia64/mm/init.c 616 */;
+	struct page *cocci_id/* arch/ia64/mm/init.c 59 */;
+	u64 *cocci_id/* arch/ia64/mm/init.c 560 */;
+	pte_t cocci_id/* arch/ia64/mm/init.c 56 */;
+	char __user *cocci_id/* arch/ia64/mm/init.c 552 */;
+	void cocci_id/* arch/ia64/mm/init.c 55 */;
+	char cocci_id/* arch/ia64/mm/init.c 549 */;
+	struct memmap_init_callback_data cocci_id/* arch/ia64/mm/init.c 534 */;
+	void __meminit cocci_id/* arch/ia64/mm/init.c 525 */;
+	struct page cocci_id/* arch/ia64/mm/init.c 514 */;
+	struct memmap_init_callback_data *cocci_id/* arch/ia64/mm/init.c 497 */;
+	int __meminit cocci_id/* arch/ia64/mm/init.c 494 */;
+	struct memmap_init_callback_data {
+		struct page *start;
+		struct page *end;
+		int nid;
+		unsigned long zone;
+	} cocci_id/* arch/ia64/mm/init.c 487 */;
+	pte_t *cocci_id/* arch/ia64/mm/init.c 435 */;
+	pmd_t *cocci_id/* arch/ia64/mm/init.c 434 */;
+	pud_t *cocci_id/* arch/ia64/mm/init.c 433 */;
+	pgd_t *cocci_id/* arch/ia64/mm/init.c 432 */;
+	unsigned long cocci_id/* arch/ia64/mm/init.c 43 */;
+	void *cocci_id/* arch/ia64/mm/init.c 427 */;
+	int __init cocci_id/* arch/ia64/mm/init.c 427 */;
+	pg_data_t *cocci_id/* arch/ia64/mm/init.c 377 */;
+	void cocci_id/* arch/ia64/mm/init.c 305 */(void);
+	struct vm_area_struct *cocci_id/* arch/ia64/mm/init.c 285 */;
+	struct mm_struct *cocci_id/* arch/ia64/mm/init.c 285 */;
+	struct vm_area_struct cocci_id/* arch/ia64/mm/init.c 271 */;
+	pgprot_t cocci_id/* arch/ia64/mm/init.c 208 */;
+	struct page *__init cocci_id/* arch/ia64/mm/init.c 207 */;
+	void __init cocci_id/* arch/ia64/mm/init.c 157 */;
+}

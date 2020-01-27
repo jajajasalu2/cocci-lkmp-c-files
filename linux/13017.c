@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	const struct nvmem_cell_info cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 89 */[];
+	u32 *cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 81 */;
+	size_t cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 77 */;
+	void *cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 76 */;
+	unsigned int cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 76 */;
+	const struct of_device_id cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 51 */[];
+	struct tegra_fuse cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 46 */;
+	struct tegra_fuse *cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 46 */;
+	struct device *cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 444 */;
+	const struct of_device_id cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 36 */[]__initconst;
+	u8 cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 344 */;
+	struct resource cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 329 */;
+	struct device_node *cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 328 */;
+	const struct of_device_id *cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 327 */;
+	int __init cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 325 */;
+	struct soc_device *cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 303 */;
+	struct soc_device_attribute *cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 302 */;
+	struct device *__init cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 300 */;
+	u32 cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 285 */;
+	void __iomem *cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 283 */;
+	void cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 283 */;
+	const char *cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 27 */[TEGRA_REVISION_MAX];
+	unsigned long cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 269 */;
+	u32 __init cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 264 */;
+	bool __init cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 257 */;
+	struct platform_driver cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 247 */;
+	struct tegra_sku_info cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 24 */;
+	struct resource *cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 181 */;
+	struct nvmem_config cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 180 */;
+	struct platform_device *cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 177 */;
+	int cocci_id/* drivers/soc/tegra/fuse/fuse-tegra.c 177 */;
+}

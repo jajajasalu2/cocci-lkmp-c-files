@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	struct notifier_block cocci_id/* net/mac802154/iface.c 731 */;
+	unsigned long cocci_id/* net/mac802154/iface.c 711 */;
+	struct notifier_block *cocci_id/* net/mac802154/iface.c 710 */;
+	void cocci_id/* net/mac802154/iface.c 685 */;
+	u16 cocci_id/* net/mac802154/iface.c 65 */;
+	__le64 cocci_id/* net/mac802154/iface.c 616 */;
+	unsigned char cocci_id/* net/mac802154/iface.c 615 */;
+	const char *cocci_id/* net/mac802154/iface.c 614 */;
+	u8 cocci_id/* net/mac802154/iface.c 561 */;
+	struct sockaddr_ieee802154 *cocci_id/* net/mac802154/iface.c 53 */;
+	const struct net_device_ops cocci_id/* net/mac802154/iface.c 510 */;
+	const struct header_ops cocci_id/* net/mac802154/iface.c 497 */;
+	struct ifreq *cocci_id/* net/mac802154/iface.c 49 */;
+	const struct sk_buff *cocci_id/* net/mac802154/iface.c 480 */;
+	unsigned char *cocci_id/* net/mac802154/iface.c 480 */;
+	struct ieee802154_mac_cb cocci_id/* net/mac802154/iface.c 437 */;
+	const void *cocci_id/* net/mac802154/iface.c 430 */;
+	unsigned short cocci_id/* net/mac802154/iface.c 429 */;
+	const struct wpan_dev_header_ops cocci_id/* net/mac802154/iface.c 417 */;
+	struct ieee802154_mac_cb *cocci_id/* net/mac802154/iface.c 371 */;
+	struct ieee802154_hdr cocci_id/* net/mac802154/iface.c 368 */;
+	unsigned cocci_id/* net/mac802154/iface.c 366 */;
+	const struct ieee802154_addr *cocci_id/* net/mac802154/iface.c 364 */;
+	struct net_device *cocci_id/* net/mac802154/iface.c 363 */;
+	struct sk_buff *cocci_id/* net/mac802154/iface.c 362 */;
+	struct ieee802154_llsec_params cocci_id/* net/mac802154/iface.c 334 */;
+	const struct ieee802154_mac_cb *cocci_id/* net/mac802154/iface.c 332 */;
+	struct ieee802154_hdr *cocci_id/* net/mac802154/iface.c 331 */;
+	struct ieee802154_mlme_ops *cocci_id/* net/mac802154/iface.c 28 */;
+	struct wpan_dev *cocci_id/* net/mac802154/iface.c 269 */;
+	struct ieee802154_local *cocci_id/* net/mac802154/iface.c 268 */;
+	enum nl802154_iftype cocci_id/* net/mac802154/iface.c 266 */;
+	struct ieee802154_sub_if_data *cocci_id/* net/mac802154/iface.c 265 */;
+	int cocci_id/* net/mac802154/iface.c 264 */;
+	struct sockaddr *cocci_id/* net/mac802154/iface.c 114 */;
+	void *cocci_id/* net/mac802154/iface.c 111 */;
+}

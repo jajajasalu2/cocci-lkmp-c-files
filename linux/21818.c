@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct dentry *cocci_id/* arch/s390/hypfs/inode.c 61 */;
+	void cocci_id/* arch/s390/hypfs/inode.c 61 */;
+	int __init cocci_id/* arch/s390/hypfs/inode.c 468 */;
+	const struct super_operations cocci_id/* arch/s390/hypfs/inode.c 45 */;
+	struct file_system_type cocci_id/* arch/s390/hypfs/inode.c 44 */;
+	const struct file_operations cocci_id/* arch/s390/hypfs/inode.c 43 */;
+	unsigned long long int cocci_id/* arch/s390/hypfs/inode.c 412 */;
+	char cocci_id/* arch/s390/hypfs/inode.c 409 */[TMP_SIZE];
+	__u64 cocci_id/* arch/s390/hypfs/inode.c 406 */;
+	struct hypfs_sb_info {
+		kuid_t uid;
+		kgid_t gid;
+		struct dentry *update_file;
+		time64_t last_update;
+		struct mutex lock;
+	} cocci_id/* arch/s390/hypfs/inode.c 35 */;
+	struct inode *cocci_id/* arch/s390/hypfs/inode.c 346 */;
+	umode_t cocci_id/* arch/s390/hypfs/inode.c 343 */;
+	char *cocci_id/* arch/s390/hypfs/inode.c 343 */;
+	const char *cocci_id/* arch/s390/hypfs/inode.c 342 */;
+	struct dentry *cocci_id/* arch/s390/hypfs/inode.c 33 */(struct dentry *dir);
+	struct hypfs_sb_info cocci_id/* arch/s390/hypfs/inode.c 316 */;
+	const struct fs_context_operations cocci_id/* arch/s390/hypfs/inode.c 306 */;
+	struct hypfs_sb_info *cocci_id/* arch/s390/hypfs/inode.c 263 */;
+	struct super_block *cocci_id/* arch/s390/hypfs/inode.c 261 */;
+	struct fs_context *cocci_id/* arch/s390/hypfs/inode.c 261 */;
+	int cocci_id/* arch/s390/hypfs/inode.c 261 */;
+	struct seq_file *cocci_id/* arch/s390/hypfs/inode.c 252 */;
+	kgid_t cocci_id/* arch/s390/hypfs/inode.c 228 */;
+	kuid_t cocci_id/* arch/s390/hypfs/inode.c 227 */;
+	struct fs_parse_result cocci_id/* arch/s390/hypfs/inode.c 226 */;
+	struct fs_parameter *cocci_id/* arch/s390/hypfs/inode.c 223 */;
+	const struct fs_parameter_description cocci_id/* arch/s390/hypfs/inode.c 218 */;
+	const struct fs_parameter_spec cocci_id/* arch/s390/hypfs/inode.c 212 */[];
+	enum{Opt_uid, Opt_gid,} cocci_id/* arch/s390/hypfs/inode.c 210 */;
+	loff_t cocci_id/* arch/s390/hypfs/inode.c 149 */;
+	size_t cocci_id/* arch/s390/hypfs/inode.c 148 */;
+	struct kiocb *cocci_id/* arch/s390/hypfs/inode.c 144 */;
+	struct iov_iter *cocci_id/* arch/s390/hypfs/inode.c 144 */;
+	ssize_t cocci_id/* arch/s390/hypfs/inode.c 144 */;
+	struct file *cocci_id/* arch/s390/hypfs/inode.c 117 */;
+}

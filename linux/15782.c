@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct registry_priv *cocci_id/* drivers/staging/rtl8712/hal_init.c 84 */;
+	struct dvobj_priv *cocci_id/* drivers/staging/rtl8712/hal_init.c 83 */;
+	struct fw_priv *cocci_id/* drivers/staging/rtl8712/hal_init.c 81 */;
+	struct _adapter *cocci_id/* drivers/staging/rtl8712/hal_init.c 81 */;
+	void cocci_id/* drivers/staging/rtl8712/hal_init.c 81 */;
+	const struct firmware **cocci_id/* drivers/staging/rtl8712/hal_init.c 70 */;
+	const u8 **cocci_id/* drivers/staging/rtl8712/hal_init.c 68 */;
+	struct device *cocci_id/* drivers/staging/rtl8712/hal_init.c 55 */;
+	const char cocci_id/* drivers/staging/rtl8712/hal_init.c 51 */[];
+	struct usb_interface *cocci_id/* drivers/staging/rtl8712/hal_init.c 39 */;
+	struct usb_device *cocci_id/* drivers/staging/rtl8712/hal_init.c 38 */;
+	const struct firmware *cocci_id/* drivers/staging/rtl8712/hal_init.c 32 */;
+	void *cocci_id/* drivers/staging/rtl8712/hal_init.c 32 */;
+	int cocci_id/* drivers/staging/rtl8712/hal_init.c 316 */;
+	struct tx_desc cocci_id/* drivers/staging/rtl8712/hal_init.c 156 */;
+	struct tx_desc *cocci_id/* drivers/staging/rtl8712/hal_init.c 155 */;
+	u8 *cocci_id/* drivers/staging/rtl8712/hal_init.c 154 */;
+	const u8 *cocci_id/* drivers/staging/rtl8712/hal_init.c 153 */;
+	uint cocci_id/* drivers/staging/rtl8712/hal_init.c 150 */;
+	u16 cocci_id/* drivers/staging/rtl8712/hal_init.c 148 */;
+	sint cocci_id/* drivers/staging/rtl8712/hal_init.c 146 */;
+	struct fw_hdr cocci_id/* drivers/staging/rtl8712/hal_init.c 136 */;
+	struct fw_priv cocci_id/* drivers/staging/rtl8712/hal_init.c 133 */;
+	u8 cocci_id/* drivers/staging/rtl8712/hal_init.c 125 */;
+	u32 cocci_id/* drivers/staging/rtl8712/hal_init.c 125 */;
+	struct fw_hdr *cocci_id/* drivers/staging/rtl8712/hal_init.c 125 */;
+	__le32 *cocci_id/* drivers/staging/rtl8712/hal_init.c 116 */;
+	__le16 *cocci_id/* drivers/staging/rtl8712/hal_init.c 113 */;
+}

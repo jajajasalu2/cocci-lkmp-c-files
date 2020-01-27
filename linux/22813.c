@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	void __exit cocci_id/* sound/sh/aica.c 640 */;
+	int __init cocci_id/* sound/sh/aica.c 624 */;
+	struct platform_driver cocci_id/* sound/sh/aica.c 616 */;
+	struct snd_card_aica *cocci_id/* sound/sh/aica.c 547 */;
+	int cocci_id/* sound/sh/aica.c 547 */;
+	const struct firmware *cocci_id/* sound/sh/aica.c 534 */;
+	struct resource cocci_id/* sound/sh/aica.c 52 */[2];
+	const struct snd_kcontrol_new cocci_id/* sound/sh/aica.c 513 */;
+	struct platform_device *cocci_id/* sound/sh/aica.c 51 */;
+	struct aica_channel cocci_id/* sound/sh/aica.c 509 */;
+	unsigned int cocci_id/* sound/sh/aica.c 497 */;
+	struct snd_ctl_elem_info *cocci_id/* sound/sh/aica.c 473 */;
+	struct snd_ctl_elem_value *cocci_id/* sound/sh/aica.c 456 */;
+	struct snd_kcontrol *cocci_id/* sound/sh/aica.c 455 */;
+	struct snd_pcm *cocci_id/* sound/sh/aica.c 431 */;
+	bool cocci_id/* sound/sh/aica.c 42 */;
+	const struct snd_pcm_ops cocci_id/* sound/sh/aica.c 416 */;
+	char *cocci_id/* sound/sh/aica.c 41 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/sh/aica.c 374 */;
+	struct aica_channel *cocci_id/* sound/sh/aica.c 329 */;
+	struct timer_list *cocci_id/* sound/sh/aica.c 286 */;
+	struct snd_card_aica cocci_id/* sound/sh/aica.c 261 */;
+	struct work_struct *cocci_id/* sound/sh/aica.c 255 */;
+	struct snd_pcm_runtime *cocci_id/* sound/sh/aica.c 220 */;
+	struct snd_pcm_substream *cocci_id/* sound/sh/aica.c 216 */;
+	const struct snd_pcm_hardware cocci_id/* sound/sh/aica.c 198 */;
+	u32 *cocci_id/* sound/sh/aica.c 193 */;
+	unsigned long cocci_id/* sound/sh/aica.c 190 */;
+	void cocci_id/* sound/sh/aica.c 188 */;
+	u32 cocci_id/* sound/sh/aica.c 130 */;
+	u32 __iomem *cocci_id/* sound/sh/aica.c 108 */;
+	void *cocci_id/* sound/sh/aica.c 104 */;
+}

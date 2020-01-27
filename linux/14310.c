@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/media/dvb-frontends/af9033.c 986 */[2];
+	u16 cocci_id/* drivers/media/dvb-frontends/af9033.c 980 */;
+	u32 *cocci_id/* drivers/media/dvb-frontends/af9033.c 925 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/af9033.c 875 */;
+	u16 *cocci_id/* drivers/media/dvb-frontends/af9033.c 868 */;
+	struct reg_val_mask cocci_id/* drivers/media/dvb-frontends/af9033.c 77 */[];
+	u8 cocci_id/* drivers/media/dvb-frontends/af9033.c 76 */[4];
+	const struct reg_val *cocci_id/* drivers/media/dvb-frontends/af9033.c 75 */;
+	unsigned int cocci_id/* drivers/media/dvb-frontends/af9033.c 74 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/af9033.c 617 */[7];
+	enum fe_status *cocci_id/* drivers/media/dvb-frontends/af9033.c 611 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/af9033.c 491 */[8];
+	struct i2c_client *cocci_id/* drivers/media/dvb-frontends/af9033.c 489 */;
+	struct af9033_dev *cocci_id/* drivers/media/dvb-frontends/af9033.c 488 */;
+	struct dtv_frontend_properties *cocci_id/* drivers/media/dvb-frontends/af9033.c 486 */;
+	struct dvb_frontend *cocci_id/* drivers/media/dvb-frontends/af9033.c 485 */;
+	int cocci_id/* drivers/media/dvb-frontends/af9033.c 485 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/af9033.c 38 */[1 + MAX_TAB_LEN];
+	struct dvb_frontend_tune_settings *cocci_id/* drivers/media/dvb-frontends/af9033.c 344 */;
+	struct i2c_driver cocci_id/* drivers/media/dvb-frontends/af9033.c 1182 */;
+	const struct i2c_device_id cocci_id/* drivers/media/dvb-frontends/af9033.c 1176 */[];
+	struct af9033_dev {
+		struct i2c_client *client;
+		struct regmap *regmap;
+		struct dvb_frontend fe;
+		struct af9033_config cfg;
+		bool is_af9035;
+		bool is_it9135;
+		u32 bandwidth_hz;
+		bool ts_mode_parallel;
+		bool ts_mode_serial;
+		enum fe_status fe_status;
+		u64 post_bit_error_prev;
+		u64 post_bit_error;
+		u64 post_bit_count;
+		u64 error_block_count;
+		u64 total_block_count;
+	} cocci_id/* drivers/media/dvb-frontends/af9033.c 11 */;
+	u64 cocci_id/* drivers/media/dvb-frontends/af9033.c 109 */;
+	const struct regmap_config cocci_id/* drivers/media/dvb-frontends/af9033.c 1058 */;
+	u32 cocci_id/* drivers/media/dvb-frontends/af9033.c 1057 */;
+	struct af9033_config *cocci_id/* drivers/media/dvb-frontends/af9033.c 1053 */;
+	const struct i2c_device_id *cocci_id/* drivers/media/dvb-frontends/af9033.c 1051 */;
+	const struct dvb_frontend_ops cocci_id/* drivers/media/dvb-frontends/af9033.c 1010 */;
+}

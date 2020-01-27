@@ -1,0 +1,58 @@
+cocci_test_suite() {
+	struct iattr *cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 94 */;
+	void __exit cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 822 */;
+	struct spufs_inode_info cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 792 */;
+	int __init cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 782 */;
+	struct spufs_sb_info cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 754 */;
+	struct spufs_fs_context cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 750 */;
+	const struct fs_context_operations cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 739 */;
+	const struct super_operations cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 710 */;
+	struct spufs_fs_context *cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 687 */;
+	struct fs_context *cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 685 */;
+	void *cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 68 */;
+	const char *cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 664 */;
+	struct device_node *cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 663 */;
+	unsigned long cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 656 */;
+	kgid_t cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 623 */;
+	kuid_t cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 622 */;
+	struct fs_parse_result cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 621 */;
+	struct fs_parameter *cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 617 */;
+	struct seq_file *cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 599 */;
+	const struct fs_parameter_description cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 594 */;
+	const struct fs_parameter_spec cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 586 */[];
+	enum{Opt_uid, Opt_gid, Opt_mode, Opt_debug,} cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 582 */;
+	struct spufs_fs_context {
+		kuid_t uid;
+		kgid_t gid;
+		umode_t mode;
+	} cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 576 */;
+	umode_t cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 544 */;
+	struct dentry *cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 543 */;
+	long cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 543 */;
+	struct file_system_type cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 541 */;
+	struct spufs_inode_info *cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 49 */;
+	struct super_block *cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 47 */;
+	struct inode *cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 46 */;
+	struct path cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 410 */;
+	struct spufs_sb_info *cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 41 */;
+	struct vfsmount *cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 403 */;
+	int cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 39 */;
+	char *cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 38 */;
+	struct kmem_cache *cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 37 */;
+	struct spu_context cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 334 */;
+	struct spufs_sb_info {
+		bool debug;
+	} cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 33 */;
+	struct spu cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 308 */;
+	struct file *cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 301 */;
+	struct spu_gang *cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 300 */;
+	unsigned int cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 300 */;
+	struct spu_context *cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 299 */;
+	struct path *cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 279 */;
+	const struct file_operations cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 216 */;
+	const struct spufs_tree_descr *cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 182 */;
+	void cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 133 */;
+	const struct inode_operations cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 112 */;
+	size_t cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 110 */;
+	const struct file_operations *cocci_id/* arch/powerpc/platforms/cell/spufs/inode.c 109 */;
+}

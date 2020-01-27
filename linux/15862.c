@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct odm_packet_info cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 93 */;
+	struct odm_phy_info *cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 83 */;
+	u32 cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 500 */;
+	unsigned long cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 466 */;
+	SIZE_PTR cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 437 */;
+	struct recv_buf cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 421 */;
+	s32 cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 407 */;
+	C2H_EVT_HDR cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 370 */;
+	struct rx_pkt_attrib cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 37 */;
+	struct phy_stat *cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 364 */;
+	PRXREPORT cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 27 */;
+	struct recv_stat *cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 266 */;
+	struct recv_stat cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 26 */;
+	_pkt *cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 244 */;
+	struct __queue *cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 241 */;
+	struct rx_pkt_attrib *cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 240 */;
+	struct hal_com_data *cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 236 */;
+	union recv_frame *cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 221 */;
+	u8 *cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 220 */;
+	bool cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 219 */;
+	struct recv_priv *cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 219 */;
+	u8 cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 163 */;
+	u16 cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 160 */;
+	struct recv_buf *cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 13 */;
+	struct adapter *cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 13 */;
+	void cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 13 */;
+	struct sta_info *cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 103 */;
+	struct sta_priv *cocci_id/* drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c 102 */;
+}

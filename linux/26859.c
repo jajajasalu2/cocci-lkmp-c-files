@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct in_core_key *cocci_id/* fs/reiserfs/bitmap.c 959 */;
+	__le32 *cocci_id/* fs/reiserfs/bitmap.c 860 */;
+	struct item_head *cocci_id/* fs/reiserfs/bitmap.c 858 */;
+	struct treepath *cocci_id/* fs/reiserfs/bitmap.c 856 */;
+	__u32 cocci_id/* fs/reiserfs/bitmap.c 802 */;
+	struct seq_file *cocci_id/* fs/reiserfs/bitmap.c 683 */;
+	struct reiserfs_inode_info cocci_id/* fs/reiserfs/bitmap.c 553 */;
+	struct list_head *cocci_id/* fs/reiserfs/bitmap.c 548 */;
+	b_blocknr_t cocci_id/* fs/reiserfs/bitmap.c 516 */;
+	struct inode *cocci_id/* fs/reiserfs/bitmap.c 507 */;
+	int cocci_id/* fs/reiserfs/bitmap.c 506 */;
+	unsigned long cocci_id/* fs/reiserfs/bitmap.c 505 */;
+	struct reiserfs_inode_info *cocci_id/* fs/reiserfs/bitmap.c 503 */;
+	struct reiserfs_transaction_handle *cocci_id/* fs/reiserfs/bitmap.c 502 */;
+	void cocci_id/* fs/reiserfs/bitmap.c 502 */;
+	unsigned int *cocci_id/* fs/reiserfs/bitmap.c 50 */;
+	unsigned int cocci_id/* fs/reiserfs/bitmap.c 424 */;
+	struct reiserfs_bitmap_info *cocci_id/* fs/reiserfs/bitmap.c 423 */;
+	struct buffer_head *cocci_id/* fs/reiserfs/bitmap.c 422 */;
+	struct reiserfs_super_block *cocci_id/* fs/reiserfs/bitmap.c 421 */;
+	struct super_block *cocci_id/* fs/reiserfs/bitmap.c 420 */;
+	sector_t cocci_id/* fs/reiserfs/bitmap.c 349 */;
+	__le32 cocci_id/* fs/reiserfs/bitmap.c 325 */;
+	u32 cocci_id/* fs/reiserfs/bitmap.c 299 */;
+	unsigned cocci_id/* fs/reiserfs/bitmap.c 278 */;
+	char *cocci_id/* fs/reiserfs/bitmap.c 276 */;
+	unsigned long *cocci_id/* fs/reiserfs/bitmap.c 1397 */;
+	int *cocci_id/* fs/reiserfs/bitmap.c 121 */;
+	b_blocknr_t *cocci_id/* fs/reiserfs/bitmap.c 1151 */;
+	reiserfs_blocknr_hint_t *cocci_id/* fs/reiserfs/bitmap.c 1150 */;
+}

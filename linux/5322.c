@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct resource cocci_id/* drivers/base/property.c 945 */;
+	struct device_node *cocci_id/* drivers/base/property.c 944 */;
+	char *cocci_id/* drivers/base/property.c 928 */;
+	void *cocci_id/* drivers/base/property.c 928 */;
+	enum dev_dma_attr cocci_id/* drivers/base/property.c 814 */;
+	bool cocci_id/* drivers/base/property.c 801 */;
+	u8 *cocci_id/* drivers/base/property.c 79 */;
+	unsigned int cocci_id/* drivers/base/property.c 789 */;
+	const char *cocci_id/* drivers/base/property.c 740 */;
+	struct acpi_device *cocci_id/* drivers/base/property.c 709 */;
+	const struct fwnode_handle *cocci_id/* drivers/base/property.c 622 */;
+	const struct property_entry *cocci_id/* drivers/base/property.c 546 */;
+	int cocci_id/* drivers/base/property.c 545 */;
+	void cocci_id/* drivers/base/property.c 519 */;
+	struct fwnode_reference_args cocci_id/* drivers/base/property.c 502 */;
+	struct fwnode_reference_args *cocci_id/* drivers/base/property.c 480 */;
+	u64 cocci_id/* drivers/base/property.c 346 */;
+	u16 cocci_id/* drivers/base/property.c 294 */;
+	u8 cocci_id/* drivers/base/property.c 268 */;
+	struct fwnode_handle *cocci_id/* drivers/base/property.c 21 */;
+	struct device *cocci_id/* drivers/base/property.c 21 */;
+	const char **cocci_id/* drivers/base/property.c 201 */;
+	size_t cocci_id/* drivers/base/property.c 179 */;
+	u64 *cocci_id/* drivers/base/property.c 154 */;
+	u32 *cocci_id/* drivers/base/property.c 129 */;
+	const void *cocci_id/* drivers/base/property.c 1172 */;
+	struct fwnode_endpoint *cocci_id/* drivers/base/property.c 1164 */;
+	struct fwnode_endpoint cocci_id/* drivers/base/property.c 1109 */;
+	u32 cocci_id/* drivers/base/property.c 1101 */;
+	unsigned long cocci_id/* drivers/base/property.c 1101 */;
+	u16 *cocci_id/* drivers/base/property.c 104 */;
+}

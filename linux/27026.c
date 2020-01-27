@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	long cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 993 */;
+	xfs_fsblock_t cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 971 */;
+	xfs_rtword_t cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 781 */;
+	xfs_rtword_t *cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 773 */;
+	int *cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 771 */;
+	xfs_rtblock_t *cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 770 */;
+	xfs_fsblock_t *cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 694 */;
+	xfs_bmbt_irec_t cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 63 */;
+	xfs_inode_t *cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 62 */;
+	xfs_buf_t *cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 61 */;
+	uint cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 601 */;
+	char *cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 601 */;
+	xfs_buf_t **cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 59 */;
+	xfs_trans_t *cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 56 */;
+	xfs_mount_t *cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 55 */;
+	xfs_suminfo_t *cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 452 */;
+	const struct xfs_buf_ops cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 43 */;
+	struct xfs_buf *cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 31 */;
+	void cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 29 */;
+	bool *cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 1088 */;
+	xfs_extlen_t cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 1087 */;
+	xfs_rtblock_t cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 1086 */;
+	struct xfs_trans *cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 1085 */;
+	struct xfs_mount *cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 1084 */;
+	int cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 1082 */;
+	struct xfs_rtalloc_rec cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 1072 */[2];
+	void *cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 1070 */;
+	xfs_rtalloc_query_range_fn cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 1069 */;
+	struct xfs_rtalloc_rec cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 1017 */;
+	struct xfs_rtalloc_rec *cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 1012 */;
+	uint64_t *cocci_id/* fs/xfs/libxfs/xfs_rtbitmap.c 1002 */;
+}

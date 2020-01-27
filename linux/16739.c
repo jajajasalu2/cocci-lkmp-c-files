@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* drivers/input/serio/serio.c 994 */;
+	unsigned char cocci_id/* drivers/input/serio/serio.c 994 */;
+	irqreturn_t cocci_id/* drivers/input/serio/serio.c 993 */;
+	const struct dev_pm_ops cocci_id/* drivers/input/serio/serio.c 962 */;
+	struct kobj_uevent_env *cocci_id/* drivers/input/serio/serio.c 902 */;
+	bool cocci_id/* drivers/input/serio/serio.c 816 */;
+	const char *cocci_id/* drivers/input/serio/serio.c 814 */;
+	struct serio_driver *cocci_id/* drivers/input/serio/serio.c 814 */;
+	struct module *cocci_id/* drivers/input/serio/serio.c 814 */;
+	int cocci_id/* drivers/input/serio/serio.c 814 */;
+	size_t cocci_id/* drivers/input/serio/serio.c 748 */;
+	struct device_driver *cocci_id/* drivers/input/serio/serio.c 742 */;
+	char *cocci_id/* drivers/input/serio/serio.c 742 */;
+	ssize_t cocci_id/* drivers/input/serio/serio.c 742 */;
+	const struct serio_device_id *cocci_id/* drivers/input/serio/serio.c 73 */;
+	struct serio *cocci_id/* drivers/input/serio/serio.c 695 */;
+	void cocci_id/* drivers/input/serio/serio.c 695 */;
+	struct serio cocci_id/* drivers/input/serio/serio.c 657 */;
+	atomic_t cocci_id/* drivers/input/serio/serio.c 499 */;
+	const struct attribute_group *cocci_id/* drivers/input/serio/serio.c 480 */[];
+	const struct attribute_group cocci_id/* drivers/input/serio/serio.c 476 */;
+	struct attribute *cocci_id/* drivers/input/serio/serio.c 467 */[];
+	void cocci_id/* drivers/input/serio/serio.c 40 */(struct serio_driver *drv);
+	struct device_attribute *cocci_id/* drivers/input/serio/serio.c 382 */;
+	struct device *cocci_id/* drivers/input/serio/serio.c 382 */;
+	int cocci_id/* drivers/input/serio/serio.c 37 */(struct serio *serio);
+	void cocci_id/* drivers/input/serio/serio.c 36 */(struct serio *serio);
+	enum serio_event_type cocci_id/* drivers/input/serio/serio.c 241 */;
+	void *cocci_id/* drivers/input/serio/serio.c 240 */;
+	struct work_struct *cocci_id/* drivers/input/serio/serio.c 199 */;
+	struct serio_event *cocci_id/* drivers/input/serio/serio.c 167 */;
+	struct serio_event cocci_id/* drivers/input/serio/serio.c 159 */;
+	unsigned long cocci_id/* drivers/input/serio/serio.c 153 */;
+	struct serio_event {
+		enum serio_event_type type;
+		void *object;
+		struct module *owner;
+		struct list_head node;
+	} cocci_id/* drivers/input/serio/serio.c 140 */;
+	enum serio_event_type{SERIO_RESCAN_PORT, SERIO_RECONNECT_PORT, SERIO_RECONNECT_SUBTREE, SERIO_REGISTER_PORT, SERIO_ATTACH_DRIVER,} cocci_id/* drivers/input/serio/serio.c 132 */;
+	void __exit cocci_id/* drivers/input/serio/serio.c 1041 */;
+	int __init cocci_id/* drivers/input/serio/serio.c 1028 */;
+	struct bus_type cocci_id/* drivers/input/serio/serio.c 1014 */;
+}

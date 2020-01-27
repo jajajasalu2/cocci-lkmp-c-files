@@ -1,0 +1,62 @@
+cocci_test_suite() {
+	struct i2c_msg cocci_id/* drivers/media/dvb-frontends/dib0070.c 80 */;
+	struct dvb_tuner_ops cocci_id/* drivers/media/dvb-frontends/dib0070.c 748 */;
+	struct dib0070_state cocci_id/* drivers/media/dvb-frontends/dib0070.c 734 */;
+	struct dib0070_state *cocci_id/* drivers/media/dvb-frontends/dib0070.c 734 */;
+	struct i2c_adapter *cocci_id/* drivers/media/dvb-frontends/dib0070.c 732 */;
+	struct dvb_frontend *cocci_id/* drivers/media/dvb-frontends/dib0070.c 732 */;
+	struct dib0070_config *cocci_id/* drivers/media/dvb-frontends/dib0070.c 732 */;
+	const struct dvb_tuner_ops cocci_id/* drivers/media/dvb-frontends/dib0070.c 715 */;
+	u32 *cocci_id/* drivers/media/dvb-frontends/dib0070.c 701 */;
+	u16 *cocci_id/* drivers/media/dvb-frontends/dib0070.c 659 */;
+	const u16 cocci_id/* drivers/media/dvb-frontends/dib0070.c 554 */[];
+	uint32_t cocci_id/* drivers/media/dvb-frontends/dib0070.c 504 */;
+	const struct dib0070_wbd_gain_cfg *cocci_id/* drivers/media/dvb-frontends/dib0070.c 462 */;
+	struct dib0070_state {
+		struct i2c_adapter *i2c;
+		struct dvb_frontend *fe;
+		const struct dib0070_config *cfg;
+		u16 wbd_ff_offset;
+		u8 revision;
+		enum frontend_tune_state tune_state;
+		u32 current_rf;
+		s8 step;
+		u16 adc_diff;
+		s8 captrim;
+		s8 fcaptrim;
+		u16 lo4;
+		const struct dib0070_tuning *current_tune_table_index;
+		const struct dib0070_lna_match *lna_match;
+		u8 wbd_gain_current;
+		u16 wbd_offset_3_3[2];
+		struct i2c_msg msg[2];
+		u8 i2c_write_buffer[3];
+		u8 i2c_read_buffer[2];
+		struct mutex i2c_buffer_lock;
+	} cocci_id/* drivers/media/dvb-frontends/dib0070.c 38 */;
+	const struct dib0070_lna_match *cocci_id/* drivers/media/dvb-frontends/dib0070.c 324 */;
+	const struct dib0070_tuning *cocci_id/* drivers/media/dvb-frontends/dib0070.c 323 */;
+	const struct dib0070_lna_match cocci_id/* drivers/media/dvb-frontends/dib0070.c 302 */[];
+	const struct dib0070_tuning cocci_id/* drivers/media/dvb-frontends/dib0070.c 276 */[];
+	struct dib0070_lna_match {
+		u32 max_freq;
+		u8 lna_band;
+	} cocci_id/* drivers/media/dvb-frontends/dib0070.c 261 */;
+	struct dib0070_tuning {
+		u32 max_freq;
+		u8 switch_trim;
+		u8 vco_band;
+		u8 hfdiv;
+		u8 vco_multi;
+		u8 presc;
+		u8 wbdmux;
+		u16 tuner_enable;
+	} cocci_id/* drivers/media/dvb-frontends/dib0070.c 250 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/dib0070.c 232 */;
+	void cocci_id/* drivers/media/dvb-frontends/dib0070.c 232 */;
+	int cocci_id/* drivers/media/dvb-frontends/dib0070.c 23 */;
+	u32 cocci_id/* drivers/media/dvb-frontends/dib0070.c 192 */;
+	u16 cocci_id/* drivers/media/dvb-frontends/dib0070.c 169 */;
+	int8_t cocci_id/* drivers/media/dvb-frontends/dib0070.c 168 */;
+	enum frontend_tune_state *cocci_id/* drivers/media/dvb-frontends/dib0070.c 166 */;
+}

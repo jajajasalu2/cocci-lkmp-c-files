@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	struct ad2s1210_state {
+		struct mutex lock;
+		struct spi_device *sdev;
+		struct gpio_desc *gpios[5];
+		unsigned int fclkin;
+		unsigned int fexcit;
+		bool hysteresis;
+		u8 resolution;
+		enum ad2s1210_mode mode;
+		u8 rx[2]____cacheline_aligned;
+		u8 tx[2]____cacheline_aligned;
+	} cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 88 */;
+	const unsigned int cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 86 */[];
+	const struct ad2s1210_gpio cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 78 */[];
+	struct ad2s1210_gpio {
+		const char *name;
+		unsigned long flags;
+	} cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 73 */;
+	struct spi_driver cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 698 */;
+	const struct spi_device_id cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 692 */[];
+	const struct of_device_id cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 686 */[];
+	enum ad2s1210_gpios{AD2S1210_SAMPLE, AD2S1210_A0, AD2S1210_A1, AD2S1210_RES0, AD2S1210_RES1,} cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 65 */;
+	struct iio_dev *cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 646 */;
+	struct spi_device *cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 644 */;
+	const struct iio_info cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 619 */;
+	const struct attribute_group cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 581 */;
+	enum ad2s1210_mode{MOD_POS=0, MOD_VEL, MOD_CONFIG, MOD_RESERVED,} cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 58 */;
+	struct attribute *cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 565 */[];
+	const struct iio_chan_spec cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 551 */[];
+	__be16 *cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 488 */;
+	s16 cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 462 */;
+	u16 cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 459 */;
+	long cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 456 */;
+	int *cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 454 */;
+	const struct iio_chan_spec *cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 453 */;
+	struct iio_dev_attr *cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 420 */;
+	int cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 397 */;
+	struct ad2s1210_state *cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 396 */;
+	size_t cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 394 */;
+	const char *cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 393 */;
+	struct device_attribute *cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 392 */;
+	struct device *cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 391 */;
+	ssize_t cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 391 */;
+	char *cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 270 */;
+	unsigned int cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 207 */;
+	struct spi_transfer cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 133 */;
+	unsigned char cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 131 */;
+	u8 cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 116 */;
+	enum ad2s1210_mode cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 107 */;
+	void cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 107 */;
+	const int cocci_id/* drivers/staging/iio/resolver/ad2s1210.c 101 */[4][2];
+}

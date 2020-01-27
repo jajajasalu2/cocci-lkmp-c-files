@@ -1,0 +1,93 @@
+cocci_test_suite() {
+	struct ocfs2_live_connection cocci_id/* fs/ocfs2/stack_user.c 991 */;
+	dlm_lockspace_t *cocci_id/* fs/ocfs2/stack_user.c 985 */;
+	const struct dlm_lockspace_ops cocci_id/* fs/ocfs2/stack_user.c 967 */;
+	struct dlm_slot *cocci_id/* fs/ocfs2/stack_user.c 949 */;
+	struct ocfs2_protocol_version cocci_id/* fs/ocfs2/stack_user.c 902 */;
+	struct ocfs2_live_connection *cocci_id/* fs/ocfs2/stack_user.c 901 */;
+	struct ocfs2_cluster_connection *cocci_id/* fs/ocfs2/stack_user.c 898 */;
+	struct dlm_lksb *cocci_id/* fs/ocfs2/stack_user.c 846 */;
+	uint32_t cocci_id/* fs/ocfs2/stack_user.c 845 */;
+	char *cocci_id/* fs/ocfs2/stack_user.c 790 */;
+	struct ocfs2_protocol_version *cocci_id/* fs/ocfs2/stack_user.c 775 */;
+	int cocci_id/* fs/ocfs2/stack_user.c 775 */;
+	struct file_lock *cocci_id/* fs/ocfs2/stack_user.c 740 */;
+	u64 cocci_id/* fs/ocfs2/stack_user.c 737 */;
+	struct dlm_lksb cocci_id/* fs/ocfs2/stack_user.c 692 */;
+	unsigned int cocci_id/* fs/ocfs2/stack_user.c 686 */;
+	u32 cocci_id/* fs/ocfs2/stack_user.c 684 */;
+	struct ocfs2_dlm_lksb *cocci_id/* fs/ocfs2/stack_user.c 676 */;
+	void *cocci_id/* fs/ocfs2/stack_user.c 674 */;
+	void cocci_id/* fs/ocfs2/stack_user.c 674 */;
+	struct miscdevice cocci_id/* fs/ocfs2/stack_user.c 626 */;
+	const struct file_operations cocci_id/* fs/ocfs2/stack_user.c 617 */;
+	struct ocfs2_control_private cocci_id/* fs/ocfs2/stack_user.c 604 */;
+	struct inode *cocci_id/* fs/ocfs2/stack_user.c 600 */;
+	loff_t *cocci_id/* fs/ocfs2/stack_user.c 546 */;
+	char __user *cocci_id/* fs/ocfs2/stack_user.c 544 */;
+	struct ocfs2_control_message_down cocci_id/* fs/ocfs2/stack_user.c 481 */;
+	ssize_t cocci_id/* fs/ocfs2/stack_user.c 473 */;
+	long cocci_id/* fs/ocfs2/stack_user.c 444 */;
+	struct ocfs2_control_message_down *cocci_id/* fs/ocfs2/stack_user.c 442 */;
+	struct file *cocci_id/* fs/ocfs2/stack_user.c 441 */;
+	struct ocfs2_control_message_setv *cocci_id/* fs/ocfs2/stack_user.c 392 */;
+	struct ocfs2_control_private *cocci_id/* fs/ocfs2/stack_user.c 365 */;
+	struct ocfs2_control_message_setn *cocci_id/* fs/ocfs2/stack_user.c 361 */;
+	char cocci_id/* fs/ocfs2/stack_user.c 260 */[OCFS2_CONTROL_PROTO_LEN];
+	union ocfs2_control_message cocci_id/* fs/ocfs2/stack_user.c 246 */;
+	const char __user *cocci_id/* fs/ocfs2/stack_user.c 242 */;
+	size_t cocci_id/* fs/ocfs2/stack_user.c 188 */;
+	const char *cocci_id/* fs/ocfs2/stack_user.c 186 */;
+	atomic_t cocci_id/* fs/ocfs2/stack_user.c 165 */;
+	struct ocfs2_stack_plugin cocci_id/* fs/ocfs2/stack_user.c 163 */;
+	union ocfs2_control_message {
+		char tag[OCFS2_CONTROL_MESSAGE_OP_LEN];
+		struct ocfs2_control_message_setn u_setn;
+		struct ocfs2_control_message_setv u_setv;
+		struct ocfs2_control_message_down u_down;
+	} cocci_id/* fs/ocfs2/stack_user.c 156 */;
+	struct ocfs2_control_message_down {
+		char tag[OCFS2_CONTROL_MESSAGE_OP_LEN];
+		char space1;
+		char uuid[OCFS2_TEXT_UUID_LEN];
+		char space2;
+		char nodestr[OCFS2_CONTROL_MESSAGE_NODENUM_LEN];
+		char newline;
+	} cocci_id/* fs/ocfs2/stack_user.c 147 */;
+	struct ocfs2_control_message_setv {
+		char tag[OCFS2_CONTROL_MESSAGE_OP_LEN];
+		char space1;
+		char major[OCFS2_CONTROL_MESSAGE_VERNUM_LEN];
+		char space2;
+		char minor[OCFS2_CONTROL_MESSAGE_VERNUM_LEN];
+		char newline;
+	} cocci_id/* fs/ocfs2/stack_user.c 137 */;
+	struct ocfs2_control_message_setn {
+		char tag[OCFS2_CONTROL_MESSAGE_OP_LEN];
+		char space;
+		char nodestr[OCFS2_CONTROL_MESSAGE_NODENUM_LEN];
+		char newline;
+	} cocci_id/* fs/ocfs2/stack_user.c 129 */;
+	struct ocfs2_control_private {
+		struct list_head op_list;
+		int op_state;
+		int op_this_node;
+		struct ocfs2_protocol_version op_proto;
+	} cocci_id/* fs/ocfs2/stack_user.c 121 */;
+	void __exit cocci_id/* fs/ocfs2/stack_user.c 1116 */;
+	int __init cocci_id/* fs/ocfs2/stack_user.c 1102 */;
+	struct ocfs2_live_connection {
+		struct list_head oc_list;
+		struct ocfs2_cluster_connection *oc_conn;
+		enum ocfs2_connection_type oc_type;
+		atomic_t oc_this_node;
+		int oc_our_slot;
+		struct dlm_lksb oc_version_lksb;
+		char oc_lvb[DLM_LVB_LEN];
+		struct completion oc_sync_wait;
+		wait_queue_head_t oc_wait;
+	} cocci_id/* fs/ocfs2/stack_user.c 109 */;
+	struct ocfs2_stack_operations cocci_id/* fs/ocfs2/stack_user.c 1082 */;
+	unsigned int *cocci_id/* fs/ocfs2/stack_user.c 1063 */;
+	enum ocfs2_connection_type{WITH_CONTROLD, NO_CONTROLD,} cocci_id/* fs/ocfs2/stack_user.c 100 */;
+}

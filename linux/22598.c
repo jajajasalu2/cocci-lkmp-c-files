@@ -1,0 +1,94 @@
+cocci_test_suite() {
+	struct snd_kcontrol_new cocci_id/* sound/pci/fm801.c 990 */[];
+	const char *constcocci_id/* sound/pci/fm801.c 955 */[5];
+	long *cocci_id/* sound/pci/fm801.c 917 */;
+	struct snd_ctl_elem_value *cocci_id/* sound/pci/fm801.c 909 */;
+	struct snd_kcontrol *cocci_id/* sound/pci/fm801.c 908 */;
+	struct snd_ctl_elem_info *cocci_id/* sound/pci/fm801.c 897 */;
+	const struct snd_tea575x_ops cocci_id/* sound/pci/fm801.c 824 */;
+	struct snd_fm801_tea575x_gpio cocci_id/* sound/pci/fm801.c 776 */;
+	u8 cocci_id/* sound/pci/fm801.c 772 */;
+	struct snd_tea575x *cocci_id/* sound/pci/fm801.c 772 */;
+	struct snd_fm801_tea575x_gpio cocci_id/* sound/pci/fm801.c 745 */[];
+	struct snd_fm801_tea575x_gpio {
+		u8 data,clk,wren,most;
+		char *name;
+	} cocci_id/* sound/pci/fm801.c 740 */;
+	struct snd_pcm *cocci_id/* sound/pci/fm801.c 709 */;
+	const struct snd_pcm_ops cocci_id/* sound/pci/fm801.c 695 */;
+	struct snd_pcm_substream *cocci_id/* sound/pci/fm801.c 676 */;
+	struct snd_pcm_runtime *cocci_id/* sound/pci/fm801.c 656 */;
+	const struct snd_pcm_hardware cocci_id/* sound/pci/fm801.c 612 */;
+	irqreturn_t cocci_id/* sound/pci/fm801.c 543 */;
+	void *cocci_id/* sound/pci/fm801.c 543 */;
+	size_t cocci_id/* sound/pci/fm801.c 529 */;
+	snd_pcm_uframes_t cocci_id/* sound/pci/fm801.c 526 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/pci/fm801.c 439 */;
+	const struct snd_pcm_hw_constraint_list cocci_id/* sound/pci/fm801.c 343 */;
+	bool cocci_id/* sound/pci/fm801.c 34 */[SNDRV_CARDS];
+	const unsigned int cocci_id/* sound/pci/fm801.c 339 */[];
+	char *cocci_id/* sound/pci/fm801.c 33 */[SNDRV_CARDS];
+	int cocci_id/* sound/pci/fm801.c 32 */[SNDRV_CARDS];
+	struct snd_ac97 *cocci_id/* sound/pci/fm801.c 297 */;
+	unsigned long cocci_id/* sound/pci/fm801.c 259 */;
+	bool cocci_id/* sound/pci/fm801.c 231 */;
+	struct fm801 *cocci_id/* sound/pci/fm801.c 231 */;
+	unsigned int cocci_id/* sound/pci/fm801.c 231 */;
+	const struct pci_device_id cocci_id/* sound/pci/fm801.c 219 */[];
+	u16 cocci_id/* sound/pci/fm801.c 214 */;
+	unsigned short cocci_id/* sound/pci/fm801.c 214 */;
+	void cocci_id/* sound/pci/fm801.c 209 */;
+	struct fm801 {
+		struct device *dev;
+		int irq;
+		unsigned long port;
+		unsigned int multichannel:1,secondary:1;
+		unsigned char secondary_addr;
+		unsigned int tea575x_tuner;
+		unsigned short ply_ctrl;
+		unsigned short cap_ctrl;
+		unsigned long ply_buffer;
+		unsigned int ply_buf;
+		unsigned int ply_count;
+		unsigned int ply_size;
+		unsigned int ply_pos;
+		unsigned long cap_buffer;
+		unsigned int cap_buf;
+		unsigned int cap_count;
+		unsigned int cap_size;
+		unsigned int cap_pos;
+		struct snd_ac97_bus *ac97_bus;
+		struct snd_ac97 *ac97;
+		struct snd_ac97 *ac97_sec;
+		struct snd_card *card;
+		struct snd_pcm *pcm;
+		struct snd_rawmidi *rmidi;
+		struct snd_pcm_substream *playback_substream;
+		struct snd_pcm_substream *capture_substream;
+		unsigned int p_dma_size;
+		unsigned int c_dma_size;
+		spinlock_t reg_lock;
+		struct snd_info_entry *proc_entry;
+#ifdef CONFIG_SND_FM801_TEA575X_BOOL
+		struct v4l2_device v4l2_dev;
+		struct snd_tea575x tea;
+#endif
+#ifdef CONFIG_PM_SLEEP
+		u16 saved_regs[0x20];
+#endif
+	} cocci_id/* sound/pci/fm801.c 155 */;
+	struct pci_driver cocci_id/* sound/pci/fm801.c 1442 */;
+	struct device *cocci_id/* sound/pci/fm801.c 1408 */;
+	unsigned char cocci_id/* sound/pci/fm801.c 1380 */[];
+	struct snd_opl3 *cocci_id/* sound/pci/fm801.c 1308 */;
+	struct snd_card *cocci_id/* sound/pci/fm801.c 1306 */;
+	const struct pci_device_id *cocci_id/* sound/pci/fm801.c 1303 */;
+	struct pci_dev *cocci_id/* sound/pci/fm801.c 1302 */;
+	struct snd_device_ops cocci_id/* sound/pci/fm801.c 1204 */;
+	struct fm801 **cocci_id/* sound/pci/fm801.c 1200 */;
+	struct snd_device *cocci_id/* sound/pci/fm801.c 1190 */;
+	int cocci_id/* sound/pci/fm801.c 1099 */;
+	struct snd_ac97_bus_ops cocci_id/* sound/pci/fm801.c 1041 */;
+	struct snd_ac97_template cocci_id/* sound/pci/fm801.c 1038 */;
+	struct snd_ac97_bus *cocci_id/* sound/pci/fm801.c 1020 */;
+}

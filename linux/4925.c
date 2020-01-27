@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct ib_gid_attr cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 93 */;
+	const struct ib_gid_attr *cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 76 */;
+	void **cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 76 */;
+	u8 *cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 61 */;
+	unsigned int cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 477 */;
+	const struct ib_device_ops cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 459 */;
+	struct ib_port_attr cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 381 */;
+	struct ib_port_immutable *cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 379 */;
+	struct vm_area_struct *cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 347 */;
+	void cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 339 */;
+	struct hns_roce_ib_alloc_ucontext_resp cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 309 */;
+	struct hns_roce_ucontext *cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 308 */;
+	struct ib_udata *cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 305 */;
+	struct ib_ucontext *cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 304 */;
+	struct ib_device_modify *cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 288 */;
+	u16 *cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 280 */;
+	u16 cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 279 */;
+	enum rdma_link_layer cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 273 */;
+	struct ib_device *cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 273 */;
+	enum ib_mtu cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 233 */;
+	struct ib_port_attr *cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 227 */;
+	u64 cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 190 */;
+	struct ib_device_attr *cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 181 */;
+	struct hns_roce_dev cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 147 */;
+	struct hns_roce_ib_iboe *cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 142 */;
+	void *cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 139 */;
+	struct notifier_block *cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 138 */;
+	u32 cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 131 */;
+	struct net_device *cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 109 */;
+	struct device *cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 108 */;
+	unsigned long cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 106 */;
+	u8 cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 105 */;
+	struct hns_roce_dev *cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 105 */;
+	int cocci_id/* drivers/infiniband/hw/hns/hns_roce_main.c 105 */;
+}

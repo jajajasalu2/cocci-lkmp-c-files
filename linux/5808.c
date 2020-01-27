@@ -1,0 +1,72 @@
+cocci_test_suite() {
+	struct sprd_pin cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 987 */;
+	struct sprd_pins_info *cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 977 */;
+	char *cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 939 */;
+	struct sprd_pin_group cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 933 */;
+	const char **cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 921 */;
+	enum pin_func_sel{PIN_FUNC_1, PIN_FUNC_2, PIN_FUNC_3, PIN_FUNC_4, PIN_FUNC_MAX,} cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 88 */;
+	struct property *cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 868 */;
+	struct pinctrl_desc cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 852 */;
+	const struct pin_config_item cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 846 */[];
+	const struct pinconf_generic_params cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 840 */[];
+	const struct pinconf_ops cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 830 */;
+	struct sprd_pin_group *cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 807 */;
+	enum pin_sleep_mode{AP_SLEEP=BIT(0), PUBCP_SLEEP=BIT(1), TGLDSP_SLEEP=BIT(2), AGDSP_SLEEP=BIT(3), CM4_SLEEP=BIT(4),} cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 80 */;
+	unsigned long cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 791 */;
+	bool cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 589 */;
+	void __iomem *cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 450 */;
+	struct sprd_pin *cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 442 */;
+	const struct pinmux_ops cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 431 */;
+	unsigned int *constcocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 373 */;
+	const char *const**cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 372 */;
+	const struct pinctrl_ops cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 339 */;
+	struct seq_file *cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 333 */;
+	void cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 333 */;
+	enum pinctrl_map_type cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 254 */;
+	const char *cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 253 */;
+	unsigned int cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 250 */;
+	unsigned long *cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 249 */;
+	const struct sprd_pin_group *cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 248 */;
+	struct sprd_pinctrl *cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 247 */;
+	unsigned int *cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 245 */;
+	struct pinctrl_map **cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 244 */;
+	struct device_node *cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 243 */;
+	struct pinctrl_dev *cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 242 */;
+	int cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 242 */;
+	const unsigned int **cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 227 */;
+	struct sprd_pinctrl_soc_info *cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 211 */;
+	struct sprd_pinctrl {
+		struct device *dev;
+		struct pinctrl_dev *pctl;
+		void __iomem *base;
+		struct sprd_pinctrl_soc_info *info;
+	} cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 149 */;
+	struct sprd_pinctrl_soc_info {
+		struct sprd_pin_group *groups;
+		unsigned int ngroups;
+		struct sprd_pin *pins;
+		unsigned int npins;
+		const char **grp_names;
+	} cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 134 */;
+	struct sprd_pin_group {
+		const char *name;
+		unsigned int npins;
+		unsigned int *pins;
+	} cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 120 */;
+	struct pinctrl_state *cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 1105 */;
+	struct pinctrl *cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 1104 */;
+	void *cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 1085 */;
+	struct pinctrl_pin_desc cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 1069 */;
+	struct sprd_pin {
+		const char *name;
+		unsigned int number;
+		enum pin_type type;
+		unsigned long reg;
+		unsigned long bit_offset;
+		unsigned long bit_width;
+	} cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 105 */;
+	struct sprd_pinctrl_soc_info cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 1046 */;
+	struct sprd_pinctrl cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 1036 */;
+	struct pinctrl_pin_desc *cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 1033 */;
+	struct platform_device *cocci_id/* drivers/pinctrl/sprd/pinctrl-sprd.c 1027 */;
+}

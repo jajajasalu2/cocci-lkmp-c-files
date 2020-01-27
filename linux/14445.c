@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	const struct video_device cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 785 */;
+	const struct v4l2_ioctl_ops cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 769 */;
+	struct v4l2_capability *cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 759 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 753 */;
+	struct v4l2_frequency_band *cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 743 */;
+	void *cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 742 */;
+	const struct v4l2_frequency *cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 703 */;
+	struct v4l2_frequency *cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 687 */;
+	const struct v4l2_tuner *cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 661 */;
+	struct v4l2_tuner *cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 601 */;
+	struct si470x_device cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 578 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 575 */;
+	const struct v4l2_file_operations cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 559 */;
+	struct si470x_device *cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 539 */;
+	struct file *cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 537 */;
+	int cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 537 */;
+	struct poll_table_struct *cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 516 */;
+	__poll_t cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 515 */;
+	loff_t *cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 460 */;
+	size_t cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 460 */;
+	char __user *cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 459 */;
+	ssize_t cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 459 */;
+	const struct v4l2_hw_freq_seek *cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 295 */;
+	unsigned int *cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 259 */;
+	bool cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 197 */;
+	unsigned long cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 196 */;
+	const struct v4l2_frequency_band cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 133 */[];
+	unsigned int cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 129 */;
+	unsigned short cocci_id/* drivers/media/radio/si470x/radio-si470x-common.c 119 */;
+}

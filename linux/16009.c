@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	struct drvextra_cmd_parm *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 949 */;
+	u8 *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 943 */;
+	u8 cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 941 */;
+	struct adapter *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 941 */;
+	void cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 941 */;
+	u16 cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 905 */;
+	struct pwrctrl_priv *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 827 */;
+	struct mlme_priv *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 809 */;
+	struct SetChannelPlan_param *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 700 */;
+	struct addBaReq_parm *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 638 */;
+	struct cmd_priv *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 636 */;
+	struct cmd_obj cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 62 */;
+	struct set_stakey_rsp cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 619 */;
+	struct set_stakey_rsp *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 589 */;
+	struct set_stakey_parm *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 587 */;
+	struct setopmode_parm *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 522 */;
+	struct disconnect_parm *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 483 */;
+	u32 cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 480 */;
+	bool cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 480 */;
+	unsigned char cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 406 */;
+	unsigned long cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 40 */;
+	struct cmd_obj *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 38 */;
+	struct __queue *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 38 */;
+	int cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 38 */;
+	struct wlan_bssid_ex cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 372 */;
+	struct mlme_ext_info *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 357 */;
+	struct mlme_ext_priv *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 356 */;
+	enum ndis_802_11_network_infra cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 355 */;
+	struct ht_priv *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 354 */;
+	struct registry_priv *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 353 */;
+	struct security_priv *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 352 */;
+	struct qos_priv *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 351 */;
+	uint cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 346 */;
+	unsigned char *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 332 */;
+	struct wlan_bssid_ex *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 314 */;
+	struct rtw_ieee80211_channel cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 279 */;
+	struct ndis_802_11_ssid cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 267 */;
+	struct sitesurvey_parm *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 236 */;
+	struct rtw_ieee80211_channel *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 232 */;
+	struct ndis_802_11_ssid *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 231 */;
+	void (*cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 143 */)(struct adapter *dev,
+									   struct cmd_obj *pcmd);
+	u8 (*cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 142 */)(struct adapter *padapter,
+									 u8 *pbuf);
+	void *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 138 */;
+	struct set_assocsta_rsp *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 1257 */;
+	struct set_assocsta_parm *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 1256 */;
+	struct wlan_network *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 1175 */;
+	struct sta_priv *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 1013 */;
+	struct sta_info *cocci_id/* drivers/staging/rtl8188eu/core/rtw_cmd.c 1012 */;
+}

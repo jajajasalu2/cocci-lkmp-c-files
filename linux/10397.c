@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct dma_fence *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 89 */;
+	struct sync_file *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 75 */;
+	struct virtio_gpu_object_array *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 74 */;
+	void __user *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 73 */;
+	uint32_t *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 72 */;
+	struct virtio_gpu_fence *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 70 */;
+	struct virtio_gpu_fpriv *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 69 */;
+	struct virtio_gpu_device *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 68 */;
+	struct drm_virtgpu_execbuffer *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 67 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 65 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 64 */;
+	void *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 64 */;
+	int cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 64 */;
+	struct drm_virtgpu_map *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 51 */;
+	struct drm_ioctl_desc cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 482 */[DRM_VIRTIO_NUM_IOCTLS];
+	struct virtio_gpu_drv_cap_cache *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 423 */;
+	unsigned cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 419 */;
+	struct drm_virtgpu_get_caps *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 418 */;
+	long cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 392 */;
+	struct drm_virtgpu_3d_wait *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 390 */;
+	const struct drm_virtgpu_3d_box *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 37 */;
+	struct virtio_gpu_box *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 36 */;
+	void cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 36 */;
+	struct drm_virtgpu_3d_transfer_to_host *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 345 */;
+	struct virtio_gpu_box cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 307 */;
+	u32 cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 306 */;
+	struct drm_virtgpu_3d_transfer_from_host *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 302 */;
+	struct drm_virtgpu_resource_info *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 280 */;
+	struct virtio_gpu_object_params cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 223 */;
+	struct drm_gem_object *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 221 */;
+	struct virtio_gpu_object *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 220 */;
+	struct drm_virtgpu_resource_create *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 217 */;
+	struct drm_virtgpu_getparam *cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 194 */;
+	uint32_t cocci_id/* drivers/gpu/drm/virtio/virtgpu_ioctl.c 117 */;
+}

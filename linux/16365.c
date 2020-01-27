@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	const char cocci_id/* drivers/hid/hid-uclogic-params.c 714 */[];
+	struct uclogic_params cocci_id/* drivers/hid/hid-uclogic-params.c 713 */;
+	struct usb_interface *cocci_id/* drivers/hid/hid-uclogic-params.c 709 */;
+	__u8 cocci_id/* drivers/hid/hid-uclogic-params.c 65 */;
+	unsigned int *cocci_id/* drivers/hid/hid-uclogic-params.c 538 */;
+	__u8 **cocci_id/* drivers/hid/hid-uclogic-params.c 537 */;
+	const struct uclogic_params *cocci_id/* drivers/hid/hid-uclogic-params.c 536 */;
+	struct uclogic_params *cocci_id/* drivers/hid/hid-uclogic-params.c 507 */;
+	void cocci_id/* drivers/hid/hid-uclogic-params.c 507 */;
+	const size_t cocci_id/* drivers/hid/hid-uclogic-params.c 454 */;
+	char *cocci_id/* drivers/hid/hid-uclogic-params.c 453 */;
+	struct usb_device *cocci_id/* drivers/hid/hid-uclogic-params.c 452 */;
+	bool cocci_id/* drivers/hid/hid-uclogic-params.c 451 */;
+	struct hid_device *cocci_id/* drivers/hid/hid-uclogic-params.c 448 */;
+	bool *cocci_id/* drivers/hid/hid-uclogic-params.c 447 */;
+	int cocci_id/* drivers/hid/hid-uclogic-params.c 445 */;
+	__u8 *cocci_id/* drivers/hid/hid-uclogic-params.c 413 */;
+	unsigned int cocci_id/* drivers/hid/hid-uclogic-params.c 411 */;
+	size_t cocci_id/* drivers/hid/hid-uclogic-params.c 410 */;
+	const __u8 *cocci_id/* drivers/hid/hid-uclogic-params.c 409 */;
+	struct uclogic_params_frame *cocci_id/* drivers/hid/hid-uclogic-params.c 386 */;
+	enum uclogic_params_pen_inrange cocci_id/* drivers/hid/hid-uclogic-params.c 32 */;
+	const char *cocci_id/* drivers/hid/hid-uclogic-params.c 31 */;
+	s32 cocci_id/* drivers/hid/hid-uclogic-params.c 243 */;
+	const void *cocci_id/* drivers/hid/hid-uclogic-params.c 243 */;
+	s32 cocci_id/* drivers/hid/hid-uclogic-params.c 149 */[UCLOGIC_RDESC_PEN_PH_ID_NUM];
+	const int cocci_id/* drivers/hid/hid-uclogic-params.c 146 */;
+	struct uclogic_params_pen *cocci_id/* drivers/hid/hid-uclogic-params.c 115 */;
+}

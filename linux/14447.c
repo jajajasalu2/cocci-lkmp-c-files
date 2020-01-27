@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	unsigned short cocci_id/* drivers/media/radio/radio-keene.c 72 */;
+	bool cocci_id/* drivers/media/radio/radio-keene.c 70 */;
+	struct keene_device *cocci_id/* drivers/media/radio/radio-keene.c 70 */;
+	unsigned cocci_id/* drivers/media/radio/radio-keene.c 70 */;
+	int cocci_id/* drivers/media/radio/radio-keene.c 70 */;
+	struct v4l2_device *cocci_id/* drivers/media/radio/radio-keene.c 64 */;
+	struct keene_device {
+		struct usb_device *usbdev;
+		struct usb_interface *intf;
+		struct video_device vdev;
+		struct v4l2_device v4l2_dev;
+		struct v4l2_ctrl_handler hdl;
+		struct mutex lock;
+		u8 *buffer;
+		unsigned curfreq;
+		u8 tx;
+		u8 pa;
+		bool stereo;
+		bool muted;
+		bool preemph_75_us;
+	} cocci_id/* drivers/media/radio/radio-keene.c 47 */;
+	struct usb_driver cocci_id/* drivers/media/radio/radio-keene.c 394 */;
+	const struct usb_device_id cocci_id/* drivers/media/radio/radio-keene.c 39 */[];
+	struct v4l2_ctrl_handler *cocci_id/* drivers/media/radio/radio-keene.c 299 */;
+	struct usb_device *cocci_id/* drivers/media/radio/radio-keene.c 297 */;
+	const struct usb_device_id *cocci_id/* drivers/media/radio/radio-keene.c 295 */;
+	const struct v4l2_ioctl_ops cocci_id/* drivers/media/radio/radio-keene.c 272 */;
+	const struct v4l2_ctrl_ops cocci_id/* drivers/media/radio/radio-keene.c 268 */;
+	const struct v4l2_file_operations cocci_id/* drivers/media/radio/radio-keene.c 260 */;
+	s32 cocci_id/* drivers/media/radio/radio-keene.c 253 */;
+	struct keene_device cocci_id/* drivers/media/radio/radio-keene.c 235 */;
+	const u8 cocci_id/* drivers/media/radio/radio-keene.c 228 */[];
+	struct v4l2_ctrl *cocci_id/* drivers/media/radio/radio-keene.c 226 */;
+	struct v4l2_frequency *cocci_id/* drivers/media/radio/radio-keene.c 215 */;
+	struct file *cocci_id/* drivers/media/radio/radio-keene.c 214 */;
+	void *cocci_id/* drivers/media/radio/radio-keene.c 214 */;
+	const struct v4l2_frequency *cocci_id/* drivers/media/radio/radio-keene.c 203 */;
+	const struct v4l2_modulator *cocci_id/* drivers/media/radio/radio-keene.c 191 */;
+	struct v4l2_modulator *cocci_id/* drivers/media/radio/radio-keene.c 175 */;
+	struct v4l2_capability *cocci_id/* drivers/media/radio/radio-keene.c 164 */;
+	pm_message_t cocci_id/* drivers/media/radio/radio-keene.c 146 */;
+	struct usb_interface *cocci_id/* drivers/media/radio/radio-keene.c 134 */;
+	void cocci_id/* drivers/media/radio/radio-keene.c 134 */;
+}

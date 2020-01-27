@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	void *cocci_id/* fs/fuse/readdir.c 42 */;
+	unsigned int cocci_id/* fs/fuse/readdir.c 41 */;
+	u64 cocci_id/* fs/fuse/readdir.c 40 */;
+	struct page *cocci_id/* fs/fuse/readdir.c 38 */;
+	enum fuse_parse_result cocci_id/* fs/fuse/readdir.c 377 */;
+	enum fuse_parse_result{FOUND_ERR=-1, FOUND_NONE=0, FOUND_SOME, FOUND_ALL,} cocci_id/* fs/fuse/readdir.c 370 */;
+	pgoff_t cocci_id/* fs/fuse/readdir.c 37 */;
+	size_t cocci_id/* fs/fuse/readdir.c 36 */;
+	struct fuse_inode *cocci_id/* fs/fuse/readdir.c 35 */;
+	loff_t cocci_id/* fs/fuse/readdir.c 33 */;
+	struct fuse_dirent *cocci_id/* fs/fuse/readdir.c 33 */;
+	struct fuse_page_desc cocci_id/* fs/fuse/readdir.c 326 */;
+	struct fuse_args_pages *cocci_id/* fs/fuse/readdir.c 325 */;
+	struct fuse_io_args cocci_id/* fs/fuse/readdir.c 324 */;
+	ssize_t cocci_id/* fs/fuse/readdir.c 320 */;
+	struct file *cocci_id/* fs/fuse/readdir.c 32 */;
+	void cocci_id/* fs/fuse/readdir.c 32 */;
+	struct fuse_forget_in cocci_id/* fs/fuse/readdir.c 256 */;
+	struct fuse_conn *cocci_id/* fs/fuse/readdir.c 159 */;
+	struct inode *cocci_id/* fs/fuse/readdir.c 158 */;
+	struct qstr cocci_id/* fs/fuse/readdir.c 155 */;
+	struct dentry *cocci_id/* fs/fuse/readdir.c 154 */;
+	struct fuse_entry_out *cocci_id/* fs/fuse/readdir.c 152 */;
+	struct fuse_direntplus *cocci_id/* fs/fuse/readdir.c 149 */;
+	int cocci_id/* fs/fuse/readdir.c 148 */;
+	char *cocci_id/* fs/fuse/readdir.c 124 */;
+	struct fuse_file *cocci_id/* fs/fuse/readdir.c 115 */;
+	bool cocci_id/* fs/fuse/readdir.c 112 */;
+	struct dir_context *cocci_id/* fs/fuse/readdir.c 112 */;
+}

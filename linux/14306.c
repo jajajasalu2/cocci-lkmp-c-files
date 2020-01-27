@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/media/dvb-frontends/rtl2832.c 979 */[4];
+	u8 cocci_id/* drivers/media/dvb-frontends/rtl2832.c 973 */;
+	u16 cocci_id/* drivers/media/dvb-frontends/rtl2832.c 973 */;
+	bool cocci_id/* drivers/media/dvb-frontends/rtl2832.c 896 */;
+	struct i2c_adapter *cocci_id/* drivers/media/dvb-frontends/rtl2832.c 888 */;
+	struct i2c_client *cocci_id/* drivers/media/dvb-frontends/rtl2832.c 880 */;
+	struct dvb_frontend *cocci_id/* drivers/media/dvb-frontends/rtl2832.c 880 */;
+	struct device *cocci_id/* drivers/media/dvb-frontends/rtl2832.c 864 */;
+	unsigned int cocci_id/* drivers/media/dvb-frontends/rtl2832.c 864 */;
+	const struct dvb_frontend_ops cocci_id/* drivers/media/dvb-frontends/rtl2832.c 827 */;
+	struct rtl2832_dev *cocci_id/* drivers/media/dvb-frontends/rtl2832.c 821 */;
+	u32 cocci_id/* drivers/media/dvb-frontends/rtl2832.c 819 */;
+	struct i2c_mux_core *cocci_id/* drivers/media/dvb-frontends/rtl2832.c 819 */;
+	int cocci_id/* drivers/media/dvb-frontends/rtl2832.c 819 */;
+	struct rtl2832_dev cocci_id/* drivers/media/dvb-frontends/rtl2832.c 785 */;
+	struct work_struct *cocci_id/* drivers/media/dvb-frontends/rtl2832.c 783 */;
+	void cocci_id/* drivers/media/dvb-frontends/rtl2832.c 783 */;
+	u16 *cocci_id/* drivers/media/dvb-frontends/rtl2832.c 754 */;
+	const u32 cocci_id/* drivers/media/dvb-frontends/rtl2832.c 690 */[CONSTELLATION_NUM][HIERARCHY_NUM];
+	unsigned cocci_id/* drivers/media/dvb-frontends/rtl2832.c 687 */;
+	enum fe_status *cocci_id/* drivers/media/dvb-frontends/rtl2832.c 637 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/rtl2832.c 530 */[3];
+	struct dtv_frontend_properties *cocci_id/* drivers/media/dvb-frontends/rtl2832.c 525 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/rtl2832.c 411 */[3][32];
+	u64 cocci_id/* drivers/media/dvb-frontends/rtl2832.c 409 */;
+	struct dvb_frontend_tune_settings *cocci_id/* drivers/media/dvb-frontends/rtl2832.c 391 */;
+	struct rtl2832_reg_value cocci_id/* drivers/media/dvb-frontends/rtl2832.c 253 */[];
+	const struct rtl2832_reg_value *cocci_id/* drivers/media/dvb-frontends/rtl2832.c 250 */;
+	u32 *cocci_id/* drivers/media/dvb-frontends/rtl2832.c 143 */;
+	const struct rtl2832_reg_entry cocci_id/* drivers/media/dvb-frontends/rtl2832.c 13 */[];
+	struct i2c_driver cocci_id/* drivers/media/dvb-frontends/rtl2832.c 1135 */;
+	const struct i2c_device_id cocci_id/* drivers/media/dvb-frontends/rtl2832.c 1129 */[];
+	struct dvb_frontend_ops cocci_id/* drivers/media/dvb-frontends/rtl2832.c 1090 */;
+	const struct regmap_range_cfg cocci_id/* drivers/media/dvb-frontends/rtl2832.c 1031 */[];
+	struct rtl2832_platform_data *cocci_id/* drivers/media/dvb-frontends/rtl2832.c 1026 */;
+	const struct i2c_device_id *cocci_id/* drivers/media/dvb-frontends/rtl2832.c 1024 */;
+}

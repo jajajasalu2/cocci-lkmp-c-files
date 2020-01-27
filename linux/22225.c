@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	bool *cocci_id/* mm/gup.c 956 */;
+	struct page *cocci_id/* mm/gup.c 810 */;
+	struct follow_page_context cocci_id/* mm/gup.c 792 */;
+	struct vm_area_struct *cocci_id/* mm/gup.c 791 */;
+	struct vm_area_struct **cocci_id/* mm/gup.c 788 */;
+	int *cocci_id/* mm/gup.c 788 */;
+	struct page **cocci_id/* mm/gup.c 787 */;
+	unsigned int cocci_id/* mm/gup.c 787 */;
+	unsigned long cocci_id/* mm/gup.c 786 */;
+	struct task_struct *cocci_id/* mm/gup.c 785 */;
+	struct mm_struct *cocci_id/* mm/gup.c 785 */;
+	long cocci_id/* mm/gup.c 785 */;
+	vm_flags_t cocci_id/* mm/gup.c 678 */;
+	vm_fault_t cocci_id/* mm/gup.c 622 */;
+	unsigned int *cocci_id/* mm/gup.c 619 */;
+	p4d_t *cocci_id/* mm/gup.c 468 */;
+	struct follow_page_context *cocci_id/* mm/gup.c 466 */;
+	pgd_t *cocci_id/* mm/gup.c 464 */;
+	struct follow_page_context {
+		struct dev_pagemap *pgmap;
+		unsigned int page_mask;
+	} cocci_id/* mm/gup.c 27 */;
+	void __user *cocci_id/* mm/gup.c 2347 */;
+	int cocci_id/* mm/gup.c 2334 */;
+	void cocci_id/* mm/gup.c 2282 */;
+	p4d_t cocci_id/* mm/gup.c 2265 */;
+	pgd_t cocci_id/* mm/gup.c 2149 */;
+	hugepd_t cocci_id/* mm/gup.c 2040 */;
+	pud_t cocci_id/* mm/gup.c 1949 */;
+	pud_t *cocci_id/* mm/gup.c 1949 */;
+	pmd_t cocci_id/* mm/gup.c 1932 */;
+	pmd_t *cocci_id/* mm/gup.c 1932 */;
+	struct dev_pagemap *cocci_id/* mm/gup.c 1910 */;
+	swp_entry_t cocci_id/* mm/gup.c 189 */;
+	pte_t *cocci_id/* mm/gup.c 180 */;
+	void __maybe_unused cocci_id/* mm/gup.c 1799 */;
+	spinlock_t *cocci_id/* mm/gup.c 179 */;
+	struct dev_pagemap **cocci_id/* mm/gup.c 175 */;
+	pte_t cocci_id/* mm/gup.c 167 */;
+	struct hstate *cocci_id/* mm/gup.c 1415 */;
+	gfp_t cocci_id/* mm/gup.c 1408 */;
+	bool cocci_id/* mm/gup.c 1014 */;
+}

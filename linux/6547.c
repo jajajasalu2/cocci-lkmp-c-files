@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct qedi_dbg_ctx *cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 98 */;
+	const char __user *cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 94 */;
+	const struct qedi_debugfs_ops cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 86 */[];
+	struct qedi_list_of_funcs cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 80 */[];
+	void cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 51 */;
+	char *cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 46 */;
+	const struct file_operations cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 223 */[];
+	char cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 22 */[32];
+	const struct file_operations *cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 20 */;
+	const struct qedi_debugfs_ops *cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 19 */;
+	struct qedi_io_log *cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 181 */;
+	struct qedi_ctx cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 170 */;
+	struct qedi_ctx *cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 170 */;
+	struct inode *cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 167 */;
+	struct dentry *cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 15 */;
+	unsigned long cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 144 */;
+	u16 cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 142 */;
+	struct global_queue *cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 140 */;
+	struct status_block_e4 *cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 139 */;
+	struct qed_sb_info *cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 138 */;
+	struct qedi_fastpath *cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 137 */;
+	struct seq_file *cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 135 */;
+	void *cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 135 */;
+	int cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 129 */;
+	loff_t *cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 121 */;
+	size_t cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 121 */;
+	struct file *cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 120 */;
+	char __user *cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 120 */;
+	ssize_t cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 119 */;
+	struct qedi_list_of_funcs *cocci_id/* drivers/scsi/qedi/qedi_debugfs.c 100 */;
+}

@@ -1,0 +1,63 @@
+cocci_test_suite() {
+	struct einj_parameter {
+		u64 type;
+		u64 reserved1;
+		u64 reserved2;
+		u64 param1;
+		u64 param2;
+	} cocci_id/* drivers/acpi/apei/einj.c 84 */;
+	struct einj_parameter cocci_id/* drivers/acpi/apei/einj.c 774 */;
+	struct set_error_type_with_address cocci_id/* drivers/acpi/apei/einj.c 773 */;
+	acpi_size cocci_id/* drivers/acpi/apei/einj.c 772 */;
+	void __exit cocci_id/* drivers/acpi/apei/einj.c 767 */;
+	char cocci_id/* drivers/acpi/apei/einj.c 75 */[64];
+	struct debugfs_blob_wrapper cocci_id/* drivers/acpi/apei/einj.c 74 */;
+	struct acpi_table_header **cocci_id/* drivers/acpi/apei/einj.c 681 */;
+	acpi_status cocci_id/* drivers/acpi/apei/einj.c 672 */;
+	int __init cocci_id/* drivers/acpi/apei/einj.c 669 */;
+	struct acpi_einj_entry cocci_id/* drivers/acpi/apei/einj.c 663 */;
+	struct acpi_table_einj cocci_id/* drivers/acpi/apei/einj.c 656 */;
+	struct acpi_table_einj *cocci_id/* drivers/acpi/apei/einj.c 653 */;
+	struct vendor_error_type_extension {
+		u32 length;
+		u32 pcie_sbdf;
+		u16 vendor_id;
+		u16 device_id;
+		u8 rev_id;
+		u8 reserved[3];
+	} cocci_id/* drivers/acpi/apei/einj.c 62 */;
+	struct seq_file *cocci_id/* drivers/acpi/apei/einj.c 566 */;
+	void *cocci_id/* drivers/acpi/apei/einj.c 566 */;
+	struct dentry *cocci_id/* drivers/acpi/apei/einj.c 564 */;
+	enum{SETWA_FLAGS_APICID=1, SETWA_FLAGS_MEM=2, SETWA_FLAGS_PCIE_SBDF=4,} cocci_id/* drivers/acpi/apei/einj.c 53 */;
+	struct einj_parameter *cocci_id/* drivers/acpi/apei/einj.c 467 */;
+	struct set_error_type_with_address {
+		u32 type;
+		u32 vendor_extension;
+		u32 flags;
+		u32 apicid;
+		u64 memory_address;
+		u64 memory_address_range;
+		u32 pcie_sbdf;
+	} cocci_id/* drivers/acpi/apei/einj.c 44 */;
+	struct set_error_type_with_address *cocci_id/* drivers/acpi/apei/einj.c 416 */;
+	struct apei_exec_context cocci_id/* drivers/acpi/apei/einj.c 405 */;
+	u64 cocci_id/* drivers/acpi/apei/einj.c 402 */;
+	u32 cocci_id/* drivers/acpi/apei/einj.c 402 */;
+	int cocci_id/* drivers/acpi/apei/einj.c 402 */;
+	struct acpi_einj_trigger cocci_id/* drivers/acpi/apei/einj.c 341 */;
+	char *cocci_id/* drivers/acpi/apei/einj.c 341 */;
+	unsigned long long cocci_id/* drivers/acpi/apei/einj.c 303 */;
+	struct acpi_generic_address *cocci_id/* drivers/acpi/apei/einj.c 297 */;
+	struct resource *cocci_id/* drivers/acpi/apei/einj.c 294 */;
+	struct acpi_whea_header *cocci_id/* drivers/acpi/apei/einj.c 293 */;
+	struct apei_resources cocci_id/* drivers/acpi/apei/einj.c 292 */;
+	struct acpi_einj_trigger *cocci_id/* drivers/acpi/apei/einj.c 290 */;
+	struct vendor_error_type_extension *cocci_id/* drivers/acpi/apei/einj.c 188 */;
+	void cocci_id/* drivers/acpi/apei/einj.c 184 */;
+	u64 *cocci_id/* drivers/acpi/apei/einj.c 172 */;
+	u32 *cocci_id/* drivers/acpi/apei/einj.c 146 */;
+	struct apei_exec_context *cocci_id/* drivers/acpi/apei/einj.c 140 */;
+	struct apei_exec_ins_type cocci_id/* drivers/acpi/apei/einj.c 108 */[];
+	bool cocci_id/* drivers/acpi/apei/einj.c 101 */;
+}

@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	struct sun3_udc_regs {
+		unsigned short rsel;
+		unsigned short addr_hi;
+		unsigned short addr_lo;
+		unsigned short count;
+		unsigned short mode_hi;
+		unsigned short mode_lo;
+	} cocci_id/* drivers/scsi/sun3_scsi.c 81 */;
+	struct platform_driver cocci_id/* drivers/scsi/sun3_scsi.c 659 */;
+	int __exit cocci_id/* drivers/scsi/sun3_scsi.c 643 */;
+	struct sun3_dma_regs {
+		unsigned short dma_addr_hi;
+		unsigned short dma_addr_lo;
+		unsigned short dma_count_hi;
+		unsigned short dma_count_lo;
+		unsigned short udc_data;
+		unsigned short udc_addr;
+		unsigned short fifo_data;
+		unsigned short fifo_count;
+		unsigned short csr;
+		unsigned short bpack_hi;
+		unsigned short bpack_lo;
+		unsigned short ivect;
+		unsigned short fifo_count_hi;
+	} cocci_id/* drivers/scsi/sun3_scsi.c 62 */;
+	struct NCR5380_hostdata cocci_id/* drivers/scsi/sun3_scsi.c 580 */;
+	struct sun3_udc_regs cocci_id/* drivers/scsi/sun3_scsi.c 571 */;
+	struct sun3_dma_regs *cocci_id/* drivers/scsi/sun3_scsi.c 543 */;
+	unsigned char cocci_id/* drivers/scsi/sun3_scsi.c 534 */;
+	void __iomem *cocci_id/* drivers/scsi/sun3_scsi.c 516 */;
+	struct resource *cocci_id/* drivers/scsi/sun3_scsi.c 515 */;
+	struct NCR5380_hostdata *cocci_id/* drivers/scsi/sun3_scsi.c 513 */;
+	struct platform_device *cocci_id/* drivers/scsi/sun3_scsi.c 510 */;
+	int __init cocci_id/* drivers/scsi/sun3_scsi.c 510 */;
+	struct scsi_host_template cocci_id/* drivers/scsi/sun3_scsi.c 494 */;
+	unsigned short __maybe_unused cocci_id/* drivers/scsi/sun3_scsi.c 371 */;
+	unsigned int cocci_id/* drivers/scsi/sun3_scsi.c 275 */;
+	unsigned short cocci_id/* drivers/scsi/sun3_scsi.c 196 */;
+	struct Scsi_Host *cocci_id/* drivers/scsi/sun3_scsi.c 195 */;
+	irqreturn_t cocci_id/* drivers/scsi/sun3_scsi.c 193 */;
+	void *cocci_id/* drivers/scsi/sun3_scsi.c 193 */;
+	int cocci_id/* drivers/scsi/sun3_scsi.c 193 */;
+	void cocci_id/* drivers/scsi/sun3_scsi.c 181 */;
+	unsigned long cocci_id/* drivers/scsi/sun3_scsi.c 164 */;
+	unsigned char *cocci_id/* drivers/scsi/sun3_scsi.c 161 */;
+	struct sun3_udc_regs *cocci_id/* drivers/scsi/sun3_scsi.c 160 */;
+	volatile struct sun3_dma_regs *cocci_id/* drivers/scsi/sun3_scsi.c 159 */;
+	struct scsi_cmnd *cocci_id/* drivers/scsi/sun3_scsi.c 158 */;
+	int cocci_id/* drivers/scsi/sun3_scsi.c 141 */(unsigned long, char *);
+}

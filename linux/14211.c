@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	int __maybe_unused cocci_id/* drivers/media/platform/qcom/camss/camss.c 997 */;
+	const struct of_device_id cocci_id/* drivers/media/platform/qcom/camss/camss.c 984 */[];
+	const struct resources_ispif cocci_id/* drivers/media/platform/qcom/camss/camss.c 95 */;
+	struct camss *cocci_id/* drivers/media/platform/qcom/camss/camss.c 943 */;
+	struct platform_device *cocci_id/* drivers/media/platform/qcom/camss/camss.c 812 */;
+	const struct media_device_ops cocci_id/* drivers/media/platform/qcom/camss/camss.c 802 */;
+	const struct v4l2_async_notifier_operations cocci_id/* drivers/media/platform/qcom/camss/camss.c 797 */;
+	struct v4l2_device *cocci_id/* drivers/media/platform/qcom/camss/camss.c 756 */;
+	struct csiphy_device *cocci_id/* drivers/media/platform/qcom/camss/camss.c 745 */;
+	u8 cocci_id/* drivers/media/platform/qcom/camss/camss.c 744 */;
+	struct camss cocci_id/* drivers/media/platform/qcom/camss/camss.c 741 */;
+	struct v4l2_async_notifier *cocci_id/* drivers/media/platform/qcom/camss/camss.c 737 */;
+	const struct resources cocci_id/* drivers/media/platform/qcom/camss/camss.c 59 */[];
+	unsigned int cocci_id/* drivers/media/platform/qcom/camss/camss.c 524 */;
+	const struct resources_ispif *cocci_id/* drivers/media/platform/qcom/camss/camss.c 522 */;
+	const struct resources *cocci_id/* drivers/media/platform/qcom/camss/camss.c 520 */;
+	struct camss_async_subdev cocci_id/* drivers/media/platform/qcom/camss/camss.c 495 */;
+	struct v4l2_async_subdev *cocci_id/* drivers/media/platform/qcom/camss/camss.c 474 */;
+	struct v4l2_fwnode_endpoint cocci_id/* drivers/media/platform/qcom/camss/camss.c 432 */;
+	struct v4l2_fwnode_bus_mipi_csi2 *cocci_id/* drivers/media/platform/qcom/camss/camss.c 431 */;
+	struct csiphy_lanes_cfg *cocci_id/* drivers/media/platform/qcom/camss/camss.c 430 */;
+	struct camss_async_subdev *cocci_id/* drivers/media/platform/qcom/camss/camss.c 428 */;
+	struct device_node *cocci_id/* drivers/media/platform/qcom/camss/camss.c 427 */;
+	struct v4l2_ctrl *cocci_id/* drivers/media/platform/qcom/camss/camss.c 380 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/platform/qcom/camss/camss.c 379 */;
+	u32 *cocci_id/* drivers/media/platform/qcom/camss/camss.c 376 */;
+	struct media_pad *cocci_id/* drivers/media/platform/qcom/camss/camss.c 351 */;
+	struct media_entity *cocci_id/* drivers/media/platform/qcom/camss/camss.c 349 */;
+	struct camss_clock *cocci_id/* drivers/media/platform/qcom/camss/camss.c 335 */;
+	int cocci_id/* drivers/media/platform/qcom/camss/camss.c 335 */;
+	struct device *cocci_id/* drivers/media/platform/qcom/camss/camss.c 308 */;
+	u64 *cocci_id/* drivers/media/platform/qcom/camss/camss.c 293 */;
+	void cocci_id/* drivers/media/platform/qcom/camss/camss.c 293 */;
+	struct platform_driver cocci_id/* drivers/media/platform/qcom/camss/camss.c 1008 */;
+}

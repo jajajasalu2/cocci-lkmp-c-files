@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	netdev_tx_t cocci_id/* drivers/net/usb/cdc-phonet.c 48 */;
+	void cocci_id/* drivers/net/usb/cdc-phonet.c 43 */(struct urb *req);
+	struct usb_interface *cocci_id/* drivers/net/usb/cdc-phonet.c 403 */;
+	struct usb_cdc_parsed_header cocci_id/* drivers/net/usb/cdc-phonet.c 324 */;
+	u8 *cocci_id/* drivers/net/usb/cdc-phonet.c 321 */;
+	struct usb_device *cocci_id/* drivers/net/usb/cdc-phonet.c 318 */;
+	const struct usb_host_interface *cocci_id/* drivers/net/usb/cdc-phonet.c 316 */;
+	const struct usb_cdc_union_desc *cocci_id/* drivers/net/usb/cdc-phonet.c 315 */;
+	const char cocci_id/* drivers/net/usb/cdc-phonet.c 314 */[];
+	const struct usb_device_id *cocci_id/* drivers/net/usb/cdc-phonet.c 312 */;
+	struct usb_driver cocci_id/* drivers/net/usb/cdc-phonet.c 310 */;
+	const struct usb_device_id cocci_id/* drivers/net/usb/cdc-phonet.c 296 */[];
+	const struct net_device_ops cocci_id/* drivers/net/usb/cdc-phonet.c 268 */;
+	struct if_phonet_req *cocci_id/* drivers/net/usb/cdc-phonet.c 258 */;
+	struct ifreq *cocci_id/* drivers/net/usb/cdc-phonet.c 256 */;
+	struct usbpn_dev {
+		struct net_device *dev;
+		struct usb_interface *intf,*data_intf;
+		struct usb_device *usb;
+		unsigned int tx_pipe,rx_pipe;
+		u8 active_setting;
+		u8 disconnected;
+		unsigned tx_queue;
+		spinlock_t tx_lock;
+		spinlock_t rx_lock;
+		struct sk_buff *rx_skb;
+		struct urb *urbs[0];
+	} cocci_id/* drivers/net/usb/cdc-phonet.c 25 */;
+	unsigned cocci_id/* drivers/net/usb/cdc-phonet.c 238 */;
+	const unsigned cocci_id/* drivers/net/usb/cdc-phonet.c 23 */;
+	int cocci_id/* drivers/net/usb/cdc-phonet.c 207 */(struct net_device *dev);
+	int cocci_id/* drivers/net/usb/cdc-phonet.c 144 */;
+	unsigned long cocci_id/* drivers/net/usb/cdc-phonet.c 143 */;
+	struct sk_buff *cocci_id/* drivers/net/usb/cdc-phonet.c 142 */;
+	struct page *cocci_id/* drivers/net/usb/cdc-phonet.c 141 */;
+	struct usbpn_dev *cocci_id/* drivers/net/usb/cdc-phonet.c 140 */;
+	struct net_device *cocci_id/* drivers/net/usb/cdc-phonet.c 139 */;
+	struct urb *cocci_id/* drivers/net/usb/cdc-phonet.c 137 */;
+	void cocci_id/* drivers/net/usb/cdc-phonet.c 137 */;
+	gfp_t cocci_id/* drivers/net/usb/cdc-phonet.c 116 */;
+}

@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	struct udphdr *cocci_id/* net/netfilter/nf_flow_table_ip.c 57 */;
+	struct inet6_skb_parm cocci_id/* net/netfilter/nf_flow_table_ip.c 518 */;
+	void *cocci_id/* net/netfilter/nf_flow_table_ip.c 48 */;
+	struct rt6_info *cocci_id/* net/netfilter/nf_flow_table_ip.c 477 */;
+	const struct in6_addr *cocci_id/* net/netfilter/nf_flow_table_ip.c 473 */;
+	struct tcphdr *cocci_id/* net/netfilter/nf_flow_table_ip.c 42 */;
+	struct in6_addr cocci_id/* net/netfilter/nf_flow_table_ip.c 390 */;
+	struct ipv6hdr *cocci_id/* net/netfilter/nf_flow_table_ip.c 386 */;
+	struct in6_addr *cocci_id/* net/netfilter/nf_flow_table_ip.c 343 */;
+	struct inet_skb_parm cocci_id/* net/netfilter/nf_flow_table_ip.c 289 */;
+	u32 cocci_id/* net/netfilter/nf_flow_table_ip.c 283 */;
+	struct flow_offload cocci_id/* net/netfilter/nf_flow_table_ip.c 261 */;
+	struct rtable *cocci_id/* net/netfilter/nf_flow_table_ip.c 245 */;
+	struct net_device *cocci_id/* net/netfilter/nf_flow_table_ip.c 244 */;
+	struct flow_offload *cocci_id/* net/netfilter/nf_flow_table_ip.c 243 */;
+	struct flow_offload_tuple cocci_id/* net/netfilter/nf_flow_table_ip.c 241 */;
+	struct nf_flowtable *cocci_id/* net/netfilter/nf_flow_table_ip.c 240 */;
+	struct flow_offload_tuple_rhash *cocci_id/* net/netfilter/nf_flow_table_ip.c 239 */;
+	const struct nf_hook_state *cocci_id/* net/netfilter/nf_flow_table_ip.c 237 */;
+	struct dst_entry *cocci_id/* net/netfilter/nf_flow_table_ip.c 217 */;
+	const struct sk_buff *cocci_id/* net/netfilter/nf_flow_table_ip.c 206 */;
+	struct flow_ports *cocci_id/* net/netfilter/nf_flow_table_ip.c 167 */;
+	struct flow_offload_tuple *cocci_id/* net/netfilter/nf_flow_table_ip.c 165 */;
+	const struct net_device *cocci_id/* net/netfilter/nf_flow_table_ip.c 164 */;
+	struct iphdr cocci_id/* net/netfilter/nf_flow_table_ip.c 161 */;
+	bool cocci_id/* net/netfilter/nf_flow_table_ip.c 159 */;
+	unsigned int cocci_id/* net/netfilter/nf_flow_table_ip.c 159 */;
+	__be32 cocci_id/* net/netfilter/nf_flow_table_ip.c 121 */;
+	enum flow_offload_tuple_dir cocci_id/* net/netfilter/nf_flow_table_ip.c 119 */;
+	struct iphdr *cocci_id/* net/netfilter/nf_flow_table_ip.c 118 */;
+	const struct flow_offload *cocci_id/* net/netfilter/nf_flow_table_ip.c 117 */;
+	struct sk_buff *cocci_id/* net/netfilter/nf_flow_table_ip.c 117 */;
+	int cocci_id/* net/netfilter/nf_flow_table_ip.c 117 */;
+}

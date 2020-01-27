@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct regulator *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 92 */;
+	int __init cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 807 */;
+	void cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 807 */;
+	struct platform_driver cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 796 */;
+	const struct of_device_id cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 791 */[];
+	const struct dev_pm_ops cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 786 */;
+	const struct component_ops cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 752 */;
+	struct platform_device *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 671 */;
+	struct device *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 669 */;
+	void *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 669 */;
+	int cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 669 */;
+	struct omap_hdmi_audio_pdata cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 654 */;
+	const struct omap_hdmi_audio_ops cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 644 */;
+	struct omap_hdmi *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 622 */;
+	struct omap_dss_audio *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 620 */;
+	u32 cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 62 */;
+	struct hdmi_wp_data *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 61 */;
+	irqreturn_t cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 59 */;
+	unsigned long cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 589 */;
+	void (*cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 553 */)(struct device *dev);
+	struct device_node *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 531 */;
+	const struct omapdss_hdmi_ops cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 491 */;
+	const struct hdmi_avi_infoframe *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 478 */;
+	bool cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 458 */;
+	u8 *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 456 */;
+	struct omap_overlay_manager *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 415 */;
+	struct omap_dss_device *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 412 */;
+	struct omap_hdmi cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 33 */;
+	struct seq_file *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 268 */;
+	struct omap_video_timings *cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 240 */;
+	struct dss_pll_clock_info cocci_id/* drivers/video/fbdev/omap2/omapfb/dss/hdmi4.c 149 */;
+}

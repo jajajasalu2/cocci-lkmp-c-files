@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct xenbus_device cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 97 */;
+	struct work_struct *cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 95 */;
+	struct xenbus_watch *cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 89 */;
+	void cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 89 */;
+	struct kobj_uevent_env *cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 78 */;
+	struct xen_bus_type *cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 54 */;
+	int __init cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 512 */;
+	struct notifier_block cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 493 */;
+	unsigned long cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 477 */;
+	struct notifier_block *cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 476 */;
+	char **cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 457 */;
+	char *cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 422 */;
+	long cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 370 */;
+	char cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 36 */[XEN_BUS_ID_SIZE];
+	const char *cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 336 */;
+	struct xenbus_driver *cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 335 */;
+	struct module *cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 335 */;
+	int cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 335 */;
+	unsigned int cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 314 */;
+	unsigned int *cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 279 */;
+	enum xenbus_state cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 265 */;
+	struct device_driver *cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 241 */;
+	struct device *cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 232 */;
+	void *cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 232 */;
+	struct xenbus_device *cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 200 */;
+	bool cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 198 */;
+	struct xenbus_watch cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 188 */;
+	struct xen_bus_type cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 159 */;
+	const struct dev_pm_ops cocci_id/* drivers/xen/xenbus/xenbus_probe_frontend.c 151 */;
+}

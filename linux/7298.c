@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct pwm_state cocci_id/* drivers/video/backlight/pwm_bl.c 93 */;
+	struct pwm_bl_data *cocci_id/* drivers/video/backlight/pwm_bl.c 90 */;
+	int cocci_id/* drivers/video/backlight/pwm_bl.c 90 */;
+	struct platform_driver cocci_id/* drivers/video/backlight/pwm_bl.c 722 */;
+	const struct dev_pm_ops cocci_id/* drivers/video/backlight/pwm_bl.c 713 */;
+	void cocci_id/* drivers/video/backlight/pwm_bl.c 68 */;
+	struct backlight_properties cocci_id/* drivers/video/backlight/pwm_bl.c 459 */;
+	struct platform_pwm_backlight_data cocci_id/* drivers/video/backlight/pwm_bl.c 458 */;
+	struct platform_device *cocci_id/* drivers/video/backlight/pwm_bl.c 455 */;
+	struct device_node *cocci_id/* drivers/video/backlight/pwm_bl.c 427 */;
+	const struct pwm_bl_data *cocci_id/* drivers/video/backlight/pwm_bl.c 425 */;
+	bool cocci_id/* drivers/video/backlight/pwm_bl.c 400 */;
+	const struct of_device_id cocci_id/* drivers/video/backlight/pwm_bl.c 378 */[];
+	size_t cocci_id/* drivers/video/backlight/pwm_bl.c 275 */;
+	u32 cocci_id/* drivers/video/backlight/pwm_bl.c 245 */;
+	unsigned int *cocci_id/* drivers/video/backlight/pwm_bl.c 243 */;
+	struct property *cocci_id/* drivers/video/backlight/pwm_bl.c 242 */;
+	struct pwm_bl_data {
+		struct pwm_device *pwm;
+		struct device *dev;
+		unsigned int lth_brightness;
+		unsigned int *levels;
+		bool enabled;
+		struct regulator *power_supply;
+		struct gpio_desc *enable_gpio;
+		unsigned int scale;
+		bool legacy;
+		unsigned int post_pwm_on_delay;
+		unsigned int pwm_off_delay;
+		int (*notify)(struct device *, int brightness);
+		void (*notify_after)(struct device *, int brightness);
+		int (*check_fb)(struct device *, struct fb_info *);
+		void (*exit)(struct device *);
+	} cocci_id/* drivers/video/backlight/pwm_bl.c 23 */;
+	struct platform_pwm_backlight_data *cocci_id/* drivers/video/backlight/pwm_bl.c 200 */;
+	struct device *cocci_id/* drivers/video/backlight/pwm_bl.c 199 */;
+	u64 cocci_id/* drivers/video/backlight/pwm_bl.c 170 */;
+	unsigned int cocci_id/* drivers/video/backlight/pwm_bl.c 170 */;
+	const struct backlight_ops cocci_id/* drivers/video/backlight/pwm_bl.c 146 */;
+	struct fb_info *cocci_id/* drivers/video/backlight/pwm_bl.c 139 */;
+	struct backlight_device *cocci_id/* drivers/video/backlight/pwm_bl.c 138 */;
+}

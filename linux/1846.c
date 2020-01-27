@@ -1,0 +1,62 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/iio/adc/ab8500-gpadc.c 986 */;
+	const char *cocci_id/* drivers/iio/adc/ab8500-gpadc.c 985 */;
+	struct iio_chan_spec *cocci_id/* drivers/iio/adc/ab8500-gpadc.c 983 */;
+	struct device_node *cocci_id/* drivers/iio/adc/ab8500-gpadc.c 981 */;
+	struct device *cocci_id/* drivers/iio/adc/ab8500-gpadc.c 980 */;
+	const struct iio_info cocci_id/* drivers/iio/adc/ab8500-gpadc.c 940 */;
+	const struct of_phandle_args *cocci_id/* drivers/iio/adc/ab8500-gpadc.c 929 */;
+	struct iio_dev *cocci_id/* drivers/iio/adc/ab8500-gpadc.c 928 */;
+	long cocci_id/* drivers/iio/adc/ab8500-gpadc.c 892 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/adc/ab8500-gpadc.c 891 */;
+	u16 cocci_id/* drivers/iio/adc/ab8500-gpadc.c 769 */;
+	enum ab8500_gpadc_channel{AB8500_GPADC_CHAN_UNUSED=0x00, AB8500_GPADC_CHAN_BAT_CTRL=0x01, AB8500_GPADC_CHAN_BAT_TEMP=0x02, AB8500_GPADC_CHAN_MAIN_CHARGER=0x03, AB8500_GPADC_CHAN_ACC_DET_1=0x04, AB8500_GPADC_CHAN_ACC_DET_2=0x05, AB8500_GPADC_CHAN_ADC_AUX_1=0x06, AB8500_GPADC_CHAN_ADC_AUX_2=0x07, AB8500_GPADC_CHAN_VBAT_A=0x08, AB8500_GPADC_CHAN_VBUS=0x09, AB8500_GPADC_CHAN_MAIN_CHARGER_CURRENT=0x0a, AB8500_GPADC_CHAN_USB_CHARGER_CURRENT=0x0b, AB8500_GPADC_CHAN_BACKUP_BAT=0x0c, AB8505_GPADC_CHAN_DIE_TEMP=0x0d, AB8500_GPADC_CHAN_ID=0x0e, AB8500_GPADC_CHAN_INTERNAL_TEST_1=0x0f, AB8500_GPADC_CHAN_INTERNAL_TEST_2=0x10, AB8500_GPADC_CHAN_INTERNAL_TEST_3=0x11, AB8500_GPADC_CHAN_XTAL_TEMP=0x12, AB8500_GPADC_CHAN_VBAT_TRUE_MEAS=0x13, AB8500_GPADC_CHAN_BAT_CTRL_AND_IBAT=0x1c, AB8500_GPADC_CHAN_VBAT_MEAS_AND_IBAT=0x1d, AB8500_GPADC_CHAN_VBAT_TRUE_MEAS_AND_IBAT=0x1e, AB8500_GPADC_CHAN_BAT_TEMP_AND_IBAT=0x1f, AB8500_GPADC_CHAN_IBAT_VIRTUAL=0xFF,} cocci_id/* drivers/iio/adc/ab8500-gpadc.c 70 */;
+	s64 cocci_id/* drivers/iio/adc/ab8500-gpadc.c 677 */;
+	u8 cocci_id/* drivers/iio/adc/ab8500-gpadc.c 672 */[ARRAY_SIZE(otp4_cal_regs)];
+	int cocci_id/* drivers/iio/adc/ab8500-gpadc.c 671 */[ARRAY_SIZE(otp4_cal_regs)];
+	u8 cocci_id/* drivers/iio/adc/ab8500-gpadc.c 670 */[ARRAY_SIZE(otp_cal_regs)];
+	int cocci_id/* drivers/iio/adc/ab8500-gpadc.c 669 */[ARRAY_SIZE(otp_cal_regs)];
+	int cocci_id/* drivers/iio/adc/ab8500-gpadc.c 660 */[];
+	struct ab8500_gpadc *cocci_id/* drivers/iio/adc/ab8500-gpadc.c 643 */;
+	irqreturn_t cocci_id/* drivers/iio/adc/ab8500-gpadc.c 641 */;
+	void *cocci_id/* drivers/iio/adc/ab8500-gpadc.c 641 */;
+	int cocci_id/* drivers/iio/adc/ab8500-gpadc.c 641 */;
+	void cocci_id/* drivers/iio/adc/ab8500-gpadc.c 622 */;
+	unsigned long cocci_id/* drivers/iio/adc/ab8500-gpadc.c 392 */;
+	int *cocci_id/* drivers/iio/adc/ab8500-gpadc.c 388 */;
+	const struct ab8500_gpadc_chan_info *cocci_id/* drivers/iio/adc/ab8500-gpadc.c 387 */;
+	enum ab8500_gpadc_channel cocci_id/* drivers/iio/adc/ab8500-gpadc.c 278 */;
+	u8 cocci_id/* drivers/iio/adc/ab8500-gpadc.c 255 */;
+	struct ab8500_gpadc_chan_info *cocci_id/* drivers/iio/adc/ab8500-gpadc.c 254 */;
+	struct ab8500_gpadc {
+		struct device *dev;
+		struct ab8500 *ab8500;
+		struct ab8500_gpadc_chan_info *chans;
+		unsigned int nchans;
+		struct completion complete;
+		struct regulator *vddadc;
+		int irq_sw;
+		int irq_hw;
+		struct ab8500_adc_cal_data cal_data[AB8500_CAL_NR];
+	} cocci_id/* drivers/iio/adc/ab8500-gpadc.c 242 */;
+	struct ab8500_gpadc_chan_info {
+		const char *name;
+		u8 id;
+		bool hardware_control;
+		bool falling_edge;
+		u8 avg_sample;
+		u8 trig_timer;
+	} cocci_id/* drivers/iio/adc/ab8500-gpadc.c 220 */;
+	struct ab8500_adc_cal_data {
+		s64 gain;
+		s64 offset;
+		u16 otp_calib_hi;
+		u16 otp_calib_lo;
+	} cocci_id/* drivers/iio/adc/ab8500-gpadc.c 199 */;
+	enum ab8500_cal_channels{AB8500_CAL_VMAIN=0, AB8500_CAL_BTEMP, AB8500_CAL_VBAT, AB8500_CAL_IBAT, AB8500_CAL_NR,} cocci_id/* drivers/iio/adc/ab8500-gpadc.c 183 */;
+	struct platform_driver cocci_id/* drivers/iio/adc/ab8500-gpadc.c 1210 */;
+	struct platform_device *cocci_id/* drivers/iio/adc/ab8500-gpadc.c 1081 */;
+	unsigned int cocci_id/* drivers/iio/adc/ab8500-gpadc.c 1038 */;
+	unsigned int *cocci_id/* drivers/iio/adc/ab8500-gpadc.c 1033 */;
+	struct iio_chan_spec **cocci_id/* drivers/iio/adc/ab8500-gpadc.c 1032 */;
+}

@@ -1,0 +1,55 @@
+cocci_test_suite() {
+	struct sst_cmd_set_media_path cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 981 */;
+	u8 cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 98 */[SST_MAX_TDM_SLOTS];
+	struct sst_dsp_header cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 944 */;
+	struct sst_cmd_sba_hw_set_ssp cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 943 */;
+	struct sst_data *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 927 */;
+	const char *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 925 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 925 */;
+	const struct sst_ssp_config *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 904 */;
+	const struct sst_ssp_config cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 886 */;
+	struct sst_cmd_generic cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 727 */;
+	u8 cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 66 */;
+	struct soc_mixer_control *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 612 */;
+	struct sst_cmd_set_swm cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 607 */;
+	u16 cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 553 */;
+	uint cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 552 */;
+	struct swm_input_ids *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 550 */;
+	unsigned int cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 550 */;
+	struct snd_soc_component *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 549 */;
+	int cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 549 */;
+	const uint cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 528 */[SST_SWM_INPUT_COUNT];
+	int cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 499 */(struct sst_ids *ids,
+								       struct sst_data *drv,
+								       int mute);
+	struct sst_gain_value *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 429 */;
+	struct sst_cmd_set_gain_dual cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 395 */;
+	struct snd_ctl_elem_value *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 319 */;
+	struct sst_algo_control *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 310 */;
+	void *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 310 */;
+	struct snd_ctl_elem_info *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 308 */;
+	struct snd_kcontrol *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 307 */;
+	struct snd_sst_bytes_v2 *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 28 */;
+	struct sst_cmd_set_params *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 260 */;
+	struct sst_enum *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 185 */;
+	u8 *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 160 */;
+	struct snd_soc_dapm_context *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 1509 */;
+	struct sst_ids *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 1464 */;
+	void cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 1463 */;
+	char *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 1414 */;
+	struct snd_card *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 1413 */;
+	struct sst_gain_mixer_control *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 1380 */;
+	struct sst_module *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 1370 */;
+	struct snd_soc_dapm_path *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 1308 */;
+	bool cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 1282 */;
+	struct snd_soc_dapm_widget *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 1282 */;
+	struct device *cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 1268 */;
+	const struct snd_kcontrol_new cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 1246 */[];
+	struct sst_gain_value cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 1244 */[ARRAY_SIZE(sst_gain_controls) / SST_GAIN_NUM_CONTROLS];
+	struct sst_gain_value cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 1210 */[];
+	const char *const cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 1170 */[];
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 1116 */[];
+	struct sst_param_sba_ssp_slot_map cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 107 */;
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 1052 */[];
+	struct sst_cmd_sba_set_media_loop_map cocci_id/* sound/soc/intel/atom/sst-atom-controls.c 1018 */;
+}

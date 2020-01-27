@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct path_cond cocci_id/* security/apparmor/domain.c 869 */;
+	struct linux_binprm *cocci_id/* security/apparmor/domain.c 860 */;
+	bool *cocci_id/* security/apparmor/domain.c 804 */;
+	struct path_cond *cocci_id/* security/apparmor/domain.c 803 */;
+	struct task_struct *cocci_id/* security/apparmor/domain.c 62 */;
+	struct aa_ns *cocci_id/* security/apparmor/domain.c 475 */;
+	u32 cocci_id/* security/apparmor/domain.c 409 */;
+	unsigned int cocci_id/* security/apparmor/domain.c 408 */;
+	bool cocci_id/* security/apparmor/domain.c 385 */;
+	int cocci_id/* security/apparmor/domain.c 384 */;
+	const char **cocci_id/* security/apparmor/domain.c 382 */;
+	struct list_head *cocci_id/* security/apparmor/domain.c 381 */;
+	const char *cocci_id/* security/apparmor/domain.c 380 */;
+	const struct linux_binprm *cocci_id/* security/apparmor/domain.c 379 */;
+	struct aa_profile *cocci_id/* security/apparmor/domain.c 379 */;
+	struct aa_domain *cocci_id/* security/apparmor/domain.c 35 */;
+	void cocci_id/* security/apparmor/domain.c 35 */;
+	struct dentry *cocci_id/* security/apparmor/domain.c 314 */;
+	ssize_t cocci_id/* security/apparmor/domain.c 313 */;
+	struct aa_perms *cocci_id/* security/apparmor/domain.c 289 */;
+	char *cocci_id/* security/apparmor/domain.c 1311 */;
+	struct aa_perms cocci_id/* security/apparmor/domain.c 1162 */;
+	struct aa_label *cocci_id/* security/apparmor/domain.c 1160 */;
+	struct aa_task_ctx *cocci_id/* security/apparmor/domain.c 1159 */;
+	const struct cred *cocci_id/* security/apparmor/domain.c 1158 */;
+	u64 cocci_id/* security/apparmor/domain.c 1156 */;
+	const char *cocci_id/* security/apparmor/domain.c 1156 */[];
+	struct label_it cocci_id/* security/apparmor/domain.c 1048 */;
+}

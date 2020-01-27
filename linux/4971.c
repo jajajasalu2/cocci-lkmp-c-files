@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct usnic_ib_qp_grp_flow cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 83 */;
+	char *cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 72 */;
+	struct usnic_fwd_dev *cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 669 */;
+	uint32_t *cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 637 */;
+	char cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 631 */[512];
+	struct pci_dev *cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 591 */;
+	struct usnic_ib_pd *cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 587 */;
+	struct usnic_ib_vf *cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 586 */;
+	void cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 578 */;
+	int cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 538 */;
+	enum usnic_vnic_res_type cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 536 */;
+	struct usnic_vnic_res_spec *cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 534 */;
+	void *cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 534 */;
+	struct usnic_vnic *cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 533 */;
+	struct usnic_vnic_res_chunk **cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 532 */;
+	const char *cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 49 */;
+	struct ib_event cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 395 */;
+	enum ib_qp_state cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 391 */;
+	enum usnic_transport_type cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 339 */;
+	struct usnic_transport_spec *cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 336 */;
+	struct usnic_ib_qp_grp *cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 335 */;
+	struct usnic_ib_qp_grp_flow *cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 334 */;
+	uint32_t cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 274 */;
+	struct socket *cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 266 */;
+	struct usnic_fwd_flow *cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 212 */;
+	struct usnic_filter_action cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 210 */;
+	struct filter cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 209 */;
+	uint16_t cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 207 */;
+	struct usnic_filter_action *cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 184 */;
+	struct usnic_vnic_res *cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 154 */;
+	struct usnic_vnic_res_chunk *cocci_id/* drivers/infiniband/hw/usnic/usnic_ib_qp_grp.c 153 */;
+}

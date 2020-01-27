@@ -1,0 +1,72 @@
+cocci_test_suite() {
+	struct device_attribute *cocci_id/* drivers/i2c/i2c-dev.c 96 */;
+	void __exit cocci_id/* drivers/i2c/i2c-dev.c 752 */;
+	void cocci_id/* drivers/i2c/i2c-dev.c 752 */;
+	int __init cocci_id/* drivers/i2c/i2c-dev.c 716 */;
+	struct notifier_block cocci_id/* drivers/i2c/i2c-dev.c 706 */;
+	struct notifier_block *cocci_id/* drivers/i2c/i2c-dev.c 691 */;
+	struct i2c_dev *cocci_id/* drivers/i2c/i2c-dev.c 66 */;
+	struct i2c_adapter *cocci_id/* drivers/i2c/i2c-dev.c 66 */;
+	struct device *cocci_id/* drivers/i2c/i2c-dev.c 631 */;
+	void *cocci_id/* drivers/i2c/i2c-dev.c 631 */;
+	struct class *cocci_id/* drivers/i2c/i2c-dev.c 629 */;
+	const struct file_operations cocci_id/* drivers/i2c/i2c-dev.c 616 */;
+	struct inode *cocci_id/* drivers/i2c/i2c-dev.c 575 */;
+	void __user *cocci_id/* drivers/i2c/i2c-dev.c 559 */;
+	struct i2c_smbus_ioctl_data32 cocci_id/* drivers/i2c/i2c-dev.c 557 */;
+	struct i2c_msg32 cocci_id/* drivers/i2c/i2c-dev.c 541 */;
+	struct i2c_msg cocci_id/* drivers/i2c/i2c-dev.c 534 */;
+	struct i2c_rdwr_ioctl_data32 __user *cocci_id/* drivers/i2c/i2c-dev.c 527 */;
+	int cocci_id/* drivers/i2c/i2c-dev.c 524 */;
+	struct i2c_msg *cocci_id/* drivers/i2c/i2c-dev.c 523 */;
+	struct i2c_msg32 *cocci_id/* drivers/i2c/i2c-dev.c 522 */;
+	struct i2c_rdwr_ioctl_data32 cocci_id/* drivers/i2c/i2c-dev.c 521 */;
+	compat_ulong_t __user *cocci_id/* drivers/i2c/i2c-dev.c 519 */;
+	struct i2c_client *cocci_id/* drivers/i2c/i2c-dev.c 514 */;
+	struct file *cocci_id/* drivers/i2c/i2c-dev.c 512 */;
+	unsigned long cocci_id/* drivers/i2c/i2c-dev.c 512 */;
+	unsigned int cocci_id/* drivers/i2c/i2c-dev.c 512 */;
+	long cocci_id/* drivers/i2c/i2c-dev.c 512 */;
+	unsigned cocci_id/* drivers/i2c/i2c-dev.c 51 */;
+	struct i2c_rdwr_ioctl_data32 {
+		compat_caddr_t msgs;
+		u32 nmsgs;
+	} cocci_id/* drivers/i2c/i2c-dev.c 507 */;
+	struct i2c_msg32 {
+		u16 addr;
+		u16 flags;
+		u16 len;
+		compat_caddr_t buf;
+	} cocci_id/* drivers/i2c/i2c-dev.c 500 */;
+	struct i2c_smbus_ioctl_data32 {
+		u8 read_write;
+		u8 command;
+		u32 size;
+		compat_caddr_t data;
+	} cocci_id/* drivers/i2c/i2c-dev.c 493 */;
+	struct i2c_smbus_ioctl_data __user *cocci_id/* drivers/i2c/i2c-dev.c 457 */;
+	struct i2c_smbus_ioctl_data cocci_id/* drivers/i2c/i2c-dev.c 455 */;
+	struct i2c_rdwr_ioctl_data __user *cocci_id/* drivers/i2c/i2c-dev.c 437 */;
+	struct i2c_rdwr_ioctl_data cocci_id/* drivers/i2c/i2c-dev.c 433 */;
+	unsigned long __user *cocci_id/* drivers/i2c/i2c-dev.c 430 */;
+	struct i2c_dev {
+		struct list_head list;
+		struct i2c_adapter *adap;
+		struct device *dev;
+		struct cdev cdev;
+	} cocci_id/* drivers/i2c/i2c-dev.c 40 */;
+	union i2c_smbus_data cocci_id/* drivers/i2c/i2c-dev.c 313 */;
+	union i2c_smbus_data __user *cocci_id/* drivers/i2c/i2c-dev.c 311 */;
+	u8 cocci_id/* drivers/i2c/i2c-dev.c 310 */;
+	u32 cocci_id/* drivers/i2c/i2c-dev.c 310 */;
+	u8 __user *cocci_id/* drivers/i2c/i2c-dev.c 239 */;
+	u8 __user **cocci_id/* drivers/i2c/i2c-dev.c 236 */;
+	unsigned int *cocci_id/* drivers/i2c/i2c-dev.c 182 */;
+	const char __user *cocci_id/* drivers/i2c/i2c-dev.c 156 */;
+	char *cocci_id/* drivers/i2c/i2c-dev.c 134 */;
+	loff_t *cocci_id/* drivers/i2c/i2c-dev.c 132 */;
+	char __user *cocci_id/* drivers/i2c/i2c-dev.c 131 */;
+	ssize_t cocci_id/* drivers/i2c/i2c-dev.c 131 */;
+	size_t cocci_id/* drivers/i2c/i2c-dev.c 131 */;
+	struct attribute *cocci_id/* drivers/i2c/i2c-dev.c 106 */[];
+}

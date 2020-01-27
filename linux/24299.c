@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	const struct net_device *cocci_id/* net/bridge/br_if.c 749 */;
+	unsigned long cocci_id/* net/bridge/br_if.c 749 */;
+	bool *cocci_id/* net/bridge/br_if.c 64 */;
+	bool cocci_id/* net/bridge/br_if.c 562 */;
+	unsigned cocci_id/* net/bridge/br_if.c 561 */;
+	struct net_bridge_port *cocci_id/* net/bridge/br_if.c 559 */;
+	struct netlink_ext_ack *cocci_id/* net/bridge/br_if.c 557 */;
+	struct net_bridge *cocci_id/* net/bridge/br_if.c 556 */;
+	netdev_features_t cocci_id/* net/bridge/br_if.c 534 */;
+	u16 cocci_id/* net/bridge/br_if.c 520 */;
+	unsigned int cocci_id/* net/bridge/br_if.c 519 */;
+	const struct net_bridge_port *cocci_id/* net/bridge/br_if.c 492 */;
+	const struct net_bridge *cocci_id/* net/bridge/br_if.c 490 */;
+	struct net_bridge cocci_id/* net/bridge/br_if.c 447 */;
+	struct net_device *cocci_id/* net/bridge/br_if.c 444 */;
+	const char *cocci_id/* net/bridge/br_if.c 442 */;
+	struct net *cocci_id/* net/bridge/br_if.c 442 */;
+	int cocci_id/* net/bridge/br_if.c 442 */;
+	unsigned long *cocci_id/* net/bridge/br_if.c 391 */;
+	struct ethtool_link_ksettings cocci_id/* net/bridge/br_if.c 37 */;
+	struct list_head *cocci_id/* net/bridge/br_if.c 367 */;
+	void cocci_id/* net/bridge/br_if.c 367 */;
+	struct net_bridge_port cocci_id/* net/bridge/br_if.c 285 */;
+	struct rcu_head *cocci_id/* net/bridge/br_if.c 282 */;
+	struct kobj_type cocci_id/* net/bridge/br_if.c 263 */;
+	kuid_t *cocci_id/* net/bridge/br_if.c 256 */;
+	kgid_t *cocci_id/* net/bridge/br_if.c 256 */;
+	struct kobject *cocci_id/* net/bridge/br_if.c 256 */;
+	u32 cocci_id/* net/bridge/br_if.c 224 */;
+}

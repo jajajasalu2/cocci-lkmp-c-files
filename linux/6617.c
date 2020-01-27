@@ -1,0 +1,71 @@
+cocci_test_suite() {
+	struct bfa_fcs_driver_info_s cocci_id/* drivers/scsi/bfa/bfad.c 965 */;
+	const char *cocci_id/* drivers/scsi/bfa/bfad.c 73 */[];
+	struct list_head cocci_id/* drivers/scsi/bfa/bfad.c 690 */;
+	unsigned long cocci_id/* drivers/scsi/bfa/bfad.c 689 */;
+	struct timer_list *cocci_id/* drivers/scsi/bfa/bfad.c 686 */;
+	void cocci_id/* drivers/scsi/bfa/bfad.c 65 */(struct pci_dev *pdev,
+						      u32 **bfi_image,
+						      u32 *bfi_image_size,
+						      char *fw_name);
+	struct completion cocci_id/* drivers/scsi/bfa/bfad.c 641 */;
+	void cocci_id/* drivers/scsi/bfa/bfad.c 64 */(void);
+	struct device *cocci_id/* drivers/scsi/bfa/bfad.c 636 */;
+	struct bfa_lport_cfg_s *cocci_id/* drivers/scsi/bfa/bfad.c 636 */;
+	u32 *cocci_id/* drivers/scsi/bfa/bfad.c 63 */(struct pci_dev *pdev);
+	dma_addr_t cocci_id/* drivers/scsi/bfa/bfad.c 592 */;
+	struct list_head *cocci_id/* drivers/scsi/bfa/bfad.c 590 */;
+	struct bfa_mem_kva_s *cocci_id/* drivers/scsi/bfa/bfad.c 589 */;
+	struct bfa_mem_dma_s *cocci_id/* drivers/scsi/bfa/bfad.c 588 */;
+	struct bfa_meminfo_s *cocci_id/* drivers/scsi/bfa/bfad.c 587 */;
+	struct bfa_iocfc_cfg_s *cocci_id/* drivers/scsi/bfa/bfad.c 551 */;
+	struct bfa_meminfo_s cocci_id/* drivers/scsi/bfa/bfad.c 547 */;
+	int cocci_id/* drivers/scsi/bfa/bfad.c 50 */;
+	struct bfad_vport_s cocci_id/* drivers/scsi/bfa/bfad.c 499 */;
+	struct bfa_lport_cfg_s cocci_id/* drivers/scsi/bfa/bfad.c 495 */;
+	struct bfi_pbc_vport_s cocci_id/* drivers/scsi/bfa/bfad.c 492 */;
+	struct bfad_rport_s cocci_id/* drivers/scsi/bfa/bfad.c 476 */;
+	struct bfad_rport_s **cocci_id/* drivers/scsi/bfa/bfad.c 472 */;
+	struct bfa_fcs_rport_s **cocci_id/* drivers/scsi/bfa/bfad.c 471 */;
+	struct bfad_vport_s *cocci_id/* drivers/scsi/bfa/bfad.c 434 */;
+	enum bfa_lport_role cocci_id/* drivers/scsi/bfa/bfad.c 433 */;
+	struct bfad_vf_s *cocci_id/* drivers/scsi/bfa/bfad.c 433 */;
+	struct bfa_fcs_lport_s *cocci_id/* drivers/scsi/bfa/bfad.c 432 */;
+	struct bfad_port_s *cocci_id/* drivers/scsi/bfa/bfad.c 431 */;
+	struct bfad_s *cocci_id/* drivers/scsi/bfa/bfad.c 409 */;
+	bfa_status_t cocci_id/* drivers/scsi/bfa/bfad.c 407 */;
+	void *cocci_id/* drivers/scsi/bfa/bfad.c 407 */;
+	void cocci_id/* drivers/scsi/bfa/bfad.c 406 */;
+	struct bfad_hal_comp *cocci_id/* drivers/scsi/bfa/bfad.c 397 */;
+	enum bfad_sm_event cocci_id/* drivers/scsi/bfa/bfad.c 193 */;
+	struct pci_dev *cocci_id/* drivers/scsi/bfa/bfad.c 1770 */;
+	u32 *cocci_id/* drivers/scsi/bfa/bfad.c 1769 */;
+	u32 cocci_id/* drivers/scsi/bfa/bfad.c 1759 */;
+	const struct firmware *cocci_id/* drivers/scsi/bfa/bfad.c 1748 */;
+	char *cocci_id/* drivers/scsi/bfa/bfad.c 1746 */;
+	u32 **cocci_id/* drivers/scsi/bfa/bfad.c 1745 */;
+	void __exit cocci_id/* drivers/scsi/bfa/bfad.c 1735 */;
+	int __init cocci_id/* drivers/scsi/bfa/bfad.c 1694 */;
+	struct pci_driver cocci_id/* drivers/scsi/bfa/bfad.c 1683 */;
+	struct pci_error_handlers cocci_id/* drivers/scsi/bfa/bfad.c 1676 */;
+	struct pci_device_id cocci_id/* drivers/scsi/bfa/bfad.c 1622 */[];
+	u8 cocci_id/* drivers/scsi/bfa/bfad.c 1531 */;
+	void cocci_id/* drivers/scsi/bfa/bfad.c 146 */(struct bfad_s *bfad,
+						       enum bfad_sm_event event);
+	pci_channel_state_t cocci_id/* drivers/scsi/bfa/bfad.c 1434 */;
+	pci_ers_result_t cocci_id/* drivers/scsi/bfa/bfad.c 1433 */;
+	struct bfa_trc_mod_s cocci_id/* drivers/scsi/bfa/bfad.c 1306 */;
+	struct bfad_s cocci_id/* drivers/scsi/bfa/bfad.c 1300 */;
+	const struct pci_device_id *cocci_id/* drivers/scsi/bfa/bfad.c 1290 */;
+	u16 cocci_id/* drivers/scsi/bfa/bfad.c 1207 */;
+	struct msix_entry cocci_id/* drivers/scsi/bfa/bfad.c 1205 */[MAX_MSIX_ENTRY];
+	irq_handler_t cocci_id/* drivers/scsi/bfa/bfad.c 1176 */;
+	struct msix_entry *cocci_id/* drivers/scsi/bfa/bfad.c 1145 */;
+	struct bfad_msix_s *cocci_id/* drivers/scsi/bfa/bfad.c 1119 */;
+	bfa_boolean_t cocci_id/* drivers/scsi/bfa/bfad.c 1092 */;
+	irqreturn_t cocci_id/* drivers/scsi/bfa/bfad.c 1086 */;
+	u8 *cocci_id/* drivers/scsi/bfa/bfad.c 1033 */;
+	char cocci_id/* drivers/scsi/bfa/bfad.c 1027 */[BFA_STRING_32];
+	struct fc_vport *cocci_id/* drivers/scsi/bfa/bfad.c 1026 */;
+	struct fc_vport_identifiers cocci_id/* drivers/scsi/bfa/bfad.c 1025 */;
+}

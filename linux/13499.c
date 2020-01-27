@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 99 */;
+	struct pctv452e_state cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 951 */;
+	struct dvb_usb_device_properties cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 947 */;
+	struct usb_device_id cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 938 */[];
+	struct usb_device_id *cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 906 */;
+	struct dvb_usb_adapter *cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 904 */;
+	struct i2c_algorithm cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 899 */;
+	struct stb6100_config cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 893 */;
+	struct pctv452e_state {
+		struct dvb_ca_en50221 ca;
+		struct mutex ca_mutex;
+		u8 c;
+		u8 initialized;
+		u16 last_rc_key;
+	} cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 89 */;
+	struct stb0899_config cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 847 */;
+	struct stb0899_postproc cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 81 */[];
+	enum{TT3650_CMD_CI_TEST=0x40, TT3650_CMD_CI_RD_CTRL, TT3650_CMD_CI_WR_CTRL, TT3650_CMD_CI_RD_ATTR, TT3650_CMD_CI_WR_ATTR, TT3650_CMD_CI_RESET, TT3650_CMD_CI_SET_VIDEO_PORT,} cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 70 */;
+	const struct stb0899_s1_reg cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 646 */[];
+	u8 cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 612 */[20];
+	const u8 cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 611 */[];
+	u8 cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 609 */[6];
+	u32 cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 502 */;
+	struct i2c_adapter *cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 502 */;
+	struct i2c_msg *cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 465 */;
+	struct pctv452e_state *cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 410 */;
+	u8 *cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 408 */;
+	const u8 *cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 407 */;
+	u8 cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 406 */;
+	struct dvb_usb_device *cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 406 */;
+	u8 cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 327 */[1];
+	int cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 28 */;
+	u8 cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 208 */[2];
+	u8 cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 166 */[3];
+	struct dvb_ca_en50221 *cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 148 */;
+	struct usb_driver cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 1077 */;
+	const struct usb_device_id *cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 1066 */;
+	struct usb_interface *cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 1057 */;
+	void cocci_id/* drivers/media/usb/dvb-usb/pctv452e.c 1057 */;
+}

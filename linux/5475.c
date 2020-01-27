@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	int __maybe_unused cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 925 */;
+	void *cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 712 */;
+	uintptr_t cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 696 */;
+	u64 cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 696 */;
+	dma_addr_t cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 695 */;
+	u32 cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 694 */;
+	struct zynqmp_qspi *cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 692 */;
+	void cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 692 */;
+	irqreturn_t cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 618 */;
+	u32 *cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 543 */;
+	struct spi_transfer *cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 452 */;
+	ulong cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 389 */;
+	bool cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 386 */;
+	struct spi_device *cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 386 */;
+	struct spi_master *cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 356 */;
+	int cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 356 */;
+	u8 cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 205 */;
+	struct zynqmp_qspi {
+		void __iomem *regs;
+		struct clk *refclk;
+		struct clk *pclk;
+		int irq;
+		struct device *dev;
+		const void *txbuf;
+		void *rxbuf;
+		int bytes_to_transfer;
+		int bytes_to_receive;
+		u32 genfifocs;
+		u32 genfifobus;
+		u32 dma_rx_bytes;
+		dma_addr_t dma_addr;
+		u32 genfifoentry;
+		enum mode_type mode;
+	} cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 158 */;
+	const struct zynqmp_eemi_ops *cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 138 */;
+	enum mode_type{GQSPI_MODE_IO, GQSPI_MODE_DMA,} cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 137 */;
+	struct platform_driver cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 1155 */;
+	const struct of_device_id cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 1148 */[];
+	struct device *cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 1019 */;
+	struct platform_device *cocci_id/* drivers/spi/spi-zynqmp-gqspi.c 1014 */;
+}

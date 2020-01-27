@@ -1,0 +1,92 @@
+cocci_test_suite() {
+	enum fe_sec_tone_mode cocci_id/* drivers/media/dvb-frontends/cx24117.c 951 */;
+	enum fe_sec_voltage cocci_id/* drivers/media/dvb-frontends/cx24117.c 899 */;
+	void cocci_id/* drivers/media/dvb-frontends/cx24117.c 867 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/cx24117.c 788 */[2];
+	u16 cocci_id/* drivers/media/dvb-frontends/cx24117.c 787 */;
+	u16 *cocci_id/* drivers/media/dvb-frontends/cx24117.c 782 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/cx24117.c 763 */[4];
+	u32 *cocci_id/* drivers/media/dvb-frontends/cx24117.c 759 */;
+	enum fe_status *cocci_id/* drivers/media/dvb-frontends/cx24117.c 732 */;
+	u8 *cocci_id/* drivers/media/dvb-frontends/cx24117.c 548 */;
+	struct i2c_msg cocci_id/* drivers/media/dvb-frontends/cx24117.c 547 */;
+	unsigned char cocci_id/* drivers/media/dvb-frontends/cx24117.c 545 */[4];
+	struct cx24117_cmd *cocci_id/* drivers/media/dvb-frontends/cx24117.c 527 */;
+	const struct firmware *cocci_id/* drivers/media/dvb-frontends/cx24117.c 443 */;
+	int cocci_id/* drivers/media/dvb-frontends/cx24117.c 437 */(struct dvb_frontend *fe,
+								    const struct firmware *fw);
+	u32 cocci_id/* drivers/media/dvb-frontends/cx24117.c 423 */;
+	enum fe_modulation cocci_id/* drivers/media/dvb-frontends/cx24117.c 378 */;
+	enum fe_delivery_system cocci_id/* drivers/media/dvb-frontends/cx24117.c 378 */;
+	enum fe_code_rate cocci_id/* drivers/media/dvb-frontends/cx24117.c 378 */;
+	enum fe_spectral_inversion cocci_id/* drivers/media/dvb-frontends/cx24117.c 353 */;
+	struct i2c_msg cocci_id/* drivers/media/dvb-frontends/cx24117.c 310 */[];
+	u8 cocci_id/* drivers/media/dvb-frontends/cx24117.c 282 */[CX24117_ARGLEN + 1];
+	u8 cocci_id/* drivers/media/dvb-frontends/cx24117.c 259 */[];
+	struct cx24117_modfec {
+		enum fe_delivery_system delivery_system;
+		enum fe_modulation modulation;
+		enum fe_code_rate fec;
+		u8 mask;
+		u8 val;
+	} cocci_id/* drivers/media/dvb-frontends/cx24117.c 210 */[];
+	struct cx24117_state {
+		struct cx24117_priv *priv;
+		struct dvb_frontend frontend;
+		struct cx24117_tuning dcur;
+		struct cx24117_tuning dnxt;
+		struct cx24117_cmd dsec_cmd;
+		int demod;
+	} cocci_id/* drivers/media/dvb-frontends/cx24117.c 197 */;
+	struct cx24117_priv {
+		u8 demod_address;
+		struct i2c_adapter *i2c;
+		u8 skip_fw_load;
+		struct mutex fe_lock;
+		struct tuner_i2c_props i2c_props;
+		struct list_head hybrid_tuner_instance_list;
+	} cocci_id/* drivers/media/dvb-frontends/cx24117.c 185 */;
+	struct cx24117_cmd {
+		u8 len;
+		u8 args[CX24117_ARGLEN];
+	} cocci_id/* drivers/media/dvb-frontends/cx24117.c 179 */;
+	struct cx24117_tuning {
+		u32 frequency;
+		u32 symbol_rate;
+		enum fe_spectral_inversion inversion;
+		enum fe_code_rate fec;
+		enum fe_delivery_system delsys;
+		enum fe_modulation modulation;
+		enum fe_pilot pilot;
+		enum fe_rolloff rolloff;
+		u8 fec_val;
+		u8 fec_mask;
+		u8 inversion_val;
+		u8 pilot_val;
+		u8 rolloff_val;
+	} cocci_id/* drivers/media/dvb-frontends/cx24117.c 159 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/cx24117.c 1563 */[0x1f - 4];
+	short cocci_id/* drivers/media/dvb-frontends/cx24117.c 1561 */;
+	unsigned int cocci_id/* drivers/media/dvb-frontends/cx24117.c 1560 */;
+	u8 cocci_id/* drivers/media/dvb-frontends/cx24117.c 1558 */;
+	struct cx24117_cmd cocci_id/* drivers/media/dvb-frontends/cx24117.c 1557 */;
+	struct dtv_frontend_properties *cocci_id/* drivers/media/dvb-frontends/cx24117.c 1554 */;
+	enum dvbfe_algo cocci_id/* drivers/media/dvb-frontends/cx24117.c 1548 */;
+	unsigned int *cocci_id/* drivers/media/dvb-frontends/cx24117.c 1532 */;
+	bool cocci_id/* drivers/media/dvb-frontends/cx24117.c 1531 */;
+	enum fe_status cocci_id/* drivers/media/dvb-frontends/cx24117.c 1301 */;
+	enum cmds{CMD_SET_VCOFREQ=0x10, CMD_TUNEREQUEST=0x11, CMD_GLOBAL_MPEGCFG=0x13, CMD_MPEGCFG=0x14, CMD_TUNERINIT=0x15, CMD_GET_SRATE=0x18, CMD_SET_GOLDCODE=0x19, CMD_GET_AGCACC=0x1a, CMD_DEMODINIT=0x1b, CMD_GETCTLACC=0x1c, CMD_LNBCONFIG=0x20, CMD_LNBSEND=0x21, CMD_LNBDCLEVEL=0x22, CMD_LNBPCBCONFIG=0x23, CMD_LNBSENDTONEBST=0x24, CMD_LNBUPDREPLY=0x25, CMD_SET_GPIOMODE=0x30, CMD_SET_GPIOEN=0x31, CMD_SET_GPIODIR=0x32, CMD_SET_GPIOOUT=0x33, CMD_ENABLERSCORR=0x34, CMD_FWVERSION=0x35, CMD_SET_SLEEPMODE=0x36, CMD_BERCTRL=0x3c, CMD_EVENTCTRL=0x3d,} cocci_id/* drivers/media/dvb-frontends/cx24117.c 125 */;
+	struct dvb_frontend_ops cocci_id/* drivers/media/dvb-frontends/cx24117.c 1201 */;
+	struct cx24117_state cocci_id/* drivers/media/dvb-frontends/cx24117.c 1188 */;
+	int cocci_id/* drivers/media/dvb-frontends/cx24117.c 1164 */;
+	struct cx24117_priv *cocci_id/* drivers/media/dvb-frontends/cx24117.c 1163 */;
+	struct cx24117_state *cocci_id/* drivers/media/dvb-frontends/cx24117.c 1162 */;
+	struct i2c_adapter *cocci_id/* drivers/media/dvb-frontends/cx24117.c 1160 */;
+	const struct cx24117_config *cocci_id/* drivers/media/dvb-frontends/cx24117.c 1159 */;
+	struct dvb_frontend *cocci_id/* drivers/media/dvb-frontends/cx24117.c 1159 */;
+	const struct dvb_frontend_ops cocci_id/* drivers/media/dvb-frontends/cx24117.c 1157 */;
+	struct cx24117_priv cocci_id/* drivers/media/dvb-frontends/cx24117.c 1133 */;
+	struct cx24117_priv **cocci_id/* drivers/media/dvb-frontends/cx24117.c 1127 */;
+	enum fe_sec_mini_cmd cocci_id/* drivers/media/dvb-frontends/cx24117.c 1107 */;
+	struct dvb_diseqc_master_cmd *cocci_id/* drivers/media/dvb-frontends/cx24117.c 1025 */;
+}

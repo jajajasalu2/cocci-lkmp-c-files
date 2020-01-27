@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 80 */;
+	struct ieee80211_supported_band *cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 79 */;
+	struct ath_tx_info cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 78 */;
+	unsigned long cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 632 */;
+	struct ath_chanctx *cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 630 */;
+	struct ath_hw *cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 627 */;
+	bool cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 625 */;
+	struct ieee80211_bss_conf *cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 588 */;
+	struct ath9k_beacon_state cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 553 */;
+	u8 *cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 375 */;
+	struct ath9k_tx_queue_info cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 37 */;
+	u64 cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 312 */;
+	u32 cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 311 */;
+	u16 cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 310 */;
+	struct ath_beacon_config *cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 309 */;
+	signed long long cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 291 */;
+	s64 cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 249 */;
+	struct ath_buf cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 201 */;
+	int cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 199 */;
+	struct ath_vif *cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 198 */;
+	void *cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 198 */;
+	struct ath_common *cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 197 */;
+	struct ieee80211_vif *cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 195 */;
+	struct ath_softc *cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 195 */;
+	void cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 195 */;
+	struct ieee80211_mgmt *cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 122 */;
+	struct ieee80211_tx_info *cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 121 */;
+	struct ath_txq *cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 120 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 119 */;
+	struct ieee80211_hw *cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 112 */;
+	struct ath_buf *cocci_id/* drivers/net/wireless/ath/ath9k/beacon.c 112 */;
+}

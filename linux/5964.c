@@ -1,0 +1,100 @@
+cocci_test_suite() {
+	struct sx150x_pinctrl {
+		struct device *dev;
+		struct i2c_client *client;
+		struct pinctrl_dev *pctldev;
+		struct pinctrl_desc pinctrl_desc;
+		struct gpio_chip gpio;
+		struct irq_chip irq_chip;
+		struct regmap *regmap;
+		struct {
+			u32 sense;
+			u32 masked;
+		} irq;
+		struct mutex lock;
+		const struct sx150x_device_data *data;
+	} cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 96 */;
+	const struct sx150x_device_data *cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 949 */;
+	const u8 cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 894 */[];
+	u8 cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 862 */;
+	const struct of_device_id cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 831 */[];
+	const struct i2c_device_id cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 818 */[];
+	const struct pinconf_ops cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 812 */;
+	struct sx150x_device_data {
+		u8 model;
+		u8 reg_pullup;
+		u8 reg_pulldn;
+		u8 reg_dir;
+		u8 reg_data;
+		u8 reg_irq_mask;
+		u8 reg_irq_src;
+		u8 reg_sense;
+		u8 ngpios;
+		union {
+			struct sx150x_123_pri x123;
+			struct sx150x_456_pri x456;
+			struct sx150x_789_pri x789;
+		} pri;
+		const struct pinctrl_pin_desc *pins;
+		unsigned int npins;
+	} cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 77 */;
+	enum pin_config_param cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 714 */;
+	struct sx150x_789_pri {
+		u8 reg_drain;
+		u8 reg_polarity;
+		u8 reg_clock;
+		u8 reg_misc;
+		u8 reg_reset;
+		u8 ngpios;
+	} cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 68 */;
+	u32 cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 585 */;
+	struct sx150x_456_pri {
+		u8 reg_pld_mode;
+		u8 reg_pld_table0;
+		u8 reg_pld_table1;
+		u8 reg_pld_table2;
+		u8 reg_pld_table3;
+		u8 reg_pld_table4;
+		u8 reg_advanced;
+	} cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 58 */;
+	struct pinctrl_dev *cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 579 */;
+	struct irq_data *cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 561 */;
+	unsigned long cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 542 */;
+	irqreturn_t cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 539 */;
+	void *cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 539 */;
+	const unsigned int cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 511 */;
+	struct sx150x_123_pri {
+		u8 reg_pld_mode;
+		u8 reg_pld_table0;
+		u8 reg_pld_table1;
+		u8 reg_pld_table2;
+		u8 reg_pld_table3;
+		u8 reg_pld_table4;
+		u8 reg_advanced;
+	} cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 48 */;
+	struct gpio_chip *cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 455 */;
+	unsigned long *cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 447 */;
+	void cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 434 */;
+	struct sx150x_pinctrl *cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 419 */;
+	unsigned int cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 419 */;
+	int cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 419 */;
+	enum{SX150X_789_REG_MISC_AUTOCLEAR_OFF=1 << 0, SX150X_MAX_REGISTER=0xad, SX150X_IRQ_TYPE_EDGE_RISING=0x1, SX150X_IRQ_TYPE_EDGE_FALLING=0x2, SX150X_789_RESET_KEY1=0x12, SX150X_789_RESET_KEY2=0x34,} cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 39 */;
+	bool cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 374 */;
+	const struct pinctrl_ops cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 364 */;
+	unsigned int *cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 359 */;
+	const unsigned int **cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 358 */;
+	const char *cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 350 */;
+	enum{SX150X_123=0, SX150X_456, SX150X_789,} cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 34 */;
+	const struct sx150x_device_data cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 152 */;
+	const struct pinctrl_pin_desc cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 132 */[];
+	int __init cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 1255 */;
+	struct i2c_driver cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 1246 */;
+	struct sx150x_device_data *cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 1119 */;
+	struct device *cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 1100 */;
+	const u32 cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 1098 */;
+	const struct i2c_device_id *cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 1096 */;
+	struct i2c_client *cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 1095 */;
+	const struct regmap_config cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 1082 */;
+	const u8 cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 1062 */;
+	const int cocci_id/* drivers/pinctrl/pinctrl-sx150x.c 1003 */;
+}

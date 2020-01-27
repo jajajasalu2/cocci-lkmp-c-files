@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	signed int cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 997 */;
+	u8 cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 88 */[];
+	struct esas2r_ioctlfs_command *cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 851 */;
+	struct esas2r_ioctl_fs *cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 830 */;
+	u8 *cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 672 */;
+	u16 *cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 669 */;
+	u32 cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 668 */;
+	struct esas2r_flash_img *cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 666 */;
+	u16 cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 664 */;
+	char *cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 644 */;
+	struct esas2r_boot_image cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 640 */;
+	struct esas2r_boot_header cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 638 */;
+	long cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 637 */;
+	struct esas2r_boot_header *cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 634 */;
+	struct esas2r_boot_image *cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 632 */;
+	u32 *cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 587 */;
+	struct esas2r_sas_nvram cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 57 */;
+	bool cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 302 */;
+	struct esas2r_pc_image *cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 246 */;
+	u8 cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 182 */;
+	struct esas2r_sg_context *cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 181 */;
+	struct esas2r_flash_context *cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 179 */;
+	struct esas2r_request *cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 177 */;
+	struct esas2r_adapter *cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 176 */;
+	void cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 176 */;
+	struct esas2r_flash_img cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 1414 */;
+	struct esas2r_sg_context cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 1403 */;
+	struct esas2r_component_header *cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 1395 */;
+	u8 cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 1379 */[8];
+	struct esas2r_sas_nvram *cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 1377 */;
+	struct atto_vda_flash_req *cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 136 */;
+	void *cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 122 */;
+	struct esas2r_efi_image *cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 1138 */;
+	u8 cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 1043 */[256];
+	uintptr_t cocci_id/* drivers/scsi/esas2r/esas2r_flash.c 103 */;
+}

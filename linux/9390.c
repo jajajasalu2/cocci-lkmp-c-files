@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct mt76_txq *cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 74 */;
+	struct mt7615_dev *cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 73 */;
+	struct mt7615_vif *cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 72 */;
+	struct ieee80211_vif *cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 70 */;
+	struct ieee80211_hw *cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 69 */;
+	const struct ieee80211_ops cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 530 */;
+	u16 cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 484 */;
+	struct mt7615_sta *cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 483 */;
+	struct ieee80211_txq *cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 482 */;
+	struct ieee80211_sta *cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 481 */;
+	enum ieee80211_ampdu_mlme_action cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 479 */;
+	struct ieee80211_ampdu_params *cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 477 */;
+	struct ieee80211_tx_info *cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 443 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 440 */;
+	struct ieee80211_tx_control *cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 439 */;
+	struct ieee80211_sta_rates *cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 420 */;
+	u32 cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 37 */;
+	enum nl80211_iftype cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 37 */;
+	int cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 37 */;
+	struct mt7615_dev cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 365 */;
+	struct mt76_dev *cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 362 */;
+	struct cfg80211_chan_def *cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 353 */;
+	struct ieee80211_bss_conf *cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 326 */;
+	void cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 324 */;
+	u64 cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 276 */;
+	unsigned int *cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 275 */;
+	unsigned int cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 274 */;
+	const struct ieee80211_tx_queue_params *cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 263 */;
+	struct mt76_wcid *cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 188 */;
+	struct ieee80211_key_conf *cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 182 */;
+	enum set_key_cmd cocci_id/* drivers/net/wireless/mediatek/mt76/mt7615/main.c 180 */;
+}

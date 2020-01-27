@@ -1,0 +1,66 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 966 */;
+	struct exynos_drm_crtc *cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 934 */;
+	void cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 934 */;
+	struct mixer_context {
+		struct platform_device *pdev;
+		struct device *dev;
+		struct drm_device *drm_dev;
+		struct exynos_drm_crtc *crtc;
+		struct exynos_drm_plane planes[MIXER_WIN_NR];
+		unsigned long flags;
+		int irq;
+		void __iomem *mixer_regs;
+		void __iomem *vp_regs;
+		spinlock_t reg_slock;
+		struct clk *mixer;
+		struct clk *vp;
+		struct clk *hdmi;
+		struct clk *sclk_mixer;
+		struct clk *sclk_hdmi;
+		struct clk *mout_mixer;
+		enum mixer_version_id mxr_ver;
+		int scan_value;
+	} cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 93 */;
+	const uint32_t cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 78 */[];
+	struct resource *cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 776 */;
+	irqreturn_t cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 740 */;
+	enum mixer_flag_bits{MXR_BIT_POWERED, MXR_BIT_VSYNC, MXR_BIT_INTERLACE, MXR_BIT_VP_ENABLED, MXR_BIT_HAS_SCLK,} cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 70 */;
+	enum mixer_version_id{MXR_VER_0_0_0_16, MXR_VER_16_0_33_0, MXR_VER_128_0_0_184,} cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 64 */;
+	dma_addr_t cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 609 */;
+	struct drm_framebuffer *cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 602 */;
+	struct exynos_drm_plane_state *cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 600 */;
+	dma_addr_t cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 518 */[2];
+	bool cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 454 */;
+	enum hdmi_quantization_range cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 427 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 425 */;
+	ktime_t cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 383 */;
+	u32 cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 313 */;
+	const u8 *cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 289 */;
+	const u8 cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 174 */[];
+	struct platform_driver cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 1323 */;
+	int cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 1278 */;
+	struct mixer_context *cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 1277 */;
+	struct device *cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 1275 */;
+	int __maybe_unused cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 1275 */;
+	const struct mixer_drv_data *cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 1221 */;
+	struct platform_device *cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 1218 */;
+	const struct component_ops cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 1213 */;
+	const struct exynos_drm_plane_config cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 121 */[MIXER_WIN_NR];
+	unsigned int cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 1172 */;
+	struct exynos_drm_plane *cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 1171 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 1170 */;
+	void *cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 1167 */;
+	struct mixer_drv_data {
+		enum mixer_version_id version;
+		bool is_vp_enabled;
+		bool has_sclk;
+	} cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 115 */;
+	const struct of_device_id cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 1145 */[];
+	const struct mixer_drv_data cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 1139 */;
+	const struct exynos_drm_crtc_ops cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 1111 */;
+	const struct {
+		int hdisplay,vdisplay,htotal,vtotal,scan_val;
+	} cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 1072 */[];
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/exynos/exynos_mixer.c 1066 */;
+}

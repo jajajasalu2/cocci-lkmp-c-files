@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	enum aux_channel_operation_result cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 89 */;
+	struct aux_payload cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 88 */;
+	struct drm_dp_aux_msg *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 85 */;
+	struct drm_dp_aux *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 84 */;
+	ssize_t cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 84 */;
+	uint32_t cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 64 */;
+	uint8_t cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 63 */;
+	char cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 49 */[10];
+	char *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 47 */;
+	struct amdgpu_dm_connector *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 413 */;
+	struct amdgpu_display_manager *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 412 */;
+	const struct drm_dp_mst_topology_cbs cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 406 */;
+	struct amdgpu_device *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 308 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 307 */;
+	struct amdgpu_dm_connector cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 306 */;
+	const char *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 304 */;
+	struct drm_dp_mst_topology_mgr *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 302 */;
+	struct amdgpu_encoder *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 274 */;
+	const struct drm_encoder_funcs cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 270 */;
+	struct drm_encoder *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 264 */;
+	void cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 264 */;
+	const struct drm_connector_helper_funcs cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 257 */;
+	bool cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 248 */;
+	struct drm_modeset_acquire_ctx *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 248 */;
+	struct drm_connector_state *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 241 */;
+	uint8_t *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 217 */;
+	struct dc_sink_init_data cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 212 */;
+	struct dc_sink *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 211 */;
+	struct edid *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 192 */;
+	const struct drm_connector_funcs cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 171 */;
+	struct drm_dp_mst_port *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 166 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 162 */;
+	int cocci_id/* drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_mst_types.c 145 */;
+}

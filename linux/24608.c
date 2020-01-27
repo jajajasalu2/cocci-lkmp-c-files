@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct netprio_map cocci_id/* net/core/netprio_cgroup.c 58 */;
+	size_t cocci_id/* net/core/netprio_cgroup.c 44 */;
+	struct netprio_map *cocci_id/* net/core/netprio_cgroup.c 43 */;
+	int __init cocci_id/* net/core/netprio_cgroup.c 295 */;
+	struct notifier_block cocci_id/* net/core/netprio_cgroup.c 291 */;
+	struct notifier_block *cocci_id/* net/core/netprio_cgroup.c 269 */;
+	struct cgroup_subsys cocci_id/* net/core/netprio_cgroup.c 261 */;
+	struct cftype cocci_id/* net/core/netprio_cgroup.c 248 */[];
+	void *cocci_id/* net/core/netprio_cgroup.c 240 */;
+	unsigned long cocci_id/* net/core/netprio_cgroup.c 240 */;
+	struct task_struct *cocci_id/* net/core/netprio_cgroup.c 236 */;
+	struct cgroup_taskset *cocci_id/* net/core/netprio_cgroup.c 234 */;
+	struct socket *cocci_id/* net/core/netprio_cgroup.c 224 */;
+	const void *cocci_id/* net/core/netprio_cgroup.c 221 */;
+	struct file *cocci_id/* net/core/netprio_cgroup.c 221 */;
+	unsigned cocci_id/* net/core/netprio_cgroup.c 221 */;
+	char cocci_id/* net/core/netprio_cgroup.c 198 */[IFNAMSIZ + 1];
+	loff_t cocci_id/* net/core/netprio_cgroup.c 196 */;
+	char *cocci_id/* net/core/netprio_cgroup.c 196 */;
+	struct kernfs_open_file *cocci_id/* net/core/netprio_cgroup.c 195 */;
+	ssize_t cocci_id/* net/core/netprio_cgroup.c 195 */;
+	struct seq_file *cocci_id/* net/core/netprio_cgroup.c 183 */;
+	u64 cocci_id/* net/core/netprio_cgroup.c 178 */;
+	struct cftype *cocci_id/* net/core/netprio_cgroup.c 178 */;
+	void cocci_id/* net/core/netprio_cgroup.c 173 */;
+	u32 cocci_id/* net/core/netprio_cgroup.c 163 */;
+	struct net_device *cocci_id/* net/core/netprio_cgroup.c 148 */;
+	int cocci_id/* net/core/netprio_cgroup.c 145 */;
+	struct cgroup_subsys_state *cocci_id/* net/core/netprio_cgroup.c 133 */;
+}

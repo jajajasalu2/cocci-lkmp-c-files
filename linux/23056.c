@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	u32 cocci_id/* sound/soc/ti/omap-mcbsp-st.c 65 */;
+	struct omap_mcbsp_st_data {
+		void __iomem *io_base_st;
+		struct clk *mcbsp_iclk;
+		bool running;
+		bool enabled;
+		s16 taps[128];
+		int nr_taps;
+		s16 ch0gain;
+		s16 ch1gain;
+	} cocci_id/* sound/soc/ti/omap-mcbsp-st.c 54 */;
+	struct omap_mcbsp *cocci_id/* sound/soc/ti/omap-mcbsp-st.c 493 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/ti/omap-mcbsp-st.c 492 */;
+	struct snd_soc_pcm_runtime *cocci_id/* sound/soc/ti/omap-mcbsp-st.c 490 */;
+	int cocci_id/* sound/soc/ti/omap-mcbsp-st.c 490 */;
+	struct soc_mixer_control cocci_id/* sound/soc/ti/omap-mcbsp-st.c 470 */;
+	unsigned long cocci_id/* sound/soc/ti/omap-mcbsp-st.c 470 */;
+	struct snd_ctl_elem_value *cocci_id/* sound/soc/ti/omap-mcbsp-st.c 456 */;
+	struct snd_kcontrol *cocci_id/* sound/soc/ti/omap-mcbsp-st.c 455 */;
+	u8 cocci_id/* sound/soc/ti/omap-mcbsp-st.c 442 */;
+	struct soc_mixer_control *cocci_id/* sound/soc/ti/omap-mcbsp-st.c 387 */;
+	struct snd_ctl_elem_info *cocci_id/* sound/soc/ti/omap-mcbsp-st.c 385 */;
+	struct platform_device *cocci_id/* sound/soc/ti/omap-mcbsp-st.c 374 */;
+	struct resource *cocci_id/* sound/soc/ti/omap-mcbsp-st.c 342 */;
+	struct attribute **cocci_id/* sound/soc/ti/omap-mcbsp-st.c 304 */;
+	const struct attribute_group cocci_id/* sound/soc/ti/omap-mcbsp-st.c 303 */;
+	const struct attribute *cocci_id/* sound/soc/ti/omap-mcbsp-st.c 298 */[];
+	const char *cocci_id/* sound/soc/ti/omap-mcbsp-st.c 261 */;
+	size_t cocci_id/* sound/soc/ti/omap-mcbsp-st.c 261 */;
+	struct device_attribute *cocci_id/* sound/soc/ti/omap-mcbsp-st.c 241 */;
+	char *cocci_id/* sound/soc/ti/omap-mcbsp-st.c 241 */;
+	struct device *cocci_id/* sound/soc/ti/omap-mcbsp-st.c 240 */;
+	ssize_t cocci_id/* sound/soc/ti/omap-mcbsp-st.c 240 */;
+	s16 cocci_id/* sound/soc/ti/omap-mcbsp-st.c 155 */;
+	struct omap_mcbsp_st_data *cocci_id/* sound/soc/ti/omap-mcbsp-st.c 146 */;
+	u16 cocci_id/* sound/soc/ti/omap-mcbsp-st.c 145 */;
+	void cocci_id/* sound/soc/ti/omap-mcbsp-st.c 143 */;
+	s16 *cocci_id/* sound/soc/ti/omap-mcbsp-st.c 117 */;
+	unsigned int cocci_id/* sound/soc/ti/omap-mcbsp-st.c 101 */;
+}

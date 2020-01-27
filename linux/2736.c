@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/i2c/busses/i2c-axxia.c 829 */;
+	const struct of_device_id cocci_id/* drivers/i2c/busses/i2c-axxia.c 822 */[];
+	void __iomem *cocci_id/* drivers/i2c/busses/i2c-axxia.c 738 */;
+	struct resource *cocci_id/* drivers/i2c/busses/i2c-axxia.c 737 */;
+	struct device_node *cocci_id/* drivers/i2c/busses/i2c-axxia.c 735 */;
+	struct platform_device *cocci_id/* drivers/i2c/busses/i2c-axxia.c 733 */;
+	const struct i2c_adapter_quirks cocci_id/* drivers/i2c/busses/i2c-axxia.c 728 */;
+	const struct i2c_algorithm cocci_id/* drivers/i2c/busses/i2c-axxia.c 721 */;
+	struct i2c_client *cocci_id/* drivers/i2c/busses/i2c-axxia.c 674 */;
+	u32 cocci_id/* drivers/i2c/busses/i2c-axxia.c 667 */;
+	struct i2c_adapter *cocci_id/* drivers/i2c/busses/i2c-axxia.c 667 */;
+	struct i2c_bus_recovery_info cocci_id/* drivers/i2c/busses/i2c-axxia.c 660 */;
+	bool cocci_id/* drivers/i2c/busses/i2c-axxia.c 605 */;
+	struct i2c_msg cocci_id/* drivers/i2c/busses/i2c-axxia.c 605 */[];
+	unsigned int cocci_id/* drivers/i2c/busses/i2c-axxia.c 530 */;
+	unsigned long cocci_id/* drivers/i2c/busses/i2c-axxia.c 468 */;
+	void cocci_id/* drivers/i2c/busses/i2c-axxia.c 436 */;
+	irqreturn_t cocci_id/* drivers/i2c/busses/i2c-axxia.c 362 */;
+	void *cocci_id/* drivers/i2c/busses/i2c-axxia.c 362 */;
+	u8 cocci_id/* drivers/i2c/busses/i2c-axxia.c 318 */;
+	size_t cocci_id/* drivers/i2c/busses/i2c-axxia.c 273 */;
+	struct i2c_msg *cocci_id/* drivers/i2c/busses/i2c-axxia.c 272 */;
+	struct axxia_i2c_dev *cocci_id/* drivers/i2c/busses/i2c-axxia.c 270 */;
+	int cocci_id/* drivers/i2c/busses/i2c-axxia.c 270 */;
+	const struct i2c_msg *cocci_id/* drivers/i2c/busses/i2c-axxia.c 251 */;
+	u64 cocci_id/* drivers/i2c/busses/i2c-axxia.c 171 */;
+	struct axxia_i2c_dev {
+		void __iomem *base;
+		struct i2c_msg *msg;
+		struct i2c_msg *msg_r;
+		size_t msg_xfrd;
+		size_t msg_xfrd_r;
+		int msg_err;
+		struct completion msg_complete;
+		struct device *dev;
+		struct i2c_adapter adapter;
+		struct clk *i2c_clk;
+		u32 bus_clk_rate;
+		bool last;
+		struct i2c_client *slave;
+		int irq;
+	} cocci_id/* drivers/i2c/busses/i2c-axxia.c 135 */;
+}

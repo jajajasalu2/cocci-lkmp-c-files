@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct rxq_entry_t *cocci_id/* drivers/staging/wilc1000/wlan.c 990 */;
+	const u8 *cocci_id/* drivers/staging/wilc1000/wlan.c 820 */;
+	struct wilc_cfg_rsp cocci_id/* drivers/staging/wilc1000/wlan.c 712 */;
+	struct rxq_entry_t cocci_id/* drivers/staging/wilc1000/wlan.c 384 */;
+	struct txq_entry_t cocci_id/* drivers/staging/wilc1000/wlan.c 344 */;
+	void (*cocci_id/* drivers/staging/wilc1000/wlan.c 310 */)(void *, int);
+	enum bus_release cocci_id/* drivers/staging/wilc1000/wlan.c 24 */;
+	enum bus_acquire cocci_id/* drivers/staging/wilc1000/wlan.c 17 */;
+	struct wilc *cocci_id/* drivers/staging/wilc1000/wlan.c 17 */;
+	void cocci_id/* drivers/staging/wilc1000/wlan.c 17 */;
+	const struct tcphdr *cocci_id/* drivers/staging/wilc1000/wlan.c 143 */;
+	const struct iphdr *cocci_id/* drivers/staging/wilc1000/wlan.c 142 */;
+	unsigned long cocci_id/* drivers/staging/wilc1000/wlan.c 138 */;
+	int cocci_id/* drivers/staging/wilc1000/wlan.c 137 */;
+	const struct ethhdr *cocci_id/* drivers/staging/wilc1000/wlan.c 136 */;
+	void *cocci_id/* drivers/staging/wilc1000/wlan.c 135 */;
+	struct tcp_ack_filter *cocci_id/* drivers/staging/wilc1000/wlan.c 121 */;
+	bool cocci_id/* drivers/staging/wilc1000/wlan.c 12 */;
+	struct txq_entry_t *cocci_id/* drivers/staging/wilc1000/wlan.c 119 */;
+	u32 cocci_id/* drivers/staging/wilc1000/wlan.c 117 */;
+	struct wilc_vif *cocci_id/* drivers/staging/wilc1000/wlan.c 117 */;
+	struct net_device *cocci_id/* drivers/staging/wilc1000/wlan.c 1159 */;
+	u8 cocci_id/* drivers/staging/wilc1000/wlan.c 1119 */;
+	struct wid *cocci_id/* drivers/staging/wilc1000/wlan.c 1119 */;
+	u16 cocci_id/* drivers/staging/wilc1000/wlan.c 1082 */;
+	u8 *cocci_id/* drivers/staging/wilc1000/wlan.c 1035 */;
+	struct wilc_cfg_cmd_hdr cocci_id/* drivers/staging/wilc1000/wlan.c 1023 */;
+	struct wilc_cfg_frame *cocci_id/* drivers/staging/wilc1000/wlan.c 1022 */;
+}

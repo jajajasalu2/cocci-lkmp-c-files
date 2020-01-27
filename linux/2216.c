@@ -1,0 +1,75 @@
+cocci_test_suite() {
+	struct sbp_target_agent cocci_id/* drivers/target/sbp/sbp_target.c 933 */;
+	void cocci_id/* drivers/target/sbp/sbp_target.c 852 */(struct sbp_target_request *);
+	int cocci_id/* drivers/target/sbp/sbp_target.c 851 */(struct sbp_target_request *);
+	u64 cocci_id/* drivers/target/sbp/sbp_target.c 72 */;
+	__be32 *cocci_id/* drivers/target/sbp/sbp_target.c 681 */;
+	struct sbp_session cocci_id/* drivers/target/sbp/sbp_target.c 641 */;
+	__be32 cocci_id/* drivers/target/sbp/sbp_target.c 56 */;
+	const struct sbp_management_request *cocci_id/* drivers/target/sbp/sbp_target.c 53 */;
+	u64 *cocci_id/* drivers/target/sbp/sbp_target.c 53 */;
+	int cocci_id/* drivers/target/sbp/sbp_target.c 53 */;
+	int cocci_id/* drivers/target/sbp/sbp_target.c 50 */(struct fw_card *,
+							     int, int, int,
+							     int,
+							     unsigned long long,
+							     void *, size_t);
+	void cocci_id/* drivers/target/sbp/sbp_target.c 49 */(struct work_struct *);
+	atomic_t cocci_id/* drivers/target/sbp/sbp_target.c 47 */;
+	const u32 cocci_id/* drivers/target/sbp/sbp_target.c 36 */[];
+	const struct fw_address_region cocci_id/* drivers/target/sbp/sbp_target.c 31 */;
+	struct sbp_login_response_block *cocci_id/* drivers/target/sbp/sbp_target.c 266 */;
+	struct sbp_management_request *cocci_id/* drivers/target/sbp/sbp_target.c 259 */;
+	struct sbp_target_agent *cocci_id/* drivers/target/sbp/sbp_target.c 255 */(struct sbp_login_descriptor *);
+	bool cocci_id/* drivers/target/sbp/sbp_target.c 236 */;
+	void __exit cocci_id/* drivers/target/sbp/sbp_target.c 2342 */;
+	int __init cocci_id/* drivers/target/sbp/sbp_target.c 2337 */;
+	void cocci_id/* drivers/target/sbp/sbp_target.c 233 */(struct sbp_target_agent *);
+	const struct target_core_fabric_ops cocci_id/* drivers/target/sbp/sbp_target.c 2301 */;
+	struct configfs_attribute *cocci_id/* drivers/target/sbp/sbp_target.c 2294 */[];
+	struct config_item *cocci_id/* drivers/target/sbp/sbp_target.c 2261 */;
+	struct sbp_tport cocci_id/* drivers/target/sbp/sbp_target.c 2075 */;
+	struct se_wwn *cocci_id/* drivers/target/sbp/sbp_target.c 2072 */;
+	struct config_group *cocci_id/* drivers/target/sbp/sbp_target.c 2053 */;
+	struct target_fabric_configfs *cocci_id/* drivers/target/sbp/sbp_target.c 2052 */;
+	struct sbp_tport *cocci_id/* drivers/target/sbp/sbp_target.c 2043 */;
+	struct sbp_tpg cocci_id/* drivers/target/sbp/sbp_target.c 2042 */;
+	struct sbp_tpg *cocci_id/* drivers/target/sbp/sbp_target.c 2042 */;
+	unsigned long cocci_id/* drivers/target/sbp/sbp_target.c 1992 */;
+	const char *cocci_id/* drivers/target/sbp/sbp_target.c 1951 */;
+	struct se_node_acl *cocci_id/* drivers/target/sbp/sbp_target.c 1951 */;
+	char *cocci_id/* drivers/target/sbp/sbp_target.c 1946 */;
+	ssize_t cocci_id/* drivers/target/sbp/sbp_target.c 1946 */;
+	size_t cocci_id/* drivers/target/sbp/sbp_target.c 1946 */;
+	char cocci_id/* drivers/target/sbp/sbp_target.c 1915 */;
+	struct se_device *cocci_id/* drivers/target/sbp/sbp_target.c 1878 */;
+	char cocci_id/* drivers/target/sbp/sbp_target.c 186 */[17];
+	struct se_lun *cocci_id/* drivers/target/sbp/sbp_target.c 1800 */;
+	struct sbp_target_request cocci_id/* drivers/target/sbp/sbp_target.c 1793 */;
+	struct se_cmd *cocci_id/* drivers/target/sbp/sbp_target.c 1785 */;
+	void cocci_id/* drivers/target/sbp/sbp_target.c 1785 */;
+	u16 cocci_id/* drivers/target/sbp/sbp_target.c 1692 */;
+	struct se_portal_group *cocci_id/* drivers/target/sbp/sbp_target.c 1679 */;
+	struct sbp_management_agent *cocci_id/* drivers/target/sbp/sbp_target.c 1637 */;
+	u32 cocci_id/* drivers/target/sbp/sbp_target.c 161 */;
+	int *cocci_id/* drivers/target/sbp/sbp_target.c 161 */;
+	struct sbp2_pointer *cocci_id/* drivers/target/sbp/sbp_target.c 1587 */;
+	void *cocci_id/* drivers/target/sbp/sbp_target.c 1583 */;
+	unsigned long long cocci_id/* drivers/target/sbp/sbp_target.c 1583 */;
+	struct fw_request *cocci_id/* drivers/target/sbp/sbp_target.c 1582 */;
+	struct fw_card *cocci_id/* drivers/target/sbp/sbp_target.c 1581 */;
+	struct sbp_management_agent cocci_id/* drivers/target/sbp/sbp_target.c 1456 */;
+	struct work_struct *cocci_id/* drivers/target/sbp/sbp_target.c 1453 */;
+	struct se_session *cocci_id/* drivers/target/sbp/sbp_target.c 1445 */;
+	u8 *cocci_id/* drivers/target/sbp/sbp_target.c 1361 */;
+	struct sg_mapping_iter cocci_id/* drivers/target/sbp/sbp_target.c 1250 */;
+	enum dma_data_direction cocci_id/* drivers/target/sbp/sbp_target.c 1198 */;
+	struct sbp_session *cocci_id/* drivers/target/sbp/sbp_target.c 1195 */;
+	struct sbp_login_descriptor *cocci_id/* drivers/target/sbp/sbp_target.c 1194 */;
+	u32 *cocci_id/* drivers/target/sbp/sbp_target.c 1166 */;
+	enum dma_data_direction *cocci_id/* drivers/target/sbp/sbp_target.c 1166 */;
+	struct sbp_target_request *cocci_id/* drivers/target/sbp/sbp_target.c 1165 */;
+	struct sbp_page_table_entry cocci_id/* drivers/target/sbp/sbp_target.c 1147 */;
+	struct sbp_page_table_entry *cocci_id/* drivers/target/sbp/sbp_target.c 1141 */;
+	struct sbp_target_agent *cocci_id/* drivers/target/sbp/sbp_target.c 1012 */;
+}

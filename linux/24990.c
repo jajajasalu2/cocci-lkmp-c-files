@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	u8 *cocci_id/* net/batman-adv/bat_v_ogm.c 989 */;
+	struct ethhdr *cocci_id/* net/batman-adv/bat_v_ogm.c 987 */;
+	char *cocci_id/* net/batman-adv/bat_v_ogm.c 934 */;
+	struct batadv_hardif_neigh_node *cocci_id/* net/batman-adv/bat_v_ogm.c 858 */;
+	const struct sk_buff *cocci_id/* net/batman-adv/bat_v_ogm.c 852 */;
+	const struct batadv_ogm2_packet *cocci_id/* net/batman-adv/bat_v_ogm.c 830 */;
+	bool cocci_id/* net/batman-adv/bat_v_ogm.c 828 */;
+	const struct ethhdr *cocci_id/* net/batman-adv/bat_v_ogm.c 783 */;
+	s32 cocci_id/* net/batman-adv/bat_v_ogm.c 612 */;
+	const u8 *cocci_id/* net/batman-adv/bat_v_ogm.c 55 */;
+	u16 cocci_id/* net/batman-adv/bat_v_ogm.c 522 */;
+	size_t cocci_id/* net/batman-adv/bat_v_ogm.c 521 */;
+	unsigned char *cocci_id/* net/batman-adv/bat_v_ogm.c 519 */;
+	struct batadv_ogm2_packet *cocci_id/* net/batman-adv/bat_v_ogm.c 518 */;
+	struct batadv_orig_ifinfo *cocci_id/* net/batman-adv/bat_v_ogm.c 516 */;
+	struct batadv_neigh_ifinfo *cocci_id/* net/batman-adv/bat_v_ogm.c 515 */;
+	struct batadv_neigh_node *cocci_id/* net/batman-adv/bat_v_ogm.c 511 */;
+	struct batadv_orig_node *cocci_id/* net/batman-adv/bat_v_ogm.c 510 */;
+	int cocci_id/* net/batman-adv/bat_v_ogm.c 475 */;
+	struct batadv_hard_iface *cocci_id/* net/batman-adv/bat_v_ogm.c 471 */;
+	u32 cocci_id/* net/batman-adv/bat_v_ogm.c 470 */;
+	struct batadv_priv *cocci_id/* net/batman-adv/bat_v_ogm.c 470 */;
+	struct batadv_hard_iface cocci_id/* net/batman-adv/bat_v_ogm.c 389 */;
+	struct batadv_hard_iface_bat_v cocci_id/* net/batman-adv/bat_v_ogm.c 388 */;
+	struct batadv_hard_iface_bat_v *cocci_id/* net/batman-adv/bat_v_ogm.c 385 */;
+	struct work_struct *cocci_id/* net/batman-adv/bat_v_ogm.c 383 */;
+	struct batadv_priv cocci_id/* net/batman-adv/bat_v_ogm.c 370 */;
+	struct batadv_priv_bat_v cocci_id/* net/batman-adv/bat_v_ogm.c 369 */;
+	struct batadv_priv_bat_v *cocci_id/* net/batman-adv/bat_v_ogm.c 366 */;
+	struct sk_buff *cocci_id/* net/batman-adv/bat_v_ogm.c 201 */;
+	unsigned int cocci_id/* net/batman-adv/bat_v_ogm.c 200 */;
+	void cocci_id/* net/batman-adv/bat_v_ogm.c 179 */;
+	unsigned long cocci_id/* net/batman-adv/bat_v_ogm.c 102 */;
+}

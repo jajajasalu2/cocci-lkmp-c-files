@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct usb_device_driver *cocci_id/* drivers/usb/core/driver.c 918 */;
+	struct module *cocci_id/* drivers/usb/core/driver.c 882 */;
+	struct kobj_uevent_env *cocci_id/* drivers/usb/core/driver.c 829 */;
+	const struct usb_device_id *cocci_id/* drivers/usb/core/driver.c 808 */;
+	struct device *cocci_id/* drivers/usb/core/driver.c 793 */;
+	u8 cocci_id/* drivers/usb/core/driver.c 74 */;
+	struct usb_host_interface *cocci_id/* drivers/usb/core/driver.c 681 */;
+	void *cocci_id/* drivers/usb/core/driver.c 505 */;
+	unsigned int cocci_id/* drivers/usb/core/driver.c 50 */;
+	struct usb_host_endpoint *cocci_id/* drivers/usb/core/driver.c 397 */;
+	struct bus_type cocci_id/* drivers/usb/core/driver.c 1922 */;
+	struct usb_hcd *cocci_id/* drivers/usb/core/driver.c 1890 */;
+	struct usb_driver *cocci_id/* drivers/usb/core/driver.c 1805 */;
+	struct usb_interface *cocci_id/* drivers/usb/core/driver.c 1776 */;
+	struct usb_device *cocci_id/* drivers/usb/core/driver.c 1773 */;
+	int cocci_id/* drivers/usb/core/driver.c 1773 */;
+	struct usb_device_id *cocci_id/* drivers/usb/core/driver.c 165 */;
+	u32 cocci_id/* drivers/usb/core/driver.c 155 */;
+	struct usb_dynid *cocci_id/* drivers/usb/core/driver.c 153 */;
+	pm_message_t cocci_id/* drivers/usb/core/driver.c 1427 */;
+	void cocci_id/* drivers/usb/core/driver.c 1427 */;
+	const char *cocci_id/* drivers/usb/core/driver.c 139 */;
+	size_t cocci_id/* drivers/usb/core/driver.c 139 */;
+	u16 cocci_id/* drivers/usb/core/driver.c 1335 */;
+	struct device_driver *cocci_id/* drivers/usb/core/driver.c 131 */;
+	char *cocci_id/* drivers/usb/core/driver.c 131 */;
+	ssize_t cocci_id/* drivers/usb/core/driver.c 131 */;
+	struct usb_dynids *cocci_id/* drivers/usb/core/driver.c 114 */;
+	struct usb_host_config *cocci_id/* drivers/usb/core/driver.c 1080 */;
+}

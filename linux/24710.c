@@ -1,0 +1,58 @@
+cocci_test_suite() {
+	struct ip_vs_proto_data *cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 907 */;
+	struct ip_vs_aligned_lock cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 89 */[CT_LOCKARRAY_SIZE]__cacheline_aligned;
+	struct ip_vs_aligned_lock {
+		spinlock_t l;
+	}__attribute__((__aligned__(SMP_CACHE_BYTES))) cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 83 */;
+	struct timer_list *cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 810 */;
+	struct rcu_head *cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 800 */;
+	struct ip_vs_dest *cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 740 */;
+	struct netns_ipvs *cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 739 */;
+	int cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 739 */;
+	atomic_t cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 64 */;
+	struct kmem_cache *cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 61 */;
+	__u32 cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 575 */;
+	__be16 cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 479 */;
+	unsigned long cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 458 */;
+	void cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 456 */;
+	__be16 cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 319 */[2];
+	struct ip_vs_conn_param *cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 317 */;
+	const struct ip_vs_iphdr *cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 316 */;
+	const struct sk_buff *cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 315 */;
+	unsigned int cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 265 */;
+	const struct ip_vs_conn_param *cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 263 */;
+	struct ip_vs_conn *cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 262 */;
+	struct ip_vs_conn_param cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 145 */;
+	const struct ip_vs_conn *cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 143 */;
+	struct list_head cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 1420 */;
+	long cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 1420 */;
+	struct ip_vs_conn cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 1410 */;
+	int __init cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 1392 */;
+	void __net_exit cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 1384 */;
+	struct ip_vs_iter_state cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 1377 */;
+	int __net_init cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 1372 */;
+	struct ip_vs_service *cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 1252 */;
+	bool cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 123 */;
+	char cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 1229 */[9];
+	const char cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 1228 */[9];
+	size_t cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 115 */;
+	const char *cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 1148 */;
+	const struct seq_operations cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 1141 */;
+	u32 cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 114 */;
+	char cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 1090 */[IP_VS_ADDRSTRLEN];
+	char cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 1088 */[IP_VS_PENAME_MAXLEN + IP_VS_PEDATA_MAXLEN + 3];
+	struct net *cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 1087 */;
+	const union nf_inet_addr *cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 108 */;
+	struct hlist_head *cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 1049 */;
+	struct hlist_node *cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 1048 */;
+	loff_t *cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 1044 */;
+	void cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 102 */(struct timer_list *t);
+	struct ip_vs_iter_state *cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 1016 */;
+	loff_t cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 1012 */;
+	struct seq_file *cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 1012 */;
+	void *cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 1012 */;
+	struct ip_vs_iter_state {
+		struct seq_net_private p;
+		struct hlist_head *l;
+	} cocci_id/* net/netfilter/ipvs/ip_vs_conn.c 1007 */;
+}

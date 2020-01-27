@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	struct balloon_dev_info cocci_id/* arch/powerpc/platforms/pseries/cmm.c 92 */;
+	struct task_struct *cocci_id/* arch/powerpc/platforms/pseries/cmm.c 91 */;
+	atomic_long_t cocci_id/* arch/powerpc/platforms/pseries/cmm.c 84 */;
+	bool cocci_id/* arch/powerpc/platforms/pseries/cmm.c 79 */;
+	const struct kernel_param *cocci_id/* arch/powerpc/platforms/pseries/cmm.c 692 */;
+	const char *cocci_id/* arch/powerpc/platforms/pseries/cmm.c 692 */;
+	void cocci_id/* arch/powerpc/platforms/pseries/cmm.c 596 */;
+	int cocci_id/* arch/powerpc/platforms/pseries/cmm.c 570 */;
+	struct device cocci_id/* arch/powerpc/platforms/pseries/cmm.c 56 */;
+	bool __read_mostly cocci_id/* arch/powerpc/platforms/pseries/cmm.c 54 */;
+	enum migrate_mode cocci_id/* arch/powerpc/platforms/pseries/cmm.c 521 */;
+	struct balloon_dev_info *cocci_id/* arch/powerpc/platforms/pseries/cmm.c 519 */;
+	struct file_system_type cocci_id/* arch/powerpc/platforms/pseries/cmm.c 513 */;
+	unsigned int cocci_id/* arch/powerpc/platforms/pseries/cmm.c 51 */;
+	struct fs_context *cocci_id/* arch/powerpc/platforms/pseries/cmm.c 508 */;
+	struct vfsmount *cocci_id/* arch/powerpc/platforms/pseries/cmm.c 506 */;
+	struct notifier_block cocci_id/* arch/powerpc/platforms/pseries/cmm.c 500 */;
+	void *cocci_id/* arch/powerpc/platforms/pseries/cmm.c 477 */;
+	unsigned long cocci_id/* arch/powerpc/platforms/pseries/cmm.c 477 */;
+	struct notifier_block *cocci_id/* arch/powerpc/platforms/pseries/cmm.c 476 */;
+	struct device *cocci_id/* arch/powerpc/platforms/pseries/cmm.c 387 */;
+	struct bus_type cocci_id/* arch/powerpc/platforms/pseries/cmm.c 382 */;
+	struct device_attribute *cocci_id/* arch/powerpc/platforms/pseries/cmm.c 373 */[];
+	size_t cocci_id/* arch/powerpc/platforms/pseries/cmm.c 357 */;
+	struct device_attribute *cocci_id/* arch/powerpc/platforms/pseries/cmm.c 350 */;
+	char *cocci_id/* arch/powerpc/platforms/pseries/cmm.c 350 */;
+	ssize_t cocci_id/* arch/powerpc/platforms/pseries/cmm.c 349 */;
+	s64 cocci_id/* arch/powerpc/platforms/pseries/cmm.c 251 */;
+	signed long cocci_id/* arch/powerpc/platforms/pseries/cmm.c 244 */;
+	struct hvcall_mpp_data cocci_id/* arch/powerpc/platforms/pseries/cmm.c 243 */;
+	const long cocci_id/* arch/powerpc/platforms/pseries/cmm.c 240 */;
+	unsigned long *cocci_id/* arch/powerpc/platforms/pseries/cmm.c 218 */;
+	struct page *cocci_id/* arch/powerpc/platforms/pseries/cmm.c 143 */;
+	long cocci_id/* arch/powerpc/platforms/pseries/cmm.c 141 */;
+	const unsigned long cocci_id/* arch/powerpc/platforms/pseries/cmm.c 116 */;
+}

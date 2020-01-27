@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	char *cocci_id/* drivers/iio/dac/ad5446.c 91 */;
+	uintptr_t cocci_id/* drivers/iio/dac/ad5446.c 89 */;
+	ssize_t cocci_id/* drivers/iio/dac/ad5446.c 88 */;
+	const struct iio_enum cocci_id/* drivers/iio/dac/ad5446.c 81 */;
+	struct ad5446_state *cocci_id/* drivers/iio/dac/ad5446.c 76 */;
+	const struct iio_chan_spec *cocci_id/* drivers/iio/dac/ad5446.c 74 */;
+	struct iio_dev *cocci_id/* drivers/iio/dac/ad5446.c 73 */;
+	int cocci_id/* drivers/iio/dac/ad5446.c 73 */;
+	unsigned int cocci_id/* drivers/iio/dac/ad5446.c 64 */;
+	void __exit cocci_id/* drivers/iio/dac/ad5446.c 629 */;
+	void cocci_id/* drivers/iio/dac/ad5446.c 629 */;
+	int __init cocci_id/* drivers/iio/dac/ad5446.c 594 */;
+	const char *const cocci_id/* drivers/iio/dac/ad5446.c 59 */[];
+	struct i2c_driver cocci_id/* drivers/iio/dac/ad5446.c 585 */;
+	const struct i2c_device_id cocci_id/* drivers/iio/dac/ad5446.c 574 */[];
+	const struct i2c_device_id *cocci_id/* drivers/iio/dac/ad5446.c 563 */;
+	struct i2c_client *cocci_id/* drivers/iio/dac/ad5446.c 562 */;
+	const struct ad5446_chip_info cocci_id/* drivers/iio/dac/ad5446.c 547 */[];
+	enum ad5446_supported_i2c_device_ids{ID_AD5602, ID_AD5612, ID_AD5622,} cocci_id/* drivers/iio/dac/ad5446.c 541 */;
+	struct ad5446_chip_info {
+		struct iio_chan_spec channel;
+		u16 int_vref_mv;
+		int (*write)(struct ad5446_state *st, unsigned val);
+	} cocci_id/* drivers/iio/dac/ad5446.c 53 */;
+	struct spi_driver cocci_id/* drivers/iio/dac/ad5446.c 497 */;
+	const struct spi_device_id *cocci_id/* drivers/iio/dac/ad5446.c 486 */;
+	struct spi_device *cocci_id/* drivers/iio/dac/ad5446.c 484 */;
+	const struct of_device_id cocci_id/* drivers/iio/dac/ad5446.c 477 */[];
+	const struct spi_device_id cocci_id/* drivers/iio/dac/ad5446.c 441 */[];
+	struct ad5446_state {
+		struct device *dev;
+		const struct ad5446_chip_info *chip_info;
+		struct regulator *reg;
+		unsigned short vref_mv;
+		unsigned cached_val;
+		unsigned pwr_down_mode;
+		unsigned pwr_down;
+	} cocci_id/* drivers/iio/dac/ad5446.c 36 */;
+	enum ad5446_supported_spi_device_ids{ID_AD5300, ID_AD5310, ID_AD5320, ID_AD5444, ID_AD5446, ID_AD5450, ID_AD5451, ID_AD5541A, ID_AD5512A, ID_AD5553, ID_AD5600, ID_AD5601, ID_AD5611, ID_AD5621, ID_AD5641, ID_AD5620_2500, ID_AD5620_1250, ID_AD5640_2500, ID_AD5640_1250, ID_AD5660_2500, ID_AD5660_1250, ID_AD5662,} cocci_id/* drivers/iio/dac/ad5446.c 319 */;
+	uint8_t cocci_id/* drivers/iio/dac/ad5446.c 303 */[3];
+	__be16 cocci_id/* drivers/iio/dac/ad5446.c 295 */;
+	unsigned cocci_id/* drivers/iio/dac/ad5446.c 292 */;
+	struct regulator *cocci_id/* drivers/iio/dac/ad5446.c 221 */;
+	const struct ad5446_chip_info *cocci_id/* drivers/iio/dac/ad5446.c 217 */;
+	const char *cocci_id/* drivers/iio/dac/ad5446.c 216 */;
+	struct device *cocci_id/* drivers/iio/dac/ad5446.c 216 */;
+	const struct iio_info cocci_id/* drivers/iio/dac/ad5446.c 211 */;
+	long cocci_id/* drivers/iio/dac/ad5446.c 167 */;
+	int *cocci_id/* drivers/iio/dac/ad5446.c 165 */;
+	const struct iio_chan_spec_ext_info cocci_id/* drivers/iio/dac/ad5446.c 129 */[];
+	bool cocci_id/* drivers/iio/dac/ad5446.c 106 */;
+	size_t cocci_id/* drivers/iio/dac/ad5446.c 101 */;
+}

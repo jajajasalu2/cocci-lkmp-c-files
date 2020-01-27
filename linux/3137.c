@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct tb_nhi *cocci_id/* drivers/thunderbolt/nhi.c 867 */;
+	struct tb *cocci_id/* drivers/thunderbolt/nhi.c 866 */;
+	struct pci_dev *cocci_id/* drivers/thunderbolt/nhi.c 865 */;
+	bool cocci_id/* drivers/thunderbolt/nhi.c 863 */;
+	struct device *cocci_id/* drivers/thunderbolt/nhi.c 863 */;
+	int cocci_id/* drivers/thunderbolt/nhi.c 863 */;
+	irqreturn_t cocci_id/* drivers/thunderbolt/nhi.c 856 */;
+	void *cocci_id/* drivers/thunderbolt/nhi.c 856 */;
+	typeof(*nhi) cocci_id/* drivers/thunderbolt/nhi.c 806 */;
+	struct work_struct *cocci_id/* drivers/thunderbolt/nhi.c 804 */;
+	enum nhi_fw_mode cocci_id/* drivers/thunderbolt/nhi.c 793 */;
+	ktime_t cocci_id/* drivers/thunderbolt/nhi.c 760 */;
+	enum nhi_mailbox_cmd cocci_id/* drivers/thunderbolt/nhi.c 758 */;
+	void (*cocci_id/* drivers/thunderbolt/nhi.c 491 */)(void *);
+	unsigned int cocci_id/* drivers/thunderbolt/nhi.c 439 */;
+	struct tb_ring *cocci_id/* drivers/thunderbolt/nhi.c 352 */;
+	void cocci_id/* drivers/thunderbolt/nhi.c 352 */;
+	u32 cocci_id/* drivers/thunderbolt/nhi.c 341 */;
+	unsigned long cocci_id/* drivers/thunderbolt/nhi.c 280 */;
+	struct ring_frame *cocci_id/* drivers/thunderbolt/nhi.c 278 */;
+	typeof(*frame) cocci_id/* drivers/thunderbolt/nhi.c 250 */;
+	typeof(*ring) cocci_id/* drivers/thunderbolt/nhi.c 230 */;
+	struct ring_desc *cocci_id/* drivers/thunderbolt/nhi.c 197 */;
+	u64 cocci_id/* drivers/thunderbolt/nhi.c 168 */;
+	u16 cocci_id/* drivers/thunderbolt/nhi.c 147 */;
+	void __iomem *cocci_id/* drivers/thunderbolt/nhi.c 131 */;
+	void __exit cocci_id/* drivers/thunderbolt/nhi.c 1301 */;
+	int __init cocci_id/* drivers/thunderbolt/nhi.c 1288 */;
+	struct pci_driver cocci_id/* drivers/thunderbolt/nhi.c 1280 */;
+	struct pci_device_id cocci_id/* drivers/thunderbolt/nhi.c 1228 */[];
+	const struct dev_pm_ops cocci_id/* drivers/thunderbolt/nhi.c 1210 */;
+	const struct tb_nhi_ops *cocci_id/* drivers/thunderbolt/nhi.c 1122 */;
+	const struct pci_device_id *cocci_id/* drivers/thunderbolt/nhi.c 1094 */;
+	u8 cocci_id/* drivers/thunderbolt/nhi.c 1086 */;
+}

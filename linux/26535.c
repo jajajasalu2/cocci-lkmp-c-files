@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	char cocci_id/* tools/bpf/bpftool/xlated_dumper.c 94 */[64];
+	void __printf(2,3) cocci_id/* tools/bpf/bpftool/xlated_dumper.c 91 */;
+	va_list cocci_id/* tools/bpf/bpftool/xlated_dumper.c 84 */;
+	void __printf(2,3) cocci_id/* tools/bpf/bpftool/xlated_dumper.c 82 */;
+	struct kernel_sym cocci_id/* tools/bpf/bpftool/xlated_dumper.c 73 */;
+	unsigned long cocci_id/* tools/bpf/bpftool/xlated_dumper.c 48 */;
+	int cocci_id/* tools/bpf/bpftool/xlated_dumper.c 368 */;
+	struct bpf_insn *cocci_id/* tools/bpf/bpftool/xlated_dumper.c 363 */;
+	const struct bpf_insn_cbs cocci_id/* tools/bpf/bpftool/xlated_dumper.c 357 */;
+	unsigned int cocci_id/* tools/bpf/bpftool/xlated_dumper.c 355 */;
+	struct dump_data *cocci_id/* tools/bpf/bpftool/xlated_dumper.c 354 */;
+	void *cocci_id/* tools/bpf/bpftool/xlated_dumper.c 354 */;
+	void cocci_id/* tools/bpf/bpftool/xlated_dumper.c 354 */;
+	FILE *cocci_id/* tools/bpf/bpftool/xlated_dumper.c 28 */;
+	uint8_t *cocci_id/* tools/bpf/bpftool/xlated_dumper.c 274 */;
+	char cocci_id/* tools/bpf/bpftool/xlated_dumper.c 26 */[256];
+	const struct bpf_line_info *cocci_id/* tools/bpf/bpftool/xlated_dumper.c 248 */;
+	char cocci_id/* tools/bpf/bpftool/xlated_dumper.c 220 */[1024];
+	struct btf *cocci_id/* tools/bpf/bpftool/xlated_dumper.c 217 */;
+	struct bpf_func_info *cocci_id/* tools/bpf/bpftool/xlated_dumper.c 215 */;
+	const struct bpf_prog_linfo *cocci_id/* tools/bpf/bpftool/xlated_dumper.c 208 */;
+	bool cocci_id/* tools/bpf/bpftool/xlated_dumper.c 206 */;
+	unsigned long long cocci_id/* tools/bpf/bpftool/xlated_dumper.c 201 */;
+	struct kernel_sym *cocci_id/* tools/bpf/bpftool/xlated_dumper.c 19 */;
+	__u64 cocci_id/* tools/bpf/bpftool/xlated_dumper.c 189 */;
+	__u32 cocci_id/* tools/bpf/bpftool/xlated_dumper.c 177 */;
+	const struct bpf_insn *cocci_id/* tools/bpf/bpftool/xlated_dumper.c 170 */;
+	const void *cocci_id/* tools/bpf/bpftool/xlated_dumper.c 17 */;
+	const char *cocci_id/* tools/bpf/bpftool/xlated_dumper.c 169 */;
+	char cocci_id/* tools/bpf/bpftool/xlated_dumper.c 126 */[l];
+}

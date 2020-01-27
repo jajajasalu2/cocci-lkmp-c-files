@@ -1,0 +1,74 @@
+cocci_test_suite() {
+	struct iovec cocci_id/* arch/um/drivers/vector_kern.c 915 */[3 + MAX_IOV_SIZE];
+	struct iovec cocci_id/* arch/um/drivers/vector_kern.c 843 */[2 + MAX_IOV_SIZE];
+	struct user_msghdr cocci_id/* arch/um/drivers/vector_kern.c 842 */;
+	const struct {
+		const char string[ETH_GSTRING_LEN];
+	} cocci_id/* arch/um/drivers/vector_kern.c 84 */[];
+	struct net_device *cocci_id/* arch/um/drivers/vector_kern.c 828 */;
+	struct device *cocci_id/* arch/um/drivers/vector_kern.c 825 */;
+	struct platform_driver cocci_id/* arch/um/drivers/vector_kern.c 818 */;
+	int *cocci_id/* arch/um/drivers/vector_kern.c 779 */;
+	char **cocci_id/* arch/um/drivers/vector_kern.c 747 */;
+	void cocci_id/* arch/um/drivers/vector_kern.c 71 */(int n,
+							    struct arglist *def);
+	struct vector_device cocci_id/* arch/um/drivers/vector_kern.c 704 */;
+	struct list_head *cocci_id/* arch/um/drivers/vector_kern.c 700 */;
+	struct vector_device *cocci_id/* arch/um/drivers/vector_kern.c 697 */;
+	void **cocci_id/* arch/um/drivers/vector_kern.c 679 */;
+	struct user_msghdr *cocci_id/* arch/um/drivers/vector_kern.c 619 */;
+	struct iovec cocci_id/* arch/um/drivers/vector_kern.c 563 */;
+	struct vector_device {
+		struct list_head list;
+		struct net_device *dev;
+		struct platform_device pdev;
+		int unit;
+		int opened;
+	} cocci_id/* arch/um/drivers/vector_kern.c 56 */;
+	void *cocci_id/* arch/um/drivers/vector_kern.c 543 */;
+	struct mmsghdr cocci_id/* arch/um/drivers/vector_kern.c 539 */;
+	struct vector_queue cocci_id/* arch/um/drivers/vector_kern.c 533 */;
+	struct mmsghdr *cocci_id/* arch/um/drivers/vector_kern.c 531 */;
+	struct iovec *cocci_id/* arch/um/drivers/vector_kern.c 530 */;
+	struct vector_private *cocci_id/* arch/um/drivers/vector_kern.c 523 */;
+	struct vector_cmd_line_arg {
+		struct list_head list;
+		int unit;
+		char *arguments;
+	} cocci_id/* arch/um/drivers/vector_kern.c 50 */;
+	void cocci_id/* arch/um/drivers/vector_kern.c 482 */;
+	struct sk_buff *cocci_id/* arch/um/drivers/vector_kern.c 380 */;
+	struct vector_queue *cocci_id/* arch/um/drivers/vector_kern.c 378 */;
+	int cocci_id/* arch/um/drivers/vector_kern.c 378 */;
+	skb_frag_t *cocci_id/* arch/um/drivers/vector_kern.c 297 */;
+	char *cocci_id/* arch/um/drivers/vector_kern.c 232 */;
+	struct notifier_block cocci_id/* arch/um/drivers/vector_kern.c 1740 */;
+	struct notifier_block *cocci_id/* arch/um/drivers/vector_kern.c 1733 */;
+	struct mc_device cocci_id/* arch/um/drivers/vector_kern.c 1722 */;
+	struct vector_cmd_line_arg cocci_id/* arch/um/drivers/vector_kern.c 1677 */;
+	struct vector_cmd_line_arg *cocci_id/* arch/um/drivers/vector_kern.c 1673 */;
+	int __init cocci_id/* arch/um/drivers/vector_kern.c 1670 */;
+	unsigned long cocci_id/* arch/um/drivers/vector_kern.c 1630 */;
+	struct vector_private cocci_id/* arch/um/drivers/vector_kern.c 1564 */;
+	struct timer_list *cocci_id/* arch/um/drivers/vector_kern.c 1540 */;
+	const struct net_device_ops cocci_id/* arch/um/drivers/vector_kern.c 1524 */;
+	const struct ethtool_ops cocci_id/* arch/um/drivers/vector_kern.c 1510 */;
+	struct ethtool_coalesce *cocci_id/* arch/um/drivers/vector_kern.c 1491 */;
+	struct vector_estats cocci_id/* arch/um/drivers/vector_kern.c 1487 */;
+	u64 *cocci_id/* arch/um/drivers/vector_kern.c 1483 */;
+	struct ethtool_stats *cocci_id/* arch/um/drivers/vector_kern.c 1482 */;
+	u32 cocci_id/* arch/um/drivers/vector_kern.c 1454 */;
+	u8 *cocci_id/* arch/um/drivers/vector_kern.c 1454 */;
+	struct ethtool_ringparam *cocci_id/* arch/um/drivers/vector_kern.c 1444 */;
+	struct sock_filter cocci_id/* arch/um/drivers/vector_kern.c 1421 */;
+	long cocci_id/* arch/um/drivers/vector_kern.c 142 */;
+	struct sock_fprog cocci_id/* arch/um/drivers/vector_kern.c 1405 */;
+	bool cocci_id/* arch/um/drivers/vector_kern.c 139 */;
+	const struct firmware *cocci_id/* arch/um/drivers/vector_kern.c 1389 */;
+	struct ethtool_flash *cocci_id/* arch/um/drivers/vector_kern.c 1385 */;
+	struct ethtool_drvinfo *cocci_id/* arch/um/drivers/vector_kern.c 1378 */;
+	netdev_features_t cocci_id/* arch/um/drivers/vector_kern.c 1344 */;
+	struct arglist *cocci_id/* arch/um/drivers/vector_kern.c 134 */;
+	struct work_struct *cocci_id/* arch/um/drivers/vector_kern.c 1204 */;
+	irqreturn_t cocci_id/* arch/um/drivers/vector_kern.c 1109 */;
+}

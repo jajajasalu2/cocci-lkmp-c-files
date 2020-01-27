@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	const irq_handler_t cocci_id/* drivers/staging/pi433/pi433_if.c 980 */[NUM_DIO];
+	char cocci_id/* drivers/staging/pi433/pi433_if.c 977 */[5];
+	struct inode *cocci_id/* drivers/staging/pi433/pi433_if.c 933 */;
+	struct pi433_rx_cfg cocci_id/* drivers/staging/pi433/pi433_if.c 904 */;
+	void __user *cocci_id/* drivers/staging/pi433/pi433_if.c 877 */;
+	struct pi433_tx_cfg cocci_id/* drivers/staging/pi433/pi433_if.c 876 */;
+	struct pi433_instance *cocci_id/* drivers/staging/pi433/pi433_if.c 874 */;
+	struct file *cocci_id/* drivers/staging/pi433/pi433_if.c 872 */;
+	unsigned long cocci_id/* drivers/staging/pi433/pi433_if.c 872 */;
+	unsigned int cocci_id/* drivers/staging/pi433/pi433_if.c 872 */;
+	long cocci_id/* drivers/staging/pi433/pi433_if.c 871 */;
+	const char __user *cocci_id/* drivers/staging/pi433/pi433_if.c 808 */;
+	loff_t *cocci_id/* drivers/staging/pi433/pi433_if.c 763 */;
+	char __user *cocci_id/* drivers/staging/pi433/pi433_if.c 763 */;
+	size_t cocci_id/* drivers/staging/pi433/pi433_if.c 763 */;
+	ssize_t cocci_id/* drivers/staging/pi433/pi433_if.c 762 */;
+	struct class *cocci_id/* drivers/staging/pi433/pi433_if.c 57 */;
+	bool cocci_id/* drivers/staging/pi433/pi433_if.c 562 */;
+	dev_t cocci_id/* drivers/staging/pi433/pi433_if.c 53 */;
+	u8 cocci_id/* drivers/staging/pi433/pi433_if.c 494 */;
+	u8 *cocci_id/* drivers/staging/pi433/pi433_if.c 482 */;
+	struct pi433_tx_cfg *cocci_id/* drivers/staging/pi433/pi433_if.c 283 */;
+	struct pi433_rx_cfg *cocci_id/* drivers/staging/pi433/pi433_if.c 158 */;
+	void __exit cocci_id/* drivers/staging/pi433/pi433_if.c 1355 */;
+	int __init cocci_id/* drivers/staging/pi433/pi433_if.c 1316 */;
+	struct spi_driver cocci_id/* drivers/staging/pi433/pi433_if.c 1297 */;
+	const struct of_device_id cocci_id/* drivers/staging/pi433/pi433_if.c 1290 */[];
+	struct pi433_device *cocci_id/* drivers/staging/pi433/pi433_if.c 118 */;
+	irqreturn_t cocci_id/* drivers/staging/pi433/pi433_if.c 116 */;
+	void *cocci_id/* drivers/staging/pi433/pi433_if.c 116 */;
+	int cocci_id/* drivers/staging/pi433/pi433_if.c 116 */;
+	struct spi_device *cocci_id/* drivers/staging/pi433/pi433_if.c 1095 */;
+	struct pi433_instance {
+		struct pi433_device *device;
+		struct pi433_tx_cfg tx_cfg;
+	} cocci_id/* drivers/staging/pi433/pi433_if.c 108 */;
+	const struct file_operations cocci_id/* drivers/staging/pi433/pi433_if.c 1077 */;
+	void cocci_id/* drivers/staging/pi433/pi433_if.c 1037 */;
+}

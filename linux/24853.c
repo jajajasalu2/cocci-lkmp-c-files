@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	const struct nf_conntrack_l4proto cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 743 */;
+	const char *const cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 72 */[];
+	const struct nla_policy cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 711 */[CTA_TIMEOUT_DCCP_MAX + 1];
+	const unsigned int *cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 698 */;
+	const void *cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 696 */;
+	unsigned int *cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 677 */;
+	struct nlattr *cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 673 */[];
+	int cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 673 */;
+	struct nlattr *cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 632 */[CTA_PROTOINFO_DCCP_MAX + 1];
+	const struct nla_policy cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 616 */[CTA_PROTOINFO_DCCP_MAX + 1];
+	struct nlattr *cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 591 */;
+	struct seq_file *cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 584 */;
+	void cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 584 */;
+	bool cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 569 */;
+	const struct nf_conn *cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 569 */;
+	enum ct_dccp_roles cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 479 */;
+	enum ip_conntrack_dir cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 476 */;
+	enum ip_conntrack_info cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 473 */;
+	struct dccp_hdr cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 437 */;
+	const char *cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 435 */;
+	const struct nf_hook_state *cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 431 */;
+	struct sk_buff *cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 430 */;
+	unsigned int cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 430 */;
+	void *cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 424 */;
+	const struct dccp_hdr_ack_bits *cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 422 */;
+	u64 cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 420 */;
+	const struct dccp_hdr *cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 420 */;
+	u_int8_t cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 390 */;
+	struct nf_dccp_net *cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 388 */;
+	struct net *cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 387 */;
+	const struct sk_buff *cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 384 */;
+	struct nf_conn *cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 384 */;
+	const u_int8_t cocci_id/* net/netfilter/nf_conntrack_proto_dccp.c 128 */[CT_DCCP_ROLE_MAX + 1][DCCP_PKT_SYNCACK + 1][CT_DCCP_MAX + 1];
+}

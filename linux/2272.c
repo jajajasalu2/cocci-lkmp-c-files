@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	const struct thermal_cooling_device_ops *cocci_id/* drivers/thermal/thermal_core.c 949 */;
+	void *cocci_id/* drivers/thermal/thermal_core.c 948 */;
+	struct device_node *cocci_id/* drivers/thermal/thermal_core.c 947 */;
+	const struct thermal_zone_params *cocci_id/* drivers/thermal/thermal_core.c 895 */;
+	unsigned long cocci_id/* drivers/thermal/thermal_core.c 875 */;
+	unsigned int cocci_id/* drivers/thermal/thermal_core.c 869 */;
+	unsigned long *cocci_id/* drivers/thermal/thermal_core.c 868 */;
+	struct thermal_cooling_device *cocci_id/* drivers/thermal/thermal_core.c 867 */;
+	struct thermal_zone_device *cocci_id/* drivers/thermal/thermal_core.c 866 */;
+	int cocci_id/* drivers/thermal/thermal_core.c 866 */;
+	void cocci_id/* drivers/thermal/thermal_core.c 866 */;
+	struct class cocci_id/* drivers/thermal/thermal_core.c 853 */;
+	size_t cocci_id/* drivers/thermal/thermal_core.c 611 */;
+	u32 cocci_id/* drivers/thermal/thermal_core.c 589 */;
+	struct thermal_instance *cocci_id/* drivers/thermal/thermal_core.c 589 */;
+	const char *cocci_id/* drivers/thermal/thermal_core.c 57 */;
+	struct thermal_governor *cocci_id/* drivers/thermal/thermal_core.c 57 */;
+	u32 *cocci_id/* drivers/thermal/thermal_core.c 540 */;
+	struct thermal_zone_device cocci_id/* drivers/thermal/thermal_core.c 514 */;
+	enum thermal_notify_event cocci_id/* drivers/thermal/thermal_core.c 473 */;
+	bool cocci_id/* drivers/thermal/thermal_core.c 46 */;
+	atomic_t cocci_id/* drivers/thermal/thermal_core.c 45 */;
+	enum thermal_trip_type cocci_id/* drivers/thermal/thermal_core.c 377 */;
+	struct work_struct *cocci_id/* drivers/thermal/thermal_core.c 335 */;
+	struct thermal_governor **cocci_id/* drivers/thermal/thermal_core.c 255 */;
+	void __init cocci_id/* drivers/thermal/thermal_core.c 244 */;
+	ssize_t cocci_id/* drivers/thermal/thermal_core.c 228 */;
+	int __init cocci_id/* drivers/thermal/thermal_core.c 1504 */;
+	struct notifier_block cocci_id/* drivers/thermal/thermal_core.c 1500 */;
+	enum thermal_device_mode cocci_id/* drivers/thermal/thermal_core.c 1469 */;
+	struct notifier_block *cocci_id/* drivers/thermal/thermal_core.c 1465 */;
+	struct thermal_zone_params *cocci_id/* drivers/thermal/thermal_core.c 1235 */;
+	struct thermal_zone_device_ops *cocci_id/* drivers/thermal/thermal_core.c 1234 */;
+	struct thermal_cooling_device **cocci_id/* drivers/thermal/thermal_core.c 1082 */;
+	char *cocci_id/* drivers/thermal/thermal_core.c 1079 */;
+	struct device *cocci_id/* drivers/thermal/thermal_core.c 1077 */;
+}

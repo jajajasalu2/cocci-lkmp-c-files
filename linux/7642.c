@@ -1,0 +1,74 @@
+cocci_test_suite() {
+	const unsigned char *cocci_id/* drivers/tty/hvc/hvsi.c 908 */;
+	struct tty_struct *cocci_id/* drivers/tty/hvc/hvsi.c 900 */;
+	enum HVSI_PROTOCOL_STATE{HVSI_CLOSED, HVSI_WAIT_FOR_VER_RESPONSE, HVSI_WAIT_FOR_VER_QUERY, HVSI_OPEN, HVSI_WAIT_FOR_MCTRL_RESPONSE, HVSI_FSP_DIED,} cocci_id/* drivers/tty/hvc/hvsi.c 89 */;
+	int (*cocci_id/* drivers/tty/hvc/hvsi.c 87 */)(struct hvsi_struct *hp,
+						       int state);
+	long cocci_id/* drivers/tty/hvc/hvsi.c 855 */;
+	struct hvsi_struct cocci_id/* drivers/tty/hvc/hvsi.c 83 */[MAX_NR_HVSI_CONSOLES];
+	unsigned long cocci_id/* drivers/tty/hvc/hvsi.c 765 */;
+	struct file *cocci_id/* drivers/tty/hvc/hvsi.c 762 */;
+	char *cocci_id/* drivers/tty/hvc/hvsi.c 696 */;
+	struct hvsi_control cocci_id/* drivers/tty/hvc/hvsi.c 686 */;
+	struct hvsi_data cocci_id/* drivers/tty/hvc/hvsi.c 666 */;
+	struct hvsi_struct cocci_id/* drivers/tty/hvc/hvsi.c 649 */;
+	struct work_struct *cocci_id/* drivers/tty/hvc/hvsi.c 646 */;
+	uint8_t cocci_id/* drivers/tty/hvc/hvsi.c 611 */[HVSI_MAX_READ]__ALIGNED__;
+	struct hvsi_struct {
+		struct tty_port port;
+		struct delayed_work writer;
+		struct work_struct handshaker;
+		wait_queue_head_t emptyq;
+		wait_queue_head_t stateq;
+		spinlock_t lock;
+		int index;
+		uint8_t throttle_buf[128];
+		uint8_t outbuf[N_OUTBUF];
+		uint8_t inbuf[HVSI_MAX_PACKET + HVSI_MAX_READ];
+		uint8_t *inbuf_end;
+		int n_throttle;
+		int n_outbuf;
+		uint32_t vtermno;
+		uint32_t virq;
+		atomic_t seqno;
+		uint16_t mctrl;
+		uint8_t state;
+		uint8_t flags;
+#ifdef CONFIG_MAGIC_SYSRQ
+		uint8_t sysrq;
+#endif
+	} cocci_id/* drivers/tty/hvc/hvsi.c 58 */;
+	struct hvsi_query cocci_id/* drivers/tty/hvc/hvsi.c 542 */;
+	uint16_t cocci_id/* drivers/tty/hvc/hvsi.c 540 */;
+	irqreturn_t cocci_id/* drivers/tty/hvc/hvsi.c 475 */;
+	void *cocci_id/* drivers/tty/hvc/hvsi.c 475 */;
+	bool cocci_id/* drivers/tty/hvc/hvsi.c 393 */;
+	struct hvsi_struct **cocci_id/* drivers/tty/hvc/hvsi.c 389 */;
+	const struct hvsi_header *cocci_id/* drivers/tty/hvc/hvsi.c 352 */;
+	char cocci_id/* drivers/tty/hvc/hvsi.c 326 */;
+	struct hvsi_query *cocci_id/* drivers/tty/hvc/hvsi.c 307 */;
+	struct hvsi_query_response cocci_id/* drivers/tty/hvc/hvsi.c 282 */;
+	uint32_t cocci_id/* drivers/tty/hvc/hvsi.c 257 */;
+	struct hvsi_query_response *cocci_id/* drivers/tty/hvc/hvsi.c 256 */;
+	struct hvsi_control *cocci_id/* drivers/tty/hvc/hvsi.c 228 */;
+	struct hvsi_header *cocci_id/* drivers/tty/hvc/hvsi.c 208 */;
+	const uint8_t *cocci_id/* drivers/tty/hvc/hvsi.c 188 */;
+	uint8_t *cocci_id/* drivers/tty/hvc/hvsi.c 168 */;
+	struct hvsi_header cocci_id/* drivers/tty/hvc/hvsi.c 158 */;
+	const struct hvsi_struct *cocci_id/* drivers/tty/hvc/hvsi.c 156 */;
+	struct hvsi_struct *cocci_id/* drivers/tty/hvc/hvsi.c 129 */;
+	int cocci_id/* drivers/tty/hvc/hvsi.c 129 */;
+	void cocci_id/* drivers/tty/hvc/hvsi.c 129 */;
+	const __be32 *cocci_id/* drivers/tty/hvc/hvsi.c 1172 */;
+	struct device_node *cocci_id/* drivers/tty/hvc/hvsi.c 1165 */;
+	int __init cocci_id/* drivers/tty/hvc/hvsi.c 1163 */;
+	struct console cocci_id/* drivers/tty/hvc/hvsi.c 1154 */;
+	const char *cocci_id/* drivers/tty/hvc/hvsi.c 114 */[];
+	int *cocci_id/* drivers/tty/hvc/hvsi.c 1119 */;
+	struct tty_driver *cocci_id/* drivers/tty/hvc/hvsi.c 1118 */;
+	struct console *cocci_id/* drivers/tty/hvc/hvsi.c 1118 */;
+	char cocci_id/* drivers/tty/hvc/hvsi.c 1087 */[HVSI_MAX_OUTGOING_DATA]__ALIGNED__;
+	unsigned int cocci_id/* drivers/tty/hvc/hvsi.c 1084 */;
+	const char *cocci_id/* drivers/tty/hvc/hvsi.c 1083 */;
+	const struct tty_operations cocci_id/* drivers/tty/hvc/hvsi.c 1026 */;
+}

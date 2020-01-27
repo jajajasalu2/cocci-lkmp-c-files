@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	rxrpc_seq_t cocci_id/* net/rxrpc/recvmsg.c 744 */;
+	struct sk_buff *cocci_id/* net/rxrpc/recvmsg.c 743 */;
+	ktime_t *cocci_id/* net/rxrpc/recvmsg.c 741 */;
+	bool cocci_id/* net/rxrpc/recvmsg.c 740 */;
+	struct socket *cocci_id/* net/rxrpc/recvmsg.c 740 */;
+	u32 cocci_id/* net/rxrpc/recvmsg.c 66 */;
+	size_t cocci_id/* net/rxrpc/recvmsg.c 645 */;
+	u32 *cocci_id/* net/rxrpc/recvmsg.c 643 */;
+	u16 *cocci_id/* net/rxrpc/recvmsg.c 643 */;
+	struct iov_iter *cocci_id/* net/rxrpc/recvmsg.c 642 */;
+	int cocci_id/* net/rxrpc/recvmsg.c 641 */;
+	struct sockaddr_rxrpc *cocci_id/* net/rxrpc/recvmsg.c 545 */;
+	unsigned long cocci_id/* net/rxrpc/recvmsg.c 535 */;
+	struct rxrpc_call cocci_id/* net/rxrpc/recvmsg.c 502 */;
+	long cocci_id/* net/rxrpc/recvmsg.c 447 */;
+	struct list_head *cocci_id/* net/rxrpc/recvmsg.c 445 */;
+	struct msghdr *cocci_id/* net/rxrpc/recvmsg.c 440 */;
+	size_t *cocci_id/* net/rxrpc/recvmsg.c 310 */;
+	u8 cocci_id/* net/rxrpc/recvmsg.c 278 */;
+	struct rxrpc_wire_header cocci_id/* net/rxrpc/recvmsg.c 274 */;
+	unsigned int cocci_id/* net/rxrpc/recvmsg.c 274 */;
+	struct rxrpc_skb_priv *cocci_id/* net/rxrpc/recvmsg.c 273 */;
+	bool *cocci_id/* net/rxrpc/recvmsg.c 271 */;
+	unsigned int *cocci_id/* net/rxrpc/recvmsg.c 270 */;
+	u8 *cocci_id/* net/rxrpc/recvmsg.c 269 */;
+	struct sock *cocci_id/* net/rxrpc/recvmsg.c 26 */;
+	struct rxrpc_sock *cocci_id/* net/rxrpc/recvmsg.c 25 */;
+	__be16 cocci_id/* net/rxrpc/recvmsg.c 247 */;
+	u16 cocci_id/* net/rxrpc/recvmsg.c 238 */;
+	rxrpc_serial_t cocci_id/* net/rxrpc/recvmsg.c 136 */;
+	struct rxrpc_call *cocci_id/* net/rxrpc/recvmsg.c 136 */;
+	void cocci_id/* net/rxrpc/recvmsg.c 136 */;
+}

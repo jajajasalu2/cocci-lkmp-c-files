@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	unsigned short cocci_id/* drivers/pci/iov.c 969 */;
+	unsigned int cocci_id/* drivers/pci/iov.c 968 */;
+	void cocci_id/* drivers/pci/iov.c 932 */;
+	bool cocci_id/* drivers/pci/iov.c 882 */;
+	resource_size_t __weak cocci_id/* drivers/pci/iov.c 846 */;
+	u32 cocci_id/* drivers/pci/iov.c 802 */;
+	u16 cocci_id/* drivers/pci/iov.c 801 */;
+	struct pci_bus_region cocci_id/* drivers/pci/iov.c 800 */;
+	struct pci_sriov *cocci_id/* drivers/pci/iov.c 59 */;
+	struct pci_dev *cocci_id/* drivers/pci/iov.c 57 */;
+	int cocci_id/* drivers/pci/iov.c 57 */;
+	int __weak cocci_id/* drivers/pci/iov.c 420 */;
+	const struct attribute_group cocci_id/* drivers/pci/iov.c 410 */;
+	struct device *cocci_id/* drivers/pci/iov.c 402 */;
+	struct attribute *cocci_id/* drivers/pci/iov.c 400 */;
+	umode_t cocci_id/* drivers/pci/iov.c 399 */;
+	struct kobject *cocci_id/* drivers/pci/iov.c 399 */;
+	struct attribute *cocci_id/* drivers/pci/iov.c 389 */[];
+	const char *cocci_id/* drivers/pci/iov.c 369 */;
+	size_t cocci_id/* drivers/pci/iov.c 369 */;
+	char *cocci_id/* drivers/pci/iov.c 360 */;
+	struct device_attribute *cocci_id/* drivers/pci/iov.c 359 */;
+	ssize_t cocci_id/* drivers/pci/iov.c 358 */;
+	struct pci_bus *cocci_id/* drivers/pci/iov.c 145 */;
+	struct resource *cocci_id/* drivers/pci/iov.c 143 */;
+	char cocci_id/* drivers/pci/iov.c 141 */[VIRTFN_ID_LEN];
+	u64 cocci_id/* drivers/pci/iov.c 140 */;
+	resource_size_t cocci_id/* drivers/pci/iov.c 105 */;
+}

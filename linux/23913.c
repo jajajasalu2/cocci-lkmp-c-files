@@ -1,0 +1,64 @@
+cocci_test_suite() {
+	__be16 *cocci_id/* net/ipv4/cipso_ipv4.c 965 */;
+	u16 cocci_id/* net/ipv4/cipso_ipv4.c 919 */;
+	struct cipso_v4_map_cache_bkt *cocci_id/* net/ipv4/cipso_ipv4.c 73 */;
+	struct cipso_v4_std_map_tbl *cocci_id/* net/ipv4/cipso_ipv4.c 713 */;
+	struct cipso_v4_map_cache_entry {
+		u32 hash;
+		unsigned char *key;
+		size_t key_len;
+		struct netlbl_lsm_cache *lsm_data;
+		u32 activity;
+		struct list_head list;
+	} cocci_id/* net/ipv4/cipso_ipv4.c 62 */;
+	void *cocci_id/* net/ipv4/cipso_ipv4.c 611 */;
+	int (*cocci_id/* net/ipv4/cipso_ipv4.c 610 */)(struct cipso_v4_doi *doi_def,
+						       void *arg);
+	u32 *cocci_id/* net/ipv4/cipso_ipv4.c 609 */;
+	struct cipso_v4_map_cache_bkt {
+		spinlock_t lock;
+		u32 size;
+		struct list_head list;
+	} cocci_id/* net/ipv4/cipso_ipv4.c 56 */;
+	struct cipso_v4_doi cocci_id/* net/ipv4/cipso_ipv4.c 494 */;
+	struct rcu_head *cocci_id/* net/ipv4/cipso_ipv4.c 490 */;
+	const char *cocci_id/* net/ipv4/cipso_ipv4.c 433 */;
+	struct audit_buffer *cocci_id/* net/ipv4/cipso_ipv4.c 389 */;
+	struct netlbl_audit *cocci_id/* net/ipv4/cipso_ipv4.c 383 */;
+	struct cipso_v4_doi *cocci_id/* net/ipv4/cipso_ipv4.c 382 */;
+	struct cipso_v4_map_cache_entry cocci_id/* net/ipv4/cipso_ipv4.c 331 */;
+	struct cipso_v4_map_cache_entry *cocci_id/* net/ipv4/cipso_ipv4.c 302 */;
+	u32 cocci_id/* net/ipv4/cipso_ipv4.c 301 */;
+	const struct netlbl_lsm_secattr *cocci_id/* net/ipv4/cipso_ipv4.c 298 */;
+	const unsigned char *cocci_id/* net/ipv4/cipso_ipv4.c 297 */;
+	int cocci_id/* net/ipv4/cipso_ipv4.c 297 */;
+	struct netlbl_lsm_secattr *cocci_id/* net/ipv4/cipso_ipv4.c 236 */;
+	struct iphdr *cocci_id/* net/ipv4/cipso_ipv4.c 2242 */;
+	char *cocci_id/* net/ipv4/cipso_ipv4.c 2198 */;
+	unsigned char cocci_id/* net/ipv4/cipso_ipv4.c 2168 */[CIPSO_V4_OPT_LEN_MAX];
+	struct request_sock *cocci_id/* net/ipv4/cipso_ipv4.c 2068 */;
+	struct inet_connection_sock *cocci_id/* net/ipv4/cipso_ipv4.c 2054 */;
+	struct inet_sock *cocci_id/* net/ipv4/cipso_ipv4.c 2047 */;
+	struct sock *cocci_id/* net/ipv4/cipso_ipv4.c 2045 */;
+	struct iphdr cocci_id/* net/ipv4/cipso_ipv4.c 1993 */;
+	unsigned char *cocci_id/* net/ipv4/cipso_ipv4.c 1989 */;
+	u8 cocci_id/* net/ipv4/cipso_ipv4.c 1987 */;
+	struct ip_options_rcu *cocci_id/* net/ipv4/cipso_ipv4.c 1981 */;
+	struct ip_options_rcu __rcu **cocci_id/* net/ipv4/cipso_ipv4.c 1979 */;
+	struct ip_options_rcu **cocci_id/* net/ipv4/cipso_ipv4.c 1957 */;
+	struct inet_request_sock *cocci_id/* net/ipv4/cipso_ipv4.c 1923 */;
+	const struct cipso_v4_doi *cocci_id/* net/ipv4/cipso_ipv4.c 1761 */;
+	struct ip_options cocci_id/* net/ipv4/cipso_ipv4.c 1736 */;
+	struct ip_options *cocci_id/* net/ipv4/cipso_ipv4.c 1726 */;
+	unsigned char cocci_id/* net/ipv4/cipso_ipv4.c 1725 */[sizeof(struct ip_options) + 40];
+	struct sk_buff *cocci_id/* net/ipv4/cipso_ipv4.c 1723 */;
+	struct cipso_v4_map_cache_bkt cocci_id/* net/ipv4/cipso_ipv4.c 172 */;
+	int __init cocci_id/* net/ipv4/cipso_ipv4.c 167 */;
+	unsigned char cocci_id/* net/ipv4/cipso_ipv4.c 1557 */;
+	unsigned char **cocci_id/* net/ipv4/cipso_ipv4.c 1553 */;
+	const struct iphdr *cocci_id/* net/ipv4/cipso_ipv4.c 1507 */;
+	const struct sk_buff *cocci_id/* net/ipv4/cipso_ipv4.c 1505 */;
+	void cocci_id/* net/ipv4/cipso_ipv4.c 132 */;
+	__be32 *cocci_id/* net/ipv4/cipso_ipv4.c 1165 */;
+	u16 cocci_id/* net/ipv4/cipso_ipv4.c 1064 */[CIPSO_V4_TAG_RNG_CAT_MAX * 2];
+}

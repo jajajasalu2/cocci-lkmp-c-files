@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	struct gru_set_context_option_req cocci_id/* drivers/misc/sgi-gru/grufault.c 852 */;
+	struct mm_struct *cocci_id/* drivers/misc/sgi-gru/grufault.c 85 */;
+	struct gru_thread_state *cocci_id/* drivers/misc/sgi-gru/grufault.c 83 */;
+	struct gru_get_gseg_statistics_req cocci_id/* drivers/misc/sgi-gru/grufault.c 821 */;
+	long cocci_id/* drivers/misc/sgi-gru/grufault.c 818 */;
+	struct gru_flush_tlb_req cocci_id/* drivers/misc/sgi-gru/grufault.c 794 */;
+	struct gru_unload_context_req cocci_id/* drivers/misc/sgi-gru/grufault.c 765 */;
+	void __user *cocci_id/* drivers/misc/sgi-gru/grufault.c 694 */;
+	struct control_block_extended_exc_detail cocci_id/* drivers/misc/sgi-gru/grufault.c 688 */;
+	struct gru_tlb_fault_handle *cocci_id/* drivers/misc/sgi-gru/grufault.c 639 */;
+	struct gru_mm_struct *cocci_id/* drivers/misc/sgi-gru/grufault.c 617 */;
+	irqreturn_t cocci_id/* drivers/misc/sgi-gru/grufault.c 589 */;
+	void *cocci_id/* drivers/misc/sgi-gru/grufault.c 589 */;
+	struct completion *cocci_id/* drivers/misc/sgi-gru/grufault.c 525 */;
+	struct gru_tlb_fault_map cocci_id/* drivers/misc/sgi-gru/grufault.c 522 */;
+	unsigned char cocci_id/* drivers/misc/sgi-gru/grufault.c 312 */;
+	struct gru_control_block_extended *cocci_id/* drivers/misc/sgi-gru/grufault.c 296 */;
+	pte_t *cocci_id/* drivers/misc/sgi-gru/grufault.c 231 */;
+	pte_t cocci_id/* drivers/misc/sgi-gru/grufault.c 212 */;
+	pmd_t *cocci_id/* drivers/misc/sgi-gru/grufault.c 211 */;
+	pud_t *cocci_id/* drivers/misc/sgi-gru/grufault.c 210 */;
+	p4d_t *cocci_id/* drivers/misc/sgi-gru/grufault.c 209 */;
+	pgd_t *cocci_id/* drivers/misc/sgi-gru/grufault.c 208 */;
+	unsigned long *cocci_id/* drivers/misc/sgi-gru/grufault.c 206 */;
+	int *cocci_id/* drivers/misc/sgi-gru/grufault.c 206 */;
+	struct vm_area_struct *cocci_id/* drivers/misc/sgi-gru/grufault.c 205 */;
+	unsigned long cocci_id/* drivers/misc/sgi-gru/grufault.c 205 */;
+	int cocci_id/* drivers/misc/sgi-gru/grufault.c 205 */;
+	struct page *cocci_id/* drivers/misc/sgi-gru/grufault.c 181 */;
+	struct gru_tlb_fault_map *cocci_id/* drivers/misc/sgi-gru/grufault.c 142 */;
+	struct gru_state *cocci_id/* drivers/misc/sgi-gru/grufault.c 141 */;
+	void cocci_id/* drivers/misc/sgi-gru/grufault.c 141 */;
+	struct gru_instruction_bits *cocci_id/* drivers/misc/sgi-gru/grufault.c 123 */;
+}

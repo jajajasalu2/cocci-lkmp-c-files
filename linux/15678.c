@@ -1,0 +1,47 @@
+cocci_test_suite() {
+	struct device *cocci_id/* drivers/staging/greybus/arche-platform.c 92 */;
+	void *cocci_id/* drivers/staging/greybus/arche-platform.c 92 */;
+	int cocci_id/* drivers/staging/greybus/arche-platform.c 92 */;
+	bool cocci_id/* drivers/staging/greybus/arche-platform.c 87 */;
+	struct gpio_desc *cocci_id/* drivers/staging/greybus/arche-platform.c 87 */;
+	enum svc_wakedetect_state cocci_id/* drivers/staging/greybus/arche-platform.c 82 */;
+	enum arche_platform_state cocci_id/* drivers/staging/greybus/arche-platform.c 74 */;
+	void __exit cocci_id/* drivers/staging/greybus/arche-platform.c 661 */;
+	void cocci_id/* drivers/staging/greybus/arche-platform.c 661 */;
+	int __init cocci_id/* drivers/staging/greybus/arche-platform.c 645 */;
+	struct platform_driver cocci_id/* drivers/staging/greybus/arche-platform.c 634 */;
+	const struct of_device_id cocci_id/* drivers/staging/greybus/arche-platform.c 626 */[];
+	struct arche_platform_drvdata {
+		struct gpio_desc *svc_reset;
+		bool is_reset_act_hi;
+		struct gpio_desc *svc_sysboot;
+		struct gpio_desc *wake_detect;
+		enum arche_platform_state state;
+		struct gpio_desc *svc_refclk_req;
+		struct clk *svc_ref_clk;
+		struct pinctrl *pinctrl;
+		struct pinctrl_state *pin_default;
+		int num_apbs;
+		enum svc_wakedetect_state wake_detect_state;
+		int wake_detect_irq;
+		spinlock_t wake_lock;
+		struct mutex platform_state_mutex;
+		unsigned long wake_detect_start;
+		struct notifier_block pm_notifier;
+		struct device *dev;
+	} cocci_id/* drivers/staging/greybus/arche-platform.c 45 */;
+	unsigned int cocci_id/* drivers/staging/greybus/arche-platform.c 431 */;
+	struct device_node *cocci_id/* drivers/staging/greybus/arche-platform.c 429 */;
+	struct platform_device *cocci_id/* drivers/staging/greybus/arche-platform.c 425 */;
+	struct arche_platform_drvdata cocci_id/* drivers/staging/greybus/arche-platform.c 396 */;
+	unsigned long cocci_id/* drivers/staging/greybus/arche-platform.c 393 */;
+	struct notifier_block *cocci_id/* drivers/staging/greybus/arche-platform.c 392 */;
+	struct device_attribute *cocci_id/* drivers/staging/greybus/arche-platform.c 372 */;
+	char *cocci_id/* drivers/staging/greybus/arche-platform.c 372 */;
+	ssize_t cocci_id/* drivers/staging/greybus/arche-platform.c 371 */;
+	enum svc_wakedetect_state{WD_STATE_IDLE, WD_STATE_BOOT_INIT, WD_STATE_COLDBOOT_TRIG, WD_STATE_STANDBYBOOT_TRIG, WD_STATE_COLDBOOT_START, WD_STATE_STANDBYBOOT_START,} cocci_id/* drivers/staging/greybus/arche-platform.c 36 */;
+	const char *cocci_id/* drivers/staging/greybus/arche-platform.c 309 */;
+	size_t cocci_id/* drivers/staging/greybus/arche-platform.c 309 */;
+	struct arche_platform_drvdata *cocci_id/* drivers/staging/greybus/arche-platform.c 216 */;
+	irqreturn_t cocci_id/* drivers/staging/greybus/arche-platform.c 154 */;
+}

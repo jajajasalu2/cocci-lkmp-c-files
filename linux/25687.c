@@ -1,0 +1,40 @@
+cocci_test_suite() {
+	int64_t cocci_id/* tools/perf/util/block-info.c 68 */;
+	void cocci_id/* tools/perf/util/block-info.c 59 */;
+	float cocci_id/* tools/perf/util/block-info.c 469 */;
+	struct annotation_options *cocci_id/* tools/perf/util/block-info.c 445 */;
+	struct perf_env *cocci_id/* tools/perf/util/block-info.c 444 */;
+	struct block_report cocci_id/* tools/perf/util/block-info.c 429 */;
+	struct evsel *cocci_id/* tools/perf/util/block-info.c 427 */;
+	struct evlist *cocci_id/* tools/perf/util/block-info.c 422 */;
+	struct block_report *cocci_id/* tools/perf/util/block-info.c 422 */;
+	struct hist_entry cocci_id/* tools/perf/util/block-info.c 408 */;
+	struct rb_node *cocci_id/* tools/perf/util/block-info.c 401 */;
+	struct perf_hpp_list *cocci_id/* tools/perf/util/block-info.c 341 */;
+	struct map *cocci_id/* tools/perf/util/block-info.c 316 */;
+	char *cocci_id/* tools/perf/util/block-info.c 288 */;
+	char cocci_id/* tools/perf/util/block-info.c 287 */[128];
+	char cocci_id/* tools/perf/util/block-info.c 273 */[16];
+	struct block_info *cocci_id/* tools/perf/util/block-info.c 272 */;
+	struct block_fmt cocci_id/* tools/perf/util/block-info.c 271 */;
+	struct block_fmt *cocci_id/* tools/perf/util/block-info.c 271 */;
+	struct hist_entry *cocci_id/* tools/perf/util/block-info.c 269 */;
+	struct perf_hpp *cocci_id/* tools/perf/util/block-info.c 268 */;
+	struct perf_hpp_fmt *cocci_id/* tools/perf/util/block-info.c 267 */;
+	int cocci_id/* tools/perf/util/block-info.c 267 */;
+	u64 cocci_id/* tools/perf/util/block-info.c 254 */;
+	double cocci_id/* tools/perf/util/block-info.c 253 */;
+	int *cocci_id/* tools/perf/util/block-info.c 171 */;
+	struct hists *cocci_id/* tools/perf/util/block-info.c 169 */;
+	struct block_header_column {
+		const char *name;
+		int width;
+	} cocci_id/* tools/perf/util/block-info.c 16 */[PERF_HPP_REPORT__BLOCK_MAX_INDEX];
+	unsigned int cocci_id/* tools/perf/util/block-info.c 139 */;
+	struct addr_location cocci_id/* tools/perf/util/block-info.c 125 */;
+	struct cyc_hist *cocci_id/* tools/perf/util/block-info.c 124 */;
+	struct annotation *cocci_id/* tools/perf/util/block-info.c 123 */;
+	u64 *cocci_id/* tools/perf/util/block-info.c 121 */;
+	struct block_hist *cocci_id/* tools/perf/util/block-info.c 120 */;
+	struct symbol *cocci_id/* tools/perf/util/block-info.c 103 */;
+}

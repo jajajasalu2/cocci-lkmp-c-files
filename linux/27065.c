@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	struct blk_plug cocci_id/* fs/xfs/xfs_iwalk.c 95 */;
+	xfs_agblock_t cocci_id/* fs/xfs/xfs_iwalk.c 94 */;
+	struct xfs_ino_geometry *cocci_id/* fs/xfs/xfs_iwalk.c 93 */;
+	xfs_agnumber_t cocci_id/* fs/xfs/xfs_iwalk.c 700 */;
+	struct xfs_iwalk_ag cocci_id/* fs/xfs/xfs_iwalk.c 691 */;
+	void *cocci_id/* fs/xfs/xfs_iwalk.c 689 */;
+	xfs_inobt_walk_fn cocci_id/* fs/xfs/xfs_iwalk.c 687 */;
+	unsigned int cocci_id/* fs/xfs/xfs_iwalk.c 686 */;
+	xfs_ino_t cocci_id/* fs/xfs/xfs_iwalk.c 685 */;
+	struct xfs_trans *cocci_id/* fs/xfs/xfs_iwalk.c 684 */;
+	struct xfs_mount *cocci_id/* fs/xfs/xfs_iwalk.c 683 */;
+	int cocci_id/* fs/xfs/xfs_iwalk.c 681 */;
+	struct xfs_inobt_rec_incore cocci_id/* fs/xfs/xfs_iwalk.c 644 */;
+	struct xfs_pwork_ctl cocci_id/* fs/xfs/xfs_iwalk.c 600 */;
+	bool cocci_id/* fs/xfs/xfs_iwalk.c 597 */;
+	struct xfs_pwork *cocci_id/* fs/xfs/xfs_iwalk.c 566 */;
+	xfs_iwalk_fn cocci_id/* fs/xfs/xfs_iwalk.c 524 */;
+	struct xfs_iwalk_ag {
+		struct xfs_pwork pwork;
+		struct xfs_mount *mp;
+		struct xfs_trans *tp;
+		xfs_ino_t startino;
+		struct xfs_inobt_rec_incore *recs;
+		unsigned int sz_recs;
+		unsigned int nr_recs;
+		xfs_iwalk_fn iwalk_fn;
+		xfs_inobt_walk_fn inobt_walk_fn;
+		void *data;
+		unsigned int trim_start:1;
+		unsigned int skip_empty:1;
+	} cocci_id/* fs/xfs/xfs_iwalk.c 48 */;
+	struct xfs_btree_cur *cocci_id/* fs/xfs/xfs_iwalk.c 386 */;
+	struct xfs_buf *cocci_id/* fs/xfs/xfs_iwalk.c 385 */;
+	struct xfs_iwalk_ag *cocci_id/* fs/xfs/xfs_iwalk.c 381 */;
+	int *cocci_id/* fs/xfs/xfs_iwalk.c 261 */;
+	struct xfs_buf **cocci_id/* fs/xfs/xfs_iwalk.c 260 */;
+	struct xfs_btree_cur **cocci_id/* fs/xfs/xfs_iwalk.c 259 */;
+	size_t cocci_id/* fs/xfs/xfs_iwalk.c 148 */;
+	struct xfs_inobt_rec_incore *cocci_id/* fs/xfs/xfs_iwalk.c 123 */;
+	xfs_agino_t cocci_id/* fs/xfs/xfs_iwalk.c 122 */;
+	void cocci_id/* fs/xfs/xfs_iwalk.c 120 */;
+	xfs_inofree_t cocci_id/* fs/xfs/xfs_iwalk.c 102 */;
+}

@@ -1,0 +1,98 @@
+cocci_test_suite() {
+	__be32 cocci_id/* net/xfrm/xfrm_state.c 929 */;
+	struct hlist_node *cocci_id/* net/xfrm/xfrm_state.c 88 */;
+	struct in6_addr *cocci_id/* net/xfrm/xfrm_state.c 875 */;
+	const struct flowi6 *cocci_id/* net/xfrm/xfrm_state.c 872 */;
+	const struct flowi4 *cocci_id/* net/xfrm/xfrm_state.c 854 */;
+	const struct flowi *cocci_id/* net/xfrm/xfrm_state.c 852 */;
+	struct xfrm_selector *cocci_id/* net/xfrm/xfrm_state.c 852 */;
+	struct xfrmk_sadinfo *cocci_id/* net/xfrm/xfrm_state.c 841 */;
+	struct xfrm_state_offload *cocci_id/* net/xfrm/xfrm_state.c 811 */;
+	struct net_device *cocci_id/* net/xfrm/xfrm_state.c 799 */;
+	void cocci_id/* net/xfrm/xfrm_state.c 609 */(struct timer_list *t);
+	long cocci_id/* net/xfrm/xfrm_state.c 536 */;
+	struct xfrm_state __rcu *cocci_id/* net/xfrm/xfrm_state.c 53 */;
+	time64_t cocci_id/* net/xfrm/xfrm_state.c 525 */;
+	enum hrtimer_restart cocci_id/* net/xfrm/xfrm_state.c 521 */;
+	struct hrtimer *cocci_id/* net/xfrm/xfrm_state.c 521 */;
+	struct xfrm_state *cocci_id/* net/xfrm/xfrm_state.c 480 */;
+	void cocci_id/* net/xfrm/xfrm_state.c 480 */;
+	struct kmem_cache *cocci_id/* net/xfrm/xfrm_state.c 48 */;
+	seqcount_t cocci_id/* net/xfrm/xfrm_state.c 47 */;
+	const struct xfrm_mode cocci_id/* net/xfrm/xfrm_state.c 411 */[XFRM_MODE_MAX];
+	const struct xfrm_type_offload *cocci_id/* net/xfrm/xfrm_state.c 373 */;
+	void cocci_id/* net/xfrm/xfrm_state.c 37 */(struct work_struct *work);
+	struct xfrm_state_afinfo *cocci_id/* net/xfrm/xfrm_state.c 274 */;
+	const struct xfrm_type *cocci_id/* net/xfrm/xfrm_state.c 271 */;
+	const struct ipv6hdr *cocci_id/* net/xfrm/xfrm_state.c 2615 */;
+	const struct iphdr *cocci_id/* net/xfrm/xfrm_state.c 2614 */;
+	struct audit_buffer *cocci_id/* net/xfrm/xfrm_state.c 2612 */;
+	u16 cocci_id/* net/xfrm/xfrm_state.c 2611 */;
+	struct sk_buff *cocci_id/* net/xfrm/xfrm_state.c 2611 */;
+	struct xfrm_sec_ctx *cocci_id/* net/xfrm/xfrm_state.c 2590 */;
+	int __net_init cocci_id/* net/xfrm/xfrm_state.c 2531 */;
+	const struct xfrm_mode *cocci_id/* net/xfrm/xfrm_state.c 2445 */;
+	bool cocci_id/* net/xfrm/xfrm_state.c 2443 */;
+	struct ipv6hdr cocci_id/* net/xfrm/xfrm_state.c 2429 */;
+	struct iphdr cocci_id/* net/xfrm/xfrm_state.c 2427 */;
+	struct crypto_aead *cocci_id/* net/xfrm/xfrm_state.c 2413 */;
+	u8 *cocci_id/* net/xfrm/xfrm_state.c 2267 */;
+	u8 __user *cocci_id/* net/xfrm/xfrm_state.c 2264 */;
+	struct sock *cocci_id/* net/xfrm/xfrm_state.c 2264 */;
+	struct xfrm_mgr *cocci_id/* net/xfrm/xfrm_state.c 2249 */;
+	const struct km_event *cocci_id/* net/xfrm/xfrm_state.c 2247 */;
+	const struct xfrm_encap_tmpl *cocci_id/* net/xfrm/xfrm_state.c 2207 */;
+	const struct xfrm_kmaddress *cocci_id/* net/xfrm/xfrm_state.c 2206 */;
+	const struct xfrm_migrate *cocci_id/* net/xfrm/xfrm_state.c 2205 */;
+	const struct xfrm_selector *cocci_id/* net/xfrm/xfrm_state.c 2204 */;
+	struct km_event cocci_id/* net/xfrm/xfrm_state.c 2194 */;
+	struct xfrm_policy *cocci_id/* net/xfrm/xfrm_state.c 2192 */;
+	__be16 cocci_id/* net/xfrm/xfrm_state.c 2175 */;
+	xfrm_address_t *cocci_id/* net/xfrm/xfrm_state.c 2175 */;
+	struct xfrm_tmpl *cocci_id/* net/xfrm/xfrm_state.c 2159 */;
+	struct timer_list *cocci_id/* net/xfrm/xfrm_state.c 2102 */;
+	struct xfrm_state_walk cocci_id/* net/xfrm/xfrm_state.c 2049 */;
+	void *cocci_id/* net/xfrm/xfrm_state.c 2038 */;
+	int (*cocci_id/* net/xfrm/xfrm_state.c 2037 */)(struct xfrm_state *,
+							int, void *);
+	struct xfrm_address_filter *cocci_id/* net/xfrm/xfrm_state.c 2020 */;
+	atomic_t cocci_id/* net/xfrm/xfrm_state.c 1930 */;
+	struct xfrm_tmpl **cocci_id/* net/xfrm/xfrm_state.c 1867 */;
+	const struct xfrm_tmpl *cocci_id/* net/xfrm/xfrm_state.c 1835 */;
+	const struct xfrm_state *cocci_id/* net/xfrm/xfrm_state.c 1806 */;
+	const void *cocci_id/* net/xfrm/xfrm_state.c 1804 */;
+	void cocci_id/* net/xfrm/xfrm_state.c 180 */(struct xfrm_state *x,
+						     int hard, u32 portid);
+	bool cocci_id/* net/xfrm/xfrm_state.c 179 */(const struct km_event *c);
+	int cocci_id/* net/xfrm/xfrm_state.c 178 */(struct xfrm_state *x,
+						    struct xfrm_tmpl *t,
+						    struct xfrm_policy *pol);
+	int cocci_id/* net/xfrm/xfrm_state.c 1776 */[XFRM_MAX_DEPTH];
+	int (*cocci_id/* net/xfrm/xfrm_state.c 1774 */)(const void *p);
+	void **cocci_id/* net/xfrm/xfrm_state.c 1773 */;
+	int cocci_id/* net/xfrm/xfrm_state.c 176 */(struct xfrm_state *x);
+	struct xfrm_state_afinfo __rcu *cocci_id/* net/xfrm/xfrm_state.c 172 */[NPROTO];
+	struct xfrm_migrate *cocci_id/* net/xfrm/xfrm_state.c 1535 */;
+	struct xfrm_encap_tmpl *cocci_id/* net/xfrm/xfrm_state.c 1442 */;
+	struct xfrm_state *cocci_id/* net/xfrm/xfrm_state.c 1382 */(struct net *net,
+								    u32 mark,
+								    u32 seq);
+	unsigned int cocci_id/* net/xfrm/xfrm_state.c 1311 */;
+	int cocci_id/* net/xfrm/xfrm_state.c 1309 */;
+	const xfrm_address_t *cocci_id/* net/xfrm/xfrm_state.c 1307 */;
+	u32 cocci_id/* net/xfrm/xfrm_state.c 1306 */;
+	u8 cocci_id/* net/xfrm/xfrm_state.c 1305 */;
+	unsigned short cocci_id/* net/xfrm/xfrm_state.c 1305 */;
+	const struct xfrm_mark *cocci_id/* net/xfrm/xfrm_state.c 1304 */;
+	struct net *cocci_id/* net/xfrm/xfrm_state.c 1303 */;
+	struct xfrm_state cocci_id/* net/xfrm/xfrm_state.c 1224 */;
+	struct xfrm_state_walk *cocci_id/* net/xfrm/xfrm_state.c 1220 */;
+	struct hlist_head *cocci_id/* net/xfrm/xfrm_state.c 121 */;
+	struct net cocci_id/* net/xfrm/xfrm_state.c 120 */;
+	struct work_struct *cocci_id/* net/xfrm/xfrm_state.c 118 */;
+	struct hlist_head cocci_id/* net/xfrm/xfrm_state.c 115 */;
+	unsigned long cocci_id/* net/xfrm/xfrm_state.c 113 */;
+	xfrm_address_t cocci_id/* net/xfrm/xfrm_state.c 1044 */;
+	int *cocci_id/* net/xfrm/xfrm_state.c 1041 */;
+	struct xfrm_state **cocci_id/* net/xfrm/xfrm_state.c 1003 */;
+}

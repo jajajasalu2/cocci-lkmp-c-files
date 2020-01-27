@@ -1,0 +1,95 @@
+cocci_test_suite() {
+	const struct net_device *cocci_id/* drivers/net/veth.c 990 */;
+	struct pcpu_lstats cocci_id/* drivers/net/veth.c 956 */;
+	struct veth_priv *cocci_id/* drivers/net/veth.c 930 */;
+	struct {
+		const char string[ETH_GSTRING_LEN];
+	} cocci_id/* drivers/net/veth.c 93 */[];
+	struct net_device *cocci_id/* drivers/net/veth.c 928 */;
+	int cocci_id/* drivers/net/veth.c 923 */;
+	const struct veth_q_stat_desc cocci_id/* drivers/net/veth.c 85 */[];
+	struct veth_rq_stats cocci_id/* drivers/net/veth.c 83 */;
+	struct veth_q_stat_desc {
+		char desc[ETH_GSTRING_LEN];
+		size_t offset;
+	} cocci_id/* drivers/net/veth.c 78 */;
+	struct veth_xdp_tx_bq cocci_id/* drivers/net/veth.c 752 */;
+	struct veth_rq cocci_id/* drivers/net/veth.c 750 */;
+	struct napi_struct *cocci_id/* drivers/net/veth.c 747 */;
+	struct xdp_frame *cocci_id/* drivers/net/veth.c 719 */;
+	unsigned int *cocci_id/* drivers/net/veth.c 705 */;
+	struct veth_xdp_tx_bq {
+		struct xdp_frame *q[VETH_XDP_TX_BULK_SIZE];
+		unsigned int count;
+	} cocci_id/* drivers/net/veth.c 69 */;
+	struct veth_priv {
+		struct net_device __rcu *peer;
+		atomic64_t dropped;
+		struct bpf_prog *_xdp_prog;
+		struct veth_rq *rq;
+		unsigned int requested_headroom;
+	} cocci_id/* drivers/net/veth.c 61 */;
+	struct page *cocci_id/* drivers/net/veth.c 600 */;
+	struct xdp_buff cocci_id/* drivers/net/veth.c 502 */;
+	struct veth_rq {
+		struct napi_struct xdp_napi;
+		struct net_device *dev;
+		struct bpf_prog __rcu *xdp_prog;
+		struct xdp_mem_info xdp_mem;
+		struct veth_rq_stats stats;
+		bool rx_notify_masked;
+		struct ptr_ring xdp_ring;
+		struct xdp_rxq_info xdp_rxq;
+	} cocci_id/* drivers/net/veth.c 50 */;
+	struct bpf_prog *cocci_id/* drivers/net/veth.c 495 */;
+	struct xdp_frame cocci_id/* drivers/net/veth.c 492 */;
+	struct xdp_buff *cocci_id/* drivers/net/veth.c 470 */;
+	struct veth_xdp_tx_bq *cocci_id/* drivers/net/veth.c 447 */;
+	struct veth_rq_stats {
+		u64 xdp_packets;
+		u64 xdp_bytes;
+		u64 xdp_drops;
+		struct u64_stats_sync syncp;
+	} cocci_id/* drivers/net/veth.c 43 */;
+	struct xdp_frame **cocci_id/* drivers/net/veth.c 372 */;
+	struct skb_shared_info cocci_id/* drivers/net/veth.c 354 */;
+	struct sk_buff *cocci_id/* drivers/net/veth.c 347 */;
+	void *cocci_id/* drivers/net/veth.c 347 */;
+	u64 cocci_id/* drivers/net/veth.c 317 */;
+	struct rtnl_link_stats64 *cocci_id/* drivers/net/veth.c 312 */;
+	struct veth_rq_stats *cocci_id/* drivers/net/veth.c 286 */;
+	netdev_tx_t cocci_id/* drivers/net/veth.c 236 */;
+	bool cocci_id/* drivers/net/veth.c 229 */;
+	struct veth_rq *cocci_id/* drivers/net/veth.c 208 */;
+	void cocci_id/* drivers/net/veth.c 208 */;
+	unsigned long cocci_id/* drivers/net/veth.c 187 */;
+	const struct ethtool_ops cocci_id/* drivers/net/veth.c 173 */;
+	size_t cocci_id/* drivers/net/veth.c 160 */;
+	unsigned int cocci_id/* drivers/net/veth.c 159 */;
+	const void *cocci_id/* drivers/net/veth.c 158 */;
+	const struct veth_rq_stats *cocci_id/* drivers/net/veth.c 157 */;
+	u64 *cocci_id/* drivers/net/veth.c 148 */;
+	struct ethtool_stats *cocci_id/* drivers/net/veth.c 148 */;
+	struct veth_priv cocci_id/* drivers/net/veth.c 1373 */;
+	struct net *cocci_id/* drivers/net/veth.c 1363 */;
+	const struct nla_policy cocci_id/* drivers/net/veth.c 1359 */[VETH_INFO_MAX + 1];
+	struct list_head *cocci_id/* drivers/net/veth.c 1337 */;
+	struct ifinfomsg cocci_id/* drivers/net/veth.c 1237 */;
+	struct nlattr *cocci_id/* drivers/net/veth.c 1232 */;
+	struct ifinfomsg *cocci_id/* drivers/net/veth.c 1225 */;
+	unsigned char cocci_id/* drivers/net/veth.c 1224 */;
+	struct nlattr *cocci_id/* drivers/net/veth.c 1223 */[IFLA_MAX + 1];
+	char cocci_id/* drivers/net/veth.c 1222 */[IFNAMSIZ];
+	struct netlink_ext_ack *cocci_id/* drivers/net/veth.c 1217 */;
+	struct nlattr *cocci_id/* drivers/net/veth.c 1216 */[];
+	struct rtnl_link_ops cocci_id/* drivers/net/veth.c 1213 */;
+	char *cocci_id/* drivers/net/veth.c 117 */;
+	u32 cocci_id/* drivers/net/veth.c 115 */;
+	u8 *cocci_id/* drivers/net/veth.c 115 */;
+	const struct net_device_ops cocci_id/* drivers/net/veth.c 1141 */;
+	struct netdev_bpf *cocci_id/* drivers/net/veth.c 1128 */;
+	const struct bpf_prog *cocci_id/* drivers/net/veth.c 1119 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/veth.c 109 */;
+	netdev_features_t cocci_id/* drivers/net/veth.c 1004 */;
+	struct ethtool_link_ksettings *cocci_id/* drivers/net/veth.c 100 */;
+}

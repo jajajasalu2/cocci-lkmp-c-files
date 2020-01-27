@@ -1,0 +1,68 @@
+cocci_test_suite() {
+	struct tegra_kbc {
+		struct device *dev;
+		unsigned int debounce_cnt;
+		unsigned int repeat_cnt;
+		struct tegra_kbc_pin_cfg pin_cfg[KBC_MAX_GPIO];
+		const struct matrix_keymap_data *keymap_data;
+		bool wakeup;
+		void __iomem *mmio;
+		struct input_dev *idev;
+		int irq;
+		spinlock_t lock;
+		unsigned int repoll_dly;
+		unsigned long cp_dly_jiffies;
+		unsigned int cp_to_wkup_dly;
+		bool use_fn_map;
+		bool use_ghost_filter;
+		bool keypress_caused_wake;
+		unsigned short keycode[KBC_MAX_KEY * 2];
+		unsigned short current_keys[KBC_MAX_KPENT];
+		unsigned int num_pressed_keys;
+		u32 wakeup_key;
+		struct timer_list timer;
+		struct clk *clk;
+		struct reset_control *rst;
+		const struct tegra_kbc_hw_support *hw_support;
+		int max_keys;
+		int num_rows_and_columns;
+	} cocci_id/* drivers/input/keyboard/tegra-kbc.c 83 */;
+	struct platform_driver cocci_id/* drivers/input/keyboard/tegra-kbc.c 810 */;
+	struct tegra_kbc_pin_cfg {
+		enum tegra_pin_type type;
+		unsigned char num;
+	} cocci_id/* drivers/input/keyboard/tegra-kbc.c 78 */;
+	struct device *cocci_id/* drivers/input/keyboard/tegra-kbc.c 767 */;
+	struct tegra_kbc_hw_support {
+		int max_rows;
+		int max_columns;
+	} cocci_id/* drivers/input/keyboard/tegra-kbc.c 73 */;
+	enum tegra_pin_type{PIN_CFG_IGNORE, PIN_CFG_COL, PIN_CFG_ROW,} cocci_id/* drivers/input/keyboard/tegra-kbc.c 66 */;
+	const struct of_device_id *cocci_id/* drivers/input/keyboard/tegra-kbc.c 607 */;
+	struct resource *cocci_id/* drivers/input/keyboard/tegra-kbc.c 601 */;
+	struct platform_device *cocci_id/* drivers/input/keyboard/tegra-kbc.c 598 */;
+	const struct of_device_id cocci_id/* drivers/input/keyboard/tegra-kbc.c 590 */[];
+	const struct tegra_kbc_hw_support cocci_id/* drivers/input/keyboard/tegra-kbc.c 585 */;
+	u32 cocci_id/* drivers/input/keyboard/tegra-kbc.c 496 */[KBC_MAX_GPIO];
+	struct device_node *cocci_id/* drivers/input/keyboard/tegra-kbc.c 491 */;
+	const struct tegra_kbc_pin_cfg *cocci_id/* drivers/input/keyboard/tegra-kbc.c 453 */;
+	int cocci_id/* drivers/input/keyboard/tegra-kbc.c 448 */;
+	unsigned int *cocci_id/* drivers/input/keyboard/tegra-kbc.c 446 */;
+	bool cocci_id/* drivers/input/keyboard/tegra-kbc.c 445 */;
+	const struct tegra_kbc *cocci_id/* drivers/input/keyboard/tegra-kbc.c 445 */;
+	struct tegra_kbc *cocci_id/* drivers/input/keyboard/tegra-kbc.c 440 */;
+	struct input_dev *cocci_id/* drivers/input/keyboard/tegra-kbc.c 438 */;
+	void cocci_id/* drivers/input/keyboard/tegra-kbc.c 438 */;
+	u32 cocci_id/* drivers/input/keyboard/tegra-kbc.c 326 */;
+	unsigned long cocci_id/* drivers/input/keyboard/tegra-kbc.c 280 */;
+	irqreturn_t cocci_id/* drivers/input/keyboard/tegra-kbc.c 277 */;
+	void *cocci_id/* drivers/input/keyboard/tegra-kbc.c 277 */;
+	unsigned int cocci_id/* drivers/input/keyboard/tegra-kbc.c 246 */;
+	struct timer_list *cocci_id/* drivers/input/keyboard/tegra-kbc.c 241 */;
+	u8 cocci_id/* drivers/input/keyboard/tegra-kbc.c 185 */;
+	unsigned char cocci_id/* drivers/input/keyboard/tegra-kbc.c 161 */;
+	unsigned short cocci_id/* drivers/input/keyboard/tegra-kbc.c 146 */[KBC_MAX_KPENT];
+	unsigned char cocci_id/* drivers/input/keyboard/tegra-kbc.c 145 */[KBC_MAX_KPENT];
+	unsigned short cocci_id/* drivers/input/keyboard/tegra-kbc.c 132 */[];
+	unsigned char cocci_id/* drivers/input/keyboard/tegra-kbc.c 131 */[];
+}

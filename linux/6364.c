@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* drivers/regulator/s5m8767.c 996 */;
+	const struct platform_device_id cocci_id/* drivers/regulator/s5m8767.c 990 */[];
+	const struct sec_voltage_desc *cocci_id/* drivers/regulator/s5m8767.c 78 */[];
+	struct s5m8767_info cocci_id/* drivers/regulator/s5m8767.c 723 */;
+	struct regulator_config cocci_id/* drivers/regulator/s5m8767.c 687 */;
+	struct sec_opmode_data *cocci_id/* drivers/regulator/s5m8767.c 526 */;
+	struct sec_regulator_data *cocci_id/* drivers/regulator/s5m8767.c 525 */;
+	struct platform_device *cocci_id/* drivers/regulator/s5m8767.c 520 */;
+	struct device_node *cocci_id/* drivers/regulator/s5m8767.c 504 */;
+	struct sec_platform_data *cocci_id/* drivers/regulator/s5m8767.c 503 */;
+	struct sec_pmic_dev *cocci_id/* drivers/regulator/s5m8767.c 502 */;
+	const struct sec_voltage_desc cocci_id/* drivers/regulator/s5m8767.c 48 */;
+	struct regulator_dev *cocci_id/* drivers/regulator/s5m8767.c 465 */;
+	struct s5m8767_info *cocci_id/* drivers/regulator/s5m8767.c 464 */;
+	const struct sec_opmode_data *cocci_id/* drivers/regulator/s5m8767.c 438 */;
+	struct regulator_config *cocci_id/* drivers/regulator/s5m8767.c 429 */;
+	struct sec_voltage_desc {
+		int max;
+		int min;
+		int step;
+	} cocci_id/* drivers/regulator/s5m8767.c 42 */;
+	struct regulator_desc cocci_id/* drivers/regulator/s5m8767.c 384 */[];
+	const struct regulator_ops cocci_id/* drivers/regulator/s5m8767.c 359 */;
+	u8 *cocci_id/* drivers/regulator/s5m8767.c 298 */;
+	unsigned cocci_id/* drivers/regulator/s5m8767.c 293 */;
+	const struct sec_voltage_desc *cocci_id/* drivers/regulator/s5m8767.c 248 */;
+	int cocci_id/* drivers/regulator/s5m8767.c 248 */;
+	struct s5m8767_info {
+		struct device *dev;
+		struct sec_pmic_dev *iodev;
+		int num_regulators;
+		struct sec_opmode_data *opmode;
+		int ramp_delay;
+		bool buck2_ramp;
+		bool buck3_ramp;
+		bool buck4_ramp;
+		bool buck2_gpiodvs;
+		bool buck3_gpiodvs;
+		bool buck4_gpiodvs;
+		u8 buck2_vol[8];
+		u8 buck3_vol[8];
+		u8 buck4_vol[8];
+		int buck_gpios[3];
+		int buck_ds[3];
+		int buck_gpioindex;
+	} cocci_id/* drivers/regulator/s5m8767.c 20 */;
+	unsigned int cocci_id/* drivers/regulator/s5m8767.c 166 */;
+	int *cocci_id/* drivers/regulator/s5m8767.c 163 */;
+	const unsigned int cocci_id/* drivers/regulator/s5m8767.c 118 */[][4];
+	void __exit cocci_id/* drivers/regulator/s5m8767.c 1010 */;
+	void cocci_id/* drivers/regulator/s5m8767.c 1010 */;
+	int __init cocci_id/* drivers/regulator/s5m8767.c 1004 */;
+}

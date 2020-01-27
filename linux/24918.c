@@ -1,0 +1,72 @@
+cocci_test_suite() {
+	struct udp_bearer {
+		struct tipc_bearer __rcu *bearer;
+		struct socket *ubsock;
+		u32 ifindex;
+		struct work_struct work;
+		struct udp_replicast rcast;
+	} cocci_id/* net/tipc/udp_media.c 91 */;
+	struct tipc_media cocci_id/* net/tipc/udp_media.c 822 */;
+	struct tipc_bearer *cocci_id/* net/tipc/udp_media.c 805 */;
+	struct udp_replicast *cocci_id/* net/tipc/udp_media.c 790 */;
+	struct udp_bearer cocci_id/* net/tipc/udp_media.c 789 */;
+	struct udp_bearer *cocci_id/* net/tipc/udp_media.c 789 */;
+	struct work_struct *cocci_id/* net/tipc/udp_media.c 787 */;
+	void cocci_id/* net/tipc/udp_media.c 787 */;
+	struct udp_replicast {
+		struct udp_media_addr addr;
+		struct dst_cache dst_cache;
+		struct rcu_head rcu;
+		struct list_head list;
+	} cocci_id/* net/tipc/udp_media.c 77 */;
+	struct udphdr cocci_id/* net/tipc/udp_media.c 730 */;
+	struct iphdr cocci_id/* net/tipc/udp_media.c 729 */;
+	struct net_device *cocci_id/* net/tipc/udp_media.c 713 */;
+	struct udp_media_addr {
+		__be16 proto;
+		__be16 port;
+		union {
+			struct in_addr ipv4;
+			struct in6_addr ipv6;
+		};
+	} cocci_id/* net/tipc/udp_media.c 67 */;
+	u8 cocci_id/* net/tipc/udp_media.c 658 */[NODE_ID_LEN];
+	struct nlattr *cocci_id/* net/tipc/udp_media.c 657 */[TIPC_NLA_UDP_MAX + 1];
+	struct udp_tunnel_sock_cfg cocci_id/* net/tipc/udp_media.c 656 */;
+	struct udp_port_cfg cocci_id/* net/tipc/udp_media.c 655 */;
+	struct nlattr *cocci_id/* net/tipc/udp_media.c 649 */[];
+	struct net *cocci_id/* net/tipc/udp_media.c 648 */;
+	struct sockaddr_in6 *cocci_id/* net/tipc/udp_media.c 585 */;
+	struct sockaddr_in *cocci_id/* net/tipc/udp_media.c 576 */;
+	struct sockaddr_storage cocci_id/* net/tipc/udp_media.c 572 */;
+	u32 *cocci_id/* net/tipc/udp_media.c 570 */;
+	struct nlattr *cocci_id/* net/tipc/udp_media.c 569 */;
+	struct tipc_nl_msg *cocci_id/* net/tipc/udp_media.c 528 */;
+	struct tipc_net *cocci_id/* net/tipc/udp_media.c 483 */;
+	struct nlattr *cocci_id/* net/tipc/udp_media.c 457 */[TIPC_NLA_BEARER_MAX + 1];
+	struct nlattr **cocci_id/* net/tipc/udp_media.c 455 */;
+	void *cocci_id/* net/tipc/udp_media.c 450 */;
+	u32 cocci_id/* net/tipc/udp_media.c 444 */;
+	struct netlink_callback *cocci_id/* net/tipc/udp_media.c 442 */;
+	struct in6_addr cocci_id/* net/tipc/udp_media.c 433 */;
+	struct sockaddr_in6 cocci_id/* net/tipc/udp_media.c 428 */;
+	struct sockaddr_in cocci_id/* net/tipc/udp_media.c 417 */;
+	struct udp_media_addr *cocci_id/* net/tipc/udp_media.c 414 */;
+	struct sk_buff *cocci_id/* net/tipc/udp_media.c 413 */;
+	int cocci_id/* net/tipc/udp_media.c 413 */;
+	struct sock *cocci_id/* net/tipc/udp_media.c 398 */;
+	struct ip_mreqn cocci_id/* net/tipc/udp_media.c 397 */;
+	struct tipc_msg *cocci_id/* net/tipc/udp_media.c 362 */;
+	struct ipv6hdr *cocci_id/* net/tipc/udp_media.c 340 */;
+	struct iphdr *cocci_id/* net/tipc/udp_media.c 332 */;
+	bool cocci_id/* net/tipc/udp_media.c 268 */;
+	struct flowi6 cocci_id/* net/tipc/udp_media.c 192 */;
+	struct flowi4 cocci_id/* net/tipc/udp_media.c 171 */;
+	struct rtable *cocci_id/* net/tipc/udp_media.c 168 */;
+	struct dst_entry *cocci_id/* net/tipc/udp_media.c 164 */;
+	struct dst_cache *cocci_id/* net/tipc/udp_media.c 162 */;
+	struct udp_media_addr cocci_id/* net/tipc/udp_media.c 155 */;
+	struct tipc_media_addr *cocci_id/* net/tipc/udp_media.c 150 */;
+	char *cocci_id/* net/tipc/udp_media.c 150 */;
+	struct tipc_media_addr cocci_id/* net/tipc/udp_media.c 114 */;
+}

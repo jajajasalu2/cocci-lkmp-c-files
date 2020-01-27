@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	struct owl_pinctrl_soc_data *cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 916 */;
+	struct platform_device *cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 915 */;
+	struct gpio_irq_chip *cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 866 */;
+	struct irq_domain *cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 829 */;
+	struct irq_chip *cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 828 */;
+	struct irq_desc *cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 825 */;
+	struct irq_data *cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 776 */;
+	unsigned long cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 664 */;
+	void __iomem *cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 663 */;
+	const struct owl_gpio_port *cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 662 */;
+	struct owl_pinctrl *cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 660 */;
+	unsigned int cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 660 */;
+	void cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 660 */;
+	struct gpio_chip *cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 616 */;
+	struct pinctrl_desc cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 491 */;
+	const struct pinconf_ops cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 483 */;
+	unsigned long *cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 420 */;
+	struct owl_pinctrl {
+		struct device *dev;
+		struct pinctrl_dev *pctrldev;
+		struct gpio_chip chip;
+		raw_spinlock_t lock;
+		struct clk *clk;
+		const struct owl_pinctrl_soc_data *soc;
+		void __iomem *base;
+		struct irq_chip irq_chip;
+		unsigned int num_irq;
+		unsigned int *irq;
+	} cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 41 */;
+	const struct owl_padinfo *cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 218 */;
+	struct pinmux_ops cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 211 */;
+	u32 cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 167 */;
+	u32 *cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 163 */;
+	const struct owl_pingroup *cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 161 */;
+	int cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 161 */;
+	unsigned int *constcocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 151 */;
+	const char *const**cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 150 */;
+	struct pinctrl_dev *cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 148 */;
+	const char *cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 140 */;
+	struct pinctrl_ops cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 124 */;
+	struct seq_file *cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 116 */;
+	unsigned int *cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 105 */;
+	const unsigned int **cocci_id/* drivers/pinctrl/actions/pinctrl-owl.c 104 */;
+}

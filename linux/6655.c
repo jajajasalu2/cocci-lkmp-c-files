@@ -1,0 +1,135 @@
+cocci_test_suite() {
+	struct workqueue_struct *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 90 */;
+	atomic_t cocci_id/* drivers/scsi/scsi_transport_iscsi.c 89 */;
+	struct iscsi_internal {
+		struct scsi_transport_template t;
+		struct iscsi_transport *iscsi_transport;
+		struct list_head list;
+		struct device dev;
+		struct transport_container conn_cont;
+		struct transport_container session_cont;
+	} cocci_id/* drivers/scsi/scsi_transport_iscsi.c 79 */;
+	struct iscsi_iface *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 750 */;
+	enum iscsi_router_state cocci_id/* drivers/scsi/scsi_transport_iscsi.c 735 */;
+	const struct {
+		enum iscsi_router_state value;
+		char *name;
+	} cocci_id/* drivers/scsi/scsi_transport_iscsi.c 725 */[];
+	enum iscsi_ipaddress_state cocci_id/* drivers/scsi/scsi_transport_iscsi.c 709 */;
+	const struct {
+		enum iscsi_ipaddress_state value;
+		char *name;
+	} cocci_id/* drivers/scsi/scsi_transport_iscsi.c 696 */[];
+	int cocci_id/* drivers/scsi/scsi_transport_iscsi.c 49 */;
+	void __exit cocci_id/* drivers/scsi/scsi_transport_iscsi.c 4598 */;
+	struct netlink_kernel_cfg cocci_id/* drivers/scsi/scsi_transport_iscsi.c 4528 */;
+	va_list cocci_id/* drivers/scsi/scsi_transport_iscsi.c 4515 */;
+	struct va_format cocci_id/* drivers/scsi/scsi_transport_iscsi.c 4514 */;
+	const char *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 4512 */;
+	void (*cocci_id/* drivers/scsi/scsi_transport_iscsi.c 4511 */)(struct device *dev,
+								       struct va_format *);
+	struct iscsi_cls_host cocci_id/* drivers/scsi/scsi_transport_iscsi.c 4452 */;
+	struct scsi_transport_template *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 4417 */;
+	struct attribute_container *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 4374 */;
+	const struct {
+		enum iscsi_port_state value;
+		char *name;
+	} cocci_id/* drivers/scsi/scsi_transport_iscsi.c 4327 */[];
+	const struct {
+		enum iscsi_port_speed value;
+		char *name;
+	} cocci_id/* drivers/scsi/scsi_transport_iscsi.c 4296 */[];
+	size_t cocci_id/* drivers/scsi/scsi_transport_iscsi.c 4039 */;
+	struct attribute_group cocci_id/* drivers/scsi/scsi_transport_iscsi.c 3927 */;
+	struct iscsi_cls_conn *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 3855 */;
+	struct device cocci_id/* drivers/scsi/scsi_transport_iscsi.c 3854 */;
+	struct attribute *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 3852 */;
+	umode_t cocci_id/* drivers/scsi/scsi_transport_iscsi.c 3851 */;
+	struct kobject *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 3851 */;
+	struct attribute *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 3817 */[];
+	struct iscsi_hdr *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 3597 */;
+	u32 cocci_id/* drivers/scsi/scsi_transport_iscsi.c 3481 */;
+	uint32_t *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 3478 */;
+	struct iscsi_offload_host_stats cocci_id/* drivers/scsi/scsi_transport_iscsi.c 3426 */;
+	const struct {
+		enum iscsi_discovery_parent_type value;
+		char *name;
+	} cocci_id/* drivers/scsi/scsi_transport_iscsi.c 3112 */[];
+	char *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 3012 */;
+	struct iscsi_chap_rec *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 3005 */;
+	struct iscsi_path *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2930 */;
+	u64 cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2823 */;
+	struct sockaddr *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2789 */;
+	uint16_t cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2694 */;
+	pid_t cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2693 */;
+	enum iscsi_uevent_e cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2627 */;
+	struct iscsi_uevent cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2605 */;
+	struct iscsi_stats_custom cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2568 */;
+	struct iscsi_stats cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2567 */;
+	struct iscsi_stats *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2560 */;
+	uint8_t *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2511 */;
+	enum iscsi_host_event_code cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2479 */;
+	enum iscsi_conn_state cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2445 */;
+	struct iscsi_uevent *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2414 */;
+	struct sk_buff *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2413 */;
+	struct nlmsghdr *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2412 */;
+	enum iscsi_err cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2410 */;
+	struct iscsi_hdr cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2345 */;
+	gfp_t cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2326 */;
+	unsigned long long cocci_id/* drivers/scsi/scsi_transport_iscsi.c 229 */;
+	const struct device *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2151 */;
+	uint64_t cocci_id/* drivers/scsi/scsi_transport_iscsi.c 206 */;
+	struct iscsi_transport *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2032 */;
+	struct iscsi_endpoint *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 201 */;
+	unsigned int cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2005 */;
+	struct iscsi_cls_host *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2003 */;
+	struct Scsi_Host *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 2002 */;
+	unsigned long cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1977 */;
+	struct iscsi_cls_session cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1975 */;
+	struct iscsi_cls_session *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1974 */;
+	struct work_struct *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1972 */;
+	void cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1972 */;
+	const uint64_t *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 196 */;
+	const void *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 193 */;
+	struct scsi_cmnd *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1869 */;
+	struct iscsi_scan_data cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1849 */;
+	uint cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1829 */;
+	struct iscsi_scan_data *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1788 */;
+	struct iscsi_scan_data {
+		unsigned int channel;
+		unsigned int id;
+		u64 lun;
+		enum scsi_scan_mode rescan;
+	} cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1779 */;
+	void (*cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1753 */)(struct iscsi_cls_session *);
+	struct device_attribute *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 175 */;
+	ssize_t cocci_id/* drivers/scsi/scsi_transport_iscsi.c 174 */;
+	struct class cocci_id/* drivers/scsi/scsi_transport_iscsi.c 169 */;
+	struct {
+		int value;
+		char *name;
+	} cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1664 */[];
+	struct sock *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1608 */;
+	struct transport_container *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1580 */;
+	struct iscsi_endpoint cocci_id/* drivers/scsi/scsi_transport_iscsi.c 157 */;
+	char cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1546 */[20];
+	struct request_queue *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1545 */;
+	struct iscsi_internal *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1544 */;
+	struct iscsi_bsg_host_vendor cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1502 */;
+	uint32_t cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1490 */;
+	struct iscsi_bsg_reply *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1488 */;
+	struct iscsi_bsg_request *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1487 */;
+	struct bsg_job *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1484 */;
+	int (*cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1400 */)(struct device *dev,
+								      void *data);
+	int *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1354 */;
+	struct iscsi_bus_flash_session *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1347 */;
+	struct device *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1345 */;
+	void *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1345 */;
+	struct iscsi_bus_flash_conn *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1288 */;
+	struct device_driver *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1214 */;
+	struct bus_type cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1211 */;
+	const struct device_type cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1205 */;
+	const struct attribute_group *cocci_id/* drivers/scsi/scsi_transport_iscsi.c 1190 */[];
+	struct iscsi_internal cocci_id/* drivers/scsi/scsi_transport_iscsi.c 102 */;
+}

@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	struct fib6_result cocci_id/* net/ipv6/fib6_rules.c 95 */;
+	const struct sk_buff *cocci_id/* net/ipv6/fib6_rules.c 91 */;
+	struct dst_entry *cocci_id/* net/ipv6/fib6_rules.c 90 */;
+	struct fib_lookup_arg cocci_id/* net/ipv6/fib6_rules.c 68 */;
+	unsigned int cocci_id/* net/ipv6/fib6_rules.c 56 */;
+	void cocci_id/* net/ipv6/fib6_rules.c 505 */;
+	struct notifier_block *cocci_id/* net/ipv6/fib6_rules.c 50 */;
+	int __init cocci_id/* net/ipv6/fib6_rules.c 499 */;
+	struct pernet_operations cocci_id/* net/ipv6/fib6_rules.c 494 */;
+	void __net_exit cocci_id/* net/ipv6/fib6_rules.c 487 */;
+	struct fib_rules_ops *cocci_id/* net/ipv6/fib6_rules.c 462 */;
+	int __net_init cocci_id/* net/ipv6/fib6_rules.c 460 */;
+	size_t cocci_id/* net/ipv6/fib6_rules.c 436 */;
+	struct in6_addr cocci_id/* net/ipv6/fib6_rules.c 406 */;
+	struct fib6_rule *cocci_id/* net/ipv6/fib6_rules.c 394 */;
+	struct nlattr **cocci_id/* net/ipv6/fib6_rules.c 392 */;
+	struct fib_rule_hdr *cocci_id/* net/ipv6/fib6_rules.c 391 */;
+	bool cocci_id/* net/ipv6/fib6_rules.c 39 */;
+	const struct fib_rule *cocci_id/* net/ipv6/fib6_rules.c 39 */;
+	struct netlink_ext_ack *cocci_id/* net/ipv6/fib6_rules.c 343 */;
+	struct sk_buff *cocci_id/* net/ipv6/fib6_rules.c 340 */;
+	const struct nla_policy cocci_id/* net/ipv6/fib6_rules.c 336 */[FRA_MAX + 1];
+	struct fib6_rule cocci_id/* net/ipv6/fib6_rules.c 32 */;
+	struct net_device *cocci_id/* net/ipv6/fib6_rules.c 268 */;
+	struct fib6_rule {
+		struct fib_rule common;
+		struct rt6key src;
+		struct rt6key dst;
+		u8 tclass;
+	} cocci_id/* net/ipv6/fib6_rules.c 23 */;
+	u32 cocci_id/* net/ipv6/fib6_rules.c 202 */;
+	pol_lookup_t cocci_id/* net/ipv6/fib6_rules.c 200 */;
+	struct net *cocci_id/* net/ipv6/fib6_rules.c 199 */;
+	struct fib6_table *cocci_id/* net/ipv6/fib6_rules.c 198 */;
+	struct rt6_info *cocci_id/* net/ipv6/fib6_rules.c 197 */;
+	struct flowi6 *cocci_id/* net/ipv6/fib6_rules.c 196 */;
+	struct fib6_result *cocci_id/* net/ipv6/fib6_rules.c 195 */;
+	struct fib_lookup_arg *cocci_id/* net/ipv6/fib6_rules.c 193 */;
+	struct flowi *cocci_id/* net/ipv6/fib6_rules.c 192 */;
+	struct fib_rule *cocci_id/* net/ipv6/fib6_rules.c 192 */;
+	int cocci_id/* net/ipv6/fib6_rules.c 192 */;
+	int *cocci_id/* net/ipv6/fib6_rules.c 181 */;
+	const struct net_device *cocci_id/* net/ipv6/fib6_rules.c 130 */;
+}

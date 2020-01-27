@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	struct net *cocci_id/* net/batman-adv/sysfs.c 980 */;
+	char cocci_id/* net/batman-adv/sysfs.c 978 */[IFNAMSIZ];
+	struct batadv_softif_vlan *cocci_id/* net/batman-adv/sysfs.c 97 */;
+	char cocci_id/* net/batman-adv/sysfs.c 869 */[sizeof(BATADV_SYSFS_VLAN_SUBDIR_PREFIX) + 5];
+	struct kobject *cocci_id/* net/batman-adv/sysfs.c 63 */;
+	struct batadv_priv *cocci_id/* net/batman-adv/sysfs.c 63 */;
+	u32 cocci_id/* net/batman-adv/sysfs.c 623 */;
+	struct device cocci_id/* net/batman-adv/sysfs.c 58 */;
+	struct device *cocci_id/* net/batman-adv/sysfs.c 58 */;
+	void cocci_id/* net/batman-adv/sysfs.c 446 */;
+	const struct attribute *cocci_id/* net/batman-adv/sysfs.c 422 */;
+	const char *cocci_id/* net/batman-adv/sysfs.c 419 */;
+	unsigned long cocci_id/* net/batman-adv/sysfs.c 384 */;
+	char cocci_id/* net/batman-adv/sysfs.c 383 */[IFNAMSIZ + 3];
+	int cocci_id/* net/batman-adv/sysfs.c 366 */;
+	bool cocci_id/* net/batman-adv/sysfs.c 365 */;
+	atomic_t *cocci_id/* net/batman-adv/sysfs.c 363 */;
+	struct net_device *cocci_id/* net/batman-adv/sysfs.c 363 */;
+	struct attribute *cocci_id/* net/batman-adv/sysfs.c 362 */;
+	void (*cocci_id/* net/batman-adv/sysfs.c 361 */)(struct net_device *);
+	char *cocci_id/* net/batman-adv/sysfs.c 360 */;
+	size_t cocci_id/* net/batman-adv/sysfs.c 360 */;
+	ssize_t cocci_id/* net/batman-adv/sysfs.c 359 */;
+	unsigned int cocci_id/* net/batman-adv/sysfs.c 355 */;
+	bool *cocci_id/* net/batman-adv/sysfs.c 321 */;
+	struct batadv_attribute **cocci_id/* net/batman-adv/sysfs.c 1229 */;
+	struct kobject **cocci_id/* net/batman-adv/sysfs.c 1226 */;
+	struct batadv_attribute *cocci_id/* net/batman-adv/sysfs.c 1209 */[];
+	struct batadv_hard_iface *cocci_id/* net/batman-adv/sysfs.c 1085 */;
+	struct batadv_store_mesh_work *cocci_id/* net/batman-adv/sysfs.c 1053 */;
+	struct batadv_store_mesh_work cocci_id/* net/batman-adv/sysfs.c 1032 */;
+	struct work_struct *cocci_id/* net/batman-adv/sysfs.c 1027 */;
+}

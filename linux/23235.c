@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct i2c_driver cocci_id/* sound/soc/codecs/tas2770.c 805 */;
+	const struct of_device_id cocci_id/* sound/soc/codecs/tas2770.c 798 */[];
+	const struct i2c_device_id cocci_id/* sound/soc/codecs/tas2770.c 791 */[];
+	struct tas2770_priv cocci_id/* sound/soc/codecs/tas2770.c 735 */;
+	const struct i2c_device_id *cocci_id/* sound/soc/codecs/tas2770.c 729 */;
+	struct i2c_client *cocci_id/* sound/soc/codecs/tas2770.c 728 */;
+	struct device *cocci_id/* sound/soc/codecs/tas2770.c 696 */;
+	const struct regmap_config cocci_id/* sound/soc/codecs/tas2770.c 683 */;
+	const struct regmap_range_cfg cocci_id/* sound/soc/codecs/tas2770.c 671 */[];
+	bool cocci_id/* sound/soc/codecs/tas2770.c 634 */;
+	const struct reg_default cocci_id/* sound/soc/codecs/tas2770.c 615 */[];
+	const struct snd_soc_component_driver cocci_id/* sound/soc/codecs/tas2770.c 592 */;
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/tas2770.c 583 */[];
+	struct tas2770_priv *cocci_id/* sound/soc/codecs/tas2770.c 572 */;
+	struct snd_soc_component *cocci_id/* sound/soc/codecs/tas2770.c 570 */;
+	int cocci_id/* sound/soc/codecs/tas2770.c 570 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/codecs/tas2770.c 547 */[];
+	struct snd_soc_dai_ops cocci_id/* sound/soc/codecs/tas2770.c 532 */;
+	enum snd_soc_bias_level cocci_id/* sound/soc/codecs/tas2770.c 48 */;
+	unsigned int cocci_id/* sound/soc/codecs/tas2770.c 451 */;
+	u8 cocci_id/* sound/soc/codecs/tas2770.c 388 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/codecs/tas2770.c 368 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/codecs/tas2770.c 367 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/codecs/tas2770.c 366 */;
+	void cocci_id/* sound/soc/codecs/tas2770.c 36 */;
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/codecs/tas2770.c 181 */[];
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/codecs/tas2770.c 166 */[];
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/tas2770.c 161 */;
+	struct snd_kcontrol *cocci_id/* sound/soc/codecs/tas2770.c 124 */;
+	struct snd_soc_dapm_widget *cocci_id/* sound/soc/codecs/tas2770.c 123 */;
+	const char *const cocci_id/* sound/soc/codecs/tas2770.c 112 */[];
+}

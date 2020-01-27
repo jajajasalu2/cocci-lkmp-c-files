@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	struct ad198x_spec *cocci_id/* sound/pci/hda/patch_analog.c 990 */;
+	void *cocci_id/* sound/pci/hda/patch_analog.c 975 */;
+	const struct hda_fixup *cocci_id/* sound/pci/hda/patch_analog.c 964 */;
+	int cocci_id/* sound/pci/hda/patch_analog.c 964 */;
+	struct hda_codec *cocci_id/* sound/pci/hda/patch_analog.c 963 */;
+	void cocci_id/* sound/pci/hda/patch_analog.c 963 */;
+	enum{AD1988_FIXUP_6STACK_DIG,} cocci_id/* sound/pci/hda/patch_analog.c 872 */;
+	struct nid_path *cocci_id/* sound/pci/hda/patch_analog.c 852 */;
+	struct nid_path cocci_id/* sound/pci/hda/patch_analog.c 815 */[4];
+	enum{AD1981_FIXUP_AMP_OVERRIDE, AD1981_FIXUP_HP_EAPD,} cocci_id/* sound/pci/hda/patch_analog.c 583 */;
+	hda_nid_t cocci_id/* sound/pci/hda/patch_analog.c 523 */[];
+	const struct snd_kcontrol_new *cocci_id/* sound/pci/hda/patch_analog.c 52 */;
+	hda_nid_t cocci_id/* sound/pci/hda/patch_analog.c 507 */;
+	const struct snd_kcontrol_new cocci_id/* sound/pci/hda/patch_analog.c 496 */;
+	unsigned int cocci_id/* sound/pci/hda/patch_analog.c 482 */;
+	struct snd_ctl_elem_value *cocci_id/* sound/pci/hda/patch_analog.c 468 */;
+	struct snd_kcontrol *cocci_id/* sound/pci/hda/patch_analog.c 467 */;
+	const char *const cocci_id/* sound/pci/hda/patch_analog.c 454 */[];
+	struct snd_ctl_elem_info *cocci_id/* sound/pci/hda/patch_analog.c 450 */;
+	const struct hda_model_fixup cocci_id/* sound/pci/hda/patch_analog.c 377 */[];
+	const struct snd_kcontrol_new cocci_id/* sound/pci/hda/patch_analog.c 36 */[];
+	const struct hda_pintbl cocci_id/* sound/pci/hda/patch_analog.c 277 */[];
+	enum{AD1986A_FIXUP_INV_JACK_DETECT, AD1986A_FIXUP_ULTRA, AD1986A_FIXUP_SAMSUNG, AD1986A_FIXUP_3STACK, AD1986A_FIXUP_LAPTOP, AD1986A_FIXUP_LAPTOP_IMIC, AD1986A_FIXUP_EAPD, AD1986A_FIXUP_EAPD_MIX_IN, AD1986A_FIXUP_EASYNOTE,} cocci_id/* sound/pci/hda/patch_analog.c 258 */;
+	struct ad198x_spec {
+		struct hda_gen_spec gen;
+		int smux_paths[4];
+		unsigned int cur_smux;
+		hda_nid_t eapd_nid;
+		unsigned int beep_amp;
+	} cocci_id/* sound/pci/hda/patch_analog.c 22 */;
+	struct auto_pin_cfg *cocci_id/* sound/pci/hda/patch_analog.c 177 */;
+	bool cocci_id/* sound/pci/hda/patch_analog.c 174 */;
+	const struct hda_codec_ops cocci_id/* sound/pci/hda/patch_analog.c 160 */;
+	struct hda_codec_driver cocci_id/* sound/pci/hda/patch_analog.c 1179 */;
+	const struct hda_device_id cocci_id/* sound/pci/hda/patch_analog.c 1156 */[];
+	const struct snd_pci_quirk cocci_id/* sound/pci/hda/patch_analog.c 1071 */[];
+	const struct hda_fixup cocci_id/* sound/pci/hda/patch_analog.c 1042 */[];
+	enum{AD1884_FIXUP_AMP_OVERRIDE, AD1884_FIXUP_HP_EAPD, AD1884_FIXUP_DMIC_COEF, AD1884_FIXUP_THINKPAD, AD1884_FIXUP_HP_TOUCHSMART,} cocci_id/* sound/pci/hda/patch_analog.c 1034 */;
+	const struct hda_verb cocci_id/* sound/pci/hda/patch_analog.c 1028 */[];
+}

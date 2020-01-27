@@ -1,0 +1,57 @@
+cocci_test_suite() {
+	char cocci_id/* tools/perf/ui/browsers/annotate.c 922 */[BUFSIZ];
+	va_list cocci_id/* tools/perf/ui/browsers/annotate.c 89 */;
+	struct annotation_options *cocci_id/* tools/perf/ui/browsers/annotate.c 885 */;
+	struct hist_entry *cocci_id/* tools/perf/ui/browsers/annotate.c 883 */;
+	const char *cocci_id/* tools/perf/ui/browsers/annotate.c 87 */;
+	void *cocci_id/* tools/perf/ui/browsers/annotate.c 87 */;
+	char cocci_id/* tools/perf/ui/browsers/annotate.c 673 */[256];
+	struct hists *cocci_id/* tools/perf/ui/browsers/annotate.c 667 */;
+	struct rb_node *cocci_id/* tools/perf/ui/browsers/annotate.c 666 */;
+	s64 cocci_id/* tools/perf/ui/browsers/annotate.c 513 */;
+	struct annotation_line *cocci_id/* tools/perf/ui/browsers/annotate.c 512 */;
+	bool cocci_id/* tools/perf/ui/browsers/annotate.c 510 */;
+	struct annotate_browser *cocci_id/* tools/perf/ui/browsers/annotate.c 510 */;
+	char *cocci_id/* tools/perf/ui/browsers/annotate.c 491 */;
+	s64 *cocci_id/* tools/perf/ui/browsers/annotate.c 445 */;
+	char cocci_id/* tools/perf/ui/browsers/annotate.c 416 */[SYM_TITLE_MAX_SIZE];
+	struct hist_browser_timer *cocci_id/* tools/perf/ui/browsers/annotate.c 411 */;
+	size_t cocci_id/* tools/perf/ui/browsers/annotate.c 394 */;
+	struct map *cocci_id/* tools/perf/ui/browsers/annotate.c 393 */;
+	off_t cocci_id/* tools/perf/ui/browsers/annotate.c 350 */;
+	int cocci_id/* tools/perf/ui/browsers/annotate.c 318 */;
+	double cocci_id/* tools/perf/ui/browsers/annotate.c 317 */;
+	struct disasm_line *cocci_id/* tools/perf/ui/browsers/annotate.c 308 */;
+	struct annotation *cocci_id/* tools/perf/ui/browsers/annotate.c 307 */;
+	struct symbol *cocci_id/* tools/perf/ui/browsers/annotate.c 306 */;
+	struct map_symbol *cocci_id/* tools/perf/ui/browsers/annotate.c 305 */;
+	struct evsel *cocci_id/* tools/perf/ui/browsers/annotate.c 303 */;
+	void cocci_id/* tools/perf/ui/browsers/annotate.c 302 */;
+	u32 cocci_id/* tools/perf/ui/browsers/annotate.c 294 */;
+	struct annotation_line cocci_id/* tools/perf/ui/browsers/annotate.c 293 */;
+	struct annotate_browser {
+		struct ui_browser b;
+		struct rb_root entries;
+		struct rb_node *curr_hot;
+		struct annotation_line *selection;
+		struct arch *arch;
+		struct annotation_options *opts;
+		bool searching_backwards;
+		char search_bf[128];
+	} cocci_id/* tools/perf/ui/browsers/annotate.c 29 */;
+	struct arch cocci_id/* tools/perf/ui/browsers/annotate.c 27 */;
+	unsigned cocci_id/* tools/perf/ui/browsers/annotate.c 269 */;
+	struct rb_node **cocci_id/* tools/perf/ui/browsers/annotate.c 248 */;
+	struct rb_root *cocci_id/* tools/perf/ui/browsers/annotate.c 247 */;
+	struct disasm_line_samples {
+		double percent;
+		struct sym_hist_entry he;
+	} cocci_id/* tools/perf/ui/browsers/annotate.c 22 */;
+	u64 cocci_id/* tools/perf/ui/browsers/annotate.c 197 */;
+	u8 cocci_id/* tools/perf/ui/browsers/annotate.c 156 */;
+	unsigned int cocci_id/* tools/perf/ui/browsers/annotate.c 152 */;
+	struct annotate_browser cocci_id/* tools/perf/ui/browsers/annotate.c 149 */;
+	struct ui_browser *cocci_id/* tools/perf/ui/browsers/annotate.c 147 */;
+	struct annotation_write_ops cocci_id/* tools/perf/ui/browsers/annotate.c 102 */;
+	const bool cocci_id/* tools/perf/ui/browsers/annotate.c 101 */;
+}

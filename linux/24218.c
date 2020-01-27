@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	const struct frag_hdr *cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 90 */;
+	struct frag_hdr cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 89 */;
+	const struct ipv6_opt_hdr *cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 75 */;
+	struct ipv6_opt_hdr cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 74 */;
+	__be32 *cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 66 */;
+	const struct ipv6hdr *cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 44 */;
+	struct ipv6hdr cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 43 */;
+	void __exit cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 413 */;
+	u_int8_t cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 41 */;
+	int __init cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 392 */;
+	int cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 39 */;
+	struct pernet_operations cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 387 */;
+	void __net_exit cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 382 */;
+	int __net_init cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 377 */;
+	struct nf_logger cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 370 */;
+	struct net *cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 36 */;
+	const char *cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 346 */;
+	const struct net_device *cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 343 */;
+	struct iphdr *cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 332 */;
+	const struct iphdr *cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 331 */;
+	const unsigned char *cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 312 */;
+	unsigned int cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 290 */;
+	struct net_device *cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 289 */;
+	const struct sk_buff *cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 287 */;
+	const struct nf_loginfo *cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 286 */;
+	struct nf_log_buf *cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 285 */;
+	void cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 285 */;
+	const struct nf_loginfo cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 25 */;
+	const struct icmp6hdr *cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 214 */;
+	struct icmp6hdr cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 213 */;
+	const struct ip_esp_hdr *cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 163 */;
+	struct ip_esp_hdr cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 162 */;
+	const struct ip_auth_hdr *cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 131 */;
+	struct ip_auth_hdr cocci_id/* net/ipv6/netfilter/nf_log_ipv6.c 130 */;
+}

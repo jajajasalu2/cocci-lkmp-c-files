@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	struct inline_node cocci_id/* tools/perf/util/srcline.c 739 */;
+	struct rb_node *cocci_id/* tools/perf/util/srcline.c 736 */;
+	struct rb_root_cached *cocci_id/* tools/perf/util/srcline.c 733 */;
+	const u64 cocci_id/* tools/perf/util/srcline.c 696 */;
+	struct rb_node **cocci_id/* tools/perf/util/srcline.c 694 */;
+	struct srcline_node cocci_id/* tools/perf/util/srcline.c 655 */;
+	struct srcline_node *cocci_id/* tools/perf/util/srcline.c 651 */;
+	struct srcline_node {
+		u64 addr;
+		char *srcline;
+		struct rb_node rb_node;
+	} cocci_id/* tools/perf/util/srcline.c 594 */;
+	unsigned *cocci_id/* tools/perf/util/srcline.c 555 */;
+	const char *cocci_id/* tools/perf/util/srcline.c 512 */;
+	unsigned cocci_id/* tools/perf/util/srcline.c 510 */;
+	bool cocci_id/* tools/perf/util/srcline.c 506 */;
+	u64 cocci_id/* tools/perf/util/srcline.c 505 */;
+	struct symbol *cocci_id/* tools/perf/util/srcline.c 505 */;
+	struct dso *cocci_id/* tools/perf/util/srcline.c 505 */;
+	char *cocci_id/* tools/perf/util/srcline.c 505 */;
+	unsigned int cocci_id/* tools/perf/util/srcline.c 445 */;
+	size_t cocci_id/* tools/perf/util/srcline.c 444 */;
+	char cocci_id/* tools/perf/util/srcline.c 440 */[PATH_MAX];
+	FILE *cocci_id/* tools/perf/util/srcline.c 439 */;
+	struct inline_list *cocci_id/* tools/perf/util/srcline.c 42 */;
+	struct inline_node *cocci_id/* tools/perf/util/srcline.c 350 */;
+	struct a2l_data *cocci_id/* tools/perf/util/srcline.c 284 */;
+	char **cocci_id/* tools/perf/util/srcline.c 279 */;
+	unsigned int *cocci_id/* tools/perf/util/srcline.c 279 */;
+	int cocci_id/* tools/perf/util/srcline.c 278 */;
+	void cocci_id/* tools/perf/util/srcline.c 253 */;
+	bfd *cocci_id/* tools/perf/util/srcline.c 220 */;
+	bfd_size_type cocci_id/* tools/perf/util/srcline.c 194 */;
+	bfd_vma cocci_id/* tools/perf/util/srcline.c 193 */;
+	asection *cocci_id/* tools/perf/util/srcline.c 191 */;
+	void *cocci_id/* tools/perf/util/srcline.c 191 */;
+	bfd_boolean cocci_id/* tools/perf/util/srcline.c 163 */;
+	asymbol **cocci_id/* tools/perf/util/srcline.c 162 */;
+	long cocci_id/* tools/perf/util/srcline.c 160 */;
+	struct a2l_data {
+		const char *input;
+		u64 addr;
+		bool found;
+		const char *filename;
+		const char *funcname;
+		unsigned line;
+		bfd *abfd;
+		asymbol **syms;
+	} cocci_id/* tools/perf/util/srcline.c 130 */;
+}

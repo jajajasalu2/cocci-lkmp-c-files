@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	int cocci_id/* drivers/mfd/88pm860x-core.c 987 */;
+	struct regulator_init_data cocci_id/* drivers/mfd/88pm860x-core.c 935 */;
+	struct pm860x_power_pdata cocci_id/* drivers/mfd/88pm860x-core.c 917 */;
+	struct pm860x_touch_pdata cocci_id/* drivers/mfd/88pm860x-core.c 898 */;
+	struct pm860x_rtc_pdata cocci_id/* drivers/mfd/88pm860x-core.c 879 */;
+	struct pm860x_led_pdata cocci_id/* drivers/mfd/88pm860x-core.c 780 */;
+	struct pm860x_backlight_pdata cocci_id/* drivers/mfd/88pm860x-core.c 760 */;
+	unsigned short cocci_id/* drivers/mfd/88pm860x-core.c 693 */;
+	struct device_node *cocci_id/* drivers/mfd/88pm860x-core.c 576 */;
+	unsigned long cocci_id/* drivers/mfd/88pm860x-core.c 573 */;
+	unsigned char cocci_id/* drivers/mfd/88pm860x-core.c 572 */[INT_STATUS_NUM];
+	const struct irq_domain_ops cocci_id/* drivers/mfd/88pm860x-core.c 562 */;
+	irq_hw_number_t cocci_id/* drivers/mfd/88pm860x-core.c 553 */;
+	struct irq_domain *cocci_id/* drivers/mfd/88pm860x-core.c 552 */;
+	unsigned int cocci_id/* drivers/mfd/88pm860x-core.c 552 */;
+	struct irq_chip cocci_id/* drivers/mfd/88pm860x-core.c 544 */;
+	struct irq_data *cocci_id/* drivers/mfd/88pm860x-core.c 539 */;
+	unsigned char cocci_id/* drivers/mfd/88pm860x-core.c 495 */[3];
+	struct pm860x_irq_data *cocci_id/* drivers/mfd/88pm860x-core.c 465 */;
+	irqreturn_t cocci_id/* drivers/mfd/88pm860x-core.c 462 */;
+	void *cocci_id/* drivers/mfd/88pm860x-core.c 462 */;
+	struct pm860x_irq_data cocci_id/* drivers/mfd/88pm860x-core.c 349 */[];
+	struct pm860x_irq_data {
+		int reg;
+		int mask_reg;
+		int enable;
+		int offs;
+	} cocci_id/* drivers/mfd/88pm860x-core.c 342 */;
+	struct charger_regulator cocci_id/* drivers/mfd/88pm860x-core.c 326 */[];
+	struct regulator_consumer_supply cocci_id/* drivers/mfd/88pm860x-core.c 317 */[];
+	struct mfd_cell cocci_id/* drivers/mfd/88pm860x-core.c 168 */[];
+	struct resource cocci_id/* drivers/mfd/88pm860x-core.c 145 */[];
+	void __exit cocci_id/* drivers/mfd/88pm860x-core.c 1274 */;
+	int __init cocci_id/* drivers/mfd/88pm860x-core.c 1263 */;
+	struct i2c_driver cocci_id/* drivers/mfd/88pm860x-core.c 1252 */;
+	const struct of_device_id cocci_id/* drivers/mfd/88pm860x-core.c 1246 */[];
+	const struct i2c_device_id cocci_id/* drivers/mfd/88pm860x-core.c 1240 */[];
+	struct pm860x_chip cocci_id/* drivers/mfd/88pm860x-core.c 1155 */;
+	struct pm860x_platform_data cocci_id/* drivers/mfd/88pm860x-core.c 1142 */;
+	struct device *cocci_id/* drivers/mfd/88pm860x-core.c 1115 */;
+	const struct regmap_config cocci_id/* drivers/mfd/88pm860x-core.c 1109 */;
+	unsigned short cocci_id/* drivers/mfd/88pm860x-core.c 1090 */[];
+	struct pm860x_platform_data *cocci_id/* drivers/mfd/88pm860x-core.c 1047 */;
+	struct i2c_client *cocci_id/* drivers/mfd/88pm860x-core.c 1046 */;
+	struct pm860x_chip *cocci_id/* drivers/mfd/88pm860x-core.c 1045 */;
+	void cocci_id/* drivers/mfd/88pm860x-core.c 1045 */;
+}

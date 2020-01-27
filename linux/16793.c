@@ -1,0 +1,81 @@
+cocci_test_suite() {
+	struct ff_effect cocci_id/* drivers/input/misc/uinput.c 951 */;
+	unsigned int __user *cocci_id/* drivers/input/misc/uinput.c 860 */;
+	char *cocci_id/* drivers/input/misc/uinput.c 842 */;
+	struct uinput_ff_erase cocci_id/* drivers/input/misc/uinput.c 840 */;
+	int cocci_id/* drivers/input/misc/uinput.c 800 */;
+	struct uinput_ff_upload cocci_id/* drivers/input/misc/uinput.c 769 */;
+	struct ff_effect_compat cocci_id/* drivers/input/misc/uinput.c 763 */;
+	struct uinput_ff_upload *cocci_id/* drivers/input/misc/uinput.c 751 */;
+	const char __user *cocci_id/* drivers/input/misc/uinput.c 750 */;
+	struct timespec64 cocci_id/* drivers/input/misc/uinput.c 75 */;
+	const struct uinput_ff_upload *cocci_id/* drivers/input/misc/uinput.c 720 */;
+	struct uinput_ff_upload_compat {
+		__u32 request_id;
+		__s32 retval;
+		struct ff_effect_compat effect;
+		struct ff_effect_compat old;
+	} cocci_id/* drivers/input/misc/uinput.c 712 */;
+	__poll_t cocci_id/* drivers/input/misc/uinput.c 689 */;
+	poll_table *cocci_id/* drivers/input/misc/uinput.c 689 */;
+	loff_t *cocci_id/* drivers/input/misc/uinput.c 654 */;
+	struct input_event cocci_id/* drivers/input/misc/uinput.c 638 */;
+	char __user *cocci_id/* drivers/input/misc/uinput.c 636 */;
+	ssize_t cocci_id/* drivers/input/misc/uinput.c 635 */;
+	struct input_event *cocci_id/* drivers/input/misc/uinput.c 618 */;
+	bool cocci_id/* drivers/input/misc/uinput.c 617 */;
+	struct uinput_device {
+		struct input_dev *dev;
+		struct mutex mutex;
+		enum uinput_state state;
+		wait_queue_head_t waitq;
+		unsigned char ready;
+		unsigned char head;
+		unsigned char tail;
+		struct input_event buff[UINPUT_BUFFER_SIZE];
+		unsigned int ff_effects_max;
+		struct uinput_request *requests[UINPUT_NUM_REQUESTS];
+		wait_queue_head_t requests_waitq;
+		spinlock_t requests_lock;
+	} cocci_id/* drivers/input/misc/uinput.c 55 */;
+	struct uinput_user_dev cocci_id/* drivers/input/misc/uinput.c 513 */;
+	struct uinput_user_dev *cocci_id/* drivers/input/misc/uinput.c 508 */;
+	struct input_dev *cocci_id/* drivers/input/misc/uinput.c 474 */;
+	struct uinput_abs_setup cocci_id/* drivers/input/misc/uinput.c 473 */;
+	struct uinput_setup __user *cocci_id/* drivers/input/misc/uinput.c 471 */;
+	size_t cocci_id/* drivers/input/misc/uinput.c 471 */;
+	struct uinput_device *cocci_id/* drivers/input/misc/uinput.c 470 */;
+	struct uinput_setup cocci_id/* drivers/input/misc/uinput.c 445 */;
+	const struct input_absinfo *cocci_id/* drivers/input/misc/uinput.c 394 */;
+	struct uinput_request {
+		unsigned int id;
+		unsigned int code;
+		int retval;
+		struct completion done;
+		union {
+			unsigned int effect_id;
+			struct {
+				struct ff_effect *effect;
+				struct ff_effect *old;
+			} upload;
+		} u;
+	} cocci_id/* drivers/input/misc/uinput.c 39 */;
+	struct uinput_device cocci_id/* drivers/input/misc/uinput.c 377 */;
+	struct inode *cocci_id/* drivers/input/misc/uinput.c 373 */;
+	enum uinput_state{UIST_NEW_DEVICE, UIST_SETUP_COMPLETE, UIST_CREATED,} cocci_id/* drivers/input/misc/uinput.c 37 */;
+	enum uinput_state cocci_id/* drivers/input/misc/uinput.c 285 */;
+	const char *cocci_id/* drivers/input/misc/uinput.c 283 */;
+	void cocci_id/* drivers/input/misc/uinput.c 281 */;
+	struct uinput_request cocci_id/* drivers/input/misc/uinput.c 258 */;
+	struct ff_effect *cocci_id/* drivers/input/misc/uinput.c 231 */;
+	u16 cocci_id/* drivers/input/misc/uinput.c 220 */;
+	struct uinput_request *cocci_id/* drivers/input/misc/uinput.c 199 */;
+	struct miscdevice cocci_id/* drivers/input/misc/uinput.c 1085 */;
+	const struct file_operations cocci_id/* drivers/input/misc/uinput.c 1071 */;
+	unsigned long cocci_id/* drivers/input/misc/uinput.c 1053 */;
+	unsigned int cocci_id/* drivers/input/misc/uinput.c 1053 */;
+	struct file *cocci_id/* drivers/input/misc/uinput.c 1052 */;
+	long cocci_id/* drivers/input/misc/uinput.c 1052 */;
+	struct uinput_ff_upload_compat cocci_id/* drivers/input/misc/uinput.c 1048 */;
+	void __user *cocci_id/* drivers/input/misc/uinput.c 1036 */;
+}

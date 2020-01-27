@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	__be32 cocci_id/* drivers/iio/adc/hi8435.c 78 */;
+	u32 *cocci_id/* drivers/iio/adc/hi8435.c 75 */;
+	__be16 cocci_id/* drivers/iio/adc/hi8435.c 66 */;
+	u16 *cocci_id/* drivers/iio/adc/hi8435.c 63 */;
+	u8 *cocci_id/* drivers/iio/adc/hi8435.c 57 */;
+	struct spi_driver cocci_id/* drivers/iio/adc/hi8435.c 542 */;
+	const struct spi_device_id cocci_id/* drivers/iio/adc/hi8435.c 536 */[];
+	const struct of_device_id cocci_id/* drivers/iio/adc/hi8435.c 530 */[];
+	struct gpio_desc *cocci_id/* drivers/iio/adc/hi8435.c 468 */;
+	struct spi_device *cocci_id/* drivers/iio/adc/hi8435.c 464 */;
+	struct hi8435_priv {
+		struct spi_device *spi;
+		struct mutex lock;
+		unsigned long event_scan_mask;
+		unsigned int event_prev_val;
+		unsigned threshold_lo[2];
+		unsigned threshold_hi[2];
+		u8 reg_buffer[3]____cacheline_aligned;
+	} cocci_id/* drivers/iio/adc/hi8435.c 45 */;
+	struct iio_poll_func *cocci_id/* drivers/iio/adc/hi8435.c 441 */;
+	irqreturn_t cocci_id/* drivers/iio/adc/hi8435.c 439 */;
+	void *cocci_id/* drivers/iio/adc/hi8435.c 439 */;
+	enum iio_event_direction cocci_id/* drivers/iio/adc/hi8435.c 418 */;
+	unsigned int cocci_id/* drivers/iio/adc/hi8435.c 415 */;
+	void cocci_id/* drivers/iio/adc/hi8435.c 415 */;
+	const struct iio_info cocci_id/* drivers/iio/adc/hi8435.c 406 */;
+	const struct iio_chan_spec cocci_id/* drivers/iio/adc/hi8435.c 370 */[];
+	const struct iio_chan_spec_ext_info cocci_id/* drivers/iio/adc/hi8435.c 353 */[];
+	const struct iio_enum cocci_id/* drivers/iio/adc/hi8435.c 346 */;
+	const char *constcocci_id/* drivers/iio/adc/hi8435.c 343 */[];
+	const struct iio_chan_spec *cocci_id/* drivers/iio/adc/hi8435.c 303 */;
+	const struct iio_event_spec cocci_id/* drivers/iio/adc/hi8435.c 286 */[];
+	u8 cocci_id/* drivers/iio/adc/hi8435.c 273 */;
+	struct hi8435_priv *cocci_id/* drivers/iio/adc/hi8435.c 271 */;
+	unsigned *cocci_id/* drivers/iio/adc/hi8435.c 269 */;
+	unsigned cocci_id/* drivers/iio/adc/hi8435.c 268 */;
+	struct iio_dev *cocci_id/* drivers/iio/adc/hi8435.c 267 */;
+	int cocci_id/* drivers/iio/adc/hi8435.c 267 */;
+	u16 cocci_id/* drivers/iio/adc/hi8435.c 169 */;
+	int *cocci_id/* drivers/iio/adc/hi8435.c 164 */;
+	enum iio_event_info cocci_id/* drivers/iio/adc/hi8435.c 163 */;
+	enum iio_event_type cocci_id/* drivers/iio/adc/hi8435.c 126 */;
+	u32 cocci_id/* drivers/iio/adc/hi8435.c 109 */;
+	long cocci_id/* drivers/iio/adc/hi8435.c 106 */;
+}

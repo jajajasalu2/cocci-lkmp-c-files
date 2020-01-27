@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct fwht_raw_frame *cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 913 */;
+	const struct fwht_raw_frame *cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 911 */;
+	u16 cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 842 */;
+	s16 cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 841 */[8 * 8];
+	const __be16 *cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 838 */;
+	u8 *cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 836 */;
+	u32 cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 835 */;
+	bool cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 834 */;
+	struct fwht_cframe *cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 834 */;
+	const __be16 **cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 834 */;
+	__be16 cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 691 */;
+	__be16 *cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 683 */;
+	__be16 **cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 683 */;
+	unsigned int cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 661 */;
+	const u8 *cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 660 */;
+	s16 *cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 660 */;
+	int cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 660 */;
+	void cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 660 */;
+	const s16 *cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 642 */;
+	s16 cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 618 */[64];
+	int32_t cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 606 */;
+	int noinline_for_stack cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 53 */;
+	int cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 472 */[8];
+	void noinline_for_stack cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 381 */;
+	const uint8_t cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 31 */[64];
+	s32 cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 252 */[8];
+	void noinline_for_stack cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 247 */;
+	const int *cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 239 */;
+	const int cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 173 */[];
+	s16 cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 137 */;
+	s16 cocci_id/* drivers/media/platform/vicodec/codec-fwht.c 120 */[8 * 8 + 16];
+}

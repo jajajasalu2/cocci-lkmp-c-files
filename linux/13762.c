@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	struct i2c_driver cocci_id/* drivers/media/i2c/saa7127.c 810 */;
+	const struct i2c_device_id cocci_id/* drivers/media/i2c/saa7127.c 800 */[];
+	struct v4l2_sliced_vbi_data cocci_id/* drivers/media/i2c/saa7127.c 716 */;
+	const struct i2c_device_id *cocci_id/* drivers/media/i2c/saa7127.c 712 */;
+	struct i2c_client *cocci_id/* drivers/media/i2c/saa7127.c 711 */;
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/i2c/saa7127.c 703 */;
+	const struct v4l2_subdev_vbi_ops cocci_id/* drivers/media/i2c/saa7127.c 698 */;
+	const struct v4l2_subdev_video_ops cocci_id/* drivers/media/i2c/saa7127.c 692 */;
+	const struct v4l2_subdev_core_ops cocci_id/* drivers/media/i2c/saa7127.c 684 */;
+	const struct v4l2_dbg_register *cocci_id/* drivers/media/i2c/saa7127.c 660 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/i2c/saa7127.c 653 */;
+	struct v4l2_dbg_register *cocci_id/* drivers/media/i2c/saa7127.c 653 */;
+	const struct v4l2_sliced_vbi_data *cocci_id/* drivers/media/i2c/saa7127.c 635 */;
+	struct saa7127_state *cocci_id/* drivers/media/i2c/saa7127.c 617 */;
+	struct v4l2_sliced_vbi_format *cocci_id/* drivers/media/i2c/saa7127.c 615 */;
+	u32 cocci_id/* drivers/media/i2c/saa7127.c 594 */;
+	v4l2_std_id cocci_id/* drivers/media/i2c/saa7127.c 584 */;
+	const struct i2c_reg_value *cocci_id/* drivers/media/i2c/saa7127.c 469 */;
+	int cocci_id/* drivers/media/i2c/saa7127.c 46 */;
+	u16 cocci_id/* drivers/media/i2c/saa7127.c 372 */;
+	u8 cocci_id/* drivers/media/i2c/saa7127.c 302 */;
+	const char *const cocci_id/* drivers/media/i2c/saa7127.c 271 */[];
+	struct saa7127_state cocci_id/* drivers/media/i2c/saa7127.c 268 */;
+	struct saa7127_state {
+		struct v4l2_subdev sd;
+		v4l2_std_id std;
+		enum saa712x_model ident;
+		enum saa7127_input_type input_type;
+		enum saa7127_output_type output_type;
+		int video_enable;
+		int wss_enable;
+		u16 wss_mode;
+		int cc_enable;
+		u16 cc_data;
+		int xds_enable;
+		u16 xds_data;
+		int vps_enable;
+		u8 vps_data[5];
+		u8 reg_2d;
+		u8 reg_3a;
+		u8 reg_3a_cb;
+		u8 reg_61;
+	} cocci_id/* drivers/media/i2c/saa7127.c 245 */;
+	enum saa712x_model{SAA7127, SAA7129,} cocci_id/* drivers/media/i2c/saa7127.c 240 */;
+	struct i2c_reg_value cocci_id/* drivers/media/i2c/saa7127.c 189 */[];
+	const struct i2c_reg_value cocci_id/* drivers/media/i2c/saa7127.c 167 */[];
+	struct i2c_reg_value {
+		unsigned char reg;
+		unsigned char value;
+	} cocci_id/* drivers/media/i2c/saa7127.c 120 */;
+}

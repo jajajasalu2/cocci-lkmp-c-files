@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct txpd *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 960 */;
+	struct urb_context *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 959 */;
+	u16 cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 957 */;
+	struct usb_tx_data_port *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 954 */;
+	struct mwifiex_tx_param *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 953 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 952 */;
+	struct txpd cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 932 */;
+	struct mwifiex_txinfo *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 873 */;
+	struct sk_buff **cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 868 */;
+	void *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 824 */;
+	struct urb *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 812 */;
+	bool cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 780 */;
+	struct mwifiex_private *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 780 */;
+	struct usb_card_rec *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 716 */;
+	u32 *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 714 */;
+	struct usb_driver cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 677 */;
+	struct usb_interface *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 670 */;
+	struct device *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 668 */;
+	__le32 cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 62 */;
+	pm_message_t cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 530 */;
+	int cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 53 */(struct urb_context *ctx,
+									int size);
+	struct usb_endpoint_descriptor *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 401 */;
+	struct usb_host_interface *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 400 */;
+	struct usb_device *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 399 */;
+	const struct usb_device_id *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 397 */;
+	const struct usb_device_id cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 27 */[];
+	struct mwifiex_if_ops cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 25 */;
+	struct mwifiex_adapter *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 1555 */;
+	int cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 1555 */;
+	void cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 1533 */;
+	struct fw_header cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 1409 */;
+	u8 cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 1383 */;
+	struct fw_sync_header cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 1382 */;
+	struct fw_data *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 1381 */;
+	u32 cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 1378 */;
+	u8 *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 1377 */;
+	struct mwifiex_fw_image *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 1374 */;
+	struct tx_aggr_tmr_cnxt *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 1127 */;
+	struct timer_list *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 1123 */;
+	u16 *cocci_id/* drivers/net/wireless/marvell/mwifiex/usb.c 1095 */;
+}

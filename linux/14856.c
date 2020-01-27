@@ -1,0 +1,51 @@
+cocci_test_suite() {
+	const char *constcocci_id/* drivers/clk/clk-cdce706.c 92 */[];
+	struct cdce706_dev_data {
+		struct i2c_client *client;
+		struct regmap *regmap;
+		struct clk *clkin_clk[2];
+		const char *clkin_name[2];
+		struct cdce706_hw_data clkin[1];
+		struct cdce706_hw_data pll[3];
+		struct cdce706_hw_data divider[6];
+		struct cdce706_hw_data clkout[6];
+	} cocci_id/* drivers/clk/clk-cdce706.c 77 */;
+	struct i2c_driver cocci_id/* drivers/clk/clk-cdce706.c 690 */;
+	const struct i2c_device_id cocci_id/* drivers/clk/clk-cdce706.c 684 */[];
+	const struct of_device_id cocci_id/* drivers/clk/clk-cdce706.c 677 */[];
+	struct cdce706_hw_data {
+		struct cdce706_dev_data *dev_data;
+		unsigned idx;
+		unsigned parent;
+		struct clk_hw hw;
+		unsigned div;
+		unsigned mul;
+		unsigned mux;
+	} cocci_id/* drivers/clk/clk-cdce706.c 67 */;
+	struct cdce706_hw_data cocci_id/* drivers/clk/clk-cdce706.c 65 */;
+	struct i2c_adapter *cocci_id/* drivers/clk/clk-cdce706.c 633 */;
+	const struct i2c_device_id *cocci_id/* drivers/clk/clk-cdce706.c 631 */;
+	struct i2c_client *cocci_id/* drivers/clk/clk-cdce706.c 630 */;
+	unsigned int cocci_id/* drivers/clk/clk-cdce706.c 620 */;
+	struct of_phandle_args *cocci_id/* drivers/clk/clk-cdce706.c 617 */;
+	void *cocci_id/* drivers/clk/clk-cdce706.c 617 */;
+	const struct regmap_config cocci_id/* drivers/clk/clk-cdce706.c 59 */;
+	struct clk_init_data cocci_id/* drivers/clk/clk-cdce706.c 472 */;
+	struct clk_init_data *cocci_id/* drivers/clk/clk-cdce706.c 449 */;
+	const char *const*cocci_id/* drivers/clk/clk-cdce706.c 448 */;
+	unsigned long *cocci_id/* drivers/clk/clk-cdce706.c 424 */;
+	long cocci_id/* drivers/clk/clk-cdce706.c 423 */;
+	unsigned long cocci_id/* drivers/clk/clk-cdce706.c 417 */;
+	void cocci_id/* drivers/clk/clk-cdce706.c 390 */;
+	u64 cocci_id/* drivers/clk/clk-cdce706.c 318 */;
+	struct clk *cocci_id/* drivers/clk/clk-cdce706.c 310 */;
+	struct cdce706_dev_data *cocci_id/* drivers/clk/clk-cdce706.c 294 */;
+	const struct clk_ops cocci_id/* drivers/clk/clk-cdce706.c 157 */;
+	struct cdce706_hw_data *cocci_id/* drivers/clk/clk-cdce706.c 152 */;
+	u8 cocci_id/* drivers/clk/clk-cdce706.c 150 */;
+	struct clk_hw *cocci_id/* drivers/clk/clk-cdce706.c 150 */;
+	int cocci_id/* drivers/clk/clk-cdce706.c 142 */;
+	unsigned *cocci_id/* drivers/clk/clk-cdce706.c 113 */;
+	unsigned cocci_id/* drivers/clk/clk-cdce706.c 112 */;
+	const char *cocci_id/* drivers/clk/clk-cdce706.c 104 */[];
+}

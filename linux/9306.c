@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	struct wl1271_tx_hw_res_if cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 989 */;
+	struct wl1271_acx_mem_map *cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 974 */;
+	struct ieee80211_vif *cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 901 */;
+	struct wl1271_tx_hw_res_descr *cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 898 */;
+	struct wl1271 cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 854 */;
+	struct work_struct *cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 852 */;
+	struct ieee80211_hdr *cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 79 */;
+	unsigned long cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 755 */[BITS_TO_LONGS(WLCORE_MAX_LINKS)];
+	unsigned long *cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 702 */;
+	struct wl1271_link *cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 642 */;
+	void cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 63 */;
+	unsigned long cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 584 */;
+	u8 *cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 582 */;
+	struct wl1271 *cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 49 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 49 */;
+	int cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 49 */;
+	struct wl12xx_vif *cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 468 */;
+	struct ieee80211_supported_band *cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 442 */;
+	enum nl80211_band cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 440 */;
+	struct wl1271_tx_hw_descr cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 434 */;
+	bool cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 367 */;
+	struct ieee80211_tx_info *cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 363 */;
+	u8 cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 361 */;
+	u32 cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 361 */;
+	__le16 cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 258 */;
+	u16 cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 257 */;
+	s64 cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 256 */;
+	struct wl1271_tx_hw_descr *cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 194 */;
+	unsigned int cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 179 */;
+	struct ieee80211_sta *cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 163 */;
+	struct wl1271_station *cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 144 */;
+	enum wlcore_queue_stop_reason cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 1286 */;
+	int cocci_id/* drivers/net/wireless/ti/wlcore/tx.c 1024 */[NUM_TX_QUEUES];
+}

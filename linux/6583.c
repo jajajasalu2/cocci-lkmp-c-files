@@ -1,0 +1,57 @@
+cocci_test_suite() {
+	const char *cocci_id/* drivers/scsi/scsi_transport_sas.c 88 */;
+	u32 *cocci_id/* drivers/scsi/scsi_transport_sas.c 88 */;
+	const struct device *cocci_id/* drivers/scsi/scsi_transport_sas.c 774 */;
+	u32 cocci_id/* drivers/scsi/scsi_transport_sas.c 69 */;
+	struct sas_internal *cocci_id/* drivers/scsi/scsi_transport_sas.c 529 */;
+	struct Scsi_Host *cocci_id/* drivers/scsi/scsi_transport_sas.c 528 */;
+	struct sas_phy *cocci_id/* drivers/scsi/scsi_transport_sas.c 527 */;
+	size_t cocci_id/* drivers/scsi/scsi_transport_sas.c 525 */;
+	ssize_t cocci_id/* drivers/scsi/scsi_transport_sas.c 524 */;
+	struct device_attribute *cocci_id/* drivers/scsi/scsi_transport_sas.c 514 */;
+	struct sas_phy_linkrates cocci_id/* drivers/scsi/scsi_transport_sas.c 468 */;
+	struct sas_host_attrs {
+		struct list_head rphy_list;
+		struct mutex lock;
+		struct request_queue *q;
+		u32 next_target_id;
+		u32 next_expander_id;
+		int next_port_id;
+	} cocci_id/* drivers/scsi/scsi_transport_sas.c 44 */;
+	unsigned int cocci_id/* drivers/scsi/scsi_transport_sas.c 393 */;
+	struct sas_end_device *cocci_id/* drivers/scsi/scsi_transport_sas.c 378 */;
+	struct scsi_device *cocci_id/* drivers/scsi/scsi_transport_sas.c 376 */;
+	void cocci_id/* drivers/scsi/scsi_transport_sas.c 375 */;
+	const int cocci_id/* drivers/scsi/scsi_transport_sas.c 341 */;
+	u64 cocci_id/* drivers/scsi/scsi_transport_sas.c 322 */;
+	unsigned long cocci_id/* drivers/scsi/scsi_transport_sas.c 277 */;
+	struct device *cocci_id/* drivers/scsi/scsi_transport_sas.c 275 */;
+	void *cocci_id/* drivers/scsi/scsi_transport_sas.c 275 */;
+	int cocci_id/* drivers/scsi/scsi_transport_sas.c 275 */;
+	struct transport_container *cocci_id/* drivers/scsi/scsi_transport_sas.c 242 */;
+	char cocci_id/* drivers/scsi/scsi_transport_sas.c 206 */[20];
+	struct request_queue *cocci_id/* drivers/scsi/scsi_transport_sas.c 192 */;
+	void __exit cocci_id/* drivers/scsi/scsi_transport_sas.c 1905 */;
+	struct sas_rphy *cocci_id/* drivers/scsi/scsi_transport_sas.c 190 */;
+	struct sas_host_attrs cocci_id/* drivers/scsi/scsi_transport_sas.c 1757 */;
+	struct sas_internal cocci_id/* drivers/scsi/scsi_transport_sas.c 1747 */;
+	struct sas_function_template *cocci_id/* drivers/scsi/scsi_transport_sas.c 1742 */;
+	struct scsi_transport_template *cocci_id/* drivers/scsi/scsi_transport_sas.c 1741 */;
+	struct bsg_job *cocci_id/* drivers/scsi/scsi_transport_sas.c 172 */;
+	uint cocci_id/* drivers/scsi/scsi_transport_sas.c 1656 */;
+	struct sas_identify *cocci_id/* drivers/scsi/scsi_transport_sas.c 1509 */;
+	struct sas_host_attrs *cocci_id/* drivers/scsi/scsi_transport_sas.c 1472 */;
+	struct sas_expander_device *cocci_id/* drivers/scsi/scsi_transport_sas.c 1471 */;
+	enum sas_device_type cocci_id/* drivers/scsi/scsi_transport_sas.c 1468 */;
+	struct sas_port *cocci_id/* drivers/scsi/scsi_transport_sas.c 1428 */;
+	struct attribute_container *cocci_id/* drivers/scsi/scsi_transport_sas.c 1342 */;
+	struct scsi_mode_data cocci_id/* drivers/scsi/scsi_transport_sas.c 1231 */;
+	char *cocci_id/* drivers/scsi/scsi_transport_sas.c 1229 */;
+	struct {
+		u32 value;
+		char *name;
+	} cocci_id/* drivers/scsi/scsi_transport_sas.c 122 */[];
+	unsigned long long cocci_id/* drivers/scsi/scsi_transport_sas.c 1191 */;
+	typeof(*phy) cocci_id/* drivers/scsi/scsi_transport_sas.c 1041 */;
+	struct list_head *cocci_id/* drivers/scsi/scsi_transport_sas.c 1039 */;
+}

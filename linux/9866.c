@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct htc_ready_msg *cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 91 */;
+	bool cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 509 */;
+	u32 cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 499 */;
+	char *cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 499 */;
+	u16 cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 498 */;
+	int cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 497 */;
+	struct htc_target cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 471 */;
+	struct htc_endpoint *cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 468 */;
+	struct device *cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 466 */;
+	struct ath9k_htc_hif *cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 465 */;
+	void *cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 464 */;
+	struct htc_frame_hdr cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 435 */;
+	__be32 *cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 428 */;
+	__be16 *cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 402 */;
+	enum htc_endpoint_id cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 400 */;
+	struct htc_frame_hdr *cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 399 */;
+	u8 cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 397 */;
+	struct htc_panic_bad_epid *cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 377 */;
+	struct htc_panic_bad_vaddr *cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 367 */;
+	uint32_t *cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 362 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 360 */;
+	struct htc_target *cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 359 */;
+	void cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 359 */;
+	struct ath9k_htc_tx_ctl *cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 295 */;
+	struct htc_conn_svc_msg cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 257 */;
+	struct htc_conn_svc_msg *cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 239 */;
+	enum htc_endpoint_id *cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 235 */;
+	struct htc_service_connreq *cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 234 */;
+	struct htc_comp_msg cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 197 */;
+	struct htc_comp_msg *cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 186 */;
+	struct htc_config_pipe_msg cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 158 */;
+	unsigned long cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 149 */;
+	struct htc_config_pipe_msg *cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 147 */;
+	struct htc_conn_svc_rspmsg *cocci_id/* drivers/net/wireless/ath/ath9k/htc_hst.c 105 */;
+}

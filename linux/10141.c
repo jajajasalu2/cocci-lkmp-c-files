@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* drivers/sh/intc/core.c 81 */;
+	unsigned int cocci_id/* drivers/sh/intc/core.c 80 */[2];
+	struct irq_data *cocci_id/* drivers/sh/intc/core.c 79 */;
+	struct intc_handle_int *cocci_id/* drivers/sh/intc/core.c 78 */;
+	intc_enum cocci_id/* drivers/sh/intc/core.c 75 */;
+	struct intc_desc_int *cocci_id/* drivers/sh/intc/core.c 74 */;
+	struct intc_desc *cocci_id/* drivers/sh/intc/core.c 73 */;
+	void __init cocci_id/* drivers/sh/intc/core.c 73 */;
+	struct irq_desc *cocci_id/* drivers/sh/intc/core.c 68 */;
+	void cocci_id/* drivers/sh/intc/core.c 49 */;
+	struct intc_desc_int cocci_id/* drivers/sh/intc/core.c 479 */;
+	struct device_attribute *cocci_id/* drivers/sh/intc/core.c 475 */;
+	struct device *cocci_id/* drivers/sh/intc/core.c 475 */;
+	char *cocci_id/* drivers/sh/intc/core.c 475 */;
+	ssize_t cocci_id/* drivers/sh/intc/core.c 474 */;
+	unsigned int cocci_id/* drivers/sh/intc/core.c 47 */[INTC_NR_IRQS];
+	struct bus_type cocci_id/* drivers/sh/intc/core.c 469 */;
+	struct syscore_ops cocci_id/* drivers/sh/intc/core.c 464 */;
+	unsigned int cocci_id/* drivers/sh/intc/core.c 46 */;
+	struct irq_chip *cocci_id/* drivers/sh/intc/core.c 446 */;
+	int cocci_id/* drivers/sh/intc/core.c 439 */;
+	struct intc_vect *cocci_id/* drivers/sh/intc/core.c 312 */;
+	struct irq_chip cocci_id/* drivers/sh/intc/core.c 289 */;
+	struct resource *cocci_id/* drivers/sh/intc/core.c 187 */;
+	struct intc_hw_desc *cocci_id/* drivers/sh/intc/core.c 185 */;
+	int __init cocci_id/* drivers/sh/intc/core.c 182 */;
+	unsigned int __init cocci_id/* drivers/sh/intc/core.c 164 */;
+	void *cocci_id/* drivers/sh/intc/core.c 119 */;
+}

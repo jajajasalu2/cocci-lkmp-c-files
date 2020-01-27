@@ -1,0 +1,48 @@
+cocci_test_suite() {
+	int __init cocci_id/* drivers/char/agp/hp-agp.c 74 */;
+	struct _hp_private {
+		volatile u8 __iomem *ioc_regs;
+		volatile u8 __iomem *lba_regs;
+		int lba_cap_offset;
+		u64 *io_pdir;
+		u64 *gatt;
+		u64 gatt_entries;
+		u64 iova_base;
+		u64 gart_base;
+		u64 gart_size;
+		u64 io_pdir_size;
+		int io_pdir_owner;
+		int io_page_size;
+		int io_tlb_shift;
+		int io_tlb_ps;
+		int io_pages_per_kpage;
+	} cocci_id/* drivers/char/agp/hp-agp.c 56 */;
+	void cocci_id/* drivers/char/agp/hp-agp.c 543 */;
+	void __exit cocci_id/* drivers/char/agp/hp-agp.c 542 */;
+	int __init cocci_id/* drivers/char/agp/hp-agp.c 525 */;
+	char *cocci_id/* drivers/char/agp/hp-agp.c 518 */;
+	struct gatt_mask cocci_id/* drivers/char/agp/hp-agp.c 51 */[];
+	struct acpi_device_info *cocci_id/* drivers/char/agp/hp-agp.c 479 */;
+	acpi_status cocci_id/* drivers/char/agp/hp-agp.c 478 */;
+	acpi_handle cocci_id/* drivers/char/agp/hp-agp.c 475 */;
+	void **cocci_id/* drivers/char/agp/hp-agp.c 475 */;
+	acpi_status __init cocci_id/* drivers/char/agp/hp-agp.c 474 */;
+	struct aper_size_info_fixed cocci_id/* drivers/char/agp/hp-agp.c 46 */[];
+	struct pci_dev cocci_id/* drivers/char/agp/hp-agp.c 42 */;
+	const struct agp_bridge_driver cocci_id/* drivers/char/agp/hp-agp.c 417 */;
+	u32 cocci_id/* drivers/char/agp/hp-agp.c 403 */;
+	dma_addr_t cocci_id/* drivers/char/agp/hp-agp.c 397 */;
+	off_t cocci_id/* drivers/char/agp/hp-agp.c 329 */;
+	struct agp_memory *cocci_id/* drivers/char/agp/hp-agp.c 329 */;
+	unsigned long cocci_id/* drivers/char/agp/hp-agp.c 309 */;
+	u64 *cocci_id/* drivers/char/agp/hp-agp.c 294 */;
+	struct agp_bridge_data *cocci_id/* drivers/char/agp/hp-agp.c 288 */;
+	struct _hp_private *cocci_id/* drivers/char/agp/hp-agp.c 265 */;
+	unsigned int cocci_id/* drivers/char/agp/hp-agp.c 251 */;
+	int cocci_id/* drivers/char/agp/hp-agp.c 237 */;
+	void *cocci_id/* drivers/char/agp/hp-agp.c 233 */;
+	u8 cocci_id/* drivers/char/agp/hp-agp.c 184 */;
+	u16 cocci_id/* drivers/char/agp/hp-agp.c 183 */;
+	volatile u8 __iomem *cocci_id/* drivers/char/agp/hp-agp.c 181 */;
+	u64 cocci_id/* drivers/char/agp/hp-agp.c 160 */;
+}

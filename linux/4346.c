@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	enum apm_suspend_state{SUSPEND_NONE, SUSPEND_PENDING, SUSPEND_READ, SUSPEND_ACKED, SUSPEND_ACKTO, SUSPEND_WAIT, SUSPEND_DONE,} cocci_id/* drivers/char/apm-emulation.c 90 */;
+	unsigned long cocci_id/* drivers/char/apm-emulation.c 718 */;
+	apm_event_t cocci_id/* drivers/char/apm-emulation.c 716 */;
+	char *cocci_id/* drivers/char/apm-emulation.c 687 */;
+	void __exit cocci_id/* drivers/char/apm-emulation.c 670 */;
+	int __init cocci_id/* drivers/char/apm-emulation.c 630 */;
+	struct notifier_block cocci_id/* drivers/char/apm-emulation.c 626 */;
+	void *cocci_id/* drivers/char/apm-emulation.c 511 */;
+	struct notifier_block *cocci_id/* drivers/char/apm-emulation.c 509 */;
+	struct apm_queue {
+		unsigned int event_head;
+		unsigned int event_tail;
+		apm_event_t events[APM_MAX_EVENTS];
+	} cocci_id/* drivers/char/apm-emulation.c 45 */;
+	struct apm_power_info cocci_id/* drivers/char/apm-emulation.c 438 */;
+	struct seq_file *cocci_id/* drivers/char/apm-emulation.c 436 */;
+	struct miscdevice cocci_id/* drivers/char/apm-emulation.c 390 */;
+	const struct file_operations cocci_id/* drivers/char/apm-emulation.c 380 */;
+	struct inode *cocci_id/* drivers/char/apm-emulation.c 353 */;
+	struct apm_user *cocci_id/* drivers/char/apm-emulation.c 261 */;
+	u_long cocci_id/* drivers/char/apm-emulation.c 259 */;
+	u_int cocci_id/* drivers/char/apm-emulation.c 259 */;
+	struct file *cocci_id/* drivers/char/apm-emulation.c 259 */;
+	long cocci_id/* drivers/char/apm-emulation.c 258 */;
+	__poll_t cocci_id/* drivers/char/apm-emulation.c 240 */;
+	poll_table *cocci_id/* drivers/char/apm-emulation.c 240 */;
+	loff_t *cocci_id/* drivers/char/apm-emulation.c 203 */;
+	char __user *cocci_id/* drivers/char/apm-emulation.c 203 */;
+	ssize_t cocci_id/* drivers/char/apm-emulation.c 203 */;
+	size_t cocci_id/* drivers/char/apm-emulation.c 203 */;
+	struct apm_queue *cocci_id/* drivers/char/apm-emulation.c 177 */;
+	void (*cocci_id/* drivers/char/apm-emulation.c 159 */)(struct apm_power_info *);
+	struct apm_power_info *cocci_id/* drivers/char/apm-emulation.c 152 */;
+	void cocci_id/* drivers/char/apm-emulation.c 152 */;
+	const char cocci_id/* drivers/char/apm-emulation.c 144 */[];
+	struct apm_queue cocci_id/* drivers/char/apm-emulation.c 140 */;
+	struct task_struct *cocci_id/* drivers/char/apm-emulation.c 122 */;
+	int cocci_id/* drivers/char/apm-emulation.c 121 */;
+	atomic_t cocci_id/* drivers/char/apm-emulation.c 119 */;
+	struct apm_user {
+		struct list_head list;
+		unsigned int suser:1;
+		unsigned int writer:1;
+		unsigned int reader:1;
+		int suspend_result;
+		enum apm_suspend_state suspend_state;
+		struct apm_queue queue;
+	} cocci_id/* drivers/char/apm-emulation.c 103 */;
+}

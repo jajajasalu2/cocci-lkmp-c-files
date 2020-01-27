@@ -1,0 +1,82 @@
+cocci_test_suite() {
+	const __portpair cocci_id/* net/ipv6/udp.c 959 */;
+	struct udp_hslot *cocci_id/* net/ipv6/udp.c 958 */;
+	unsigned int cocci_id/* net/ipv6/udp.c 956 */;
+	unsigned short cocci_id/* net/ipv6/udp.c 955 */;
+	int cocci_id/* net/ipv6/udp.c 953 */;
+	__be16 cocci_id/* net/ipv6/udp.c 951 */;
+	const struct in6_addr *cocci_id/* net/ipv6/udp.c 951 */;
+	struct sock *cocci_id/* net/ipv6/udp.c 950 */;
+	struct net *cocci_id/* net/ipv6/udp.c 950 */;
+	u16 cocci_id/* net/ipv6/udp.c 94 */;
+	struct dst_entry *cocci_id/* net/ipv6/udp.c 885 */;
+	struct udphdr cocci_id/* net/ipv6/udp.c 849 */;
+	u32 cocci_id/* net/ipv6/udp.c 847 */;
+	const struct rt6_info *cocci_id/* net/ipv6/udp.c 815 */;
+	struct hlist_node *cocci_id/* net/ipv6/udp.c 755 */;
+	typeof(*sk) cocci_id/* net/ipv6/udp.c 751 */;
+	const struct udphdr *cocci_id/* net/ipv6/udp.c 748 */;
+	void cocci_id/* net/ipv6/udp.c 729 */;
+	struct inet_sock *cocci_id/* net/ipv6/udp.c 710 */;
+	const __be16 cocci_id/* net/ipv6/udp.c 61 */;
+	const u16 cocci_id/* net/ipv6/udp.c 59 */;
+	const struct net *cocci_id/* net/ipv6/udp.c 57 */;
+	u8 *cocci_id/* net/ipv6/udp.c 556 */;
+	bool cocci_id/* net/ipv6/udp.c 500 */;
+	struct udphdr *cocci_id/* net/ipv6/udp.c 499 */;
+	const struct ipv6hdr *cocci_id/* net/ipv6/udp.c 496 */;
+	struct ipv6_pinfo *cocci_id/* net/ipv6/udp.c 495 */;
+	struct udp_table *cocci_id/* net/ipv6/udp.c 493 */;
+	u8 cocci_id/* net/ipv6/udp.c 492 */;
+	__be32 cocci_id/* net/ipv6/udp.c 492 */;
+	struct sk_buff *cocci_id/* net/ipv6/udp.c 491 */;
+	struct inet6_skb_parm *cocci_id/* net/ipv6/udp.c 491 */;
+	struct udp_sock *cocci_id/* net/ipv6/udp.c 473 */;
+	int (*cocci_id/* net/ipv6/udp.c 472 */)(struct sock *sk,
+						struct sk_buff *skb);
+	const struct ip6_tnl_encap_ops *cocci_id/* net/ipv6/udp.c 418 */;
+	int (*cocci_id/* net/ipv6/udp.c 416 */)(struct sk_buff *skb,
+						struct inet6_skb_parm *opt,
+						u8 type, u8 code, int offset,
+						__be32 info);
+	struct sockaddr_in6 *cocci_id/* net/ipv6/udp.c 341 */;
+	struct udp_mib __percpu *cocci_id/* net/ipv6/udp.c 276 */;
+	int *cocci_id/* net/ipv6/udp.c 268 */;
+	struct msghdr *cocci_id/* net/ipv6/udp.c 267 */;
+	size_t cocci_id/* net/ipv6/udp.c 267 */;
+	int __init cocci_id/* net/ipv6/udp.c 1694 */;
+	struct inet_protosw cocci_id/* net/ipv6/udp.c 1686 */;
+	struct udp6_sock cocci_id/* net/ipv6/udp.c 1677 */;
+	struct net cocci_id/* net/ipv6/udp.c 1675 */;
+	struct proto cocci_id/* net/ipv6/udp.c 1654 */;
+	struct udp_iter_state cocci_id/* net/ipv6/udp.c 1641 */;
+	int __net_init cocci_id/* net/ipv6/udp.c 1638 */;
+	struct udp_seq_afinfo cocci_id/* net/ipv6/udp.c 1633 */;
+	const struct seq_operations cocci_id/* net/ipv6/udp.c 1625 */;
+	__u16 cocci_id/* net/ipv6/udp.c 1617 */;
+	struct udp_iter_state *cocci_id/* net/ipv6/udp.c 1615 */;
+	struct seq_file *cocci_id/* net/ipv6/udp.c 1610 */;
+	void *cocci_id/* net/ipv6/udp.c 1610 */;
+	struct inet6_protocol cocci_id/* net/ipv6/udp.c 1600 */;
+	int __user *cocci_id/* net/ipv6/udp.c 1589 */;
+	char __user *cocci_id/* net/ipv6/udp.c 1589 */;
+	void (*cocci_id/* net/ipv6/udp.c 1544 */)(struct sock *sk);
+	struct rt6_info *cocci_id/* net/ipv6/udp.c 1467 */;
+	struct inet_cork_full cocci_id/* net/ipv6/udp.c 1462 */;
+	struct sockaddr_in6 cocci_id/* net/ipv6/udp.c 1342 */;
+	struct sockaddr_in cocci_id/* net/ipv6/udp.c 1275 */;
+	int (*cocci_id/* net/ipv6/udp.c 1234 */)(void *, char *, int, int,
+						 int, struct sk_buff *);
+	struct ipcm6_cookie cocci_id/* net/ipv6/udp.c 1227 */;
+	struct ip6_flowlabel *cocci_id/* net/ipv6/udp.c 1224 */;
+	struct ipv6_txoptions *cocci_id/* net/ipv6/udp.c 1222 */;
+	struct in6_addr *cocci_id/* net/ipv6/udp.c 1221 */;
+	struct ipv6_txoptions cocci_id/* net/ipv6/udp.c 1216 */;
+	struct flowi6 cocci_id/* net/ipv6/udp.c 1191 */;
+	const int cocci_id/* net/ipv6/udp.c 1124 */;
+	struct inet_cork *cocci_id/* net/ipv6/udp.c 1103 */;
+	struct flowi6 *cocci_id/* net/ipv6/udp.c 1102 */;
+	__wsum cocci_id/* net/ipv6/udp.c 1068 */;
+	struct sockaddr cocci_id/* net/ipv6/udp.c 1037 */;
+	struct sockaddr *cocci_id/* net/ipv6/udp.c 1034 */;
+}

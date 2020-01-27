@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct nf_conn *cocci_id/* net/netfilter/nft_flow_offload.c 81 */;
+	enum ip_conntrack_dir cocci_id/* net/netfilter/nft_flow_offload.c 80 */;
+	struct flow_offload *cocci_id/* net/netfilter/nft_flow_offload.c 79 */;
+	struct nf_flow_route cocci_id/* net/netfilter/nft_flow_offload.c 78 */;
+	enum ip_conntrack_info cocci_id/* net/netfilter/nft_flow_offload.c 77 */;
+	struct tcphdr cocci_id/* net/netfilter/nft_flow_offload.c 76 */;
+	struct nf_flowtable *cocci_id/* net/netfilter/nft_flow_offload.c 75 */;
+	const struct nft_pktinfo *cocci_id/* net/netfilter/nft_flow_offload.c 72 */;
+	struct nft_regs *cocci_id/* net/netfilter/nft_flow_offload.c 71 */;
+	const struct ip_options *cocci_id/* net/netfilter/nft_flow_offload.c 59 */;
+	bool cocci_id/* net/netfilter/nft_flow_offload.c 53 */;
+	struct flowi cocci_id/* net/netfilter/nft_flow_offload.c 29 */;
+	void __exit cocci_id/* net/netfilter/nft_flow_offload.c 280 */;
+	struct dst_entry *cocci_id/* net/netfilter/nft_flow_offload.c 27 */;
+	int __init cocci_id/* net/netfilter/nft_flow_offload.c 260 */;
+	struct notifier_block cocci_id/* net/netfilter/nft_flow_offload.c 256 */;
+	struct net_device *cocci_id/* net/netfilter/nft_flow_offload.c 246 */;
+	void *cocci_id/* net/netfilter/nft_flow_offload.c 244 */;
+	unsigned long cocci_id/* net/netfilter/nft_flow_offload.c 244 */;
+	struct notifier_block *cocci_id/* net/netfilter/nft_flow_offload.c 243 */;
+	int cocci_id/* net/netfilter/nft_flow_offload.c 243 */;
+	struct nf_flow_route *cocci_id/* net/netfilter/nft_flow_offload.c 24 */;
+	const struct nf_conn *cocci_id/* net/netfilter/nft_flow_offload.c 23 */;
+	struct nft_flow_offload cocci_id/* net/netfilter/nft_flow_offload.c 225 */;
+	const struct nft_expr_ops cocci_id/* net/netfilter/nft_flow_offload.c 223 */;
+	struct nft_expr_type cocci_id/* net/netfilter/nft_flow_offload.c 222 */;
+	struct sk_buff *cocci_id/* net/netfilter/nft_flow_offload.c 209 */;
+	struct nft_flow_offload *cocci_id/* net/netfilter/nft_flow_offload.c 195 */;
+	const struct nft_expr *cocci_id/* net/netfilter/nft_flow_offload.c 193 */;
+	const struct nft_ctx *cocci_id/* net/netfilter/nft_flow_offload.c 192 */;
+	void cocci_id/* net/netfilter/nft_flow_offload.c 192 */;
+	enum nft_trans_phase cocci_id/* net/netfilter/nft_flow_offload.c 185 */;
+	struct nft_flow_offload {
+		struct nft_flowtable *flowtable;
+	} cocci_id/* net/netfilter/nft_flow_offload.c 18 */;
+	struct nft_flowtable *cocci_id/* net/netfilter/nft_flow_offload.c 167 */;
+	u8 cocci_id/* net/netfilter/nft_flow_offload.c 166 */;
+	const struct nlattr *const cocci_id/* net/netfilter/nft_flow_offload.c 163 */[];
+	const struct nla_policy cocci_id/* net/netfilter/nft_flow_offload.c 156 */[NFTA_FLOW_MAX + 1];
+	unsigned int cocci_id/* net/netfilter/nft_flow_offload.c 151 */;
+	const struct nft_data **cocci_id/* net/netfilter/nft_flow_offload.c 149 */;
+}

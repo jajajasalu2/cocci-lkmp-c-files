@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	struct fw_scs1x *cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 99 */;
+	void *cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 96 */;
+	unsigned long long cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 96 */;
+	size_t cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 96 */;
+	int cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 95 */;
+	struct fw_request *cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 94 */;
+	struct fw_card *cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 94 */;
+	void cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 94 */;
+	const u8 *cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 77 */;
+	unsigned int cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 77 */;
+	const u8 cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 57 */;
+	u8 cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 47 */[2];
+	const u8 cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 38 */[];
+	const struct snd_rawmidi_ops cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 359 */;
+	struct snd_rawmidi *cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 345 */;
+	u64 cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 339 */;
+	__be64 cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 337 */;
+	struct snd_oxfw *cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 334 */;
+	struct fw_scs1x cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 176 */;
+	struct work_struct *cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 174 */;
+	u8 cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 166 */;
+	bool cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 166 */;
+	struct fw_scs1x {
+		struct fw_address_handler hss_handler;
+		u8 input_escape_count;
+		struct snd_rawmidi_substream *input;
+		struct snd_rawmidi_substream *output;
+		bool output_idle;
+		u8 output_status;
+		u8 output_bytes;
+		bool output_escaped;
+		bool output_escape_high_nibble;
+		struct work_struct work;
+		wait_queue_head_t idle_wait;
+		u8 buffer[HSS1394_MAX_PACKET_SIZE];
+		bool transaction_running;
+		struct fw_transaction transaction;
+		unsigned int transaction_bytes;
+		bool error;
+		struct fw_device *fw_dev;
+	} cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 16 */;
+	struct snd_rawmidi_substream *cocci_id/* sound/firewire/oxfw/oxfw-scs1x.c 100 */;
+}

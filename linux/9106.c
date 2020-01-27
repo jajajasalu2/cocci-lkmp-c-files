@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	char *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 83 */[];
+	enum{CQ_PID, CQ_NUM_CQES, CQ_LOG_PG_SZ,} cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 77 */;
+	enum{EQ_NUM_EQES, EQ_INTR, EQ_LOG_PG_SZ,} cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 65 */;
+	struct mlx5_core_qp *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 449 */;
+	char cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 420 */[32];
+	struct mlx5_rsc_debug *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 419 */;
+	char **cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 417 */;
+	void *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 417 */;
+	struct dentry *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 416 */;
+	struct mlx5_rsc_debug **cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 416 */;
+	enum dbg_rsc_type cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 415 */;
+	struct mlx5_core_dev *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 415 */;
+	int cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 415 */;
+	enum{QP_PID, QP_STATE, QP_XPORT, QP_MTU, QP_N_RECV, QP_RECV_SZ, QP_N_SEND, QP_LOG_PG_SZ, QP_RQPN,} cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 41 */;
+	const struct file_operations cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 409 */;
+	const char *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 402 */;
+	unsigned long cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 402 */;
+	char cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 376 */[18];
+	struct mlx5_field_desc *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 374 */;
+	u32 *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 340 */;
+	struct mlx5_core_cq *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 334 */;
+	struct mlx5_eq *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 297 */;
+	u32 cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 290 */[MLX5_ST_SZ_DW(query_eq_in)];
+	struct mlx5_qp_context *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 206 */;
+	int *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 203 */;
+	void cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 187 */;
+	struct dentry **cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 167 */;
+	const char __user *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 141 */;
+	char cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 130 */[22];
+	u64 cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 128 */;
+	struct mlx5_cmd_stats *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 127 */;
+	loff_t *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 125 */;
+	struct file *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 124 */;
+	char __user *cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 124 */;
+	ssize_t cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 124 */;
+	size_t cocci_id/* drivers/net/ethernet/mellanox/mlx5/core/debugfs.c 124 */;
+}

@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct snd_soc_component *cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 58 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 57 */;
+	bool cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 51 */;
+	struct clk *cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 50 */;
+	struct snd_soc_jack cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 48 */;
+	struct platform_driver cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 459 */;
+	const struct acpi_device_id cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 453 */[];
+	struct acp_platform_info cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 433 */;
+	struct regulator_dev *cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 422 */;
+	struct platform_device *cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 417 */;
+	const struct regulator_desc cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 408 */;
+	struct regulator_ops cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 405 */;
+	struct regulator_config cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 401 */;
+	struct regulator_init_data cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 393 */;
+	struct regulator_consumer_supply cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 386 */[];
+	struct snd_soc_card cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 373 */;
+	const struct snd_kcontrol_new cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 366 */[];
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 358 */[];
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 351 */[];
+	struct snd_soc_dai_link cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 300 */[];
+	const struct snd_soc_ops cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 263 */;
+	void cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 253 */;
+	struct acp_platform_info *cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 172 */;
+	struct snd_soc_card *cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 171 */;
+	struct snd_soc_pcm_runtime *cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 170 */;
+	struct snd_pcm_runtime *cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 169 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 167 */;
+	int cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 167 */;
+	const struct snd_pcm_hw_constraint_list cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 140 */;
+	const unsigned int cocci_id/* sound/soc/amd/acp-da7219-max98357a.c 126 */[];
+}

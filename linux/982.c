@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	struct mtd_partition cocci_id/* drivers/mtd/spi-nor/intel-spi.c 905 */;
+	const struct spi_nor_hwcaps cocci_id/* drivers/mtd/spi-nor/intel-spi.c 900 */;
+	const struct intel_spi_boardinfo *cocci_id/* drivers/mtd/spi-nor/intel-spi.c 898 */;
+	struct resource *cocci_id/* drivers/mtd/spi-nor/intel-spi.c 898 */;
+	struct device *cocci_id/* drivers/mtd/spi-nor/intel-spi.c 897 */;
+	const struct spi_nor_controller_ops cocci_id/* drivers/mtd/spi-nor/intel-spi.c 889 */;
+	u64 cocci_id/* drivers/mtd/spi-nor/intel-spi.c 853 */;
+	struct mtd_partition *cocci_id/* drivers/mtd/spi-nor/intel-spi.c 851 */;
+	unsigned int cocci_id/* drivers/mtd/spi-nor/intel-spi.c 825 */;
+	bool cocci_id/* drivers/mtd/spi-nor/intel-spi.c 824 */;
+	const struct intel_spi *cocci_id/* drivers/mtd/spi-nor/intel-spi.c 824 */;
+	size_t cocci_id/* drivers/mtd/spi-nor/intel-spi.c 764 */;
+	loff_t cocci_id/* drivers/mtd/spi-nor/intel-spi.c 762 */;
+	struct spi_nor *cocci_id/* drivers/mtd/spi-nor/intel-spi.c 762 */;
+	const u_char *cocci_id/* drivers/mtd/spi-nor/intel-spi.c 700 */;
+	u_char *cocci_id/* drivers/mtd/spi-nor/intel-spi.c 629 */;
+	ssize_t cocci_id/* drivers/mtd/spi-nor/intel-spi.c 628 */;
+	const u8 *cocci_id/* drivers/mtd/spi-nor/intel-spi.c 579 */;
+	u8 *cocci_id/* drivers/mtd/spi-nor/intel-spi.c 558 */;
+	u16 cocci_id/* drivers/mtd/spi-nor/intel-spi.c 520 */;
+	u8 cocci_id/* drivers/mtd/spi-nor/intel-spi.c 449 */;
+	const void *cocci_id/* drivers/mtd/spi-nor/intel-spi.c 270 */;
+	void *cocci_id/* drivers/mtd/spi-nor/intel-spi.c 250 */;
+	int cocci_id/* drivers/mtd/spi-nor/intel-spi.c 169 */;
+	u32 cocci_id/* drivers/mtd/spi-nor/intel-spi.c 168 */;
+	struct intel_spi *cocci_id/* drivers/mtd/spi-nor/intel-spi.c 166 */;
+	void cocci_id/* drivers/mtd/spi-nor/intel-spi.c 166 */;
+	struct intel_spi {
+		struct device *dev;
+		const struct intel_spi_boardinfo *info;
+		struct spi_nor nor;
+		void __iomem *base;
+		void __iomem *pregs;
+		void __iomem *sregs;
+		size_t nregions;
+		size_t pr_num;
+		bool writeable;
+		bool locked;
+		bool swseq_reg;
+		bool swseq_erase;
+		bool erase_64k;
+		u8 atomic_preopcode;
+		u8 opcodes[8];
+	} cocci_id/* drivers/mtd/spi-nor/intel-spi.c 144 */;
+}

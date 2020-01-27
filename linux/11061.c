@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	const struct dc_link *cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 73 */;
+	struct clk_log_info cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 716 */;
+	struct clk_state_registers_and_bypass cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 694 */;
+	struct dpm_clocks cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 693 */;
+	struct dc_debug_options *cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 692 */;
+	struct dccg *cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 690 */;
+	struct pp_smu_funcs *cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 689 */;
+	struct dc_context *cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 687 */;
+	const struct dc_stream_state *cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 66 */;
+	struct integrated_info *cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 627 */;
+	struct dpm_clocks *cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 614 */;
+	unsigned int cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 614 */;
+	struct dc_state *cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 59 */;
+	struct dc *cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 58 */;
+	struct wm_table cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 539 */;
+	struct clk_bw_params cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 499 */;
+	struct clk_mgr_funcs cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 490 */;
+	bool cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 474 */;
+	struct dc_clocks *cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 474 */;
+	struct pp_smu_wm_range_sets cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 460 */;
+	int cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 402 */;
+	struct pp_smu_wm_range_sets *cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 400 */;
+	struct clk_bw_params *cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 400 */;
+	void cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 400 */;
+	struct dc_clocks cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 393 */;
+	struct clk_states *cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 374 */;
+	char *cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 244 */[5];
+	struct rn_clk_internal cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 243 */;
+	struct clk_mgr *cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 241 */;
+	struct clk_log_info *cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 241 */;
+	struct clk_state_registers_and_bypass *cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 240 */;
+	struct rn_clk_internal *cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 219 */;
+	struct fixed31_32 cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 191 */;
+	struct clk_mgr_internal *cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 188 */;
+	struct dmcu *cocci_id/* drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21/rn_clk_mgr.c 106 */;
+}

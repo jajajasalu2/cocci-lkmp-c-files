@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	long cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 96 */;
+	void __iomem *cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 50 */;
+	u64 cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 398 */;
+	struct pci_controller *cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 397 */;
+	struct pci_dev *cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 395 */;
+	u32 cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 394 */;
+	struct device_node *cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 393 */;
+	struct vfio_pci_npu2_data *cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 392 */;
+	struct vfio_pci_device *cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 389 */;
+	int cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 389 */;
+	const struct vfio_pci_regops cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 382 */;
+	struct vfio_region_info_cap_nvlink2_lnkspd cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 368 */;
+	struct vfio_region_info_cap_nvlink2_ssatgt cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 363 */;
+	struct vfio_pci_region *cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 360 */;
+	struct vfio_info_cap *cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 360 */;
+	void cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 350 */;
+	unsigned long cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 334 */;
+	struct vm_area_struct *cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 330 */;
+	loff_t cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 310 */;
+	struct vfio_pci_nvgpu_data {
+		unsigned long gpu_hpa;
+		unsigned long gpu_tgt;
+		unsigned long useraddr;
+		unsigned long size;
+		struct mm_struct *mm;
+		struct mm_iommu_table_group_mem_t *mem;
+		struct pci_dev *gpdev;
+		struct notifier_block group_notifier;
+	} cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 31 */;
+	unsigned int cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 308 */;
+	bool cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 306 */;
+	loff_t *cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 306 */;
+	char __user *cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 306 */;
+	size_t cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 305 */;
+	struct vfio_pci_npu2_data {
+		void *base;
+		unsigned long mmio_atsd;
+		unsigned long gpu_tgt;
+		unsigned int link_speed;
+	} cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 298 */;
+	uint32_t cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 216 */;
+	struct vfio_pci_nvgpu_data *cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 215 */;
+	u64 cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 211 */[2];
+	struct vfio_pci_nvgpu_data cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 197 */;
+	struct kvm *cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 195 */;
+	void *cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 193 */;
+	struct notifier_block *cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 192 */;
+	const struct vm_operations_struct cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 133 */;
+	vm_fault_t cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 114 */;
+	struct vm_fault *cocci_id/* drivers/vfio/pci/vfio_pci_nvlink2.c 114 */;
+}

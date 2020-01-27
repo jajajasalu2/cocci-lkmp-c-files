@@ -1,0 +1,56 @@
+cocci_test_suite() {
+	const struct i2c_device_id cocci_id/* drivers/rtc/rtc-isl1208.c 93 */[];
+	u32 cocci_id/* drivers/rtc/rtc-isl1208.c 852 */;
+	struct device_node *cocci_id/* drivers/rtc/rtc-isl1208.c 851 */;
+	const struct isl1208_config {
+		const char name[8];
+		unsigned int nvmem_length;
+		unsigned has_tamper:1;
+		unsigned has_timestamp:1;
+	} cocci_id/* drivers/rtc/rtc-isl1208.c 81 */[];
+	const struct i2c_device_id *cocci_id/* drivers/rtc/rtc-isl1208.c 800 */;
+	const struct nvmem_config cocci_id/* drivers/rtc/rtc-isl1208.c 772 */;
+	struct isl1208_state *cocci_id/* drivers/rtc/rtc-isl1208.c 744 */;
+	size_t cocci_id/* drivers/rtc/rtc-isl1208.c 742 */;
+	void *cocci_id/* drivers/rtc/rtc-isl1208.c 741 */;
+	unsigned int cocci_id/* drivers/rtc/rtc-isl1208.c 741 */;
+	const struct attribute_group cocci_id/* drivers/rtc/rtc-isl1208.c 728 */;
+	struct attribute *cocci_id/* drivers/rtc/rtc-isl1208.c 721 */[];
+	enum isl1208_id{TYPE_ISL1208=0, TYPE_ISL1209, TYPE_ISL1218, TYPE_ISL1219, ISL_LAST_ID,} cocci_id/* drivers/rtc/rtc-isl1208.c 72 */;
+	const char *cocci_id/* drivers/rtc/rtc-isl1208.c 697 */;
+	struct i2c_driver cocci_id/* drivers/rtc/rtc-isl1208.c 69 */;
+	struct device_attribute *cocci_id/* drivers/rtc/rtc-isl1208.c 659 */;
+	char *cocci_id/* drivers/rtc/rtc-isl1208.c 659 */;
+	ssize_t cocci_id/* drivers/rtc/rtc-isl1208.c 657 */;
+	const struct rtc_class_ops cocci_id/* drivers/rtc/rtc-isl1208.c 647 */;
+	unsigned long cocci_id/* drivers/rtc/rtc-isl1208.c 594 */;
+	irqreturn_t cocci_id/* drivers/rtc/rtc-isl1208.c 591 */;
+	unsigned long long cocci_id/* drivers/rtc/rtc-isl1208.c 586 */;
+	u8 cocci_id/* drivers/rtc/rtc-isl1208.c 551 */[ISL1219_EVT_SECTION_LEN];
+	const struct rtc_time *cocci_id/* drivers/rtc/rtc-isl1208.c 445 */;
+	struct rtc_time cocci_id/* drivers/rtc/rtc-isl1208.c 399 */;
+	const int cocci_id/* drivers/rtc/rtc-isl1208.c 398 */;
+	u8 cocci_id/* drivers/rtc/rtc-isl1208.c 350 */[ISL1208_ALARM_SECTION_LEN];
+	struct rtc_time *const cocci_id/* drivers/rtc/rtc-isl1208.c 349 */;
+	struct rtc_wkalrm *cocci_id/* drivers/rtc/rtc-isl1208.c 347 */;
+	const u8 cocci_id/* drivers/rtc/rtc-isl1208.c 327 */;
+	u8 cocci_id/* drivers/rtc/rtc-isl1208.c 307 */[ISL1208_RTC_SECTION_LEN];
+	struct rtc_time *cocci_id/* drivers/rtc/rtc-isl1208.c 304 */;
+	struct i2c_client *const cocci_id/* drivers/rtc/rtc-isl1208.c 267 */;
+	struct seq_file *cocci_id/* drivers/rtc/rtc-isl1208.c 265 */;
+	struct device *cocci_id/* drivers/rtc/rtc-isl1208.c 265 */;
+	u16 cocci_id/* drivers/rtc/rtc-isl1208.c 229 */;
+	u8 cocci_id/* drivers/rtc/rtc-isl1208.c 217 */[ISL1208_USR_SECTION_LEN];
+	struct i2c_client *cocci_id/* drivers/rtc/rtc-isl1208.c 176 */;
+	int cocci_id/* drivers/rtc/rtc-isl1208.c 175 */;
+	const u8 cocci_id/* drivers/rtc/rtc-isl1208.c 134 */[];
+	unsigned cocci_id/* drivers/rtc/rtc-isl1208.c 121 */;
+	u8 cocci_id/* drivers/rtc/rtc-isl1208.c 120 */;
+	u8 cocci_id/* drivers/rtc/rtc-isl1208.c 120 */[];
+	struct isl1208_state {
+		struct nvmem_config nvmem_config;
+		struct rtc_device *rtc;
+		const struct isl1208_config *config;
+	} cocci_id/* drivers/rtc/rtc-isl1208.c 112 */;
+	const struct of_device_id cocci_id/* drivers/rtc/rtc-isl1208.c 102 */[];
+}

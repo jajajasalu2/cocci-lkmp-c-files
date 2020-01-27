@@ -1,0 +1,65 @@
+cocci_test_suite() {
+	struct w8001 {
+		struct input_dev *pen_dev;
+		struct input_dev *touch_dev;
+		struct serio *serio;
+		struct completion cmd_done;
+		int id;
+		int idx;
+		unsigned char response_type;
+		unsigned char response[W8001_MAX_LENGTH];
+		unsigned char data[W8001_MAX_LENGTH];
+		char phys[W8001_MAX_PHYS];
+		int type;
+		unsigned int pktlen;
+		u16 max_touch_x;
+		u16 max_touch_y;
+		u16 max_pen_x;
+		u16 max_pen_y;
+		char pen_name[64];
+		char touch_name[64];
+		int open_count;
+		struct mutex mutex;
+	} cocci_id/* drivers/input/touchscreen/wacom_w8001.c 84 */;
+	struct w8001_touch_query {
+		u16 x;
+		u16 y;
+		u8 panel_res;
+		u8 capacity_res;
+		u8 sensor_id;
+	} cocci_id/* drivers/input/touchscreen/wacom_w8001.c 72 */;
+	struct serio_driver cocci_id/* drivers/input/touchscreen/wacom_w8001.c 698 */;
+	const struct serio_device_id cocci_id/* drivers/input/touchscreen/wacom_w8001.c 686 */[];
+	struct w8001 cocci_id/* drivers/input/touchscreen/wacom_w8001.c 601 */;
+	char cocci_id/* drivers/input/touchscreen/wacom_w8001.c 598 */[64];
+	struct serio_driver *cocci_id/* drivers/input/touchscreen/wacom_w8001.c 593 */;
+	struct serio *cocci_id/* drivers/input/touchscreen/wacom_w8001.c 593 */;
+	struct w8001_coord {
+		u8 rdy;
+		u8 tsw;
+		u8 f1;
+		u8 f2;
+		u16 x;
+		u16 y;
+		u16 pen_pressure;
+		u8 tilt_x;
+		u8 tilt_y;
+	} cocci_id/* drivers/input/touchscreen/wacom_w8001.c 59 */;
+	struct w8001_touch_query cocci_id/* drivers/input/touchscreen/wacom_w8001.c 467 */;
+	size_t cocci_id/* drivers/input/touchscreen/wacom_w8001.c 423 */;
+	char *cocci_id/* drivers/input/touchscreen/wacom_w8001.c 422 */;
+	unsigned char cocci_id/* drivers/input/touchscreen/wacom_w8001.c 359 */;
+	struct w8001_coord cocci_id/* drivers/input/touchscreen/wacom_w8001.c 285 */;
+	irqreturn_t cocci_id/* drivers/input/touchscreen/wacom_w8001.c 281 */;
+	struct w8001_touch_query *cocci_id/* drivers/input/touchscreen/wacom_w8001.c 188 */;
+	bool cocci_id/* drivers/input/touchscreen/wacom_w8001.c 157 */;
+	int cocci_id/* drivers/input/touchscreen/wacom_w8001.c 153 */;
+	unsigned int cocci_id/* drivers/input/touchscreen/wacom_w8001.c 152 */;
+	unsigned char *cocci_id/* drivers/input/touchscreen/wacom_w8001.c 151 */;
+	struct input_dev *cocci_id/* drivers/input/touchscreen/wacom_w8001.c 150 */;
+	struct w8001 *cocci_id/* drivers/input/touchscreen/wacom_w8001.c 148 */;
+	void cocci_id/* drivers/input/touchscreen/wacom_w8001.c 148 */;
+	unsigned int *cocci_id/* drivers/input/touchscreen/wacom_w8001.c 139 */;
+	u8 *cocci_id/* drivers/input/touchscreen/wacom_w8001.c 107 */;
+	struct w8001_coord *cocci_id/* drivers/input/touchscreen/wacom_w8001.c 107 */;
+}

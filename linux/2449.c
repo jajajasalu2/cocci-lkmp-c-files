@@ -1,0 +1,73 @@
+cocci_test_suite() {
+	struct usb_dmac {
+		struct dma_device engine;
+		struct device *dev;
+		void __iomem *iomem;
+		unsigned int n_channels;
+		struct usb_dmac_chan *channels;
+	} cocci_id/* drivers/dma/sh/usb-dmac.c 97 */;
+	struct platform_driver cocci_id/* drivers/dma/sh/usb-dmac.c 897 */;
+	const struct of_device_id cocci_id/* drivers/dma/sh/usb-dmac.c 891 */[];
+	struct usb_dmac_chan cocci_id/* drivers/dma/sh/usb-dmac.c 87 */;
+	struct resource *cocci_id/* drivers/dma/sh/usb-dmac.c 769 */;
+	struct dma_device *cocci_id/* drivers/dma/sh/usb-dmac.c 767 */;
+	const enum dma_slave_buswidth cocci_id/* drivers/dma/sh/usb-dmac.c 766 */;
+	struct usb_dmac_chan {
+		struct virt_dma_chan vc;
+		void __iomem *iomem;
+		unsigned int index;
+		int irq;
+		struct usb_dmac_desc *desc;
+		int descs_allocated;
+		struct list_head desc_got;
+		struct list_head desc_freed;
+	} cocci_id/* drivers/dma/sh/usb-dmac.c 76 */;
+	struct device_node *cocci_id/* drivers/dma/sh/usb-dmac.c 746 */;
+	struct device *cocci_id/* drivers/dma/sh/usb-dmac.c 744 */;
+	char *cocci_id/* drivers/dma/sh/usb-dmac.c 711 */;
+	char cocci_id/* drivers/dma/sh/usb-dmac.c 710 */[5];
+	struct platform_device *cocci_id/* drivers/dma/sh/usb-dmac.c 709 */;
+	unsigned int cocci_id/* drivers/dma/sh/usb-dmac.c 707 */;
+	struct usb_dmac *cocci_id/* drivers/dma/sh/usb-dmac.c 705 */;
+	dma_cap_mask_t cocci_id/* drivers/dma/sh/usb-dmac.c 650 */;
+	struct of_dma *cocci_id/* drivers/dma/sh/usb-dmac.c 647 */;
+	struct of_phandle_args *cocci_id/* drivers/dma/sh/usb-dmac.c 637 */;
+	bool cocci_id/* drivers/dma/sh/usb-dmac.c 634 */;
+	void *cocci_id/* drivers/dma/sh/usb-dmac.c 634 */;
+	struct usb_dmac_desc cocci_id/* drivers/dma/sh/usb-dmac.c 63 */;
+	irqreturn_t cocci_id/* drivers/dma/sh/usb-dmac.c 596 */;
+	struct dma_tx_state *cocci_id/* drivers/dma/sh/usb-dmac.c 530 */;
+	enum dma_status cocci_id/* drivers/dma/sh/usb-dmac.c 528 */;
+	struct usb_dmac_desc {
+		struct virt_dma_desc vd;
+		enum dma_transfer_direction direction;
+		unsigned int sg_allocated_len;
+		unsigned int sg_len;
+		unsigned int sg_index;
+		u32 residue;
+		struct list_head node;
+		dma_cookie_t done_cookie;
+		struct usb_dmac_sg sg[];
+	} cocci_id/* drivers/dma/sh/usb-dmac.c 51 */;
+	struct usb_dmac_desc *cocci_id/* drivers/dma/sh/usb-dmac.c 508 */;
+	struct virt_dma_desc *cocci_id/* drivers/dma/sh/usb-dmac.c 507 */;
+	dma_cookie_t cocci_id/* drivers/dma/sh/usb-dmac.c 504 */;
+	unsigned long cocci_id/* drivers/dma/sh/usb-dmac.c 449 */;
+	enum dma_transfer_direction cocci_id/* drivers/dma/sh/usb-dmac.c 417 */;
+	struct scatterlist *cocci_id/* drivers/dma/sh/usb-dmac.c 416 */;
+	struct dma_async_tx_descriptor *cocci_id/* drivers/dma/sh/usb-dmac.c 415 */;
+	struct usb_dmac_chan *cocci_id/* drivers/dma/sh/usb-dmac.c 383 */;
+	struct dma_chan *cocci_id/* drivers/dma/sh/usb-dmac.c 381 */;
+	int cocci_id/* drivers/dma/sh/usb-dmac.c 381 */;
+	void cocci_id/* drivers/dma/sh/usb-dmac.c 362 */;
+	struct usb_dmac_sg {
+		dma_addr_t mem_addr;
+		u32 size;
+	} cocci_id/* drivers/dma/sh/usb-dmac.c 34 */;
+	gfp_t cocci_id/* drivers/dma/sh/usb-dmac.c 264 */;
+	u16 cocci_id/* drivers/dma/sh/usb-dmac.c 246 */;
+	dma_addr_t cocci_id/* drivers/dma/sh/usb-dmac.c 198 */;
+	struct usb_dmac_sg *cocci_id/* drivers/dma/sh/usb-dmac.c 197 */;
+	u32 cocci_id/* drivers/dma/sh/usb-dmac.c 182 */;
+	struct usb_dmac cocci_id/* drivers/dma/sh/usb-dmac.c 106 */;
+}

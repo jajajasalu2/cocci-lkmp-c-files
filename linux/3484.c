@@ -1,0 +1,57 @@
+cocci_test_suite() {
+	const unsigned cocci_id/* drivers/mmc/host/mmc_spi.c 977 */;
+	void *cocci_id/* drivers/mmc/host/mmc_spi.c 897 */;
+	dma_addr_t cocci_id/* drivers/mmc/host/mmc_spi.c 896 */;
+	unsigned int cocci_id/* drivers/mmc/host/mmc_spi.c 889 */;
+	unsigned long cocci_id/* drivers/mmc/host/mmc_spi.c 876 */;
+	unsigned cocci_id/* drivers/mmc/host/mmc_spi.c 873 */;
+	struct scatterlist *cocci_id/* drivers/mmc/host/mmc_spi.c 872 */;
+	enum dma_data_direction cocci_id/* drivers/mmc/host/mmc_spi.c 871 */;
+	struct device *cocci_id/* drivers/mmc/host/mmc_spi.c 869 */;
+	struct spi_device *cocci_id/* drivers/mmc/host/mmc_spi.c 868 */;
+	u32 cocci_id/* drivers/mmc/host/mmc_spi.c 866 */;
+	struct mmc_data *cocci_id/* drivers/mmc/host/mmc_spi.c 866 */;
+	void cocci_id/* drivers/mmc/host/mmc_spi.c 864 */;
+	struct spi_transfer *cocci_id/* drivers/mmc/host/mmc_spi.c 438 */;
+	u8 *cocci_id/* drivers/mmc/host/mmc_spi.c 436 */;
+	struct scratch *cocci_id/* drivers/mmc/host/mmc_spi.c 435 */;
+	struct mmc_request *cocci_id/* drivers/mmc/host/mmc_spi.c 432 */;
+	char cocci_id/* drivers/mmc/host/mmc_spi.c 258 */[32];
+	unsigned short cocci_id/* drivers/mmc/host/mmc_spi.c 256 */;
+	struct mmc_command *cocci_id/* drivers/mmc/host/mmc_spi.c 236 */;
+	char *cocci_id/* drivers/mmc/host/mmc_spi.c 236 */;
+	struct spi_driver cocci_id/* drivers/mmc/host/mmc_spi.c 1511 */;
+	const struct of_device_id cocci_id/* drivers/mmc/host/mmc_spi.c 1505 */[];
+	struct mmc_spi_host *cocci_id/* drivers/mmc/host/mmc_spi.c 150 */;
+	int cocci_id/* drivers/mmc/host/mmc_spi.c 150 */;
+	struct scratch cocci_id/* drivers/mmc/host/mmc_spi.c 1400 */;
+	bool cocci_id/* drivers/mmc/host/mmc_spi.c 1284 */;
+	struct mmc_host *cocci_id/* drivers/mmc/host/mmc_spi.c 1281 */;
+	u16 cocci_id/* drivers/mmc/host/mmc_spi.c 1272 */;
+	irqreturn_t cocci_id/* drivers/mmc/host/mmc_spi.c 1268 */;
+	const struct mmc_host_ops cocci_id/* drivers/mmc/host/mmc_spi.c 1254 */;
+	struct mmc_ios *cocci_id/* drivers/mmc/host/mmc_spi.c 1166 */;
+	u8 cocci_id/* drivers/mmc/host/mmc_spi.c 1156 */;
+	struct mmc_spi_host {
+		struct mmc_host *mmc;
+		struct spi_device *spi;
+		unsigned char power_mode;
+		u16 powerup_msecs;
+		struct mmc_spi_platform_data *pdata;
+		struct spi_transfer token,t,crc,early_status;
+		struct spi_message m;
+		struct spi_transfer status;
+		struct spi_message readback;
+		struct device *dma_dev;
+		struct scratch *data;
+		dma_addr_t data_dma;
+		void *ones;
+		dma_addr_t ones_dma;
+	} cocci_id/* drivers/mmc/host/mmc_spi.c 111 */;
+	struct scratch {
+		u8 status[29];
+		u8 data_token;
+		__be16 crc_val;
+	} cocci_id/* drivers/mmc/host/mmc_spi.c 105 */;
+	struct mmc_command cocci_id/* drivers/mmc/host/mmc_spi.c 1040 */;
+}

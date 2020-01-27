@@ -1,0 +1,103 @@
+cocci_test_suite() {
+	struct fb_deferred_io cocci_id/* drivers/video/fbdev/udlfb.c 979 */;
+	u32 *cocci_id/* drivers/video/fbdev/udlfb.c 937 */;
+	unsigned cocci_id/* drivers/video/fbdev/udlfb.c 926 */;
+	struct dloarea cocci_id/* drivers/video/fbdev/udlfb.c 890 */;
+	void __user *cocci_id/* drivers/video/fbdev/udlfb.c 882 */;
+	void cocci_id/* drivers/video/fbdev/udlfb.c 84 */(struct dlfb_data *dlfb);
+	unsigned int cocci_id/* drivers/video/fbdev/udlfb.c 836 */;
+	int cocci_id/* drivers/video/fbdev/udlfb.c 83 */(struct dlfb_data *dlfb,
+							 int count,
+							 size_t size);
+	int cocci_id/* drivers/video/fbdev/udlfb.c 82 */(struct dlfb_data *dlfb,
+							 struct urb *urb,
+							 size_t len);
+	struct urb *cocci_id/* drivers/video/fbdev/udlfb.c 81 */(struct dlfb_data *dlfb);
+	void cocci_id/* drivers/video/fbdev/udlfb.c 80 */(struct urb *urb);
+	cycles_t cocci_id/* drivers/video/fbdev/udlfb.c 789 */;
+	struct fb_deferred_io *cocci_id/* drivers/video/fbdev/udlfb.c 785 */;
+	struct page *cocci_id/* drivers/video/fbdev/udlfb.c 784 */;
+	struct list_head *cocci_id/* drivers/video/fbdev/udlfb.c 782 */;
+	struct fb_info *cocci_id/* drivers/video/fbdev/udlfb.c 781 */;
+	int cocci_id/* drivers/video/fbdev/udlfb.c 77 */(struct dlfb_data *dlfb,
+							 struct fb_info *info,
+							 u32 new_len);
+	const struct fb_fillrect *cocci_id/* drivers/video/fbdev/udlfb.c 765 */;
+	const struct fb_image *cocci_id/* drivers/video/fbdev/udlfb.c 754 */;
+	const struct fb_copyarea *cocci_id/* drivers/video/fbdev/udlfb.c 742 */;
+	loff_t *cocci_id/* drivers/video/fbdev/udlfb.c 720 */;
+	struct dlfb_deferred_free {
+		struct list_head list;
+		void *mem;
+	} cocci_id/* drivers/video/fbdev/udlfb.c 72 */;
+	const char __user *cocci_id/* drivers/video/fbdev/udlfb.c 719 */;
+	ssize_t cocci_id/* drivers/video/fbdev/udlfb.c 719 */;
+	struct dlfb_data cocci_id/* drivers/video/fbdev/udlfb.c 679 */;
+	struct work_struct *cocci_id/* drivers/video/fbdev/udlfb.c 677 */;
+	bool cocci_id/* drivers/video/fbdev/udlfb.c 67 */;
+	const int cocci_id/* drivers/video/fbdev/udlfb.c 632 */;
+	u8 **cocci_id/* drivers/video/fbdev/udlfb.c 572 */;
+	const u8 *cocci_id/* drivers/video/fbdev/udlfb.c 540 */;
+	const char *cocci_id/* drivers/video/fbdev/udlfb.c 536 */;
+	char **cocci_id/* drivers/video/fbdev/udlfb.c 536 */;
+	struct urb **cocci_id/* drivers/video/fbdev/udlfb.c 535 */;
+	const struct usb_device_id cocci_id/* drivers/video/fbdev/udlfb.c 52 */[];
+	u16 cocci_id/* drivers/video/fbdev/udlfb.c 475 */;
+	u8 *cocci_id/* drivers/video/fbdev/udlfb.c 443 */;
+	u16 *cocci_id/* drivers/video/fbdev/udlfb.c 443 */;
+	uint8_t *cocci_id/* drivers/video/fbdev/udlfb.c 433 */;
+	uint32_t cocci_id/* drivers/video/fbdev/udlfb.c 432 */;
+	const uint16_t *cocci_id/* drivers/video/fbdev/udlfb.c 431 */;
+	int *cocci_id/* drivers/video/fbdev/udlfb.c 429 */;
+	unsigned long cocci_id/* drivers/video/fbdev/udlfb.c 428 */;
+	const uint8_t *const cocci_id/* drivers/video/fbdev/udlfb.c 427 */;
+	uint8_t **cocci_id/* drivers/video/fbdev/udlfb.c 426 */;
+	uint32_t *cocci_id/* drivers/video/fbdev/udlfb.c 425 */;
+	const uint16_t *const cocci_id/* drivers/video/fbdev/udlfb.c 424 */;
+	const uint16_t **cocci_id/* drivers/video/fbdev/udlfb.c 423 */;
+	void cocci_id/* drivers/video/fbdev/udlfb.c 422 */;
+	const u32 cocci_id/* drivers/video/fbdev/udlfb.c 40 */;
+	const unsigned long *cocci_id/* drivers/video/fbdev/udlfb.c 367 */;
+	const u8 **cocci_id/* drivers/video/fbdev/udlfb.c 364 */;
+	struct vm_area_struct *cocci_id/* drivers/video/fbdev/udlfb.c 322 */;
+	const struct fb_fix_screeninfo cocci_id/* drivers/video/fbdev/udlfb.c 30 */;
+	u32 cocci_id/* drivers/video/fbdev/udlfb.c 196 */;
+	char *cocci_id/* drivers/video/fbdev/udlfb.c 1879 */;
+	struct urb_node *cocci_id/* drivers/video/fbdev/udlfb.c 1878 */;
+	struct urb *cocci_id/* drivers/video/fbdev/udlfb.c 1877 */;
+	struct dlfb_data *cocci_id/* drivers/video/fbdev/udlfb.c 1875 */;
+	int cocci_id/* drivers/video/fbdev/udlfb.c 1875 */;
+	size_t cocci_id/* drivers/video/fbdev/udlfb.c 1875 */;
+	struct urb_node cocci_id/* drivers/video/fbdev/udlfb.c 1862 */;
+	struct usb_driver cocci_id/* drivers/video/fbdev/udlfb.c 1802 */;
+	struct usb_device *cocci_id/* drivers/video/fbdev/udlfb.c 1653 */;
+	const struct device_attribute *cocci_id/* drivers/video/fbdev/udlfb.c 1649 */;
+	const struct usb_device_id *cocci_id/* drivers/video/fbdev/udlfb.c 1646 */;
+	struct usb_interface *cocci_id/* drivers/video/fbdev/udlfb.c 1566 */;
+	const u8 cocci_id/* drivers/video/fbdev/udlfb.c 1544 */[];
+	const struct device_attribute cocci_id/* drivers/video/fbdev/udlfb.c 1529 */[];
+	const struct bin_attribute cocci_id/* drivers/video/fbdev/udlfb.c 1521 */;
+	struct device cocci_id/* drivers/video/fbdev/udlfb.c 1461 */;
+	loff_t cocci_id/* drivers/video/fbdev/udlfb.c 1460 */;
+	struct kobject *cocci_id/* drivers/video/fbdev/udlfb.c 1459 */;
+	struct bin_attribute *cocci_id/* drivers/video/fbdev/udlfb.c 1459 */;
+	struct file *cocci_id/* drivers/video/fbdev/udlfb.c 1458 */;
+	struct device_attribute *cocci_id/* drivers/video/fbdev/udlfb.c 1434 */;
+	const struct fb_videomode *cocci_id/* drivers/video/fbdev/udlfb.c 1289 */;
+	struct device *cocci_id/* drivers/video/fbdev/udlfb.c 1287 */;
+	char __iomem *cocci_id/* drivers/video/fbdev/udlfb.c 1243 */;
+	void __force *cocci_id/* drivers/video/fbdev/udlfb.c 1240 */;
+	unsigned char *cocci_id/* drivers/video/fbdev/udlfb.c 1222 */;
+	const void __force *cocci_id/* drivers/video/fbdev/udlfb.c 1221 */;
+	const void *cocci_id/* drivers/video/fbdev/udlfb.c 1221 */;
+	u8 cocci_id/* drivers/video/fbdev/udlfb.c 121 */;
+	struct dlfb_deferred_free cocci_id/* drivers/video/fbdev/udlfb.c 1207 */;
+	struct dlfb_deferred_free *cocci_id/* drivers/video/fbdev/udlfb.c 1207 */;
+	void *cocci_id/* drivers/video/fbdev/udlfb.c 1205 */;
+	const struct fb_ops cocci_id/* drivers/video/fbdev/udlfb.c 1186 */;
+	struct fb_var_screeninfo cocci_id/* drivers/video/fbdev/udlfb.c 1095 */;
+	struct fb_videomode cocci_id/* drivers/video/fbdev/udlfb.c 1075 */;
+	struct fb_var_screeninfo *cocci_id/* drivers/video/fbdev/udlfb.c 1072 */;
+	const struct fb_bitfield cocci_id/* drivers/video/fbdev/udlfb.c 1062 */;
+	struct fb_videomode *cocci_id/* drivers/video/fbdev/udlfb.c 1052 */;
+}

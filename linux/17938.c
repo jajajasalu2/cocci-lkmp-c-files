@@ -1,0 +1,92 @@
+cocci_test_suite() {
+	int __init cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 908 */;
+	struct platform_driver cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 900 */;
+	const struct of_device_id cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 890 */[]__initconst;
+	void __iomem *cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 881 */;
+	struct resource cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 782 */;
+	struct grpci2_priv cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 722 */;
+	struct grpci2_regs {
+		unsigned int ctrl;
+		unsigned int sts_cap;
+		int res1;
+		unsigned int io_map;
+		unsigned int dma_ctrl;
+		unsigned int dma_bdbase;
+		int res2[2];
+		unsigned int bars[6];
+		int res3[2];
+		unsigned int ahbmst_map[16];
+		unsigned int t_ctrl;
+		unsigned int t_cnt;
+		unsigned int t_adpat;
+		unsigned int t_admask;
+		unsigned int t_sigpat;
+		unsigned int t_sigmask;
+		unsigned int t_adstate;
+		unsigned int t_sigstate;
+	} cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 69 */;
+	const int *cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 689 */;
+	struct platform_device *cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 684 */;
+	struct grpci2_regs __iomem *cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 659 */;
+	irqreturn_t cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 656 */;
+	struct grpci2_barcfg *cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 570 */;
+	void cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 565 */;
+	void *cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 559 */;
+	unsigned int cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 548 */;
+	struct irq_desc *cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 502 */;
+	struct irq_chip cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 493 */;
+	struct irq_data *cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 452 */;
+	struct pci_ops cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 442 */;
+	struct pci_bus *cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 376 */;
+	u32 cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 283 */;
+	u32 *cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 281 */;
+	struct grpci2_priv *cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 280 */;
+	int cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 280 */;
+	unsigned long cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 238 */;
+	unsigned int *cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 237 */;
+	struct grpci2_barcfg {
+		unsigned long pciadr;
+		unsigned long ahbadr;
+	} cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 23 */;
+	u8 cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 222 */;
+	const struct pci_dev *cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 222 */;
+	struct grpci2_priv {
+		struct leon_pci_info info;
+		struct grpci2_regs __iomem *regs;
+		char irq;
+		char irq_mode;
+		char bt_enabled;
+		char do_reset;
+		char irq_mask;
+		u32 pciid;
+		unsigned char irq_map[4];
+		unsigned int virq_err;
+		unsigned int virq_dma;
+		unsigned long pci_area;
+		unsigned long pci_area_end;
+		unsigned long pci_io;
+		unsigned long pci_conf;
+		unsigned long pci_conf_end;
+		unsigned long pci_io_va;
+		struct grpci2_barcfg tgtbars[6];
+	} cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 193 */;
+	struct grpci2_cap_first {
+		unsigned int ctrl;
+		unsigned int pci2ahb_map[6];
+		unsigned int ext2ahb_map;
+		unsigned int io_map;
+		unsigned int pcibar_size[6];
+	} cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 179 */;
+	struct grpci2_bd_data {
+		unsigned int ctrl;
+		unsigned int pci_adr;
+		unsigned int ahb_adr;
+		unsigned int next;
+	} cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 158 */;
+	struct grpci2_bd_chan {
+		unsigned int ctrl;
+		unsigned int nchan;
+		unsigned int nbd;
+		unsigned int res;
+	} cocci_id/* arch/sparc/kernel/leon_pci_grpci2.c 144 */;
+}

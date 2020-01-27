@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct rhashtable_iter cocci_id/* net/core/xdp.c 90 */;
+	struct xdp_mem_allocator cocci_id/* net/core/xdp.c 71 */;
+	struct xdp_mem_allocator *cocci_id/* net/core/xdp.c 69 */;
+	struct rcu_head *cocci_id/* net/core/xdp.c 67 */;
+	const struct rhashtable_params cocci_id/* net/core/xdp.c 55 */;
+	u32 cocci_id/* net/core/xdp.c 50 */;
+	u32 *cocci_id/* net/core/xdp.c 50 */;
+	const struct xdp_mem_allocator *cocci_id/* net/core/xdp.c 49 */;
+	const void *cocci_id/* net/core/xdp.c 47 */;
+	unsigned int cocci_id/* net/core/xdp.c 464 */;
+	struct xdp_frame *cocci_id/* net/core/xdp.c 462 */;
+	struct xdp_buff *cocci_id/* net/core/xdp.c 462 */;
+	struct rhashtable_compare_arg *cocci_id/* net/core/xdp.c 46 */;
+	struct netdev_bpf *cocci_id/* net/core/xdp.c 441 */;
+	struct xdp_attachment_info *cocci_id/* net/core/xdp.c 440 */;
+	struct page *cocci_id/* net/core/xdp.c 420 */;
+	struct xdp_mem_info *cocci_id/* net/core/xdp.c 417 */;
+	void *cocci_id/* net/core/xdp.c 417 */;
+	const u32 cocci_id/* net/core/xdp.c 37 */;
+	unsigned long cocci_id/* net/core/xdp.c 363 */;
+	const u32 *cocci_id/* net/core/xdp.c 36 */;
+	bool cocci_id/* net/core/xdp.c 273 */;
+	enum xdp_mem_type cocci_id/* net/core/xdp.c 273 */;
+	gfp_t cocci_id/* net/core/xdp.c 251 */;
+	int cocci_id/* net/core/xdp.c 251 */;
+	struct rhashtable *cocci_id/* net/core/xdp.c 224 */;
+	void cocci_id/* net/core/xdp.c 222 */;
+	struct net_device *cocci_id/* net/core/xdp.c 183 */;
+	struct xdp_rxq_info *cocci_id/* net/core/xdp.c 176 */;
+}

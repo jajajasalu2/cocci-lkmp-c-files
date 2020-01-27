@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	struct collie_bat *cocci_id/* drivers/power/supply/collie_battery.c 96 */;
+	union power_supply_propval *cocci_id/* drivers/power/supply/collie_battery.c 93 */;
+	enum power_supply_property cocci_id/* drivers/power/supply/collie_battery.c 92 */;
+	int cocci_id/* drivers/power/supply/collie_battery.c 91 */;
+	unsigned long cocci_id/* drivers/power/supply/collie_battery.c 52 */;
+	void __exit cocci_id/* drivers/power/supply/collie_battery.c 408 */;
+	void cocci_id/* drivers/power/supply/collie_battery.c 408 */;
+	int __init cocci_id/* drivers/power/supply/collie_battery.c 403 */;
+	struct ucb1x00_driver cocci_id/* drivers/power/supply/collie_battery.c 396 */;
+	struct power_supply_config cocci_id/* drivers/power/supply/collie_battery.c 322 */;
+	struct ucb1x00_dev *cocci_id/* drivers/power/supply/collie_battery.c 319 */;
+	struct gpio cocci_id/* drivers/power/supply/collie_battery.c 279 */[];
+	struct collie_bat {
+		int status;
+		struct power_supply *psy;
+		int full_chrg;
+		struct mutex work_lock;
+		bool (*is_present)(struct collie_bat *bat);
+		int gpio_full;
+		int gpio_charge_on;
+		int technology;
+		int gpio_bat;
+		int adc_bat;
+		int adc_bat_divider;
+		int bat_max;
+		int bat_min;
+		int gpio_temp;
+		int adc_temp;
+		int adc_temp_divider;
+	} cocci_id/* drivers/power/supply/collie_battery.c 26 */;
+	struct collie_bat cocci_id/* drivers/power/supply/collie_battery.c 258 */;
+	const struct power_supply_desc cocci_id/* drivers/power/supply/collie_battery.c 249 */;
+	struct ucb1x00 *cocci_id/* drivers/power/supply/collie_battery.c 24 */;
+	struct work_struct cocci_id/* drivers/power/supply/collie_battery.c 23 */;
+	enum power_supply_property cocci_id/* drivers/power/supply/collie_battery.c 208 */[];
+	struct work_struct *cocci_id/* drivers/power/supply/collie_battery.c 191 */;
+	irqreturn_t cocci_id/* drivers/power/supply/collie_battery.c 143 */;
+	void *cocci_id/* drivers/power/supply/collie_battery.c 143 */;
+	struct power_supply *cocci_id/* drivers/power/supply/collie_battery.c 138 */;
+}

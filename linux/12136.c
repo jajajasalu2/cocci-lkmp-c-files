@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct nvkm_event **cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 97 */;
+	typeof(*this) cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 71 */;
+	struct rb_node *cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 68 */;
+	struct rb_node **cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 67 */;
+	typeof(*object) cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 37 */;
+	const struct nvkm_object_func cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 325 */;
+	const struct nvkm_oclass *cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 295 */;
+	const struct nvkm_object_func *cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 294 */;
+	void cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 293 */;
+	struct nvkm_client *cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 29 */;
+	struct nvkm_object **cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 281 */;
+	s64 cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 262 */;
+	void *cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 257 */;
+	const char *cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 181 */;
+	bool cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 179 */;
+	struct nvkm_gpuobj **cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 171 */;
+	struct nvkm_object *cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 170 */;
+	struct nvkm_gpuobj *cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 170 */;
+	int cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 169 */;
+	u16 cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 154 */;
+	u8 cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 146 */;
+	u32 *cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 138 */;
+	u16 *cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 130 */;
+	u64 cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 122 */;
+	u8 *cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 122 */;
+	u64 *cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 106 */;
+	enum nvkm_object_map *cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 106 */;
+	u32 cocci_id/* drivers/gpu/drm/nouveau/nvkm/core/object.c 105 */;
+}

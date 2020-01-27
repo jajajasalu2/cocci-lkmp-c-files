@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	u8 cocci_id/* net/bluetooth/hci_debugfs.c 92 */;
+	struct hci_dev *cocci_id/* net/bluetooth/hci_debugfs.c 907 */;
+	u64 *cocci_id/* net/bluetooth/hci_debugfs.c 905 */;
+	void *cocci_id/* net/bluetooth/hci_debugfs.c 905 */;
+	int cocci_id/* net/bluetooth/hci_debugfs.c 905 */;
+	u64 cocci_id/* net/bluetooth/hci_debugfs.c 891 */;
+	struct smp_ltk *cocci_id/* net/bluetooth/hci_debugfs.c 764 */;
+	struct smp_irk *cocci_id/* net/bluetooth/hci_debugfs.c 746 */;
+	const struct file_operations cocci_id/* net/bluetooth/hci_debugfs.c 706 */;
+	bool cocci_id/* net/bluetooth/hci_debugfs.c 688 */;
+	const char __user *cocci_id/* net/bluetooth/hci_debugfs.c 684 */;
+	char cocci_id/* net/bluetooth/hci_debugfs.c 675 */[3];
+	loff_t *cocci_id/* net/bluetooth/hci_debugfs.c 672 */;
+	size_t cocci_id/* net/bluetooth/hci_debugfs.c 672 */;
+	char __user *cocci_id/* net/bluetooth/hci_debugfs.c 671 */;
+	struct file *cocci_id/* net/bluetooth/hci_debugfs.c 670 */;
+	ssize_t cocci_id/* net/bluetooth/hci_debugfs.c 670 */;
+	bdaddr_t cocci_id/* net/bluetooth/hci_debugfs.c 596 */;
+	void cocci_id/* net/bluetooth/hci_debugfs.c 563 */;
+	struct link_key *cocci_id/* net/bluetooth/hci_debugfs.c 366 */;
+	struct inquiry_data *cocci_id/* net/bluetooth/hci_debugfs.c 346 */;
+	struct inquiry_entry *cocci_id/* net/bluetooth/hci_debugfs.c 341 */;
+	struct discovery_state *cocci_id/* net/bluetooth/hci_debugfs.c 340 */;
+	struct oob_data *cocci_id/* net/bluetooth/hci_debugfs.c 183 */;
+	struct bt_uuid *cocci_id/* net/bluetooth/hci_debugfs.c 158 */;
+	struct bdaddr_list *cocci_id/* net/bluetooth/hci_debugfs.c 143 */;
+	struct seq_file *cocci_id/* net/bluetooth/hci_debugfs.c 140 */;
+	struct hci_conn_params *cocci_id/* net/bluetooth/hci_debugfs.c 123 */;
+	char cocci_id/* net/bluetooth/hci_debugfs.c 1071 */[6];
+	struct hci_conn *cocci_id/* net/bluetooth/hci_debugfs.c 1068 */;
+}

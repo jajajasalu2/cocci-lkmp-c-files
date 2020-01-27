@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	unsigned char cocci_id/* net/dccp/options.c 58 */;
+	struct dccp_options_received *cocci_id/* net/dccp/options.c 57 */;
+	const struct dccp_hdr *cocci_id/* net/dccp/options.c 51 */;
+	bool cocci_id/* net/dccp/options.c 501 */;
+	u8 cocci_id/* net/dccp/options.c 500 */;
+	struct sk_buff *cocci_id/* net/dccp/options.c 500 */;
+	const unsigned char *cocci_id/* net/dccp/options.c 405 */;
+	u16 cocci_id/* net/dccp/options.c 403 */;
+	const u16 cocci_id/* net/dccp/options.c 400 */;
+	struct dccp_skb_cb *cocci_id/* net/dccp/options.c 399 */;
+	struct dccp_ackvec *cocci_id/* net/dccp/options.c 398 */;
+	struct dccp_sock *cocci_id/* net/dccp/options.c 397 */;
+	struct sock *cocci_id/* net/dccp/options.c 395 */;
+	const __be32 cocci_id/* net/dccp/options.c 388 */;
+	const __be16 cocci_id/* net/dccp/options.c 385 */;
+	u32 cocci_id/* net/dccp/options.c 357 */;
+	struct dccp_request_sock *cocci_id/* net/dccp/options.c 352 */;
+	__be32 cocci_id/* net/dccp/options.c 344 */;
+	const u32 cocci_id/* net/dccp/options.c 337 */;
+	int cocci_id/* net/dccp/options.c 337 */;
+	const int cocci_id/* net/dccp/options.c 320 */;
+	unsigned char *cocci_id/* net/dccp/options.c 291 */;
+	const void *cocci_id/* net/dccp/options.c 289 */;
+	const unsigned char cocci_id/* net/dccp/options.c 288 */;
+	const u64 cocci_id/* net/dccp/options.c 265 */;
+	u8 *cocci_id/* net/dccp/options.c 265 */;
+	void cocci_id/* net/dccp/options.c 265 */;
+	const u8 cocci_id/* net/dccp/options.c 22 */;
+	u64 cocci_id/* net/dccp/options.c 22 */;
+	const u8 *cocci_id/* net/dccp/options.c 22 */;
+	__be16 cocci_id/* net/dccp/options.c 180 */;
+	__be16 *cocci_id/* net/dccp/options.c 180 */;
+	__be32 *cocci_id/* net/dccp/options.c 137 */;
+	unsigned long long cocci_id/* net/dccp/options.c 117 */;
+}

@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	struct camss_buffer cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 868 */;
+	struct vb2_queue *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 854 */;
+	struct video_device *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 853 */;
+	struct media_pad *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 852 */;
+	const char *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 850 */;
+	struct v4l2_device *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 849 */;
+	struct v4l2_format cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 819 */;
+	void cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 795 */;
+	const struct v4l2_file_operations cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 781 */;
+	struct v4l2_fh *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 732 */;
+	const struct v4l2_ioctl_ops cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 704 */;
+	unsigned int *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 692 */;
+	struct v4l2_input *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 681 */;
+	u32 cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 583 */;
+	u32 cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 581 */[3];
+	struct v4l2_plane_pix_format *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 580 */;
+	const struct camss_format_info *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 579 */;
+	struct v4l2_pix_format_mplane *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 578 */;
+	struct v4l2_format *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 576 */;
+	struct camss_video *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 576 */;
+	int cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 576 */;
+	struct v4l2_fmtdesc *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 532 */;
+	struct file *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 532 */;
+	void *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 532 */;
+	struct v4l2_capability *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 520 */;
+	const struct vb2_ops cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 504 */;
+	struct media_entity *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 434 */;
+	unsigned int cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 357 */;
+	struct sg_table *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 356 */;
+	const struct v4l2_pix_format_mplane *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 354 */;
+	struct camss_buffer *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 352 */;
+	struct vb2_v4l2_buffer *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 350 */;
+	struct camss_format_info {
+		u32 code;
+		u32 pixelformat;
+		u8 planes;
+		struct fract hsub[3];
+		struct fract vsub[3];
+		unsigned int bpp[3];
+	} cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 35 */;
+	struct vb2_buffer *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 348 */;
+	struct device *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 322 */[];
+	unsigned int cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 322 */[];
+	struct v4l2_subdev *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 289 */;
+	struct v4l2_subdev_format cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 288 */;
+	u32 *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 270 */;
+	const struct v4l2_mbus_framefmt *cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 244 */;
+	struct fract {
+		u8 numerator;
+		u8 denominator;
+	} cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 21 */;
+	const struct camss_format_info cocci_id/* drivers/media/platform/qcom/camss/camss-video.c 130 */[];
+}

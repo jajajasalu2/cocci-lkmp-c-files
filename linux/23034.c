@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	void cocci_id/* sound/soc/sof/debug.c 461 */;
+	const struct snd_sof_debugfs_map *cocci_id/* sound/soc/sof/debug.c 417 */;
+	const struct snd_sof_dsp_ops *cocci_id/* sound/soc/sof/debug.c 416 */;
+	struct snd_sof_dev *cocci_id/* sound/soc/sof/debug.c 414 */;
+	int cocci_id/* sound/soc/sof/debug.c 414 */;
+	struct snd_sof_dfsentry *cocci_id/* sound/soc/sof/debug.c 380 */;
+	mode_t cocci_id/* sound/soc/sof/debug.c 378 */;
+	const char *cocci_id/* sound/soc/sof/debug.c 378 */;
+	void *cocci_id/* sound/soc/sof/debug.c 377 */;
+	size_t cocci_id/* sound/soc/sof/debug.c 377 */;
+	ktime_t cocci_id/* sound/soc/sof/debug.c 34 */;
+	enum sof_debugfs_access_type cocci_id/* sound/soc/sof/debug.c 336 */;
+	void __iomem *cocci_id/* sound/soc/sof/debug.c 334 */;
+	u64 cocci_id/* sound/soc/sof/debug.c 33 */;
+	const struct file_operations cocci_id/* sound/soc/sof/debug.c 325 */;
+	struct sof_ipc_reply cocci_id/* sound/soc/sof/debug.c 32 */;
+	struct sof_ipc_cmd_hdr cocci_id/* sound/soc/sof/debug.c 31 */;
+	unsigned long cocci_id/* sound/soc/sof/debug.c 28 */;
+	bool cocci_id/* sound/soc/sof/debug.c 27 */;
+	struct dentry *cocci_id/* sound/soc/sof/debug.c 233 */;
+	u8 *cocci_id/* sound/soc/sof/debug.c 230 */;
+	loff_t cocci_id/* sound/soc/sof/debug.c 226 */;
+	loff_t *cocci_id/* sound/soc/sof/debug.c 222 */;
+	struct file *cocci_id/* sound/soc/sof/debug.c 221 */;
+	char __user *cocci_id/* sound/soc/sof/debug.c 221 */;
+	ssize_t cocci_id/* sound/soc/sof/debug.c 221 */;
+	char *cocci_id/* sound/soc/sof/debug.c 135 */;
+	const char __user *cocci_id/* sound/soc/sof/debug.c 122 */;
+}

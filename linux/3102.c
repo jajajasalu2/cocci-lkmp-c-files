@@ -1,0 +1,70 @@
+cocci_test_suite() {
+	struct cardinfo {
+		struct pci_dev *dev;
+		unsigned char __iomem *csr_remap;
+		unsigned int mm_size;
+		unsigned int init_size;
+		struct bio *bio,*currentbio,**biotail;
+		struct bvec_iter current_iter;
+		struct request_queue *queue;
+		struct mm_page {
+			dma_addr_t page_dma;
+			struct mm_dma_desc *desc;
+			int cnt,headcnt;
+			struct bio *bio,**biotail;
+			struct bvec_iter iter;
+		} mm_pages[2];
+#define DESC_PER_PAGE ((PAGE_SIZE * 2) / sizeof(struct mm_dma_desc))
+			int Active,Ready;
+		struct tasklet_struct tasklet;
+		unsigned int dma_status;
+		struct {
+			int good;
+			int warned;
+			unsigned long last_change;
+		} battery[2];
+		spinlock_t lock;
+		int check_batteries;
+		int flags;
+	} cocci_id/* drivers/block/umem.c 97 */;
+	unsigned long cocci_id/* drivers/block/umem.c 792 */;
+	const struct pci_device_id *cocci_id/* drivers/block/umem.c 785 */;
+	struct pci_dev *cocci_id/* drivers/block/umem.c 785 */;
+	const struct block_device_operations cocci_id/* drivers/block/umem.c 779 */;
+	struct hd_geometry *cocci_id/* drivers/block/umem.c 763 */;
+	struct block_device *cocci_id/* drivers/block/umem.c 763 */;
+	struct timer_list *cocci_id/* drivers/block/umem.c 718 */;
+	unsigned char cocci_id/* drivers/block/umem.c 701 */;
+	void cocci_id/* drivers/block/umem.c 664 */(void);
+	unsigned short cocci_id/* drivers/block/umem.c 546 */;
+	irqreturn_t cocci_id/* drivers/block/umem.c 542 */;
+	void *cocci_id/* drivers/block/umem.c 542 */;
+	unsigned long long cocci_id/* drivers/block/umem.c 526 */;
+	blk_qc_t cocci_id/* drivers/block/umem.c 522 */;
+	struct request_queue *cocci_id/* drivers/block/umem.c 522 */;
+	struct blk_plug_cb cocci_id/* drivers/block/umem.c 519 */;
+	bool cocci_id/* drivers/block/umem.c 507 */;
+	struct blk_plug_cb *cocci_id/* drivers/block/umem.c 507 */;
+	char *cocci_id/* drivers/block/umem.c 386 */;
+	u64 cocci_id/* drivers/block/umem.c 383 */;
+	struct bio_vec cocci_id/* drivers/block/umem.c 343 */;
+	struct bio *cocci_id/* drivers/block/umem.c 342 */;
+	dma_addr_t cocci_id/* drivers/block/umem.c 340 */;
+	struct mm_dma_desc *cocci_id/* drivers/block/umem.c 339 */;
+	struct mm_page *cocci_id/* drivers/block/umem.c 338 */;
+	int cocci_id/* drivers/block/umem.c 336 */;
+	struct cardinfo *cocci_id/* drivers/block/umem.c 301 */;
+	void cocci_id/* drivers/block/umem.c 301 */;
+	int cocci_id/* drivers/block/umem.c 299 */(struct cardinfo *card);
+	unsigned int cocci_id/* drivers/block/umem.c 205 */;
+	unsigned char *cocci_id/* drivers/block/umem.c 190 */;
+	void cocci_id/* drivers/block/umem.c 145 */(struct cardinfo *card);
+	struct gendisk *cocci_id/* drivers/block/umem.c 143 */[MM_MAXCARDS];
+	struct timer_list cocci_id/* drivers/block/umem.c 139 */;
+	struct cardinfo cocci_id/* drivers/block/umem.c 138 */[MM_MAXCARDS];
+	void __exit cocci_id/* drivers/block/umem.c 1107 */;
+	struct gendisk *cocci_id/* drivers/block/umem.c 1082 */;
+	int __init cocci_id/* drivers/block/umem.c 1060 */;
+	struct pci_driver cocci_id/* drivers/block/umem.c 1053 */;
+	const struct pci_device_id cocci_id/* drivers/block/umem.c 1037 */[];
+}

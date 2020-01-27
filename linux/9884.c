@@ -1,0 +1,57 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 973 */;
+	struct ieee80211_conf *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 971 */;
+	struct ath9k_nfcal_hist *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 969 */;
+	const struct reg_hole {
+		u32 start;
+		u32 end;
+	} cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 919 */[];
+	unsigned long cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 918 */;
+	struct ath_rx_status *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 819 */;
+	unsigned int cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 784 */;
+	struct ath_txq *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 783 */;
+	struct ath_tx_status *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 783 */;
+	struct ath_buf *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 782 */;
+	struct inode *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 78 */;
+	const char *const cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 754 */[__RESET_TYPE_MAX];
+	u8 *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 74 */;
+	loff_t *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 72 */;
+	size_t cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 72 */;
+	struct file *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 71 */;
+	char __user *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 71 */;
+	ssize_t cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 71 */;
+	struct ath_chanctx *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 664 */;
+	struct ath9k_vif_iter_data cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 663 */;
+	struct seq_file *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 624 */;
+	enum ath9k_int cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 474 */;
+	u32 *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 411 */;
+	u32 cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 409 */[ATH9K_NUM_DMA_DEBUG_REGS];
+	void *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 404 */;
+	const char *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 313 */[4];
+	struct ath_hw_antcomb_conf cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 308 */;
+	struct ath9k_hw_capabilities *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 305 */;
+	u32 cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 29 */;
+	struct ath_antenna_stats *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 289 */;
+	int cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 287 */;
+	struct ath_hw_antcomb_conf *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 286 */;
+	struct ath_softc *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 285 */;
+	void cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 285 */;
+	const char __user *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 188 */;
+	struct {
+		const char *name;
+		unsigned int val;
+	} cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 143 */[];
+	char *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 141 */;
+	const unsigned int cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 139 */;
+	struct ath_common *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 1366 */;
+	struct ath_hw *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 1364 */;
+	u64 *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 1311 */;
+	struct ethtool_stats *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 1311 */;
+	struct ieee80211_vif *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 1289 */;
+	struct ieee80211_hw *cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 1288 */;
+	const char cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 1243 */[][ETH_GSTRING_LEN];
+	long cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 1204 */;
+	bool cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 1147 */;
+	const struct file_operations cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 1043 */;
+	char cocci_id/* drivers/net/wireless/ath/ath9k/debug.c 1034 */[32];
+}

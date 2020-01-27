@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	struct ltq_etop_priv {
+		struct net_device *netdev;
+		struct platform_device *pdev;
+		struct ltq_eth_data *pldata;
+		struct resource *res;
+		struct mii_bus *mii_bus;
+		struct ltq_etop_chan ch[MAX_DMA_CHAN];
+		int tx_free[MAX_DMA_CHAN >> 1];
+		spinlock_t lock;
+	} cocci_id/* drivers/net/ethernet/lantiq_etop.c 88 */;
+	struct ltq_etop_chan {
+		int idx;
+		int tx_free;
+		struct net_device *netdev;
+		struct napi_struct napi;
+		struct ltq_dma_channel dma;
+		struct sk_buff *skb[LTQ_DESC_NUM];
+	} cocci_id/* drivers/net/ethernet/lantiq_etop.c 79 */;
+	void __iomem *cocci_id/* drivers/net/ethernet/lantiq_etop.c 77 */;
+	void cocci_id/* drivers/net/ethernet/lantiq_etop.c 732 */;
+	void __exit cocci_id/* drivers/net/ethernet/lantiq_etop.c 731 */;
+	int cocci_id/* drivers/net/ethernet/lantiq_etop.c 724 */;
+	int __init cocci_id/* drivers/net/ethernet/lantiq_etop.c 721 */;
+	struct platform_driver cocci_id/* drivers/net/ethernet/lantiq_etop.c 714 */;
+	struct ltq_etop_priv cocci_id/* drivers/net/ethernet/lantiq_etop.c 661 */;
+	struct resource *cocci_id/* drivers/net/ethernet/lantiq_etop.c 633 */;
+	struct platform_device *cocci_id/* drivers/net/ethernet/lantiq_etop.c 629 */;
+	const struct net_device_ops cocci_id/* drivers/net/ethernet/lantiq_etop.c 614 */;
+	bool cocci_id/* drivers/net/ethernet/lantiq_etop.c 559 */;
+	struct sockaddr cocci_id/* drivers/net/ethernet/lantiq_etop.c 557 */;
+	u16 *cocci_id/* drivers/net/ethernet/lantiq_etop.c 531 */;
+	u32 *cocci_id/* drivers/net/ethernet/lantiq_etop.c 530 */;
+	struct ifreq *cocci_id/* drivers/net/ethernet/lantiq_etop.c 513 */;
+	unsigned long cocci_id/* drivers/net/ethernet/lantiq_etop.c 501 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/lantiq_etop.c 498 */;
+	unsigned int cocci_id/* drivers/net/ethernet/lantiq_etop.c 482 */;
+	struct phy_device *cocci_id/* drivers/net/ethernet/lantiq_etop.c 343 */;
+	u32 cocci_id/* drivers/net/ethernet/lantiq_etop.c 320 */;
+	struct mii_bus *cocci_id/* drivers/net/ethernet/lantiq_etop.c 318 */;
+	u16 cocci_id/* drivers/net/ethernet/lantiq_etop.c 304 */;
+	const struct ethtool_ops cocci_id/* drivers/net/ethernet/lantiq_etop.c 296 */;
+	struct ethtool_drvinfo *cocci_id/* drivers/net/ethernet/lantiq_etop.c 289 */;
+	void *cocci_id/* drivers/net/ethernet/lantiq_etop.c 198 */;
+	irqreturn_t cocci_id/* drivers/net/ethernet/lantiq_etop.c 197 */;
+	struct ltq_dma_desc cocci_id/* drivers/net/ethernet/lantiq_etop.c 184 */;
+	struct netdev_queue *cocci_id/* drivers/net/ethernet/lantiq_etop.c 174 */;
+	struct ltq_etop_chan cocci_id/* drivers/net/ethernet/lantiq_etop.c 150 */;
+	struct napi_struct *cocci_id/* drivers/net/ethernet/lantiq_etop.c 147 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/lantiq_etop.c 127 */;
+	struct ltq_dma_desc *cocci_id/* drivers/net/ethernet/lantiq_etop.c 126 */;
+	struct ltq_etop_priv *cocci_id/* drivers/net/ethernet/lantiq_etop.c 105 */;
+	struct ltq_etop_chan *cocci_id/* drivers/net/ethernet/lantiq_etop.c 103 */;
+}

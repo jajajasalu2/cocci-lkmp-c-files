@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	struct inode *cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 89 */;
+	struct file *cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 89 */;
+	struct vbg_dev cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 55 */;
+	struct pci_driver cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 490 */;
+	const struct pci_device_id cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 484 */[];
+	void cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 434 */;
+	struct vmmdev_memory *cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 286 */;
+	resource_size_t cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 285 */;
+	const struct pci_device_id *cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 282 */;
+	struct pci_dev *cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 282 */;
+	struct vbg_dev *cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 269 */;
+	struct device_attribute *cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 267 */;
+	char *cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 267 */;
+	struct device *cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 266 */;
+	ssize_t cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 266 */;
+	struct input_dev *cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 232 */;
+	int cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 230 */;
+	u32 cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 203 */;
+	const struct file_operations cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 176 */;
+	struct vbg_ioctl_hdr *cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 144 */;
+	void *cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 111 */;
+	bool cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 109 */;
+	struct vbg_ioctl_hdr cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 108 */;
+	size_t cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 107 */;
+	struct vbg_session *cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 106 */;
+	unsigned long cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 104 */;
+	unsigned int cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 103 */;
+	long cocci_id/* drivers/virt/vboxguest/vboxguest_linux.c 103 */;
+}

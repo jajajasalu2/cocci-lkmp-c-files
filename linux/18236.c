@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	u32 cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 77 */;
+	struct map_desc cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 74 */[]__initdata;
+	unsigned long cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 62 */;
+	void __init cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 562 */;
+	void cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 562 */;
+	struct s3c24xx_audio_simtec_pdata __initdata cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 542 */;
+	struct s3c_cpufreq_board __initdata cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 536 */;
+	struct platform_device *cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 520 */[]__initdata;
+	struct s3c_hwmon_chcfg cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 492 */;
+	struct s3c_hwmon_pdata cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 490 */;
+	struct i2c_board_info cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 480 */[]__initdata;
+	struct s3c2410fb_mach_info __initdata cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 471 */;
+	struct s3c2410fb_display __initdata cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 412 */[];
+	struct platform_device cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 386 */;
+	struct resource cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 380 */[];
+	struct ax_plat_data cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 373 */;
+	struct s3c2410_platform_i2c __initdata cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 365 */;
+	struct plat_serial8250_port cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 333 */[];
+	struct dm9000_plat_data cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 313 */;
+	struct s3c2410_platform_nand __initdata cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 290 */;
+	unsigned int cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 273 */;
+	struct s3c2410_nand_set *cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 271 */;
+	int cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 271 */;
+	struct s3c2410_nand_set __initdata cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 237 */[];
+	struct mtd_partition __initdata cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 211 */[];
+	int cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 207 */[];
+	struct syscore_ops cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 201 */;
+	struct s3c2410_uartcfg cocci_id/* arch/arm/mach-s3c24xx/mach-bast.c 156 */[]__initdata;
+	const struct machine_desc cocci_id/* /home/jaskaran/lkmp/coccinelle/standard.h 397 */;
+}

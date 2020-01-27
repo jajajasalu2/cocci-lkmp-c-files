@@ -1,0 +1,44 @@
+cocci_test_suite() {
+	enum{AUDIO_INT_STATUS=0x00, AUDIO_INT_ENABLE=0x04, AUDIO_SET_WRITE_BUFFER_1=0x08, AUDIO_SET_WRITE_BUFFER_2=0x0C, AUDIO_WRITE_BUFFER_1=0x10, AUDIO_WRITE_BUFFER_2=0x14, AUDIO_SET_WRITE_BUFFER_1_HIGH=0x28, AUDIO_SET_WRITE_BUFFER_2_HIGH=0x30, AUDIO_READ_SUPPORTED=0x18, AUDIO_SET_READ_BUFFER=0x1C, AUDIO_SET_READ_BUFFER_HIGH=0x34, AUDIO_START_READ=0x20, AUDIO_READ_BUFFER_AVAILABLE=0x24, AUDIO_INT_WRITE_BUFFER_1_EMPTY=1U << 0, AUDIO_INT_WRITE_BUFFER_2_EMPTY=1U << 1, AUDIO_INT_READ_BUFFER_FULL=1U << 2, AUDIO_INT_MASK=AUDIO_INT_WRITE_BUFFER_1_EMPTY | AUDIO_INT_WRITE_BUFFER_2_EMPTY | AUDIO_INT_READ_BUFFER_FULL,} cocci_id/* drivers/staging/goldfish/goldfish_audio.c 63 */;
+	struct goldfish_audio *cocci_id/* drivers/staging/goldfish/goldfish_audio.c 61 */;
+	struct platform_driver cocci_id/* drivers/staging/goldfish/goldfish_audio.c 373 */;
+	const struct acpi_device_id cocci_id/* drivers/staging/goldfish/goldfish_audio.c 366 */[];
+	const struct of_device_id cocci_id/* drivers/staging/goldfish/goldfish_audio.c 359 */[];
+	struct goldfish_audio {
+		char __iomem *reg_base;
+		int irq;
+		spinlock_t lock;
+		wait_queue_head_t wait;
+		char *buffer_virt;
+		unsigned long buffer_phys;
+		char *write_buffer1;
+		char *write_buffer2;
+		char *read_buffer;
+		int buffer_status;
+		int read_supported;
+	} cocci_id/* drivers/staging/goldfish/goldfish_audio.c 29 */;
+	dma_addr_t cocci_id/* drivers/staging/goldfish/goldfish_audio.c 286 */;
+	struct resource *cocci_id/* drivers/staging/goldfish/goldfish_audio.c 284 */;
+	struct platform_device *cocci_id/* drivers/staging/goldfish/goldfish_audio.c 281 */;
+	struct miscdevice cocci_id/* drivers/staging/goldfish/goldfish_audio.c 275 */;
+	const struct file_operations cocci_id/* drivers/staging/goldfish/goldfish_audio.c 266 */;
+	u32 cocci_id/* drivers/staging/goldfish/goldfish_audio.c 245 */;
+	unsigned long cocci_id/* drivers/staging/goldfish/goldfish_audio.c 243 */;
+	irqreturn_t cocci_id/* drivers/staging/goldfish/goldfish_audio.c 241 */;
+	void *cocci_id/* drivers/staging/goldfish/goldfish_audio.c 241 */;
+	struct file *cocci_id/* drivers/staging/goldfish/goldfish_audio.c 231 */;
+	long cocci_id/* drivers/staging/goldfish/goldfish_audio.c 231 */;
+	struct inode *cocci_id/* drivers/staging/goldfish/goldfish_audio.c 206 */;
+	char *cocci_id/* drivers/staging/goldfish/goldfish_audio.c 163 */;
+	const char __user *cocci_id/* drivers/staging/goldfish/goldfish_audio.c 157 */;
+	loff_t *cocci_id/* drivers/staging/goldfish/goldfish_audio.c 123 */;
+	size_t cocci_id/* drivers/staging/goldfish/goldfish_audio.c 123 */;
+	char __user *cocci_id/* drivers/staging/goldfish/goldfish_audio.c 122 */;
+	ssize_t cocci_id/* drivers/staging/goldfish/goldfish_audio.c 122 */;
+	char __iomem *cocci_id/* drivers/staging/goldfish/goldfish_audio.c 117 */;
+	void cocci_id/* drivers/staging/goldfish/goldfish_audio.c 108 */;
+	const struct goldfish_audio *cocci_id/* drivers/staging/goldfish/goldfish_audio.c 103 */;
+	unsigned int cocci_id/* drivers/staging/goldfish/goldfish_audio.c 103 */;
+	int cocci_id/* drivers/staging/goldfish/goldfish_audio.c 103 */;
+	atomic_t cocci_id/* drivers/staging/goldfish/goldfish_audio.c 101 */;
+}

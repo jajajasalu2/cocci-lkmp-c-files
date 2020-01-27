@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	unsigned int *cocci_id/* drivers/gpu/drm/drm_ioctl.c 917 */;
+	void __user *cocci_id/* drivers/gpu/drm/drm_ioctl.c 878 */;
+	bool cocci_id/* drivers/gpu/drm/drm_ioctl.c 821 */;
+	char *cocci_id/* drivers/gpu/drm/drm_ioctl.c 819 */;
+	char cocci_id/* drivers/gpu/drm/drm_ioctl.c 818 */[128];
+	drm_ioctl_t *cocci_id/* drivers/gpu/drm/drm_ioctl.c 815 */;
+	const struct drm_ioctl_desc *cocci_id/* drivers/gpu/drm/drm_ioctl.c 814 */;
+	unsigned long cocci_id/* drivers/gpu/drm/drm_ioctl.c 810 */;
+	unsigned int cocci_id/* drivers/gpu/drm/drm_ioctl.c 810 */;
+	struct file *cocci_id/* drivers/gpu/drm/drm_ioctl.c 809 */;
+	long cocci_id/* drivers/gpu/drm/drm_ioctl.c 809 */;
+	u32 cocci_id/* drivers/gpu/drm/drm_ioctl.c 770 */;
+	const struct drm_ioctl_desc cocci_id/* drivers/gpu/drm/drm_ioctl.c 577 */[];
+	struct drm_version *cocci_id/* drivers/gpu/drm/drm_ioctl.c 507 */;
+	const char *cocci_id/* drivers/gpu/drm/drm_ioctl.c 473 */;
+	char __user *cocci_id/* drivers/gpu/drm/drm_ioctl.c 473 */;
+	size_t *cocci_id/* drivers/gpu/drm/drm_ioctl.c 473 */;
+	int cocci_id/* drivers/gpu/drm/drm_ioctl.c 473 */;
+	struct drm_set_version *cocci_id/* drivers/gpu/drm/drm_ioctl.c 385 */;
+	struct drm_set_client_cap *cocci_id/* drivers/gpu/drm/drm_ioctl.c 317 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/drm_ioctl.c 238 */;
+	struct drm_get_cap *cocci_id/* drivers/gpu/drm/drm_ioctl.c 237 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/drm_ioctl.c 235 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/drm_ioctl.c 235 */;
+	void *cocci_id/* drivers/gpu/drm/drm_ioctl.c 235 */;
+	struct drm_stats *cocci_id/* drivers/gpu/drm/drm_ioctl.c 224 */;
+	struct drm_client *cocci_id/* drivers/gpu/drm/drm_ioctl.c 185 */;
+	void cocci_id/* drivers/gpu/drm/drm_ioctl.c 136 */;
+	struct drm_master *cocci_id/* drivers/gpu/drm/drm_ioctl.c 121 */;
+	struct drm_unique *cocci_id/* drivers/gpu/drm/drm_ioctl.c 120 */;
+}

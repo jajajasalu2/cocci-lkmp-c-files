@@ -1,0 +1,97 @@
+cocci_test_suite() {
+	enum dma_transfer_direction cocci_id/* drivers/dma/stm32-dma.c 895 */;
+	dma_addr_t cocci_id/* drivers/dma/stm32-dma.c 894 */;
+	struct dma_async_tx_descriptor *cocci_id/* drivers/dma/stm32-dma.c 893 */;
+	struct scatterlist *cocci_id/* drivers/dma/stm32-dma.c 829 */;
+	struct stm32_dma_chan_reg cocci_id/* drivers/dma/stm32-dma.c 825 */;
+	struct stm32_dma_chan_reg *cocci_id/* drivers/dma/stm32-dma.c 823 */;
+	void cocci_id/* drivers/dma/stm32-dma.c 823 */;
+	enum dma_slave_buswidth *cocci_id/* drivers/dma/stm32-dma.c 694 */;
+	u32 cocci_id/* drivers/dma/stm32-dma.c 638 */;
+	irqreturn_t cocci_id/* drivers/dma/stm32-dma.c 634 */;
+	void *cocci_id/* drivers/dma/stm32-dma.c 634 */;
+	struct stm32_dma_sg_req *cocci_id/* drivers/dma/stm32-dma.c 589 */;
+	void cocci_id/* drivers/dma/stm32-dma.c 528 */(struct stm32_dma_chan *chan);
+	unsigned long cocci_id/* drivers/dma/stm32-dma.c 425 */;
+	struct dma_slave_config *cocci_id/* drivers/dma/stm32-dma.c 367 */;
+	enum dma_slave_buswidth cocci_id/* drivers/dma/stm32-dma.c 280 */;
+	bool cocci_id/* drivers/dma/stm32-dma.c 279 */;
+	struct stm32_dma_chan *cocci_id/* drivers/dma/stm32-dma.c 231 */;
+	struct device *cocci_id/* drivers/dma/stm32-dma.c 231 */;
+	struct stm32_dma_chan cocci_id/* drivers/dma/stm32-dma.c 223 */;
+	struct stm32_dma_device cocci_id/* drivers/dma/stm32-dma.c 217 */;
+	struct stm32_dma_device {
+		struct dma_device ddev;
+		void __iomem *base;
+		struct clk *clk;
+		struct reset_control *rst;
+		bool mem2mem;
+		struct stm32_dma_chan chan[STM32_DMA_MAX_CHANNELS];
+	} cocci_id/* drivers/dma/stm32-dma.c 206 */;
+	struct stm32_dma_chan {
+		struct virt_dma_chan vchan;
+		bool config_init;
+		bool busy;
+		u32 id;
+		u32 irq;
+		struct stm32_dma_desc *desc;
+		u32 next_sg;
+		struct dma_slave_config dma_sconfig;
+		struct stm32_dma_chan_reg chan_reg;
+		u32 threshold;
+		u32 mem_burst;
+		u32 mem_width;
+	} cocci_id/* drivers/dma/stm32-dma.c 191 */;
+	struct stm32_dma_desc {
+		struct virt_dma_desc vdesc;
+		bool cyclic;
+		u32 num_sgs;
+		struct stm32_dma_sg_req sg_req[];
+	} cocci_id/* drivers/dma/stm32-dma.c 184 */;
+	struct stm32_dma_sg_req {
+		u32 len;
+		struct stm32_dma_chan_reg chan_reg;
+	} cocci_id/* drivers/dma/stm32-dma.c 179 */;
+	struct stm32_dma_chan_reg {
+		u32 dma_lisr;
+		u32 dma_hisr;
+		u32 dma_lifcr;
+		u32 dma_hifcr;
+		u32 dma_scr;
+		u32 dma_sndtr;
+		u32 dma_spar;
+		u32 dma_sm0ar;
+		u32 dma_sm1ar;
+		u32 dma_sfcr;
+	} cocci_id/* drivers/dma/stm32-dma.c 166 */;
+	struct stm32_dma_cfg {
+		u32 channel_id;
+		u32 request_line;
+		u32 stream_config;
+		u32 features;
+	} cocci_id/* drivers/dma/stm32-dma.c 159 */;
+	enum stm32_dma_burst_size{STM32_DMA_BURST_SINGLE, STM32_DMA_BURST_INCR4, STM32_DMA_BURST_INCR8, STM32_DMA_BURST_INCR16,} cocci_id/* drivers/dma/stm32-dma.c 145 */;
+	int __init cocci_id/* drivers/dma/stm32-dma.c 1443 */;
+	struct platform_driver cocci_id/* drivers/dma/stm32-dma.c 1435 */;
+	const struct dev_pm_ops cocci_id/* drivers/dma/stm32-dma.c 1430 */;
+	enum stm32_dma_width{STM32_DMA_BYTE, STM32_DMA_HALF_WORD, STM32_DMA_WORD,} cocci_id/* drivers/dma/stm32-dma.c 139 */;
+	struct resource *cocci_id/* drivers/dma/stm32-dma.c 1277 */;
+	const struct of_device_id *cocci_id/* drivers/dma/stm32-dma.c 1276 */;
+	struct dma_device *cocci_id/* drivers/dma/stm32-dma.c 1275 */;
+	struct platform_device *cocci_id/* drivers/dma/stm32-dma.c 1271 */;
+	const struct of_device_id cocci_id/* drivers/dma/stm32-dma.c 1265 */[];
+	struct stm32_dma_cfg cocci_id/* drivers/dma/stm32-dma.c 1232 */;
+	struct of_dma *cocci_id/* drivers/dma/stm32-dma.c 1228 */;
+	struct of_phandle_args *cocci_id/* drivers/dma/stm32-dma.c 1227 */;
+	struct stm32_dma_cfg *cocci_id/* drivers/dma/stm32-dma.c 1214 */;
+	struct stm32_dma_desc cocci_id/* drivers/dma/stm32-dma.c 1210 */;
+	struct virt_dma_desc *cocci_id/* drivers/dma/stm32-dma.c 1208 */;
+	struct stm32_dma_device *cocci_id/* drivers/dma/stm32-dma.c 1172 */;
+	struct dma_chan *cocci_id/* drivers/dma/stm32-dma.c 1169 */;
+	int cocci_id/* drivers/dma/stm32-dma.c 1169 */;
+	struct dma_tx_state *cocci_id/* drivers/dma/stm32-dma.c 1142 */;
+	dma_cookie_t cocci_id/* drivers/dma/stm32-dma.c 1141 */;
+	enum dma_status cocci_id/* drivers/dma/stm32-dma.c 1140 */;
+	struct stm32_dma_desc *cocci_id/* drivers/dma/stm32-dma.c 1075 */;
+	size_t cocci_id/* drivers/dma/stm32-dma.c 1074 */;
+}

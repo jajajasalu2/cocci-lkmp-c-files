@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	enum{MLX4_MAX_MTT_SHIFT=31,} cocci_id/* drivers/infiniband/hw/mlx4/mr.c 90 */;
+	unsigned int *cocci_id/* drivers/infiniband/hw/mlx4/mr.c 807 */;
+	struct scatterlist *cocci_id/* drivers/infiniband/hw/mlx4/mr.c 806 */;
+	struct mlx4_dev *cocci_id/* drivers/infiniband/hw/mlx4/mr.c 749 */;
+	struct list_head *cocci_id/* drivers/infiniband/hw/mlx4/mr.c 745 */;
+	u64 *cocci_id/* drivers/infiniband/hw/mlx4/mr.c 735 */;
+	struct mlx4_ib_fmr *cocci_id/* drivers/infiniband/hw/mlx4/mr.c 705 */;
+	struct ib_fmr_attr *cocci_id/* drivers/infiniband/hw/mlx4/mr.c 702 */;
+	struct ib_fmr *cocci_id/* drivers/infiniband/hw/mlx4/mr.c 701 */;
+	struct mlx4_ib_dev *cocci_id/* drivers/infiniband/hw/mlx4/mr.c 660 */;
+	enum ib_mr_type cocci_id/* drivers/infiniband/hw/mlx4/mr.c 657 */;
+	struct ib_pd *cocci_id/* drivers/infiniband/hw/mlx4/mr.c 657 */;
+	struct ib_mr *cocci_id/* drivers/infiniband/hw/mlx4/mr.c 657 */;
+	struct mlx4_ib_mw *cocci_id/* drivers/infiniband/hw/mlx4/mr.c 618 */;
+	enum ib_mw_type cocci_id/* drivers/infiniband/hw/mlx4/mr.c 614 */;
+	struct ib_mw *cocci_id/* drivers/infiniband/hw/mlx4/mr.c 614 */;
+	void cocci_id/* drivers/infiniband/hw/mlx4/mr.c 584 */;
+	unsigned long cocci_id/* drivers/infiniband/hw/mlx4/mr.c 580 */;
+	__be64 *cocci_id/* drivers/infiniband/hw/mlx4/mr.c 565 */;
+	struct mlx4_ib_mr *cocci_id/* drivers/infiniband/hw/mlx4/mr.c 551 */;
+	struct ib_device *cocci_id/* drivers/infiniband/hw/mlx4/mr.c 550 */;
+	enum mlx4_mw_type cocci_id/* drivers/infiniband/hw/mlx4/mr.c 49 */;
+	struct mlx4_mpt_entry **cocci_id/* drivers/infiniband/hw/mlx4/mr.c 467 */;
+	struct mlx4_mpt_entry *cocci_id/* drivers/infiniband/hw/mlx4/mr.c 466 */;
+	u32 cocci_id/* drivers/infiniband/hw/mlx4/mr.c 39 */;
+	int cocci_id/* drivers/infiniband/hw/mlx4/mr.c 39 */;
+	struct vm_area_struct *cocci_id/* drivers/infiniband/hw/mlx4/mr.c 381 */;
+	struct ib_umem *cocci_id/* drivers/infiniband/hw/mlx4/mr.c 370 */;
+	struct ib_udata *cocci_id/* drivers/infiniband/hw/mlx4/mr.c 370 */;
+	int *cocci_id/* drivers/infiniband/hw/mlx4/mr.c 258 */;
+	struct mlx4_mtt *cocci_id/* drivers/infiniband/hw/mlx4/mr.c 182 */;
+	u64 cocci_id/* drivers/infiniband/hw/mlx4/mr.c 147 */;
+}

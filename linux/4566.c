@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	off_t cocci_id/* drivers/misc/mic/scif/scif_fence.c 714 */;
+	struct scif_remote_fence_info *cocci_id/* drivers/misc/mic/scif/scif_fence.c 66 */;
+	dma_cookie_t cocci_id/* drivers/misc/mic/scif/scif_fence.c 592 */;
+	struct dma_async_tx_descriptor *cocci_id/* drivers/misc/mic/scif/scif_fence.c 591 */;
+	struct dma_device *cocci_id/* drivers/misc/mic/scif/scif_fence.c 590 */;
+	struct dma_chan *cocci_id/* drivers/misc/mic/scif/scif_fence.c 589 */;
+	struct scif_endpt *cocci_id/* drivers/misc/mic/scif/scif_fence.c 588 */;
+	scif_epd_t cocci_id/* drivers/misc/mic/scif/scif_fence.c 586 */;
+	int *cocci_id/* drivers/misc/mic/scif/scif_fence.c 586 */;
+	int cocci_id/* drivers/misc/mic/scif/scif_fence.c 586 */;
+	void *cocci_id/* drivers/misc/mic/scif/scif_fence.c 572 */;
+	void cocci_id/* drivers/misc/mic/scif/scif_fence.c 572 */;
+	struct scif_fence_info *cocci_id/* drivers/misc/mic/scif/scif_fence.c 400 */;
+	struct scifmsg cocci_id/* drivers/misc/mic/scif/scif_fence.c 399 */;
+	struct scif_remote_fence_info cocci_id/* drivers/misc/mic/scif/scif_fence.c 374 */;
+	struct list_head *cocci_id/* drivers/misc/mic/scif/scif_fence.c 366 */;
+	u64 *cocci_id/* drivers/misc/mic/scif/scif_fence.c 321 */;
+	struct scif_rma_req cocci_id/* drivers/misc/mic/scif/scif_fence.c 298 */;
+	enum scif_window_type cocci_id/* drivers/misc/mic/scif/scif_fence.c 294 */;
+	struct scif_status cocci_id/* drivers/misc/mic/scif/scif_fence.c 242 */;
+	struct scif_cb_arg *cocci_id/* drivers/misc/mic/scif/scif_fence.c 204 */;
+	struct scif_status *cocci_id/* drivers/misc/mic/scif/scif_fence.c 203 */;
+	bool cocci_id/* drivers/misc/mic/scif/scif_fence.c 201 */;
+	u64 cocci_id/* drivers/misc/mic/scif/scif_fence.c 196 */;
+	dma_addr_t cocci_id/* drivers/misc/mic/scif/scif_fence.c 196 */;
+	struct page **cocci_id/* drivers/misc/mic/scif/scif_fence.c 180 */;
+	struct scifmsg *cocci_id/* drivers/misc/mic/scif/scif_fence.c 18 */;
+	struct scif_dev *cocci_id/* drivers/misc/mic/scif/scif_fence.c 18 */;
+	struct scif_window *cocci_id/* drivers/misc/mic/scif/scif_fence.c 178 */;
+}

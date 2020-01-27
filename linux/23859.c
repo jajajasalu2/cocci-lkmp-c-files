@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	struct sock *cocci_id/* net/sched/sch_etf.c 79 */;
+	void __exit cocci_id/* net/sched/sch_etf.c 514 */;
+	int __init cocci_id/* net/sched/sch_etf.c 509 */;
+	struct etf_sched_data cocci_id/* net/sched/sch_etf.c 498 */;
+	struct Qdisc_ops cocci_id/* net/sched/sch_etf.c 496 */;
+	struct nlattr *cocci_id/* net/sched/sch_etf.c 469 */;
+	struct tc_etf_qopt cocci_id/* net/sched/sch_etf.c 468 */;
+	struct net_device *cocci_id/* net/sched/sch_etf.c 456 */;
+	void cocci_id/* net/sched/sch_etf.c 453 */;
+	const struct nla_policy cocci_id/* net/sched/sch_etf.c 40 */[TCA_ETF_MAX + 1];
+	struct tc_etf_qopt *cocci_id/* net/sched/sch_etf.c 351 */;
+	struct nlattr *cocci_id/* net/sched/sch_etf.c 350 */[TCA_ETF_MAX + 1];
+	struct netlink_ext_ack *cocci_id/* net/sched/sch_etf.c 319 */;
+	int cocci_id/* net/sched/sch_etf.c 300 */;
+	const struct net_device_ops *cocci_id/* net/sched/sch_etf.c 299 */;
+	struct tc_etf_qopt_offload cocci_id/* net/sched/sch_etf.c 298 */;
+	struct etf_sched_data {
+		bool offload;
+		bool deadline_mode;
+		bool skip_sock_check;
+		int clockid;
+		int queue;
+		s32 delta;
+		ktime_t last;
+		struct rb_root_cached head;
+		struct qdisc_watchdog watchdog;
+		ktime_t (*get_time)(void);
+	} cocci_id/* net/sched/sch_etf.c 27 */;
+	ktime_t cocci_id/* net/sched/sch_etf.c 256 */;
+	struct etf_sched_data *cocci_id/* net/sched/sch_etf.c 254 */;
+	struct sk_buff *cocci_id/* net/sched/sch_etf.c 252 */;
+	struct Qdisc *cocci_id/* net/sched/sch_etf.c 252 */;
+	bool cocci_id/* net/sched/sch_etf.c 167 */;
+	struct rb_node **cocci_id/* net/sched/sch_etf.c 165 */;
+	struct sk_buff **cocci_id/* net/sched/sch_etf.c 162 */;
+	struct sock_exterr_skb *cocci_id/* net/sched/sch_etf.c 137 */;
+	u8 cocci_id/* net/sched/sch_etf.c 135 */;
+	u32 cocci_id/* net/sched/sch_etf.c 135 */;
+	struct rb_node *cocci_id/* net/sched/sch_etf.c 111 */;
+}

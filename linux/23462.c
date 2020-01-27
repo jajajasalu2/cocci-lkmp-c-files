@@ -1,0 +1,61 @@
+cocci_test_suite() {
+	struct platform_driver cocci_id/* sound/soc/codecs/hdmi-codec.c 839 */;
+	struct device *cocci_id/* sound/soc/codecs/hdmi-codec.c 792 */;
+	struct hdmi_codec_pdata *cocci_id/* sound/soc/codecs/hdmi-codec.c 790 */;
+	struct platform_device *cocci_id/* sound/soc/codecs/hdmi-codec.c 788 */;
+	const struct snd_soc_component_driver cocci_id/* sound/soc/codecs/hdmi-codec.c 778 */;
+	struct device_node *cocci_id/* sound/soc/codecs/hdmi-codec.c 767 */;
+	const struct snd_soc_dai_driver cocci_id/* sound/soc/codecs/hdmi-codec.c 733 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/codecs/hdmi-codec.c 727 */;
+	const struct snd_pcm_chmap_elem cocci_id/* sound/soc/codecs/hdmi-codec.c 70 */[];
+	struct snd_soc_jack *cocci_id/* sound/soc/codecs/hdmi-codec.c 694 */;
+	struct snd_soc_component *cocci_id/* sound/soc/codecs/hdmi-codec.c 693 */;
+	bool cocci_id/* sound/soc/codecs/hdmi-codec.c 678 */;
+	struct snd_soc_dapm_route cocci_id/* sound/soc/codecs/hdmi-codec.c 650 */;
+	struct snd_soc_dapm_context *cocci_id/* sound/soc/codecs/hdmi-codec.c 648 */;
+	struct snd_kcontrol_new cocci_id/* sound/soc/codecs/hdmi-codec.c 613 */;
+	struct snd_soc_dai_driver *cocci_id/* sound/soc/codecs/hdmi-codec.c 610 */;
+	struct snd_soc_pcm_runtime *cocci_id/* sound/soc/codecs/hdmi-codec.c 607 */;
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/codecs/hdmi-codec.c 568 */;
+	struct hdmi_codec_cea_spk_alloc {
+		const int ca_id;
+		unsigned int n_ch;
+		unsigned long mask;
+	} cocci_id/* sound/soc/codecs/hdmi-codec.c 56 */;
+	struct hdmi_codec_params cocci_id/* sound/soc/codecs/hdmi-codec.c 443 */;
+	struct hdmi_codec_daifmt *cocci_id/* sound/soc/codecs/hdmi-codec.c 442 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/codecs/hdmi-codec.c 438 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/codecs/hdmi-codec.c 437 */;
+	enum hdmi_codec_cea_spk_placement{FL=BIT(0), FC=BIT(1), FR=BIT(2), FLC=BIT(3), FRC=BIT(4), RL=BIT(5), RC=BIT(6), RR=BIT(7), RLC=BIT(8), RRC=BIT(9), LFE=BIT(10),} cocci_id/* sound/soc/codecs/hdmi-codec.c 39 */;
+	struct hdmi_codec_priv *cocci_id/* sound/soc/codecs/hdmi-codec.c 373 */;
+	struct snd_pcm_chmap *cocci_id/* sound/soc/codecs/hdmi-codec.c 372 */;
+	unsigned int cocci_id/* sound/soc/codecs/hdmi-codec.c 371 */;
+	const unsigned char *cocci_id/* sound/soc/codecs/hdmi-codec.c 370 */;
+	struct snd_ctl_elem_value *cocci_id/* sound/soc/codecs/hdmi-codec.c 368 */;
+	struct snd_kcontrol *cocci_id/* sound/soc/codecs/hdmi-codec.c 367 */;
+	int cocci_id/* sound/soc/codecs/hdmi-codec.c 367 */;
+	const struct hdmi_codec_cea_spk_alloc *cocci_id/* sound/soc/codecs/hdmi-codec.c 349 */;
+	unsigned char cocci_id/* sound/soc/codecs/hdmi-codec.c 344 */;
+	unsigned long cocci_id/* sound/soc/codecs/hdmi-codec.c 331 */;
+	u8 cocci_id/* sound/soc/codecs/hdmi-codec.c 330 */;
+	void cocci_id/* sound/soc/codecs/hdmi-codec.c 328 */;
+	const unsigned long cocci_id/* sound/soc/codecs/hdmi-codec.c 314 */[];
+	struct hdmi_codec_priv cocci_id/* sound/soc/codecs/hdmi-codec.c 295 */;
+	struct snd_ctl_elem_info *cocci_id/* sound/soc/codecs/hdmi-codec.c 292 */;
+	enum{DAI_ID_I2S=0, DAI_ID_SPDIF,} cocci_id/* sound/soc/codecs/hdmi-codec.c 286 */;
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/codecs/hdmi-codec.c 282 */[];
+	struct hdmi_codec_priv {
+		struct hdmi_codec_pdata hcd;
+		uint8_t eld[MAX_ELD_BYTES];
+		struct snd_pcm_chmap *chmap_info;
+		unsigned int chmap_idx;
+		unsigned long busy;
+		struct snd_soc_jack *jack;
+		unsigned int jack_status;
+	} cocci_id/* sound/soc/codecs/hdmi-codec.c 272 */;
+	struct hdmi_codec_channel_map_table {
+		unsigned char map;
+		unsigned long spk_mask;
+	} cocci_id/* sound/soc/codecs/hdmi-codec.c 23 */;
+	const struct hdmi_codec_cea_spk_alloc cocci_id/* sound/soc/codecs/hdmi-codec.c 196 */[];
+}

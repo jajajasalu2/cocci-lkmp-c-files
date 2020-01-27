@@ -1,0 +1,53 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/tty/serial/sirfsoc_uart.c 709 */;
+	struct ktermios *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 694 */;
+	unsigned short cocci_id/* drivers/tty/serial/sirfsoc_uart.c 667 */;
+	unsigned long *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 664 */;
+	unsigned int cocci_id/* drivers/tty/serial/sirfsoc_uart.c 662 */;
+	struct sirfsoc_uart_port *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 59 */[SIRFSOC_UART_NR];
+	struct circ_buf *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 476 */;
+	struct uart_state *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 475 */;
+	struct sirfsoc_int_status *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 473 */;
+	irqreturn_t cocci_id/* drivers/tty/serial/sirfsoc_uart.c 464 */;
+	void *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 464 */;
+	struct tty_struct *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 399 */;
+	unsigned long cocci_id/* drivers/tty/serial/sirfsoc_uart.c 383 */;
+	struct sirfsoc_register *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 381 */;
+	struct sirfsoc_uart_port *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 380 */;
+	const struct sirfsoc_baudrate_to_regv cocci_id/* drivers/tty/serial/sirfsoc_uart.c 38 */[];
+	struct uart_port *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 378 */;
+	int cocci_id/* drivers/tty/serial/sirfsoc_uart.c 378 */;
+	void cocci_id/* drivers/tty/serial/sirfsoc_uart.c 378 */;
+	void cocci_id/* drivers/tty/serial/sirfsoc_uart.c 37 */(void *param);
+	struct uart_driver cocci_id/* drivers/tty/serial/sirfsoc_uart.c 35 */;
+	unsigned int cocci_id/* drivers/tty/serial/sirfsoc_uart.c 33 */(struct uart_port *port,
+									unsigned int max_rx_count);
+	struct sirfsoc_int_en *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 322 */;
+	unsigned int cocci_id/* drivers/tty/serial/sirfsoc_uart.c 31 */(struct sirfsoc_uart_port *sirfport,
+									int count);
+	void __exit cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1494 */;
+	struct platform_driver cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1468 */;
+	const struct dev_pm_ops cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1464 */;
+	struct device *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1455 */;
+	struct sirfsoc_uart_register *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1297 */;
+	const struct of_device_id *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1277 */;
+	struct dma_slave_config cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1271 */;
+	struct resource *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1269 */;
+	struct device_node *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1266 */;
+	struct platform_device *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1264 */;
+	const struct of_device_id cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1255 */[];
+	const unsigned char *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1200 */;
+	struct sirfsoc_uart_port cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1180 */;
+	struct dma_tx_state cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1173 */;
+	struct hrtimer *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1168 */;
+	enum hrtimer_restart cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1167 */;
+	int __init cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1145 */;
+	struct console cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1135 */;
+	const char *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1126 */;
+	struct sirfsoc_fifo_status *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1119 */;
+	struct console *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1084 */;
+	char *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1084 */;
+	int __init cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1083 */;
+	const struct uart_ops cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1063 */;
+	struct sirfsoc_uart_param *cocci_id/* drivers/tty/serial/sirfsoc_uart.c 1043 */;
+}

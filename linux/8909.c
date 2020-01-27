@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	struct skb_shared_hwtstamps *cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 97 */;
+	struct platform_driver cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 470 */;
+	bool cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 44 */;
+	struct ocelot_port_private cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 400 */;
+	u32 cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 371 */;
+	char cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 370 */[8];
+	void __iomem *cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 369 */;
+	struct phy *cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 368 */;
+	struct phy_device *cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 366 */;
+	phy_interface_t cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 365 */;
+	struct ocelot_port_private *cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 362 */;
+	struct ocelot_port *cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 355 */;
+	struct resource *cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 292 */;
+	struct {
+		enum ocelot_target id;
+		char *name;
+		u8 optional:1;
+	} cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 266 */[];
+	unsigned int cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 264 */;
+	struct regmap *cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 263 */;
+	struct ocelot *cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 262 */;
+	__be64 *cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 26 */;
+	struct device_node *cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 259 */;
+	struct platform_device *cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 257 */;
+	int cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 257 */;
+	const struct ocelot_ops cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 252 */;
+	u64 cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 24 */[2];
+	u8 cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 23 */;
+	u32 *cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 21 */;
+	struct frame_info *cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 21 */;
+	void cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 206 */;
+	const struct of_device_id cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 200 */[];
+	irqreturn_t cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 191 */;
+	void *cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 191 */;
+	struct skb_shared_hwtstamps cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 168 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 106 */;
+	struct timespec64 cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 104 */;
+	u32 cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 103 */[4];
+	struct net_device *cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 102 */;
+	struct frame_info cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 101 */;
+	u64 cocci_id/* drivers/net/ethernet/mscc/ocelot_board.c 100 */;
+}

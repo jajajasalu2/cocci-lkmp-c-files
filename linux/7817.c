@@ -1,0 +1,70 @@
+cocci_test_suite() {
+	int cocci_id/* drivers/message/fusion/mptfc.c 99 */(struct scsi_device *sdev);
+	int cocci_id/* drivers/message/fusion/mptfc.c 98 */(struct scsi_target *starget);
+	unsigned cocci_id/* drivers/message/fusion/mptfc.c 976 */;
+	void cocci_id/* drivers/message/fusion/mptfc.c 944 */;
+	u8 cocci_id/* drivers/message/fusion/mptfc.c 94 */;
+	FCPortPage1_t cocci_id/* drivers/message/fusion/mptfc.c 904 */;
+	int cocci_id/* drivers/message/fusion/mptfc.c 90 */;
+	FCPortPage1_t *cocci_id/* drivers/message/fusion/mptfc.c 874 */;
+	FCPortPage0_t cocci_id/* drivers/message/fusion/mptfc.c 777 */;
+	FCPortPage0_t *cocci_id/* drivers/message/fusion/mptfc.c 735 */;
+	char *cocci_id/* drivers/message/fusion/mptfc.c 685 */;
+	VirtDevice *cocci_id/* drivers/message/fusion/mptfc.c 648 */;
+	VirtDevice cocci_id/* drivers/message/fusion/mptfc.c 615 */;
+	unsigned long long cocci_id/* drivers/message/fusion/mptfc.c 585 */;
+	struct mptfc_rport_info **cocci_id/* drivers/message/fusion/mptfc.c 574 */;
+	struct mptfc_rport_info *cocci_id/* drivers/message/fusion/mptfc.c 572 */;
+	u64 cocci_id/* drivers/message/fusion/mptfc.c 571 */;
+	VirtTarget *cocci_id/* drivers/message/fusion/mptfc.c 569 */;
+	VirtTarget cocci_id/* drivers/message/fusion/mptfc.c 537 */;
+	struct mptfc_rport_info cocci_id/* drivers/message/fusion/mptfc.c 449 */;
+	u32 cocci_id/* drivers/message/fusion/mptfc.c 430 */;
+	struct fc_rport_identifiers cocci_id/* drivers/message/fusion/mptfc.c 424 */;
+	struct fc_rport_identifiers *cocci_id/* drivers/message/fusion/mptfc.c 396 */;
+	u8 *cocci_id/* drivers/message/fusion/mptfc.c 371 */;
+	FCDevicePage0_t cocci_id/* drivers/message/fusion/mptfc.c 304 */;
+	U32 cocci_id/* drivers/message/fusion/mptfc.c 297 */;
+	dma_addr_t cocci_id/* drivers/message/fusion/mptfc.c 289 */;
+	FCDevicePage0_t *cocci_id/* drivers/message/fusion/mptfc.c 288 */;
+	CONFIGPARMS cocci_id/* drivers/message/fusion/mptfc.c 287 */;
+	ConfigPageHeader_t cocci_id/* drivers/message/fusion/mptfc.c 286 */;
+	void (*cocci_id/* drivers/message/fusion/mptfc.c 284 */)(MPT_ADAPTER *ioc,
+								 int channel,
+								 FCDevicePage0_t *arg);
+	MPT_ADAPTER *cocci_id/* drivers/message/fusion/mptfc.c 283 */;
+	FCDevicePage0_t **cocci_id/* drivers/message/fusion/mptfc.c 267 */;
+	const void *cocci_id/* drivers/message/fusion/mptfc.c 265 */;
+	uint32_t cocci_id/* drivers/message/fusion/mptfc.c 256 */;
+	struct scsi_cmnd *cocci_id/* drivers/message/fusion/mptfc.c 235 */;
+	unsigned long cocci_id/* drivers/message/fusion/mptfc.c 194 */;
+	struct fc_rport *cocci_id/* drivers/message/fusion/mptfc.c 193 */;
+	struct Scsi_Host *cocci_id/* drivers/message/fusion/mptfc.c 192 */;
+	struct scsi_device *cocci_id/* drivers/message/fusion/mptfc.c 191 */;
+	MPT_SCSI_HOST *cocci_id/* drivers/message/fusion/mptfc.c 190 */;
+	const char *cocci_id/* drivers/message/fusion/mptfc.c 188 */;
+	int (*cocci_id/* drivers/message/fusion/mptfc.c 187 */)(struct scsi_cmnd *SCpnt);
+	struct fc_function_template cocci_id/* drivers/message/fusion/mptfc.c 164 */;
+	struct scsi_transport_template *cocci_id/* drivers/message/fusion/mptfc.c 162 */;
+	void __exit cocci_id/* drivers/message/fusion/mptfc.c 1538 */;
+	struct workqueue_struct *cocci_id/* drivers/message/fusion/mptfc.c 1498 */;
+	int __init cocci_id/* drivers/message/fusion/mptfc.c 1454 */;
+	struct pci_device_id cocci_id/* drivers/message/fusion/mptfc.c 139 */[];
+	EventNotificationReply_t *cocci_id/* drivers/message/fusion/mptfc.c 1367 */;
+	struct pci_driver cocci_id/* drivers/message/fusion/mptfc.c 1354 */;
+	void *cocci_id/* drivers/message/fusion/mptfc.c 1294 */;
+	MPT_SCSI_HOST cocci_id/* drivers/message/fusion/mptfc.c 1223 */;
+	const struct pci_device_id *cocci_id/* drivers/message/fusion/mptfc.c 1169 */;
+	struct pci_dev *cocci_id/* drivers/message/fusion/mptfc.c 1169 */;
+	struct scsi_target *cocci_id/* drivers/message/fusion/mptfc.c 1121 */;
+	struct scsi_host_template cocci_id/* drivers/message/fusion/mptfc.c 108 */;
+	MPT_ADAPTER cocci_id/* drivers/message/fusion/mptfc.c 1071 */;
+	struct work_struct *cocci_id/* drivers/message/fusion/mptfc.c 1068 */;
+	int cocci_id/* drivers/message/fusion/mptfc.c 104 */(struct scsi_cmnd *SCpnt);
+	void cocci_id/* drivers/message/fusion/mptfc.c 103 */(struct pci_dev *pdev);
+	void cocci_id/* drivers/message/fusion/mptfc.c 102 */(struct fc_rport *rport,
+							      uint32_t timeout);
+	void cocci_id/* drivers/message/fusion/mptfc.c 101 */(struct scsi_target *starget);
+	int cocci_id/* drivers/message/fusion/mptfc.c 100 */(struct Scsi_Host *shost,
+							     struct scsi_cmnd *SCpnt);
+}

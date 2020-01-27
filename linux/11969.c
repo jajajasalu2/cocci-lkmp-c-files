@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	struct nvbios_dpcfg cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 80 */;
+	struct nvbios_dpout cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 79 */;
+	struct nvkm_outp **cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 681 */;
+	struct nvkm_i2c_ntfy_rep cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 667 */;
+	struct nvkm_i2c_ntfy_req cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 661 */;
+	struct nvkm_i2c *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 632 */;
+	struct nvkm_bios *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 631 */;
+	struct nvkm_device *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 630 */;
+	struct nvkm_i2c_aux *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 628 */;
+	struct nvkm_disp *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 627 */;
+	struct dcb_output *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 627 */;
+	const struct nvkm_outp_func cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 616 */;
+	void *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 608 */;
+	struct nvkm_gpio *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 573 */;
+	struct nvif_notify_conn_rep_v0 cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 542 */;
+	struct nvkm_conn *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 540 */;
+	typeof(*dp) cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 539 */;
+	const struct nvkm_i2c_ntfy_rep *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 538 */;
+	struct nvkm_notify *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 536 */;
+	u8 cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 487 */;
+	u8 cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 455 */[3];
+	u32 cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 452 */;
+	bool cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 451 */;
+	struct nvkm_head *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 450 */;
+	struct nvkm_ior *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 449 */;
+	struct nvkm_dp *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 448 */;
+	struct nvkm_outp *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 446 */;
+	int cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 445 */;
+	void cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 422 */;
+	struct lt_state {
+		struct nvkm_dp *dp;
+		u8 stat[6];
+		u8 conf[4];
+		bool pc2;
+		u8 pc2stat;
+		u8 pc2conf[2];
+	} cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 36 */;
+	const struct dp_rates *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 352 */;
+	const u8 cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 348 */;
+	const struct dp_rates {
+		u32 rate;
+		u8 bw;
+		u8 nr;
+	} cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 327 */[];
+	u8 cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 230 */[2];
+	struct lt_state cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 226 */;
+	struct nvkm_subdev *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 224 */;
+	struct lt_state *cocci_id/* drivers/gpu/drm/nouveau/nvkm/engine/disp/dp.c 186 */;
+}

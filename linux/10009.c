@@ -1,0 +1,35 @@
+cocci_test_suite() {
+	struct hostap_radiotap_rx cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 86 */;
+	struct linux_wlan_ng_cap_hdr cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 82 */;
+	struct linux_wlan_ng_prism_hdr cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 79 */;
+	struct iw_quality cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 764 */;
+	void *cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 734 */;
+	struct lib80211_crypt_data *cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 733 */;
+	u8 cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 731 */[ETH_ALEN];
+	int cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 729 */;
+	unsigned int cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 725 */;
+	u16 cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 723 */;
+	struct ieee80211_hdr *cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 721 */;
+	struct hostap_interface *cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 719 */;
+	struct hostap_80211_rx_status *cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 717 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 716 */;
+	struct net_device *cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 716 */;
+	struct net_device **cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 554 */;
+	struct hostap_interface cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 540 */;
+	struct hostap_ieee80211_mgmt *cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 395 */;
+	void cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 373 */;
+	struct hostap_bss_info cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 354 */;
+	size_t cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 348 */;
+	u8 *cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 347 */;
+	local_info_t *cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 347 */;
+	struct hostap_bss_info *cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 347 */;
+	struct list_head *cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 329 */;
+	struct ieee80211_hdr cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 265 */;
+	struct prism2_frag_entry *cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 220 */;
+	const char *cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 21 */;
+	struct hostap_radiotap_rx *cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 173 */;
+	unsigned char cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 17 */[];
+	struct linux_wlan_ng_cap_hdr *cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 155 */;
+	struct linux_wlan_ng_prism_hdr *cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 134 */;
+	__be16 cocci_id/* drivers/net/wireless/intersil/hostap/hostap_80211_rx.c 1045 */;
+}

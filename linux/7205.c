@@ -1,0 +1,134 @@
+cocci_test_suite() {
+	u64 cocci_id/* drivers/nvme/target/fcloop.c 979 */;
+	struct fcloop_lport *cocci_id/* drivers/nvme/target/fcloop.c 952 */;
+	void cocci_id/* drivers/nvme/target/fcloop.c 951 */;
+	struct fcloop_lport_priv *cocci_id/* drivers/nvme/target/fcloop.c 898 */;
+	struct nvme_fc_local_port *cocci_id/* drivers/nvme/target/fcloop.c 896 */;
+	struct nvme_fc_port_info cocci_id/* drivers/nvme/target/fcloop.c 894 */;
+	struct device_attribute *cocci_id/* drivers/nvme/target/fcloop.c 891 */;
+	struct device *cocci_id/* drivers/nvme/target/fcloop.c 891 */;
+	ssize_t cocci_id/* drivers/nvme/target/fcloop.c 890 */;
+	struct fcloop_tport cocci_id/* drivers/nvme/target/fcloop.c 887 */;
+	struct nvmet_fc_target_template cocci_id/* drivers/nvme/target/fcloop.c 873 */;
+	struct fcloop_ini_fcpreq cocci_id/* drivers/nvme/target/fcloop.c 870 */;
+	struct fcloop_rport cocci_id/* drivers/nvme/target/fcloop.c 868 */;
+	struct fcloop_lport_priv cocci_id/* drivers/nvme/target/fcloop.c 867 */;
+	struct nvme_fc_port_template cocci_id/* drivers/nvme/target/fcloop.c 852 */;
+	struct fcloop_nport cocci_id/* drivers/nvme/target/fcloop.c 800 */;
+	struct kref *cocci_id/* drivers/nvme/target/fcloop.c 797 */;
+	struct nvmefc_ls_req *cocci_id/* drivers/nvme/target/fcloop.c 743 */;
+	struct nvmefc_tgt_fcp_req *cocci_id/* drivers/nvme/target/fcloop.c 616 */;
+	u8 cocci_id/* drivers/nvme/target/fcloop.c 561 */;
+	struct scatterlist *cocci_id/* drivers/nvme/target/fcloop.c 561 */;
+	struct fcloop_fcpreq cocci_id/* drivers/nvme/target/fcloop.c 468 */;
+	struct work_struct *cocci_id/* drivers/nvme/target/fcloop.c 465 */;
+	struct fcloop_ini_fcpreq *cocci_id/* drivers/nvme/target/fcloop.c 412 */;
+	struct fcloop_fcpreq *cocci_id/* drivers/nvme/target/fcloop.c 410 */;
+	struct nvmefc_fcp_req *cocci_id/* drivers/nvme/target/fcloop.c 409 */;
+	struct fcloop_rscn *cocci_id/* drivers/nvme/target/fcloop.c 375 */;
+	struct fcloop_rscn cocci_id/* drivers/nvme/target/fcloop.c 364 */;
+	const match_table_t cocci_id/* drivers/nvme/target/fcloop.c 36 */;
+	struct nvmefc_tgt_ls_req *cocci_id/* drivers/nvme/target/fcloop.c 341 */;
+	struct fcloop_lsreq *cocci_id/* drivers/nvme/target/fcloop.c 317 */;
+	struct fcloop_lsreq cocci_id/* drivers/nvme/target/fcloop.c 304 */;
+	void *cocci_id/* drivers/nvme/target/fcloop.c 291 */;
+	void **cocci_id/* drivers/nvme/target/fcloop.c 283 */;
+	u16 cocci_id/* drivers/nvme/target/fcloop.c 282 */;
+	unsigned int cocci_id/* drivers/nvme/target/fcloop.c 282 */;
+	struct fcloop_ini_fcpreq {
+		struct nvmefc_fcp_req *fcpreq;
+		struct fcloop_fcpreq *tfcp_req;
+		spinlock_t inilock;
+	} cocci_id/* drivers/nvme/target/fcloop.c 261 */;
+	struct fcloop_ctrl_options {
+		int mask;
+		u64 wwnn;
+		u64 wwpn;
+		u32 roles;
+		u32 fcaddr;
+		u64 lpwwnn;
+		u64 lpwwpn;
+	} cocci_id/* drivers/nvme/target/fcloop.c 26 */;
+	struct fcloop_fcpreq {
+		struct fcloop_tport *tport;
+		struct nvmefc_fcp_req *fcpreq;
+		spinlock_t reqlock;
+		u16 status;
+		u32 inistate;
+		bool active;
+		bool aborted;
+		struct kref ref;
+		struct work_struct fcp_rcv_work;
+		struct work_struct abort_rcv_work;
+		struct work_struct tio_done_work;
+		struct nvmefc_tgt_fcp_req tgt_fcp_req;
+	} cocci_id/* drivers/nvme/target/fcloop.c 246 */;
+	enum{INI_IO_START=0, INI_IO_ACTIVE=1, INI_IO_ABORTED=2, INI_IO_COMPLETED=3,} cocci_id/* drivers/nvme/target/fcloop.c 239 */;
+	struct fcloop_rscn {
+		struct fcloop_tport *tport;
+		struct work_struct work;
+	} cocci_id/* drivers/nvme/target/fcloop.c 234 */;
+	struct fcloop_lsreq {
+		struct fcloop_tport *tport;
+		struct nvmefc_ls_req *lsreq;
+		struct work_struct work;
+		struct nvmefc_tgt_ls_req tgt_ls_req;
+		int status;
+	} cocci_id/* drivers/nvme/target/fcloop.c 226 */;
+	struct fcloop_nport {
+		struct fcloop_rport *rport;
+		struct fcloop_tport *tport;
+		struct fcloop_lport *lport;
+		struct list_head nport_list;
+		struct kref ref;
+		u64 node_name;
+		u64 port_name;
+		u32 port_role;
+		u32 port_id;
+	} cocci_id/* drivers/nvme/target/fcloop.c 214 */;
+	struct fcloop_tport {
+		struct nvmet_fc_target_port *targetport;
+		struct nvme_fc_remote_port *remoteport;
+		struct fcloop_nport *nport;
+		struct fcloop_lport *lport;
+	} cocci_id/* drivers/nvme/target/fcloop.c 207 */;
+	struct fcloop_rport {
+		struct nvme_fc_remote_port *remoteport;
+		struct nvmet_fc_target_port *targetport;
+		struct fcloop_nport *nport;
+		struct fcloop_lport *lport;
+	} cocci_id/* drivers/nvme/target/fcloop.c 200 */;
+	struct fcloop_lport_priv {
+		struct fcloop_lport *lport;
+	} cocci_id/* drivers/nvme/target/fcloop.c 196 */;
+	struct fcloop_lport {
+		struct nvme_fc_local_port *localport;
+		struct list_head lport_list;
+		struct completion unreg_done;
+	} cocci_id/* drivers/nvme/target/fcloop.c 190 */;
+	enum{NVMF_OPT_ERR=0, NVMF_OPT_WWNN=1 << 0, NVMF_OPT_WWPN=1 << 1, NVMF_OPT_ROLES=1 << 2, NVMF_OPT_FCADDR=1 << 3, NVMF_OPT_LPWWNN=1 << 4, NVMF_OPT_LPWWPN=1 << 5,} cocci_id/* drivers/nvme/target/fcloop.c 16 */;
+	typeof(*lport) cocci_id/* drivers/nvme/target/fcloop.c 1390 */;
+	typeof(*nport) cocci_id/* drivers/nvme/target/fcloop.c 1368 */;
+	void __exit cocci_id/* drivers/nvme/target/fcloop.c 1355 */;
+	int __init cocci_id/* drivers/nvme/target/fcloop.c 1326 */;
+	struct class *cocci_id/* drivers/nvme/target/fcloop.c 1322 */;
+	const struct attribute_group *cocci_id/* drivers/nvme/target/fcloop.c 1317 */[];
+	struct attribute_group cocci_id/* drivers/nvme/target/fcloop.c 1313 */;
+	struct attribute *cocci_id/* drivers/nvme/target/fcloop.c 1303 */[];
+	char *cocci_id/* drivers/nvme/target/fcloop.c 126 */;
+	struct fcloop_tport *cocci_id/* drivers/nvme/target/fcloop.c 1252 */;
+	substring_t cocci_id/* drivers/nvme/target/fcloop.c 125 */[MAX_OPT_ARGS];
+	u64 *cocci_id/* drivers/nvme/target/fcloop.c 122 */;
+	struct nvmet_fc_port_info cocci_id/* drivers/nvme/target/fcloop.c 1207 */;
+	struct nvmet_fc_target_port *cocci_id/* drivers/nvme/target/fcloop.c 1204 */;
+	struct fcloop_rport *cocci_id/* drivers/nvme/target/fcloop.c 1157 */;
+	struct fcloop_nport *cocci_id/* drivers/nvme/target/fcloop.c 1157 */;
+	int cocci_id/* drivers/nvme/target/fcloop.c 1156 */;
+	struct nvme_fc_remote_port *cocci_id/* drivers/nvme/target/fcloop.c 1105 */;
+	u32 cocci_id/* drivers/nvme/target/fcloop.c 1014 */;
+	unsigned long cocci_id/* drivers/nvme/target/fcloop.c 1013 */;
+	struct fcloop_ctrl_options *cocci_id/* drivers/nvme/target/fcloop.c 1012 */;
+	bool cocci_id/* drivers/nvme/target/fcloop.c 1008 */;
+	const char *cocci_id/* drivers/nvme/target/fcloop.c 1008 */;
+	size_t cocci_id/* drivers/nvme/target/fcloop.c 1008 */;
+}

@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	xfs_trans_t *cocci_id/* fs/xfs/xfs_rtalloc.c 976 */;
+	xfs_suminfo_t cocci_id/* fs/xfs/xfs_rtalloc.c 932 */;
+	uint8_t *cocci_id/* fs/xfs/xfs_rtalloc.c 900 */;
+	xfs_fsblock_t cocci_id/* fs/xfs/xfs_rtalloc.c 899 */;
+	xfs_sb_t *cocci_id/* fs/xfs/xfs_rtalloc.c 895 */;
+	uint cocci_id/* fs/xfs/xfs_rtalloc.c 893 */;
+	uint8_t cocci_id/* fs/xfs/xfs_rtalloc.c 891 */;
+	xfs_rfsblock_t cocci_id/* fs/xfs/xfs_rtalloc.c 888 */;
+	xfs_buf_t *cocci_id/* fs/xfs/xfs_rtalloc.c 885 */;
+	xfs_rtblock_t cocci_id/* fs/xfs/xfs_rtalloc.c 884 */;
+	xfs_growfs_rt_t *cocci_id/* fs/xfs/xfs_rtalloc.c 882 */;
+	int cocci_id/* fs/xfs/xfs_rtalloc.c 879 */;
+	xfs_extlen_t cocci_id/* fs/xfs/xfs_rtalloc.c 860 */;
+	xfs_mount_t *cocci_id/* fs/xfs/xfs_rtalloc.c 859 */;
+	void cocci_id/* fs/xfs/xfs_rtalloc.c 857 */;
+	struct xfs_trans *cocci_id/* fs/xfs/xfs_rtalloc.c 770 */;
+	struct xfs_bmbt_irec cocci_id/* fs/xfs/xfs_rtalloc.c 767 */;
+	xfs_daddr_t cocci_id/* fs/xfs/xfs_rtalloc.c 764 */;
+	struct xfs_buf *cocci_id/* fs/xfs/xfs_rtalloc.c 763 */;
+	xfs_fileoff_t cocci_id/* fs/xfs/xfs_rtalloc.c 762 */;
+	struct xfs_inode *cocci_id/* fs/xfs/xfs_rtalloc.c 760 */;
+	struct xfs_mount *cocci_id/* fs/xfs/xfs_rtalloc.c 757 */;
+	int *cocci_id/* fs/xfs/xfs_rtalloc.c 55 */;
+	xfs_suminfo_t *cocci_id/* fs/xfs/xfs_rtalloc.c 37 */;
+	xfs_fsblock_t *cocci_id/* fs/xfs/xfs_rtalloc.c 230 */;
+	xfs_buf_t **cocci_id/* fs/xfs/xfs_rtalloc.c 229 */;
+	uint64_t *cocci_id/* fs/xfs/xfs_rtalloc.c 1281 */;
+	uint64_t cocci_id/* fs/xfs/xfs_rtalloc.c 1279 */;
+	unsigned long long cocci_id/* fs/xfs/xfs_rtalloc.c 1210 */;
+	struct xfs_sb *cocci_id/* fs/xfs/xfs_rtalloc.c 1186 */;
+	long cocci_id/* fs/xfs/xfs_rtalloc.c 1162 */;
+	xfs_srtblock_t cocci_id/* fs/xfs/xfs_rtalloc.c 116 */;
+	xfs_rtblock_t *cocci_id/* fs/xfs/xfs_rtalloc.c 1118 */;
+	xfs_extlen_t *cocci_id/* fs/xfs/xfs_rtalloc.c 1115 */;
+}

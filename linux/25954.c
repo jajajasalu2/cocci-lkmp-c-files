@@ -1,0 +1,85 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* tools/testing/selftests/net/nettest.c 97 */;
+	char cocci_id/* tools/testing/selftests/net/nettest.c 837 */[1024];
+	struct in_addr cocci_id/* tools/testing/selftests/net/nettest.c 778 */;
+	const uint32_t *cocci_id/* tools/testing/selftests/net/nettest.c 777 */;
+	uint32_t *cocci_id/* tools/testing/selftests/net/nettest.c 777 */;
+	char cocci_id/* tools/testing/selftests/net/nettest.c 734 */[16 * 1024];
+	unsigned char cocci_id/* tools/testing/selftests/net/nettest.c 732 */[256];
+	struct in6_pktinfo cocci_id/* tools/testing/selftests/net/nettest.c 673 */;
+	struct in_pktinfo cocci_id/* tools/testing/selftests/net/nettest.c 662 */;
+	caddr_t cocci_id/* tools/testing/selftests/net/nettest.c 650 */;
+	struct msghdr cocci_id/* tools/testing/selftests/net/nettest.c 643 */;
+	struct iovec cocci_id/* tools/testing/selftests/net/nettest.c 641 */[2];
+	unsigned char cocci_id/* tools/testing/selftests/net/nettest.c 640 */[64];
+	struct in6_pktinfo *cocci_id/* tools/testing/selftests/net/nettest.c 601 */;
+	struct in_pktinfo *cocci_id/* tools/testing/selftests/net/nettest.c 594 */;
+	struct cmsghdr *cocci_id/* tools/testing/selftests/net/nettest.c 584 */;
+	struct msghdr *cocci_id/* tools/testing/selftests/net/nettest.c 582 */;
+	struct sockaddr_in6 *cocci_id/* tools/testing/selftests/net/nettest.c 523 */;
+	struct sockaddr_in *cocci_id/* tools/testing/selftests/net/nettest.c 512 */;
+	char cocci_id/* tools/testing/selftests/net/nettest.c 508 */[64];
+	struct sockaddr *cocci_id/* tools/testing/selftests/net/nettest.c 505 */;
+	unsigned int *cocci_id/* tools/testing/selftests/net/nettest.c 485 */;
+	struct sock_args {
+		union {
+			struct in_addr in;
+			struct in6_addr in6;
+		} local_addr;
+		union {
+			struct in_addr in;
+			struct in6_addr in6;
+		} remote_addr;
+		int scope_id;
+		struct in_addr grp;
+		unsigned int has_local_ip:1,has_remote_ip:1,has_grp:1,has_expected_laddr:1,has_expected_raddr:1,bind_test_only:1;
+		unsigned short port;
+		int type;
+		int protocol;
+		int version;
+		int use_setsockopt;
+		int use_cmsg;
+		const char *dev;
+		int ifindex;
+		const char *password;
+		int expected_ifindex;
+		union {
+			struct in_addr in;
+			struct in6_addr in6;
+		} expected_laddr;
+		union {
+			struct in_addr in;
+			struct in6_addr in6;
+		} expected_raddr;
+	} cocci_id/* tools/testing/selftests/net/nettest.c 44 */;
+	struct ip_mreqn cocci_id/* tools/testing/selftests/net/nettest.c 425 */;
+	char cocci_id/* tools/testing/selftests/net/nettest.c 318 */[32];
+	size_t cocci_id/* tools/testing/selftests/net/nettest.c 302 */;
+	const char *cocci_id/* tools/testing/selftests/net/nettest.c 291 */;
+	struct ifreq cocci_id/* tools/testing/selftests/net/nettest.c 265 */;
+	struct tcp_md5sig cocci_id/* tools/testing/selftests/net/nettest.c 205 */;
+	void cocci_id/* tools/testing/selftests/net/nettest.c 172 */;
+	unsigned short cocci_id/* tools/testing/selftests/net/nettest.c 1608 */;
+	struct protoent *cocci_id/* tools/testing/selftests/net/nettest.c 1573 */;
+	struct sock_args cocci_id/* tools/testing/selftests/net/nettest.c 1568 */;
+	char *cocci_id/* tools/testing/selftests/net/nettest.c 1566 */[];
+	va_list cocci_id/* tools/testing/selftests/net/nettest.c 156 */;
+	char *cocci_id/* tools/testing/selftests/net/nettest.c 1417 */;
+	struct in_addr *cocci_id/* tools/testing/selftests/net/nettest.c 1415 */;
+	struct in6_addr *cocci_id/* tools/testing/selftests/net/nettest.c 1414 */;
+	enum addr_type cocci_id/* tools/testing/selftests/net/nettest.c 1411 */;
+	enum addr_type{ADDR_TYPE_LOCAL, ADDR_TYPE_REMOTE, ADDR_TYPE_MCAST, ADDR_TYPE_EXPECTED_LOCAL, ADDR_TYPE_EXPECTED_REMOTE,} cocci_id/* tools/testing/selftests/net/nettest.c 1402 */;
+	long cocci_id/* tools/testing/selftests/net/nettest.c 1287 */;
+	socklen_t *cocci_id/* tools/testing/selftests/net/nettest.c 1271 */;
+	fd_set cocci_id/* tools/testing/selftests/net/nettest.c 1170 */;
+	unsigned char cocci_id/* tools/testing/selftests/net/nettest.c 1166 */[sizeof(struct sockaddr_in6)];
+	struct timeval cocci_id/* tools/testing/selftests/net/nettest.c 1165 */;
+	socklen_t cocci_id/* tools/testing/selftests/net/nettest.c 1079 */;
+	void *cocci_id/* tools/testing/selftests/net/nettest.c 1078 */;
+	struct sockaddr_in6 cocci_id/* tools/testing/selftests/net/nettest.c 1075 */;
+	struct sockaddr_in cocci_id/* tools/testing/selftests/net/nettest.c 1072 */;
+	struct sock_args *cocci_id/* tools/testing/selftests/net/nettest.c 1070 */;
+	int cocci_id/* tools/testing/selftests/net/nettest.c 1070 */;
+	time_t cocci_id/* tools/testing/selftests/net/nettest.c 106 */;
+	uint32_t cocci_id/* tools/testing/selftests/net/nettest.c 1009 */;
+}

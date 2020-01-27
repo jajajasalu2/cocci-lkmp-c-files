@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct drm_framebuffer *cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 95 */;
+	struct gma_clock_t *cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 66 */;
+	void cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 66 */;
+	struct gma_encoder *cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 553 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 548 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 545 */;
+	int cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 545 */;
+	struct drm_connector **cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 525 */;
+	struct psb_intel_crtc_state cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 493 */;
+	struct gma_crtc cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 486 */;
+	struct psb_intel_mode_device *cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 478 */;
+	struct gtt_range *cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 453 */;
+	u32 cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 451 */[3];
+	const struct gma_clock_funcs cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 437 */;
+	const struct drm_crtc_funcs cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 429 */;
+	const struct drm_crtc_helper_funcs cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 420 */;
+	struct drm_display_mode *cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 373 */;
+	struct psb_pipe *cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 308 */;
+	bool cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 307 */;
+	struct gma_clock_t cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 306 */;
+	u32 cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 304 */;
+	const struct psb_offset *cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 303 */;
+	struct drm_psb_private *cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 301 */;
+	struct gma_crtc *cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 300 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 298 */;
+	const struct gma_limit_t cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 24 */[];
+	const struct gma_limit_t *cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 110 */;
+	struct drm_mode_config *cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 108 */;
+	const struct drm_crtc_helper_funcs *cocci_id/* drivers/gpu/drm/gma500/psb_intel_display.c 100 */;
+}

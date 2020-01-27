@@ -1,0 +1,52 @@
+cocci_test_suite() {
+	const struct snd_soc_dapm_route cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 925 */[];
+	struct snd_soc_dai *cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 858 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 857 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 856 */;
+	unsigned int cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 849 */;
+	struct msm8916_wcd_digital_priv *cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 840 */;
+	struct device *cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 821 */;
+	struct platform_device *cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 818 */;
+	const struct snd_soc_dapm_widget cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 717 */[];
+	char *cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 664 */;
+	u8 cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 600 */;
+	u16 cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 599 */;
+	struct snd_kcontrol *cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 594 */;
+	struct snd_soc_dapm_widget *cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 593 */;
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 511 */[];
+	struct snd_ctl_elem_info *cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 499 */;
+	u32 cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 433 */[BAND_MAX];
+	struct soc_bytes_ext *cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 430 */;
+	struct wcd_iir_filter_ctl *cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 428 */;
+	struct snd_ctl_elem_value *cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 423 */;
+	int cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 379 */;
+	uint32_t cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 378 */;
+	struct snd_soc_component *cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 378 */;
+	const struct snd_kcontrol_new cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 304 */;
+	const struct soc_enum cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 294 */;
+	const struct soc_enum cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 264 */[];
+	const char *constcocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 254 */[];
+	const unsigned long cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 231 */[];
+	struct msm8916_wcd_digital_priv {
+		struct clk *ahbclk,*mclk;
+	} cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 227 */;
+	struct wcd_iir_filter_ctl {
+		unsigned int iir_idx;
+		unsigned int band_idx;
+		struct soc_bytes_ext bytes_ext;
+	} cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 221 */;
+	struct wcd_iir_filter_ctl cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 214 */;
+	u32 cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 207 */;
+	enum{BAND1=0, BAND2, BAND3, BAND4, BAND5, BAND_MAX,} cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 198 */;
+	enum{IIR1=0, IIR2, IIR_MAX,} cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 191 */;
+	struct platform_driver cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 1225 */;
+	const struct of_device_id cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 1218 */[];
+	struct regmap *cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 1168 */;
+	void __iomem *cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 1167 */;
+	const struct regmap_config cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 1155 */;
+	const struct snd_soc_component_driver cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 1140 */;
+	struct snd_soc_dai_driver cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 1113 */[];
+	const struct snd_soc_dai_ops cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 1107 */;
+	void cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 1100 */;
+	unsigned long cocci_id/* sound/soc/codecs/msm8916-wcd-digital.c 1071 */;
+}

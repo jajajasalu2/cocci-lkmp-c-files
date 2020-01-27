@@ -1,0 +1,37 @@
+cocci_test_suite() {
+	struct buffer_head *cocci_id/* fs/ntfs/aops.c 913 */[MAX_BUF_PER_PAGE];
+	ntfs_inode *cocci_id/* fs/ntfs/aops.c 911 */[PAGE_SIZE / NTFS_BLOCK_SIZE];
+	void *cocci_id/* fs/ntfs/aops.c 77 */;
+	unsigned long *cocci_id/* fs/ntfs/aops.c 728 */;
+	struct writeback_control *cocci_id/* fs/ntfs/aops.c 533 */;
+	struct inode *cocci_id/* fs/ntfs/aops.c 50 */;
+	MFT_RECORD *cocci_id/* fs/ntfs/aops.c 388 */;
+	ntfs_attr_search_ctx *cocci_id/* fs/ntfs/aops.c 387 */;
+	struct file *cocci_id/* fs/ntfs/aops.c 381 */;
+	bool cocci_id/* fs/ntfs/aops.c 242 */;
+	runlist_element *cocci_id/* fs/ntfs/aops.c 176 */;
+	unsigned int cocci_id/* fs/ntfs/aops.c 1719 */;
+	struct buffer_head *cocci_id/* fs/ntfs/aops.c 1718 */;
+	ntfs_inode *cocci_id/* fs/ntfs/aops.c 1717 */;
+	struct address_space *cocci_id/* fs/ntfs/aops.c 1716 */;
+	const unsigned int cocci_id/* fs/ntfs/aops.c 1715 */;
+	struct page *cocci_id/* fs/ntfs/aops.c 1715 */;
+	void cocci_id/* fs/ntfs/aops.c 1715 */;
+	VCN cocci_id/* fs/ntfs/aops.c 170 */;
+	const struct address_space_operations cocci_id/* fs/ntfs/aops.c 1670 */;
+	long long cocci_id/* fs/ntfs/aops.c 1639 */;
+	int cocci_id/* fs/ntfs/aops.c 1601 */;
+	unsigned long long cocci_id/* fs/ntfs/aops.c 1561 */;
+	unsigned char cocci_id/* fs/ntfs/aops.c 1558 */;
+	unsigned cocci_id/* fs/ntfs/aops.c 1557 */;
+	ntfs_volume *cocci_id/* fs/ntfs/aops.c 1556 */;
+	unsigned long cocci_id/* fs/ntfs/aops.c 1554 */;
+	LCN cocci_id/* fs/ntfs/aops.c 1553 */;
+	loff_t cocci_id/* fs/ntfs/aops.c 1552 */;
+	s64 cocci_id/* fs/ntfs/aops.c 1551 */;
+	sector_t cocci_id/* fs/ntfs/aops.c 1549 */;
+	NTFS_RECORD *cocci_id/* fs/ntfs/aops.c 135 */;
+	char *cocci_id/* fs/ntfs/aops.c 1344 */;
+	u32 cocci_id/* fs/ntfs/aops.c 127 */;
+	u8 *cocci_id/* fs/ntfs/aops.c 125 */;
+}

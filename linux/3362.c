@@ -1,0 +1,63 @@
+cocci_test_suite() {
+	struct sti_pwm_chip {
+		struct device *dev;
+		struct clk *pwm_clk;
+		struct clk *cpt_clk;
+		struct regmap *regmap;
+		struct sti_pwm_compat_data *cdata;
+		struct regmap_field *prescale_low;
+		struct regmap_field *prescale_high;
+		struct regmap_field *pwm_out_en;
+		struct regmap_field *pwm_cpt_en;
+		struct regmap_field *pwm_cpt_int_en;
+		struct regmap_field *pwm_cpt_int_stat;
+		struct pwm_chip chip;
+		struct pwm_device *cur;
+		unsigned long configured;
+		unsigned int en_count;
+		struct mutex sti_pwm_lock;
+		void __iomem *mmio;
+	} cocci_id/* drivers/pwm/pwm-sti.c 84 */;
+	struct sti_pwm_compat_data {
+		const struct reg_field *reg_fields;
+		unsigned int pwm_num_devs;
+		unsigned int cpt_num_devs;
+		unsigned int max_pwm_cnt;
+		unsigned int max_prescale;
+	} cocci_id/* drivers/pwm/pwm-sti.c 76 */;
+	struct sti_cpt_ddata {
+		u32 snapshot[3];
+		unsigned int index;
+		struct mutex lock;
+		wait_queue_head_t wait;
+	} cocci_id/* drivers/pwm/pwm-sti.c 69 */;
+	struct platform_driver cocci_id/* drivers/pwm/pwm-sti.c 678 */;
+	const struct of_device_id cocci_id/* drivers/pwm/pwm-sti.c 672 */[];
+	enum sti_cpt_edge{CPT_EDGE_DISABLED, CPT_EDGE_RISING, CPT_EDGE_FALLING, CPT_EDGE_BOTH,} cocci_id/* drivers/pwm/pwm-sti.c 62 */;
+	struct resource *cocci_id/* drivers/pwm/pwm-sti.c 543 */;
+	struct platform_device *cocci_id/* drivers/pwm/pwm-sti.c 538 */;
+	const struct regmap_config cocci_id/* drivers/pwm/pwm-sti.c 532 */;
+	u32 cocci_id/* drivers/pwm/pwm-sti.c 480 */;
+	struct device_node *cocci_id/* drivers/pwm/pwm-sti.c 478 */;
+	const struct reg_field *cocci_id/* drivers/pwm/pwm-sti.c 477 */;
+	enum{PWMCLK_PRESCALE_LOW, PWMCLK_PRESCALE_HIGH, CPTCLK_PRESCALE, PWM_OUT_EN, PWM_CPT_EN, PWM_CPT_INT_EN, PWM_CPT_INT_STAT, MAX_REGFIELDS,} cocci_id/* drivers/pwm/pwm-sti.c 42 */;
+	irqreturn_t cocci_id/* drivers/pwm/pwm-sti.c 403 */;
+	void *cocci_id/* drivers/pwm/pwm-sti.c 403 */;
+	const struct pwm_ops cocci_id/* drivers/pwm/pwm-sti.c 394 */;
+	unsigned long long cocci_id/* drivers/pwm/pwm-sti.c 320 */;
+	unsigned int cocci_id/* drivers/pwm/pwm-sti.c 319 */;
+	struct device *cocci_id/* drivers/pwm/pwm-sti.c 318 */;
+	struct sti_cpt_ddata *cocci_id/* drivers/pwm/pwm-sti.c 317 */;
+	struct sti_pwm_compat_data *cocci_id/* drivers/pwm/pwm-sti.c 316 */;
+	struct sti_pwm_chip *cocci_id/* drivers/pwm/pwm-sti.c 315 */;
+	struct pwm_capture *cocci_id/* drivers/pwm/pwm-sti.c 313 */;
+	unsigned long cocci_id/* drivers/pwm/pwm-sti.c 313 */;
+	struct pwm_device *cocci_id/* drivers/pwm/pwm-sti.c 312 */;
+	struct pwm_chip *cocci_id/* drivers/pwm/pwm-sti.c 312 */;
+	int cocci_id/* drivers/pwm/pwm-sti.c 312 */;
+	void cocci_id/* drivers/pwm/pwm-sti.c 286 */;
+	bool cocci_id/* drivers/pwm/pwm-sti.c 171 */;
+	unsigned int *cocci_id/* drivers/pwm/pwm-sti.c 123 */;
+	struct sti_pwm_chip cocci_id/* drivers/pwm/pwm-sti.c 116 */;
+	const struct reg_field cocci_id/* drivers/pwm/pwm-sti.c 104 */[MAX_REGFIELDS];
+}

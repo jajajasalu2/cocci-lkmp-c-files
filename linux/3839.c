@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct BD_HEADER cocci_id/* drivers/crypto/bcm/spu.c 943 */;
+	struct BDESC_HEADER cocci_id/* drivers/crypto/bcm/spu.c 943 */;
+	struct BD_HEADER *cocci_id/* drivers/crypto/bcm/spu.c 941 */;
+	struct BDESC_HEADER *cocci_id/* drivers/crypto/bcm/spu.c 940 */;
+	struct SPUHEADER *cocci_id/* drivers/crypto/bcm/spu.c 939 */;
+	u8 *cocci_id/* drivers/crypto/bcm/spu.c 932 */;
+	struct SPUHEADER cocci_id/* drivers/crypto/bcm/spu.c 855 */;
+	struct spu_aead_parms *cocci_id/* drivers/crypto/bcm/spu.c 596 */;
+	struct spu_hash_parms *cocci_id/* drivers/crypto/bcm/spu.c 595 */;
+	struct spu_request_opts *cocci_id/* drivers/crypto/bcm/spu.c 593 */;
+	enum hash_type cocci_id/* drivers/crypto/bcm/spu.c 561 */;
+	enum hash_alg cocci_id/* drivers/crypto/bcm/spu.c 560 */;
+	u8 cocci_id/* drivers/crypto/bcm/spu.c 529 */;
+	u16 cocci_id/* drivers/crypto/bcm/spu.c 529 */;
+	enum spu_cipher_mode cocci_id/* drivers/crypto/bcm/spu.c 529 */;
+	bool cocci_id/* drivers/crypto/bcm/spu.c 493 */;
+	unsigned int cocci_id/* drivers/crypto/bcm/spu.c 492 */;
+	u32 cocci_id/* drivers/crypto/bcm/spu.c 491 */;
+	u64 cocci_id/* drivers/crypto/bcm/spu.c 448 */;
+	u32 *cocci_id/* drivers/crypto/bcm/spu.c 44 */;
+	int cocci_id/* drivers/crypto/bcm/spu.c 435 */;
+	enum hash_mode cocci_id/* drivers/crypto/bcm/spu.c 430 */;
+	enum spu_cipher_alg cocci_id/* drivers/crypto/bcm/spu.c 336 */;
+	char *cocci_id/* drivers/crypto/bcm/spu.c 17 */[];
+	struct spu_cipher_parms *cocci_id/* drivers/crypto/bcm/spu.c 1165 */;
+	void cocci_id/* drivers/crypto/bcm/spu.c 1164 */;
+	__be32 *cocci_id/* drivers/crypto/bcm/spu.c 1141 */;
+	u64 *cocci_id/* drivers/crypto/bcm/spu.c 1080 */;
+	char *cocci_id/* drivers/crypto/bcm/spu.c 107 */;
+	struct SCTX cocci_id/* drivers/crypto/bcm/spu.c 104 */;
+}

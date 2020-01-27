@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	void *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 92 */;
+	union rdma_eqe_data cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 89 */;
+	bool cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 850 */;
+	struct qed_spq_entry *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 849 */;
+	dma_addr_t cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 847 */;
+	struct qed_sp_init_data cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 846 */;
+	struct roce_query_qp_req_ramrod_data *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 845 */;
+	struct roce_query_qp_resp_ramrod_data *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 844 */;
+	struct roce_query_qp_req_output_params *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 843 */;
+	struct roce_query_qp_resp_output_params *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 842 */;
+	struct qed_rdma_query_qp_out_params *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 840 */;
+	struct roce_destroy_qp_req_ramrod_data *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 782 */;
+	struct roce_destroy_qp_req_output_params *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 781 */;
+	struct roce_destroy_qp_resp_output_params cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 772 */;
+	struct roce_destroy_qp_resp_ramrod_data *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 702 */;
+	struct roce_destroy_qp_resp_output_params *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 701 */;
+	struct qed_rdma_events cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 70 */;
+	u32 *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 699 */;
+	union event_ring_data *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 68 */;
+	u8 cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 67 */;
+	void cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 63 */(struct qed_hwfn *p_hwfn,
+									 u16 icid);
+	struct roce_modify_qp_req_ramrod_data *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 609 */;
+	struct roce_modify_qp_resp_ramrod_data *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 515 */;
+	enum protocol_type cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 394 */;
+	struct roce_create_qp_req_ramrod_data *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 389 */;
+	struct roce_create_qp_resp_ramrod_data *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 248 */;
+	u16 cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 208 */;
+	struct qed_rdma_info *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 165 */;
+	u16 *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 163 */;
+	struct qed_hwfn *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 163 */;
+	int cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 163 */;
+	enum roce_mode cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 141 */;
+	enum roce_flavor cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 141 */;
+	union qed_gid cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 128 */;
+	u32 cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 122 */;
+	__le32 *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 119 */;
+	struct qed_rdma_qp *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 119 */;
+	void cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 119 */;
+	struct qed_ptt *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 1132 */;
+	struct qed_rdma_modify_qp_in_params *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 1011 */;
+	enum qed_roce_qp_state cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 1010 */;
+	struct qed_bmap *cocci_id/* drivers/net/ethernet/qlogic/qed/qed_roce.c 101 */;
+}

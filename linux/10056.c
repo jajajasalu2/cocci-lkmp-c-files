@@ -1,0 +1,64 @@
+cocci_test_suite() {
+	void __exit cocci_id/* drivers/net/wireless/virt_wifi.c 662 */;
+	int __init cocci_id/* drivers/net/wireless/virt_wifi.c 632 */;
+	struct notifier_block cocci_id/* drivers/net/wireless/virt_wifi.c 627 */;
+	void *cocci_id/* drivers/net/wireless/virt_wifi.c 601 */;
+	struct notifier_block *cocci_id/* drivers/net/wireless/virt_wifi.c 600 */;
+	unsigned long cocci_id/* drivers/net/wireless/virt_wifi.c 600 */;
+	bool cocci_id/* drivers/net/wireless/virt_wifi.c 595 */;
+	const struct net_device *cocci_id/* drivers/net/wireless/virt_wifi.c 595 */;
+	struct rtnl_link_ops cocci_id/* drivers/net/wireless/virt_wifi.c 587 */;
+	struct list_head *cocci_id/* drivers/net/wireless/virt_wifi.c 567 */;
+	struct netlink_ext_ack *cocci_id/* drivers/net/wireless/virt_wifi.c 489 */;
+	struct nlattr *cocci_id/* drivers/net/wireless/virt_wifi.c 488 */[];
+	struct net *cocci_id/* drivers/net/wireless/virt_wifi.c 487 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/virt_wifi.c 466 */;
+	rx_handler_result_t cocci_id/* drivers/net/wireless/virt_wifi.c 464 */;
+	struct sk_buff **cocci_id/* drivers/net/wireless/virt_wifi.c 464 */;
+	const struct net_device_ops cocci_id/* drivers/net/wireless/virt_wifi.c 439 */;
+	struct ieee80211_supported_band cocci_id/* drivers/net/wireless/virt_wifi.c 42 */;
+	netdev_tx_t cocci_id/* drivers/net/wireless/virt_wifi.c 398 */;
+	const struct cfg80211_ops cocci_id/* drivers/net/wireless/virt_wifi.c 333 */;
+	struct station_info *cocci_id/* drivers/net/wireless/virt_wifi.c 320 */;
+	struct ieee80211_rate cocci_id/* drivers/net/wireless/virt_wifi.c 32 */[];
+	struct rate_info cocci_id/* drivers/net/wireless/virt_wifi.c 312 */;
+	const u8 *cocci_id/* drivers/net/wireless/virt_wifi.c 295 */;
+	struct virt_wifi_netdev_priv *cocci_id/* drivers/net/wireless/virt_wifi.c 261 */;
+	struct net_device *cocci_id/* drivers/net/wireless/virt_wifi.c 259 */;
+	void cocci_id/* drivers/net/wireless/virt_wifi.c 259 */;
+	struct ieee80211_channel cocci_id/* drivers/net/wireless/virt_wifi.c 25 */;
+	u16 cocci_id/* drivers/net/wireless/virt_wifi.c 245 */;
+	u8 *cocci_id/* drivers/net/wireless/virt_wifi.c 242 */;
+	struct virt_wifi_netdev_priv cocci_id/* drivers/net/wireless/virt_wifi.c 241 */;
+	struct work_struct *cocci_id/* drivers/net/wireless/virt_wifi.c 238 */;
+	struct cfg80211_connect_params *cocci_id/* drivers/net/wireless/virt_wifi.c 215 */;
+	int cocci_id/* drivers/net/wireless/virt_wifi.c 214 */;
+	struct virt_wifi_netdev_priv {
+		struct delayed_work connect;
+		struct net_device *lowerdev;
+		struct net_device *upperdev;
+		u32 tx_packets;
+		u32 tx_failed;
+		u8 connect_requested_bss[ETH_ALEN];
+		bool is_up;
+		bool is_connected;
+		bool being_deleted;
+	} cocci_id/* drivers/net/wireless/virt_wifi.c 201 */;
+	struct cfg80211_scan_info cocci_id/* drivers/net/wireless/virt_wifi.c 194 */;
+	struct virt_wifi_wiphy_priv {
+		struct delayed_work scan_result;
+		struct cfg80211_scan_request *scan_request;
+		bool being_deleted;
+	} cocci_id/* drivers/net/wireless/virt_wifi.c 19 */;
+	struct virt_wifi_wiphy_priv *cocci_id/* drivers/net/wireless/virt_wifi.c 189 */;
+	struct wiphy *cocci_id/* drivers/net/wireless/virt_wifi.c 17 */;
+	struct virt_wifi_wiphy_priv cocci_id/* drivers/net/wireless/virt_wifi.c 167 */;
+	struct cfg80211_bss *cocci_id/* drivers/net/wireless/virt_wifi.c 165 */;
+	struct {
+		u8 tag;
+		u8 len;
+		u8 ssid[8];
+	}__packed cocci_id/* drivers/net/wireless/virt_wifi.c 158 */;
+	struct cfg80211_scan_request *cocci_id/* drivers/net/wireless/virt_wifi.c 140 */;
+	u8 cocci_id/* drivers/net/wireless/virt_wifi.c 136 */[ETH_ALEN];
+}

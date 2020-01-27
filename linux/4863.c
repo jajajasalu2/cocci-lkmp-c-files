@@ -1,0 +1,46 @@
+cocci_test_suite() {
+	struct pvrdma_cmd_query_qp_resp *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 988 */;
+	struct pvrdma_cmd_query_qp *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 987 */;
+	struct pvrdma_sge *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 894 */;
+	struct pvrdma_rq_wqe_hdr *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 893 */;
+	const struct ib_recv_wr **cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 888 */;
+	const struct ib_recv_wr *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 887 */;
+	struct pvrdma_sq_wqe_hdr *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 683 */;
+	const struct ib_send_wr **cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 678 */;
+	const struct ib_send_wr *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 677 */;
+	unsigned long *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 66 */;
+	struct pvrdma_user_mr *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 655 */;
+	const struct ib_reg_wr *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 653 */;
+	void *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 646 */;
+	unsigned int cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 646 */;
+	struct pvrdma_cq **cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 58 */;
+	void cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 55 */(struct pvrdma_dev *dev,
+									   struct pvrdma_qp *qp);
+	enum ib_qp_state cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 542 */;
+	struct pvrdma_cmd_modify_qp *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 541 */;
+	struct ib_qp_attr *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 534 */;
+	struct pvrdma_qp *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 519 */;
+	struct pvrdma_dev *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 518 */;
+	void cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 518 */;
+	int cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 489 */;
+	struct pvrdma_cmd_destroy_qp *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 488 */;
+	union pvrdma_cmd_req cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 487 */;
+	u32 cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 485 */;
+	struct pvrdma_cq *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 462 */;
+	unsigned long cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 439 */;
+	bool cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 206 */;
+	struct pvrdma_create_qp_resp cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 203 */;
+	struct pvrdma_create_qp cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 202 */;
+	struct pvrdma_cmd_create_qp_resp_v2 *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 201 */;
+	struct pvrdma_cmd_create_qp_resp *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 200 */;
+	struct pvrdma_cmd_create_qp *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 199 */;
+	union pvrdma_cmd_resp cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 198 */;
+	struct ib_udata *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 193 */;
+	struct ib_qp_init_attr *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 192 */;
+	struct ib_qp *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 191 */;
+	struct ib_pd *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 191 */;
+	struct pvrdma_sq_wqe_hdr cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 172 */;
+	struct pvrdma_sge cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 148 */;
+	struct pvrdma_rq_wqe_hdr cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 147 */;
+	struct ib_qp_cap *cocci_id/* drivers/infiniband/hw/vmw_pvrdma/pvrdma_qp.c 131 */;
+}

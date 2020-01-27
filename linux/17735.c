@@ -1,0 +1,71 @@
+cocci_test_suite() {
+	int cocci_id/* arch/powerpc/boot/cpm-serial.c 88 */;
+	void cocci_id/* arch/powerpc/boot/cpm-serial.c 88 */;
+	void (*cocci_id/* arch/powerpc/boot/cpm-serial.c 82 */)(void);
+	void (*cocci_id/* arch/powerpc/boot/cpm-serial.c 80 */)(int op);
+	u32 cocci_id/* arch/powerpc/boot/cpm-serial.c 78 */;
+	void *cocci_id/* arch/powerpc/boot/cpm-serial.c 77 */;
+	struct cpm_bd *cocci_id/* arch/powerpc/boot/cpm-serial.c 75 */;
+	struct cpm_scc *cocci_id/* arch/powerpc/boot/cpm-serial.c 74 */;
+	struct cpm_smc *cocci_id/* arch/powerpc/boot/cpm-serial.c 73 */;
+	struct cpm_param *cocci_id/* arch/powerpc/boot/cpm-serial.c 72 */;
+	struct cpm_bd {
+		u16 sc;
+		u16 len;
+		u8 *addr;
+	} cocci_id/* arch/powerpc/boot/cpm-serial.c 65 */;
+	struct cpm_param {
+		u16 rbase;
+		u16 tbase;
+		u8 rfcr;
+		u8 tfcr;
+		u16 mrblr;
+		u32 rstate;
+		u8 res1[4];
+		u16 rbptr;
+		u8 res2[6];
+		u32 tstate;
+		u8 res3[4];
+		u16 tbptr;
+		u8 res4[6];
+		u16 maxidl;
+		u16 idlc;
+		u16 brkln;
+		u16 brkec;
+		u16 brkcr;
+		u16 rmask;
+		u8 res5[4];
+	} cocci_id/* arch/powerpc/boot/cpm-serial.c 42 */;
+	struct cpm_smc {
+		u8 res1[2];
+		u16 smcmr;
+		u8 res2[2];
+		u8 smce;
+		u8 res3[3];
+		u8 smcm;
+		u8 res4[5];
+	} cocci_id/* arch/powerpc/boot/cpm-serial.c 32 */;
+	u16 cocci_id/* arch/powerpc/boot/cpm-serial.c 277 */;
+	u16 *cocci_id/* arch/powerpc/boot/cpm-serial.c 276 */;
+	struct cpm_bd cocci_id/* arch/powerpc/boot/cpm-serial.c 273 */;
+	unsigned long cocci_id/* arch/powerpc/boot/cpm-serial.c 206 */;
+	u32 cocci_id/* arch/powerpc/boot/cpm-serial.c 202 */[2];
+	void *cocci_id/* arch/powerpc/boot/cpm-serial.c 201 */[2];
+	struct serial_console_data *cocci_id/* arch/powerpc/boot/cpm-serial.c 199 */;
+	unsigned char cocci_id/* arch/powerpc/boot/cpm-serial.c 184 */;
+	struct cpm_scc {
+		u32 gsmrl;
+		u32 gsmrh;
+		u16 psmr;
+		u8 res1[2];
+		u16 todr;
+		u16 dsr;
+		u16 scce;
+		u8 res2[2];
+		u16 sccm;
+		u8 res3;
+		u8 sccs;
+		u8 res4[8];
+	} cocci_id/* arch/powerpc/boot/cpm-serial.c 17 */;
+	u8 *cocci_id/* arch/powerpc/boot/cpm-serial.c 147 */;
+}

@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	xfs_lsn_t cocci_id/* fs/xfs/xfs_trans.c 932 */;
+	struct xfs_mount *cocci_id/* fs/xfs/xfs_trans.c 931 */;
+	bool cocci_id/* fs/xfs/xfs_trans.c 929 */;
+	struct xfs_trans *cocci_id/* fs/xfs/xfs_trans.c 928 */;
+	int cocci_id/* fs/xfs/xfs_trans.c 926 */;
+	struct xfs_ail_cursor cocci_id/* fs/xfs/xfs_trans.c 837 */;
+	struct xfs_log_item *cocci_id/* fs/xfs/xfs_trans.c 835 */[LOG_ITEM_BATCH_SIZE];
+	struct xfs_log_vec *cocci_id/* fs/xfs/xfs_trans.c 830 */;
+	struct xfs_log_item *cocci_id/* fs/xfs/xfs_trans.c 800 */;
+	struct xfs_log_item **cocci_id/* fs/xfs/xfs_trans.c 789 */;
+	struct xfs_ail_cursor *cocci_id/* fs/xfs/xfs_trans.c 788 */;
+	struct xfs_ail *cocci_id/* fs/xfs/xfs_trans.c 787 */;
+	void cocci_id/* fs/xfs/xfs_trans.c 785 */;
+	int64_t cocci_id/* fs/xfs/xfs_trans.c 565 */;
+	uint64_t *cocci_id/* fs/xfs/xfs_trans.c 564 */;
+	int32_t cocci_id/* fs/xfs/xfs_trans.c 549 */;
+	uint32_t *cocci_id/* fs/xfs/xfs_trans.c 548 */;
+	int8_t cocci_id/* fs/xfs/xfs_trans.c 533 */;
+	uint8_t *cocci_id/* fs/xfs/xfs_trans.c 532 */;
+	xfs_dsb_t cocci_id/* fs/xfs/xfs_trans.c 519 */;
+	xfs_buf_t *cocci_id/* fs/xfs/xfs_trans.c 449 */;
+	xfs_dsb_t *cocci_id/* fs/xfs/xfs_trans.c 448 */;
+	xfs_trans_t *cocci_id/* fs/xfs/xfs_trans.c 446 */;
+	xfs_mount_t *cocci_id/* fs/xfs/xfs_trans.c 343 */;
+	uint32_t cocci_id/* fs/xfs/xfs_trans.c 342 */;
+	struct xfs_trans_res cocci_id/* fs/xfs/xfs_trans.c 315 */;
+	struct xfs_trans **cocci_id/* fs/xfs/xfs_trans.c 256 */;
+	uint cocci_id/* fs/xfs/xfs_trans.c 253 */;
+	struct xfs_trans_res *cocci_id/* fs/xfs/xfs_trans.c 252 */;
+	kmem_zone_t *cocci_id/* fs/xfs/xfs_trans.c 23 */;
+}

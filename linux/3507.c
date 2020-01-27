@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* drivers/mmc/host/uniphier-sd.c 99 */;
+	const struct dmaengine_result *cocci_id/* drivers/mmc/host/uniphier-sd.c 95 */;
+	void *cocci_id/* drivers/mmc/host/uniphier-sd.c 94 */;
+	struct uniphier_sd_priv cocci_id/* drivers/mmc/host/uniphier-sd.c 76 */;
+	struct platform_driver cocci_id/* drivers/mmc/host/uniphier-sd.c 684 */;
+	const struct of_device_id cocci_id/* drivers/mmc/host/uniphier-sd.c 667 */[];
+	struct uniphier_sd_priv {
+		struct tmio_mmc_data tmio_data;
+		struct pinctrl *pinctrl;
+		struct pinctrl_state *pinstate_default;
+		struct pinctrl_state *pinstate_uhs;
+		struct clk *clk;
+		struct reset_control *rst;
+		struct reset_control *rst_br;
+		struct reset_control *rst_hw;
+		struct dma_chan *chan;
+		enum dma_data_direction dma_dir;
+		unsigned long clk_rate;
+		unsigned long caps;
+	} cocci_id/* drivers/mmc/host/uniphier-sd.c 59 */;
+	struct device *cocci_id/* drivers/mmc/host/uniphier-sd.c 553 */;
+	struct platform_device *cocci_id/* drivers/mmc/host/uniphier-sd.c 551 */;
+	struct pinctrl_state *cocci_id/* drivers/mmc/host/uniphier-sd.c 503 */;
+	struct mmc_ios *cocci_id/* drivers/mmc/host/uniphier-sd.c 499 */;
+	u32 cocci_id/* drivers/mmc/host/uniphier-sd.c 471 */;
+	struct uniphier_sd_priv *cocci_id/* drivers/mmc/host/uniphier-sd.c 406 */;
+	struct tmio_mmc_host *cocci_id/* drivers/mmc/host/uniphier-sd.c 404 */;
+	void cocci_id/* drivers/mmc/host/uniphier-sd.c 404 */;
+	struct mmc_host *cocci_id/* drivers/mmc/host/uniphier-sd.c 360 */;
+	int cocci_id/* drivers/mmc/host/uniphier-sd.c 357 */;
+	unsigned int cocci_id/* drivers/mmc/host/uniphier-sd.c 251 */;
+	dma_addr_t cocci_id/* drivers/mmc/host/uniphier-sd.c 250 */;
+	struct scatterlist *cocci_id/* drivers/mmc/host/uniphier-sd.c 249 */;
+	const struct tmio_mmc_dma_ops cocci_id/* drivers/mmc/host/uniphier-sd.c 223 */;
+	struct dma_chan *cocci_id/* drivers/mmc/host/uniphier-sd.c 180 */;
+	struct tmio_mmc_data *cocci_id/* drivers/mmc/host/uniphier-sd.c 177 */;
+	bool cocci_id/* drivers/mmc/host/uniphier-sd.c 172 */;
+	dma_cookie_t cocci_id/* drivers/mmc/host/uniphier-sd.c 129 */;
+	struct dma_async_tx_descriptor *cocci_id/* drivers/mmc/host/uniphier-sd.c 128 */;
+	enum dma_transfer_direction cocci_id/* drivers/mmc/host/uniphier-sd.c 127 */;
+	struct mmc_data *cocci_id/* drivers/mmc/host/uniphier-sd.c 124 */;
+}

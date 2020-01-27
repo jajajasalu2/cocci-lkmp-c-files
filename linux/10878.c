@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	struct amdgpu_device *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 99 */;
+	uint32_t cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 96 */;
+	struct kgd_dev *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 96 */;
+	void cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 96 */;
+	const struct kfd2kgd_calls cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 786 */;
+	struct amdgpu_ring *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 626 */;
+	signed long cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 624 */;
+	uint16_t cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 621 */;
+	int cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 621 */;
+	uint8_t cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 609 */;
+	uint16_t *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 609 */;
+	bool cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 608 */;
+	struct tile_config *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 57 */;
+	unsigned long cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 525 */;
+	enum hqd_dequeue_request_type cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 524 */;
+	enum kfd_preempt_type cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 519 */;
+	uint64_t cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 477 */;
+	enum hqd_dequeue_request_type{NO_ACTION=0, DRAIN_PIPE, RESET_WAVES,} cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 46 */;
+	uint64_t __user *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 384 */;
+	uint32_t **cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 345 */[2];
+	uint32_t *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 345 */;
+	uintptr_t cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 323 */;
+	struct mm_struct *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 251 */;
+	uint32_t __user *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 249 */;
+	struct v9_sdma_mqd *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 243 */;
+	struct v9_mqd *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 238 */;
+	void *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 238 */;
+	uint32_t cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 223 */[2];
+	unsigned int cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v9.c 110 */;
+}

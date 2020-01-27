@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	const struct pci_device_id cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 731 */[];
+	struct amdgpu_mgpu_info cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 148 */;
+	void __exit cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1443 */;
+	void cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1443 */;
+	int __init cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1409 */;
+	struct pci_driver cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1398 */;
+	const struct drm_display_mode *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1352 */;
+	ktime_t *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1351 */;
+	int *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1350 */;
+	bool cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1348 */;
+	struct amdgpu_fpriv **cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1332 */;
+	const struct file_operations cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1318 */;
+	struct amdgpu_fpriv *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1309 */;
+	fl_owner_t cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1306 */;
+	const struct dev_pm_ops cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1294 */;
+	struct drm_device *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1280 */;
+	char *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 128 */;
+	struct drm_file *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1279 */;
+	unsigned long cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1277 */;
+	unsigned int cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1277 */;
+	struct file *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1276 */;
+	long cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1276 */;
+	struct drm_crtc *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1256 */;
+	uint cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 125 */;
+	struct device *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1167 */;
+	struct amdgpu_device *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1131 */;
+	int cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 108 */;
+	char cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 105 */[AMDGPU_MAX_TIMEOUT_PARAM_LENGTH];
+	const struct pci_device_id *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1021 */;
+	struct pci_dev *cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1020 */;
+	struct drm_driver cocci_id/* drivers/gpu/drm/amd/amdgpu/amdgpu_drv.c 1018 */;
+}

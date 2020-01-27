@@ -1,0 +1,34 @@
+cocci_test_suite() {
+	unsigned long *cocci_id/* arch/arm/mach-omap2/prm_common.c 81 */;
+	const struct omap_prcm_init_data *cocci_id/* arch/arm/mach-omap2/prm_common.c 795 */;
+	int cocci_id/* arch/arm/mach-omap2/prm_common.c 776 */;
+	int __init cocci_id/* arch/arm/mach-omap2/prm_common.c 774 */;
+	void cocci_id/* arch/arm/mach-omap2/prm_common.c 774 */;
+	struct resource cocci_id/* arch/arm/mach-omap2/prm_common.c 748 */;
+	struct omap_prcm_init_data *cocci_id/* arch/arm/mach-omap2/prm_common.c 747 */;
+	const struct of_device_id *cocci_id/* arch/arm/mach-omap2/prm_common.c 746 */;
+	struct device_node *cocci_id/* arch/arm/mach-omap2/prm_common.c 745 */;
+	struct prm_ll_data *cocci_id/* arch/arm/mach-omap2/prm_common.c 74 */;
+	struct prm_ll_data cocci_id/* arch/arm/mach-omap2/prm_common.c 73 */;
+	const struct of_device_id cocci_id/* arch/arm/mach-omap2/prm_common.c 704 */[]__initconst;
+	struct omap_domain_base cocci_id/* arch/arm/mach-omap2/prm_common.c 65 */;
+	struct omap_prcm_init_data cocci_id/* arch/arm/mach-omap2/prm_common.c 649 */;
+	struct irq_chip_generic **cocci_id/* arch/arm/mach-omap2/prm_common.c 55 */;
+	u8 cocci_id/* arch/arm/mach-omap2/prm_common.c 436 */;
+	u16 cocci_id/* arch/arm/mach-omap2/prm_common.c 436 */;
+	s16 cocci_id/* arch/arm/mach-omap2/prm_common.c 436 */;
+	bool cocci_id/* arch/arm/mach-omap2/prm_common.c 394 */;
+	void __iomem *cocci_id/* arch/arm/mach-omap2/prm_common.c 353 */;
+	void __init cocci_id/* arch/arm/mach-omap2/prm_common.c 353 */;
+	u32 cocci_id/* arch/arm/mach-omap2/prm_common.c 285 */;
+	void *cocci_id/* arch/arm/mach-omap2/prm_common.c 284 */;
+	struct irq_chip_type *cocci_id/* arch/arm/mach-omap2/prm_common.c 265 */;
+	struct irq_chip_generic *cocci_id/* arch/arm/mach-omap2/prm_common.c 264 */;
+	u32 cocci_id/* arch/arm/mach-omap2/prm_common.c 262 */[OMAP_PRCM_MAX_NR_PENDING_REG];
+	struct omap_prcm_irq_setup *cocci_id/* arch/arm/mach-omap2/prm_common.c 259 */;
+	unsigned int cocci_id/* arch/arm/mach-omap2/prm_common.c 192 */;
+	const char *cocci_id/* arch/arm/mach-omap2/prm_common.c 169 */;
+	struct irq_chip *cocci_id/* arch/arm/mach-omap2/prm_common.c 105 */;
+	unsigned long cocci_id/* arch/arm/mach-omap2/prm_common.c 103 */[OMAP_PRCM_MAX_NR_PENDING_REG];
+	struct irq_desc *cocci_id/* arch/arm/mach-omap2/prm_common.c 101 */;
+}

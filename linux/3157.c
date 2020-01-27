@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	struct i2c_driver cocci_id/* drivers/hwmon/amc6821.c 938 */;
+	const struct i2c_device_id cocci_id/* drivers/hwmon/amc6821.c 931 */[];
+	struct amc6821_data cocci_id/* drivers/hwmon/amc6821.c 911 */;
+	struct amc6821_data *cocci_id/* drivers/hwmon/amc6821.c 907 */;
+	struct device *cocci_id/* drivers/hwmon/amc6821.c 906 */;
+	const struct i2c_device_id *cocci_id/* drivers/hwmon/amc6821.c 904 */;
+	struct i2c_adapter *cocci_id/* drivers/hwmon/amc6821.c 776 */;
+	struct i2c_board_info *cocci_id/* drivers/hwmon/amc6821.c 774 */;
+	struct i2c_client *cocci_id/* drivers/hwmon/amc6821.c 773 */;
+	int cocci_id/* drivers/hwmon/amc6821.c 772 */;
+	struct attribute *cocci_id/* drivers/hwmon/amc6821.c 733 */[];
+	long cocci_id/* drivers/hwmon/amc6821.c 655 */;
+	size_t cocci_id/* drivers/hwmon/amc6821.c 651 */;
+	const char *cocci_id/* drivers/hwmon/amc6821.c 650 */;
+	struct device_attribute *cocci_id/* drivers/hwmon/amc6821.c 643 */;
+	char *cocci_id/* drivers/hwmon/amc6821.c 643 */;
+	ssize_t cocci_id/* drivers/hwmon/amc6821.c 642 */;
+	u16 cocci_id/* drivers/hwmon/amc6821.c 625 */;
+	u8 *cocci_id/* drivers/hwmon/amc6821.c 464 */;
+	enum chips{amc6821,} cocci_id/* drivers/hwmon/amc6821.c 39 */;
+	const unsigned short cocci_id/* drivers/hwmon/amc6821.c 26 */[];
+	int8_t cocci_id/* drivers/hwmon/amc6821.c 178 */;
+	u8 cocci_id/* drivers/hwmon/amc6821.c 169 */;
+	struct amc6821_data {
+		struct i2c_client *client;
+		struct mutex update_lock;
+		char valid;
+		unsigned long last_updated;
+		int temp[TEMP_IDX_LEN];
+		u16 fan[FAN1_IDX_LEN];
+		u8 fan1_div;
+		u8 pwm1;
+		u8 temp1_auto_point_temp[3];
+		u8 temp2_auto_point_temp[3];
+		u8 pwm1_auto_point_pwm[3];
+		u8 pwm1_enable;
+		u8 pwm1_auto_channels_temp;
+		u8 stat1;
+		u8 stat2;
+	} cocci_id/* drivers/hwmon/amc6821.c 141 */;
+	const u8 cocci_id/* drivers/hwmon/amc6821.c 133 */[];
+	enum{IDX_FAN1_INPUT=0, IDX_FAN1_MIN, IDX_FAN1_MAX, FAN1_IDX_LEN,} cocci_id/* drivers/hwmon/amc6821.c 125 */;
+	enum{IDX_TEMP1_INPUT=0, IDX_TEMP1_MIN, IDX_TEMP1_MAX, IDX_TEMP1_CRIT, IDX_TEMP2_INPUT, IDX_TEMP2_MIN, IDX_TEMP2_MAX, IDX_TEMP2_CRIT, TEMP_IDX_LEN,} cocci_id/* drivers/hwmon/amc6821.c 111 */;
+}

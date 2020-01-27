@@ -1,0 +1,54 @@
+cocci_test_suite() {
+	struct comedi_krange *cocci_id/* drivers/staging/comedi/drivers/das16.c 962 */;
+	struct comedi_lrange *cocci_id/* drivers/staging/comedi/drivers/das16.c 961 */;
+	struct comedi_devconfig *cocci_id/* drivers/staging/comedi/drivers/das16.c 952 */;
+	const struct comedi_lrange *cocci_id/* drivers/staging/comedi/drivers/das16.c 950 */;
+	unsigned int *cocci_id/* drivers/staging/comedi/drivers/das16.c 825 */;
+	unsigned long cocci_id/* drivers/staging/comedi/drivers/das16.c 812 */;
+	struct comedi_insn *cocci_id/* drivers/staging/comedi/drivers/das16.c 811 */;
+	__le16 *cocci_id/* drivers/staging/comedi/drivers/das16.c 799 */;
+	unsigned short *cocci_id/* drivers/staging/comedi/drivers/das16.c 796 */;
+	void *cocci_id/* drivers/staging/comedi/drivers/das16.c 792 */;
+	void cocci_id/* drivers/staging/comedi/drivers/das16.c 791 */;
+	struct comedi_async *cocci_id/* drivers/staging/comedi/drivers/das16.c 699 */;
+	unsigned int cocci_id/* drivers/staging/comedi/drivers/das16.c 561 */;
+	struct comedi_cmd *cocci_id/* drivers/staging/comedi/drivers/das16.c 559 */;
+	struct comedi_subdevice *cocci_id/* drivers/staging/comedi/drivers/das16.c 558 */;
+	struct comedi_device *cocci_id/* drivers/staging/comedi/drivers/das16.c 557 */;
+	int cocci_id/* drivers/staging/comedi/drivers/das16.c 557 */;
+	const struct das16_board *cocci_id/* drivers/staging/comedi/drivers/das16.c 539 */;
+	struct timer_list *cocci_id/* drivers/staging/comedi/drivers/das16.c 520 */;
+	struct comedi_isadma_desc *cocci_id/* drivers/staging/comedi/drivers/das16.c 451 */;
+	struct comedi_isadma *cocci_id/* drivers/staging/comedi/drivers/das16.c 450 */;
+	struct das16_private_struct *cocci_id/* drivers/staging/comedi/drivers/das16.c 449 */;
+	struct das16_private_struct {
+		struct comedi_isadma *dma;
+		struct comedi_device *dev;
+		unsigned int clockbase;
+		unsigned int ctrl_reg;
+		unsigned int divisor1;
+		unsigned int divisor2;
+		struct timer_list timer;
+		unsigned long extra_iobase;
+		unsigned int can_burst:1;
+		unsigned int timer_running:1;
+	} cocci_id/* drivers/staging/comedi/drivers/das16.c 432 */;
+	const struct das16_board cocci_id/* drivers/staging/comedi/drivers/das16.c 231 */[];
+	struct das16_board {
+		const char *name;
+		unsigned int ai_maxdata;
+		unsigned int ai_speed;
+		unsigned int ai_pg;
+		unsigned int has_ao:1;
+		unsigned int has_8255:1;
+		unsigned int i8255_offset;
+		unsigned int size;
+		unsigned int id;
+	} cocci_id/* drivers/staging/comedi/drivers/das16.c 217 */;
+	const struct comedi_lrange *const cocci_id/* drivers/staging/comedi/drivers/das16.c 209 */[];
+	const int *const cocci_id/* drivers/staging/comedi/drivers/das16.c 193 */[];
+	enum{das16_pg_none=0, das16_pg_16jr, das16_pg_16jr_16, das16_pg_1601, das16_pg_1602,} cocci_id/* drivers/staging/comedi/drivers/das16.c 185 */;
+	const int cocci_id/* drivers/staging/comedi/drivers/das16.c 183 */[];
+	const struct comedi_lrange cocci_id/* drivers/staging/comedi/drivers/das16.c 154 */;
+	struct comedi_driver cocci_id/* drivers/staging/comedi/drivers/das16.c 1187 */;
+}

@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	u32 cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 91 */;
+	const s32 cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 902 */;
+	const s16 cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 901 */;
+	const int cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 900 */;
+	const u8 cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 897 */;
+	struct bpf_prog cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 887 */;
+	struct bpf_array cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 859 */;
+	s32 cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 799 */;
+	u8 cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 658 */;
+	long cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 414 */;
+	unsigned long cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 39 */;
+	int cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 369 */;
+	int *cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 367 */;
+	void cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 366 */;
+	void *cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 35 */;
+	const u32 cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 236 */;
+	const int cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 208 */[];
+	struct jit_ctx {
+		struct bpf_prog *prog;
+		unsigned int *offset;
+		int idx;
+		int epilogue_offset;
+		bool tmp_1_used;
+		bool tmp_2_used;
+		bool tmp_3_used;
+		bool saw_frame_pointer;
+		bool saw_call;
+		bool saw_tail_call;
+		u32 *image;
+	} cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 189 */;
+	u32 *cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 1563 */;
+	unsigned int cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 1515 */;
+	u8 *cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 1475 */;
+	struct jit_ctx cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 1474 */;
+	bool cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 1472 */;
+	struct bpf_binary_header *cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 1470 */;
+	struct sparc64_jit_data *cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 1469 */;
+	struct bpf_prog *cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 1466 */;
+	struct sparc64_jit_data {
+		struct bpf_binary_header *header;
+		u8 *image;
+		struct jit_ctx ctx;
+	} cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 1460 */;
+	const struct bpf_insn *cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 1430 */;
+	const struct bpf_prog *cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 1426 */;
+	struct jit_ctx *cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 1424 */;
+	u64 cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 1246 */;
+	const struct bpf_insn cocci_id/* arch/sparc/net/bpf_jit_comp_64.c 1245 */;
+}

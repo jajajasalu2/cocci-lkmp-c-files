@@ -1,0 +1,50 @@
+cocci_test_suite() {
+	bool cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 91 */;
+	enum drm_connector_status cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 90 */;
+	const struct drm_connector_helper_funcs cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 86 */;
+	struct edid *cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 56 */;
+	void __exit cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 493 */;
+	struct drm_connector *cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 48 */;
+	int __init cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 465 */;
+	struct {
+		uint i2c:1;
+		uint platform:1;
+	} cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 460 */;
+	struct i2c_driver cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 449 */;
+	const struct i2c_device_id cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 443 */[];
+	struct tfp410 cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 44 */;
+	const struct i2c_device_id *cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 424 */;
+	struct i2c_client *cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 423 */;
+	struct drm_bridge *cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 42 */;
+	struct platform_driver cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 412 */;
+	struct tfp410 *cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 41 */;
+	const struct of_device_id cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 406 */[];
+	struct platform_device *cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 396 */;
+	struct device *cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 379 */;
+	struct device_node *cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 275 */;
+	u32 *cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 263 */;
+	struct tfp410 {
+		struct drm_bridge bridge;
+		struct drm_connector connector;
+		unsigned int connector_type;
+		u32 bus_format;
+		struct i2c_adapter *ddc;
+		struct gpio_desc *hpd;
+		int hpd_irq;
+		struct delayed_work hpd_work;
+		struct gpio_desc *powerdown;
+		struct drm_bridge_timings timings;
+		struct device *dev;
+	} cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 24 */;
+	s32 cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 209 */;
+	u32 cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 207 */;
+	struct drm_bridge_timings *cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 205 */;
+	const struct drm_bridge_timings cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 196 */;
+	irqreturn_t cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 186 */;
+	void *cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 186 */;
+	struct work_struct *cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 176 */;
+	const struct drm_bridge_funcs cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 170 */;
+	void cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 163 */;
+	int cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 121 */;
+	const struct drm_connector_funcs cocci_id/* drivers/gpu/drm/bridge/ti-tfp410.c 112 */;
+}

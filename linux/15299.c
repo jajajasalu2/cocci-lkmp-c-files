@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	struct scom_device {
+		struct list_head link;
+		struct fsi_device *fsi_dev;
+		struct device dev;
+		struct cdev cdev;
+		struct mutex lock;
+		bool dead;
+	} cocci_id/* drivers/fsi/fsi-scom.c 66 */;
+	struct fsi_driver cocci_id/* drivers/fsi/fsi-scom.c 638 */;
+	struct fsi_device_id cocci_id/* drivers/fsi/fsi-scom.c 630 */[];
+	struct fsi_device *cocci_id/* drivers/fsi/fsi-scom.c 571 */;
+	struct scom_device cocci_id/* drivers/fsi/fsi-scom.c 563 */;
+	struct device *cocci_id/* drivers/fsi/fsi-scom.c 561 */;
+	const struct file_operations cocci_id/* drivers/fsi/fsi-scom.c 552 */;
+	struct inode *cocci_id/* drivers/fsi/fsi-scom.c 543 */;
+	struct file *cocci_id/* drivers/fsi/fsi-scom.c 514 */;
+	unsigned long cocci_id/* drivers/fsi/fsi-scom.c 514 */;
+	unsigned int cocci_id/* drivers/fsi/fsi-scom.c 514 */;
+	long cocci_id/* drivers/fsi/fsi-scom.c 514 */;
+	__u32 __user *cocci_id/* drivers/fsi/fsi-scom.c 511 */;
+	void __user *cocci_id/* drivers/fsi/fsi-scom.c 508 */;
+	u64 cocci_id/* drivers/fsi/fsi-scom.c 463 */;
+	struct scom_access cocci_id/* drivers/fsi/fsi-scom.c 445 */;
+	struct scom_access *cocci_id/* drivers/fsi/fsi-scom.c 427 */;
+	void cocci_id/* drivers/fsi/fsi-scom.c 427 */;
+	loff_t cocci_id/* drivers/fsi/fsi-scom.c 412 */;
+	const char __user *cocci_id/* drivers/fsi/fsi-scom.c 381 */;
+	loff_t *cocci_id/* drivers/fsi/fsi-scom.c 353 */;
+	char __user *cocci_id/* drivers/fsi/fsi-scom.c 352 */;
+	ssize_t cocci_id/* drivers/fsi/fsi-scom.c 352 */;
+	size_t cocci_id/* drivers/fsi/fsi-scom.c 352 */;
+	uint8_t cocci_id/* drivers/fsi/fsi-scom.c 256 */;
+	uint64_t cocci_id/* drivers/fsi/fsi-scom.c 133 */;
+	__be32 cocci_id/* drivers/fsi/fsi-scom.c 110 */;
+	uint32_t cocci_id/* drivers/fsi/fsi-scom.c 108 */;
+	uint32_t *cocci_id/* drivers/fsi/fsi-scom.c 108 */;
+	uint64_t *cocci_id/* drivers/fsi/fsi-scom.c 107 */;
+	struct scom_device *cocci_id/* drivers/fsi/fsi-scom.c 107 */;
+	int cocci_id/* drivers/fsi/fsi-scom.c 107 */;
+}

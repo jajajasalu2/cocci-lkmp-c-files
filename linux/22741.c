@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	unsigned char cocci_id/* sound/isa/es1688/es1688_lib.c 972 */[][2];
+	struct snd_kcontrol_new cocci_id/* sound/isa/es1688/es1688_lib.c 950 */[];
+	struct snd_kcontrol *cocci_id/* sound/isa/es1688/es1688_lib.c 853 */;
+	struct snd_ctl_elem_value *cocci_id/* sound/isa/es1688/es1688_lib.c 853 */;
+	struct snd_ctl_elem_info *cocci_id/* sound/isa/es1688/es1688_lib.c 842 */;
+	const char *const cocci_id/* sound/isa/es1688/es1688_lib.c 743 */[8];
+	struct snd_pcm *cocci_id/* sound/isa/es1688/es1688_lib.c 716 */;
+	const struct snd_pcm_ops cocci_id/* sound/isa/es1688/es1688_lib.c 703 */;
+	void cocci_id/* sound/isa/es1688/es1688_lib.c 68 */;
+	void *cocci_id/* sound/isa/es1688/es1688_lib.c 651 */;
+	struct snd_device_ops cocci_id/* sound/isa/es1688/es1688_lib.c 632 */;
+	unsigned short cocci_id/* sound/isa/es1688/es1688_lib.c 630 */;
+	struct snd_card *cocci_id/* sound/isa/es1688/es1688_lib.c 623 */;
+	char cocci_id/* sound/isa/es1688/es1688_lib.c 618 */[16];
+	const char *cocci_id/* sound/isa/es1688/es1688_lib.c 616 */;
+	struct snd_device *cocci_id/* sound/isa/es1688/es1688_lib.c 610 */;
+	struct snd_es1688 *cocci_id/* sound/isa/es1688/es1688_lib.c 590 */;
+	struct snd_pcm_substream *cocci_id/* sound/isa/es1688/es1688_lib.c 588 */;
+	int cocci_id/* sound/isa/es1688/es1688_lib.c 588 */;
+	struct snd_pcm_runtime *cocci_id/* sound/isa/es1688/es1688_lib.c 569 */;
+	const struct snd_pcm_hardware cocci_id/* sound/isa/es1688/es1688_lib.c 530 */;
+	size_t cocci_id/* sound/isa/es1688/es1688_lib.c 500 */;
+	snd_pcm_uframes_t cocci_id/* sound/isa/es1688/es1688_lib.c 497 */;
+	irqreturn_t cocci_id/* sound/isa/es1688/es1688_lib.c 473 */;
+	unsigned char cocci_id/* sound/isa/es1688/es1688_lib.c 460 */;
+	unsigned int cocci_id/* sound/isa/es1688/es1688_lib.c 421 */;
+	unsigned long cocci_id/* sound/isa/es1688/es1688_lib.c 418 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/isa/es1688/es1688_lib.c 345 */;
+	const struct snd_pcm_hw_constraint_ratnums cocci_id/* sound/isa/es1688/es1688_lib.c 291 */;
+	const struct snd_ratnum cocci_id/* sound/isa/es1688/es1688_lib.c 276 */[2];
+	int cocci_id/* sound/isa/es1688/es1688_lib.c 183 */[16];
+}

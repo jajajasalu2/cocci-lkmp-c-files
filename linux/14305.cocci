@@ -1,0 +1,824 @@
+@ initialize:python @
+@@
+from collections import defaultdict
+rule_matches = defaultdict(dict)
+
+@ r1 @
+symbol cocci_id;
+position p;
+typedef u8;
+@@
+ u8 cocci_id@p [ 4 ] ;
+
+@ script:python depends on r1 @
+p << r1.p;
+@@
+
+if 1 not in rule_matches:
+    rule_matches[1] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['52']:
+    rule_matches[1]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[1]['other_lines'].append(p[0].line)
+
+@ r2 @
+symbol cocci_id;
+position p;
+typedef u8;
+@@
+ u8 cocci_id@p [ 6 ] ;
+
+@ script:python depends on r2 @
+p << r2.p;
+@@
+
+if 2 not in rule_matches:
+    rule_matches[2] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['45']:
+    rule_matches[2]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[2]['other_lines'].append(p[0].line)
+
+@ r3 @
+symbol cocci_id;
+position p;
+@@
+ struct i2c_adapter * cocci_id@p ;
+
+@ script:python depends on r3 @
+p << r3.p;
+@@
+
+if 3 not in rule_matches:
+    rule_matches[3] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['34']:
+    rule_matches[3]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[3]['other_lines'].append(p[0].line)
+
+@ r4 @
+symbol cocci_id;
+position p;
+typedef u64;
+@@
+ u64 cocci_id@p ;
+
+@ script:python depends on r4 @
+p << r4.p;
+@@
+
+if 4 not in rule_matches:
+    rule_matches[4] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['54']:
+    rule_matches[4]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[4]['other_lines'].append(p[0].line)
+
+@ r5 @
+symbol cocci_id;
+position p;
+@@
+ enum CSCDState { CSCD_INIT = 0 , CSCD_SET , CSCD_SAVED , } cocci_id@p ;
+
+@ script:python depends on r5 @
+p << r5.p;
+@@
+
+if 5 not in rule_matches:
+    rule_matches[5] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['32']:
+    rule_matches[5]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[5]['other_lines'].append(p[0].line)
+
+@ r6 @
+symbol cocci_id;
+position p;
+typedef u32;
+@@
+ u32 * cocci_id@p ;
+
+@ script:python depends on r6 @
+p << r6.p;
+@@
+
+if 6 not in rule_matches:
+    rule_matches[6] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['59']:
+    rule_matches[6]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[6]['other_lines'].append(p[0].line)
+
+@ r7 @
+symbol cocci_id;
+position p;
+@@
+ enum EIFFilter { IFFILTER_SAW = 0 , IFFILTER_DISCRETE = 1 , } cocci_id@p ;
+
+@ script:python depends on r7 @
+p << r7.p;
+@@
+
+if 7 not in rule_matches:
+    rule_matches[7] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['3']:
+    rule_matches[7]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[7]['other_lines'].append(p[0].line)
+
+@ r8 @
+symbol cocci_id;
+position p;
+@@
+ enum fe_status * cocci_id@p ;
+
+@ script:python depends on r8 @
+p << r8.p;
+@@
+
+if 8 not in rule_matches:
+    rule_matches[8] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['42']:
+    rule_matches[8]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[8]['other_lines'].append(p[0].line)
+
+@ r9 @
+symbol cocci_id;
+position p;
+@@
+ struct SNoiseCal * cocci_id@p ;
+
+@ script:python depends on r9 @
+p << r9.p;
+@@
+
+if 9 not in rule_matches:
+    rule_matches[9] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['58']:
+    rule_matches[9]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[9]['other_lines'].append(p[0].line)
+
+@ r10 @
+symbol cocci_id;
+position p;
+typedef u16;
+@@
+ u16 * cocci_id@p ;
+
+@ script:python depends on r10 @
+p << r10.p;
+@@
+
+if 10 not in rule_matches:
+    rule_matches[10] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['2']:
+    rule_matches[10]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[10]['other_lines'].append(p[0].line)
+
+@ r11 @
+symbol cocci_id;
+position p;
+@@
+ enum app_env { APPENV_STATIC = 0 , APPENV_PORTABLE = 1 , APPENV_MOBILE = 2 , } cocci_id@p ;
+
+@ script:python depends on r11 @
+p << r11.p;
+@@
+
+if 11 not in rule_matches:
+    rule_matches[11] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['7']:
+    rule_matches[11]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[11]['other_lines'].append(p[0].line)
+
+@ r12 @
+symbol cocci_id;
+position p;
+typedef u8,s16,u32,u16;
+@@
+ struct drxd_state {  struct dvb_frontend frontend ;  struct dvb_frontend_ops ops ;  struct dtv_frontend_properties props ;  const struct firmware * fw ;  struct device * dev ;  struct i2c_adapter * i2c ;  void * priv ;  struct drxd_config config ;  int i2c_access ;  int init_done ;  struct mutex mutex ;  u8 chip_adr ;  u16 hi_cfg_timing_div ;  u16 hi_cfg_bridge_delay ;  u16 hi_cfg_wakeup_key ;  u16 hi_cfg_ctrl ;  u16 intermediate_freq ;  u16 osc_clock_freq ;  enum CSCDState cscd_state ;  enum CDrxdState drxd_state ;  u16 sys_clock_freq ;  s16 osc_clock_deviation ;  u16 expected_sys_clock_freq ;  u16 insert_rs_byte ;  u16 enable_parallel ;  int operation_mode ;  struct SCfgAgc if_agc_cfg ;  struct SCfgAgc rf_agc_cfg ;  struct SNoiseCal noise_cal ;  u32 fe_fs_add_incr ;  u32 org_fe_fs_add_incr ;  u16 current_fe_if_incr ;  u16 m_FeAgRegAgPwd ;  u16 m_FeAgRegAgAgcSio ;  u16 m_EcOcRegOcModeLop ;  u16 m_EcOcRegSncSncLvl ;  u8 * m_InitAtomicRead ;  u8 * m_HiI2cPatch ;  u8 * m_ResetCEFR ;  u8 * m_InitFE_1 ;  u8 * m_InitFE_2 ;  u8 * m_InitCP ;  u8 * m_InitCE ;  u8 * m_InitEQ ;  u8 * m_InitSC ;  u8 * m_InitEC ;  u8 * m_ResetECRAM ;  u8 * m_InitDiversityFront ;  u8 * m_InitDiversityEnd ;  u8 * m_DisableDiversity ;  u8 * m_StartDiversityFront ;  u8 * m_StartDiversityEnd ;  u8 * m_DiversityDelay8MHZ ;  u8 * m_DiversityDelay6MHZ ;  u8 * microcode ;  u32 microcode_length ;  int type_A ;  int PGA ;  int diversity ;  int tuner_mirrors ;  enum app_env app_env_default ;  enum app_env app_env_diversity ; } cocci_id@p ;
+
+@ script:python depends on r12 @
+p << r12.p;
+@@
+
+if 12 not in rule_matches:
+    rule_matches[12] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['62', '125']:
+    rule_matches[12]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[12]['other_lines'].append(p[0].line)
+
+@ r13 @
+symbol cocci_id;
+position p;
+@@
+ enum OperationMode { OM_Default , OM_DVBT_Diversity_Front , OM_DVBT_Diversity_End , } cocci_id@p ;
+
+@ script:python depends on r13 @
+p << r13.p;
+@@
+
+if 13 not in rule_matches:
+    rule_matches[13] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['25']:
+    rule_matches[13]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[13]['other_lines'].append(p[0].line)
+
+@ r14 @
+symbol cocci_id;
+position p;
+@@
+ enum AGC_CTRL_MODE { AGC_CTRL_AUTO = 0 , AGC_CTRL_USER , AGC_CTRL_OFF , } cocci_id@p ;
+
+@ script:python depends on r14 @
+p << r14.p;
+@@
+
+if 14 not in rule_matches:
+    rule_matches[14] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['27']:
+    rule_matches[14]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[14]['other_lines'].append(p[0].line)
+
+@ r15 @
+symbol cocci_id;
+position p;
+@@
+ void cocci_id@p ;
+
+@ script:python depends on r15 @
+p << r15.p;
+@@
+
+if 15 not in rule_matches:
+    rule_matches[15] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['39']:
+    rule_matches[15]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[15]['other_lines'].append(p[0].line)
+
+@ r16 @
+symbol cocci_id;
+position p;
+@@
+ struct SNoiseCal {  int cpOpt ;  short cpNexpOfs ;  short tdCal2k ;  short tdCal8k ; } cocci_id@p ;
+
+@ script:python depends on r16 @
+p << r16.p;
+@@
+
+if 16 not in rule_matches:
+    rule_matches[16] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['8', '13']:
+    rule_matches[16]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[16]['other_lines'].append(p[0].line)
+
+@ r17 @
+symbol cocci_id;
+position p;
+typedef u8;
+@@
+ u8 cocci_id@p [ 2 ] ;
+
+@ script:python depends on r17 @
+p << r17.p;
+@@
+
+if 17 not in rule_matches:
+    rule_matches[17] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['51']:
+    rule_matches[17]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[17]['other_lines'].append(p[0].line)
+
+@ r18 @
+symbol cocci_id;
+position p;
+typedef u16;
+@@
+ const u16 cocci_id@p ;
+
+@ script:python depends on r18 @
+p << r18.p;
+@@
+
+if 18 not in rule_matches:
+    rule_matches[18] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['29']:
+    rule_matches[18]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[18]['other_lines'].append(p[0].line)
+
+@ r19 @
+symbol cocci_id;
+position p;
+typedef s32;
+@@
+ s32 cocci_id@p ;
+
+@ script:python depends on r19 @
+p << r19.p;
+@@
+
+if 19 not in rule_matches:
+    rule_matches[19] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['61']:
+    rule_matches[19]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[19]['other_lines'].append(p[0].line)
+
+@ r20 @
+symbol cocci_id;
+position p;
+@@
+ void * cocci_id@p ;
+
+@ script:python depends on r20 @
+p << r20.p;
+@@
+
+if 20 not in rule_matches:
+    rule_matches[20] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['35']:
+    rule_matches[20]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[20]['other_lines'].append(p[0].line)
+
+@ r21 @
+symbol cocci_id;
+position p;
+typedef s16;
+@@
+ s16 cocci_id@p ;
+
+@ script:python depends on r21 @
+p << r21.p;
+@@
+
+if 21 not in rule_matches:
+    rule_matches[21] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['60']:
+    rule_matches[21]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[21]['other_lines'].append(p[0].line)
+
+@ r22 @
+symbol cocci_id;
+position p;
+@@
+ int cocci_id@p ( struct drxd_state * state ) ;
+
+@ script:python depends on r22 @
+p << r22.p;
+@@
+
+if 22 not in rule_matches:
+    rule_matches[22] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['30']:
+    rule_matches[22]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[22]['other_lines'].append(p[0].line)
+
+@ r23 @
+symbol cocci_id;
+position p;
+typedef u8;
+@@
+ u8 cocci_id@p [ CHUNK_SIZE + 4 ] ;
+
+@ script:python depends on r23 @
+p << r23.p;
+@@
+
+if 23 not in rule_matches:
+    rule_matches[23] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['40']:
+    rule_matches[23]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[23]['other_lines'].append(p[0].line)
+
+@ r24 @
+symbol cocci_id;
+position p;
+typedef u32;
+@@
+ u32 cocci_id@p ;
+
+@ script:python depends on r24 @
+p << r24.p;
+@@
+
+if 24 not in rule_matches:
+    rule_matches[24] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['48']:
+    rule_matches[24]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[24]['other_lines'].append(p[0].line)
+
+@ r25 @
+symbol cocci_id;
+position p;
+typedef u16;
+@@
+ u16 cocci_id@p ;
+
+@ script:python depends on r25 @
+p << r25.p;
+@@
+
+if 25 not in rule_matches:
+    rule_matches[25] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['47']:
+    rule_matches[25]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[25]['other_lines'].append(p[0].line)
+
+@ r26 @
+symbol cocci_id;
+position p;
+@@
+ const struct dvb_frontend_ops cocci_id@p ;
+
+@ script:python depends on r26 @
+p << r26.p;
+@@
+
+if 26 not in rule_matches:
+    rule_matches[26] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['38']:
+    rule_matches[26]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[26]['other_lines'].append(p[0].line)
+
+@ r27 @
+symbol cocci_id;
+position p;
+typedef u8;
+@@
+ const u8 * cocci_id@p ;
+
+@ script:python depends on r27 @
+p << r27.p;
+@@
+
+if 27 not in rule_matches:
+    rule_matches[27] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['44']:
+    rule_matches[27]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[27]['other_lines'].append(p[0].line)
+
+@ r28 @
+symbol cocci_id;
+position p;
+typedef u8;
+@@
+ u8 cocci_id@p ;
+
+@ script:python depends on r28 @
+p << r28.p;
+@@
+
+if 28 not in rule_matches:
+    rule_matches[28] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['53']:
+    rule_matches[28]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[28]['other_lines'].append(p[0].line)
+
+@ r29 @
+symbol cocci_id;
+position p;
+@@
+ const struct drxd_config * cocci_id@p ;
+
+@ script:python depends on r29 @
+p << r29.p;
+@@
+
+if 29 not in rule_matches:
+    rule_matches[29] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['36']:
+    rule_matches[29]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[29]['other_lines'].append(p[0].line)
+
+@ r30 @
+symbol cocci_id;
+position p;
+@@
+ enum CDrxdState { DRXD_UNINITIALIZED = 0 , DRXD_STOPPED , DRXD_STARTED , } cocci_id@p ;
+
+@ script:python depends on r30 @
+p << r30.p;
+@@
+
+if 30 not in rule_matches:
+    rule_matches[30] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['31']:
+    rule_matches[30]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[30]['other_lines'].append(p[0].line)
+
+@ r31 @
+symbol cocci_id;
+position p;
+@@
+ struct device * cocci_id@p ;
+
+@ script:python depends on r31 @
+p << r31.p;
+@@
+
+if 31 not in rule_matches:
+    rule_matches[31] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['33']:
+    rule_matches[31]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[31]['other_lines'].append(p[0].line)
+
+@ r32 @
+symbol cocci_id;
+position p;
+@@
+ struct SCfgAgc * cocci_id@p ;
+
+@ script:python depends on r32 @
+p << r32.p;
+@@
+
+if 32 not in rule_matches:
+    rule_matches[32] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['28']:
+    rule_matches[32]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[32]['other_lines'].append(p[0].line)
+
+@ r33 @
+symbol cocci_id;
+position p;
+typedef u8;
+@@
+ u8 cocci_id@p [ 8 ] ;
+
+@ script:python depends on r33 @
+p << r33.p;
+@@
+
+if 33 not in rule_matches:
+    rule_matches[33] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['43']:
+    rule_matches[33]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[33]['other_lines'].append(p[0].line)
+
+@ r34 @
+symbol cocci_id;
+position p;
+@@
+ struct i2c_msg cocci_id@p ;
+
+@ script:python depends on r34 @
+p << r34.p;
+@@
+
+if 34 not in rule_matches:
+    rule_matches[34] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['56']:
+    rule_matches[34]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[34]['other_lines'].append(p[0].line)
+
+@ r35 @
+symbol cocci_id;
+position p;
+@@
+ struct dtv_frontend_properties * cocci_id@p ;
+
+@ script:python depends on r35 @
+p << r35.p;
+@@
+
+if 35 not in rule_matches:
+    rule_matches[35] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['57']:
+    rule_matches[35]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[35]['other_lines'].append(p[0].line)
+
+@ r36 @
+symbol cocci_id;
+position p;
+@@
+ const char * cocci_id@p ;
+
+@ script:python depends on r36 @
+p << r36.p;
+@@
+
+if 36 not in rule_matches:
+    rule_matches[36] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['6']:
+    rule_matches[36]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[36]['other_lines'].append(p[0].line)
+
+@ r37 @
+symbol cocci_id;
+position p;
+@@
+ int cocci_id@p ;
+
+@ script:python depends on r37 @
+p << r37.p;
+@@
+
+if 37 not in rule_matches:
+    rule_matches[37] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['50']:
+    rule_matches[37]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[37]['other_lines'].append(p[0].line)
+
+@ r38 @
+symbol cocci_id;
+position p;
+@@
+ const struct firmware * cocci_id@p ;
+
+@ script:python depends on r38 @
+p << r38.p;
+@@
+
+if 38 not in rule_matches:
+    rule_matches[38] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['5']:
+    rule_matches[38]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[38]['other_lines'].append(p[0].line)
+
+@ r39 @
+symbol cocci_id;
+position p;
+typedef u16;
+@@
+ struct SCfgAgc {  enum AGC_CTRL_MODE ctrlMode ;  u16 outputLevel ;  u16 settleLevel ;  u16 minOutputLevel ;  u16 maxOutputLevel ;  u16 speed ;  u16 R1 ;  u16 R2 ;  u16 R3 ; } cocci_id@p ;
+
+@ script:python depends on r39 @
+p << r39.p;
+@@
+
+if 39 not in rule_matches:
+    rule_matches[39] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['14', '24']:
+    rule_matches[39]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[39]['other_lines'].append(p[0].line)
+
+@ r40 @
+symbol cocci_id;
+position p;
+@@
+ enum app_env cocci_id@p ;
+
+@ script:python depends on r40 @
+p << r40.p;
+@@
+
+if 40 not in rule_matches:
+    rule_matches[40] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['46']:
+    rule_matches[40]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[40]['other_lines'].append(p[0].line)
+
+@ r41 @
+symbol cocci_id;
+position p;
+@@
+ struct drxd_state * cocci_id@p ;
+
+@ script:python depends on r41 @
+p << r41.p;
+@@
+
+if 41 not in rule_matches:
+    rule_matches[41] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['49']:
+    rule_matches[41]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[41]['other_lines'].append(p[0].line)
+
+@ r42 @
+symbol cocci_id;
+position p;
+typedef u8;
+@@
+ u8 * cocci_id@p ;
+
+@ script:python depends on r42 @
+p << r42.p;
+@@
+
+if 42 not in rule_matches:
+    rule_matches[42] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['4']:
+    rule_matches[42]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[42]['other_lines'].append(p[0].line)
+
+@ r43 @
+symbol cocci_id;
+position p;
+@@
+ struct dvb_frontend * cocci_id@p ;
+
+@ script:python depends on r43 @
+p << r43.p;
+@@
+
+if 43 not in rule_matches:
+    rule_matches[43] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['37']:
+    rule_matches[43]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[43]['other_lines'].append(p[0].line)
+
+@ r44 @
+symbol cocci_id;
+position p;
+@@
+ struct dvb_frontend_tune_settings * cocci_id@p ;
+
+@ script:python depends on r44 @
+p << r44.p;
+@@
+
+if 44 not in rule_matches:
+    rule_matches[44] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['41']:
+    rule_matches[44]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[44]['other_lines'].append(p[0].line)
+
+@ r45 @
+symbol cocci_id;
+position p;
+typedef u16;
+@@
+ const u16 cocci_id@p [ ] ;
+
+@ script:python depends on r45 @
+p << r45.p;
+@@
+
+if 45 not in rule_matches:
+    rule_matches[45] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['26']:
+    rule_matches[45]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[45]['other_lines'].append(p[0].line)
+
+@ r46 @
+symbol cocci_id;
+position p;
+@@
+ struct i2c_msg cocci_id@p [ 2 ] ;
+
+@ script:python depends on r46 @
+p << r46.p;
+@@
+
+if 46 not in rule_matches:
+    rule_matches[46] = {'lines': [], 'correct_lines': [], 'other_lines': []}
+if p[0].line in ['55']:
+    rule_matches[46]['correct_lines'].append(p[0].line)
+else:
+    rule_matches[46]['other_lines'].append(p[0].line)
+
+@ finalize:python @
+@@
+rules = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
+for i in rules:
+    if i not in rule_matches:
+        print("FAILED %s: NO MATCHES" % (str(i)))
+        continue
+    elif rule_matches[i]['correct_lines']:
+        if rule_matches[i]['other_lines']:
+            print("PASSED %s: CORRECT MATCHES: %s INCORRECT MATCHES: %s" % (str(i), str(rule_matches[i]['correct_lines']), str(rule_matches[i]['other_lines'])))
+        else:
+            print("PASSED %s: CORRECT MATCHES: %s" % (str(i), str(rule_matches[i]['correct_lines'])))
+    elif rule_matches[i]['other_lines']:
+        print("FAILED %s: INCORRECT MATCHES: %s" % (str(i), str(rule_matches[i]['other_lines'])))
+    else:
+        print("UNDEFINED %s" % str(i))
+
+print("Total Number of cases: %s" % str(len(rules)))

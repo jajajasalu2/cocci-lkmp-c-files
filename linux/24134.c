@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	void cocci_id/* net/can/af_can.c 910 */;
+	struct receiver cocci_id/* net/can/af_can.c 878 */;
+	struct canfd_frame cocci_id/* net/can/af_can.c 872 */;
+	struct can_frame cocci_id/* net/can/af_can.c 871 */;
+	struct pernet_operations cocci_id/* net/can/af_can.c 861 */;
+	struct notifier_block cocci_id/* net/can/af_can.c 857 */;
+	const struct net_proto_family cocci_id/* net/can/af_can.c 850 */;
+	atomic_t cocci_id/* net/can/af_can.c 85 */;
+	struct packet_type cocci_id/* net/can/af_can.c 840 */;
+	const struct can_proto __rcu *cocci_id/* net/can/af_can.c 82 */[CAN_NPROTO]__read_mostly;
+	struct kmem_cache *cocci_id/* net/can/af_can.c 79 */;
+	void *cocci_id/* net/can/af_can.c 772 */;
+	struct notifier_block *cocci_id/* net/can/af_can.c 771 */;
+	unsigned long cocci_id/* net/can/af_can.c 771 */;
+	struct canfd_frame *cocci_id/* net/can/af_can.c 676 */;
+	struct packet_type *cocci_id/* net/can/af_can.c 674 */;
+	struct sk_buff *cocci_id/* net/can/af_can.c 673 */;
+	struct can_pkg_stats *cocci_id/* net/can/af_can.c 642 */;
+	canid_t cocci_id/* net/can/af_can.c 578 */;
+	struct can_frame *cocci_id/* net/can/af_can.c 577 */;
+	struct receiver *cocci_id/* net/can/af_can.c 575 */;
+	struct rcu_head *cocci_id/* net/can/af_can.c 489 */;
+	struct can_rcv_lists_stats *cocci_id/* net/can/af_can.c 448 */;
+	char *cocci_id/* net/can/af_can.c 443 */;
+	void (*cocci_id/* net/can/af_can.c 442 */)(struct sk_buff *, void *);
+	canid_t *cocci_id/* net/can/af_can.c 364 */;
+	struct hlist_head *cocci_id/* net/can/af_can.c 364 */;
+	unsigned int cocci_id/* net/can/af_can.c 326 */;
+	struct can_ml_priv *cocci_id/* net/can/af_can.c 307 */;
+	struct net_device *cocci_id/* net/can/af_can.c 304 */;
+	struct can_dev_rcv_lists *cocci_id/* net/can/af_can.c 303 */;
+	const struct can_proto *cocci_id/* net/can/af_can.c 118 */;
+	struct sock *cocci_id/* net/can/af_can.c 117 */;
+	struct socket *cocci_id/* net/can/af_can.c 114 */;
+	struct net *cocci_id/* net/can/af_can.c 114 */;
+	int cocci_id/* net/can/af_can.c 114 */;
+}

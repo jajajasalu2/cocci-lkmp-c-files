@@ -1,0 +1,33 @@
+cocci_test_suite() {
+	struct rtl_80211_hdr_3addr cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 781 */;
+	struct ethhdr cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 589 */;
+	struct eapol *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 588 */;
+	u8 cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 546 */[ETH_ALEN];
+	struct rtl_80211_hdr_3addrqos cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 541 */;
+	struct net_device_stats *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 537 */;
+	unsigned long cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 536 */;
+	struct net_device *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 530 */;
+	struct ts_common_info **cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 523 */;
+	struct tx_ts_record *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 522 */;
+	u8 cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 448 */;
+	PRT_HIGH_THROUGHPUT cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 385 */;
+	struct cb_desc *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 383 */;
+	void cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 382 */;
+	struct rtl_80211_hdr_1addr *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 295 */;
+	struct iphdr *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 264 */;
+	struct ethhdr *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 263 */;
+	struct sk_buff *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 261 */;
+	struct ieee80211_network *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 261 */;
+	struct ieee80211_txb cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 232 */;
+	u8 *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 232 */;
+	gfp_t cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 227 */;
+	struct ieee80211_txb *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 226 */;
+	int cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 226 */;
+	struct rtl_80211_hdr_3addrqos *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 180 */;
+	struct ieee80211_crypt_data *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 169 */;
+	struct ieee80211_device *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 165 */;
+	__be16 *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 159 */;
+	struct ieee80211_snap_hdr *cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 143 */;
+	u16 cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 141 */;
+	u8 cocci_id/* drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c 138 */[P80211_OUI_LEN];
+}

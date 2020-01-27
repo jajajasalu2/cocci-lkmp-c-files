@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct hwtstamp_config *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 954 */;
+	struct ifreq *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 952 */;
+	__le64 cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 888 */;
+	struct sk_buff *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 886 */;
+	struct ixgbe_q_vector *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 885 */;
+	struct work_struct *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 844 */;
+	struct skb_shared_hwtstamps cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 816 */;
+	struct ixgbe_ring *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 727 */;
+	bool cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 700 */;
+	struct ptp_clock_event cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 670 */;
+	void cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 667 */;
+	struct ptp_clock_request *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 637 */;
+	const struct timespec64 *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 610 */;
+	struct ptp_system_timestamp *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 558 */;
+	struct timespec64 *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 557 */;
+	unsigned long cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 535 */;
+	s64 cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 531 */;
+	u32 cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 450 */;
+	u64 cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 449 */;
+	struct ixgbe_hw *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 448 */;
+	struct ixgbe_adapter cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 447 */;
+	struct ixgbe_adapter *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 446 */;
+	s32 cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 444 */;
+	struct ptp_clock_info *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 444 */;
+	int cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 444 */;
+	struct timespec64 cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 398 */;
+	struct skb_shared_hwtstamps *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 394 */;
+	const struct cyclecounter *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 363 */;
+	struct cyclecounter *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 159 */;
+	struct net_device *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 1344 */;
+	long cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 1342 */;
+	struct cyclecounter cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 1211 */;
+	u32 *cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 1165 */;
+	struct hwtstamp_config cocci_id/* drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c 1146 */;
+}

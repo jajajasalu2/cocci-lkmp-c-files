@@ -1,0 +1,86 @@
+cocci_test_suite() {
+	const void *cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 985 */;
+	unsigned long cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 920 */;
+	struct nfp_cpp_area_cache *cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 918 */;
+	size_t cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 916 */;
+	void *cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 915 */;
+	unsigned long long cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 915 */;
+	u32 cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 914 */;
+	struct nfp_cpp *cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 914 */;
+	struct nfp_cpp_area {
+		struct nfp_cpp *cpp;
+		struct kref kref;
+		atomic_t refcount;
+		struct mutex mutex;
+		unsigned long long offset;
+		unsigned long size;
+		struct nfp_cpp_resource resource;
+		void __iomem *iomem;
+	} cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 89 */;
+	struct nfp_cpp_area_cache cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 858 */;
+	u64 cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 822 */;
+	unsigned long *cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 822 */;
+	struct nfp_cpp_area_cache {
+		struct list_head entry;
+		u32 id;
+		u64 addr;
+		u32 size;
+		struct nfp_cpp_area *area;
+	} cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 81 */;
+	u8 cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 769 */[4];
+	u8 cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 724 */[8];
+	u64 *cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 722 */;
+	u32 *cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 680 */;
+	void __iomem *cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 661 */;
+	phys_addr_t cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 640 */;
+	struct resource *cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 622 */;
+	struct nfp_cpp {
+		struct device dev;
+		void *priv;
+		u32 model;
+		u16 interface;
+		u8 serial[NFP_SERIAL_LEN];
+		const struct nfp_cpp_operations *op;
+		struct list_head resource_list;
+		rwlock_t resource_lock;
+		wait_queue_head_t waitq;
+		u32 imb_cat_table[16];
+		unsigned int mu_locality_lsb;
+		struct mutex area_cache_mutex;
+		struct list_head area_cache_list;
+	} cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 59 */;
+	struct nfp_cpp_area *cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 417 */;
+	int cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 417 */;
+	bool cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 410 */;
+	int *cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 410 */;
+	const char *cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 380 */;
+	char *cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 311 */;
+	struct nfp_cpp_resource {
+		struct list_head list;
+		const char *name;
+		u32 cpp_id;
+		u64 start;
+		u64 end;
+	} cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 30 */;
+	unsigned int cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 264 */;
+	const u8 **cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 235 */;
+	enum nfp_cpp_explicit_signal_mode cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 1398 */;
+	u8 cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 1360 */;
+	u16 cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 1360 */;
+	struct nfp_cpp_area cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 133 */;
+	struct nfp_cpp_explicit *cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 1313 */;
+	struct kref *cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 130 */;
+	void cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 130 */;
+	u32 cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 1167 */[2];
+	const u32 cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 1164 */;
+	const struct nfp_cpp_operations *cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 1161 */;
+	struct device *cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 1144 */;
+	struct lock_class_key cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 1142 */;
+	struct nfp_cpp_resource cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 113 */;
+	struct nfp_cpp_resource *cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 107 */;
+	struct list_head *cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 107 */;
+	struct nfp_cpp_explicit {
+		struct nfp_cpp *cpp;
+		struct nfp_cpp_explicit_command cmd;
+	} cocci_id/* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_cppcore.c 101 */;
+}

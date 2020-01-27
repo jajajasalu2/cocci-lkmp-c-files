@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	__be32 *cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 979 */;
+	struct of_drconf_cell_v1 *cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 976 */;
+	unsigned long *cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 964 */;
+	unsigned int cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 948 */;
+	const __be32 *cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 946 */;
+	struct pseries_hp_errorlog *cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 874 */;
+	u32 cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 78 */;
+	struct property *cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 77 */;
+	void cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 70 */;
+	unsigned long cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 651 */;
+	struct drmem_lmb *cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 649 */;
+	int cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 649 */;
+	char cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 56 */[64];
+	int cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 373 */(struct drmem_lmb *);
+	const __be64 *cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 35 */;
+	u64 cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 343 */;
+	struct resource cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 31 */;
+	struct memory_block *cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 252 */;
+	bool cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 250 */;
+	struct drmem_lmb **cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 222 */;
+	struct mem_section *cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 211 */;
+	int __init cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 1053 */;
+	struct notifier_block cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 1049 */;
+	struct of_reconfig_data *cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 1031 */;
+	void *cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 1029 */;
+	struct notifier_block *cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 1028 */;
+	const u32 *cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 102 */;
+	u32 *cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 102 */;
+	struct device_node *cocci_id/* arch/powerpc/platforms/pseries/hotplug-memory.c 100 */;
+}

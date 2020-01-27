@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	u32 cocci_id/* drivers/media/pci/cx88/cx88-input.c 71 */;
+	const unsigned short *cocci_id/* drivers/media/pci/cx88/cx88-input.c 596 */;
+	const unsigned short cocci_id/* drivers/media/pci/cx88/cx88-input.c 588 */[];
+	struct i2c_board_info cocci_id/* drivers/media/pci/cx88/cx88-input.c 587 */;
+	u8 *cocci_id/* drivers/media/pci/cx88/cx88-input.c 555 */;
+	u32 *cocci_id/* drivers/media/pci/cx88/cx88-input.c 555 */;
+	struct IR_i2c *cocci_id/* drivers/media/pci/cx88/cx88-input.c 554 */;
+	enum rc_proto *cocci_id/* drivers/media/pci/cx88/cx88-input.c 554 */;
+	struct ir_raw_event cocci_id/* drivers/media/pci/cx88/cx88-input.c 529 */;
+	unsigned int cocci_id/* drivers/media/pci/cx88/cx88-input.c 528 */;
+	u64 cocci_id/* drivers/media/pci/cx88/cx88-input.c 265 */;
+	char *cocci_id/* drivers/media/pci/cx88/cx88-input.c 264 */;
+	struct pci_dev *cocci_id/* drivers/media/pci/cx88/cx88-input.c 260 */;
+	struct cx88_IR {
+		struct cx88_core *core;
+		struct rc_dev *dev;
+		int users;
+		char name[32];
+		char phys[32];
+		u32 sampling;
+		int polling;
+		struct hrtimer timer;
+		u32 gpio_addr;
+		u32 last_gpio;
+		u32 mask_keycode;
+		u32 mask_keydown;
+		u32 mask_keyup;
+	} cocci_id/* drivers/media/pci/cx88/cx88-input.c 26 */;
+	struct rc_dev *cocci_id/* drivers/media/pci/cx88/cx88-input.c 249 */;
+	void cocci_id/* drivers/media/pci/cx88/cx88-input.c 207 */;
+	struct cx88_IR *cocci_id/* drivers/media/pci/cx88/cx88-input.c 185 */;
+	struct cx88_core *cocci_id/* drivers/media/pci/cx88/cx88-input.c 184 */;
+	void *cocci_id/* drivers/media/pci/cx88/cx88-input.c 182 */;
+	int cocci_id/* drivers/media/pci/cx88/cx88-input.c 182 */;
+	struct cx88_IR cocci_id/* drivers/media/pci/cx88/cx88-input.c 171 */;
+	enum hrtimer_restart cocci_id/* drivers/media/pci/cx88/cx88-input.c 168 */;
+	struct hrtimer *cocci_id/* drivers/media/pci/cx88/cx88-input.c 168 */;
+	u8 cocci_id/* drivers/media/pci/cx88/cx88-input.c 132 */;
+	u16 cocci_id/* drivers/media/pci/cx88/cx88-input.c 131 */;
+}

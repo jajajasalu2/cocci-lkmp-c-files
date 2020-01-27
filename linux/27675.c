@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	spinlock_t *cocci_id/* fs/ext2/balloc.c 885 */;
+	unsigned long cocci_id/* fs/ext2/balloc.c 883 */;
+	ext2_fsblk_t cocci_id/* fs/ext2/balloc.c 880 */;
+	struct buffer_head *cocci_id/* fs/ext2/balloc.c 877 */;
+	unsigned int cocci_id/* fs/ext2/balloc.c 877 */;
+	ext2_grpblk_t cocci_id/* fs/ext2/balloc.c 876 */;
+	struct super_block *cocci_id/* fs/ext2/balloc.c 876 */;
+	struct ext2_reserve_window *cocci_id/* fs/ext2/balloc.c 667 */;
+	char *cocci_id/* fs/ext2/balloc.c 606 */;
+	unsigned cocci_id/* fs/ext2/balloc.c 491 */;
+	struct ext2_block_alloc_info *cocci_id/* fs/ext2/balloc.c 456 */;
+	struct ext2_inode_info *cocci_id/* fs/ext2/balloc.c 455 */;
+	struct inode *cocci_id/* fs/ext2/balloc.c 453 */;
+	struct buffer_head **cocci_id/* fs/ext2/balloc.c 43 */;
+	struct rb_node **cocci_id/* fs/ext2/balloc.c 338 */;
+	struct ext2_reserve_window_node cocci_id/* fs/ext2/balloc.c 215 */;
+	struct ext2_reserve_window_node *cocci_id/* fs/ext2/balloc.c 205 */;
+	struct rb_node *cocci_id/* fs/ext2/balloc.c 204 */;
+	const char *cocci_id/* fs/ext2/balloc.c 202 */;
+	struct rb_root *cocci_id/* fs/ext2/balloc.c 201 */;
+	int cocci_id/* fs/ext2/balloc.c 201 */;
+	void cocci_id/* fs/ext2/balloc.c 201 */;
+	long cocci_id/* fs/ext2/balloc.c 1481 */;
+	struct ext2_super_block *cocci_id/* fs/ext2/balloc.c 1458 */;
+	struct ext2_group_desc *cocci_id/* fs/ext2/balloc.c 1453 */;
+	int *cocci_id/* fs/ext2/balloc.c 1435 */;
+	unsigned short cocci_id/* fs/ext2/balloc.c 1226 */;
+	unsigned long *cocci_id/* fs/ext2/balloc.c 1208 */;
+	struct ext2_sb_info *cocci_id/* fs/ext2/balloc.c 1177 */;
+}

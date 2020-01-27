@@ -1,0 +1,61 @@
+cocci_test_suite() {
+	struct dentry *cocci_id/* fs/nilfs2/super.c 995 */;
+	struct dentry **cocci_id/* fs/nilfs2/super.c 942 */;
+	struct nilfs_super_block *cocci_id/* fs/nilfs2/super.c 870 */;
+	struct buffer_head **cocci_id/* fs/nilfs2/super.c 834 */;
+	match_table_t cocci_id/* fs/nilfs2/super.c 700 */;
+	enum{Opt_err_cont, Opt_err_panic, Opt_err_ro, Opt_barrier, Opt_nobarrier, Opt_snapshot, Opt_order, Opt_norecovery, Opt_discard, Opt_nodiscard, Opt_err,} cocci_id/* fs/nilfs2/super.c 694 */;
+	const struct super_operations cocci_id/* fs/nilfs2/super.c 680 */;
+	struct seq_file *cocci_id/* fs/nilfs2/super.c 656 */;
+	u32 cocci_id/* fs/nilfs2/super.c 650 */;
+	int cocci_id/* fs/nilfs2/super.c 63 */(struct super_block *sb,
+					       int *flags, char *data);
+	int cocci_id/* fs/nilfs2/super.c 62 */(struct super_block *sb,
+					       int is_mount);
+	struct kmem_cache *cocci_id/* fs/nilfs2/super.c 60 */;
+	struct kstatfs *cocci_id/* fs/nilfs2/super.c 587 */;
+	unsigned long long cocci_id/* fs/nilfs2/super.c 529 */;
+	struct buffer_head *cocci_id/* fs/nilfs2/super.c 510 */;
+	struct nilfs_checkpoint *cocci_id/* fs/nilfs2/super.c 509 */;
+	struct nilfs_root *cocci_id/* fs/nilfs2/super.c 508 */;
+	struct nilfs_root **cocci_id/* fs/nilfs2/super.c 505 */;
+	__u64 cocci_id/* fs/nilfs2/super.c 504 */;
+	u64 cocci_id/* fs/nilfs2/super.c 354 */;
+	unsigned long cocci_id/* fs/nilfs2/super.c 338 */;
+	sector_t cocci_id/* fs/nilfs2/super.c 337 */;
+	loff_t cocci_id/* fs/nilfs2/super.c 332 */;
+	struct nilfs_super_block **cocci_id/* fs/nilfs2/super.c 305 */;
+	unsigned char *cocci_id/* fs/nilfs2/super.c 278 */;
+	time64_t cocci_id/* fs/nilfs2/super.c 270 */;
+	void __exit cocci_id/* fs/nilfs2/super.c 1463 */;
+	struct nilfs_inode_info *cocci_id/* fs/nilfs2/super.c 146 */;
+	struct inode *cocci_id/* fs/nilfs2/super.c 144 */;
+	int cocci_id/* fs/nilfs2/super.c 1438 */;
+	int __init cocci_id/* fs/nilfs2/super.c 1436 */;
+	struct nilfs_btree_path cocci_id/* fs/nilfs2/super.c 1424 */;
+	struct nilfs_segment_buffer cocci_id/* fs/nilfs2/super.c 1418 */;
+	struct nilfs_transaction_info cocci_id/* fs/nilfs2/super.c 1412 */;
+	struct nilfs_inode_info cocci_id/* fs/nilfs2/super.c 1405 */;
+	struct file_system_type cocci_id/* fs/nilfs2/super.c 1361 */;
+	fmode_t cocci_id/* fs/nilfs2/super.c 1269 */;
+	struct nilfs_super_data cocci_id/* fs/nilfs2/super.c 1267 */;
+	struct file_system_type *cocci_id/* fs/nilfs2/super.c 1264 */;
+	substring_t cocci_id/* fs/nilfs2/super.c 1231 */[MAX_OPT_ARGS];
+	struct nilfs_super_data *cocci_id/* fs/nilfs2/super.c 1228 */;
+	const substring_t *cocci_id/* fs/nilfs2/super.c 1192 */;
+	struct nilfs_super_data {
+		struct block_device *bdev;
+		__u64 cno;
+		int flags;
+	} cocci_id/* fs/nilfs2/super.c 1185 */;
+	va_list cocci_id/* fs/nilfs2/super.c 118 */;
+	struct va_format cocci_id/* fs/nilfs2/super.c 117 */;
+	struct the_nilfs *cocci_id/* fs/nilfs2/super.c 116 */;
+	bool cocci_id/* fs/nilfs2/super.c 1130 */;
+	const char *cocci_id/* fs/nilfs2/super.c 113 */;
+	struct super_block *cocci_id/* fs/nilfs2/super.c 113 */;
+	void cocci_id/* fs/nilfs2/super.c 113 */;
+	int *cocci_id/* fs/nilfs2/super.c 1105 */;
+	char *cocci_id/* fs/nilfs2/super.c 1044 */;
+	void *cocci_id/* fs/nilfs2/super.c 1031 */;
+}

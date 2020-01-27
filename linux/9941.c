@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	int cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 96 */;
+	struct ar9170_stream *cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 878 */;
+	u8 *cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 854 */;
+	struct ar9170 *cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 854 */;
+	unsigned int cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 854 */;
+	void cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 854 */;
+	const unsigned int cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 826 */;
+	const u8 *cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 825 */;
+	struct ieee80211_rx_status cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 702 */;
+	struct ieee80211_hdr *cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 645 */;
+	__le16 cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 623 */;
+	struct ieee80211_rx_status *cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 621 */;
+	u8 cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 620 */;
+	bool cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 620 */;
+	struct ieee80211_tx_info *cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 603 */;
+	struct _carl9170_tx_superframe *cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 592 */;
+	struct sk_buff *cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 591 */;
+	struct carl9170_bar_list_entry *cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 576 */;
+	struct ieee80211_bar *cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 575 */;
+	void *cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 573 */;
+	struct ath_common *cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 522 */;
+	struct ieee80211_tim_ie *cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 521 */;
+	enum carl9170_restart_reasons cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 52 */;
+	struct ieee80211_mgmt *cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 492 */;
+	const char *cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 49 */;
+	struct ar9170_rx_phystatus cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 447 */;
+	struct ar9170_rx_phystatus *cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 443 */;
+	struct ar9170_rx_macstatus cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 297 */;
+	struct ar9170_rx_head cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 296 */;
+	struct ieee80211_channel *cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 293 */;
+	struct ar9170_rx_macstatus *cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 290 */;
+	struct ar9170_rx_head *cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 290 */;
+	char *cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 244 */;
+	struct ieee80211_vif *cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 164 */;
+	struct carl9170_rsp *cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 163 */;
+	u32 cocci_id/* drivers/net/wireless/ath/carl9170/rx.c 129 */;
+}

@@ -1,0 +1,42 @@
+cocci_test_suite() {
+	struct saa6588 {
+		struct v4l2_subdev sd;
+		struct delayed_work work;
+		spinlock_t lock;
+		unsigned char *buffer;
+		unsigned int buf_size;
+		unsigned int rd_index;
+		unsigned int wr_index;
+		unsigned int block_count;
+		unsigned char last_blocknum;
+		wait_queue_head_t read_queue;
+		int data_available_for_read;
+		u8 sync;
+	} cocci_id/* drivers/media/i2c/saa6588.c 55 */;
+	struct i2c_driver cocci_id/* drivers/media/i2c/saa6588.c 507 */;
+	const struct i2c_device_id cocci_id/* drivers/media/i2c/saa6588.c 501 */[];
+	const struct i2c_device_id *cocci_id/* drivers/media/i2c/saa6588.c 452 */;
+	const struct v4l2_subdev_ops cocci_id/* drivers/media/i2c/saa6588.c 444 */;
+	const struct v4l2_subdev_tuner_ops cocci_id/* drivers/media/i2c/saa6588.c 439 */;
+	const struct v4l2_subdev_core_ops cocci_id/* drivers/media/i2c/saa6588.c 435 */;
+	const struct v4l2_tuner *cocci_id/* drivers/media/i2c/saa6588.c 425 */;
+	struct v4l2_tuner *cocci_id/* drivers/media/i2c/saa6588.c 415 */;
+	struct v4l2_subdev *cocci_id/* drivers/media/i2c/saa6588.c 415 */;
+	void *cocci_id/* drivers/media/i2c/saa6588.c 383 */;
+	long cocci_id/* drivers/media/i2c/saa6588.c 383 */;
+	struct i2c_client *cocci_id/* drivers/media/i2c/saa6588.c 328 */;
+	struct saa6588 cocci_id/* drivers/media/i2c/saa6588.c 320 */;
+	struct work_struct *cocci_id/* drivers/media/i2c/saa6588.c 318 */;
+	unsigned char cocci_id/* drivers/media/i2c/saa6588.c 253 */;
+	unsigned char cocci_id/* drivers/media/i2c/saa6588.c 252 */[6];
+	unsigned int cocci_id/* drivers/media/i2c/saa6588.c 222 */;
+	void cocci_id/* drivers/media/i2c/saa6588.c 220 */;
+	unsigned long cocci_id/* drivers/media/i2c/saa6588.c 174 */;
+	unsigned char cocci_id/* drivers/media/i2c/saa6588.c 173 */[3];
+	unsigned char __user *cocci_id/* drivers/media/i2c/saa6588.c 172 */;
+	struct saa6588_command *cocci_id/* drivers/media/i2c/saa6588.c 170 */;
+	int cocci_id/* drivers/media/i2c/saa6588.c 143 */;
+	bool cocci_id/* drivers/media/i2c/saa6588.c 141 */;
+	struct saa6588 *cocci_id/* drivers/media/i2c/saa6588.c 141 */;
+	unsigned char *cocci_id/* drivers/media/i2c/saa6588.c 141 */;
+}

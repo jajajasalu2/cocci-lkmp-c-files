@@ -1,0 +1,41 @@
+cocci_test_suite() {
+	char cocci_id/* drivers/media/usb/pwc/pwc-if.c 771 */[30];
+	const struct usb_device_id *cocci_id/* drivers/media/usb/pwc/pwc-if.c 762 */;
+	const struct vb2_ops cocci_id/* drivers/media/usb/pwc/pwc-if.c 742 */;
+	const struct usb_device_id cocci_id/* drivers/media/usb/pwc/pwc-if.c 73 */[];
+	unsigned long cocci_id/* drivers/media/usb/pwc/pwc-if.c 684 */;
+	struct pwc_frame_buf cocci_id/* drivers/media/usb/pwc/pwc-if.c 673 */;
+	struct pwc_frame_buf *cocci_id/* drivers/media/usb/pwc/pwc-if.c 672 */;
+	struct vb2_v4l2_buffer *cocci_id/* drivers/media/usb/pwc/pwc-if.c 671 */;
+	struct vb2_buffer *cocci_id/* drivers/media/usb/pwc/pwc-if.c 669 */;
+	void cocci_id/* drivers/media/usb/pwc/pwc-if.c 669 */;
+	struct pwc_device *cocci_id/* drivers/media/usb/pwc/pwc-if.c 653 */;
+	int cocci_id/* drivers/media/usb/pwc/pwc-if.c 626 */;
+	struct device *cocci_id/* drivers/media/usb/pwc/pwc-if.c 607 */[];
+	unsigned int cocci_id/* drivers/media/usb/pwc/pwc-if.c 607 */[];
+	unsigned int *cocci_id/* drivers/media/usb/pwc/pwc-if.c 606 */;
+	struct vb2_queue *cocci_id/* drivers/media/usb/pwc/pwc-if.c 605 */;
+	struct pwc_device cocci_id/* drivers/media/usb/pwc/pwc-if.c 594 */;
+	struct v4l2_device *cocci_id/* drivers/media/usb/pwc/pwc-if.c 592 */;
+	enum vb2_buffer_state cocci_id/* drivers/media/usb/pwc/pwc-if.c 543 */;
+	struct urb *cocci_id/* drivers/media/usb/pwc/pwc-if.c 514 */;
+	struct usb_host_interface *cocci_id/* drivers/media/usb/pwc/pwc-if.c 394 */;
+	struct usb_interface *cocci_id/* drivers/media/usb/pwc/pwc-if.c 393 */;
+	struct usb_device *cocci_id/* drivers/media/usb/pwc/pwc-if.c 390 */;
+	const char *cocci_id/* drivers/media/usb/pwc/pwc-if.c 293 */;
+	unsigned char *cocci_id/* drivers/media/usb/pwc/pwc-if.c 217 */;
+	dma_addr_t cocci_id/* drivers/media/usb/pwc/pwc-if.c 170 */;
+	dma_addr_t *cocci_id/* drivers/media/usb/pwc/pwc-if.c 151 */;
+	size_t cocci_id/* drivers/media/usb/pwc/pwc-if.c 151 */;
+	struct device *cocci_id/* drivers/media/usb/pwc/pwc-if.c 150 */;
+	void *cocci_id/* drivers/media/usb/pwc/pwc-if.c 150 */;
+	const struct video_device cocci_id/* drivers/media/usb/pwc/pwc-if.c 140 */;
+	const struct v4l2_file_operations cocci_id/* drivers/media/usb/pwc/pwc-if.c 131 */;
+	int cocci_id/* drivers/media/usb/pwc/pwc-if.c 127 */[2];
+	unsigned int cocci_id/* drivers/media/usb/pwc/pwc-if.c 1199 */;
+	struct usb_driver cocci_id/* drivers/media/usb/pwc/pwc-if.c 113 */;
+	void cocci_id/* drivers/media/usb/pwc/pwc-if.c 111 */(struct pwc_device *pdev);
+	void cocci_id/* drivers/media/usb/pwc/pwc-if.c 110 */(struct usb_interface *intf);
+	int cocci_id/* drivers/media/usb/pwc/pwc-if.c 109 */(struct usb_interface *intf,
+							     const struct usb_device_id *id);
+}

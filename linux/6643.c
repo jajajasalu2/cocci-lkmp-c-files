@@ -1,0 +1,30 @@
+cocci_test_suite() {
+	char *cocci_id/* drivers/scsi/qedf/qedf_fip.c 99 */;
+	struct fip_vlan_desc *cocci_id/* drivers/scsi/qedf/qedf_fip.c 96 */;
+	void *cocci_id/* drivers/scsi/qedf/qedf_fip.c 88 */;
+	size_t cocci_id/* drivers/scsi/qedf/qedf_fip.c 86 */;
+	ssize_t cocci_id/* drivers/scsi/qedf/qedf_fip.c 85 */;
+	u16 cocci_id/* drivers/scsi/qedf/qedf_fip.c 84 */;
+	struct fip_desc *cocci_id/* drivers/scsi/qedf/qedf_fip.c 83 */;
+	struct fip_header *cocci_id/* drivers/scsi/qedf/qedf_fip.c 82 */;
+	struct sk_buff *cocci_id/* drivers/scsi/qedf/qedf_fip.c 80 */;
+	struct qedf_ctx *cocci_id/* drivers/scsi/qedf/qedf_fip.c 79 */;
+	void cocci_id/* drivers/scsi/qedf/qedf_fip.c 79 */;
+	u8 *cocci_id/* drivers/scsi/qedf/qedf_fip.c 296 */;
+	struct fc_lport *cocci_id/* drivers/scsi/qedf/qedf_fip.c 296 */;
+	struct fip_vlan cocci_id/* drivers/scsi/qedf/qedf_fip.c 25 */;
+	int cocci_id/* drivers/scsi/qedf/qedf_fip.c 23 */;
+	unsigned long cocci_id/* drivers/scsi/qedf/qedf_fip.c 22 */;
+	struct fip_vlan *cocci_id/* drivers/scsi/qedf/qedf_fip.c 19 */;
+	u64 cocci_id/* drivers/scsi/qedf/qedf_fip.c 183 */;
+	bool cocci_id/* drivers/scsi/qedf/qedf_fip.c 179 */;
+	u8 cocci_id/* drivers/scsi/qedf/qedf_fip.c 178 */;
+	struct fip_vn_desc *cocci_id/* drivers/scsi/qedf/qedf_fip.c 175 */;
+	struct fip_wwn_desc *cocci_id/* drivers/scsi/qedf/qedf_fip.c 174 */;
+	struct fip_mac_desc *cocci_id/* drivers/scsi/qedf/qedf_fip.c 173 */;
+	struct ethhdr *cocci_id/* drivers/scsi/qedf/qedf_fip.c 170 */;
+	u8 cocci_id/* drivers/scsi/qedf/qedf_fip.c 165 */[ETH_ALEN];
+	struct qedf_ctx cocci_id/* drivers/scsi/qedf/qedf_fip.c 123 */;
+	struct fcoe_ctlr *cocci_id/* drivers/scsi/qedf/qedf_fip.c 121 */;
+	const struct qed_fcoe_ops *cocci_id/* drivers/scsi/qedf/qedf_fip.c 10 */;
+}

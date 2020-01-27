@@ -1,0 +1,38 @@
+cocci_test_suite() {
+	struct dk_cxlflash_resize cocci_id/* drivers/scsi/cxlflash/vlun.c 981 */;
+	struct dk_cxlflash_uvirtual *cocci_id/* drivers/scsi/cxlflash/vlun.c 980 */;
+	void *cocci_id/* drivers/scsi/cxlflash/vlun.c 973 */;
+	const u8 cocci_id/* drivers/scsi/cxlflash/vlun.c 868 */[16];
+	__be64 __iomem *cocci_id/* drivers/scsi/cxlflash/vlun.c 838 */;
+	struct ba_lun_info cocci_id/* drivers/scsi/cxlflash/vlun.c 78 */;
+	struct sisl_rht_entry *cocci_id/* drivers/scsi/cxlflash/vlun.c 746 */;
+	u64 cocci_id/* drivers/scsi/cxlflash/vlun.c 741 */;
+	res_hndl_t cocci_id/* drivers/scsi/cxlflash/vlun.c 740 */;
+	bool cocci_id/* drivers/scsi/cxlflash/vlun.c 738 */;
+	struct afu *cocci_id/* drivers/scsi/cxlflash/vlun.c 737 */;
+	struct glun_info *cocci_id/* drivers/scsi/cxlflash/vlun.c 736 */;
+	struct llun_info *cocci_id/* drivers/scsi/cxlflash/vlun.c 735 */;
+	struct device *cocci_id/* drivers/scsi/cxlflash/vlun.c 734 */;
+	struct cxlflash_cfg *cocci_id/* drivers/scsi/cxlflash/vlun.c 733 */;
+	struct dk_cxlflash_resize *cocci_id/* drivers/scsi/cxlflash/vlun.c 731 */;
+	struct ctx_info *cocci_id/* drivers/scsi/cxlflash/vlun.c 730 */;
+	struct scsi_device *cocci_id/* drivers/scsi/cxlflash/vlun.c 729 */;
+	int cocci_id/* drivers/scsi/cxlflash/vlun.c 729 */;
+	u64 *cocci_id/* drivers/scsi/cxlflash/vlun.c 64 */;
+	struct dk_cxlflash_release *cocci_id/* drivers/scsi/cxlflash/vlun.c 47 */;
+	const u32 cocci_id/* drivers/scsi/cxlflash/vlun.c 431 */;
+	u8 *cocci_id/* drivers/scsi/cxlflash/vlun.c 423 */;
+	void cocci_id/* drivers/scsi/cxlflash/vlun.c 350 */;
+	ulong *cocci_id/* drivers/scsi/cxlflash/vlun.c 285 */;
+	struct ba_lun_info *cocci_id/* drivers/scsi/cxlflash/vlun.c 188 */;
+	struct ba_lun *cocci_id/* drivers/scsi/cxlflash/vlun.c 184 */;
+	int *cocci_id/* drivers/scsi/cxlflash/vlun.c 153 */;
+	u8 cocci_id/* drivers/scsi/cxlflash/vlun.c 122 */;
+	struct lun_access *cocci_id/* drivers/scsi/cxlflash/vlun.c 1203 */;
+	struct dk_cxlflash_release cocci_id/* drivers/scsi/cxlflash/vlun.c 1199 */;
+	struct dk_cxlflash_clone *cocci_id/* drivers/scsi/cxlflash/vlun.c 1191 */;
+	u32 cocci_id/* drivers/scsi/cxlflash/vlun.c 1102 */;
+	struct sisl_lxt_entry *cocci_id/* drivers/scsi/cxlflash/vlun.c 1100 */;
+	ctx_hndl_t cocci_id/* drivers/scsi/cxlflash/vlun.c 1093 */;
+	struct blka *cocci_id/* drivers/scsi/cxlflash/vlun.c 1092 */;
+}

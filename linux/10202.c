@@ -1,0 +1,45 @@
+cocci_test_suite() {
+	u8 cocci_id/* drivers/pcmcia/yenta_socket.c 98 */;
+	unsigned long cocci_id/* drivers/pcmcia/yenta_socket.c 915 */;
+	void cocci_id/* drivers/pcmcia/yenta_socket.c 91 */;
+	struct cardbus_type cocci_id/* drivers/pcmcia/yenta_socket.c 855 */[];
+	u32 cocci_id/* drivers/pcmcia/yenta_socket.c 84 */;
+	struct yenta_socket *cocci_id/* drivers/pcmcia/yenta_socket.c 84 */;
+	unsigned cocci_id/* drivers/pcmcia/yenta_socket.c 84 */;
+	enum{CARDBUS_TYPE_DEFAULT=-1, CARDBUS_TYPE_TI, CARDBUS_TYPE_TI113X, CARDBUS_TYPE_TI12XX, CARDBUS_TYPE_TI1250, CARDBUS_TYPE_RICOH, CARDBUS_TYPE_TOPIC95, CARDBUS_TYPE_TOPIC97, CARDBUS_TYPE_O2MICRO, CARDBUS_TYPE_ENE,} cocci_id/* drivers/pcmcia/yenta_socket.c 838 */;
+	struct pccard_operations cocci_id/* drivers/pcmcia/yenta_socket.c 815 */;
+	unsigned int cocci_id/* drivers/pcmcia/yenta_socket.c 75 */;
+	unsigned int cocci_id/* drivers/pcmcia/yenta_socket.c 70 */(struct yenta_socket *socket,
+								    u32 isa_irq_mask);
+	struct pci_bus_region cocci_id/* drivers/pcmcia/yenta_socket.c 694 */;
+	struct resource *cocci_id/* drivers/pcmcia/yenta_socket.c 693 */;
+	struct pci_dev *cocci_id/* drivers/pcmcia/yenta_socket.c 692 */;
+	int cocci_id/* drivers/pcmcia/yenta_socket.c 69 */(struct yenta_socket *socket);
+	pccard_mem_map cocci_id/* drivers/pcmcia/yenta_socket.c 552 */;
+	pccard_io_map cocci_id/* drivers/pcmcia/yenta_socket.c 551 */;
+	struct resource cocci_id/* drivers/pcmcia/yenta_socket.c 550 */;
+	struct timer_list *cocci_id/* drivers/pcmcia/yenta_socket.c 538 */;
+	irqreturn_t cocci_id/* drivers/pcmcia/yenta_socket.c 506 */;
+	void *cocci_id/* drivers/pcmcia/yenta_socket.c 506 */;
+	unsigned short cocci_id/* drivers/pcmcia/yenta_socket.c 447 */;
+	struct pccard_mem_map *cocci_id/* drivers/pcmcia/yenta_socket.c 440 */;
+	char cocci_id/* drivers/pcmcia/yenta_socket.c 41 */[];
+	struct pccard_io_map *cocci_id/* drivers/pcmcia/yenta_socket.c 403 */;
+	bool cocci_id/* drivers/pcmcia/yenta_socket.c 28 */;
+	socket_state_t *cocci_id/* drivers/pcmcia/yenta_socket.c 246 */;
+	struct yenta_socket cocci_id/* drivers/pcmcia/yenta_socket.c 213 */;
+	struct pcmcia_socket *cocci_id/* drivers/pcmcia/yenta_socket.c 211 */;
+	unsigned int *cocci_id/* drivers/pcmcia/yenta_socket.c 211 */;
+	unsigned char cocci_id/* drivers/pcmcia/yenta_socket.c 190 */;
+	int cocci_id/* drivers/pcmcia/yenta_socket.c 177 */;
+	struct device_attribute *cocci_id/* drivers/pcmcia/yenta_socket.c 174 */;
+	struct device *cocci_id/* drivers/pcmcia/yenta_socket.c 174 */;
+	char *cocci_id/* drivers/pcmcia/yenta_socket.c 174 */;
+	ssize_t cocci_id/* drivers/pcmcia/yenta_socket.c 174 */;
+	struct pci_driver cocci_id/* drivers/pcmcia/yenta_socket.c 1436 */;
+	const struct pci_device_id cocci_id/* drivers/pcmcia/yenta_socket.c 1357 */[];
+	const struct dev_pm_ops cocci_id/* drivers/pcmcia/yenta_socket.c 1332 */;
+	const struct pci_device_id *cocci_id/* drivers/pcmcia/yenta_socket.c 1144 */;
+	struct pci_bus *cocci_id/* drivers/pcmcia/yenta_socket.c 1076 */;
+	u16 cocci_id/* drivers/pcmcia/yenta_socket.c 106 */;
+}

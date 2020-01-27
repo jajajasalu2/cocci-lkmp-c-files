@@ -1,0 +1,55 @@
+cocci_test_suite() {
+	struct gtm {
+		unsigned int clock;
+		struct gtm_timers_regs __iomem *regs;
+		struct gtm_timer timers[4];
+		spinlock_t lock;
+		struct list_head list_node;
+	} cocci_id/* arch/powerpc/sysdev/fsl_gtm.c 69 */;
+	unsigned int cocci_id/* arch/powerpc/sysdev/fsl_gtm.c 402 */;
+	const u32 *cocci_id/* arch/powerpc/sysdev/fsl_gtm.c 382 */;
+	struct gtm *cocci_id/* arch/powerpc/sysdev/fsl_gtm.c 381 */;
+	int cocci_id/* arch/powerpc/sysdev/fsl_gtm.c 380 */;
+	struct device_node *cocci_id/* arch/powerpc/sysdev/fsl_gtm.c 377 */;
+	int __init cocci_id/* arch/powerpc/sysdev/fsl_gtm.c 375 */;
+	void cocci_id/* arch/powerpc/sysdev/fsl_gtm.c 375 */;
+	struct gtm_timers_regs {
+		u8 gtcfr1;
+		u8 res0[0x3];
+		u8 gtcfr2;
+		u8 res1[0xB];
+		__be16 gtmdr1;
+		__be16 gtmdr2;
+		__be16 gtrfr1;
+		__be16 gtrfr2;
+		__be16 gtcpr1;
+		__be16 gtcpr2;
+		__be16 gtcnr1;
+		__be16 gtcnr2;
+		__be16 gtmdr3;
+		__be16 gtmdr4;
+		__be16 gtrfr3;
+		__be16 gtrfr4;
+		__be16 gtcpr3;
+		__be16 gtcpr4;
+		__be16 gtcnr3;
+		__be16 gtcnr4;
+		__be16 gtevr1;
+		__be16 gtevr2;
+		__be16 gtevr3;
+		__be16 gtevr4;
+		__be16 gtpsr1;
+		__be16 gtpsr2;
+		__be16 gtpsr3;
+		__be16 gtpsr4;
+		u8 res2[0x40];
+	}__attribute__((packed)) cocci_id/* arch/powerpc/sysdev/fsl_gtm.c 37 */;
+	struct gtm_timers_regs __iomem *cocci_id/* arch/powerpc/sysdev/fsl_gtm.c 334 */;
+	void __init cocci_id/* arch/powerpc/sysdev/fsl_gtm.c 332 */;
+	u16 cocci_id/* arch/powerpc/sysdev/fsl_gtm.c 326 */;
+	struct gtm_timer *cocci_id/* arch/powerpc/sysdev/fsl_gtm.c 326 */;
+	const int cocci_id/* arch/powerpc/sysdev/fsl_gtm.c 282 */;
+	bool cocci_id/* arch/powerpc/sysdev/fsl_gtm.c 279 */;
+	unsigned long cocci_id/* arch/powerpc/sysdev/fsl_gtm.c 174 */;
+	u8 cocci_id/* arch/powerpc/sysdev/fsl_gtm.c 171 */;
+}

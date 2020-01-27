@@ -1,0 +1,36 @@
+cocci_test_suite() {
+	struct amdgpu_device *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 905 */;
+	void *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 903 */;
+	int cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 881 */;
+	u32 cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 829 */;
+	bool cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 827 */;
+	char cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 741 */[5];
+	unsigned long long cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 676 */;
+	const u32 cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 61 */[];
+	int cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 55 */(void *handle);
+	void cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 53 */(struct amdgpu_device *adev);
+	struct amdgpu_bo_va_mapping *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 473 */;
+	uint64_t *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 467 */;
+	void cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 460 */;
+	uint32_t cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 446 */;
+	unsigned cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 444 */;
+	uint64_t cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 443 */;
+	struct amdgpu_ring *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 443 */;
+	u64 cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 385 */;
+	struct amdgpu_gmc *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 243 */;
+	const __le32 *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 184 */;
+	const struct mc_firmware_header_v1_0 *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 183 */;
+	const struct amdgpu_ip_block_version cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 1359 */;
+	char cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 135 */[30];
+	const struct amdgpu_irq_src_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 1343 */;
+	const char *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 134 */;
+	const struct amdgpu_gmc_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 1334 */;
+	const struct amd_ip_funcs cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 1317 */;
+	enum amd_powergating_state cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 1312 */;
+	enum amd_clockgating_state cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 1292 */;
+	struct kfd_vm_fault_info *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 1269 */;
+	struct amdgpu_iv_entry *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 1238 */;
+	struct amdgpu_irq_src *cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 1237 */;
+	enum amdgpu_interrupt_state cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 1198 */;
+	struct kfd_vm_fault_info cocci_id/* drivers/gpu/drm/amd/amdgpu/gmc_v7_0.c 1034 */;
+}

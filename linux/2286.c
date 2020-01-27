@@ -1,0 +1,32 @@
+cocci_test_suite() {
+	struct trt cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 92 */;
+	struct trt *cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 73 */;
+	struct trt **cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 66 */;
+	struct miscdevice cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 359 */;
+	const struct file_operations cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 351 */;
+	union art_object cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 338 */;
+	union trt_object cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 321 */;
+	unsigned long __user *cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 315 */;
+	char __user *cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 305 */;
+	void __user *cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 305 */;
+	unsigned long cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 300 */;
+	struct file *cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 299 */;
+	unsigned int cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 299 */;
+	long cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 299 */;
+	struct inode *cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 29 */;
+	union trt_object *cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 271 */;
+	union art_object *cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 235 */;
+	char *cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 216 */;
+	void cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 216 */;
+	struct art cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 171 */;
+	struct acpi_buffer cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 153 */;
+	union acpi_object *cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 152 */;
+	struct acpi_device *cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 151 */;
+	struct art *cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 150 */;
+	acpi_status cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 146 */;
+	bool cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 144 */;
+	acpi_handle cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 143 */;
+	struct art **cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 143 */;
+	int *cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 143 */;
+	int cocci_id/* drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.c 143 */;
+}

@@ -1,0 +1,71 @@
+cocci_test_suite() {
+	void __exit cocci_id/* net/9p/trans_rdma.c 760 */;
+	void cocci_id/* net/9p/trans_rdma.c 760 */;
+	int __init cocci_id/* net/9p/trans_rdma.c 754 */;
+	struct p9_trans_module cocci_id/* net/9p/trans_rdma.c 738 */;
+	struct p9_trans_rdma {
+		enum{P9_RDMA_INIT, P9_RDMA_ADDR_RESOLVED, P9_RDMA_ROUTE_RESOLVED, P9_RDMA_CONNECTED, P9_RDMA_FLUSHING, P9_RDMA_CLOSING, P9_RDMA_CLOSED,} state;
+		struct rdma_cm_id *cm_id;
+		struct ib_pd *pd;
+		struct ib_qp *qp;
+		struct ib_cq *cq;
+		long timeout;
+		bool privport;
+		u16 port;
+		int sq_depth;
+		struct semaphore sq_sem;
+		int rq_depth;
+		struct semaphore rq_sem;
+		atomic_t excess_rc;
+		struct sockaddr_in addr;
+		spinlock_t req_lock;
+		struct completion cm_done;
+	} cocci_id/* net/9p/trans_rdma.c 69 */;
+	struct ib_qp_init_attr cocci_id/* net/9p/trans_rdma.c 632 */;
+	struct rdma_conn_param cocci_id/* net/9p/trans_rdma.c 631 */;
+	struct p9_rdma_opts cocci_id/* net/9p/trans_rdma.c 629 */;
+	const char *cocci_id/* net/9p/trans_rdma.c 626 */;
+	struct sockaddr *cocci_id/* net/9p/trans_rdma.c 612 */;
+	ushort cocci_id/* net/9p/trans_rdma.c 611 */;
+	struct sockaddr_in cocci_id/* net/9p/trans_rdma.c 604 */;
+	struct p9_req_t *cocci_id/* net/9p/trans_rdma.c 584 */;
+	struct p9_trans_rdma cocci_id/* net/9p/trans_rdma.c 566 */;
+	struct p9_trans_rdma *cocci_id/* net/9p/trans_rdma.c 562 */;
+	struct p9_rdma_opts *cocci_id/* net/9p/trans_rdma.c 562 */;
+	unsigned long cocci_id/* net/9p/trans_rdma.c 418 */;
+	struct ib_send_wr cocci_id/* net/9p/trans_rdma.c 415 */;
+	struct ib_sge cocci_id/* net/9p/trans_rdma.c 387 */;
+	struct ib_recv_wr cocci_id/* net/9p/trans_rdma.c 386 */;
+	struct p9_rdma_context *cocci_id/* net/9p/trans_rdma.c 383 */;
+	struct ib_event *cocci_id/* net/9p/trans_rdma.c 356 */;
+	void *cocci_id/* net/9p/trans_rdma.c 356 */;
+	int16_t cocci_id/* net/9p/trans_rdma.c 298 */;
+	struct p9_rdma_context cocci_id/* net/9p/trans_rdma.c 295 */;
+	struct ib_wc *cocci_id/* net/9p/trans_rdma.c 290 */;
+	struct ib_cq *cocci_id/* net/9p/trans_rdma.c 290 */;
+	struct p9_client *cocci_id/* net/9p/trans_rdma.c 241 */;
+	struct rdma_cm_id *cocci_id/* net/9p/trans_rdma.c 239 */;
+	struct rdma_cm_event *cocci_id/* net/9p/trans_rdma.c 239 */;
+	int cocci_id/* net/9p/trans_rdma.c 238 */;
+	substring_t cocci_id/* net/9p/trans_rdma.c 177 */[MAX_OPT_ARGS];
+	char *cocci_id/* net/9p/trans_rdma.c 174 */;
+	struct seq_file *cocci_id/* net/9p/trans_rdma.c 150 */;
+	match_table_t cocci_id/* net/9p/trans_rdma.c 141 */;
+	enum{Opt_port, Opt_rq_depth, Opt_sq_depth, Opt_timeout, Opt_privport, Opt_err,} cocci_id/* net/9p/trans_rdma.c 133 */;
+	struct p9_rdma_opts {
+		short port;
+		bool privport;
+		int sq_depth;
+		int rq_depth;
+		long timeout;
+	} cocci_id/* net/9p/trans_rdma.c 122 */;
+	struct p9_rdma_context {
+		struct ib_cqe cqe;
+		dma_addr_t busa;
+		union {
+			struct p9_req_t *req;
+			struct p9_fcall rc;
+		};
+	} cocci_id/* net/9p/trans_rdma.c 105 */;
+	struct p9_rdma_req cocci_id/* net/9p/trans_rdma.c 104 */;
+}

@@ -1,0 +1,31 @@
+cocci_test_suite() {
+	unsigned long cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 62 */;
+	struct fsl_asrc_pair *cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 46 */;
+	struct snd_pcm_runtime *cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 45 */;
+	struct snd_pcm_substream *cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 44 */;
+	struct snd_soc_component_driver cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 429 */;
+	void cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 42 */;
+	struct snd_pcm *cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 413 */;
+	struct snd_card *cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 379 */;
+	snd_pcm_uframes_t cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 366 */;
+	bool cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 32 */;
+	struct dma_chan *cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 32 */;
+	void *cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 32 */;
+	struct fsl_asrc_pair cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 292 */;
+	struct snd_soc_component *cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 250 */;
+	int cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 250 */;
+	struct snd_pcm_hardware cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 19 */;
+	struct snd_soc_dai *cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 155 */;
+	dma_cap_mask_t cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 148 */;
+	u8 cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 147 */;
+	struct snd_soc_dpcm *cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 144 */;
+	struct imx_dma_data *cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 143 */;
+	struct device *cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 141 */;
+	enum asrc_pair_index cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 140 */;
+	struct dma_slave_config cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 139 */;
+	struct fsl_asrc *cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 138 */;
+	struct snd_dmaengine_dai_dma_data *cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 134 */;
+	struct snd_soc_pcm_runtime *cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 132 */;
+	enum dma_slave_buswidth cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 131 */;
+	struct snd_pcm_hw_params *cocci_id/* sound/soc/fsl/fsl_asrc_dma.c 129 */;
+}

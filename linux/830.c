@@ -1,0 +1,43 @@
+cocci_test_suite() {
+	unsigned int cocci_id/* drivers/pnp/pnpacpi/rsparser.c 882 */;
+	struct acpi_resource_fixed_memory32 *cocci_id/* drivers/pnp/pnpacpi/rsparser.c 857 */;
+	struct acpi_resource_memory32 *cocci_id/* drivers/pnp/pnpacpi/rsparser.c 833 */;
+	struct acpi_resource_memory24 *cocci_id/* drivers/pnp/pnpacpi/rsparser.c 808 */;
+	struct acpi_resource_fixed_io *cocci_id/* drivers/pnp/pnpacpi/rsparser.c 790 */;
+	struct acpi_resource_io *cocci_id/* drivers/pnp/pnpacpi/rsparser.c 767 */;
+	struct acpi_resource_extended_irq *cocci_id/* drivers/pnp/pnpacpi/rsparser.c 691 */;
+	struct acpi_resource_irq *cocci_id/* drivers/pnp/pnpacpi/rsparser.c 662 */;
+	struct acpi_resource cocci_id/* drivers/pnp/pnpacpi/rsparser.c 638 */;
+	acpi_handle cocci_id/* drivers/pnp/pnpacpi/rsparser.c 625 */;
+	struct acpi_device *cocci_id/* drivers/pnp/pnpacpi/rsparser.c 624 */;
+	struct acpi_buffer *cocci_id/* drivers/pnp/pnpacpi/rsparser.c 622 */;
+	struct acpi_resource **cocci_id/* drivers/pnp/pnpacpi/rsparser.c 607 */;
+	int *cocci_id/* drivers/pnp/pnpacpi/rsparser.c 598 */;
+	struct acpipnp_parse_option_s cocci_id/* drivers/pnp/pnpacpi/rsparser.c 554 */;
+	int __init cocci_id/* drivers/pnp/pnpacpi/rsparser.c 549 */;
+	struct acpipnp_parse_option_s *cocci_id/* drivers/pnp/pnpacpi/rsparser.c 457 */;
+	struct acpipnp_parse_option_s {
+		struct pnp_dev *dev;
+		unsigned int option_flags;
+	} cocci_id/* drivers/pnp/pnpacpi/rsparser.c 448 */;
+	struct acpi_resource_extended_address64 *cocci_id/* drivers/pnp/pnpacpi/rsparser.c 433 */;
+	unsigned char cocci_id/* drivers/pnp/pnpacpi/rsparser.c 408 */;
+	struct acpi_resource_address64 cocci_id/* drivers/pnp/pnpacpi/rsparser.c 406 */;
+	pnp_irq_mask_t cocci_id/* drivers/pnp/pnpacpi/rsparser.c 327 */;
+	u8 cocci_id/* drivers/pnp/pnpacpi/rsparser.c 234 */;
+	u8 *cocci_id/* drivers/pnp/pnpacpi/rsparser.c 18 */;
+	struct pnp_dev *cocci_id/* drivers/pnp/pnpacpi/rsparser.c 18 */;
+	int cocci_id/* drivers/pnp/pnpacpi/rsparser.c 18 */;
+	void cocci_id/* drivers/pnp/pnpacpi/rsparser.c 18 */;
+	struct resource_win cocci_id/* drivers/pnp/pnpacpi/rsparser.c 171 */;
+	struct acpi_resource_gpio *cocci_id/* drivers/pnp/pnpacpi/rsparser.c 170 */;
+	struct acpi_resource_vendor_typed *cocci_id/* drivers/pnp/pnpacpi/rsparser.c 169 */;
+	struct acpi_resource_dma *cocci_id/* drivers/pnp/pnpacpi/rsparser.c 168 */;
+	void *cocci_id/* drivers/pnp/pnpacpi/rsparser.c 165 */;
+	acpi_status cocci_id/* drivers/pnp/pnpacpi/rsparser.c 164 */;
+	struct acpi_resource *cocci_id/* drivers/pnp/pnpacpi/rsparser.c 164 */;
+	u64 cocci_id/* drivers/pnp/pnpacpi/rsparser.c 155 */;
+	struct acpi_vendor_uuid *cocci_id/* drivers/pnp/pnpacpi/rsparser.c 124 */;
+	struct acpi_vendor_uuid cocci_id/* drivers/pnp/pnpacpi/rsparser.c 116 */;
+	struct resource *cocci_id/* drivers/pnp/pnpacpi/rsparser.c 101 */;
+}

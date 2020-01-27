@@ -1,0 +1,71 @@
+cocci_test_suite() {
+	struct omapfb_platform_data *cocci_id/* drivers/video/fbdev/omap/hwa742.c 929 */;
+	struct omapfb_mem_desc *cocci_id/* drivers/video/fbdev/omap/hwa742.c 922 */;
+	struct omapfb_device *cocci_id/* drivers/video/fbdev/omap/hwa742.c 921 */;
+	struct {
+		enum omapfb_update_mode update_mode;
+		enum omapfb_update_mode update_mode_before_suspend;
+		struct timer_list auto_update_timer;
+		int stop_auto_update;
+		struct omapfb_update_window auto_update_window;
+		unsigned te_connected:1;
+		unsigned vsync_only:1;
+		struct hwa742_request req_pool[REQ_POOL_SIZE];
+		struct list_head pending_req_list;
+		struct list_head free_req_list;
+		struct semaphore req_sema;
+		spinlock_t req_lock;
+		struct extif_timings reg_timings,lut_timings;
+		int prev_color_mode;
+		int prev_flags;
+		int window_type;
+		u32 max_transmit_size;
+		u32 extif_clk_period;
+		unsigned long pix_tx_time;
+		unsigned long line_upd_time;
+		struct omapfb_device *fbdev;
+		struct lcd_ctrl_extif *extif;
+		const struct lcd_ctrl *int_ctrl;
+		struct clk *sys_ck;
+	} cocci_id/* drivers/video/fbdev/omap/hwa742.c 90 */;
+	struct omapfb_caps *cocci_id/* drivers/video/fbdev/omap/hwa742.c 885 */;
+	struct hwa742_request {
+		struct list_head entry;
+		unsigned int flags;
+		int (*handler)(struct hwa742_request *req);
+		void (*complete)(void *data);
+		void *complete_data;
+		union {
+			struct update_param update;
+			struct completion *sync;
+		} par;
+	} cocci_id/* drivers/video/fbdev/omap/hwa742.c 76 */;
+	unsigned long *cocci_id/* drivers/video/fbdev/omap/hwa742.c 750 */;
+	int *cocci_id/* drivers/video/fbdev/omap/hwa742.c 719 */;
+	struct update_param {
+		int x,y,width,height;
+		int color_mode;
+		int flags;
+	} cocci_id/* drivers/video/fbdev/omap/hwa742.c 70 */;
+	struct extif_timings *cocci_id/* drivers/video/fbdev/omap/hwa742.c 670 */;
+	enum omapfb_update_mode cocci_id/* drivers/video/fbdev/omap/hwa742.c 611 */;
+	struct omapfb_notifier_block *cocci_id/* drivers/video/fbdev/omap/hwa742.c 560 */;
+	struct completion cocci_id/* drivers/video/fbdev/omap/hwa742.c 545 */;
+	void (*cocci_id/* drivers/video/fbdev/omap/hwa742.c 480 */)(void *arg);
+	struct fb_info *cocci_id/* drivers/video/fbdev/omap/hwa742.c 478 */;
+	struct timer_list *cocci_id/* drivers/video/fbdev/omap/hwa742.c 464 */;
+	void *cocci_id/* drivers/video/fbdev/omap/hwa742.c 457 */;
+	unsigned int cocci_id/* drivers/video/fbdev/omap/hwa742.c 436 */;
+	struct list_head *cocci_id/* drivers/video/fbdev/omap/hwa742.c 416 */;
+	struct omapfb_update_window *cocci_id/* drivers/video/fbdev/omap/hwa742.c 415 */;
+	struct update_param *cocci_id/* drivers/video/fbdev/omap/hwa742.c 329 */;
+	void (*cocci_id/* drivers/video/fbdev/omap/hwa742.c 272 */)(void *);
+	struct hwa742_request cocci_id/* drivers/video/fbdev/omap/hwa742.c 241 */;
+	int cocci_id/* drivers/video/fbdev/omap/hwa742.c 231 */;
+	unsigned long cocci_id/* drivers/video/fbdev/omap/hwa742.c 229 */;
+	struct hwa742_request *cocci_id/* drivers/video/fbdev/omap/hwa742.c 227 */;
+	void cocci_id/* drivers/video/fbdev/omap/hwa742.c 227 */;
+	u8 cocci_id/* drivers/video/fbdev/omap/hwa742.c 218 */;
+	u8 cocci_id/* drivers/video/fbdev/omap/hwa742.c 147 */[8];
+	struct lcd_ctrl cocci_id/* drivers/video/fbdev/omap/hwa742.c 125 */;
+}
