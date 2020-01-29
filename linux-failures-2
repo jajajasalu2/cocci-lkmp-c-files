@@ -1,0 +1,712 @@
+
+enum checkstatus { UNCHECKED = 0 , PREREQ , PASSED , FAILED , } cocci_id@p ;
+I: /* scripts/dtc/checks.c 20 */ ./builds/linux/7.cocci ./builds/linux/7.c:30
+
+enum { SJ_SETJMP = 0 , SJ_FAIL , SJ_SUCCEED , } cocci_id@p ;
+I: /* scripts/sortextable.c 61 */ ./builds/linux/32.cocci ./builds/linux/32.c:5
+
+Elf32_Ehdr * cocci_id@p ;
+I: /* scripts/sortextable.c 271 */ ./builds/linux/32.cocci ./builds/linux/32.c:16
+
+CMS_ContentInfo * cocci_id@p ;
+I: /* scripts/sign-file.c 224 */ ./builds/linux/33.cocci ./builds/linux/33.c:19
+
+BIO * cocci_id@p ;
+I: /* scripts/sign-file.c 230 */ ./builds/linux/33.cocci ./builds/linux/33.c:16
+
+X509 * cocci_id@p ;
+I: /* scripts/sign-file.c 229 */ ./builds/linux/33.cocci ./builds/linux/33.c:17
+
+ENGINE * cocci_id@p ;
+I: /* scripts/sign-file.c 140 */ ./builds/linux/33.cocci ./builds/linux/33.c:30
+
+PKCS7 * cocci_id@p ;
+I: /* scripts/sign-file.c 227 */ ./builds/linux/33.cocci ./builds/linux/33.c:18
+
+EVP_PKEY * cocci_id@p ;
+I: /* scripts/sign-file.c 222 */ ./builds/linux/33.cocci ./builds/linux/33.c:20
+
+const char * const * cocci_id@p ;
+I: /* scripts/kallsyms.c 122 */ ./builds/linux/36.cocci ./builds/linux/36.c:43
+
+Elf32_Ehdr * cocci_id@p ;
+I: /* scripts/recordmcount.c 457 */ ./builds/linux/37.cocci ./builds/linux/37.c:18
+
+uint32_t ( * cocci_id@p ) ( ) ; // legit
+I: /* scripts/recordmcount.c 398 */ ./builds/linux/37.cocci ./builds/linux/37.c:42
+
+Elf_Rel * cocci_id@p ;
+I: /* scripts/mod/modpost.c 1909 */ ./builds/linux/68.cocci ./builds/linux/68.c:46
+
+const char * const * cocci_id@p ;
+I: /* scripts/mod/modpost.c 1433 */ ./builds/linux/68.cocci ./builds/linux/68.c:76
+
+enum flush_type { FLUSH_TYPE_NONE = 0 , FLUSH_TYPE_FLUSH , FLUSH_TYPE_REIMPORT , } cocci_id@p ;
+I: /* crypto/testmgr.c 202 */ ./builds/linux/658.cocci ./builds/linux/658.c:109
+
+enum altera_pcie_version { ALTERA_PCIE_V1 = 0 , ALTERA_PCIE_V2 , } cocci_id@p ;
+I: /* drivers/pci/controller/pcie-altera.c 82 */ ./builds/linux/784.cocci ./builds/linux/784.c:23
+
+enum pci_p2pdma_map_type { PCI_P2PDMA_MAP_UNKNOWN = 0 , PCI_P2PDMA_MAP_NOT_SUPPORTED , PCI_P2PDMA_MAP_BUS_ADDR , PCI_P2PDMA_MAP_THRU_HOST_BRIDGE , } cocci_id@p ;
+I: /* drivers/pci/p2pdma.c 23 */ ./builds/linux/798.cocci ./builds/linux/798.c:55
+
+const char * const * cocci_id@p ;
+I: /* drivers/mtd/maps/intel_vr_nor.c 86 */ ./builds/linux/1061.cocci ./builds/linux/1061.c:4
+
+poll_table * cocci_id@p ;
+I: /* drivers/usb/misc/legousbtower.c 467 */ ./builds/linux/1363.cocci ./builds/linux/1363.c:16
+
+enum pd_msg_request { PD_MSG_NONE = 0 , PD_MSG_CTRL_REJECT , PD_MSG_CTRL_WAIT , PD_MSG_CTRL_NOT_SUPP , PD_MSG_DATA_SINK_CAP , PD_MSG_DATA_SOURCE_CAP , } cocci_id@p ;
+I: /* drivers/usb/typec/tcpm/tcpm.c 153 */ ./builds/linux/1386.cocci ./builds/linux/1386.c:181
+
+enum tcpm_psy_online_states { TCPM_PSY_OFFLINE = 0 , TCPM_PSY_FIXED_ONLINE , TCPM_PSY_PROG_ONLINE , } cocci_id@p ;
+I: /* drivers/usb/typec/tcpm/tcpm.c 4444 */ ./builds/linux/1386.cocci ./builds/linux/1386.c:30
+
+poll_table * cocci_id@p ;
+I: /* drivers/usb/gadget/function/f_printer.c 684 */ ./builds/linux/1457.cocci ./builds/linux/1457.c:12
+
+poll_table * cocci_id@p ;
+I: /* drivers/usb/gadget/function/f_printer.c 684 */ ./builds/linux/1457.cocci ./builds/linux/1457.c:12
+
+enum { STATE_INITIAL = 0 , STATE_1PARAM , STATE_2PARAM_1 , STATE_2PARAM_2 , STATE_SYSEX_0 , STATE_SYSEX_1 , STATE_SYSEX_2 , STATE_REAL_TIME , STATE_FINISHED , } cocci_id@p ;
+I: /* drivers/usb/gadget/function/f_midi.c 54 */ ./builds/linux/1472.cocci ./builds/linux/1472.c:49
+
+enum RXSTATE { EXPECT_HDR1 = 0 , EXPECT_HDR2 = 1 , EXPECT_DATA = 2 , EXPECT_HDR3 = 3 , } cocci_id@p ;
+I: /* drivers/usb/serial/io_edgeport.c 139 */ ./builds/linux/1572.cocci ./builds/linux/1572.c:180
+
+enum dwc3_omap_utmi_mode { DWC3_OMAP_UTMI_MODE_UNKNOWN = 0 , DWC3_OMAP_UTMI_MODE_HW , DWC3_OMAP_UTMI_MODE_SW , } cocci_id@p ;
+I: /* drivers/usb/dwc3/dwc3-omap.c 108 */ ./builds/linux/1635.cocci ./builds/linux/1635.c:37
+
+enum { ltr501 = 0 , ltr559 , ltr301 , } cocci_id@p ;
+I: /* drivers/iio/light/ltr501.c 93 */ ./builds/linux/1816.cocci ./builds/linux/1816.c:10
+
+enum mxs_lradc_divbytwo { MXS_LRADC_DIV_DISABLED = 0 , MXS_LRADC_DIV_ENABLED , } cocci_id@p ;
+I: /* drivers/iio/adc/mxs-lradc-adc.c 103 */ ./builds/linux/1917.cocci ./builds/linux/1917.c:56
+
+enum bq27xxx_dm_reg_id { BQ27XXX_DM_DESIGN_CAPACITY = 0 , BQ27XXX_DM_DESIGN_ENERGY , BQ27XXX_DM_TERMINATE_VOLTAGE , } cocci_id@p ;
+I: /* drivers/power/supply/bq27xxx_battery.c 682 */ ./builds/linux/2196.cocci ./builds/linux/2196.c:22
+
+enum bq27xxx_reg_index { BQ27XXX_REG_CTRL = 0 , BQ27XXX_REG_TEMP , BQ27XXX_REG_INT_TEMP , BQ27XXX_REG_VOLT , BQ27XXX_REG_AI , BQ27XXX_REG_FLAGS , BQ27XXX_REG_TTE , BQ27XXX_REG_TTF , BQ27XXX_REG_TTES , BQ27XXX_REG_TTECP , BQ27XXX_REG_NAC , BQ27XXX_REG_FCC , BQ27XXX_REG_CYCT , BQ27XXX_REG_AE , BQ27XXX_REG_SOC , BQ27XXX_REG_DCAP , BQ27XXX_REG_AP , BQ27XXX_DM_CTRL , BQ27XXX_DM_CLASS , BQ27XXX_DM_BLOCK , BQ27XXX_DM_DATA , BQ27XXX_DM_CKSUM , BQ27XXX_REG_MAX , } cocci_id@p ;
+I: /* drivers/power/supply/bq27xxx_battery.c 100 */ ./builds/linux/2196.cocci ./builds/linux/2196.c:56
+
+enum avs_tmon_trip_type { TMON_TRIP_TYPE_LOW = 0 , TMON_TRIP_TYPE_HIGH , TMON_TRIP_TYPE_RESET , TMON_TRIP_TYPE_MAX , } cocci_id@p ;
+I: /* drivers/thermal/broadcom/brcmstb_thermal.c 60 */ ./builds/linux/2276.cocci ./builds/linux/2276.c:10
+
+enum mmp_tdma_type { MMP_AUD_TDMA = 0 , PXA910_SQU , } cocci_id@p ;
+I: /* drivers/dma/mmp_tdma.c 94 */ ./builds/linux/2380.cocci ./builds/linux/2380.c:2
+
+enum xdma_ip_type { XDMA_TYPE_AXIDMA = 0 , XDMA_TYPE_CDMA , XDMA_TYPE_VDMA , XDMA_TYPE_AXIMCDMA , } cocci_id@p ;
+I: /* drivers/dma/xilinx/xilinx_dma.c 458 */ ./builds/linux/2387.cocci ./builds/linux/2387.c:44
+
+enum zx_dma_burst_width { ZX_DMA_WIDTH_8BIT = 0 , ZX_DMA_WIDTH_16BIT = 1 , ZX_DMA_WIDTH_32BIT = 2 , ZX_DMA_WIDTH_64BIT = 3 , } cocci_id@p ;
+I: /* drivers/dma/zx_dma.c 67 */ ./builds/linux/2425.cocci ./builds/linux/2425.c:41
+
+enum { TOKEN_END = 0 , TOKEN_START , TOKEN_SLAVE_ADDR_WRITE , TOKEN_SLAVE_ADDR_READ , TOKEN_DATA , TOKEN_DATA_LAST , TOKEN_STOP , } cocci_id@p ;
+I: /* drivers/i2c/busses/i2c-meson.c 42 */ ./builds/linux/2637.cocci ./builds/linux/2637.c:26
+
+enum pmcmsptwi_xfer_result { MSP_TWI_XFER_OK = 0 , MSP_TWI_XFER_TIMEOUT , MSP_TWI_XFER_BUSY , MSP_TWI_XFER_DATA_COLLISION , MSP_TWI_XFER_NO_RESPONSE , MSP_TWI_XFER_LOST_ARBITRATION , } cocci_id@p ;
+I: /* drivers/i2c/busses/i2c-pmcmsp.c 70 */ ./builds/linux/2640.cocci ./builds/linux/2640.c:18
+
+enum pmcmsptwi_cmd_type { MSP_TWI_CMD_WRITE = 0 , MSP_TWI_CMD_READ = 1 , MSP_TWI_CMD_WRITE_READ = 2 , } cocci_id@p ;
+I: /* drivers/i2c/busses/i2c-pmcmsp.c 63 */ ./builds/linux/2640.cocci ./builds/linux/2640.c:19
+
+enum i2c_trans_st_rs { I2C_TRANS_STOP = 0 , I2C_TRANS_REPEATED_START , } cocci_id@p ;
+I: /* drivers/i2c/busses/i2c-mt65xx.c 92 */ ./builds/linux/2668.cocci ./builds/linux/2668.c:3
+
+enum i2c_slave_read_status { I2C_SLAVE_RX_FIFO_EMPTY = 0 , I2C_SLAVE_RX_START , I2C_SLAVE_RX_DATA , I2C_SLAVE_RX_END , } cocci_id@p ;
+I: /* drivers/i2c/busses/i2c-bcm-iproc.c 162 */ ./builds/linux/2691.cocci ./builds/linux/2691.c:44
+
+enum bus_speed_index { I2C_SPD_100K = 0 , I2C_SPD_400K , } cocci_id@p ;
+I: /* drivers/i2c/busses/i2c-bcm-iproc.c 169 */ ./builds/linux/2691.cocci ./builds/linux/2691.c:43
+
+enum { REG_CON_MOD_TX = 0 , REG_CON_MOD_REGISTER_TX , REG_CON_MOD_RX , REG_CON_MOD_REGISTER_RX , } cocci_id@p ;
+I: /* drivers/i2c/busses/i2c-rk3x.c 44 */ ./builds/linux/2751.cocci ./builds/linux/2751.c:25
+
+enum scatter_gather_types { SGT_32BIT = 0 , SGT_64BIT = 1 , } cocci_id@p ;
+I: /* drivers/block/sx8.c 207 */ ./builds/linux/3100.cocci ./builds/linux/3100.c:185
+
+struct meson_pwm_data {  const char * const * parent_names ;  unsigned int num_parents ; } cocci_id@p ;
+I: /* drivers/block/sx8.c 207 */ ./builds/linux/3369.cocci ./builds/linux/3369.c:2
+
+enum virtio_balloon_config_read { VIRTIO_BALLOON_CONFIG_READ_CMD_ID = 0 , } cocci_id@p ;
+I: /* drivers/virtio/virtio_balloon.c 53 */ ./builds/linux/3411.cocci ./builds/linux/3411.c:40
+
+enum atmci_pdc_buf { PDC_FIRST_BUF = 0 , PDC_SECOND_BUF , } cocci_id@p ;
+I: /* drivers/mmc/host/atmel-mci.c 198 */ ./builds/linux/3474.cocci ./builds/linux/3474.c:103
+
+enum { EVENT_CMD_RDY = 0 , EVENT_XFER_COMPLETE , EVENT_NOTBUSY , EVENT_DATA_ERROR , } cocci_id@p ;
+I: /* drivers/mmc/host/atmel-mci.c 177 */ ./builds/linux/3474.cocci ./builds/linux/3474.c:107
+
+enum atmel_mci_state { STATE_IDLE = 0 , STATE_SENDING_CMD , STATE_DATA_XFER , STATE_WAITING_NOTBUSY , STATE_SENDING_STOP , STATE_END_REQUEST , } cocci_id@p ;
+I: /* drivers/mmc/host/atmel-mci.c 184 */ ./builds/linux/3474.cocci ./builds/linux/3474.c:106
+
+enum atmci_xfer_dir { XFER_RECEIVE = 0 , XFER_TRANSMIT , } cocci_id@p ;
+I: /* drivers/mmc/host/atmel-mci.c 193 */ ./builds/linux/3474.cocci ./builds/linux/3474.c:105
+
+be128 * cocci_id@p ;
+I: /* drivers/crypto/vmx/ghash.c 89 */ ./builds/linux/3823.cocci ./builds/linux/3823.c:4
+
+enum dcp_chan { DCP_CHAN_HASH_SHA = 0 , DCP_CHAN_CRYPTO = 2 , } cocci_id@p ;
+I: /* drivers/crypto/mxs-dcp.c 83 */ ./builds/linux/3854.cocci ./builds/linux/3854.c:26
+
+enum vft_type { SQC_VFT = 0 , CQC_VFT , } cocci_id@p ;
+I: /* drivers/crypto/hisilicon/qm.c 185 */ ./builds/linux/3858.cocci ./builds/linux/3858.c:127
+
+enum tegra_actmon_device { MCALL = 0 , MCCPU , } cocci_id@p ;
+I: /* drivers/devfreq/tegra30-devfreq.c 107 */ ./builds/linux/4092.cocci ./builds/linux/4092.c:68
+
+enum cdns_dphy_clk_lane_cfg { DPHY_CLK_CFG_LEFT_DRIVES_ALL = 0 , DPHY_CLK_CFG_LEFT_DRIVES_RIGHT = 1 , DPHY_CLK_CFG_LEFT_DRIVES_LEFT = 2 , DPHY_CLK_CFG_RIGHT_DRIVES_ALL = 3 , } cocci_id@p ;
+I: /* drivers/phy/cadence/cdns-dphy.c 67 */ ./builds/linux/4116.cocci ./builds/linux/4116.c:22
+
+enum cygnus_pcie_phy_id { CYGNUS_PHY_PCIE0 = 0 , CYGNUS_PHY_PCIE1 , MAX_NUM_PHYS , } cocci_id@p ;
+I: /* drivers/phy/broadcom/phy-bcm-cygnus-pcie.c 25 */ ./builds/linux/4166.cocci ./builds/linux/4166.c:16
+
+enum phy_speed_mode { SPEED_MODE_GEN1 = 0 , SPEED_MODE_GEN2 = 1 , SPEED_MODE_GEN3 = 2 , } cocci_id@p ;
+I: /* drivers/phy/hisilicon/phy-hix5hd2-sata.c 55 */ ./builds/linux/4203.cocci ./builds/linux/4203.c:6
+
+poll_table * cocci_id@p ;
+I: /* drivers/platform/goldfish/goldfish_pipe.c 504 */ ./builds/linux/4206.cocci ./builds/linux/4206.c:48
+
+enum mcast_state { MCAST_NOT_MEMBER = 0 , MCAST_MEMBER , } cocci_id@p ;
+I: /* drivers/infiniband/hw/mlx4/mcg.c 66 */ ./builds/linux/4844.cocci ./builds/linux/4844.c:37
+
+enum { MTHCA_RATE_TAVOR_FULL = 0 , MTHCA_RATE_TAVOR_1X = 1 , MTHCA_RATE_TAVOR_4X = 2 , MTHCA_RATE_TAVOR_1X_DDR = 3 , } cocci_id@p ;
+I: /* drivers/infiniband/hw/mthca/mthca_av.c 42 */ ./builds/linux/4906.cocci ./builds/linux/4906.c:16
+
+enum { MTHCA_RATE_MEMFREE_FULL = 0 , MTHCA_RATE_MEMFREE_QUARTER = 1 , MTHCA_RATE_MEMFREE_EIGHTH = 2 , MTHCA_RATE_MEMFREE_HALF = 3 , } cocci_id@p ;
+I: /* drivers/infiniband/hw/mthca/mthca_av.c 49 */ ./builds/linux/4906.cocci ./builds/linux/4906.c:15
+
+enum gio_reg_index { GIO_REG_ODEN = 0 , GIO_REG_DATA , GIO_REG_IODIR , GIO_REG_EC , GIO_REG_EI , GIO_REG_MASK , GIO_REG_LEVEL , GIO_REG_STAT , NUMBER_OF_GIO_REGISTERS , } cocci_id@p ;
+I: /* drivers/gpio/gpio-brcmstb.c 23 */ ./builds/linux/5134.cocci ./builds/linux/5134.c:50
+
+const char * const * cocci_id@p ;
+I: /* drivers/gpio/gpio-reg.c 133 */ ./builds/linux/5136.cocci ./builds/linux/5136.c:11
+
+const char * const * cocci_id@p ;
+I: /* drivers/gpio/gpio-tegra186.c 607 */ ./builds/linux/5148.cocci ./builds/linux/5148.c:21
+
+struct tegra_ahci_soc {  const char * const * supply_names ;  u32 num_supplies ;  bool supports_devslp ;  const struct tegra_ahci_ops * ops ; } cocci_id@p ;
+I: /* drivers/gpio/gpio-tegra186.c 607 */ ./builds/linux/5228.cocci ./builds/linux/5228.c:30
+
+enum { SATA_DWC_CMD_ISSUED_NOT = 0 , SATA_DWC_CMD_ISSUED_PEND = 1 , SATA_DWC_CMD_ISSUED_EXEC = 2 , SATA_DWC_CMD_ISSUED_NODATA = 3 , SATA_DWC_DMA_PENDING_NONE = 0 , SATA_DWC_DMA_PENDING_TX = 1 , SATA_DWC_DMA_PENDING_RX = 2 , } cocci_id@p ;
+I: /* drivers/ata/sata_dwc_460ex.c 170 */ ./builds/linux/5229.cocci ./builds/linux/5229.c:74
+
+enum { PDC_MMIO_BAR = 5 , PDC_UDMA_100 = 0 , PDC_UDMA_133 = 1 , PDC_100_MHZ = 100000000 , PDC_133_MHZ = 133333333 , PDC_SYS_CTL = 0x1100 , PDC_ATA_CTL = 0x1104 , PDC_GLOBAL_CTL = 0x1108 , PDC_CTCR0 = 0x110C , PDC_CTCR1 = 0x1110 , PDC_BYTE_COUNT = 0x1120 , PDC_PLL_CTL = 0x1202 , } cocci_id@p ;
+I: /* drivers/ata/pata_pdc2027x.c 41 */ ./builds/linux/5293.cocci ./builds/linux/5293.c:36
+
+enum { SSTATUS = 0 , SERROR = 4 , SCONTROL = 8 , SNOTIFY = 0xC , } cocci_id@p ;
+I: /* drivers/ata/sata_fsl.c 187 */ ./builds/linux/5320.cocci ./builds/linux/5320.c:71
+
+enum { TRANSCFG = 0 , TRANSSTATUS = 4 , LINKCFG = 8 , LINKCFG1 = 0xC , LINKCFG2 = 0x10 , LINKSTATUS = 0x14 , LINKSTATUS1 = 0x18 , PHYCTRLCFG = 0x1C , COMMANDSTAT = 0x20 , } cocci_id@p ;
+I: /* drivers/ata/sata_fsl.c 197 */ ./builds/linux/5320.cocci ./builds/linux/5320.c:70
+
+type * cocci_id@p ;
+I: /* drivers/spi/spi-imx.c 145 */ ./builds/linux/5419.cocci ./builds/linux/5419.c:74
+
+enum { DWR_ABPCK_BIT_PER_CLK = 0 , DWR_ABPCK_2_BIT_PER_CLK = 1 , DWR_ABPCK_4_BIT_PER_CLK = 2 , } cocci_id@p ;
+I: /* drivers/spi/spi-npcm-fiu.c 161 */ ./builds/linux/5430.cocci ./builds/linux/5430.c:66
+
+enum { DWR_DBPCK_BIT_PER_CLK = 0 , DWR_DBPCK_2_BIT_PER_CLK = 1 , DWR_DBPCK_4_BIT_PER_CLK = 2 , } cocci_id@p ;
+I: /* drivers/spi/spi-npcm-fiu.c 167 */ ./builds/linux/5430.cocci ./builds/linux/5430.c:65
+
+enum { FIU0 = 0 , FIU3 , FIUX , } cocci_id@p ;
+I: /* drivers/spi/spi-npcm-fiu.c 186 */ ./builds/linux/5430.cocci ./builds/linux/5430.c:64
+
+enum { DRD_SINGLE_WIRE_MODE = 0 , DRD_DUAL_IO_MODE = 1 , DRD_QUAD_IO_MODE = 2 , DRD_SPI_X_MODE = 3 , } cocci_id@p ;
+I: /* drivers/spi/spi-npcm-fiu.c 154 */ ./builds/linux/5430.cocci ./builds/linux/5430.c:67
+
+type * cocci_id@p ;
+I: /* drivers/spi/spi-fsl-lpspi.c 143 */ ./builds/linux/5473.cocci ./builds/linux/5473.c:62
+
+enum spi_fiq_mode { FIQ_MODE_NONE = 0 , FIQ_MODE_TX = 1 , FIQ_MODE_RX = 2 , FIQ_MODE_TXRX = 3 , } cocci_id@p ;
+I: /* drivers/spi/spi-s3c24xx.c 44 */ ./builds/linux/5486.cocci ./builds/linux/5486.c:32
+
+const char * const * * cocci_id@p ;
+I: /* drivers/pinctrl/actions/pinctrl-owl.c 150 */ ./builds/linux/6018.cocci ./builds/linux/6018.c:38
+
+enum ddr_perf_filter_capabilities { PERF_CAP_AXI_ID_FILTER = 0 , PERF_CAP_AXI_ID_FILTER_ENHANCED , PERF_CAP_AXI_ID_FEAT_MAX , } cocci_id@p ;
+I: /* drivers/perf/fsl_imx8_ddr_perf.c 87 */ ./builds/linux/6100.cocci ./builds/linux/6100.c:2
+
+enum ssbi_controller_type { MSM_SBI_CTRL_SSBI = 0 , MSM_SBI_CTRL_SSBI2 , MSM_SBI_CTRL_PMIC_ARBITER , } cocci_id@p ;
+I: /* drivers/mfd/ssbi.c 60 */ ./builds/linux/6212.cocci ./builds/linux/6212.c:11
+
+unchar * cocci_id@p ;
+I: /* drivers/scsi/aha1740.c 119 */ ./builds/linux/6500.cocci ./builds/linux/6500.c:48
+
+enum { HISI_SAS_PHY_BCAST_ACK = 0 , HISI_SAS_PHY_SL_PHY_ENABLED , HISI_SAS_PHY_INT_ABNORMAL , HISI_SAS_PHY_INT_NR , } cocci_id@p ;
+I: /* drivers/scsi/hisi_sas/hisi_sas_v1_hw.c 300 */ ./builds/linux/6645.cocci ./builds/linux/6645.c:34
+
+enum { DSM_FUNC_ERR_HANDLE_MSI = 0 , } cocci_id@p ;
+I: /* drivers/scsi/hisi_sas/hisi_sas_v3_hw.c 498 */ ./builds/linux/6648.cocci ./builds/linux/6648.c:21
+
+poll_table * cocci_id@p ;
+I: /* drivers/scsi/mpt3sas/mpt3sas_ctl.c 541 */ ./builds/linux/6762.cocci ./builds/linux/6762.c:24
+
+enum altera_mbox_msg { MBOX_CMD = 0 , MBOX_PTR , } cocci_id@p ;
+I: /* drivers/mailbox/mailbox-altera.c 32 */ ./builds/linux/6977.cocci ./builds/linux/6977.c:17
+
+struct omap_dss_features {  const struct dss_reg_field * reg_fields ;  const int num_reg_fields ;  const enum dss_feat_id * features ;  const int num_features ;  const int num_mgrs ;  const int num_ovls ;  const enum omap_display_type * supported_displays ;  const enum omap_dss_output_id * supported_outputs ;  const enum omap_color_mode * supported_color_modes ;  const enum omap_overlay_caps * overlay_caps ;  const char * const * clksrc_names ;  const struct dss_param_range * dss_params ;  const enum omap_dss_rotation_type supported_rotation_types ;  const u32 buffer_size_unit ;  const u32 burst_size_unit ; } cocci_id@p ;
+I: /* drivers/mailbox/mailbox-altera.c 32 */ ./builds/linux/7378.cocci ./builds/linux/7378.c:30
+
+enum sm501_controller { HEAD_CRT = 0 , HEAD_PANEL = 1 , } cocci_id@p ;
+I: /* drivers/video/fbdev/sm501fb.c 63 */ ./builds/linux/7569.cocci ./builds/linux/7569.c:27
+
+enum { TL_PROTOCOLID_COM_DATA = 0 , TL_PROTOCOLID_COM_CTRL = 1 , TL_PROTOCOLID_SETUP = 2 , } cocci_id@p ;
+I: /* drivers/tty/ipwireless/hardware.c 116 */ ./builds/linux/7659.cocci ./builds/linux/7659.c:202
+
+poll_table * cocci_id@p ;
+I: /* drivers/net/tap.c 572 */ ./builds/linux/7830.cocci ./builds/linux/7830.c:33
+
+hdlc_device * cocci_id@p ;
+I: /* drivers/net/wan/fsl_ucc_hdlc.c 512 */ ./builds/linux/7855.cocci ./builds/linux/7855.c:23
+
+enum skb_state { illegal = 0 , tx_start , tx_done , rx_start , rx_done , rx_cleanup , unlink_start , } cocci_id@p ;
+I: /* drivers/net/usb/lan78xx.c 311 */ ./builds/linux/7947.cocci ./builds/linux/7947.c:94
+
+enum at91_mb_mode { AT91_MB_MODE_DISABLED = 0 , AT91_MB_MODE_RX = 1 , AT91_MB_MODE_RX_OVRWR = 2 , AT91_MB_MODE_TX = 3 , AT91_MB_MODE_CONSUMER = 4 , AT91_MB_MODE_PRODUCER = 5 , } cocci_id@p ;
+I: /* drivers/net/can/at91_can.c 80 */ ./builds/linux/8124.cocci ./builds/linux/8124.c:4
+
+enum { OFDPA_PRIORITY_UNKNOWN = 0 , OFDPA_PRIORITY_IG_PORT = 1 , OFDPA_PRIORITY_VLAN = 1 , OFDPA_PRIORITY_TERM_MAC_UCAST = 0 , OFDPA_PRIORITY_TERM_MAC_MCAST = 1 , OFDPA_PRIORITY_BRIDGING_VLAN_DFLT_EXACT = 1 , OFDPA_PRIORITY_BRIDGING_VLAN_DFLT_WILD = 2 , OFDPA_PRIORITY_BRIDGING_VLAN = 3 , OFDPA_PRIORITY_BRIDGING_TENANT_DFLT_EXACT = 1 , OFDPA_PRIORITY_BRIDGING_TENANT_DFLT_WILD = 2 , OFDPA_PRIORITY_BRIDGING_TENANT = 3 , OFDPA_PRIORITY_ACL_CTRL = 3 , OFDPA_PRIORITY_ACL_NORMAL = 2 , OFDPA_PRIORITY_ACL_DFLT = 1 , } cocci_id@p ;
+I: /* drivers/net/ethernet/rocker/rocker_ofdpa.c 221 */ ./builds/linux/8212.cocci ./builds/linux/8212.c:111
+
+enum ptp_packet_state { PTP_PACKET_STATE_UNMATCHED = 0 , PTP_PACKET_STATE_MATCHED , PTP_PACKET_STATE_TIMED_OUT , PTP_PACKET_STATE_MATCH_UNWANTED , } cocci_id@p ;
+I: /* drivers/net/ethernet/sfc/ptp.c 132 */ ./builds/linux/8287.cocci ./builds/linux/8287.c:147
+
+enum ring_id { NETSEC_RING_TX = 0 , NETSEC_RING_RX , } cocci_id@p ;
+I: /* drivers/net/ethernet/socionext/netsec.c 256 */ ./builds/linux/8320.cocci ./builds/linux/8320.c:89
+
+enum buf_type { TYPE_NETSEC_SKB = 0 , TYPE_NETSEC_XDP_TX , TYPE_NETSEC_XDP_NDO , } cocci_id@p ;
+I: /* drivers/net/ethernet/socionext/netsec.c 261 */ ./builds/linux/8320.cocci ./builds/linux/8320.c:88
+
+hw_info * cocci_id@p ;
+I: /* drivers/net/ethernet/tundra/tsi108_eth.c 1551 */ ./builds/linux/8322.cocci ./builds/linux/8322.c:63
+
+enum nfp_eth_raw { NSP_ETH_RAW_PORT = 0 , NSP_ETH_RAW_STATE , NSP_ETH_RAW_MAC , NSP_ETH_RAW_CONTROL , NSP_ETH_NUM_RAW , } cocci_id@p ;
+I: /* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_nsp_eth.c 53 */ ./builds/linux/8371.cocci ./builds/linux/8371.c:19
+
+enum nfp_eth_rate { RATE_INVALID = 0 , RATE_10M , RATE_100M , RATE_1G , RATE_10G , RATE_25G , } cocci_id@p ;
+I: /* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_nsp_eth.c 62 */ ./builds/linux/8371.cocci ./builds/linux/8371.c:16
+
+enum nfp_nsp_cmd { SPCODE_NOOP = 0 , SPCODE_SOFT_RESET = 1 , SPCODE_FW_DEFAULT = 2 , SPCODE_PHY_INIT = 3 , SPCODE_MAC_INIT = 4 , SPCODE_PHY_RXADAPT = 5 , SPCODE_FW_LOAD = 6 , SPCODE_ETH_RESCAN = 7 , SPCODE_ETH_CONTROL = 8 , SPCODE_NSP_WRITE_FLASH = 11 , SPCODE_NSP_SENSORS = 12 , SPCODE_NSP_IDENTIFY = 13 , SPCODE_FW_STORED = 16 , SPCODE_HWINFO_LOOKUP = 17 , SPCODE_HWINFO_SET = 18 , SPCODE_FW_LOADED = 19 , SPCODE_VERSIONS = 21 , SPCODE_READ_SFF_EEPROM = 22 , } cocci_id@p ;
+I: /* drivers/net/ethernet/netronome/nfp/nfpcore/nfp_nsp.c 84 */ ./builds/linux/8379.cocci ./builds/linux/8379.c:8
+
+enum nfp_flower_mac_offload_cmd { NFP_TUNNEL_MAC_OFFLOAD_ADD = 0 , NFP_TUNNEL_MAC_OFFLOAD_DEL = 1 , NFP_TUNNEL_MAC_OFFLOAD_MOD = 2 , } cocci_id@p ;
+I: /* drivers/net/ethernet/netronome/nfp/flower/tunnel_conf.c 135 */ ./builds/linux/8397.cocci ./builds/linux/8397.c:87
+
+enum dma_ring_reg { TDMA_READ_PTR = 0 , RDMA_WRITE_PTR = TDMA_READ_PTR , TDMA_READ_PTR_HI , RDMA_WRITE_PTR_HI = TDMA_READ_PTR_HI , TDMA_CONS_INDEX , RDMA_PROD_INDEX = TDMA_CONS_INDEX , TDMA_PROD_INDEX , RDMA_CONS_INDEX = TDMA_PROD_INDEX , DMA_RING_BUF_SIZE , DMA_START_ADDR , DMA_START_ADDR_HI , DMA_END_ADDR , DMA_END_ADDR_HI , DMA_MBUF_DONE_THRESH , TDMA_FLOW_PERIOD , RDMA_XON_XOFF_THRESH = TDMA_FLOW_PERIOD , TDMA_WRITE_PTR , RDMA_READ_PTR = TDMA_WRITE_PTR , TDMA_WRITE_PTR_HI , RDMA_READ_PTR_HI = TDMA_WRITE_PTR_HI , } cocci_id@p ;
+I: /* drivers/net/ethernet/broadcom/genet/bcmgenet.c 374 */ ./builds/linux/8562.cocci ./builds/linux/8562.c:24
+
+enum dma_reg { DMA_RING_CFG = 0 , DMA_CTRL , DMA_STATUS , DMA_SCB_BURST_SIZE , DMA_ARB_CTRL , DMA_PRIORITY_0 , DMA_PRIORITY_1 , DMA_PRIORITY_2 , DMA_INDEX2RING_0 , DMA_INDEX2RING_1 , DMA_INDEX2RING_2 , DMA_INDEX2RING_3 , DMA_INDEX2RING_4 , DMA_INDEX2RING_5 , DMA_INDEX2RING_6 , DMA_INDEX2RING_7 , DMA_RING0_TIMEOUT , DMA_RING1_TIMEOUT , DMA_RING2_TIMEOUT , DMA_RING3_TIMEOUT , DMA_RING4_TIMEOUT , DMA_RING5_TIMEOUT , DMA_RING6_TIMEOUT , DMA_RING7_TIMEOUT , DMA_RING8_TIMEOUT , DMA_RING9_TIMEOUT , DMA_RING10_TIMEOUT , DMA_RING11_TIMEOUT , DMA_RING12_TIMEOUT , DMA_RING13_TIMEOUT , DMA_RING14_TIMEOUT , DMA_RING15_TIMEOUT , DMA_RING16_TIMEOUT , } cocci_id@p ;
+I: /* drivers/net/ethernet/broadcom/genet/bcmgenet.c 207 */ ./builds/linux/8562.cocci ./builds/linux/8562.c:57
+
+enum qlcnic_dcb_pfc_type { QLC_PFC_DISABLED = 0 , QLC_PFC_FULL , QLC_PFC_TX , QLC_PFC_RX , } cocci_id@p ;
+I: /* drivers/net/ethernet/qlogic/qlcnic/qlcnic_dcb.c 119 */ ./builds/linux/8765.cocci ./builds/linux/8765.c:110
+
+enum qlcnic_dcb_prio_type { QLC_PRIO_NONE = 0 , QLC_PRIO_GROUP , QLC_PRIO_LINK , } cocci_id@p ;
+I: /* drivers/net/ethernet/qlogic/qlcnic/qlcnic_dcb.c 113 */ ./builds/linux/8765.cocci ./builds/linux/8765.c:111
+
+enum tc35815_chiptype { TC35815CF = 0 , TC35815_NWU , TC35815_TX4939 , } cocci_id@p ;
+I: /* drivers/net/ethernet/toshiba/tc35815.c 53 */ ./builds/linux/8773.cocci ./builds/linux/8773.c:58
+
+rx_packet * cocci_id@p ;
+I: /* drivers/net/ethernet/sgi/meth.c 234 */ ./builds/linux/8779.cocci ./builds/linux/8779.c:41
+
+tx_packet * cocci_id@p ;
+I: /* drivers/net/ethernet/sgi/meth.c 623 */ ./builds/linux/8779.cocci ./builds/linux/8779.c:36
+
+enum completion_format { COMPLETE_DIRECT = 0 , COMPLETE_SGE = 1 , } cocci_id@p ;
+I: /* drivers/net/ethernet/huawei/hinic/hinic_hw_cmdq.c 90 */ ./builds/linux/8871.cocci ./builds/linux/8871.c:4
+
+enum cmdq_wqe_type { WQE_LCMD_TYPE = 0 , WQE_SCMD_TYPE = 1 , } cocci_id@p ;
+I: /* drivers/net/ethernet/huawei/hinic/hinic_hw_cmdq.c 85 */ ./builds/linux/8871.cocci ./builds/linux/8871.c:10
+
+enum completion_request { NO_CEQ = 0 , CEQ_SET = 1 , } cocci_id@p ;
+I: /* drivers/net/ethernet/huawei/hinic/hinic_hw_cmdq.c 119 */ ./builds/linux/8871.cocci ./builds/linux/8871.c:56
+
+enum cmdq_cmd_type { CMDQ_CMD_SYNC_DIRECT_RESP = 0 , CMDQ_CMD_SYNC_SGE_RESP = 1 , } cocci_id@p ;
+I: /* drivers/net/ethernet/huawei/hinic/hinic_hw_cmdq.c 114 */ ./builds/linux/8871.cocci ./builds/linux/8871.c:57
+
+enum data_format { DATA_SGE = 0 , DATA_DIRECT = 1 , } cocci_id@p ;
+I: /* drivers/net/ethernet/huawei/hinic/hinic_hw_cmdq.c 95 */ ./builds/linux/8871.cocci ./builds/linux/8871.c:2
+
+enum mdio_st_clause { MDIO_ST_CLAUSE_45 = 0 , MDIO_ST_CLAUSE_22 , } cocci_id@p ;
+I: /* drivers/net/ethernet/hisilicon/hns_mdio.c 70 */ ./builds/linux/8918.cocci ./builds/linux/8918.c:4
+
+enum mdio_c45_op_seq { MDIO_C45_WRITE_ADDR = 0 , MDIO_C45_WRITE_DATA , MDIO_C45_READ_INCREMENT , MDIO_C45_READ , } cocci_id@p ;
+I: /* drivers/net/ethernet/hisilicon/hns_mdio.c 80 */ ./builds/linux/8918.cocci ./builds/linux/8918.c:2
+
+enum { RX_NON_PTP_PKT = 0 , RX_PTP_PKT_SUC = 1 , RX_PTP_PKT_ERR = 2 , } cocci_id@p ;
+I: /* drivers/net/ethernet/chelsio/cxgb4/sge.c 3242 */ ./builds/linux/8955.cocci ./builds/linux/8955.c:69
+
+enum { MLX4_CEE_STATE_DOWN = 0 , MLX4_CEE_STATE_UP = 1 , } cocci_id@p ;
+I: /* drivers/net/ethernet/mellanox/mlx4/en_dcb_nl.c 40 */ ./builds/linux/9018.cocci ./builds/linux/9018.c:54
+
+int ( * cocci_id@p [ MLX5E_ST_NUM ] ) ( struct mlx5e_priv * ) ; // legit
+I: /* drivers/net/ethernet/mellanox/mlx5/core/en_selftest.c 317 */ ./builds/linux/9081.cocci ./builds/linux/9081.c:25
+
+enum mwifiex_tm_command { MWIFIEX_TM_CMD_HOSTCMD = 0 , } cocci_id@p ;
+I: /* drivers/net/wireless/marvell/mwifiex/cfg80211.c 4043 */ ./builds/linux/9256.cocci ./builds/linux/9256.c:22
+
+int ( * cocci_id@p [ ] ) ( struct iwl_trans * trans , struct iwl_ucode_tlv * tlv ) ; // legit
+I: /* drivers/net/wireless/intel/iwlwifi/iwl-dbg-tlv.c 278 */ ./builds/linux/9693.cocci ./builds/linux/9693.c:45
+
+enum rs_column_mode { RS_INVALID = 0 , RS_LEGACY , RS_SISO , RS_MIMO2 , } cocci_id@p ;
+I: /* drivers/net/wireless/intel/iwlwifi/mvm/rs.c 108 */ ./builds/linux/9748.cocci ./builds/linux/9748.c:121
+
+enum ath6kl_tm_cmd { ATH6KL_TM_CMD_TCMD = 0 , ATH6KL_TM_CMD_RX_REPORT = 1 , } cocci_id@p ;
+I: /* drivers/net/wireless/ath/ath6kl/testmode.c 33 */ ./builds/linux/9929.cocci ./builds/linux/9929.c:12
+
+enum rcar_lvds_mode { RCAR_LVDS_MODE_JEIDA = 0 , RCAR_LVDS_MODE_MIRROR = 1 , RCAR_LVDS_MODE_VESA = 4 , } cocci_id@p ;
+I: /* drivers/gpu/drm/rcar-du/rcar_lvds.c 33 */ ./builds/linux/10428.cocci ./builds/linux/10428.c:45
+
+u64 ( * cocci_id@p ) ( const  dma_addr_t , const enum i915_cache_level ) ;
+I: /* drivers/gpu/drm/i915/i915_gem_gtt.c 783 */ ./builds/linux/10546.cocci ./builds/linux/10546.c:11
+
+int * const * cocci_id@p ( void * arg ) ; // legit
+I: /* drivers/gpu/drm/i915/selftests/i915_request.c 1129 */ ./builds/linux/10781.cocci ./builds/linux/10781.c:37
+
+int ( * cocci_id@p [ ] ) ( void * arg ) ; // legit
+I: /* drivers/gpu/drm/i915/selftests/i915_request.c 1122 */ ./builds/linux/10781.cocci ./builds/linux/10781.c:38
+
+enum bo_vm_match { BO_VM_NOT_MAPPED = 0 , BO_VM_MAPPED , BO_VM_ALL , } cocci_id@p ;
+I: /* drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gpuvm.c 585 */ ./builds/linux/10811.cocci ./builds/linux/10811.c:12
+
+SVGA3dCmdSurfaceDMASuffix * cocci_id@p ;
+I: /* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 497 */ ./builds/linux/11388.cocci ./builds/linux/11388.c:71
+
+enum stdu_content_type { SAME_AS_DISPLAY = 0 , SEPARATE_SURFACE , SEPARATE_BO , } cocci_id@p ;
+I: /* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 47 */ ./builds/linux/11388.cocci ./builds/linux/11388.c:72
+
+SVGA3dBox * cocci_id@p ;
+I: /* drivers/gpu/drm/vmwgfx/vmwgfx_stdu.c 1324 */ ./builds/linux/11388.cocci ./builds/linux/11388.c:106
+
+SVGASignedRect * cocci_id@p ;
+I: /* drivers/gpu/drm/vmwgfx/vmwgfx_scrn.c 1085 */ ./builds/linux/11404.cocci ./builds/linux/11404.c:110
+
+enum { AUTO = 0 , SPDIF , HDA , } cocci_id@p ;
+I: /* drivers/gpu/drm/tegra/hdmi.c 97 */ ./builds/linux/12195.cocci ./builds/linux/12195.c:2
+
+enum vou_inf_data_sel { VOU_YUV444 = 0 , VOU_RGB_101010 = 1 , VOU_RGB_888 = 2 , VOU_RGB_666 = 3 , } cocci_id@p ;
+I: /* drivers/gpu/drm/zte/zx_vou.c 184 */ ./builds/linux/12230.cocci ./builds/linux/12230.c:70
+
+const char * const * cocci_id@p ;
+I: /* drivers/gpu/drm/msm/dsi/pll/dsi_pll_28nm_8960.c 454 */ ./builds/linux/12567.cocci ./builds/linux/12567.c:26
+
+enum ipu_csi_data_width { IPU_CSI_DATA_WIDTH_4 = 0 , IPU_CSI_DATA_WIDTH_8 = 1 , IPU_CSI_DATA_WIDTH_10 = 3 , IPU_CSI_DATA_WIDTH_12 = 5 , IPU_CSI_DATA_WIDTH_16 = 9 , } cocci_id@p ;
+I: /* drivers/gpu/ipu-v3/ipu-csi.c 155 */ ./builds/linux/12659.cocci ./builds/linux/12659.c:32
+
+enum di_sync_wave { DI_SYNC_NONE = 0 , DI_SYNC_CLK = 1 , DI_SYNC_INT_HSYNC = 2 , DI_SYNC_HSYNC = 3 , DI_SYNC_VSYNC = 4 , DI_SYNC_DE = 6 , DI_SYNC_CNT1 = 2 , DI_SYNC_CNT4 = 5 , DI_SYNC_CNT5 = 6 , } cocci_id@p ;
+I: /* drivers/gpu/ipu-v3/ipu-di.c 58 */ ./builds/linux/12663.cocci ./builds/linux/12663.c:4
+
+enum di_pins { DI_PIN11 = 0 , DI_PIN12 = 1 , DI_PIN13 = 2 , DI_PIN14 = 3 , DI_PIN15 = 4 , DI_PIN16 = 5 , DI_PIN17 = 6 , DI_PIN_CS = 7 , DI_PIN_SER_CLK = 0 , DI_PIN_SER_RS = 1 , } cocci_id@p ;
+I: /* drivers/gpu/ipu-v3/ipu-di.c 44 */ ./builds/linux/12663.cocci ./builds/linux/12663.c:11
+
+enum arm_smmu_domain_stage { ARM_SMMU_DOMAIN_S1 = 0 , ARM_SMMU_DOMAIN_S2 , ARM_SMMU_DOMAIN_NESTED , ARM_SMMU_DOMAIN_BYPASS , } cocci_id@p ;
+I: /* drivers/iommu/arm-smmu-v3.c 644 */ ./builds/linux/12759.cocci ./builds/linux/12759.c:29
+
+struct arm_smmu_ll_queue {  union {  u64 val ;  struct {  u32 prod ;  u32 cons ; } ;  struct {  atomic_t prod ;  atomic_t cons ; } atomic ;  u8 __pad [ SMP_CACHE_BYTES ] ; } ____cacheline_aligned_in_smp ;  u32 max_n_shift ; } cocci_id@p ; // legit
+I: /* drivers/iommu/arm-smmu-v3.c 644 */ ./builds/linux/12759.cocci ./builds/linux/12759.c:139
+
+enum pri_resp { PRI_RESP_DENY = 0 , PRI_RESP_FAIL = 1 , PRI_RESP_SUCC = 2 , } cocci_id@p ;
+I: /* drivers/iommu/arm-smmu-v3.c 396 */ ./builds/linux/12759.cocci ./builds/linux/12759.c:209
+
+enum lockout_state { WIN_READY = 0 , WIN_INUSE , WIN_LOCKED , } cocci_id@p ;
+I: /* drivers/hwtracing/intel_th/msu.c 50 */ ./builds/linux/12799.cocci ./builds/linux/12799.c:36
+
+enum emc_dram_type { DRAM_TYPE_DDR3 = 0 , DRAM_TYPE_DDR1 = 1 , DRAM_TYPE_LPDDR3 = 2 , DRAM_TYPE_DDR2 = 3 , } cocci_id@p ;
+I: /* drivers/memory/tegra/tegra124-emc.c 280 */ ./builds/linux/12843.cocci ./builds/linux/12843.c:46
+
+enum ocmem_macro_state { PASSTHROUGH = 0 , PERI_ON = 1 , CORE_ON = 2 , CLK_OFF = 4 , } cocci_id@p ;
+I: /* drivers/soc/qcom/ocmem.c 31 */ ./builds/linux/13050.cocci ./builds/linux/13050.c:31
+
+enum qbman_sdqcr_dct { qbman_sdqcr_dct_null = 0 , qbman_sdqcr_dct_prio_ics , qbman_sdqcr_dct_active_ics , qbman_sdqcr_dct_active , } cocci_id@p ;
+I: /* drivers/soc/fsl/dpio/qbman-portal.c 81 */ ./builds/linux/13086.cocci ./builds/linux/13086.c:32
+
+const char * const * cocci_id@p ;
+I: /* drivers/media/pci/netup_unidvb/netup_unidvb_core.c 758 */ ./builds/linux/13192.cocci ./builds/linux/13192.c:19
+
+v4l2_std_id * cocci_id@p ;
+I: /* drivers/media/pci/cx88/cx88-video.c 827 */ ./builds/linux/13253.cocci ./builds/linux/13253.c:10
+
+v4l2_std_id * cocci_id@p ;
+I: /* drivers/media/usb/stk1160/stk1160-v4l.c 507 */ ./builds/linux/13564.cocci ./builds/linux/13564.c:24
+
+v4l2_std_id * cocci_id@p ;
+I: /* drivers/media/i2c/adv7842.c 2962 */ ./builds/linux/13778.cocci ./builds/linux/13778.c:86
+
+enum { V4L2_M2M_SRC = 0 , V4L2_M2M_DST = 1 , } cocci_id@p ;
+I: /* drivers/media/platform/mx2_emmaprp.c 172 */ ./builds/linux/14096.cocci ./builds/linux/14096.c:53
+
+enum { V4L2_M2M_SRC = 0 , V4L2_M2M_DST = 1 , } cocci_id@p ;
+I: /* drivers/media/platform/coda/imx-vdoa.c 72 */ ./builds/linux/14139.cocci ./builds/linux/14139.c:22
+
+enum pxa_mbus_layout { PXA_MBUS_LAYOUT_PACKED = 0 , PXA_MBUS_LAYOUT_PLANAR_2Y_U_V , PXA_MBUS_LAYOUT_PLANAR_2Y_C , PXA_MBUS_LAYOUT_PLANAR_Y_C , } cocci_id@p ;
+I: /* drivers/media/platform/pxa_camera.c 219 */ ./builds/linux/14156.cocci ./builds/linux/14156.c:96
+
+enum viacam_opstate { S_IDLE = 0 , S_RUNNING = 1 , } cocci_id@p ;
+I: /* drivers/media/platform/via-camera.c 58 */ ./builds/linux/14157.cocci ./builds/linux/14157.c:49
+
+enum { Q_DATA_SRC = 0 , Q_DATA_DST = 1 , } cocci_id@p ;
+I: /* drivers/media/platform/ti-vpe/vpe.c 343 */ ./builds/linux/14186.cocci ./builds/linux/14186.c:96
+
+pixel * cocci_id@p ;
+I: /* drivers/media/platform/ti-vpe/cal.c 74 */ ./builds/linux/14188.cocci ./builds/linux/14188.c:19
+
+enum { V4L2_M2M_SRC = 0 , V4L2_M2M_DST = 1 , } cocci_id@p ;
+I: /* drivers/media/platform/imx-pxp.c 166 */ ./builds/linux/14234.cocci ./builds/linux/14234.c:48
+
+enum state { STOPPED = 0 , WAIT_FOR_BUFFER , RUNNING , } cocci_id@p ;
+I: /* drivers/media/platform/stm32/stm32-dcmi.c 87 */ ./builds/linux/14257.cocci ./builds/linux/14257.c:11
+
+enum mb86a20s_bandwidth { MB86A20S_13SEG = 0 , MB86A20S_13SEG_PARTIAL = 1 , MB86A20S_1SEG = 2 , MB86A20S_3SEG = 3 , } cocci_id@p ;
+I: /* drivers/media/dvb-frontends/mb86a20s.c 17 */ ./builds/linux/14314.cocci ./builds/linux/14314.c:43
+
+enum timeout_mode { SYMBOL_DEPENDENT_OFF = 0 , SYMBOL_DEPENDENT_ON , } cocci_id@p ;
+I: /* drivers/media/dvb-frontends/dib8000.c 60 */ ./builds/linux/14325.cocci ./builds/linux/14325.c:64
+
+enum dib8000_autosearch_step { AS_START = 0 , AS_SEARCHING_FFT , AS_SEARCHING_GUARD , AS_DONE = 100 , } cocci_id@p ;
+I: /* drivers/media/dvb-frontends/dib8000.c 53 */ ./builds/linux/14325.cocci ./builds/linux/14325.c:66
+
+enum dib8000_power_mode { DIB8000_POWER_ALL = 0 , DIB8000_POWER_INTERFACE_ONLY , } cocci_id@p ;
+I: /* drivers/media/dvb-frontends/dib8000.c 140 */ ./builds/linux/14325.cocci ./builds/linux/14325.c:144
+
+const char * const * cocci_id@p ;
+I: /* drivers/clk/rockchip/clk-inverter.c 74 */ ./builds/linux/14482.cocci ./builds/linux/14482.c:7
+
+const char * const * cocci_id@p ;
+I: /* drivers/clk/rockchip/clk-pll.c 833 */ ./builds/linux/14486.cocci ./builds/linux/14486.c:14
+
+const char * const * cocci_id@p ;
+I: /* drivers/clk/rockchip/clk-ddr.c 91 */ ./builds/linux/14487.cocci ./builds/linux/14487.c:7
+
+const char * const * cocci_id@p ;
+I: /* drivers/clk/rockchip/clk-cpu.c 247 */ ./builds/linux/14489.cocci ./builds/linux/14489.c:25
+
+const char * const * cocci_id@p ;
+I: /* drivers/clk/rockchip/clk-mmc-phase.c 192 */ ./builds/linux/14492.cocci ./builds/linux/14492.c:10
+
+struct bm1880_composite_clock {  unsigned int id ;  const char * name ;  const char * parent ;  const char * const * parents ;  unsigned int num_parents ;  unsigned long flags ;  u32 gate_reg ;  u32 mux_reg ;  u32 div_reg ;  s8 gate_shift ;  s8 mux_shift ;  s8 div_shift ;  s8 div_width ;  s16 div_initval ;  const struct clk_div_table * table ; } cocci_id@p ;
+I: /* drivers/clk/rockchip/clk-mmc-phase.c 192 */ ./builds/linux/14774.cocci ./builds/linux/14774.c:91
+
+const char * const * cocci_id@p ;
+I: /* drivers/clk/clk-bm1880.c 780 */ ./builds/linux/14774.cocci ./builds/linux/14774.c:26
+
+struct bm1880_mux_clock {  unsigned int id ;  const char * name ;  const char * const * parents ;  s8 num_parents ;  u32 reg ;  s8 shift ;  unsigned long flags ; } cocci_id@p ;
+I: /* drivers/clk/clk-bm1880.c 780 */ ./builds/linux/14774.cocci ./builds/linux/14774.c:31
+
+enum tegra_dfll_pmu_if { TEGRA_DFLL_PMU_I2C = 0 , TEGRA_DFLL_PMU_PWM = 1 , } cocci_id@p ;
+I: /* drivers/clk/tegra/clk-dfll.c 239 */ ./builds/linux/14862.cocci ./builds/linux/14862.c:58
+
+enum dfll_tune_range { DFLL_TUNE_UNINITIALIZED = 0 , DFLL_TUNE_LOW = 1 , } cocci_id@p ;
+I: /* drivers/clk/tegra/clk-dfll.c 233 */ ./builds/linux/14862.cocci ./builds/linux/14862.c:59
+
+enum dfll_ctrl_mode { DFLL_UNINITIALIZED = 0 , DFLL_DISABLED = 1 , DFLL_OPEN_LOOP = 2 , DFLL_CLOSED_LOOP = 3 , } cocci_id@p ;
+I: /* drivers/clk/tegra/clk-dfll.c 216 */ ./builds/linux/14862.cocci ./builds/linux/14862.c:60
+
+tegra20_clk_emc_round_cb * cocci_id@p ;
+I: /* drivers/clk/tegra/clk-tegra20-emc.c 223 */ ./builds/linux/14870.cocci ./builds/linux/14870.c:19
+
+const char * const * cocci_id@p ;
+I: /* drivers/clk/clk-stm32mp1.c 610 */ ./builds/linux/14899.cocci ./builds/linux/14899.c:32
+
+const char * const * cocci_id@p ;
+I: /* drivers/clk/imx/clk-sccg-pll.c 510 */ ./builds/linux/14934.cocci ./builds/linux/14934.c:28
+
+const char * const * cocci_id@p ;
+I: /* drivers/clk/imx/clk-busy.c 156 */ ./builds/linux/14968.cocci ./builds/linux/14968.c:19
+
+struct bcm2835_clock_data {  const char * name ;  const char * const * parents ;  int num_mux_parents ;  unsigned int set_rate_parent ;  u32 ctl_reg ;  u32 div_reg ;  u32 int_bits ;  u32 frac_bits ;  u32 flags ;  bool is_vpu_clock ;  bool is_mash_clock ;  bool low_jitter ;  u32 tcnt_mux ; } cocci_id@p ;
+I: /* drivers/clk/imx/clk-busy.c 156 */ ./builds/linux/14980.cocci ./builds/linux/14980.c:36
+
+enum kp_band { KP_BAND_MID = 0 , KP_BAND_HIGH , KP_BAND_HIGH_HIGH , } cocci_id@p ;
+I: /* drivers/clk/bcm/clk-iproc-pll.c 41 */ ./builds/linux/14993.cocci ./builds/linux/14993.c:33
+
+const char * const * cocci_id@p ;
+I: /* drivers/staging/greybus/audio_topology.c 1043 */ ./builds/linux/15677.cocci ./builds/linux/15677.c:54
+
+BITSET_T * cocci_id@p ;
+I: /* drivers/staging/vc04_services/interface/vchiq_arm/vchiq_core.c 597 */ ./builds/linux/15816.cocci ./builds/linux/15816.c:12
+
+hysdn_card * cocci_id@p ;
+I: /* drivers/staging/isdn/hysdn/hysdn_net.c 250 */ ./builds/linux/15891.cocci ./builds/linux/15891.c:17
+
+enum { DT9812_LEAST_USB_FIRMWARE_CMD_CODE = 0 , DT9812_W_FLASH_DATA = 0 , DT9812_R_FLASH_DATA = 1 , DT9812_R_SINGLE_BYTE_REG = 2 , DT9812_W_SINGLE_BYTE_REG = 3 , DT9812_R_MULTI_BYTE_REG = 4 , DT9812_W_MULTI_BYTE_REG = 5 , DT9812_RMW_SINGLE_BYTE_REG = 6 , DT9812_RMW_MULTI_BYTE_REG = 7 , DT9812_R_SINGLE_BYTE_SMBUS = 8 , DT9812_W_SINGLE_BYTE_SMBUS = 9 , DT9812_R_MULTI_BYTE_SMBUS = 10 , DT9812_W_MULTI_BYTE_SMBUS = 11 , DT9812_R_SINGLE_BYTE_DEV = 12 , DT9812_W_SINGLE_BYTE_DEV = 13 , DT9812_R_MULTI_BYTE_DEV = 14 , DT9812_W_MULTI_BYTE_DEV = 15 , DT9812_W_DAC_THRESHOLD = 16 , DT9812_W_INT_ON_CHANGE_MASK = 17 , DT9812_W_CGL = 18 , DT9812_R_MULTI_BYTE_USBMEM = 19 , DT9812_W_MULTI_BYTE_USBMEM = 20 , DT9812_START_SUBSYSTEM = 21 , DT9812_STOP_SUBSYSTEM = 22 , DT9812_CALIBRATE_POT = 23 , DT9812_W_DAC_FIFO_SIZE = 24 , DT9812_W_CGL_DAC = 25 , DT9812_R_SINGLE_VALUE_CMD = 26 , DT9812_W_SINGLE_VALUE_CMD = 27 , DT9812_MAX_USB_FIRMWARE_CMD_CODE , } cocci_id@p ;
+I: /* drivers/staging/comedi/drivers/dt9812.c 92 */ ./builds/linux/16089.cocci ./builds/linux/16089.c:2
+
+struct dim_channel * const * cocci_id@p ;
+I: /* drivers/staging/most/dim2/hal.c 904 */ ./builds/linux/16339.cocci ./builds/linux/16339.c:3
+
+enum gdma_dma_transfer_size { GDMA_TRANSFER_SIZE_4BYTE = 0 , GDMA_TRANSFER_SIZE_8BYTE = 1 , GDMA_TRANSFER_SIZE_16BYTE = 2 , GDMA_TRANSFER_SIZE_32BYTE = 3 , GDMA_TRANSFER_SIZE_64BYTE = 4 , } cocci_id@p ;
+I: /* drivers/staging/ralink-gdma/ralink-gdma.c 82 */ ./builds/linux/16357.cocci ./builds/linux/16357.c:16
+
+enum { KBD_REVISION_OMAP4 = 0 , KBD_REVISION_OMAP5 , } cocci_id@p ;
+I: /* drivers/input/keyboard/omap4-keypad.c 63 */ ./builds/linux/16700.cocci ./builds/linux/16700.c:19
+
+poll_table * cocci_id@p ;
+I: /* drivers/input/serio/serio_raw.c 239 */ ./builds/linux/16746.cocci ./builds/linux/16746.c:38
+
+enum { CPUINFO_LVL_ROOT = 0 , CPUINFO_LVL_NODE , CPUINFO_LVL_CORE , CPUINFO_LVL_PROC , CPUINFO_LVL_MAX , } cocci_id@p ;
+I: /* arch/sparc/kernel/cpumap.c 16 */ ./builds/linux/17966.cocci ./builds/linux/17966.c:33
+
+Elf32_Shdr * cocci_id@p ;
+I: /* arch/m68k/kernel/module.c 22 */ ./builds/linux/19111.cocci ./builds/linux/19111.c:11
+
+Elf32_Sym * cocci_id@p ;
+I: /* arch/m68k/kernel/module.c 30 */ ./builds/linux/19111.cocci ./builds/linux/19111.c:5
+
+Elf32_Rel * cocci_id@p ;
+I: /* arch/m68k/kernel/module.c 29 */ ./builds/linux/19111.cocci ./builds/linux/19111.c:6
+
+Elf32_Rela * cocci_id@p ;
+I: /* arch/m68k/kernel/module.c 69 */ ./builds/linux/19111.cocci ./builds/linux/19111.c:2
+
+Elf32_Shdr * cocci_id@p ;
+I: /* arch/mips/kernel/vpe.c 425 */ ./builds/linux/19603.cocci ./builds/linux/19603.c:28
+
+Elf32_Sym * cocci_id@p ;
+I: /* arch/mips/kernel/vpe.c 432 */ ./builds/linux/19603.cocci ./builds/linux/19603.c:25
+
+Elf32_Rel * cocci_id@p ;
+I: /* arch/mips/kernel/vpe.c 431 */ ./builds/linux/19603.cocci ./builds/linux/19603.c:26
+
+enum { REG_R0 = 0 , REG_F0 = 32 , REG_FPCR = 63 , REG_PC = 64 , } cocci_id@p ;
+I: /* arch/alpha/kernel/ptrace.c 72 */ ./builds/linux/20234.cocci ./builds/linux/20234.c:5
+
+Elf64_Rela * cocci_id@p ;
+I: /* arch/x86/kernel/module.c 136 */ ./builds/linux/20352.cocci ./builds/linux/20352.c:23
+
+Elf64_Sym * cocci_id@p ;
+I: /* arch/x86/kernel/module.c 137 */ ./builds/linux/20352.cocci ./builds/linux/20352.c:22
+
+Elf64_Shdr * cocci_id@p ;
+I: /* arch/x86/kernel/module.c 129 */ ./builds/linux/20352.cocci ./builds/linux/20352.c:24
+
+Elf32_Shdr * cocci_id@p ;
+I: /* arch/x86/kernel/module.c 89 */ ./builds/linux/20352.cocci ./builds/linux/20352.c:9
+
+Elf32_Sym * cocci_id@p ;
+I: /* arch/x86/kernel/module.c 97 */ ./builds/linux/20352.cocci ./builds/linux/20352.c:3
+
+Elf32_Rel * cocci_id@p ;
+I: /* arch/x86/kernel/module.c 96 */ ./builds/linux/20352.cocci ./builds/linux/20352.c:4
+
+poll_table * cocci_id@p ;
+I: /* arch/x86/kernel/cpu/mce/dev-mcelog.c 242 */ ./builds/linux/20437.cocci ./builds/linux/20437.c:20
+
+Elf64_Rela * cocci_id@p ;
+I: /* arch/x86/kernel/machine_kexec_64.c 452 */ ./builds/linux/20478.cocci ./builds/linux/20478.c:15
+
+Elf64_Sym * cocci_id@p ;
+I: /* arch/x86/kernel/machine_kexec_64.c 453 */ ./builds/linux/20478.cocci ./builds/linux/20478.c:14
+
+be128 * cocci_id@p ;
+I: /* arch/x86/crypto/glue_helper.c 180 */ ./builds/linux/20517.cocci ./builds/linux/20517.c:22
+
+Elf32_Shdr * cocci_id@p ;
+I: /* arch/sh/kernel/module.c 24 */ ./builds/linux/21065.cocci ./builds/linux/21065.c:12
+
+Elf32_Sym * cocci_id@p ;
+I: /* arch/sh/kernel/module.c 32 */ ./builds/linux/21065.cocci ./builds/linux/21065.c:6
+
+Elf32_Rela * cocci_id@p ;
+I: /* arch/sh/kernel/module.c 31 */ ./builds/linux/21065.cocci ./builds/linux/21065.c:7
+
+Elf64_Rela * cocci_id@p ;
+I: /* arch/arm64/kernel/module.c 268 */ ./builds/linux/21435.cocci ./builds/linux/21435.c:11
+
+Elf64_Sym * cocci_id@p ;
+I: /* arch/arm64/kernel/module.c 265 */ ./builds/linux/21435.cocci ./builds/linux/21435.c:14
+
+Elf64_Shdr * cocci_id@p ;
+I: /* arch/arm64/kernel/module.c 256 */ ./builds/linux/21435.cocci ./builds/linux/21435.c:20
+
+Elf32_Sym * cocci_id@p ;
+I: /* arch/nios2/kernel/module.c 62 */ ./builds/linux/21548.cocci ./builds/linux/21548.c:3
+
+Elf32_Shdr * cocci_id@p ;
+I: /* arch/nios2/kernel/module.c 44 */ ./builds/linux/21548.cocci ./builds/linux/21548.c:11
+
+Elf32_Rela * cocci_id@p ;
+I: /* arch/nios2/kernel/module.c 49 */ ./builds/linux/21548.cocci ./builds/linux/21548.c:6
+
+Elf_Addr * cocci_id@p ;
+I: /* arch/s390/kernel/module.c 286 */ ./builds/linux/21693.cocci ./builds/linux/21693.c:13
+
+const char * const * cocci_id@p ;
+I: /* sound/pci/ice1712/se.c 409 */ ./builds/linux/22449.cocci ./builds/linux/22449.c:8
+
+enum korg1212_dbcnst { K1212_DB_RequestForData = 0 , K1212_DB_TriggerPlay = 1 , K1212_DB_SelectPlayMode = 2 , K1212_DB_ConfigureBufferMemory = 3 , K1212_DB_RequestAdatTimecode = 4 , K1212_DB_SetClockSourceRate = 5 , K1212_DB_ConfigureMiscMemory = 6 , K1212_DB_TriggerFromAdat = 7 , K1212_DB_DMAERROR = 0x80 , K1212_DB_CARDSTOPPED = 0x81 , K1212_DB_RebootCard = 0xA0 , K1212_DB_BootFromDSPPage4 = 0xA4 , K1212_DB_DSPDownloadDone = 0xAE , K1212_DB_StartDSPDownload = 0xAF , } cocci_id@p ;
+I: /* sound/pci/korg1212/korg1212.c 72 */ ./builds/linux/22543.cocci ./builds/linux/22543.c:6
+
+enum snd_korg1212rc { K1212_CMDRET_Success = 0 , K1212_CMDRET_DIOCFailure , K1212_CMDRET_PMFailure , K1212_CMDRET_FailUnspecified , K1212_CMDRET_FailBadState , K1212_CMDRET_CardUninitialized , K1212_CMDRET_BadIndex , K1212_CMDRET_BadHandle , K1212_CMDRET_NoFillRoutine , K1212_CMDRET_FillRoutineInUse , K1212_CMDRET_NoAckFromCard , K1212_CMDRET_BadParams , K1212_CMDRET_BadDevice , K1212_CMDRET_BadFormat , } cocci_id@p ;
+I: /* sound/pci/korg1212/korg1212.c 97 */ ./builds/linux/22543.cocci ./builds/linux/22543.c:2
+
+enum ClockSourceType { K1212_CLKIDX_Adat = 0 , K1212_CLKIDX_Word , K1212_CLKIDX_Local , } cocci_id@p ;
+I: /* sound/pci/korg1212/korg1212.c 258 */ ./builds/linux/22543.cocci ./builds/linux/22543.c:127
+
+enum MonitorModeSelector { K1212_MONMODE_Off = 0 , K1212_MONMODE_On , } cocci_id@p ;
+I: /* sound/pci/korg1212/korg1212.c 132 */ ./builds/linux/22543.cocci ./builds/linux/22543.c:164
+
+enum ClockSourceIndex { K1212_CLKIDX_AdatAt44_1K = 0 , K1212_CLKIDX_AdatAt48K , K1212_CLKIDX_WordAt44_1K , K1212_CLKIDX_WordAt48K , K1212_CLKIDX_LocalAt44_1K , K1212_CLKIDX_LocalAt48K , K1212_CLKIDX_Invalid , } cocci_id@p ;
+I: /* sound/pci/korg1212/korg1212.c 248 */ ./builds/linux/22543.cocci ./builds/linux/22543.c:128
+
+poll_table * cocci_id@p ;
+I: /* sound/usb/mixer_quirks.c 231 */ ./builds/linux/22610.cocci ./builds/linux/22610.c:51
+
+poll_table * cocci_id@p ;
+I: /* sound/core/seq/seq_memory.c 361 */ ./builds/linux/22953.cocci ./builds/linux/22953.c:13
+
+enum { DMIC_CTL_GAIN = 0 , } cocci_id@p ;
+I: /* sound/soc/codecs/cros_ec_codec.c 207 */ ./builds/linux/23263.cocci ./builds/linux/23263.c:81
+
+enum ab8500_filter { AB8500_FILTER_ANC_FIR = 0 , AB8500_FILTER_ANC_IIR = 1 , AB8500_FILTER_SID_FIR = 2 , } cocci_id@p ;
+I: /* sound/soc/codecs/ab8500-codec.c 1916 */ ./builds/linux/23351.cocci ./builds/linux/23351.c:41
+
+enum anc_state { ANC_UNCONFIGURED = 0 , ANC_APPLY_FIR_IIR = 1 , ANC_FIR_IIR_CONFIGURED = 2 , ANC_APPLY_FIR = 3 , ANC_FIR_CONFIGURED = 4 , ANC_APPLY_IIR = 5 , ANC_IIR_CONFIGURED = 6 , } cocci_id@p ;
+I: /* sound/soc/codecs/ab8500-codec.c 99 */ ./builds/linux/23351.cocci ./builds/linux/23351.c:2
+
+enum sid_state { SID_UNCONFIGURED = 0 , SID_APPLY_FIR = 1 , SID_FIR_CONFIGURED = 2 , } cocci_id@p ;
+I: /* sound/soc/codecs/ab8500-codec.c 84 */ ./builds/linux/23351.cocci ./builds/linux/23351.c:3
+
+enum { IIR1 = 0 , IIR2 , IIR_MAX , } cocci_id@p ;
+I: /* sound/soc/codecs/msm8916-wcd-digital.c 191 */ ./builds/linux/23384.cocci ./builds/linux/23384.c:41
+
+enum skl_ipc_notification_type { IPC_GLB_NOTIFY_GLITCH = 0 , IPC_GLB_NOTIFY_OVERRUN = 1 , IPC_GLB_NOTIFY_UNDERRUN = 2 , IPC_GLB_NOTIFY_END_STREAM = 3 , IPC_GLB_NOTIFY_PHRASE_DETECTED = 4 , IPC_GLB_NOTIFY_RESOURCE_EVENT = 5 , IPC_GLB_NOTIFY_LOG_BUFFER_STATUS = 6 , IPC_GLB_NOTIFY_TIMESTAMP_CAPTURED = 7 , IPC_GLB_NOTIFY_FW_READY = 8 , } cocci_id@p ;
+I: /* sound/soc/intel/skylake/skl-sst-ipc.c 255 */ ./builds/linux/23559.cocci ./builds/linux/23559.c:42
+
+enum skl_ipc_glb_type { IPC_GLB_GET_FW_VERSION = 0 , IPC_GLB_LOAD_MULTIPLE_MODS = 15 , IPC_GLB_UNLOAD_MULTIPLE_MODS = 16 , IPC_GLB_CREATE_PPL = 17 , IPC_GLB_DELETE_PPL = 18 , IPC_GLB_SET_PPL_STATE = 19 , IPC_GLB_GET_PPL_STATE = 20 , IPC_GLB_GET_PPL_CONTEXT_SIZE = 21 , IPC_GLB_SAVE_PPL = 22 , IPC_GLB_RESTORE_PPL = 23 , IPC_GLB_LOAD_LIBRARY = 24 , IPC_GLB_NOTIFY = 26 , IPC_GLB_MAX_IPC_MSG_NUMBER = 31 , } cocci_id@p ;
+I: /* sound/soc/intel/skylake/skl-sst-ipc.c 200 */ ./builds/linux/23559.cocci ./builds/linux/23559.c:44
+
+enum skl_ipc_msg_direction { IPC_MSG_REQUEST = 0 , IPC_MSG_REPLY = 1 , } cocci_id@p ;
+I: /* sound/soc/intel/skylake/skl-sst-ipc.c 194 */ ./builds/linux/23559.cocci ./builds/linux/23559.c:45
+
+enum skl_ipc_module_msg { IPC_MOD_INIT_INSTANCE = 0 , IPC_MOD_CONFIG_GET = 1 , IPC_MOD_CONFIG_SET = 2 , IPC_MOD_LARGE_CONFIG_GET = 3 , IPC_MOD_LARGE_CONFIG_SET = 4 , IPC_MOD_BIND = 5 , IPC_MOD_UNBIND = 6 , IPC_MOD_SET_DX = 7 , IPC_MOD_SET_D0IX = 8 , } cocci_id@p ;
+I: /* sound/soc/intel/skylake/skl-sst-ipc.c 268 */ ./builds/linux/23559.cocci ./builds/linux/23559.c:41
+
+enum skl_ipc_msg_target { IPC_FW_GEN_MSG = 0 , IPC_MOD_MSG = 1 , } cocci_id@p ;
+I: /* sound/soc/intel/skylake/skl-sst-ipc.c 189 */ ./builds/linux/23559.cocci ./builds/linux/23559.c:46
+
+poll_table * cocci_id@p ;
+I: /* net/tipc/socket.c 752 */ ./builds/linux/24923.cocci ./builds/linux/24923.c:38
+
+enum batadv_dhcpoptioncode { BATADV_DHCP_OPT_PAD = 0 , BATADV_DHCP_OPT_MSG_TYPE = 53 , BATADV_DHCP_OPT_END = 255 , } cocci_id@p ;
+I: /* net/batman-adv/distributed-arp-table.c 62 */ ./builds/linux/24994.cocci ./builds/linux/24994.c:35
+
+PANEL * cocci_id@p ;
+I: /* tools/thermal/tmon/tui.c 62 */ ./builds/linux/25194.cocci ./builds/linux/25194.c:4
+
+TYPE * cocci_id@p ;
+I: /* samples/bpf/test_lru_dist.c 26 */ ./builds/linux/26634.cocci ./builds/linux/26634.c:36
+
+type * cocci_id@p ;
+I: /* samples/bpf/test_lru_dist.c 30 */ ./builds/linux/26634.cocci ./builds/linux/26634.c:31
+
+nfs4_stateid * cocci_id@p ;
+I: /* fs/nfs/callback_xdr.c 135 */ ./builds/linux/26929.cocci ./builds/linux/26929.c:59
+
+svc_fh * cocci_id@p ;
+I: /* fs/nfsd/nfsproc.c 244 */ ./builds/linux/27256.cocci ./builds/linux/27256.c:49
+
+o2hb_cb_func * cocci_id@p ;
+I: /* fs/ocfs2/cluster/heartbeat.c 2252 */ ./builds/linux/27831.cocci ./builds/linux/27831.c:47
+
